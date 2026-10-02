@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-dark: #070a13;
+  --bg-soft: #0f172a;
+  --surface: #ffffff;
+  --surface-raised: #f8fafc;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --accent-primary: #4f46e5;
+  --accent-secondary: #8b5cf6;
+  --accent-warm: #f59e0b;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+}
+
+@layer base {
+  body {
+    background-color: #f1f5f9;
+    color: var(--text-primary);
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom scrollbars & utilities */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Cosmic background with subtle stars */
+.bg-cosmic-stars {
+  background-color: #070a13;
+  background-image: 
+    radial-gradient(1px 1px at 20px 30px, #ffffff, rgba(0,0,0,0)),
+    radial-gradient(1.5px 1.5px at 100px 80px, #ffffff, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 190px 40px, #cbd5e1, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 250px 140px, #a5b4fc, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 70px 190px, #ffffff, rgba(0,0,0,0)),
+    radial-gradient(1.5px 1.5px at 290px 220px, #ffffff, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 150px 270px, #cbd5e1, rgba(0,0,0,0));
+  background-repeat: repeat;
+  background-size: 320px 320px;
+}
+
+/* Card hover animation */
+.card-hover-effect {
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.card-hover-effect:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -4px rgba(0, 0, 0, 0.08), 0 4px 10px -2px rgba(0, 0, 0, 0.03);
+}
+.card-hover-effect:active {
+  transform: translateY(0);
+}
+
+/* Button tactile press */
+.btn-press {
+  transition: transform 0.1s ease, filter 0.1s ease;
+}
+.btn-press:active {
+  transform: scale(0.98);
+  filter: brightness(0.95);
+}
+
+/* Floating animation for constellation accents */
+@keyframes subtle-float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.animate-subtle-float {
+  animation: subtle-float 6s ease-in-out infinite;
+}

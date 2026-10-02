@@ -1,0 +1,21 @@
+{
+  "name": "Your Birthday Universe",
+  "short_name": "Birthdayverse",
+  "description": "Khám phá danh nhân, sự kiện lịch sử và những câu chuyện thú vị cùng ngày sinh của bạn",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070a13",
+  "theme_color": "#070a13",
+  "icons": [
+    {
+      "src": "/people/george-washington.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/share/share-card-collage.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
