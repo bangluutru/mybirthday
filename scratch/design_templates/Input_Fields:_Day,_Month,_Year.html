@@ -1,0 +1,35 @@
+<!--  Input Fields: Day, Month, Year -->
+<div class="grid grid-cols-3 gap-3">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant mb-1">Ngày</span>
+<div class="relative flex items-center bg-surface-container-low rounded-xl px-3 py-2.5">
+<select class="w-full bg-transparent font-title-md text-title-md text-on-surface font-semibold outline-none cursor-pointer" id="birthDay">
+<option selected="" value="22">22</option>
+<option value="01">01</option>
+<option value="15">15</option>
+<option value="30">30</option>
+<option value="10">10</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none text-on-surface-variant text-[18px]">expand_more</span>
+</div>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant mb-1">Tháng</span>
+<div class="relative flex items-center bg-surface-container-low rounded-xl px-3 py-2.5">
+<select class="w-full bg-transparent font-title-md text-title-md text-on-surface font-semibold outline-none cursor-pointer" id="birthMonth">
+<option selected="" value="02">Tháng 2</option>
+<option value="01">Tháng 1</option>
+<option value="04">Tháng 4</option>
+<option value="08">Tháng 8</option>
+<option value="10">Tháng 10</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none text-on-surface-variant text-[18px]">expand_more</span>
+</div>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant mb-1">Năm sinh (tùy chọn)</span>
+<div class="flex items-center bg-surface-container-low rounded-xl px-3 py-2.5">
+<input class="w-full bg-transparent font-title-md text-title-md text-on-surface font-semibold outline-none placeholder:text-outline-variant" id="birthYear" placeholder="1995" type="text" value="1995"/>
+</div>
+</div>
+</div>

@@ -1,0 +1,36 @@
+<!--  Section 2: Person Name, Date & Custom Message -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-md flex flex-col gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="flex items-center justify-center w-8 h-8 rounded-lg bg-primary-fixed text-on-primary-fixed font-label-md text-label-md font-bold">2</span>
+<div>
+<h3 class="font-title-md text-title-md text-on-surface">Thông tin nhân vật &amp; Thông điệp</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tùy biến tên hiển thị, ngày kỷ niệm và câu tuyên ngôn truyền cảm hứng</p>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-12 gap-space-md">
+<div class="sm:col-span-7 flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface font-medium" for="inputUserName">Họ &amp; Tên của bạn / Người nhận</label>
+<div class="relative">
+<input class="w-full px-4 py-3 rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/50 focus:bg-surface-container-lowest focus:outline-none focus:shadow-[0_0_0_2px_#3525cd] transition-all font-body-md text-body-md" id="inputUserName" placeholder="Nhập tên của bạn..." type="text" value="Nguyễn Hoàng Minh"/>
+<span class="material-symbols-outlined absolute right-3 top-3 text-on-surface-variant text-[20px]">edit</span>
+</div>
+</div>
+<div class="sm:col-span-5 flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface font-medium" for="inputBirthDate">Ngày &amp; Tháng sinh</label>
+<div class="relative">
+<input class="w-full px-4 py-3 rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none focus:shadow-[0_0_0_2px_#3525cd] transition-all" id="inputBirthDate" placeholder="VD: 22 tháng 2" type="text" value="22 tháng 2"/>
+<span class="material-symbols-outlined absolute right-3 top-3 text-on-surface-variant text-[20px]">event</span>
+</div>
+</div>
+<div class="sm:col-span-12 flex flex-col gap-1.5">
+<div class="flex items-center justify-between">
+<label class="font-label-md text-label-md text-on-surface font-medium" for="inputTagline">Lời đề tựa (Quote / Tagline)</label>
+<button class="text-primary hover:underline font-label-sm text-label-sm flex items-center gap-1" id="btnRandomQuote" type="button">
+<span class="material-symbols-outlined text-[14px]">shuffle</span>
+                    Đổi câu khác
+                  </button>
+</div>
+<textarea class="w-full px-4 py-2.5 rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/50 focus:bg-surface-container-lowest focus:outline-none focus:shadow-[0_0_0_2px_#3525cd] transition-all font-body-md text-body-md" id="inputTagline" rows="2">What an interesting day to be born! Tôi tự hào chia sẻ ngày sinh với những vĩ nhân kiến tạo lịch sử.</textarea>
+</div>
+</div>
+</div>

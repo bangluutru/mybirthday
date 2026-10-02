@@ -1,31 +1,26 @@
 'use client';
 
 import React from 'react';
-import { useParams, useRouter } from 'next/navigation';
+import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { getExactSameDatePeople, getBirthdayData } from '@/data/birthdays';
 import { AppShell } from '@/components/layout/AppShell';
-import { TopBar } from '@/components/navigation/TopBar';
-import { Info, ArrowRight, Sparkles } from 'lucide-react';
-import { vi } from '@/messages/vi';
 
 export default function ExactSameDatePage() {
   const params = useParams();
-  const router = useRouter();
 
   // date param can be "22-02-1981" or "22-2-1981"
-  const dateStr = (params.date as string) || '22-02-1981';
+  const dateStr = (params.date as string) || '22-2-1974';
   const parts = dateStr.split('-');
-  const day = parseInt(parts[0]) || 22;
-  const month = parseInt(parts[1]) || 2;
-  const year = parseInt(parts[2]) || 1981;
+  const day = parseInt(parts[0], 10) || 22;
+  const month = parseInt(parts[1], 10) || 2;
+  const year = parseInt(parts[2], 10) || 1974;
 
   const formattedDate = `${day < 10 ? `0${day}` : day}/${month < 10 ? `0${month}` : month}/${year}`;
 
   const { exact, sameYearOther } = getExactSameDatePeople(month, day, year);
   const birthdayData = getBirthdayData(month, day);
 
-  // If exact is empty, show contemporaries matching Reference 07 (James Blunt, Mandy Moore, etc.)
   const displayPeers =
     exact.length > 0
       ? exact
@@ -36,79 +31,106 @@ export default function ExactSameDatePage() {
         ].filter(Boolean) as typeof birthdayData.all);
 
   return (
-    <AppShell showBottomNav={true}>
-      <div className="min-h-screen bg-slate-50 flex flex-col pb-24 text-slate-900">
-        <TopBar
-          title={vi.exact.title}
-          showBack={true}
-        />
+    <AppShell>
+      <div className="flex flex-col w-full pt-20 min-h-screen">
+        <div className="w-full bg-surface-container-low/70 py-space-sm border-b border-surface-container">
+          <div className="max-w-[1360px] mx-auto px-4 sm:px-8 lg:px-margin-desktop flex items-center gap-2 text-on-surface-variant font-label-md text-label-md">
+            <Link href="/" className="hover:text-primary transition-colors">
+              Trang chủ
+            </Link>
+            <span className="text-outline-variant">/</span>
+            <Link href={`/birthday/${month}/${day}`} className="hover:text-primary transition-colors">
+              {day} Tháng {month}
+            </Link>
+            <span className="text-outline-variant">/</span>
+            <span className="text-on-surface font-semibold">Cùng ngày, cùng năm sinh</span>
+          </div>
+        </div>
 
-        <div className="px-5 pt-3 pb-6 space-y-4 flex-1">
-          {/* Subtitle matching Screen 07 */}
-          <p className="text-xs sm:text-sm text-slate-500 font-normal">
-            {vi.exact.subtitle(formattedDate)}
-          </p>
+        <div className="max-w-[1360px] mx-auto px-4 sm:px-8 lg:px-margin-desktop py-space-xl flex-1 flex flex-col w-full">
+          <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8 pb-4 border-b border-surface-container-high/60">
+            <div>
+              <div className="flex items-center gap-2 text-secondary font-label-md text-label-md font-bold mb-1">
+                <span className="material-symbols-outlined text-[20px]">stars</span>
+                <span>Khám phá sinh nhật tuyệt đối</span>
+              </div>
+              <h1 className="font-display-hero text-2xl sm:text-4xl font-extrabold text-on-surface tracking-tight">
+                Sinh Đúng Ngày {formattedDate}
+              </h1>
+              <p className="font-body-md text-body-md text-on-surface-variant mt-1 font-light">
+                Những nhân vật chia sẻ cùng một ngày tháng năm sinh chính xác với bạn trên khắp thế giới.
+              </p>
+            </div>
+            <Link
+              href={`/share/${day}-${month}`}
+              className="px-5 py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md font-bold hover:bg-primary-container transition-all shadow-md flex items-center gap-2 self-start md:self-auto"
+            >
+              <span className="material-symbols-outlined text-[18px]">brush</span>
+              <span>Tạo Thẻ Kỷ Niệm</span>
+            </Link>
+          </div>
 
-          {/* Cards of matching figures matching Screen 07 */}
-          <div className="space-y-3 pt-1">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {displayPeers.map((person) => {
               const yearRange = person.deathDate
                 ? `${person.birthYear} – ${new Date(person.deathDate).getFullYear() || person.deathDate.slice(0, 4)}`
-                : `${person.birthYear} –`;
+                : `${person.birthYear} – nay`;
 
               return (
-                <Link
+                <div
                   key={person.id}
-                  href={`/person/${person.slug}`}
-                  className="p-3.5 bg-white rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-all flex items-center space-x-3.5 group"
+                  className="bg-surface-container-lowest rounded-3xl p-5 border border-surface-container-high/80 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between"
                 >
-                  <div className="w-16 h-16 rounded-2xl overflow-hidden bg-slate-100 flex-shrink-0 shadow-inner">
-                    <img
-                      src={person.image}
-                      alt={person.name}
-                      className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform"
-                      onError={(e) => {
-                        (e.target as HTMLImageElement).src = '/people/george-washington.png';
-                      }}
-                    />
-                  </div>
-
-                  <div className="flex-1 min-w-0">
-                    <h3 className="font-bold text-sm text-slate-900 group-hover:text-brand-600 transition-colors line-clamp-1">
+                  <div>
+                    <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden mb-3 bg-surface-container">
+                      <img
+                        src={person.image}
+                        alt={person.name}
+                        className="w-full h-full object-cover"
+                      />
+                      <div className="absolute bottom-2 left-2 px-2.5 py-0.5 rounded-full bg-inverse-surface/80 text-inverse-on-surface font-label-sm text-xs font-bold">
+                        {formattedDate}
+                      </div>
+                    </div>
+                    <span className="font-label-sm text-xs px-2 py-0.5 rounded bg-surface-container text-primary font-bold">
+                      {person.countryName}
+                    </span>
+                    <h3 className="font-title-md text-title-md text-on-surface font-bold mt-1">
                       {person.name}
                     </h3>
-                    <p className="text-xs text-slate-400 font-medium mt-0.5">
-                      {yearRange}
+                    <p className="text-xs text-secondary font-semibold mt-0.5">
+                      {person.categoryLabel}
                     </p>
-                    <p className="text-xs text-slate-700 font-medium">
-                      {person.categoryLabel} · {person.countryName}
-                    </p>
-                    <p className="text-xs text-slate-500 line-clamp-1 mt-0.5">
-                      {person.shortDescription}
+                    <p className="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">
+                      {person.shortDescription || person.biography}
                     </p>
                   </div>
-                </Link>
+                  <div className="mt-4 pt-3 border-t border-surface-container-high flex items-center justify-between text-xs">
+                    <Link
+                      href={`/birthday/${month}/${day}/people?person=${person.slug}`}
+                      className="text-primary font-bold hover:underline flex items-center gap-1"
+                    >
+                      <span>Xem hồ sơ chi tiết</span>
+                      <span className="material-symbols-outlined text-[14px]">arrow_forward</span>
+                    </Link>
+                    <span className="text-on-surface-variant font-medium">{yearRange}</span>
+                  </div>
+                </div>
               );
             })}
           </div>
 
-          {/* Friendly Rare Notice Box matching Screen 07 */}
-          <div className="p-4 rounded-2xl bg-slate-100/90 border border-slate-200/80 flex items-start space-x-3 mt-4">
-            <Info className="w-5 h-5 text-brand-600 flex-shrink-0 mt-0.5" />
-            <p className="text-xs text-slate-600 leading-relaxed">
-              {vi.exact.rareNotice(`${day} ${birthdayData.monthNameVi}`)}
-            </p>
-          </div>
-
-          {/* Link back to full club overview */}
-          <div className="pt-2">
-            <Link
-              href={`/birthday/${month}/${day}`}
-              className="w-full py-3.5 px-4 rounded-2xl bg-white hover:bg-slate-50 border border-slate-200 text-brand-600 font-bold text-xs flex items-center justify-center space-x-1.5 shadow-sm transition-all"
-            >
-              <span>{vi.exact.viewClubCta(`${day}/${month}`)}</span>
-              <ArrowRight className="w-4 h-4" />
-            </Link>
+          {/* Friendly Rare Notice Box */}
+          <div className="mt-10 p-6 rounded-3xl bg-surface-container-low border border-surface-container-high flex items-start gap-4">
+            <span className="material-symbols-outlined text-primary text-[28px] mt-0.5">info</span>
+            <div className="flex flex-col gap-1 text-sm text-on-surface-variant">
+              <span className="font-title-md text-on-surface font-bold">
+                Trùng hợp sinh nhật là một hiện tượng hiếm hoi và thú vị
+              </span>
+              <p className="leading-relaxed">
+                Tỷ lệ hai người ngẫu nhiên cùng chia sẻ chính xác ngày, tháng và năm sinh là khoảng 1 trên 36.500. Dù có danh nhân trùng khớp hay không, ngày bạn chào đời luôn gắn liền với hàng loạt mốc son lịch sử hào hùng cùng ngày trên toàn cầu.
+              </p>
+            </div>
           </div>
         </div>
       </div>

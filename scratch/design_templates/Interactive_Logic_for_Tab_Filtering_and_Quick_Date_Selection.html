@@ -1,0 +1,49 @@
+<!--  Interactive Logic for Tab Filtering and Quick Date Selection -->
+<script>
+    (function() {
+      // Quick date selection buttons
+      const quickBtns = document.querySelectorAll('.quick-date');
+      const daySelect = document.getElementById('birthDay');
+      const monthSelect = document.getElementById('birthMonth');
+      const clubHeading = document.getElementById('clubHeading');
+
+      quickBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const d = btn.getAttribute('data-day');
+          const m = btn.getAttribute('data-month');
+          if (daySelect) daySelect.value = d;
+          if (monthSelect) monthSelect.value = m;
+          if (clubHeading) {
+            clubHeading.textContent = `Câu lạc bộ ${parseInt(d, 10)} tháng ${parseInt(m, 10)}`;
+          }
+        });
+      });
+
+      // Filter tabs (All, Vietnam, World)
+      const tabBtns = document.querySelectorAll('.tab-btn');
+      const cards = document.querySelectorAll('.luminary-card');
+
+      tabBtns.forEach(tab => {
+        tab.addEventListener('click', () => {
+          tabBtns.forEach(b => {
+            b.classList.remove('bg-surface-container-lowest', 'text-primary', 'shadow-sm');
+            b.classList.add('text-on-surface-variant');
+          });
+          tab.classList.add('bg-surface-container-lowest', 'text-primary', 'shadow-sm');
+          tab.classList.remove('text-on-surface-variant');
+
+          const filter = tab.getAttribute('data-filter');
+          cards.forEach(card => {
+            const region = card.getAttribute('data-region');
+            if (filter === 'all' || region === filter) {
+              card.style.display = 'flex';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest shadow-[0_-1px_12px_rgba(19,27,46,0.03)] pt-space-xl pb-space-lg"><div class="max-w-[1360px] mx-auto px-margin-desktop"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-xl pb-space-xl"><div class="lg:col-span-2 flex flex-col gap-space-md pr-space-md"><div class="flex items-center gap-space-sm"><img alt="BirthdayVerse Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XPeUVKcypZc8R1rCGA2tpGpatW-frheXwAqACQQJ1sy152CP8cFNayMyTqaiG8QkfzYdyG1PA0oknutDWFm3UqepDHuBc8j2FEAm_hkqMHG_dz0i7uADI8c9W_fzhgWoEWV3bw1Er-k5jlMxYFzkl81hQsVTgVaZ1X34pvOZT9Gy0tKEIsP7bOe1ga99PHHRx9OdXzUc0tAWtCzAqQA9zrN99322_LkLv0eaZC8ZEclga4esbfKYoT4jZB"/><span class="font-title-md text-title-md text-primary">BirthdayVerse</span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm">Vũ trụ kết nối thời gian và nhân loại. Khám phá những danh nhân, nghệ sĩ lỗi lạc, nhà khoa học kiệt xuất và các sự kiện vĩ đại chia sẻ cùng thời khắc sinh nhật với bạn.</p><div class="flex items-center gap-space-sm pt-space-xs"><a aria-label="Chia sẻ vũ trụ" class="w-9 h-9 rounded-full bg-surface-container-low text-on-surface-variant hover:bg-primary-container hover:text-on-primary-container flex items-center justify-center transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">public</span></a><a aria-label="Cộng đồng học thuật" class="w-9 h-9 rounded-full bg-surface-container-low text-on-surface-variant hover:bg-primary-container hover:text-on-primary-container flex items-center justify-center transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">group</span></a><a aria-label="Kho lưu trữ thiên văn" class="w-9 h-9 rounded-full bg-surface-container-low text-on-surface-variant hover:bg-primary-container hover:text-on-primary-container flex items-center justify-center transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">star</span></a></div></div><div class="flex flex-col gap-space-sm"><h3 class="font-label-md text-label-md text-on-surface uppercase tracking-wider">Khám Phá Theo Tháng</h3><ul class="flex flex-col gap-1.5 font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" href="#">Tháng 1 - Tháng 3 (Mùa Xuân)</a></li><li><a class="hover:text-primary transition-colors" href="#">Tháng 4 - Tháng 6 (Mùa Hạ)</a></li><li><a class="hover:text-primary transition-colors" href="#">Tháng 7 - Tháng 9 (Mùa Thu)</a></li><li><a class="hover:text-primary transition-colors" href="#">Tháng 10 - Tháng 12 (Mùa Đông)</a></li><li><a class="hover:text-primary transition-colors" href="#">Lịch thiên văn ngày sinh</a></li></ul></div><div class="flex flex-col gap-space-sm"><h3 class="font-label-md text-label-md text-on-surface uppercase tracking-wider">Lĩnh Vực Phổ Biến</h3><ul class="flex flex-col gap-1.5 font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" href="#">Khoa học &amp; Thiên văn</a></li><li><a class="hover:text-primary transition-colors" href="#">Nghệ thuật &amp; Âm nhạc</a></li><li><a class="hover:text-primary transition-colors" href="#">Triết học &amp; Lịch sử</a></li><li><a class="hover:text-primary transition-colors" href="#">Lãnh tụ &amp; Chính trị gia</a></li><li><a class="hover:text-primary transition-colors" href="#">Văn học &amp; Thi ca</a></li></ul></div><div class="flex flex-col gap-space-sm"><h3 class="font-label-md text-label-md text-on-surface uppercase tracking-wider">Dịch Vụ &amp; Trải Nghiệm</h3><ul class="flex flex-col gap-1.5 font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" href="#">Tạo thiệp sinh nhật Astral</a></li><li><a class="hover:text-primary transition-colors" href="#">Bản đồ sao cá nhân</a></li><li><a class="hover:text-primary transition-colors" href="#">Widget nhúng ngày sinh</a></li><li><a class="hover:text-primary transition-colors" href="#">Bộ dữ liệu niên biểu</a></li><li><a class="hover:text-primary transition-colors" href="#">Chính sách bảo mật</a></li></ul></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-sm font-body-sm text-body-sm text-on-surface-variant"><p>© 2025 BirthdayVerse. Sinh Nhật Cùng Ai. Nền tảng khám phá niên biểu &amp; nhân vật lịch sử.</p><p class="font-label-sm text-label-sm text-on-surface-variant">Designed with Astral Editorial Minimal</p></div></div></footer></body></html>
+
