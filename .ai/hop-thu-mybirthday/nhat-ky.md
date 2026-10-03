@@ -8,3 +8,5 @@
 | 2026-10-03 | Claude | B002 | Review: SUA (1 chỗ: `as any` x2 trong test-integrity.ts). Đối chiếu độc lập 366 ngày + slug + sự kiện: giống hệt |
 | 2026-10-03 | Claude | B003 | Chủ dự án chọn Wikidata CC0 + rà soát từng ngày 1/1→31/12. Soạn bản nháp B003 (1/1–15/1) trong viec-cho/, giao sau khi B002 DAT |
 | 2026-10-03 16:53 | Gemini | B002 | Nộp báo cáo xong/B002-monthly-data-infra-v2.md (đã sửa bỏ as any, validateVerifiedAt dùng unknown + type narrowing, grep scripts rỗng, test/tsc/lint/build sạch) |
+| 2026-10-03 | Claude | B002 | Review v2: DAT (commit bcf74c0); snapshot độc lập khớp, cổng sạch, 13 URL 200 |
+| 2026-10-03 | Claude | B003 | Giao việc: Wikidata pilot nhân vật 1/1–15/1 (chu kỳ BV-004), chuyển từ viec-cho |

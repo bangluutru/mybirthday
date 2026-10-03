@@ -1,11 +1,11 @@
-# BV-003
-HẠ TẦNG DỮ LIỆU THEO THÁNG + PROVENANCE + BÁO CÁO ĐỘ PHỦ
+# BV-004
+LÀM GIÀU DỮ LIỆU: NHÂN VẬT SINH 1/1–15/1 (WIKIDATA + NGUỒN CHÍNH THỐNG)
 
 Cycle ID:
-BV-003
+BV-004
 
 State:
-CHANGES_REQUESTED
+OPEN
 
 Priority:
 P1
@@ -17,14 +17,11 @@ Executor:
 Gemini 3.8 (Antigravity), qua hộp thư `.ai/hop-thu-mybirthday/`
 
 Active task:
-B002 — `.ai/hop-thu-mybirthday/viec/B002-monthly-data-infra.md`
+B003 — `.ai/hop-thu-mybirthday/viec/B003-people-jan-01-15.md`
 
 Goal:
-Refactor bảo toàn hành vi: tách dữ liệu thành `src/data/people/MM.ts` và `src/data/events/MM.ts`, thêm `verifiedAt`, thêm `npm run coverage`, thêm test Rule M/N/O. Snapshot trước/sau phải giống hệt.
+Thêm người sinh 1/1–15/1 vào `src/data/people/01.ts`, mỗi ngày ≥ 3 người, qua 3 lớp kiểm; script `wikidata-candidates`, `verify:wikidata`; Rule P/Q/R/S.
 
-DO NOT change any person/event content.
-DO NOT add people or events.
-DO NOT touch src/app or src/components.
-DO NOT start B003: cần chủ dự án chọn nguồn dữ liệu.
+DO NOT add events. DO NOT touch src/app or src/components. DO NOT invent facts.
 
-Previous cycle: BV-002 — ACCEPTED (Implementation Commit 39f7bd6).
+Previous cycle: BV-003 — ACCEPTED (Implementation Commit bcf74c0).
