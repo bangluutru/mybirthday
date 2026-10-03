@@ -5,7 +5,7 @@ Cycle ID:
 BV-001R1
 
 State:
-CHANGES_REQUESTED
+ACCEPTED
 
 Priority:
 P0
