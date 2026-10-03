@@ -4,3 +4,5 @@
 | 2026-10-03 15:36 | Gemini | B001 | Nộp báo cáo xong/B001-purge-hardcoded-facts-v2.md (đã sửa đủ 5 điểm review của Claude, test/lint/tsc/build/smoke/content 5/10 & 12/31 đều sạch) |
 | 2026-10-03 | Claude | B001 | Review r2: DAT, đã commit 39f7bd6. BV-002 ACCEPTED |
 | 2026-10-03 | Claude | B002 | Giao việc: hạ tầng dữ liệu theo tháng + verifiedAt + coverage (chu kỳ BV-003) |
+| 2026-10-03 16:00 | Gemini | B002 | Nộp báo cáo xong/B002-monthly-data-infra.md (R1-R6 hoàn thành, diff snapshot rỗng, HTML trước/sau khớp 100%, coverage 12/366, test Rules 0/A-O pass, tsc/lint/build sạch) |
+| 2026-10-03 | Claude | B002 | Review: SUA (1 chỗ: `as any` x2 trong test-integrity.ts). Đối chiếu độc lập 366 ngày + slug + sự kiện: giống hệt |
