@@ -1,0 +1,31 @@
+src/app/day/[month]/[day]/page.tsx:35:  const is22Feb = month === 2 && day === 22;
+src/app/day/[month]/[day]/page.tsx:37:  const events: HistoryTimelineItem[] = is22Feb
+src/app/day/[month]/[day]/page.tsx:214:                  {sortAscending ? 'Thời gian (1495 → 1980)' : 'Gần đây nhất (1980 → 1495)'}
+src/app/day/[month]/[day]/page.tsx:371:                  — Mark Twain
+src/app/page.tsx:179:              {/* Portraits Collage Overlay (Einstein, Barrymore, Jobs, Ngô Bảo Châu, Washington) */}
+src/app/page.tsx:181:                {/* Person 1: Albert Einstein */}
+src/app/page.tsx:184:                    alt="Chân dung Albert Einstein"
+src/app/page.tsx:189:                    A. Einstein
+src/app/page.tsx:205:                {/* Person 3 (Center Leader): Steve Jobs */}
+src/app/page.tsx:209:                      alt="Chân dung Steve Jobs"
+src/app/page.tsx:218:                    Steve Jobs
+src/app/page.tsx:372:                    14 Tháng 3 (Einstein)
+src/app/page.tsx:386:                    19 Tháng 5 (Bác Hồ)
+src/app/page.tsx:440:                  <span className="font-headline-lg text-headline-lg font-extrabold text-white">183</span>
+src/app/page.tsx:651:                  <span>Xem toàn bộ 183 nhân vật sinh ngày 22 tháng 2</span>
+src/app/page.tsx:679:                      <span className="font-title-md text-title-md font-extrabold leading-none">1495</span>
+src/app/page.tsx:683:                        Vasco da Gama đến Ấn Độ
+src/app/page.tsx:686:                        Đội tàu thám hiểm của nhà hàng hải Vasco da Gama tiến vào vùng biển Nam Á, mở ra tuyến hàng hải trực tiếp từ châu Âu sang phương Đông.
+src/data/birthdays.ts:379:      'Arthur Schopenhauer là nhà triết học người Đức nổi tiếng nhất với tác phẩm "Thế giới như là Ý chí và Biểu hiện" (1818). Tư tưởng của ông đã tạo ảnh hưởng sâu sắc đến Nietzsche, Freud, Einstein, Tolstoy và Wittgenstein.',
+src/data/birthdays.ts:444:      'Khám phá hiện tượng quang điện sơ khai, tiền đề cho giải Nobel của Einstein năm 1921.',
+src/data/birthdays.ts:1017:  const is22Feb = month === 2 && day === 22;
+src/data/birthdays.ts:1019:    total: is22Feb ? 183 : people.length,
+src/data/birthdays.ts:1020:    scientists: is22Feb ? 12 : people.filter((p) => p.category === 'scientist').length,
+src/data/birthdays.ts:1021:    artists: is22Feb ? 34 : people.filter((p) => p.category === 'artist' || p.category === 'music').length,
+src/data/birthdays.ts:1022:    athletes: is22Feb ? 26 : people.filter((p) => p.category === 'athlete').length,
+src/data/birthdays.ts:1023:    entrepreneurs: is22Feb ? 8 : people.filter((p) => p.category === 'entrepreneur').length,
+src/data/birthdays.ts:1024:    historical: is22Feb ? 19 : people.filter((p) => p.category === 'history' || p.category === 'politics').length,
+src/data/birthdays.ts:1027:  const events = is22Feb ? HISTORY_EVENTS_22_FEB : [];
+README.md:13:* **Centerpiece Montage:** Trưng bày nhóm danh nhân kiệt xuất (Albert Einstein, Drew Barrymore, Steve Jobs, GS. Ngô Bảo Châu, George Washington).
+README.md:25:* **Trục thời gian tương tác (Interactive Vertical Timeline):** Dẫn hướng timeline dọc qua nhiều thế kỷ với các mốc son tiêu biểu (1495 Vasco da Gama, 1732 Washington, 1819 Adams-Onís, 1848 Tuyên ngôn Cộng sản, 1946 Liên đoàn Ả Rập, 1980 Miracle on Ice).
+README.md:26:* **Widget Bản Đồ Sao Thiên Văn (Constellation Charting):** Đồ họa vector SVG chòm sao Song Ngư với các nút sao phát sáng (Alrescha - Alpha Psc), trích dẫn lịch sử của Mark Twain và phân tích trực giác chiêm tinh.
