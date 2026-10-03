@@ -5,7 +5,7 @@ Cycle ID:
 BV-004
 
 State:
-CHANGES_REQUESTED
+SUSPENDED_BY_OWNER
 
 Priority:
 P1
@@ -25,3 +25,6 @@ Thêm người sinh 1/1–15/1 vào `src/data/people/01.ts`, mỗi ngày ≥ 3 n
 DO NOT add events. DO NOT touch src/app or src/components. DO NOT invent facts.
 
 Previous cycle: BV-003 — ACCEPTED (Implementation Commit bcf74c0).
+
+
+2026-10-03: Chủ dự án yêu cầu dừng và xóa phần B003 chưa đạt. Đã tích hợp một phần (commit 8610e02: công cụ Wikidata, Rule P/Q/R, sửa 13 wikidataId). Phần chưa tích hợp (73 người mới 1/1–15/1, Rule S, README) đã bị xóa khỏi thư mục làm việc; B003 phải làm lại từ đầu theo review r2 nếu được mở lại. Hộp thư có file DUNG.

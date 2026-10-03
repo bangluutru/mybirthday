@@ -16,3 +16,4 @@
 | 2026-10-03 | Claude | B003 | Review r2: CHUA_DAT (4 nguồn "đã mở" sai: Grimm 404, Orlando Bloom stub, Võ Thị Ánh Xuân trang lỗi mềm, Thạch Kim Tuấn Olympedia 404; +4 wikipediaUrl 404, Lea Salonga cũ 404). Giữ: 5 người/ngày, 13 QID đúng, verify:wikidata 103/103. Yêu cầu bằng chứng quote + npm run verify:urls |
 | 2026-10-03 | Claude | — | Chủ dự án yêu cầu dừng giao tiếp với Gemini: tạo DUNG, tắt routine review-hop-thu-mybirthday. B003 đang ở CHUA_DAT (r2), chưa commit dữ liệu v2 |
 | 2026-10-03 | Claude | B003 | Tích hợp một phần đã qua kiểm tra độc lập: verify:wikidata + wikidata-candidates, placeholder, Rule P/Q/R, sửa 13 wikidataId của người cũ (30/30 khớp Wikidata). Chưa tích hợp: 73 người mới tháng 1, Rule S, README (chờ B003 đạt) |
+| 2026-10-03 | Claude | B003 | Theo yêu cầu chủ dự án: Gemini dừng (DUNG), xóa phần chưa đạt khỏi working tree (01.ts, Rule S, README, nhap/wd). B003 cần làm lại từ đầu nếu mở lại |
