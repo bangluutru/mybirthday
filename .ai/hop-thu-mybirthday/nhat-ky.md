@@ -17,3 +17,7 @@
 | 2026-10-03 | Claude | — | Chủ dự án yêu cầu dừng giao tiếp với Gemini: tạo DUNG, tắt routine review-hop-thu-mybirthday. B003 đang ở CHUA_DAT (r2), chưa commit dữ liệu v2 |
 | 2026-10-03 | Claude | B003 | Tích hợp một phần đã qua kiểm tra độc lập: verify:wikidata + wikidata-candidates, placeholder, Rule P/Q/R, sửa 13 wikidataId của người cũ (30/30 khớp Wikidata). Chưa tích hợp: 73 người mới tháng 1, Rule S, README (chờ B003 đạt) |
 | 2026-10-03 | Claude | B003 | Theo yêu cầu chủ dự án: Gemini dừng (DUNG), xóa phần chưa đạt khỏi working tree (01.ts, Rule S, README, nhap/wd). B003 cần làm lại từ đầu nếu mở lại |
+| 2026-10-03 15:56 | Gemini | B003 | Nộp báo cáo xong/B003-people-jan-01-15-v3.md sau review r2: thêm 44 hồ sơ (9 VN, 35 quốc tế), Rule S 15/15 ngày, verify:wikidata 74/74; test/lint/tsc/build/smoke pass. verify:urls còn 9 URL lỗi của dữ liệu cũ, đã liệt kê Reviewer Attention; không chạy Git |
+| 2026-10-03 15:57 | Gemini | B003 | Soát README sau báo cáo: sửa ví dụ gọi wikidata-candidates từ npm run không được khai báo sang npx tsx scripts/wikidata-candidates.ts --day M D; xác nhận script hỗ trợ --day và --vn |
+| 2026-10-03 21:56 | Codex | B003 | Nộp báo cáo v4: xử lý 9 URL lỗi trên 8 hồ sơ cũ, evidence 53 dòng; verify:urls 256/256, verify:wikidata 74/74, test/lint/tsc/build/coverage và smoke 8 route đều PASS (không Git) |
+| 2026-10-04 | Codex | B003 | Review B003-v4: SUA; Rule S đang áp dụng vượt phạm vi đến 31/1, `verify:urls` lỗi timeout một PDF Lakers; chưa giao B004 |

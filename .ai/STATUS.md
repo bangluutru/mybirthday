@@ -1,5 +1,20 @@
 # AG STATUS
 
+## Current cycle
+
+Cycle: BV-004
+State: CHANGES_REQUESTED
+
+Executor: Gemini 3.8 (Antigravity) qua hộp thư `.ai/hop-thu-mybirthday/`
+Reviewer: Claude Code
+Active task: B003 — nhân vật sinh 1/1–15/1
+Scope: dữ liệu người sinh; không thêm sự kiện, không sửa UI.
+Reopened by owner: 2026-10-03
+Latest review: B003-v4 — SUA (2026-10-04); Rule S exceeds B003 scope and `verify:urls` has one PDF fetch timeout.
+Next task: B004 is not assigned until B003 is DAT.
+
+## Last completed cycle
+
 Cycle: BV-003
 State: ACCEPTED
 

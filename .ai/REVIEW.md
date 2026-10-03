@@ -5,7 +5,7 @@ Cycle ID:
 BV-004
 
 State:
-SUSPENDED_BY_OWNER
+CHANGES_REQUESTED
 
 Priority:
 P1
@@ -18,6 +18,9 @@ Gemini 3.8 (Antigravity), qua hộp thư `.ai/hop-thu-mybirthday/`
 
 Active task:
 B003 — `.ai/hop-thu-mybirthday/viec/B003-people-jan-01-15.md`
+
+Latest review:
+B003-v4 — SUA; see `.ai/hop-thu-mybirthday/review/B003-people-jan-01-15-r3.md` (2026-10-04).
 
 Goal:
 Thêm người sinh 1/1–15/1 vào `src/data/people/01.ts`, mỗi ngày ≥ 3 người, qua 3 lớp kiểm; script `wikidata-candidates`, `verify:wikidata`; Rule P/Q/R/S.
