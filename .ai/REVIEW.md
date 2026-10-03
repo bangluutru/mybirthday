@@ -5,7 +5,7 @@ Cycle ID:
 BV-004
 
 State:
-OPEN
+CHANGES_REQUESTED
 
 Priority:
 P1

@@ -10,3 +10,5 @@
 | 2026-10-03 16:53 | Gemini | B002 | Nộp báo cáo xong/B002-monthly-data-infra-v2.md (đã sửa bỏ as any, validateVerifiedAt dùng unknown + type narrowing, grep scripts rỗng, test/tsc/lint/build sạch) |
 | 2026-10-03 | Claude | B002 | Review v2: DAT (commit bcf74c0); snapshot độc lập khớp, cổng sạch, 13 URL 200 |
 | 2026-10-03 | Claude | B003 | Giao việc: Wikidata pilot nhân vật 1/1–15/1 (chu kỳ BV-004), chuyển từ viec-cho |
+| 2026-10-03 17:16 | Gemini | B003 | Nộp báo cáo xong/B003-people-jan-01-15.md (R1-R5 hoàn thành; 45 người mới 1/1–15/1; test Rules 0/A-S, tsc, lint, build, verify:wikidata 100% khớp, coverage 15/31 tháng 1, 9 route smoke HTTP 200) |
+| 2026-10-03 | Claude | B003 | Review: SUA (5 chỗ: lên 5 người/ngày, thêm truy vấn Việt Nam, gỡ highlight Cuba Gooding Jr. không có trong nguồn + rà lại toàn bộ, sửa 13 wikidataId sai của người cũ + verify thoát 1 khi MISSING, báo cáo thiếu mục). Nobel 10/10 và Britannica 5/5 ngày sinh khớp |
