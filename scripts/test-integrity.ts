@@ -497,6 +497,194 @@ assert(
 );
 
 // ------------------------------------------------------------
+// Rule P: Wikidata provenance for newly added people
+// ------------------------------------------------------------
+console.log('Checking Rule P: Wikidata provenance for newly added people...');
+
+const OLD_30_PERSON_IDS = new Set([
+  'jd-salinger', 'christine-lagarde', 'george-washington', 'drew-barrymore',
+  'steve-irwin', 'jules-verne', 'trinh-cong-son', 'enzo-ferrari',
+  'elizabeth-taylor', 'james-blunt', 'arthur-schopenhauer', 'robert-baden-powell',
+  'heinrich-hertz', 'renato-dulbecco', 'niki-lauda', 'julius-erving',
+  'kyle-maclachlan', 'han-hyo-joo', 'nam-joo-hyuk', 'rajon-rondo',
+  'lea-salonga', 'michael-chang', 'lleyton-hewitt', 'mandy-moore',
+  'carl-friedrich-gauss', 'gal-gadot', 'ngo-bao-chau', 'napoleon-bonaparte',
+  'jennifer-lawrence', 'edvard-munch',
+]);
+
+function getUrlHostname(urlStr: string): string {
+  try {
+    return new URL(urlStr).hostname.toLowerCase();
+  } catch {
+    return '';
+  }
+}
+
+for (const p of ALL_PEOPLE) {
+  // Light check for all people (including old 30 people)
+  if (p.wikidataId) {
+    assert(
+      'Rule P',
+      /^Q[1-9]\d*$/.test(p.wikidataId),
+      `Person ${p.id} wikidataId "${p.wikidataId}" must match /^Q[1-9]\\d*$/`
+    );
+  }
+  if (p.sourceUrls) {
+    for (const u of p.sourceUrls) {
+      const h = getUrlHostname(u);
+      if (h === 'wikidata.org' || h.endsWith('.wikidata.org')) {
+        const expectedWdUrl = p.wikidataId ? `https://www.wikidata.org/wiki/${p.wikidataId}` : null;
+        assert(
+          'Rule P',
+          Boolean(expectedWdUrl && u === expectedWdUrl),
+          `Person ${p.id} has wikidata URL "${u}" which does not match wikidataId "${p.wikidataId}"`
+        );
+      }
+    }
+  }
+
+  const isOldPerson = OLD_30_PERSON_IDS.has(p.id) && p.verifiedAt === '2026-10-03';
+  if (isOldPerson) continue;
+
+  assert(
+    'Rule P',
+    Boolean(p.wikidataId && /^Q[1-9]\d*$/.test(p.wikidataId)),
+    `Person ${p.id} must have valid wikidataId matching /^Q[1-9]\\d*$/, got: "${p.wikidataId}"`
+  );
+
+  assert(
+    'Rule P',
+    Array.isArray(p.sourceUrls) && p.sourceUrls.length >= 2,
+    `New person ${p.id} must have at least 2 sourceUrls, got: ${p.sourceUrls?.length}`
+  );
+
+  if (p.sourceUrls && p.wikidataId) {
+    const expectedWdUrl = `https://www.wikidata.org/wiki/${p.wikidataId}`;
+    assert(
+      'Rule P',
+      p.sourceUrls.includes(expectedWdUrl),
+      `New person ${p.id} sourceUrls must contain "${expectedWdUrl}"`
+    );
+
+    const hasIndependentSource = p.sourceUrls.some((u) => {
+      const h = getUrlHostname(u);
+      return h && !h.endsWith('wikipedia.org') && !h.endsWith('wikidata.org') && !h.endsWith('wikimedia.org');
+    });
+
+    assert(
+      'Rule P',
+      hasIndependentSource,
+      `New person ${p.id} must have at least 1 independent source outside wikipedia/wikidata/wikimedia`
+    );
+  }
+}
+
+// ------------------------------------------------------------
+// Rule Q: Banned domains in sourceUrls
+// ------------------------------------------------------------
+console.log('Checking Rule Q: Banned domains in sourceUrls...');
+
+const BANNED_SOURCE_DOMAINS = [
+  'famousbirthdays.com',
+  'thefamouspeople.com',
+  'onthisday.com',
+  'bornglorious.com',
+  'dayofbirth.com',
+  'fandom.com',
+  'wikia.com',
+  'celebsagewiki.com',
+  'ranker.com',
+  'playback.fm',
+];
+
+for (const p of ALL_PEOPLE) {
+  if (!p.sourceUrls) continue;
+  for (const url of p.sourceUrls) {
+    const h = getUrlHostname(url);
+    for (const banned of BANNED_SOURCE_DOMAINS) {
+      assert('Rule Q', !h.includes(banned), `Person ${p.id} uses banned source domain "${banned}": ${url}`);
+    }
+  }
+
+  // imdb.com cannot be the sole independent source
+  const nonWikiUrls = p.sourceUrls.filter((u) => {
+    const h = getUrlHostname(u);
+    return h && !h.endsWith('wikipedia.org') && !h.endsWith('wikidata.org') && !h.endsWith('wikimedia.org');
+  });
+  if (nonWikiUrls.length === 1 && getUrlHostname(nonWikiUrls[0]).includes('imdb.com')) {
+    assert('Rule Q', false, `Person ${p.id} cannot use imdb.com as sole independent source`);
+  }
+}
+
+// ------------------------------------------------------------
+// Rule R: Consistency and quality constraints for new people
+// ------------------------------------------------------------
+console.log('Checking Rule R: Quality and consistency constraints for new people...');
+
+function getExpectedFlag(cc: string): string {
+  if (!cc || cc.length !== 2) return '';
+  const codePoints = [...cc.toUpperCase()].map((c) => 127397 + c.charCodeAt(0));
+  return String.fromCodePoint(...codePoints);
+}
+
+const BANNED_BIOGRAPHY_PHRASES = ['vĩ đại nhất', 'số một thế giới', 'không ai sánh'];
+
+for (const p of ALL_PEOPLE) {
+  const isOldPerson = OLD_30_PERSON_IDS.has(p.id) && p.verifiedAt === '2026-10-03';
+  if (isOldPerson) continue;
+
+  assert('Rule R', p.slug === p.id, `New person ${p.id} slug "${p.slug}" must match id "${p.id}"`);
+
+  const expectedFlag = getExpectedFlag(p.countryCode);
+  assert(
+    'Rule R',
+    p.countryFlag === expectedFlag,
+    `New person ${p.id} countryFlag "${p.countryFlag}" does not match countryCode "${p.countryCode}" (expected "${expectedFlag}")`
+  );
+
+  if (p.countryCode === 'VN') {
+    assert('Rule R', p.region === 'vietnam', `Person ${p.id} with VN countryCode must have region 'vietnam', got: '${p.region}'`);
+  } else {
+    assert('Rule R', p.region !== 'vietnam', `Person ${p.id} with non-VN countryCode cannot have region 'vietnam'`);
+  }
+
+  assert(
+    'Rule R',
+    typeof p.shortDescription === 'string' && p.shortDescription.trim().length > 0,
+    `New person ${p.id} shortDescription must be non-empty`
+  );
+
+  assert(
+    'Rule R',
+    typeof p.biography === 'string' && p.biography.trim().length > 0,
+    `New person ${p.id} biography must be non-empty`
+  );
+
+  for (const phrase of BANNED_BIOGRAPHY_PHRASES) {
+    assert(
+      'Rule R',
+      !(p.biography || '').toLowerCase().includes(phrase.toLowerCase()),
+      `New person ${p.id} biography contains banned superlative "${phrase}"`
+    );
+  }
+
+  assert(
+    'Rule R',
+    Array.isArray(p.highlights) && p.highlights.length >= 2 && p.highlights.length <= 3,
+    `New person ${p.id} highlights must have 2-3 items, got: ${p.highlights?.length}`
+  );
+  if (p.highlights) {
+    for (let i = 0; i < p.highlights.length; i++) {
+      assert(
+        'Rule R',
+        typeof p.highlights[i] === 'string' && p.highlights[i].trim().length > 0,
+        `New person ${p.id} highlights[${i}] must be non-empty`
+      );
+    }
+  }
+}
+
+// ------------------------------------------------------------
 // Summary
 // ------------------------------------------------------------
 console.log('\n============================================================');

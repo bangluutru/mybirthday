@@ -175,7 +175,7 @@ export const PEOPLE_02: Person[] = [
       "Ca khúc \"Diễm xưa\" được đưa vào giảng dạy trong chương trình văn hóa của Đại học Kansai, Nhật Bản.",
       "Được trao Giải thưởng Âm nhạc Hòa bình thế giới (WPMA) năm 2004."
     ],
-    "wikidataId": "Q561502",
+    "wikidataId": "Q513108",
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_C%C3%B4ng_S%C6%A1n",
     "sourceUrls": [
       "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_C%C3%B4ng_S%C6%A1n"
@@ -354,7 +354,7 @@ export const PEOPLE_02: Person[] = [
       "Viết cuốn cẩm nang kinh điển \"Scouting for Boys\" (1908).",
       "Được đề cử giải Nobel Hòa bình nhiều lần nhờ thúc đẩy tình hữu nghị thanh niên quốc tế."
     ],
-    "wikidataId": "Q12553",
+    "wikidataId": "Q12665",
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Robert_Baden-Powell",
     "sourceUrls": [
       "https://www.britannica.com/biography/Robert-Stephenson-Smyth-Baden-Powell-1st-Baron-Baden-Powell",
@@ -427,7 +427,7 @@ export const PEOPLE_02: Person[] = [
       "Chứng minh rằng virus gây ung thư có thể chèn DNA của chúng vào bộ gen tế bào vật chủ.",
       "Một trong những nhà khoa học khởi xướng dự án Bản đồ Bộ gen người (Human Genome Project)."
     ],
-    "wikidataId": "Q109559",
+    "wikidataId": "Q109553",
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Renato_Dulbecco",
     "sourceUrls": [
       "https://www.nobelprize.org/prizes/medicine/1975/dulbecco/biographical/",
@@ -464,7 +464,7 @@ export const PEOPLE_02: Person[] = [
       "Trở lại đường đua chỉ 40 ngày sau vụ tai nạn thảm khốc tại Nürburgring.",
       "Sáng lập hai hãng hàng không Lauda Air và Niki, giữ vai trò chủ tịch danh dự đội đua Mercedes-AMG F1."
     ],
-    "wikidataId": "Q44689",
+    "wikidataId": "Q78489",
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Niki_Lauda",
     "sourceUrls": [
       "https://www.formula1.com/en/drivers/hall-of-fame/Niki_Lauda.html",
@@ -499,7 +499,7 @@ export const PEOPLE_02: Person[] = [
       "Cầu thủ duy nhất được bầu là MVP của cả hai giải đấu ABA và NBA.",
       "Ghi hơn 30.000 điểm trong sự nghiệp chuyên nghiệp."
     ],
-    "wikidataId": "Q209282",
+    "wikidataId": "Q209921",
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Julius_Erving",
     "sourceUrls": [
       "https://www.hoophall.com/hall-of-famers/julius-erving",
@@ -570,7 +570,7 @@ export const PEOPLE_02: Person[] = [
       "Giải Daesang danh giá tại MBC Drama Awards.",
       "Gây tiếng vang toàn cầu với vai bà mẹ siêu năng lực Lee Mi-hyun trong series Moving của Disney+."
     ],
-    "wikidataId": "Q494383",
+    "wikidataId": "Q494346",
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Han_Hyo-joo",
     "sourceUrls": [
       "https://www.kmdb.or.kr/eng/db/per/00010996",
@@ -607,7 +607,7 @@ export const PEOPLE_02: Person[] = [
       "Gây sốt toàn châu Á với vai Baek Yi-jin trong Twenty-Five Twenty-One.",
       "Gương mặt đại diện quen thuộc của các thương hiệu thời trang cao cấp."
     ],
-    "wikidataId": "Q164266",
+    "wikidataId": "Q17500112",
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Nam_Joo-hyuk",
     "sourceUrls": [
       "https://www.kmdb.or.kr/eng/db/per/00196236",
@@ -678,7 +678,7 @@ export const PEOPLE_02: Person[] = [
       "Được vinh danh danh hiệu Huyền thoại Disney (Disney Legend) năm 2011.",
       "Hát hai bản nhạc phim đoạt giải Oscar: \"A Whole New World\" và \"Reflection\"."
     ],
-    "wikidataId": "Q289280",
+    "wikidataId": "Q294144",
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Lea_Salonga",
     "sourceUrls": [
       "https://www.britannica.com/biography/Lea-Salonga",
@@ -713,7 +713,7 @@ export const PEOPLE_02: Person[] = [
       "Từng vươn lên vị trí số 2 thế giới trên bảng xếp hạng ATP.",
       "Được vinh danh tại Đại sảnh Danh vọng Quần vợt Quốc tế năm 2008."
     ],
-    "wikidataId": "Q296377",
+    "wikidataId": "Q53370",
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Michael_Chang",
     "sourceUrls": [
       "https://www.tennisfame.com/hall-of-famers/inductees/michael-chang",
@@ -748,7 +748,7 @@ export const PEOPLE_02: Person[] = [
       "Vô địch đơn nam US Open 2001 và Wimbledon 2002.",
       "Dẫn dắt tuyển quần vợt Úc 2 lần đoạt Davis Cup danh giá."
     ],
-    "wikidataId": "Q180556",
+    "wikidataId": "Q180104",
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Lleyton_Hewitt",
     "sourceUrls": [
       "https://www.tennisfame.com/hall-of-famers/inductees/lleyton-hewitt",

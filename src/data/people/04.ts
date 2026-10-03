@@ -64,7 +64,7 @@ export const PEOPLE_04: Person[] = [
       "Phát minh phân phối chuẩn Gauss (đường cong chuông).",
       "Được coi là một trong những nhà toán học vĩ đại nhất mọi thời đại cùng với Archimedes và Newton."
     ],
-    "wikidataId": "Q6720",
+    "wikidataId": "Q6722",
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Carl_Friedrich_Gauss",
     "sourceUrls": [
       "https://www.britannica.com/biography/Carl-Friedrich-Gauss",

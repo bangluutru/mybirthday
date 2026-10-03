@@ -60,7 +60,7 @@ export const PEOPLE_01: Person[] = [
       "Người phụ nữ đầu tiên giữ chức Chủ tịch Ngân hàng Trung ương Châu Âu.",
       "Người phụ nữ đầu tiên làm Tổng giám đốc Quỹ Tiền tệ Quốc tế (IMF)."
     ],
-    "wikidataId": "Q41445",
+    "wikidataId": "Q484605",
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Christine_Lagarde",
     "sourceUrls": [
       "https://www.britannica.com/biography/Christine-Lagarde",

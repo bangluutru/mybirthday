@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "test": "tsx scripts/test-integrity.ts",
-    "coverage": "tsx scripts/coverage.ts"
+    "coverage": "tsx scripts/coverage.ts",
+    "verify:wikidata": "tsx scripts/verify-wikidata.ts"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",

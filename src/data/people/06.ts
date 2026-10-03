@@ -26,7 +26,7 @@ export const PEOPLE_06: Person[] = [
       "Giáo sư tại Viện Nghiên cứu Cao cấp Princeton và Đại học Chicago.",
       "Giám đốc khoa học của Viện Nghiên cứu Cao cấp về Toán (VIASM)."
     ],
-    "wikidataId": "Q217036",
+    "wikidataId": "Q216350",
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Ng%C3%B4_B%E1%BA%A3o_Ch%C3%A2u",
     "sourceUrls": [
       "https://www.britannica.com/biography/Ngo-Bao-Chau",
