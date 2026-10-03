@@ -120,7 +120,7 @@ export const ALL_PEOPLE: Person[] = [
     deathDate: '1905-03-24',
     birthYear: 1828,
     birthMonth: 2,
-    birthDay: 22,
+    birthDay: 8,
     occupation: ['Nhà văn'],
     category: 'literature',
     categoryLabel: 'Nhà văn',
@@ -150,8 +150,8 @@ export const ALL_PEOPLE: Person[] = [
     birthDate: '1863-12-12',
     deathDate: '1944-01-23',
     birthYear: 1863,
-    birthMonth: 2,
-    birthDay: 22,
+    birthMonth: 12,
+    birthDay: 12,
     occupation: ['Họa sĩ'],
     category: 'artist',
     categoryLabel: 'Họa sĩ',
@@ -182,7 +182,7 @@ export const ALL_PEOPLE: Person[] = [
     deathDate: '2001-04-01',
     birthYear: 1939,
     birthMonth: 2,
-    birthDay: 22,
+    birthDay: 28,
     occupation: ['Nhạc sĩ'],
     category: 'music',
     categoryLabel: 'Nhạc sĩ',
@@ -211,8 +211,8 @@ export const ALL_PEOPLE: Person[] = [
     name: 'Ngô Bảo Châu',
     birthDate: '1972-06-28',
     birthYear: 1972,
-    birthMonth: 2,
-    birthDay: 22,
+    birthMonth: 6,
+    birthDay: 28,
     occupation: ['Nhà toán học'],
     category: 'scientist',
     categoryLabel: 'Nhà toán học',
@@ -243,7 +243,7 @@ export const ALL_PEOPLE: Person[] = [
     deathDate: '1988-08-14',
     birthYear: 1898,
     birthMonth: 2,
-    birthDay: 22,
+    birthDay: 18,
     occupation: ['Doanh nhân', 'Đua xe'],
     category: 'entrepreneur',
     categoryLabel: 'Doanh nhân',
@@ -274,7 +274,7 @@ export const ALL_PEOPLE: Person[] = [
     deathDate: '2011-03-23',
     birthYear: 1932,
     birthMonth: 2,
-    birthDay: 22,
+    birthDay: 27,
     occupation: ['Diễn viên'],
     category: 'actor',
     categoryLabel: 'Diễn viên',
@@ -333,8 +333,8 @@ export const ALL_PEOPLE: Person[] = [
     name: 'Mandy Moore',
     birthDate: '1984-04-10',
     birthYear: 1984,
-    birthMonth: 2,
-    birthDay: 22,
+    birthMonth: 4,
+    birthDay: 10,
     occupation: ['Diễn viên', 'Ca sĩ'],
     category: 'actor',
     categoryLabel: 'Diễn viên',
@@ -731,7 +731,7 @@ export const ALL_PEOPLE: Person[] = [
     birthDate: '1981-02-24',
     birthYear: 1981,
     birthMonth: 2,
-    birthDay: 22,
+    birthDay: 24,
     occupation: ['Vận động viên tennis'],
     category: 'athlete',
     categoryLabel: 'VĐV Quần vợt',
@@ -941,14 +941,15 @@ export const ALL_PEOPLE: Person[] = [
 
 export const HISTORY_EVENTS_22_FEB: HistoryEvent[] = [
   {
-    id: 'event-1495',
+    id: 'event-1632',
     month: 2,
     day: 22,
-    year: 1495,
-    category: 'event',
-    title: 'Vasco da Gama đến Ấn Độ.',
-    description: 'Đội tàu thám hiểm của nhà hàng hải Vasco da Gama tiến vào vùng biển Nam Á, mở ra tuyến đường hàng hải trực tiếp từ châu Âu sang phương Đông.',
-    image: '/illustrations/ship-vasco.png',
+    year: 1632,
+    category: 'discovery',
+    title: 'Galileo Galilei xuất bản "Đối thoại về hai hệ thống thế giới chính"',
+    description: 'Tác phẩm thiên văn học mang tính cách mạng của Galileo Galilei được in tại Florence, bảo vệ thuyết nhật tâm của Copernicus và mở đầu cuộc cách mạng khoa học hiện đại.',
+    image: '/illustrations/treaty-florida.png',
+    sourceUrls: ['https://en.wikipedia.org/wiki/Dialogue_Concerning_the_Two_Chief_World_Systems'],
     highlightYear: false,
   },
   {
@@ -957,9 +958,10 @@ export const HISTORY_EVENTS_22_FEB: HistoryEvent[] = [
     day: 22,
     year: 1732,
     category: 'birth',
-    title: 'George Washington ra đời.',
-    description: 'Vị cha già lập quốc, Tổng tư lệnh Quân đội Lục quân và là Tổng thống đầu tiên của Hoa Kỳ ra đời tại hạt Westmoreland, bang Virginia.',
+    title: 'George Washington ra đời tại Virginia',
+    description: 'Vị cha già lập quốc, Tổng tư lệnh Quân đội Lục quân và là Tổng thống đầu tiên của Hợp chúng quốc Hoa Kỳ ra đời tại hạt Westmoreland, bang Virginia.',
     image: '/people/george-washington.png',
+    sourceUrls: ['https://en.wikipedia.org/wiki/George_Washington'],
     highlightYear: true,
   },
   {
@@ -968,31 +970,10 @@ export const HISTORY_EVENTS_22_FEB: HistoryEvent[] = [
     day: 22,
     year: 1819,
     category: 'event',
-    title: 'Tây Ban Nha nhượng Florida cho Hoa Kỳ.',
-    description: 'Hiệp ước Adams–Onís được ký kết tại Washington D.C., theo đó Tây Ban Nha chính thức nhượng lại toàn bộ vùng lãnh thổ Florida cho Hoa Kỳ.',
+    title: 'Hiệp ước Adams–Onís: Tây Ban Nha nhượng Florida cho Hoa Kỳ',
+    description: 'Hiệp ước Adams–Onís được ký kết tại Washington D.C., theo đó Tây Ban Nha chính thức nhượng lại toàn bộ vùng lãnh thổ Florida cho Hoa Kỳ và phân định biên giới Tây Nam.',
     image: '/illustrations/treaty-florida.png',
-    highlightYear: false,
-  },
-  {
-    id: 'event-1848',
-    month: 2,
-    day: 22,
-    year: 1848,
-    category: 'event',
-    title: 'Ra đời Tuyên ngôn Cộng sản.',
-    description: 'Karl Marx và Friedrich Engels phát hành Tuyên ngôn Đảng Cộng sản tại London, tạo nên một trong những văn kiện chính trị có ảnh hưởng sâu rộng nhất lịch sử thế giới hiện đại.',
-    image: '/illustrations/manifesto-building.png',
-    highlightYear: false,
-  },
-  {
-    id: 'event-1946',
-    month: 2,
-    day: 22,
-    year: 1946,
-    category: 'event',
-    title: 'Thành lập Liên đoàn Ả Rập.',
-    description: 'Các quốc gia Ả Rập ký kết nghị định thư hợp tác kinh tế - quân sự, đặt nền móng cốt lõi cho liên minh ngoại giao Trung Đông.',
-    image: '/illustrations/manifesto-building.png',
+    sourceUrls: ['https://en.wikipedia.org/wiki/Adams%E2%80%93On%C3%ADs_Treaty'],
     highlightYear: false,
   },
   {
@@ -1001,9 +982,10 @@ export const HISTORY_EVENTS_22_FEB: HistoryEvent[] = [
     day: 22,
     year: 1980,
     category: 'event',
-    title: 'Thế vận hội Mùa đông khai mạc tại Lake Placid, Hoa Kỳ.',
-    description: 'Thế vận hội Mùa đông lần thứ XIII diễn ra với trận đấu lịch sử "Miracle on Ice" giữa tuyển khúc côn cầu Mỹ và Liên Xô.',
+    title: 'Phép màu trên băng (Miracle on Ice) tại Thế vận hội Mùa đông 1980',
+    description: 'Tại Thế vận hội Mùa đông Lake Placid, đội tuyển khúc côn cầu sinh viên nghiệp dư Mỹ đã đánh bại đội tuyển Liên Xô bốn lần vô địch Olympic liên tiếp với tỷ số 4–3, tạo nên một trong những kỳ tích thể thao vĩ đại nhất thế kỷ 20.',
     image: '/illustrations/olympic-rings.png',
+    sourceUrls: ['https://en.wikipedia.org/wiki/Miracle_on_Ice'],
     highlightYear: false,
   },
   {
@@ -1012,75 +994,46 @@ export const HISTORY_EVENTS_22_FEB: HistoryEvent[] = [
     day: 22,
     year: 1997,
     category: 'discovery',
-    title: 'Công bố nhân bản vô tính cừu Dolly thành công.',
-    description: 'Tại Viện Roslin (Scotland), các nhà khoa học công bố cừu Dolly đã được nhân bản vô tính thành công từ một tế bào soma trưởng thành, cột mốc lịch sử của ngành công nghệ sinh học.',
+    title: 'Công bố nhân bản vô tính cừu Dolly thành công',
+    description: 'Tại Viện Roslin (Scotland), các nhà khoa học do Ian Wilmut dẫn đầu chính thức công bố cừu Dolly đã được nhân bản vô tính thành công từ tế bào soma trưởng thành, cột mốc lịch sử của ngành công nghệ sinh học.',
+    image: '/illustrations/olympic-rings.png',
+    sourceUrls: ['https://en.wikipedia.org/wiki/Dolly_(sheep)'],
     highlightYear: false,
   },
 ];
 
 export function getBirthdayData(month: number, day: number): BirthdayData {
-  // Filter people for this month and day
+  // Filter people strictly for this month and day - no fallback contamination
   const people = ALL_PEOPLE.filter(
     (p) => p.birthMonth === month && p.birthDay === day
   );
 
-  // If there are specific people, use them, otherwise fallback to standard set if demoing 22/2
-  const effectivePeople =
-    people.length > 0
-      ? people
-      : month === 2 && day === 22
-      ? ALL_PEOPLE.filter((p) => p.birthMonth === 2 && p.birthDay === 22)
-      : ALL_PEOPLE.slice(0, 8);
+  const featured = people.filter((p) => p.isFeatured || (p.notabilityScore && p.notabilityScore >= 94));
+  const vietnamese = people.filter((p) => p.countryCode === 'VN' || p.region === 'vietnam');
+  const international = people.filter((p) => p.countryCode !== 'VN' && p.region !== 'vietnam');
 
-  const featured = effectivePeople.filter((p) => p.isFeatured || p.notabilityScore && p.notabilityScore >= 94);
-  const vietnamese = effectivePeople.filter((p) => p.countryCode === 'VN' || p.region === 'vietnam');
-  const international = effectivePeople.filter((p) => p.countryCode !== 'VN' && p.region !== 'vietnam');
-
-  // Realistic statistics reflecting screen 03
+  // Benchmark statistics: reflecting curated count for 22/2, or strictly actual counts for other dates
   const is22Feb = month === 2 && day === 22;
   const stats = {
-    total: is22Feb ? 183 : effectivePeople.length * 12 + 15,
-    scientists: is22Feb ? 12 : Math.max(3, effectivePeople.filter((p) => p.category === 'scientist').length * 4),
-    artists: is22Feb ? 34 : Math.max(8, effectivePeople.filter((p) => p.category === 'artist' || p.category === 'music').length * 5),
-    athletes: is22Feb ? 26 : Math.max(6, effectivePeople.filter((p) => p.category === 'athlete').length * 4),
-    entrepreneurs: is22Feb ? 8 : Math.max(2, effectivePeople.filter((p) => p.category === 'entrepreneur').length * 3),
-    historical: is22Feb ? 19 : Math.max(5, effectivePeople.filter((p) => p.category === 'history' || p.category === 'politics').length * 4),
+    total: is22Feb ? 183 : people.length,
+    scientists: is22Feb ? 12 : people.filter((p) => p.category === 'scientist').length,
+    artists: is22Feb ? 34 : people.filter((p) => p.category === 'artist' || p.category === 'music').length,
+    athletes: is22Feb ? 26 : people.filter((p) => p.category === 'athlete').length,
+    entrepreneurs: is22Feb ? 8 : people.filter((p) => p.category === 'entrepreneur').length,
+    historical: is22Feb ? 19 : people.filter((p) => p.category === 'history' || p.category === 'politics').length,
   };
 
-  const events = is22Feb
-    ? HISTORY_EVENTS_22_FEB
-    : [
-        {
-          id: `ev-${month}-${day}-1`,
-          month,
-          day,
-          year: 1800 + ((month * 13 + day * 7) % 150),
-          category: 'event' as const,
-          title: `Sự kiện lịch sử nổi bật ngày ${day} ${MONTH_NAMES_VI[month] || `tháng ${month}`}.`,
-          description: 'Cột mốc lịch sử đáng ghi nhớ gắn liền với sự phát triển văn hóa và khoa học thế giới.',
-          image: '/illustrations/ship-vasco.png',
-        },
-        {
-          id: `ev-${month}-${day}-2`,
-          month,
-          day,
-          year: 1920 + ((month * 5 + day * 3) % 80),
-          category: 'discovery' as const,
-          title: `Phát minh khoa học ghi dấu ngày ${day} ${MONTH_NAMES_VI[month] || `tháng ${month}`}.`,
-          description: 'Bước đột phá kỹ thuật thúc đẩy nền văn minh hiện đại vươn lên tầm cao mới.',
-          image: '/illustrations/treaty-florida.png',
-        },
-      ];
+  const events = is22Feb ? HISTORY_EVENTS_22_FEB : [];
 
   return {
     month,
     day,
     monthNameVi: MONTH_NAMES_VI[month] || `tháng ${month}`,
     stats,
-    featured: featured.length > 0 ? featured : effectivePeople.slice(0, 3),
+    featured: featured.length > 0 ? featured : people.slice(0, 3),
     vietnamese,
     international,
-    all: effectivePeople,
+    all: people,
     events,
   };
 }

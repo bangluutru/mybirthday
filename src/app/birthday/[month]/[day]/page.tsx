@@ -149,11 +149,17 @@ export default function BirthdayUniversePage() {
             </div>
 
             {/* Horizontal Scroll Cards */}
-            <div className="flex space-x-3.5 overflow-x-auto no-scrollbar py-1 px-1">
-              {data.all.slice(0, 7).map((person) => (
-                <FeaturedPersonCard key={person.id} person={person} />
-              ))}
-            </div>
+            {data.all.length > 0 ? (
+              <div className="flex space-x-3.5 overflow-x-auto no-scrollbar py-1 px-1">
+                {data.all.slice(0, 7).map((person) => (
+                  <FeaturedPersonCard key={person.id} person={person} />
+                ))}
+              </div>
+            ) : (
+              <div className="p-8 text-center bg-white rounded-2xl border border-slate-100 text-xs text-slate-500">
+                Chưa có danh nhân nào được ghi nhận cho ngày {day} {data.monthNameVi}. Dữ liệu đang được tiếp tục xác thực và cập nhật.
+              </div>
+            )}
           </section>
 
           {/* Section: Người Việt cùng ngày sinh (Screen 06) */}

@@ -32,92 +32,82 @@ export default function HistoryTimelinePage() {
   const [selectedYear, setSelectedYear] = useState<string>('1974');
   const [userYearInput, setUserYearInput] = useState<string>('');
 
-  const events: HistoryTimelineItem[] = [
-    {
-      id: 'event-1495',
-      year: 1495,
-      category: 'science',
-      categoryLabel: 'Lịch sử & Khám phá',
-      categoryColor: 'bg-primary-fixed text-on-primary-fixed-variant',
-      title: 'Vasco da Gama cập bến Ấn Độ',
-      description: 'Hải trình mở ra kỷ nguyên thương mại hàng hải Á – Âu',
-      details:
-        'Hạm đội Bồ Đào Nha dưới sự chỉ huy của Vasco da Gama hoàn tất hải trình vòng qua Mũi Hảo Vọng để cập bến Calicut, chính thức kết nối châu Âu với các nền văn minh phương Đông bằng đường biển.',
-      image: '/illustrations/ship-vasco.png',
-      tag: 'Kỷ nguyên thám hiểm',
-      tagColor: 'bg-surface-container-high text-primary',
-    },
-    {
-      id: 'event-1732',
-      year: 1732,
-      category: 'world',
-      categoryLabel: 'Nhân vật lịch sử',
-      categoryColor: 'bg-primary-container text-on-primary',
-      title: 'George Washington chào đời',
-      description: 'Vị cha già lập quốc của Hợp chúng quốc Hoa Kỳ',
-      details:
-        'George Washington ra đời tại Quận Westmoreland, Virginia. Về sau ông trở thành Tổng tư lệnh quân đội Cách mạng Mỹ, chủ trì Hội nghị Lập hiến 1787 và được đồng thuận bầu làm Tổng thống đầu tiên của Hoa Kỳ.',
-      image: '/people/george-washington.png',
-      tag: 'Nhân vật thế kỷ',
-      tagColor: 'bg-primary-fixed text-on-primary-fixed-variant',
-    },
-    {
-      id: 'event-1819',
-      year: 1819,
-      category: 'treaty',
-      categoryLabel: 'Hiệp ước & Chính trị',
-      categoryColor: 'bg-secondary-fixed text-on-secondary-fixed-variant',
-      title: 'Hiệp ước Adams–Onís: Tây Ban Nha nhượng Florida cho Mỹ',
-      description: 'Cột mốc định hình biên giới lục địa Bắc Mỹ',
-      details:
-        'Ngoại trưởng Mỹ John Quincy Adams và đại diện Tây Ban Nha Luis de Onís ký hiệp ước xác định biên giới giữa lãnh thổ Hoa Kỳ và Tân Tây Ban Nha, đồng thời chính thức chuyển nhượng Florida cho Hoa Kỳ.',
-      image: '/illustrations/treaty-florida.png',
-      tag: 'Ngoại giao quốc tế',
-      tagColor: 'bg-surface-container-high text-secondary',
-    },
-    {
-      id: 'event-1848',
-      year: 1848,
-      category: 'world',
-      categoryLabel: 'Triết học & Lịch sử',
-      categoryColor: 'bg-primary-container text-on-primary',
-      title: 'Tuyên ngôn Đảng Cộng sản được xuất bản lần đầu tại London',
-      description: 'Văn kiện làm thay đổi diện mạo tư tưởng chính trị thế giới',
-      details:
-        'Karl Marx và Friedrich Engels hoàn tất và phát hành ấn bản tiếng Đức đầu tiên của Tuyên ngôn Đảng Cộng sản tại London, đặt nền tảng triết học biện chứng duy vật và lý thuyết đấu tranh giai cấp hiện đại.',
-      image: '/illustrations/manifesto-building.png',
-      tag: 'Tư tưởng nhân loại',
-      tagColor: 'bg-surface-container-highest text-primary',
-    },
-    {
-      id: 'event-1946',
-      year: 1946,
-      category: 'treaty',
-      categoryLabel: 'Địa chính trị quốc tế',
-      categoryColor: 'bg-secondary-fixed text-on-secondary-fixed-variant',
-      title: 'Thành lập Liên đoàn Ả Rập',
-      description: 'Khởi đầu tổ chức liên minh chính trị Trung Đông',
-      details:
-        'Các phái đoàn Ả Rập nhóm họp và phê chuẩn nghị định thư liên minh an ninh và kinh tế khu vực, đặt nền móng cốt lõi cho sự ra đời của Liên đoàn các Quốc gia Ả Rập tại Cairo.',
-      image: '/illustrations/manifesto-building.png',
-      tag: 'Ngoại giao đa phương',
-      tagColor: 'bg-surface-container-high text-secondary',
-    },
-    {
-      id: 'event-1980',
-      year: 1980,
-      category: 'culture',
-      categoryLabel: 'Văn hóa & Thể thao',
-      categoryColor: 'bg-tertiary-container text-on-tertiary',
-      title: 'Phép màu trên băng (Miracle on Ice) - Thế vận hội Lake Placid',
-      description: 'Chiến thắng vĩ đại nhất lịch sử thể thao mùa đông',
-      details:
-        'Đội tuyển khúc côn cầu trên băng gồm các vận động viên sinh viên nghiệp dư Mỹ tạo nên cú sốc thế kỷ khi đánh bại đội tuyển Liên Xô bốn lần vô địch Olympic liên tiếp, trước khi giành Huy chương Vàng Thế vận hội Mùa đông 1980.',
-      customVisual: 'olympics',
-      tag: 'Kỳ tích Olympic',
-      tagColor: 'bg-tertiary-fixed text-on-tertiary-fixed-variant',
-    },
-  ];
+  const is22Feb = month === 2 && day === 22;
+
+  const events: HistoryTimelineItem[] = is22Feb
+    ? [
+        {
+          id: 'event-1632',
+          year: 1632,
+          category: 'science',
+          categoryLabel: 'Khoa học & Thiên văn',
+          categoryColor: 'bg-primary-fixed text-on-primary-fixed-variant',
+          title: 'Galileo Galilei xuất bản "Đối thoại về hai hệ thống thế giới chính"',
+          description: 'Bước ngoặt khai sinh phương pháp khoa học và thiên văn học hiện đại',
+          details:
+            'Tác phẩm thiên văn học mang tính cách mạng của Galileo Galilei được in tại Florence, ủng hộ và bảo vệ thuyết nhật tâm của Copernicus trước Tòa án dị giáo La Mã.',
+          image: '/illustrations/treaty-florida.png',
+          tag: 'Cách mạng khoa học',
+          tagColor: 'bg-surface-container-high text-primary',
+        },
+        {
+          id: 'event-1732',
+          year: 1732,
+          category: 'world',
+          categoryLabel: 'Nhân vật lịch sử',
+          categoryColor: 'bg-primary-container text-on-primary',
+          title: 'George Washington chào đời',
+          description: 'Vị cha già lập quốc của Hợp chúng quốc Hoa Kỳ',
+          details:
+            'George Washington ra đời tại Quận Westmoreland, Virginia. Về sau ông trở thành Tổng tư lệnh quân đội Cách mạng Mỹ, chủ trì Hội nghị Lập hiến 1787 và được đồng thuận bầu làm Tổng thống đầu tiên của Hoa Kỳ.',
+          image: '/people/george-washington.png',
+          tag: 'Nhân vật thế kỷ',
+          tagColor: 'bg-primary-fixed text-on-primary-fixed-variant',
+        },
+        {
+          id: 'event-1819',
+          year: 1819,
+          category: 'treaty',
+          categoryLabel: 'Hiệp ước & Chính trị',
+          categoryColor: 'bg-secondary-fixed text-on-secondary-fixed-variant',
+          title: 'Hiệp ước Adams–Onís: Tây Ban Nha nhượng Florida cho Mỹ',
+          description: 'Cột mốc định hình biên giới lục địa Bắc Mỹ',
+          details:
+            'Ngoại trưởng Mỹ John Quincy Adams và đại diện Tây Ban Nha Luis de Onís ký hiệp ước xác định biên giới giữa lãnh thổ Hoa Kỳ và Tân Tây Ban Nha, đồng thời chính thức chuyển nhượng Florida cho Hoa Kỳ.',
+          image: '/illustrations/treaty-florida.png',
+          tag: 'Ngoại giao quốc tế',
+          tagColor: 'bg-surface-container-high text-secondary',
+        },
+        {
+          id: 'event-1980',
+          year: 1980,
+          category: 'culture',
+          categoryLabel: 'Văn hóa & Thể thao',
+          categoryColor: 'bg-tertiary-container text-on-tertiary',
+          title: 'Phép màu trên băng (Miracle on Ice) - Thế vận hội Lake Placid',
+          description: 'Chiến thắng vĩ đại nhất lịch sử thể thao mùa đông',
+          details:
+            'Đội tuyển khúc côn cầu trên băng gồm các vận động viên sinh viên nghiệp dư Mỹ tạo nên cú sốc thế kỷ khi đánh bại đội tuyển Liên Xô bốn lần vô địch Olympic liên tiếp, trước khi giành Huy chương Vàng Thế vận hội Mùa đông 1980.',
+          customVisual: 'olympics',
+          tag: 'Kỳ tích Olympic',
+          tagColor: 'bg-tertiary-fixed text-on-tertiary-fixed-variant',
+        },
+        {
+          id: 'event-1997',
+          year: 1997,
+          category: 'science',
+          categoryLabel: 'Khoa học & Sinh học',
+          categoryColor: 'bg-primary-fixed text-on-primary-fixed-variant',
+          title: 'Công bố nhân bản vô tính cừu Dolly thành công',
+          description: 'Bước đột phá mang tính lịch sử của công nghệ sinh học thế giới',
+          details:
+            'Tại Viện Roslin (Scotland), các nhà khoa học do Ian Wilmut dẫn đầu chính thức công bố cừu Dolly đã được nhân bản vô tính thành công từ tế bào soma của cừu trưởng thành.',
+          image: '/illustrations/olympic-rings.png',
+          tag: 'Đột phá sinh học',
+          tagColor: 'bg-surface-container-high text-primary',
+        },
+      ]
+    : [];
 
   // Filtering & Sorting
   const filteredEvents = useMemo(() => {
@@ -188,7 +178,7 @@ export default function HistoryTimelinePage() {
             <div className="flex items-center gap-space-md p-space-md rounded-2xl bg-surface-container-low border border-surface-container-high/80 shrink-0">
               <div className="flex flex-col border-r border-outline-variant/40 pr-space-md">
                 <span className="font-label-sm text-label-sm text-on-surface-variant">Cột mốc tiêu biểu</span>
-                <span className="font-headline-md text-headline-md font-bold text-primary">6</span>
+                <span className="font-headline-md text-headline-md font-bold text-primary">{events.length}</span>
               </div>
               <div className="flex flex-col border-r border-outline-variant/40 pr-space-md">
                 <span className="font-label-sm text-label-sm text-on-surface-variant">Thế kỷ ghi dấu</span>
@@ -249,7 +239,8 @@ export default function HistoryTimelinePage() {
               <div className="absolute left-6 top-8 bottom-8 w-0.5 bg-gradient-to-b from-primary via-secondary-container to-surface-dim hidden sm:block" />
 
               <div className="flex flex-col gap-space-lg">
-                {filteredEvents.map((item) => (
+                {filteredEvents.length > 0 ? (
+                  filteredEvents.map((item) => (
                   <div
                     key={item.id}
                     className="relative flex flex-col sm:flex-row items-start gap-space-md group"
@@ -316,7 +307,22 @@ export default function HistoryTimelinePage() {
                       )}
                     </div>
                   </div>
-                ))}
+                  ))
+                ) : (
+                  <div className="py-16 px-6 text-center flex flex-col items-center gap-4 bg-surface-container-low/40 rounded-3xl border border-surface-container-high/60">
+                    <div className="w-16 h-16 rounded-2xl bg-surface-container-high text-primary flex items-center justify-center">
+                      <span className="material-symbols-outlined text-[32px]">history_edu</span>
+                    </div>
+                    <div className="flex flex-col gap-1 max-w-sm">
+                      <h3 className="font-title-md text-title-md text-on-surface font-bold">
+                        Chưa có sự kiện lịch sử cho ngày {day} Tháng {month}
+                      </h3>
+                      <p className="text-xs text-on-surface-variant leading-relaxed">
+                        Dữ liệu sự kiện lịch sử được xác thực cẩn trọng từ các nguồn tin cậy và đang được tiếp tục bổ sung.
+                      </p>
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
 
@@ -466,27 +472,27 @@ export default function HistoryTimelinePage() {
                 </Link>
               </div>
 
-              {/* Card 2: Mandy Moore */}
+              {/* Card 2: Drew Barrymore */}
               <div className="bg-surface-container-lowest rounded-3xl p-5 border border-surface-container-high/80 shadow-sm flex flex-col justify-between group hover:shadow-md transition-shadow">
                 <div>
                   <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden mb-3 bg-surface-container">
                     <img
-                      alt="Mandy Moore"
-                      src="/people/mandy-moore.png"
+                      alt="Drew Barrymore"
+                      src="/people/drew-barrymore.png"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute bottom-2 left-2 px-2.5 py-0.5 rounded-full bg-on-surface/80 backdrop-blur-md text-surface font-label-sm text-xs font-bold">
-                      1984
+                      22/02/1975
                     </div>
                   </div>
-                  <h4 className="font-title-md text-title-md font-bold text-on-surface">Mandy Moore</h4>
-                  <p className="text-xs text-primary font-semibold mt-0.5">Diễn viên &amp; Ca sĩ • Hoa Kỳ</p>
+                  <h4 className="font-title-md text-title-md font-bold text-on-surface">Drew Barrymore</h4>
+                  <p className="text-xs text-primary font-semibold mt-0.5">Diễn viên &amp; Nhà sản xuất • Hoa Kỳ</p>
                   <p className="text-xs text-on-surface-variant mt-2 line-clamp-3">
-                    Nữ diễn viên được đề cử Emmy và Quả Cầu Vàng với vai diễn để đời trong loạt phim truyền hình ăn khách This Is Us.
+                    Biểu tượng điện ảnh Hollywood, khởi đầu với E.T. the Extra-Terrestrial, Charlie’s Angels và The Drew Barrymore Show.
                   </p>
                 </div>
                 <Link
-                  href="/birthday/2/22/people?person=mandy-moore"
+                  href="/birthday/2/22/people?person=drew-barrymore"
                   className="mt-4 text-xs font-bold text-primary flex items-center gap-1 hover:underline"
                 >
                   <span>Xem hồ sơ</span>

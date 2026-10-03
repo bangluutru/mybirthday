@@ -85,20 +85,20 @@ export default function HomePage() {
       alt: 'Chân dung Steve Irwin',
     },
     {
-      id: 'trinh-cong-son',
-      slug: 'trinh-cong-son',
-      name: 'Trịnh Công Sơn',
-      lifespan: '28/02/1939 – 2001',
-      roleBadge: 'Âm nhạc & Triết học • Việt Nam',
-      badgeColor: 'bg-secondary-fixed text-on-secondary-fixed',
+      id: 'arthur-schopenhauer',
+      slug: 'arthur-schopenhauer',
+      name: 'Arthur Schopenhauer',
+      lifespan: '1788 – 1860',
+      roleBadge: 'Triết học • Đức',
+      badgeColor: 'bg-surface-container-high text-primary',
       description:
-        'Một trong những nhạc sĩ lớn nhất của tân nhạc Việt Nam với hơn 600 ca khúc triết lý về thân phận con người, tình yêu và hòa bình, được mệnh danh là Bob Dylan của Việt Nam.',
-      verifiedLabel: 'Di sản quốc gia',
+        'Triết gia vĩ đại người Đức với tác phẩm kinh điển "Thế giới như là ý chí và biểu hiện", đặt nền móng sâu sắc cho triết học hiện đại và tâm lý học thế giới.',
+      verifiedLabel: 'Triết gia vĩ đại',
       verifiedIcon: 'workspace_premium',
-      region: 'vn',
-      category: 'music',
-      image: '/people/trinh-cong-son.png',
-      alt: 'Chân dung nhạc sĩ Trịnh Công Sơn',
+      region: 'world',
+      category: 'literature',
+      image: '/people/arthur-schopenhauer.png',
+      alt: 'Chân dung Arthur Schopenhauer',
     },
     {
       id: 'heinrich-hertz',
@@ -767,7 +767,7 @@ export default function HomePage() {
                       Vũ Trụ Của Tôi
                     </h4>
                     <p className="font-body-sm text-body-sm text-primary-fixed mt-1">
-                      Tôi chia sẻ ngày sinh cùng George Washington, Trịnh Công Sơn và Drew Barrymore.
+                      Tôi chia sẻ ngày sinh cùng George Washington, Arthur Schopenhauer và Drew Barrymore.
                     </p>
                   </div>
 
@@ -780,9 +780,9 @@ export default function HomePage() {
                         src="/people/george-washington.png"
                       />
                       <img
-                        alt="Trịnh Công Sơn"
+                        alt="Arthur Schopenhauer"
                         className="w-12 h-12 rounded-full object-cover ring-2 ring-surface-bright"
-                        src="/people/trinh-cong-son.png"
+                        src="/people/arthur-schopenhauer.png"
                       />
                       <img
                         alt="Drew Barrymore"

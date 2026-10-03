@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { Person } from '@/data/types';
+import { ALL_PEOPLE } from '@/data/birthdays';
 
 const STORAGE_KEY = 'birthday_verse_favorites_v1';
 
@@ -13,7 +14,18 @@ export function useFavorites() {
     try {
       const stored = localStorage.getItem(STORAGE_KEY);
       if (stored) {
-        setFavorites(JSON.parse(stored));
+        const parsed = JSON.parse(stored);
+        if (Array.isArray(parsed)) {
+          // Backward-compatible: handle either array of string IDs or array of legacy Person objects
+          const ids: string[] = parsed
+            .map((item: any) => (typeof item === 'string' ? item : item?.id))
+            .filter(Boolean);
+          // Resolve current fresh Person records from ALL_PEOPLE to prevent stale snapshot drift
+          const freshPeople = ids
+            .map((id) => ALL_PEOPLE.find((p) => p.id === id))
+            .filter(Boolean) as Person[];
+          setFavorites(freshPeople);
+        }
       }
     } catch (e) {
       console.error('Failed to load favorites from localStorage', e);
@@ -33,7 +45,9 @@ export function useFavorites() {
         ? prev.filter((p) => p.id !== person.id)
         : [...prev, person];
       try {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
+        // Store only person IDs to prevent stale snapshot drift
+        const ids = next.map((p) => p.id);
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(ids));
       } catch (e) {
         console.error('Failed to save favorites to localStorage', e);
       }

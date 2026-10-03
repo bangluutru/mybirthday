@@ -59,11 +59,11 @@ export default function BirthdayCardStudioPage() {
       birthYear: 1975,
     },
     {
-      id: 'trinh-cong-son',
-      name: 'Trịnh Công Sơn',
-      role: 'Nhạc sĩ huyền thoại tân nhạc Việt Nam (1939)',
-      image: '/people/trinh-cong-son.png',
-      birthYear: 1939,
+      id: 'arthur-schopenhauer',
+      name: 'Arthur Schopenhauer',
+      role: 'Triết gia vĩ đại thế kỷ 19 (1788)',
+      image: '/people/arthur-schopenhauer.png',
+      birthYear: 1788,
     },
     {
       id: 'heinrich-hertz',
@@ -85,7 +85,7 @@ export default function BirthdayCardStudioPage() {
     'george-washington',
     'steve-irwin',
     'drew-barrymore',
-    'trinh-cong-son',
+    'arthur-schopenhauer',
   ]);
 
   const toggleFigure = (id: string) => {

@@ -21,16 +21,9 @@ export default function PeopleDirectoryPage() {
 
   const birthdayData = useMemo(() => getBirthdayData(month, day), [month, day]);
 
-  // Comprehensive directory people list for this date
+  // Directory people strictly born on this date (zero fallback contamination)
   const directoryPeople = useMemo(() => {
-    // Collect all people born on this date or relevant figures
-    const onDate = ALL_PEOPLE.filter((p) => p.birthMonth === month && p.birthDay === day);
-    if (onDate.length >= 6) return onDate;
-
-    // Complement with curated luminaries for rich experience
-    const existingIds = new Set(onDate.map((p) => p.id));
-    const complement = ALL_PEOPLE.filter((p) => !existingIds.has(p.id));
-    return [...onDate, ...complement.slice(0, 10 - onDate.length)];
+    return ALL_PEOPLE.filter((p) => p.birthMonth === month && p.birthDay === day);
   }, [month, day]);
 
   // Selected Person State
@@ -38,7 +31,7 @@ export default function PeopleDirectoryPage() {
     if (initialPersonSlug && directoryPeople.some((p) => p.slug === initialPersonSlug)) {
       return initialPersonSlug;
     }
-    return directoryPeople[0]?.slug || 'george-washington';
+    return directoryPeople[0]?.slug || '';
   });
 
   // Filter States
@@ -107,7 +100,7 @@ export default function PeopleDirectoryPage() {
   }, [directoryPeople, searchQuery, selectedCategory, selectedCountry, exactYearOnly, filterYear]);
 
   // Selected person object
-  const currentPerson: Person = useMemo(() => {
+  const currentPerson: Person | undefined = useMemo(() => {
     const found = directoryPeople.find((p) => p.slug === selectedSlug);
     return found || filteredPeople[0] || directoryPeople[0];
   }, [directoryPeople, selectedSlug, filteredPeople]);
@@ -267,7 +260,7 @@ export default function PeopleDirectoryPage() {
               {/* People Directory Items */}
               <div className="flex flex-col gap-3">
                 {filteredPeople.map((p) => {
-                  const isSelected = p.slug === currentPerson.slug;
+                  const isSelected = currentPerson?.slug === p.slug;
                   return (
                     <div
                       key={p.id}
@@ -312,7 +305,22 @@ export default function PeopleDirectoryPage() {
                   );
                 })}
 
-                {filteredPeople.length === 0 && (
+                {directoryPeople.length === 0 ? (
+                  <div className="text-center py-12 bg-surface-container-low rounded-2xl p-6">
+                    <p className="text-on-surface-variant text-sm font-semibold">
+                      Chưa có danh nhân nào được ghi nhận cho ngày {day} Tháng {month}.
+                    </p>
+                    <p className="text-xs text-on-surface-variant mt-1">
+                      Dữ liệu đang tiếp tục được bổ sung và kiểm chứng cẩn trọng.
+                    </p>
+                    <Link
+                      href="/birthday/2/22/people"
+                      className="inline-block mt-4 px-4 py-2 rounded-full bg-primary text-on-primary text-xs font-bold hover:bg-primary-container transition-all"
+                    >
+                      Xem ngày mẫu 22 Tháng 2
+                    </Link>
+                  </div>
+                ) : filteredPeople.length === 0 ? (
                   <div className="text-center py-12 bg-surface-container-low rounded-2xl p-6">
                     <p className="text-on-surface-variant text-sm">Không tìm thấy nhân vật nào phù hợp tiêu chí.</p>
                     <button
@@ -327,7 +335,7 @@ export default function PeopleDirectoryPage() {
                       Đặt lại tất cả bộ lọc
                     </button>
                   </div>
-                )}
+                ) : null}
               </div>
             </div>
 

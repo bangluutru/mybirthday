@@ -21,14 +21,7 @@ export default function ExactSameDatePage() {
   const { exact, sameYearOther } = getExactSameDatePeople(month, day, year);
   const birthdayData = getBirthdayData(month, day);
 
-  const displayPeers =
-    exact.length > 0
-      ? exact
-      : ([
-          birthdayData.all.find((p) => p.id === 'james-blunt'),
-          birthdayData.all.find((p) => p.id === 'mandy-moore'),
-          birthdayData.all.find((p) => p.id === 'lleyton-hewitt'),
-        ].filter(Boolean) as typeof birthdayData.all);
+  const displayPeers = exact;
 
   return (
     <AppShell>
@@ -70,55 +63,77 @@ export default function ExactSameDatePage() {
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {displayPeers.map((person) => {
-              const yearRange = person.deathDate
-                ? `${person.birthYear} – ${new Date(person.deathDate).getFullYear() || person.deathDate.slice(0, 4)}`
-                : `${person.birthYear} – nay`;
+          {displayPeers.length > 0 ? (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {displayPeers.map((person) => {
+                const yearRange = person.deathDate
+                  ? `${person.birthYear} – ${new Date(person.deathDate).getFullYear() || person.deathDate.slice(0, 4)}`
+                  : `${person.birthYear} – nay`;
 
-              return (
-                <div
-                  key={person.id}
-                  className="bg-surface-container-lowest rounded-3xl p-5 border border-surface-container-high/80 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between"
-                >
-                  <div>
-                    <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden mb-3 bg-surface-container">
-                      <img
-                        src={person.image}
-                        alt={person.name}
-                        className="w-full h-full object-cover"
-                      />
-                      <div className="absolute bottom-2 left-2 px-2.5 py-0.5 rounded-full bg-inverse-surface/80 text-inverse-on-surface font-label-sm text-xs font-bold">
-                        {formattedDate}
+                return (
+                  <div
+                    key={person.id}
+                    className="bg-surface-container-lowest rounded-3xl p-5 border border-surface-container-high/80 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between"
+                  >
+                    <div>
+                      <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden mb-3 bg-surface-container">
+                        <img
+                          src={person.image}
+                          alt={person.name}
+                          className="w-full h-full object-cover"
+                        />
+                        <div className="absolute bottom-2 left-2 px-2.5 py-0.5 rounded-full bg-inverse-surface/80 text-inverse-on-surface font-label-sm text-xs font-bold">
+                          {formattedDate}
+                        </div>
                       </div>
+                      <span className="font-label-sm text-xs px-2 py-0.5 rounded bg-surface-container text-primary font-bold">
+                        {person.countryName}
+                      </span>
+                      <h3 className="font-title-md text-title-md text-on-surface font-bold mt-1">
+                        {person.name}
+                      </h3>
+                      <p className="text-xs text-secondary font-semibold mt-0.5">
+                        {person.categoryLabel}
+                      </p>
+                      <p className="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">
+                        {person.shortDescription || person.biography}
+                      </p>
                     </div>
-                    <span className="font-label-sm text-xs px-2 py-0.5 rounded bg-surface-container text-primary font-bold">
-                      {person.countryName}
-                    </span>
-                    <h3 className="font-title-md text-title-md text-on-surface font-bold mt-1">
-                      {person.name}
-                    </h3>
-                    <p className="text-xs text-secondary font-semibold mt-0.5">
-                      {person.categoryLabel}
-                    </p>
-                    <p className="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">
-                      {person.shortDescription || person.biography}
-                    </p>
+                    <div className="mt-4 pt-3 border-t border-surface-container-high flex items-center justify-between text-xs">
+                      <Link
+                        href={`/birthday/${month}/${day}/people?person=${person.slug}`}
+                        className="text-primary font-bold hover:underline flex items-center gap-1"
+                      >
+                        <span>Xem hồ sơ chi tiết</span>
+                        <span className="material-symbols-outlined text-[14px]">arrow_forward</span>
+                      </Link>
+                      <span className="text-on-surface-variant font-medium">{yearRange}</span>
+                    </div>
                   </div>
-                  <div className="mt-4 pt-3 border-t border-surface-container-high flex items-center justify-between text-xs">
-                    <Link
-                      href={`/birthday/${month}/${day}/people?person=${person.slug}`}
-                      className="text-primary font-bold hover:underline flex items-center gap-1"
-                    >
-                      <span>Xem hồ sơ chi tiết</span>
-                      <span className="material-symbols-outlined text-[14px]">arrow_forward</span>
-                    </Link>
-                    <span className="text-on-surface-variant font-medium">{yearRange}</span>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+                );
+              })}
+            </div>
+          ) : (
+            <div className="py-16 px-6 text-center flex flex-col items-center gap-4 bg-surface-container-low/40 rounded-3xl border border-surface-container-high/60 max-w-lg mx-auto">
+              <div className="w-16 h-16 rounded-2xl bg-surface-container-high text-primary flex items-center justify-center">
+                <span className="material-symbols-outlined text-[32px]">event_busy</span>
+              </div>
+              <div className="flex flex-col gap-1 max-w-sm">
+                <h3 className="font-title-md text-title-md text-on-surface font-bold">
+                  Chưa có nhân vật sinh đúng ngày {formattedDate}
+                </h3>
+                <p className="text-xs text-on-surface-variant leading-relaxed">
+                  Trùng hợp cả ngày, tháng và năm sinh là một điều kỳ diệu rất hiếm hoi. Dữ liệu đang tiếp tục được bổ sung và cập nhật.
+                </p>
+              </div>
+              <Link
+                href={`/birthday/${month}/${day}`}
+                className="px-5 py-2.5 rounded-full bg-primary text-on-primary font-label-md text-xs font-bold hover:bg-primary-container transition-all shadow-sm"
+              >
+                Khám phá ngày {day} Tháng {month}
+              </Link>
+            </div>
+          )}
 
           {/* Friendly Rare Notice Box */}
           <div className="mt-10 p-6 rounded-3xl bg-surface-container-low border border-surface-container-high flex items-start gap-4">

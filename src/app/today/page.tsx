@@ -1,25 +1,38 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { getBirthdayData } from '@/data/birthdays';
 import { AppShell } from '@/components/layout/AppShell';
 import { FeaturedPersonCard } from '@/components/cards/FeaturedPersonCard';
 import { HistoryTimeline } from '@/components/history/HistoryTimeline';
-import { Search, ChevronLeft, Calendar, Dice5, Bookmark, Sparkles, ChevronRight } from 'lucide-react';
+import { Search, ChevronLeft, Calendar, Dice5, Bookmark, ChevronRight } from 'lucide-react';
 import { vi } from '@/messages/vi';
 
 export default function TodayPage() {
   const router = useRouter();
 
-  // For demonstration, default to Feb 22 as in reference, but allow current date
-  const [day] = useState(22);
-  const [month] = useState(2);
+  // Resolve actual local calendar date on client mount to eliminate hydration mismatch
+  const [currentDate, setCurrentDate] = useState<{ day: number; month: number } | null>(null);
+
+  useEffect(() => {
+    const now = new Date();
+    setCurrentDate({
+      day: now.getDate(),
+      month: now.getMonth() + 1,
+    });
+  }, []);
 
   const [activeTab, setActiveTab] = useState<'birth' | 'death' | 'event'>('birth');
 
-  const data = useMemo(() => getBirthdayData(month, day), [month, day]);
+  const day = currentDate?.day ?? 22;
+  const month = currentDate?.month ?? 2;
+
+  const data = useMemo(() => {
+    if (!currentDate) return null;
+    return getBirthdayData(currentDate.month, currentDate.day);
+  }, [currentDate]);
 
   const handleRandomDate = () => {
     const randomMonth = Math.floor(Math.random() * 12) + 1;
@@ -27,6 +40,8 @@ export default function TodayPage() {
     const randomDay = Math.floor(Math.random() * maxDays) + 1;
     router.push(`/birthday/${randomMonth}/${randomDay}`);
   };
+
+  const monthNameVi = data?.monthNameVi || `Tháng ${month}`;
 
   return (
     <AppShell showBottomNav={true}>
@@ -48,7 +63,7 @@ export default function TodayPage() {
                   {vi.today.title}
                 </h1>
                 <p className="text-xs font-bold text-brand-600">
-                  {day} {data.monthNameVi}
+                  {currentDate ? `${day} ${monthNameVi}` : 'Đang xác định ngày...'}
                 </p>
               </div>
             </div>
@@ -104,34 +119,71 @@ export default function TodayPage() {
           </div>
 
           {/* Tab Content */}
-          {activeTab === 'birth' ? (
+          {!currentDate || !data ? (
+            <div className="p-8 text-center bg-white rounded-2xl border border-slate-100 text-xs text-slate-400">
+              Đang tải dữ liệu hôm nay...
+            </div>
+          ) : activeTab === 'birth' ? (
             <div className="space-y-3">
-              <div className="flex space-x-3.5 overflow-x-auto no-scrollbar py-1">
-                {data.all.slice(1, 8).map((person) => (
-                  <FeaturedPersonCard key={person.id} person={person} />
-                ))}
-              </div>
+              {data.all.length > 0 ? (
+                <div className="flex space-x-3.5 overflow-x-auto no-scrollbar py-1">
+                  {data.all.map((person) => (
+                    <FeaturedPersonCard key={person.id} person={person} />
+                  ))}
+                </div>
+              ) : (
+                <div className="p-8 text-center bg-white rounded-2xl border border-slate-100 space-y-3">
+                  <div className="w-12 h-12 mx-auto rounded-full bg-slate-100 flex items-center justify-center text-slate-400">
+                    <Calendar className="w-6 h-6" />
+                  </div>
+                  <h3 className="font-bold text-slate-800 text-sm">
+                    Chưa có danh nhân nào được ghi nhận cho hôm nay ({day} {monthNameVi})
+                  </h3>
+                  <p className="text-xs text-slate-500 max-w-sm mx-auto leading-relaxed">
+                    Dữ liệu ngày sinh đang được kiểm chứng và liên tục bổ sung. Bạn có thể xem ngày mẫu 22 tháng 2 hoặc khám phá các ngày khác.
+                  </p>
+                  <Link
+                    href="/birthday/2/22"
+                    className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-brand-600 text-white text-xs font-semibold hover:bg-brand-700 transition-colors shadow-sm"
+                  >
+                    <span>Xem ngày mẫu 22 Tháng 2</span>
+                    <ChevronRight className="w-4 h-4" />
+                  </Link>
+                </div>
+              )}
             </div>
           ) : activeTab === 'death' ? (
             <div className="p-6 bg-white rounded-2xl border border-slate-100 text-center space-y-2">
               <p className="text-xs text-slate-500">
-                Tưởng niệm các danh nhân qua đời vào ngày {day} {data.monthNameVi}.
+                Tưởng niệm các danh nhân qua đời vào ngày {day} {monthNameVi}.
               </p>
-              <div className="text-left space-y-3 pt-2">
-                {data.all
-                  .filter((p) => p.deathDate)
-                  .slice(0, 3)
-                  .map((p) => (
-                    <div key={p.id} className="text-xs text-slate-700 flex items-center justify-between border-b border-slate-50 pb-2">
-                      <span className="font-semibold">{p.name}</span>
-                      <span className="text-slate-400">{p.deathDate}</span>
-                    </div>
-                  ))}
-              </div>
+              {data.all.filter((p) => p.deathDate).length > 0 ? (
+                <div className="text-left space-y-3 pt-2">
+                  {data.all
+                    .filter((p) => p.deathDate)
+                    .slice(0, 5)
+                    .map((p) => (
+                      <div key={p.id} className="text-xs text-slate-700 flex items-center justify-between border-b border-slate-50 pb-2">
+                        <span className="font-semibold">{p.name}</span>
+                        <span className="text-slate-400">{p.deathDate}</span>
+                      </div>
+                    ))}
+                </div>
+              ) : (
+                <p className="text-xs text-slate-400 pt-3">
+                  Chưa có thông tin nhân vật qua đời vào ngày này trong hệ thống.
+                </p>
+              )}
             </div>
           ) : (
             <div className="bg-white rounded-2xl border border-slate-100 p-2">
-              <HistoryTimeline events={data.events} month={month} day={day} />
+              {data.events.length > 0 ? (
+                <HistoryTimeline events={data.events} month={month} day={day} />
+              ) : (
+                <div className="py-8 text-center text-xs text-slate-400">
+                  Chưa có sự kiện lịch sử nào được ghi nhận cho ngày {day} {monthNameVi}.
+                </div>
+              )}
             </div>
           )}
 
