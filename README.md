@@ -1,6 +1,8 @@
 # BirthdayVerse — Sinh Nhật Cùng Ai 🌌🎂
 
 > **Your Birthday Universe**: Khám phá danh nhân, nghệ sĩ, nhà khoa học và các sự kiện lịch sử vĩ đại chia sẻ cùng ngày sinh của bạn trên khắp thế giới.
+>
+> *Hiện tại cơ sở dữ liệu dự án bao gồm 30 nhân vật lịch sử, 16 người sinh ngày 22/2 và 4 sự kiện lịch sử đã qua xác minh nguồn gốc nghiêm ngặt. Dữ liệu đang ở giai đoạn xác minh và chưa phủ đầy đủ 366 ngày trong năm.*
 
 Ứng dụng web/PWA trải nghiệm khám phá ngày sinh cá nhân hoá cao cấp, xây dựng theo ngôn ngữ thiết kế **Astral Editorial Minimal**, tối ưu cho cả giao diện di động (Mobile-First) và máy tính (Desktop Editorial 1360px).
 
@@ -10,9 +12,9 @@
 
 ### 1. 🌌 Trang Chủ — Khám Phá Vũ Trụ Sinh Nhật
 * **Nocturnal Cosmic Continuum:** Không gian sao đêm vô cực kết hợp vòng cung chân trời Trái Đất (Curved Earth Glow Arc).
-* **Centerpiece Montage:** Trưng bày nhóm danh nhân kiệt xuất (Albert Einstein, Drew Barrymore, Steve Jobs, GS. Ngô Bảo Châu, George Washington).
-* **Interactive Date Portal Card:** Bảng điều khiển nổi tactile tra cứu ngày (1–31), tháng (1–12), năm sinh tùy chọn, cùng các chip chọn nhanh các mốc quan trọng (*Hôm nay, 22 Tháng 2, 14 Tháng 3, 28 Tháng 10, 19 Tháng 5*).
-* **Báo cáo Niên biểu Câu lạc bộ Ngày sinh:** Thống kê 6 chỉ số chuyên sâu (Tổng nhân vật, Nhà khoa học, Nghệ sĩ & Điện ảnh, Lãnh tụ, Vận động viên, Giải Nobel) kết hợp huy hiệu chiêm tinh hoàng đạo (Pisces, Aquarius, v.v.).
+* **Centerpiece Montage:** Trưng bày nhóm danh nhân kiệt xuất (George Washington, Drew Barrymore, Steve Irwin, Arthur Schopenhauer, Heinrich Hertz).
+* **Interactive Date Portal Card:** Bảng điều khiển nổi tactile tra cứu ngày (1–31), tháng (1–12), năm sinh tùy chọn, cùng các chip chọn nhanh (*Hôm nay, 22 Tháng 2, 28 Tháng 2, 19 Tháng 5, 28 Tháng 6*).
+* **Báo cáo Niên biểu Câu lạc bộ Ngày sinh:** Thống kê các chỉ số chuyên sâu (Tổng nhân vật, Nhà khoa học, Nghệ sĩ & Điện ảnh, Lịch sử, Thể thao, Doanh nhân) từ dữ liệu thực tế kết hợp huy hiệu chiêm tinh hoàng đạo (Pisces, Aquarius, v.v.).
 * **Bento Danh Nhân Tiêu Biểu & Sự Kiện:** Bộ lọc 3 tab khu vực (*Tất cả, Việt Nam, Thế giới*), chip bar phân loại ngành nghề và trục sự kiện lịch sử bento.
 
 ### 2. 🏛️ Danh Sách Nhân Vật & Hồ Sơ Chi Tiết (Master-Detail Workstation)
@@ -22,9 +24,9 @@
   * **Cột phải (Sticky Deep Dossier):** Hồ sơ toàn diện với banner khổ lớn, trích dẫn triết lý, cột mốc di sản (*Thành tựu cốt lõi, Nơi sinh & Xuất thân, Tầm ảnh hưởng thiên văn*), liên kết Wikipedia chính thức và danh nhân liên quan.
 
 ### 3. 📜 Dòng Thời Gian Lịch Sử & Cùng Năm Sinh (Timeline & Exact Year)
-* **Trục thời gian tương tác (Interactive Vertical Timeline):** Dẫn hướng timeline dọc qua nhiều thế kỷ với các mốc son tiêu biểu (1495 Vasco da Gama, 1732 Washington, 1819 Adams-Onís, 1848 Tuyên ngôn Cộng sản, 1946 Liên đoàn Ả Rập, 1980 Miracle on Ice).
-* **Widget Bản Đồ Sao Thiên Văn (Constellation Charting):** Đồ họa vector SVG chòm sao Song Ngư với các nút sao phát sáng (Alrescha - Alpha Psc), trích dẫn lịch sử của Mark Twain và phân tích trực giác chiêm tinh.
-* **Cùng ngày, cùng năm sinh:** Thẻ danh nhân sinh chính xác cùng năm (James Blunt 1974, Mandy Moore 1984) và bảng tra cứu năm sinh bất kỳ.
+* **Trục thời gian tương tác (Interactive Vertical Timeline):** Dẫn hướng timeline dọc qua nhiều thế kỷ với các mốc son đã xác minh (1732 Washington, 1819 Adams-Onís, 1980 Miracle on Ice, 1997 Cừu Dolly).
+* **Widget Bản Đồ Sao Thiên Văn (Constellation Charting):** Đồ họa vector SVG chòm sao Song Ngư với các nút sao phát sáng (Alrescha - Alpha Psc), ghi chú lịch sử và phân tích trực giác chiêm tinh.
+* **Cùng ngày, cùng năm sinh:** Thẻ danh nhân sinh chính xác cùng năm và bảng tra cứu năm sinh bất kỳ.
 
 ### 4. 🎨 Tạo Thẻ Chia Sẻ Sinh Nhật (Astral Creator Studio)
 * **4 Phong cách thẩm mỹ (Theme Styles):** *Cosmic Galaxy* (Huyền ảo vô cực), *Hoàng gia Di sản* (Trầm ấm kinh điển), *Minimal Editorial* (Thanh lịch tối giản), *Modern Pop Art* (Sôi nổi rực rỡ).

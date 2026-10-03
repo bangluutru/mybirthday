@@ -939,7 +939,7 @@ export const ALL_PEOPLE: Person[] = [
   },
 ];
 
-export const HISTORY_EVENTS_22_FEB: HistoryEvent[] = [
+export const HISTORY_EVENTS: HistoryEvent[] = [
   {
     id: 'event-1732',
     month: 2,
@@ -1003,6 +1003,14 @@ export const HISTORY_EVENTS_22_FEB: HistoryEvent[] = [
   },
 ];
 
+export const HISTORY_EVENTS_22_FEB: HistoryEvent[] = HISTORY_EVENTS.filter(
+  (e) => e.month === 2 && e.day === 22
+);
+
+export function getHistoryEvents(month: number, day: number): HistoryEvent[] {
+  return HISTORY_EVENTS.filter((e) => e.month === month && e.day === day);
+}
+
 export function getBirthdayData(month: number, day: number): BirthdayData {
   // Filter people strictly for this month and day - no fallback contamination
   const people = ALL_PEOPLE.filter(
@@ -1013,18 +1021,16 @@ export function getBirthdayData(month: number, day: number): BirthdayData {
   const vietnamese = people.filter((p) => p.countryCode === 'VN' || p.region === 'vietnam');
   const international = people.filter((p) => p.countryCode !== 'VN' && p.region !== 'vietnam');
 
-  // Benchmark statistics: reflecting curated count for 22/2, or strictly actual counts for other dates
-  const is22Feb = month === 2 && day === 22;
   const stats = {
-    total: is22Feb ? 183 : people.length,
-    scientists: is22Feb ? 12 : people.filter((p) => p.category === 'scientist').length,
-    artists: is22Feb ? 34 : people.filter((p) => p.category === 'artist' || p.category === 'music').length,
-    athletes: is22Feb ? 26 : people.filter((p) => p.category === 'athlete').length,
-    entrepreneurs: is22Feb ? 8 : people.filter((p) => p.category === 'entrepreneur').length,
-    historical: is22Feb ? 19 : people.filter((p) => p.category === 'history' || p.category === 'politics').length,
+    total: people.length,
+    scientists: people.filter((p) => p.category === 'scientist').length,
+    artists: people.filter((p) => p.category === 'artist' || p.category === 'music').length,
+    athletes: people.filter((p) => p.category === 'athlete').length,
+    entrepreneurs: people.filter((p) => p.category === 'entrepreneur').length,
+    historical: people.filter((p) => p.category === 'history' || p.category === 'politics').length,
   };
 
-  const events = is22Feb ? HISTORY_EVENTS_22_FEB : [];
+  const events = getHistoryEvents(month, day);
 
   return {
     month,
@@ -1055,3 +1061,25 @@ export function getExactSameDatePeople(month: number, day: number, year: number)
   );
   return { exact, sameYearOther };
 }
+
+export function getZodiacSign(day: number, month: number): string {
+  const signs = [
+    { name: 'Ma Kết (Capricorn)', endDay: 19 },
+    { name: 'Bảo Bình (Aquarius)', endDay: 18 },
+    { name: 'Song Ngư (Pisces)', endDay: 20 },
+    { name: 'Bạch Dương (Aries)', endDay: 19 },
+    { name: 'Kim Ngưu (Taurus)', endDay: 20 },
+    { name: 'Song Tử (Gemini)', endDay: 20 },
+    { name: 'Cự Giải (Cancer)', endDay: 22 },
+    { name: 'Sư Tử (Leo)', endDay: 22 },
+    { name: 'Xử Nữ (Virgo)', endDay: 22 },
+    { name: 'Thiên Bình (Libra)', endDay: 22 },
+    { name: 'Bọ Cạp (Scorpio)', endDay: 21 },
+    { name: 'Nhân Mã (Sagittarius)', endDay: 21 },
+  ];
+  const current = signs[month - 1];
+  if (!current) return 'Song Ngư (Pisces)';
+  if (day <= current.endDay) return current.name;
+  return signs[month % 12].name;
+}
+

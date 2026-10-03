@@ -5,7 +5,13 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { AppShell } from '@/components/layout/AppShell';
 import { useFavorites } from '@/hooks/useFavorites';
-import { ALL_PEOPLE } from '@/data/birthdays';
+import { ALL_PEOPLE, getBirthdayData } from '@/data/birthdays';
+
+function getShortName(name: string): string {
+  const parts = name.trim().split(/\s+/);
+  if (parts.length <= 1) return name;
+  return `${parts[0][0]}. ${parts[parts.length - 1]}`;
+}
 
 export default function HomePage() {
   const router = useRouter();
@@ -16,6 +22,11 @@ export default function HomePage() {
   const [birthYear, setBirthYear] = useState('');
   const [activeRegion, setActiveRegion] = useState<'all' | 'vn' | 'world'>('all');
   const [activeCategory, setActiveCategory] = useState<string>('all');
+
+  const data22Feb = getBirthdayData(2, 22);
+  const heroFeatured = data22Feb.featured;
+  const top5 = heroFeatured.slice(0, 5);
+  const currentData = getBirthdayData(parseInt(birthMonth, 10) || 2, parseInt(birthDay, 10) || 22);
 
   // Quick Date Select
   const handleQuickDate = (d: string, m: string) => {
@@ -176,72 +187,57 @@ export default function HomePage() {
               {/* Curved Earth Glow Arc */}
               <div className="absolute bottom-0 inset-x-0 h-36 bg-gradient-to-t from-primary/90 to-transparent rounded-t-[100%] border-t-2 border-surface-bright/40 shadow-[0_-15px_40px_rgba(173,198,255,0.3)] pointer-events-none" />
 
-              {/* Portraits Collage Overlay (Einstein, Barrymore, Jobs, Ngô Bảo Châu, Washington) */}
+              {/* Portraits Collage Overlay (Authentic 22/2 Featured Figures) */}
               <div className="relative z-10 w-full flex items-end justify-center -space-x-4 sm:-space-x-8 px-4">
-                {/* Person 1: Albert Einstein */}
-                <div className="group relative flex flex-col items-center transition-transform hover:-translate-y-3 duration-300">
-                  <img
-                    alt="Chân dung Albert Einstein"
-                    className="w-16 h-20 sm:w-24 sm:h-32 md:w-32 md:h-40 rounded-2xl object-cover shadow-xl ring-2 ring-surface-bright/20"
-                    src="/people/montage-0.png"
-                  />
-                  <span className="mt-2 text-xs font-medium text-surface-bright/80 hidden sm:block">
-                    A. Einstein
-                  </span>
-                </div>
+                {[
+                  { person: top5[2], isCenter: false, sizeClass: 'w-16 h-20 sm:w-24 sm:h-32 md:w-32 md:h-40 rounded-2xl object-cover shadow-xl ring-2 ring-surface-bright/20' },
+                  { person: top5[1], isCenter: false, sizeClass: 'w-18 h-22 sm:w-28 sm:h-36 md:w-36 md:h-44 rounded-2xl object-cover shadow-2xl ring-2 ring-surface-bright/30' },
+                  { person: top5[0], isCenter: true, sizeClass: 'w-22 h-26 sm:w-32 sm:h-44 md:w-44 md:h-52 rounded-2xl object-cover shadow-[0_20px_50px_rgba(0,0,0,0.5)] ring-4 ring-tertiary-fixed-dim' },
+                  { person: top5[3], isCenter: false, sizeClass: 'w-18 h-22 sm:w-28 sm:h-36 md:w-36 md:h-44 rounded-2xl object-cover shadow-2xl ring-2 ring-surface-bright/30' },
+                  { person: top5[4], isCenter: false, sizeClass: 'w-16 h-20 sm:w-24 sm:h-32 md:w-32 md:h-40 rounded-2xl object-cover shadow-xl ring-2 ring-surface-bright/20' },
+                ]
+                  .filter((slot) => Boolean(slot.person))
+                  .map((slot) => {
+                    const person = slot.person!;
+                    if (slot.isCenter) {
+                      return (
+                        <div
+                          key={person.id}
+                          className="group relative flex flex-col items-center z-20 transition-transform hover:-translate-y-4 duration-300 -mb-2"
+                        >
+                          <div className="relative">
+                            <img
+                              alt={`Chân dung ${person.name}`}
+                              className={slot.sizeClass}
+                              src={person.image}
+                            />
+                            <div className="absolute -top-3 -right-2 px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-[10px] font-bold shadow-md">
+                              22 Tháng 2
+                            </div>
+                          </div>
+                          <span className="mt-2 text-sm font-bold text-surface-bright hidden sm:block">
+                            {person.name}
+                          </span>
+                        </div>
+                      );
+                    }
 
-                {/* Person 2: Drew Barrymore */}
-                <div className="group relative flex flex-col items-center transition-transform hover:-translate-y-3 duration-300">
-                  <img
-                    alt="Chân dung Drew Barrymore"
-                    className="w-18 h-22 sm:w-28 sm:h-36 md:w-36 md:h-44 rounded-2xl object-cover shadow-2xl ring-2 ring-surface-bright/30"
-                    src="/people/montage-1.png"
-                  />
-                  <span className="mt-2 text-xs font-medium text-surface-bright/80 hidden sm:block">
-                    D. Barrymore
-                  </span>
-                </div>
-
-                {/* Person 3 (Center Leader): Steve Jobs */}
-                <div className="group relative flex flex-col items-center z-20 transition-transform hover:-translate-y-4 duration-300 -mb-2">
-                  <div className="relative">
-                    <img
-                      alt="Chân dung Steve Jobs"
-                      className="w-22 h-26 sm:w-32 sm:h-44 md:w-44 md:h-52 rounded-2xl object-cover shadow-[0_20px_50px_rgba(0,0,0,0.5)] ring-4 ring-tertiary-fixed-dim"
-                      src="/people/montage-2.png"
-                    />
-                    <div className="absolute -top-3 -right-2 px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-[10px] font-bold shadow-md">
-                      24 Tháng 2
-                    </div>
-                  </div>
-                  <span className="mt-2 text-sm font-bold text-surface-bright hidden sm:block">
-                    Steve Jobs
-                  </span>
-                </div>
-
-                {/* Person 4: Ngô Bảo Châu */}
-                <div className="group relative flex flex-col items-center transition-transform hover:-translate-y-3 duration-300">
-                  <img
-                    alt="Chân dung Ngô Bảo Châu"
-                    className="w-18 h-22 sm:w-28 sm:h-36 md:w-36 md:h-44 rounded-2xl object-cover shadow-2xl ring-2 ring-surface-bright/30"
-                    src="/people/montage-3.png"
-                  />
-                  <span className="mt-2 text-xs font-medium text-surface-bright/80 hidden sm:block">
-                    Ngô Bảo Châu
-                  </span>
-                </div>
-
-                {/* Person 5: George Washington */}
-                <div className="group relative flex flex-col items-center transition-transform hover:-translate-y-3 duration-300">
-                  <img
-                    alt="Chân dung George Washington"
-                    className="w-16 h-20 sm:w-24 sm:h-32 md:w-32 md:h-40 rounded-2xl object-cover shadow-xl ring-2 ring-surface-bright/20"
-                    src="/people/montage-4.png"
-                  />
-                  <span className="mt-2 text-xs font-medium text-surface-bright/80 hidden sm:block">
-                    G. Washington
-                  </span>
-                </div>
+                    return (
+                      <div
+                        key={person.id}
+                        className="group relative flex flex-col items-center transition-transform hover:-translate-y-3 duration-300"
+                      >
+                        <img
+                          alt={`Chân dung ${person.name}`}
+                          className={slot.sizeClass}
+                          src={person.image}
+                        />
+                        <span className="mt-2 text-xs font-medium text-surface-bright/80 hidden sm:block">
+                          {getShortName(person.name)}
+                        </span>
+                      </div>
+                    );
+                  })}
               </div>
             </div>
 
@@ -362,28 +358,28 @@ export default function HomePage() {
                     onClick={() => handleQuickDate('22', '2')}
                     className="px-3 py-1 rounded-full bg-secondary-container/15 text-secondary font-label-sm text-label-sm font-semibold hover:bg-secondary-container/25 transition-colors"
                   >
-                    22 Tháng 2 (Song Ngư)
+                    22 Tháng 2
                   </button>
                   <button
                     type="button"
-                    onClick={() => handleQuickDate('14', '3')}
+                    onClick={() => handleQuickDate('28', '2')}
                     className="px-3 py-1 rounded-full bg-surface-container-low hover:bg-surface-container-high font-label-sm text-label-sm text-on-surface-variant transition-colors"
                   >
-                    14 Tháng 3 (Einstein)
+                    28 Tháng 2
                   </button>
                   <button
                     type="button"
-                    onClick={() => handleQuickDate('28', '10')}
+                    onClick={() => handleQuickDate('30', '4')}
                     className="px-3 py-1 rounded-full bg-surface-container-low hover:bg-surface-container-high font-label-sm text-label-sm text-on-surface-variant transition-colors"
                   >
-                    28 Tháng 10 (Bill Gates)
+                    30 Tháng 4
                   </button>
                   <button
                     type="button"
-                    onClick={() => handleQuickDate('19', '5')}
+                    onClick={() => handleQuickDate('28', '6')}
                     className="px-3 py-1 rounded-full bg-surface-container-low hover:bg-surface-container-high font-label-sm text-label-sm text-on-surface-variant transition-colors"
                   >
-                    19 Tháng 5 (Bác Hồ)
+                    28 Tháng 6
                   </button>
                 </div>
               </form>
@@ -437,33 +433,33 @@ export default function HomePage() {
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4 mt-8">
                 <div className="bg-surface-bright/10 backdrop-blur-md rounded-2xl p-4 flex flex-col gap-1 border border-surface-bright/10">
                   <span className="font-label-sm text-label-sm text-primary-fixed">Tổng nhân vật</span>
-                  <span className="font-headline-lg text-headline-lg font-extrabold text-white">183</span>
+                  <span className="font-headline-lg text-headline-lg font-extrabold text-white">{currentData.stats.total}</span>
                   <span className="font-label-sm text-[11px] text-surface-container-high">Đã xác minh</span>
                 </div>
                 <div className="bg-surface-bright/10 backdrop-blur-md rounded-2xl p-4 flex flex-col gap-1 border border-surface-bright/10">
                   <span className="font-label-sm text-label-sm text-primary-fixed">Nhà khoa học</span>
-                  <span className="font-headline-lg text-headline-lg font-extrabold text-white">12</span>
+                  <span className="font-headline-lg text-headline-lg font-extrabold text-white">{currentData.stats.scientists}</span>
                   <span className="font-label-sm text-[11px] text-surface-container-high">Phát minh & Nobel</span>
                 </div>
                 <div className="bg-surface-bright/10 backdrop-blur-md rounded-2xl p-4 flex flex-col gap-1 border border-surface-bright/10">
                   <span className="font-label-sm text-label-sm text-primary-fixed">Nghệ sĩ & Âm nhạc</span>
-                  <span className="font-headline-lg text-headline-lg font-extrabold text-white">34</span>
+                  <span className="font-headline-lg text-headline-lg font-extrabold text-white">{currentData.stats.artists}</span>
                   <span className="font-label-sm text-[11px] text-surface-container-high">Điện ảnh & Hội họa</span>
                 </div>
                 <div className="bg-surface-bright/10 backdrop-blur-md rounded-2xl p-4 flex flex-col gap-1 border border-surface-bright/10">
-                  <span className="font-label-sm text-label-sm text-primary-fixed">Chính khách</span>
-                  <span className="font-headline-lg text-headline-lg font-extrabold text-white">28</span>
+                  <span className="font-label-sm text-label-sm text-primary-fixed">Lịch sử & Chính trị</span>
+                  <span className="font-headline-lg text-headline-lg font-extrabold text-white">{currentData.stats.historical}</span>
                   <span className="font-label-sm text-[11px] text-surface-container-high">Nguyên thủ & Lãnh tụ</span>
                 </div>
                 <div className="bg-surface-bright/10 backdrop-blur-md rounded-2xl p-4 flex flex-col gap-1 border border-surface-bright/10">
                   <span className="font-label-sm text-label-sm text-primary-fixed">Thể thao</span>
-                  <span className="font-headline-lg text-headline-lg font-extrabold text-white">19</span>
+                  <span className="font-headline-lg text-headline-lg font-extrabold text-white">{currentData.stats.athletes}</span>
                   <span className="font-label-sm text-[11px] text-surface-container-high">Nhà vô địch thế giới</span>
                 </div>
                 <div className="bg-surface-bright/10 backdrop-blur-md rounded-2xl p-4 flex flex-col gap-1 border border-surface-bright/10">
-                  <span className="font-label-sm text-label-sm text-primary-fixed">Giải Nobel</span>
-                  <span className="font-headline-lg text-headline-lg font-extrabold text-white">4</span>
-                  <span className="font-label-sm text-[11px] text-surface-container-high">Hòa bình & Khoa học</span>
+                  <span className="font-label-sm text-label-sm text-primary-fixed">Doanh nhân</span>
+                  <span className="font-headline-lg text-headline-lg font-extrabold text-white">{currentData.stats.entrepreneurs}</span>
+                  <span className="font-label-sm text-[11px] text-surface-container-high">Kinh thương & Khởi nghiệp</span>
                 </div>
               </div>
             </div>
@@ -648,7 +644,7 @@ export default function HomePage() {
                   href="/birthday/2/22/people"
                   className="px-8 py-3.5 rounded-2xl bg-surface-container-low hover:bg-surface-container-high text-primary font-label-md text-label-md font-bold transition-all flex items-center gap-2 shadow-sm border border-surface-container-high"
                 >
-                  <span>Xem toàn bộ 183 nhân vật sinh ngày 22 tháng 2</span>
+                  <span>Xem toàn bộ {data22Feb.stats.total} nhân vật sinh ngày 22 tháng 2</span>
                   <span className="material-symbols-outlined text-[18px]">
                     arrow_forward
                   </span>
@@ -672,53 +668,33 @@ export default function HomePage() {
                 </div>
 
                 <div className="flex flex-col gap-4">
-                  {/* Event 1 */}
-                  <div className="bg-surface-container-lowest rounded-3xl p-5 border border-surface-container-high/80 flex gap-4 items-start shadow-sm hover:shadow-md transition-shadow">
-                    <div className="flex flex-col items-center justify-center w-16 h-16 rounded-2xl bg-primary-container text-on-primary-container shrink-0">
-                      <span className="font-label-sm text-label-sm font-semibold">Năm</span>
-                      <span className="font-title-md text-title-md font-extrabold leading-none">1495</span>
-                    </div>
-                    <div className="flex flex-col gap-1">
-                      <h4 className="font-title-md text-title-md text-on-surface font-bold">
-                        Vasco da Gama đến Ấn Độ
-                      </h4>
-                      <p className="font-body-sm text-body-sm text-on-surface-variant">
-                        Đội tàu thám hiểm của nhà hàng hải Vasco da Gama tiến vào vùng biển Nam Á, mở ra tuyến hàng hải trực tiếp từ châu Âu sang phương Đông.
-                      </p>
-                    </div>
-                  </div>
-
-                  {/* Event 2 */}
-                  <div className="bg-surface-container-lowest rounded-3xl p-5 border border-surface-container-high/80 flex gap-4 items-start shadow-sm hover:shadow-md transition-shadow">
-                    <div className="flex flex-col items-center justify-center w-16 h-16 rounded-2xl bg-secondary-container text-on-secondary-container shrink-0">
-                      <span className="font-label-sm text-label-sm font-semibold">Năm</span>
-                      <span className="font-title-md text-title-md font-extrabold leading-none">1819</span>
-                    </div>
-                    <div className="flex flex-col gap-1">
-                      <h4 className="font-title-md text-title-md text-on-surface font-bold">
-                        Hiệp ước Adams–Onís
-                      </h4>
-                      <p className="font-body-sm text-body-sm text-on-surface-variant">
-                        Tây Ban Nha chính thức ký kết chuyển giao toàn bộ vùng lãnh thổ Florida cho Hợp chúng quốc Hoa Kỳ.
-                      </p>
-                    </div>
-                  </div>
-
-                  {/* Event 3 */}
-                  <div className="bg-surface-container-lowest rounded-3xl p-5 border border-surface-container-high/80 flex gap-4 items-start shadow-sm hover:shadow-md transition-shadow">
-                    <div className="flex flex-col items-center justify-center w-16 h-16 rounded-2xl bg-surface-container-highest text-primary shrink-0">
-                      <span className="font-label-sm text-label-sm font-semibold">Năm</span>
-                      <span className="font-title-md text-title-md font-extrabold leading-none">1980</span>
-                    </div>
-                    <div className="flex flex-col gap-1">
-                      <h4 className="font-title-md text-title-md text-on-surface font-bold">
-                        Phép màu trên băng (Miracle on Ice)
-                      </h4>
-                      <p className="font-body-sm text-body-sm text-on-surface-variant">
-                        Đội tuyển khúc côn cầu sinh viên Mỹ đánh bại tuyển Liên Xô hùng mạnh tại Thế vận hội Mùa đông Lake Placid.
-                      </p>
-                    </div>
-                  </div>
+                  {data22Feb.events.map((ev, index) => {
+                    const bgColors = [
+                      'bg-primary-container text-on-primary-container',
+                      'bg-secondary-container text-on-secondary-container',
+                      'bg-surface-container-highest text-primary',
+                      'bg-tertiary-container text-on-tertiary-container',
+                    ];
+                    return (
+                      <div
+                        key={ev.id}
+                        className="bg-surface-container-lowest rounded-3xl p-5 border border-surface-container-high/80 flex gap-4 items-start shadow-sm hover:shadow-md transition-shadow"
+                      >
+                        <div className={`flex flex-col items-center justify-center w-16 h-16 rounded-2xl ${bgColors[index % bgColors.length]} shrink-0`}>
+                          <span className="font-label-sm text-label-sm font-semibold">Năm</span>
+                          <span className="font-title-md text-title-md font-extrabold leading-none">{ev.year}</span>
+                        </div>
+                        <div className="flex flex-col gap-1">
+                          <h4 className="font-title-md text-title-md text-on-surface font-bold">
+                            {ev.title}
+                          </h4>
+                          <p className="font-body-sm text-body-sm text-on-surface-variant">
+                            {ev.description}
+                          </p>
+                        </div>
+                      </div>
+                    );
+                  })}
                 </div>
 
                 <Link
@@ -791,7 +767,7 @@ export default function HomePage() {
                       />
                     </div>
                     <span className="font-label-sm text-label-sm text-surface-bright/80">
-                      và hơn 180 nhân vật khác
+                      và {data22Feb.stats.total > 3 ? `${data22Feb.stats.total - 3} nhân vật khác` : 'các nhân vật khác'}
                     </span>
                   </div>
 
@@ -810,14 +786,14 @@ export default function HomePage() {
                 {/* Share Actions */}
                 <div className="grid grid-cols-2 gap-3 mt-1">
                   <Link
-                    href="/share/2-22"
+                    href="/share/22-2"
                     className="py-3 px-4 rounded-2xl bg-primary text-on-primary font-label-md text-label-md font-bold text-center hover:bg-primary-container transition-colors shadow-sm flex items-center justify-center gap-1.5"
                   >
                     <span className="material-symbols-outlined text-[18px]">brush</span>
                     Tạo thẻ chia sẻ
                   </Link>
                   <Link
-                    href="/share/2-22"
+                    href="/share/22-2"
                     className="py-3 px-4 rounded-2xl bg-surface-container-low hover:bg-surface-container-high text-on-surface font-label-md text-label-md font-semibold text-center transition-colors flex items-center justify-center gap-1.5 border border-surface-container-high"
                   >
                     <span className="material-symbols-outlined text-[18px]">download</span>

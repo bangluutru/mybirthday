@@ -206,6 +206,124 @@ for (const p of ALL_PEOPLE) {
 }
 
 // ------------------------------------------------------------
+// Test J: Birthday stats derived purely from people counts
+// ------------------------------------------------------------
+console.log('Checking Rule J: Birthday stats derived purely from people counts...');
+for (let m = 1; m <= 12; m++) {
+  for (let d = 1; d <= daysInMonths[m - 1]; d++) {
+    const data = getBirthdayData(m, d);
+    const expectedTotal = data.all.length;
+    const expectedScientists = data.all.filter((p) => p.category === 'scientist').length;
+    const expectedArtists = data.all.filter((p) => p.category === 'artist' || p.category === 'music').length;
+    const expectedAthletes = data.all.filter((p) => p.category === 'athlete').length;
+    const expectedEntrepreneurs = data.all.filter((p) => p.category === 'entrepreneur').length;
+    const expectedHistorical = data.all.filter((p) => p.category === 'history' || p.category === 'politics').length;
+
+    assert('Rule J', data.stats.total === expectedTotal, `Stats total mismatch on ${m}/${d}: got ${data.stats.total}, expected ${expectedTotal}`);
+    assert('Rule J', data.stats.scientists === expectedScientists, `Stats scientists mismatch on ${m}/${d}: got ${data.stats.scientists}, expected ${expectedScientists}`);
+    assert('Rule J', data.stats.artists === expectedArtists, `Stats artists mismatch on ${m}/${d}: got ${data.stats.artists}, expected ${expectedArtists}`);
+    assert('Rule J', data.stats.athletes === expectedAthletes, `Stats athletes mismatch on ${m}/${d}: got ${data.stats.athletes}, expected ${expectedAthletes}`);
+    assert('Rule J', data.stats.entrepreneurs === expectedEntrepreneurs, `Stats entrepreneurs mismatch on ${m}/${d}: got ${data.stats.entrepreneurs}, expected ${expectedEntrepreneurs}`);
+    assert('Rule J', data.stats.historical === expectedHistorical, `Stats historical mismatch on ${m}/${d}: got ${data.stats.historical}, expected ${expectedHistorical}`);
+
+    if (m === 2 && d === 22) {
+      assert('Rule J', data.stats.total === 16, `Feb 22 stats.total must be 16, got ${data.stats.total}`);
+    }
+  }
+}
+
+// ------------------------------------------------------------
+// Test K: Birthday events matching queried date
+// ------------------------------------------------------------
+console.log('Checking Rule K: Birthday events matching queried date...');
+for (let m = 1; m <= 12; m++) {
+  for (let d = 1; d <= daysInMonths[m - 1]; d++) {
+    const data = getBirthdayData(m, d);
+    for (const ev of data.events) {
+      assert('Rule K', ev.month === m && ev.day === d, `Event "${ev.id}" in getBirthdayData(${m}, ${d}) has mismatched date ${ev.month}/${ev.day}`);
+    }
+    if (m === 2 && d === 22) {
+      assert('Rule K', data.events.length === 4, `Feb 22 events count must be 4, got ${data.events.length}`);
+    } else {
+      assert('Rule K', data.events.length === 0, `Date ${m}/${d} events must be empty, got ${data.events.length}`);
+    }
+  }
+}
+
+// ------------------------------------------------------------
+// Test L: Static source scan for banned/hardcoded patterns
+// ------------------------------------------------------------
+console.log('Checking Rule L: Static source scan for banned/hardcoded patterns...');
+import * as fs from 'fs';
+import * as path from 'path';
+
+interface BannedPatternRule {
+  pattern: string | RegExp;
+  label: string;
+  appliesTo: (relPath: string) => boolean;
+}
+
+const BANNED_PATTERNS: BannedPatternRule[] = [
+  { pattern: 'is22Feb', label: 'is22Feb', appliesTo: () => true },
+  { pattern: 'Steve Jobs', label: 'Steve Jobs', appliesTo: () => true },
+  {
+    pattern: 'Einstein',
+    label: 'Einstein',
+    appliesTo: (relPath) => relPath !== path.join('src', 'data', 'birthdays.ts'),
+  },
+  { pattern: 'Vasco da Gama', label: 'Vasco da Gama', appliesTo: () => true },
+  { pattern: 'Mark Twain', label: 'Mark Twain', appliesTo: () => true },
+  { pattern: /\b183\b/, label: '\\b183\\b', appliesTo: () => true },
+  {
+    pattern: 'ngày 22 tháng 2',
+    label: 'ngày 22 tháng 2',
+    appliesTo: (relPath) => relPath.startsWith(path.join('src', 'app', 'day')),
+  },
+  {
+    pattern: '22 tháng 2',
+    label: '22 tháng 2',
+    appliesTo: (relPath) => relPath.startsWith(path.join('src', 'app', 'day')),
+  },
+];
+
+function getSourceFiles(dir: string): string[] {
+  let files: string[] = [];
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
+  for (const entry of entries) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      files = files.concat(getSourceFiles(full));
+    } else if (entry.isFile() && (entry.name.endsWith('.ts') || entry.name.endsWith('.tsx'))) {
+      files.push(full);
+    }
+  }
+  return files;
+}
+
+const projectRoot = path.resolve(__dirname, '..');
+const srcDir = path.join(projectRoot, 'src');
+const srcFiles = getSourceFiles(srcDir);
+
+for (const file of srcFiles) {
+  const content = fs.readFileSync(file, 'utf-8');
+  const relPath = path.relative(projectRoot, file);
+
+  for (const rule of BANNED_PATTERNS) {
+    if (!rule.appliesTo(relPath)) {
+      continue;
+    }
+
+    const matched = rule.pattern instanceof RegExp
+      ? rule.pattern.test(content)
+      : content.includes(rule.pattern);
+
+    if (matched) {
+      assert('Rule L', false, `Banned pattern "${rule.label}" found in ${relPath}`);
+    }
+  }
+}
+
+// ------------------------------------------------------------
 // Summary
 // ------------------------------------------------------------
 console.log('\n============================================================');

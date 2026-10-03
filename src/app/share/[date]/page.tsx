@@ -1,10 +1,11 @@
 'use client';
 
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect, useMemo } from 'react';
 import Link from 'next/link';
 import { useParams, useRouter } from 'next/navigation';
 import { toPng } from 'html-to-image';
 import { AppShell } from '@/components/layout/AppShell';
+import { ALL_PEOPLE, getZodiacSign } from '@/data/birthdays';
 
 interface FigureOption {
   id: string;
@@ -18,11 +19,20 @@ export default function BirthdayCardStudioPage() {
   const params = useParams();
   const router = useRouter();
 
-  // date param like "2-22" or "22-02"
-  const dateStr = (params.date as string) || '2-22';
+  // date param like "22-2" or "5-10"
+  const dateStr = (params.date as string) || '22-2';
   const parts = dateStr.split('-');
-  const paramMonth = parseInt(parts[0], 10) <= 12 ? parseInt(parts[0], 10) : parseInt(parts[1], 10) || 2;
-  const paramDay = parseInt(parts[0], 10) > 12 ? parseInt(parts[0], 10) : parseInt(parts[1], 10) || 22;
+  let paramDay = parseInt(parts[0], 10);
+  let paramMonth = parseInt(parts[1], 10);
+
+  // If format was accidentally M-D with day > 12 (e.g. legacy "2-22")
+  if (paramDay <= 12 && paramMonth > 12) {
+    const tmp = paramDay;
+    paramDay = paramMonth;
+    paramMonth = tmp;
+  }
+  if (!paramDay || isNaN(paramDay)) paramDay = 22;
+  if (!paramMonth || isNaN(paramMonth)) paramMonth = 2;
 
   // Studio States
   const [activeTheme, setActiveTheme] = useState<'cosmic' | 'royal' | 'minimal' | 'pop'>('cosmic');
@@ -35,58 +45,30 @@ export default function BirthdayCardStudioPage() {
 
   const cardRef = useRef<HTMLDivElement>(null);
 
-  // Available figures to select
-  const availableFigures: FigureOption[] = [
-    {
-      id: 'george-washington',
-      name: 'George Washington',
-      role: 'Tổng thống đầu tiên của Hoa Kỳ (1732)',
-      image: '/people/george-washington.png',
-      birthYear: 1732,
-    },
-    {
-      id: 'steve-irwin',
-      name: 'Steve Irwin',
-      role: 'Nhà bảo tồn hoang dã vĩ đại (1962)',
-      image: '/people/steve-irwin.png',
-      birthYear: 1962,
-    },
-    {
-      id: 'drew-barrymore',
-      name: 'Drew Barrymore',
-      role: 'Minh tinh Hollywood & Đạo diễn (1975)',
-      image: '/people/drew-barrymore.png',
-      birthYear: 1975,
-    },
-    {
-      id: 'arthur-schopenhauer',
-      name: 'Arthur Schopenhauer',
-      role: 'Triết gia vĩ đại thế kỷ 19 (1788)',
-      image: '/people/arthur-schopenhauer.png',
-      birthYear: 1788,
-    },
-    {
-      id: 'heinrich-hertz',
-      name: 'Heinrich Hertz',
-      role: 'Nhà vật lý tìm ra sóng điện từ (1857)',
-      image: '/people/heinrich-hertz.png',
-      birthYear: 1857,
-    },
-    {
-      id: 'niki-lauda',
-      name: 'Niki Lauda',
-      role: 'Huyền thoại 3 lần vô địch đua xe F1 (1949)',
-      image: '/people/niki-lauda.png',
-      birthYear: 1949,
-    },
-  ];
+  // Available figures derived strictly from ALL_PEOPLE for this date
+  const dayPeople = useMemo(
+    () => ALL_PEOPLE.filter((p) => p.birthMonth === paramMonth && p.birthDay === paramDay),
+    [paramMonth, paramDay]
+  );
 
-  const [selectedFigureIds, setSelectedFigureIds] = useState<string[]>([
-    'george-washington',
-    'steve-irwin',
-    'drew-barrymore',
-    'arthur-schopenhauer',
-  ]);
+  const availableFigures: FigureOption[] = useMemo(
+    () =>
+      dayPeople.map((p) => ({
+        id: p.id,
+        name: p.name,
+        role: `${p.shortDescription || p.categoryLabel} (${p.birthYear})`,
+        image: p.image,
+        birthYear: p.birthYear,
+      })),
+    [dayPeople]
+  );
+
+  const [selectedFigureIds, setSelectedFigureIds] = useState<string[]>([]);
+
+  useEffect(() => {
+    setSelectedFigureIds(availableFigures.slice(0, 4).map((f) => f.id));
+    setDisplayDate(`${paramDay} Tháng ${paramMonth}`);
+  }, [availableFigures, paramDay, paramMonth]);
 
   const toggleFigure = (id: string) => {
     setSelectedFigureIds((prev) => {
@@ -186,7 +168,7 @@ export default function BirthdayCardStudioPage() {
                   <span className="material-symbols-outlined text-[18px]">auto_awesome</span>
                   <span className="tracking-wide uppercase">Astral Creator Studio</span>
                   <span className="text-outline-variant">•</span>
-                  <span className="text-on-surface-variant font-medium">Bản phát hành chính thức 2026</span>
+                  <span className="text-on-surface-variant font-medium">Bản phát hành chính thức {new Date().getFullYear()}</span>
                 </div>
                 <h1 className="font-display-hero text-3xl sm:text-4xl font-extrabold text-on-surface tracking-tight">
                   Tạo &amp; Tùy Biến Thẻ Chia Sẻ
@@ -425,45 +407,56 @@ export default function BirthdayCardStudioPage() {
                     </span>
                   </div>
 
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-space-sm pt-space-xs">
-                    {availableFigures.map((fig) => {
-                      const isSelected = selectedFigureIds.includes(fig.id);
-                      return (
-                        <label
-                          key={fig.id}
-                          className={`group flex items-center justify-between p-3 rounded-2xl cursor-pointer transition-all border ${
-                            isSelected
-                              ? 'bg-surface-container-high border-primary/40 shadow-sm'
-                              : 'bg-surface-container-low hover:bg-surface-container border-transparent'
-                          }`}
-                        >
-                          <div className="flex items-center gap-space-sm min-w-0">
-                            <div className="w-10 h-10 rounded-full bg-surface-container-high overflow-hidden shrink-0 ring-1 ring-outline-variant/30">
-                              <img
-                                alt={fig.name}
-                                src={fig.image}
-                                className="w-full h-full object-cover"
-                              />
+                  {availableFigures.length > 0 ? (
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-space-sm pt-space-xs">
+                      {availableFigures.map((fig) => {
+                        const isSelected = selectedFigureIds.includes(fig.id);
+                        return (
+                          <label
+                            key={fig.id}
+                            className={`group flex items-center justify-between p-3 rounded-2xl cursor-pointer transition-all border ${
+                              isSelected
+                                ? 'bg-surface-container-high border-primary/40 shadow-sm'
+                                : 'bg-surface-container-low hover:bg-surface-container border-transparent'
+                            }`}
+                          >
+                            <div className="flex items-center gap-space-sm min-w-0">
+                              <div className="w-10 h-10 rounded-full bg-surface-container-high overflow-hidden shrink-0 ring-1 ring-outline-variant/30">
+                                <img
+                                  alt={fig.name}
+                                  src={fig.image}
+                                  className="w-full h-full object-cover"
+                                />
+                              </div>
+                              <div className="flex flex-col min-w-0">
+                                <span className="font-label-md text-label-md text-on-surface font-semibold truncate group-hover:text-primary transition-colors">
+                                  {fig.name}
+                                </span>
+                                <span className="font-label-sm text-[11px] text-on-surface-variant truncate">
+                                  {fig.role}
+                                </span>
+                              </div>
                             </div>
-                            <div className="flex flex-col min-w-0">
-                              <span className="font-label-md text-label-md text-on-surface font-semibold truncate group-hover:text-primary transition-colors">
-                                {fig.name}
-                              </span>
-                              <span className="font-label-sm text-[11px] text-on-surface-variant truncate">
-                                {fig.role}
-                              </span>
-                            </div>
-                          </div>
-                          <input
-                            type="checkbox"
-                            checked={isSelected}
-                            onChange={() => toggleFigure(fig.id)}
-                            className="rounded text-primary w-5 h-5 accent-primary cursor-pointer shrink-0 ml-2"
-                          />
-                        </label>
-                      );
-                    })}
-                  </div>
+                            <input
+                              type="checkbox"
+                              checked={isSelected}
+                              onChange={() => toggleFigure(fig.id)}
+                              className="rounded text-primary w-5 h-5 accent-primary cursor-pointer shrink-0 ml-2"
+                            />
+                          </label>
+                        );
+                      })}
+                    </div>
+                  ) : (
+                    <div className="py-8 px-4 text-center flex flex-col items-center justify-center gap-2 bg-surface-container-low/40 rounded-2xl border border-surface-container-high/60">
+                      <p className="text-sm font-semibold text-on-surface">
+                        Chưa có dữ liệu nhân vật đã xác minh sinh ngày {paramDay} tháng {paramMonth}
+                      </p>
+                      <p className="text-xs text-on-surface-variant">
+                        Bạn vẫn có thể tùy biến thẻ chia sẻ cá nhân với các chủ đề và thông điệp phía trên.
+                      </p>
+                    </div>
+                  )}
                 </div>
 
                 {/* Section 4: Export Ratio & Output Format */}
@@ -610,33 +603,44 @@ export default function BirthdayCardStudioPage() {
                       </p>
 
                       {/* Luminaries Portraits Stack in Preview */}
-                      <div className="mt-5 flex items-center gap-3">
-                        <div className="flex -space-x-3">
-                          {selectedFiguresList.slice(0, 4).map((f) => (
-                            <img
-                              key={f.id}
-                              alt={f.name}
-                              src={f.image}
-                              className="w-12 h-12 rounded-full object-cover ring-2 ring-white/90 shadow-md"
-                            />
-                          ))}
+                      {selectedFiguresList.length > 0 ? (
+                        <div className="mt-5 flex items-center gap-3">
+                          <div className="flex -space-x-3">
+                            {selectedFiguresList.slice(0, 4).map((f) => (
+                              <img
+                                key={f.id}
+                                alt={f.name}
+                                src={f.image}
+                                className="w-12 h-12 rounded-full object-cover ring-2 ring-white/90 shadow-md"
+                              />
+                            ))}
+                          </div>
+                          <div className="flex flex-col">
+                            <span className="text-xs font-bold text-white">
+                              {selectedFiguresList.map((f) => f.name.split(' ').pop()).join(', ')}
+                            </span>
+                            <span className="text-[11px] text-white/70">
+                              {availableFigures.length > selectedFiguresList.length
+                                ? `và ${availableFigures.length - selectedFiguresList.length} nhân vật khác`
+                                : `nhân vật cùng ngày sinh`}
+                            </span>
+                          </div>
                         </div>
-                        <div className="flex flex-col">
-                          <span className="text-xs font-bold text-white">
-                            {selectedFiguresList.map((f) => f.name.split(' ').pop()).join(', ')}
-                          </span>
-                          <span className="text-[11px] text-white/70">
-                            và hơn 180 nhân vật lịch sử
+                      ) : (
+                        <div className="mt-5 flex items-center gap-2 p-3 rounded-2xl bg-white/10 backdrop-blur-md">
+                          <span className="material-symbols-outlined text-[20px] text-white/80">auto_awesome</span>
+                          <span className="text-xs text-white/90 font-medium">
+                            Ngày đặc biệt mang dấu ấn của riêng bạn
                           </span>
                         </div>
-                      </div>
+                      )}
                     </div>
 
                     {/* Bottom Card Footer */}
                     <div className={`relative z-10 pt-3 border-t ${selectedThemeStyle.footerBorder} flex items-center justify-between text-xs`}>
                       <div className="flex items-center gap-1.5 font-semibold text-white/80">
                         <span className="material-symbols-outlined text-[15px]">stars</span>
-                        <span>Song Ngư (Pisces)</span>
+                        <span>{getZodiacSign(paramDay, paramMonth)}</span>
                       </div>
                       <span className="text-[11px] text-white/60 font-medium">
                         birthdayverse.me

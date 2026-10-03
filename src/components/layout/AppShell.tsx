@@ -365,7 +365,7 @@ export const AppShell: React.FC<AppShellProps> = ({
 
             <div className="pt-space-lg border-t border-surface-container flex flex-col sm:flex-row items-center justify-between gap-space-sm font-body-sm text-body-sm text-on-surface-variant">
               <p>
-                © 2025 BirthdayVerse. Sinh Nhật Cùng Ai. Nền tảng khám phá niên biểu &amp; nhân vật lịch sử.
+                © {new Date().getFullYear()} BirthdayVerse. Sinh Nhật Cùng Ai. Nền tảng khám phá niên biểu &amp; nhân vật lịch sử.
               </p>
               <p className="font-label-sm text-label-sm text-on-surface-variant">
                 Designed with Astral Editorial Minimal
