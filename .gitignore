@@ -5,4 +5,4 @@ node_modules
 *.log
 *.tsbuildinfo
 
-.ai/gemini/gemini.lock
+.ai/hop-thu-mybirthday/gemini.lock

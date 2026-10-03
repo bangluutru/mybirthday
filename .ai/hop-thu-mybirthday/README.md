@@ -1,6 +1,6 @@
-# Hộp thư Claude Code ↔ Gemini 3.8 (Antigravity) cho BirthdayVerse
+# hop-thu-mybirthday: Claude Code ↔ Gemini 3.8 (Antigravity) cho BirthdayVerse
 
-Cùng cơ chế với `123manabi/hop-thu-gemini`. Thư mục dự án: `/Users/tranhaibang/.gemini/antigravity-ide/scratch/xtools/mybirthday/`. Hộp thư: `.ai/gemini/` (trong repo).
+Cùng cơ chế với `123manabi/hop-thu-gemini`. Thư mục dự án: `/Users/tranhaibang/.gemini/antigravity-ide/scratch/xtools/mybirthday/`. Hộp thư: `.ai/hop-thu-mybirthday/` (trong repo).
 
 ```
 viec/B001-….md   ← Claude giao việc (Gemini làm đúng việc này)

@@ -14,10 +14,10 @@ Reviewer:
 Claude Code
 
 Executor:
-Gemini 3.8 (Antigravity), qua hộp thư `.ai/gemini/`
+Gemini 3.8 (Antigravity), qua hộp thư `.ai/hop-thu-mybirthday/`
 
 Active task:
-B001 — `.ai/gemini/viec/B001-purge-hardcoded-facts.md`
+B001 — `.ai/hop-thu-mybirthday/viec/B001-purge-hardcoded-facts.md`
 
 Goal:
 Mọi dữ kiện hiển thị cho người dùng phải đến từ `src/data/birthdays.ts`. Loại số "183", thống kê bịa, Einstein/Steve Jobs trong montage 22/2, trục sự kiện 1495/1848/1946, trích dẫn Mark Twain, danh sách người hard-code ở trang share, bản sao sự kiện ở trang day. Thêm test Rule J/K/L bắt loại lỗi này.
@@ -27,4 +27,4 @@ DO NOT add people or events.
 DO NOT start B002 before B001 is accepted.
 
 Previous cycle: BV-001R1 — ACCEPTED (commit 3d875a0).
-Roadmap: `.ai/gemini/KE-HOACH.md`.
+Roadmap: `.ai/hop-thu-mybirthday/KE-HOACH.md`.

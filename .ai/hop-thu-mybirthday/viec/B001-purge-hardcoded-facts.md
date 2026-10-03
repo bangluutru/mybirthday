@@ -67,7 +67,7 @@ Sửa `README.md` cho khớp thực tế mới (không còn Einstein/Steve Jobs/
 **Không** sửa: `package.json`, lock, `.ai/REVIEW.md`, `.ai/STATUS.md`, `AGENTS.md`, `public/`, `tailwind.config.js`, các file ngoài danh sách trên. Không thêm nhân vật vào `ALL_PEOPLE`, không đổi nội dung/nguồn của 4 sự kiện và của 30 người.
 
 ## 4. Trình tự làm việc (theo thứ tự)
-1. `cd` vào thư mục dự án. Đọc `AGENTS.md`, `.ai/gemini/README.md`, file này.
+1. `cd` vào thư mục dự án. Đọc `AGENTS.md`, `.ai/hop-thu-mybirthday/README.md`, file này.
 2. Chạy baseline và dán kết quả vào báo cáo mục "Baseline": `npm test`, `npm run lint`, `npx tsc --noEmit`.
 3. `grep -rnE "is22Feb|183|1495|1848|1946|Jobs|Einstein|Twain|Vasco|Bác Hồ" src README.md` và ghi kết quả vào `nhap/B001-grep-truoc.txt`. Đây là danh sách việc.
 4. **Viết Rule J/K/L trước**, chạy `npm test`, xác nhận FAIL đúng lý do (lưu đầu ra vào `nhap/B001-test-fail.txt`).

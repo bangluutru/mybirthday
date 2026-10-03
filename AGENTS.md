@@ -100,9 +100,9 @@ Do NOT automatically fix it unless necessary for safety or correctness.
 
 ## Chế độ hộp thư Claude ↔ Gemini (ghi đè bảng vai trò ở trên, từ 2026-10-03)
 
-Theo yêu cầu của chủ dự án, cycle BV-002 trở đi chạy qua hộp thư `.ai/gemini/` (cùng cơ chế với 123manabi):
+Theo yêu cầu của chủ dự án, cycle BV-002 trở đi chạy qua hộp thư `.ai/hop-thu-mybirthday/` (cùng cơ chế với 123manabi):
 
 - Claude Code: reviewer, định nghĩa acceptance criteria, **người duy nhất commit/push**.
-- Gemini 3.8 (Antigravity): executor; làm đúng việc trong `.ai/gemini/viec/`, nộp báo cáo vào `.ai/gemini/xong/`, **không chạy git**, không sửa `.ai/REVIEW.md`/`.ai/STATUS.md`.
-- Quy trình, quy tắc cứng và câu lệnh khởi động: `.ai/gemini/README.md`, `.ai/gemini/GEMINI-PROMPT.md`.
+- Gemini 3.8 (Antigravity): executor; làm đúng việc trong `.ai/hop-thu-mybirthday/viec/`, nộp báo cáo vào `.ai/hop-thu-mybirthday/xong/`, **không chạy git**, không sửa `.ai/REVIEW.md`/`.ai/STATUS.md`.
+- Quy trình, quy tắc cứng và câu lệnh khởi động: `.ai/hop-thu-mybirthday/README.md`, `.ai/hop-thu-mybirthday/GEMINI-PROMPT.md`.
 - Phần "Scope discipline" và state machine ở trên vẫn áp dụng nguyên vẹn.

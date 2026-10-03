@@ -1,4 +1,4 @@
-# Kế hoạch giao việc Gemini 3.8 cho BirthdayVerse (Claude đọc để giao việc kế tiếp)
+# hop-thu-mybirthday: kế hoạch giao việc Gemini 3.8 (Claude đọc để giao việc kế tiếp)
 
 Nguyên tắc: đúng sự thật > số lượng; mỗi việc nhỏ có chốt kiểm bằng test máy; chỉ giao việc kế tiếp khi việc trước `DAT`. Một việc `CHUA_DAT` hai lần liên tiếp, hoặc lỗi hệ thống lặp lại → ngừng giao, ghi "CẦN CHỦ DỰ ÁN: …" vào `nhat-ky.md`.
 
