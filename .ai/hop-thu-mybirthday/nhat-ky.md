@@ -6,3 +6,4 @@
 | 2026-10-03 | Claude | B002 | Giao việc: hạ tầng dữ liệu theo tháng + verifiedAt + coverage (chu kỳ BV-003) |
 | 2026-10-03 16:00 | Gemini | B002 | Nộp báo cáo xong/B002-monthly-data-infra.md (R1-R6 hoàn thành, diff snapshot rỗng, HTML trước/sau khớp 100%, coverage 12/366, test Rules 0/A-O pass, tsc/lint/build sạch) |
 | 2026-10-03 | Claude | B002 | Review: SUA (1 chỗ: `as any` x2 trong test-integrity.ts). Đối chiếu độc lập 366 ngày + slug + sự kiện: giống hệt |
+| 2026-10-03 | Claude | B003 | Chủ dự án chọn Wikidata CC0 + rà soát từng ngày 1/1→31/12. Soạn bản nháp B003 (1/1–15/1) trong viec-cho/, giao sau khi B002 DAT |

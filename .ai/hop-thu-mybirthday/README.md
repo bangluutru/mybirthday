@@ -4,6 +4,7 @@ Cùng cơ chế với `123manabi/hop-thu-gemini`. Thư mục dự án: `/Users/t
 
 ```
 viec/B001-….md   ← Claude giao việc (Gemini làm đúng việc này)
+viec-cho/…       ← bản nháp việc chưa giao (Gemini KHÔNG làm; Claude chuyển sang viec/ khi việc trước DAT)
 xong/B001-….md   ← Gemini báo xong (lần sửa k → B001-…-v<k>.md)
 review/B001-….md ← Claude review (dòng đầu: KET_QUA: DAT | SUA | CHUA_DAT)
 ```
