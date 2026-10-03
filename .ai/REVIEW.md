@@ -1,222 +1,107 @@
-# BV-001
-DATA INTEGRITY & FACTUAL GROUNDING
+# BV-001R1
+DATA INTEGRITY & FACTUAL VERIFICATION CLOSURE
 
 Cycle ID:
-BV-001
+BV-001R1
+
+State:
+CHANGES_REQUESTED
 
 Priority:
 P0
 
 Goal:
-Make the existing BirthdayVerse application trustworthy BEFORE expanding the database to all 366 calendar dates.
+Address Reviewer inspection feedback for commit 77c7cc04d2d6ef0d8af3416e50b9a854420219e8.
+Ensure strict factual verification of all persons and history events, enforce deterministic calendar validation, eliminate commit SHA prediction discrepancies, and close BV-001.
 
-DO NOT redesign the application.
-DO NOT expand the dataset broadly.
-DO NOT add major features.
-
-============================================================
-1. PERSON BIRTHDAY AUDIT
-============================================================
-
-Audit:
-src/data/birthdays.ts
-
-There are known records whose `birthDate` conflicts with `birthMonth` / `birthDay`.
-
-Known examples include:
-Jules Verne
-Edvard Munch
-Trịnh Công Sơn
-Ngô Bảo Châu
-Enzo Ferrari
-Elizabeth Taylor
-Mandy Moore
-Lleyton Hewitt
-
-Do NOT assume this list is exhaustive.
-Audit the entire dataset.
-
-For every person:
-verify:
-birthDate
-birthYear
-birthMonth
-birthDay
-
-Correct all inconsistencies.
-
-IMPORTANT:
-If a person is not actually born on February 22, remove that person from February-22 results.
-Do NOT change their real birthday to February 22.
-
-Examples currently suspected:
-Jules Verne — 08 February
-Edvard Munch — 12 December
-Trịnh Công Sơn — 28 February
-Ngô Bảo Châu — 28 June
-Enzo Ferrari — 18 February
-Elizabeth Taylor — 27 February
-Mandy Moore — 10 April
-Lleyton Hewitt — 24 February
-
-Verify facts rather than blindly trusting this directive.
-When reliable data is unavailable: remove the questionable record from the birthday result.
-Correctness > number of people displayed.
+DO NOT redesign UI.
+DO NOT expand the database broadly.
+DO NOT start BV-002.
 
 ============================================================
-2. VERIFIED 22 FEBRUARY GOLDEN DATASET
+TASK 1 — STATUS COMMIT ACCURACY
 ============================================================
 
-After removing incorrect records, keep a smaller but trustworthy 22-February dataset.
+.ai/STATUS.md previously reported:
+dbba86dd8a2f6c1a6da61e51ec94c5b3cbd65ed0
+whereas the actual commit visible on main was:
+77c7cc04d2d6ef0d8af3416e50b9a854420219e8
 
-Potential real 22-February candidates include, but MUST still be verified before inclusion:
-George Washington
-Arthur Schopenhauer
-Robert Baden-Powell
-Edna St. Vincent Millay
-Renato Dulbecco
-Edward Gorey
-James Hong
-J. Michael Bishop
-Kyle MacLachlan
-Steve Irwin
-Drew Barrymore
-Rajon Rondo
-Han Hyo-joo
-Sergio Romero
-Nam Joo-hyuk
-Harry Brook
-
-Do not blindly copy this list.
-Verify every date.
-Prefer reliable/open sources.
-Store provenance when practical.
+Protocol correction:
+Never fabricate or predict a SHA before Git creates it.
+Distinguish:
+Implementation Commit: <sha>
+Status/Closure Commit: <sha or PENDING>
 
 ============================================================
-3. AUTOMATED DATA-INTEGRITY VALIDATION
+TASK 2 — INDEPENDENT FACTUAL SOURCE AUDIT
 ============================================================
 
-Create deterministic validation/tests.
+Audit every person currently included in the February-22 golden dataset.
+For each person verify that the cited source actually supports:
+- name
+- exact birth date
+- relevant factual fields shown by the application
 
-The build/test system MUST detect:
-A. malformed birthDate
-B. birthYear !== YEAR(birthDate)
-C. birthMonth !== MONTH(birthDate)
-D. birthDay !== DAY(birthDate)
-E. duplicate person IDs
-F. duplicate slugs
-G. birthday query contamination:
-   For every getBirthdayData(month, day), every returned person MUST satisfy:
-   person.birthMonth === month AND person.birthDay === day
-
-Tests must run locally.
-Tests must NOT require an external API.
-Tests must NOT require an LLM.
+Do not treat the existence of sourceUrls as verification; the source itself must support the claim.
+Remove or correct records whose evidence is insufficient.
 
 ============================================================
-4. FIX /today
+TASK 3 — HISTORY SOURCE AUDIT
 ============================================================
 
-Audit the `/today` implementation.
-It currently contains or previously contained behavior equivalent to:
-day = 22, month = 2 for demonstration purposes.
+Independently verify every exact-day February-22 history event:
+- 1632: Galileo / Dialogue (Audited: exact Feb 22 publication date cannot be reliably established beyond doubt -> REMOVED)
+- 1732: George Washington birth (Audited & Confirmed: Feb 22, 1732 New Style, Library of Congress)
+- 1819: Adams–Onís Treaty (Audited & Confirmed: Feb 22, 1819 signed in Washington, US State Dept Office of Historian / LoC)
+- 1980: Miracle on Ice (Audited & Confirmed: Feb 22, 1980 at Lake Placid, International Olympic Committee)
+- 1997: Dolly announcement (Audited & Confirmed: Feb 22, 1997 public announcement at Roslin Institute / National Museum of Scotland / BBC)
 
-Remove this.
-`/today` must resolve the actual current calendar date.
-Handle timezone/client/server hydration carefully.
-Avoid hydration mismatch.
-If today's date has no seed data: show an intentional, attractive empty/sparse state.
-Do NOT substitute February 22.
-Do NOT fabricate people.
+Correctness > quantity.
 
 ============================================================
-5. HISTORY DATA AUDIT
+TASK 4 — SOURCE QUALITY
 ============================================================
 
-Treat the existing history seed as UNVERIFIED until audited.
+Prefer:
+- official institutions
+- government archives
+- universities
+- Nobel Prize
+- Britannica
+- reputable museums/institutions
 
-Known problematic examples include:
-- Vasco da Gama reaching India: incorrectly associated with February 22.
-- Arab League founding: incorrectly associated with February 22.
-- Communist Manifesto publication: may not have sufficiently reliable evidence for an exact February-22 publication date.
-
-Audit ALL exact-day history records.
-
-Rule:
-If the exact month/day cannot be supported reliably, it must NOT appear as an exact-day historical event.
-Never convert: "February 1848" into "22 February 1848" without evidence.
-Prefer removing questionable events over filling the page.
-
-============================================================
-6. HISTORY PROVENANCE
-============================================================
-
-Where practical, history records should support:
-sourceUrls: string[]
-or an equivalent provenance field.
-
-Do not invent URLs.
-Do not use an LLM-generated statement as factual provenance.
+Do not use:
+- AI-generated sources
+- SEO birthday sites as primary authority
+- unsourced blogs
+- fabricated URLs
+No paid APIs.
 
 ============================================================
-7. ASTROLOGY SCOPE
+TASK 5 — VALIDATION QUALITY
 ============================================================
 
-Do NOT perform a major redesign during BV-001.
-Existing harmless zodiac trivia may remain.
-However:
-Do not present astrology-derived personality, intelligence, ability, compatibility, future prediction, life outcome as factual information.
-
-The core BirthdayVerse hierarchy remains:
-Birthday ↓ People ↓ History ↓ Stories ↓ Share
-
-Astrology is optional entertainment/trivia only.
+Deterministic calendar validation in scripts/test-integrity.ts:
+- Reject impossible dates (e.g. 2020-02-31, 2021-04-31, 2023-02-29, 1900-02-29).
+- Unit tests validating leap-year algorithm and rejection of invalid calendar dates.
 
 ============================================================
-8. FAVORITES DATA
+TASK 6 — QUERY INVARIANTS
 ============================================================
 
-Inspect the current favorites implementation.
-If full `Person` objects are persisted in localStorage, evaluate whether safely migrating to:
-favoriteIds: string[]
-is practical within this cycle.
-
-Reason: stored Person snapshots can become stale when factual records are corrected.
-Do this ONLY if the change is low-risk.
-Otherwise report it under Reviewer Attention for the next cycle.
+Reconfirm zero query contamination across all 366 calendar dates.
 
 ============================================================
-9. /people ROUTE
+TASK 7 — REGRESSION & BUILD
 ============================================================
 
-If `/people` merely redirects to:
-/birthday/2/22/people
-do not redesign it during BV-001.
-Report this under Reviewer Attention.
-It may later become a global People Explorer.
+All tests, lint, typecheck, build, and HTTP smoke tests must pass without warnings treated as errors.
 
 ============================================================
-10. REGRESSION CHECK
+TASK 8 — PROTOCOL UPDATE & STOP
 ============================================================
 
-Verify that these existing flows still work:
-Home, Birthday picker, /birthday/2/22, People list, Person detail, Exact birthday, On This Day / history, Share, Today, Favorites, Mobile navigation, Desktop navigation, Responsive desktop layout.
-
-============================================================
-11. UI FREEZE
-============================================================
-
-Existing visual work is valuable.
-During BV-001:
-DO NOT: redesign Home, replace desktop design, replace mobile design, simplify product into generic cards/forms, remove existing visual assets unnecessarily, change overall visual identity.
-Only make UI changes required to correctly represent factual or empty data.
-
-============================================================
-12. REQUIRED ENGINEERING CHECKS
-============================================================
-
-Run at minimum all applicable existing commands:
-install/dependency validation, lint, typecheck, tests, production build.
-Use the project's actual package manager.
-Do not claim a command passed unless it was actually executed.
-If no test framework currently exists: introduce only the smallest appropriate deterministic solution needed for data-integrity validation. Do not overengineer.
+Update .ai/STATUS.md (Cycle: BV-001R1, State: WAITING_FOR_REVIEW).
+Commit and push to origin/main.
+STOP.

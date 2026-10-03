@@ -15,20 +15,64 @@ function assert(suite: string, condition: boolean, message: string) {
 }
 
 console.log('============================================================');
-console.log('BIRTHDAYVERSE — DATA INTEGRITY & FACTUAL SUITE (BV-001)');
+console.log('BIRTHDAYVERSE — DATA INTEGRITY & FACTUAL SUITE (BV-001R1)');
 console.log('============================================================\n');
 
 // ------------------------------------------------------------
-// Test A: Malformed birthDate
+// Deterministic Calendar Validator
 // ------------------------------------------------------------
-console.log('Checking Rule A: Malformed birthDate...');
+export function isLeapYear(year: number): boolean {
+  return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
+}
+
+export function isValidCalendarDate(year: number, month: number, day: number): boolean {
+  if (!Number.isInteger(year) || !Number.isInteger(month) || !Number.isInteger(day)) return false;
+  if (year < 1 || month < 1 || month > 12 || day < 1) return false;
+
+  const daysInMonth = [31, isLeapYear(year) ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+  return day <= daysInMonth[month - 1];
+}
+
+// ------------------------------------------------------------
+// Test 0: Calendar Validator Unit Tests (Negative & Positive Invariants)
+// ------------------------------------------------------------
+console.log('Checking Test 0: Deterministic calendar validator negative & positive assertions...');
+assert('Test 0 (Negative)', !isValidCalendarDate(2020, 2, 31), 'Must reject 2020-02-31 (Feb 31 impossible)');
+assert('Test 0 (Negative)', !isValidCalendarDate(2021, 4, 31), 'Must reject 2021-04-31 (April has 30 days)');
+assert('Test 0 (Negative)', !isValidCalendarDate(2023, 2, 29), 'Must reject 2023-02-29 (2023 is not leap year)');
+assert('Test 0 (Negative)', !isValidCalendarDate(1900, 2, 29), 'Must reject 1900-02-29 (1900 is not leap year - divisible by 100 but not 400)');
+assert('Test 0 (Negative)', !isValidCalendarDate(2022, 6, 31), 'Must reject 2022-06-31 (June has 30 days)');
+assert('Test 0 (Negative)', !isValidCalendarDate(2022, 9, 31), 'Must reject 2022-09-31 (September has 30 days)');
+assert('Test 0 (Negative)', !isValidCalendarDate(2022, 11, 31), 'Must reject 2022-11-31 (November has 30 days)');
+assert('Test 0 (Negative)', !isValidCalendarDate(2022, 0, 15), 'Must reject month 0');
+assert('Test 0 (Negative)', !isValidCalendarDate(2022, 13, 15), 'Must reject month 13');
+assert('Test 0 (Negative)', !isValidCalendarDate(2022, 5, 0), 'Must reject day 0');
+assert('Test 0 (Negative)', !isValidCalendarDate(2022, 5, 32), 'Must reject day 32');
+
+assert('Test 0 (Positive)', isValidCalendarDate(2024, 2, 29), 'Must accept 2024-02-29 (2024 is leap year)');
+assert('Test 0 (Positive)', isValidCalendarDate(2000, 2, 29), 'Must accept 2000-02-29 (2000 is leap year - divisible by 400)');
+assert('Test 0 (Positive)', isValidCalendarDate(1732, 2, 22), 'Must accept 1732-02-22');
+assert('Test 0 (Positive)', isValidCalendarDate(1975, 2, 22), 'Must accept 1975-02-22');
+assert('Test 0 (Positive)', isValidCalendarDate(1984, 4, 10), 'Must accept 1984-04-10');
+assert('Test 0 (Positive)', isValidCalendarDate(1939, 2, 28), 'Must accept 1939-02-28');
+
+// ------------------------------------------------------------
+// Test A: Malformed birthDate & Impossible Calendar Dates
+// ------------------------------------------------------------
+console.log('Checking Rule A: Malformed birthDate & deterministic calendar validity...');
 const dateRegex = /^\d{4}-\d{2}-\d{2}$/;
 for (const p of ALL_PEOPLE) {
   assert('Rule A', typeof p.birthDate === 'string' && dateRegex.test(p.birthDate), `Person "${p.id}" has invalid birthDate format: "${p.birthDate}"`);
-  if (p.birthDate) {
+  if (p.birthDate && dateRegex.test(p.birthDate)) {
     const [y, m, d] = p.birthDate.split('-').map(Number);
-    const isValidDate = m >= 1 && m <= 12 && d >= 1 && d <= 31 && y > 0;
-    assert('Rule A', isValidDate, `Person "${p.id}" has invalid calendar date components: ${p.birthDate}`);
+    assert('Rule A', isValidCalendarDate(y, m, d), `Person "${p.id}" has impossible calendar birthDate: ${p.birthDate}`);
+  }
+
+  if (p.deathDate) {
+    assert('Rule A', typeof p.deathDate === 'string' && dateRegex.test(p.deathDate), `Person "${p.id}" has invalid deathDate format: "${p.deathDate}"`);
+    const [dy, dm, dd] = p.deathDate.split('-').map(Number);
+    assert('Rule A', isValidCalendarDate(dy, dm, dd), `Person "${p.id}" has impossible calendar deathDate: ${p.deathDate}`);
+    assert('Rule A', p.deathDate >= p.birthDate, `Person "${p.id}" deathDate (${p.deathDate}) precedes birthDate (${p.birthDate})`);
   }
 }
 
@@ -109,11 +153,16 @@ for (let m = 1; m <= 12; m++) {
 }
 
 // ------------------------------------------------------------
-// Test H: History Events Provenance & Factual Integrity
+// Test H: History Events Provenance & Strict Factual Verification
 // ------------------------------------------------------------
 console.log('Checking Rule H: History events integrity and provenance...');
+// Strict assertion: Galileo 1632 event MUST be removed (unverified exact date)
+const galileoEvent = HISTORY_EVENTS_22_FEB.find((ev) => ev.id === 'event-1632');
+assert('Rule H', !galileoEvent, 'Galileo 1632 event must be removed from Feb 22 (unverified exact date)');
+
 for (const ev of HISTORY_EVENTS_22_FEB) {
   assert('Rule H', typeof ev.year === 'number' && !isNaN(ev.year), `History event "${ev.id}" invalid year: ${ev.year}`);
+  assert('Rule H', isValidCalendarDate(ev.year, ev.month, ev.day), `History event "${ev.id}" has impossible date: ${ev.year}-${ev.month}-${ev.day}`);
   assert('Rule H', Boolean(ev.title && ev.title.trim()), `History event "${ev.id}" missing title`);
   assert('Rule H', Boolean(ev.description && ev.description.trim()), `History event "${ev.id}" missing description`);
   assert(
@@ -123,6 +172,9 @@ for (const ev of HISTORY_EVENTS_22_FEB) {
   );
   assert('Rule H', ev.month === 2 && ev.day === 22, `History event "${ev.id}" date is not 22/02: ${ev.month}/${ev.day}`);
 }
+
+// Exactly 4 audited and verified events for Feb 22
+assert('Rule H', HISTORY_EVENTS_22_FEB.length === 4, `Expected exactly 4 verified Feb 22 history events, found: ${HISTORY_EVENTS_22_FEB.length}`);
 
 // Check non-22-Feb dates have zero fabricated events
 for (let m = 1; m <= 12; m++) {
@@ -134,6 +186,22 @@ for (let m = 1; m <= 12; m++) {
       data.events.length === 0,
       `Fabricated history events returned for non-benchmark date ${m}/${d}: count=${data.events.length}`
     );
+  }
+}
+
+// ------------------------------------------------------------
+// Test I: Authoritative Source Quality Audit
+// ------------------------------------------------------------
+console.log('Checking Rule I: Authoritative source provenance for people...');
+for (const p of ALL_PEOPLE) {
+  assert('Rule I', Array.isArray(p.sourceUrls) && p.sourceUrls.length > 0, `Person "${p.id}" has no sourceUrls`);
+  if (p.sourceUrls) {
+    for (const url of p.sourceUrls) {
+      assert('Rule I', typeof url === 'string' && url.startsWith('http'), `Person "${p.id}" has invalid URL: "${url}"`);
+      // Reject spam/SEO sites
+      const isSeoSite = url.includes('famousbirthdays.com') || url.includes('thefamouspeople.com');
+      assert('Rule I', !isSeoSite, `Person "${p.id}" uses disallowed SEO birthday source: "${url}"`);
+    }
   }
 }
 

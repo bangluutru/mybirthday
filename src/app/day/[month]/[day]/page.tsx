@@ -37,20 +37,6 @@ export default function HistoryTimelinePage() {
   const events: HistoryTimelineItem[] = is22Feb
     ? [
         {
-          id: 'event-1632',
-          year: 1632,
-          category: 'science',
-          categoryLabel: 'Khoa học & Thiên văn',
-          categoryColor: 'bg-primary-fixed text-on-primary-fixed-variant',
-          title: 'Galileo Galilei xuất bản "Đối thoại về hai hệ thống thế giới chính"',
-          description: 'Bước ngoặt khai sinh phương pháp khoa học và thiên văn học hiện đại',
-          details:
-            'Tác phẩm thiên văn học mang tính cách mạng của Galileo Galilei được in tại Florence, ủng hộ và bảo vệ thuyết nhật tâm của Copernicus trước Tòa án dị giáo La Mã.',
-          image: '/illustrations/treaty-florida.png',
-          tag: 'Cách mạng khoa học',
-          tagColor: 'bg-surface-container-high text-primary',
-        },
-        {
           id: 'event-1732',
           year: 1732,
           category: 'world',
