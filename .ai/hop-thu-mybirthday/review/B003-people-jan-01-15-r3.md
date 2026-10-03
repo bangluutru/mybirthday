@@ -3,6 +3,7 @@ KET_QUA: SUA
 # Review B003-v4 — SUA
 
 Ngày review: 2026-10-04
+Thời điểm cập nhật: sau khi nhận báo cáo B003-v4
 Reviewer: Codex, theo yêu cầu trực tiếp của chủ dự án
 Phạm vi: báo cáo `xong/B003-people-jan-01-15-v4.md` và trạng thái mã nguồn hiện có.
 
