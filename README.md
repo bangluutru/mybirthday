@@ -50,6 +50,18 @@
 * **Hiệu ứng & Xuất ảnh:** `html-to-image`, `canvas-confetti`
 * **Triển khai PWA:** Manifest web app, icons, responsive viewport trên iOS/Android/Desktop
 
+## 📊 Cấu Trúc Dữ Liệu
+
+Dữ liệu nhân vật và sự kiện được phân tách theo 12 tháng:
+- `src/data/people/MM.ts` (`01.ts` … `12.ts`): Export `PEOPLE_MM` chứa danh nhân có `birthMonth === MM`.
+- `src/data/events/MM.ts` (`01.ts` … `12.ts`): Export `EVENTS_MM` chứa sự kiện lịch sử có `month === MM`.
+- `src/data/birthdays.ts`: Module tổng hợp dữ liệu toàn năm và cung cấp các hàm truy vấn.
+
+**Quy tắc đóng góp & kiểm tra dữ liệu:**
+1. Mọi bản ghi bắt buộc có `verifiedAt` (`YYYY-MM-DD`) và `sourceUrls` từ nguồn chính thống (Britannica, bảo tàng, lưu trữ quốc gia; chặn web SEO).
+2. Chạy `npm test` để kiểm tra toàn vẹn dữ liệu (Rules 0, A–O).
+3. Chạy `npm run coverage` để theo dõi độ phủ 366 ngày.
+
 ---
 
 ## 🚀 Hướng Dẫn Cài Đặt & Chạy Cục Bộ

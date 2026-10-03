@@ -1,4 +1,4 @@
-import { ALL_PEOPLE, HISTORY_EVENTS_22_FEB, getBirthdayData } from '../src/data/birthdays';
+import { ALL_PEOPLE, HISTORY_EVENTS, HISTORY_EVENTS_22_FEB, getBirthdayData } from '../src/data/birthdays';
 
 interface Failure {
   suite: string;
@@ -192,7 +192,7 @@ for (let m = 1; m <= 12; m++) {
 // ------------------------------------------------------------
 // Test I: Authoritative Source Quality Audit
 // ------------------------------------------------------------
-console.log('Checking Rule I: Authoritative source provenance for people...');
+console.log('Checking Rule I: Authoritative source provenance for people & events...');
 for (const p of ALL_PEOPLE) {
   assert('Rule I', Array.isArray(p.sourceUrls) && p.sourceUrls.length > 0, `Person "${p.id}" has no sourceUrls`);
   if (p.sourceUrls) {
@@ -201,6 +201,16 @@ for (const p of ALL_PEOPLE) {
       // Reject spam/SEO sites
       const isSeoSite = url.includes('famousbirthdays.com') || url.includes('thefamouspeople.com');
       assert('Rule I', !isSeoSite, `Person "${p.id}" uses disallowed SEO birthday source: "${url}"`);
+    }
+  }
+}
+for (const ev of HISTORY_EVENTS) {
+  assert('Rule I', Array.isArray(ev.sourceUrls) && ev.sourceUrls.length > 0, `Event "${ev.id}" has no sourceUrls`);
+  if (ev.sourceUrls) {
+    for (const url of ev.sourceUrls) {
+      assert('Rule I', typeof url === 'string' && url.startsWith('http'), `Event "${ev.id}" has invalid URL: "${url}"`);
+      const isSeoSite = url.includes('famousbirthdays.com') || url.includes('thefamouspeople.com');
+      assert('Rule I', !isSeoSite, `Event "${ev.id}" uses disallowed SEO birthday source: "${url}"`);
     }
   }
 }
@@ -269,7 +279,7 @@ const BANNED_PATTERNS: BannedPatternRule[] = [
   {
     pattern: 'Einstein',
     label: 'Einstein',
-    appliesTo: (relPath) => relPath !== path.join('src', 'data', 'birthdays.ts'),
+    appliesTo: (relPath) => !relPath.startsWith(path.join('src', 'data')),
   },
   { pattern: 'Vasco da Gama', label: 'Vasco da Gama', appliesTo: () => true },
   { pattern: 'Mark Twain', label: 'Mark Twain', appliesTo: () => true },
@@ -322,6 +332,169 @@ for (const file of srcFiles) {
     }
   }
 }
+
+// ------------------------------------------------------------
+// Rule M: Monthly file structure and month alignment
+// ------------------------------------------------------------
+console.log('Checking Rule M: Monthly file existence and birthMonth/month alignment...');
+
+import { PEOPLE_01 } from '../src/data/people/01';
+import { PEOPLE_02 } from '../src/data/people/02';
+import { PEOPLE_03 } from '../src/data/people/03';
+import { PEOPLE_04 } from '../src/data/people/04';
+import { PEOPLE_05 } from '../src/data/people/05';
+import { PEOPLE_06 } from '../src/data/people/06';
+import { PEOPLE_07 } from '../src/data/people/07';
+import { PEOPLE_08 } from '../src/data/people/08';
+import { PEOPLE_09 } from '../src/data/people/09';
+import { PEOPLE_10 } from '../src/data/people/10';
+import { PEOPLE_11 } from '../src/data/people/11';
+import { PEOPLE_12 } from '../src/data/people/12';
+
+import { EVENTS_01 } from '../src/data/events/01';
+import { EVENTS_02 } from '../src/data/events/02';
+import { EVENTS_03 } from '../src/data/events/03';
+import { EVENTS_04 } from '../src/data/events/04';
+import { EVENTS_05 } from '../src/data/events/05';
+import { EVENTS_06 } from '../src/data/events/06';
+import { EVENTS_07 } from '../src/data/events/07';
+import { EVENTS_08 } from '../src/data/events/08';
+import { EVENTS_09 } from '../src/data/events/09';
+import { EVENTS_10 } from '../src/data/events/10';
+import { EVENTS_11 } from '../src/data/events/11';
+import { EVENTS_12 } from '../src/data/events/12';
+
+const ALL_MONTHLY_PEOPLE = [
+  { month: 1, people: PEOPLE_01, name: 'PEOPLE_01' },
+  { month: 2, people: PEOPLE_02, name: 'PEOPLE_02' },
+  { month: 3, people: PEOPLE_03, name: 'PEOPLE_03' },
+  { month: 4, people: PEOPLE_04, name: 'PEOPLE_04' },
+  { month: 5, people: PEOPLE_05, name: 'PEOPLE_05' },
+  { month: 6, people: PEOPLE_06, name: 'PEOPLE_06' },
+  { month: 7, people: PEOPLE_07, name: 'PEOPLE_07' },
+  { month: 8, people: PEOPLE_08, name: 'PEOPLE_08' },
+  { month: 9, people: PEOPLE_09, name: 'PEOPLE_09' },
+  { month: 10, people: PEOPLE_10, name: 'PEOPLE_10' },
+  { month: 11, people: PEOPLE_11, name: 'PEOPLE_11' },
+  { month: 12, people: PEOPLE_12, name: 'PEOPLE_12' },
+];
+
+const ALL_MONTHLY_EVENTS = [
+  { month: 1, events: EVENTS_01, name: 'EVENTS_01' },
+  { month: 2, events: EVENTS_02, name: 'EVENTS_02' },
+  { month: 3, events: EVENTS_03, name: 'EVENTS_03' },
+  { month: 4, events: EVENTS_04, name: 'EVENTS_04' },
+  { month: 5, events: EVENTS_05, name: 'EVENTS_05' },
+  { month: 6, events: EVENTS_06, name: 'EVENTS_06' },
+  { month: 7, events: EVENTS_07, name: 'EVENTS_07' },
+  { month: 8, events: EVENTS_08, name: 'EVENTS_08' },
+  { month: 9, events: EVENTS_09, name: 'EVENTS_09' },
+  { month: 10, events: EVENTS_10, name: 'EVENTS_10' },
+  { month: 11, events: EVENTS_11, name: 'EVENTS_11' },
+  { month: 12, events: EVENTS_12, name: 'EVENTS_12' },
+];
+
+for (const mData of ALL_MONTHLY_PEOPLE) {
+  for (const p of mData.people) {
+    assert(
+      'Rule M',
+      p.birthMonth === mData.month,
+      `Person ${p.id} in ${mData.name} has birthMonth ${p.birthMonth}, expected ${mData.month}`
+    );
+  }
+}
+
+for (const mData of ALL_MONTHLY_EVENTS) {
+  for (const ev of mData.events) {
+    assert(
+      'Rule M',
+      ev.month === mData.month,
+      `Event ${ev.id} in ${mData.name} has month ${ev.month}, expected ${mData.month}`
+    );
+  }
+}
+
+// ------------------------------------------------------------
+// Rule N: Provenance and verifiedAt validation
+// ------------------------------------------------------------
+console.log('Checking Rule N: Provenance and verifiedAt metadata...');
+const todayStr = new Date().toISOString().slice(0, 10);
+
+function validateVerifiedAt(id: string, verifiedAt: unknown, entityType: string) {
+  assert('Rule N', Boolean(verifiedAt), `${entityType} ${id} must have verifiedAt property`);
+  if (typeof verifiedAt !== 'string') {
+    assert(
+      'Rule N',
+      false,
+      `${entityType} ${id} verifiedAt must be a string matching YYYY-MM-DD format`
+    );
+    return;
+  }
+
+  assert(
+    'Rule N',
+    /^\d{4}-\d{2}-\d{2}$/.test(verifiedAt),
+    `${entityType} ${id} verifiedAt "${verifiedAt}" must match YYYY-MM-DD format`
+  );
+
+  const [y, m, d] = verifiedAt.split('-').map((s: string) => parseInt(s, 10));
+  assert(
+    'Rule N',
+    isValidCalendarDate(y, m, d),
+    `${entityType} ${id} verifiedAt "${verifiedAt}" must be a valid calendar date`
+  );
+
+  assert(
+    'Rule N',
+    verifiedAt >= '2026-01-01',
+    `${entityType} ${id} verifiedAt "${verifiedAt}" cannot be before 2026-01-01`
+  );
+
+  assert(
+    'Rule N',
+    verifiedAt <= todayStr,
+    `${entityType} ${id} verifiedAt "${verifiedAt}" cannot be in the future (today: ${todayStr})`
+  );
+}
+
+for (const p of ALL_PEOPLE) {
+  validateVerifiedAt(p.id, p.verifiedAt, 'Person');
+}
+
+for (const ev of HISTORY_EVENTS) {
+  validateVerifiedAt(ev.id, ev.verifiedAt, 'HistoryEvent');
+}
+
+// ------------------------------------------------------------
+// Rule O: Global ID uniqueness & aggregation integrity
+// ------------------------------------------------------------
+console.log('Checking Rule O: Global ID uniqueness & aggregation integrity...');
+
+const peopleIds = new Set<string>();
+for (const p of ALL_PEOPLE) {
+  assert('Rule O', !peopleIds.has(p.id), `Duplicate person ID across months: ${p.id}`);
+  peopleIds.add(p.id);
+}
+
+const eventIds = new Set<string>();
+for (const ev of HISTORY_EVENTS) {
+  assert('Rule O', !eventIds.has(ev.id), `Duplicate history event ID across months: ${ev.id}`);
+  eventIds.add(ev.id);
+}
+
+const sumMonthlyPeople = ALL_MONTHLY_PEOPLE.reduce((acc, m) => acc + m.people.length, 0);
+assert(
+  'Rule O',
+  ALL_PEOPLE.length === sumMonthlyPeople,
+  `ALL_PEOPLE.length (${ALL_PEOPLE.length}) does not match sum of 12 monthly arrays (${sumMonthlyPeople})`
+);
+
+const sumMonthlyEvents = ALL_MONTHLY_EVENTS.reduce((acc, m) => acc + m.events.length, 0);
+assert(
+  'Rule O',
+  HISTORY_EVENTS.length === sumMonthlyEvents,
+  `HISTORY_EVENTS.length (${HISTORY_EVENTS.length}) does not match sum of 12 monthly arrays (${sumMonthlyEvents})`
+);
 
 // ------------------------------------------------------------
 // Summary

@@ -37,6 +37,7 @@ export interface Person {
   notabilityScore?: number;
   isFeatured?: boolean;
   region?: 'vietnam' | 'world' | 'asia' | 'west';
+  verifiedAt: string;
 }
 
 export type HistoryCategory = 'birth' | 'death' | 'event' | 'discovery';
@@ -52,6 +53,7 @@ export interface HistoryEvent {
   image?: string;
   sourceUrls?: string[];
   highlightYear?: boolean;
+  verifiedAt: string;
 }
 
 export interface BirthdayStats {

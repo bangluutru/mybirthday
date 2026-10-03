@@ -6,3 +6,4 @@ node_modules
 *.tsbuildinfo
 
 .ai/hop-thu-mybirthday/gemini.lock
+.ai/hop-thu-mybirthday/claude.lock
