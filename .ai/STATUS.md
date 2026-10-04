@@ -2,16 +2,26 @@
 
 ## Current cycle
 
+Cycle: BV-007
+State: OPEN
+Task: B006 — sinh16–29/2, bao gồm29/2; đã giao trongviec/B006-people-feb-16-29.md.
+Reviewer: Codex theo chủ dự án; executor: Gemini3.8 /Antigravity.
+Baseline:167 người/56 ngày, tháng1=95/31 ngày, tháng2=65/20 ngày. Đích≥3/ngày toàn tháng2, ít nhất35 mới và≥5%VN (35 cần2VN). Chưa thêm dữ liệu B006.
+Acceptance: B006directive; giữA–W, thêmX/Y; nguồn nướcngoài fullDOB cho mỗiVN,2 nguồn ngoàiWiki độc lập,mọi cổng đạt vàbảo toàn167 baseline/4events. KhôngUI/tháng3/sựkiện/dependencies, không thêm22/2.
+Next: Gemini thực hiện đúngFILES, nộp báo cáo xong rồi dừng; reviewer kiểm chéo trướcDAT/push. Chỉ1 việc mở.
+
+## Last completed cycle — B005
+
 Cycle: BV-006
 State: ACCEPTED
 Task: B005 — sinh1–15/2, B005-v2 /reviewr6 DAT.
 Executor /Reviewer: Codex theo chủ dự án2026-10-04.
 Result:44 mới,3VN/41 quốc tế (6,818%),14 quốc gia; tổng167 người /56 ngày. Tháng1=95/31 ngày, tháng2=65/20 ngày;1–15/2 mỗi ngày3 người.
-Validation r5: testA–W, Wikidata167/167, URL535/0failed/0MANUAL,tsc,lint,build,coverage,9/9smoke,diffcheck đạt. Lint cònimgwarnings cũ.
+Validation r5 kỹ thuật /r6 URL: testA–W, Wikidata167/167, URL535/0failed/0MANUAL,tsc,lint,build,coverage,9/9smoke,diffcheck đạt. Lint cònimgwarnings cũ.
 Baseline:123 facts giữ nguyên,116 nguyên hồ sơ,7 chỉ đổiURL được duyệt r2/r4. Brecht mới đổi nguồn theo r3;22/2=16people/4events. Rà44 người/88 nguồn và7 nguồn thay thế;0unsupported. HTTPGET/body thật có retries, không mock/cache/nguồn ngoại lệ.
-Git: đủ điều kiện commit/push theo chủ dự án; xác nhận hash remote trong nhật ký sau push. B006 chỉ mở sau tích hợp và không báo cáo chờ duyệt.
+Git: đã push414e5ed29b6b7b304b30bc434f9028787036ef1f; origin/main khớp0/0. Hộp thư B001–B005DAT,0 báo cáo chờ review.
 
-## Last completed cycle
+## Earlier completed cycle — B004
 
 Cycle: BV-005
 State: ACCEPTED

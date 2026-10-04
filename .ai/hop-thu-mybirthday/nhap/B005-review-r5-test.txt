@@ -38,4 +38,3 @@ Verified total people: 167
 Verified Feb 22 people: 16
 Verified Feb 22 history events: 4
 ============================================================
-

@@ -10,8 +10,8 @@ Baseline lịch sử (commit `3d875a0`): UI hoàn thiện nhưng dữ liệu r�
 | 2 | B002 | Hạ tầng dữ liệu mở rộng được: tách dữ liệu theo tháng (`src/data/people/MM.ts` hoặc JSON), loader gộp, schema + provenance (`sourceUrls` bắt buộc, `verifiedAt`), script báo cáo độ phủ 366 ngày (`npm run coverage`), mở rộng test cho mọi file tháng. KHÔNG thêm người mới; kết quả hành vi UI giữ nguyên | đã giao (BV-003) |
 | 3 | B003 | **Pilot Wikidata**: nhân vật sinh 1/1–15/1 (≥ 3 người/ngày, ≤ 8 người mới/ngày); script `wikidata-candidates` + `verify:wikidata`; 3 lớp kiểm (Wikidata Gregorian precision-day + nguồn độc lập chính thống đã mở + nhất quán); Rule P/Q/R/S; ảnh placeholder. Bản nháp: `viec-cho/B003-people-jan-01-15.md` | B002 DAT |
 | 4 | B004 | 16/1–31/1, cùng quy trình, dùng lại script; bổ sung Rule S cho nửa sau | B003 DAT, ≤ 5 điểm sửa |
-| 5 | B005 | 1–15/2, chỉ thị BV-006; ≥3 người/ngày, tối thiểu 5% người Việt trong bổ sung B005; kiểm chéo toàn bộ nguồn | DAT reviewr6;44 mới (3VN),167 người/56 ngày; chuẩn bị tích hợp |
-| 6 | B006 (chưa giao) | 16–29/2, bao gồm ngày nhuận; xử lý hằng số 22/2 khi bổ sung ngày này; giữ sự kiện ngoài phạm vi | B005 DAT và đã tích hợp |
+| 5 | B005 | 1–15/2, chỉ thị BV-006; ≥3 người/ngày, tối thiểu 5% người Việt trong bổ sung B005; kiểm chéo toàn bộ nguồn | DAT reviewr6;44 mới (3VN),167 người/56 ngày; đã push414e5ed |
+| 6 | B006 | 16–29/2, gồm29/2; ít nhất35 mới,≥5%VN; không thêm22/2 vì đã16 người, giữ4events | đã giaoBV-007 sauB005DAT/push,0 báo cáo chờduyệt |
 | tiếp theo | Mã việc xác định khi giao | Tháng 3 → tháng 12, tiếp tục từng nửa tháng; không mở song song. Chỉ giao phần kế tiếp sau DAT và tích hợp phần trước | việc trước DAT |
 | 16 | (sau khi đủ 366 ngày) | Sự kiện lịch sử theo ngày (cũng Wikidata + nguồn chính thống) và ảnh (giấy phép Commons) là các chu kỳ riêng, cần chủ dự án duyệt | chủ dự án |
 
