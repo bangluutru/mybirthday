@@ -1,0 +1,135 @@
+[
+  {
+    "id": "georg-cantor",
+    "url": "https://snl.no/api/v1/search?query=Georg+Cantor",
+    "checkedAt": "2026-10-04T11:52:43.732950+00:00",
+    "choices": [
+      {
+        "title": "Georg Cantor",
+        "url": "https://snl.no/Georg_Cantor"
+      },
+      {
+        "title": "3. mars",
+        "url": "https://snl.no/3._mars"
+      },
+      {
+        "title": "Bernhard Bolzano",
+        "url": "https://snl.no/Bernhard_Bolzano"
+      }
+    ]
+  },
+  {
+    "id": "yuri-gagarin",
+    "url": "https://snl.no/api/v1/search?query=Gagarin",
+    "checkedAt": "2026-10-04T11:52:48.144828+00:00",
+    "choices": [
+      {
+        "title": "Jurij Gagarin",
+        "url": "https://snl.no/Jurij_Gagarin"
+      },
+      {
+        "title": "Gagarin kosmonaut-treningssenter",
+        "url": "https://snl.no/Gagarin_kosmonaut-treningssenter"
+      },
+      {
+        "title": "den første månelandingen",
+        "url": "https://snl.no/den_f%C3%B8rste_m%C3%A5nelandingen"
+      }
+    ]
+  },
+  {
+    "id": "sepp-blatter",
+    "url": "https://snl.no/api/v1/search?query=Blatter",
+    "checkedAt": "2026-10-04T11:52:50.959415+00:00",
+    "choices": [
+      {
+        "title": "Sepp Blatter",
+        "url": "https://snl.no/Sepp_Blatter"
+      },
+      {
+        "title": "Thomas Marco Blatt",
+        "url": "https://snl.no/Thomas_Marco_Blatt"
+      },
+      {
+        "title": "Franz Blatt",
+        "url": "https://snl.no/Franz_Blatt"
+      }
+    ]
+  },
+  {
+    "id": "urbain-le-verrier",
+    "url": "https://snl.no/api/v1/search?query=Verrier",
+    "checkedAt": "2026-10-04T11:53:23.740135+00:00",
+    "choices": [
+      {
+        "title": "Urbain Le Verrier",
+        "url": "https://snl.no/Urbain_Le_Verrier"
+      },
+      {
+        "title": "Neptun",
+        "url": "https://snl.no/Neptun"
+      },
+      {
+        "title": "Vulkan – astronomi",
+        "url": "https://snl.no/Vulkan_-_astronomi"
+      }
+    ]
+  },
+  {
+    "id": "bernardo-bertolucci",
+    "url": "https://snl.no/api/v1/search?query=Bernardo+Bertolucci",
+    "checkedAt": "2026-10-04T11:53:27.856861+00:00",
+    "choices": [
+      {
+        "title": "Bernardo Bertolucci",
+        "url": "https://snl.no/Bernardo_Bertolucci"
+      },
+      {
+        "title": "Film i Italia",
+        "url": "https://snl.no/Film_i_Italia"
+      },
+      {
+        "title": "Bernardo – mannsnamn",
+        "url": "https://snl.no/Bernardo_-_mannsnamn"
+      }
+    ]
+  },
+  {
+    "id": "gottlieb-daimler",
+    "url": "https://snl.no/api/v1/search?query=Gottlieb+Daimler",
+    "checkedAt": "2026-10-04T11:53:31.496918+00:00",
+    "choices": [
+      {
+        "title": "Gottlieb Daimler",
+        "url": "https://snl.no/Gottlieb_Daimler"
+      },
+      {
+        "title": "Gottlieb – mannsnamn",
+        "url": "https://snl.no/Gottlieb_-_mannsnamn"
+      },
+      {
+        "title": "bil",
+        "url": "https://snl.no/bil"
+      }
+    ]
+  },
+  {
+    "id": "ernst-junger",
+    "url": "https://snl.no/api/v1/search?query=Ernst+J%C3%BCnger",
+    "checkedAt": "2026-10-04T11:53:37.633586+00:00",
+    "choices": [
+      {
+        "title": "Ernst Jünger",
+        "url": "https://snl.no/Ernst_J%C3%BCnger"
+      },
+      {
+        "title": "Ernst – mannsnamn",
+        "url": "https://snl.no/Ernst_-_mannsnamn"
+      },
+      {
+        "title": "Goethe-prisen",
+        "url": "https://snl.no/Goethe-prisen"
+      }
+    ]
+  }
+]

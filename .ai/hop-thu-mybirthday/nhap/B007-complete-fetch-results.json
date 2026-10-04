@@ -1,0 +1,47 @@
+[
+  {
+    "id": "urbain-le-verrier",
+    "name": "Urbain Le Verrier",
+    "url": "https://www.enciklopedija.hr/clanak/le-verrier-urbain",
+    "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+    "publisherCountry": "HR",
+    "openedAt": "2026-10-04T12:03:41.555601+00:00",
+    "cacheKey": "04997691bc2c2d93dccf939d45806e05fde9dee189a3dc1172c41df5a5d280f3",
+    "documentSha256": "e24625525b873330e38e31f074996edac7462dd23c8ab088ada5dbb17e7c281c",
+    "textSha256": "920cb6c0e3f97fdb259099ca6a33a929c186a796a904b8ccb72739670fc8373e",
+    "title": "Le Verrier, Urbain - Hrvatska enciklopedija",
+    "contentLength": 1540,
+    "articleHeading": "Le Verrier, Urbain",
+    "softIndex": false
+  },
+  {
+    "id": "gottlieb-daimler",
+    "name": "Gottlieb Daimler",
+    "url": "https://www.enciklopedija.hr/clanak/daimler-gottlieb-wilhelm",
+    "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+    "publisherCountry": "HR",
+    "openedAt": "2026-10-04T12:03:42.652164+00:00",
+    "cacheKey": "fb64a3d864a490117000fe6239c99aa4eae8b3ac3951f1a60b358968f5470f54",
+    "documentSha256": "2f92bf854b3ad886944608acaacddb05102ccba149029370abf82c5b09150350",
+    "textSha256": "9f6c1908fd7ac4ae7337fa8d4b47ef1a491b8f8ec57500f93ae0a94381ed9823",
+    "title": "Daimler, Gottlieb Wilhelm - Hrvatska enciklopedija",
+    "contentLength": 1744,
+    "articleHeading": "Daimler, Gottlieb Wilhelm",
+    "softIndex": false
+  },
+  {
+    "id": "tennessee-williams",
+    "name": "Tennessee Williams",
+    "url": "https://tennesseewilliams.net/about/faq/",
+    "publisher": "Tennessee Williams & New Orleans Literary Festival",
+    "publisherCountry": "US",
+    "openedAt": "2026-10-04T12:03:43.915251+00:00",
+    "cacheKey": "3a261967956cf8cb8db65bb8bf3f5a5347ce3c16569069bf8bd725871389c699",
+    "documentSha256": "18ead0887b7634b6c1fe323a46c8c666e6dc82bd632e512babb6e2f60f3b874e",
+    "textSha256": "c6b8cb1c2207775ffdacf857c3cf0328816b55d1449448fd96e0bc2b6f0f64ab",
+    "title": "FAQ – 2026 Tennessee Williams & New Orleans Literary Festival",
+    "contentLength": 9801,
+    "articleHeading": "Frequently Asked Questions",
+    "softIndex": false
+  }
+]

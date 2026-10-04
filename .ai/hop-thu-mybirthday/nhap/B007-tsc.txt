@@ -1,0 +1,1 @@
+npx tsc --noEmit — TypeScript check passed (exit code 0).

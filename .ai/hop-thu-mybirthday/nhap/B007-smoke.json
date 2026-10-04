@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-10-04T12:12:28.492Z",
+  "baselineProfilesUnchanged": 202,
+  "eventsUnchanged": 4,
+  "added": 93,
+  "vietnamese": 5,
+  "total": 295,
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "bytes": 54487
+    },
+    {
+      "route": "/birthday/3/1/people",
+      "status": 200,
+      "bytes": 36156
+    },
+    {
+      "route": "/birthday/3/15/people",
+      "status": 200,
+      "bytes": 36172
+    },
+    {
+      "route": "/birthday/3/16/people",
+      "status": 200,
+      "bytes": 36169
+    },
+    {
+      "route": "/birthday/3/31/people",
+      "status": 200,
+      "bytes": 36123
+    },
+    {
+      "route": "/day/3/1",
+      "status": 200,
+      "bytes": 31337
+    },
+    {
+      "route": "/day/3/31",
+      "status": 200,
+      "bytes": 28686
+    },
+    {
+      "route": "/birthday/1/16/people",
+      "status": 200,
+      "bytes": 36271
+    },
+    {
+      "route": "/birthday/2/29/people",
+      "status": 200,
+      "bytes": 36410
+    },
+    {
+      "route": "/birthday/2/22",
+      "status": 200,
+      "bytes": 43145
+    },
+    {
+      "route": "/person/georg-cantor",
+      "status": 200,
+      "bytes": 25043
+    },
+    {
+      "route": "/share/3-31",
+      "status": 200,
+      "bytes": 35420
+    }
+  ]
+}

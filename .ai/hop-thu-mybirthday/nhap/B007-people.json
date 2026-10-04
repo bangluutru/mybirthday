@@ -1,6 +1,4 @@
-import { Person } from '../types';
-
-export const PEOPLE_03: Person[] = [
+[
   {
     "id": "ron-howard",
     "slug": "ron-howard",
@@ -3236,4 +3234,4 @@ export const PEOPLE_03: Person[] = [
     "region": "world",
     "verifiedAt": "2026-10-04"
   }
-];
+]

@@ -1,0 +1,2 @@
+PASS:93 profiles,5 Vietnamese,31 days,93 unique nonbaseline QIDs,Gregorian fullDOB nondeprecated claims agree;186 publisher records,180 fullDOB records;native bodies checked=186.
+Exact quotes and hashes supplement the manual source review; this script does not independently establish historical truth.

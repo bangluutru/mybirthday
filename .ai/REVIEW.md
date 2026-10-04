@@ -1,12 +1,7 @@
-# BV-007 — B006: mở rộng ngày16–29/2
+# BV-008 — B007: toàn tháng3
 
 State: ACCEPTED
-Reviewer/executor: Codex trực tiếp theo yêu cầu chủ dự án.
-Active task: .ai/hop-thu-mybirthday/viec/B006-people-feb-16-29.md
-Review: review/B006-people-feb-16-29-r1.md — DAT.
-
-35 mới,2VN/33quốc tế (5,714%),13quốc gia. Tổng202 người/65ngày; Jan95/31ngày,Feb100/29ngày,≥3người mỗi ngày. Giữ167baseline/4events nguyên vẹn,22Feb16người. Rà70nguồn ngoàiWiki,66fullDOB,35Gregorian precision11 không xung đột. HaiVN có AFC nước ngoài đủDOB; giới hạn dữ liệu đăng ký chung ghi rõ.
-
-Cổng: A–Y0vi phạm,Wikidata202/202,URL640/0failed/0MANUAL,tsc/lint/build/coverage/smoke10/10/deep equality/diffcheck đạt. RuleL chỉ cho phép exact record Jobs đã kiểm nguồn; UI và QID/DOB sai vẫn cấm, có kiểm âm/dương.
-
-Scope hoàn thành; được tích hợp/push theo phê duyệt chủ dự án. Dừng sau push. Chưa giao tháng3. Reviewer Attention: câu UI cũ “hàng chục nghìn” ngoài phạm viB006.
+Reviewer/executor: Codex theo chủ dự án2026-10-04.
+Active task: .ai/hop-thu-mybirthday/viec/B007-people-mar-01-31.md
+Authorization: mở vòng tháng3, lập kế hoạch chi tiết và thực hiện luôn; push khi DAT theo phê duyệt trước.
+Result: 93 hồ sơ mới (88 quốc tế/5 Việt), đủ 31/31 ngày × 3; baseline 202 hồ sơ và 4 sự kiện giữ nguyên. B007-v1 DAT sau rà soát. Cổng test, Wikidata 295/295, URL 916/916, tsc/lint/build/coverage/smoke 12/12 đạt. Authorized commit/push đã được chủ dự án cho phép từ đầu vòng.

@@ -28,3 +28,13 @@ Cập nhật 2026-10-04: B003/B004 đã DAT và push tại `ed24674`; 123 ngư�
 Quyết định tỷ lệ 5% áp dụng các đợt mở rộng mới tiếp theo; lịch sử và cổng đã đóng tháng 1 giữ nguyên. Không giao đợt kế tiếp khi B005 còn SUA.
 
 2026-10-04 B006/BV-007 DAT:35mới/2VN(5,714%),Feb100/29ngày; mọi cổng đạt. Chưa giao tháng3; dừng sau tích hợp/push.
+
+2026-10-04 chủ dự án mở toàn tháng3 và yêu cầu thực hiện luôn. B007/BV-008 thực hiện31ngày,≥93mới/≥5%VN;hai phầnnghiên cứu tuần tự trong cùngcycle, khôngsong song. Chỉ thị viec/B007-people-mar-01-31.md.
+
+
+## B007 — toàn tháng 3 (hoàn tất, 05/10/2026)
+
+- B007-v1 đạt chỉ tiêu: 93 người mới (88 quốc tế/5 Việt), 31 ngày đủ 3 người. Tổng295 hồ sơ/96 ngày, 4 sự kiện giữ nguyên.
+- Nguồn: 93×2 nhà xuất bản ngoài Wiki, 186 hồ sơ tài liệu. 180 tài liệu nêu DOB đầy đủ; 6 hồ sơ SNL chỉ cho năm nhưng nhà xuất bản thứ hai xác nhận ngày. Năm hồ sơ Việt đều có DOB đầy đủ từ AFC; ghi chú giới hạn nguồn đăng ký cầu thủ chung AFC/VPF.
+- Gates: tests A–AA, Wikidata295/295, URL916/916, tsc/lint/build/coverage, source evidence native 186, smoke12/12, equality baseline202+4 events. 5 lint `<img>` cảnh báo cũ.
+- Chủ dự án đã phê duyệt Codex thực hiện, review, commit/push khi DAT. Đóng vòng sau khi kiểm tra remote; không chuyển qua tháng4 trong cùng vòng.

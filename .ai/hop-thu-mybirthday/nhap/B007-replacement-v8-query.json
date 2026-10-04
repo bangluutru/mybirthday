@@ -1,0 +1,16 @@
+{
+  "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&redirects=yes&sites=enwiki&titles=Georges+Dum%C3%A9zil%7CNeville+Chamberlain&props=claims%7Clabels%7Cdescriptions%7Csitelinks&languages=en%7Cvi&format=json",
+  "openedAt": "2026-10-04T12:05:35.245007+00:00",
+  "results": [
+    {
+      "name": "Georges Dumézil",
+      "qid": "Q310590",
+      "birthDate": "1898-03-04"
+    },
+    {
+      "name": "Neville Chamberlain",
+      "qid": "Q10664",
+      "birthDate": "1869-03-18"
+    }
+  ]
+}

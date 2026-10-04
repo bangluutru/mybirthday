@@ -1,0 +1,1033 @@
+{
+  "cycle": "BV-008",
+  "batch": "B007",
+  "asOfDate": "2026-10-04",
+  "queries": 62,
+  "queryErrors": 0,
+  "scope": "Bounded candidate samples; LIMIT100 bindings perquery, not exhaustive lists.",
+  "days": [
+    {
+      "day": 1,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 100,
+          "returnedUniqueQids": 11,
+          "startedAt": "2026-10-04T11:28:17.825Z",
+          "finishedAt": "2026-10-04T11:28:25.273Z",
+          "rawSha256": "2b32df32783d50d935d083baf71d8fec34ef8f6ea0d44f4e8eb98e8eca6ca022"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 30,
+          "returnedUniqueQids": 19,
+          "startedAt": "2026-10-04T11:28:26.475Z",
+          "finishedAt": "2026-10-04T11:28:27.835Z",
+          "rawSha256": "aae7ef35b7a7e6101de1596647bdb0fa5ed70c2745b7d3d0ef3a05f6895a51c4"
+        }
+      ],
+      "addedIds": [
+        "ron-howard",
+        "glenn-miller",
+        "oskar-kokoschka"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    },
+    {
+      "day": 2,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 100,
+          "returnedUniqueQids": 10,
+          "startedAt": "2026-10-04T11:28:29.038Z",
+          "finishedAt": "2026-10-04T11:28:36.693Z",
+          "rawSha256": "339698421b5a690aece076e71a2ab28588eb664b2dd9ee4113c0c3f109b84ce1"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 21,
+          "returnedUniqueQids": 14,
+          "startedAt": "2026-10-04T11:28:37.895Z",
+          "finishedAt": "2026-10-04T11:28:39.059Z",
+          "rawSha256": "cb91260124a6e71da9509af9dc0dc51852cba20046318bf0e9d2adc4dcf2661c"
+        }
+      ],
+      "addedIds": [
+        "mikhail-gorbachev",
+        "kurt-weill",
+        "nguyen-huy-hung"
+      ],
+      "vietnamese": 1,
+      "international": 2,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    },
+    {
+      "day": 3,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 100,
+          "returnedUniqueQids": 17,
+          "startedAt": "2026-10-04T11:28:40.261Z",
+          "finishedAt": "2026-10-04T11:28:53.280Z",
+          "rawSha256": "a577bdc82f4149faca866b921b207dedc5e39e35d0f49863e6237a5207a265be"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 11,
+          "returnedUniqueQids": 6,
+          "startedAt": "2026-10-04T11:28:54.482Z",
+          "finishedAt": "2026-10-04T11:28:55.698Z",
+          "rawSha256": "6897d286cb9bdda6d5f678cf7e52ebbb4a28a25882ff33fddb5e1326e8f82636"
+        }
+      ],
+      "addedIds": [
+        "alexander-graham-bell",
+        "georg-cantor",
+        "pham-manh-hung"
+      ],
+      "vietnamese": 1,
+      "international": 2,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    },
+    {
+      "day": 4,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 100,
+          "returnedUniqueQids": 11,
+          "startedAt": "2026-10-04T11:28:56.900Z",
+          "finishedAt": "2026-10-04T11:29:16.910Z",
+          "rawSha256": "b5d16152c0b72ac58950ef61a39cbac4c5a94c354726b78a93395d3137888148"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 5,
+          "returnedUniqueQids": 5,
+          "startedAt": "2026-10-04T11:29:18.112Z",
+          "finishedAt": "2026-10-04T11:29:19.054Z",
+          "rawSha256": "3d50701415c3a51bd79bdd49d88529e126aeec045eaa2b8953eca5507b947ef1"
+        }
+      ],
+      "addedIds": [
+        "georges-dumezil",
+        "george-gamow",
+        "john-garfield"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    },
+    {
+      "day": 5,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 100,
+          "returnedUniqueQids": 6,
+          "startedAt": "2026-10-04T11:29:20.256Z",
+          "finishedAt": "2026-10-04T11:29:31.201Z",
+          "rawSha256": "8dfc1a08e233c19304720c49c242edf7bd67af85eb7f0071f268b3f27480d66a"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 17,
+          "returnedUniqueQids": 13,
+          "startedAt": "2026-10-04T11:29:32.403Z",
+          "finishedAt": "2026-10-04T11:29:33.884Z",
+          "rawSha256": "26a88aa0a6378abece566e9758c45b41ec8128e826d338f9856a19e485ab1433"
+        }
+      ],
+      "addedIds": [
+        "james-tobin",
+        "daniel-kahneman",
+        "rex-harrison"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    },
+    {
+      "day": 6,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 100,
+          "returnedUniqueQids": 8,
+          "startedAt": "2026-10-04T11:29:35.086Z",
+          "finishedAt": "2026-10-04T11:29:44.876Z",
+          "rawSha256": "9a70d3c4cc4d7195de2053c4e574f21bd91fb3a0d0a8c2a10a8d56001232180f"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 22,
+          "returnedUniqueQids": 14,
+          "startedAt": "2026-10-04T11:29:46.078Z",
+          "finishedAt": "2026-10-04T11:29:47.643Z",
+          "rawSha256": "b4a648428f5b579d6f21b6ca42c51b065befb83642981171312e57d7fb968b80"
+        }
+      ],
+      "addedIds": [
+        "joseph-von-fraunhofer",
+        "valentina-tereshkova",
+        "gabriel-garcia-marquez"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    },
+    {
+      "day": 7,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 100,
+          "returnedUniqueQids": 12,
+          "startedAt": "2026-10-04T11:29:48.845Z",
+          "finishedAt": "2026-10-04T11:29:58.198Z",
+          "rawSha256": "d103c3e820508d23bd63970a8b2e849d33fe04f50cf8f2af165d351f5e0f98d2"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 3,
+          "returnedUniqueQids": 2,
+          "startedAt": "2026-10-04T11:29:59.400Z",
+          "finishedAt": "2026-10-04T11:30:01.080Z",
+          "rawSha256": "b2187df049b8f6a5492f166cab4a7cc71f6435567e9265ce76e5c7c0f3733675"
+        }
+      ],
+      "addedIds": [
+        "maurice-ravel",
+        "piet-mondrian",
+        "tomas-masaryk"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    },
+    {
+      "day": 8,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 57,
+          "returnedUniqueQids": 7,
+          "startedAt": "2026-10-04T11:30:02.282Z",
+          "finishedAt": "2026-10-04T11:30:18.396Z",
+          "rawSha256": "896aa1e6af957cddae81561891714224acfc87e769a792209a6dc5c0cdad33d9"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 19,
+          "returnedUniqueQids": 9,
+          "startedAt": "2026-10-04T11:30:19.598Z",
+          "finishedAt": "2026-10-04T11:30:22.394Z",
+          "rawSha256": "c863922784bc49e11151cb2de1e35a079f725ddc15db10f921a622702e6f1604"
+        }
+      ],
+      "addedIds": [
+        "otto-hahn",
+        "edward-calvin-kendall",
+        "carl-philipp-emanuel-bach"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 5
+    },
+    {
+      "day": 9,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 99,
+          "returnedUniqueQids": 12,
+          "startedAt": "2026-10-04T11:30:23.595Z",
+          "finishedAt": "2026-10-04T11:30:35.697Z",
+          "rawSha256": "cfd9dba3b712bbe797e9235a08efd939c6668f0075327eb3b45e16ecb996eade"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 16,
+          "returnedUniqueQids": 9,
+          "startedAt": "2026-10-04T11:30:36.898Z",
+          "finishedAt": "2026-10-04T11:30:38.887Z",
+          "rawSha256": "f2c1834b45ceca8777be8335c6d9efe32fa116d066c2855b5c6e2163bd984118"
+        }
+      ],
+      "addedIds": [
+        "yuri-gagarin",
+        "samuel-barber",
+        "bobby-fischer"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 5
+    },
+    {
+      "day": 10,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 100,
+          "returnedUniqueQids": 10,
+          "startedAt": "2026-10-04T11:30:40.088Z",
+          "finishedAt": "2026-10-04T11:31:04.223Z",
+          "rawSha256": "8403eaf0a2c0d756e15770f09d051ae8897a5b0165cdea1756f76ecf7905d7a0"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 20,
+          "returnedUniqueQids": 15,
+          "startedAt": "2026-10-04T11:31:05.426Z",
+          "finishedAt": "2026-10-04T11:31:06.627Z",
+          "rawSha256": "12b893d487279a2e25b74b289c3f2d9cc9a50e5b04ce3e8bfba530724f35d3de"
+        }
+      ],
+      "addedIds": [
+        "sharon-stone",
+        "joseph-von-eichendorff",
+        "arthur-honegger"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    },
+    {
+      "day": 11,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 82,
+          "returnedUniqueQids": 13,
+          "startedAt": "2026-10-04T11:31:07.829Z",
+          "finishedAt": "2026-10-04T11:31:24.244Z",
+          "rawSha256": "00fc03d45c8f29f8d1b4540089de030fb5e57b50cc9ced6b7ee54b938ed16208"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 7,
+          "returnedUniqueQids": 4,
+          "startedAt": "2026-10-04T11:31:25.444Z",
+          "finishedAt": "2026-10-04T11:31:26.776Z",
+          "rawSha256": "1dbf59b28faf251873f4608258931eaea65ee221c48e26b661c1753916fd524b"
+        }
+      ],
+      "addedIds": [
+        "rupert-murdoch",
+        "nicolaas-bloembergen",
+        "urbain-le-verrier"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 5
+    },
+    {
+      "day": 12,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 100,
+          "returnedUniqueQids": 13,
+          "startedAt": "2026-10-04T11:31:27.979Z",
+          "finishedAt": "2026-10-04T11:31:39.007Z",
+          "rawSha256": "de656543874ad5b85ac82ce98e6901a4a9507e71bfa84a5b3a748643dc25d3d9"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 17,
+          "returnedUniqueQids": 11,
+          "startedAt": "2026-10-04T11:31:40.209Z",
+          "finishedAt": "2026-10-04T11:31:41.803Z",
+          "rawSha256": "844d57135a6ced04e9acfa20737ec93c3f1e2fa909975d206dd7415d2c533227"
+        }
+      ],
+      "addedIds": [
+        "jack-kerouac",
+        "edward-albee",
+        "liza-minnelli"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    },
+    {
+      "day": 13,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 76,
+          "returnedUniqueQids": 12,
+          "startedAt": "2026-10-04T11:31:43.004Z",
+          "finishedAt": "2026-10-04T11:31:53.320Z",
+          "rawSha256": "cf8b553e42e1a933a00eb60d540e7140030aa91345583786d38c2a503f0160a2"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 13,
+          "returnedUniqueQids": 7,
+          "startedAt": "2026-10-04T11:31:54.522Z",
+          "finishedAt": "2026-10-04T11:31:55.584Z",
+          "rawSha256": "ebfad1d46b9b161aed85b460ec3ea613ea67fa98ef363e4e3235136ff1031cbe"
+        }
+      ],
+      "addedIds": [
+        "hugo-wolf",
+        "percival-lowell",
+        "neil-sedaka"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    },
+    {
+      "day": 14,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 100,
+          "returnedUniqueQids": 3,
+          "startedAt": "2026-10-04T11:31:56.787Z",
+          "finishedAt": "2026-10-04T11:32:09.307Z",
+          "rawSha256": "a1071b0759ff6a09bb9b8548060e093409ba2c632e5b94b3bbbbcaa9424b1037"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 5,
+          "returnedUniqueQids": 5,
+          "startedAt": "2026-10-04T11:32:10.507Z",
+          "finishedAt": "2026-10-04T11:32:11.722Z",
+          "rawSha256": "caf0ab75b69b17fa79161a35b4b2e0e0a8722803aa87aa20f431b1d3ef92e4b6"
+        }
+      ],
+      "addedIds": [
+        "albert-einstein",
+        "michael-caine",
+        "quincy-jones"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    },
+    {
+      "day": 15,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 82,
+          "returnedUniqueQids": 14,
+          "startedAt": "2026-10-04T11:32:12.924Z",
+          "finishedAt": "2026-10-04T11:32:29.061Z",
+          "rawSha256": "cc3379f3e71bf26f8343ba851d7a17fdd1dded04db76fb21766075e09a180a24"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 19,
+          "returnedUniqueQids": 17,
+          "startedAt": "2026-10-04T11:32:30.262Z",
+          "finishedAt": "2026-10-04T11:32:31.144Z",
+          "rawSha256": "7976c2350f7204056952fbc47602bf36195dca09f1cbecf6b40ff90664c3cd0e"
+        }
+      ],
+      "addedIds": [
+        "andrew-jackson",
+        "paul-heyse",
+        "zhores-alferov"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    },
+    {
+      "day": 16,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 100,
+          "returnedUniqueQids": 8,
+          "startedAt": "2026-10-04T11:32:32.345Z",
+          "finishedAt": "2026-10-04T11:32:40.999Z",
+          "rawSha256": "43d98128b56a5036ef77590a6dc71bae1167e9beadc1b18f3b90b3155b99a92a"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 9,
+          "returnedUniqueQids": 8,
+          "startedAt": "2026-10-04T11:32:42.201Z",
+          "finishedAt": "2026-10-04T11:32:43.357Z",
+          "rawSha256": "b1232dd1bd133eda8a3724f27d5e80b4ad26b9d705f33c73970d55ddac9f0c25"
+        }
+      ],
+      "addedIds": [
+        "bernardo-bertolucci",
+        "jerry-lewis",
+        "ho-tuan-tai"
+      ],
+      "vietnamese": 1,
+      "international": 2,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    },
+    {
+      "day": 17,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 69,
+          "returnedUniqueQids": 11,
+          "startedAt": "2026-10-04T11:32:44.559Z",
+          "finishedAt": "2026-10-04T11:32:51.032Z",
+          "rawSha256": "255801ca3c0db1076d937b49aec693b55607a4c98e0601c83530e5fcf28b4ad5"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 16,
+          "returnedUniqueQids": 13,
+          "startedAt": "2026-10-04T11:32:52.233Z",
+          "finishedAt": "2026-10-04T11:32:53.616Z",
+          "rawSha256": "4f6374b87bed8eea1b667d20d4e982bf799bb3ff702df9272134cc11c76b6227"
+        }
+      ],
+      "addedIds": [
+        "gottlieb-daimler",
+        "rudolf-nureyev",
+        "trinh-quang-vinh"
+      ],
+      "vietnamese": 1,
+      "international": 2,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 5
+    },
+    {
+      "day": 18,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 100,
+          "returnedUniqueQids": 11,
+          "startedAt": "2026-10-04T11:32:54.818Z",
+          "finishedAt": "2026-10-04T11:33:06.409Z",
+          "rawSha256": "9e2e8f2debe39e022dc96b2bf699ece3bab05983beb64f01b44d44af1035db82"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 23,
+          "returnedUniqueQids": 8,
+          "startedAt": "2026-10-04T11:33:07.611Z",
+          "finishedAt": "2026-10-04T11:33:08.586Z",
+          "rawSha256": "2d667581fb8bb7a0736e624c6cc5b71217609555f681bf3da4ffc99e79d1760a"
+        }
+      ],
+      "addedIds": [
+        "neville-chamberlain",
+        "stephane-mallarme",
+        "nikolai-rimsky-korsakov"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    },
+    {
+      "day": 19,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 100,
+          "returnedUniqueQids": 4,
+          "startedAt": "2026-10-04T11:33:09.787Z",
+          "finishedAt": "2026-10-04T11:33:32.372Z",
+          "rawSha256": "bc5c12d8e1a77580e70c3c1cfcfdb2bd2b1781d648a4cbda8bdb4040563cad62"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 8,
+          "returnedUniqueQids": 5,
+          "startedAt": "2026-10-04T11:33:33.574Z",
+          "finishedAt": "2026-10-04T11:33:34.083Z",
+          "rawSha256": "c56b13852d43ee40ad6f42e11b42d581ee420e479c81cfeeb232368cee7c4b5c"
+        }
+      ],
+      "addedIds": [
+        "bruce-willis",
+        "philip-roth",
+        "glenn-close"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    },
+    {
+      "day": 20,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 100,
+          "returnedUniqueQids": 11,
+          "startedAt": "2026-10-04T11:33:35.284Z",
+          "finishedAt": "2026-10-04T11:33:46.234Z",
+          "rawSha256": "740f64aaa616ee0686f82b34878db37ab1d05423e148d8c55681f7bb24b90165"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 15,
+          "returnedUniqueQids": 9,
+          "startedAt": "2026-10-04T11:33:47.436Z",
+          "finishedAt": "2026-10-04T11:33:48.692Z",
+          "rawSha256": "a81ecdab0a0dd83e3a0911585992b37c1b5679c99f23fb61ddff756267978ff8"
+        }
+      ],
+      "addedIds": [
+        "henrik-ibsen",
+        "spike-lee",
+        "william-hurt"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    },
+    {
+      "day": 21,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 100,
+          "returnedUniqueQids": 18,
+          "startedAt": "2026-10-04T11:33:49.893Z",
+          "finishedAt": "2026-10-04T11:34:06.969Z",
+          "rawSha256": "2ce461f1b8dc94157aecacd81363fce6570fd4813e1ce912d1a729a9ff264d45"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 17,
+          "returnedUniqueQids": 10,
+          "startedAt": "2026-10-04T11:34:08.171Z",
+          "finishedAt": "2026-10-04T11:34:09.117Z",
+          "rawSha256": "261c6bf14f6bef7f2bdae826327594e8971783be81b18b1fdd46f52742d27a1e"
+        }
+      ],
+      "addedIds": [
+        "joseph-fourier",
+        "hans-dietrich-genscher",
+        "ayrton-senna"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    },
+    {
+      "day": 22,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 100,
+          "returnedUniqueQids": 10,
+          "startedAt": "2026-10-04T11:34:10.319Z",
+          "finishedAt": "2026-10-04T11:34:39.118Z",
+          "rawSha256": "d15b78dbdb7afd86e88ebe9394ba743436a8b4405707f92e2c95ee51289304ac"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 5,
+          "returnedUniqueQids": 3,
+          "startedAt": "2026-10-04T11:34:40.319Z",
+          "finishedAt": "2026-10-04T11:34:40.953Z",
+          "rawSha256": "d2e779d55fb9a90d34baff8900cf0de6c082314699513c02f90866d4a53af20c"
+        }
+      ],
+      "addedIds": [
+        "robert-millikan",
+        "marcel-marceau",
+        "andrew-lloyd-webber"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    },
+    {
+      "day": 23,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 100,
+          "returnedUniqueQids": 4,
+          "startedAt": "2026-10-04T11:34:42.154Z",
+          "finishedAt": "2026-10-04T11:35:09.019Z",
+          "rawSha256": "ac8b63b6fc42c79d0665cd1fa071e515de1ea5e89e446696ab38c3bebdb1d2a8"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 19,
+          "returnedUniqueQids": 13,
+          "startedAt": "2026-10-04T11:35:10.220Z",
+          "finishedAt": "2026-10-04T11:35:11.243Z",
+          "rawSha256": "cff49fa523e3d5bc78c964a041ea71de044efe3561baf72a8d3da315f96f64f3"
+        }
+      ],
+      "addedIds": [
+        "akira-kurosawa",
+        "erich-fromm",
+        "wernher-von-braun"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 5
+    },
+    {
+      "day": 24,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 100,
+          "returnedUniqueQids": 6,
+          "startedAt": "2026-10-04T11:35:12.444Z",
+          "finishedAt": "2026-10-04T11:35:20.681Z",
+          "rawSha256": "4ca57812d245182e9560b939d875a366371b73bf0bd1d1b9ea22c13001608f0c"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 12,
+          "returnedUniqueQids": 7,
+          "startedAt": "2026-10-04T11:35:21.884Z",
+          "finishedAt": "2026-10-04T11:35:22.547Z",
+          "rawSha256": "73544901e4fd644637ee837aa65b1db1ee5a6b5a7f817acab9b8c4bd51953c9e"
+        }
+      ],
+      "addedIds": [
+        "harry-houdini",
+        "steve-mcqueen",
+        "dario-fo"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    },
+    {
+      "day": 25,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 100,
+          "returnedUniqueQids": 6,
+          "startedAt": "2026-10-04T11:35:23.749Z",
+          "finishedAt": "2026-10-04T11:35:39.768Z",
+          "rawSha256": "df13d083f09527eb6383a15449cef9f82c9a699eb8d29b5b4d31da7c46f8500b"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 8,
+          "returnedUniqueQids": 6,
+          "startedAt": "2026-10-04T11:35:40.970Z",
+          "finishedAt": "2026-10-04T11:35:42.194Z",
+          "rawSha256": "f8a4329c020d8a8d2f0096b98bf7abd70ac6f419102c59e1f448354588414b92"
+        }
+      ],
+      "addedIds": [
+        "elton-john",
+        "aretha-franklin",
+        "bela-bartok"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    },
+    {
+      "day": 26,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 100,
+          "returnedUniqueQids": 11,
+          "startedAt": "2026-10-04T11:35:43.395Z",
+          "finishedAt": "2026-10-04T11:35:49.983Z",
+          "rawSha256": "e2ffadedf7aded5028ec5d0d2357b958c71389157e573299a4d8338aa79c6a4a"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 18,
+          "returnedUniqueQids": 8,
+          "startedAt": "2026-10-04T11:35:51.185Z",
+          "finishedAt": "2026-10-04T11:35:53.923Z",
+          "rawSha256": "1655dfbd6bb75759516054ff546650d649c948f26da0596068fa9fd4b11f2ff0"
+        }
+      ],
+      "addedIds": [
+        "bernard-katz",
+        "tennessee-williams",
+        "pierre-boulez"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    },
+    {
+      "day": 27,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 100,
+          "returnedUniqueQids": 14,
+          "startedAt": "2026-10-04T11:35:55.125Z",
+          "finishedAt": "2026-10-04T11:36:01.686Z",
+          "rawSha256": "5e6884be1877e531526f82fcaa70d5d641f038f0cef60ef31acc4ef1b967277b"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 6,
+          "returnedUniqueQids": 6,
+          "startedAt": "2026-10-04T11:36:02.888Z",
+          "finishedAt": "2026-10-04T11:36:03.479Z",
+          "rawSha256": "a7d8fb8e3becb064aa8109b6a86e11df385323e67f660c7377dcad2b1a650ff8"
+        }
+      ],
+      "addedIds": [
+        "wilhelm-rontgen",
+        "quentin-tarantino",
+        "mstislav-rostropovich"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    },
+    {
+      "day": 28,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 100,
+          "returnedUniqueQids": 5,
+          "startedAt": "2026-10-04T11:36:04.680Z",
+          "finishedAt": "2026-10-04T11:36:10.483Z",
+          "rawSha256": "f5975736d9e844cfc7cad96cf366b4d0c3323c2b268dd66f20443e5a8bf0b714"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 17,
+          "returnedUniqueQids": 13,
+          "startedAt": "2026-10-04T11:36:11.685Z",
+          "finishedAt": "2026-10-04T11:36:13.847Z",
+          "rawSha256": "4c24ef089136ee25a1dfed8537ae424979b85426d4a0a72b4fe58daa3ac2edfa"
+        }
+      ],
+      "addedIds": [
+        "dirk-bogarde",
+        "mario-vargas-llosa",
+        "tran-minh-vuong"
+      ],
+      "vietnamese": 1,
+      "international": 2,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    },
+    {
+      "day": 29,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 100,
+          "returnedUniqueQids": 16,
+          "startedAt": "2026-10-04T11:36:15.048Z",
+          "finishedAt": "2026-10-04T11:36:22.766Z",
+          "rawSha256": "2f20bf4d65612cff8da66d5104afd16dc6623068febbdda29d8a12a44ea6e9bc"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 18,
+          "returnedUniqueQids": 7,
+          "startedAt": "2026-10-04T11:36:23.969Z",
+          "finishedAt": "2026-10-04T11:36:24.854Z",
+          "rawSha256": "1a88d4f55a02aab5dc96824ad8ace28c38affb553eb372d804c86636606ef0f2"
+        }
+      ],
+      "addedIds": [
+        "john-tyler",
+        "john-major",
+        "ernst-junger"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 5
+    },
+    {
+      "day": 30,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 92,
+          "returnedUniqueQids": 14,
+          "startedAt": "2026-10-04T11:36:26.056Z",
+          "finishedAt": "2026-10-04T11:36:41.840Z",
+          "rawSha256": "58a175988748a61285373a1e0160f5a5d5d92823899830c44a203ceea3b33945"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 10,
+          "returnedUniqueQids": 5,
+          "startedAt": "2026-10-04T11:36:43.042Z",
+          "finishedAt": "2026-10-04T11:36:44.846Z",
+          "rawSha256": "4eae09d0eeb910a287d2dc05d69bff522486c0ff251f998d86d1cd3626060690"
+        }
+      ],
+      "addedIds": [
+        "vincent-van-gogh",
+        "eric-clapton",
+        "francisco-goya"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    },
+    {
+      "day": 31,
+      "month": 3,
+      "queries": [
+        {
+          "vnOnly": false,
+          "threshold": 60,
+          "rawBindingCount": 100,
+          "returnedUniqueQids": 7,
+          "startedAt": "2026-10-04T11:36:46.047Z",
+          "finishedAt": "2026-10-04T11:36:53.039Z",
+          "rawSha256": "72a4bb594c06129288953bb0d6c82711ad10458e11f1835301fc6f0b2569e9d0"
+        },
+        {
+          "vnOnly": true,
+          "threshold": 0,
+          "rawBindingCount": 5,
+          "returnedUniqueQids": 5,
+          "startedAt": "2026-10-04T11:36:54.241Z",
+          "finishedAt": "2026-10-04T11:36:55.162Z",
+          "rawSha256": "fb9feae3cd57fe51681264129d5ed2b4138f39a604948f7d409accea0885329c"
+        }
+      ],
+      "addedIds": [
+        "joseph-haydn",
+        "rene-descartes",
+        "al-gore"
+      ],
+      "vietnamese": 0,
+      "international": 3,
+      "nonWikiSourceRecords": 6,
+      "fullDobSourceRecords": 6
+    }
+  ]
+}

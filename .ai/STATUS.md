@@ -2,6 +2,16 @@
 
 ## Current cycle
 
+Cycle: BV-008
+State: ACCEPTED — B007-v1 review DAT.
+Task: B007 — toàn tháng3; báo cáo .ai/hop-thu-mybirthday/xong/B007-people-mar-01-31.md; review .ai/hop-thu-mybirthday/review/B007-people-mar-01-31-r1.md.
+Result: 93 mới (88 quốc tế / 5 Việt,5,38%), 3/ngày trên31/31 ngày. Tổng295người/96ngày; Jan95/31,Feb100/29,Mar93/31;4sự kiện nguyên vẹn.
+Validation: A–AA 0vi phạm; Wikidata295/295; URLs916/916,0failed/0MANUAL; TypeScript,lint,build,coverage,evidence186,smoke12/12; 202baseline+4events equality. Rà93người/186tài liệu;180tài liệu ghi đủDOB, 6SNL chỉ năm nhưng nguồn độc lập thứ hai ghi đủ. Ghi P570 mismatch Bertolucci đã được giải thích. 5 cảnh báo `<img>` cũ.
+Git: Origin trước đóng vòng cùng HEAD89fb28b; đang hoàn tất commit/push theo phê duyệt thường trực của chủ dự án; sau xác nhận remote0/0 sẽ dừng.
+Reviewer Attention: nội dung giao diện “hàng chục nghìn nhân vật” vẫn chưa tương xứng với295 hồ sơ; ngoài phạm vi B007.
+
+## Last completed cycle — B006
+
 Cycle: BV-007
 State: ACCEPTED
 Task: B006 — sinh16–29/2, gồm29/2; reviewr1 DAT.
@@ -57,7 +67,7 @@ Implementation Commit: bcf74c08d9ce40ba5a80c66431bc82dd2d43941e (`[B002] monthly
 
 1. `public/illustrations/` có ảnh minh họa chưa dùng hoặc có thể chưa phù hợp với sự kiện/nhân vật.
 2. Phần chiêm tinh là nội dung biểu tượng, không phải dữ kiện lịch sử.
-3. Dữ liệu toàn năm còn mỏng: sau B006 có202 người trên65/366 ngày; tháng1 và2 đủ31/29 ngày,301 ngày còn trống.
+3. Dữ liệu toàn năm còn mỏng: sau B007 có295 người trên96/366 ngày; tháng1,2,3 đủ31/29/31 ngày,270 ngày còn trống.
 4. `src/app/page.tsx` còn `as any` từ chu kỳ cũ, ngoài phạm vi B003/B004.
 
 ## Kết quả BV-003 / B002 (ACCEPTED, commit bcf74c0)

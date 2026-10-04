@@ -1,0 +1,24 @@
+{
+  "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&sites=enwiki&titles=Ph%E1%BA%A1m+M%E1%BA%A1nh+H%C3%B9ng%7CJames+Tobin%7CJoseph+von+Fraunhofer%7CHugo+Wolf%7CJoseph+Fourier%7CJames+Caan%7CDirk+Bogarde%7CVangelis&props=claims%7Clabels%7Cdescriptions%7Csitelinks&languages=en%7Cvi&format=json",
+  "openedAt": "2026-10-04T11:40:08.597850+00:00",
+  "titles": [
+    "Phạm Mạnh Hùng",
+    "James Tobin",
+    "Joseph von Fraunhofer",
+    "Hugo Wolf",
+    "Joseph Fourier",
+    "James Caan",
+    "Dirk Bogarde",
+    "Vangelis"
+  ],
+  "qids": [
+    "Q19594359",
+    "Q211776",
+    "Q43948",
+    "Q215747",
+    "Q8772",
+    "Q95043",
+    "Q299190",
+    "Q153172"
+  ]
+}

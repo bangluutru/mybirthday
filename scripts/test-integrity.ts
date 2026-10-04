@@ -928,6 +928,44 @@ for(const [qid,urls] of Object.entries(B006_FOREIGN_DOB_SOURCES)) for(const url 
 for(const p of b006Vietnamese)assert('Rule Y',(p.sourceUrls||[]).some(u=>isApprovedB006DobSource(p.wikidataId||'',u)), `B006 ${p.id}: reviewed foreign institutional fullDOB required`);
 console.log(`B006 additions: ${B006_NEW_PEOPLE.length}; Vietnamese: ${b006Vietnamese.length}`);
 
+// Rule Z/AA: the owner-authorized full March cycle B007.
+const B007_BASELINE_IDS = new Set(["jd-salinger", "christine-lagarde", "bui-hoang-viet-anh", "therese-of-lisieux", "rudolf-clausius", "mily-balakirev", "j-r-r-tolkien", "michael-schumacher", "clement-attlee", "louis-braille", "le-tan-tai", "nguyen-huy-hoang", "umberto-eco", "konrad-adenauer", "frank-walter-steinmeier", "kahlil-gibran", "syd-barrett", "heinrich-schliemann", "millard-fillmore", "lewis-hamilton", "joseph-bonaparte", "elvis-presley", "stephen-hawking", "vo-thi-anh-xuan", "richard-nixon", "simone-de-beauvoir", "joan-baez", "donald-knuth", "robert-woodrow-wilson", "george-foreman", "kailash-satyarthi", "roger-guillemin", "nguyen-hoang-duc", "jack-london", "swami-vivekananda", "charles-perrault", "wilhelm-wien", "sydney-brenner", "patrick-dempsey", "albert-schweitzer", "yukio-mishima", "suboi", "martin-luther-king-jr", "thach-kim-tuan", "do-thi-anh-nguyet", "huynh-phu-so", "kate-moss", "susan-sontag", "dian-fossey", "benjamin-franklin", "muhammad-ali", "michelle-obama", "chung-thi-thanh-lan", "nguyen-sinh-hung", "pep-guardiola", "cary-grant", "hanbin", "edgar-allan-poe", "janis-joplin", "pham-duc-huy", "buzz-aldrin", "federico-fellini", "truong-tan-sang", "nguyen-cong-phuong", "christian-dior", "nguyen-van-mau", "lord-byron", "august-strindberg", "david-hilbert", "stendhal", "edouard-manet", "moon-jae-in", "friedrich-ii-of-prussia", "luis-suarez", "nguyen-huu-long", "robert-burns", "virginia-woolf", "douglas-macarthur", "angela-davis", "wayne-gretzky", "wolfgang-amadeus-mozart", "lewis-carroll", "wilhelm-ii", "nguyen-thi-mai-hung", "jackson-pollock", "colette", "anton-chekhov", "romain-rolland", "abdus-salam", "franklin-d-roosevelt", "olof-palme", "isamu-akasaki", "franz-schubert", "beatrix-of-the-netherlands", "paul-nguyen-cong-anh", "george-washington", "drew-barrymore", "steve-irwin", "jules-verne", "trinh-cong-son", "enzo-ferrari", "elizabeth-taylor", "james-blunt", "arthur-schopenhauer", "robert-baden-powell", "heinrich-hertz", "renato-dulbecco", "niki-lauda", "julius-erving", "kyle-maclachlan", "han-hyo-joo", "nam-joo-hyuk", "rajon-rondo", "lea-salonga", "michael-chang", "lleyton-hewitt", "boris-yeltsin", "leymah-gbowee", "le-duc-phat", "james-joyce", "ayn-rand", "jascha-heifetz", "felix-mendelssohn", "gertrude-stein", "norman-rockwell", "rosa-parks", "charles-lindbergh", "fernand-leger", "cristiano-ronaldo", "neymar", "robert-hofstadter", "ronald-reagan", "bob-marley", "babe-ruth", "charles-dickens", "laura-ingalls-wilder", "vo-nguyen-hoang", "dmitri-mendeleev", "john-williams", "alice-walker", "william-henry-harrison", "carole-king", "bertolt-brecht", "boris-pasternak", "mark-spitz", "thomas-edison", "josiah-willard-gibbs", "henry-fox-talbot", "abraham-lincoln", "charles-darwin", "nguyen-tien-minh", "william-shockley", "peter-gabriel", "peter-gustav-lejeune-dirichlet", "fritz-zwicky", "christian-eriksen", "angel-di-maria", "susan-b-anthony", "ernest-shackleton", "alfred-north-whitehead", "john-mcenroe", "valentino-rossi", "francis-galton", "michael-jordan", "otto-stern", "nguyen-van-hoang", "alessandro-volta", "toni-morrison", "svante-arrhenius", "jennifer-doudna", "bui-tan-truong", "ansel-adams", "ludwig-boltzmann", "sidney-poitier", "nina-simone", "harald-v", "w-h-auden", "naruhito", "karl-jaspers", "w-e-b-du-bois", "steve-jobs", "alain-prost", "pierre-auguste-renoir", "george-harrison", "anthony-burgess", "victor-hugo", "johnny-cash", "recep-tayyip-erdogan", "john-steinbeck", "henry-wadsworth-longfellow", "linus-pauling", "frank-gehry", "gioachino-rossini", "pedro-sanchez", "herman-hollerith", "mandy-moore", "carl-friedrich-gauss", "gal-gadot", "ngo-bao-chau", "napoleon-bonaparte", "jennifer-lawrence", "edvard-munch"]);
+const B007_NEW_PEOPLE = ALL_PEOPLE.filter(p => !B007_BASELINE_IDS.has(p.id));
+for (let day=1; day<=31; day++) {
+ assert('Rule Z', ALL_PEOPLE.filter(p=>p.birthMonth===3 && p.birthDay===day).length>=3, `March ${day}: at least3 verified people`);
+ assert('Rule Z', B007_NEW_PEOPLE.filter(p=>p.birthMonth===3 && p.birthDay===day).length<=8, `March ${day}: at most8 additions`);
+}
+assert('Rule Z', B007_NEW_PEOPLE.every(p=>p.birthMonth===3), 'B007 additions must be in March');
+const B007_FOREIGN_DOB_SOURCES: Readonly<Record<string, readonly string[]>> = {
+  "Q18637480": [
+    "https://assets.the-afc.com/migration/a/f/afc-asian-cup-uae-2019-technical-report-and-statistics"
+  ],
+  "Q19594359": [
+    "https://assets.the-afc.com/migration/a/f/afc-u-23-championship-2016-qatar---final-registration--28554"
+  ],
+  "Q19560744": [
+    "https://assets.the-afc.com/migration/a/f/afc-u-23-championship-2016-qatar---final-registration--28554"
+  ],
+  "Q10829872": [
+    "https://assets.the-afc.com/migration/a/f/afc-champions-league-2016-preliminary-registration-squad-list-29510"
+  ],
+  "Q19364879": [
+    "https://assets.the-afc.com/migration/a/f/afc-asian-cup-uae-2019-technical-report-and-statistics"
+  ]
+};
+const approvedB007Source=(qid:string,url:string):boolean=>B007_FOREIGN_DOB_SOURCES[qid]?.includes(url) ?? false;
+const b007Vietnamese=B007_NEW_PEOPLE.filter(p=>p.countryCode==='VN');
+assert('Rule AA', B007_NEW_PEOPLE.length>=93, 'B007 requires at least93 additions');
+assert('Rule AA', B007_NEW_PEOPLE.length>0 && b007Vietnamese.length/B007_NEW_PEOPLE.length>=0.05, 'B007 requires at least5% Vietnamese among new IDs');
+for(const [qid,urls]of Object.entries(B007_FOREIGN_DOB_SOURCES))for(const url of urls){
+ assert('Rule AA positive',approvedB007Source(qid,url),'Exact reviewed source passes');
+ const spoof=new URL(url);spoof.hostname+='.evil.example';
+ for(const [badQid,badUrl]of [[qid,spoof.href],[qid,'invalid-url'],[qid,url+'?unreviewed=1'],[qid,new URL('/unreviewed',url).href],['Q0',url]])
+  assert('Rule AA negative',!approvedB007Source(badQid,badUrl),'Unreviewed QID/URL fails');
+}
+for(const p of b007Vietnamese)assert('Rule AA',(p.sourceUrls||[]).some(u=>approvedB007Source(p.wikidataId||'',u)), `B007 ${p.id}: exact reviewed foreign fullDOB source required`);
+console.log(`B007 additions: ${B007_NEW_PEOPLE.length}; Vietnamese: ${b007Vietnamese.length}`);
+
 // ------------------------------------------------------------
 // Summary
 // ------------------------------------------------------------
