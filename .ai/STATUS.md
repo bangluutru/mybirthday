@@ -3,12 +3,12 @@
 ## Current cycle
 
 Cycle: BV-007
-State: OPEN
-Task: B006 — sinh16–29/2, bao gồm29/2; đã giao trongviec/B006-people-feb-16-29.md.
-Reviewer: Codex theo chủ dự án; executor: Gemini3.8 /Antigravity.
-Baseline:167 người/56 ngày, tháng1=95/31 ngày, tháng2=65/20 ngày. Đích≥3/ngày toàn tháng2, ít nhất35 mới và≥5%VN (35 cần2VN). Chưa thêm dữ liệu B006.
-Acceptance: B006directive; giữA–W, thêmX/Y; nguồn nướcngoài fullDOB cho mỗiVN,2 nguồn ngoàiWiki độc lập,mọi cổng đạt vàbảo toàn167 baseline/4events. KhôngUI/tháng3/sựkiện/dependencies, không thêm22/2.
-Next: Gemini thực hiện đúngFILES, nộp báo cáo xong rồi dừng; reviewer kiểm chéo trướcDAT/push. Chỉ1 việc mở.
+State: ACCEPTED
+Task: B006 — sinh16–29/2, gồm29/2; reviewr1 DAT.
+Reviewer/executor: Codex trực tiếp theo yêu cầu chủ dự án.
+Result:35mới,2VN/33quốc tế (5,714%),13quốc gia;202người/65ngày. Jan95/31ngày,Feb100/29ngày,≥3/ngày. Không thêm22Feb (16),4events nguyên vẹn.
+Validation: A–Y0vi phạm,Wikidata202/202,URL640/0failed/0MANUAL,tsc/lint/build/coverage/smoke10/10,diffcheck đạt.167baseline/4events deep equality. Rà35hồ sơ/70nguồn,66fullDOB,2VN có tài liệu AFC nước ngoài đủDOB, giới hạn đăng ký liên đoàn chung ghi rõ. Lint cònimgwarnings cũ.
+Next: tích hợp vàpush origin/main theo chủ dự án, rồi dừng; không có chỉ thị tháng3.
 
 ## Last completed cycle — B005
 
@@ -57,7 +57,7 @@ Implementation Commit: bcf74c08d9ce40ba5a80c66431bc82dd2d43941e (`[B002] monthly
 
 1. `public/illustrations/` có ảnh minh họa chưa dùng hoặc có thể chưa phù hợp với sự kiện/nhân vật.
 2. Phần chiêm tinh là nội dung biểu tượng, không phải dữ kiện lịch sử.
-3. Dữ liệu toàn năm còn mỏng: sau B005 có167 người trên56/366 ngày; tháng1 đủ31 ngày, tháng2 chưa đủ.
+3. Dữ liệu toàn năm còn mỏng: sau B006 có202 người trên65/366 ngày; tháng1 và2 đủ31/29 ngày,301 ngày còn trống.
 4. `src/app/page.tsx` còn `as any` từ chu kỳ cũ, ngoài phạm vi B003/B004.
 
 ## Kết quả BV-003 / B002 (ACCEPTED, commit bcf74c0)
@@ -71,3 +71,7 @@ Implementation Commit: bcf74c08d9ce40ba5a80c66431bc82dd2d43941e (`[B002] monthly
 ## Reviewer Attention B005 — resolved
 
 Timeout BnF/Woolf và502 Brecht đã xử lý đúng chỉ thị r2–r4; cổng toàn bộ cuối0failed/0MANUAL. Log lỗi giữ lịch sử. PublisherCountry host cá nhân chưa rõ ghiunknown, không suy đoán.
+
+## Reviewer Attention B006
+
+Trang /day còn câu cũ “hàng chục nghìn nhân vật” dù thực tế202. Cần chu kỳ UI riêng; không sửa ngoài phạm viB006. Hai nguồn AFC/VPF quản lý khác nhau nhưng có thể chung đăng ký liên đoàn; không coi là hai cuộc điều traDOB độc lập.

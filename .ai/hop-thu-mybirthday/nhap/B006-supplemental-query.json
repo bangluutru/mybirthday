@@ -1,0 +1,418 @@
+[
+  {
+    "search": "Ansel Adams",
+    "checkedAt": "2026-10-04T10:28:55.515Z",
+    "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Ansel+Adams&language=en&type=item&limit=3&format=json",
+    "results": [
+      {
+        "id": "Q60809",
+        "title": "Q60809",
+        "pageid": 63562,
+        "concepturi": "http://www.wikidata.org/entity/Q60809",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q60809",
+        "display": {
+          "label": {
+            "value": "Ansel Adams",
+            "language": "en"
+          },
+          "description": {
+            "value": "American photographer and environmentalist (1902–1984)",
+            "language": "en"
+          }
+        },
+        "label": "Ansel Adams",
+        "description": "American photographer and environmentalist (1902–1984)",
+        "match": {
+          "type": "label",
+          "language": "en",
+          "text": "Ansel Adams"
+        }
+      },
+      {
+        "id": "Q64158043",
+        "title": "Q64158043",
+        "pageid": 63860172,
+        "concepturi": "http://www.wikidata.org/entity/Q64158043",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q64158043",
+        "display": {
+          "label": {
+            "value": "Ansel Adams",
+            "language": "en"
+          },
+          "description": {
+            "value": "photograph in the National Gallery of Art (NGA 206956)",
+            "language": "en"
+          }
+        },
+        "label": "Ansel Adams",
+        "description": "photograph in the National Gallery of Art (NGA 206956)",
+        "match": {
+          "type": "label",
+          "language": "en",
+          "text": "Ansel Adams"
+        }
+      },
+      {
+        "id": "Q79995617",
+        "title": "Q79995617",
+        "pageid": 79404757,
+        "concepturi": "http://www.wikidata.org/entity/Q79995617",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q79995617",
+        "display": {
+          "label": {
+            "value": "Ansel Adams",
+            "language": "en"
+          },
+          "description": {
+            "value": "photograph by James Gianelos (American, 1928-) (2008.122)",
+            "language": "en"
+          }
+        },
+        "label": "Ansel Adams",
+        "description": "photograph by James Gianelos (American, 1928-) (2008.122)",
+        "match": {
+          "type": "label",
+          "language": "en",
+          "text": "Ansel Adams"
+        }
+      }
+    ]
+  },
+  {
+    "search": "Herman Hollerith",
+    "checkedAt": "2026-10-04T10:28:57.098Z",
+    "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Herman+Hollerith&language=en&type=item&limit=3&format=json",
+    "results": [
+      {
+        "id": "Q192145",
+        "title": "Q192145",
+        "pageid": 190346,
+        "concepturi": "http://www.wikidata.org/entity/Q192145",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q192145",
+        "display": {
+          "label": {
+            "value": "Herman Hollerith",
+            "language": "en"
+          },
+          "description": {
+            "value": "American statistician and inventor（1860-1929）",
+            "language": "en"
+          }
+        },
+        "label": "Herman Hollerith",
+        "description": "American statistician and inventor（1860-1929）",
+        "match": {
+          "type": "label",
+          "language": "en",
+          "text": "Herman Hollerith"
+        }
+      },
+      {
+        "id": "Q19874277",
+        "title": "Q19874277",
+        "pageid": 21503237,
+        "concepturi": "http://www.wikidata.org/entity/Q19874277",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q19874277",
+        "display": {
+          "label": {
+            "value": "Herman Hollerith IV",
+            "language": "en"
+          },
+          "description": {
+            "value": "American bishop",
+            "language": "en"
+          }
+        },
+        "label": "Herman Hollerith IV",
+        "description": "American bishop",
+        "match": {
+          "type": "label",
+          "language": "en",
+          "text": "Herman Hollerith IV"
+        }
+      },
+      {
+        "id": "Q100632857",
+        "title": "Q100632857",
+        "pageid": 98241287,
+        "concepturi": "http://www.wikidata.org/entity/Q100632857",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q100632857",
+        "display": {
+          "label": {
+            "value": "Herman-Hollerith-Straße",
+            "language": "en"
+          },
+          "description": {
+            "value": "street in Erfurt, Thuringia, Germany",
+            "language": "en"
+          }
+        },
+        "label": "Herman-Hollerith-Straße",
+        "description": "street in Erfurt, Thuringia, Germany",
+        "match": {
+          "type": "label",
+          "language": "en",
+          "text": "Herman-Hollerith-Straße"
+        }
+      }
+    ]
+  },
+  {
+    "search": "Henry Wadsworth Longfellow",
+    "checkedAt": "2026-10-04T10:28:58.703Z",
+    "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Henry+Wadsworth+Longfellow&language=en&type=item&limit=3&format=json",
+    "results": [
+      {
+        "id": "Q152513",
+        "title": "Q152513",
+        "pageid": 153905,
+        "concepturi": "http://www.wikidata.org/entity/Q152513",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q152513",
+        "display": {
+          "label": {
+            "value": "Henry Wadsworth Longfellow",
+            "language": "mul"
+          },
+          "description": {
+            "value": "American poet and educator (1807–1882)",
+            "language": "en"
+          }
+        },
+        "label": "Henry Wadsworth Longfellow",
+        "description": "American poet and educator (1807–1882)",
+        "match": {
+          "type": "label",
+          "language": "mul",
+          "text": "Henry Wadsworth Longfellow"
+        }
+      },
+      {
+        "id": "Q47510341",
+        "title": "Q47510341",
+        "pageid": 48553580,
+        "concepturi": "http://www.wikidata.org/entity/Q47510341",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q47510341",
+        "display": {
+          "label": {
+            "value": "Henry Wadsworth Longfellow",
+            "language": "en"
+          },
+          "description": {
+            "value": "painting by Theodore Wust",
+            "language": "en"
+          }
+        },
+        "label": "Henry Wadsworth Longfellow",
+        "description": "painting by Theodore Wust",
+        "match": {
+          "type": "label",
+          "language": "en",
+          "text": "Henry Wadsworth Longfellow"
+        }
+      },
+      {
+        "id": "Q47513226",
+        "title": "Q47513226",
+        "pageid": 48556375,
+        "concepturi": "http://www.wikidata.org/entity/Q47513226",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q47513226",
+        "display": {
+          "label": {
+            "value": "Henry Wadsworth Longfellow",
+            "language": "en"
+          },
+          "description": {
+            "value": "painting by Thomas Buchanan Read",
+            "language": "en"
+          }
+        },
+        "label": "Henry Wadsworth Longfellow",
+        "description": "painting by Thomas Buchanan Read",
+        "match": {
+          "type": "label",
+          "language": "en",
+          "text": "Henry Wadsworth Longfellow"
+        }
+      }
+    ]
+  },
+  {
+    "search": "Linus Pauling",
+    "checkedAt": "2026-10-04T10:29:00.345Z",
+    "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Linus+Pauling&language=en&type=item&limit=3&format=json",
+    "results": [
+      {
+        "id": "Q48983",
+        "title": "Q48983",
+        "pageid": 50928,
+        "concepturi": "http://www.wikidata.org/entity/Q48983",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q48983",
+        "display": {
+          "label": {
+            "value": "Linus Pauling",
+            "language": "en"
+          },
+          "description": {
+            "value": "American scientist (1901–1994)",
+            "language": "en"
+          }
+        },
+        "label": "Linus Pauling",
+        "description": "American scientist (1901–1994)",
+        "match": {
+          "type": "label",
+          "language": "en",
+          "text": "Linus Pauling"
+        }
+      },
+      {
+        "id": "Q47509324",
+        "title": "Q47509324",
+        "pageid": 48552573,
+        "concepturi": "http://www.wikidata.org/entity/Q47509324",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q47509324",
+        "display": {
+          "label": {
+            "value": "Linus Pauling",
+            "language": "en"
+          },
+          "description": {
+            "value": "painting by Alice Neel",
+            "language": "en"
+          }
+        },
+        "label": "Linus Pauling",
+        "description": "painting by Alice Neel",
+        "match": {
+          "type": "label",
+          "language": "en",
+          "text": "Linus Pauling"
+        }
+      },
+      {
+        "id": "Q3910565",
+        "title": "Q3910565",
+        "pageid": 3730857,
+        "concepturi": "http://www.wikidata.org/entity/Q3910565",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q3910565",
+        "display": {
+          "label": {
+            "value": "Linus Pauling Award",
+            "language": "en"
+          },
+          "description": {
+            "value": "award recognizing outstanding achievement in chemistry",
+            "language": "en"
+          }
+        },
+        "label": "Linus Pauling Award",
+        "description": "award recognizing outstanding achievement in chemistry",
+        "match": {
+          "type": "label",
+          "language": "en",
+          "text": "Linus Pauling Award"
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Anthony+Burgess&language=en&type=item&limit=3&format=json",
+    "checkedAt": "2026-10-04T10:31:46.600Z",
+    "raw": {
+      "searchinfo": {
+        "search": "Anthony Burgess"
+      },
+      "search": [
+        {
+          "id": "Q217619",
+          "title": "Q217619",
+          "pageid": 212721,
+          "concepturi": "http://www.wikidata.org/entity/Q217619",
+          "repository": "wikidata",
+          "url": "//www.wikidata.org/wiki/Q217619",
+          "display": {
+            "label": {
+              "value": "Anthony Burgess",
+              "language": "en"
+            },
+            "description": {
+              "value": "English writer and composer (1917–1993)",
+              "language": "en"
+            }
+          },
+          "label": "Anthony Burgess",
+          "description": "English writer and composer (1917–1993)",
+          "match": {
+            "type": "label",
+            "language": "en",
+            "text": "Anthony Burgess"
+          }
+        },
+        {
+          "id": "Q100765380",
+          "title": "Q100765380",
+          "pageid": 98324778,
+          "concepturi": "http://www.wikidata.org/entity/Q100765380",
+          "repository": "wikidata",
+          "url": "//www.wikidata.org/wiki/Q100765380",
+          "display": {
+            "label": {
+              "value": "Anthony Burgess",
+              "language": "en"
+            },
+            "description": {
+              "value": "college basketball player (1987–1988) Northern Arizona",
+              "language": "en"
+            }
+          },
+          "label": "Anthony Burgess",
+          "description": "college basketball player (1987–1988) Northern Arizona",
+          "match": {
+            "type": "label",
+            "language": "en",
+            "text": "Anthony Burgess"
+          }
+        },
+        {
+          "id": "Q100765381",
+          "title": "Q100765381",
+          "pageid": 98324779,
+          "concepturi": "http://www.wikidata.org/entity/Q100765381",
+          "repository": "wikidata",
+          "url": "//www.wikidata.org/wiki/Q100765381",
+          "display": {
+            "label": {
+              "value": "Anthony Burgess",
+              "language": "en"
+            },
+            "description": {
+              "value": "college basketball player (1985–1985) UC-Irvine",
+              "language": "en"
+            }
+          },
+          "label": "Anthony Burgess",
+          "description": "college basketball player (1985–1985) UC-Irvine",
+          "match": {
+            "type": "label",
+            "language": "en",
+            "text": "Anthony Burgess"
+          }
+        }
+      ],
+      "search-continue": 3,
+      "success": 1
+    }
+  }
+]

@@ -47,3 +47,7 @@ Sửa src/data/people/02.ts (chỉ append16–29/2, trừ22/2), scripts/test-int
 ## Báo cáo / đóng vòng
 
 Báo cáo FILES thực tế, bảng14 ngày (ứng viên chung/VN,bindings,QID,ngưỡng,thêmVN/quốc tế,tổng/ngày), tỷ lệ mẫu mới, bằng chứng từng người, loại trừ, kiểm100% nguồn, mọi cổng và chỗ không chắc. Thiếu nguồn/độ phủ/tỷ lệ => SUA, không tự nới tiêu chí. Nộp xong dừng. Reviewer chỉ DAT khi cả sự thật và cổng máy đạt; commit/push sau DAT. Tháng3 chỉ mở khi có chỉ thị tiếp theo.
+
+Điều chỉnh chủ dự án2026-10-04: Codex trực tiếp thực hiện B006, review và tích hợp sau DAT; không đổi phạm vi/tiêu chí.
+
+Reviewer correction B006-r1: Rule L cấm tên Steve Jobs ở mọi dữ liệu vì chống fixture cũ. Cho phép duy nhất object dữ liệu steve-jobs, Q19837, Gregorian 1955-02-24 trong people/02.ts đã kiểm nguồn; vẫn cấm hardcode tên này trong UI và mọi record khác. Không bỏ Rule L hoặc quy tắc A–W. Highlights thứ hai dùng tiểu sử đã kiểm nguồn.

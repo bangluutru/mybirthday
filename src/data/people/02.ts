@@ -2252,4 +2252,1219 @@ export const PEOPLE_02: Person[] = [
     "region": "world",
     "verifiedAt": "2026-10-04"
   },
+  {
+    "id": "john-mcenroe",
+    "slug": "john-mcenroe",
+    "name": "John McEnroe",
+    "birthDate": "1959-02-16",
+    "birthYear": 1959,
+    "birthMonth": 2,
+    "birthDay": 16,
+    "occupation": [
+      "Vận động viên quần vợt"
+    ],
+    "category": "athlete",
+    "categoryLabel": "Vận động viên quần vợt",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "John McEnroe là cựu vận động viên quần vợt người Mỹ, giành 7 danh hiệu Grand Slam đơn.",
+    "biography": "John McEnroe là cựu vận động viên quần vợt người Mỹ, giành 7 danh hiệu Grand Slam đơn.",
+    "highlights": [
+      "Sinh ngày 16/2/1959.",
+      "John McEnroe là cựu vận động viên quần vợt người Mỹ, giành 7 danh hiệu Grand Slam đơn."
+    ],
+    "wikidataId": "Q16474",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q16474",
+      "https://snl.no/John_McEnroe_-_jr.",
+      "https://www.enciklopedija.hr/clanak/mcenroe-john"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "valentino-rossi",
+    "slug": "valentino-rossi",
+    "name": "Valentino Rossi",
+    "birthDate": "1979-02-16",
+    "birthYear": 1979,
+    "birthMonth": 2,
+    "birthDay": 16,
+    "occupation": [
+      "Tay đua mô tô"
+    ],
+    "category": "athlete",
+    "categoryLabel": "Tay đua mô tô",
+    "countryCode": "IT",
+    "countryName": "Ý",
+    "countryFlag": "🇮🇹",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Valentino Rossi là tay đua mô tô người Ý, giành 9 chức vô địch thế giới.",
+    "biography": "Valentino Rossi là tay đua mô tô người Ý, giành 9 chức vô địch thế giới.",
+    "highlights": [
+      "Sinh ngày 16/2/1979.",
+      "Valentino Rossi là tay đua mô tô người Ý, giành 9 chức vô địch thế giới."
+    ],
+    "wikidataId": "Q169814",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q169814",
+      "https://snl.no/Valentino_Rossi",
+      "https://www.enciklopedija.hr/clanak/rossi-valentino"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "francis-galton",
+    "slug": "francis-galton",
+    "name": "Francis Galton",
+    "birthDate": "1822-02-16",
+    "birthYear": 1822,
+    "birthMonth": 2,
+    "birthDay": 16,
+    "occupation": [
+      "Nhà khoa học"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Nhà khoa học",
+    "countryCode": "GB",
+    "countryName": "Anh",
+    "countryFlag": "🇬🇧",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Francis Galton là nhà khoa học người Anh, hoạt động trong nhân chủng học, tâm lý học và thống kê.",
+    "biography": "Francis Galton là nhà khoa học người Anh, hoạt động trong nhân chủng học, tâm lý học và thống kê.",
+    "highlights": [
+      "Sinh ngày 16/2/1822.",
+      "Francis Galton là nhà khoa học người Anh, hoạt động trong nhân chủng học, tâm lý học và thống kê."
+    ],
+    "wikidataId": "Q191026",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q191026",
+      "https://snl.no/Francis_Galton",
+      "https://www.enciklopedija.hr/clanak/galton-francis"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "1911-01-17"
+  },
+  {
+    "id": "michael-jordan",
+    "slug": "michael-jordan",
+    "name": "Michael Jordan",
+    "birthDate": "1963-02-17",
+    "birthYear": 1963,
+    "birthMonth": 2,
+    "birthDay": 17,
+    "occupation": [
+      "Vận động viên bóng rổ"
+    ],
+    "category": "athlete",
+    "categoryLabel": "Vận động viên bóng rổ",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Michael Jordan là cựu vận động viên bóng rổ người Mỹ, giành 6 chức vô địch NBA cùng Chicago Bulls.",
+    "biography": "Michael Jordan là cựu vận động viên bóng rổ người Mỹ, giành 6 chức vô địch NBA cùng Chicago Bulls.",
+    "highlights": [
+      "Sinh ngày 17/2/1963.",
+      "Michael Jordan là cựu vận động viên bóng rổ người Mỹ, giành 6 chức vô địch NBA cùng Chicago Bulls."
+    ],
+    "wikidataId": "Q41421",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q41421",
+      "https://snl.no/Michael_Jordan",
+      "https://www.enciklopedija.hr/clanak/jordan-michael"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "otto-stern",
+    "slug": "otto-stern",
+    "name": "Otto Stern",
+    "birthDate": "1888-02-17",
+    "birthYear": 1888,
+    "birthMonth": 2,
+    "birthDay": 17,
+    "occupation": [
+      "Nhà vật lý"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Nhà vật lý",
+    "countryCode": "DE",
+    "countryName": "Đức",
+    "countryFlag": "🇩🇪",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Otto Stern là nhà vật lý gốc Đức, được trao giải Nobel Vật lý năm 1943.",
+    "biography": "Otto Stern là nhà vật lý gốc Đức, được trao giải Nobel Vật lý năm 1943.",
+    "highlights": [
+      "Sinh ngày 17/2/1888.",
+      "Otto Stern là nhà vật lý gốc Đức, được trao giải Nobel Vật lý năm 1943."
+    ],
+    "wikidataId": "Q57072",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q57072",
+      "https://www.nobelprize.org/prizes/physics/1943/stern/facts/",
+      "https://www.enciklopedija.hr/clanak/stern-otto"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "1969-08-17"
+  },
+  {
+    "id": "nguyen-van-hoang",
+    "slug": "nguyen-van-hoang",
+    "name": "Nguyễn Văn Hoàng",
+    "birthDate": "1995-02-17",
+    "birthYear": 1995,
+    "birthMonth": 2,
+    "birthDay": 17,
+    "occupation": [
+      "Thủ môn bóng đá"
+    ],
+    "category": "athlete",
+    "categoryLabel": "Thủ môn bóng đá",
+    "countryCode": "VN",
+    "countryName": "Việt Nam",
+    "countryFlag": "🇻🇳",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Nguyễn Văn Hoàng là thủ môn bóng đá người Việt Nam.",
+    "biography": "Nguyễn Văn Hoàng là thủ môn bóng đá người Việt Nam.",
+    "highlights": [
+      "Sinh ngày 17/2/1995.",
+      "Nguyễn Văn Hoàng là thủ môn bóng đá người Việt Nam."
+    ],
+    "wikidataId": "Q45344289",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q45344289",
+      "https://assets.the-afc.com/migration/u/2/U23%20Technical%20Report%202018.pdf",
+      "https://vpf.vn/player/nguyen-van-hoang/"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "vietnam",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "alessandro-volta",
+    "slug": "alessandro-volta",
+    "name": "Alessandro Volta",
+    "birthDate": "1745-02-18",
+    "birthYear": 1745,
+    "birthMonth": 2,
+    "birthDay": 18,
+    "occupation": [
+      "Nhà vật lý"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Nhà vật lý",
+    "countryCode": "IT",
+    "countryName": "Ý",
+    "countryFlag": "🇮🇹",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Alessandro Volta là nhà vật lý người Ý, được biết đến với việc phát minh pin Volta.",
+    "biography": "Alessandro Volta là nhà vật lý người Ý, được biết đến với việc phát minh pin Volta.",
+    "highlights": [
+      "Sinh ngày 18/2/1745.",
+      "Alessandro Volta là nhà vật lý người Ý, được biết đến với việc phát minh pin Volta."
+    ],
+    "wikidataId": "Q680",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q680",
+      "https://snl.no/Alessandro_Volta",
+      "https://www.enciklopedija.hr/clanak/volta-alessandro"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "1827-03-05"
+  },
+  {
+    "id": "toni-morrison",
+    "slug": "toni-morrison",
+    "name": "Toni Morrison",
+    "birthDate": "1931-02-18",
+    "birthYear": 1931,
+    "birthMonth": 2,
+    "birthDay": 18,
+    "occupation": [
+      "Nhà văn"
+    ],
+    "category": "literature",
+    "categoryLabel": "Nhà văn",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Toni Morrison là nhà văn người Mỹ, được trao giải Nobel Văn học năm 1993.",
+    "biography": "Toni Morrison là nhà văn người Mỹ, được trao giải Nobel Văn học năm 1993.",
+    "highlights": [
+      "Sinh ngày 18/2/1931.",
+      "Toni Morrison là nhà văn người Mỹ, được trao giải Nobel Văn học năm 1993."
+    ],
+    "wikidataId": "Q72334",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q72334",
+      "https://snl.no/Toni_Morrison",
+      "https://www.nobelprize.org/prizes/literature/1993/morrison/facts/"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "2019-08-05"
+  },
+  {
+    "id": "svante-arrhenius",
+    "slug": "svante-arrhenius",
+    "name": "Svante Arrhenius",
+    "birthDate": "1859-02-19",
+    "birthYear": 1859,
+    "birthMonth": 2,
+    "birthDay": 19,
+    "occupation": [
+      "Nhà hóa học"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Nhà hóa học",
+    "countryCode": "SE",
+    "countryName": "Thụy Điển",
+    "countryFlag": "🇸🇪",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Svante Arrhenius là nhà hóa học người Thụy Điển, được trao giải Nobel Hóa học năm 1903.",
+    "biography": "Svante Arrhenius là nhà hóa học người Thụy Điển, được trao giải Nobel Hóa học năm 1903.",
+    "highlights": [
+      "Sinh ngày 19/2/1859.",
+      "Svante Arrhenius là nhà hóa học người Thụy Điển, được trao giải Nobel Hóa học năm 1903."
+    ],
+    "wikidataId": "Q80956",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q80956",
+      "https://www.nobelprize.org/prizes/chemistry/1903/arrhenius/facts/",
+      "https://sok.riksarkivet.se/Sbl/Artikel/18848"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "1927-10-02"
+  },
+  {
+    "id": "jennifer-doudna",
+    "slug": "jennifer-doudna",
+    "name": "Jennifer Doudna",
+    "birthDate": "1964-02-19",
+    "birthYear": 1964,
+    "birthMonth": 2,
+    "birthDay": 19,
+    "occupation": [
+      "Nhà hóa sinh"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Nhà hóa sinh",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Jennifer Doudna là nhà hóa sinh người Mỹ, được trao giải Nobel Hóa học năm 2020.",
+    "biography": "Jennifer Doudna là nhà hóa sinh người Mỹ, được trao giải Nobel Hóa học năm 2020.",
+    "highlights": [
+      "Sinh ngày 19/2/1964.",
+      "Jennifer Doudna là nhà hóa sinh người Mỹ, được trao giải Nobel Hóa học năm 2020."
+    ],
+    "wikidataId": "Q56068",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q56068",
+      "https://www.enciklopedija.hr/clanak/doudna-jennifer-anne",
+      "https://www.nobelprize.org/prizes/chemistry/2020/doudna/facts/"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "bui-tan-truong",
+    "slug": "bui-tan-truong",
+    "name": "Bùi Tấn Trường",
+    "birthDate": "1986-02-19",
+    "birthYear": 1986,
+    "birthMonth": 2,
+    "birthDay": 19,
+    "occupation": [
+      "Thủ môn bóng đá"
+    ],
+    "category": "athlete",
+    "categoryLabel": "Thủ môn bóng đá",
+    "countryCode": "VN",
+    "countryName": "Việt Nam",
+    "countryFlag": "🇻🇳",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Bùi Tấn Trường là thủ môn bóng đá người Việt Nam.",
+    "biography": "Bùi Tấn Trường là thủ môn bóng đá người Việt Nam.",
+    "highlights": [
+      "Sinh ngày 19/2/1986.",
+      "Bùi Tấn Trường là thủ môn bóng đá người Việt Nam."
+    ],
+    "wikidataId": "Q868808",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q868808",
+      "https://assets.the-afc.com/migration/a/f/afc-champions-league-2016-preliminary-registration-squad-list-29510",
+      "https://vpf.vn/player/bui-tan-truong/"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "vietnam",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "ansel-adams",
+    "slug": "ansel-adams",
+    "name": "Ansel Adams",
+    "birthDate": "1902-02-20",
+    "birthYear": 1902,
+    "birthMonth": 2,
+    "birthDay": 20,
+    "occupation": [
+      "Nhiếp ảnh gia"
+    ],
+    "category": "artist",
+    "categoryLabel": "Nhiếp ảnh gia",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Ansel Adams là nhiếp ảnh gia người Mỹ, nổi tiếng với ảnh phong cảnh thiên nhiên.",
+    "biography": "Ansel Adams là nhiếp ảnh gia người Mỹ, nổi tiếng với ảnh phong cảnh thiên nhiên.",
+    "highlights": [
+      "Sinh ngày 20/2/1902.",
+      "Ansel Adams là nhiếp ảnh gia người Mỹ, nổi tiếng với ảnh phong cảnh thiên nhiên."
+    ],
+    "wikidataId": "Q60809",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q60809",
+      "https://snl.no/Ansel_Adams",
+      "https://www.enciklopedija.hr/clanak/adams-ansel-easton"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "1984-04-22"
+  },
+  {
+    "id": "ludwig-boltzmann",
+    "slug": "ludwig-boltzmann",
+    "name": "Ludwig Boltzmann",
+    "birthDate": "1844-02-20",
+    "birthYear": 1844,
+    "birthMonth": 2,
+    "birthDay": 20,
+    "occupation": [
+      "Nhà vật lý"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Nhà vật lý",
+    "countryCode": "AT",
+    "countryName": "Áo",
+    "countryFlag": "🇦🇹",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Ludwig Boltzmann là nhà vật lý người Áo, nghiên cứu phương pháp thống kê trong nhiệt động lực học.",
+    "biography": "Ludwig Boltzmann là nhà vật lý người Áo, nghiên cứu phương pháp thống kê trong nhiệt động lực học.",
+    "highlights": [
+      "Sinh ngày 20/2/1844.",
+      "Ludwig Boltzmann là nhà vật lý người Áo, nghiên cứu phương pháp thống kê trong nhiệt động lực học."
+    ],
+    "wikidataId": "Q84296",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q84296",
+      "https://snl.no/Ludwig_Boltzmann",
+      "https://www.enciklopedija.hr/clanak/boltzmann-ludwig"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "1906-09-05"
+  },
+  {
+    "id": "sidney-poitier",
+    "slug": "sidney-poitier",
+    "name": "Sidney Poitier",
+    "birthDate": "1927-02-20",
+    "birthYear": 1927,
+    "birthMonth": 2,
+    "birthDay": 20,
+    "occupation": [
+      "Diễn viên"
+    ],
+    "category": "actor",
+    "categoryLabel": "Diễn viên",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Sidney Poitier là diễn viên và đạo diễn người Mỹ gốc Bahamas.",
+    "biography": "Sidney Poitier là diễn viên và đạo diễn người Mỹ gốc Bahamas.",
+    "highlights": [
+      "Sinh ngày 20/2/1927.",
+      "Sidney Poitier là diễn viên và đạo diễn người Mỹ gốc Bahamas."
+    ],
+    "wikidataId": "Q104049",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q104049",
+      "https://snl.no/Sidney_Poitier",
+      "https://www.enciklopedija.hr/clanak/poitier-sidney"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "2022-01-06"
+  },
+  {
+    "id": "nina-simone",
+    "slug": "nina-simone",
+    "name": "Nina Simone",
+    "birthDate": "1933-02-21",
+    "birthYear": 1933,
+    "birthMonth": 2,
+    "birthDay": 21,
+    "occupation": [
+      "Ca sĩ và nghệ sĩ piano"
+    ],
+    "category": "music",
+    "categoryLabel": "Ca sĩ và nghệ sĩ piano",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Nina Simone là ca sĩ, nghệ sĩ piano và nhà soạn nhạc người Mỹ.",
+    "biography": "Nina Simone là ca sĩ, nghệ sĩ piano và nhà soạn nhạc người Mỹ.",
+    "highlights": [
+      "Sinh ngày 21/2/1933.",
+      "Nina Simone là ca sĩ, nghệ sĩ piano và nhà soạn nhạc người Mỹ."
+    ],
+    "wikidataId": "Q174957",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q174957",
+      "https://snl.no/Nina_Simone",
+      "https://www.enciklopedija.hr/clanak/simone-nina"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "2003-04-21"
+  },
+  {
+    "id": "harald-v",
+    "slug": "harald-v",
+    "name": "Harald V",
+    "birthDate": "1937-02-21",
+    "birthYear": 1937,
+    "birthMonth": 2,
+    "birthDay": 21,
+    "occupation": [
+      "Quốc vương"
+    ],
+    "category": "history",
+    "categoryLabel": "Quốc vương",
+    "countryCode": "NO",
+    "countryName": "Na Uy",
+    "countryFlag": "🇳🇴",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Harald V là Quốc vương Na Uy trong giai đoạn 1991–2026.",
+    "biography": "Harald V là Quốc vương Na Uy trong giai đoạn 1991–2026.",
+    "highlights": [
+      "Sinh ngày 21/2/1937.",
+      "Harald V là Quốc vương Na Uy trong giai đoạn 1991–2026."
+    ],
+    "wikidataId": "Q57287",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q57287",
+      "https://snl.no/Harald_5.",
+      "https://www.enciklopedija.hr/clanak/harald-v"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "2026-08-28"
+  },
+  {
+    "id": "w-h-auden",
+    "slug": "w-h-auden",
+    "name": "W. H. Auden",
+    "birthDate": "1907-02-21",
+    "birthYear": 1907,
+    "birthMonth": 2,
+    "birthDay": 21,
+    "occupation": [
+      "Nhà thơ"
+    ],
+    "category": "literature",
+    "categoryLabel": "Nhà thơ",
+    "countryCode": "GB",
+    "countryName": "Anh",
+    "countryFlag": "🇬🇧",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "W. H. Auden là nhà thơ sinh tại Anh, sau đó có quốc tịch Mỹ.",
+    "biography": "W. H. Auden là nhà thơ sinh tại Anh, sau đó có quốc tịch Mỹ.",
+    "highlights": [
+      "Sinh ngày 21/2/1907.",
+      "W. H. Auden là nhà thơ sinh tại Anh, sau đó có quốc tịch Mỹ."
+    ],
+    "wikidataId": "Q178698",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q178698",
+      "https://snl.no/W._H._Auden",
+      "https://www.enciklopedija.hr/clanak/auden-wystan-hugh"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "1973-09-29"
+  },
+  {
+    "id": "naruhito",
+    "slug": "naruhito",
+    "name": "Naruhito",
+    "birthDate": "1960-02-23",
+    "birthYear": 1960,
+    "birthMonth": 2,
+    "birthDay": 23,
+    "occupation": [
+      "Thiên hoàng"
+    ],
+    "category": "history",
+    "categoryLabel": "Thiên hoàng",
+    "countryCode": "JP",
+    "countryName": "Nhật Bản",
+    "countryFlag": "🇯🇵",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Naruhito là Thiên hoàng Nhật Bản.",
+    "biography": "Naruhito là Thiên hoàng Nhật Bản.",
+    "highlights": [
+      "Sinh ngày 23/2/1960.",
+      "Naruhito là Thiên hoàng Nhật Bản."
+    ],
+    "wikidataId": "Q217096",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q217096",
+      "https://www.kunaicho.go.jp/en/learn/about/history/history01.html",
+      "https://www.enciklopedija.hr/clanak/naruhito"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "karl-jaspers",
+    "slug": "karl-jaspers",
+    "name": "Karl Jaspers",
+    "birthDate": "1883-02-23",
+    "birthYear": 1883,
+    "birthMonth": 2,
+    "birthDay": 23,
+    "occupation": [
+      "Triết gia"
+    ],
+    "category": "history",
+    "categoryLabel": "Triết gia",
+    "countryCode": "DE",
+    "countryName": "Đức",
+    "countryFlag": "🇩🇪",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Karl Jaspers là triết gia người Đức, gắn với triết học hiện sinh.",
+    "biography": "Karl Jaspers là triết gia người Đức, gắn với triết học hiện sinh.",
+    "highlights": [
+      "Sinh ngày 23/2/1883.",
+      "Karl Jaspers là triết gia người Đức, gắn với triết học hiện sinh."
+    ],
+    "wikidataId": "Q76509",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q76509",
+      "https://snl.no/Karl_Jaspers",
+      "https://www.enciklopedija.hr/clanak/jaspers-karl"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "1969-02-26"
+  },
+  {
+    "id": "w-e-b-du-bois",
+    "slug": "w-e-b-du-bois",
+    "name": "W. E. B. Du Bois",
+    "birthDate": "1868-02-23",
+    "birthYear": 1868,
+    "birthMonth": 2,
+    "birthDay": 23,
+    "occupation": [
+      "Nhà sử học"
+    ],
+    "category": "history",
+    "categoryLabel": "Nhà sử học",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "W. E. B. Du Bois là nhà sử học và nhà hoạt động người Mỹ.",
+    "biography": "W. E. B. Du Bois là nhà sử học và nhà hoạt động người Mỹ.",
+    "highlights": [
+      "Sinh ngày 23/2/1868.",
+      "W. E. B. Du Bois là nhà sử học và nhà hoạt động người Mỹ."
+    ],
+    "wikidataId": "Q158060",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q158060",
+      "https://www.enciklopedija.hr/clanak/du-bois-william-edward-burghardt",
+      "https://www.library.umass.edu/about-w-e-b-du-bois/"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "1963-08-27"
+  },
+  {
+    "id": "steve-jobs",
+    "slug": "steve-jobs",
+    "name": "Steve Jobs",
+    "birthDate": "1955-02-24",
+    "birthYear": 1955,
+    "birthMonth": 2,
+    "birthDay": 24,
+    "occupation": [
+      "Doanh nhân"
+    ],
+    "category": "entrepreneur",
+    "categoryLabel": "Doanh nhân",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Steve Jobs là doanh nhân người Mỹ, đồng sáng lập Apple cùng Steve Wozniak năm 1976.",
+    "biography": "Steve Jobs là doanh nhân người Mỹ, đồng sáng lập Apple cùng Steve Wozniak năm 1976.",
+    "highlights": [
+      "Sinh ngày 24/2/1955.",
+      "Steve Jobs là doanh nhân người Mỹ, đồng sáng lập Apple cùng Steve Wozniak năm 1976."
+    ],
+    "wikidataId": "Q19837",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q19837",
+      "https://snl.no/Steve_Jobs",
+      "https://www.apple.com/stevejobs/"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "2011-10-05"
+  },
+  {
+    "id": "alain-prost",
+    "slug": "alain-prost",
+    "name": "Alain Prost",
+    "birthDate": "1955-02-24",
+    "birthYear": 1955,
+    "birthMonth": 2,
+    "birthDay": 24,
+    "occupation": [
+      "Tay đua ô tô"
+    ],
+    "category": "athlete",
+    "categoryLabel": "Tay đua ô tô",
+    "countryCode": "FR",
+    "countryName": "Pháp",
+    "countryFlag": "🇫🇷",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Alain Prost là cựu tay đua ô tô người Pháp, giành 4 chức vô địch thế giới Formula 1.",
+    "biography": "Alain Prost là cựu tay đua ô tô người Pháp, giành 4 chức vô địch thế giới Formula 1.",
+    "highlights": [
+      "Sinh ngày 24/2/1955.",
+      "Alain Prost là cựu tay đua ô tô người Pháp, giành 4 chức vô địch thế giới Formula 1."
+    ],
+    "wikidataId": "Q10494",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q10494",
+      "https://snl.no/Alain_Prost",
+      "https://www.mclaren.com/racing/heritage/formula-1/drivers/alain-prost/"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "pierre-auguste-renoir",
+    "slug": "pierre-auguste-renoir",
+    "name": "Pierre-Auguste Renoir",
+    "birthDate": "1841-02-25",
+    "birthYear": 1841,
+    "birthMonth": 2,
+    "birthDay": 25,
+    "occupation": [
+      "Họa sĩ"
+    ],
+    "category": "artist",
+    "categoryLabel": "Họa sĩ",
+    "countryCode": "FR",
+    "countryName": "Pháp",
+    "countryFlag": "🇫🇷",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Pierre-Auguste Renoir là họa sĩ người Pháp, thuộc trường phái Ấn tượng.",
+    "biography": "Pierre-Auguste Renoir là họa sĩ người Pháp, thuộc trường phái Ấn tượng.",
+    "highlights": [
+      "Sinh ngày 25/2/1841.",
+      "Pierre-Auguste Renoir là họa sĩ người Pháp, thuộc trường phái Ấn tượng."
+    ],
+    "wikidataId": "Q39931",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q39931",
+      "https://snl.no/Pierre-Auguste_Renoir",
+      "https://www.enciklopedija.hr/clanak/renoir-pierre-auguste"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "1919-12-03"
+  },
+  {
+    "id": "george-harrison",
+    "slug": "george-harrison",
+    "name": "George Harrison",
+    "birthDate": "1943-02-25",
+    "birthYear": 1943,
+    "birthMonth": 2,
+    "birthDay": 25,
+    "occupation": [
+      "Nhạc sĩ"
+    ],
+    "category": "music",
+    "categoryLabel": "Nhạc sĩ",
+    "countryCode": "GB",
+    "countryName": "Anh",
+    "countryFlag": "🇬🇧",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "George Harrison là nhạc sĩ người Anh, thành viên ban nhạc The Beatles.",
+    "biography": "George Harrison là nhạc sĩ người Anh, thành viên ban nhạc The Beatles.",
+    "highlights": [
+      "Sinh ngày 25/2/1943.",
+      "George Harrison là nhạc sĩ người Anh, thành viên ban nhạc The Beatles."
+    ],
+    "wikidataId": "Q2643",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q2643",
+      "https://snl.no/George_Harrison",
+      "https://www.rockhall.com/inductees/george-harrison/"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "2001-11-29"
+  },
+  {
+    "id": "anthony-burgess",
+    "slug": "anthony-burgess",
+    "name": "Anthony Burgess",
+    "birthDate": "1917-02-25",
+    "birthYear": 1917,
+    "birthMonth": 2,
+    "birthDay": 25,
+    "occupation": [
+      "Nhà văn"
+    ],
+    "category": "literature",
+    "categoryLabel": "Nhà văn",
+    "countryCode": "GB",
+    "countryName": "Anh",
+    "countryFlag": "🇬🇧",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Anthony Burgess là nhà văn người Anh, tác giả A Clockwork Orange.",
+    "biography": "Anthony Burgess là nhà văn người Anh, tác giả A Clockwork Orange.",
+    "highlights": [
+      "Sinh ngày 25/2/1917.",
+      "Anthony Burgess là nhà văn người Anh, tác giả A Clockwork Orange."
+    ],
+    "wikidataId": "Q217619",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q217619",
+      "https://www.anthonyburgess.org/burgess-a-brief-life/",
+      "https://proleksis.lzmk.hr/14058/"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "1993-11-22"
+  },
+  {
+    "id": "victor-hugo",
+    "slug": "victor-hugo",
+    "name": "Victor Hugo",
+    "birthDate": "1802-02-26",
+    "birthYear": 1802,
+    "birthMonth": 2,
+    "birthDay": 26,
+    "occupation": [
+      "Nhà văn"
+    ],
+    "category": "literature",
+    "categoryLabel": "Nhà văn",
+    "countryCode": "FR",
+    "countryName": "Pháp",
+    "countryFlag": "🇫🇷",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Victor Hugo là nhà văn người Pháp, tác giả Les Misérables.",
+    "biography": "Victor Hugo là nhà văn người Pháp, tác giả Les Misérables.",
+    "highlights": [
+      "Sinh ngày 26/2/1802.",
+      "Victor Hugo là nhà văn người Pháp, tác giả Les Misérables."
+    ],
+    "wikidataId": "Q535",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q535",
+      "https://snl.no/Victor_Hugo",
+      "https://www.enciklopedija.hr/clanak/hugo-victor-marie"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "1885-05-22"
+  },
+  {
+    "id": "johnny-cash",
+    "slug": "johnny-cash",
+    "name": "Johnny Cash",
+    "birthDate": "1932-02-26",
+    "birthYear": 1932,
+    "birthMonth": 2,
+    "birthDay": 26,
+    "occupation": [
+      "Ca sĩ"
+    ],
+    "category": "music",
+    "categoryLabel": "Ca sĩ",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Johnny Cash là ca sĩ và nhạc sĩ người Mỹ, gắn với dòng nhạc country.",
+    "biography": "Johnny Cash là ca sĩ và nhạc sĩ người Mỹ, gắn với dòng nhạc country.",
+    "highlights": [
+      "Sinh ngày 26/2/1932.",
+      "Johnny Cash là ca sĩ và nhạc sĩ người Mỹ, gắn với dòng nhạc country."
+    ],
+    "wikidataId": "Q42775",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q42775",
+      "https://snl.no/Johnny_Cash",
+      "https://www.enciklopedija.hr/clanak/cash-johnny"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "2003-09-12"
+  },
+  {
+    "id": "recep-tayyip-erdogan",
+    "slug": "recep-tayyip-erdogan",
+    "name": "Recep Tayyip Erdoğan",
+    "birthDate": "1954-02-26",
+    "birthYear": 1954,
+    "birthMonth": 2,
+    "birthDay": 26,
+    "occupation": [
+      "Chính trị gia"
+    ],
+    "category": "politics",
+    "categoryLabel": "Chính trị gia",
+    "countryCode": "TR",
+    "countryName": "Thổ Nhĩ Kỳ",
+    "countryFlag": "🇹🇷",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Recep Tayyip Erdoğan là chính trị gia Thổ Nhĩ Kỳ, giữ chức tổng thống từ năm 2014.",
+    "biography": "Recep Tayyip Erdoğan là chính trị gia Thổ Nhĩ Kỳ, giữ chức tổng thống từ năm 2014.",
+    "highlights": [
+      "Sinh ngày 26/2/1954.",
+      "Recep Tayyip Erdoğan là chính trị gia Thổ Nhĩ Kỳ, giữ chức tổng thống từ năm 2014."
+    ],
+    "wikidataId": "Q39259",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q39259",
+      "https://snl.no/Recep_Tayyip_Erdo%C4%9Fan",
+      "https://www.enciklopedija.hr/clanak/erdogan-recep-tayyip"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "john-steinbeck",
+    "slug": "john-steinbeck",
+    "name": "John Steinbeck",
+    "birthDate": "1902-02-27",
+    "birthYear": 1902,
+    "birthMonth": 2,
+    "birthDay": 27,
+    "occupation": [
+      "Nhà văn"
+    ],
+    "category": "literature",
+    "categoryLabel": "Nhà văn",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "John Steinbeck là nhà văn người Mỹ, được trao giải Nobel Văn học năm 1962.",
+    "biography": "John Steinbeck là nhà văn người Mỹ, được trao giải Nobel Văn học năm 1962.",
+    "highlights": [
+      "Sinh ngày 27/2/1902.",
+      "John Steinbeck là nhà văn người Mỹ, được trao giải Nobel Văn học năm 1962."
+    ],
+    "wikidataId": "Q39212",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q39212",
+      "https://snl.no/John_Steinbeck",
+      "https://www.nobelprize.org/prizes/literature/1962/steinbeck/facts/"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "1968-12-20"
+  },
+  {
+    "id": "henry-wadsworth-longfellow",
+    "slug": "henry-wadsworth-longfellow",
+    "name": "Henry Wadsworth Longfellow",
+    "birthDate": "1807-02-27",
+    "birthYear": 1807,
+    "birthMonth": 2,
+    "birthDay": 27,
+    "occupation": [
+      "Nhà thơ"
+    ],
+    "category": "literature",
+    "categoryLabel": "Nhà thơ",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Henry Wadsworth Longfellow là nhà thơ người Mỹ.",
+    "biography": "Henry Wadsworth Longfellow là nhà thơ người Mỹ.",
+    "highlights": [
+      "Sinh ngày 27/2/1807.",
+      "Henry Wadsworth Longfellow là nhà thơ người Mỹ."
+    ],
+    "wikidataId": "Q152513",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q152513",
+      "https://snl.no/Henry_Wadsworth_Longfellow",
+      "https://www.enciklopedija.hr/clanak/longfellow-henry-wadsworth"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "1882-03-24"
+  },
+  {
+    "id": "linus-pauling",
+    "slug": "linus-pauling",
+    "name": "Linus Pauling",
+    "birthDate": "1901-02-28",
+    "birthYear": 1901,
+    "birthMonth": 2,
+    "birthDay": 28,
+    "occupation": [
+      "Nhà hóa học"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Nhà hóa học",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Linus Pauling là nhà hóa học người Mỹ, được trao Nobel Hóa học năm 1954 và Nobel Hòa bình năm 1962.",
+    "biography": "Linus Pauling là nhà hóa học người Mỹ, được trao Nobel Hóa học năm 1954 và Nobel Hòa bình năm 1962.",
+    "highlights": [
+      "Sinh ngày 28/2/1901.",
+      "Linus Pauling là nhà hóa học người Mỹ, được trao Nobel Hóa học năm 1954 và Nobel Hòa bình năm 1962."
+    ],
+    "wikidataId": "Q48983",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q48983",
+      "https://snl.no/Linus_Pauling",
+      "https://www.nobelprize.org/prizes/chemistry/1954/pauling/facts/"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "1994-08-19"
+  },
+  {
+    "id": "frank-gehry",
+    "slug": "frank-gehry",
+    "name": "Frank Gehry",
+    "birthDate": "1929-02-28",
+    "birthYear": 1929,
+    "birthMonth": 2,
+    "birthDay": 28,
+    "occupation": [
+      "Kiến trúc sư"
+    ],
+    "category": "artist",
+    "categoryLabel": "Kiến trúc sư",
+    "countryCode": "CA",
+    "countryName": "Canada",
+    "countryFlag": "🇨🇦",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Frank Gehry là kiến trúc sư người Canada và Mỹ, được trao giải Pritzker năm 1989.",
+    "biography": "Frank Gehry là kiến trúc sư người Canada và Mỹ, được trao giải Pritzker năm 1989.",
+    "highlights": [
+      "Sinh ngày 28/2/1929.",
+      "Frank Gehry là kiến trúc sư người Canada và Mỹ, được trao giải Pritzker năm 1989."
+    ],
+    "wikidataId": "Q180374",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q180374",
+      "https://snl.no/Frank_Gehry",
+      "https://www.pritzkerprize.com/laureates/1989"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "2025-12-05"
+  },
+  {
+    "id": "gioachino-rossini",
+    "slug": "gioachino-rossini",
+    "name": "Gioachino Rossini",
+    "birthDate": "1792-02-29",
+    "birthYear": 1792,
+    "birthMonth": 2,
+    "birthDay": 29,
+    "occupation": [
+      "Nhà soạn nhạc"
+    ],
+    "category": "music",
+    "categoryLabel": "Nhà soạn nhạc",
+    "countryCode": "IT",
+    "countryName": "Ý",
+    "countryFlag": "🇮🇹",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Gioachino Rossini là nhà soạn nhạc người Ý, nổi tiếng với các vở opera hài.",
+    "biography": "Gioachino Rossini là nhà soạn nhạc người Ý, nổi tiếng với các vở opera hài.",
+    "highlights": [
+      "Sinh ngày 29/2/1792.",
+      "Gioachino Rossini là nhà soạn nhạc người Ý, nổi tiếng với các vở opera hài."
+    ],
+    "wikidataId": "Q9726",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q9726",
+      "https://snl.no/Gioachino_Rossini",
+      "https://www.enciklopedija.hr/clanak/rossini-gioacchino"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "1868-11-13"
+  },
+  {
+    "id": "pedro-sanchez",
+    "slug": "pedro-sanchez",
+    "name": "Pedro Sánchez",
+    "birthDate": "1972-02-29",
+    "birthYear": 1972,
+    "birthMonth": 2,
+    "birthDay": 29,
+    "occupation": [
+      "Chính trị gia"
+    ],
+    "category": "politics",
+    "categoryLabel": "Chính trị gia",
+    "countryCode": "ES",
+    "countryName": "Tây Ban Nha",
+    "countryFlag": "🇪🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Pedro Sánchez là chính trị gia Tây Ban Nha, giữ chức thủ tướng từ năm 2018.",
+    "biography": "Pedro Sánchez là chính trị gia Tây Ban Nha, giữ chức thủ tướng từ năm 2018.",
+    "highlights": [
+      "Sinh ngày 29/2/1972.",
+      "Pedro Sánchez là chính trị gia Tây Ban Nha, giữ chức thủ tướng từ năm 2018."
+    ],
+    "wikidataId": "Q6070218",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q6070218",
+      "https://www.lamoncloa.gob.es/lang/en/presidente/biografia/Paginas/index.aspx",
+      "https://www.vle.lt/straipsnis/pedro-sanchez/"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "herman-hollerith",
+    "slug": "herman-hollerith",
+    "name": "Herman Hollerith",
+    "birthDate": "1860-02-29",
+    "birthYear": 1860,
+    "birthMonth": 2,
+    "birthDay": 29,
+    "occupation": [
+      "Nhà phát minh"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Nhà phát minh",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Herman Hollerith là nhà phát minh người Mỹ, phát triển máy lập bảng dùng thẻ đục lỗ.",
+    "biography": "Herman Hollerith là nhà phát minh người Mỹ, phát triển máy lập bảng dùng thẻ đục lỗ.",
+    "highlights": [
+      "Sinh ngày 29/2/1860.",
+      "Herman Hollerith là nhà phát minh người Mỹ, phát triển máy lập bảng dùng thẻ đục lỗ."
+    ],
+    "wikidataId": "Q192145",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q192145",
+      "https://snl.no/Herman_Hollerith",
+      "https://www.ibm.com/history/punched-card-tabulator"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04",
+    "deathDate": "1929-11-17"
+  }
 ];

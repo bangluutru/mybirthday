@@ -33,3 +33,5 @@
 2026-10-04 B005-v2/r6 DAT:44 mới (3VN),167 người/56 ngày; URL535/0failed/0MANUAL, Wikidata167/167, các cổng đạt.7URL legacy thay có chỉ thị, facts baseline giữ nguyên. Chuẩn bị push theo chủ dự án.
 
 2026-10-04 B005 push414e5ed29b6b7b304b30bc434f9028787036ef1f, origin/main0/0; B001–B005DAT,0 báo cáo chờreview. Chuẩn hóa khoảng trắng6log test/build, giữ nguyên kết quả; sửa định danh r6URL. GiaoB006/BV-007OPEN choGemini:16–29/2,≥35mới/≥2VN nếu35, đầy đủnguồn nướcngoài; không thêm22/2/sựkiện. Chưa có dữ liệuB006.
+
+2026-10-04 Codex trực tiếp thực hiện B006 theo chủ dự án; reviewr1 DAT:35mới/2VN(5,714%),13quốc gia,202người/65ngày. Rà70nguồn/35GregorianQIDs,URL640/0failed/0MANUAL,Wikidata202/202,A–Y/tsc/lint/build/coverage/smoke10/10/baseline167+4/diffcheck đạt. Ghi loại MoYan/Handel/Caruso/Goldoni và thay nguồn sai Arrhenius/Prost; RuleL exactJobsrecord có kiểm âm/dương, giữ cấmUI. Nguồn AFC đầy đủDOB cho2VN, ghi rõ giới hạn cùng đăng ký; UI “hàng chục nghìn” đểReviewerAttention. Chuẩn bịpush rồi dừng, chưa mở tháng3.

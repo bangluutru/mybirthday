@@ -1,0 +1,19 @@
+
+> mybirthday@1.0.0 verify:wikidata
+> tsx scripts/verify-wikidata.ts
+
+========================================================================================
+BIRTHDAYVERSE — WIKIDATA VERIFICATION AUDIT (202 people)
+========================================================================================
+
+Auditing batch 1/5 (50 QIDs)...
+Auditing batch 2/5 (50 QIDs)...
+Auditing batch 3/5 (50 QIDs)...
+Auditing batch 4/5 (50 QIDs)...
+Auditing batch 5/5 (2 QIDs)...
+
+========================================================================================
+SUMMARY: 202 MATCHED | 0 MISMATCHED | 0 NO P569 DATA
+========================================================================================
+
+✅ ALL AUDITED PEOPLE PERFECTLY MATCH WIKIDATA GREGORIAN BIRTH DATES.

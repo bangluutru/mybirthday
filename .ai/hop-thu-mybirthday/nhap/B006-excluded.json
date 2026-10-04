@@ -1,0 +1,64 @@
+{
+  "scope": "Rejected candidates or source URLs, never silently reconciled dates",
+  "items": [
+    {
+      "id": "mo-yan",
+      "reason": "Excluded profile: Nobel autobiography states 25 March 1956; conflicts with February candidate sources; unresolved DOB/calendar.",
+      "url": "https://www.nobelprize.org/prizes/literature/2012/yan/biographical/"
+    },
+    {
+      "id": "george-frideric-handel",
+      "reason": "Excluded profile: February 23 claim uses Julian calendar; Gregorian full date is March 5, 1685.",
+      "url": "https://www.wikidata.org/wiki/Q7302"
+    },
+    {
+      "id": "enrico-caruso",
+      "reason": "Excluded profile: candidate and opened encyclopedias disagree on February 24/25/27.",
+      "url": "https://snl.no/Enrico_Caruso"
+    },
+    {
+      "id": "carlo-goldoni",
+      "reason": "Excluded profile: February 25 candidate disagrees with Croatian February 26; SNL year only.",
+      "url": "https://www.enciklopedija.hr/clanak/goldoni-carlo"
+    },
+    {
+      "id": "svante-arrhenius",
+      "reason": "Rejected this source only: SNL February 3 differs from Nobel and Swedish National Archives February 19; selected sources agree.",
+      "url": "https://snl.no/Svante_Arrhenius"
+    },
+    {
+      "id": "alain-prost",
+      "reason": "Rejected Croatian source only: February 25 conflicts with SNL/McLaren February 24; selected sources agree.",
+      "url": "https://www.enciklopedija.hr/clanak/prost-alain"
+    },
+    {
+      "id": "kurt-cobain",
+      "reason": "Excluded candidate: chosen URLs 404 or generic index; no second qualifying source retained.",
+      "url": "https://snl.no/Kurt_Cobain"
+    },
+    {
+      "id": "wilhelm-grimm",
+      "reason": "Excluded candidate: chosen URLs 404 or generic result; source coverage insufficient.",
+      "url": "https://snl.no/Wilhelm_Grimm"
+    },
+    {
+      "id": "dinah-shore",
+      "reason": "Excluded candidate: second chosen source generic index; source coverage insufficient.",
+      "url": "https://www.enciklopedija.hr/"
+    },
+    {
+      "id": "naruhito",
+      "reason": "Rejected SNL 404 and inaccessible Britannica; replaced by official IHA and Croatian direct biography.",
+      "url": "https://snl.no/Naruhito"
+    },
+    {
+      "id": "herman-hollerith",
+      "reason": "Rejected inaccessible Columbia source; selected SNL full DOB and IBM identity only.",
+      "url": "https://www.columbia.edu/"
+    }
+  ],
+  "additionalSourceRejections": [
+    "Croatian generic Abecedarij pages rejected; corrected actual Adams/Hugo biography URLs",
+    "Steve Jobs guessed Smithsonian URL 404; replaced with Apple dedicated memorial, identity only"
+  ]
+}

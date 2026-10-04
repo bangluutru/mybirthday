@@ -11,7 +11,7 @@ Baseline lịch sử (commit `3d875a0`): UI hoàn thiện nhưng dữ liệu r�
 | 3 | B003 | **Pilot Wikidata**: nhân vật sinh 1/1–15/1 (≥ 3 người/ngày, ≤ 8 người mới/ngày); script `wikidata-candidates` + `verify:wikidata`; 3 lớp kiểm (Wikidata Gregorian precision-day + nguồn độc lập chính thống đã mở + nhất quán); Rule P/Q/R/S; ảnh placeholder. Bản nháp: `viec-cho/B003-people-jan-01-15.md` | B002 DAT |
 | 4 | B004 | 16/1–31/1, cùng quy trình, dùng lại script; bổ sung Rule S cho nửa sau | B003 DAT, ≤ 5 điểm sửa |
 | 5 | B005 | 1–15/2, chỉ thị BV-006; ≥3 người/ngày, tối thiểu 5% người Việt trong bổ sung B005; kiểm chéo toàn bộ nguồn | DAT reviewr6;44 mới (3VN),167 người/56 ngày; đã push414e5ed |
-| 6 | B006 | 16–29/2, gồm29/2; ít nhất35 mới,≥5%VN; không thêm22/2 vì đã16 người, giữ4events | đã giaoBV-007 sauB005DAT/push,0 báo cáo chờduyệt |
+| 6 | B006 | 16–29/2, gồm29/2; ít nhất35 mới,≥5%VN; không thêm22/2 vì đã16 người, giữ4events | DAT reviewr1;35 mới (2VN),202 người/65 ngày; tháng2 đủ29/29 ngày |
 | tiếp theo | Mã việc xác định khi giao | Tháng 3 → tháng 12, tiếp tục từng nửa tháng; không mở song song. Chỉ giao phần kế tiếp sau DAT và tích hợp phần trước | việc trước DAT |
 | 16 | (sau khi đủ 366 ngày) | Sự kiện lịch sử theo ngày (cũng Wikidata + nguồn chính thống) và ảnh (giấy phép Commons) là các chu kỳ riêng, cần chủ dự án duyệt | chủ dự án |
 
@@ -26,3 +26,5 @@ Cập nhật 2026-10-04: B003/B004 đã DAT và push tại `ed24674`; 123 ngư�
 Điều chỉnh chủ dự án 2026-10-04: tỷ lệ hồ sơ mới B005 tối thiểu 5% người Việt; Codex trực tiếp thực hiện, kiểm tra và tích hợp sau DAT. Không thay đổi bằng chứng hay tiêu chí đóng tháng 1.
 
 Quyết định tỷ lệ 5% áp dụng các đợt mở rộng mới tiếp theo; lịch sử và cổng đã đóng tháng 1 giữ nguyên. Không giao đợt kế tiếp khi B005 còn SUA.
+
+2026-10-04 B006/BV-007 DAT:35mới/2VN(5,714%),Feb100/29ngày; mọi cổng đạt. Chưa giao tháng3; dừng sau tích hợp/push.

@@ -1,0 +1,322 @@
+{
+  "profiles": 35,
+  "sources": 70,
+  "passed": true,
+  "checks": [
+    {
+      "id": "john-mcenroe",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 16/2/1959.",
+        "John McEnroe là cựu vận động viên quần vợt người Mỹ, giành 7 danh hiệu Grand Slam đơn."
+      ]
+    },
+    {
+      "id": "valentino-rossi",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 16/2/1979.",
+        "Valentino Rossi là tay đua mô tô người Ý, giành 9 chức vô địch thế giới."
+      ]
+    },
+    {
+      "id": "francis-galton",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 16/2/1822.",
+        "Francis Galton là nhà khoa học người Anh, hoạt động trong nhân chủng học, tâm lý học và thống kê."
+      ]
+    },
+    {
+      "id": "michael-jordan",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 17/2/1963.",
+        "Michael Jordan là cựu vận động viên bóng rổ người Mỹ, giành 6 chức vô địch NBA cùng Chicago Bulls."
+      ]
+    },
+    {
+      "id": "otto-stern",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 17/2/1888.",
+        "Otto Stern là nhà vật lý gốc Đức, được trao giải Nobel Vật lý năm 1943."
+      ]
+    },
+    {
+      "id": "nguyen-van-hoang",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 17/2/1995.",
+        "Nguyễn Văn Hoàng là thủ môn bóng đá người Việt Nam."
+      ]
+    },
+    {
+      "id": "alessandro-volta",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 18/2/1745.",
+        "Alessandro Volta là nhà vật lý người Ý, được biết đến với việc phát minh pin Volta."
+      ]
+    },
+    {
+      "id": "toni-morrison",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 18/2/1931.",
+        "Toni Morrison là nhà văn người Mỹ, được trao giải Nobel Văn học năm 1993."
+      ]
+    },
+    {
+      "id": "svante-arrhenius",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 19/2/1859.",
+        "Svante Arrhenius là nhà hóa học người Thụy Điển, được trao giải Nobel Hóa học năm 1903."
+      ]
+    },
+    {
+      "id": "jennifer-doudna",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 19/2/1964.",
+        "Jennifer Doudna là nhà hóa sinh người Mỹ, được trao giải Nobel Hóa học năm 2020."
+      ]
+    },
+    {
+      "id": "bui-tan-truong",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 19/2/1986.",
+        "Bùi Tấn Trường là thủ môn bóng đá người Việt Nam."
+      ]
+    },
+    {
+      "id": "ansel-adams",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 20/2/1902.",
+        "Ansel Adams là nhiếp ảnh gia người Mỹ, nổi tiếng với ảnh phong cảnh thiên nhiên."
+      ]
+    },
+    {
+      "id": "ludwig-boltzmann",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 20/2/1844.",
+        "Ludwig Boltzmann là nhà vật lý người Áo, nghiên cứu phương pháp thống kê trong nhiệt động lực học."
+      ]
+    },
+    {
+      "id": "sidney-poitier",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 20/2/1927.",
+        "Sidney Poitier là diễn viên và đạo diễn người Mỹ gốc Bahamas."
+      ]
+    },
+    {
+      "id": "nina-simone",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 21/2/1933.",
+        "Nina Simone là ca sĩ, nghệ sĩ piano và nhà soạn nhạc người Mỹ."
+      ]
+    },
+    {
+      "id": "harald-v",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 21/2/1937.",
+        "Harald V là Quốc vương Na Uy trong giai đoạn 1991–2026."
+      ]
+    },
+    {
+      "id": "w-h-auden",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 21/2/1907.",
+        "W. H. Auden là nhà thơ sinh tại Anh, sau đó có quốc tịch Mỹ."
+      ]
+    },
+    {
+      "id": "naruhito",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 23/2/1960.",
+        "Naruhito là Thiên hoàng Nhật Bản."
+      ]
+    },
+    {
+      "id": "karl-jaspers",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 23/2/1883.",
+        "Karl Jaspers là triết gia người Đức, gắn với triết học hiện sinh."
+      ]
+    },
+    {
+      "id": "w-e-b-du-bois",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 23/2/1868.",
+        "W. E. B. Du Bois là nhà sử học và nhà hoạt động người Mỹ."
+      ]
+    },
+    {
+      "id": "steve-jobs",
+      "fullDobSources": 1,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 24/2/1955.",
+        "Steve Jobs là doanh nhân người Mỹ, đồng sáng lập Apple cùng Steve Wozniak năm 1976."
+      ]
+    },
+    {
+      "id": "alain-prost",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 24/2/1955.",
+        "Alain Prost là cựu tay đua ô tô người Pháp, giành 4 chức vô địch thế giới Formula 1."
+      ]
+    },
+    {
+      "id": "pierre-auguste-renoir",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 25/2/1841.",
+        "Pierre-Auguste Renoir là họa sĩ người Pháp, thuộc trường phái Ấn tượng."
+      ]
+    },
+    {
+      "id": "george-harrison",
+      "fullDobSources": 1,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 25/2/1943.",
+        "George Harrison là nhạc sĩ người Anh, thành viên ban nhạc The Beatles."
+      ]
+    },
+    {
+      "id": "anthony-burgess",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 25/2/1917.",
+        "Anthony Burgess là nhà văn người Anh, tác giả A Clockwork Orange."
+      ]
+    },
+    {
+      "id": "victor-hugo",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 26/2/1802.",
+        "Victor Hugo là nhà văn người Pháp, tác giả Les Misérables."
+      ]
+    },
+    {
+      "id": "johnny-cash",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 26/2/1932.",
+        "Johnny Cash là ca sĩ và nhạc sĩ người Mỹ, gắn với dòng nhạc country."
+      ]
+    },
+    {
+      "id": "recep-tayyip-erdogan",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 26/2/1954.",
+        "Recep Tayyip Erdoğan là chính trị gia Thổ Nhĩ Kỳ, giữ chức tổng thống từ năm 2014."
+      ]
+    },
+    {
+      "id": "john-steinbeck",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 27/2/1902.",
+        "John Steinbeck là nhà văn người Mỹ, được trao giải Nobel Văn học năm 1962."
+      ]
+    },
+    {
+      "id": "henry-wadsworth-longfellow",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 27/2/1807.",
+        "Henry Wadsworth Longfellow là nhà thơ người Mỹ."
+      ]
+    },
+    {
+      "id": "linus-pauling",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 28/2/1901.",
+        "Linus Pauling là nhà hóa học người Mỹ, được trao Nobel Hóa học năm 1954 và Nobel Hòa bình năm 1962."
+      ]
+    },
+    {
+      "id": "frank-gehry",
+      "fullDobSources": 1,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 28/2/1929.",
+        "Frank Gehry là kiến trúc sư người Canada và Mỹ, được trao giải Pritzker năm 1989."
+      ]
+    },
+    {
+      "id": "gioachino-rossini",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 29/2/1792.",
+        "Gioachino Rossini là nhà soạn nhạc người Ý, nổi tiếng với các vở opera hài."
+      ]
+    },
+    {
+      "id": "pedro-sanchez",
+      "fullDobSources": 2,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 29/2/1972.",
+        "Pedro Sánchez là chính trị gia Tây Ban Nha, giữ chức thủ tướng từ năm 2018."
+      ]
+    },
+    {
+      "id": "herman-hollerith",
+      "fullDobSources": 1,
+      "quoteHashes": "PASS",
+      "highlights": [
+        "Sinh ngày 29/2/1860.",
+        "Herman Hollerith là nhà phát minh người Mỹ, phát triển máy lập bảng dùng thẻ đục lỗ."
+      ]
+    }
+  ]
+}

@@ -322,6 +322,24 @@ const projectRoot = path.resolve(__dirname, '..');
 const srcDir = path.join(projectRoot, 'src');
 const srcFiles = getSourceFiles(srcDir);
 
+// A reviewed data record is distinct from the old hardcoded UI fixture.
+function withoutReviewedJobsRecord(content: string, relPath: string): string {
+  if (relPath !== path.join('src', 'data', 'people', '02.ts')) return content;
+  return content.replace(/\{\s*"id": "steve-jobs",[\s\S]*?\n  \}/g, (record) => {
+    const person = JSON.parse(record);
+    return person.birthDate === '1955-02-24' && person.wikidataId === 'Q19837' ? '' : record;
+  });
+}
+const jobsFixture = '{"id": "steve-jobs", "name": "Steve Jobs", "birthDate": "1955-02-24", "wikidataId": "Q19837"\n  }';
+const februaryFile = path.join('src', 'data', 'people', '02.ts');
+assert('Rule L positive', !withoutReviewedJobsRecord(jobsFixture, februaryFile).includes('Steve Jobs'), 'Reviewed Jobs record is permitted');
+for (const [fixture, location] of [
+  [jobsFixture, path.join('src', 'app', 'page.tsx')],
+  [jobsFixture.replace('1955-02-24', '1955-02-22'), februaryFile],
+  [jobsFixture.replace('Q19837', 'Q0'), februaryFile],
+  [jobsFixture + '\nconst label = "Steve Jobs";', februaryFile],
+]) assert('Rule L negative', withoutReviewedJobsRecord(fixture, location).includes('Steve Jobs'), 'UI, wrong DOB/QID and unrelated hardcoding remain banned');
+
 for (const file of srcFiles) {
   const content = fs.readFileSync(file, 'utf-8');
   const relPath = path.relative(projectRoot, file);
@@ -331,9 +349,11 @@ for (const file of srcFiles) {
       continue;
     }
 
+    const scanContent = rule.label === 'Steve Jobs'
+      ? withoutReviewedJobsRecord(content, relPath) : content;
     const matched = rule.pattern instanceof RegExp
-      ? rule.pattern.test(content)
-      : content.includes(rule.pattern);
+      ? rule.pattern.test(scanContent)
+      : scanContent.includes(rule.pattern);
 
     if (matched) {
       assert('Rule L', false, `Banned pattern "${rule.label}" found in ${relPath}`);
@@ -620,6 +640,7 @@ for (const p of ALL_PEOPLE) {
       'austria.info', 'koninklijkhuis.nl', 'annefrank.org', 'yadvashem-france.org', 'ajpn.org',
       'tempestjapan.com', 'yhent.co.kr', 'ncapec.org', 'ocagames.com', 'the-afc.com',
       'jebentertainment.jp', 'fide.com', 'vnanet.vn', 'vatican.va', 'royalsociety.org', 'bfi.org.uk',
+      'enciklopedija.hr', 'lzmk.hr', 'anthonyburgess.org', 'kunaicho.go.jp',
       'badmintonasia.org', 'jamesjoyce.ie', 'ireland.ie', 'aynrand.org', 'dallassymphony.org',
       'mendelssohn-stiftung.de', 'mnhs.org', 'vle.lt', 'uefa.com', 'realmadrid.com', 'baseballhall.org',
       'dickensmuseum.com', 'lauraingallswilderhome.com', 'unesco.org', 'afi.com', 'sonymusic.co.jp',
@@ -881,6 +902,31 @@ for (const p of b005Vietnamese) {
     `B005 ${p.id} needs a reviewed exact foreign institutional DOB URL`);
 }
 console.log(`B005 additions: ${B005_NEW_PEOPLE.length}; Vietnamese: ${b005Vietnamese.length}`);
+
+// Rule X/Y: B006 February 16-29 coverage and reviewed foreign full DOB sources.
+const B006_BASELINE_IDS = new Set(["jd-salinger", "christine-lagarde", "bui-hoang-viet-anh", "therese-of-lisieux", "rudolf-clausius", "mily-balakirev", "j-r-r-tolkien", "michael-schumacher", "clement-attlee", "louis-braille", "le-tan-tai", "nguyen-huy-hoang", "umberto-eco", "konrad-adenauer", "frank-walter-steinmeier", "kahlil-gibran", "syd-barrett", "heinrich-schliemann", "millard-fillmore", "lewis-hamilton", "joseph-bonaparte", "elvis-presley", "stephen-hawking", "vo-thi-anh-xuan", "richard-nixon", "simone-de-beauvoir", "joan-baez", "donald-knuth", "robert-woodrow-wilson", "george-foreman", "kailash-satyarthi", "roger-guillemin", "nguyen-hoang-duc", "jack-london", "swami-vivekananda", "charles-perrault", "wilhelm-wien", "sydney-brenner", "patrick-dempsey", "albert-schweitzer", "yukio-mishima", "suboi", "martin-luther-king-jr", "thach-kim-tuan", "do-thi-anh-nguyet", "huynh-phu-so", "kate-moss", "susan-sontag", "dian-fossey", "benjamin-franklin", "muhammad-ali", "michelle-obama", "chung-thi-thanh-lan", "nguyen-sinh-hung", "pep-guardiola", "cary-grant", "hanbin", "edgar-allan-poe", "janis-joplin", "pham-duc-huy", "buzz-aldrin", "federico-fellini", "truong-tan-sang", "nguyen-cong-phuong", "christian-dior", "nguyen-van-mau", "lord-byron", "august-strindberg", "david-hilbert", "stendhal", "edouard-manet", "moon-jae-in", "friedrich-ii-of-prussia", "luis-suarez", "nguyen-huu-long", "robert-burns", "virginia-woolf", "douglas-macarthur", "angela-davis", "wayne-gretzky", "wolfgang-amadeus-mozart", "lewis-carroll", "wilhelm-ii", "nguyen-thi-mai-hung", "jackson-pollock", "colette", "anton-chekhov", "romain-rolland", "abdus-salam", "franklin-d-roosevelt", "olof-palme", "isamu-akasaki", "franz-schubert", "beatrix-of-the-netherlands", "paul-nguyen-cong-anh", "george-washington", "drew-barrymore", "steve-irwin", "jules-verne", "trinh-cong-son", "enzo-ferrari", "elizabeth-taylor", "james-blunt", "arthur-schopenhauer", "robert-baden-powell", "heinrich-hertz", "renato-dulbecco", "niki-lauda", "julius-erving", "kyle-maclachlan", "han-hyo-joo", "nam-joo-hyuk", "rajon-rondo", "lea-salonga", "michael-chang", "lleyton-hewitt", "boris-yeltsin", "leymah-gbowee", "le-duc-phat", "james-joyce", "ayn-rand", "jascha-heifetz", "felix-mendelssohn", "gertrude-stein", "norman-rockwell", "rosa-parks", "charles-lindbergh", "fernand-leger", "cristiano-ronaldo", "neymar", "robert-hofstadter", "ronald-reagan", "bob-marley", "babe-ruth", "charles-dickens", "laura-ingalls-wilder", "vo-nguyen-hoang", "dmitri-mendeleev", "john-williams", "alice-walker", "william-henry-harrison", "carole-king", "bertolt-brecht", "boris-pasternak", "mark-spitz", "thomas-edison", "josiah-willard-gibbs", "henry-fox-talbot", "abraham-lincoln", "charles-darwin", "nguyen-tien-minh", "william-shockley", "peter-gabriel", "peter-gustav-lejeune-dirichlet", "fritz-zwicky", "christian-eriksen", "angel-di-maria", "susan-b-anthony", "ernest-shackleton", "alfred-north-whitehead", "mandy-moore", "carl-friedrich-gauss", "gal-gadot", "ngo-bao-chau", "napoleon-bonaparte", "jennifer-lawrence", "edvard-munch"]);
+const B006_NEW_PEOPLE = ALL_PEOPLE.filter(p => p.birthMonth === 2 && p.birthDay >= 16 && p.birthDay <= 29 && !B006_BASELINE_IDS.has(p.id));
+for (let day=1; day<=29; day++) {
+  assert('Rule X', ALL_PEOPLE.filter(p=>p.birthMonth===2 && p.birthDay===day).length >= 3, `February ${day}: minimum 3 verified people`);
+  assert('Rule X', B006_NEW_PEOPLE.filter(p=>p.birthDay===day).length <=8, `February ${day}: maximum 8 B006 additions`);
+}
+assert('Rule X', !B006_NEW_PEOPLE.some(p=>p.birthDay===22), 'B006 must preserve Feb 22 without adding profiles');
+const B006_FOREIGN_DOB_SOURCES: Readonly<Record<string, readonly string[]>> = {
+ 'Q45344289': ['https://assets.the-afc.com/migration/u/2/U23%20Technical%20Report%202018.pdf'],
+ 'Q868808': ['https://assets.the-afc.com/migration/a/f/afc-champions-league-2016-preliminary-registration-squad-list-29510'],
+};
+const isApprovedB006DobSource=(qid:string,url:string):boolean=>B006_FOREIGN_DOB_SOURCES[qid]?.includes(url) ?? false;
+assert('Rule Y', B006_NEW_PEOPLE.length >= 35, 'B006 minimum 35 new profiles');
+const b006Vietnamese=B006_NEW_PEOPLE.filter(p=>p.countryCode==='VN');
+assert('Rule Y', B006_NEW_PEOPLE.length>0 && b006Vietnamese.length/B006_NEW_PEOPLE.length>=0.05, `B006 minimum5% Vietnamese: ${b006Vietnamese.length}/${B006_NEW_PEOPLE.length}`);
+for(const [qid,urls] of Object.entries(B006_FOREIGN_DOB_SOURCES)) for(const url of urls){
+ assert('Rule Y positive',isApprovedB006DobSource(qid,url),'Reviewed QID/URL must pass');
+ const spoof=new URL(url);spoof.hostname+='.evil.example';
+ for(const [badQid,badUrl] of [[qid,spoof.href],[qid,'invalid-url'],[qid,url+'?unreviewed=1'],[qid,new URL('/unreviewed',url).href],['Q0',url]])
+  assert('Rule Y negative',!isApprovedB006DobSource(badQid,badUrl),'Unreviewed QID/URL must fail');
+}
+for(const p of b006Vietnamese)assert('Rule Y',(p.sourceUrls||[]).some(u=>isApprovedB006DobSource(p.wikidataId||'',u)), `B006 ${p.id}: reviewed foreign institutional fullDOB required`);
+console.log(`B006 additions: ${B006_NEW_PEOPLE.length}; Vietnamese: ${b006Vietnamese.length}`);
 
 // ------------------------------------------------------------
 // Summary
