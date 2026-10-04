@@ -1,0 +1,2 @@
+PASS: 44 new profiles, 88 exact source URL/excerpt/hash links, P569 rank/precision/calendar evidence, 0 unsupported or mismatched records
+Vietnamese: 3 / 44

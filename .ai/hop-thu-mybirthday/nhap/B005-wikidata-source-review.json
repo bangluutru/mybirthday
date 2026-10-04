@@ -1,0 +1,773 @@
+{
+  "executedAt": "2026-10-04T07:55:20Z",
+  "query": "SELECT ?p ?dob ?precision ?calendar ?rank WHERE { VALUES ?p { wd:Q34453 wd:Q107037 wd:Q46900491 wd:Q6882 wd:Q132524 wd:Q243472 wd:Q46096 wd:Q188385 wd:Q271884 wd:Q41921 wd:Q1618 wd:Q157183 wd:Q11571 wd:Q142794 wd:Q130113 wd:Q9960 wd:Q409 wd:Q213812 wd:Q5686 wd:Q237514 wd:Q99778061 wd:Q9106 wd:Q131285 wd:Q215868 wd:Q11869 wd:Q217787 wd:Q38757 wd:Q41223 wd:Q180748 wd:Q8743 wd:Q153243 wd:Q299565 wd:Q91 wd:Q1035 wd:Q958317 wd:Q163415 wd:Q175195 wd:Q29193 wd:Q115462 wd:Q294951 wd:Q251683 wd:Q192245 wd:Q957543 wd:Q183372 } ?p wdt:P31 wd:Q5; p:P569 ?st. ?st wikibase:rank ?rank; psv:P569 ?v. ?v wikibase:timeValue ?dob; wikibase:timePrecision ?precision; wikibase:timeCalendarModel ?calendar. }",
+  "profiles": [
+    {
+      "id": "boris-yeltsin",
+      "qid": "Q34453",
+      "birthDate": "1931-02-01",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q34453",
+          "dob": "1931-02-01T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#PreferredRank"
+        }
+      ]
+    },
+    {
+      "id": "leymah-gbowee",
+      "qid": "Q107037",
+      "birthDate": "1972-02-01",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q107037",
+          "dob": "1972-02-01T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "le-duc-phat",
+      "qid": "Q46900491",
+      "birthDate": "1998-02-01",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q46900491",
+          "dob": "1998-02-01T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "james-joyce",
+      "qid": "Q6882",
+      "birthDate": "1882-02-02",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q6882",
+          "dob": "1882-02-02T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "ayn-rand",
+      "qid": "Q132524",
+      "birthDate": "1905-02-02",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q132524",
+          "dob": "1905-02-02T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "jascha-heifetz",
+      "qid": "Q243472",
+      "birthDate": "1901-02-02",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q243472",
+          "dob": "1901-02-02T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        },
+        {
+          "p": "http://www.wikidata.org/entity/Q243472",
+          "dob": "1901-02-02T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985786",
+          "rank": "http://wikiba.se/ontology#PreferredRank"
+        }
+      ]
+    },
+    {
+      "id": "felix-mendelssohn",
+      "qid": "Q46096",
+      "birthDate": "1809-02-03",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q46096",
+          "dob": "1809-02-03T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#PreferredRank"
+        },
+        {
+          "p": "http://www.wikidata.org/entity/Q46096",
+          "dob": "1809-01-01T00:00:00Z",
+          "precision": "9",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "gertrude-stein",
+      "qid": "Q188385",
+      "birthDate": "1874-02-03",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q188385",
+          "dob": "1874-02-03T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "norman-rockwell",
+      "qid": "Q271884",
+      "birthDate": "1894-02-03",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q271884",
+          "dob": "1894-02-03T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "rosa-parks",
+      "qid": "Q41921",
+      "birthDate": "1913-02-04",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q41921",
+          "dob": "1913-02-04T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "charles-lindbergh",
+      "qid": "Q1618",
+      "birthDate": "1902-02-04",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q1618",
+          "dob": "1902-02-04T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "fernand-leger",
+      "qid": "Q157183",
+      "birthDate": "1881-02-04",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q157183",
+          "dob": "1881-02-04T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "cristiano-ronaldo",
+      "qid": "Q11571",
+      "birthDate": "1985-02-05",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q11571",
+          "dob": "1985-02-05T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "neymar",
+      "qid": "Q142794",
+      "birthDate": "1992-02-05",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q142794",
+          "dob": "1992-02-05T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "robert-hofstadter",
+      "qid": "Q130113",
+      "birthDate": "1915-02-05",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q130113",
+          "dob": "1915-02-05T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "ronald-reagan",
+      "qid": "Q9960",
+      "birthDate": "1911-02-06",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q9960",
+          "dob": "1911-02-06T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "bob-marley",
+      "qid": "Q409",
+      "birthDate": "1945-02-06",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q409",
+          "dob": "1945-02-06T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "babe-ruth",
+      "qid": "Q213812",
+      "birthDate": "1895-02-06",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q213812",
+          "dob": "1895-02-06T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "charles-dickens",
+      "qid": "Q5686",
+      "birthDate": "1812-02-07",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q5686",
+          "dob": "1812-01-01T00:00:00Z",
+          "precision": "9",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        },
+        {
+          "p": "http://www.wikidata.org/entity/Q5686",
+          "dob": "1812-02-07T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#PreferredRank"
+        }
+      ]
+    },
+    {
+      "id": "laura-ingalls-wilder",
+      "qid": "Q237514",
+      "birthDate": "1867-02-07",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q237514",
+          "dob": "1867-02-07T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#PreferredRank"
+        },
+        {
+          "p": "http://www.wikidata.org/entity/Q237514",
+          "dob": "1867-01-01T00:00:00Z",
+          "precision": "9",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "vo-nguyen-hoang",
+      "qid": "Q99778061",
+      "birthDate": "2002-02-07",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q99778061",
+          "dob": "2002-02-07T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "dmitri-mendeleev",
+      "qid": "Q9106",
+      "birthDate": "1834-02-08",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q9106",
+          "dob": "1834-02-07T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#DeprecatedRank"
+        },
+        {
+          "p": "http://www.wikidata.org/entity/Q9106",
+          "dob": "1834-02-08T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        },
+        {
+          "p": "http://www.wikidata.org/entity/Q9106",
+          "dob": "1834-02-08T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985786",
+          "rank": "http://wikiba.se/ontology#PreferredRank"
+        },
+        {
+          "p": "http://www.wikidata.org/entity/Q9106",
+          "dob": "1834-01-01T00:00:00Z",
+          "precision": "9",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "john-williams",
+      "qid": "Q131285",
+      "birthDate": "1932-02-08",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q131285",
+          "dob": "1932-02-08T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "alice-walker",
+      "qid": "Q215868",
+      "birthDate": "1944-02-09",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q215868",
+          "dob": "1944-02-09T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "william-henry-harrison",
+      "qid": "Q11869",
+      "birthDate": "1773-02-09",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q11869",
+          "dob": "1773-02-09T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "carole-king",
+      "qid": "Q217787",
+      "birthDate": "1942-02-09",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q217787",
+          "dob": "1942-02-09T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "bertolt-brecht",
+      "qid": "Q38757",
+      "birthDate": "1898-02-10",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q38757",
+          "dob": "1898-02-10T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "boris-pasternak",
+      "qid": "Q41223",
+      "birthDate": "1890-02-10",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q41223",
+          "dob": "1890-02-10T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985786",
+          "rank": "http://wikiba.se/ontology#PreferredRank"
+        },
+        {
+          "p": "http://www.wikidata.org/entity/Q41223",
+          "dob": "1890-02-10T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        },
+        {
+          "p": "http://www.wikidata.org/entity/Q41223",
+          "dob": "1890-02-11T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985786",
+          "rank": "http://wikiba.se/ontology#DeprecatedRank"
+        }
+      ]
+    },
+    {
+      "id": "mark-spitz",
+      "qid": "Q180748",
+      "birthDate": "1950-02-10",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q180748",
+          "dob": "1950-02-10T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "thomas-edison",
+      "qid": "Q8743",
+      "birthDate": "1847-02-11",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q8743",
+          "dob": "1847-02-11T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "josiah-willard-gibbs",
+      "qid": "Q153243",
+      "birthDate": "1839-02-11",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q153243",
+          "dob": "1839-02-11T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "henry-fox-talbot",
+      "qid": "Q299565",
+      "birthDate": "1800-02-11",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q299565",
+          "dob": "1800-02-11T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "abraham-lincoln",
+      "qid": "Q91",
+      "birthDate": "1809-02-12",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q91",
+          "dob": "1809-02-12T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "charles-darwin",
+      "qid": "Q1035",
+      "birthDate": "1809-02-12",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q1035",
+          "dob": "1809-02-12T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "nguyen-tien-minh",
+      "qid": "Q958317",
+      "birthDate": "1983-02-12",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q958317",
+          "dob": "1983-02-12T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "william-shockley",
+      "qid": "Q163415",
+      "birthDate": "1910-02-13",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q163415",
+          "dob": "1910-02-13T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "peter-gabriel",
+      "qid": "Q175195",
+      "birthDate": "1950-02-13",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q175195",
+          "dob": "1950-02-13T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "peter-gustav-lejeune-dirichlet",
+      "qid": "Q29193",
+      "birthDate": "1805-02-13",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q29193",
+          "dob": "1805-02-13T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "fritz-zwicky",
+      "qid": "Q115462",
+      "birthDate": "1898-02-14",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q115462",
+          "dob": "1898-02-14T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "christian-eriksen",
+      "qid": "Q294951",
+      "birthDate": "1992-02-14",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q294951",
+          "dob": "1992-02-14T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "angel-di-maria",
+      "qid": "Q251683",
+      "birthDate": "1988-02-14",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q251683",
+          "dob": "1988-02-14T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "susan-b-anthony",
+      "qid": "Q192245",
+      "birthDate": "1820-02-15",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q192245",
+          "dob": "1820-02-15T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "ernest-shackleton",
+      "qid": "Q957543",
+      "birthDate": "1874-02-15",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q957543",
+          "dob": "1874-02-15T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    },
+    {
+      "id": "alfred-north-whitehead",
+      "qid": "Q183372",
+      "birthDate": "1861-02-15",
+      "matches": 1,
+      "conflicts": [],
+      "claims": [
+        {
+          "p": "http://www.wikidata.org/entity/Q183372",
+          "dob": "1861-02-15T00:00:00Z",
+          "precision": "11",
+          "calendar": "http://www.wikidata.org/entity/Q1985727",
+          "rank": "http://wikiba.se/ontology#NormalRank"
+        }
+      ]
+    }
+  ]
+}

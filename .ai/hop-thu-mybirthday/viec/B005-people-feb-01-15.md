@@ -1,6 +1,6 @@
 # B005 — Làm giàu dữ liệu: nhân vật sinh 1/2 → 15/2
 
-Chu kỳ: BV-006 · Ưu tiên: P1 · Reviewer: Codex theo yêu cầu chủ dự án · Executor: Gemini 3.8 (Antigravity)
+Chu kỳ: BV-006 · Ưu tiên: P1 · Reviewer: Codex theo yêu cầu chủ dự án · Executor: Codex theo yêu cầu thực hiện trực tiếp ngày 2026-10-04
 Điều kiện giao: B004-v2 DAT (review r2), B003/B004 đã tích hợp tại `ed24674a40e12189535ec245706993a94a38b8aa`. Chủ dự án yêu cầu tiếp tục mở rộng sang tháng khác ngày 2026-10-04.
 
 ## 0. Phạm vi và đích đạt
@@ -9,7 +9,7 @@ Bổ sung nhân vật sinh **1–15/2** vào `src/data/people/02.ts`, dùng lạ
 
 Baseline: 123 người / 42 ngày có dữ liệu; tháng 1 có 95 người và đủ 31/31 ngày. Tháng 2 có 21 người, trong phạm vi 1–15/2 chỉ có Jules Verne (8/2). Giữ nguyên toàn bộ hồ sơ cũ. Đích: **ít nhất 3 người đã kiểm chứng/ngày**, tối đa 8 người mới/ngày; cần tối thiểu 44 hồ sơ mới nếu mọi ngày đạt. Đây là đích, không phải số liệu đã hoàn thành. Không ép dữ liệu: ngày thiếu nguồn phải báo thiếu và chờ review, không tự thêm ngoại lệ để test đạt.
 
-Tỷ lệ người Việt **20%–40% trong hồ sơ mới của riêng B005**; không tính Jules Verne hay hồ sơ tháng 1 vào mẫu số. Với 44 hồ sơ mới, cần 9–17 người Việt. Đa dạng quốc gia và nghề nghiệp trong nhóm quốc tế; không yêu cầu người Việt ở mọi ngày nếu không có nguồn chắc chắn. Không thêm hồ sơ ngày 16–29/2, tháng khác, sự kiện, ảnh mới hay sửa UI.
+Tỷ lệ người Việt **tối thiểu 5% trong hồ sơ mới của riêng B005**; không tính Jules Verne hay hồ sơ tháng 1 vào mẫu số. Với 44 hồ sơ mới, cần ít nhất 3 người Việt (làm tròn lên số nguyên). Đa dạng quốc gia và nghề nghiệp trong nhóm quốc tế; không yêu cầu người Việt ở mọi ngày nếu không có nguồn chắc chắn. Không thêm hồ sơ ngày 16–29/2, tháng khác, sự kiện, ảnh mới hay sửa UI.
 
 ## 1. Thu thập và kiểm tra chéo
 
@@ -27,7 +27,7 @@ Tỷ lệ người Việt **20%–40% trong hồ sơ mới của riêng B005**; 
 - Chạy baseline `npm test`, `npm run coverage`, `npx tsc --noEmit`; lưu đầu ra thật trước khi sửa. Lưu danh sách id/QID/ngày và tổng theo ngày của baseline để đối chiếu sau.
 - Giữ nguyên Rule A–U và các cổng tháng 1: 31 ngày ≥3 người; 93 bổ sung có 19 người Việt (20,4%). Không nới điều kiện nguồn, không đổi `verifiedAt` của hồ sơ cũ để né Rule P.
 - Thêm Rule V: ngày 1–15/2 ≥3 người; tối đa 8 hồ sơ mới/ngày; mẫu mới tính theo id loại trừ baseline, không dựa riêng vào ngày verifiedAt. Chạy test trước khi thêm dữ liệu và lưu thất bại thực tế do thiếu độ phủ.
-- Thêm Rule W: cơ cấu Việt Nam 20%–40% trên hồ sơ mới B005; kiểm nguồn nước ngoài cho tất cả người Việt mới, dùng lại helper đang có. Không whitelist host cá nhân/cơ sở dữ liệu tổng hợp; tài liệu cần duyệt theo exact URL/QID. Thêm kiểm tra âm cho QID sai, URL chưa duyệt, biến thể query, host giả và URL hỏng. Kiểm máy chỉ kiểm cấu trúc, reviewer vẫn mở nguồn kiểm sự thật.
+- Thêm Rule W: cơ cấu Việt Nam tối thiểu 5% trên hồ sơ mới B005; kiểm nguồn nước ngoài cho tất cả người Việt mới, dùng lại helper đang có. Không whitelist host cá nhân/cơ sở dữ liệu tổng hợp; tài liệu cần duyệt theo exact URL/QID. Thêm kiểm tra âm cho QID sai, URL chưa duyệt, biến thể query, host giả và URL hỏng. Kiểm máy chỉ kiểm cấu trúc, reviewer vẫn mở nguồn kiểm sự thật.
 - Không sửa hằng số người 22/2 trong B005 vì ngày này ngoài phạm vi. B006 sẽ xử lý khi bổ sung 16–29/2, bao gồm 29/2. Giữ 16 người và 4 sự kiện ngày 22/2 trong đợt này.
 - README chỉ cập nhật số liệu thực tế/độ phủ và các quy tắc kiểm mới, không tuyên bố đã phủ toàn tháng 2 hoặc toàn năm.
 
@@ -63,3 +63,5 @@ Không sửa tệp khác, package/lock, REVIEW/STATUS, AGENTS, viec/review, scri
 Báo cáo phải có FILES thực tế; bảng đủ 15 ngày (ứng viên chung/VN, số thêm VN/quốc tế, tổng/ngày, ngưỡng và lý do thiếu); QID/DOB/nguồn từng người; tỷ lệ đúng mẫu số; danh sách loại; kết quả thật của mọi cổng; chỗ không chắc và Reviewer Attention.
 
 Nếu thiếu nguồn hoặc cơ cấu/độ phủ chưa đạt, báo cáo trung thực để nhận SUA; không giả bằng chứng và không tự giảm đích. Nộp xong thì dừng, không Git. Reviewer kiểm chéo ngày sinh và tính độc lập từng hồ sơ, chỉ DAT khi cổng kỹ thuật **và** bằng chứng nguồn đều đạt; chỉ tích hợp dữ liệu sau DAT. Không bắt đầu nửa sau tháng 2 trước chỉ thị mới.
+
+Điều chỉnh chủ dự án 2026-10-04: tỷ lệ hồ sơ mới B005 tối thiểu 5% người Việt; Codex trực tiếp thực hiện, kiểm tra và tích hợp sau DAT. Không thay đổi bằng chứng hay tiêu chí đóng tháng 1.

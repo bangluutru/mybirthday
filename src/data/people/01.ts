@@ -856,7 +856,7 @@ export const PEOPLE_01: Person[] = [
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Simone_de_Beauvoir",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q7197",
-    "https://catalogue.bnf.fr/ark:/12148/cb11890854p",
+    "https://snl.no/Simone_de_Beauvoir",
     "https://www.cambridge.org/core/journals/pmla/article/abs/scandalous-woman-beauvoir-in-paris-january-2008/CC86063FE3104F5E5C93E7C4B3109F2C"
   ],
   "region": "west",
@@ -1186,7 +1186,7 @@ export const PEOPLE_01: Person[] = [
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Charles_Perrault",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q128460",
-    "https://catalogue.bnf.fr/ark:/12148/cb119192165.public",
+    "https://snl.no/Charles_Perrault",
     "https://www.academie-francaise.fr/les-immortels/charles-perrault"
   ],
   "region": "west",
@@ -1352,7 +1352,7 @@ export const PEOPLE_01: Person[] = [
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Yukio_Mishima",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q134456",
-    "https://catalogue.bnf.fr/ark:/12148/cb119162858",
+    "https://www.mishimayukio.jp/about/",
     "https://www.britannica.com/biography/Yukio-Mishima"
   ],
   "region": "asia",
@@ -2285,7 +2285,7 @@ export const PEOPLE_01: Person[] = [
   "wikidataId": "Q502",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q502",
-    "https://catalogue.bnf.fr/ark:/12148/cb119255047",
+    "https://snl.no/Stendhal",
     "https://musee-stendhal.bm-grenoble.fr/henri-beyle-dit-stendhal-1783-1842.aspx"
   ],
   "region": "west",
@@ -2510,7 +2510,7 @@ export const PEOPLE_01: Person[] = [
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q40909",
     "https://www.britishlibrary.cn/en/authors/virginia-woolf/",
-    "https://virginiawoolfsociety.org.uk/resources/virginia-woolf-a-short-biography/"
+    "https://snl.no/Virginia_Woolf"
   ],
   "region": "west",
   "verifiedAt": "2026-10-04"
@@ -2797,7 +2797,7 @@ export const PEOPLE_01: Person[] = [
   "wikidataId": "Q218679",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q218679",
-    "https://catalogue.bnf.fr/ark:/12148/cb119298072",
+    "https://snl.no/Sidonie_Gabrielle_Colette",
     "https://www.leonore.archives-nationales.culture.gouv.fr/ui/notice/86362"
   ],
   "region": "west",
@@ -2862,7 +2862,7 @@ export const PEOPLE_01: Person[] = [
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q47162",
     "https://www.nobelprize.org/laureate/584",
-    "https://catalogue.bnf.fr/ark:/12148/cb11922460q"
+    "https://snl.no/Romain_Rolland"
   ],
   "region": "west",
   "verifiedAt": "2026-10-04"

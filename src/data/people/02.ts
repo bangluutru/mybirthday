@@ -755,5 +755,1501 @@ export const PEOPLE_02: Person[] = [
     "notabilityScore": 93,
     "region": "world",
     "verifiedAt": "2026-10-03"
-  }
+  },
+  {
+    "id": "boris-yeltsin",
+    "slug": "boris-yeltsin",
+    "name": "Boris Yeltsin",
+    "birthDate": "1931-02-01",
+    "birthYear": 1931,
+    "birthMonth": 2,
+    "birthDay": 1,
+    "occupation": [
+      "Chính trị gia"
+    ],
+    "category": "politics",
+    "categoryLabel": "Chính trị gia",
+    "countryCode": "RU",
+    "countryName": "Nga",
+    "countryFlag": "🇷🇺",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Boris Yeltsin là tổng thống đầu tiên của Liên bang Nga, nhiệm kỳ 1991–1999.",
+    "biography": "Boris Yeltsin là tổng thống đầu tiên của Liên bang Nga, nhiệm kỳ 1991–1999.",
+    "highlights": [
+      "Sinh ngày 1/2/1931.",
+      "Boris Yeltsin là tổng thống đầu tiên của Liên bang Nga, nhiệm kỳ 1991–1999."
+    ],
+    "wikidataId": "Q34453",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q34453",
+      "https://www.prlib.ru/history/618999",
+      "https://snl.no/Boris_Jeltsin"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "leymah-gbowee",
+    "slug": "leymah-gbowee",
+    "name": "Leymah Gbowee",
+    "birthDate": "1972-02-01",
+    "birthYear": 1972,
+    "birthMonth": 2,
+    "birthDay": 1,
+    "occupation": [
+      "Nhà hoạt động hòa bình"
+    ],
+    "category": "history",
+    "categoryLabel": "Nhà hoạt động hòa bình",
+    "countryCode": "LR",
+    "countryName": "Liberia",
+    "countryFlag": "🇱🇷",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Leymah Gbowee là nhà hoạt động hòa bình người Liberia, đồng nhận giải Nobel Hòa bình năm 2011.",
+    "biography": "Leymah Gbowee là nhà hoạt động hòa bình người Liberia, đồng nhận giải Nobel Hòa bình năm 2011.",
+    "highlights": [
+      "Sinh ngày 1/2/1972.",
+      "Leymah Gbowee là nhà hoạt động hòa bình người Liberia, đồng nhận giải Nobel Hòa bình năm 2011."
+    ],
+    "wikidataId": "Q107037",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q107037",
+      "https://www.nobelprize.org/prizes/peace/2011/gbowee/facts/",
+      "https://www.law.cuny.edu/staff/leymah-gbowee/"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "le-duc-phat",
+    "slug": "le-duc-phat",
+    "name": "Lê Đức Phát",
+    "birthDate": "1998-02-01",
+    "birthYear": 1998,
+    "birthMonth": 2,
+    "birthDay": 1,
+    "occupation": [
+      "Vận động viên cầu lông"
+    ],
+    "category": "athlete",
+    "categoryLabel": "Vận động viên cầu lông",
+    "countryCode": "VN",
+    "countryName": "Việt Nam",
+    "countryFlag": "🇻🇳",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Lê Đức Phát là vận động viên cầu lông Việt Nam.",
+    "biography": "Lê Đức Phát là vận động viên cầu lông Việt Nam. Anh đại diện Việt Nam thi đấu tại Olympic Paris 2024.",
+    "highlights": [
+      "Sinh ngày 1/2/1998.",
+      "Anh đại diện Việt Nam thi đấu tại Olympic Paris 2024."
+    ],
+    "wikidataId": "Q46900491",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q46900491",
+      "https://badmintonasia.org/wp-content/uploads/2023/12/ar-2018-new.pdf",
+      "https://tdtt.gov.vn/hoi-nghi-quan-chuc-cap-cao/id/85928/duong-den-olympic-cua-chang-trung-uy-le-duc-phat"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "vietnam",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "james-joyce",
+    "slug": "james-joyce",
+    "name": "James Joyce",
+    "birthDate": "1882-02-02",
+    "birthYear": 1882,
+    "birthMonth": 2,
+    "birthDay": 2,
+    "occupation": [
+      "Nhà văn"
+    ],
+    "category": "literature",
+    "categoryLabel": "Nhà văn",
+    "countryCode": "IE",
+    "countryName": "Ireland",
+    "countryFlag": "🇮🇪",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "James Joyce là nhà văn Ireland, tác giả Ulysses và Dubliners.",
+    "biography": "James Joyce là nhà văn Ireland, tác giả Ulysses và Dubliners. Tác phẩm của ông gắn với thành phố Dublin.",
+    "highlights": [
+      "Sinh ngày 2/2/1882.",
+      "Tác phẩm của ông gắn với thành phố Dublin."
+    ],
+    "wikidataId": "Q6882",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q6882",
+      "https://jamesjoyce.ie/events/happy-birthday-mr-joyce-2026/",
+      "https://api.ireland.ie/en/james-joyce-a-global-odyssey/"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "ayn-rand",
+    "slug": "ayn-rand",
+    "name": "Ayn Rand",
+    "birthDate": "1905-02-02",
+    "birthYear": 1905,
+    "birthMonth": 2,
+    "birthDay": 2,
+    "occupation": [
+      "Nhà văn"
+    ],
+    "category": "literature",
+    "categoryLabel": "Nhà văn",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Ayn Rand là nhà văn người Mỹ gốc Nga, tác giả The Fountainhead và Atlas Shrugged.",
+    "biography": "Ayn Rand là nhà văn người Mỹ gốc Nga, tác giả The Fountainhead và Atlas Shrugged. Bà phát triển hệ tư tưởng Objectivism.",
+    "highlights": [
+      "Sinh ngày 2/2/1905.",
+      "Bà phát triển hệ tư tưởng Objectivism."
+    ],
+    "wikidataId": "Q132524",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q132524",
+      "https://ari.aynrand.org/faq/",
+      "https://www.biography.com/authors-writers/ayn-rand"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "jascha-heifetz",
+    "slug": "jascha-heifetz",
+    "name": "Jascha Heifetz",
+    "birthDate": "1901-02-02",
+    "birthYear": 1901,
+    "birthMonth": 2,
+    "birthDay": 2,
+    "occupation": [
+      "Nghệ sĩ violin"
+    ],
+    "category": "music",
+    "categoryLabel": "Nghệ sĩ violin",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Jascha Heifetz là nghệ sĩ violin người Mỹ, sinh tại Vilnius.",
+    "biography": "Jascha Heifetz là nghệ sĩ violin người Mỹ, sinh tại Vilnius. Ông ra mắt tại Carnegie Hall năm 1917.",
+    "highlights": [
+      "Sinh ngày 2/2/1901.",
+      "Ông ra mắt tại Carnegie Hall năm 1917."
+    ],
+    "wikidataId": "Q243472",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q243472",
+      "https://jaschaheifetz.com/about/biography/",
+      "https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/mu003008/mu003008.pdf"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "felix-mendelssohn",
+    "slug": "felix-mendelssohn",
+    "name": "Felix Mendelssohn",
+    "birthDate": "1809-02-03",
+    "birthYear": 1809,
+    "birthMonth": 2,
+    "birthDay": 3,
+    "occupation": [
+      "Nhà soạn nhạc"
+    ],
+    "category": "music",
+    "categoryLabel": "Nhà soạn nhạc",
+    "countryCode": "DE",
+    "countryName": "Đức",
+    "countryFlag": "🇩🇪",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Felix Mendelssohn là nhà soạn nhạc người Đức.",
+    "biography": "Felix Mendelssohn là nhà soạn nhạc người Đức. Tác phẩm của ông gồm nhạc giao hưởng, nhạc thính phòng và các bản hòa tấu.",
+    "highlights": [
+      "Sinh ngày 3/2/1809.",
+      "Tác phẩm của ông gồm nhạc giao hưởng, nhạc thính phòng và các bản hòa tấu."
+    ],
+    "wikidataId": "Q46096",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q46096",
+      "https://www.dallassymphony.org/community-education/dso-kids/listen-watch/composers/felix-mendelssohn/",
+      "https://www.mendelssohn-stiftung.de/en/felix"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "gertrude-stein",
+    "slug": "gertrude-stein",
+    "name": "Gertrude Stein",
+    "birthDate": "1874-02-03",
+    "birthYear": 1874,
+    "birthMonth": 2,
+    "birthDay": 3,
+    "occupation": [
+      "Nhà văn"
+    ],
+    "category": "literature",
+    "categoryLabel": "Nhà văn",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Gertrude Stein là nhà văn người Mỹ hoạt động tại Paris.",
+    "biography": "Gertrude Stein là nhà văn người Mỹ hoạt động tại Paris. Bà được biết đến với văn phong thử nghiệm và tác phẩm The Autobiography of Alice B. Toklas.",
+    "highlights": [
+      "Sinh ngày 3/2/1874.",
+      "Toklas."
+    ],
+    "wikidataId": "Q188385",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q188385",
+      "https://archivesspace.shsu.edu/repositories/2/resources/377",
+      "https://poets.org/poet/gertrude-stein"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "norman-rockwell",
+    "slug": "norman-rockwell",
+    "name": "Norman Rockwell",
+    "birthDate": "1894-02-03",
+    "birthYear": 1894,
+    "birthMonth": 2,
+    "birthDay": 3,
+    "occupation": [
+      "Họa sĩ minh họa"
+    ],
+    "category": "artist",
+    "categoryLabel": "Họa sĩ minh họa",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Norman Rockwell là họa sĩ minh họa người Mỹ.",
+    "biography": "Norman Rockwell là họa sĩ minh họa người Mỹ. Ông thực hiện nhiều bìa cho tạp chí The Saturday Evening Post.",
+    "highlights": [
+      "Sinh ngày 3/2/1894.",
+      "Ông thực hiện nhiều bìa cho tạp chí The Saturday Evening Post."
+    ],
+    "wikidataId": "Q271884",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q271884",
+      "https://snl.no/Norman_Rockwell",
+      "https://www.biography.com/artists/norman-rockwell"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "rosa-parks",
+    "slug": "rosa-parks",
+    "name": "Rosa Parks",
+    "birthDate": "1913-02-04",
+    "birthYear": 1913,
+    "birthMonth": 2,
+    "birthDay": 4,
+    "occupation": [
+      "Nhà hoạt động dân quyền"
+    ],
+    "category": "history",
+    "categoryLabel": "Nhà hoạt động dân quyền",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Rosa Parks là nhà hoạt động dân quyền người Mỹ.",
+    "biography": "Rosa Parks là nhà hoạt động dân quyền người Mỹ. Việc bà từ chối nhường ghế trên xe buýt tại Montgomery năm 1955 trở thành một dấu mốc của phong trào dân quyền.",
+    "highlights": [
+      "Sinh ngày 4/2/1913.",
+      "Việc bà từ chối nhường ghế trên xe buýt tại Montgomery năm 1955 trở thành một dấu mốc của phong trào dân quyền."
+    ],
+    "wikidataId": "Q41921",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q41921",
+      "https://blogs.loc.gov/loc/2020/02/ro-sa-parks-ro-sa-parks-kicking-off-black-history-month/",
+      "https://www.womenshistory.org/education-resources/biographies/rosa-parks"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "charles-lindbergh",
+    "slug": "charles-lindbergh",
+    "name": "Charles Lindbergh",
+    "birthDate": "1902-02-04",
+    "birthYear": 1902,
+    "birthMonth": 2,
+    "birthDay": 4,
+    "occupation": [
+      "Phi công"
+    ],
+    "category": "history",
+    "categoryLabel": "Phi công",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Charles Lindbergh là phi công người Mỹ.",
+    "biography": "Charles Lindbergh là phi công người Mỹ. Năm 1927, ông thực hiện chuyến bay một mình không dừng từ New York đến Paris.",
+    "highlights": [
+      "Sinh ngày 4/2/1902.",
+      "Năm 1927, ông thực hiện chuyến bay một mình không dừng từ New York đến Paris."
+    ],
+    "wikidataId": "Q1618",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q1618",
+      "https://www.mnhs.org/lindbergh/learn/family/parents",
+      "https://airandspace.si.edu/explore/stories/charles-lindbergh"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "fernand-leger",
+    "slug": "fernand-leger",
+    "name": "Fernand Léger",
+    "birthDate": "1881-02-04",
+    "birthYear": 1881,
+    "birthMonth": 2,
+    "birthDay": 4,
+    "occupation": [
+      "Họa sĩ"
+    ],
+    "category": "artist",
+    "categoryLabel": "Họa sĩ",
+    "countryCode": "FR",
+    "countryName": "Pháp",
+    "countryFlag": "🇫🇷",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Fernand Léger là họa sĩ người Pháp, gắn với nghệ thuật lập thể và các hình khối mang cảm hứng công nghiệp.",
+    "biography": "Fernand Léger là họa sĩ người Pháp, gắn với nghệ thuật lập thể và các hình khối mang cảm hứng công nghiệp.",
+    "highlights": [
+      "Sinh ngày 4/2/1881.",
+      "Fernand Léger là họa sĩ người Pháp, gắn với nghệ thuật lập thể và các hình khối mang cảm hứng công nghiệp."
+    ],
+    "wikidataId": "Q157183",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q157183",
+      "https://www.vle.lt/straipsnis/fernand-leger/",
+      "https://musees-nationaux-alpesmaritimes.fr/fleger/fernand-leger-biographie"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "cristiano-ronaldo",
+    "slug": "cristiano-ronaldo",
+    "name": "Cristiano Ronaldo",
+    "birthDate": "1985-02-05",
+    "birthYear": 1985,
+    "birthMonth": 2,
+    "birthDay": 5,
+    "occupation": [
+      "Cầu thủ bóng đá"
+    ],
+    "category": "athlete",
+    "categoryLabel": "Cầu thủ bóng đá",
+    "countryCode": "PT",
+    "countryName": "Bồ Đào Nha",
+    "countryFlag": "🇵🇹",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Cristiano Ronaldo là cầu thủ bóng đá người Bồ Đào Nha.",
+    "biography": "Cristiano Ronaldo là cầu thủ bóng đá người Bồ Đào Nha. Anh từng thi đấu cho Manchester United và Real Madrid.",
+    "highlights": [
+      "Sinh ngày 5/2/1985.",
+      "Anh từng thi đấu cho Manchester United và Real Madrid."
+    ],
+    "wikidataId": "Q11571",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q11571",
+      "https://www.uefa.com/european-qualifiers/teams/players/63706--cristiano-ronaldo/",
+      "https://www.realmadrid.com/en-US/the-club/history/football-legends/cristiano-ronaldo-dos-santos-aveiro"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "neymar",
+    "slug": "neymar",
+    "name": "Neymar",
+    "birthDate": "1992-02-05",
+    "birthYear": 1992,
+    "birthMonth": 2,
+    "birthDay": 5,
+    "occupation": [
+      "Cầu thủ bóng đá"
+    ],
+    "category": "athlete",
+    "categoryLabel": "Cầu thủ bóng đá",
+    "countryCode": "BR",
+    "countryName": "Brazil",
+    "countryFlag": "🇧🇷",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Neymar là cầu thủ bóng đá người Brazil, từng thi đấu cho Barcelona.",
+    "biography": "Neymar là cầu thủ bóng đá người Brazil, từng thi đấu cho Barcelona.",
+    "highlights": [
+      "Sinh ngày 5/2/1992.",
+      "Neymar là cầu thủ bóng đá người Brazil, từng thi đấu cho Barcelona."
+    ],
+    "wikidataId": "Q142794",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q142794",
+      "https://www.olympedia.org/athletes/124938",
+      "https://www.bbc.co.uk/sport/football/40762417"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "robert-hofstadter",
+    "slug": "robert-hofstadter",
+    "name": "Robert Hofstadter",
+    "birthDate": "1915-02-05",
+    "birthYear": 1915,
+    "birthMonth": 2,
+    "birthDay": 5,
+    "occupation": [
+      "Nhà vật lý"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Nhà vật lý",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Robert Hofstadter là nhà vật lý người Mỹ, được trao Nobel Vật lý năm 1961 cho nghiên cứu về cấu trúc hạt nhân nguyên tử.",
+    "biography": "Robert Hofstadter là nhà vật lý người Mỹ, được trao Nobel Vật lý năm 1961 cho nghiên cứu về cấu trúc hạt nhân nguyên tử.",
+    "highlights": [
+      "Sinh ngày 5/2/1915.",
+      "Robert Hofstadter là nhà vật lý người Mỹ, được trao Nobel Vật lý năm 1961 cho nghiên cứu về cấu trúc hạt nhân nguyên tử."
+    ],
+    "wikidataId": "Q130113",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q130113",
+      "https://www.nobelprize.org/prizes/physics/1961/hofstadter/facts/",
+      "https://www.nsf.gov/honorary-awards/national-medal-science/recipients/robert-hofstadter"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "ronald-reagan",
+    "slug": "ronald-reagan",
+    "name": "Ronald Reagan",
+    "birthDate": "1911-02-06",
+    "birthYear": 1911,
+    "birthMonth": 2,
+    "birthDay": 6,
+    "occupation": [
+      "Chính trị gia"
+    ],
+    "category": "politics",
+    "categoryLabel": "Chính trị gia",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Ronald Reagan là tổng thống thứ 40 của Hoa Kỳ, nhiệm kỳ 1981–1989.",
+    "biography": "Ronald Reagan là tổng thống thứ 40 của Hoa Kỳ, nhiệm kỳ 1981–1989. Trước đó ông là diễn viên và thống đốc California.",
+    "highlights": [
+      "Sinh ngày 6/2/1911.",
+      "Trước đó ông là diễn viên và thống đốc California."
+    ],
+    "wikidataId": "Q9960",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q9960",
+      "https://www.reaganlibrary.gov/permanent-exhibits/foundations-leader",
+      "https://obamawhitehouse.archives.gov/1600/presidents/ronaldreagan/"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "bob-marley",
+    "slug": "bob-marley",
+    "name": "Bob Marley",
+    "birthDate": "1945-02-06",
+    "birthYear": 1945,
+    "birthMonth": 2,
+    "birthDay": 6,
+    "occupation": [
+      "Ca sĩ, nhạc sĩ"
+    ],
+    "category": "music",
+    "categoryLabel": "Ca sĩ, nhạc sĩ",
+    "countryCode": "JM",
+    "countryName": "Jamaica",
+    "countryFlag": "🇯🇲",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Bob Marley là ca sĩ và nhạc sĩ người Jamaica.",
+    "biography": "Bob Marley là ca sĩ và nhạc sĩ người Jamaica. Âm nhạc của ông góp phần đưa reggae đến với công chúng quốc tế.",
+    "highlights": [
+      "Sinh ngày 6/2/1945.",
+      "Âm nhạc của ông góp phần đưa reggae đến với công chúng quốc tế."
+    ],
+    "wikidataId": "Q409",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q409",
+      "https://www.bobmarley.com/history/",
+      "https://www.rockhall.com/inductees/bob-marley/"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "babe-ruth",
+    "slug": "babe-ruth",
+    "name": "Babe Ruth",
+    "birthDate": "1895-02-06",
+    "birthYear": 1895,
+    "birthMonth": 2,
+    "birthDay": 6,
+    "occupation": [
+      "Vận động viên bóng chày"
+    ],
+    "category": "athlete",
+    "categoryLabel": "Vận động viên bóng chày",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Babe Ruth là vận động viên bóng chày người Mỹ, từng thi đấu cho Boston Red Sox và New York Yankees.",
+    "biography": "Babe Ruth là vận động viên bóng chày người Mỹ, từng thi đấu cho Boston Red Sox và New York Yankees. Ông thuộc nhóm đầu tiên được bầu vào Đại sảnh Danh vọng Bóng chày năm 1936.",
+    "highlights": [
+      "Sinh ngày 6/2/1895.",
+      "Ông thuộc nhóm đầu tiên được bầu vào Đại sảnh Danh vọng Bóng chày năm 1936."
+    ],
+    "wikidataId": "Q213812",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q213812",
+      "https://baseballhall.org/discover/museum/babe-ruth-his-life-and-legend",
+      "https://www.baberuthleague.org/sitemedia/brl_media_guide_2025.pdf"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "charles-dickens",
+    "slug": "charles-dickens",
+    "name": "Charles Dickens",
+    "birthDate": "1812-02-07",
+    "birthYear": 1812,
+    "birthMonth": 2,
+    "birthDay": 7,
+    "occupation": [
+      "Nhà văn"
+    ],
+    "category": "literature",
+    "categoryLabel": "Nhà văn",
+    "countryCode": "GB",
+    "countryName": "Vương quốc Anh",
+    "countryFlag": "🇬🇧",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Charles Dickens là nhà văn người Anh thời Victoria.",
+    "biography": "Charles Dickens là nhà văn người Anh thời Victoria. Ông là tác giả Oliver Twist và A Christmas Carol.",
+    "highlights": [
+      "Sinh ngày 7/2/1812.",
+      "Ông là tác giả Oliver Twist và A Christmas Carol."
+    ],
+    "wikidataId": "Q5686",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q5686",
+      "https://dickensmuseum.com/blogs/charles-dickens-museum/a-very-dickens-birthday",
+      "https://home.nps.gov/people/charles-dickens.htm"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "laura-ingalls-wilder",
+    "slug": "laura-ingalls-wilder",
+    "name": "Laura Ingalls Wilder",
+    "birthDate": "1867-02-07",
+    "birthYear": 1867,
+    "birthMonth": 2,
+    "birthDay": 7,
+    "occupation": [
+      "Nhà văn"
+    ],
+    "category": "literature",
+    "categoryLabel": "Nhà văn",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Laura Ingalls Wilder là nhà văn người Mỹ, tác giả loạt sách Little House dựa trên ký ức về cuộc sống của gia đình ở vùng biên viễn.",
+    "biography": "Laura Ingalls Wilder là nhà văn người Mỹ, tác giả loạt sách Little House dựa trên ký ức về cuộc sống của gia đình ở vùng biên viễn.",
+    "highlights": [
+      "Sinh ngày 7/2/1867.",
+      "Laura Ingalls Wilder là nhà văn người Mỹ, tác giả loạt sách Little House dựa trên ký ức về cuộc sống của gia đình ở vùng biên viễn."
+    ],
+    "wikidataId": "Q237514",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q237514",
+      "https://www.nps.gov/home/learn/historyculture/laura-ingalls-wilder.htm",
+      "https://lauraingallswilderhome.com/travels-of-a-pioneer-girl/"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "vo-nguyen-hoang",
+    "slug": "vo-nguyen-hoang",
+    "name": "Võ Nguyên Hoàng",
+    "birthDate": "2002-02-07",
+    "birthYear": 2002,
+    "birthMonth": 2,
+    "birthDay": 7,
+    "occupation": [
+      "Cầu thủ bóng đá"
+    ],
+    "category": "athlete",
+    "categoryLabel": "Cầu thủ bóng đá",
+    "countryCode": "VN",
+    "countryName": "Việt Nam",
+    "countryFlag": "🇻🇳",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Võ Nguyên Hoàng là cầu thủ bóng đá Việt Nam.",
+    "biography": "Võ Nguyên Hoàng là cầu thủ bóng đá Việt Nam. Anh có tên trong danh sách đăng ký đội tuyển U23 Việt Nam tại AFC U23 Asian Cup 2024.",
+    "highlights": [
+      "Sinh ngày 7/2/2002.",
+      "Anh có tên trong danh sách đăng ký đội tuyển U23 Việt Nam tại AFC U23 Asian Cup 2024."
+    ],
+    "wikidataId": "Q99778061",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q99778061",
+      "https://assets.the-afc.com/2024_AFC_U23_Asian_Cup/Downloads/Squad_List/AFC-U23-Asian-Cup-Qatar-2024%E2%84%A2---Squad-Lists-%28Updated-April-16%29.pdf",
+      "https://vpf.vn/player/vo-nguyen-hoang/?sid=54124"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "vietnam",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "dmitri-mendeleev",
+    "slug": "dmitri-mendeleev",
+    "name": "Dmitri Mendeleev",
+    "birthDate": "1834-02-08",
+    "birthYear": 1834,
+    "birthMonth": 2,
+    "birthDay": 8,
+    "occupation": [
+      "Nhà hóa học"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Nhà hóa học",
+    "countryCode": "RU",
+    "countryName": "Nga",
+    "countryFlag": "🇷🇺",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Dmitri Mendeleev là nhà hóa học người Nga, nổi tiếng với việc xây dựng bảng tuần hoàn các nguyên tố hóa học.",
+    "biography": "Dmitri Mendeleev là nhà hóa học người Nga, nổi tiếng với việc xây dựng bảng tuần hoàn các nguyên tố hóa học.",
+    "highlights": [
+      "Sinh ngày 8/2/1834.",
+      "Dmitri Mendeleev là nhà hóa học người Nga, nổi tiếng với việc xây dựng bảng tuần hoàn các nguyên tố hóa học."
+    ],
+    "wikidataId": "Q9106",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q9106",
+      "https://www.prlib.ru/history/619013",
+      "https://www.unesco.org/en/articles/dmitry-mendeleev-man-who-brought-law-and-order-chemistry-0"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "john-williams",
+    "slug": "john-williams",
+    "name": "John Williams",
+    "birthDate": "1932-02-08",
+    "birthYear": 1932,
+    "birthMonth": 2,
+    "birthDay": 8,
+    "occupation": [
+      "Nhà soạn nhạc"
+    ],
+    "category": "music",
+    "categoryLabel": "Nhà soạn nhạc",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "John Williams là nhà soạn nhạc người Mỹ, được biết đến với âm nhạc cho Star Wars và Jaws.",
+    "biography": "John Williams là nhà soạn nhạc người Mỹ, được biết đến với âm nhạc cho Star Wars và Jaws. Ông từng chỉ huy dàn nhạc Boston Pops.",
+    "highlights": [
+      "Sinh ngày 8/2/1932.",
+      "Ông từng chỉ huy dàn nhạc Boston Pops."
+    ],
+    "wikidataId": "Q131285",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q131285",
+      "https://www.afi.com/laa/john-williams/",
+      "https://www.dallassymphony.org/community-education/dso-kids/listen-watch/composers/john-williams/"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "alice-walker",
+    "slug": "alice-walker",
+    "name": "Alice Walker",
+    "birthDate": "1944-02-09",
+    "birthYear": 1944,
+    "birthMonth": 2,
+    "birthDay": 9,
+    "occupation": [
+      "Nhà văn"
+    ],
+    "category": "literature",
+    "categoryLabel": "Nhà văn",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Alice Walker là nhà văn và nhà thơ người Mỹ.",
+    "biography": "Alice Walker là nhà văn và nhà thơ người Mỹ. Bà là tác giả tiểu thuyết The Color Purple.",
+    "highlights": [
+      "Sinh ngày 9/2/1944.",
+      "Bà là tác giả tiểu thuyết The Color Purple."
+    ],
+    "wikidataId": "Q215868",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q215868",
+      "https://poets.org/poet/alice-walker",
+      "https://www.georgiaencyclopedia.org/articles/arts-culture/alice-walker-b-1944/"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "william-henry-harrison",
+    "slug": "william-henry-harrison",
+    "name": "William Henry Harrison",
+    "birthDate": "1773-02-09",
+    "birthYear": 1773,
+    "birthMonth": 2,
+    "birthDay": 9,
+    "occupation": [
+      "Chính trị gia"
+    ],
+    "category": "politics",
+    "categoryLabel": "Chính trị gia",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "William Henry Harrison là tổng thống thứ 9 của Hoa Kỳ.",
+    "biography": "William Henry Harrison là tổng thống thứ 9 của Hoa Kỳ. Trước khi làm tổng thống, ông từng là sĩ quan quân đội và thống đốc lãnh thổ Indiana.",
+    "highlights": [
+      "Sinh ngày 9/2/1773.",
+      "Trước khi làm tổng thống, ông từng là sĩ quan quân đội và thống đốc lãnh thổ Indiana."
+    ],
+    "wikidataId": "Q11869",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q11869",
+      "https://home.nps.gov/people/william-henry-harrison.htm",
+      "https://obamawhitehouse.archives.gov/1600/presidents/williamhenryharrison"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "carole-king",
+    "slug": "carole-king",
+    "name": "Carole King",
+    "birthDate": "1942-02-09",
+    "birthYear": 1942,
+    "birthMonth": 2,
+    "birthDay": 9,
+    "occupation": [
+      "Ca sĩ, nhạc sĩ"
+    ],
+    "category": "music",
+    "categoryLabel": "Ca sĩ, nhạc sĩ",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Carole King là ca sĩ và nhạc sĩ người Mỹ.",
+    "biography": "Carole King là ca sĩ và nhạc sĩ người Mỹ. Album Tapestry của bà được phát hành năm 1971.",
+    "highlights": [
+      "Sinh ngày 9/2/1942.",
+      "Album Tapestry của bà được phát hành năm 1971."
+    ],
+    "wikidataId": "Q217787",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q217787",
+      "https://www.sonymusic.co.jp/artist/CaroleKing/profile/",
+      "https://rockhall.com/inductees/carole-king/"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "bertolt-brecht",
+    "slug": "bertolt-brecht",
+    "name": "Bertolt Brecht",
+    "birthDate": "1898-02-10",
+    "birthYear": 1898,
+    "birthMonth": 2,
+    "birthDay": 10,
+    "occupation": [
+      "Nhà viết kịch"
+    ],
+    "category": "literature",
+    "categoryLabel": "Nhà viết kịch",
+    "countryCode": "DE",
+    "countryName": "Đức",
+    "countryFlag": "🇩🇪",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Bertolt Brecht là nhà viết kịch và nhà thơ người Đức.",
+    "biography": "Bertolt Brecht là nhà viết kịch và nhà thơ người Đức. Ông là một trong những người sáng lập Berliner Ensemble.",
+    "highlights": [
+      "Sinh ngày 10/2/1898.",
+      "Ông là một trong những người sáng lập Berliner Ensemble."
+    ],
+    "wikidataId": "Q38757",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q38757",
+      "https://snl.no/Bertolt_Brecht",
+      "https://www.deutsche-biographie.de/gnd118514768.html"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "boris-pasternak",
+    "slug": "boris-pasternak",
+    "name": "Boris Pasternak",
+    "birthDate": "1890-02-10",
+    "birthYear": 1890,
+    "birthMonth": 2,
+    "birthDay": 10,
+    "occupation": [
+      "Nhà văn, nhà thơ"
+    ],
+    "category": "literature",
+    "categoryLabel": "Nhà văn, nhà thơ",
+    "countryCode": "RU",
+    "countryName": "Nga",
+    "countryFlag": "🇷🇺",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Boris Pasternak là nhà văn và nhà thơ người Nga, tác giả Doctor Zhivago.",
+    "biography": "Boris Pasternak là nhà văn và nhà thơ người Nga, tác giả Doctor Zhivago. Ông được trao Nobel Văn học năm 1958.",
+    "highlights": [
+      "Sinh ngày 10/2/1890.",
+      "Ông được trao Nobel Văn học năm 1958."
+    ],
+    "wikidataId": "Q41223",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q41223",
+      "https://www.nobelprize.org/prizes/literature/1958/pasternak/facts/",
+      "https://poets.org/poet/boris-pasternak"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "mark-spitz",
+    "slug": "mark-spitz",
+    "name": "Mark Spitz",
+    "birthDate": "1950-02-10",
+    "birthYear": 1950,
+    "birthMonth": 2,
+    "birthDay": 10,
+    "occupation": [
+      "Vận động viên bơi lội"
+    ],
+    "category": "athlete",
+    "categoryLabel": "Vận động viên bơi lội",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Mark Spitz là vận động viên bơi lội người Mỹ.",
+    "biography": "Mark Spitz là vận động viên bơi lội người Mỹ. Ông giành bảy huy chương vàng tại Olympic Munich 1972.",
+    "highlights": [
+      "Sinh ngày 10/2/1950.",
+      "Ông giành bảy huy chương vàng tại Olympic Munich 1972."
+    ],
+    "wikidataId": "Q180748",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q180748",
+      "https://ishof.org/honoree/honoree-mark-spitz/",
+      "https://www.olympedia.org/athletes/51572"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "thomas-edison",
+    "slug": "thomas-edison",
+    "name": "Thomas Edison",
+    "birthDate": "1847-02-11",
+    "birthYear": 1847,
+    "birthMonth": 2,
+    "birthDay": 11,
+    "occupation": [
+      "Nhà phát minh"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Nhà phát minh",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Thomas Edison là nhà phát minh người Mỹ.",
+    "biography": "Thomas Edison là nhà phát minh người Mỹ. Công việc của ông liên quan đến máy hát, chiếu sáng điện và điện ảnh.",
+    "highlights": [
+      "Sinh ngày 11/2/1847.",
+      "Công việc của ông liên quan đến máy hát, chiếu sáng điện và điện ảnh."
+    ],
+    "wikidataId": "Q8743",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q8743",
+      "https://home.nps.gov/edis/learn/historyculture/edison-biography.htm",
+      "https://www.invent.org/inductees/thomas-alva-edison"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "josiah-willard-gibbs",
+    "slug": "josiah-willard-gibbs",
+    "name": "Josiah Willard Gibbs",
+    "birthDate": "1839-02-11",
+    "birthYear": 1839,
+    "birthMonth": 2,
+    "birthDay": 11,
+    "occupation": [
+      "Nhà vật lý"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Nhà vật lý",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Josiah Willard Gibbs là nhà vật lý người Mỹ giảng dạy tại Đại học Yale.",
+    "biography": "Josiah Willard Gibbs là nhà vật lý người Mỹ giảng dạy tại Đại học Yale. Ông có đóng góp cho nhiệt động lực học và cơ học thống kê.",
+    "highlights": [
+      "Sinh ngày 11/2/1839.",
+      "Ông có đóng góp cho nhiệt động lực học và cơ học thống kê."
+    ],
+    "wikidataId": "Q153243",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q153243",
+      "https://mathshistory.st-andrews.ac.uk/Biographies/Gibbs/",
+      "https://news.yale.edu/2003/02/26/gibbs-symposium-2003-honor-one-worlds-greatest-scientists-yale"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "henry-fox-talbot",
+    "slug": "henry-fox-talbot",
+    "name": "Henry Fox Talbot",
+    "birthDate": "1800-02-11",
+    "birthYear": 1800,
+    "birthMonth": 2,
+    "birthDay": 11,
+    "occupation": [
+      "Nhà phát minh, nhiếp ảnh gia"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Nhà phát minh, nhiếp ảnh gia",
+    "countryCode": "GB",
+    "countryName": "Vương quốc Anh",
+    "countryFlag": "🇬🇧",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Henry Fox Talbot là nhà phát minh và người tiên phong về nhiếp ảnh của Anh.",
+    "biography": "Henry Fox Talbot là nhà phát minh và người tiên phong về nhiếp ảnh của Anh. Ông phát triển quy trình calotype sử dụng âm bản giấy.",
+    "highlights": [
+      "Sinh ngày 11/2/1800.",
+      "Ông phát triển quy trình calotype sử dụng âm bản giấy."
+    ],
+    "wikidataId": "Q299565",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q299565",
+      "https://blog.sciencemuseum.org.uk/photography-and-the-science-museum-group/",
+      "https://mathshistory.st-andrews.ac.uk/Biographies/Talbot/"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "abraham-lincoln",
+    "slug": "abraham-lincoln",
+    "name": "Abraham Lincoln",
+    "birthDate": "1809-02-12",
+    "birthYear": 1809,
+    "birthMonth": 2,
+    "birthDay": 12,
+    "occupation": [
+      "Chính trị gia"
+    ],
+    "category": "politics",
+    "categoryLabel": "Chính trị gia",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Abraham Lincoln là tổng thống thứ 16 của Hoa Kỳ.",
+    "biography": "Abraham Lincoln là tổng thống thứ 16 của Hoa Kỳ. Ông lãnh đạo đất nước trong Nội chiến Hoa Kỳ.",
+    "highlights": [
+      "Sinh ngày 12/2/1809.",
+      "Ông lãnh đạo đất nước trong Nội chiến Hoa Kỳ."
+    ],
+    "wikidataId": "Q91",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q91",
+      "https://home.nps.gov/people/abraham-lincoln.htm",
+      "https://millercenter.org/president/lincoln"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "charles-darwin",
+    "slug": "charles-darwin",
+    "name": "Charles Darwin",
+    "birthDate": "1809-02-12",
+    "birthYear": 1809,
+    "birthMonth": 2,
+    "birthDay": 12,
+    "occupation": [
+      "Nhà tự nhiên học"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Nhà tự nhiên học",
+    "countryCode": "GB",
+    "countryName": "Vương quốc Anh",
+    "countryFlag": "🇬🇧",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Charles Darwin là nhà tự nhiên học người Anh, tác giả On the Origin of Species.",
+    "biography": "Charles Darwin là nhà tự nhiên học người Anh, tác giả On the Origin of Species. Công trình của ông trình bày lý thuyết tiến hóa bằng chọn lọc tự nhiên.",
+    "highlights": [
+      "Sinh ngày 12/2/1809.",
+      "Công trình của ông trình bày lý thuyết tiến hóa bằng chọn lọc tự nhiên."
+    ],
+    "wikidataId": "Q1035",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q1035",
+      "https://www.christs.cam.ac.uk/timeline-life-charles-darwin",
+      "https://www.nhm.ac.uk/discover/charles-darwin-most-famous-biologist.html"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "nguyen-tien-minh",
+    "slug": "nguyen-tien-minh",
+    "name": "Nguyễn Tiến Minh",
+    "birthDate": "1983-02-12",
+    "birthYear": 1983,
+    "birthMonth": 2,
+    "birthDay": 12,
+    "occupation": [
+      "Vận động viên cầu lông"
+    ],
+    "category": "athlete",
+    "categoryLabel": "Vận động viên cầu lông",
+    "countryCode": "VN",
+    "countryName": "Việt Nam",
+    "countryFlag": "🇻🇳",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Nguyễn Tiến Minh là vận động viên cầu lông Việt Nam.",
+    "biography": "Nguyễn Tiến Minh là vận động viên cầu lông Việt Nam. Anh tham dự nhiều kỳ Olympic ở nội dung đơn nam.",
+    "highlights": [
+      "Sinh ngày 12/2/1983.",
+      "Anh tham dự nhiều kỳ Olympic ở nội dung đơn nam."
+    ],
+    "wikidataId": "Q958317",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q958317",
+      "https://www.ocagames.com/OCA/pdf_CD/16ag/BD/BD000000000000000..C32A.ENG.pdf",
+      "https://www.olympedia.org/athletes/112836"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "vietnam",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "william-shockley",
+    "slug": "william-shockley",
+    "name": "William Shockley",
+    "birthDate": "1910-02-13",
+    "birthYear": 1910,
+    "birthMonth": 2,
+    "birthDay": 13,
+    "occupation": [
+      "Nhà vật lý"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Nhà vật lý",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "William Shockley là nhà vật lý người Mỹ, cùng John Bardeen và Walter Brattain được trao Nobel Vật lý năm 1956 cho nghiên cứu chất bán dẫn và transistor.",
+    "biography": "William Shockley là nhà vật lý người Mỹ, cùng John Bardeen và Walter Brattain được trao Nobel Vật lý năm 1956 cho nghiên cứu chất bán dẫn và transistor.",
+    "highlights": [
+      "Sinh ngày 13/2/1910.",
+      "William Shockley là nhà vật lý người Mỹ, cùng John Bardeen và Walter Brattain được trao Nobel Vật lý năm 1956 cho nghiên cứu chất bán dẫn và transistor."
+    ],
+    "wikidataId": "Q163415",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q163415",
+      "https://www.nobelprize.org/prizes/physics/1956/shockley/facts/",
+      "https://www.invent.org/inductees/william-b-shockley"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "peter-gabriel",
+    "slug": "peter-gabriel",
+    "name": "Peter Gabriel",
+    "birthDate": "1950-02-13",
+    "birthYear": 1950,
+    "birthMonth": 2,
+    "birthDay": 13,
+    "occupation": [
+      "Ca sĩ, nhạc sĩ"
+    ],
+    "category": "music",
+    "categoryLabel": "Ca sĩ, nhạc sĩ",
+    "countryCode": "GB",
+    "countryName": "Vương quốc Anh",
+    "countryFlag": "🇬🇧",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Peter Gabriel là ca sĩ và nhạc sĩ người Anh, từng là giọng ca của Genesis trước khi phát triển sự nghiệp solo.",
+    "biography": "Peter Gabriel là ca sĩ và nhạc sĩ người Anh, từng là giọng ca của Genesis trước khi phát triển sự nghiệp solo.",
+    "highlights": [
+      "Sinh ngày 13/2/1950.",
+      "Peter Gabriel là ca sĩ và nhạc sĩ người Anh, từng là giọng ca của Genesis trước khi phát triển sự nghiệp solo."
+    ],
+    "wikidataId": "Q175195",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q175195",
+      "https://universalmusic.fr/artistes/20000103546",
+      "https://www.rockhall.com/inductees/peter-gabriel/"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "peter-gustav-lejeune-dirichlet",
+    "slug": "peter-gustav-lejeune-dirichlet",
+    "name": "Peter Gustav Lejeune Dirichlet",
+    "birthDate": "1805-02-13",
+    "birthYear": 1805,
+    "birthMonth": 2,
+    "birthDay": 13,
+    "occupation": [
+      "Nhà toán học"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Nhà toán học",
+    "countryCode": "DE",
+    "countryName": "Đức",
+    "countryFlag": "🇩🇪",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Peter Gustav Lejeune Dirichlet là nhà toán học người Đức.",
+    "biography": "Peter Gustav Lejeune Dirichlet là nhà toán học người Đức. Ông có đóng góp cho lý thuyết số và giải tích.",
+    "highlights": [
+      "Sinh ngày 13/2/1805.",
+      "Ông có đóng góp cho lý thuyết số và giải tích."
+    ],
+    "wikidataId": "Q29193",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q29193",
+      "https://mathshistory.st-andrews.ac.uk/Biographies/Dirichlet/",
+      "https://www.bbaw.de/die-akademie/akademie-historische-aspekte/historische-zeitleiste/februar"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "fritz-zwicky",
+    "slug": "fritz-zwicky",
+    "name": "Fritz Zwicky",
+    "birthDate": "1898-02-14",
+    "birthYear": 1898,
+    "birthMonth": 2,
+    "birthDay": 14,
+    "occupation": [
+      "Nhà thiên văn học"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Nhà thiên văn học",
+    "countryCode": "CH",
+    "countryName": "Thụy Sĩ",
+    "countryFlag": "🇨🇭",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Fritz Zwicky là nhà thiên văn học người Thụy Sĩ làm việc tại Caltech.",
+    "biography": "Fritz Zwicky là nhà thiên văn học người Thụy Sĩ làm việc tại Caltech. Ông nghiên cứu thiên hà, siêu tân tinh và vật chất tối.",
+    "highlights": [
+      "Sinh ngày 14/2/1898.",
+      "Ông nghiên cứu thiên hà, siêu tân tinh và vật chất tối."
+    ],
+    "wikidataId": "Q115462",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q115462",
+      "https://mathshistory.st-andrews.ac.uk/Biographies/Zwicky/",
+      "https://zwicky-stiftung.ch/index.php/biografie/"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "christian-eriksen",
+    "slug": "christian-eriksen",
+    "name": "Christian Eriksen",
+    "birthDate": "1992-02-14",
+    "birthYear": 1992,
+    "birthMonth": 2,
+    "birthDay": 14,
+    "occupation": [
+      "Cầu thủ bóng đá"
+    ],
+    "category": "athlete",
+    "categoryLabel": "Cầu thủ bóng đá",
+    "countryCode": "DK",
+    "countryName": "Đan Mạch",
+    "countryFlag": "🇩🇰",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Christian Eriksen là cầu thủ bóng đá người Đan Mạch, thi đấu ở vị trí tiền vệ.",
+    "biography": "Christian Eriksen là cầu thủ bóng đá người Đan Mạch, thi đấu ở vị trí tiền vệ. Anh từng thi đấu cho Tottenham và Manchester United.",
+    "highlights": [
+      "Sinh ngày 14/2/1992.",
+      "Anh từng thi đấu cho Tottenham và Manchester United."
+    ],
+    "wikidataId": "Q294951",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q294951",
+      "https://www.uefa.com/european-qualifiers/teams/players/1905884--christian-eriksen/",
+      "https://www.premierleague.com/players/4845/Christian-Eriksen/overview"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "angel-di-maria",
+    "slug": "angel-di-maria",
+    "name": "Ángel Di María",
+    "birthDate": "1988-02-14",
+    "birthYear": 1988,
+    "birthMonth": 2,
+    "birthDay": 14,
+    "occupation": [
+      "Cầu thủ bóng đá"
+    ],
+    "category": "athlete",
+    "categoryLabel": "Cầu thủ bóng đá",
+    "countryCode": "AR",
+    "countryName": "Argentina",
+    "countryFlag": "🇦🇷",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Ángel Di María là cầu thủ bóng đá người Argentina.",
+    "biography": "Ángel Di María là cầu thủ bóng đá người Argentina. Anh từng thi đấu cho Benfica, Real Madrid và Paris Saint-Germain.",
+    "highlights": [
+      "Sinh ngày 14/2/1988.",
+      "Anh từng thi đấu cho Benfica, Real Madrid và Paris Saint-Germain."
+    ],
+    "wikidataId": "Q251683",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q251683",
+      "https://www.realmadrid.com/en-US/the-club/history/football-legends/angel-di-maria",
+      "https://www.olympedia.org/athletes/111389"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "susan-b-anthony",
+    "slug": "susan-b-anthony",
+    "name": "Susan B. Anthony",
+    "birthDate": "1820-02-15",
+    "birthYear": 1820,
+    "birthMonth": 2,
+    "birthDay": 15,
+    "occupation": [
+      "Nhà hoạt động xã hội"
+    ],
+    "category": "history",
+    "categoryLabel": "Nhà hoạt động xã hội",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Susan B.",
+    "biography": "Susan B. Anthony là nhà hoạt động xã hội người Mỹ. Bà vận động cho quyền bầu cử của phụ nữ.",
+    "highlights": [
+      "Sinh ngày 15/2/1820.",
+      "Bà vận động cho quyền bầu cử của phụ nữ."
+    ],
+    "wikidataId": "Q192245",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q192245",
+      "https://www.womenshistory.org/education-resources/biographies/susan-b-anthony",
+      "https://susanb.org/her-life/"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "ernest-shackleton",
+    "slug": "ernest-shackleton",
+    "name": "Ernest Shackleton",
+    "birthDate": "1874-02-15",
+    "birthYear": 1874,
+    "birthMonth": 2,
+    "birthDay": 15,
+    "occupation": [
+      "Nhà thám hiểm"
+    ],
+    "category": "history",
+    "categoryLabel": "Nhà thám hiểm",
+    "countryCode": "GB",
+    "countryName": "Vương quốc Anh",
+    "countryFlag": "🇬🇧",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Ernest Shackleton là nhà thám hiểm vùng Nam Cực, sinh tại Ireland.",
+    "biography": "Ernest Shackleton là nhà thám hiểm vùng Nam Cực, sinh tại Ireland. Ông chỉ huy đoàn thám hiểm Endurance.",
+    "highlights": [
+      "Sinh ngày 15/2/1874.",
+      "Ông chỉ huy đoàn thám hiểm Endurance."
+    ],
+    "wikidataId": "Q957543",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q957543",
+      "https://lucerna.exeter.ac.uk/person/index.php?id=6005298&language=EN",
+      "https://snl.no/Ernest_Shackleton"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "alfred-north-whitehead",
+    "slug": "alfred-north-whitehead",
+    "name": "Alfred North Whitehead",
+    "birthDate": "1861-02-15",
+    "birthYear": 1861,
+    "birthMonth": 2,
+    "birthDay": 15,
+    "occupation": [
+      "Nhà toán học, triết gia"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Nhà toán học, triết gia",
+    "countryCode": "GB",
+    "countryName": "Vương quốc Anh",
+    "countryFlag": "🇬🇧",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Alfred North Whitehead là nhà toán học và triết gia người Anh.",
+    "biography": "Alfred North Whitehead là nhà toán học và triết gia người Anh. Ông cùng Bertrand Russell viết Principia Mathematica.",
+    "highlights": [
+      "Sinh ngày 15/2/1861.",
+      "Ông cùng Bertrand Russell viết Principia Mathematica."
+    ],
+    "wikidataId": "Q183372",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q183372",
+      "https://mathshistory.st-andrews.ac.uk/Biographies/Whitehead/",
+      "https://iep.utm.edu/whitehed"
+    ],
+    "notabilityScore": 70,
+    "isFeatured": false,
+    "region": "world",
+    "verifiedAt": "2026-10-04"
+  },
 ];

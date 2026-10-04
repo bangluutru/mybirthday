@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-10-04T09:16:04.924Z",
+  "baselineFactsPreserved": 123,
+  "completeProfilesUnchanged": 116,
+  "approvedUrlCorrections": 7,
+  "added": 44,
+  "events": 4,
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "bytes": 54487
+    },
+    {
+      "route": "/birthday/2/1",
+      "status": 200,
+      "bytes": 32439
+    },
+    {
+      "route": "/birthday/2/1/people",
+      "status": 200,
+      "bytes": 36320
+    },
+    {
+      "route": "/birthday/2/15/people",
+      "status": 200,
+      "bytes": 36269
+    },
+    {
+      "route": "/day/2/15",
+      "status": 200,
+      "bytes": 28819
+    },
+    {
+      "route": "/birthday/1/16/people",
+      "status": 200,
+      "bytes": 36271
+    },
+    {
+      "route": "/birthday/2/22",
+      "status": 200,
+      "bytes": 43145
+    },
+    {
+      "route": "/person/leymah-gbowee",
+      "status": 200,
+      "bytes": 25137
+    },
+    {
+      "route": "/share/2-1",
+      "status": 200,
+      "bytes": 35521
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+import fs from 'node:fs';
+import { fetchCandidates } from '../../../scripts/wikidata-candidates';
+import { ALL_PEOPLE } from '../../../src/data/birthdays';
+const dir='.ai/hop-thu-mybirthday/nhap';
+fs.writeFileSync(`${dir}/B005-baseline.json`,JSON.stringify(ALL_PEOPLE,null,2));
+(async()=>{const manifest:any[]=[];for(let day=1;day<=15;day++){for(const vnOnly of [false,true]){const threshold=vnOnly?0:60;const startedAt=new Date().toISOString();try{const rows=await fetchCandidates(2,day,threshold,vnOnly,'2026-10-04');const file=`${dir}/wd/${vnOnly?'vn-':''}02-${String(day).padStart(2,'0')}.json`;fs.writeFileSync(file,JSON.stringify(rows,null,2));manifest.push({month:2,day,threshold,vnOnly,asOfDate:'2026-10-04',startedAt,finishedAt:new Date().toISOString(),returnedUniqueQids:rows.length,rawBindingCount:null,rawBindingNote:'Existing helper returns grouped candidates, not bindings; do not infer raw count.',file});console.log(day,vnOnly,rows.length,rows.slice(0,8).map(p=>`${p.name}|${p.qid}|${p.birthDate}`).join(';'));}catch(e){manifest.push({day,vnOnly,threshold,startedAt,error:String(e)});console.log('ERROR',day,vnOnly,String(e));}fs.writeFileSync(`${dir}/B005-query-manifest.json`,JSON.stringify(manifest,null,2));await new Promise(r=>setTimeout(r,1200));}}})()

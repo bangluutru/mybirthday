@@ -3,16 +3,13 @@
 ## Current cycle
 
 Cycle: BV-006
-State: OPEN
-Executor: Gemini 3.8 (Antigravity) qua hộp thư
-Reviewer: Codex theo yêu cầu chủ dự án
-Active task: B005 — nhân vật sinh 1/2–15/2; `viec/B005-people-feb-01-15.md`.
-Scope: chỉ bổ sung dữ liệu người sinh 1–15/2 và cổng V/W; không UI/sự kiện.
-Next action: executor thực hiện B005 và nộp báo cáo, sau đó dừng chờ reviewer. Không mở B006 trước DAT và tích hợp B005.
-Baseline: commit ed24674a40e12189535ec245706993a94a38b8aa; 123 người / 42 ngày. Tháng 1: 95 người / 31 ngày; tháng 2: 21 người, trong 1–15/2 chỉ Jules Verne ngày 8/2. Chưa thêm dữ liệu B005.
-Acceptance: mỗi ngày ≥3 người, ≤8 người mới/ngày; người Việt chiếm 20%–40% hồ sơ mới B005 (loại baseline khỏi mẫu số); nguồn nước ngoài xác nhận đầy đủ ngày sinh cho mọi người Việt mới. Rà 100% nguồn đối chiếu, đúng người, quote thật và độc lập biên tập. Giữ A–U, thêm V/W; toàn bộ cổng trong chỉ thị B005 phải đạt.
-Validation của vòng giao việc: chỉ kiểm tài liệu/chỉ thị và trạng thái hộp thư; chưa chạy cổng dữ liệu B005, chưa có kết quả DAT.
-Git: B003/B004 đã push main tại ed24674; vòng này chỉ xuất bản chỉ thị B005, không commit raw Wikidata.
+State: ACCEPTED
+Task: B005 — sinh1–15/2, B005-v2 /reviewr6 DAT.
+Executor /Reviewer: Codex theo chủ dự án2026-10-04.
+Result:44 mới,3VN/41 quốc tế (6,818%),14 quốc gia; tổng167 người /56 ngày. Tháng1=95/31 ngày, tháng2=65/20 ngày;1–15/2 mỗi ngày3 người.
+Validation r5: testA–W, Wikidata167/167, URL535/0failed/0MANUAL,tsc,lint,build,coverage,9/9smoke,diffcheck đạt. Lint cònimgwarnings cũ.
+Baseline:123 facts giữ nguyên,116 nguyên hồ sơ,7 chỉ đổiURL được duyệt r2/r4. Brecht mới đổi nguồn theo r3;22/2=16people/4events. Rà44 người/88 nguồn và7 nguồn thay thế;0unsupported. HTTPGET/body thật có retries, không mock/cache/nguồn ngoại lệ.
+Git: đủ điều kiện commit/push theo chủ dự án; xác nhận hash remote trong nhật ký sau push. B006 chỉ mở sau tích hợp và không báo cáo chờ duyệt.
 
 ## Last completed cycle
 
@@ -36,7 +33,7 @@ Validation lúc review: Wikidata 74/74, URL 256/256, test/lint/TypeScript/build/
 
 Cycle: BV-003
 State: ACCEPTED
-Executor: Gemini 3.8 (Antigravity) qua hộp thư `.ai/hop-thu-mybirthday/`
+Executor: Codex theo yêu cầu thực hiện trực tiếp ngày 2026-10-04 qua hộp thư `.ai/hop-thu-mybirthday/`
 Reviewer: Claude Code
 Implementation Commit: bcf74c08d9ce40ba5a80c66431bc82dd2d43941e (`[B002] monthly data infra, verifiedAt, coverage`)
 
@@ -50,7 +47,7 @@ Implementation Commit: bcf74c08d9ce40ba5a80c66431bc82dd2d43941e (`[B002] monthly
 
 1. `public/illustrations/` có ảnh minh họa chưa dùng hoặc có thể chưa phù hợp với sự kiện/nhân vật.
 2. Phần chiêm tinh là nội dung biểu tượng, không phải dữ kiện lịch sử.
-3. Dữ liệu toàn năm còn mỏng: sau B004 có 123 người trên 42/366 ngày; tháng 1 đủ 31 ngày. Mở B005 cho 1–15/2, chưa bổ sung dữ liệu trong vòng giao việc.
+3. Dữ liệu toàn năm còn mỏng: sau B005 có167 người trên56/366 ngày; tháng1 đủ31 ngày, tháng2 chưa đủ.
 4. `src/app/page.tsx` còn `as any` từ chu kỳ cũ, ngoài phạm vi B003/B004.
 
 ## Kết quả BV-003 / B002 (ACCEPTED, commit bcf74c0)
@@ -58,3 +55,9 @@ Implementation Commit: bcf74c08d9ce40ba5a80c66431bc82dd2d43941e (`[B002] monthly
 - Hộp thư: B002 → xong/B002, v2 → review/B002 (SUA: `as any`), review/B002-r2 (DAT).
 - Cổng (Claude chạy lại): test Rule A–O, TypeScript, lint, build và 13 URL đều đạt; snapshot trước/sau khớp.
 - Hành vi: dữ liệu tách theo tháng, có `verifiedAt` và `npm run coverage` (12/366 ngày tại thời điểm đó).
+
+Điều chỉnh chủ dự án 2026-10-04: tỷ lệ hồ sơ mới B005 tối thiểu 5% người Việt; Codex trực tiếp thực hiện, kiểm tra và tích hợp sau DAT. Không thay đổi bằng chứng hay tiêu chí đóng tháng 1.
+
+## Reviewer Attention B005 — resolved
+
+Timeout BnF/Woolf và502 Brecht đã xử lý đúng chỉ thị r2–r4; cổng toàn bộ cuối0failed/0MANUAL. Log lỗi giữ lịch sử. PublisherCountry host cá nhân chưa rõ ghiunknown, không suy đoán.

@@ -1,0 +1,6 @@
+{
+  "query": "SELECT ?p ?name ?dob ?precision ?calendar WHERE { VALUES ?name { \"Jascha Heifetz\"@en \"Norman Rockwell\"@en \"Fernand L\u00e9ger\"@en \"John Williams\"@en \"Carole King\"@en \"Mark Spitz\"@en \"Henry Fox Talbot\"@en \"Fritz Zwicky\"@en \"Ernest Shackleton\"@en } ?p rdfs:label ?name; wdt:P31 wd:Q5; p:P569/psv:P569 ?v. ?v wikibase:timeValue ?dob; wikibase:timePrecision ?precision; wikibase:timeCalendarModel ?calendar. }",
+  "executedAt": "2026-10-04T07:39:32Z",
+  "method": "Supplemental exact English labels",
+  "bindings": 201
+}

@@ -620,6 +620,10 @@ for (const p of ALL_PEOPLE) {
       'austria.info', 'koninklijkhuis.nl', 'annefrank.org', 'yadvashem-france.org', 'ajpn.org',
       'tempestjapan.com', 'yhent.co.kr', 'ncapec.org', 'ocagames.com', 'the-afc.com',
       'jebentertainment.jp', 'fide.com', 'vnanet.vn', 'vatican.va', 'royalsociety.org', 'bfi.org.uk',
+      'badmintonasia.org', 'jamesjoyce.ie', 'ireland.ie', 'aynrand.org', 'dallassymphony.org',
+      'mendelssohn-stiftung.de', 'mnhs.org', 'vle.lt', 'uefa.com', 'realmadrid.com', 'baseballhall.org',
+      'dickensmuseum.com', 'lauraingallswilderhome.com', 'unesco.org', 'afi.com', 'sonymusic.co.jp',
+      'adk.de', 'invent.org', 'universalmusic.fr', 'bbaw.de', 'prlib.ru', 'snl.no', 'musees-nationaux-alpesmaritimes.fr', 'sciencemuseumgroup.org.uk', 'millercenter.org',
     ];
     const hasInstitutionalSource = independentSources.some((u) => {
       const h = getUrlHostname(u);
@@ -830,6 +834,53 @@ for (const p of ALL_PEOPLE) {
     }
   }
 }
+
+// ------------------------------------------------------------
+// Rule V/W: B005 February 1-15 coverage and approved foreign DOB sources
+// ------------------------------------------------------------
+const B005_BASELINE_IDS = new Set(['jules-verne']);
+const B005_NEW_PEOPLE = ALL_PEOPLE.filter(p => p.birthMonth === 2 && p.birthDay <= 15 && !B005_BASELINE_IDS.has(p.id));
+for (let day = 1; day <= 15; day++) {
+  const people = ALL_PEOPLE.filter(p => p.birthMonth === 2 && p.birthDay === day);
+  assert('Rule V', people.length >= 3, `February ${day}: minimum 3 verified profiles; found ${people.length}`);
+  assert('Rule V', B005_NEW_PEOPLE.filter(p => p.birthDay === day).length <= 8, `February ${day}: more than 8 B005 additions`);
+}
+const b005Vietnamese = B005_NEW_PEOPLE.filter(p => p.countryCode === 'VN');
+assert('Rule W', B005_NEW_PEOPLE.length > 0 && b005Vietnamese.length / B005_NEW_PEOPLE.length >= 0.05,
+  `B005 Vietnamese share must be at least 5%; found ${b005Vietnamese.length}/${B005_NEW_PEOPLE.length}`);
+const B005_FOREIGN_DOB_SOURCES: Readonly<Record<string, readonly string[]>> = {
+  "Q46900491": [
+    "https://badmintonasia.org/wp-content/uploads/2023/12/ar-2018-new.pdf"
+  ],
+  "Q99778061": [
+    "https://assets.the-afc.com/2024_AFC_U23_Asian_Cup/Downloads/Squad_List/AFC-U23-Asian-Cup-Qatar-2024%E2%84%A2---Squad-Lists-%28Updated-April-16%29.pdf"
+  ],
+  "Q958317": [
+    "https://www.ocagames.com/OCA/pdf_CD/16ag/BD/BD000000000000000..C32A.ENG.pdf"
+  ]
+};
+function isApprovedB005DobSource(qid: string, url: string): boolean {
+  return B005_FOREIGN_DOB_SOURCES[qid]?.includes(url) ?? false;
+}
+for (const [qid, urls] of Object.entries(B005_FOREIGN_DOB_SOURCES)) {
+  for (const url of urls) {
+    assert('Rule W positive', isApprovedB005DobSource(qid, url), 'Reviewed source must pass');
+    assert('Rule W negative', !isApprovedB005DobSource('Q0', url), 'Wrong QID must fail');
+    assert('Rule W negative', !isApprovedB005DobSource(qid, `${url}?unreviewed=1`), 'Unreviewed query variant must fail');
+    assert('Rule W negative', !isApprovedB005DobSource(qid, new URL('/unreviewed',url).href), 'Unreviewed page must fail');
+    const spoofed = new URL(url);
+    spoofed.hostname += '.evil.example';
+    assert('Rule W negative', !isApprovedB005DobSource(qid, spoofed.href), 'Reviewed QID with lookalike host must fail');
+    assert('Rule W negative', !isApprovedB005DobSource(qid, 'invalid-url'), 'Reviewed QID with malformed URL must fail');
+  }
+}
+assert('Rule W negative', !isApprovedB005DobSource('Q0', 'https://the-afc.com.evil.example/bio'), 'Lookalike host must fail');
+assert('Rule W negative', !isApprovedB005DobSource('Q0', 'invalid-url'), 'Malformed URL must fail');
+for (const p of b005Vietnamese) {
+  assert('Rule W', (p.sourceUrls || []).some(url => isApprovedB005DobSource(p.wikidataId || '',url)),
+    `B005 ${p.id} needs a reviewed exact foreign institutional DOB URL`);
+}
+console.log(`B005 additions: ${B005_NEW_PEOPLE.length}; Vietnamese: ${b005Vietnamese.length}`);
 
 // ------------------------------------------------------------
 // Summary

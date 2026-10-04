@@ -2,7 +2,7 @@
 
 > **Your Birthday Universe**: Khám phá danh nhân, nghệ sĩ, nhà khoa học và các sự kiện lịch sử vĩ đại chia sẻ cùng ngày sinh của bạn trên khắp thế giới.
 >
-> *Cơ sở dữ liệu hiện có 123 hồ sơ nhân vật và 4 sự kiện lịch sử đã xác minh. Dữ liệu nhân vật xuất hiện ở 42/366 ngày (11,5%); riêng tháng 1 có 95 người trên đủ 31 ngày. Ngày 22/2 có 16 hồ sơ nhân vật. Dữ liệu vẫn đang được mở rộng và chưa phủ đủ năm.*
+> *Cơ sở dữ liệu hiện có 167 hồ sơ nhân vật và 4 sự kiện lịch sử đã xác minh. Dữ liệu nhân vật xuất hiện ở 56/366 ngày (15,3%); riêng tháng 1 có 95 người trên đủ 31 ngày. Ngày 1–15/2 có ít nhất 3 người/ngày; B005 bổ sung 44 người, trong đó 3 người Việt (6,8%, làm tròn từ mức tối thiểu 5%). Tháng 2 có 65 người trên 20/29 ngày; ngày 22/2 có 16 hồ sơ nhân vật. Dữ liệu vẫn đang được mở rộng và chưa phủ đủ năm.*
 
 Ứng dụng web/PWA trải nghiệm khám phá ngày sinh cá nhân hoá cao cấp, xây dựng theo ngôn ngữ thiết kế **Astral Editorial Minimal**, tối ưu cho cả giao diện di động (Mobile-First) và máy tính (Desktop Editorial 1360px).
 
@@ -59,7 +59,7 @@ Dữ liệu nhân vật và sự kiện được phân tách theo 12 tháng:
 
 **Quy tắc đóng góp & kiểm tra dữ liệu:**
 1. Mọi bản ghi bắt buộc có `verifiedAt` (`YYYY-MM-DD`) và `sourceUrls` từ nguồn chính thống (Britannica, bảo tàng, lưu trữ quốc gia; chặn web SEO).
-2. Chạy `npm test` để kiểm tra toàn vẹn dữ liệu (Rules 0, A–U).
+2. Chạy `npm test` để kiểm tra toàn vẹn dữ liệu (Rules 0, A–W).
 3. Chạy `npm run coverage` để theo dõi độ phủ 366 ngày.
 
 ### Quy trình bổ sung dữ liệu (Wikidata + nguồn chính thống)

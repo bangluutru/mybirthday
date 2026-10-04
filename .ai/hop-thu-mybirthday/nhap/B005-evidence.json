@@ -1,0 +1,2818 @@
+{
+  "cycle": "BV-006",
+  "batch": "B005",
+  "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+  "policy": "44 new profiles, 3 VN = 6.818%; minimum 5%, rounded up; fixed February 1–15 scope",
+  "profiles": [
+    {
+      "id": "boris-yeltsin",
+      "name": "Boris Yeltsin",
+      "qid": "Q34453",
+      "birthDate": "1931-02-01",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "boris-yeltsin",
+        "qid": "Q34453",
+        "birthDate": "1931-02-01",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q34453",
+            "dob": "1931-02-01T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#PreferredRank"
+          }
+        ]
+      },
+      "biography": "Boris Yeltsin là tổng thống đầu tiên của Liên bang Nga, nhiệm kỳ 1991–1999.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://www.prlib.ru/history/618999",
+          "publisher": "Boris Yeltsin Presidential Library",
+          "publisherCountry": "RU",
+          "sourceOrigin": "Russian presidential library",
+          "retrievedAt": "2026-10-04T07:55:04.540467+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:55:04.540467+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "1 февраля 1931",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "1d2446f8b604a3aeb63fa26df5db8788881eee4bb0dfa096e6d2fe8cb442e55e",
+          "contentLength": 7727,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://snl.no/Boris_Jeltsin",
+          "publisher": "Store norske leksikon",
+          "publisherCountry": "NO",
+          "sourceOrigin": "Norwegian encyclopedia; named academic authors",
+          "retrievedAt": "2026-10-04T07:55:05.891740+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:55:05.891740+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "1. februar 1931",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "f80c92c0893b754bf67fb41646d05ed059865b9097412f21fd08b8bfa12aca59",
+          "contentLength": 7394,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "leymah-gbowee",
+      "name": "Leymah Gbowee",
+      "qid": "Q107037",
+      "birthDate": "1972-02-01",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "leymah-gbowee",
+        "qid": "Q107037",
+        "birthDate": "1972-02-01",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q107037",
+            "dob": "1972-02-01T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Leymah Gbowee là nhà hoạt động hòa bình người Liberia, đồng nhận giải Nobel Hòa bình năm 2011.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://www.nobelprize.org/prizes/peace/2011/gbowee/facts/",
+          "publisher": "Nobel Prize Outreach / Nobel Foundation",
+          "publisherCountry": "SE",
+          "sourceOrigin": "Nobel laureate facts",
+          "retrievedAt": "2026-10-04T07:51:45.196176+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:51:45.196176+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "1 February 1972",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "d401edfe803bf5a03a18814c6b0fe012e8aad03b93689b20867f1e02efb215df",
+          "contentLength": 3930,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://www.law.cuny.edu/staff/leymah-gbowee/",
+          "publisher": "CUNY School of Law",
+          "publisherCountry": "US",
+          "sourceOrigin": "Public university faculty profile",
+          "retrievedAt": "2026-10-04T07:51:46.697045+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:51:46.697045+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "identity",
+          "quote": "Institute on Gender, Law, and Transformative Peace",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "cda800301ea6f16d328e72ce1c9e62497b8087bdae15a89bc457e4929c8bf848",
+          "contentLength": 1440,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "le-duc-phat",
+      "name": "Lê Đức Phát",
+      "qid": "Q46900491",
+      "birthDate": "1998-02-01",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "le-duc-phat",
+        "qid": "Q46900491",
+        "birthDate": "1998-02-01",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q46900491",
+            "dob": "1998-02-01T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Lê Đức Phát là vận động viên cầu lông Việt Nam. Anh đại diện Việt Nam thi đấu tại Olympic Paris 2024.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://badmintonasia.org/wp-content/uploads/2023/12/ar-2018-new.pdf",
+          "publisher": "Badminton Asia",
+          "publisherCountry": "MY",
+          "sourceOrigin": "Official continental federation annual report",
+          "retrievedAt": "2026-10-04T07:37:49.336219+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:37:49.336219+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "01 February",
+          "quoteType": "verbatim-fields",
+          "location": "PDF physical page 35, printed page 68, row 19, BWF ID 69345",
+          "textSha256": "9aa8c6dbf5757ac50b55159494fab9ba011b1b1aa1448f5a8ed57eff328b5c04",
+          "contentLength": 291366,
+          "quoteFields": [
+            "01 February",
+            "1998"
+          ],
+          "documentSha256": "39ec25451c6925a591cb9a8b97b528640852cc3963c8d1092d251e9283dd3b2a",
+          "independenceReview": "Badminton Asia annual competition table independently compared with Vietnamese government sports reporting; domestic source used for Olympic identity, not foreign full DOB."
+        },
+        {
+          "url": "https://tdtt.gov.vn/hoi-nghi-quan-chuc-cap-cao/id/85928/duong-den-olympic-cua-chang-trung-uy-le-duc-phat",
+          "publisher": "Cục Thể dục thể thao Việt Nam",
+          "publisherCountry": "VN",
+          "sourceOrigin": "Government sports authority reporting",
+          "retrievedAt": "2026-10-04T07:37:51.338295+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:37:51.338295+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "identity",
+          "quote": "Lê Đức Phát",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "f5ab73aa791e869063bbba15303e81c4a26dd72a7c2c2726c78e7758b0264c8d",
+          "contentLength": 6744,
+          "independenceReview": "Badminton Asia annual competition table independently compared with Vietnamese government sports reporting; domestic source used for Olympic identity, not foreign full DOB."
+        }
+      ]
+    },
+    {
+      "id": "james-joyce",
+      "name": "James Joyce",
+      "qid": "Q6882",
+      "birthDate": "1882-02-02",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "james-joyce",
+        "qid": "Q6882",
+        "birthDate": "1882-02-02",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q6882",
+            "dob": "1882-02-02T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "James Joyce là nhà văn Ireland, tác giả Ulysses và Dubliners. Tác phẩm của ông gắn với thành phố Dublin.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://jamesjoyce.ie/events/happy-birthday-mr-joyce-2026/",
+          "publisher": "James Joyce Centre",
+          "publisherCountry": "IE",
+          "sourceOrigin": "Independent literary museum",
+          "retrievedAt": "2026-10-04T07:37:52.910703+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:37:52.910703+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "James Augustine Aloysius Joyce was born on 2nd February 1882.",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "2334214fc9b8a6479c6451b29f3caf0c848e84aebb403a66ceee986ca5729cf2",
+          "contentLength": 1805,
+          "independenceReview": "James Joyce Centre museum event and independently credited Museum of Literature Ireland / Dr Angela Byrne exhibition for DFA; different organizations and authors."
+        },
+        {
+          "url": "https://api.ireland.ie/en/james-joyce-a-global-odyssey/",
+          "publisher": "Department of Foreign Affairs; Museum of Literature Ireland; Dr Angela Byrne",
+          "publisherCountry": "IE",
+          "sourceOrigin": "Exhibition independently researched, written and curated; credits in article footer",
+          "retrievedAt": "2026-10-04T07:37:57.505955+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:37:57.505955+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "James Augustine Joyce was born in Dublin on 2 February 1882",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "c71b3b08da61cab83687c676c396d61704fb84339d08825b9e7c81c4ea310c8a",
+          "contentLength": 29884,
+          "independenceReview": "James Joyce Centre museum event and independently credited Museum of Literature Ireland / Dr Angela Byrne exhibition for DFA; different organizations and authors."
+        }
+      ]
+    },
+    {
+      "id": "ayn-rand",
+      "name": "Ayn Rand",
+      "qid": "Q132524",
+      "birthDate": "1905-02-02",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "ayn-rand",
+        "qid": "Q132524",
+        "birthDate": "1905-02-02",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q132524",
+            "dob": "1905-02-02T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Ayn Rand là nhà văn người Mỹ gốc Nga, tác giả The Fountainhead và Atlas Shrugged. Bà phát triển hệ tư tưởng Objectivism.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://ari.aynrand.org/faq/",
+          "publisher": "Ayn Rand Institute",
+          "publisherCountry": "US",
+          "sourceOrigin": "Institution author FAQ",
+          "retrievedAt": "2026-10-04T07:38:01.141770+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:01.141770+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "February 2, 1905",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "a72aabe813fd049074d9cdfe45dce9a71e0631227ac911bbd88c9eda3dc68850",
+          "contentLength": 16571,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://www.biography.com/authors-writers/ayn-rand",
+          "publisher": "Biography.com / Hearst",
+          "publisherCountry": "US",
+          "sourceOrigin": "Editorial biographies; named editors in page",
+          "retrievedAt": "2026-10-04T07:38:03.053447+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:03.053447+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "February 2, 1905",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "184f266005278795becb403d221da2953e054899493646edbc6e2c27cc7afacc",
+          "contentLength": 9557,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "jascha-heifetz",
+      "name": "Jascha Heifetz",
+      "qid": "Q243472",
+      "birthDate": "1901-02-02",
+      "candidateMethod": "Supplemental bounded label SPARQL; daily LIMIT 100 may omit selected candidate",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "jascha-heifetz",
+        "qid": "Q243472",
+        "birthDate": "1901-02-02",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q243472",
+            "dob": "1901-02-02T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          },
+          {
+            "p": "http://www.wikidata.org/entity/Q243472",
+            "dob": "1901-02-02T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985786",
+            "rank": "http://wikiba.se/ontology#PreferredRank"
+          }
+        ]
+      },
+      "biography": "Jascha Heifetz là nghệ sĩ violin người Mỹ, sinh tại Vilnius. Ông ra mắt tại Carnegie Hall năm 1917.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://jaschaheifetz.com/about/biography/",
+          "publisher": "Official Jascha Heifetz website",
+          "publisherCountry": "unknown",
+          "sourceOrigin": "Artist legacy biography; biography source",
+          "retrievedAt": "2026-10-04T07:38:05.024324+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:05.024324+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "on February 2, 1901",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "4f55427aa0fa3e8ae9daf7ee572374d8e97beb17992a74959ebdef1c08bb0d96",
+          "contentLength": 18409,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair.",
+          "publisherCountryNote": "Official legacy website; legal publishing jurisdiction not independently established. Not used to qualify foreign Vietnamese sources."
+        },
+        {
+          "url": "https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/mu003008/mu003008.pdf",
+          "publisher": "Library of Congress",
+          "publisherCountry": "US",
+          "sourceOrigin": "Library collection finding aid",
+          "retrievedAt": "2026-10-04T07:38:07.036933+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:07.036933+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "1901 February 2",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "0e2be415701e715505ecc14f1afa34cca19b34c48712441a87227ce6b0d4698c",
+          "contentLength": 323693,
+          "documentSha256": "000cab4d1e679cff8b5ffa636bc40d6b82d852e9ce45dc7c2df20b8af8bac548",
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "felix-mendelssohn",
+      "name": "Felix Mendelssohn",
+      "qid": "Q46096",
+      "birthDate": "1809-02-03",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "felix-mendelssohn",
+        "qid": "Q46096",
+        "birthDate": "1809-02-03",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q46096",
+            "dob": "1809-02-03T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#PreferredRank"
+          },
+          {
+            "p": "http://www.wikidata.org/entity/Q46096",
+            "dob": "1809-01-01T00:00:00Z",
+            "precision": "9",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Felix Mendelssohn là nhà soạn nhạc người Đức. Tác phẩm của ông gồm nhạc giao hưởng, nhạc thính phòng và các bản hòa tấu.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://www.dallassymphony.org/community-education/dso-kids/listen-watch/composers/felix-mendelssohn/",
+          "publisher": "Dallas Symphony Orchestra",
+          "publisherCountry": "US",
+          "sourceOrigin": "Orchestra education biographies",
+          "retrievedAt": "2026-10-04T07:44:47.062150+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:44:47.062150+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "birth-year",
+          "quote": "1809",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "c63c41e32389d2b5478c96951ebefda16a4f0a3311c4baa999c371d53c9c1d50",
+          "contentLength": 4534,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://www.mendelssohn-stiftung.de/en/felix",
+          "publisher": "Felix Mendelssohn Bartholdy Foundation / Mendelssohn-Haus Leipzig",
+          "publisherCountry": "DE",
+          "sourceOrigin": "Museum chronological biography",
+          "retrievedAt": "2026-10-04T07:38:10.049358+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:10.049358+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "Born in Hamburg on 3 February",
+          "quoteType": "verbatim-fields",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "c81d31d89340e25502b33f8f60cd8ea005230484bf7639d5188a458ad7b58cae",
+          "contentLength": 21635,
+          "quoteFields": [
+            "1809",
+            "Born in Hamburg on 3 February"
+          ],
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "gertrude-stein",
+      "name": "Gertrude Stein",
+      "qid": "Q188385",
+      "birthDate": "1874-02-03",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "gertrude-stein",
+        "qid": "Q188385",
+        "birthDate": "1874-02-03",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q188385",
+            "dob": "1874-02-03T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Gertrude Stein là nhà văn người Mỹ hoạt động tại Paris. Bà được biết đến với văn phong thử nghiệm và tác phẩm The Autobiography of Alice B. Toklas.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://archivesspace.shsu.edu/repositories/2/resources/377",
+          "publisher": "Sam Houston State University",
+          "publisherCountry": "US",
+          "sourceOrigin": "Archive biographical note",
+          "retrievedAt": "2026-10-04T07:38:11.759357+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:11.759357+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "Gertrude Stein was born on February 3, 1874",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "980b37b931e75721b50a49375311fd0cb66d20cee3bfab524a2d50327c259788",
+          "contentLength": 4720,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://poets.org/poet/gertrude-stein",
+          "publisher": "Academy of American Poets",
+          "publisherCountry": "US",
+          "sourceOrigin": "Literary nonprofit biographies",
+          "retrievedAt": "2026-10-04T07:51:47.891709+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:51:47.891709+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "February 3, 1874",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "7299b473032e67da860eff59c324c22f85fc59494dd7368f991e3e8dfdab8de2",
+          "contentLength": 7771,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "norman-rockwell",
+      "name": "Norman Rockwell",
+      "qid": "Q271884",
+      "birthDate": "1894-02-03",
+      "candidateMethod": "Supplemental bounded label SPARQL; daily LIMIT 100 may omit selected candidate",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "norman-rockwell",
+        "qid": "Q271884",
+        "birthDate": "1894-02-03",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q271884",
+            "dob": "1894-02-03T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Norman Rockwell là họa sĩ minh họa người Mỹ. Ông thực hiện nhiều bìa cho tạp chí The Saturday Evening Post.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://snl.no/Norman_Rockwell",
+          "publisher": "Store norske leksikon",
+          "publisherCountry": "NO",
+          "sourceOrigin": "Norwegian encyclopedia; named academic authors",
+          "retrievedAt": "2026-10-04T07:55:58.710382+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:55:58.710382+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "3. februar 1894",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "9671750b1a556a141c435350ec910fa27d38b5c58ab6725a4a636fd8a2b55800",
+          "contentLength": 10326,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://www.biography.com/artists/norman-rockwell",
+          "publisher": "Biography.com / Hearst",
+          "publisherCountry": "US",
+          "sourceOrigin": "Editorial biographies; named editors in page",
+          "retrievedAt": "2026-10-04T07:38:16.384075+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:16.384075+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "February 3, 1894",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "d5c86527d5ae00a71fbed0126368709cf4dffa7d1d3daf52d686771cce3c83c8",
+          "contentLength": 7905,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "rosa-parks",
+      "name": "Rosa Parks",
+      "qid": "Q41921",
+      "birthDate": "1913-02-04",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "rosa-parks",
+        "qid": "Q41921",
+        "birthDate": "1913-02-04",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q41921",
+            "dob": "1913-02-04T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Rosa Parks là nhà hoạt động dân quyền người Mỹ. Việc bà từ chối nhường ghế trên xe buýt tại Montgomery năm 1955 trở thành một dấu mốc của phong trào dân quyền.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://blogs.loc.gov/loc/2020/02/ro-sa-parks-ro-sa-parks-kicking-off-black-history-month/",
+          "publisher": "Library of Congress",
+          "publisherCountry": "US",
+          "sourceOrigin": "Library editorial history",
+          "retrievedAt": "2026-10-04T07:38:17.119798+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:17.119798+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "Born on Feb. 4, 1913",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "87005a79e26c6d2c56e9731b890c507b7175c2709f7a1fecf87a2a61537a6f35",
+          "contentLength": 16349,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://www.womenshistory.org/education-resources/biographies/rosa-parks",
+          "publisher": "National Women’s History Museum",
+          "publisherCountry": "US",
+          "sourceOrigin": "Museum educational biography",
+          "retrievedAt": "2026-10-04T07:38:18.594671+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:18.594671+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "identity",
+          "quote": "On December 1, 1955, Rosa Parks boarded a bus in Montgomery, Alabama.",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "148bfdc491eb90e650178416033c04b38515982fe8414d08023c5864bfac6910",
+          "contentLength": 8116,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "charles-lindbergh",
+      "name": "Charles Lindbergh",
+      "qid": "Q1618",
+      "birthDate": "1902-02-04",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "charles-lindbergh",
+        "qid": "Q1618",
+        "birthDate": "1902-02-04",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q1618",
+            "dob": "1902-02-04T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Charles Lindbergh là phi công người Mỹ. Năm 1927, ông thực hiện chuyến bay một mình không dừng từ New York đến Paris.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://www.mnhs.org/lindbergh/learn/family/parents",
+          "publisher": "Minnesota Historical Society",
+          "publisherCountry": "US",
+          "sourceOrigin": "Historical society biography",
+          "retrievedAt": "2026-10-04T07:38:20.545285+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:20.545285+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "On February 4, 1902",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "14a7f8dc57b89471482cbfafe065e9837d61a0f784f0cf0c7352c6227973de78",
+          "contentLength": 12853,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://airandspace.si.edu/explore/stories/charles-lindbergh",
+          "publisher": "Smithsonian National Air and Space Museum",
+          "publisherCountry": "US",
+          "sourceOrigin": "Museum historical article",
+          "retrievedAt": "2026-10-04T07:38:21.117721+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:21.117721+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "identity",
+          "quote": "First Non-Stop Solo Flight Across the Atlantic",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "d081c409df145ec436b91a8872555fbf068726306cf41a7f4f54577fe028abc6",
+          "contentLength": 8820,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "fernand-leger",
+      "name": "Fernand Léger",
+      "qid": "Q157183",
+      "birthDate": "1881-02-04",
+      "candidateMethod": "Supplemental bounded label SPARQL; daily LIMIT 100 may omit selected candidate",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "fernand-leger",
+        "qid": "Q157183",
+        "birthDate": "1881-02-04",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q157183",
+            "dob": "1881-02-04T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Fernand Léger là họa sĩ người Pháp, gắn với nghệ thuật lập thể và các hình khối mang cảm hứng công nghiệp.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://www.vle.lt/straipsnis/fernand-leger/",
+          "publisher": "Visuotinė lietuvių enciklopedija / Mokslo ir enciklopedijų leidybos centras",
+          "publisherCountry": "LT",
+          "sourceOrigin": "National Lithuanian encyclopedia entry",
+          "retrievedAt": "2026-10-04T07:44:49.089831+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:44:49.089831+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "1881 02 04",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "9369740e3c24297ad18bd023d182247d55aa7eb0dfd703667c4abd1b498e85d7",
+          "contentLength": 5337,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://musees-nationaux-alpesmaritimes.fr/fleger/fernand-leger-biographie",
+          "publisher": "Musée national Fernand Léger",
+          "publisherCountry": "FR",
+          "sourceOrigin": "National museum biography",
+          "retrievedAt": "2026-10-04T07:55:09.000731+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:55:09.000731+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "identity",
+          "quote": "Fernand Léger est un peintre français",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "b9cc280b7d7ce077bf7c77a55a9b5eade40021b99eb0bbdb29968e671c88646f",
+          "contentLength": 7048,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "cristiano-ronaldo",
+      "name": "Cristiano Ronaldo",
+      "qid": "Q11571",
+      "birthDate": "1985-02-05",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "cristiano-ronaldo",
+        "qid": "Q11571",
+        "birthDate": "1985-02-05",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q11571",
+            "dob": "1985-02-05T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Cristiano Ronaldo là cầu thủ bóng đá người Bồ Đào Nha. Anh từng thi đấu cho Manchester United và Real Madrid.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://www.uefa.com/european-qualifiers/teams/players/63706--cristiano-ronaldo/",
+          "publisher": "UEFA",
+          "publisherCountry": "CH",
+          "sourceOrigin": "Official football federation player profile",
+          "retrievedAt": "2026-10-04T07:44:10.894812+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:44:10.894812+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "05/2/1985",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "2c245de661f7eb36d299791f7a62ede1fe3a947ffa8f3382a0b9f12e2fc04995",
+          "contentLength": 1727,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://www.realmadrid.com/en-US/the-club/history/football-legends/cristiano-ronaldo-dos-santos-aveiro",
+          "publisher": "Real Madrid CF",
+          "publisherCountry": "ES",
+          "sourceOrigin": "Official club historical player profile",
+          "retrievedAt": "2026-10-04T07:38:23.467722+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:23.467722+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "05/02/1985",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "6b8b220c283d7c5fb679391ed572f8fe7016e7c66ee70e4a2f6b2ca874a77136",
+          "contentLength": 3357,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "neymar",
+      "name": "Neymar",
+      "qid": "Q142794",
+      "birthDate": "1992-02-05",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "neymar",
+        "qid": "Q142794",
+        "birthDate": "1992-02-05",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q142794",
+            "dob": "1992-02-05T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Neymar là cầu thủ bóng đá người Brazil, từng thi đấu cho Barcelona.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://www.olympedia.org/athletes/124938",
+          "publisher": "Olympedia / OlyMADMen",
+          "publisherCountry": "international",
+          "sourceOrigin": "International research database; not owned by IOC; independently authored athlete biographies and results",
+          "retrievedAt": "2026-10-04T07:44:50.769354+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:44:50.769354+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "5 February 1992",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "f7caaee5a1039c15ad2c786558e8fc41f0de9d8a2f48c89ab14fc50d412e9b77",
+          "contentLength": 1914,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://www.bbc.co.uk/sport/football/40762417",
+          "publisher": "BBC Sport",
+          "publisherCountry": "GB",
+          "sourceOrigin": "Independent newsroom article",
+          "retrievedAt": "2026-10-04T07:44:52.227492+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:44:52.227492+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "on 5 February 1992",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "6edd43b0ce29ca41f472e8e27139e1eb62d09b666eaacd4e5c77d8f39e450248",
+          "contentLength": 18222,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "robert-hofstadter",
+      "name": "Robert Hofstadter",
+      "qid": "Q130113",
+      "birthDate": "1915-02-05",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "robert-hofstadter",
+        "qid": "Q130113",
+        "birthDate": "1915-02-05",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q130113",
+            "dob": "1915-02-05T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Robert Hofstadter là nhà vật lý người Mỹ, được trao Nobel Vật lý năm 1961 cho nghiên cứu về cấu trúc hạt nhân nguyên tử.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://www.nobelprize.org/prizes/physics/1961/hofstadter/facts/",
+          "publisher": "Nobel Prize Outreach / Nobel Foundation",
+          "publisherCountry": "SE",
+          "sourceOrigin": "Nobel laureate facts",
+          "retrievedAt": "2026-10-04T07:38:28.649358+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:28.649358+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "5 February 1915",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "cb867491cb6bd7e63bcd1ef3972711bf530dd68dc24be6db7de1acdeb9a1a16b",
+          "contentLength": 3399,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://www.nsf.gov/honorary-awards/national-medal-science/recipients/robert-hofstadter",
+          "publisher": "US National Science Foundation",
+          "publisherCountry": "US",
+          "sourceOrigin": "Government scientist award record",
+          "retrievedAt": "2026-10-04T07:38:30.784512+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:30.784512+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "identity",
+          "quote": "Nobel Prize in Physics, 1961",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "4f1cd29da3fe8e7ac464de44f8e3bf04427d79e1b6edadaf7a51a6805e86b390",
+          "contentLength": 3604,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "ronald-reagan",
+      "name": "Ronald Reagan",
+      "qid": "Q9960",
+      "birthDate": "1911-02-06",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "ronald-reagan",
+        "qid": "Q9960",
+        "birthDate": "1911-02-06",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q9960",
+            "dob": "1911-02-06T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Ronald Reagan là tổng thống thứ 40 của Hoa Kỳ, nhiệm kỳ 1981–1989. Trước đó ông là diễn viên và thống đốc California.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://www.reaganlibrary.gov/permanent-exhibits/foundations-leader",
+          "publisher": "Ronald Reagan Presidential Library / NARA",
+          "publisherCountry": "US",
+          "sourceOrigin": "National archive biography",
+          "retrievedAt": "2026-10-04T07:38:32.342409+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:32.342409+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "Born on February 6, 1911",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "06d5e76ed715a8b71e1120ac3aee5d65235af3fbf2918eb4422207e5187aa0e1",
+          "contentLength": 4502,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://obamawhitehouse.archives.gov/1600/presidents/ronaldreagan/",
+          "publisher": "Archived White House; biographies credited to Frank Freidel and Hugh Sidey / White House Historical Association",
+          "publisherCountry": "US",
+          "sourceOrigin": "Official presidential biography archive",
+          "retrievedAt": "2026-10-04T07:38:33.465761+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:33.465761+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "On February 6, 1911",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "10915fce1f946ff5f0a444141679af4352bd72fc87a68c69cd6cc7badc232459",
+          "contentLength": 9996,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "bob-marley",
+      "name": "Bob Marley",
+      "qid": "Q409",
+      "birthDate": "1945-02-06",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "bob-marley",
+        "qid": "Q409",
+        "birthDate": "1945-02-06",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q409",
+            "dob": "1945-02-06T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Bob Marley là ca sĩ và nhạc sĩ người Jamaica. Âm nhạc của ông góp phần đưa reggae đến với công chúng quốc tế.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://www.bobmarley.com/history/",
+          "publisher": "Official Bob Marley legacy website",
+          "publisherCountry": "unknown",
+          "sourceOrigin": "Official artist biographical profile; separate from museum writer",
+          "retrievedAt": "2026-10-04T07:38:34.831467+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:34.831467+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "Bob Marley was born Robert Nesta Marley on February 6, 1945.",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "04cb390fb8d69fe79c1f1230f2f4b04d9cbc5f632cc22994b2109e8e65f8b9f7",
+          "contentLength": 39364,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair.",
+          "publisherCountryNote": "Official legacy website; legal publishing jurisdiction not independently established. Not used to qualify foreign Vietnamese sources."
+        },
+        {
+          "url": "https://www.rockhall.com/inductees/bob-marley/",
+          "publisher": "Rock & Roll Hall of Fame",
+          "publisherCountry": "US",
+          "sourceOrigin": "Museum editorial inductee biographies",
+          "retrievedAt": "2026-10-04T07:38:36.047043+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:36.047043+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "identity",
+          "quote": "Bob Marley put reggae on the world map",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "2e1e112790958c060dedbdfd709e0b21ecb3f7a33977870d5f7a94372c2dec34",
+          "contentLength": 4270,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "babe-ruth",
+      "name": "Babe Ruth",
+      "qid": "Q213812",
+      "birthDate": "1895-02-06",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "babe-ruth",
+        "qid": "Q213812",
+        "birthDate": "1895-02-06",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q213812",
+            "dob": "1895-02-06T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Babe Ruth là vận động viên bóng chày người Mỹ, từng thi đấu cho Boston Red Sox và New York Yankees. Ông thuộc nhóm đầu tiên được bầu vào Đại sảnh Danh vọng Bóng chày năm 1936.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://baseballhall.org/discover/museum/babe-ruth-his-life-and-legend",
+          "publisher": "National Baseball Hall of Fame and Museum",
+          "publisherCountry": "US",
+          "sourceOrigin": "Museum player profile",
+          "retrievedAt": "2026-10-04T07:38:36.501960+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:36.501960+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "Born Feb. 6, 1895",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "e16536b065b309893312c9dba828aa87b2e3ec86b1ff6159676be426ec8a536a",
+          "contentLength": 5782,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://www.baberuthleague.org/sitemedia/brl_media_guide_2025.pdf",
+          "publisher": "Babe Ruth League",
+          "publisherCountry": "US",
+          "sourceOrigin": "Baseball youth organization biography",
+          "retrievedAt": "2026-10-04T07:38:41.867828+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:41.867828+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "February 6, 1895",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "ac5ffb1e677ebba13393b8c8834bb3e62f261e002a71761cdc7b9fd900fd2e84",
+          "contentLength": 447867,
+          "documentSha256": "998d98165dca865ad7603480c31cd50cd097f1c7b76ba1b2c076c565967e0290",
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "charles-dickens",
+      "name": "Charles Dickens",
+      "qid": "Q5686",
+      "birthDate": "1812-02-07",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "charles-dickens",
+        "qid": "Q5686",
+        "birthDate": "1812-02-07",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q5686",
+            "dob": "1812-01-01T00:00:00Z",
+            "precision": "9",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          },
+          {
+            "p": "http://www.wikidata.org/entity/Q5686",
+            "dob": "1812-02-07T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#PreferredRank"
+          }
+        ]
+      },
+      "biography": "Charles Dickens là nhà văn người Anh thời Victoria. Ông là tác giả Oliver Twist và A Christmas Carol.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://dickensmuseum.com/blogs/charles-dickens-museum/a-very-dickens-birthday",
+          "publisher": "Charles Dickens Museum",
+          "publisherCountry": "GB",
+          "sourceOrigin": "Museum historical biography",
+          "retrievedAt": "2026-10-04T07:38:43.102838+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:43.102838+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "Charles Dickens was born on the 7th of February 1812.",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "30fc516d7bf428d7a75699655a0987fb13606bbf6e8c092d0f057c92b778bf8d",
+          "contentLength": 9024,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://home.nps.gov/people/charles-dickens.htm",
+          "publisher": "National Park Service",
+          "publisherCountry": "US",
+          "sourceOrigin": "Government educational biography",
+          "retrievedAt": "2026-10-04T07:38:44.807403+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:44.807403+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "February 7, 1812",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "f0b23e0c5aaa2619f8250db9d91f27c4b7aaa42d22c5018624530b0bf1eda5c3",
+          "contentLength": 3824,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "laura-ingalls-wilder",
+      "name": "Laura Ingalls Wilder",
+      "qid": "Q237514",
+      "birthDate": "1867-02-07",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "laura-ingalls-wilder",
+        "qid": "Q237514",
+        "birthDate": "1867-02-07",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q237514",
+            "dob": "1867-02-07T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#PreferredRank"
+          },
+          {
+            "p": "http://www.wikidata.org/entity/Q237514",
+            "dob": "1867-01-01T00:00:00Z",
+            "precision": "9",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Laura Ingalls Wilder là nhà văn người Mỹ, tác giả loạt sách Little House dựa trên ký ức về cuộc sống của gia đình ở vùng biên viễn.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://www.nps.gov/home/learn/historyculture/laura-ingalls-wilder.htm",
+          "publisher": "National Park Service",
+          "publisherCountry": "US",
+          "sourceOrigin": "Government educational biography",
+          "retrievedAt": "2026-10-04T07:51:50.516262+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:51:50.516262+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "birth-year",
+          "quote": "1867",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "a240125c4c0c0294246a4b8fbac274aa1e2c50a4bc7e6388fb56a9d3f735d13a",
+          "contentLength": 3377,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://lauraingallswilderhome.com/travels-of-a-pioneer-girl/",
+          "publisher": "Laura Ingalls Wilder Historic Home & Museum",
+          "publisherCountry": "US",
+          "sourceOrigin": "Museum chronological biography",
+          "retrievedAt": "2026-10-04T07:38:47.547399+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:47.547399+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "on February 7, 1867 Laura Elizabeth Ingalls was born.",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "18dc246f42f1d9455b31c21a7373457d51d97abdaa4640624d46ef4209e57253",
+          "contentLength": 3410,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "vo-nguyen-hoang",
+      "name": "Võ Nguyên Hoàng",
+      "qid": "Q99778061",
+      "birthDate": "2002-02-07",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "vo-nguyen-hoang",
+        "qid": "Q99778061",
+        "birthDate": "2002-02-07",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q99778061",
+            "dob": "2002-02-07T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Võ Nguyên Hoàng là cầu thủ bóng đá Việt Nam. Anh có tên trong danh sách đăng ký đội tuyển U23 Việt Nam tại AFC U23 Asian Cup 2024.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://assets.the-afc.com/2024_AFC_U23_Asian_Cup/Downloads/Squad_List/AFC-U23-Asian-Cup-Qatar-2024%E2%84%A2---Squad-Lists-%28Updated-April-16%29.pdf",
+          "publisher": "Asian Football Confederation",
+          "publisherCountry": "MY",
+          "sourceOrigin": "Official competition registered squad list",
+          "retrievedAt": "2026-10-04T07:38:48.334858+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:48.334858+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "07-02-2002",
+          "quoteType": "verbatim",
+          "location": "PDF page 16, VIETNAM row 10",
+          "textSha256": "42638b8c388e0b2cf425b8032c5aa13e74b7b9010c3362d96679911e085f1253",
+          "contentLength": 54789,
+          "documentSha256": "ae375e257f60c3b0369a600f28db31f2b4c1e536c6a7784d0b8b1acc88e24532",
+          "independenceReview": "AFC official 2024 international squad publication compared with VPF domestic club registration; both can receive federation registration facts, therefore agreement is corroboration rather than two independent DOB investigations."
+        },
+        {
+          "url": "https://vpf.vn/player/vo-nguyen-hoang/?sid=54124",
+          "publisher": "Vietnam Professional Football",
+          "publisherCountry": "VN",
+          "sourceOrigin": "Official domestic player registration profile",
+          "retrievedAt": "2026-10-04T07:38:51.804936+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:51.804936+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "07-02-2002",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "2f1b3e455458d105766793ef3cad6ae4ff363d0fd508b5b931b2a034e7dfd785",
+          "contentLength": 5959,
+          "independenceReview": "AFC official 2024 international squad publication compared with VPF domestic club registration; both can receive federation registration facts, therefore agreement is corroboration rather than two independent DOB investigations."
+        }
+      ]
+    },
+    {
+      "id": "dmitri-mendeleev",
+      "name": "Dmitri Mendeleev",
+      "qid": "Q9106",
+      "birthDate": "1834-02-08",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "dmitri-mendeleev",
+        "qid": "Q9106",
+        "birthDate": "1834-02-08",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q9106",
+            "dob": "1834-02-07T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#DeprecatedRank"
+          },
+          {
+            "p": "http://www.wikidata.org/entity/Q9106",
+            "dob": "1834-02-08T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          },
+          {
+            "p": "http://www.wikidata.org/entity/Q9106",
+            "dob": "1834-02-08T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985786",
+            "rank": "http://wikiba.se/ontology#PreferredRank"
+          },
+          {
+            "p": "http://www.wikidata.org/entity/Q9106",
+            "dob": "1834-01-01T00:00:00Z",
+            "precision": "9",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Dmitri Mendeleev là nhà hóa học người Nga, nổi tiếng với việc xây dựng bảng tuần hoàn các nguyên tố hóa học.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://www.prlib.ru/history/619013",
+          "publisher": "Boris Yeltsin Presidential Library",
+          "publisherCountry": "RU",
+          "sourceOrigin": "Russian presidential library",
+          "retrievedAt": "2026-10-04T07:38:54.941562+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:54.941562+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "8 февраля 1834",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "e1b0004de3669fd84e235017cf708ab9fc4c040dd4d3de53ebeb06414a5505df",
+          "contentLength": 6888,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://www.unesco.org/en/articles/dmitry-mendeleev-man-who-brought-law-and-order-chemistry-0",
+          "publisher": "UNESCO",
+          "publisherCountry": "FR",
+          "sourceOrigin": "Intergovernmental organization history article",
+          "retrievedAt": "2026-10-04T07:38:59.639794+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:38:59.639794+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "birth-year",
+          "quote": "in February 1834",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "07afa3ecc198e63d56339235f2428be73e28e2190156a5dfb51f115a8483e32e",
+          "contentLength": 6450,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "john-williams",
+      "name": "John Williams",
+      "qid": "Q131285",
+      "birthDate": "1932-02-08",
+      "candidateMethod": "Supplemental bounded label SPARQL; daily LIMIT 100 may omit selected candidate",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "john-williams",
+        "qid": "Q131285",
+        "birthDate": "1932-02-08",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q131285",
+            "dob": "1932-02-08T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "John Williams là nhà soạn nhạc người Mỹ, được biết đến với âm nhạc cho Star Wars và Jaws. Ông từng chỉ huy dàn nhạc Boston Pops.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://www.afi.com/laa/john-williams/",
+          "publisher": "American Film Institute",
+          "publisherCountry": "US",
+          "sourceOrigin": "Institution award biography",
+          "retrievedAt": "2026-10-04T07:39:02.274695+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:02.274695+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "Williams was born in New York on February 8, 1932.",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "9a04c45c39accc06b2ed7360013191eeeea57af901d4a96784c9ac39c767d772",
+          "contentLength": 17830,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://www.dallassymphony.org/community-education/dso-kids/listen-watch/composers/john-williams/",
+          "publisher": "Dallas Symphony Orchestra",
+          "publisherCountry": "US",
+          "sourceOrigin": "Orchestra education biographies",
+          "retrievedAt": "2026-10-04T07:39:03.038699+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:03.038699+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "Born February 8, 1932",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "efa7650aa32dacae178c39016d3b1c75c9a642ea86b65349f412c4abf57c1e79",
+          "contentLength": 5232,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "alice-walker",
+      "name": "Alice Walker",
+      "qid": "Q215868",
+      "birthDate": "1944-02-09",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "alice-walker",
+        "qid": "Q215868",
+        "birthDate": "1944-02-09",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q215868",
+            "dob": "1944-02-09T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Alice Walker là nhà văn và nhà thơ người Mỹ. Bà là tác giả tiểu thuyết The Color Purple.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://poets.org/poet/alice-walker",
+          "publisher": "Academy of American Poets",
+          "publisherCountry": "US",
+          "sourceOrigin": "Literary nonprofit biographies",
+          "retrievedAt": "2026-10-04T07:39:03.742175+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:03.742175+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "February 9, 1944",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "68be82d29c8602ad26c0764997a7dd09da385b69f6a0a0181e21cf1e5c2d80d1",
+          "contentLength": 4431,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://www.georgiaencyclopedia.org/articles/arts-culture/alice-walker-b-1944/",
+          "publisher": "New Georgia Encyclopedia; Qiana Whitted",
+          "publisherCountry": "US",
+          "sourceOrigin": "Independent encyclopedia biography; named author",
+          "retrievedAt": "2026-10-04T07:45:24.348732+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:45:24.348732+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "identity",
+          "quote": "Her most famous novel, The Color Purple",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "638c77d063bd7b3682bf3ea721dcc490602429b2fbb75342b12a7ea0e47f458a",
+          "contentLength": 20392,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "william-henry-harrison",
+      "name": "William Henry Harrison",
+      "qid": "Q11869",
+      "birthDate": "1773-02-09",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "william-henry-harrison",
+        "qid": "Q11869",
+        "birthDate": "1773-02-09",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q11869",
+            "dob": "1773-02-09T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "William Henry Harrison là tổng thống thứ 9 của Hoa Kỳ. Trước khi làm tổng thống, ông từng là sĩ quan quân đội và thống đốc lãnh thổ Indiana.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://home.nps.gov/people/william-henry-harrison.htm",
+          "publisher": "National Park Service",
+          "publisherCountry": "US",
+          "sourceOrigin": "Government educational biography",
+          "retrievedAt": "2026-10-04T07:39:05.780265+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:05.780265+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "February 9, 1773",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "d50551e295a31076abf37ef349eff2109a1fd1b4dfa01156beaeb2411bd83534",
+          "contentLength": 4632,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://obamawhitehouse.archives.gov/1600/presidents/williamhenryharrison",
+          "publisher": "Archived White House; biographies credited to Frank Freidel and Hugh Sidey / White House Historical Association",
+          "publisherCountry": "US",
+          "sourceOrigin": "Official presidential biography archive",
+          "retrievedAt": "2026-10-04T07:52:56.982633+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:52:56.982633+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "identity",
+          "quote": "ninth President of the United States",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "7734cff36f3b7b583229b1bb401de20ed63f1a035da8dbe451976348b10d9885",
+          "contentLength": 9403,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "carole-king",
+      "name": "Carole King",
+      "qid": "Q217787",
+      "birthDate": "1942-02-09",
+      "candidateMethod": "Supplemental bounded label SPARQL; daily LIMIT 100 may omit selected candidate",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "carole-king",
+        "qid": "Q217787",
+        "birthDate": "1942-02-09",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q217787",
+            "dob": "1942-02-09T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Carole King là ca sĩ và nhạc sĩ người Mỹ. Album Tapestry của bà được phát hành năm 1971.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://www.sonymusic.co.jp/artist/CaroleKing/profile/",
+          "publisher": "Sony Music Japan",
+          "publisherCountry": "JP",
+          "sourceOrigin": "Official artist label biography",
+          "retrievedAt": "2026-10-04T07:39:06.146759+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:06.146759+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "1942年2月9日生",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "41b7231d7b71e3a293f6f11a8b51193500a77a549f273ed96dd85186ce23e049",
+          "contentLength": 8790,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://rockhall.com/inductees/carole-king/",
+          "publisher": "Rock & Roll Hall of Fame",
+          "publisherCountry": "US",
+          "sourceOrigin": "Museum editorial inductee biographies",
+          "retrievedAt": "2026-10-04T07:57:47.619864+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:57:47.619864+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "identity",
+          "quote": "singer-songwriter",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "c220ad1f1700ba620734e585dab107cf95567b3413ec143f2fc36c77d9a8d86b",
+          "contentLength": 1740,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "bertolt-brecht",
+      "name": "Bertolt Brecht",
+      "qid": "Q38757",
+      "birthDate": "1898-02-10",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "bertolt-brecht",
+        "qid": "Q38757",
+        "birthDate": "1898-02-10",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q38757",
+            "dob": "1898-02-10T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Bertolt Brecht là nhà viết kịch và nhà thơ người Đức. Ông là một trong những người sáng lập Berliner Ensemble.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://snl.no/Bertolt_Brecht",
+          "publisher": "Store norske leksikon; Elsbeth Wessel / University of Oslo; Jostein Avdem Fretland",
+          "publisherCountry": "NO",
+          "sourceOrigin": "Scholarly encyclopedia biography by named academic authors",
+          "retrievedAt": "2026-10-04T09:00:33.191706+00:00",
+          "reviewedAt": "2026-10-04T09:00:33.191706+00:00",
+          "openedAt": "2026-10-04T09:00:33.191706+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "10. februar 1898",
+          "quoteType": "verbatim",
+          "location": "Faktaboks / Fødd",
+          "textSha256": "961452ccc5aa7cd82dbc2273719216ce422887bd47a99aa815d4fbfded3562ec",
+          "contentLength": 14559,
+          "independenceReview": "Named Norwegian academic authors separate from Deutsche Biographie editorial organization and authored German entry."
+        },
+        {
+          "url": "https://www.deutsche-biographie.de/gnd118514768.html",
+          "publisher": "Deutsche Biographie / Bayerische Akademie der Wissenschaften",
+          "publisherCountry": "DE",
+          "sourceOrigin": "National biographical reference; separately authored entry",
+          "retrievedAt": "2026-10-04T07:39:12.317935+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:12.317935+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "identity",
+          "quote": "künstlerischer Leiter des Berliner Ensembles",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "5d712b93733f8a6d5bbbad8b89877fbcd2b8d352ad1813118e9045f1927b9785",
+          "contentLength": 37401,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "boris-pasternak",
+      "name": "Boris Pasternak",
+      "qid": "Q41223",
+      "birthDate": "1890-02-10",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "boris-pasternak",
+        "qid": "Q41223",
+        "birthDate": "1890-02-10",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q41223",
+            "dob": "1890-02-10T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985786",
+            "rank": "http://wikiba.se/ontology#PreferredRank"
+          },
+          {
+            "p": "http://www.wikidata.org/entity/Q41223",
+            "dob": "1890-02-10T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          },
+          {
+            "p": "http://www.wikidata.org/entity/Q41223",
+            "dob": "1890-02-11T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985786",
+            "rank": "http://wikiba.se/ontology#DeprecatedRank"
+          }
+        ]
+      },
+      "biography": "Boris Pasternak là nhà văn và nhà thơ người Nga, tác giả Doctor Zhivago. Ông được trao Nobel Văn học năm 1958.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://www.nobelprize.org/prizes/literature/1958/pasternak/facts/",
+          "publisher": "Nobel Prize Outreach / Nobel Foundation",
+          "publisherCountry": "SE",
+          "sourceOrigin": "Nobel laureate facts",
+          "retrievedAt": "2026-10-04T07:39:13.604346+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:13.604346+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "10 February 1890",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "fa18a2a93316fdd05f9e6a417078da9764ae0456301b031891ab310898a3544c",
+          "contentLength": 3861,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://poets.org/poet/boris-pasternak",
+          "publisher": "Academy of American Poets",
+          "publisherCountry": "US",
+          "sourceOrigin": "Literary nonprofit biographies",
+          "retrievedAt": "2026-10-04T07:39:14.608267+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:14.608267+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "February 10, 1890",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "0b4f31d56ba8fe23d294c681c2ccd70604e56a62f3ffa9673d4563e3fdc1aeb9",
+          "contentLength": 13886,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "mark-spitz",
+      "name": "Mark Spitz",
+      "qid": "Q180748",
+      "birthDate": "1950-02-10",
+      "candidateMethod": "Supplemental bounded label SPARQL; daily LIMIT 100 may omit selected candidate",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "mark-spitz",
+        "qid": "Q180748",
+        "birthDate": "1950-02-10",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q180748",
+            "dob": "1950-02-10T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Mark Spitz là vận động viên bơi lội người Mỹ. Ông giành bảy huy chương vàng tại Olympic Munich 1972.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://ishof.org/honoree/honoree-mark-spitz/",
+          "publisher": "International Swimming Hall of Fame",
+          "publisherCountry": "US",
+          "sourceOrigin": "Museum athlete biography",
+          "retrievedAt": "2026-10-04T07:46:01.115218+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:46:01.115218+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "identity",
+          "quote": "His 7 gold medals in the 1972 Olympics",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "40277a373dbd65e72e5bc4ec8823905997a4def166caf965bee921994573a465",
+          "contentLength": 2503,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://www.olympedia.org/athletes/51572",
+          "publisher": "Olympedia / OlyMADMen",
+          "publisherCountry": "international",
+          "sourceOrigin": "International research database; not owned by IOC; independently authored athlete biographies and results",
+          "retrievedAt": "2026-10-04T07:39:16.602467+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:16.602467+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "10 February 1950",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "c1dafb136f919d23c05562a7414ae8917f7dbcde97aba38ea6852508d5396fc2",
+          "contentLength": 5737,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "thomas-edison",
+      "name": "Thomas Edison",
+      "qid": "Q8743",
+      "birthDate": "1847-02-11",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "thomas-edison",
+        "qid": "Q8743",
+        "birthDate": "1847-02-11",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q8743",
+            "dob": "1847-02-11T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Thomas Edison là nhà phát minh người Mỹ. Công việc của ông liên quan đến máy hát, chiếu sáng điện và điện ảnh.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://home.nps.gov/edis/learn/historyculture/edison-biography.htm",
+          "publisher": "National Park Service",
+          "publisherCountry": "US",
+          "sourceOrigin": "Government educational biography",
+          "retrievedAt": "2026-10-04T07:39:18.587682+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:18.587682+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "Thomas Alva Edison was born on February 11, 1847",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "0ea7e1c1f920e3dee36cbbd9c6954afafaf30094ab892c5822ce3fa911f08a71",
+          "contentLength": 16204,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://www.invent.org/inductees/thomas-alva-edison",
+          "publisher": "National Inventors Hall of Fame",
+          "publisherCountry": "US",
+          "sourceOrigin": "Institution inductee biographies",
+          "retrievedAt": "2026-10-04T07:39:19.244773+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:19.244773+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "identity",
+          "quote": "the incandescent electric lamp, the phonograph, the carbon transmitter and the motion picture projector",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "2c792cc87e9a91536f097d0d2eac616cfc6b9538bbde790e634a34ff928722f7",
+          "contentLength": 5874,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "josiah-willard-gibbs",
+      "name": "Josiah Willard Gibbs",
+      "qid": "Q153243",
+      "birthDate": "1839-02-11",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "josiah-willard-gibbs",
+        "qid": "Q153243",
+        "birthDate": "1839-02-11",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q153243",
+            "dob": "1839-02-11T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Josiah Willard Gibbs là nhà vật lý người Mỹ giảng dạy tại Đại học Yale. Ông có đóng góp cho nhiệt động lực học và cơ học thống kê.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Gibbs/",
+          "publisher": "University of St Andrews / MacTutor; J J O’Connor and E F Robertson",
+          "publisherCountry": "GB",
+          "sourceOrigin": "University mathematical biographies; source bibliographies",
+          "retrievedAt": "2026-10-04T07:39:20.920655+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:20.920655+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "11 February 1839",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "fa665a9f6509720c2637f223ca836276d9f13a998b667b1ab26f45b7c8d00269",
+          "contentLength": 11605,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://news.yale.edu/2003/02/26/gibbs-symposium-2003-honor-one-worlds-greatest-scientists-yale",
+          "publisher": "Yale University",
+          "publisherCountry": "US",
+          "sourceOrigin": "University history article",
+          "retrievedAt": "2026-10-04T07:39:22.388689+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:22.388689+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "birth-year",
+          "quote": "Gibbs was born in New Haven in 1839.",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "2097ccab373b42f18f37af80883c09625e6ebf28dd83af16589193b690439183",
+          "contentLength": 5865,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "henry-fox-talbot",
+      "name": "Henry Fox Talbot",
+      "qid": "Q299565",
+      "birthDate": "1800-02-11",
+      "candidateMethod": "Direct authority QID lookup; verify Gregorian DOB in final bounded SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "henry-fox-talbot",
+        "qid": "Q299565",
+        "birthDate": "1800-02-11",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q299565",
+            "dob": "1800-02-11T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Henry Fox Talbot là nhà phát minh và người tiên phong về nhiếp ảnh của Anh. Ông phát triển quy trình calotype sử dụng âm bản giấy.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://blog.sciencemuseum.org.uk/photography-and-the-science-museum-group/",
+          "publisher": "Science Museum Group",
+          "publisherCountry": "GB",
+          "sourceOrigin": "National museum curator article about its photography collections",
+          "retrievedAt": "2026-10-04T08:08:31.102591+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T08:08:31.102591+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "identity",
+          "quote": "William Henry Fox Talbot, the inventor of modern photography",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "837ac6102bc42d124b06c06449a45928c6496d323b79918a86fd2774bb28a116",
+          "contentLength": 8603,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Talbot/",
+          "publisher": "University of St Andrews / MacTutor; J J O’Connor and E F Robertson",
+          "publisherCountry": "GB",
+          "sourceOrigin": "University mathematical biographies; source bibliographies",
+          "retrievedAt": "2026-10-04T07:39:24.298697+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:24.298697+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "11 February 1800",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "7ca78fa1e44d5ddbd460d073579c02b14aeb7fcd0b078cdca96194f908d20e97",
+          "contentLength": 15324,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "abraham-lincoln",
+      "name": "Abraham Lincoln",
+      "qid": "Q91",
+      "birthDate": "1809-02-12",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "abraham-lincoln",
+        "qid": "Q91",
+        "birthDate": "1809-02-12",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q91",
+            "dob": "1809-02-12T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Abraham Lincoln là tổng thống thứ 16 của Hoa Kỳ. Ông lãnh đạo đất nước trong Nội chiến Hoa Kỳ.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://home.nps.gov/people/abraham-lincoln.htm",
+          "publisher": "National Park Service",
+          "publisherCountry": "US",
+          "sourceOrigin": "Government educational biography",
+          "retrievedAt": "2026-10-04T07:46:04.872717+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:46:04.872717+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "February 12, 1809",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "74762c73acfc77b14249ebd3c50b77f41f9b941e51f314cc146035e240406c7c",
+          "contentLength": 5357,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://millercenter.org/president/lincoln",
+          "publisher": "Miller Center, University of Virginia",
+          "publisherCountry": "US",
+          "sourceOrigin": "University presidential biographical research",
+          "retrievedAt": "2026-10-04T08:07:58.185334+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T08:07:58.185334+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "February 12, 1809",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "92762694093e7156bb504130821cbc64f0b59fcaa325927a24e72e0bb5303209",
+          "contentLength": 8653,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "charles-darwin",
+      "name": "Charles Darwin",
+      "qid": "Q1035",
+      "birthDate": "1809-02-12",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "charles-darwin",
+        "qid": "Q1035",
+        "birthDate": "1809-02-12",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q1035",
+            "dob": "1809-02-12T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Charles Darwin là nhà tự nhiên học người Anh, tác giả On the Origin of Species. Công trình của ông trình bày lý thuyết tiến hóa bằng chọn lọc tự nhiên.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://www.christs.cam.ac.uk/timeline-life-charles-darwin",
+          "publisher": "Christ’s College, University of Cambridge",
+          "publisherCountry": "GB",
+          "sourceOrigin": "College historical timeline",
+          "retrievedAt": "2026-10-04T07:46:08.780653+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:46:08.780653+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "12 February 1809",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "b4bc262666dae49c505ba5a2ae008bbc5b1331da27b7781363cbaba54876086f",
+          "contentLength": 8191,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://www.nhm.ac.uk/discover/charles-darwin-most-famous-biologist.html",
+          "publisher": "Natural History Museum",
+          "publisherCountry": "GB",
+          "sourceOrigin": "Museum science biography",
+          "retrievedAt": "2026-10-04T07:39:27.127465+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:27.127465+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "identity",
+          "quote": "evolution occurs by a process of natural selection",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "54304996a7f112d5f85172f04f17a01f6ce94626b82a126cf488d9ef44d444b2",
+          "contentLength": 14044,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "nguyen-tien-minh",
+      "name": "Nguyễn Tiến Minh",
+      "qid": "Q958317",
+      "birthDate": "1983-02-12",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "nguyen-tien-minh",
+        "qid": "Q958317",
+        "birthDate": "1983-02-12",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q958317",
+            "dob": "1983-02-12T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Nguyễn Tiến Minh là vận động viên cầu lông Việt Nam. Anh tham dự nhiều kỳ Olympic ở nội dung đơn nam.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://www.ocagames.com/OCA/pdf_CD/16ag/BD/BD000000000000000..C32A.ENG.pdf",
+          "publisher": "Guangzhou Asian Games Organizing Committee; hosted by Olympic Council of Asia",
+          "publisherCountry": "CN",
+          "sourceOrigin": "Official 2010 Guangzhou event entry list. Publisher is China; OCA hosting organization is in Kuwait",
+          "retrievedAt": "2026-10-04T07:39:28.316726+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:28.316726+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "12 FEB 1983",
+          "quoteType": "verbatim",
+          "location": "PDF page 4, VIE entry",
+          "textSha256": "30f14b13a0d4a0adb4c26773c499de99bb43387c77e770afd2f4f4fdaca8182f",
+          "contentLength": 23807,
+          "documentSha256": "4f733a821ed969f563c2d20bdc17e6513637c4616bc4e2e72dde80c24f76d24d",
+          "independenceReview": "2010 Guangzhou official event entry compared with OlyMADMen athlete biography and Olympic results. Olympedia is a research database, not an IOC-owned official source; no Sports Reference/de Wael duplicate counted."
+        },
+        {
+          "url": "https://www.olympedia.org/athletes/112836",
+          "publisher": "Olympedia / OlyMADMen",
+          "publisherCountry": "international",
+          "sourceOrigin": "International research database; not owned by IOC; independently authored athlete biographies and results",
+          "retrievedAt": "2026-10-04T07:39:29.699860+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:29.699860+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "12 February 1983",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "16b64f5088da373ee88ee0260ad51f3d7d325615a1e497c0ca2a84b65c94e110",
+          "contentLength": 1508,
+          "independenceReview": "2010 Guangzhou official event entry compared with OlyMADMen athlete biography and Olympic results. Olympedia is a research database, not an IOC-owned official source; no Sports Reference/de Wael duplicate counted."
+        }
+      ]
+    },
+    {
+      "id": "william-shockley",
+      "name": "William Shockley",
+      "qid": "Q163415",
+      "birthDate": "1910-02-13",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "william-shockley",
+        "qid": "Q163415",
+        "birthDate": "1910-02-13",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q163415",
+            "dob": "1910-02-13T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "William Shockley là nhà vật lý người Mỹ, cùng John Bardeen và Walter Brattain được trao Nobel Vật lý năm 1956 cho nghiên cứu chất bán dẫn và transistor.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://www.nobelprize.org/prizes/physics/1956/shockley/facts/",
+          "publisher": "Nobel Prize Outreach / Nobel Foundation",
+          "publisherCountry": "SE",
+          "sourceOrigin": "Nobel laureate facts",
+          "retrievedAt": "2026-10-04T07:39:31.181914+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:31.181914+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "13 February 1910",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "852bbd0b757e8ac6be3efe95087052d5130954f219f11e72e87db7816a674816",
+          "contentLength": 3433,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://www.invent.org/inductees/william-b-shockley",
+          "publisher": "National Inventors Hall of Fame",
+          "publisherCountry": "US",
+          "sourceOrigin": "Institution inductee biographies",
+          "retrievedAt": "2026-10-04T07:39:31.617338+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:31.617338+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "identity",
+          "quote": "John Bardeen and Walter Brattain undertook earned them the 1956 Nobel Prize in physics.",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "63ad71a888de4a2fad3570d97a0a28e5061e44f1246cadf6e5b85e5dd10f37f8",
+          "contentLength": 4107,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "peter-gabriel",
+      "name": "Peter Gabriel",
+      "qid": "Q175195",
+      "birthDate": "1950-02-13",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "peter-gabriel",
+        "qid": "Q175195",
+        "birthDate": "1950-02-13",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q175195",
+            "dob": "1950-02-13T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Peter Gabriel là ca sĩ và nhạc sĩ người Anh, từng là giọng ca của Genesis trước khi phát triển sự nghiệp solo.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://universalmusic.fr/artistes/20000103546",
+          "publisher": "Universal Music France",
+          "publisherCountry": "FR",
+          "sourceOrigin": "Official record label artist biography",
+          "retrievedAt": "2026-10-04T07:39:36.198376+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:36.198376+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "13 février 1950",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "06bc60ae3fee0221c000dba0af620bd0fa212d6596294c1f638b6f64eca5f962",
+          "contentLength": 16976,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://www.rockhall.com/inductees/peter-gabriel/",
+          "publisher": "Rock & Roll Hall of Fame",
+          "publisherCountry": "US",
+          "sourceOrigin": "Museum editorial inductee biographies",
+          "retrievedAt": "2026-10-04T07:39:37.246915+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:37.246915+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "identity",
+          "quote": "as the band’s frontman",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "46a0af0bf60facf8f487f80e2b54cfa922d653b0ffbc62e281970f61a31c3d3f",
+          "contentLength": 1990,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "peter-gustav-lejeune-dirichlet",
+      "name": "Peter Gustav Lejeune Dirichlet",
+      "qid": "Q29193",
+      "birthDate": "1805-02-13",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "peter-gustav-lejeune-dirichlet",
+        "qid": "Q29193",
+        "birthDate": "1805-02-13",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q29193",
+            "dob": "1805-02-13T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Peter Gustav Lejeune Dirichlet là nhà toán học người Đức. Ông có đóng góp cho lý thuyết số và giải tích.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Dirichlet/",
+          "publisher": "University of St Andrews / MacTutor; J J O’Connor and E F Robertson",
+          "publisherCountry": "GB",
+          "sourceOrigin": "University mathematical biographies; source bibliographies",
+          "retrievedAt": "2026-10-04T07:39:38.825770+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:38.825770+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "13 February 1805",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "b913148443b511c59ac8ff0bce92237f5f17414490bb84cf44fb9f7c154d9c77",
+          "contentLength": 17006,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://www.bbaw.de/die-akademie/akademie-historische-aspekte/historische-zeitleiste/februar",
+          "publisher": "Berlin-Brandenburgische Akademie der Wissenschaften",
+          "publisherCountry": "DE",
+          "sourceOrigin": "Academy biographical record",
+          "retrievedAt": "2026-10-04T07:39:41.166720+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:41.166720+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "13.2.1805",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "1290612759a744b9063d2d38616c872e2bff556837f394d74726084e6e2e55d6",
+          "contentLength": 31102,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "fritz-zwicky",
+      "name": "Fritz Zwicky",
+      "qid": "Q115462",
+      "birthDate": "1898-02-14",
+      "candidateMethod": "Supplemental bounded label SPARQL; daily LIMIT 100 may omit selected candidate",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "fritz-zwicky",
+        "qid": "Q115462",
+        "birthDate": "1898-02-14",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q115462",
+            "dob": "1898-02-14T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Fritz Zwicky là nhà thiên văn học người Thụy Sĩ làm việc tại Caltech. Ông nghiên cứu thiên hà, siêu tân tinh và vật chất tối.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Zwicky/",
+          "publisher": "University of St Andrews / MacTutor; J J O’Connor and E F Robertson",
+          "publisherCountry": "GB",
+          "sourceOrigin": "University mathematical biographies; source bibliographies",
+          "retrievedAt": "2026-10-04T07:39:42.715501+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:42.715501+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "14 February 1898",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "f4a3c5f9dca07c9c1a5f11f2a63dbe9bcaf8327b87aaaae484d604c7e912798f",
+          "contentLength": 20803,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://zwicky-stiftung.ch/index.php/biografie/",
+          "publisher": "Fritz Zwicky Foundation",
+          "publisherCountry": "CH",
+          "sourceOrigin": "Scientist foundation biography",
+          "retrievedAt": "2026-10-04T07:39:46.562979+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:46.562979+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "14.Februar 1898",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "de71cc9752013820254b14c13165a2f7de6ec99e9ffe326495e699cd9ede7cb4",
+          "contentLength": 6056,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "christian-eriksen",
+      "name": "Christian Eriksen",
+      "qid": "Q294951",
+      "birthDate": "1992-02-14",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "christian-eriksen",
+        "qid": "Q294951",
+        "birthDate": "1992-02-14",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q294951",
+            "dob": "1992-02-14T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Christian Eriksen là cầu thủ bóng đá người Đan Mạch, thi đấu ở vị trí tiền vệ. Anh từng thi đấu cho Tottenham và Manchester United.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://www.uefa.com/european-qualifiers/teams/players/1905884--christian-eriksen/",
+          "publisher": "UEFA",
+          "publisherCountry": "CH",
+          "sourceOrigin": "Official football federation player profile",
+          "retrievedAt": "2026-10-04T07:44:10.903680+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:44:10.903680+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "14/2/1992",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "8369e80b36b508001a5bbecc40a4d80f17ca27b77292cabfdf285ef8b395e30b",
+          "contentLength": 1514,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://www.premierleague.com/players/4845/Christian-Eriksen/overview",
+          "publisher": "Premier League",
+          "publisherCountry": "GB",
+          "sourceOrigin": "Official football league athlete profile",
+          "retrievedAt": "2026-10-04T07:39:48.608573+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:48.608573+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "identity",
+          "quote": "Manchester United Midfielder",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "c1854d2efd8687bd601ca4a309632ba7bed7f1258058d92a2f74362ba3787c4e",
+          "contentLength": 1251,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "angel-di-maria",
+      "name": "Ángel Di María",
+      "qid": "Q251683",
+      "birthDate": "1988-02-14",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "angel-di-maria",
+        "qid": "Q251683",
+        "birthDate": "1988-02-14",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q251683",
+            "dob": "1988-02-14T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Ángel Di María là cầu thủ bóng đá người Argentina. Anh từng thi đấu cho Benfica, Real Madrid và Paris Saint-Germain.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://www.realmadrid.com/en-US/the-club/history/football-legends/angel-di-maria",
+          "publisher": "Real Madrid CF",
+          "publisherCountry": "ES",
+          "sourceOrigin": "Official club historical player profile",
+          "retrievedAt": "2026-10-04T07:39:49.921922+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:49.921922+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "14/02/1988",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "97b9959fdb1ab86708c3512f4a7e554bac7591d946d0e233823a5a3ffbac7972",
+          "contentLength": 1969,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://www.olympedia.org/athletes/111389",
+          "publisher": "Olympedia / OlyMADMen",
+          "publisherCountry": "international",
+          "sourceOrigin": "International research database; not owned by IOC; independently authored athlete biographies and results",
+          "retrievedAt": "2026-10-04T07:46:10.289723+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:46:10.289723+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "14 February 1988",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "7a86337aa0356c9d959e9b0b551971f2d48d8599c7a2b688d055293c9a4e5dd8",
+          "contentLength": 1842,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "susan-b-anthony",
+      "name": "Susan B. Anthony",
+      "qid": "Q192245",
+      "birthDate": "1820-02-15",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "susan-b-anthony",
+        "qid": "Q192245",
+        "birthDate": "1820-02-15",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q192245",
+            "dob": "1820-02-15T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Susan B. Anthony là nhà hoạt động xã hội người Mỹ. Bà vận động cho quyền bầu cử của phụ nữ.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://www.womenshistory.org/education-resources/biographies/susan-b-anthony",
+          "publisher": "National Women’s History Museum",
+          "publisherCountry": "US",
+          "sourceOrigin": "Museum educational biography",
+          "retrievedAt": "2026-10-04T07:39:52.501782+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:52.501782+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "Anthony was born on February 15, 1820",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "763f2d696f82d5d91fa495928a90a0ca2118858a79083068b241d2ad02b7276f",
+          "contentLength": 25480,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://susanb.org/her-life/",
+          "publisher": "National Susan B. Anthony Museum & House",
+          "publisherCountry": "US",
+          "sourceOrigin": "Museum historical chronology",
+          "retrievedAt": "2026-10-04T07:39:53.995608+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:53.995608+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "birth-year",
+          "quote": "1820",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "899715592f0a381f0c22de5ff5742c9e8dd09170f2efd15f34b7ef8908bc6397",
+          "contentLength": 6552,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "ernest-shackleton",
+      "name": "Ernest Shackleton",
+      "qid": "Q957543",
+      "birthDate": "1874-02-15",
+      "candidateMethod": "Supplemental bounded label SPARQL; daily LIMIT 100 may omit selected candidate",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "ernest-shackleton",
+        "qid": "Q957543",
+        "birthDate": "1874-02-15",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q957543",
+            "dob": "1874-02-15T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Ernest Shackleton là nhà thám hiểm vùng Nam Cực, sinh tại Ireland. Ông chỉ huy đoàn thám hiểm Endurance.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://lucerna.exeter.ac.uk/person/index.php?id=6005298&language=EN",
+          "publisher": "Lucerna Magic Lantern Web Resource, University of Exeter; Richard Crangle",
+          "publisherCountry": "GB",
+          "sourceOrigin": "Academic curated authority record; author explicitly credited",
+          "retrievedAt": "2026-10-04T07:52:27.804032+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:52:27.804032+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "15 February 1874",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "d6c38bc94433bae00c94c411498cce9ccddb2c1cd7c8200e0b46473cb6038dc3",
+          "contentLength": 1569,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://snl.no/Ernest_Shackleton",
+          "publisher": "Store norske leksikon",
+          "publisherCountry": "NO",
+          "sourceOrigin": "Norwegian encyclopedia; named academic authors",
+          "retrievedAt": "2026-10-04T07:39:56.269154+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:56.269154+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "15. februar 1874",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "d103597dc23942e5eab2004b0dc41bdd1a016a98bb38565642dc067c4e8bd91e",
+          "contentLength": 13625,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    },
+    {
+      "id": "alfred-north-whitehead",
+      "name": "Alfred North Whitehead",
+      "qid": "Q183372",
+      "birthDate": "1861-02-15",
+      "candidateMethod": "daily SPARQL",
+      "verifiedAt": "2026-10-04",
+      "wikidataReview": {
+        "id": "alfred-north-whitehead",
+        "qid": "Q183372",
+        "birthDate": "1861-02-15",
+        "matches": 1,
+        "conflicts": [],
+        "claims": [
+          {
+            "p": "http://www.wikidata.org/entity/Q183372",
+            "dob": "1861-02-15T00:00:00Z",
+            "precision": "11",
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "http://wikiba.se/ontology#NormalRank"
+          }
+        ]
+      },
+      "biography": "Alfred North Whitehead là nhà toán học và triết gia người Anh. Ông cùng Bertrand Russell viết Principia Mathematica.",
+      "biographyReview": "Nghề/quốc tịch và nội dung tiểu sử ngắn đã đối chiếu nội dung thực tế của cặp nguồn; không thêm nơi sinh hoặc ngày mất.",
+      "sources": [
+        {
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Whitehead/",
+          "publisher": "University of St Andrews / MacTutor; J J O’Connor and E F Robertson",
+          "publisherCountry": "GB",
+          "sourceOrigin": "University mathematical biographies; source bibliographies",
+          "retrievedAt": "2026-10-04T07:39:57.890612+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:57.890612+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "15 February 1861",
+          "quoteType": "verbatim",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "3a06c5fd72c44bcee855e426b3ad2177d357cc11bd8181a5b69e95f917e7b542",
+          "contentLength": 19584,
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        },
+        {
+          "url": "https://iep.utm.edu/whitehed",
+          "publisher": "Internet Encyclopedia of Philosophy / University of Tennessee at Martin",
+          "publisherCountry": "US",
+          "sourceOrigin": "Scholarly reference article, separately authored",
+          "retrievedAt": "2026-10-04T07:39:59.640767+00:00",
+          "reviewedAt": "2026-10-04T08:08:31.169098+00:00",
+          "openedAt": "2026-10-04T07:39:59.640767+00:00",
+          "transport": "Actual HTTP response, HTML parsed or PDF extracted; local cache reused for review",
+          "supports": "full-birth-date",
+          "quote": "February 15",
+          "quoteType": "verbatim-fields",
+          "location": "Biographical paragraph / chronology / athlete profile, located by exact quote",
+          "textSha256": "ee25cbd932cdf1af0eb3045408a80703512b85766e75c37d0fb59cb0a08d7d04",
+          "contentLength": 57784,
+          "quoteFields": [
+            "February 15",
+            "1861"
+          ],
+          "independenceReview": "Separate editorial organization and distinct authored record from the other cited source; no syndicated copy or shared athlete biography observed. Wikidata excluded from this pair."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "candidates": [
+    {
+      "name": "Langston Hughes",
+      "reason": "Năm sinh có nguồn ghi 1901 hoặc 1902; không đưa vào B005 khi chưa phân xử được xung đột."
+    },
+    {
+      "name": "Emilio Segrè",
+      "qid": "Q173028",
+      "reason": "Truy vấn P569 có hai ngày Gregorian precision 11 không deprecated: 30/1 và 1/2/1905. Loại dù Nobel xác nhận 1/2."
+    },
+    {
+      "name": "Clark Gable",
+      "qid": "Q71243",
+      "reason": "Nguồn Ohio Statehouse timeout; Ohio Memory trả 403; endpoint Academy cũ chuyển về trang chủ. Không dùng HTTP 200 làm bằng chứng. Thay bằng Boris Yeltsin."
+    }
+  ],
+  "rejectedSourceUrls": [
+    {
+      "url": "https://norman.hrc.utexas.edu/fasearch/findingaid.cfm?eadid=00296&showrequest=0",
+      "reason": "Empty response; replace with Academy of American Poets"
+    },
+    {
+      "url": "https://www.kansashistory.gov/kansapedia/laura-ingalls-wilder/15563",
+      "reason": "DNS failure; replace with NPS"
+    },
+    {
+      "url": "https://www.musee-orsay.fr/fr/ressources/repertoire-artistes-personnalites/fernand-leger-106601",
+      "reason": "Fetch failure; use National Fernand Leger Museum"
+    },
+    {
+      "url": "https://www.guggenheim.org/artwork/artist/fernand-leger",
+      "reason": "Cookie-only extracted content; not sufficient source evidence"
+    },
+    {
+      "url": "https://www.dib.ie/index.php/biography/shackleton-sir-ernest-henry-a7987",
+      "reason": "Only 27 characters returned; replace with Exeter authority record"
+    },
+    {
+      "url": "https://postalmuseum.si.edu/celebrating-american-artist-norman-rockwells-116th-birthdayfebruary-3-1894",
+      "reason": "403 locally; replace with SNL actual biography"
+    },
+    {
+      "url": "https://www.caroleking.com/",
+      "reason": "Identity-only homepage replaced by independently edited Rock Hall biography"
+    },
+    {
+      "url": "https://adk.de/bertolt-brecht",
+      "reason": "HTTP 502 in final full source audit after 3 real attempts; replaced with SNL same full DOB."
+    }
+  ],
+  "calendarNote": "Mendeleev: official source explicitly gives 27 January Julian / 8 February Gregorian 1834. Wikidata 7 February claim is DeprecatedRank; retained all claims in source review; accepted Gregorian 8 February."
+}
