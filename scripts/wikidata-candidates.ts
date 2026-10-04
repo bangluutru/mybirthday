@@ -25,6 +25,23 @@ export interface CandidatePerson {
   occupations: string[];
 }
 
+export function isValidIsoDate(value: string): boolean {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
+  const [year, month, day] = value.split('-').map(Number);
+  const normalized = new Date(Date.UTC(year, month - 1, day)).toISOString().slice(0, 10);
+  return normalized === value;
+}
+
+export function isAdultOnDate(birthDate: string, asOfDate: string): boolean {
+  if (!isValidIsoDate(birthDate) || !isValidIsoDate(asOfDate)) return false;
+  const [asOfYear, asOfMonth, asOfDay] = asOfDate.split('-').map(Number);
+  const [birthYear, birthMonth, birthDay] = birthDate.split('-').map(Number);
+  const age = asOfYear - birthYear - (
+    asOfMonth < birthMonth || (asOfMonth === birthMonth && asOfDay < birthDay) ? 1 : 0
+  );
+  return age >= 18;
+}
+
 const USER_AGENT = 'BirthdayVerse-data/1.0 (haibangtran@gmail.com)';
 
 async function queryWikidata(sparql: string, retryCount = 2): Promise<any> {
@@ -66,7 +83,8 @@ export async function fetchCandidates(
   month: number,
   day: number,
   threshold = 60,
-  vnOnly = false
+  vnOnly = false,
+  asOfDate = new Date().toISOString().slice(0, 10)
 ): Promise<CandidatePerson[]> {
   const vnFilter = vnOnly ? '?p wdt:P27 wd:Q881 .\n' : '';
   const sparql = `
@@ -93,8 +111,9 @@ SELECT ?p ?pLabel ?pDescription ?dob ?dod ?sl ?cLabel ?cCode ?occLabel WHERE {
   // Group by QID
   const candidateMap = new Map<string, CandidatePerson>();
 
-  const today = new Date('2026-10-03');
-  const minBirthDate18YearsAgo = '2008-10-03';
+  if (!isValidIsoDate(asOfDate)) {
+    throw new Error(`Invalid --as-of calendar date: ${asOfDate}`);
+  }
 
   for (const b of bindings) {
     const uri = b.p?.value || '';
@@ -103,10 +122,10 @@ SELECT ?p ?pLabel ?pDescription ?dob ?dod ?sl ?cLabel ?cCode ?occLabel WHERE {
 
     const dobRaw = b.dob?.value || '';
     const birthDate = dobRaw.slice(0, 10);
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(birthDate)) continue;
+    if (!isValidIsoDate(birthDate)) continue;
 
-    // Filter out < 18 years old
-    if (birthDate > minBirthDate18YearsAgo) continue;
+    // Filter out people younger than 18 on the execution date.
+    if (!isAdultOnDate(birthDate, asOfDate)) continue;
 
     const dodRaw = b.dod?.value;
     const deathDate = dodRaw ? dodRaw.slice(0, 10) : undefined;
@@ -156,11 +175,16 @@ async function main() {
   let day = 1;
   let threshold = 60;
   let vnOnly = false;
+  let asOfDate = new Date().toISOString().slice(0, 10);
 
   const filteredArgs: string[] = [];
-  for (const arg of args) {
+  for (let i = 0; i < args.length; i++) {
+    const arg = args[i];
     if (arg === '--vn') {
       vnOnly = true;
+    } else if (arg === '--as-of' && args[i + 1]) {
+      asOfDate = args[i + 1];
+      i++;
     } else {
       filteredArgs.push(arg);
     }
@@ -184,7 +208,7 @@ async function main() {
   const dd = day.toString().padStart(2, '0');
 
   console.log(`Querying Wikidata candidates for ${mm}-${dd} (vnOnly=${vnOnly}) with sitelinks >= ${threshold}...`);
-  const candidates = await fetchCandidates(month, day, threshold, vnOnly);
+  const candidates = await fetchCandidates(month, day, threshold, vnOnly, asOfDate);
   console.log(`Found ${candidates.length} candidates for ${mm}-${dd}.`);
 
   const outDir = path.resolve(__dirname, '../.ai/hop-thu-mybirthday/nhap/wd');

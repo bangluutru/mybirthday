@@ -2,7 +2,7 @@
 
 > **Your Birthday Universe**: Khám phá danh nhân, nghệ sĩ, nhà khoa học và các sự kiện lịch sử vĩ đại chia sẻ cùng ngày sinh của bạn trên khắp thế giới.
 >
-> *Hiện tại cơ sở dữ liệu dự án bao gồm 30 nhân vật lịch sử, 16 người sinh ngày 22/2 và 4 sự kiện lịch sử đã qua xác minh nguồn gốc nghiêm ngặt. Dữ liệu đang ở giai đoạn xác minh và chưa phủ đầy đủ 366 ngày trong năm.*
+> *Cơ sở dữ liệu hiện có 123 hồ sơ nhân vật và 4 sự kiện lịch sử đã xác minh. Dữ liệu nhân vật xuất hiện ở 42/366 ngày (11,5%); riêng tháng 1 có 95 người trên đủ 31 ngày. Ngày 22/2 có 16 hồ sơ nhân vật. Dữ liệu vẫn đang được mở rộng và chưa phủ đủ năm.*
 
 Ứng dụng web/PWA trải nghiệm khám phá ngày sinh cá nhân hoá cao cấp, xây dựng theo ngôn ngữ thiết kế **Astral Editorial Minimal**, tối ưu cho cả giao diện di động (Mobile-First) và máy tính (Desktop Editorial 1360px).
 
@@ -59,8 +59,14 @@ Dữ liệu nhân vật và sự kiện được phân tách theo 12 tháng:
 
 **Quy tắc đóng góp & kiểm tra dữ liệu:**
 1. Mọi bản ghi bắt buộc có `verifiedAt` (`YYYY-MM-DD`) và `sourceUrls` từ nguồn chính thống (Britannica, bảo tàng, lưu trữ quốc gia; chặn web SEO).
-2. Chạy `npm test` để kiểm tra toàn vẹn dữ liệu (Rules 0, A–O).
+2. Chạy `npm test` để kiểm tra toàn vẹn dữ liệu (Rules 0, A–U).
 3. Chạy `npm run coverage` để theo dõi độ phủ 366 ngày.
+
+### Quy trình bổ sung dữ liệu (Wikidata + nguồn chính thống)
+1. Dùng `npx tsx scripts/wikidata-candidates.ts --day M D` để lấy ứng viên theo ngày; thêm `--vn` để chạy truy vấn ứng viên Việt Nam.
+2. Đối chiếu ngày sinh Gregorian có độ chính xác ngày, rồi mở nguồn độc lập chính thống và kiểm tra trùng khớp.
+3. Chạy `npm run verify:wikidata` để so ngày sinh với Wikidata trên toàn bộ cơ sở dữ liệu.
+4. Chạy `npm test` để kiểm tra dữ liệu, nguồn, độ phủ ngày và cân bằng hồ sơ Việt Nam.
 
 ---
 

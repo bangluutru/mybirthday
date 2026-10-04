@@ -1,33 +1,36 @@
-# BV-004
-LÀM GIÀU DỮ LIỆU: NHÂN VẬT SINH 1/1–15/1 (WIKIDATA + NGUỒN CHÍNH THỐNG)
+# BV-005
+LÀM GIÀU DỮ LIỆU: NHÂN VẬT SINH 16/1–31/1 (WIKIDATA + NGUỒN CHÍNH THỐNG)
 
 Cycle ID:
-BV-004
+BV-005
 
 State:
-CHANGES_REQUESTED
+ACCEPTED
 
 Priority:
 P1
 
 Reviewer:
-Claude Code
+Codex (review B004 theo yêu cầu chủ dự án; tích hợp Git chỉ sau DAT)
 
 Executor:
-Gemini 3.8 (Antigravity), qua hộp thư `.ai/hop-thu-mybirthday/`
+Codex thực hiện B004-v2 theo yêu cầu trực tiếp chủ dự án; hộp thư lưu lịch sử
 
 Active task:
-B003 — `.ai/hop-thu-mybirthday/viec/B003-people-jan-01-15.md`
+B004 — `.ai/hop-thu-mybirthday/viec/B004-people-jan-16-31.md`
 
 Latest review:
-B003-v4 — SUA; see `.ai/hop-thu-mybirthday/review/B003-people-jan-01-15-r3.md` (2026-10-04).
+B004-v2 / r2 — DAT; see `.ai/hop-thu-mybirthday/review/B004-people-jan-16-31-r2.md` (2026-10-04).
 
 Goal:
-Thêm người sinh 1/1–15/1 vào `src/data/people/01.ts`, mỗi ngày ≥ 3 người, qua 3 lớp kiểm; script `wikidata-candidates`, `verify:wikidata`; Rule P/Q/R/S.
+Thêm nhân vật sinh 16/1–31/1; đạt ít nhất 3 người/ngày qua ba lớp kiểm, giữ Rule P/Q/R và mở rộng Rule S/T cho toàn tháng 1. Tỷ lệ người Việt Nam trong tổng hồ sơ mới tháng 1 nằm trong khoảng 20%–40%. Mỗi người Việt mới phải có ít nhất một nguồn độc lập chính thống ngoài Việt Nam xác nhận ngày sinh; ưu tiên hai nguồn nước ngoài.
 
-DO NOT add events. DO NOT touch src/app or src/components. DO NOT invent facts.
+DO NOT add events. DO NOT touch UI. DO NOT invent facts. B003/BV-004: ACCEPTED (B003-v5 DAT; tích hợp cùng bản B004 theo phê duyệt trực tiếp của chủ dự án).
 
-Previous cycle: BV-003 — ACCEPTED (Implementation Commit bcf74c0).
+Requested corrections (r1; đã xử lý tại r2):
+Sửa nguồn đối chiếu sai người của Trương Tấn Sang; sửa/rà quote evidence; chứng minh xuất xứ và tính độc lập nguồn Chung Thị Thanh Lan; thu hẹp Rule U với bản sao PDF; hoàn thiện báo cáo/README. Yêu cầu r1 đã hoàn thành tại r2; không mở tháng khác.
 
+Reviewer Attention / sửa cần thiết cho cổng toàn bộ dữ liệu (2026-10-04): URL đối chiếu Thérèse ở B003 timeout qua hai lần verify:urls và một lần mở trực tiếp. Theo yêu cầu sửa đến khi đạt của chủ dự án, thay riêng URL này bằng Press-kit.pdf chính thức của Sanctuaire de Lisieux, nêu đúng 2/1/1873; giữ ngày sinh/QID và nguồn Vatican. Không mở rộng hồ sơ B003 hay tháng khác.
 
-2026-10-03: Chủ dự án yêu cầu dừng và xóa phần B003 chưa đạt. Đã tích hợp một phần (commit 8610e02: công cụ Wikidata, Rule P/Q/R, sửa 13 wikidataId). Phần chưa tích hợp (73 người mới 1/1–15/1, Rule S, README) đã bị xóa khỏi thư mục làm việc; B003 phải làm lại từ đầu theo review r2 nếu được mở lại. Hộp thư có file DUNG.
+Resolution:
+B004-v2 DAT, xem review r2. Chủ dự án đã duyệt commit/push khi đạt. Tích hợp các tệp đã duyệt, không commit Wikidata thô; dừng sau xác nhận remote, không mở chu kỳ tiếp theo.

@@ -1,0 +1,794 @@
+{
+  "reviewedAt": "2026-10-04",
+  "profiles": 49,
+  "sources": 98,
+  "extractedTextMatches": 95,
+  "browserVerified": 3,
+  "unresolved": 0,
+  "checks": [
+    {
+      "qid": "Q212531",
+      "kind": "primary",
+      "url": "https://www.vogue.co.uk/article/kate-moss-biography",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q212531",
+      "kind": "crosscheck",
+      "url": "https://catalogue.royalalberthall.com/Record.aspx?id=PERF16257&src=CalmView.Performance",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q152824",
+      "kind": "primary",
+      "url": "https://oac.cdlib.org/findaid/ark:/13030/kt2489n7qw",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q152824",
+      "kind": "crosscheck",
+      "url": "https://susansontag.com/SusanSontag/index.shtml",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q234224",
+      "kind": "primary",
+      "url": "https://www.nationalgeographic.com/adventure/article/140116-dian-fossey-google-doodle-national-geographic-gorillas-birthday",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q234224",
+      "kind": "crosscheck",
+      "url": "https://archives.mcmaster.ca/index.php/fossey-dian-2",
+      "method": "browser",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q34969",
+      "kind": "primary",
+      "url": "https://www.archives.gov/founding-docs/signers-gallery",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q34969",
+      "kind": "crosscheck",
+      "url": "https://www.nga.org/governor/benjamin-franklin/",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q36107",
+      "kind": "primary",
+      "url": "https://www.archives.gov/research/african-americans/individuals/muhammad-ali",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q36107",
+      "kind": "crosscheck",
+      "url": "https://www.census.gov/library/stories/2022/04/famous-people-who-first-appeared-in-1950-census-records.html",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q13133",
+      "kind": "primary",
+      "url": "https://obamalibrary.archives.gov/obamas/first-lady-michelle-obama",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q13133",
+      "kind": "crosscheck",
+      "url": "https://obamawhitehouse.archives.gov/administration/first-lady-michelle-obama",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "identity"
+    },
+    {
+      "qid": "Q28810222",
+      "kind": "primary",
+      "url": "https://www.olympedia.org/athletes/51677",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q28810222",
+      "kind": "crosscheck",
+      "url": "https://digital.la84.org/digital/collection/p17103coll8/id/30689",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "identity"
+    },
+    {
+      "qid": "Q4120045",
+      "kind": "primary",
+      "url": "https://ariyajoti.wordpress.com/wp-content/uploads/2013/08/nlm-2013-07-23-red.pdf",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q4120045",
+      "kind": "crosscheck",
+      "url": "https://nvsk.vnanet.vn/nguyen-sinh-hung-1085.vna",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q164038",
+      "kind": "primary",
+      "url": "https://www.uefa.com/uefachampionsleague/news/0252-0e764be2c247-18b687939779-1000--josep-guardiola/",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q164038",
+      "kind": "crosscheck",
+      "url": "https://datencenter.dfb.de/datencenter/personen/pep-guardiola/trainer",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q83410",
+      "kind": "primary",
+      "url": "https://goldenglobes.com/person/cary-grant/",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q83410",
+      "kind": "crosscheck",
+      "url": "https://www.bfi.org.uk/lists/cary-grant-10-essential-films",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "identity"
+    },
+    {
+      "qid": "Q104434346",
+      "kind": "primary",
+      "url": "https://yhent.co.kr/artist/tempest/",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q104434346",
+      "kind": "crosscheck",
+      "url": "https://tempestjapan.com/feature/profile_hanbin",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q16867",
+      "kind": "primary",
+      "url": "https://www.nps.gov/people/edgarallanpoe.htm",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q16867",
+      "kind": "crosscheck",
+      "url": "https://poemuseum.org/",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q1514",
+      "kind": "primary",
+      "url": "https://www.tshaonline.org/handbook/entries/joplin-janis-lyn",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q1514",
+      "kind": "crosscheck",
+      "url": "https://atlas.thc.texas.gov/Details/5507013885",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q22162740",
+      "kind": "primary",
+      "url": "https://assets.the-afc.com/migration/2/0/20190116%20AC2019%20Final%20Squads.pdf",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q22162740",
+      "kind": "crosscheck",
+      "url": "https://vpf.vn/player/pham-duc-huy/",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q2252",
+      "kind": "primary",
+      "url": "https://history.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.crew.html",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q2252",
+      "kind": "crosscheck",
+      "url": "https://www.congress.gov/91/crecb/1969/07/15/GPO-CRECB-1969-pt15-1-3.pdf",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q7371",
+      "kind": "primary",
+      "url": "https://fellinimuseum.it/fellini/",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q7371",
+      "kind": "crosscheck",
+      "url": "https://turismoroma.it/en/node/43343",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q57407",
+      "kind": "primary",
+      "url": "https://uzo.sakura.ne.jp/burma/nlm/nlm_data/nlm_2012/nlm_11_2012/nlm_29_11_2012.pdf",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q57407",
+      "kind": "crosscheck",
+      "url": "https://classified.japantimes.com/nationalday/pdfs/20140317-Vietnamese_president--s_visit.pdf",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q18045362",
+      "kind": "primary",
+      "url": "https://assets.the-afc.com/migration/a/c/AC_2019F_TSG_Report_Interactive_compressed.pdf",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q18045362",
+      "kind": "crosscheck",
+      "url": "https://jebentertainment.jp/en/leaguer/nguyen-cong-phuong/",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q159694",
+      "kind": "primary",
+      "url": "https://www.musee-dior-granville.com/christian-dior/",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q159694",
+      "kind": "crosscheck",
+      "url": "https://designmuseum.org/designers/christian-dior",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q1678059",
+      "kind": "primary",
+      "url": "https://vntaiwan.catholic.org.tw/vnchurch/vinhlong/gmmau.htm",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q1678059",
+      "kind": "crosscheck",
+      "url": "https://www.catholic-hierarchy.org/bishop/bngvm.html",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q5679",
+      "kind": "primary",
+      "url": "https://www.westminster-abbey.org/abbey-commemorations/commemorations/lord-byron",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q5679",
+      "kind": "crosscheck",
+      "url": "https://research.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00421",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q7724",
+      "kind": "primary",
+      "url": "https://www.strindbergsmuseet.se/om-strindberg/strindbergs-liv/barndom/",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q7724",
+      "kind": "crosscheck",
+      "url": "https://auguststrindberg.se/biography/",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q41585",
+      "kind": "primary",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q41585",
+      "kind": "crosscheck",
+      "url": "https://archiv.saw-leipzig.de/saw-archive/personen/david-hilbert",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q502",
+      "kind": "primary",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb119255047",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q502",
+      "kind": "crosscheck",
+      "url": "https://musee-stendhal.bm-grenoble.fr/henri-beyle-dit-stendhal-1783-1842.aspx",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q40599",
+      "kind": "primary",
+      "url": "https://www.musee-orsay.fr/sites/default/files/exposition/booklet/2023-03/prog%20salle_Manet%EF%80%A2Degas_ANG.pdf",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q40599",
+      "kind": "crosscheck",
+      "url": "https://www.grandpalais.fr/en/node/944",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q21001",
+      "kind": "primary",
+      "url": "https://www.korea.net/FILE/pdfdata/2017/11/MoonJae-inPresidentoftheRepublicofKorea_en_1113.pdf",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q21001",
+      "kind": "crosscheck",
+      "url": "https://www.pa.go.kr/online_contents/president/history19.jsp",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q33550",
+      "kind": "primary",
+      "url": "https://frederick.mml.ox.ac.uk/history",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q33550",
+      "kind": "crosscheck",
+      "url": "https://www.deutsche-biographie.de/sfz56983.html",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q26517",
+      "kind": "primary",
+      "url": "https://www.fcbarcelona.com/en/futbol/primer-equip/jugadors/4138/luis-suarez",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q26517",
+      "kind": "crosscheck",
+      "url": "https://auf.org.uy/luis-suarez/",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q15791820",
+      "kind": "primary",
+      "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2013/06/15/0385.pdf",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q15791820",
+      "kind": "crosscheck",
+      "url": "https://www.catholic-hierarchy.org/bishop/bnhl.html",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q81960",
+      "kind": "primary",
+      "url": "https://www.gov.uk/government/speeches/burns-night-speech",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q81960",
+      "kind": "crosscheck",
+      "url": "https://www.nls.uk/collections/stories/literature-and-poetry/robert-burns-and-his-history-of-myself/",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q40909",
+      "kind": "primary",
+      "url": "https://www.britishlibrary.cn/en/authors/virginia-woolf/",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q40909",
+      "kind": "crosscheck",
+      "url": "https://virginiawoolfsociety.org.uk/resources/virginia-woolf-a-short-biography/",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q127417",
+      "kind": "primary",
+      "url": "https://macarthurmemorial.org/DocumentCenter/View/1689/BioDouglasMacArthur?bidId=",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q127417",
+      "kind": "crosscheck",
+      "url": "https://adb.anu.edu.au/lifesummary/macarthur-douglas-10890",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q160456",
+      "kind": "primary",
+      "url": "https://www.archives.gov/research/african-americans/individuals/angela-davis",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q160456",
+      "kind": "crosscheck",
+      "url": "https://museumca.org/wp-content/uploads/2022/09/2022_Timeline_AngelaDavis-FINAL.pdf",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q209518",
+      "kind": "primary",
+      "url": "https://www.nhl.com/news/this-date-in-nhl-history-january-26-286014088",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q209518",
+      "kind": "crosscheck",
+      "url": "https://hhof.com/induction_archives/ind99wg2.shtml",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q254",
+      "kind": "primary",
+      "url": "https://mozarteum.at/en/wolfgang-amade-mozart",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q254",
+      "kind": "crosscheck",
+      "url": "https://www.salzburg.info/en/salzburg/city-of-mozart/wolfgang-amadeus-mozart",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q38082",
+      "kind": "primary",
+      "url": "https://www.britishlibrary.cn/en/authors/lewis-carroll/",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q38082",
+      "kind": "crosscheck",
+      "url": "https://www.westminster-abbey.org/abbey-commemorations/commemorations/lewis-carroll",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q2677",
+      "kind": "primary",
+      "url": "https://www.dhm.de/lemo/biografie/wilhelm-ii",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q2677",
+      "kind": "crosscheck",
+      "url": "https://www.awm.gov.au/collection/P11031400",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q1984355",
+      "kind": "primary",
+      "url": "https://www.ocagames.com/orb/books/Ashgabat_2017/AIMAG_CH_resultsBook.pdf",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q1984355",
+      "kind": "crosscheck",
+      "url": "https://ratings.fide.com/profile/12401676",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "birth-year"
+    },
+    {
+      "qid": "Q37571",
+      "kind": "primary",
+      "url": "https://www.guggenheim.org/artwork/artist/jackson-pollock/",
+      "method": "browser",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q37571",
+      "kind": "crosscheck",
+      "url": "https://www.pkf.org/jackson-pollock/",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "identity"
+    },
+    {
+      "qid": "Q218679",
+      "kind": "primary",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb119298072",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q218679",
+      "kind": "crosscheck",
+      "url": "https://www.leonore.archives-nationales.culture.gouv.fr/ui/notice/86362",
+      "method": "browser",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q5685",
+      "kind": "primary",
+      "url": "https://www.prlib.ru/history/618987",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q5685",
+      "kind": "crosscheck",
+      "url": "https://tgliamz.ru/calendar/detaill-V.php?ELEMENT_ID=4245",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q47162",
+      "kind": "primary",
+      "url": "https://www.nobelprize.org/laureate/584",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q47162",
+      "kind": "crosscheck",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb11922460q",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q28189",
+      "kind": "primary",
+      "url": "https://www.nobelprize.org/prizes/physics/1979/salam/cv/",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q28189",
+      "kind": "crosscheck",
+      "url": "https://www.ictp.it/home/celebrating-salams-centennial",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "centennial-inference"
+    },
+    {
+      "qid": "Q8007",
+      "kind": "primary",
+      "url": "https://www.fdrlibrary.org/fdr-facts",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q8007",
+      "kind": "crosscheck",
+      "url": "https://www.archives.gov/presidential-libraries/research/alic/presidents",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q53713",
+      "kind": "primary",
+      "url": "https://sok.riksarkivet.se/sbl/Presentation.aspx?forceOrdinarySite=true&id=7983",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q53713",
+      "kind": "crosscheck",
+      "url": "https://www.encyclopedia.com/people/history/scandinavian-history-biographies/olof-palme",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q1673706",
+      "kind": "primary",
+      "url": "https://www.nationalacademies.org/read/26799/chapter/3",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q1673706",
+      "kind": "crosscheck",
+      "url": "https://www.kyoto-u.ac.jp/en/about/honors/international-awards/nobel-laureates/akasaki",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "birth-year"
+    },
+    {
+      "qid": "Q7312",
+      "kind": "primary",
+      "url": "https://www.austria.info/en-gb/profiles/franz-schubert/",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q7312",
+      "kind": "crosscheck",
+      "url": "https://nac-cna.ca/en/bio/franz-schubert",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q29574",
+      "kind": "primary",
+      "url": "https://www.koninklijkhuis.nl/vraag-en-antwoord/wanneer-zijn-de-leden-van-het-koninklijk-huis-jarig",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q29574",
+      "kind": "crosscheck",
+      "url": "https://research.annefrank.org/en/personen/3880fed2-b10b-4f94-94c6-4ea3f4b5bbe8/?query=Anne+Frank",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q22907663",
+      "kind": "primary",
+      "url": "https://yadvashem-france.org/justes/nom/nguyen-cong-anh-paul/",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    },
+    {
+      "qid": "Q22907663",
+      "kind": "crosscheck",
+      "url": "https://www.ajpn.org/juste-Paul-Nguyen-Cong-Anh-2047.html?source=archive",
+      "method": "extracted-text",
+      "passed": true,
+      "supports": "full-birth-date"
+    }
+  ]
+}

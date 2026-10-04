@@ -32,7 +32,7 @@ export const PEOPLE_02: Person[] = [
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/George_Washington",
     "sourceUrls": [
       "https://www.britannica.com/biography/George-Washington",
-      "https://www.loc.gov/item/today-in-history/february-22"
+      "https://www.nps.gov/gewa/learn/historyculture/george-washington.htm"
     ],
     "notabilityScore": 99,
     "isFeatured": true,
@@ -284,7 +284,7 @@ export const PEOPLE_02: Person[] = [
     "wikidataId": "Q130799",
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/James_Blunt",
     "sourceUrls": [
-      "https://www.allmusic.com/artist/james-blunt-mn0000778408#biography",
+      "https://www.wmg.jp/jamesblunt",
       "https://www.bpi.co.uk"
     ],
     "notabilityScore": 91,
@@ -358,7 +358,7 @@ export const PEOPLE_02: Person[] = [
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Robert_Baden-Powell",
     "sourceUrls": [
       "https://www.britannica.com/biography/Robert-Stephenson-Smyth-Baden-Powell-1st-Baron-Baden-Powell",
-      "https://www.scout.org/who-we-are/our-history/founder"
+      "https://www.scout.org/who-we-are/scout-movement/scoutings-history?page=7"
     ],
     "notabilityScore": 94,
     "region": "west",
@@ -430,7 +430,7 @@ export const PEOPLE_02: Person[] = [
     "wikidataId": "Q109553",
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Renato_Dulbecco",
     "sourceUrls": [
-      "https://www.nobelprize.org/prizes/medicine/1975/dulbecco/biographical/",
+      "https://www.nobelprize.org/prizes/medicine/1975/dulbecco/facts/",
       "https://www.britannica.com/biography/Renato-Dulbecco"
     ],
     "notabilityScore": 92,
@@ -500,10 +500,9 @@ export const PEOPLE_02: Person[] = [
       "Ghi hơn 30.000 điểm trong sự nghiệp chuyên nghiệp."
     ],
     "wikidataId": "Q209921",
-    "wikipediaUrl": "https://vi.wikipedia.org/wiki/Julius_Erving",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Julius_Erving",
     "sourceUrls": [
       "https://www.hoophall.com/hall-of-famers/julius-erving",
-      "https://www.nba.com/history/legends/profiles/julius-erving"
     ],
     "notabilityScore": 93,
     "region": "west",
@@ -643,10 +642,10 @@ export const PEOPLE_02: Person[] = [
       "3 lần dẫn đầu toàn giải NBA về số đường kiến tạo thành bàn."
     ],
     "wikidataId": "Q274469",
-    "wikipediaUrl": "https://vi.wikipedia.org/wiki/Rajon_Rondo",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rajon_Rondo",
     "sourceUrls": [
-      "https://www.nba.com/stats/player/200765",
-      "https://www.basketball-reference.com/players/r/rondora01.html"
+      "https://lalweb.blob.core.windows.net/public/lakers/media-relations/2025-26-Lakers-Media-Guide.pdf",
+      "https://cdn.nba.com/teams/uploads/sites/1610612742/2025/09/2024-25-Dallas-Mavericks-Media-Guide-2_compressed.pdf"
     ],
     "notabilityScore": 90,
     "region": "west",
@@ -679,10 +678,9 @@ export const PEOPLE_02: Person[] = [
       "Hát hai bản nhạc phim đoạt giải Oscar: \"A Whole New World\" và \"Reflection\"."
     ],
     "wikidataId": "Q294144",
-    "wikipediaUrl": "https://vi.wikipedia.org/wiki/Lea_Salonga",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lea_Salonga",
     "sourceUrls": [
-      "https://www.britannica.com/biography/Lea-Salonga",
-      "https://www.tonyawards.com"
+      "https://d23.com/walt-disney-legend/lea-salonga/",
     ],
     "notabilityScore": 91,
     "region": "asia",
@@ -717,7 +715,7 @@ export const PEOPLE_02: Person[] = [
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Michael_Chang",
     "sourceUrls": [
       "https://www.tennisfame.com/hall-of-famers/inductees/michael-chang",
-      "https://www.atptour.com/en/players/michael-chang/c274/overview"
+      "https://www.olympedia.org/athletes/2749"
     ],
     "notabilityScore": 91,
     "region": "west",
@@ -752,7 +750,7 @@ export const PEOPLE_02: Person[] = [
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Lleyton_Hewitt",
     "sourceUrls": [
       "https://www.tennisfame.com/hall-of-famers/inductees/lleyton-hewitt",
-      "https://www.atptour.com/en/players/lleyton-hewitt/h432/overview"
+      "https://www.olympedia.org/athletes/94179"
     ],
     "notabilityScore": 93,
     "region": "world",

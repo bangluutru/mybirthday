@@ -1,0 +1,1562 @@
+[
+  {
+    "qid": "Q212531",
+    "name": "Kate Moss",
+    "birthDate": "1974-01-16",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q212531",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-16.json"
+    },
+    "primarySource": {
+      "url": "https://www.vogue.co.uk/article/kate-moss-biography",
+      "publisher": "Vogue UK",
+      "publisherCountry": "Vương quốc Anh",
+      "quote": "a generation. Born on 16 January 1974, Croydon. Kate Moss",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://catalogue.royalalberthall.com/Record.aspx?id=PERF16257&src=CalmView.Performance",
+        "publisher": "Royal Albert Hall Archive",
+        "publisherCountry": "Vương quốc Anh",
+        "quote": "DS/UK/22168 Moss; Kate (16 January 1974 -); English model and",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q152824",
+    "name": "Susan Sontag",
+    "birthDate": "1933-01-16",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q152824",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-16.json"
+    },
+    "primarySource": {
+      "url": "https://oac.cdlib.org/findaid/ark:/13030/kt2489n7qw",
+      "publisher": "Online Archive of California / UCLA",
+      "publisherCountry": "Hoa Kỳ",
+      "quote": "New York City on January 16, 1933, and was raised",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://susansontag.com/SusanSontag/index.shtml",
+        "publisher": "Susan Sontag official website / estate",
+        "publisherCountry": "Hoa Kỳ",
+        "quote": "New York City on January 16, 1933, grew up in",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q234224",
+    "name": "Dian Fossey",
+    "birthDate": "1932-01-16",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q234224",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-16.json"
+    },
+    "primarySource": {
+      "url": "https://www.nationalgeographic.com/adventure/article/140116-dian-fossey-google-doodle-national-geographic-gorillas-birthday",
+      "publisher": "National Geographic",
+      "publisherCountry": "Hoa Kỳ",
+      "quote": "Francisco, California, on January 16, 1932. She graduated from",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://archives.mcmaster.ca/index.php/fossey-dian-2",
+        "publisher": "McMaster University Archives and Research Collections",
+        "publisherCountry": "Canada",
+        "quote": "Dian Fossey, primatologist, educator, and author, was born in San Francisco, California, on 16 January 1932.",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04",
+        "verificationMethod": "Đọc nội dung đã tải trong trình duyệt ngày 2026-10-04; nguồn cần JavaScript hoặc kiểm tra truy cập tự động."
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q34969",
+    "name": "Benjamin Franklin",
+    "birthDate": "1706-01-17",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q34969",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-17.json"
+    },
+    "primarySource": {
+      "url": "https://www.archives.gov/founding-docs/signers-gallery",
+      "publisher": "U.S. National Archives",
+      "publisherCountry": "Hoa Kỳ",
+      "quote": "He was born on January 17, 1706 in Boston, Massachusetts. How",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://www.nga.org/governor/benjamin-franklin/",
+        "publisher": "National Governors Association",
+        "publisherCountry": "Hoa Kỳ",
+        "quote": "October 1, 1788 Born January 17, 1706 Passed April 17, 1790",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q36107",
+    "name": "Muhammad Ali",
+    "birthDate": "1942-01-17",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q36107",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-17.json"
+    },
+    "primarySource": {
+      "url": "https://www.archives.gov/research/african-americans/individuals/muhammad-ali",
+      "publisher": "US National Archives",
+      "publisherCountry": "Hoa Kỳ",
+      "quote": "Muhammad Ali (January 17, 1942",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04",
+      "context": "Chỉ trích ngày sinh; không sử dụng ngày mất ghi trên trang này."
+    },
+    "crossChecks": [
+      {
+        "url": "https://www.census.gov/library/stories/2022/04/famous-people-who-first-appeared-in-1950-census-records.html",
+        "publisher": "US Census Bureau",
+        "publisherCountry": "Hoa Kỳ",
+        "quote": "Clay, Jr. was born January 17, 1942, in Louisville, Kentucky",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q13133",
+    "name": "Michelle Obama",
+    "birthDate": "1964-01-17",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q13133",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-17.json"
+    },
+    "primarySource": {
+      "url": "https://obamalibrary.archives.gov/obamas/first-lady-michelle-obama",
+      "publisher": "Obama Presidential Library / NARA",
+      "publisherCountry": "Hoa Kỳ",
+      "quote": "January 17, 1964",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04",
+      "context": "Mục tiểu sử Michelle LaVaughn Robinson Obama."
+    },
+    "crossChecks": [
+      {
+        "url": "https://obamawhitehouse.archives.gov/administration/first-lady-michelle-obama",
+        "publisher": "The White House Archives",
+        "publisherCountry": "Hoa Kỳ",
+        "quote": "As First Lady, Mrs. Obama looks forward to continuing her work on the issues close to her heart",
+        "quoteType": "verbatim-excerpt",
+        "supports": "identity",
+        "reviewedAt": "2026-10-04",
+        "limitation": "Chỉ đối chiếu danh tính/năm sinh; không xác nhận đủ ngày tháng năm sinh. Ngày đầy đủ được nguồn chính xác nhận."
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q28810222",
+    "name": "Chung Thị Thanh Lan",
+    "birthDate": "1962-01-17",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q28810222",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/vn-01-17.json"
+    },
+    "primarySource": {
+      "url": "https://www.olympedia.org/athletes/51677",
+      "publisher": "Olympedia / OlyMADMen",
+      "publisherCountry": "Nhóm quốc tế ngoài Việt Nam (Na Uy, Vương quốc Anh, Đức, Canada và các nước khác)",
+      "quote": "Name order Oriental Born 17 January 1962 Measurements 156 cm /",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04",
+      "publisherEvidenceUrls": [
+        "https://www.olympedia.org/static/about",
+        "https://olympstats.com/2016/08/21/the-olymadmen-and-olympstats-and-sports-reference/",
+        "https://oscnewsletter.olympics.com/index_newsletterid%3D15%26lang%3Den.html"
+      ],
+      "publisherNote": "Cơ sở dữ liệu của nhóm sử gia quốc tế OlyMADMen được IOC Olympic Studies Centre giới thiệu là nguồn tra cứu đáng tin cậy; không gọi là cơ sở dữ liệu chính thức IOC và không gán ISOH/Thụy Sĩ là nhà xuất bản.",
+      "publisherAssessment": "Nguồn nghiên cứu nước ngoài được Olympic Studies Centre khuyến nghị; reviewer chấp nhận bản ghi ngày sinh cụ thể này theo tiêu chí nguồn chính thống, không suy rộng cho mọi trang trên host."
+    },
+    "crossChecks": [
+      {
+        "url": "https://digital.la84.org/digital/collection/p17103coll8/id/30689",
+        "publisher": "Moscow 1980 Organizing Committee; bản số hóa LA84 Foundation",
+        "publisherCountry": "Liên Xô (bản gốc); Hoa Kỳ (LA84 số hóa)",
+        "quote": "Chung, Thi Thanh Lan",
+        "quoteType": "verbatim-excerpt",
+        "supports": "identity",
+        "reviewedAt": "2026-10-04",
+        "limitation": "Chỉ đối chiếu danh tính/năm sinh; không xác nhận đủ ngày tháng năm sinh. Ngày đầy đủ được nguồn chính xác nhận.",
+        "context": "Báo cáo chính thức Moscow 1980, tập 3, trang bản số hóa 474 (số in 477): kết quả 100m tự do nữ, VIE, Chung, Thi Thanh Lan.",
+        "publisherEvidenceUrls": [
+          "https://digital.la84.org/digital/collection/p17103coll8/id/30856"
+        ]
+      }
+    ],
+    "checkedAt": "2026-10-04T06:13:16.776187Z",
+    "rationale": "Nguồn ngày sinh là Olympedia; báo cáo ban tổ chức năm 1981 xác nhận danh tính/đoàn Việt Nam độc lập với nhóm biên soạn database. Không dùng Herman de Wael/Sports Reference vì cùng mạng lưới biên soạn."
+  },
+  {
+    "qid": "Q4120045",
+    "name": "Nguyễn Sinh Hùng",
+    "birthDate": "1946-01-18",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q4120045",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/vn-01-18.json"
+    },
+    "primarySource": {
+      "url": "https://ariyajoti.wordpress.com/wp-content/uploads/2013/08/nlm-2013-07-23-red.pdf",
+      "publisher": "The New Light of Myanmar (bản số hóa lưu trữ)",
+      "publisherCountry": "Myanmar",
+      "quote": "the Politburo, born on 18 January, 1946 Member of the Executive",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04",
+      "documentSha256": "7dfe1a853312d6924b9ac1c194ed663974aea22704647c0c360bec37113940dc",
+      "documentPublisher": "The New Light of Myanmar",
+      "mirrorNote": "Host chỉ lưu bản sao PDF; xuất xứ nguồn căn cứ masthead và nhà xuất bản trong tài liệu, không căn cứ quốc gia host."
+    },
+    "crossChecks": [
+      {
+        "url": "https://nvsk.vnanet.vn/nguyen-sinh-hung-1085.vna",
+        "publisher": "Vietnam News Agency",
+        "publisherCountry": "Việt Nam",
+        "quote": "Sinh Hùng Ngày sinh: 18/1/1946 Ngày vào Đảng: 26/5/1977",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z",
+    "crossCheckRationale": "Nguồn nước ngoài được ghi ở primarySource là nguồn xác nhận ngày sinh; nguồn Việt Nam chỉ đối chiếu hồ sơ/danh tính và không thay thế bằng chứng nước ngoài."
+  },
+  {
+    "qid": "Q164038",
+    "name": "Josep Guardiola",
+    "birthDate": "1971-01-18",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q164038",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-18.json"
+    },
+    "primarySource": {
+      "url": "https://www.uefa.com/uefachampionsleague/news/0252-0e764be2c247-18b687939779-1000--josep-guardiola/",
+      "publisher": "Union of European Football Associations (UEFA)",
+      "publisherCountry": "Thụy Sĩ",
+      "quote": "body Date of birth: 18 January 1971 Nationality: Spanish Playing career:",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://datencenter.dfb.de/datencenter/personen/pep-guardiola/trainer",
+        "publisher": "German Football Association (DFB)",
+        "publisherCountry": "Đức",
+        "quote": "Name: Pep Guardiola Geburtstag: 18.01.1971 Nation: Spanien Spiel-Statistik 573",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q83410",
+    "name": "Cary Grant",
+    "birthDate": "1904-01-18",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q83410",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-18.json"
+    },
+    "primarySource": {
+      "url": "https://goldenglobes.com/person/cary-grant/",
+      "publisher": "Golden Globes",
+      "publisherCountry": "Hoa Kỳ",
+      "quote": "Leach in Bristol, UK, January 18, 1904, died November 29,",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://www.bfi.org.uk/lists/cary-grant-10-essential-films",
+        "publisher": "British Film Institute",
+        "publisherCountry": "Vương quốc Anh",
+        "quote": "British-born Cary Grant starred in some of the very finest films to have come out of Hollywood.",
+        "quoteType": "verbatim-excerpt",
+        "supports": "identity",
+        "reviewedAt": "2026-10-04",
+        "limitation": "Chỉ đối chiếu danh tính/năm sinh; không xác nhận đủ ngày tháng năm sinh. Ngày đầy đủ được nguồn chính xác nhận."
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q104434346",
+    "name": "Hanbin",
+    "birthDate": "1998-01-19",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q104434346",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/vn-01-19.json"
+    },
+    "primarySource": {
+      "url": "https://yhent.co.kr/artist/tempest/",
+      "publisher": "YH Entertainment",
+      "publisherCountry": "Hàn Quốc",
+      "quote": "HANBIN 1998. 01. 19",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://tempestjapan.com/feature/profile_hanbin",
+        "publisher": "TEMPEST Japan Official",
+        "publisherCountry": "Nhật Bản",
+        "quote": "GALLERY HANBIN ハンビン BIRTHDAY 1998.01.19 HEIGHT 174cm POSITION VOCAL",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q16867",
+    "name": "Edgar Allan Poe",
+    "birthDate": "1809-01-19",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q16867",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-19.json"
+    },
+    "primarySource": {
+      "url": "https://www.nps.gov/people/edgarallanpoe.htm",
+      "publisher": "US National Park Service",
+      "publisherCountry": "Hoa Kỳ",
+      "quote": "Massachusetts Date of Birth: January 19, 1809 Place of Death: Baltimore,",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://poemuseum.org/",
+        "publisher": "The Poe Museum",
+        "publisherCountry": "Hoa Kỳ",
+        "quote": "Poe was born on January 19th, 1809 to traveling actors Eliza",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q1514",
+    "name": "Janis Joplin",
+    "birthDate": "1943-01-19",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q1514",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-19.json"
+    },
+    "primarySource": {
+      "url": "https://www.tshaonline.org/handbook/entries/joplin-janis-lyn",
+      "publisher": "Texas State Historical Association",
+      "publisherCountry": "Hoa Kỳ",
+      "quote": "Joplin, was born on January 19, 1943, in Port Arthur,",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://atlas.thc.texas.gov/Details/5507013885",
+        "publisher": "Texas Historical Commission",
+        "publisherCountry": "Hoa Kỳ",
+        "quote": "42\" Marker Text (January 19, 1943 - October 4, 1970)",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q22162740",
+    "name": "Phạm Đức Huy",
+    "birthDate": "1995-01-20",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q22162740",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/vn-01-20.json"
+    },
+    "primarySource": {
+      "url": "https://assets.the-afc.com/migration/2/0/20190116%20AC2019%20Final%20Squads.pdf",
+      "publisher": "Asian Football Confederation",
+      "publisherCountry": "Malaysia",
+      "quote": "15 PHAM DUC HUY 20/1/1995 23 P. D. HUY",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://vpf.vn/player/pham-duc-huy/",
+        "publisher": "Vietnam Professional Football",
+        "publisherCountry": "Việt Nam",
+        "quote": "Tiền vệ Năm sinh: 20-01-1995 Quốc tịch: Việt Nam",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z",
+    "crossCheckRationale": "Nguồn nước ngoài được ghi ở primarySource là nguồn xác nhận ngày sinh; nguồn Việt Nam chỉ đối chiếu hồ sơ/danh tính và không thay thế bằng chứng nước ngoài."
+  },
+  {
+    "qid": "Q2252",
+    "name": "Buzz Aldrin",
+    "birthDate": "1930-01-20",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q2252",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-20.json"
+    },
+    "primarySource": {
+      "url": "https://history.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.crew.html",
+      "publisher": "NASA History",
+      "publisherCountry": "Hoa Kỳ",
+      "quote": "Edwin Eugene Aldrin, Jr., January 20, 1930, Montclair, New Jersey.",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://www.congress.gov/91/crecb/1969/07/15/GPO-CRECB-1969-pt15-1-3.pdf",
+        "publisher": "U.S. Congress, Congressional Record",
+        "publisherCountry": "Hoa Kỳ",
+        "quote": "Jan. 20, 1930",
+        "quoteType": "verbatim-fields",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04",
+        "context": "Mục tiểu sử Buzz Aldrin trong Congressional Record; chỉ trích trường ngày sinh."
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q7371",
+    "name": "Federico Fellini",
+    "birthDate": "1920-01-20",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q7371",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-20.json"
+    },
+    "primarySource": {
+      "url": "https://fellinimuseum.it/fellini/",
+      "publisher": "Fellini Museum, Rimini",
+      "publisherCountry": "Ý",
+      "quote": "Biografia Federico Fellini (Rimini, 20 Gennaio 1920 – Roma, 31 Ottobre",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://turismoroma.it/en/node/43343",
+        "publisher": "Turismo Roma / Roma Capitale",
+        "publisherCountry": "Ý",
+        "quote": "he was born on 20 January 1920 – is thus the",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:19:13Z"
+  },
+  {
+    "qid": "Q57407",
+    "name": "Trương Tấn Sang",
+    "birthDate": "1949-01-21",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q57407",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/vn-01-21.json"
+    },
+    "primarySource": {
+      "url": "https://uzo.sakura.ne.jp/burma/nlm/nlm_data/nlm_2012/nlm_11_2012/nlm_29_11_2012.pdf",
+      "publisher": "The New Light of Myanmar (bản số hóa lưu trữ)",
+      "publisherCountry": "Myanmar",
+      "quote": "Truong Tan Sang was born on 21 January 1949 in Long An Province",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04",
+      "documentSha256": "65f2f79f6ee1182ddb808b8935a19ea3525bcede18540386b437b82f462fbb0e",
+      "documentPublisher": "The New Light of Myanmar",
+      "mirrorNote": "Host chỉ lưu bản sao PDF; xuất xứ nguồn căn cứ masthead và nhà xuất bản trong tài liệu, không căn cứ quốc gia host."
+    },
+    "crossChecks": [
+      {
+        "url": "https://classified.japantimes.com/nationalday/pdfs/20140317-Vietnamese_president--s_visit.pdf",
+        "publisher": "The Japan Times",
+        "publisherCountry": "Nhật Bản",
+        "quote": "-Born on Jan. 21, 1949; married with two children",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04",
+        "context": "Brief profile of President Sang, số báo 17/3/2014, trang 6."
+      }
+    ],
+    "checkedAt": "2026-10-04T06:13:16.776439Z",
+    "crossCheckRationale": "Nguồn nước ngoài được ghi ở primarySource là nguồn xác nhận ngày sinh; nguồn Việt Nam chỉ đối chiếu hồ sơ/danh tính và không thay thế bằng chứng nước ngoài.",
+    "rationale": "Hai báo nước ngoài khác nhà xuất bản; đối chiếu ngày sinh ở mục tiểu sử, không dùng URL VNA sai người."
+  },
+  {
+    "qid": "Q18045362",
+    "name": "Nguyễn Công Phượng",
+    "birthDate": "1995-01-21",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q18045362",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/vn-01-21.json"
+    },
+    "primarySource": {
+      "url": "https://assets.the-afc.com/migration/a/c/AC_2019F_TSG_Report_Interactive_compressed.pdf",
+      "publisher": "Asian Football Confederation",
+      "publisherCountry": "Malaysia",
+      "quote": "10 Nguyen Cong Phuong 21-01-1995 N. C. PHUONG Forward",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://jebentertainment.jp/en/leaguer/nguyen-cong-phuong/",
+        "publisher": "JEB Entertainment",
+        "publisherCountry": "Nhật Bản",
+        "quote": "Date of Birth ： 21 Jan. 1995 Height / Weight ：",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q159694",
+    "name": "Christian Dior",
+    "birthDate": "1905-01-21",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q159694",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-21.json"
+    },
+    "primarySource": {
+      "url": "https://www.musee-dior-granville.com/christian-dior/",
+      "publisher": "Musée Christian Dior",
+      "publisherCountry": "Pháp",
+      "quote": "Christian Dior naît le 21 janvier 1905 à Granville, en Normandie,",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://designmuseum.org/designers/christian-dior",
+        "publisher": "Design Museum",
+        "publisherCountry": "Vương quốc Anh",
+        "quote": "Dior was born on 21 January 1905 in Granville, a lively",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q1678059",
+    "name": "Giacôbê Nguyễn Văn Mầu",
+    "birthDate": "1914-01-22",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q1678059",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/vn-01-22.json"
+    },
+    "primarySource": {
+      "url": "https://vntaiwan.catholic.org.tw/vnchurch/vinhlong/gmmau.htm",
+      "publisher": "Vietnamese Missionaries in Taiwan",
+      "publisherCountry": "Đài Loan",
+      "quote": "Sự kiện Chức vụ 22/01/1914 Sinh Tại Bà Rịa",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://www.catholic-hierarchy.org/bishop/bngvm.html",
+        "publisher": "Catholic Hierarchy",
+        "publisherCountry": "Hoa Kỳ",
+        "quote": "Date Age Event Title 22 Jan 1914 Born 21 Sep 1940",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q5679",
+    "name": "Lord Byron",
+    "birthDate": "1788-01-22",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q5679",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-22.json"
+    },
+    "primarySource": {
+      "url": "https://www.westminster-abbey.org/abbey-commemorations/commemorations/lord-byron",
+      "publisher": "Westminster Abbey",
+      "publisherCountry": "Vương quốc Anh",
+      "quote": "He was born on 22nd January 1788 in London, son of",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://research.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00421",
+        "publisher": "Harry Ransom Center, University of Texas at Austin",
+        "publisherCountry": "Hoa Kỳ",
+        "quote": "born in London on January 22, 1788, the son of",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q7724",
+    "name": "August Strindberg",
+    "birthDate": "1849-01-22",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q7724",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-22.json"
+    },
+    "primarySource": {
+      "url": "https://www.strindbergsmuseet.se/om-strindberg/strindbergs-liv/barndom/",
+      "publisher": "Strindberg Museum",
+      "publisherCountry": "Thụy Điển",
+      "quote": "Johan August Strindberg föddes i Stockholm den 22 januari 1849.",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://auguststrindberg.se/biography/",
+        "publisher": "August Strindberg Society",
+        "publisherCountry": "Thụy Điển",
+        "quote": "Svenska Biography AUGUST STRINDBERG 22.1 1849 – 14.5 1912 A",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q41585",
+    "name": "David Hilbert",
+    "birthDate": "1862-01-23",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q41585",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-23.json"
+    },
+    "primarySource": {
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/",
+      "publisher": "MacTutor History of Mathematics",
+      "publisherCountry": "Vương quốc Anh",
+      "quote": "Hilbert Quick Info Born 23 January 1862 Wehlau, near Königsberg, Prussia",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://archiv.saw-leipzig.de/saw-archive/personen/david-hilbert",
+        "publisher": "Saxon Academy of Sciences and Humanities",
+        "publisherCountry": "Đức",
+        "quote": "Fakten Geschlecht Männlich Geburtsdatum 1862-01-23 / Die Mitglieder von",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q502",
+    "name": "Stendhal",
+    "birthDate": "1783-01-23",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q502",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-23.json"
+    },
+    "primarySource": {
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb119255047",
+      "publisher": "Bibliothèque nationale de France",
+      "publisherCountry": "Pháp",
+      "quote": ": Auteur Naissance : 1783-01-23, Grenoble (Isère) Mort",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://musee-stendhal.bm-grenoble.fr/henri-beyle-dit-stendhal-1783-1842.aspx",
+        "publisher": "Musée Stendhal — Bibliothèque municipale de Grenoble",
+        "publisherCountry": "Pháp",
+        "quote": "naît à Grenoble le 23 janvier 1783. Son père, Chérubin",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q40599",
+    "name": "Édouard Manet",
+    "birthDate": "1832-01-23",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q40599",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-23.json"
+    },
+    "primarySource": {
+      "url": "https://www.musee-orsay.fr/sites/default/files/exposition/booklet/2023-03/prog%20salle_Manet%EF%80%A2Degas_ANG.pdf",
+      "publisher": "Musée d’Orsay",
+      "publisherCountry": "Pháp",
+      "quote": "23 January: Birth of Édouard Manet in Paris.",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04",
+      "context": "Mục năm 1832 trong niên biểu của PDF."
+    },
+    "crossChecks": [
+      {
+        "url": "https://www.grandpalais.fr/en/node/944",
+        "publisher": "Grand Palais",
+        "publisherCountry": "Pháp",
+        "quote": "1832 : Edouard Manet naît à Paris, le 23 janvier.",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q21001",
+    "name": "Moon Jae-in",
+    "birthDate": "1953-01-24",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q21001",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-24.json"
+    },
+    "primarySource": {
+      "url": "https://www.korea.net/FILE/pdfdata/2017/11/MoonJae-inPresidentoftheRepublicofKorea_en_1113.pdf",
+      "publisher": "Korea.net / Korean Culture and Information Service",
+      "publisherCountry": "Hàn Quốc",
+      "quote": "January 24, 1953.",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://www.pa.go.kr/online_contents/president/history19.jsp",
+        "publisher": "Presidential Archives, Republic of Korea",
+        "publisherCountry": "Hàn Quốc",
+        "quote": "문재인 (1953. 1. 24 ~)",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q33550",
+    "name": "Friedrich II của Phổ",
+    "birthDate": "1712-01-24",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q33550",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-24.json"
+    },
+    "primarySource": {
+      "url": "https://frederick.mml.ox.ac.uk/history",
+      "publisher": "Frederick the Great Project, University of Oxford",
+      "publisherCountry": "Vương quốc Anh",
+      "quote": "II was born on 24 January 1712 in Berlin and was",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://www.deutsche-biographie.de/sfz56983.html",
+        "publisher": "Deutsche Biographie",
+        "publisherCountry": "Đức",
+        "quote": "1772 von Preußen, * 24.1.1712 Berlin, † 17.8.1786 Sanssouci",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q26517",
+    "name": "Luis Alberto Suárez",
+    "birthDate": "1987-01-24",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q26517",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-24.json"
+    },
+    "primarySource": {
+      "url": "https://www.fcbarcelona.com/en/futbol/primer-equip/jugadors/4138/luis-suarez",
+      "publisher": "FC Barcelona",
+      "publisherCountry": "Tây Ban Nha",
+      "quote": "Uruguay Date of birth 24/01/1987 Weight 72kg Height 182cm",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://auf.org.uy/luis-suarez/",
+        "publisher": "Asociación Uruguaya de Fútbol (AUF)",
+        "publisherCountry": "Uruguay",
+        "quote": "Inter de Miami Nacimiento: 24/01/1987 Ciudad Natal: Salto -",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:19:13Z"
+  },
+  {
+    "qid": "Q15791820",
+    "name": "Anphongsô Nguyễn Hữu Long",
+    "birthDate": "1953-01-25",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q15791820",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/vn-01-25.json"
+    },
+    "primarySource": {
+      "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2013/06/15/0385.pdf",
+      "publisher": "Vatican Press Office",
+      "publisherCountry": "Thành quốc Vatican",
+      "quote": "ad Hà Nôi il 25 gennaio 1953. Ha ricevuto la",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://www.catholic-hierarchy.org/bishop/bnhl.html",
+        "publisher": "Catholic Hierarchy",
+        "publisherCountry": "Hoa Kỳ",
+        "quote": "Date Age Event Title 25 Jan 1953 73.5 Born 29 Dec",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q81960",
+    "name": "Robert Burns",
+    "birthDate": "1759-01-25",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q81960",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-25.json"
+    },
+    "primarySource": {
+      "url": "https://www.gov.uk/government/speeches/burns-night-speech",
+      "publisher": "UK Government",
+      "publisherCountry": "Vương quốc Anh",
+      "quote": "in Alloway, Ayrshire, on January 25th, 1759 and died in Dumfries",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://www.nls.uk/collections/stories/literature-and-poetry/robert-burns-and-his-history-of-myself/",
+        "publisher": "National Library of Scotland",
+        "publisherCountry": "Vương quốc Anh",
+        "quote": "early life Born on 25 January 1759, Robert Burns spent",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q40909",
+    "name": "Virginia Woolf",
+    "birthDate": "1882-01-25",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q40909",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-25.json"
+    },
+    "primarySource": {
+      "url": "https://www.britishlibrary.cn/en/authors/virginia-woolf/",
+      "publisher": "British Library",
+      "publisherCountry": "Vương quốc Anh",
+      "quote": "Virginia Stephen (née) 出生: 25/01/1882 逝世: 28/03/1941 性别: Female",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://virginiawoolfsociety.org.uk/resources/virginia-woolf-a-short-biography/",
+        "publisher": "Virginia Woolf Society of Great Britain",
+        "publisherCountry": "Vương quốc Anh",
+        "quote": "Stephen was born on 25 January 1882 in London. Her father,",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q127417",
+    "name": "Douglas MacArthur",
+    "birthDate": "1880-01-26",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q127417",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-26.json"
+    },
+    "primarySource": {
+      "url": "https://macarthurmemorial.org/DocumentCenter/View/1689/BioDouglasMacArthur?bidId=",
+      "publisher": "MacArthur Memorial",
+      "publisherCountry": "Hoa Kỳ",
+      "quote": "Little Rock, Arkansas, on January 26, 1880, the son of",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://adb.anu.edu.au/lifesummary/macarthur-douglas-10890",
+        "publisher": "Australian Dictionary of Biography, Australian National University",
+        "publisherCountry": "Úc",
+        "quote": "Name Douglas MacArthur Born 26 January, 1880 Little Rock, Arkansas",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q160456",
+    "name": "Angela Davis",
+    "birthDate": "1944-01-26",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q160456",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-26.json"
+    },
+    "primarySource": {
+      "url": "https://www.archives.gov/research/african-americans/individuals/angela-davis",
+      "publisher": "US National Archives",
+      "publisherCountry": "Hoa Kỳ",
+      "quote": "Angela Davis (January 26, 1944) | National Archives",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://museumca.org/wp-content/uploads/2022/09/2022_Timeline_AngelaDavis-FINAL.pdf",
+        "publisher": "Oakland Museum of California",
+        "publisherCountry": "Hoa Kỳ",
+        "quote": "ully reinstated. Oakland, California. January 26, 1944 | Angela Yvonne Davis",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q209518",
+    "name": "Wayne Gretzky",
+    "birthDate": "1961-01-26",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q209518",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-26.json"
+    },
+    "primarySource": {
+      "url": "https://www.nhl.com/news/this-date-in-nhl-history-january-26-286014088",
+      "publisher": "National Hockey League",
+      "publisherCountry": "Hoa Kỳ",
+      "quote": "THIS DATE IN HISTORY: Jan. 26 1961 : Wayne Gretzky,",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://hhof.com/induction_archives/ind99wg2.shtml",
+        "publisher": "Hockey Hall of Fame",
+        "publisherCountry": "Canada",
+        "quote": "Gretzky was born in January 26, 1961. By the age",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q254",
+    "name": "Wolfgang Amadeus Mozart",
+    "birthDate": "1756-01-27",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q254",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-27.json"
+    },
+    "primarySource": {
+      "url": "https://mozarteum.at/en/wolfgang-amade-mozart",
+      "publisher": "International Mozarteum Foundation",
+      "publisherCountry": "Áo",
+      "quote": "Theophilus) was born on 27 January 1756, seventh and last",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://www.salzburg.info/en/salzburg/city-of-mozart/wolfgang-amadeus-mozart",
+        "publisher": "Salzburg Tourism",
+        "publisherCountry": "Áo",
+        "quote": "known as “Wolferl” On 27 January 1756, Wolfgang Amadeus Mozart",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q38082",
+    "name": "Lewis Carroll",
+    "birthDate": "1832-01-27",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q38082",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-27.json"
+    },
+    "primarySource": {
+      "url": "https://www.britishlibrary.cn/en/authors/lewis-carroll/",
+      "publisher": "The British Library",
+      "publisherCountry": "Vương quốc Anh",
+      "quote": "Charles Lutwidge Dodgson 出生: 27/01/1832 逝世: 14/01/1898 性别: Male",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://www.westminster-abbey.org/abbey-commemorations/commemorations/lewis-carroll",
+        "publisher": "Westminster Abbey",
+        "publisherCountry": "Vương quốc Anh",
+        "quote": "Charles was born on 27th January 1832 in Daresbury, Cheshire, a",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q2677",
+    "name": "Wilhelm II, Hoàng đế Đức",
+    "birthDate": "1859-01-27",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q2677",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-27.json"
+    },
+    "primarySource": {
+      "url": "https://www.dhm.de/lemo/biografie/wilhelm-ii",
+      "publisher": "German Historical Museum",
+      "publisherCountry": "Đức",
+      "quote": "1859 27. Januar: Friedrich Wilhelm wird als erstes Kind des Prinzen Friedrich Wilhelm von Preußen",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04",
+      "context": "Năm 1859 là tiêu đề niên biểu, tiếp theo là ngày 27. Januar."
+    },
+    "crossChecks": [
+      {
+        "url": "https://www.awm.gov.au/collection/P11031400",
+        "publisher": "Australian War Memorial",
+        "publisherCountry": "Úc",
+        "quote": "Wilhelm II Birth Date 27/01/1859 Birth Place Germany: Berlin",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q1984355",
+    "name": "Nguyễn Thị Mai Hưng",
+    "birthDate": "1994-01-28",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q1984355",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/vn-01-28.json"
+    },
+    "primarySource": {
+      "url": "https://www.ocagames.com/orb/books/Ashgabat_2017/AIMAG_CH_resultsBook.pdf",
+      "publisher": "Olympic Council of Asia",
+      "publisherCountry": "Kuwait",
+      "quote": "NGUYEN Thi Mai Hung 28 JAN 1994 DOAN Thi Van Anh",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://ratings.fide.com/profile/12401676",
+        "publisher": "FIDE, International Chess Federation",
+        "publisherCountry": "Thụy Sĩ",
+        "quote": "Nguyen Thi Mai Hung 2306 STANDARD 2126 RAPID 2088 BLITZ FIDE ID 12401676 Federation Vietnam B-Year 1994",
+        "quoteType": "verbatim-excerpt",
+        "supports": "birth-year",
+        "reviewedAt": "2026-10-04",
+        "limitation": "Chỉ đối chiếu danh tính/năm sinh; không xác nhận đủ ngày tháng năm sinh. Ngày đầy đủ được nguồn chính xác nhận."
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q37571",
+    "name": "Jackson Pollock",
+    "birthDate": "1912-01-28",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q37571",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-28.json"
+    },
+    "primarySource": {
+      "url": "https://www.guggenheim.org/artwork/artist/jackson-pollock/",
+      "publisher": "Solomon R. Guggenheim Foundation",
+      "publisherCountry": "Hoa Kỳ",
+      "quote": "Paul Jackson Pollock was born on January 28, 1912, in Cody, Wyoming.",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04",
+      "verificationMethod": "Đọc nội dung đã tải trong trình duyệt ngày 2026-10-04; nguồn cần JavaScript hoặc kiểm tra truy cập tự động."
+    },
+    "crossChecks": [
+      {
+        "url": "https://www.pkf.org/jackson-pollock/",
+        "publisher": "Pollock-Krasner Foundation",
+        "publisherCountry": "Hoa Kỳ",
+        "quote": "Born in Wyoming and raised in Arizona and California, Pollock arrived in New York in 1930",
+        "quoteType": "verbatim-excerpt",
+        "supports": "identity",
+        "reviewedAt": "2026-10-04",
+        "limitation": "Chỉ đối chiếu danh tính/năm sinh; không xác nhận đủ ngày tháng năm sinh. Ngày đầy đủ được nguồn chính xác nhận."
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q218679",
+    "name": "Colette",
+    "birthDate": "1873-01-28",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q218679",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-28.json"
+    },
+    "primarySource": {
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb119298072",
+      "publisher": "Bibliothèque nationale de France",
+      "publisherCountry": "Pháp",
+      "quote": "Interprète, Participant Naissance : 1873-01-28, Saint-Sauveur-en-Puisaye (Yonne) Mort",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://www.leonore.archives-nationales.culture.gouv.fr/ui/notice/86362",
+        "publisher": "French National Archives, Léonore database",
+        "publisherCountry": "Pháp",
+        "quote": "28/01/1873",
+        "quoteType": "verbatim-fields",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04",
+        "context": "Tên và ngày sinh từ hai trường riêng trong giao diện Léonore.",
+        "verificationMethod": "Đọc nội dung đã tải trong trình duyệt ngày 2026-10-04; nguồn cần JavaScript hoặc kiểm tra truy cập tự động."
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q5685",
+    "name": "Anton Pavlovich Chekhov",
+    "birthDate": "1860-01-29",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q5685",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-29.json"
+    },
+    "primarySource": {
+      "url": "https://www.prlib.ru/history/618987",
+      "publisher": "Presidential Library of Russia",
+      "publisherCountry": "Nga",
+      "quote": "29 января 1860",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://tgliamz.ru/calendar/detaill-V.php?ELEMENT_ID=4245",
+        "publisher": "Taganrog Literary and Historical-Architectural Museum",
+        "publisherCountry": "Nga",
+        "quote": "29 января 1860 года родился русский писатель",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z",
+    "calendarNote": "Nguồn thư viện ghi 17 (29) января 1860: 17 là lịch Julian, 29 là Gregorian. Hồ sơ dùng 29/1 theo Wikidata Gregorian, không trộn hai lịch."
+  },
+  {
+    "qid": "Q47162",
+    "name": "Romain Rolland",
+    "birthDate": "1866-01-29",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q47162",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-29.json"
+    },
+    "primarySource": {
+      "url": "https://www.nobelprize.org/laureate/584",
+      "publisher": "Nobel Prize Outreach",
+      "publisherCountry": "Thụy Điển",
+      "quote": "in Literature 1915 Born: 29 January 1866, Clamecy, France Died:",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb11922460q",
+        "publisher": "Bibliothèque nationale de France",
+        "publisherCountry": "Pháp",
+        "quote": "Interprète, Participant Naissance : 1866-01-29, Clamecy (France) Mort",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q28189",
+    "name": "Abdus Salam",
+    "birthDate": "1926-01-29",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q28189",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-29.json"
+    },
+    "primarySource": {
+      "url": "https://www.nobelprize.org/prizes/physics/1979/salam/cv/",
+      "publisher": "Nobel Prize Outreach",
+      "publisherCountry": "Thụy Điển",
+      "quote": "speech Date of birth: 29 January, 1926 Place of birth: Jhang,",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://www.ictp.it/home/celebrating-salams-centennial",
+        "publisher": "Abdus Salam International Centre for Theoretical Physics",
+        "publisherCountry": "Ý",
+        "quote": "Abdus Salam, who would have turned 100 on 29 January 2026.",
+        "quoteType": "verbatim-excerpt",
+        "supports": "centennial-inference",
+        "reviewedAt": "2026-10-04",
+        "context": "Mốc 100 tuổi ngày 29/1/2026 suy ra 29/1/1926; không phải câu ghi trực tiếp năm sinh."
+      }
+    ],
+    "checkedAt": "2026-10-04T02:54:06Z"
+  },
+  {
+    "qid": "Q8007",
+    "name": "Franklin D. Roosevelt",
+    "birthDate": "1882-01-30",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q8007",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-30.json"
+    },
+    "primarySource": {
+      "url": "https://www.fdrlibrary.org/fdr-facts",
+      "publisher": "Franklin D. Roosevelt Presidential Library and Museum",
+      "publisherCountry": "Hoa Kỳ",
+      "quote": "Roosevelt was born on January 30, 1882, at the family",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://www.archives.gov/presidential-libraries/research/alic/presidents",
+        "publisher": "US National Archives",
+        "publisherCountry": "Hoa Kỳ",
+        "quote": "of FDR's birth on January 30, 1882, Prologue looks at",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q53713",
+    "name": "Olof Palme",
+    "birthDate": "1927-01-30",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q53713",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-30.json"
+    },
+    "primarySource": {
+      "url": "https://sok.riksarkivet.se/sbl/Presentation.aspx?forceOrdinarySite=true&id=7983",
+      "publisher": "Swedish National Archives, Svenskt Biografiskt Lexikon",
+      "publisherCountry": "Thụy Điển",
+      "quote": "P 2, f 30 jan 1927 i Sthlm, Svea art,",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://www.encyclopedia.com/people/history/scandinavian-history-biographies/olof-palme",
+        "publisher": "Encyclopedia.com",
+        "publisherCountry": "Hoa Kỳ",
+        "quote": "his policies. Born on January 30, 1927, in Stockholm, Sweden,",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q1673706",
+    "name": "Akasaki Isamu",
+    "birthDate": "1929-01-30",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q1673706",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-30.json"
+    },
+    "primarySource": {
+      "url": "https://www.nationalacademies.org/read/26799/chapter/3",
+      "publisher": "US National Academies",
+      "publisherCountry": "Hoa Kỳ",
+      "quote": "92. He was born January 30, 1929, to Suguo and",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://www.kyoto-u.ac.jp/en/about/honors/international-awards/nobel-laureates/akasaki",
+        "publisher": "Kyoto University",
+        "publisherCountry": "Nhật Bản",
+        "quote": "Born in Kagoshima Prefecture in 1929, Dr Isamu Akasaki graduated from the Department of Chemistry",
+        "quoteType": "verbatim-excerpt",
+        "supports": "birth-year",
+        "reviewedAt": "2026-10-04",
+        "limitation": "Chỉ đối chiếu danh tính/năm sinh; không xác nhận đủ ngày tháng năm sinh. Ngày đầy đủ được nguồn chính xác nhận."
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q7312",
+    "name": "Franz Schubert",
+    "birthDate": "1797-01-31",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q7312",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-31.json"
+    },
+    "primarySource": {
+      "url": "https://www.austria.info/en-gb/profiles/franz-schubert/",
+      "publisher": "Austrian National Tourist Office",
+      "publisherCountry": "Áo",
+      "quote": "a genius. Born on 31 January 1797 in Himmelpfortgrund, a suburb",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://nac-cna.ca/en/bio/franz-schubert",
+        "publisher": "National Arts Centre of Canada",
+        "publisherCountry": "Canada",
+        "quote": "Born in Vienna on January 31, 1797, Schubert took his",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q29574",
+    "name": "Beatrix của Hà Lan",
+    "birthDate": "1938-01-31",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q29574",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/01-31.json"
+    },
+    "primarySource": {
+      "url": "https://www.koninklijkhuis.nl/vraag-en-antwoord/wanneer-zijn-de-leden-van-het-koninklijk-huis-jarig",
+      "publisher": "Dutch Royal House",
+      "publisherCountry": "Hà Lan",
+      "quote": "31 januari - Prinses Beatrix (1938)",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://research.annefrank.org/en/personen/3880fed2-b10b-4f94-94c6-4ea3f4b5bbe8/?query=Anne+Frank",
+        "publisher": "Anne Frank House",
+        "publisherCountry": "Hà Lan",
+        "quote": "der Nederlanden Baarn, Nederland Jan. 31, 1938 In leven Prinses Beatrix",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:05:47Z"
+  },
+  {
+    "qid": "Q22907663",
+    "name": "Paul Nguyễn Công Anh",
+    "birthDate": "1919-01-31",
+    "wikidata": {
+      "url": "https://www.wikidata.org/wiki/Q22907663",
+      "claim": "P569; Gregorian date precision: day",
+      "candidateFile": "nhap/wd/vn-01-31.json"
+    },
+    "primarySource": {
+      "url": "https://yadvashem-france.org/justes/nom/nguyen-cong-anh-paul/",
+      "publisher": "Comité Français pour Yad Vashem",
+      "publisherCountry": "Pháp",
+      "quote": "Date de naissance : 31 Janvier 1919 Date de naissance -",
+      "quoteType": "verbatim-excerpt",
+      "supports": "full-birth-date",
+      "reviewedAt": "2026-10-04"
+    },
+    "crossChecks": [
+      {
+        "url": "https://www.ajpn.org/juste-Paul-Nguyen-Cong-Anh-2047.html?source=archive",
+        "publisher": "AJPN, Anonymes Justes et Persécutés durant la période nazie",
+        "publisherCountry": "Pháp",
+        "quote": "cycles Date de naissance: 31/01/1919 (Vitenam) Date de décès:",
+        "quoteType": "verbatim-excerpt",
+        "supports": "full-birth-date",
+        "reviewedAt": "2026-10-04"
+      }
+    ],
+    "checkedAt": "2026-10-04T02:54:06Z",
+    "crossCheckRationale": "AJPN là một hội ký ức độc lập của Pháp với cơ sở dữ liệu có đóng góp cộng đồng; chỉ dùng làm đối chiếu phụ. Ngày sinh dựa trên hồ sơ chính thức của Comité Français pour Yad Vashem."
+  }
+]

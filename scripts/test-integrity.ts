@@ -1,4 +1,5 @@
 import { ALL_PEOPLE, HISTORY_EVENTS, HISTORY_EVENTS_22_FEB, getBirthdayData } from '../src/data/birthdays';
+import { isAdultOnDate, isValidIsoDate } from './wikidata-candidates';
 
 interface Failure {
   suite: string;
@@ -55,6 +56,13 @@ assert('Test 0 (Positive)', isValidCalendarDate(1732, 2, 22), 'Must accept 1732-
 assert('Test 0 (Positive)', isValidCalendarDate(1975, 2, 22), 'Must accept 1975-02-22');
 assert('Test 0 (Positive)', isValidCalendarDate(1984, 4, 10), 'Must accept 1984-04-10');
 assert('Test 0 (Positive)', isValidCalendarDate(1939, 2, 28), 'Must accept 1939-02-28');
+
+console.log('Checking Test 0: Dynamic adult-age boundary in Wikidata candidate filter...');
+assert('Test 0 (Age)', isAdultOnDate('2008-10-03', '2026-10-03'), 'Must include a person on their 18th birthday');
+assert('Test 0 (Age)', !isAdultOnDate('2008-10-04', '2026-10-03'), 'Must exclude a person one day before their 18th birthday');
+assert('Test 0 (Age)', isAdultOnDate('2008-10-02', '2026-10-03'), 'Must include a person who turned 18 the previous day');
+assert('Test 0 (Date)', !isValidIsoDate('2026-02-29'), 'Candidate as-of date validation must reject impossible calendar dates');
+assert('Test 0 (Date)', isValidIsoDate('2024-02-29'), 'Candidate as-of date validation must accept leap day');
 
 // ------------------------------------------------------------
 // Test A: Malformed birthDate & Impossible Calendar Dates
@@ -520,6 +528,18 @@ function getUrlHostname(urlStr: string): string {
   }
 }
 
+// These hosts are archives/research databases, not institutional publishers.
+// Approve only the reviewed document and person, never the entire hosting domain.
+// Publisher provenance and document hashes are recorded in B004-evidence.json.
+const VERIFIED_FOREIGN_VN_DOCUMENTS: Readonly<Record<string, readonly string[]>> = {
+  'Q4120045': ['https://ariyajoti.wordpress.com/wp-content/uploads/2013/08/nlm-2013-07-23-red.pdf'],
+  'Q57407': ['https://uzo.sakura.ne.jp/burma/nlm/nlm_data/nlm_2012/nlm_11_2012/nlm_29_11_2012.pdf'],
+  // OlyMADMen international research database recommended by IOC Olympic Studies Centre.
+  // It is not the official IOC database. Only this reviewed DOB record is approved.
+  'Q28810222': ['https://www.olympedia.org/athletes/51677'],
+};
+
+
 for (const p of ALL_PEOPLE) {
   // Light check for all people (including old 30 people)
   if (p.wikidataId) {
@@ -554,8 +574,8 @@ for (const p of ALL_PEOPLE) {
 
   assert(
     'Rule P',
-    Array.isArray(p.sourceUrls) && p.sourceUrls.length >= 2,
-    `New person ${p.id} must have at least 2 sourceUrls, got: ${p.sourceUrls?.length}`
+    Array.isArray(p.sourceUrls) && p.sourceUrls.length >= 3,
+    `New person ${p.id} must have Wikidata plus at least 2 independent sourceUrls, got: ${p.sourceUrls?.length}`
   );
 
   if (p.sourceUrls && p.wikidataId) {
@@ -566,15 +586,58 @@ for (const p of ALL_PEOPLE) {
       `New person ${p.id} sourceUrls must contain "${expectedWdUrl}"`
     );
 
-    const hasIndependentSource = p.sourceUrls.some((u) => {
+    const independentSources = p.sourceUrls.filter((u) => {
       const h = getUrlHostname(u);
       return h && !h.endsWith('wikipedia.org') && !h.endsWith('wikidata.org') && !h.endsWith('wikimedia.org');
+    });
+    const independentHosts = new Set(independentSources.map(getUrlHostname));
+    const institutionalHosts = [
+      'britannica.com', 'nobelprize.org', 'olympedia.org', 'loc.gov', 'nps.gov',
+      'oscars.org', 'rockhall.com', 'ecb.europa.eu', 'parliament.uk', 'royal.uk',
+      'vatican.va', 'carmelitaniscalzi.com', 'therese-de-lisieux.catholique.fr', 'deutsche-biographie.de', 'royalsociety.org',
+      'polskabibliotekamuzyczna.pl', 'tolkienestate.com', 'formula1.com', 'innertemplelibrary.org.uk',
+      'vpf.vn', 'slnafc.com', 'braillemuseum.org', 'unibo.it', 'dhm.de', 'konrad-adenauer.de',
+      'bundestag.de', 'bundespraesident.de', 'poets.org', 'ascsa.edu.gr', 'whitehousehistory.org',
+      'graceland.com', 'hawking.org.uk', 'nixonlibrary.gov', 'womenshistory.org', 'dempseycenter.org',
+      'usopm.org', 'teriin.org', 'aacr.org', 'parks.ca.gov', 'wbtourism.gov.in', 'ramakrishna.org.sg',
+      'academie-francaise.fr', 'uni-wuerzburg.de', 'mathshistory.st-andrews.ac.uk', 'vnanet.vn',
+      'schweitzer.org', 'libcat.weber.edu', 'vov.vn', 'thekingcenter.org', 'iwf.sport', 'worldarchery.sport',
+      'hoahao.org', 'd23.com', 'ibdb.com', 'hoophall.com', 'nba.com', 'basketball-reference.com',
+      'quochoi.vn', 'bnf.fr',
+      'museelouisbraille.com', 'archives.iu.edu', 'transcription.si.edu', 'informs.org',
+      'bpl.org', 'patrickdempsey.com', 'b.vjst.vn', 'vov.vn', 'voh.com.vn', 'tshaonline.org', 'jfk.org', 'cambridgeppf.org',
+      'royalalberthall.com', 'cdlib.org', 'mancity.com', 'goldenglobes.com', 'fcbarcelona.com',
+      'mcmaster.ca', 'dfb.de', 'musee-dior-granville.com', 'nac-cna.ca', 'guggenheim.org',
+      'grandpalais.fr', 'nls.uk', 'musee-stendhal.bm-grenoble.fr',
+      'turismoroma.it', 'auf.org.uy',
+      'federicofellini.it', 'fellinimuseum.it', 'designmuseum.org', 'westminster-abbey.org',
+      'strindbergsmuseet.se', 'saw-leipzig.de', 'musee-orsay.fr', 'museodelprado.es', 'korea.net',
+      'premierleague.com', 'vntaiwan.catholic.org.tw', 'catholic-hierarchy.org', 'nts.org.uk',
+      'britishlibrary.cn', 'virginiawoolfsociety.org.uk', 'macarthurmemorial.org', 'adb.anu.edu.au',
+      'californiamuseum.org', 'nhl.com', 'hhof.com', 'mozarteum.at', 'salzburg.info', 'dhm.de',
+      'awm.gov.au', 'pkf.org', 'archives-nationales.culture.gouv.fr', 'prlib.ru', 'tgliamz.ru',
+      'ictp.it', 'fdrlibrary.org', 'sok.riksarkivet.se', 'nationalacademies.org', 'oeaw.ac.at',
+      'austria.info', 'koninklijkhuis.nl', 'annefrank.org', 'yadvashem-france.org', 'ajpn.org',
+      'tempestjapan.com', 'yhent.co.kr', 'ncapec.org', 'ocagames.com', 'the-afc.com',
+      'jebentertainment.jp', 'fide.com', 'vnanet.vn', 'vatican.va', 'royalsociety.org', 'bfi.org.uk',
+    ];
+    const hasInstitutionalSource = independentSources.some((u) => {
+      const h = getUrlHostname(u);
+      return h.endsWith('.gov') || h.endsWith('.gov.vn') || h.endsWith('.edu') ||
+        h.endsWith('.edu.vn') || h.endsWith('.ac.uk') ||
+        institutionalHosts.some((domain) => h === domain || h.endsWith(`.${domain}`)) ||
+        (VERIFIED_FOREIGN_VN_DOCUMENTS[p.wikidataId || '']?.includes(u) ?? false);
     });
 
     assert(
       'Rule P',
-      hasIndependentSource,
-      `New person ${p.id} must have at least 1 independent source outside wikipedia/wikidata/wikimedia`
+      independentHosts.size >= 2,
+      `New person ${p.id} must have at least 2 independent source hosts, got: ${independentHosts.size}`
+    );
+    assert(
+      'Rule P',
+      hasInstitutionalSource,
+      `New person ${p.id} must cite at least 1 official or institutional source`
     );
   }
 }
@@ -614,6 +677,90 @@ for (const p of ALL_PEOPLE) {
   if (nonWikiUrls.length === 1 && getUrlHostname(nonWikiUrls[0]).includes('imdb.com')) {
     assert('Rule Q', false, `Person ${p.id} cannot use imdb.com as sole independent source`);
   }
+}
+
+// ------------------------------------------------------------
+// Rule S: Minimum January daily coverage
+// ------------------------------------------------------------
+console.log('Checking Rule S: January 1-31 minimum daily coverage (>= 3 people)...');
+
+const COVERAGE_EXCEPTIONS_JAN: { day: number; reason: string }[] = [];
+for (let day = 1; day <= 31; day++) {
+  const count = ALL_PEOPLE.filter((p) => p.birthMonth === 1 && p.birthDay === day).length;
+  const exception = COVERAGE_EXCEPTIONS_JAN.find((item) => item.day === day && item.reason.trim());
+  assert(
+    'Rule S',
+    count >= 3 || Boolean(exception),
+    `January ${day} has only ${count} verified people; minimum is 3 and no documented exception exists`
+  );
+}
+
+// ------------------------------------------------------------
+// Rule T: Vietnamese/international balance for the January pilot
+// ------------------------------------------------------------
+console.log('Checking Rule T: January 1-31 additions nationality balance (20%-40% Vietnamese)...');
+const NEW_JAN_PEOPLE = ALL_PEOPLE.filter((p) =>
+  p.birthMonth === 1 && p.birthDay >= 1 && p.birthDay <= 31 &&
+  !(OLD_30_PERSON_IDS.has(p.id) && p.verifiedAt === '2026-10-03')
+);
+const newVietnameseCount = NEW_JAN_PEOPLE.filter((p) => p.countryCode === 'VN').length;
+const newInternationalCount = NEW_JAN_PEOPLE.length - newVietnameseCount;
+const vietnameseShare = NEW_JAN_PEOPLE.length === 0 ? 0 : newVietnameseCount / NEW_JAN_PEOPLE.length;
+console.log(`  January pilot additions: ${NEW_JAN_PEOPLE.length} total; ${newVietnameseCount} Vietnamese; ${newInternationalCount} international; ${(vietnameseShare * 100).toFixed(1)}% Vietnamese`);
+assert('Rule T', NEW_JAN_PEOPLE.length > 0, 'January pilot must include verified additions before balance can be evaluated');
+assert(
+  'Rule T',
+  vietnameseShare >= 0.2 && vietnameseShare <= 0.4,
+  `Vietnamese share ${(vietnameseShare * 100).toFixed(1)}% must be within the 20%-40% target`
+);
+
+// ------------------------------------------------------------
+// Rule U: Foreign institutional source for B004 Vietnamese profiles
+// ------------------------------------------------------------
+console.log('Checking Rule U: B004 Vietnamese profiles have a verified foreign source...');
+
+// Add a domain only after confirming the publisher is an institution based outside Vietnam.
+const VERIFIED_FOREIGN_VN_SOURCE_HOSTS = [
+  'the-afc.com', 'worldarchery.sport', 'olympics.com',
+  'olympic.org', 'fifa.com', 'fiba.basketball', 'worldathletics.org',
+  'badmintonasia.org', 'ittf.com', 'tennisfame.com', 'tempestjapan.com',
+  'yhent.co.kr', 'ncapec.org', 'vntaiwan.catholic.org.tw',
+  'vatican.va', 'ocagames.com', 'yadvashem-france.org',
+];
+
+const B004_VIETNAMESE_PEOPLE = ALL_PEOPLE.filter((p) =>
+  p.countryCode === 'VN' && p.birthMonth === 1 && p.birthDay >= 16 && p.birthDay <= 31 &&
+  !(OLD_30_PERSON_IDS.has(p.id) && p.verifiedAt === '2026-10-03')
+);
+
+
+function isVerifiedForeignVnSource(qid: string, url: string): boolean {
+  const host = getUrlHostname(url);
+  return VERIFIED_FOREIGN_VN_SOURCE_HOSTS.some((domain) => host === domain || host.endsWith(`.${domain}`)) ||
+    (VERIFIED_FOREIGN_VN_DOCUMENTS[qid]?.includes(url) ?? false);
+}
+
+for (const [qid, urls] of Object.entries(VERIFIED_FOREIGN_VN_DOCUMENTS)) {
+  for (const url of urls) {
+    assert('Rule U positive', isVerifiedForeignVnSource(qid, url), `Reviewed document must pass: ${url}`);
+    assert('Rule U negative', !isVerifiedForeignVnSource('Q0', url), 'Reviewed document must not approve a different person');
+    const unrelated = new URL('/unreviewed-page', url).href;
+    assert('Rule U negative', !isVerifiedForeignVnSource(qid, unrelated), `Unreviewed archive page must fail: ${unrelated}`);
+    assert('Rule U negative', !isVerifiedForeignVnSource(qid, `${url}?unreviewed=1`), 'Unreviewed document variant must fail');
+  }
+}
+assert('Rule U negative', !isVerifiedForeignVnSource('Q57407', 'https://the-afc.com.evil.example/bio'), 'Lookalike institutional host must fail');
+assert('Rule U negative', !isVerifiedForeignVnSource('Q57407', 'not-a-url'), 'Malformed source must fail');
+
+for (const p of B004_VIETNAMESE_PEOPLE) {
+  const hasForeignInstitutionalSource = (p.sourceUrls || []).some((url) =>
+    isVerifiedForeignVnSource(p.wikidataId || '', url)
+  );
+  assert(
+    'Rule U',
+    hasForeignInstitutionalSource,
+    `B004 Vietnamese person ${p.id} needs an independent foreign institutional source`
+  );
 }
 
 // ------------------------------------------------------------

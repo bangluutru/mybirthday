@@ -73,12 +73,18 @@ async function main() {
     }
   }
 
-  let peopleToVerify = ALL_PEOPLE.filter((p) => p.wikidataId && p.wikidataId.startsWith('Q'));
+  let peopleToVerify = ALL_PEOPLE.filter((p) => Boolean(p.wikidataId));
 
   if (filterMonth !== null) {
+    if (!Number.isInteger(filterMonth) || filterMonth < 1 || filterMonth > 12) {
+      throw new Error(`Invalid --month value: ${filterMonth}; expected 1-12`);
+    }
     peopleToVerify = peopleToVerify.filter((p) => p.birthMonth === filterMonth);
   }
   if (filterOnlyAfter !== null) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(filterOnlyAfter)) {
+      throw new Error(`Invalid --only-after date: ${filterOnlyAfter}; expected YYYY-MM-DD`);
+    }
     peopleToVerify = peopleToVerify.filter((p) => p.verifiedAt && p.verifiedAt > filterOnlyAfter!);
   }
 
@@ -118,15 +124,16 @@ async function main() {
       }
 
       // Check if any P569 claim matches local birthDate with precision 11 (day)
-      const matchingClaim = results.find(
-        (r) => r.birthDate === p.birthDate && r.precision === 11
+      const matchingClaim = results.find((r) =>
+        r.birthDate === p.birthDate && r.precision === 11 &&
+        r.calendar === 'http://www.wikidata.org/entity/Q1985727'
       );
 
       if (matchingClaim) {
         matchCount++;
       } else {
         mismatchCount++;
-        const wdDobs = results.map((r) => `${r.birthDate} (prec=${r.precision})`);
+        const wdDobs = results.map((r) => `${r.birthDate} (prec=${r.precision}, calendar=${r.calendar})`);
         mismatches.push({
           id: p.id,
           name: p.name,
