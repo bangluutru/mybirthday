@@ -2,27 +2,35 @@
 
 ## Current cycle
 
-Cycle: BV-005
-State: ACCEPTED
-
-Executor: Codex thực hiện sửa B004-v2 theo yêu cầu chủ dự án
-Reviewer: Codex (B004 theo yêu cầu chủ dự án)
-Active task: B004 — nhân vật sinh 16/1–31/1
-Scope: dữ liệu người sinh; không thêm sự kiện, không sửa UI.
-Latest review: B004-v2 / r2 — DAT (2026-10-04); `.ai/hop-thu-mybirthday/review/B004-people-jan-16-31-r2.md`.
-Next action: tích hợp Git theo phê duyệt push khi đạt; dừng sau xác nhận remote. Không giao việc tiếp theo.
-Git: trước tích hợp, local và origin/main 0 ahead / 0 behind; B004 đã DAT, được tích hợp cùng B003 đã DAT theo phê duyệt chủ dự án. JSON ứng viên Wikidata thô giữ local.
-Validation (reviewer chạy lại): Rule A–U, Wikidata 123/123, URL 403/403 (0 MANUAL pending), lint, TypeScript, build, coverage và 8 route smoke đều đạt. Coverage 123 người / 42 ngày; tháng 1 đủ 31/31 ngày. B003+B004 có 19/93 người Việt (20,4%).
-Resolution B004: đã thay nguồn sai người, sửa/rà 98 đoạn trích và giới hạn nguồn, sửa xuất xứ Olympedia và dùng báo cáo Olympic gốc để đối chiếu Thanh Lan, siết Rule U theo URL/QID với kiểm tra âm. Cổng cuối phát hiện URL phụ Thérèse timeout; đã thay bằng Press-kit.pdf chính thức, giữ ngày sinh/QID/Vatican. Tất cả cổng chạy lại đạt. Xem review r2.
+Cycle: BV-006
+State: OPEN
+Executor: Gemini 3.8 (Antigravity) qua hộp thư
+Reviewer: Codex theo yêu cầu chủ dự án
+Active task: B005 — nhân vật sinh 1/2–15/2; `viec/B005-people-feb-01-15.md`.
+Scope: chỉ bổ sung dữ liệu người sinh 1–15/2 và cổng V/W; không UI/sự kiện.
+Next action: executor thực hiện B005 và nộp báo cáo, sau đó dừng chờ reviewer. Không mở B006 trước DAT và tích hợp B005.
+Baseline: commit ed24674a40e12189535ec245706993a94a38b8aa; 123 người / 42 ngày. Tháng 1: 95 người / 31 ngày; tháng 2: 21 người, trong 1–15/2 chỉ Jules Verne ngày 8/2. Chưa thêm dữ liệu B005.
+Acceptance: mỗi ngày ≥3 người, ≤8 người mới/ngày; người Việt chiếm 20%–40% hồ sơ mới B005 (loại baseline khỏi mẫu số); nguồn nước ngoài xác nhận đầy đủ ngày sinh cho mọi người Việt mới. Rà 100% nguồn đối chiếu, đúng người, quote thật và độc lập biên tập. Giữ A–U, thêm V/W; toàn bộ cổng trong chỉ thị B005 phải đạt.
+Validation của vòng giao việc: chỉ kiểm tài liệu/chỉ thị và trạng thái hộp thư; chưa chạy cổng dữ liệu B005, chưa có kết quả DAT.
+Git: B003/B004 đã push main tại ed24674; vòng này chỉ xuất bản chỉ thị B005, không commit raw Wikidata.
 
 ## Last completed cycle
+
+Cycle: BV-005
+State: ACCEPTED
+Task: B004 — nhân vật sinh 16/1–31/1.
+Review: B004-v2 / r2 DAT; `review/B004-people-jan-16-31-r2.md` (2026-10-04).
+Integration: ed24674a40e12189535ec245706993a94a38b8aa đã push origin/main, gồm B003 đã DAT và B004 đã DAT theo phê duyệt chủ dự án.
+Validation khi đóng: Rule A–U, Wikidata 123/123, URL 403/403 (0 MANUAL), lint, TypeScript, build, coverage và 8 route smoke đạt. Tháng 1 đủ 31/31 ngày, 19/93 hồ sơ mới Việt Nam (20,4%).
+Resolution: sửa nguồn Sang sai người, rà 98 nguồn/quote, sửa xuất xứ và kiểm độc lập nguồn Thanh Lan, siết exact URL/QID và kiểm âm Rule U; thay URL phụ Thérèse timeout bằng PDF chính thức. Không còn yêu cầu sửa B004 đang mở.
+
+## Earlier completed cycle
 
 Cycle: BV-004
 State: ACCEPTED
 Task: B003 — nhân vật sinh 1/1–15/1.
-Review: B003-v5 DAT; `.ai/hop-thu-mybirthday/review/B003-people-jan-01-15-r4.md`.
-Validation: test, Wikidata 74/74, URL 256/256, TypeScript, lint, build, coverage và smoke 8 route đều đạt. Có cảnh báo lint cũ về `<img>`/Google Fonts.
-Git integration: Claude Code xử lý theo protocol hộp thư.
+Review: B003-v5 / r4 DAT; tích hợp cùng B004 tại ed24674.
+Validation lúc review: Wikidata 74/74, URL 256/256, test/lint/TypeScript/build/coverage và smoke đạt.
 
 ## Previous completed cycle
 
@@ -42,7 +50,7 @@ Implementation Commit: bcf74c08d9ce40ba5a80c66431bc82dd2d43941e (`[B002] monthly
 
 1. `public/illustrations/` có ảnh minh họa chưa dùng hoặc có thể chưa phù hợp với sự kiện/nhân vật.
 2. Phần chiêm tinh là nội dung biểu tượng, không phải dữ kiện lịch sử.
-3. Dữ liệu toàn năm còn mỏng: sau B003 có 74 người trên 26/366 ngày; tiếp tục mở rộng theo kế hoạch, không mở sang sự kiện trong B004.
+3. Dữ liệu toàn năm còn mỏng: sau B004 có 123 người trên 42/366 ngày; tháng 1 đủ 31 ngày. Mở B005 cho 1–15/2, chưa bổ sung dữ liệu trong vòng giao việc.
 4. `src/app/page.tsx` còn `as any` từ chu kỳ cũ, ngoài phạm vi B003/B004.
 
 ## Kết quả BV-003 / B002 (ACCEPTED, commit bcf74c0)

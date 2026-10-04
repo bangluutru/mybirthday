@@ -1,36 +1,35 @@
-# BV-005
-LÀM GIÀU DỮ LIỆU: NHÂN VẬT SINH 16/1–31/1 (WIKIDATA + NGUỒN CHÍNH THỐNG)
+# BV-006
+LÀM GIÀU DỮ LIỆU: NHÂN VẬT SINH 1/2–15/2
 
 Cycle ID:
-BV-005
+BV-006
 
 State:
-ACCEPTED
+OPEN
 
 Priority:
 P1
 
 Reviewer:
-Codex (review B004 theo yêu cầu chủ dự án; tích hợp Git chỉ sau DAT)
+Codex theo yêu cầu trực tiếp chủ dự án
 
 Executor:
-Codex thực hiện B004-v2 theo yêu cầu trực tiếp chủ dự án; hộp thư lưu lịch sử
+Gemini 3.8 (Antigravity) qua hộp thư
 
 Active task:
-B004 — `.ai/hop-thu-mybirthday/viec/B004-people-jan-16-31.md`
+B005 — `.ai/hop-thu-mybirthday/viec/B005-people-feb-01-15.md`
 
-Latest review:
-B004-v2 / r2 — DAT; see `.ai/hop-thu-mybirthday/review/B004-people-jan-16-31-r2.md` (2026-10-04).
+Authorization:
+Chủ dự án yêu cầu tiếp tục mở rộng sang tháng khác ngày 2026-10-04. B004-v2 đã DAT và tích hợp cùng B003 tại ed24674a40e12189535ec245706993a94a38b8aa.
 
 Goal:
-Thêm nhân vật sinh 16/1–31/1; đạt ít nhất 3 người/ngày qua ba lớp kiểm, giữ Rule P/Q/R và mở rộng Rule S/T cho toàn tháng 1. Tỷ lệ người Việt Nam trong tổng hồ sơ mới tháng 1 nằm trong khoảng 20%–40%. Mỗi người Việt mới phải có ít nhất một nguồn độc lập chính thống ngoài Việt Nam xác nhận ngày sinh; ưu tiên hai nguồn nước ngoài.
+Ngày 1–15/2 ít nhất 3 người đã kiểm chứng/ngày, tối đa 8 người mới/ngày; hồ sơ mới B005 có 20%–40% người Việt. Mỗi người Việt mới phải có nguồn chính thống ngoài Việt Nam nêu đủ ngày/tháng/năm sinh; ưu tiên hai nguồn nước ngoài độc lập. Mỗi người mới qua Wikidata Gregorian precision-day, nguồn chính thống đã mở và đối chiếu nhất quán; rà 100% nguồn.
 
-DO NOT add events. DO NOT touch UI. DO NOT invent facts. B003/BV-004: ACCEPTED (B003-v5 DAT; tích hợp cùng bản B004 theo phê duyệt trực tiếp của chủ dự án).
+Acceptance criteria:
+Toàn bộ yêu cầu và FILES trong B005. Giữ A–U/tháng 1, thêm V/W cho B005; không nới cổng nguồn/ngoại lệ độ phủ. Test, Wikidata toàn bộ, URL 0 lỗi/0 MANUAL, lint, TypeScript, build, coverage, 9 route smoke và bảo toàn dữ liệu baseline phải đạt. Bằng chứng sai người, quote không được nguồn hỗ trợ hoặc hai nguồn không độc lập => SUA dù test đạt.
 
-Requested corrections (r1; đã xử lý tại r2):
-Sửa nguồn đối chiếu sai người của Trương Tấn Sang; sửa/rà quote evidence; chứng minh xuất xứ và tính độc lập nguồn Chung Thị Thanh Lan; thu hẹp Rule U với bản sao PDF; hoàn thiện báo cáo/README. Yêu cầu r1 đã hoàn thành tại r2; không mở tháng khác.
-
-Reviewer Attention / sửa cần thiết cho cổng toàn bộ dữ liệu (2026-10-04): URL đối chiếu Thérèse ở B003 timeout qua hai lần verify:urls và một lần mở trực tiếp. Theo yêu cầu sửa đến khi đạt của chủ dự án, thay riêng URL này bằng Press-kit.pdf chính thức của Sanctuaire de Lisieux, nêu đúng 2/1/1873; giữ ngày sinh/QID và nguồn Vatican. Không mở rộng hồ sơ B003 hay tháng khác.
+Scope:
+Chỉ bổ sung 1–15/2. Không UI/sự kiện/tháng khác. Sau lỗi nguồn B004, chia nửa tháng theo KE-HOACH.md. Không giao B006 trước B005 DAT và tích hợp. Gemini không Git, không sửa REVIEW/STATUS; reviewer commit/push theo yêu cầu chủ dự án.
 
 Resolution:
-B004-v2 DAT, xem review r2. Chủ dự án đã duyệt commit/push khi đạt. Tích hợp các tệp đã duyệt, không commit Wikidata thô; dừng sau xác nhận remote, không mở chu kỳ tiếp theo.
+B005 OPEN; chưa có dữ liệu mới của B005, chưa review DAT. Dừng vòng giao việc sau push chỉ thị; chờ báo cáo executor.
