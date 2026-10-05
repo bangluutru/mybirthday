@@ -1,0 +1,3497 @@
+[
+  {
+    "wikidataId": "Q8442",
+    "name": "Otto von Bismarck",
+    "expectedDob": "1815-04-01",
+    "searchUrl": "https://snl.no/api/v1/search?query=Otto+von+Bismarck&limit=10",
+    "result": {
+      "title": "Otto von Bismarck",
+      "headword": "Otto von Bismarck",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Otto_von_Bismarck",
+      "article_url_json": "https://snl.no/Otto_von_Bismarck.json",
+      "rank": 575.5125847458839
+    },
+    "article": {
+      "url": "https://snl.no/Otto_von_Bismarck",
+      "title": "Otto von Bismarck",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Bismarck",
+        "firstname": "Otto von",
+        "birth_date": "1.4.1815",
+        "birthplace": "Schönhausen",
+        "death_date": "30.7.1898",
+        "pronunciation": "<p>b<em>i</em>smark</p>",
+        "place_of_death": "Friedrichsruh",
+        "alternative_form": "<div>Fürst von Bismarck-Schönhausen</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Tim Greve"
+        },
+        {
+          "full_name": "Astrid Sverresdotter Dypvik"
+        },
+        {
+          "full_name": " Store norske leksikon (2005-2007)"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "40f0727054830ddc7c65837bb0ac895ba2561fa4022e9c83d21dd3a6b8c0314e"
+    },
+    "error": null,
+    "searchSha256": "becc00c410f7b1b48f26851b5139909fcf8cab89d62aa247aaafdc4e8b197b0b"
+  },
+  {
+    "wikidataId": "Q46795",
+    "name": "Wangari Maathai",
+    "expectedDob": "1940-04-01",
+    "searchUrl": "https://snl.no/api/v1/search?query=Wangari+Maathai&limit=10",
+    "result": {
+      "title": "Wangari Maathai",
+      "headword": "Wangari Maathai",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Wangari_Maathai",
+      "article_url_json": "https://snl.no/Wangari_Maathai.json",
+      "rank": 576.1499999761581
+    },
+    "article": {
+      "url": "https://snl.no/Wangari_Maathai",
+      "title": "Wangari Maathai",
+      "metadata": {
+        "gender": "k",
+        "lastname": "Maathai",
+        "firstname": "Wangari",
+        "birth_date": "1.4.1940",
+        "birthplace": "Nyeri, Kenya",
+        "death_date": "25.9.2011",
+        "place_of_death": "Nairobi, Kenya",
+        "alternative_form": "<p>Wangari Muta Maathai</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Arne Tostensen"
+        },
+        {
+          "full_name": " Store norske leksikon (2005-2007)"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "45a5b5f38f1a11c176cd1d47af464662a8b5353f5435488f7cd27b808dafad9b"
+    },
+    "error": null,
+    "searchSha256": "956a330761ee401874c031ed79d09366c278147f3ddf7af0a7c567a4f3beca0a"
+  },
+  {
+    "wikidataId": "Q93166",
+    "name": "Milan Kundera",
+    "expectedDob": "1929-04-01",
+    "searchUrl": "https://snl.no/api/v1/search?query=Milan+Kundera&limit=10",
+    "result": {
+      "title": "Milan Kundera",
+      "headword": "Milan Kundera",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Milan_Kundera",
+      "article_url_json": "https://snl.no/Milan_Kundera.json",
+      "rank": 576.0478492975235
+    },
+    "article": {
+      "url": "https://snl.no/Milan_Kundera",
+      "title": "Milan Kundera",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Kundera",
+        "firstname": "Milan",
+        "birth_date": "1.4.1929",
+        "birthplace": "Brno, Tsjekkoslovakia (nå Tsjekkia)",
+        "death_date": "11.7.2023",
+        "pronunciation": "<p>k<em>u</em>ndera</p>",
+        "place_of_death": "Paris, Frankrike"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Milada Blekastad"
+        },
+        {
+          "full_name": "Truls Olav Winther"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "bbfa1338a1f666203826c7eed919f851fb680a069dd362ffeff16a350f7eec89"
+    },
+    "error": null,
+    "searchSha256": "59c5de2a544b0778255aa01d71cfabfdac1684cf58b83b0de20a9a1ac9b608fe"
+  },
+  {
+    "wikidataId": "Q5673",
+    "name": "Hans Christian Andersen",
+    "expectedDob": "1805-04-02",
+    "searchUrl": "https://snl.no/api/v1/search?query=Hans+Christian+Andersen&limit=10",
+    "result": {
+      "title": "H.C. Andersen",
+      "headword": "H.C. Andersen",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/H.C._Andersen",
+      "article_url_json": "https://snl.no/H.C._Andersen.json",
+      "rank": 551.8196337223053
+    },
+    "article": {
+      "url": "https://snl.no/H.C._Andersen",
+      "title": "H.C. Andersen",
+      "metadata": {
+        "family": "<p>Far: Hans Andersen (1782–1816), skomaker. Mor: Anne Marie Andersdatter (1775–1833), renholder og gårdsarbeider.</p>",
+        "gender": "m",
+        "lastname": "Andersen",
+        "firstname": "H.C.",
+        "birth_date": "2.4.1805",
+        "birthplace": "Odense, Danmark",
+        "death_date": "4.8.1875",
+        "kulturnav_id": "98efcf81-d60d-44fa-b26c-c4f342ca7a85",
+        "alternative_form": "<p>Hans Christian Andersen</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Inga Henriette Undheim"
+        }
+      ],
+      "license": "fri",
+      "sha256": "89108c66070cb46374a58951c0fbc5bab8f4f8245f0b2a049ef4b9b3fec84e2d"
+    },
+    "error": null,
+    "searchSha256": "e90b251d15a52cb1cf563520dbeef2af29c149e76dda7099615369e3423ed9ea"
+  },
+  {
+    "wikidataId": "Q83321",
+    "name": "Giacomo Casanova",
+    "expectedDob": "1725-04-02",
+    "searchUrl": "https://snl.no/api/v1/search?query=Giacomo+Casanova&limit=10",
+    "result": {
+      "title": "Giovanni Giacomo Casanova",
+      "headword": "Giovanni Giacomo Casanova",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Giovanni_Giacomo_Casanova",
+      "article_url_json": "https://snl.no/Giovanni_Giacomo_Casanova.json",
+      "rank": 26.083333373069763
+    },
+    "article": {
+      "url": "https://snl.no/Giovanni_Giacomo_Casanova",
+      "title": "Giovanni Giacomo Casanova",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Casanova",
+        "firstname": "Giovanni Giacomo",
+        "birth_date": "0.0.1725",
+        "death_date": "0.0.1798",
+        "pronunciation": "<p>kasan<em>å</em>va</p>",
+        "alternative_form": "<div>Giovanni Gian Giacomo Casanova</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Drude von der Fehr"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "f4d960a0f059bea765f243dab212bb3dda1faeed9b87191b6db460267ca2883a"
+    },
+    "error": null,
+    "searchSha256": "c49a66fc255a33ce469326ca5f7806eb23125cb185ee03105e5ee9fe741faedb"
+  },
+  {
+    "wikidataId": "Q189758",
+    "name": "Marvin Gaye",
+    "expectedDob": "1939-04-02",
+    "searchUrl": "https://snl.no/api/v1/search?query=Marvin+Gaye&limit=10",
+    "result": {
+      "title": "Marvin Gaye",
+      "headword": "Marvin Gaye",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Marvin_Gaye",
+      "article_url_json": "https://snl.no/Marvin_Gaye.json",
+      "rank": 576.4485577344894
+    },
+    "article": {
+      "url": "https://snl.no/Marvin_Gaye",
+      "title": "Marvin Gaye",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Gaye",
+        "firstname": "Marvin",
+        "birth_date": "2.4.1939",
+        "birthplace": "Washington DC, USA",
+        "death_date": "1.4.1984",
+        "pronunciation": "<p>gei</p>",
+        "place_of_death": "Los Angeles, California, USA",
+        "alternative_form": "<div>Marvin Pentz Gay jr.</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Jon Vidar Bergan"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "5bc8932f48218d73fcf509b77aad9325d3afc8ab6a945d750b42b3fda077cace"
+    },
+    "error": null,
+    "searchSha256": "b9d5fa0fa36ad92ad8ed37545f1c2e2175c2e68039638bd62bf4eabea6de0acb"
+  },
+  {
+    "wikidataId": "Q34012",
+    "name": "Marlon Brando",
+    "expectedDob": "1924-04-03",
+    "searchUrl": "https://snl.no/api/v1/search?query=Marlon+Brando&limit=10",
+    "result": {
+      "title": "Marlon Brando",
+      "headword": "Marlon Brando",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Marlon_Brando",
+      "article_url_json": "https://snl.no/Marlon_Brando.json",
+      "rank": 575.5
+    },
+    "article": {
+      "url": "https://snl.no/Marlon_Brando",
+      "title": "Marlon Brando",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Brando",
+        "firstname": "Marlon",
+        "birth_date": "3.4.1924",
+        "birthplace": "Omaha, Nebraska",
+        "death_date": "1.7.2004",
+        "pronunciation": "<p>br<em>æ</em>ndou</p>",
+        "place_of_death": "Los Angeles"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Trond Olav Svendsen"
+        },
+        {
+          "full_name": "Ann-Sofi S. Emilsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "7eb77bbb8f56bc3f95ba1552ccefff3c59cefcccf2c84839fc84f5739ead9e0b"
+    },
+    "error": null,
+    "searchSha256": "b555214e843677eb8b20c976f033aaf66fa7ef800ce4b09664a5c26f1d0f238a"
+  },
+  {
+    "wikidataId": "Q184746",
+    "name": "Jane Goodall",
+    "expectedDob": "1934-04-03",
+    "searchUrl": "https://snl.no/api/v1/search?query=Jane+Goodall&limit=10",
+    "result": {
+      "title": "Jane Goodall",
+      "headword": "Jane Goodall",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Jane_Goodall",
+      "article_url_json": "https://snl.no/Jane_Goodall.json",
+      "rank": 575.9136805534363
+    },
+    "article": {
+      "url": "https://snl.no/Jane_Goodall",
+      "title": "Jane Goodall",
+      "metadata": {
+        "gender": "k",
+        "lastname": "Goodall",
+        "firstname": "Jane",
+        "birth_date": "3.4.1934",
+        "birthplace": "London, England",
+        "death_date": "1.10.2025",
+        "place_of_death": "California, USA",
+        "alternative_form": "<div>gjennom tidligere ekteskap baronesse Jane van Lawick-Goodall</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Anne Synnøve Simensen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "0ccc49e10ddecce0239e5b29b6f4c2672e575058f55c379588d06b16569eca13"
+    },
+    "error": null,
+    "searchSha256": "4ea58aea416f88bb454a82010a50bfc2a0d9af1de912eb607729fdfffe536cf3"
+  },
+  {
+    "wikidataId": "Q43874",
+    "name": "Eddie Murphy",
+    "expectedDob": "1961-04-03",
+    "searchUrl": "https://snl.no/api/v1/search?query=Eddie+Murphy&limit=10",
+    "result": {
+      "title": "Eddie Murphy",
+      "headword": "Eddie Murphy",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Eddie_Murphy",
+      "article_url_json": "https://snl.no/Eddie_Murphy.json",
+      "rank": 575.6127777695656
+    },
+    "article": {
+      "url": "https://snl.no/Eddie_Murphy",
+      "title": "Eddie Murphy",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Murphy",
+        "firstname": "Eddie",
+        "birth_date": "3.4.1961",
+        "birthplace": "Brooklyn, New York, USA",
+        "pronunciation": "<p>m<em>ə</em>:fi</p>",
+        "alternative_form": "<p>Edward Regan Murphy</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Trond Olav Svendsen"
+        },
+        {
+          "full_name": "Ann-Sofi S. Emilsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "44de8430e592a8c3d9ac1ba2ea349bedc91e6941d97fbc63207d1c170ab64d18"
+    },
+    "error": null,
+    "searchSha256": "005116a75cbacd7f0cae9f8c09db107145b28591b9b2b5a997f0d7bfefeac30d"
+  },
+  {
+    "wikidataId": "Q19526",
+    "name": "Maya Angelou",
+    "expectedDob": "1928-04-04",
+    "searchUrl": "https://snl.no/api/v1/search?query=Maya+Angelou&limit=10",
+    "result": {
+      "title": "Maya Angelou",
+      "headword": "Maya Angelou",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Maya_Angelou",
+      "article_url_json": "https://snl.no/Maya_Angelou.json",
+      "rank": 576.1653878688812
+    },
+    "article": {
+      "url": "https://snl.no/Maya_Angelou",
+      "title": "Maya Angelou",
+      "metadata": {
+        "gender": "k",
+        "lastname": "Angelou",
+        "firstname": "Maya",
+        "birth_date": "4.4.1928",
+        "birthplace": "Saint Louis, Missouri, USA",
+        "death_date": "28.5.2014",
+        "pronunciation": "<p><em>æ</em>ndsjelu:</p>",
+        "place_of_death": "Winston-Salem, North Carolina, USA",
+        "alternative_form": "<p>Marguerite Annie Johnson</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Emma Helene Heggdal"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "0a47b3c0e3871ef9f1e9b464c39db2b6192fbc7d2f5108a7ea8d628adf600ef9"
+    },
+    "error": null,
+    "searchSha256": "d1899174e0e3ad27bdc22ad651ab5c7321fa62c380236947bb4766d2f4c35698"
+  },
+  {
+    "wikidataId": "Q853",
+    "name": "Andrei Tarkovsky",
+    "expectedDob": "1932-04-04",
+    "searchUrl": "https://snl.no/api/v1/search?query=Andrei+Tarkovsky&limit=10",
+    "result": null,
+    "article": null,
+    "error": null,
+    "searchSha256": "1d765ea5969da8760406d1d3beba8c9c357b68a10e969fe53bc0b883ca5c9a6c"
+  },
+  {
+    "wikidataId": "Q40572",
+    "name": "Heath Ledger",
+    "expectedDob": "1979-04-04",
+    "searchUrl": "https://snl.no/api/v1/search?query=Heath+Ledger&limit=10",
+    "result": {
+      "title": "Heath Ledger",
+      "headword": "Heath Ledger",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Heath_Ledger",
+      "article_url_json": "https://snl.no/Heath_Ledger.json",
+      "rank": 576.2519607543945
+    },
+    "article": {
+      "url": "https://snl.no/Heath_Ledger",
+      "title": "Heath Ledger",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Ledger",
+        "firstname": "Heath",
+        "birth_date": "4.4.1979",
+        "birthplace": "Perth, Australia",
+        "death_date": "22.1.2008",
+        "place_of_death": "New York, USA",
+        "alternative_form": "<div>Heath Andrew Ledger</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Trond Olav Svendsen"
+        },
+        {
+          "full_name": "Ann-Sofi S. Emilsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "f4f3665e98292776860bd7a3c938c6d9f680cffaba855bc3e8a0b38212751ce9"
+    },
+    "error": null,
+    "searchSha256": "df19ea965eac6d04a70a540e65c0786fa6eaba7696095d196e81f7147499a51a"
+  },
+  {
+    "wikidataId": "Q71206",
+    "name": "Bette Davis",
+    "expectedDob": "1908-04-05",
+    "searchUrl": "https://snl.no/api/v1/search?query=Bette+Davis&limit=10",
+    "result": {
+      "title": "Bette Davis",
+      "headword": "Bette Davis",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Bette_Davis",
+      "article_url_json": "https://snl.no/Bette_Davis.json",
+      "rank": 575.5076923370361
+    },
+    "article": {
+      "url": "https://snl.no/Bette_Davis",
+      "title": "Bette Davis",
+      "metadata": {
+        "gender": "k",
+        "lastname": "Davis",
+        "firstname": "Bette",
+        "birth_date": "5.4.1908",
+        "birthplace": "Lowell, Massachussetts",
+        "death_date": "6.10.1989",
+        "pronunciation": "<div>dˈeivis</div>",
+        "place_of_death": "Neuilly-sur-Seine, Frankrike",
+        "alternative_form": "<div>Ruth Elizabeth Davis</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Trond Olav Svendsen"
+        },
+        {
+          "full_name": "Ann-Sofi S. Emilsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "8c017d868071b5848c26aa0153a050d1da3890ac2ed9b28c75d6d8910a238e96"
+    },
+    "error": null,
+    "searchSha256": "ef01f239fcf3fd58ca4051654b2be498f4df26edb4a55168723120e1ef5d71fc"
+  },
+  {
+    "wikidataId": "Q108366",
+    "name": "Gregory Peck",
+    "expectedDob": "1916-04-05",
+    "searchUrl": "https://snl.no/api/v1/search?query=Gregory+Peck&limit=10",
+    "result": {
+      "title": "Gregory Peck",
+      "headword": "Gregory Peck",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Gregory_Peck",
+      "article_url_json": "https://snl.no/Gregory_Peck.json",
+      "rank": 576.303030371666
+    },
+    "article": {
+      "url": "https://snl.no/Gregory_Peck",
+      "title": "Gregory Peck",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Peck",
+        "firstname": "Gregory",
+        "birth_date": "5.4.1916",
+        "birthplace": "San Diego, California",
+        "death_date": "12.6.2003",
+        "place_of_death": "Los Angeles, California, USA",
+        "alternative_form": "<p>Eldred Gregory Peck</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Trond Olav Svendsen"
+        },
+        {
+          "full_name": "Ann-Sofi S. Emilsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "db0935d53badb585ce7f23aa70f1a3412cd57db44856265c2ec87c81f7fba13d"
+    },
+    "error": null,
+    "searchSha256": "161f2dc97f42aa8a75ef558337b7cf27fffd92ad240972d1ed299ead49c1af73"
+  },
+  {
+    "wikidataId": "Q7833303",
+    "name": "Trần Lê Quốc Toàn",
+    "expectedDob": "1989-04-05",
+    "searchUrl": "https://snl.no/api/v1/search?query=Tr%E1%BA%A7n+L%C3%AA+Qu%E1%BB%91c+To%C3%A0n&limit=10",
+    "result": null,
+    "article": null,
+    "error": null,
+    "searchSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "wikidataId": "Q83333",
+    "name": "James Watson",
+    "expectedDob": "1928-04-06",
+    "searchUrl": "https://snl.no/api/v1/search?query=James+Watson&limit=10",
+    "result": {
+      "title": "James Watson",
+      "headword": "James Watson",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/James_Watson",
+      "article_url_json": "https://snl.no/James_Watson.json",
+      "rank": 576.1499999761581
+    },
+    "article": {
+      "url": "https://snl.no/James_Watson",
+      "title": "James Watson",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Watson",
+        "firstname": "James",
+        "birth_date": "6.4.1928",
+        "birthplace": "Chicago, Illinois, USA",
+        "death_date": "7.11.2025",
+        "pronunciation": "<p>w<em>å</em>tsn</p>",
+        "alternative_form": "<p>James Dewey Watson</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": " Store norske leksikon (2005-2007)"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "f4cd844f395dd13d8e6a3877c53247563405bf8077fe85cac2491ae07d15134c"
+    },
+    "error": null,
+    "searchSha256": "cbd2a7a450c76b39e31d1a3372d904994501d7c8806a49d53f47ae0f86991907"
+  },
+  {
+    "wikidataId": "Q2512",
+    "name": "Kurt Georg Kiesinger",
+    "expectedDob": "1904-04-06",
+    "searchUrl": "https://snl.no/api/v1/search?query=Kurt+Georg+Kiesinger&limit=10",
+    "result": {
+      "title": "Kurt Georg Kiesinger",
+      "headword": "Kurt Georg Kiesinger",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Kurt_Georg_Kiesinger",
+      "article_url_json": "https://snl.no/Kurt_Georg_Kiesinger.json",
+      "rank": 575.5008260011673
+    },
+    "article": {
+      "url": "https://snl.no/Kurt_Georg_Kiesinger",
+      "title": "Kurt Georg Kiesinger",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Kiesinger",
+        "firstname": "Kurt Georg",
+        "birth_date": "6.4.1904",
+        "birthplace": "Ebingen, Tyskland",
+        "death_date": "9.3.1988",
+        "place_of_death": "Tübingen, Vest-Tyskland (nå Tyskland)"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": " Store norske leksikon (2005-2007)"
+        },
+        {
+          "full_name": "Astrid Sverresdotter Dypvik"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "e319040e0cae55ce652696b67a759a62a7589674ce6fd02e0f50fa51d30f9737"
+    },
+    "error": null,
+    "searchSha256": "1bc42da545acbf269e164e600676b8adbab26eed25d1d0dd633f1203de5be296"
+  },
+  {
+    "wikidataId": "Q19581",
+    "name": "Rafael Correa",
+    "expectedDob": "1963-04-06",
+    "searchUrl": "https://snl.no/api/v1/search?query=Rafael+Correa&limit=10",
+    "result": {
+      "title": "Rafael Correa",
+      "headword": "Rafael Correa",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Rafael_Correa",
+      "article_url_json": "https://snl.no/Rafael_Correa.json",
+      "rank": 576.7090992927551
+    },
+    "article": {
+      "url": "https://snl.no/Rafael_Correa",
+      "title": "Rafael Correa",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Correa",
+        "firstname": "Rafael",
+        "birth_date": "6.4.1963",
+        "birthplace": "Guayaquil, Ecuador",
+        "pronunciation": "<p>kårr<em>e</em>a</p>",
+        "alternative_form": "<p>Rafael Correa Delgado</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Espen Jacobsen"
+        },
+        {
+          "full_name": "Esben Leifsen"
+        }
+      ],
+      "license": "fri",
+      "sha256": "64899c77fa153293ce9bc692fd776e855e272fdb68cf497c80476cfaa7e211f2"
+    },
+    "error": null,
+    "searchSha256": "24f7eae6987821e242e850bd48ef16fb7295b07c79cf1bee3feae9f801cf66de"
+  },
+  {
+    "wikidataId": "Q36970",
+    "name": "Jackie Chan",
+    "expectedDob": "1954-04-07",
+    "searchUrl": "https://snl.no/api/v1/search?query=Jackie+Chan&limit=10",
+    "result": {
+      "title": "Jackie Chan",
+      "headword": "Jackie Chan",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Jackie_Chan",
+      "article_url_json": "https://snl.no/Jackie_Chan.json",
+      "rank": 575.5250000357628
+    },
+    "article": {
+      "url": "https://snl.no/Jackie_Chan",
+      "title": "Jackie Chan",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Chan",
+        "firstname": "Jackie",
+        "birth_date": "7.4.1954",
+        "birthplace": "Hong Kong",
+        "alternative_form": "<div>Chan Kong-sang</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Trond Olav Svendsen"
+        },
+        {
+          "full_name": "Ann-Sofi S. Emilsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "7ea02aa4d0cbe80520ed4d83c2a6791f389138c6f1e70ab9e7973dc8c317a2cd"
+    },
+    "error": null,
+    "searchSha256": "eed1b731b68c300e91c09bc65593999f0037387061ed3607d082e15d0c3132dc"
+  },
+  {
+    "wikidataId": "Q104358",
+    "name": "Billie Holiday",
+    "expectedDob": "1915-04-07",
+    "searchUrl": "https://snl.no/api/v1/search?query=Billie+Holiday&limit=10",
+    "result": {
+      "title": "Billie Holiday",
+      "headword": "Billie Holiday",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Billie_Holiday",
+      "article_url_json": "https://snl.no/Billie_Holiday.json",
+      "rank": 577.8483846187592
+    },
+    "article": {
+      "url": "https://snl.no/Billie_Holiday",
+      "title": "Billie Holiday",
+      "metadata": {
+        "gender": "k",
+        "lastname": "Holiday",
+        "firstname": "Billie",
+        "birth_date": "7.4.1915",
+        "birthplace": "Philadelphia",
+        "death_date": "17.7.1959",
+        "pronunciation": "<p>h<em>å</em>lidei</p>",
+        "place_of_death": "New York City",
+        "alternative_form": "<div>født Eleonora Fagan, kalt «Lady Day»</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Steinar Sætre"
+        }
+      ],
+      "license": "fri",
+      "sha256": "c6c37f51505eef1301d43657565d9e62dd61ef1809e6043089bc0804466d0228"
+    },
+    "error": null,
+    "searchSha256": "b8f90205d15ebca40044077cc8af6b088edec9b752f9e23dfb4bf71fcefc9941"
+  },
+  {
+    "wikidataId": "Q16319564",
+    "name": "Joseph Trần Văn Toản",
+    "expectedDob": "1955-04-07",
+    "searchUrl": "https://snl.no/api/v1/search?query=Joseph+Tr%E1%BA%A7n+V%C4%83n+To%E1%BA%A3n&limit=10",
+    "result": null,
+    "article": null,
+    "error": null,
+    "searchSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "wikidataId": "Q1254",
+    "name": "Kofi Annan",
+    "expectedDob": "1938-04-08",
+    "searchUrl": "https://snl.no/api/v1/search?query=Kofi+Annan&limit=10",
+    "result": {
+      "title": "Kofi Annan",
+      "headword": "Kofi Annan",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Kofi_Annan",
+      "article_url_json": "https://snl.no/Kofi_Annan.json",
+      "rank": 575.9183961749077
+    },
+    "article": {
+      "url": "https://snl.no/Kofi_Annan",
+      "title": "Kofi Annan",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Annan",
+        "firstname": "Kofi",
+        "birth_date": "8.4.1938",
+        "birthplace": "Kumasi, Ghana",
+        "death_date": "18.8.2018",
+        "place_of_death": "Bern, Sveits"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Dag Leraand"
+        },
+        {
+          "full_name": "Ellen Jenny Ravndal"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "585c79604a90a3c62cb3c6e9be5e6e236b4f666c97c8d7e6e7fd33994c658a6f"
+    },
+    "error": null,
+    "searchSha256": "709b7f00ca29434bb52d9763528ea456ed51c4e8268f5d56161bd7132b4f19f3"
+  },
+  {
+    "wikidataId": "Q1666",
+    "name": "Jacques Brel",
+    "expectedDob": "1929-04-08",
+    "searchUrl": "https://snl.no/api/v1/search?query=Jacques+Brel&limit=10",
+    "result": {
+      "title": "Jacques Brel",
+      "headword": "Jacques Brel",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Jacques_Brel",
+      "article_url_json": "https://snl.no/Jacques_Brel.json",
+      "rank": 576.434204697609
+    },
+    "article": {
+      "url": "https://snl.no/Jacques_Brel",
+      "title": "Jacques Brel",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Brel",
+        "firstname": "Jacques",
+        "birth_date": "8.4.1929",
+        "birthplace": "Schaarbeek, Belgia",
+        "death_date": "9.10.1978",
+        "place_of_death": "Bobigny, Frankrike",
+        "alternative_form": "<p>Jacques Romain Georges Brel</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": " Store norske leksikon (2005-2007)"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "1472726f6e22063096603ec5bbd8ef2d6df7c4359eb00881e3f539ec78e74d75"
+    },
+    "error": null,
+    "searchSha256": "5ba06b9f6b3a14e32afbc7d2f2478a33ba14edfb2c89ca97cb40285e9d0a2d4f"
+  },
+  {
+    "wikidataId": "Q104109",
+    "name": "Mary Pickford",
+    "expectedDob": "1892-04-08",
+    "searchUrl": "https://snl.no/api/v1/search?query=Mary+Pickford&limit=10",
+    "result": {
+      "title": "Mary Pickford",
+      "headword": "Mary Pickford",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Mary_Pickford",
+      "article_url_json": "https://snl.no/Mary_Pickford.json",
+      "rank": 575.6050000190735
+    },
+    "article": {
+      "url": "https://snl.no/Mary_Pickford",
+      "title": "Mary Pickford",
+      "metadata": {
+        "gender": "k",
+        "lastname": "Pickford",
+        "firstname": "Mary",
+        "birth_date": "8.4.1892",
+        "birthplace": "Toronto, Canada",
+        "death_date": "29.5.1979",
+        "pronunciation": "<p>p<em>i</em>kfəd</p>",
+        "place_of_death": "Santa Monica, California, USA",
+        "alternative_form": "<div>Gladys Louise Smith</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Trond Olav Svendsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "948d67e7364837e115d20ac035e695b214d413d2ee50e28c9546ce9772306481"
+    },
+    "error": null,
+    "searchSha256": "ffa57184a6c4c32453d07b7b17615d42fbebb26e064e16fe4dae2f9462965e65"
+  },
+  {
+    "wikidataId": "Q501",
+    "name": "Charles Baudelaire",
+    "expectedDob": "1821-04-09",
+    "searchUrl": "https://snl.no/api/v1/search?query=Charles+Baudelaire&limit=10",
+    "result": {
+      "title": "Charles Baudelaire",
+      "headword": "Charles Baudelaire",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Charles_Baudelaire",
+      "article_url_json": "https://snl.no/Charles_Baudelaire.json",
+      "rank": 576.2642856836319
+    },
+    "article": {
+      "url": "https://snl.no/Charles_Baudelaire",
+      "title": "Charles Baudelaire",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Baudelaire",
+        "firstname": "Charles",
+        "birth_date": "9.4.1821",
+        "birthplace": "Paris, Frankrike",
+        "death_date": "31.8.1867",
+        "pronunciation": "<p>bådl<em>ɛ</em>:r</p>",
+        "place_of_death": "Paris, Frankrike",
+        "alternative_form": "<div>Charles Pierre Baudelaire</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Truls Olav Winther"
+        }
+      ],
+      "license": "fri",
+      "sha256": "f83414f1ed5dc8c76e2e1f1beb1b4cdf47b05df7b7a005669f4d5ade265e916e"
+    },
+    "error": null,
+    "searchSha256": "b5411f09cbca2a28fb91d49ec684155a3c536a02a04365a5137fdcb2d6ef4709"
+  },
+  {
+    "wikidataId": "Q106255",
+    "name": "Jean-Paul Belmondo",
+    "expectedDob": "1933-04-09",
+    "searchUrl": "https://snl.no/api/v1/search?query=Jean-Paul+Belmondo&limit=10",
+    "result": {
+      "title": "Jean-Paul Belmondo",
+      "headword": "Jean-Paul Belmondo",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Jean-Paul_Belmondo",
+      "article_url_json": "https://snl.no/Jean-Paul_Belmondo.json",
+      "rank": 577.0164511203766
+    },
+    "article": {
+      "url": "https://snl.no/Jean-Paul_Belmondo",
+      "title": "Jean-Paul Belmondo",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Belmondo",
+        "firstname": "Jean-Paul",
+        "birth_date": "9.4.1933",
+        "birthplace": "Neuilly-sur-Seine, Frankrike",
+        "death_date": "6.9.2021",
+        "pronunciation": "<p>belm<em>o</em>ndo</p>",
+        "place_of_death": "Paris, Frankrike",
+        "alternative_form": "<p>Jean-Paul Charles Belmondo</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Trond Olav Svendsen"
+        },
+        {
+          "full_name": "Ann-Sofi S. Emilsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "5f65c1abf45b3a319035dd48179d2ba5c4d41b21e7e5dc30faba057ead126192"
+    },
+    "error": null,
+    "searchSha256": "3ff4a670570bf5be4879e228d08626dab1376702c74cc2dac99e60c2d1b06d0e"
+  },
+  {
+    "wikidataId": "Q153159",
+    "name": "Elias Lönnrot",
+    "expectedDob": "1802-04-09",
+    "searchUrl": "https://snl.no/api/v1/search?query=Elias+L%C3%B6nnrot&limit=10",
+    "result": {
+      "title": "Elias Lönnrot",
+      "headword": "Elias Lönnrot",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Elias_L%C3%B6nnrot",
+      "article_url_json": "https://snl.no/Elias_L%C3%B6nnrot.json",
+      "rank": 575.7356589436531
+    },
+    "article": {
+      "url": "https://snl.no/Elias_L%C3%B6nnrot",
+      "title": "Elias Lönnrot",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Lönnrot",
+        "firstname": "Elias",
+        "birth_date": "9.4.1802",
+        "birthplace": "Sammatti",
+        "death_date": "19.3.1884",
+        "place_of_death": "Sammatti"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": " Store norske leksikon (2005-2007)"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "b0043c630cef405731a3d7d5bc67abd271aeb3c4c12b03cf21e62293f560a8dc"
+    },
+    "error": null,
+    "searchSha256": "88e09421f1a2c7c92d2f30c2cb17e91405f528e144fc64367d57dc489112a385"
+  },
+  {
+    "wikidataId": "Q154959",
+    "name": "Hugo Grotius",
+    "expectedDob": "1583-04-10",
+    "searchUrl": "https://snl.no/api/v1/search?query=Hugo+Grotius&limit=10",
+    "result": {
+      "title": "Hugo Grotius",
+      "headword": "Hugo Grotius",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Hugo_Grotius",
+      "article_url_json": "https://snl.no/Hugo_Grotius.json",
+      "rank": 575.5839999914169
+    },
+    "article": {
+      "url": "https://snl.no/Hugo_Grotius",
+      "title": "Hugo Grotius",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Grotius",
+        "firstname": "Hugo",
+        "birth_date": "10.4.1583",
+        "birthplace": "Delft, De forente Nederlandene (nå Nederland)",
+        "death_date": "28.8.1645",
+        "pronunciation": "<p>γr<em>o</em>:tsius</p>",
+        "place_of_death": "Rostock, Svensk Pommern (nå Tyskland)",
+        "alternative_form": "<p>Huigh de Groot eller Hugo de Groot</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Kåre Langvik-Johannessen"
+        },
+        {
+          "full_name": "Aslak Kittelsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "2dd8511965abac26d3fef722d763659791ced7367413d55a0ba3e47cfa95fcb0"
+    },
+    "error": null,
+    "searchSha256": "529966831cf49f44e3c38e3f07185223e47278e279e93a9177475eb0e02d44e4"
+  },
+  {
+    "wikidataId": "Q170515",
+    "name": "Omar Sharif",
+    "expectedDob": "1932-04-10",
+    "searchUrl": "https://snl.no/api/v1/search?query=Omar+Sharif&limit=10",
+    "result": {
+      "title": "Omar Sharif",
+      "headword": "Omar Sharif",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Omar_Sharif",
+      "article_url_json": "https://snl.no/Omar_Sharif.json",
+      "rank": 575.5
+    },
+    "article": {
+      "url": "https://snl.no/Omar_Sharif",
+      "title": "Omar Sharif",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Sharif",
+        "firstname": "Omar",
+        "birth_date": "10.4.1932",
+        "birthplace": "Alexandria, Egypt",
+        "death_date": "10.7.2015",
+        "pronunciation": "<p>sj<em>a</em>rif</p>",
+        "place_of_death": "Kairo, Egypt",
+        "alternative_form": "<div>Michel Demetri Shalhoub</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Trond Olav Svendsen"
+        },
+        {
+          "full_name": "Ann-Sofi S. Emilsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "5f03f2b49ed02cb973550f2568dabfd48fe4de21b63c14d26185e3bcb2c9c49d"
+    },
+    "error": null,
+    "searchSha256": "86237bee1d47127899342682c82d902e06d4a0ed7ba823bdb3b0d3e33df39a13"
+  },
+  {
+    "wikidataId": "Q173417",
+    "name": "Joseph Pulitzer",
+    "expectedDob": "1847-04-10",
+    "searchUrl": "https://snl.no/api/v1/search?query=Joseph+Pulitzer&limit=10",
+    "result": {
+      "title": "Joseph Pulitzer",
+      "headword": "Joseph Pulitzer",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Joseph_Pulitzer",
+      "article_url_json": "https://snl.no/Joseph_Pulitzer.json",
+      "rank": 575.5090909004211
+    },
+    "article": {
+      "url": "https://snl.no/Joseph_Pulitzer",
+      "title": "Joseph Pulitzer",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Pulitzer",
+        "firstname": "Joseph",
+        "birth_date": "10.4.1847",
+        "birthplace": "Makó, Ungarn",
+        "death_date": "29.10.1911",
+        "pronunciation": "<p>pj<em>u</em>litsə:</p>",
+        "place_of_death": "Charleston, South Carolina, USA",
+        "alternative_form": "<p>József Pulitzer</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": " Store norske leksikon (2005-2007)"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "6585539f685bcb31c56a317c694e6461845bd9c8a43519050d3a24d0d34989a4"
+    },
+    "error": null,
+    "searchSha256": "a51ce650c80f202eafef0170273e540c9f2ab4141263354fb0c1531656d55708"
+  },
+  {
+    "wikidataId": "Q219731",
+    "name": "George Canning",
+    "expectedDob": "1770-04-11",
+    "searchUrl": "https://snl.no/api/v1/search?query=George+Canning&limit=10",
+    "result": {
+      "title": "George Canning",
+      "headword": "George Canning",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/George_Canning",
+      "article_url_json": "https://snl.no/George_Canning.json",
+      "rank": 575.5
+    },
+    "article": {
+      "url": "https://snl.no/George_Canning",
+      "title": "George Canning",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Canning",
+        "firstname": "George",
+        "birth_date": "11.4.1770",
+        "birthplace": "London, Storbritannia",
+        "death_date": "8.8.1827",
+        "pronunciation": "<p>k<em>æ</em>niŋ</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": " Store norske leksikon (2005-2007)"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "dba6566aca7df22aec25144adb8681e9dcfa661e296c0625ff933bb79ec30478"
+    },
+    "error": null,
+    "searchSha256": "e22f4dff4ed85a1ece4807ba265f72cfe06fe18a787147c0268362667e31b409"
+  },
+  {
+    "wikidataId": "Q184433",
+    "name": "Andrew Wiles",
+    "expectedDob": "1953-04-11",
+    "searchUrl": "https://snl.no/api/v1/search?query=Andrew+Wiles&limit=10",
+    "result": {
+      "title": "Andrew John Wiles",
+      "headword": "Andrew John Wiles",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Andrew_John_Wiles",
+      "article_url_json": "https://snl.no/Andrew_John_Wiles.json",
+      "rank": 25.45981678366661
+    },
+    "article": {
+      "url": "https://snl.no/Andrew_John_Wiles",
+      "title": "Andrew John Wiles",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Wiles",
+        "firstname": "Andrew John",
+        "birth_date": "11.4.1953",
+        "birthplace": "Cambridge, Storbritannia",
+        "pronunciation": "<p>wailz</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": " Store norske leksikon (2005-2007)"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "62447b09e94ba27f583fbc20df8fdfacd9b762decc83540b97bacce86b7f0077"
+    },
+    "error": null,
+    "searchSha256": "3822cf10142ceaeffae7a298a320d49afd329edad9fa30b842a4ee5df2d6f4b4"
+  },
+  {
+    "wikidataId": "Q75784",
+    "name": "Ferdinand Lassalle",
+    "expectedDob": "1825-04-11",
+    "searchUrl": "https://snl.no/api/v1/search?query=Ferdinand+Lassalle&limit=10",
+    "result": {
+      "title": "Ferdinand Lassalle",
+      "headword": "Ferdinand Lassalle",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Ferdinand_Lassalle",
+      "article_url_json": "https://snl.no/Ferdinand_Lassalle.json",
+      "rank": 575.5
+    },
+    "article": {
+      "url": "https://snl.no/Ferdinand_Lassalle",
+      "title": "Ferdinand Lassalle",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Lassalle",
+        "firstname": "Ferdinand",
+        "birth_date": "11.4.1825",
+        "birthplace": "Breslau, Preussen (nå Wrocław, Polen)",
+        "death_date": "31.8.1864",
+        "pronunciation": "<p>las<em>a</em>l</p>",
+        "place_of_death": "Genève, Sveits"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": " Store norske leksikon (2005-2007)"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "a5b372575d11259cb299ee85fa13e40eba59ad36cc715e7e9f10b0c39866f8b0"
+    },
+    "error": null,
+    "searchSha256": "33e107dfe9fa3901840fa3d8fea2147c1d92eb3aeb02a9217c0df84e1aef5939"
+  },
+  {
+    "wikidataId": "Q151435",
+    "name": "Montserrat Caballé",
+    "expectedDob": "1933-04-12",
+    "searchUrl": "https://snl.no/api/v1/search?query=Montserrat+Caball%C3%A9&limit=10",
+    "result": {
+      "title": "Montserrat Caballé",
+      "headword": "Montserrat Caballé",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Montserrat_Caball%C3%A9",
+      "article_url_json": "https://snl.no/Montserrat_Caball%C3%A9.json",
+      "rank": 575.9088888764381
+    },
+    "article": {
+      "url": "https://snl.no/Montserrat_Caball%C3%A9",
+      "title": "Montserrat Caballé",
+      "metadata": {
+        "gender": "k",
+        "lastname": "Caballé",
+        "firstname": "Montserrat",
+        "birth_date": "12.4.1933",
+        "birthplace": "Barcelona, Spania",
+        "death_date": "6.10.2018",
+        "pronunciation": "<p>kaβalj<em>e</em></p>",
+        "place_of_death": "Barcelona, Spania",
+        "alternative_form": "<p>María de Montserrat Viviana Concepción Caballé i Folch</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Hilde Holbæk-Hanssen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "c274f3d6e4bdd5d0283d661119b98a91a3e64bdbc1314dc6cca2ea420a2881c4"
+    },
+    "error": null,
+    "searchSha256": "4dff3ef27f150d7bd8302204e5128e1a4d50fb97cc88f8f644b228c4ca71260e"
+  },
+  {
+    "wikidataId": "Q57388",
+    "name": "Joyce Banda",
+    "expectedDob": "1950-04-12",
+    "searchUrl": "https://snl.no/api/v1/search?query=Joyce+Banda&limit=10",
+    "result": {
+      "title": "Joyce Banda",
+      "headword": "Joyce Banda",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Joyce_Banda",
+      "article_url_json": "https://snl.no/Joyce_Banda.json",
+      "rank": 576.647101521492
+    },
+    "article": {
+      "url": "https://snl.no/Joyce_Banda",
+      "title": "Joyce Banda",
+      "metadata": {
+        "gender": "k",
+        "lastname": "Banda",
+        "firstname": "Joyce",
+        "birth_date": "12.4.1950",
+        "birthplace": "Zomba, Malawi"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Bjørn Johannessen"
+        },
+        {
+          "full_name": "Arne Tostensen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "1cfa511f0fddee35e841dd02a0da9f5206327b4d4f42a3fb4f063b90200d498d"
+    },
+    "error": null,
+    "searchSha256": "7a0d7d2171826be7bfb422471b8a38d539a9a5c81a36f4976b41b8f12b06947c"
+  },
+  {
+    "wikidataId": "Q24689101",
+    "name": "Nguyễn Quang Hải",
+    "expectedDob": "1997-04-12",
+    "searchUrl": "https://snl.no/api/v1/search?query=Nguy%E1%BB%85n+Quang+H%E1%BA%A3i&limit=10",
+    "result": null,
+    "article": null,
+    "error": null,
+    "searchSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "wikidataId": "Q169906",
+    "name": "Jacques Lacan",
+    "expectedDob": "1901-04-13",
+    "searchUrl": "https://snl.no/api/v1/search?query=Jacques+Lacan&limit=10",
+    "result": {
+      "title": "Jacques Marie Lacan",
+      "headword": "Jacques Marie Lacan",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Jacques_Marie_Lacan",
+      "article_url_json": "https://snl.no/Jacques_Marie_Lacan.json",
+      "rank": 26.545787572860718
+    },
+    "article": {
+      "url": "https://snl.no/Jacques_Marie_Lacan",
+      "title": "Jacques Marie Lacan",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Lacan",
+        "firstname": "Jacques Marie",
+        "birth_date": "13.4.1901",
+        "birthplace": "Paris, Frankrike",
+        "death_date": "9.9.1981",
+        "pronunciation": "<p>lak<em>ã</em></p>",
+        "place_of_death": "Paris, Frankrike",
+        "alternative_form": "<p>Jacques Marie Émile Lacan</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Torberg Foss"
+        }
+      ],
+      "license": "fri",
+      "sha256": "7dd01b95da28a061368111dd6447377c70a0202da7cf9d8b5597101b9f00ef94"
+    },
+    "error": null,
+    "searchSha256": "4d7f9c9bce225c6c4897644624562068b494db629efee6f4786e2de4d0d54b4e"
+  },
+  {
+    "wikidataId": "Q37327",
+    "name": "Samuel Beckett",
+    "expectedDob": "1906-04-13",
+    "searchUrl": "https://snl.no/api/v1/search?query=Samuel+Beckett&limit=10",
+    "result": {
+      "title": "Samuel Beckett",
+      "headword": "Samuel Beckett",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Samuel_Beckett",
+      "article_url_json": "https://snl.no/Samuel_Beckett.json",
+      "rank": 576.9103759527206
+    },
+    "article": {
+      "url": "https://snl.no/Samuel_Beckett",
+      "title": "Samuel Beckett",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Beckett",
+        "firstname": "Samuel",
+        "birth_date": "13.4.1906",
+        "birthplace": "Foxrock, Dublin, Irland",
+        "death_date": "22.12.1989",
+        "pronunciation": "<p>b<em>e</em>kkett</p>",
+        "place_of_death": "Paris, Frankrike",
+        "alternative_form": "<p>Samuel Barclay Beckett</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Erik Tonning"
+        }
+      ],
+      "license": "fri",
+      "sha256": "891c4dac74441ba51d3f353b052b733edf984993f063d70a93954827b625a084"
+    },
+    "error": null,
+    "searchSha256": "2df5493f3fce0da3901f365bebb604d501cb903466cee90cd4a36e5566178f7b"
+  },
+  {
+    "wikidataId": "Q28614",
+    "name": "Garry Kasparov",
+    "expectedDob": "1963-04-13",
+    "searchUrl": "https://snl.no/api/v1/search?query=Garry+Kasparov&limit=10",
+    "result": {
+      "title": "Garri Kasparov",
+      "headword": "Garri Kasparov",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Garri_Kasparov",
+      "article_url_json": "https://snl.no/Garri_Kasparov.json",
+      "rank": 426.0
+    },
+    "article": {
+      "url": "https://snl.no/Garri_Kasparov",
+      "title": "Garri Kasparov",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Kasparov",
+        "firstname": "Garri",
+        "birth_date": "13.4.1963",
+        "birthplace": "Baku, Aserbajdsjan",
+        "pronunciation": "<p>kasp<em>a</em>rov</p>",
+        "alternative_form": "<div>Garri Kimovitsj Kasparov (Гарри Кимович Каспаров). Opprinnelig Garri (Harry/Garik) Weinstein</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Rolf Bryhn"
+        },
+        {
+          "full_name": "Sheila Stanford"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "79a30a38dea7901ca18e10bbdcb25a04889548d551e0d5d6f1da0e3e9594f568"
+    },
+    "error": null,
+    "searchSha256": "218ce10e847ae1effec40c48bbe24c56df7cceaaa99fd738c521848aec3f3cc8"
+  },
+  {
+    "wikidataId": "Q231690",
+    "name": "Bhimrao Ambedkar",
+    "expectedDob": "1891-04-14",
+    "searchUrl": "https://snl.no/api/v1/search?query=Bhimrao+Ambedkar&limit=10",
+    "result": {
+      "title": "Bhimrao Ramji Ambedkar",
+      "headword": "Bhimrao Ramji Ambedkar",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Bhimrao_Ramji_Ambedkar",
+      "article_url_json": "https://snl.no/Bhimrao_Ramji_Ambedkar.json",
+      "rank": 25.882539689540863
+    },
+    "article": {
+      "url": "https://snl.no/Bhimrao_Ramji_Ambedkar",
+      "title": "Bhimrao Ramji Ambedkar",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Ambedkar",
+        "firstname": "Bhimrao Ramji",
+        "birth_date": "14.4.1891",
+        "birthplace": "Mhow, Britisk India (nå India)",
+        "death_date": "6.12.1956",
+        "pronunciation": "<p>amb<em>e</em>dkar</p>",
+        "place_of_death": "New Dehli, India",
+        "alternative_form": "<p>B. R. Ambedkar</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": " Store norske leksikon (2005-2007)"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "a01d00c6d387357edc28710d04e340c5492cd3101c29cb169f25b9c2d33aa40d"
+    },
+    "error": null,
+    "searchSha256": "b5a4a5efa92da66f068a0f49c2694e50e58daf222277f720ad2a3356d8a80f00"
+  },
+  {
+    "wikidataId": "Q39599",
+    "name": "Christiaan Huygens",
+    "expectedDob": "1629-04-14",
+    "searchUrl": "https://snl.no/api/v1/search?query=Christiaan+Huygens&limit=10",
+    "result": {
+      "title": "Christiaan Huygens",
+      "headword": "Christiaan Huygens",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Christiaan_Huygens",
+      "article_url_json": "https://snl.no/Christiaan_Huygens.json",
+      "rank": 575.6100000143051
+    },
+    "article": {
+      "url": "https://snl.no/Christiaan_Huygens",
+      "title": "Christiaan Huygens",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Huygens",
+        "firstname": "Christiaan",
+        "birth_date": "0.0.1629",
+        "death_date": "0.0.1695",
+        "pronunciation": "<div>hˈøyγəns</div>",
+        "alternative_form": "<div>Hugenius</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Trygve Holtebekk"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "6acb340cf888ffce77fbd0d859ea060d597ba6403ce89371e84c1c4fc177b632"
+    },
+    "error": null,
+    "searchSha256": "b77e6470d1e2b46e58747bb4636195680cb8795e5d5e0253632327f6d06f0599"
+  },
+  {
+    "wikidataId": "Q318458",
+    "name": "Nguyễn Phú Trọng",
+    "expectedDob": "1944-04-14",
+    "searchUrl": "https://snl.no/api/v1/search?query=Nguy%E1%BB%85n+Ph%C3%BA+Tr%E1%BB%8Dng&limit=10",
+    "result": null,
+    "article": null,
+    "error": null,
+    "searchSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "wikidataId": "Q15948",
+    "name": "Émile Durkheim",
+    "expectedDob": "1858-04-15",
+    "searchUrl": "https://snl.no/api/v1/search?query=%C3%89mile+Durkheim&limit=10",
+    "result": {
+      "title": "Émile Durkheim",
+      "headword": "Émile Durkheim",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/%C3%89mile_Durkheim",
+      "article_url_json": "https://snl.no/%C3%89mile_Durkheim.json",
+      "rank": 576.1732143163681
+    },
+    "article": {
+      "url": "https://snl.no/%C3%89mile_Durkheim",
+      "title": "Émile Durkheim",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Durkheim",
+        "firstname": "Émile",
+        "birth_date": "15.4.1858",
+        "birthplace": "Épinal, Frankrike",
+        "death_date": "15.11.1917",
+        "pronunciation": "<p>dyrk<em>ɛ</em>m</p>",
+        "place_of_death": "Paris, Frankrike"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Iver B. Neumann"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "1b0a26913534e24b01950a612b688624ecec722f88cbfe1bd9a54ecd9ee1317e"
+    },
+    "error": null,
+    "searchSha256": "9a773d177408fd0607df8d92f7c21c13f4066667840026818af0648a0738ecf3"
+  },
+  {
+    "wikidataId": "Q7604",
+    "name": "Leonhard Euler",
+    "expectedDob": "1707-04-15",
+    "searchUrl": "https://snl.no/api/v1/search?query=Leonhard+Euler&limit=10",
+    "result": {
+      "title": "Leonhard Euler",
+      "headword": "Leonhard Euler",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Leonhard_Euler",
+      "article_url_json": "https://snl.no/Leonhard_Euler.json",
+      "rank": 576.174458861351
+    },
+    "article": {
+      "url": "https://snl.no/Leonhard_Euler",
+      "title": "Leonhard Euler",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Euler",
+        "firstname": "Leonhard",
+        "birth_date": "15.4.1707",
+        "birthplace": "Basel",
+        "death_date": "18.9.1783",
+        "pronunciation": "<p><em>å</em>i:lər</p>",
+        "place_of_death": "St. Petersburg"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Karl Egil Aubert"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "be44cabf128182bada41e830e5970bbc332f4c196c77d11dcec7603b6dd6e473"
+    },
+    "error": null,
+    "searchSha256": "de6634f6f18db766702e25c08e11d7b00eb0950982848368ff24dab5b591fd92"
+  },
+  {
+    "wikidataId": "Q42122",
+    "name": "Tomas Tranströmer",
+    "expectedDob": "1931-04-15",
+    "searchUrl": "https://snl.no/api/v1/search?query=Tomas+Transtr%C3%B6mer&limit=10",
+    "result": {
+      "title": "Tomas Tranströmer",
+      "headword": "Tomas Tranströmer",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Tomas_Transtr%C3%B6mer",
+      "article_url_json": "https://snl.no/Tomas_Transtr%C3%B6mer.json",
+      "rank": 576.5889781713486
+    },
+    "article": {
+      "url": "https://snl.no/Tomas_Transtr%C3%B6mer",
+      "title": "Tomas Tranströmer",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Tranströmer",
+        "firstname": "Tomas",
+        "birth_date": "15.4.1931",
+        "birthplace": "Stockholm, Sverige",
+        "death_date": "26.3.2015",
+        "occupation": "Poet, psykolog",
+        "kulturnav_id": "346fc71d-8d98-4371-962a-a205a369859b",
+        "place_of_death": "Stockholm, Sverige"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Ragnild Lome"
+        }
+      ],
+      "license": "fri",
+      "sha256": "f7a541a38b9cf9c0b405e17235ef2dc62391125d95e8a5de779c27efac43df09"
+    },
+    "error": null,
+    "searchSha256": "ebe29dd24cea8b5ec88980dae12f1a9a9a6642e1a8302b2f87dea7ffc4e10d72"
+  },
+  {
+    "wikidataId": "Q882",
+    "name": "Charlie Chaplin",
+    "expectedDob": "1889-04-16",
+    "searchUrl": "https://snl.no/api/v1/search?query=Charlie+Chaplin&limit=10",
+    "result": {
+      "title": "Charlie Chaplin",
+      "headword": "Charlie Chaplin",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Charlie_Chaplin",
+      "article_url_json": "https://snl.no/Charlie_Chaplin.json",
+      "rank": 576.0710256099701
+    },
+    "article": {
+      "url": "https://snl.no/Charlie_Chaplin",
+      "title": "Charlie Chaplin",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Chaplin",
+        "firstname": "Charlie",
+        "birth_date": "16.4.1889",
+        "birthplace": "London",
+        "death_date": "25.12.1977",
+        "pronunciation": "<p>tsj<em>æ</em>plin</p>",
+        "place_of_death": "Vevey, Sveits",
+        "alternative_form": "<div>\r\n<div>\r\nSir</div>\n<div>\r\nCharles Spencer Chaplin</div>\n</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Trond Olav Svendsen"
+        },
+        {
+          "full_name": "Ann-Sofi S. Emilsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "91e4b2c8da5d1c0e158608ab53e9b5d3650c99c92d513a2bc01fcf5ec1c0e062"
+    },
+    "error": null,
+    "searchSha256": "0d483fab87fe2565f17acb0e3505bce8ef2afe772da714d94e2373f1ad7ebd55"
+  },
+  {
+    "wikidataId": "Q42443",
+    "name": "Anatole France",
+    "expectedDob": "1844-04-16",
+    "searchUrl": "https://snl.no/api/v1/search?query=Anatole+France&limit=10",
+    "result": {
+      "title": "Anatole France",
+      "headword": "Anatole France",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Anatole_France",
+      "article_url_json": "https://snl.no/Anatole_France.json",
+      "rank": 576.0383942127228
+    },
+    "article": {
+      "url": "https://snl.no/Anatole_France",
+      "title": "Anatole France",
+      "metadata": {
+        "gender": "m",
+        "lastname": "France",
+        "firstname": "Anatole",
+        "birth_date": "16.4.1844",
+        "birthplace": "Paris",
+        "death_date": "12.10.1924",
+        "pronunciation": "<p>frãs</p>",
+        "place_of_death": "Saint-Cyr-sur-Loire",
+        "alternative_form": "<div>egentlig Jacques François Anatole Thibault</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Truls Olav Winther"
+        }
+      ],
+      "license": "fri",
+      "sha256": "c97f17ae5d53334ec8a9895d354548438c63eddb2bb095012d3c992b15c2f32a"
+    },
+    "error": null,
+    "searchSha256": "763b8f90cbc73365d86ab454b6358cfa777cd2639e9cac4898478a5bf47c2d73"
+  },
+  {
+    "wikidataId": "Q179051",
+    "name": "Kareem Abdul-Jabbar",
+    "expectedDob": "1947-04-16",
+    "searchUrl": "https://snl.no/api/v1/search?query=Kareem+Abdul-Jabbar&limit=10",
+    "result": {
+      "title": "Kareem Abdul-Jabbar",
+      "headword": "Kareem Abdul-Jabbar",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Kareem_Abdul-Jabbar",
+      "article_url_json": "https://snl.no/Kareem_Abdul-Jabbar.json",
+      "rank": 575.542857170105
+    },
+    "article": {
+      "url": "https://snl.no/Kareem_Abdul-Jabbar",
+      "title": "Kareem Abdul-Jabbar",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Abdul-Jabbar",
+        "firstname": "Kareem",
+        "birth_date": "16.4.1947",
+        "birthplace": "New York, New York, USA",
+        "pronunciation": "<p>abd<em>u</em>l-jabb<em>a</em>r</p>",
+        "alternative_form": "<div>til 1971 Lew(is) Ferdinand Alcindor</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Tor Håkon Solheim"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "5acf316e1621bb86d710ff773aed0388bdf31cd8cf54eca5e5353b1f0618b35b"
+    },
+    "error": null,
+    "searchSha256": "5319c7f3be9bc5e4a056445ed4a816738a914f65429e310abeebede6d9e6b789"
+  },
+  {
+    "wikidataId": "Q194291",
+    "name": "Sirimavo Bandaranaike",
+    "expectedDob": "1916-04-17",
+    "searchUrl": "https://snl.no/api/v1/search?query=Sirimavo+Bandaranaike&limit=10",
+    "result": {
+      "title": "Sirimavo Bandaranaike",
+      "headword": "Sirimavo Bandaranaike",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Sirimavo_Bandaranaike",
+      "article_url_json": "https://snl.no/Sirimavo_Bandaranaike.json",
+      "rank": 576.1718280315399
+    },
+    "article": {
+      "url": "https://snl.no/Sirimavo_Bandaranaike",
+      "title": "Sirimavo Bandaranaike",
+      "metadata": {
+        "gender": "k",
+        "lastname": "Bandaranaike",
+        "firstname": "Sirimavo",
+        "birth_date": "17.4.1916",
+        "death_date": "10.10.2000",
+        "pronunciation": "<div>bandaranˈaike</div>",
+        "alternative_form": "<div>Sirimavo Ratwatte Dias Bandaranaike</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": " Store norske leksikon (2005-2007)"
+        },
+        {
+          "full_name": "Anne Synnøve Simensen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "a19a10a2b3fc0ad5a993fa32396f52dd625f4a3a37d4c09cf48dea8e2d7b7850"
+    },
+    "error": null,
+    "searchSha256": "6362b27d7285dc32f451977670cd1ae0d7682b1ae4b9c650c1df4e73b640461e"
+  },
+  {
+    "wikidataId": "Q182804",
+    "name": "Karen Blixen",
+    "expectedDob": "1885-04-17",
+    "searchUrl": "https://snl.no/api/v1/search?query=Karen+Blixen&limit=10",
+    "result": {
+      "title": "Karen Blixen",
+      "headword": "Karen Blixen",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Karen_Blixen",
+      "article_url_json": "https://snl.no/Karen_Blixen.json",
+      "rank": 578.6981143951416
+    },
+    "article": {
+      "url": "https://snl.no/Karen_Blixen",
+      "title": "Karen Blixen",
+      "metadata": {
+        "gender": "k",
+        "lastname": "Blixen",
+        "firstname": "Karen",
+        "birth_date": "17.4.1885",
+        "birthplace": "Rungsted, Danmark",
+        "death_date": "7.9.1962",
+        "place_of_death": "Rungsted, Danmark",
+        "alternative_form": "<div>Karen Christence Blixen; Karen Christentze Blixen-Finecke; Tanne; Isak Dinesen</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Tone Selboe"
+        }
+      ],
+      "license": "fri",
+      "sha256": "d999c0358e1822fbd8638da7d118849f4b7a7aab449983866cecd99e605b49d1"
+    },
+    "error": null,
+    "searchSha256": "5c1b3ce319fe6da56281354b028d5ed0e79cb35c1e854fbd4b2d8f26b6b8a226"
+  },
+  {
+    "wikidataId": "Q95002",
+    "name": "William Holden",
+    "expectedDob": "1918-04-17",
+    "searchUrl": "https://snl.no/api/v1/search?query=William+Holden&limit=10",
+    "result": {
+      "title": "William Holden",
+      "headword": "William Holden",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/William_Holden",
+      "article_url_json": "https://snl.no/William_Holden.json",
+      "rank": 575.9029629826546
+    },
+    "article": {
+      "url": "https://snl.no/William_Holden",
+      "title": "William Holden",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Holden",
+        "firstname": "William",
+        "birth_date": "17.4.1918",
+        "birthplace": "O'Fallon, Illinois",
+        "death_date": "2.11.1981",
+        "pronunciation": "<p>h<em>o</em>uldən</p>",
+        "place_of_death": "Santa Monica, California",
+        "alternative_form": "<p>William Franklin Beedle Jr.</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Trond Olav Svendsen"
+        },
+        {
+          "full_name": "Ann-Sofi S. Emilsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "28f927136b8614ad05d9374113b9a9e437c59d6cfe81779aeaa3fa5c6f6c45e4"
+    },
+    "error": null,
+    "searchSha256": "42cb46fd89b2a6b16367182df6112c377dc23ea88d4475dcee656620dd458923"
+  },
+  {
+    "wikidataId": "Q160270",
+    "name": "David Ricardo",
+    "expectedDob": "1772-04-18",
+    "searchUrl": "https://snl.no/api/v1/search?query=David+Ricardo&limit=10",
+    "result": {
+      "title": "David Ricardo",
+      "headword": "David Ricardo",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/David_Ricardo",
+      "article_url_json": "https://snl.no/David_Ricardo.json",
+      "rank": 575.5
+    },
+    "article": {
+      "url": "https://snl.no/David_Ricardo",
+      "title": "David Ricardo",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Ricardo",
+        "firstname": "David",
+        "birth_date": "0.4.1772",
+        "birthplace": "London, England",
+        "death_date": "11.9.1823",
+        "pronunciation": "<p>rik<em>a</em>:dou</p>",
+        "place_of_death": "Gatcombe Park, Gloucestershire, England",
+        "lifespan_comment": "Født 18. april 1772 eller 19. april 1772"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Gerhard Stoltz"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "f6eb2d4f427ed78f025edf6885de218890586e6351ecbc75cca7455b7a0657be"
+    },
+    "error": null,
+    "searchSha256": "57afeded683d0ae14a44b0006db941b9732ed59be9e89491b66755113844c292"
+  },
+  {
+    "wikidataId": "Q188997",
+    "name": "Wojciech Szczęsny",
+    "expectedDob": "1990-04-18",
+    "searchUrl": "https://snl.no/api/v1/search?query=Wojciech+Szcz%C4%99sny&limit=10",
+    "result": null,
+    "article": null,
+    "error": null,
+    "searchSha256": "bc1994c5955ea3e431eba90b38f0a8d689b4084b1eef5667641a3d408aeda566"
+  },
+  {
+    "wikidataId": "Q57276",
+    "name": "Michael D. Higgins",
+    "expectedDob": "1941-04-18",
+    "searchUrl": "https://snl.no/api/v1/search?query=Michael+D.+Higgins&limit=10",
+    "result": null,
+    "article": null,
+    "error": null,
+    "searchSha256": "0ee19eeb4a8e0afb255c7b04e2f15ce452d6c8bb4c6268c52c5c0b330abda334"
+  },
+  {
+    "wikidataId": "Q127349",
+    "name": "José Echegaray",
+    "expectedDob": "1832-04-19",
+    "searchUrl": "https://snl.no/api/v1/search?query=Jos%C3%A9+Echegaray&limit=10",
+    "result": {
+      "title": "José Echegaray",
+      "headword": "José Echegaray",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Jos%C3%A9_Echegaray",
+      "article_url_json": "https://snl.no/Jos%C3%A9_Echegaray.json",
+      "rank": 576.3999999761581
+    },
+    "article": {
+      "url": "https://snl.no/Jos%C3%A9_Echegaray",
+      "title": "José Echegaray",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Echegaray",
+        "firstname": "José",
+        "birth_date": "19.4.1832",
+        "birthplace": "Madrid, Spania",
+        "death_date": "14.9.1916",
+        "pronunciation": "<div>etʃegarˈai</div>",
+        "place_of_death": "Madrid, Spania",
+        "alternative_form": "<p>José Echegaray y Eizaguirre</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Knut Enger Sparre"
+        },
+        {
+          "full_name": "Claudia Bätcke"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "08574b60d30d11d7ad9f22eb168ff60e362f53014bb1af4f05e3bd2487a35145"
+    },
+    "error": null,
+    "searchSha256": "f86afb4dff3dfd2ee9f375c0b93624c878675c32719ac488b22cfb9345b71536"
+  },
+  {
+    "wikidataId": "Q57340",
+    "name": "Mswati III",
+    "expectedDob": "1968-04-19",
+    "searchUrl": "https://snl.no/api/v1/search?query=Mswati+III&limit=10",
+    "result": {
+      "title": "Mswati 3.",
+      "headword": "Mswati 3.",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Mswati_3.",
+      "article_url_json": "https://snl.no/Mswati_3..json",
+      "rank": 427.83920645713806
+    },
+    "article": {
+      "url": "https://snl.no/Mswati_3.",
+      "title": "Mswati 3.",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Mswati 3.",
+        "birth_date": "19.4.1968",
+        "birthplace": "Manzini, Swaziland (nå Eswatini)",
+        "alternative_form": "<div>\n<div>Mswati III</div>\r\n<div>Ngwenyama Mswati III Dlamini</div>\r\n</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Elling Tjønneland"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "51e7fb9d89762bfdf2e9229e5e315762b59473b56f9c5f8dc676d38b435ab413"
+    },
+    "error": null,
+    "searchSha256": "d2509ed9a75384fe99821ea745d5cee9969dc5a7880fd0769a5ed9e5ef0c3bc3"
+  },
+  {
+    "wikidataId": "Q29311086",
+    "name": "Đoàn Văn Hậu",
+    "expectedDob": "1999-04-19",
+    "searchUrl": "https://snl.no/api/v1/search?query=%C4%90o%C3%A0n+V%C4%83n+H%E1%BA%ADu&limit=10",
+    "result": null,
+    "article": null,
+    "error": null,
+    "searchSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "wikidataId": "Q152384",
+    "name": "Joan Miró",
+    "expectedDob": "1893-04-20",
+    "searchUrl": "https://snl.no/api/v1/search?query=Joan+Mir%C3%B3&limit=10",
+    "result": {
+      "title": "Joan Miró",
+      "headword": "Joan Miró",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Joan_Mir%C3%B3",
+      "article_url_json": "https://snl.no/Joan_Mir%C3%B3.json",
+      "rank": 576.6339601278305
+    },
+    "article": {
+      "url": "https://snl.no/Joan_Mir%C3%B3",
+      "title": "Joan Miró",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Miró",
+        "firstname": "Joan",
+        "birth_date": "20.4.1893",
+        "birthplace": "Barcelona, Catalonia, Spania",
+        "death_date": "25.12.1983",
+        "pronunciation": "<p>mir<em>å</em></p>",
+        "place_of_death": "Palma de Mallorca, Mallorca, Spania",
+        "alternative_form": "<p>Født Joan Miró i Ferrà</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": " Store norske leksikon (2005-2007)"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "ffbe5a8272f7754d258f9895943e310aa8319d2aacb46ae027336b6413cc01b5"
+    },
+    "error": null,
+    "searchSha256": "752703af4440cb822507b753faca1fda53a41b12bef4490ed3e0a13e809e9286"
+  },
+  {
+    "wikidataId": "Q133009",
+    "name": "Gro Harlem Brundtland",
+    "expectedDob": "1939-04-20",
+    "searchUrl": "https://snl.no/api/v1/search?query=Gro+Harlem+Brundtland&limit=10",
+    "result": {
+      "title": "Gro Harlem Brundtland",
+      "headword": "Gro Harlem Brundtland",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Gro_Harlem_Brundtland",
+      "article_url_json": "https://snl.no/Gro_Harlem_Brundtland.json",
+      "rank": 580.059335231781
+    },
+    "article": {
+      "url": "https://snl.no/Gro_Harlem_Brundtland",
+      "title": "Gro Harlem Brundtland",
+      "metadata": {
+        "family": "<div>\r\n<p>Foreldre: Lege Gudmund Harlem (1917–1988) og konsulent Inga Brynolf (1918–2005).</p>\r\n<p>Gift 09.12.1960 med forsker Arne Olav Brundtland (16.10.1936–07.06.2024), sønn av lektor Knut Brundtland (1898–1983) og Else Ragnhild Hoel (1902–74).</p>\r\n</div>",
+        "gender": "k",
+        "hbr_id": "PFe00108121960M11001A",
+        "lastname": "Brundtland",
+        "firstname": "Gro Harlem",
+        "birth_date": "20.4.1939",
+        "birthplace": "Bærum",
+        "occupation": "Lege og politiker",
+        "kulturnav_id": "5149180a-849b-4cba-847a-b6540af38253",
+        "alternative_form": "<p>Gro Harlem (til hun giftet seg med Arne Olav Brundtland i 1960)</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Egil Helle"
+        },
+        {
+          "full_name": " Norsk biografisk leksikon"
+        },
+        {
+          "full_name": "Aslak Bonde"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "c004ba466d8999bc6051adce4ef7e0aeab9c1238c7615a61eb91ff0df9cf8f28"
+    },
+    "error": null,
+    "searchSha256": "c77a659f71bf7037567c41054694951a577306f671df5bd44b090224f86123b9"
+  },
+  {
+    "wikidataId": "Q173585",
+    "name": "Jessica Lange",
+    "expectedDob": "1949-04-20",
+    "searchUrl": "https://snl.no/api/v1/search?query=Jessica+Lange&limit=10",
+    "result": {
+      "title": "Jessica Lange",
+      "headword": "Jessica Lange",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Jessica_Lange",
+      "article_url_json": "https://snl.no/Jessica_Lange.json",
+      "rank": 576.1499999761581
+    },
+    "article": {
+      "url": "https://snl.no/Jessica_Lange",
+      "title": "Jessica Lange",
+      "metadata": {
+        "gender": "k",
+        "lastname": "Lange",
+        "firstname": "Jessica",
+        "birth_date": "20.4.1949",
+        "birthplace": "Cloquet, Minnesota",
+        "pronunciation": "<p>læŋ</p>",
+        "alternative_form": "<p>Jessica Phyllis Lange</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Trond Olav Svendsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "8f8cb3a602a00dc136efa9b848e4f222dd4d2a6f4037d2d90edae11c16ddf8b3"
+    },
+    "error": null,
+    "searchSha256": "ae2f80fd69ac5d57d798a22dcabaff0fe290765e3e395442b1818792e54e6a40"
+  },
+  {
+    "wikidataId": "Q9682",
+    "name": "Elizabeth II",
+    "expectedDob": "1926-04-21",
+    "searchUrl": "https://snl.no/api/v1/search?query=Elizabeth+II&limit=10",
+    "result": {
+      "title": "Elizabeth 2.",
+      "headword": "Elizabeth 2.",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Elizabeth_2.",
+      "article_url_json": "https://snl.no/Elizabeth_2..json",
+      "rank": 426.859410405159
+    },
+    "article": {
+      "url": "https://snl.no/Elizabeth_2.",
+      "title": "Elizabeth 2.",
+      "metadata": {
+        "gender": "k",
+        "lastname": "Elizabeth 2.",
+        "birth_date": "21.4.1926",
+        "birthplace": "London, England",
+        "death_date": "8.9.2022",
+        "place_of_death": "Balmoral, Skottland",
+        "alternative_form": "<div>Elizabeth II, fullt navn Elizabeth Alexandra Mary</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Jon Gunnar Arntzen"
+        },
+        {
+          "full_name": "Knut Øystein Høvik"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "7a44fd93547b40a3777b7011941703d51d9a4b34f7bb121ec86df5eb3586d903"
+    },
+    "error": null,
+    "searchSha256": "dab73bdccd871366c611ffeaef2618915ef9e48f5bd00c5c986e6a0629f9d8c0"
+  },
+  {
+    "wikidataId": "Q9387",
+    "name": "Max Weber",
+    "expectedDob": "1864-04-21",
+    "searchUrl": "https://snl.no/api/v1/search?query=Max+Weber&limit=10",
+    "result": {
+      "title": "Max Weber",
+      "headword": "Max Weber",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Max_Weber",
+      "article_url_json": "https://snl.no/Max_Weber.json",
+      "rank": 575.9187499880791
+    },
+    "article": {
+      "url": "https://snl.no/Max_Weber",
+      "title": "Max Weber",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Weber",
+        "firstname": "Max",
+        "birth_date": "21.4.1864",
+        "birthplace": "Erfort, Tyskland",
+        "death_date": "14.6.1920",
+        "place_of_death": "München, Tyskland"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Marit Dalen"
+        },
+        {
+          "full_name": " Allkunne"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "29043eba0d650ec72d0d807e61bc8fcf6ffbc368b6abc552b1180f790ff082a3"
+    },
+    "error": null,
+    "searchSha256": "024d6ee14a5fade6a34fbf58311fe470a3fd145040759a4ff298276ac5c20d8d"
+  },
+  {
+    "wikidataId": "Q182665",
+    "name": "Iggy Pop",
+    "expectedDob": "1947-04-21",
+    "searchUrl": "https://snl.no/api/v1/search?query=Iggy+Pop&limit=10",
+    "result": {
+      "title": "Iggy Pop",
+      "headword": "Iggy Pop",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Iggy_Pop",
+      "article_url_json": "https://snl.no/Iggy_Pop.json",
+      "rank": 575.8620786070824
+    },
+    "article": {
+      "url": "https://snl.no/Iggy_Pop",
+      "title": "Iggy Pop",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Iggy Pop",
+        "birth_date": "21.4.1947",
+        "birthplace": "Muskegon, Michigan",
+        "alternative_form": "<div>James Newell Osterberg jr.</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Jon Vidar Bergan"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "1fe1b9a7da554612a8c136fde7f78e1889f9e4d8504eee96a2dbce11e9570811"
+    },
+    "error": null,
+    "searchSha256": "e2d1ae0d2f15d5fd4ba49127b5e52b4634e4626404d582282c7a46fb92ca1ee2"
+  },
+  {
+    "wikidataId": "Q9312",
+    "name": "Immanuel Kant",
+    "expectedDob": "1724-04-22",
+    "searchUrl": "https://snl.no/api/v1/search?query=Immanuel+Kant&limit=10",
+    "result": {
+      "title": "Immanuel Kant",
+      "headword": "Immanuel Kant",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Immanuel_Kant",
+      "article_url_json": "https://snl.no/Immanuel_Kant.json",
+      "rank": 575.82825756073
+    },
+    "article": {
+      "url": "https://snl.no/Immanuel_Kant",
+      "title": "Immanuel Kant",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Kant",
+        "firstname": "Immanuel",
+        "birth_date": "22.4.1724",
+        "birthplace": "Königsberg, Prøyssen (nå Kaliningrad, Russland)",
+        "death_date": "12.2.1804",
+        "place_of_death": "Königsberg, Prøyssen"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Marit Dalen"
+        },
+        {
+          "full_name": " Allkunne"
+        },
+        {
+          "full_name": "Lars Fredrik Händler Svendsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "69c308052a2b44d4df54e086d3c67b2a6b74af9c14ac48a2ae8fe741bfe93d72"
+    },
+    "error": null,
+    "searchSha256": "851f502d1d49c0cc5dce272e3a4d910f1f85cf5c10ad9255cc6c6224fababf54"
+  },
+  {
+    "wikidataId": "Q39792",
+    "name": "Jack Nicholson",
+    "expectedDob": "1937-04-22",
+    "searchUrl": "https://snl.no/api/v1/search?query=Jack+Nicholson&limit=10",
+    "result": {
+      "title": "Jack Nicholson",
+      "headword": "Jack Nicholson",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Jack_Nicholson",
+      "article_url_json": "https://snl.no/Jack_Nicholson.json",
+      "rank": 575.5111111402512
+    },
+    "article": {
+      "url": "https://snl.no/Jack_Nicholson",
+      "title": "Jack Nicholson",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Nicholson",
+        "firstname": "Jack",
+        "birth_date": "22.4.1937",
+        "birthplace": "Neptune City, New Jersey",
+        "pronunciation": "<p>n<em>i</em>kəlsn</p>",
+        "alternative_form": "<div>John Joseph Nicholson</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Trond Olav Svendsen"
+        },
+        {
+          "full_name": "Ann-Sofi S. Emilsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "ffe326efc4cab326842bb1f612f948eddbff0fcda3e8e7497c2bdc3f78c910e7"
+    },
+    "error": null,
+    "searchSha256": "b1881a9e4901b9f5bbf6d15b6b2be3705e60440fa581f9a86ab436950a9d6e6c"
+  },
+  {
+    "wikidataId": "Q185007",
+    "name": "Rita Levi-Montalcini",
+    "expectedDob": "1909-04-22",
+    "searchUrl": "https://snl.no/api/v1/search?query=Rita+Levi-Montalcini&limit=10",
+    "result": {
+      "title": "Rita Levi-Montalcini",
+      "headword": "Rita Levi-Montalcini",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Rita_Levi-Montalcini",
+      "article_url_json": "https://snl.no/Rita_Levi-Montalcini.json",
+      "rank": 575.6044117808342
+    },
+    "article": {
+      "url": "https://snl.no/Rita_Levi-Montalcini",
+      "title": "Rita Levi-Montalcini",
+      "metadata": {
+        "gender": "k",
+        "lastname": "Levi-Montalcini",
+        "firstname": "Rita",
+        "birth_date": "22.4.1909",
+        "birthplace": "Turin",
+        "death_date": "30.12.2012",
+        "pronunciation": "<p>-tʃ<em>i</em>:ni</p>",
+        "place_of_death": "Roma"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": " Store norske leksikon (2005-2007)"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "5594a46ed2453c50f737c0027de7d77c5e0b9d30b38f6d12549b173f7c9820c2"
+    },
+    "error": null,
+    "searchSha256": "cca706e2566b918ae0d0349bf198f6bc5dd98e580f80204fd624bc635936eb48"
+  },
+  {
+    "wikidataId": "Q9021",
+    "name": "Max Planck",
+    "expectedDob": "1858-04-23",
+    "searchUrl": "https://snl.no/api/v1/search?query=Max+Planck&limit=10",
+    "result": {
+      "title": "Max Planck",
+      "headword": "Max Planck",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Max_Planck",
+      "article_url_json": "https://snl.no/Max_Planck.json",
+      "rank": 576.9602651596069
+    },
+    "article": {
+      "url": "https://snl.no/Max_Planck",
+      "title": "Max Planck",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Planck",
+        "firstname": "Max",
+        "birth_date": "23.4.1858",
+        "birthplace": "Kiel i Tyskland",
+        "death_date": "4.10.1947",
+        "place_of_death": "Göttingen i Tyskland",
+        "alternative_form": "<div>Max Karl Ernst Ludwig Planck</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Lars Egil Helseth"
+        }
+      ],
+      "license": "fri",
+      "sha256": "c67ee14069df27bb50f83836e0f50a3a413f1daff0f02213be2d1ec4abd4ef19"
+    },
+    "error": null,
+    "searchSha256": "e04c0e22f3703ea1f5bf6fc30e4c91828d1e53dcf05ad9c993e492747dc39984"
+  },
+  {
+    "wikidataId": "Q80321",
+    "name": "Halldór Laxness",
+    "expectedDob": "1902-04-23",
+    "searchUrl": "https://snl.no/api/v1/search?query=Halld%C3%B3r+Laxness&limit=10",
+    "result": {
+      "title": "Halldór Kiljan Laxness",
+      "headword": "Halldór Kiljan Laxness",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Halld%C3%B3r_Kiljan_Laxness",
+      "article_url_json": "https://snl.no/Halld%C3%B3r_Kiljan_Laxness.json",
+      "rank": 25.98858994245529
+    },
+    "article": {
+      "url": "https://snl.no/Halld%C3%B3r_Kiljan_Laxness",
+      "title": "Halldór Kiljan Laxness",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Laxness",
+        "firstname": "Halldór Kiljan",
+        "birth_date": "23.4.1902",
+        "birthplace": "Reykjavik, Island",
+        "death_date": "8.2.1998",
+        "place_of_death": "Reykjavik, Island",
+        "alternative_form": "<p>Halldór Guðjónsson</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Knut Ødegård"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "468e4abf6ba8408d75b2a12d1172646e3ea007b3f05dd93956bdfd3619249f01"
+    },
+    "error": null,
+    "searchSha256": "bc23439f1a4015630b8429f62451c7470f81a66d41d4bc2b5d607c3fc1e509d1"
+  },
+  {
+    "wikidataId": "Q182580",
+    "name": "Shirley Temple",
+    "expectedDob": "1928-04-23",
+    "searchUrl": "https://snl.no/api/v1/search?query=Shirley+Temple&limit=10",
+    "result": {
+      "title": "Shirley Temple",
+      "headword": "Shirley Temple",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Shirley_Temple",
+      "article_url_json": "https://snl.no/Shirley_Temple.json",
+      "rank": 576.5412465333939
+    },
+    "article": {
+      "url": "https://snl.no/Shirley_Temple",
+      "title": "Shirley Temple",
+      "metadata": {
+        "gender": "k",
+        "lastname": "Temple",
+        "firstname": "Shirley",
+        "birth_date": "23.4.1928",
+        "birthplace": "Santa Monica, California, USA",
+        "death_date": "10.2.2014",
+        "pronunciation": "<p>templ</p>",
+        "place_of_death": "Woodside, California, USA",
+        "alternative_form": "<div>Shirley Temple Black, etter at hun giftet seg i 1950</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Trond Olav Svendsen"
+        },
+        {
+          "full_name": "Ann-Sofi S. Emilsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "5c1c844c05cb090b1a957dd07f954817dae61b0b68f3c12284196061184d480d"
+    },
+    "error": null,
+    "searchSha256": "a703493931300304eabb5cdc711908189914f22ac365f8058293138bf583106c"
+  },
+  {
+    "wikidataId": "Q4636",
+    "name": "Barbra Streisand",
+    "expectedDob": "1942-04-24",
+    "searchUrl": "https://snl.no/api/v1/search?query=Barbra+Streisand&limit=10",
+    "result": {
+      "title": "Barbra Streisand",
+      "headword": "Barbra Streisand",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Barbra_Streisand",
+      "article_url_json": "https://snl.no/Barbra_Streisand.json",
+      "rank": 575.6202020049095
+    },
+    "article": {
+      "url": "https://snl.no/Barbra_Streisand",
+      "title": "Barbra Streisand",
+      "metadata": {
+        "gender": "k",
+        "lastname": "Streisand",
+        "firstname": "Barbra",
+        "birth_date": "24.4.1942",
+        "birthplace": "Brooklyn, New York, USA",
+        "pronunciation": "<div>strˈaisænd</div>",
+        "alternative_form": "<p>Barbara Joan Streisand</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Trond Olav Svendsen"
+        },
+        {
+          "full_name": "Ann-Sofi S. Emilsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "145ef165e99f0e8a54d6eafb17ccabaa625148862c4b22578cf95a28af1b7ebf"
+    },
+    "error": null,
+    "searchSha256": "3c4164bff89c69c5e003d132203680251e64a8fb2abe28a541f0429e1800ef76"
+  },
+  {
+    "wikidataId": "Q95026",
+    "name": "Shirley MacLaine",
+    "expectedDob": "1934-04-24",
+    "searchUrl": "https://snl.no/api/v1/search?query=Shirley+MacLaine&limit=10",
+    "result": {
+      "title": "Shirley MacLaine",
+      "headword": "Shirley MacLaine",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Shirley_MacLaine",
+      "article_url_json": "https://snl.no/Shirley_MacLaine.json",
+      "rank": 575.9033333659172
+    },
+    "article": {
+      "url": "https://snl.no/Shirley_MacLaine",
+      "title": "Shirley MacLaine",
+      "metadata": {
+        "gender": "k",
+        "lastname": "MacLaine",
+        "firstname": "Shirley",
+        "birth_date": "24.4.1934",
+        "birthplace": "Richmond, Virginia",
+        "pronunciation": "<div>məklˈein</div>",
+        "alternative_form": "<p>Shirley MacLean Beaty</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Trond Olav Svendsen"
+        },
+        {
+          "full_name": "Ann-Sofi S. Emilsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "b459470da75a4589eb4d17dc8328982a385739038496981503177961380acf2d"
+    },
+    "error": null,
+    "searchSha256": "49922f0e232b6149028f3662548c2adb1d64d7203508e31cebd64893927529ad"
+  },
+  {
+    "wikidataId": "Q9488",
+    "name": "Sachin Tendulkar",
+    "expectedDob": "1973-04-24",
+    "searchUrl": "https://snl.no/api/v1/search?query=Sachin+Tendulkar&limit=10",
+    "result": {
+      "title": "Sachin Tendulkar",
+      "headword": "Sachin Tendulkar",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Sachin_Tendulkar",
+      "article_url_json": "https://snl.no/Sachin_Tendulkar.json",
+      "rank": 575.710000038147
+    },
+    "article": {
+      "url": "https://snl.no/Sachin_Tendulkar",
+      "title": "Sachin Tendulkar",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Tendulkar",
+        "firstname": "Sachin",
+        "birth_date": "24.4.1973",
+        "birthplace": "Mumbai, India"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Arve Fuglum"
+        }
+      ],
+      "license": "fri",
+      "sha256": "a7f74071a492dbc0529bfc0745224b0586e28d51ff9d50c5acf0ee0cdf1d343f"
+    },
+    "error": null,
+    "searchSha256": "718bf2563c33158ddba786a5af447e3b54581d17c82dbed5f16769434b741453"
+  },
+  {
+    "wikidataId": "Q41163",
+    "name": "Al Pacino",
+    "expectedDob": "1940-04-25",
+    "searchUrl": "https://snl.no/api/v1/search?query=Al+Pacino&limit=10",
+    "result": {
+      "title": "Al Pacino",
+      "headword": "Al Pacino",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Al_Pacino",
+      "article_url_json": "https://snl.no/Al_Pacino.json",
+      "rank": 575.6128352284431
+    },
+    "article": {
+      "url": "https://snl.no/Al_Pacino",
+      "title": "Al Pacino",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Pacino",
+        "firstname": "Al",
+        "birth_date": "25.4.1940",
+        "birthplace": "New York City",
+        "pronunciation": "<p>pətʃ<em>i</em>:nəu</p>",
+        "alternative_form": "<div>Alfredo James Pacino</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Trond Olav Svendsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "6a0664177cdf0d0a7b5bf1359f0070e62689a3c01bbd8c7b886f7712ba8b8e52"
+    },
+    "error": null,
+    "searchSha256": "7db401fcf7563e3ad0edcbc4f8355f273916f7db1e725a7567c7a53e024e3e4d"
+  },
+  {
+    "wikidataId": "Q1768",
+    "name": "Ella Fitzgerald",
+    "expectedDob": "1917-04-25",
+    "searchUrl": "https://snl.no/api/v1/search?query=Ella+Fitzgerald&limit=10",
+    "result": {
+      "title": "Ella Fitzgerald",
+      "headword": "Ella Fitzgerald",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Ella_Fitzgerald",
+      "article_url_json": "https://snl.no/Ella_Fitzgerald.json",
+      "rank": 577.0651891231537
+    },
+    "article": {
+      "url": "https://snl.no/Ella_Fitzgerald",
+      "title": "Ella Fitzgerald",
+      "metadata": {
+        "gender": "k",
+        "lastname": "Fitzgerald",
+        "firstname": "Ella",
+        "birth_date": "25.4.1917",
+        "birthplace": "Newport News, Virginia",
+        "death_date": "15.6.1996",
+        "pronunciation": "<p>fitsdʒ<em>e</em>rəld</p>",
+        "place_of_death": "Beverly Hills, California, USA",
+        "alternative_form": "<p>Ella Jane Fitzgerald</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Ola Djupvik"
+        },
+        {
+          "full_name": "Johs Bergh"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "16c7d3eba004336a993bd70913c2d6fd5b0f0a9602a770d0b6007bf7f7e038f5"
+    },
+    "error": null,
+    "searchSha256": "d893e63f9ab76a5dc36b5acfd524227d46e21f277d2ac5312c6268bd21f0834b"
+  },
+  {
+    "wikidataId": "Q17163",
+    "name": "Johan Cruyff",
+    "expectedDob": "1947-04-25",
+    "searchUrl": "https://snl.no/api/v1/search?query=Johan+Cruyff&limit=10",
+    "result": {
+      "title": "Johan Cruyff",
+      "headword": "Johan Cruyff",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Johan_Cruyff",
+      "article_url_json": "https://snl.no/Johan_Cruyff.json",
+      "rank": 575.8644695281982
+    },
+    "article": {
+      "url": "https://snl.no/Johan_Cruyff",
+      "title": "Johan Cruyff",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Cruyff",
+        "firstname": "Johan",
+        "birth_date": "25.4.1947",
+        "birthplace": "Amsterdam",
+        "death_date": "24.3.2016",
+        "pronunciation": "<p>krøif</p>",
+        "place_of_death": "Barcelona",
+        "alternative_form": "<p>Hendrik Johannes Cruijff</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Marius N. Mikkelsen"
+        }
+      ],
+      "license": "fri",
+      "sha256": "ca6f37fe8a57d9958715d2d43a52557583eb400fe5c59078f87581bd8134b75e"
+    },
+    "error": null,
+    "searchSha256": "e4025f58fbb6b87b6d580d4346433f4413d0e94d95f676559ea852c714878053"
+  },
+  {
+    "wikidataId": "Q9391",
+    "name": "Ludwig Wittgenstein",
+    "expectedDob": "1889-04-26",
+    "searchUrl": "https://snl.no/api/v1/search?query=Ludwig+Wittgenstein&limit=10",
+    "result": {
+      "title": "Ludwig Wittgenstein",
+      "headword": "Ludwig Wittgenstein",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Ludwig_Wittgenstein",
+      "article_url_json": "https://snl.no/Ludwig_Wittgenstein.json",
+      "rank": 576.6204365491867
+    },
+    "article": {
+      "url": "https://snl.no/Ludwig_Wittgenstein",
+      "title": "Ludwig Wittgenstein",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Wittgenstein",
+        "firstname": "Ludwig",
+        "birth_date": "26.4.1889",
+        "birthplace": "Wien, Østerrike-Ungarn (nå Østerrike)",
+        "death_date": "29.4.1951",
+        "pronunciation": "<p>w<em>i</em>ttgenstein</p>",
+        "place_of_death": "Cambridge, England",
+        "alternative_form": "<div>Ludwig Josef Johann Wittgenstein</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Lars Fredrik Händler Svendsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "99817462bb49a75278504b78e6c22941a450eba24d798c46be765c43ce9bff49"
+    },
+    "error": null,
+    "searchSha256": "b4fe30aeeca4cbf4dbf3f7e8a1e204d564aad6625a1580767091c8c15e27b1cd"
+  },
+  {
+    "wikidataId": "Q33477",
+    "name": "Eugène Delacroix",
+    "expectedDob": "1798-04-26",
+    "searchUrl": "https://snl.no/api/v1/search?query=Eug%C3%A8ne+Delacroix&limit=10",
+    "result": {
+      "title": "Eugène Delacroix",
+      "headword": "Eugène Delacroix",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Eug%C3%A8ne_Delacroix",
+      "article_url_json": "https://snl.no/Eug%C3%A8ne_Delacroix.json",
+      "rank": 576.7721638679504
+    },
+    "article": {
+      "url": "https://snl.no/Eug%C3%A8ne_Delacroix",
+      "title": "Eugène Delacroix",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Delacroix",
+        "firstname": "Eugène",
+        "birth_date": "26.4.1798",
+        "birthplace": "Saint-Maurice, Île-de-France, Frankrike",
+        "death_date": "13.8.1863",
+        "kulturnav_id": "ce66bcaa-7e43-4613-8165-052f5cd94da1",
+        "pronunciation": "<p>dəlakro<em>a</em></p>",
+        "place_of_death": "Paris, Frankrike",
+        "alternative_form": "<div>Født Ferdinand Victor Eugène Delacroix</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Stephan Tschudi-Madsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "f5aff6990b800d0d99e070ee9c22ef450c5f6b8c1fb7cb12cc7dcc788236954c"
+    },
+    "error": null,
+    "searchSha256": "673ebd609e4092b16c8fc3c26ec26fa1e7a1a354fe71592b82f5ba20d6781f82"
+  },
+  {
+    "wikidataId": "Q46868",
+    "name": "I. M. Pei",
+    "expectedDob": "1917-04-26",
+    "searchUrl": "https://snl.no/api/v1/search?query=I.+M.+Pei&limit=10",
+    "result": {
+      "title": "Ieoh Ming Pei",
+      "headword": "Ieoh Ming Pei",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Ieoh_Ming_Pei",
+      "article_url_json": "https://snl.no/Ieoh_Ming_Pei.json",
+      "rank": 25.101149424910545
+    },
+    "article": {
+      "url": "https://snl.no/Ieoh_Ming_Pei",
+      "title": "Ieoh Ming Pei",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Pei",
+        "firstname": "Ieoh Ming",
+        "birth_date": "26.4.1917",
+        "birthplace": "Guangzhou, Kina",
+        "death_date": "17.5.2019",
+        "alternative_form": "<div>Ioh Ming Pei</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Eirik T. Bøe"
+        },
+        {
+          "full_name": "Ketil Kiran"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "dd247fdd5a915c143a95d480a5c28194cf95691877f1a22d86907ae558f290f7"
+    },
+    "error": null,
+    "searchSha256": "4423427ad7fc1d18c1495221bcf99ad60f2760188fde35a0fe3d8c2ecfe25c73"
+  },
+  {
+    "wikidataId": "Q34836",
+    "name": "Ulysses S. Grant",
+    "expectedDob": "1822-04-27",
+    "searchUrl": "https://snl.no/api/v1/search?query=Ulysses+S.+Grant&limit=10",
+    "result": {
+      "title": "Ulysses S. Grant",
+      "headword": "Ulysses S. Grant",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Ulysses_S._Grant",
+      "article_url_json": "https://snl.no/Ulysses_S._Grant.json",
+      "rank": 575.9331948161125
+    },
+    "article": {
+      "url": "https://snl.no/Ulysses_S._Grant",
+      "title": "Ulysses S. Grant",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Grant",
+        "firstname": "Ulysses S.",
+        "birth_date": "27.4.1822",
+        "birthplace": "Point Pleasant, Ohio, USA",
+        "death_date": "23.7.1885",
+        "place_of_death": "Mount McGregor, New York, USA",
+        "alternative_form": "<p>Hiram Ulysses Grant</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Torbjørn Sirevåg"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "b75806668349921604ccaa44c957abd6d96eec21d92189b68561bc4af79be2c0"
+    },
+    "error": null,
+    "searchSha256": "e8c96310d4def71b1b69b0ba11efd841c9d908342f0a33953fadd27dda655888"
+  },
+  {
+    "wikidataId": "Q101638",
+    "name": "Mary Wollstonecraft",
+    "expectedDob": "1759-04-27",
+    "searchUrl": "https://snl.no/api/v1/search?query=Mary+Wollstonecraft&limit=10",
+    "result": {
+      "title": "Mary Wollstonecraft",
+      "headword": "Mary Wollstonecraft",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Mary_Wollstonecraft",
+      "article_url_json": "https://snl.no/Mary_Wollstonecraft.json",
+      "rank": 576.2748758792877
+    },
+    "article": {
+      "url": "https://snl.no/Mary_Wollstonecraft",
+      "title": "Mary Wollstonecraft",
+      "metadata": {
+        "gender": "k",
+        "lastname": "Wollstonecraft",
+        "firstname": "Mary",
+        "birth_date": "27.4.1759",
+        "birthplace": "London, Storbritannia",
+        "death_date": "10.9.1797",
+        "pronunciation": "<p>w<em>u</em>lstnkra:ft</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Anne Synnøve Simensen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "9090b8c69b604a6d9ab162c4e70a48dba0031793c9f8686b0da5ff7eacdd291c"
+    },
+    "error": null,
+    "searchSha256": "69277f6e528e71da6b5030de612f50a29e29c67550790312ef2d758bacd4a0e0"
+  },
+  {
+    "wikidataId": "Q154952",
+    "name": "Willem-Alexander",
+    "expectedDob": "1967-04-27",
+    "searchUrl": "https://snl.no/api/v1/search?query=Willem-Alexander&limit=10",
+    "result": {
+      "title": "Willem-Alexander",
+      "headword": "Willem-Alexander",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Willem-Alexander",
+      "article_url_json": "https://snl.no/Willem-Alexander.json",
+      "rank": 576.6972472667694
+    },
+    "article": {
+      "url": "https://snl.no/Willem-Alexander",
+      "title": "Willem-Alexander",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Willem-Alexander",
+        "firstname": "",
+        "birth_date": "27.4.1967",
+        "birthplace": "Utrecht, Nederland",
+        "alternative_form": "<p>fullt navn Willem-Alexander Claus Georg Ferdinand</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Terje Bratberg"
+        },
+        {
+          "full_name": "Aslak Kittelsen"
+        }
+      ],
+      "license": "fri",
+      "sha256": "9499c8ff48b26b9768f3a5b42c323ccf1be9f11eb92d59eafff5c63f0351a9a1"
+    },
+    "error": null,
+    "searchSha256": "a2ffb47a50334ae0c28ba3ad2b7ee23efab811dfeba2b86b01fd928aecacdad2"
+  },
+  {
+    "wikidataId": "Q11815",
+    "name": "James Monroe",
+    "expectedDob": "1758-04-28",
+    "searchUrl": "https://snl.no/api/v1/search?query=James+Monroe&limit=10",
+    "result": {
+      "title": "James Monroe",
+      "headword": "James Monroe",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/James_Monroe",
+      "article_url_json": "https://snl.no/James_Monroe.json",
+      "rank": 575.5500000119209
+    },
+    "article": {
+      "url": "https://snl.no/James_Monroe",
+      "title": "James Monroe",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Monroe",
+        "firstname": "James",
+        "birth_date": "28.4.1758",
+        "birthplace": "Monroe Hall, Virginia",
+        "death_date": "4.7.1831",
+        "pronunciation": "<p>mənr<em>o</em>u</p>",
+        "place_of_death": "New York City"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Torbjørn Sirevåg"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "5bad4802449011c48e36fe8fb4a90459762c57a5a815992af75b8ba89f53aa7c"
+    },
+    "error": null,
+    "searchSha256": "2f9f10a08592d41c3ddc9e9a2d15bab6a34b1221021783c7e130b9bfb3c873a3"
+  },
+  {
+    "wikidataId": "Q39666",
+    "name": "Penélope Cruz",
+    "expectedDob": "1974-04-28",
+    "searchUrl": "https://snl.no/api/v1/search?query=Pen%C3%A9lope+Cruz&limit=10",
+    "result": {
+      "title": "Penélope Cruz",
+      "headword": "Penélope Cruz",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Pen%C3%A9lope_Cruz",
+      "article_url_json": "https://snl.no/Pen%C3%A9lope_Cruz.json",
+      "rank": 576.3999999761581
+    },
+    "article": {
+      "url": "https://snl.no/Pen%C3%A9lope_Cruz",
+      "title": "Penélope Cruz",
+      "metadata": {
+        "gender": "k",
+        "lastname": "Cruz",
+        "firstname": "Penélope",
+        "birth_date": "28.4.1974",
+        "birthplace": "Madrid",
+        "pronunciation": "<p>kruþ</p>",
+        "alternative_form": "<div>Penélope Cruz Sánchez</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": " Store norske leksikon (2005-2007)"
+        },
+        {
+          "full_name": "Ann-Sofi S. Emilsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "796a897d39ed79599ebf7e35adc7011b4c01758ae13e93bc29d4bdf463c4e15c"
+    },
+    "error": null,
+    "searchSha256": "fd6225ba07022f25f8a17c23b64048579f01b2e8a2f150eb7a6666497b6bf06f"
+  },
+  {
+    "wikidataId": "Q182658",
+    "name": "Harper Lee",
+    "expectedDob": "1926-04-28",
+    "searchUrl": "https://snl.no/api/v1/search?query=Harper+Lee&limit=10",
+    "result": {
+      "title": "Harper Lee",
+      "headword": "Harper Lee",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Harper_Lee",
+      "article_url_json": "https://snl.no/Harper_Lee.json",
+      "rank": 576.1358736753464
+    },
+    "article": {
+      "url": "https://snl.no/Harper_Lee",
+      "title": "Harper Lee",
+      "metadata": {
+        "gender": "k",
+        "lastname": "Lee",
+        "firstname": "Harper"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Hans H. Skei"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "4d1e8171febb5a10086a9d342e8a469e8ad4f4a8a73618300caf169367b50f5c"
+    },
+    "error": null,
+    "searchSha256": "8af239471add2b8f24c776bf48557ce680f24670e2e829e9a8d5c6b9f51f286d"
+  },
+  {
+    "wikidataId": "Q125017",
+    "name": "Uma Thurman",
+    "expectedDob": "1970-04-29",
+    "searchUrl": "https://snl.no/api/v1/search?query=Uma+Thurman&limit=10",
+    "result": {
+      "title": "Uma Thurman",
+      "headword": "Uma Thurman",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Uma_Thurman",
+      "article_url_json": "https://snl.no/Uma_Thurman.json",
+      "rank": 576.1499999761581
+    },
+    "article": {
+      "url": "https://snl.no/Uma_Thurman",
+      "title": "Uma Thurman",
+      "metadata": {
+        "gender": "k",
+        "lastname": "Thurman",
+        "firstname": "Uma",
+        "birth_date": "29.4.1970",
+        "birthplace": "Boston, Massachusetts",
+        "pronunciation": "<p>þ<em>ə</em>:mən</p>",
+        "alternative_form": "<div>Uma Karuna Thurman</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Trond Olav Svendsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "fb332164025157de816982338a2268a6aa3dfdb25f30049e7e6303d033581766"
+    },
+    "error": null,
+    "searchSha256": "c2ee064fc65ae9171236ed3dc14c02fd0ac4f559167f8f0d2343ca2b4ce9e48c"
+  },
+  {
+    "wikidataId": "Q159778",
+    "name": "Michelle Pfeiffer",
+    "expectedDob": "1958-04-29",
+    "searchUrl": "https://snl.no/api/v1/search?query=Michelle+Pfeiffer&limit=10",
+    "result": {
+      "title": "Michelle Pfeiffer",
+      "headword": "Michelle Pfeiffer",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Michelle_Pfeiffer",
+      "article_url_json": "https://snl.no/Michelle_Pfeiffer.json",
+      "rank": 576.1499999761581
+    },
+    "article": {
+      "url": "https://snl.no/Michelle_Pfeiffer",
+      "title": "Michelle Pfeiffer",
+      "metadata": {
+        "gender": "k",
+        "lastname": "Pfeiffer",
+        "firstname": "Michelle",
+        "birth_date": "29.4.1958",
+        "birthplace": "Santa Ana, California",
+        "alternative_form": "<p>Michelle Marie Pfeiffer</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Trond Olav Svendsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "8e7d4fc312d32be0e640ce288553b369c0fff4ace2235045597bc401024c7c4d"
+    },
+    "error": null,
+    "searchSha256": "6e8892f5dd430661b7df82293e36a2c14838f3d15b178588e8bf90b0cf65b7e9"
+  },
+  {
+    "wikidataId": "Q7407",
+    "name": "Andre Agassi",
+    "expectedDob": "1970-04-29",
+    "searchUrl": "https://snl.no/api/v1/search?query=Andre+Agassi&limit=10",
+    "result": {
+      "title": "Andre Agassi",
+      "headword": "Andre Agassi",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Andre_Agassi",
+      "article_url_json": "https://snl.no/Andre_Agassi.json",
+      "rank": 576.2547619342804
+    },
+    "article": {
+      "url": "https://snl.no/Andre_Agassi",
+      "title": "Andre Agassi",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Agassi",
+        "firstname": "Andre",
+        "birth_date": "29.4.1970",
+        "birthplace": "Las Vegas, Nevada",
+        "pronunciation": "<p><em>æ</em>gəsi</p>",
+        "alternative_form": "<div>Andre Kirk Agassi</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": " Store norske leksikon (2005-2007)"
+        },
+        {
+          "full_name": "Tor Håkon Solheim"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "e6b195f621ab32bbdd502af208ffeaa47563629f6be7576c4ae84fb00ae0cd97"
+    },
+    "error": null,
+    "searchSha256": "2dce01a7d51477d5d1e2b386defc798395a08779cf252f61d849057196191245"
+  },
+  {
+    "wikidataId": "Q311440",
+    "name": "António Guterres",
+    "expectedDob": "1949-04-30",
+    "searchUrl": "https://snl.no/api/v1/search?query=Ant%C3%B3nio+Guterres&limit=10",
+    "result": {
+      "title": "António Guterres",
+      "headword": "António Guterres",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Ant%C3%B3nio_Guterres",
+      "article_url_json": "https://snl.no/Ant%C3%B3nio_Guterres.json",
+      "rank": 576.7130953073502
+    },
+    "article": {
+      "url": "https://snl.no/Ant%C3%B3nio_Guterres",
+      "title": "António Guterres",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Guterres",
+        "firstname": "António",
+        "birth_date": "30.4.1949",
+        "birthplace": "Lisboa, Portugal",
+        "occupation": "Diplomat, politiker",
+        "pronunciation": "<p>gut<em>e</em>rres</p>",
+        "alternative_form": "<p>António Manuel de Oliveira Guterres</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Halima Amedi"
+        }
+      ],
+      "license": "fri",
+      "sha256": "11c4176fbc0af7a60b08cbef3d6f6e2c88e53e39e5bb2664392f93fc72c08063"
+    },
+    "error": null,
+    "searchSha256": "41dd9450e1eaa6b44455dbd4d1f61b7a9c97a2b1255e508a5a053eb8f8e80534"
+  },
+  {
+    "wikidataId": "Q76478",
+    "name": "Kirsten Dunst",
+    "expectedDob": "1982-04-30",
+    "searchUrl": "https://snl.no/api/v1/search?query=Kirsten+Dunst&limit=10",
+    "result": {
+      "title": "Kirsten Dunst",
+      "headword": "Kirsten Dunst",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Kirsten_Dunst",
+      "article_url_json": "https://snl.no/Kirsten_Dunst.json",
+      "rank": 576.1499999761581
+    },
+    "article": {
+      "url": "https://snl.no/Kirsten_Dunst",
+      "title": "Kirsten Dunst",
+      "metadata": {
+        "gender": "k",
+        "lastname": "Dunst",
+        "firstname": "Kirsten",
+        "birth_date": "30.4.1982",
+        "birthplace": "Point Pleasant, New Jersey, USA",
+        "alternative_form": "<div>Kirsten Caroline Dunst</div>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": " Store norske leksikon (2005-2007)"
+        },
+        {
+          "full_name": "Ann-Sofi S. Emilsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "1bbb162ba1d413c680ed4f87f663e36228212f34a7c41e2d97bccd6bb2aa6f02"
+    },
+    "error": null,
+    "searchSha256": "010103ad85c92467ad7fa2ffee7bfe23707fd04fbb2b99eff05d3aec2c68d678"
+  },
+  {
+    "wikidataId": "Q2754",
+    "name": "Jaroslav Hašek",
+    "expectedDob": "1883-04-30",
+    "searchUrl": "https://snl.no/api/v1/search?query=Jaroslav+Ha%C5%A1ek&limit=10",
+    "result": {
+      "title": "Jaroslav Hašek",
+      "headword": "Jaroslav Hašek",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Jaroslav_Ha%C5%A1ek",
+      "article_url_json": "https://snl.no/Jaroslav_Ha%C5%A1ek.json",
+      "rank": 575.6017543673515
+    },
+    "article": {
+      "url": "https://snl.no/Jaroslav_Ha%C5%A1ek",
+      "title": "Jaroslav Hašek",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Hašek",
+        "firstname": "Jaroslav",
+        "birth_date": "30.4.1883",
+        "birthplace": "Praha, Tsjekkia (den gang Østerrike-Ungarn)",
+        "death_date": "3.1.1923",
+        "pronunciation": "<p>h<em>a</em>ʃek</p>",
+        "place_of_death": "Lipnice, Tsjekkia (den gang Tsjekkoslovakia)"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Milada Blekastad"
+        },
+        {
+          "full_name": "Karen Gammelgaard"
+        },
+        {
+          "full_name": "Claudia Bätcke"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "7bab39e478b7093f6e2a32550ec85247e7141d30f0f79fa05ddc896b0911527c"
+    },
+    "error": null,
+    "searchSha256": "d785e301f6a15ff97596f9b3f4b769592fe91c8c6f613602f85c8b27c021b499"
+  },
+  {
+    "wikidataId": "Q58586",
+    "name": "Edmund Husserl",
+    "expectedDob": "1859-04-08",
+    "searchUrl": "https://snl.no/api/v1/search?query=Edmund+Husserl&limit=10",
+    "result": {
+      "title": "Edmund Husserl",
+      "headword": "Edmund Husserl",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Edmund_Husserl",
+      "article_url_json": "https://snl.no/Edmund_Husserl.json",
+      "rank": 576.5343160629272
+    },
+    "article": {
+      "url": "https://snl.no/Edmund_Husserl",
+      "title": "Edmund Husserl",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Husserl",
+        "firstname": "Edmund",
+        "birth_date": "8.4.1859",
+        "birthplace": "Mähren, Østerrike (nå Tsjekkia)",
+        "death_date": "27.5.1938",
+        "pronunciation": "<p>h<em>u</em>sserl</p>",
+        "place_of_death": "Freiburg im Breisgau, Tyskland",
+        "alternative_form": "<p>Edmund Gustav Albrecht Husserl</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Thomas Netland"
+        }
+      ],
+      "license": "fri",
+      "sha256": "06bb8a3bea76771060bd7d3e61114d9c48df22e8cc26604739fcb94b05bbadf1"
+    },
+    "error": null,
+    "searchSha256": "24e774067e916b2b2ed1eab36aa45787e89b0f3ee161537bc566514c5bcd0e9b"
+  },
+  {
+    "wikidataId": "Q297562",
+    "name": "Leopold Stokowski",
+    "expectedDob": "1882-04-18",
+    "searchUrl": "https://snl.no/api/v1/search?query=Leopold+Stokowski&limit=10",
+    "result": {
+      "title": "Leopold Stokowski",
+      "headword": "Leopold Stokowski",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Leopold_Stokowski",
+      "article_url_json": "https://snl.no/Leopold_Stokowski.json",
+      "rank": 576.1900000572205
+    },
+    "article": {
+      "url": "https://snl.no/Leopold_Stokowski",
+      "title": "Leopold Stokowski",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Stokowski",
+        "firstname": "Leopold",
+        "birth_date": "18.4.1882",
+        "birthplace": "London, Storbritannia",
+        "death_date": "13.9.1977",
+        "pronunciation": "<p>stok<em>o</em>wski</p>",
+        "place_of_death": "Nether Wallop, Hampshire, Storbritannia",
+        "alternative_form": "<p>Leopold Anthony Stokowski</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Trond Olav Svendsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "2b7910b3d36a85c59a65018d50af7d4b8c52b5bbb4398f7431b840ad85fca934"
+    },
+    "error": null,
+    "searchSha256": "229205b1323641e51e36ed47d776ac3a317f82ed6bfb7c4aaf3c79df44fe50a7"
+  },
+  {
+    "wikidataId": "Q157635",
+    "name": "Zubin Mehta",
+    "expectedDob": "1936-04-29",
+    "searchUrl": "https://snl.no/api/v1/search?query=Zubin+Mehta&limit=10",
+    "result": {
+      "title": "Zubin Mehta",
+      "headword": "Zubin Mehta",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Zubin_Mehta",
+      "article_url_json": "https://snl.no/Zubin_Mehta.json",
+      "rank": 575.6272222399712
+    },
+    "article": {
+      "url": "https://snl.no/Zubin_Mehta",
+      "title": "Zubin Mehta",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Mehta",
+        "firstname": "Zubin",
+        "birth_date": "29.4.1936",
+        "birthplace": "Mumbai, India",
+        "pronunciation": "<p>m<em>e</em>hta</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Trond Olav Svendsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "fbb91025c641e7597f0ff2a0fc6fb083846f4d26f2828566a944fec8c33f3684"
+    },
+    "error": null,
+    "searchSha256": "b746b7e1923143eb3f3997d4f00d6d069ebf2cdf760fd1bcbb885b79c24468ee"
+  }
+]

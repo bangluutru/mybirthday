@@ -1,0 +1,20 @@
+[
+  {
+    "wikidataId": "Q58586",
+    "name": "Edmund Husserl",
+    "birthDate": "1859-04-08",
+    "countryCode": "DE"
+  },
+  {
+    "wikidataId": "Q297562",
+    "name": "Leopold Stokowski",
+    "birthDate": "1882-04-18",
+    "countryCode": "US"
+  },
+  {
+    "wikidataId": "Q157635",
+    "name": "Zubin Mehta",
+    "birthDate": "1936-04-29",
+    "countryCode": "IN"
+  }
+]

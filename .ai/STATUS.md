@@ -2,15 +2,16 @@
 
 ## Current cycle
 
-Cycle: BV-008
-State: ACCEPTED — B007-v1 review DAT.
-Task: B007 — toàn tháng3; báo cáo .ai/hop-thu-mybirthday/xong/B007-people-mar-01-31.md; review .ai/hop-thu-mybirthday/review/B007-people-mar-01-31-r1.md.
-Result: 93 mới (88 quốc tế / 5 Việt,5,38%), 3/ngày trên31/31 ngày. Tổng295người/96ngày; Jan95/31,Feb100/29,Mar93/31;4sự kiện nguyên vẹn.
-Validation: A–AA 0vi phạm; Wikidata295/295; URLs916/916,0failed/0MANUAL; TypeScript,lint,build,coverage,evidence186,smoke12/12; 202baseline+4events equality. Rà93người/186tài liệu;180tài liệu ghi đủDOB, 6SNL chỉ năm nhưng nguồn độc lập thứ hai ghi đủ. Ghi P570 mismatch Bertolucci đã được giải thích. 5 cảnh báo `<img>` cũ.
-Git: Origin trước đóng vòng cùng HEAD89fb28b; đang hoàn tất commit/push theo phê duyệt thường trực của chủ dự án; sau xác nhận remote0/0 sẽ dừng.
-Reviewer Attention: nội dung giao diện “hàng chục nghìn nhân vật” vẫn chưa tương xứng với295 hồ sơ; ngoài phạm vi B007.
+Cycle: BV-009
+State: ACCEPTED — B008-r1 review DAT; chờ commit/push được chủ dự án phê duyệt từ đầu vòng.
+Task: `.ai/hop-thu-mybirthday/viec/B008-people-apr-01-30.md`; báo cáo `.ai/hop-thu-mybirthday/xong/B008-people-apr-01-30.md`; review `.ai/hop-thu-mybirthday/review/B008-people-apr-01-30-r1.md`.
+Baseline: 295 hồ sơ / 96 ngày phủ; Jan95/31, Feb100/29, Mar93/31; hai ngày April đã có hồ sơ; 4 sự kiện. Snapshot tại `nhap/B008-baseline.json`; deep equality cuối xác nhận baseline còn nguyên.
+Result: 90 mới; 3/ngày trên30/30 ngày; 5 Việt/85 quốc tế (5,56%). Cả 5 hồ sơ Việt có nguồn nước ngoài ghi đủ ngày. Tổng385người/124ngày phủ; tháng4=93người/30ngày;4 sự kiện.
+Validation: A–AC0vi phạm; P31/P56990/90; Wikidata385/385; URL B008 cuối181/181 HTTP200; whole scan snapshot1181 checked/16 lỗi/0 manual, nhưng16 lỗi URL đều không còn trong final data; B007 scan916/916. TSC/lint/build/coverage/smoke14/14/diffcheck đạt. Lint còn32cảnh báo `<img>`/font cũ.
+Git: B008 đã DAT và chủ dự án đã cho phép push `origin/main`; đối chiếu remote sau commit rồi dừng, không mở tháng5.
+Reviewer Attention: nội dung giao diện “hàng chục nghìn nhân vật” vẫn chưa tương xứng với295 hồ sơ; ngoài phạm vi B008.
 
-## Last completed cycle — B006
+## Earlier completed cycle — B006
 
 Cycle: BV-007
 State: ACCEPTED
@@ -20,7 +21,7 @@ Result:35mới,2VN/33quốc tế (5,714%),13quốc gia;202người/65ngày. Jan9
 Validation: A–Y0vi phạm,Wikidata202/202,URL640/0failed/0MANUAL,tsc/lint/build/coverage/smoke10/10,diffcheck đạt.167baseline/4events deep equality. Rà35hồ sơ/70nguồn,66fullDOB,2VN có tài liệu AFC nước ngoài đủDOB, giới hạn đăng ký liên đoàn chung ghi rõ. Lint cònimgwarnings cũ.
 Next: tích hợp vàpush origin/main theo chủ dự án, rồi dừng; không có chỉ thị tháng3.
 
-## Last completed cycle — B005
+## Earlier completed cycle — B005
 
 Cycle: BV-006
 State: ACCEPTED

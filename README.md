@@ -2,7 +2,7 @@
 
 > **Your Birthday Universe**: Khám phá danh nhân, nghệ sĩ, nhà khoa học và các sự kiện lịch sử vĩ đại chia sẻ cùng ngày sinh của bạn trên khắp thế giới.
 >
-> *Cơ sở dữ liệu hiện có 295 hồ sơ nhân vật và 4 sự kiện lịch sử đã xác minh. Nhân vật xuất hiện ở 96/366 ngày (26,2%). Tháng 1 có 95 người trên đủ 31 ngày; tháng 2 có 100 người trên đủ 29 ngày, gồm ngày nhuận 29/2; tháng 3 có 93 người trên đủ 31 ngày, mỗi ngày 3 người. B007 bổ sung 88 người quốc tế và 5 người Việt (5,38%), với tài liệu AFC nước ngoài nêu đủ ngày sinh cho cả 5 người Việt. Dữ liệu chưa phủ đủ cả năm; còn 270 ngày trống.*
+> *Cơ sở dữ liệu hiện có 385 hồ sơ nhân vật và 4 sự kiện lịch sử đã xác minh. Nhân vật xuất hiện ở 124/366 ngày (33,9%). Tháng 1 có 95 người trên đủ 31 ngày; tháng 2 có 100 người trên đủ 29 ngày, gồm ngày nhuận 29/2; tháng 3 có 93 người trên đủ 31 ngày; tháng 4 có 93 người trên đủ 30 ngày, mỗi ngày ít nhất 3 người. B008 bổ sung 85 người quốc tế và 5 người Việt (5,56%); cả 5 hồ sơ Việt có nguồn xuất bản ngoài Việt Nam ghi đủ ngày sinh. Dữ liệu chưa phủ đủ cả năm; còn 242 ngày trống.*
 
 Ứng dụng web/PWA trải nghiệm khám phá ngày sinh cá nhân hoá cao cấp, xây dựng theo ngôn ngữ thiết kế **Astral Editorial Minimal**, tối ưu cho cả giao diện di động (Mobile-First) và máy tính (Desktop Editorial 1360px).
 

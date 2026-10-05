@@ -1,7 +1,10 @@
-# BV-008 — B007: toàn tháng3
+# BV-009 — B008: dữ liệu tháng 4
 
-State: ACCEPTED
-Reviewer/executor: Codex theo chủ dự án2026-10-04.
-Active task: .ai/hop-thu-mybirthday/viec/B007-people-mar-01-31.md
-Authorization: mở vòng tháng3, lập kế hoạch chi tiết và thực hiện luôn; push khi DAT theo phê duyệt trước.
-Result: 93 hồ sơ mới (88 quốc tế/5 Việt), đủ 31/31 ngày × 3; baseline 202 hồ sơ và 4 sự kiện giữ nguyên. B007-v1 DAT sau rà soát. Cổng test, Wikidata 295/295, URL 916/916, tsc/lint/build/coverage/smoke 12/12 đạt. Authorized commit/push đã được chủ dự án cho phép từ đầu vòng.
+State: ACCEPTED — B008-r1 DAT.
+Reviewer/executor: Codex theo chỉ thị chủ dự án ngày 2026-10-05.
+Active task: `.ai/hop-thu-mybirthday/viec/B008-people-apr-01-30.md`.
+Authorization: mở rộng tháng4; chủ dự án đã cho phép Codex review và push khi DAT.
+Result: 90 mới,3/ngày trên30/30 ngày; 5 Việt/85 quốc tế (5,56%). 181/181 tài liệu ngoài Wiki tải trực tiếp HTTP200; mọi hồ sơ có một DOB nguồn ngoài Wiki đủ ngày. Tổng385người/124ngày; tháng4=93người/30ngày;4 sự kiện nguyên vẹn.
+Review: `.ai/hop-thu-mybirthday/review/B008-people-apr-01-30-r1.md` — DAT.
+Validation: Rules A–AC0vi phạm; P31/P56990/90; Wikidata385/385; TypeScript/lint/build/coverage; smoke14/14; baseline295+4deep equality. URL scan snapshot 1181/16fail, nhưng16 URL lỗi không còn ở final; 181 nguồn B008 cuối tải trực tiếp200; B007 scan916/916. Lint có32cảnh báo `<img>`/font có sẵn.
+Git: B008 đã DAT và chủ dự án đã cho phép push `origin/main`; đối chiếu remote sau commit rồi dừng, không mở tháng5.

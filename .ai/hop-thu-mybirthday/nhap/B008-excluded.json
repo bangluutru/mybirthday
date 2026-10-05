@@ -1,0 +1,87 @@
+{
+  "cycle": "BV-009",
+  "task": "B008",
+  "scope": "Documented candidates rejected or replaced during the April 1-30 evidence review; this is not a census of every discovery-query result.",
+  "candidates": [
+    {
+      "name": "Joseph Haydn",
+      "issue": "Date/calendar ambiguity places candidate records on different sides of the March-April boundary.",
+      "decision": "Exclude from April pending a consistently documented Gregorian date."
+    },
+    {
+      "name": "Nikolai Gogol",
+      "issue": "Date/calendar ambiguity places candidate records on different sides of the March-April boundary.",
+      "decision": "Exclude from April pending a consistently documented Gregorian date."
+    },
+    {
+      "name": "Sergei Prokofiev",
+      "issue": "Julian/Gregorian and alternate-date evidence is not sufficiently resolved for a single Gregorian DOB.",
+      "decision": "Exclude."
+    },
+    {
+      "name": "Émile Zola",
+      "wikidataId": "Q504",
+      "issue": "The candidate's date evidence did not meet the cross-source consistency gate.",
+      "decision": "Replace with a candidate whose exact Gregorian date is corroborated."
+    },
+    {
+      "name": "Giuseppe Verdi",
+      "wikidataId": "Q7317",
+      "issue": "The reviewed source match did not establish the selected entity/date with sufficient confidence.",
+      "decision": "Exclude."
+    },
+    {
+      "name": "Victoria Beckham",
+      "wikidataId": "Q19810",
+      "issue": "A source match was a false positive for the candidate identity.",
+      "decision": "Exclude."
+    },
+    {
+      "name": "Julie Christie",
+      "wikidataId": "Q181413",
+      "issue": "Wikidata had multiple active birth-year statements, so a single date could not be accepted under the conflict rule.",
+      "decision": "Exclude."
+    },
+    {
+      "name": "Thomas Jefferson",
+      "wikidataId": "Q11812",
+      "issue": "The candidate evidence available for this selection was Julian/old-style rather than a verified exact Gregorian full date.",
+      "decision": "Exclude."
+    },
+    {
+      "name": "Mary Pickford",
+      "wikidataId": "Q104109",
+      "issue": "Hrvatska enciklopedija reported 1893 while Store norske leksikon and Wikidata reported 1892; the year conflict was unresolved.",
+      "decision": "Exclude."
+    },
+    {
+      "name": "David Ricardo",
+      "wikidataId": "Q160270",
+      "issue": "Reviewed publishers disagreed between 18 and 19 April.",
+      "decision": "Exclude."
+    },
+    {
+      "name": "Michelle Pfeiffer",
+      "wikidataId": "Q159778",
+      "issue": "The reviewed DOB evidence conflicted across sources.",
+      "decision": "Exclude."
+    },
+    {
+      "name": "Terry Pratchett",
+      "wikidataId": "Q182658",
+      "issue": "The selected QID resolved to Harper Lee, not Terry Pratchett.",
+      "decision": "Correct the identity to Harper Lee in the final selection; do not retain the Terry Pratchett label."
+    }
+  ],
+  "evidenceFiles": [
+    "B008-selection-v1.json",
+    "B008-selection-v2.json",
+    "B008-selection-v3.json",
+    "B008-selection-v4.json",
+    "B008-selection-v5.json",
+    "B008-snl-results-v5.json",
+    "B008-croatia-results-v5.json",
+    "B008-snl-replacements-v5.json",
+    "B008-croatia-replacements-v5.json"
+  ]
+}

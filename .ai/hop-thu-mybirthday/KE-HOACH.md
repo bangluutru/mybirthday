@@ -38,3 +38,8 @@ Quyết định tỷ lệ 5% áp dụng các đợt mở rộng mới tiếp the
 - Nguồn: 93×2 nhà xuất bản ngoài Wiki, 186 hồ sơ tài liệu. 180 tài liệu nêu DOB đầy đủ; 6 hồ sơ SNL chỉ cho năm nhưng nhà xuất bản thứ hai xác nhận ngày. Năm hồ sơ Việt đều có DOB đầy đủ từ AFC; ghi chú giới hạn nguồn đăng ký cầu thủ chung AFC/VPF.
 - Gates: tests A–AA, Wikidata295/295, URL916/916, tsc/lint/build/coverage, source evidence native 186, smoke12/12, equality baseline202+4 events. 5 lint `<img>` cảnh báo cũ.
 - Chủ dự án đã phê duyệt Codex thực hiện, review, commit/push khi DAT. Đóng vòng sau khi kiểm tra remote; không chuyển qua tháng4 trong cùng vòng.
+
+
+## B008 — tháng 4 (ACCEPTED, BV-009)
+
+Chủ dự án yêu cầu tiếp tục tháng4 ngày2026-10-05. B007 đã DAT và push tại `20ec06a1df2227ddcb64561e874fbc025f6239ef`, origin/main xác nhận0/0. B008 phủ30/30 ngày,90 hồ sơ mới,3/ngày,≤8/ngày,5/90 người Việt (5,56%). Bảo toàn295 hồ sơ+4 sự kiện. Hai đợt nghiên cứu 1–15 và16–30/4; query LIMIT100 là mẫu sàng lọc, không khẳng định đầy đủ toàn bộ ứng viên. Review r1 DAT. 181/181 trang nguồn B008 cuối HTTP200; 90/90 hồ sơ có exactDOB nguồn ngoài Wiki. Tổng385người,124ngày phủ. Rules A–AC, Wikidata385/385, TypeScript/lint/build/coverage, smoke14/14 và equality baseline đạt. Báo cáo `.ai/hop-thu-mybirthday/xong/B008-people-apr-01-30.md`; review `.ai/hop-thu-mybirthday/review/B008-people-apr-01-30-r1.md`. Chủ dự án đã cho phép Codex review/push khi DAT; chờ push origin/main, xác nhận0/0 rồi dừng, không mở tháng5.

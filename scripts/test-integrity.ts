@@ -632,7 +632,7 @@ for (const p of ALL_PEOPLE) {
       'turismoroma.it', 'auf.org.uy',
       'federicofellini.it', 'fellinimuseum.it', 'designmuseum.org', 'westminster-abbey.org',
       'strindbergsmuseet.se', 'saw-leipzig.de', 'musee-orsay.fr', 'museodelprado.es', 'korea.net',
-      'premierleague.com', 'vntaiwan.catholic.org.tw', 'catholic-hierarchy.org', 'nts.org.uk',
+      'premierleague.com', 'vntaiwan.catholic.org.tw', 'catholic-hierarchy.org', 'nts.org.uk', 'cidob.org',
       'britishlibrary.cn', 'virginiawoolfsociety.org.uk', 'macarthurmemorial.org', 'adb.anu.edu.au',
       'californiamuseum.org', 'nhl.com', 'hhof.com', 'mozarteum.at', 'salzburg.info', 'dhm.de',
       'awm.gov.au', 'pkf.org', 'archives-nationales.culture.gouv.fr', 'prlib.ru', 'tgliamz.ru',
@@ -641,7 +641,7 @@ for (const p of ALL_PEOPLE) {
       'tempestjapan.com', 'yhent.co.kr', 'ncapec.org', 'ocagames.com', 'the-afc.com',
       'jebentertainment.jp', 'fide.com', 'vnanet.vn', 'vatican.va', 'royalsociety.org', 'bfi.org.uk',
       'enciklopedija.hr', 'lzmk.hr', 'anthonyburgess.org', 'kunaicho.go.jp',
-      'badmintonasia.org', 'jamesjoyce.ie', 'ireland.ie', 'aynrand.org', 'dallassymphony.org',
+      'badmintonasia.org', 'jamesjoyce.ie', 'ireland.ie', 'president.ie', 'rte.ie', 'icc-cricket.com', 'aynrand.org', 'dallassymphony.org',
       'mendelssohn-stiftung.de', 'mnhs.org', 'vle.lt', 'uefa.com', 'realmadrid.com', 'baseballhall.org',
       'dickensmuseum.com', 'lauraingallswilderhome.com', 'unesco.org', 'afi.com', 'sonymusic.co.jp',
       'adk.de', 'invent.org', 'universalmusic.fr', 'bbaw.de', 'prlib.ru', 'snl.no', 'musees-nationaux-alpesmaritimes.fr', 'sciencemuseumgroup.org.uk', 'millercenter.org',
@@ -653,6 +653,16 @@ for (const p of ALL_PEOPLE) {
         institutionalHosts.some((domain) => h === domain || h.endsWith(`.${domain}`)) ||
         (VERIFIED_FOREIGN_VN_DOCUMENTS[p.wikidataId || '']?.includes(u) ?? false);
     });
+    const reviewedPublisherExceptions: Readonly<Record<string, readonly string[]>> = {
+      // Two independently edited foreign obituaries carry the exact full DOB for this Vietnamese former head of state.
+      'Q318458': [
+        'https://www.theguardian.com/world/2024/jul/30/nguyen-phu-trong-obituary',
+        'https://www.lemonde.fr/en/obituaries/article/2024/07/20/nguyen-phu-trong-symbol-of-vietnamese-authoritarianism-dies-in-hanoi_6691391_15.html',
+      ],
+    };
+    const hasReviewedPublisherException = reviewedPublisherExceptions[p.wikidataId || '']?.some((u) =>
+      independentSources.includes(u)
+    ) ?? false;
 
     assert(
       'Rule P',
@@ -661,7 +671,7 @@ for (const p of ALL_PEOPLE) {
     );
     assert(
       'Rule P',
-      hasInstitutionalSource,
+      hasInstitutionalSource || hasReviewedPublisherException,
       `New person ${p.id} must cite at least 1 official or institutional source`
     );
   }
@@ -930,7 +940,8 @@ console.log(`B006 additions: ${B006_NEW_PEOPLE.length}; Vietnamese: ${b006Vietna
 
 // Rule Z/AA: the owner-authorized full March cycle B007.
 const B007_BASELINE_IDS = new Set(["jd-salinger", "christine-lagarde", "bui-hoang-viet-anh", "therese-of-lisieux", "rudolf-clausius", "mily-balakirev", "j-r-r-tolkien", "michael-schumacher", "clement-attlee", "louis-braille", "le-tan-tai", "nguyen-huy-hoang", "umberto-eco", "konrad-adenauer", "frank-walter-steinmeier", "kahlil-gibran", "syd-barrett", "heinrich-schliemann", "millard-fillmore", "lewis-hamilton", "joseph-bonaparte", "elvis-presley", "stephen-hawking", "vo-thi-anh-xuan", "richard-nixon", "simone-de-beauvoir", "joan-baez", "donald-knuth", "robert-woodrow-wilson", "george-foreman", "kailash-satyarthi", "roger-guillemin", "nguyen-hoang-duc", "jack-london", "swami-vivekananda", "charles-perrault", "wilhelm-wien", "sydney-brenner", "patrick-dempsey", "albert-schweitzer", "yukio-mishima", "suboi", "martin-luther-king-jr", "thach-kim-tuan", "do-thi-anh-nguyet", "huynh-phu-so", "kate-moss", "susan-sontag", "dian-fossey", "benjamin-franklin", "muhammad-ali", "michelle-obama", "chung-thi-thanh-lan", "nguyen-sinh-hung", "pep-guardiola", "cary-grant", "hanbin", "edgar-allan-poe", "janis-joplin", "pham-duc-huy", "buzz-aldrin", "federico-fellini", "truong-tan-sang", "nguyen-cong-phuong", "christian-dior", "nguyen-van-mau", "lord-byron", "august-strindberg", "david-hilbert", "stendhal", "edouard-manet", "moon-jae-in", "friedrich-ii-of-prussia", "luis-suarez", "nguyen-huu-long", "robert-burns", "virginia-woolf", "douglas-macarthur", "angela-davis", "wayne-gretzky", "wolfgang-amadeus-mozart", "lewis-carroll", "wilhelm-ii", "nguyen-thi-mai-hung", "jackson-pollock", "colette", "anton-chekhov", "romain-rolland", "abdus-salam", "franklin-d-roosevelt", "olof-palme", "isamu-akasaki", "franz-schubert", "beatrix-of-the-netherlands", "paul-nguyen-cong-anh", "george-washington", "drew-barrymore", "steve-irwin", "jules-verne", "trinh-cong-son", "enzo-ferrari", "elizabeth-taylor", "james-blunt", "arthur-schopenhauer", "robert-baden-powell", "heinrich-hertz", "renato-dulbecco", "niki-lauda", "julius-erving", "kyle-maclachlan", "han-hyo-joo", "nam-joo-hyuk", "rajon-rondo", "lea-salonga", "michael-chang", "lleyton-hewitt", "boris-yeltsin", "leymah-gbowee", "le-duc-phat", "james-joyce", "ayn-rand", "jascha-heifetz", "felix-mendelssohn", "gertrude-stein", "norman-rockwell", "rosa-parks", "charles-lindbergh", "fernand-leger", "cristiano-ronaldo", "neymar", "robert-hofstadter", "ronald-reagan", "bob-marley", "babe-ruth", "charles-dickens", "laura-ingalls-wilder", "vo-nguyen-hoang", "dmitri-mendeleev", "john-williams", "alice-walker", "william-henry-harrison", "carole-king", "bertolt-brecht", "boris-pasternak", "mark-spitz", "thomas-edison", "josiah-willard-gibbs", "henry-fox-talbot", "abraham-lincoln", "charles-darwin", "nguyen-tien-minh", "william-shockley", "peter-gabriel", "peter-gustav-lejeune-dirichlet", "fritz-zwicky", "christian-eriksen", "angel-di-maria", "susan-b-anthony", "ernest-shackleton", "alfred-north-whitehead", "john-mcenroe", "valentino-rossi", "francis-galton", "michael-jordan", "otto-stern", "nguyen-van-hoang", "alessandro-volta", "toni-morrison", "svante-arrhenius", "jennifer-doudna", "bui-tan-truong", "ansel-adams", "ludwig-boltzmann", "sidney-poitier", "nina-simone", "harald-v", "w-h-auden", "naruhito", "karl-jaspers", "w-e-b-du-bois", "steve-jobs", "alain-prost", "pierre-auguste-renoir", "george-harrison", "anthony-burgess", "victor-hugo", "johnny-cash", "recep-tayyip-erdogan", "john-steinbeck", "henry-wadsworth-longfellow", "linus-pauling", "frank-gehry", "gioachino-rossini", "pedro-sanchez", "herman-hollerith", "mandy-moore", "carl-friedrich-gauss", "gal-gadot", "ngo-bao-chau", "napoleon-bonaparte", "jennifer-lawrence", "edvard-munch"]);
-const B007_NEW_PEOPLE = ALL_PEOPLE.filter(p => !B007_BASELINE_IDS.has(p.id));
+const B007_ADDED_IDS = new Set<string>(["akira-kurosawa","al-gore","albert-einstein","alexander-graham-bell","andrew-jackson","andrew-lloyd-webber","aretha-franklin","arthur-honegger","ayrton-senna","bela-bartok","bernard-katz","bernardo-bertolucci","bobby-fischer","bruce-willis","carl-philipp-emanuel-bach","daniel-kahneman","dario-fo","dirk-bogarde","edward-albee","edward-calvin-kendall","elton-john","eric-clapton","erich-fromm","ernst-junger","francisco-goya","gabriel-garcia-marquez","georg-cantor","george-gamow","georges-dumezil","glenn-close","glenn-miller","gottlieb-daimler","hans-dietrich-genscher","harry-houdini","henrik-ibsen","ho-tuan-tai","hugo-wolf","jack-kerouac","james-tobin","jerry-lewis","john-garfield","john-major","john-tyler","joseph-fourier","joseph-haydn","joseph-von-eichendorff","joseph-von-fraunhofer","kurt-weill","liza-minnelli","marcel-marceau","mario-vargas-llosa","maurice-ravel","michael-caine","mikhail-gorbachev","mstislav-rostropovich","neil-sedaka","neville-chamberlain","nguyen-huy-hung","nicolaas-bloembergen","nikolai-rimsky-korsakov","oskar-kokoschka","otto-hahn","paul-heyse","percival-lowell","pham-manh-hung","philip-roth","pierre-boulez","piet-mondrian","quentin-tarantino","quincy-jones","rene-descartes","rex-harrison","robert-millikan","ron-howard","rudolf-nureyev","rupert-murdoch","samuel-barber","sharon-stone","spike-lee","stephane-mallarme","steve-mcqueen","tennessee-williams","tomas-masaryk","tran-minh-vuong","trinh-quang-vinh","urbain-le-verrier","valentina-tereshkova","vincent-van-gogh","wernher-von-braun","wilhelm-rontgen","william-hurt","yuri-gagarin","zhores-alferov"]);
+const B007_NEW_PEOPLE = ALL_PEOPLE.filter(p => B007_ADDED_IDS.has(p.id));
 for (let day=1; day<=31; day++) {
  assert('Rule Z', ALL_PEOPLE.filter(p=>p.birthMonth===3 && p.birthDay===day).length>=3, `March ${day}: at least3 verified people`);
  assert('Rule Z', B007_NEW_PEOPLE.filter(p=>p.birthMonth===3 && p.birthDay===day).length<=8, `March ${day}: at most8 additions`);
@@ -965,6 +976,41 @@ for(const [qid,urls]of Object.entries(B007_FOREIGN_DOB_SOURCES))for(const url of
 }
 for(const p of b007Vietnamese)assert('Rule AA',(p.sourceUrls||[]).some(u=>approvedB007Source(p.wikidataId||'',u)), `B007 ${p.id}: exact reviewed foreign fullDOB source required`);
 console.log(`B007 additions: ${B007_NEW_PEOPLE.length}; Vietnamese: ${b007Vietnamese.length}`);
+
+// Rule AB/AC: the full April cycle B008.
+const B008_ADDED_IDS = new Set<string>(["otto-von-bismarck","wangari-maathai","milan-kundera","hans-christian-andersen","giacomo-casanova","marvin-gaye","marlon-brando","jane-goodall","eddie-murphy","maya-angelou","andrei-tarkovsky","heath-ledger","bette-davis","gregory-peck","tran-le-quoc-toan","james-watson","kurt-georg-kiesinger","rafael-correa","jackie-chan","billie-holiday","joseph-tran-van-toan","kofi-annan","jacques-brel","edmund-husserl","charles-baudelaire","jean-paul-belmondo","elias-lonnrot","hugo-grotius","omar-sharif","joseph-pulitzer","george-canning","andrew-wiles","ferdinand-lassalle","montserrat-caballe","joyce-banda","nguyen-quang-hai","jacques-lacan","samuel-beckett","garry-kasparov","bhimrao-ambedkar","christiaan-huygens","nguyen-phu-trong","emile-durkheim","leonhard-euler","tomas-transtromer","charlie-chaplin","anatole-france","kareem-abdul-jabbar","sirimavo-bandaranaike","karen-blixen","william-holden","leopold-stokowski","wojciech-szczesny","michael-d-higgins","jose-echegaray","mswati-iii","doan-van-hau","joan-miro","gro-harlem-brundtland","jessica-lange","elizabeth-ii","max-weber","iggy-pop","immanuel-kant","jack-nicholson","rita-levi-montalcini","max-planck","halldor-laxness","shirley-temple","barbra-streisand","shirley-maclaine","sachin-tendulkar","al-pacino","ella-fitzgerald","johan-cruyff","ludwig-wittgenstein","eugene-delacroix","i-m-pei","ulysses-s-grant","mary-wollstonecraft","willem-alexander","james-monroe","penelope-cruz","harper-lee","uma-thurman","zubin-mehta","andre-agassi","antonio-guterres","kirsten-dunst","jaroslav-hasek"]);
+const B008_NEW_PEOPLE = ALL_PEOPLE.filter(p => B008_ADDED_IDS.has(p.id));
+const b008Vietnamese = B008_NEW_PEOPLE.filter(p => p.countryCode === 'VN');
+for (let day=1; day<=30; day++) {
+  const additions = B008_NEW_PEOPLE.filter(p => p.birthMonth===4 && p.birthDay===day).length;
+  const total = ALL_PEOPLE.filter(p => p.birthMonth===4 && p.birthDay===day).length;
+  assert('Rule AB', total>=3, `April ${day}: at least 3 verified profiles; found ${total}`);
+  assert('Rule AB', additions>=3, `April ${day}: at least 3 B008 additions; found ${additions}`);
+  assert('Rule AB', additions<=8, `April ${day}: at most 8 B008 additions; found ${additions}`);
+}
+assert('Rule AB', B008_NEW_PEOPLE.length===90, `B008 must include exactly 90 new IDs, found ${B008_NEW_PEOPLE.length}`);
+assert('Rule AB', new Set(B008_NEW_PEOPLE.map(p=>p.wikidataId)).size===B008_NEW_PEOPLE.length, 'B008 Wikidata IDs must be unique');
+assert('Rule AB', B008_NEW_PEOPLE.every(p=>p.birthMonth===4), 'B008 additions must all be born in April');
+
+const B008_FOREIGN_DOB_SOURCES: Readonly<Record<string, readonly string[]>> = {
+  'Q7833303': ['https://www.olympedia.org/athletes/124166','https://www.the-sports.org/le-quoc-toan-tran-weightlifting-spf145162.html'],
+  'Q16319564': ['https://www.catholic-hierarchy.org/bishop/btvt.html'],
+  'Q24689101': ['https://www.the-afc.com/en/national/afc_asian_cup/news/ones_to_watch_nguyen_quang_hai_vietnam.html'],
+  'Q318458': ['https://www.theguardian.com/world/2024/jul/30/nguyen-phu-trong-obituary'],
+  'Q29311086': ['https://assets.the-afc.com/migration/2/0/20190116%20AC2019%20Final%20Squads.pdf','https://www.transfermarkt.co.uk/van-hau-doan/profil/spieler/484362'],
+};
+const isApprovedB008ForeignDobSource=(qid:string,url:string):boolean=>B008_FOREIGN_DOB_SOURCES[qid]?.includes(url) ?? false;
+assert('Rule AC', B008_NEW_PEOPLE.length>=90, `B008 requires at least 90 additions; found ${B008_NEW_PEOPLE.length}`);
+assert('Rule AC', B008_NEW_PEOPLE.length>0 && b008Vietnamese.length/B008_NEW_PEOPLE.length>=0.05, `B008 requires at least 5% Vietnamese; found ${b008Vietnamese.length}/${B008_NEW_PEOPLE.length}`);
+assert('Rule AC', b008Vietnamese.length>=5, `B008 requires at least five Vietnamese profiles; found ${b008Vietnamese.length}`);
+for (const [qid,urls] of Object.entries(B008_FOREIGN_DOB_SOURCES)) for (const url of urls) {
+  assert('Rule AC positive',isApprovedB008ForeignDobSource(qid,url),`Exact reviewed foreign DOB URL must pass: ${url}`);
+  const spoof=new URL(url); spoof.hostname += '.evil.example';
+  for (const [badQid,badUrl] of [[qid,spoof.href],[qid,'invalid-url'],[qid,url+'?unreviewed=1'],[qid,new URL('/unreviewed',url).href],['Q0',url]])
+    assert('Rule AC negative',!isApprovedB008ForeignDobSource(badQid,badUrl),'Unreviewed QID, URL, path, query, lookalike host, or malformed URL must fail');
+}
+for (const p of b008Vietnamese) assert('Rule AC', (p.sourceUrls||[]).some(u=>isApprovedB008ForeignDobSource(p.wikidataId||'',u)), `B008 ${p.id} requires an exact reviewed foreign full-DOB source`);
+console.log(`B008 additions: ${B008_NEW_PEOPLE.length}; Vietnamese: ${b008Vietnamese.length}`);
 
 // ------------------------------------------------------------
 // Summary

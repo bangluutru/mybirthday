@@ -1,0 +1,27 @@
+# B008 URL review
+
+- Previous scan output: URL audit summary: 1181 checked, 16 failed, 0 Britannica MANUAL pending.
+- Failed/manual lines: 16; manual pending: 0.
+- Final active source list: 1186 unique absolute source URLs, after corrections.
+- Failures still present in final data: 0.
+- Final B008 non-Wikidata pages fetched directly: 181/181 HTTP 200; 0 identity mismatches; exact-DOB document captures: 166.
+- All 16 failed URLs in the initial scan snapshot had been removed from the final data after source corrections; the blocked President of Ireland page was replaced by CIDOB. The 181 final B008 sources were fetched again and audited.
+
+## Initial-snapshot URLs removed from final data
+
+- https://www.enciklopedija.hr/clanak/honegger-arthur: — FAIL FETCH
+- https://snl.no/Urbain_Le_Verrier: — FAIL FETCH
+- https://snl.no/Edward_Albee: — FAIL FETCH
+- https://www.nfsa.gov.au/stories/articles/heath-ledger-portrait — FAIL HTTP 403
+- https://iwf.sport/wp-content/uploads/downloads/2017/12/ResultsBook_Anaheim.pdf — FAIL HTTP 403
+- https://www.nobelprize.org/laureate/316: — FAIL CONTENT
+- https://www.mofa.go.jp/mofaj/area/malawi/cv/r_banda.html — FAIL HTTP 403
+- https://drambedkarwritings.gov.in/content/innerpage/about-dr-b-r-ambedkar.php: — FAIL FETCH
+- https://www.washingtonpost.com/obituaries/2024/07/19/nguyen-phu-trong-vietnam-dies/: — FAIL FETCH
+- https://players.fcbarcelona.com/en/player/3141-wojciech-szczesny-wojciech-szczesny: — FAIL FETCH
+- https://president.ie/en/the-president/michaeldhiggins/ — FAIL HTTP 403
+- https://www.nobelprize.org/prizes/literature/1955/laxness/biographical/: — FAIL CONTENT
+- https://www.nga.gov/stories/articles/who-i-m-pei-10-things-know — FAIL HTTP 403
+- https://www.festival-cannes.com/en/p/penelope-cruz/ — FAIL HTTP 403
+- https://www.chipublib.org/harper-lee-biography/ — FAIL HTTP 202
+- https://www.festival-cannes.com/en/p/kirsten-dunst/ — FAIL HTTP 403

@@ -38,3 +38,8 @@
 
 
 2026-10-05 Codex B007-v1 review DAT: 93 người (5 VN/88 quốc tế), đủ31 ngày×3; evidence186 nguồn,180 ghi đủDOB và6 trang SNL chỉ năm được đối chiếu với nguồn ngày đầy đủ thứhai; số liệu AFC cho5 người Việt; mismatched P570 Bernardo được công khai. Gates testA–AA,Wikidata295/295,URL916/916,tsc/lint/build/coverage,baseline202+4,smoke12/12 đạt. Chủ dự án đã duyệt push khi đạt. Giao commit/push origin/main, fetch xác nhận rồi dừng, không mở tháng4.
+
+
+2026-10-05 B007/BV-008 đã push `20ec06a1df2227ddcb64561e874fbc025f6239ef`; fetch origin xác nhận0/0. Theo yêu cầu chủ dự án mở toàn tháng4: bắt đầu B008/BV-009; mục tiêu≥90 mới,3/30ngày,≥5%VN; bảo toàn baseline295+4; hai đợt nghiên cứu tuần tự; không mở tháng5.
+
+2026-10-05 B008/BV-009 review r1 DAT: tích hợp90 hồ sơ mới (85 quốc tế/5 Việt,5,56%), đúng3/ngày trên30 ngày. Tháng4 tổng93 người/30 ngày; tổng385 hồ sơ/124 ngày,4 sự kiện. 181 nguồn ngoài Wiki cuối tải trực tiếp HTTP200;90/90 hồ sơ có nguồn full DOB; 166/181 tài liệu tự ghi đủ ngày. P31/P56990/90, Wikidata385/385, RulesA–AC, build/tsc/lint/coverage, smoke14/14 và equality295+4 đạt. URL scan snapshot1181/16fail/0manual;16 URL fail đều bị thay/loại khỏi final, tất cả181 nguồn B008 cuối được kiểm lại. Chờ commit/push theo phê duyệt chủ dự án, fetch xác nhận0/0 rồi dừng; không mở tháng5.

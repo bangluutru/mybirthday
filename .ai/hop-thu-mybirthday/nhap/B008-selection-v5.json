@@ -1,0 +1,542 @@
+[
+  {
+    "wikidataId": "Q8442",
+    "name": "Otto von Bismarck",
+    "birthDate": "1815-04-01",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q46795",
+    "name": "Wangari Maathai",
+    "birthDate": "1940-04-01",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q93166",
+    "name": "Milan Kundera",
+    "birthDate": "1929-04-01",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q5673",
+    "name": "Hans Christian Andersen",
+    "birthDate": "1805-04-02",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q83321",
+    "name": "Giacomo Casanova",
+    "birthDate": "1725-04-02",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q189758",
+    "name": "Marvin Gaye",
+    "birthDate": "1939-04-02",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q34012",
+    "name": "Marlon Brando",
+    "birthDate": "1924-04-03",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q184746",
+    "name": "Jane Goodall",
+    "birthDate": "1934-04-03",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q43874",
+    "name": "Eddie Murphy",
+    "birthDate": "1961-04-03",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q19526",
+    "name": "Maya Angelou",
+    "birthDate": "1928-04-04",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q853",
+    "name": "Andrei Tarkovsky",
+    "birthDate": "1932-04-04",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q40572",
+    "name": "Heath Ledger",
+    "birthDate": "1979-04-04",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q71206",
+    "name": "Bette Davis",
+    "birthDate": "1908-04-05",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q108366",
+    "name": "Gregory Peck",
+    "birthDate": "1916-04-05",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q7833303",
+    "name": "Trần Lê Quốc Toàn",
+    "birthDate": "1989-04-05",
+    "countryCode": "VN"
+  },
+  {
+    "wikidataId": "Q83333",
+    "name": "James Watson",
+    "birthDate": "1928-04-06",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q2512",
+    "name": "Kurt Georg Kiesinger",
+    "birthDate": "1904-04-06",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q19581",
+    "name": "Rafael Correa",
+    "birthDate": "1963-04-06",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q36970",
+    "name": "Jackie Chan",
+    "birthDate": "1954-04-07",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q104358",
+    "name": "Billie Holiday",
+    "birthDate": "1915-04-07",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q16319564",
+    "name": "Joseph Trần Văn Toản",
+    "birthDate": "1955-04-07",
+    "countryCode": "VN"
+  },
+  {
+    "wikidataId": "Q1254",
+    "name": "Kofi Annan",
+    "birthDate": "1938-04-08",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q1666",
+    "name": "Jacques Brel",
+    "birthDate": "1929-04-08",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q58586",
+    "name": "Edmund Husserl",
+    "birthDate": "1859-04-08",
+    "countryCode": "DE"
+  },
+  {
+    "wikidataId": "Q501",
+    "name": "Charles Baudelaire",
+    "birthDate": "1821-04-09",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q106255",
+    "name": "Jean-Paul Belmondo",
+    "birthDate": "1933-04-09",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q153159",
+    "name": "Elias Lönnrot",
+    "birthDate": "1802-04-09",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q154959",
+    "name": "Hugo Grotius",
+    "birthDate": "1583-04-10",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q170515",
+    "name": "Omar Sharif",
+    "birthDate": "1932-04-10",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q173417",
+    "name": "Joseph Pulitzer",
+    "birthDate": "1847-04-10",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q219731",
+    "name": "George Canning",
+    "birthDate": "1770-04-11",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q184433",
+    "name": "Andrew Wiles",
+    "birthDate": "1953-04-11",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q75784",
+    "name": "Ferdinand Lassalle",
+    "birthDate": "1825-04-11",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q151435",
+    "name": "Montserrat Caballé",
+    "birthDate": "1933-04-12",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q57388",
+    "name": "Joyce Banda",
+    "birthDate": "1950-04-12",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q24689101",
+    "name": "Nguyễn Quang Hải",
+    "birthDate": "1997-04-12",
+    "countryCode": "VN"
+  },
+  {
+    "wikidataId": "Q169906",
+    "name": "Jacques Lacan",
+    "birthDate": "1901-04-13",
+    "countryCode": "FR"
+  },
+  {
+    "wikidataId": "Q37327",
+    "name": "Samuel Beckett",
+    "birthDate": "1906-04-13",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q28614",
+    "name": "Garry Kasparov",
+    "birthDate": "1963-04-13",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q231690",
+    "name": "Bhimrao Ambedkar",
+    "birthDate": "1891-04-14",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q39599",
+    "name": "Christiaan Huygens",
+    "birthDate": "1629-04-14",
+    "countryCode": "NL"
+  },
+  {
+    "wikidataId": "Q318458",
+    "name": "Nguyễn Phú Trọng",
+    "birthDate": "1944-04-14",
+    "countryCode": "VN"
+  },
+  {
+    "wikidataId": "Q15948",
+    "name": "Émile Durkheim",
+    "birthDate": "1858-04-15",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q7604",
+    "name": "Leonhard Euler",
+    "birthDate": "1707-04-15",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q42122",
+    "name": "Tomas Tranströmer",
+    "birthDate": "1931-04-15",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q882",
+    "name": "Charlie Chaplin",
+    "birthDate": "1889-04-16",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q42443",
+    "name": "Anatole France",
+    "birthDate": "1844-04-16",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q179051",
+    "name": "Kareem Abdul-Jabbar",
+    "birthDate": "1947-04-16",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q194291",
+    "name": "Sirimavo Bandaranaike",
+    "birthDate": "1916-04-17",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q182804",
+    "name": "Karen Blixen",
+    "birthDate": "1885-04-17",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q95002",
+    "name": "William Holden",
+    "birthDate": "1918-04-17",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q297562",
+    "name": "Leopold Stokowski",
+    "birthDate": "1882-04-18",
+    "countryCode": "US"
+  },
+  {
+    "wikidataId": "Q188997",
+    "name": "Wojciech Szczęsny",
+    "birthDate": "1990-04-18",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q57276",
+    "name": "Michael D. Higgins",
+    "birthDate": "1941-04-18",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q127349",
+    "name": "José Echegaray",
+    "birthDate": "1832-04-19",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q57340",
+    "name": "Mswati III",
+    "birthDate": "1968-04-19",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q29311086",
+    "name": "Đoàn Văn Hậu",
+    "birthDate": "1999-04-19",
+    "countryCode": "VN"
+  },
+  {
+    "wikidataId": "Q152384",
+    "name": "Joan Miró",
+    "birthDate": "1893-04-20",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q133009",
+    "name": "Gro Harlem Brundtland",
+    "birthDate": "1939-04-20",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q173585",
+    "name": "Jessica Lange",
+    "birthDate": "1949-04-20",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q9682",
+    "name": "Elizabeth II",
+    "birthDate": "1926-04-21",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q9387",
+    "name": "Max Weber",
+    "birthDate": "1864-04-21",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q182665",
+    "name": "Iggy Pop",
+    "birthDate": "1947-04-21",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q9312",
+    "name": "Immanuel Kant",
+    "birthDate": "1724-04-22",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q39792",
+    "name": "Jack Nicholson",
+    "birthDate": "1937-04-22",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q185007",
+    "name": "Rita Levi-Montalcini",
+    "birthDate": "1909-04-22",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q9021",
+    "name": "Max Planck",
+    "birthDate": "1858-04-23",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q80321",
+    "name": "Halldór Laxness",
+    "birthDate": "1902-04-23",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q182580",
+    "name": "Shirley Temple",
+    "birthDate": "1928-04-23",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q4636",
+    "name": "Barbra Streisand",
+    "birthDate": "1942-04-24",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q95026",
+    "name": "Shirley MacLaine",
+    "birthDate": "1934-04-24",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q9488",
+    "name": "Sachin Tendulkar",
+    "birthDate": "1973-04-24",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q41163",
+    "name": "Al Pacino",
+    "birthDate": "1940-04-25",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q1768",
+    "name": "Ella Fitzgerald",
+    "birthDate": "1917-04-25",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q17163",
+    "name": "Johan Cruyff",
+    "birthDate": "1947-04-25",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q9391",
+    "name": "Ludwig Wittgenstein",
+    "birthDate": "1889-04-26",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q33477",
+    "name": "Eugène Delacroix",
+    "birthDate": "1798-04-26",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q46868",
+    "name": "I. M. Pei",
+    "birthDate": "1917-04-26",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q34836",
+    "name": "Ulysses S. Grant",
+    "birthDate": "1822-04-27",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q101638",
+    "name": "Mary Wollstonecraft",
+    "birthDate": "1759-04-27",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q154952",
+    "name": "Willem-Alexander",
+    "birthDate": "1967-04-27",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q11815",
+    "name": "James Monroe",
+    "birthDate": "1758-04-28",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q39666",
+    "name": "Penélope Cruz",
+    "birthDate": "1974-04-28",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q182658",
+    "name": "Harper Lee",
+    "birthDate": "1926-04-28",
+    "countryCode": "US"
+  },
+  {
+    "wikidataId": "Q125017",
+    "name": "Uma Thurman",
+    "birthDate": "1970-04-29",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q157635",
+    "name": "Zubin Mehta",
+    "birthDate": "1936-04-29",
+    "countryCode": "IN"
+  },
+  {
+    "wikidataId": "Q7407",
+    "name": "Andre Agassi",
+    "birthDate": "1970-04-29",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q311440",
+    "name": "António Guterres",
+    "birthDate": "1949-04-30",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q76478",
+    "name": "Kirsten Dunst",
+    "birthDate": "1982-04-30",
+    "countryCode": null
+  },
+  {
+    "wikidataId": "Q2754",
+    "name": "Jaroslav Hašek",
+    "birthDate": "1883-04-30",
+    "countryCode": null
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "wikidataId": "Q58586",
+    "name": "Edmund Husserl",
+    "expectedDob": "1859-04-08",
+    "searchUrl": "https://snl.no/api/v1/search?query=Edmund+Husserl&limit=10",
+    "result": {
+      "title": "Edmund Husserl",
+      "headword": "Edmund Husserl",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Edmund_Husserl",
+      "article_url_json": "https://snl.no/Edmund_Husserl.json",
+      "rank": 576.5343160629272
+    },
+    "article": {
+      "url": "https://snl.no/Edmund_Husserl",
+      "title": "Edmund Husserl",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Husserl",
+        "firstname": "Edmund",
+        "birth_date": "8.4.1859",
+        "birthplace": "Mähren, Østerrike (nå Tsjekkia)",
+        "death_date": "27.5.1938",
+        "pronunciation": "<p>h<em>u</em>sserl</p>",
+        "place_of_death": "Freiburg im Breisgau, Tyskland",
+        "alternative_form": "<p>Edmund Gustav Albrecht Husserl</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Thomas Netland"
+        }
+      ],
+      "license": "fri",
+      "sha256": "06bb8a3bea76771060bd7d3e61114d9c48df22e8cc26604739fcb94b05bbadf1"
+    },
+    "error": null,
+    "searchSha256": "24e774067e916b2b2ed1eab36aa45787e89b0f3ee161537bc566514c5bcd0e9b"
+  },
+  {
+    "wikidataId": "Q297562",
+    "name": "Leopold Stokowski",
+    "expectedDob": "1882-04-18",
+    "searchUrl": "https://snl.no/api/v1/search?query=Leopold+Stokowski&limit=10",
+    "result": {
+      "title": "Leopold Stokowski",
+      "headword": "Leopold Stokowski",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Leopold_Stokowski",
+      "article_url_json": "https://snl.no/Leopold_Stokowski.json",
+      "rank": 576.1900000572205
+    },
+    "article": {
+      "url": "https://snl.no/Leopold_Stokowski",
+      "title": "Leopold Stokowski",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Stokowski",
+        "firstname": "Leopold",
+        "birth_date": "18.4.1882",
+        "birthplace": "London, Storbritannia",
+        "death_date": "13.9.1977",
+        "pronunciation": "<p>stok<em>o</em>wski</p>",
+        "place_of_death": "Nether Wallop, Hampshire, Storbritannia",
+        "alternative_form": "<p>Leopold Anthony Stokowski</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Trond Olav Svendsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "2b7910b3d36a85c59a65018d50af7d4b8c52b5bbb4398f7431b840ad85fca934"
+    },
+    "error": null,
+    "searchSha256": "229205b1323641e51e36ed47d776ac3a317f82ed6bfb7c4aaf3c79df44fe50a7"
+  },
+  {
+    "wikidataId": "Q157635",
+    "name": "Zubin Mehta",
+    "expectedDob": "1936-04-29",
+    "searchUrl": "https://snl.no/api/v1/search?query=Zubin+Mehta&limit=10",
+    "result": {
+      "title": "Zubin Mehta",
+      "headword": "Zubin Mehta",
+      "article_type_id": 2,
+      "encyclopedia_id": 1,
+      "article_url": "https://snl.no/Zubin_Mehta",
+      "article_url_json": "https://snl.no/Zubin_Mehta.json",
+      "rank": 575.6272222399712
+    },
+    "article": {
+      "url": "https://snl.no/Zubin_Mehta",
+      "title": "Zubin Mehta",
+      "metadata": {
+        "gender": "m",
+        "lastname": "Mehta",
+        "firstname": "Zubin",
+        "birth_date": "29.4.1936",
+        "birthplace": "Mumbai, India",
+        "pronunciation": "<p>m<em>e</em>hta</p>"
+      },
+      "professions": [],
+      "authors": [
+        {
+          "full_name": "Trond Olav Svendsen"
+        }
+      ],
+      "license": "begrenset",
+      "sha256": "fbb91025c641e7597f0ff2a0fc6fb083846f4d26f2828566a944fec8c33f3684"
+    },
+    "error": null,
+    "searchSha256": "b746b7e1923143eb3f3997d4f00d6d069ebf2cdf760fd1bcbb885b79c24468ee"
+  }
+]
