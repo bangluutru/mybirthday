@@ -1,0 +1,30 @@
+{
+  "cycle": "BV-010",
+  "reviewedAt": "2026-10-06",
+  "scope": "B009 May additions; global URL gate has known legacy failures",
+  "dataSha256": "4c1580fa29e0edf6fda464e126881955a42f9e1cf3444a6d042e0b0c9f72832c",
+  "integritySha256": "d78fa4b69657a668eaa5f26bf399115f134bc196dc715b2dba29568d6de7743a",
+  "baselineCommit": "f7ac98139e9483fd851b97c07eafb9093d3e30e1",
+  "commands": {
+    "npm test": "PASS: Rules A–AD, 478 people, zero violations",
+    "npx tsc --noEmit": "PASS exit 0",
+    "npm run lint": "PASS exit 0; existing image/font warnings",
+    "npm run build": "PASS exit 0",
+    "npm run verify:wikidata": "478 matched, 0 mismatched, 0 missing P569",
+    "npm run coverage": "478 people, 155/366 days, May 93 people on 31/31 days",
+    "scoped URL checker": "286 checked, 0 failed, 0 manual pending",
+    "strict Wikidata claims": "93/93 human; active Gregorian precision 11 exact DOB, no conflicting precise claims",
+    "production smoke": "26/26 HTTP200, SSR name checks where applicable",
+    "baseline equality": "385 people + 4 events unchanged",
+    "git diff --check": "PASS"
+  },
+  "urlCheckerReproduction": "Copy scripts/check-source-urls.ts into .ai/hop-thu-mybirthday/nhap/B009-review-urls.ts; replace import { ALL_PEOPLE } from '../src/data/birthdays' with import { PEOPLE_05 as ALL_PEOPLE } from '../../../src/data/people/05'; run npx tsx on the copy. All checker logic is unchanged.",
+  "urlLogSha256": "9aed8cdc63b52454a1cf3f80fefb613f863c82b139bc48e3291825505da20508",
+  "legacyUrlSnapshot": {
+    "checked": 1471,
+    "failed": 6,
+    "removedB009Failure": "President.ie Mary Robinson replaced by SNL",
+    "remainingLegacyFailures": 5,
+    "globalGatePass": false
+  }
+}

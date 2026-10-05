@@ -1,0 +1,5300 @@
+{
+  "cycle": "BV-010",
+  "task": "B009",
+  "reviewedAt": "2026-10-06",
+  "dataSha256": "4c1580fa29e0edf6fda464e126881955a42f9e1cf3444a6d042e0b0c9f72832c",
+  "counts": {
+    "people": 93,
+    "vietnamese": 5,
+    "international": 88,
+    "fullDobSources": 191
+  },
+  "independencePolicy": "Different publishers, no detected direct copy between cited pages. Publisher independence does not prove independent collection of athlete registration data; OCA/IWGA/AFC/ESPN/FotMob may share original registration data. DOB agreement is supported by publisher records and Wikidata, not civil-register authentication.",
+  "rows": [
+    {
+      "id": "arthur-wellesley-1st-duke-of-wellington",
+      "name": "Arthur Wellesley, 1st Duke of Wellington",
+      "qid": "Q131691",
+      "dob": "1769-05-01",
+      "countryCode": "GB",
+      "sources": [
+        {
+          "qid": "Q131691",
+          "name": "Arthur Wellesley, 1st Duke of Wellington",
+          "dob": "1769-05-01",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Arthur_Wellesley_Wellington",
+          "status": 200,
+          "exact": true,
+          "sha256": "207834495f8eb820065a1390981d22ddf57a95d7498eebab6d4774cd0b6e93f5",
+          "publisherCountry": "NO",
+          "excerpt": "Iron Duke («jern-hertugen») Uttale w e lingten Født 1. mai 1769, Dublin, Irland Død 14. september 1852, Kent, Storbritannia Arthur Wellesley Wellington, 1st duke of"
+        },
+        {
+          "qid": "Q131691",
+          "name": "Arthur Wellesley, 1st Duke of Wellington",
+          "dob": "1769-05-01",
+          "publisher": "UK Government",
+          "url": "https://www.gov.uk/government/history/past-prime-ministers/arthur-wellesley-1st-duke-of-wellington",
+          "status": 200,
+          "exact": true,
+          "sha256": "ef1720da367b870d219b72a10c26d7085c0fae923244c58d760ae041ad7f6008",
+          "publisherCountry": "GB",
+          "excerpt": "they wanted to stay and discuss them.” Born 1 May 1769, Dublin, Ireland Died 14 September 1852, Walmer Castle, Kent Dates in office 1828 to"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q131691",
+        "name": "Arthur Wellesley, 1st Duke of Wellington",
+        "dob": "1769-05-01",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1769-05-01T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "honore-de-balzac",
+      "name": "Honoré de Balzac",
+      "qid": "Q9711",
+      "dob": "1799-05-20",
+      "countryCode": "FR",
+      "sources": [
+        {
+          "qid": "Q9711",
+          "name": "Honoré de Balzac",
+          "dob": "1799-05-20",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/balzac-honore-de",
+          "status": 200,
+          "exact": true,
+          "sha256": "eebe7b8f564d4dd29b2f8973d071ffbfcdba35a0f3f131a1dfd4dfbf9182c1dc",
+          "publisherCountry": "HR",
+          "excerpt": "književnosti Balzac, Honoré de francuski književnik Rođen(a): Tours, 20. V. 1799. Umr(la)o: Pariz, 18. VIII. 1850. BALZAC, Honoré de Balzac [balza'k], Honoré de, francuski književnik"
+        },
+        {
+          "qid": "Q9711",
+          "name": "Honoré de Balzac",
+          "dob": "1799-05-20",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Honor%C3%A9_de_Balzac",
+          "status": 200,
+          "exact": true,
+          "sha256": "3e28a72f1afc9d7972a115466326b6a8ebe6ced510289bc3af8bb308ee8e0947",
+          "publisherCountry": "NO",
+          "excerpt": "Født Honoré Balzac Uttale bals a k Født 20. mai 1799, Tours, Indre-et-Loire, Frankrike Død 18. august 1850, Paris, Frankrike Honoré de Balzac, fotografert av"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q9711",
+        "name": "Honoré de Balzac",
+        "dob": "1799-05-20",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1799-05-20T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "preferred"
+          },
+          {
+            "time": "+1799-01-01T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "ralph-waldo-emerson",
+      "name": "Ralph Waldo Emerson",
+      "qid": "Q48226",
+      "dob": "1803-05-25",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q48226",
+          "name": "Ralph Waldo Emerson",
+          "dob": "1803-05-25",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/emerson-ralph-waldo",
+          "status": 200,
+          "exact": true,
+          "sha256": "70f9030a4dbe2e417f402617a0fd19fc7a3fade3071866dadd8bc5595d35c819",
+          "publisherCountry": "HR",
+          "excerpt": "Ralph Waldo američki esejist i pjesnik Rođen(a): Boston, 25. V. 1803. Umr(la)o: Concord, Massachusetts, 27. IV. 1882. EMERSON, Ralph Waldo Emerson [e'məɹsən], Ralph Waldo, američki"
+        },
+        {
+          "qid": "Q48226",
+          "name": "Ralph Waldo Emerson",
+          "dob": "1803-05-25",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Ralph_Waldo_Emerson",
+          "status": 200,
+          "exact": true,
+          "sha256": "2a7b844e1792dbb860251ff4cde3f165d8bd1405d90a3e6877521ea9c37c67fa",
+          "publisherCountry": "NO",
+          "excerpt": "Faktaboks Ralph Waldo Emerson Uttale e məsən Født 25. mai 1803, Boston, Massachusetts, USA Død 27. april 1882, Concord, Massachusetts, USA Ralph Waldo Emerson Av"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q48226",
+        "name": "Ralph Waldo Emerson",
+        "dob": "1803-05-25",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1803-05-25T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "preferred"
+          },
+          {
+            "time": "+1803-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "robert-browning",
+      "name": "Robert Browning",
+      "qid": "Q233265",
+      "dob": "1812-05-07",
+      "countryCode": "GB",
+      "sources": [
+        {
+          "qid": "Q233265",
+          "name": "Robert Browning",
+          "dob": "1812-05-07",
+          "publisher": "Westminster Abbey",
+          "url": "https://www.westminster-abbey.org/abbey-commemorations/commemorations/robert-and-elizabeth-barrett-browning",
+          "status": 200,
+          "exact": true,
+          "sha256": "5dbc2a9660f1d519233ba2da4fec3b455c3f4544c3576b4a66503147fb999e0e",
+          "publisherCountry": "GB",
+          "excerpt": "and a lily. The inscription reads: ROBERT BROWNING MAY 7 1812 DEC 12 1889. Order of Service for the Funeral of Robert Browning 1889 (PDF,"
+        },
+        {
+          "qid": "Q233265",
+          "name": "Robert Browning",
+          "dob": "1812-05-07",
+          "publisher": "Academy of American Poets",
+          "url": "https://poets.org/poet/robert-browning",
+          "status": 200,
+          "exact": true,
+          "sha256": "91b5957fc4d39b471f7b3ca71fe35a0fdc4f8f27a0eb708c40adf5dedda041d3",
+          "publisherCountry": "US",
+          "excerpt": "this poet's poems Robert Browning was born on May 7, 1812, in Camberwell, England. His mother was an accomplished pianist and a devout evangelical Christian."
+        }
+      ],
+      "wikidata": {
+        "qid": "Q233265",
+        "name": "Robert Browning",
+        "dob": "1812-05-07",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1812-05-07T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "preferred"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "soren-kierkegaard",
+      "name": "Søren Kierkegaard",
+      "qid": "Q6512",
+      "dob": "1813-05-05",
+      "countryCode": "DK",
+      "sources": [
+        {
+          "qid": "Q6512",
+          "name": "Søren Kierkegaard",
+          "dob": "1813-05-05",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/kierkegaard-soren",
+          "status": 200,
+          "exact": true,
+          "sha256": "dea7aa1a7ad03e6a6d34aa2430785659d0e6ee5c2ab6978356d086d8b90f2cf4",
+          "publisherCountry": "HR",
+          "excerpt": "struka(e): filozofija Kierkegaard, Søren danski filozof Rođen(a): Kopenhagen, 5. V. 1813. Umr(la)o: Kopenhagen, 11. XI. 1855. KIERKEGAARD, Søren Kierkegaard [kịə'ɹgəgɔ:ɹ], Søren, danski filozof ( Kopenhagen"
+        },
+        {
+          "qid": "Q6512",
+          "name": "Søren Kierkegaard",
+          "dob": "1813-05-05",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/S%C3%B8ren_Kierkegaard",
+          "status": 200,
+          "exact": true,
+          "sha256": "f6e2e85046b1029712b2d8492d6d0c3127529d208ee30809859d70f7ae5c4fff",
+          "publisherCountry": "NO",
+          "excerpt": "Høgskolen Faktaboks Søren Kierkegaard Søren Aabye Kierkegaard Født 5. mai 1813, København, Danmark Død 11. november 1855, København, Danmark Søren Kierkegaard. Tegning av Niels Christian"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q6512",
+        "name": "Søren Kierkegaard",
+        "dob": "1813-05-05",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1813-05-05T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "richard-wagner",
+      "name": "Richard Wagner",
+      "qid": "Q1511",
+      "dob": "1813-05-22",
+      "countryCode": "DE",
+      "sources": [
+        {
+          "qid": "Q1511",
+          "name": "Richard Wagner",
+          "dob": "1813-05-22",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/wagner-richard",
+          "status": 200,
+          "exact": true,
+          "sha256": "92756bc7c198ecee395d41f2a4a3032ed4fbbef6c8c8124d3e1e5f1c296a5d1b",
+          "publisherCountry": "HR",
+          "excerpt": "još: Krležijana Wagner, Richard njemački skladatelj Rođen(a): Leipzig, 22. V. 1813. Umr(la)o: Venecija, 13. II. 1883. Wagner [va:'gnəɹ], Richard, njemački skladatelj ( Leipzig , 22."
+        },
+        {
+          "qid": "Q1511",
+          "name": "Richard Wagner",
+          "dob": "1813-05-22",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Richard_Wagner",
+          "status": 200,
+          "exact": true,
+          "sha256": "4b32c621963dc44741e56c5f51416def399bff9fc0e88cb7d13001bbfc58b4b4",
+          "publisherCountry": "NO",
+          "excerpt": "Andersen Faktaboks Richard Wagner Wilhelm Richard Wagner Født 22. mai 1813, Leipzig Død 13. februar 1883, Venezia Richard Wagner. I likhet med mange andre fremstillinger"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q1511",
+        "name": "Richard Wagner",
+        "dob": "1813-05-22",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1813-05-22T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "preferred"
+          },
+          {
+            "time": "+1813-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "karl-marx",
+      "name": "Karl Marx",
+      "qid": "Q9061",
+      "dob": "1818-05-05",
+      "countryCode": "DE",
+      "sources": [
+        {
+          "qid": "Q9061",
+          "name": "Karl Marx",
+          "dob": "1818-05-05",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/marx-karl",
+          "status": 200,
+          "exact": true,
+          "sha256": "98c8ba2fb82bb459118d1ac416b7dbd88a453205066e42b5f8835df235a66f3f",
+          "publisherCountry": "HR",
+          "excerpt": "filozof, ekonomist, socijalni mislilac i revolucionar Rođen(a): Trier, 5. V. 1818. Umr(la)o: London, 14. III. 1883. MARX, Karl Marx [marks], Karl, njemački filozof, ekonomist, socijalni"
+        },
+        {
+          "qid": "Q9061",
+          "name": "Karl Marx",
+          "dob": "1818-05-05",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Karl_Marx",
+          "status": 200,
+          "exact": true,
+          "sha256": "0bd32bb6183e802f2f7fb423b8310346a2a39871c38dbbe3311271869bb3e146",
+          "publisherCountry": "NO",
+          "excerpt": "Høgskolen Faktaboks Karl Marx Karl Heinrich Marx Født 5. mai 1818, Trier, Prøyssen, Tyskland Død 14. mars 1883, London, England Karl Marx var en tysk"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q9061",
+        "name": "Karl Marx",
+        "dob": "1818-05-05",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1818-05-05T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "victoria",
+      "name": "Victoria",
+      "qid": "Q9439",
+      "dob": "1819-05-24",
+      "countryCode": "GB",
+      "sources": [
+        {
+          "qid": "Q9439",
+          "name": "Victoria",
+          "dob": "1819-05-24",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Victoria_-_britisk_dronning",
+          "status": 200,
+          "exact": true,
+          "sha256": "5f97ec21a63d649f771292f929bcc54759cc55beea25f39cc29fbf0b8ce7b1d5",
+          "publisherCountry": "NO",
+          "excerpt": "Victoria Alexandrina Victoria Uttale vikt å :riə Født 24. mai 1819, Kensington Palace, London, Storbritannia Død 22. januar 1901, Osbourne House, Storbritannia Victoria var dronning"
+        },
+        {
+          "qid": "Q9439",
+          "name": "Victoria",
+          "dob": "1819-05-24",
+          "publisher": "Royal Household",
+          "url": "https://www.royal.uk/encyclopedia/victoria-r-1837-1901",
+          "status": 200,
+          "exact": true,
+          "sha256": "fb0ee94c24cda645f8ea3a2e5b534c8eb66eec1d0e824306274446e28f6fe230",
+          "publisherCountry": "GB",
+          "excerpt": "Victoria was born at Kensington Palace, London, on 24 May 1819. She was the only daughter of Edward, Duke of Kent, fourth son of George"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q9439",
+        "name": "Victoria",
+        "dob": "1819-05-24",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1819-05-24T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "walt-whitman",
+      "name": "Walt Whitman",
+      "qid": "Q81438",
+      "dob": "1819-05-31",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q81438",
+          "name": "Walt Whitman",
+          "dob": "1819-05-31",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/whitman-walt",
+          "status": 200,
+          "exact": true,
+          "sha256": "ec310309298336a18b1c04f27bd2aec547891301c9164cd1ce7bcdb13f6b9160",
+          "publisherCountry": "HR",
+          "excerpt": "Walt američki pjesnik Rođen(a): West Hills, Long Island, 31. V. 1819. Umr(la)o: Camden, New Jersey, 26. III. 1892. WHITMAN, Walt WHITMAN, Walt Whitman [ʍi'tmən], Walt,"
+        },
+        {
+          "qid": "Q81438",
+          "name": "Walt Whitman",
+          "dob": "1819-05-31",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Walt_Whitman",
+          "status": 200,
+          "exact": true,
+          "sha256": "cee3cb733e0e86bae61bbc8de51891e77e3bf2657d6375fbb4f5151fbbd1cdbe",
+          "publisherCountry": "NO",
+          "excerpt": "Faktaboks Walt Whitman Uttale w i tmən Født 31. mai 1819, West Hills, New York, USA Død 26. mars 1892, Camden, New Jersey, USA Foto"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q81438",
+        "name": "Walt Whitman",
+        "dob": "1819-05-31",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1819-05-31T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "florence-nightingale",
+      "name": "Florence Nightingale",
+      "qid": "Q37103",
+      "dob": "1820-05-12",
+      "countryCode": "GB",
+      "sources": [
+        {
+          "qid": "Q37103",
+          "name": "Florence Nightingale",
+          "dob": "1820-05-12",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/nightingale-florence",
+          "status": 200,
+          "exact": true,
+          "sha256": "bbbfd769ea354ef230c60c6cc404b864ec038ed7d3620cee244490fe4a42fd10",
+          "publisherCountry": "HR",
+          "excerpt": "struka(e): medicina Nightingale, Florence engleska bolničarka Rođen(a): Firenca, 12. V. 1820. Umr(la)o: London, 13. VIII. 1910. NIGHTINGALE, Florence Nightingale [nại'tiŋgeil], Florence, engleska bolničarka ( Firenca"
+        },
+        {
+          "qid": "Q37103",
+          "name": "Florence Nightingale",
+          "dob": "1820-05-12",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Florence_Nightingale",
+          "status": 200,
+          "exact": true,
+          "sha256": "9ad4e7316a52e3de887008f38b734f01a73e96eaa87a5710b63f9879984eea02",
+          "publisherCountry": "NO",
+          "excerpt": "Faktaboks Florence Nightingale Uttale n ai tinggeil Født 12. mai 1820, Firenze, Italia Død 13. august 1910, London, Storbritannia Florence Nightingale Av Henry Hering ."
+        }
+      ],
+      "wikidata": {
+        "qid": "Q37103",
+        "name": "Florence Nightingale",
+        "dob": "1820-05-12",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1820-05-12T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "thomas-henry-huxley",
+      "name": "Thomas Henry Huxley",
+      "qid": "Q184366",
+      "dob": "1825-05-04",
+      "countryCode": "GB",
+      "sources": [
+        {
+          "qid": "Q184366",
+          "name": "Thomas Henry Huxley",
+          "dob": "1825-05-04",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/huxley-thomas-henry",
+          "status": 200,
+          "exact": true,
+          "sha256": "21d188fef63b31c69dde2f2f1269987136e1918bd7fea2544b3781ddab88a9eb",
+          "publisherCountry": "HR",
+          "excerpt": "Huxley, Thomas Henry engleski zoolog Rođen(a): Ealing, Middlesex, 4. V. 1825. Umr(la)o: Eastbourne, Sussex, 29. VI. 1895. Huxley [hʌ'ksli], Thomas Henry, engleski zoolog ( Ealing,"
+        },
+        {
+          "qid": "Q184366",
+          "name": "Thomas Henry Huxley",
+          "dob": "1825-05-04",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Thomas_Henry_Huxley",
+          "status": 200,
+          "exact": true,
+          "sha256": "847d5c6f4472e57f5729aa66c7ba2d5bb3d93af80068c5da2d3ef1d025f63490",
+          "publisherCountry": "NO",
+          "excerpt": "Thomas Henry Huxley Uttale h ʌ ksli Født 4. mai 1825, Ealing, Middlesex (nåværende London), England Død 29. juni 1895, Eastbourne, Sussex, England Thomas Henry"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q184366",
+        "name": "Thomas Henry Huxley",
+        "dob": "1825-05-04",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1825-05-04T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "preferred"
+          },
+          {
+            "time": "+1825-01-01T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "henry-dunant",
+      "name": "Henry Dunant",
+      "qid": "Q12091",
+      "dob": "1828-05-08",
+      "countryCode": "CH",
+      "sources": [
+        {
+          "qid": "Q12091",
+          "name": "Henry Dunant",
+          "dob": "1828-05-08",
+          "publisher": "Nobel Prize Outreach",
+          "url": "https://www.nobelprize.org/laureate/462",
+          "status": 200,
+          "exact": true,
+          "sha256": "ceaf324ef073b1cc5aef38f54a1e261d524b8c7fd3bb913aeaa2041400765ed8",
+          "publisherCountry": "SE",
+          "excerpt": "Jean Henry Dunant Nobel Peace Prize 1901 Born: 8 May 1828, Geneva, Switzerland Died: 30 October 1910, Heiden, Switzerland Residence at the time of the"
+        },
+        {
+          "qid": "Q12091",
+          "name": "Henry Dunant",
+          "dob": "1828-05-08",
+          "publisher": "International Committee of the Red Cross",
+          "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-2028-henry-dunant.pdf",
+          "status": 200,
+          "exact": true,
+          "sha256": "d2b22e3f7194a125300e3b0b061cdea80c2665c7994879295d641efd9638e911",
+          "publisherCountry": "CH",
+          "excerpt": "* * * Henry Dunant was born on 8 May 1828 in Geneva. From his native town and his solid middle-class family background he acquired"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q12091",
+        "name": "Henry Dunant",
+        "dob": "1828-05-08",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1828-05-08T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "johannes-brahms",
+      "name": "Johannes Brahms",
+      "qid": "Q7294",
+      "dob": "1833-05-07",
+      "countryCode": "DE",
+      "sources": [
+        {
+          "qid": "Q7294",
+          "name": "Johannes Brahms",
+          "dob": "1833-05-07",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/brahms-johannes",
+          "status": 200,
+          "exact": true,
+          "sha256": "82fd862afe676b0b7937d076d990623a8b3f7ed79ab20e2967ffae4a98a4186b",
+          "publisherCountry": "HR",
+          "excerpt": "Brahms, Johannes njemački skladatelj i pijanist Rođen(a): Hamburg, 7. V. 1833. Umr(la)o: Beč, 3. IV. 1897. BRAHMS, Johannes Brahms [bra:ms], Johannes, njemački skladatelj i pijanist"
+        },
+        {
+          "qid": "Q7294",
+          "name": "Johannes Brahms",
+          "dob": "1833-05-07",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Johannes_Brahms",
+          "status": 200,
+          "exact": true,
+          "sha256": "3424f8172174425ef3c24aed37193c67b07131d0f3fbc86d42deb7d89b66fc39",
+          "publisherCountry": "NO",
+          "excerpt": "av Rune J. Andersen Faktaboks Johannes Brahms Født 7. mai 1833, Hamburg Død 3. april 1897, Wien Johannes Brahms Av Bundesbildstelle Bonn /※. Lisens: Begrenset"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q7294",
+        "name": "Johannes Brahms",
+        "dob": "1833-05-07",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1833-05-07T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "santiago-ramon-y-cajal",
+      "name": "Santiago Ramón y Cajal",
+      "qid": "Q150526",
+      "dob": "1852-05-01",
+      "countryCode": "ES",
+      "sources": [
+        {
+          "qid": "Q150526",
+          "name": "Santiago Ramón y Cajal",
+          "dob": "1852-05-01",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/ramon-y-cajal-santiago",
+          "status": 200,
+          "exact": true,
+          "sha256": "83fff032f54b8b89ab2c28e8223c99ca401d27f463a51e0b9407268d4ced15fb",
+          "publisherCountry": "HR",
+          "excerpt": "Cajal, Santiago španjolski histolog Rođen(a): Petilla de Aragón, 1. V. 1852. Umr(la)o: Madrid, 17. X. 1934. RAMÓN Y CAJAL, Santiago Ramón y Cajal [r:amo'n i"
+        },
+        {
+          "qid": "Q150526",
+          "name": "Santiago Ramón y Cajal",
+          "dob": "1852-05-01",
+          "publisher": "Nobel Prize Outreach",
+          "url": "https://www.nobelprize.org/prizes/medicine/1906/cajal/biographical/",
+          "status": 200,
+          "exact": true,
+          "sha256": "845d91801cfeb47472e4e439d5cc41fa2177ad0c2792b5c560a98e89e521078a",
+          "publisherCountry": "SE",
+          "excerpt": "S antiago Ramón y Cajal was born on May 1, 1852, at Petilla de Aragón, Spain. As a boy he was apprenticed first to a"
+        },
+        {
+          "qid": "Q150526",
+          "name": "Santiago Ramón y Cajal",
+          "dob": "1852-05-01",
+          "publisher": "Real Academia Nacional de Medicina de España",
+          "url": "https://ranm.es/1907/06/1907-ramon-y-cajal-santiago/",
+          "status": 200,
+          "exact": true,
+          "sha256": "d588caf06e17ff96306ffd5c28ffb52db8710dfc14c418583dec3a493fbb810d",
+          "publisherCountry": "ES",
+          "excerpt": "nació en Petilla de Aragón (Navarra) el día 1º de mayo de 1852. Su padre, don Justo, era el Médico de la localidad y con"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q150526",
+        "name": "Santiago Ramón y Cajal",
+        "dob": "1852-05-01",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1852-05-01T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "sigmund-freud",
+      "name": "Sigmund Freud",
+      "qid": "Q9215",
+      "dob": "1856-05-06",
+      "countryCode": "AT",
+      "sources": [
+        {
+          "qid": "Q9215",
+          "name": "Sigmund Freud",
+          "dob": "1856-05-06",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/freud-sigmund",
+          "status": 200,
+          "exact": true,
+          "sha256": "f118c601fba5528567d65d41bc8f1015c59228aa1c41bf59314e7011823e69c1",
+          "publisherCountry": "HR",
+          "excerpt": "liječnik, neurolog, psihijatar Rođen(a): Freiberg, danas Příbor, Češka, 6. V. 1856. Umr(la)o: London, 23. IX. 1939. FREUD, Sigmund Freud [frit], Sigmund, austrijski liječnik, neurolog, psihijatar"
+        },
+        {
+          "qid": "Q9215",
+          "name": "Sigmund Freud",
+          "dob": "1856-05-06",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Sigmund_Freud",
+          "status": 200,
+          "exact": true,
+          "sha256": "7d7a22d43f7d6b18ff0bddacfa79ee948cca4c138b6c94a1aa2f8f700906b35e",
+          "publisherCountry": "NO",
+          "excerpt": "av Psykolog Torberg Foss Faktaboks Sigmund Freud Født 6. mai 1856, Freiberg, Østerrike (nå Příbor, Tsjekkia) Død 23. september 1939, Hampstead, Storbritannia Freud ved arbeidsbordet"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q9215",
+        "name": "Sigmund Freud",
+        "dob": "1856-05-06",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1856-05-06T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "l-frank-baum",
+      "name": "L. Frank Baum",
+      "qid": "Q207544",
+      "dob": "1856-05-15",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q207544",
+          "name": "L. Frank Baum",
+          "dob": "1856-05-15",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Lyman_Frank_Baum",
+          "status": 200,
+          "exact": true,
+          "sha256": "2c3a12e95d35cdf5346acb23fca1397b3aa6310e2c19b81205be976727930544",
+          "publisherCountry": "NO",
+          "excerpt": "Frank Baum L. Frank Baum Uttale bå:m Født 15. mai 1856, Chittenango, New York Død 6. mai 1919, Hollywood L Frank Baum 1908 Av Dana"
+        },
+        {
+          "qid": "Q207544",
+          "name": "L. Frank Baum",
+          "dob": "1856-05-15",
+          "publisher": "Biography.com",
+          "url": "https://www.biography.com/authors-writers/l-frank-baum",
+          "status": 200,
+          "exact": true,
+          "sha256": "83bde8a29b96047d593b472fa737cf81270599a99cf3d48288c276f1f8f00a1c",
+          "publisherCountry": "US",
+          "excerpt": "Early Life Lyman Frank Baum was born on May 15, 1856, in Chittenango, New York. In 1900, Baum wrote one of the most famous works"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q207544",
+        "name": "L. Frank Baum",
+        "dob": "1856-05-15",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1856-05-15T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "preferred"
+          },
+          {
+            "time": "+1856-01-01T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "ronald-ross",
+      "name": "Ronald Ross",
+      "qid": "Q102034",
+      "dob": "1857-05-13",
+      "countryCode": "GB",
+      "sources": [
+        {
+          "qid": "Q102034",
+          "name": "Ronald Ross",
+          "dob": "1857-05-13",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/ross-ronald",
+          "status": 200,
+          "exact": true,
+          "sha256": "be6894420bc706c9225890243cca0e40389f60a6930576d2f4894dd5e661c51b",
+          "publisherCountry": "HR",
+          "excerpt": "medicina Ross, Ronald engleski liječnik Rođen(a): Almora, Indija, 13. V. 1857. Umr(la)o: London, 16. IX. 1932. ROSS, Ronald Ross [rɔs], Ronald, engleski liječnik ( Almora,"
+        },
+        {
+          "qid": "Q102034",
+          "name": "Ronald Ross",
+          "dob": "1857-05-13",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Ronald_Ross",
+          "status": 200,
+          "exact": true,
+          "sha256": "7a89d16b93f4c548ac8b197e7f1d26c578216f7ca3a6f3f9101f4ac0e295b6b0",
+          "publisherCountry": "NO",
+          "excerpt": "Ronald Ross Faktaboks Ronald Ross Uttale rås Født 13. mai 1857, Almora, India Død 16. september 1932, Putney Heath, Storbritannia Ronald Ross fotografert i 1904."
+        }
+      ],
+      "wikidata": {
+        "qid": "Q102034",
+        "name": "Ronald Ross",
+        "dob": "1857-05-13",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1857-05-13T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "arthur-conan-doyle",
+      "name": "Arthur Conan Doyle",
+      "qid": "Q35610",
+      "dob": "1859-05-22",
+      "countryCode": "GB",
+      "sources": [
+        {
+          "qid": "Q35610",
+          "name": "Arthur Conan Doyle",
+          "dob": "1859-05-22",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/doyle-arthur-conan",
+          "status": 200,
+          "exact": true,
+          "sha256": "82657eec1db96cbce178c80c45de49eb2a52342d2ac28203f2b073fac3e7d20d",
+          "publisherCountry": "HR",
+          "excerpt": "književnosti Doyle, Arthur Conan engleski književnik Rođen(a): Edinburgh, 22. V. 1859. Umr(la)o: Crowborough, 7. VII. 1930. DOYLE, Arthur Conan Doyle [dil], Arthur Conan, engleski književnik"
+        },
+        {
+          "qid": "Q35610",
+          "name": "Arthur Conan Doyle",
+          "dob": "1859-05-22",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Arthur_Conan_Doyle",
+          "status": 200,
+          "exact": true,
+          "sha256": "3ad703ccbe2e419351583a39edbe5bdab48044b27322e1aaa142a8f41c42c076",
+          "publisherCountry": "NO",
+          "excerpt": "Født: Arthur Ignatius Conan Doyle. Uttale dåil Født 22. mai 1859, Edinburgh, Skottland Død 7. juli 1930, Crowborough, England Arthur Conan Doyle Av Ukjent /KF-arkiv"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q35610",
+        "name": "Arthur Conan Doyle",
+        "dob": "1859-05-22",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1859-05-22T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "theodor-herzl",
+      "name": "Theodor Herzl",
+      "qid": "Q44003",
+      "dob": "1860-05-02",
+      "countryCode": "AT",
+      "sources": [
+        {
+          "qid": "Q44003",
+          "name": "Theodor Herzl",
+          "dob": "1860-05-02",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/herzl-theodor",
+          "status": 200,
+          "exact": true,
+          "sha256": "f5da51c81315041d45b93702afa8694f33f14857d24b29ad1faa601905b65ef1",
+          "publisherCountry": "HR",
+          "excerpt": "židovski pisac i političar, osnivač cionizma Rođen(a): Pešta, 2. V. 1860. Umr(la)o: Edlach an der Rax, 3. VII. 1904. Herzl [hε'rcəl], Theodor, židovski pisac i"
+        },
+        {
+          "qid": "Q44003",
+          "name": "Theodor Herzl",
+          "dob": "1860-05-02",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Theodor_Herzl",
+          "status": 200,
+          "exact": true,
+          "sha256": "4261f5c4d3160cab266f2dd5e35e0b4ebc84b86ddbfe383e205359280e020ed3",
+          "publisherCountry": "NO",
+          "excerpt": "Oxford Faktaboks Theodor Herzl Theodor Tivadar Herzl Født 2. mai 1860, Pest, (nå Budapest) Keiserdømmet Østerrike (nå Ungarn) Død 3. juli 1904, Reichenau an der"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q44003",
+        "name": "Theodor Herzl",
+        "dob": "1860-05-02",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1860-05-02T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "j-m-barrie",
+      "name": "J. M. Barrie",
+      "qid": "Q81796",
+      "dob": "1860-05-09",
+      "countryCode": "GB",
+      "sources": [
+        {
+          "qid": "Q81796",
+          "name": "J. M. Barrie",
+          "dob": "1860-05-09",
+          "publisher": "University of St Andrews Museum",
+          "url": "https://museumblog.wp.st-andrews.ac.uk/2020/07/06/for-the-old-red-gown-til-the-whistle-blows-rector-and-writer-jm-barrie/",
+          "status": 200,
+          "exact": true,
+          "sha256": "46d679deab44feaeca12a58556ac15edc547f98bc5ec5f7aa9a7cbb99f322655",
+          "publisherCountry": "GB",
+          "excerpt": "Sir James Matthew Barrie was born on the 9th May 1860 in Kirriemuir, Angus. Barrie was the ninth of ten children to Margaret Ogilvy and"
+        },
+        {
+          "qid": "Q81796",
+          "name": "J. M. Barrie",
+          "dob": "1860-05-09",
+          "publisher": "S.R. Crockett Museum",
+          "url": "https://www.srcrockett.scot/themuseum/items/show/1380",
+          "status": 200,
+          "exact": true,
+          "sha256": "c4436bd0e938683a2824ac8c73ca9f6e4f8268fc47861137752aac81a8777960",
+          "publisherCountry": "GB",
+          "excerpt": "Menu J.M.Barrie Dublin Core Title J.M.Barrie Description Dates: 9 May 1860 – 19 June 1937 Occupation: Novelist, playwright Nationality: Scottish Born Kirriemuir, Angus, the son"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q81796",
+        "name": "J. M. Barrie",
+        "dob": "1860-05-09",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1860-05-09T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "preferred"
+          },
+          {
+            "time": "+1860-01-01T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "willem-einthoven",
+      "name": "Willem Einthoven",
+      "qid": "Q189488",
+      "dob": "1860-05-21",
+      "countryCode": "NL",
+      "sources": [
+        {
+          "qid": "Q189488",
+          "name": "Willem Einthoven",
+          "dob": "1860-05-21",
+          "publisher": "Nobel Prize Outreach",
+          "url": "https://www.nobelprize.org/laureate/315",
+          "status": 200,
+          "exact": true,
+          "sha256": "8b8764de26407c54d40e22a7d03ad93adeee369ebb7cf698ea65d6c719ac4057",
+          "publisherCountry": "SE",
+          "excerpt": "Nobel Prize in Physiology or Medicine 1924 Born: 21 May 1860, Semarang, Java, Dutch East Indies (now Indonesia) Died: 29 September 1927, Leiden, the Netherlands"
+        },
+        {
+          "qid": "Q189488",
+          "name": "Willem Einthoven",
+          "dob": "1860-05-21",
+          "publisher": "Hrvatska enciklopedija",
+          "url": "https://www.enciklopedija.hr/clanak/einthoven-willem",
+          "status": 200,
+          "exact": true,
+          "sha256": "8d86c0adf3e44f82b1967a9d6d07e0194f10c2cb955e399bdfa8c80f073e0f13",
+          "publisherCountry": "HR",
+          "excerpt": "medicina Einthoven, Willem nizozemski fiziolog Rođen(a): Semarang, Java, 21. V. 1860. Umr(la)o: Leiden, 29. IX. 1927. EINTHOVEN, Willem Einthoven [i'ntho:fə], Willem, nizozemski fiziolog ( Semarang,"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q189488",
+        "name": "Willem Einthoven",
+        "dob": "1860-05-21",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1860-05-21T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "erik-satie",
+      "name": "Erik Satie",
+      "qid": "Q187192",
+      "dob": "1866-05-17",
+      "countryCode": "FR",
+      "sources": [
+        {
+          "qid": "Q187192",
+          "name": "Erik Satie",
+          "dob": "1866-05-17",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/satie-erik",
+          "status": 200,
+          "exact": true,
+          "sha256": "a001c7461a5f48d336745c3e766f7498d9591b98019f36f3288162e034dc2947",
+          "publisherCountry": "HR",
+          "excerpt": "struka(e): glazba Satie, Erik francuski skladatelj Rođen(a): Honfleur, 17. V. 1866. Umr(la)o: Pariz, 1. VII. 1925. SATIE, Erik Satie [sati'], Erik, francuski skladatelj ( Honfleur"
+        },
+        {
+          "qid": "Q187192",
+          "name": "Erik Satie",
+          "dob": "1866-05-17",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Erik_Satie",
+          "status": 200,
+          "exact": true,
+          "sha256": "1762a603e22936d73988ccbfd5a4853961c8dac139b3a327f4e6389f64069210",
+          "publisherCountry": "NO",
+          "excerpt": "Éric Alfred Leslie Satie Uttale sat i Født 17. mai 1866, Honfleur, Frankrike Død 1. juli 1925, Paris, Frankrike Erik Satie, 1920 Av Henri Manuel"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q187192",
+        "name": "Erik Satie",
+        "dob": "1866-05-17",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1866-05-17T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "bertrand-russell",
+      "name": "Bertrand Russell",
+      "qid": "Q33760",
+      "dob": "1872-05-18",
+      "countryCode": "GB",
+      "sources": [
+        {
+          "qid": "Q33760",
+          "name": "Bertrand Russell",
+          "dob": "1872-05-18",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/russell-bertrand",
+          "status": 200,
+          "exact": true,
+          "sha256": "ca47a1015c8ae183b0efa30037b8873c6723d0b1c15887183a1a4e79371205c8",
+          "publisherCountry": "HR",
+          "excerpt": "Bertrand britanski filozof i matematičar Rođen(a): Trelleck, Wales, 18. V. 1872. Umr(la)o: Penrhyndeudraeth, Wales, 2. II. 1970. RUSSELL, Bertrand Russell [rʌ'səl], Bertrand (Arthur William), britanski"
+        },
+        {
+          "qid": "Q33760",
+          "name": "Bertrand Russell",
+          "dob": "1872-05-18",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Bertrand_Russell",
+          "status": 200,
+          "exact": true,
+          "sha256": "c89907afb88ce37e082d766a5e51a80da2af120010e2b9f2252052ae4609ff5a",
+          "publisherCountry": "NO",
+          "excerpt": "Arthur William Russell. Uttale r ʌ səl Født 18. mai 1872, Trellech, Monmouthshire, England (nå Wales) Død 2. februar 1970, Penrhyndeudraeth, Caernarfonshire, Wales Bertrand Russell,"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q33760",
+        "name": "Bertrand Russell",
+        "dob": "1872-05-18",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1872-05-18T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "douglas-fairbanks",
+      "name": "Douglas Fairbanks",
+      "qid": "Q104127",
+      "dob": "1883-05-23",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q104127",
+          "name": "Douglas Fairbanks",
+          "dob": "1883-05-23",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/fairbanks-douglas",
+          "status": 200,
+          "exact": true,
+          "sha256": "0c9e29b6aa1f0f80e3e3d9be36e13bf4e74866e9d01bdad78b5aa202fc534484",
+          "publisherCountry": "HR",
+          "excerpt": "glumac, filmski redatelj, scenarist i producent Rođen(a): Denver, 23. V. 1883. Umr(la)o: Santa Monica, 12. XII. 1939. FAIRBANKS, Douglas Fairbanks [fẹəɹ'bæŋks], Douglas (pravo ime Douglas"
+        },
+        {
+          "qid": "Q104127",
+          "name": "Douglas Fairbanks",
+          "dob": "1883-05-23",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Douglas_Fairbanks",
+          "status": 200,
+          "exact": true,
+          "sha256": "77b9ecfbdd752d6c79917868b8738fa912604197cd90d06ee97d904a8daabaca",
+          "publisherCountry": "NO",
+          "excerpt": "Elton Thomas Ullman Uttale f ɛ əbæŋks Født 23. mai 1883, Denver, Colorado Død 12. desember 1939, Santa Monica, California Douglas Fairbanks som D’Artagnan i"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q104127",
+        "name": "Douglas Fairbanks",
+        "dob": "1883-05-23",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1883-05-23T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "harry-s-truman",
+      "name": "Harry S. Truman",
+      "qid": "Q11613",
+      "dob": "1884-05-08",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q11613",
+          "name": "Harry S. Truman",
+          "dob": "1884-05-08",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/truman-harry-s",
+          "status": 200,
+          "exact": true,
+          "sha256": "f606b209a88cd06f499dcfb85bf1b56e35f7ecf4b7d989396f3e1566d05ecc37",
+          "publisherCountry": "HR",
+          "excerpt": "politika Truman, Harry S. američki političar Rođen(a): Lamar, 8. V. 1884. Umr(la)o: Kansas City, 26. XII. 1972. TRUMAN, Harry S. Truman [tru:'mən], Harry S., američki"
+        },
+        {
+          "qid": "Q11613",
+          "name": "Harry S. Truman",
+          "dob": "1884-05-08",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Harry_Truman",
+          "status": 200,
+          "exact": true,
+          "sha256": "fa3750f70b89f893d07c7bda1b9b1004240f56517b34657bba33048860779a81",
+          "publisherCountry": "NO",
+          "excerpt": "Harry S. Truman Uttale tr u :mən Født 8. mai 1884, Lamar, Missouri, USA Død 26. desember 1972, Kansas City, Missouri, USA Harry S. Truman"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q11613",
+        "name": "Harry S. Truman",
+        "dob": "1884-05-08",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1884-05-08T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "alfonso-xiii",
+      "name": "Alfonso XIII",
+      "qid": "Q18363",
+      "dob": "1886-05-17",
+      "countryCode": "ES",
+      "sources": [
+        {
+          "qid": "Q18363",
+          "name": "Alfonso XIII",
+          "dob": "1886-05-17",
+          "publisher": "Bibliothèque nationale de France",
+          "url": "https://catalogue.bnf.fr/ark:/12148/cb148212082.public",
+          "status": 200,
+          "exact": true,
+          "sha256": "4279409ea164124cf5f47945f33fb6fcf48b958a253cd3f3236ea6d1f00b5c88",
+          "publisherCountry": "FR",
+          "excerpt": "sur les documents : Auteur, Participant Naissance : 1886-05-17, Madrid (Espagne) Mort : 1941-02-28, Rome (Italie) Fils posthume d'Alphonse XII et de Marie-Christine de Habsbourg,"
+        },
+        {
+          "qid": "Q18363",
+          "name": "Alfonso XIII",
+          "dob": "1886-05-17",
+          "publisher": "Galería de las Colecciones Reales",
+          "url": "https://www.galeriadelascoleccionesreales.es/monarca/alfonso-xiii/6039752d-0ac7-a1a0-6d5a-50e6ce0022dd",
+          "status": 200,
+          "exact": true,
+          "sha256": "03a7419eb05a2cd5818ee5c817bb588406a6833d8b758dcc8b1ee9abef2b0629",
+          "publisherCountry": "ES",
+          "excerpt": "esta página Obras Subir Alfonso XIII Madrid , 17 de mayo de 1886 - Roma (Italia) , 28 de febrero de 1941 Ver en la"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q18363",
+        "name": "Alfonso XIII",
+        "dob": "1886-05-17",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1886-05-17T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          },
+          {
+            "time": "+1886-05-17T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "preferred"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "par-lagerkvist",
+      "name": "Pär Lagerkvist",
+      "qid": "Q93137",
+      "dob": "1891-05-23",
+      "countryCode": "SE",
+      "sources": [
+        {
+          "qid": "Q93137",
+          "name": "Pär Lagerkvist",
+          "dob": "1891-05-23",
+          "publisher": "Nobel Prize Outreach",
+          "url": "https://www.nobelprize.org/laureate/622",
+          "status": 200,
+          "exact": true,
+          "sha256": "392cb4b2b4d7d9cc7814ee01ffdd39a713243212ae142061e3dc5c4297952773",
+          "publisherCountry": "SE",
+          "excerpt": "Fabian Lagerkvist Nobel Prize in Literature 1951 Born: 23 May 1891, Växjö, Sweden Died: 11 July 1974, Stockholm, Sweden Residence at the time of the"
+        },
+        {
+          "qid": "Q93137",
+          "name": "Pär Lagerkvist",
+          "dob": "1891-05-23",
+          "publisher": "Swedish National Archives / Svenskt biografiskt lexikon",
+          "url": "https://sok.riksarkivet.se/sbl/Presentation.aspx?forceOrdinarySite=true&id=10912",
+          "status": 200,
+          "exact": true,
+          "sha256": "6b3f2d19683ae0e1a5468cd3622f550e697bb8e99de16078b7c96d7c42be4620",
+          "publisherCountry": "SE",
+          "excerpt": "| Källor och litteratur Pär F Lagerkvist Född: 1891-05-23 – Växjö stadsförsamling, Kronobergs län Död: 1974-07-11 – Danderyds församling (Lidingö församling, Stockholms län) Författare ,"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q93137",
+        "name": "Pär Lagerkvist",
+        "dob": "1891-05-23",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1891-05-23T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "fred-astaire",
+      "name": "Fred Astaire",
+      "qid": "Q100937",
+      "dob": "1899-05-10",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q100937",
+          "name": "Fred Astaire",
+          "dob": "1899-05-10",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/astaire-fred",
+          "status": 200,
+          "exact": true,
+          "sha256": "d3d1fe644fbf03d79f8020bd2cdfd9a4e4c3c6b860bcf9331207c5f4b74417fe",
+          "publisherCountry": "HR",
+          "excerpt": "Filmski leksikon Astaire, Fred američki glumac Rođen(a): Omaha, 10. V. 1899. Umr(la)o: Los Angeles, 22. VI. 1987. ASTAIRE, Fred i Ginger Rogers Astaire [əste'əɹ], Fred"
+        },
+        {
+          "qid": "Q100937",
+          "name": "Fred Astaire",
+          "dob": "1899-05-10",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Fred_Astaire",
+          "status": 200,
+          "exact": true,
+          "sha256": "8235beae8741c4e90cba5a8844851e703b11ed6d4e3fa6bda60b59fc990040c8",
+          "publisherCountry": "NO",
+          "excerpt": "navn: Frederick Austerlitz Uttale əst ɛ ə Født 10. mai 1899, Omaha, Nebraska Død 22. juni 1987, Los Angeles, California, USA Fred Astaire i Ritz"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q100937",
+        "name": "Fred Astaire",
+        "dob": "1899-05-10",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1899-05-10T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "gary-cooper",
+      "name": "Gary Cooper",
+      "qid": "Q93957",
+      "dob": "1901-05-07",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q93957",
+          "name": "Gary Cooper",
+          "dob": "1901-05-07",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/cooper-gary",
+          "status": 200,
+          "exact": true,
+          "sha256": "95280027c9f6b7536ceac3f1b0522cf645b859d4cc3db0d1061c1886fa88d2e6",
+          "publisherCountry": "HR",
+          "excerpt": "Cooper, Gary američki filmski glumac Rođen(a): Helena, Montana, 7. V. 1901. Umr(la)o: Los Angeles, 13. V. 1961. COOPER, Gary u filmu Točno u podne Cooper"
+        },
+        {
+          "qid": "Q93957",
+          "name": "Gary Cooper",
+          "dob": "1901-05-07",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Gary_Cooper",
+          "status": 200,
+          "exact": true,
+          "sha256": "1d630b8f016dba479fe15b7b7ce7a23f6cdc57a286956ecb75e58ceef89c212c",
+          "publisherCountry": "NO",
+          "excerpt": "Frank James Cooper Uttale k u :pə Født 7. mai 1901, Helena, Montana Død 13. mai 1961, Los Angeles, California, USA Gary Cooper som den"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q93957",
+        "name": "Gary Cooper",
+        "dob": "1901-05-07",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1901-05-07T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "alfred-kastler",
+      "name": "Alfred Kastler",
+      "qid": "Q71023",
+      "dob": "1902-05-03",
+      "countryCode": "FR",
+      "sources": [
+        {
+          "qid": "Q71023",
+          "name": "Alfred Kastler",
+          "dob": "1902-05-03",
+          "publisher": "Nobel Prize Outreach",
+          "url": "https://www.nobelprize.org/prizes/physics/1966/kastler/facts/",
+          "status": 200,
+          "exact": true,
+          "sha256": "292d6eda4223842f9e1b90cf743a3f61e487002f753b9047220810e8de299d69",
+          "publisherCountry": "SE",
+          "excerpt": "Alfred Kastler Nobel Prize in Physics 1966 Born: 3 May 1902, Guebwiller, Germany (now France) Died: 7 January 1984, Bandol, France Affiliation at the time"
+        },
+        {
+          "qid": "Q71023",
+          "name": "Alfred Kastler",
+          "dob": "1902-05-03",
+          "publisher": "Laboratoire Kastler Brossel (ENS-PSL/CNRS)",
+          "url": "https://www.lkb.fr/en/laboratory/presentation/history/alfred-kastler-2/",
+          "status": 200,
+          "exact": true,
+          "sha256": "d5c0eddba37c84ff0cbccd061648a9f6f18d6195c28a39cf0b20990daecf8c4a",
+          "publisherCountry": "FR",
+          "excerpt": "Recognition Early Years Alfred Kastler was born on May 3, 1902, in Guebwiller, Alsace, which was then part of the German Empire. At the start"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q71023",
+        "name": "Alfred Kastler",
+        "dob": "1902-05-03",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1902-05-03T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "bob-hope",
+      "name": "Bob Hope",
+      "qid": "Q94081",
+      "dob": "1903-05-29",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q94081",
+          "name": "Bob Hope",
+          "dob": "1903-05-29",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/hope-bob",
+          "status": 200,
+          "exact": true,
+          "sha256": "d06f96b74cee1c4fa3c9b2aef333c75fef68ca6ea107c327a4ce973ca5a25b10",
+          "publisherCountry": "HR",
+          "excerpt": "Hope, Bob američki glumac engleskog podrijetla Rođen(a): Eltham, 29. V. 1903. Umr(la)o: Toluca Lake, California, 27. VII. 2003. Hope [họup], Bob (pravo ime Leslie Townes"
+        },
+        {
+          "qid": "Q94081",
+          "name": "Bob Hope",
+          "dob": "1903-05-29",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Bob_Hope",
+          "status": 200,
+          "exact": true,
+          "sha256": "0bc81e87389b2600cca82859964f1f1f3f3925b60618a06786d49a533dca43e9",
+          "publisherCountry": "NO",
+          "excerpt": "Bob Hope Leslie Townes Hope Uttale houp Født 29. mai 1903, Eltham, London Død 27. juli 2003, Los Angeles, California, USA Bob Hope fotografert i"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q94081",
+        "name": "Bob Hope",
+        "dob": "1903-05-29",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1903-05-29T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "salvador-dali",
+      "name": "Salvador Dalí",
+      "qid": "Q5577",
+      "dob": "1904-05-11",
+      "countryCode": "ES",
+      "sources": [
+        {
+          "qid": "Q5577",
+          "name": "Salvador Dalí",
+          "dob": "1904-05-11",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Salvador_Dal%C3%AD",
+          "status": 200,
+          "exact": true,
+          "sha256": "b3ff17cc28c5575c2d0c4b86180475666cd731876e95783c8e1f7b380337242a",
+          "publisherCountry": "NO",
+          "excerpt": "Jacinto Dalí i Domènech Uttale dal í Født 11. mai 1904, Figueres, Catalonia, Spania Død 23. januar 1989, Figueres, Catalonia, Spania Den hellige Antonius’ fristelse"
+        },
+        {
+          "qid": "Q5577",
+          "name": "Salvador Dalí",
+          "dob": "1904-05-11",
+          "publisher": "The Dalí Museum",
+          "url": "https://thedali.org/dalis-birthday/",
+          "status": 200,
+          "exact": true,
+          "sha256": "ee057421c3db33466b90be79fff22431f9b46ba77772e2bc787d3d3607af8837",
+          "publisherCountry": "US",
+          "excerpt": "Celebrating Dalí’s Birthday Celebrating Dalí’s Birthday Born on May 11, 1904, in Figueres, Spain, Salvador Dalí redefined what art could be. With extraordinary technical skill"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q5577",
+        "name": "Salvador Dalí",
+        "dob": "1904-05-11",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1904-05-11T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "henry-fonda",
+      "name": "Henry Fonda",
+      "qid": "Q19155",
+      "dob": "1905-05-16",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q19155",
+          "name": "Henry Fonda",
+          "dob": "1905-05-16",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/fonda-henry",
+          "status": 200,
+          "exact": true,
+          "sha256": "15b7db7e323a069899734753e16c26955da4cb8a233180877d832ffde542e021",
+          "publisherCountry": "HR",
+          "excerpt": "kazališni i televizijski glumac Rođen(a): Grand Island, Nebraska, 16. V. 1905. Umr(la)o: Los Angeles, 12. VIII. 1982. FONDA, Henry FONDA, Henry Fonda [fɔ:'ndə], Henry, američki"
+        },
+        {
+          "qid": "Q19155",
+          "name": "Henry Fonda",
+          "dob": "1905-05-16",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Henry_Fonda",
+          "status": 200,
+          "exact": true,
+          "sha256": "783f82b30b09fb59c19166e9c69caba9836f75e78fb0b551f1eb55ae09fdc931",
+          "publisherCountry": "NO",
+          "excerpt": "Henry Jaynes Fonda Uttale f å ndə Født 16. mai 1905, Grand Island, Nebraska Død 12. august 1982, Los Angeles, California, USA Henry Fonda som"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q19155",
+        "name": "Henry Fonda",
+        "dob": "1905-05-16",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1905-05-16T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "katharine-hepburn",
+      "name": "Katharine Hepburn",
+      "qid": "Q56016",
+      "dob": "1907-05-12",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q56016",
+          "name": "Katharine Hepburn",
+          "dob": "1907-05-12",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/hepburn-katharine",
+          "status": 200,
+          "exact": true,
+          "sha256": "33bafc1ef2e16cd79e67c1138949f348ae37cb014d03b1a6534d205d789e0732",
+          "publisherCountry": "HR",
+          "excerpt": "Katharine američka filmska i kazališna glumica Rođen(a): Hartford, 12. V. 1907. Umr(la)o: Fenwick, Connecticut, 29. VI. 2003. HEPBURN, Katharine Hepburn [he'pbə:ɹn], Katharine, američka filmska i"
+        },
+        {
+          "qid": "Q56016",
+          "name": "Katharine Hepburn",
+          "dob": "1907-05-12",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Katharine_Hepburn",
+          "status": 200,
+          "exact": true,
+          "sha256": "57998070443c892ca5ee218c475ca15ccb9f48d913ece6a91f4eae6a5b0ee1d3",
+          "publisherCountry": "NO",
+          "excerpt": "Katharine Houghton Hepburn Uttale h e bə:n Født 12. mai 1907, Hartford, Connecticut Død 29. juni 2003, Fenwick, Connecticut Studioportrett av Katharine Hepburn, 1941. Av"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q56016",
+        "name": "Katharine Hepburn",
+        "dob": "1907-05-12",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1907-05-12T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "laurence-olivier",
+      "name": "Laurence Olivier",
+      "qid": "Q55245",
+      "dob": "1907-05-22",
+      "countryCode": "GB",
+      "sources": [
+        {
+          "qid": "Q55245",
+          "name": "Laurence Olivier",
+          "dob": "1907-05-22",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Laurence_Olivier",
+          "status": 200,
+          "exact": true,
+          "sha256": "e0a9b0f8477aac53d860b165b2cbb623757e0fd9b2f79a59a98e56612b41c38d",
+          "publisherCountry": "NO",
+          "excerpt": "Olivier of Brighton Uttale ål i viə Født 22. mai 1907, Surrey, England Død 11. juli 1989, London Bilde fra Laurence Oliviers versjon av Hamlet"
+        },
+        {
+          "qid": "Q55245",
+          "name": "Laurence Olivier",
+          "dob": "1907-05-22",
+          "publisher": "Biography.com",
+          "url": "https://www.biography.com/actors/laurence-olivier",
+          "status": 200,
+          "exact": true,
+          "sha256": "2d8a418d247d697a2aac6c5e290b3d5e99d47fa92505e8fa0f726b7a25718f06",
+          "publisherCountry": "US",
+          "excerpt": "was born in Dorking, in Southern England, on May 22, 1907, to a strict religious family. Both his father and grandfather held prominent positions in"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q55245",
+        "name": "Laurence Olivier",
+        "dob": "1907-05-22",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1907-05-22T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "john-wayne",
+      "name": "John Wayne",
+      "qid": "Q40531",
+      "dob": "1907-05-26",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q40531",
+          "name": "John Wayne",
+          "dob": "1907-05-26",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/wayne-john",
+          "status": 200,
+          "exact": true,
+          "sha256": "8641e98e9fd980a93be64df0ec730bb158c85cc8eeab2092ae199f7ce7058614",
+          "publisherCountry": "HR",
+          "excerpt": "leksikon Wayne, John američki filmski glumac Rođen(a): Winterset, 26. V. 1907. Umr(la)o: Los Angeles, 11. VI. 1979. WAYNE, John WAYNE, John Wayne [wẹin], John (pravo"
+        },
+        {
+          "qid": "Q40531",
+          "name": "John Wayne",
+          "dob": "1907-05-26",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/John_Wayne",
+          "status": 200,
+          "exact": true,
+          "sha256": "470de2c00a3d1502a1f510ebd79f2747e8dbfd10c9d4e368e5804fc1eb703740",
+          "publisherCountry": "NO",
+          "excerpt": "John Wayne Marion Robert Morrison Uttale wein Født 26. mai 1907, Winterset, Iowa Død 11. juni 1979, Los Angeles, California, USA John Wayne, fotografert i"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q40531",
+        "name": "John Wayne",
+        "dob": "1907-05-26",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1907-05-26T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "james-stewart",
+      "name": "James Stewart",
+      "qid": "Q102462",
+      "dob": "1908-05-20",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q102462",
+          "name": "James Stewart",
+          "dob": "1908-05-20",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/stewart-james",
+          "status": 200,
+          "exact": true,
+          "sha256": "01ad87b81983615932340dbd45d75eb9c94b43aa00b39b78b40b0d3a4412db85",
+          "publisherCountry": "HR",
+          "excerpt": "leksikon Stewart, James američki filmski glumac Rođen(a): Indiana, 20. V. 1908. Umr(la)o: Los Angeles, 2. VII. 1997. Stewart [stu:'əɹt], James, američki filmski glumac ( Indiana"
+        },
+        {
+          "qid": "Q102462",
+          "name": "James Stewart",
+          "dob": "1908-05-20",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/James_Stewart",
+          "status": 200,
+          "exact": true,
+          "sha256": "831354cd784904f2622c8dfb7b18be990c4089e0a3bdc952e788c6de718249c3",
+          "publisherCountry": "NO",
+          "excerpt": "Stewart Jimmy Stewart Uttale stj u ət Født 20. mai 1908, Indiana, Pennsylvania Død 2. juli 1997, Beverly Hills, California, USA James Stewart, sammen med"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q102462",
+        "name": "James Stewart",
+        "dob": "1908-05-20",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1908-05-20T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "john-bardeen",
+      "name": "John Bardeen",
+      "qid": "Q949",
+      "dob": "1908-05-23",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q949",
+          "name": "John Bardeen",
+          "dob": "1908-05-23",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/bardeen-john",
+          "status": 200,
+          "exact": true,
+          "sha256": "c38828cfb78816124193ced9defa6c4e290635f47307cff545c5114d00263174",
+          "publisherCountry": "HR",
+          "excerpt": "struka(e): fizika Bardeen, John američki fizičar Rođen(a): Madison, 23. V. 1908. Umr(la)o: Boston, 30. I. 1991. Bardeen [bα:ɹdi:'n], John, američki fizičar ( Madison , 23."
+        },
+        {
+          "qid": "Q949",
+          "name": "John Bardeen",
+          "dob": "1908-05-23",
+          "publisher": "Nobel Prize Outreach",
+          "url": "https://www.nobelprize.org/prizes/physics/1956/bardeen/biographical/",
+          "status": 200,
+          "exact": true,
+          "sha256": "7cde47aace53098f9f6765d6420a0ca8b7ed849469218be6c9583c8191bf3500",
+          "publisherCountry": "SE",
+          "excerpt": "ohn Bardeen was born in Madison, Wisconsin, on May 23, 1908, son of Dr. Charles R. Bardeen, and Althea Harmer. Dr. Bardeen was Professor of"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q949",
+        "name": "John Bardeen",
+        "dob": "1908-05-23",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1908-05-23T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "ian-fleming",
+      "name": "Ian Fleming",
+      "qid": "Q82104",
+      "dob": "1908-05-28",
+      "countryCode": "GB",
+      "sources": [
+        {
+          "qid": "Q82104",
+          "name": "Ian Fleming",
+          "dob": "1908-05-28",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/fleming-ian",
+          "status": 200,
+          "exact": true,
+          "sha256": "c68170cb19f3efac9cc8958a70d588f59c6e67c219897cfc82d42c089d7676ce",
+          "publisherCountry": "HR",
+          "excerpt": "Fleming, Ian engleski pisac detektivskih romana Rođen(a): London, 28. V. 1908. Umr(la)o: Canterbury, 12. VIII. 1964. Fleming [fle'miŋ], Ian, engleski pisac detektivskih romana ( London"
+        },
+        {
+          "qid": "Q82104",
+          "name": "Ian Fleming",
+          "dob": "1908-05-28",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Ian_Fleming",
+          "status": 200,
+          "exact": true,
+          "sha256": "768bb1f5ed096581f37548930aee9e7b97811ccac530e1a7750383628ecaad73",
+          "publisherCountry": "NO",
+          "excerpt": "Ian Lancaster Fleming Uttale fl e ming Født 28. mai 1908, London, Storbritannia Død 12. august 1964, Canterbury, Storbritannia Ian Fleming Av Anthony Smith ."
+        }
+      ],
+      "wikidata": {
+        "qid": "Q82104",
+        "name": "Ian Fleming",
+        "dob": "1908-05-28",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1908-05-28T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "benny-goodman",
+      "name": "Benny Goodman",
+      "qid": "Q46755",
+      "dob": "1909-05-30",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q46755",
+          "name": "Benny Goodman",
+          "dob": "1909-05-30",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/goodman-benny",
+          "status": 200,
+          "exact": true,
+          "sha256": "9584fcec79b0b1abd482a8c657a1eac4551c75e40a364a5e5964e60778e0c36c",
+          "publisherCountry": "HR",
+          "excerpt": "klarinetist, skladatelj i vođa jazz -sastava Rođen(a): Chicago, 30. V. 1909. Umr(la)o: New York, 13. VI. 1986. GOODMAN, Benny Goodman [gu'dmən], Benny (pravo ime Benjamin"
+        },
+        {
+          "qid": "Q46755",
+          "name": "Benny Goodman",
+          "dob": "1909-05-30",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Benny_Goodman",
+          "status": 200,
+          "exact": true,
+          "sha256": "99302eb2f744934b6cedbfa59e73c511b3c7b440e2dee9105cd8ac708c4097db",
+          "publisherCountry": "NO",
+          "excerpt": "Benny David Goodman Uttale g u dmən Født 30. mai 1909 Død 13. mai 1986 Benny Goodman fikk tilnavnet «The King of Swing» og markerte"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q46755",
+        "name": "Benny Goodman",
+        "dob": "1909-05-30",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1909-05-30T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "dorothy-hodgkin",
+      "name": "Dorothy Hodgkin",
+      "qid": "Q7487",
+      "dob": "1910-05-12",
+      "countryCode": "GB",
+      "sources": [
+        {
+          "qid": "Q7487",
+          "name": "Dorothy Hodgkin",
+          "dob": "1910-05-12",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Dorothy_Crowfoot_Hodgkin",
+          "status": 200,
+          "exact": true,
+          "sha256": "20c2669ec5ec0127c2ad9f6b615f420c6e16a4cce88bc272a7af6d75a2f1a350",
+          "publisherCountry": "NO",
+          "excerpt": "Dorothy Crowfoot Hodgkin Dorothy Mary Crowfoot Hodgkin Født 12. mai 1910, Kairo, Egypt Død 29. juli 1994, Ilmington i Warwickshire, England Dorothy Hodgkin fotografert på"
+        },
+        {
+          "qid": "Q7487",
+          "name": "Dorothy Hodgkin",
+          "dob": "1910-05-12",
+          "publisher": "Nobel Prize Outreach",
+          "url": "https://www.nobelprize.org/laureate/230",
+          "status": 200,
+          "exact": true,
+          "sha256": "18767418004b33adeef7bac3d5da8b09c6533cbc78fcae342e7ed797ef1b5679",
+          "publisherCountry": "SE",
+          "excerpt": "Crowfoot Hodgkin Nobel Prize in Chemistry 1964 Born: 12 May 1910, Cairo, Egypt Died: 29 July 1994, Shipston-on-Stour, United Kingdom Affiliation at the time of"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q7487",
+        "name": "Dorothy Hodgkin",
+        "dob": "1910-05-12",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1910-05-12T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "patrick-white",
+      "name": "Patrick White",
+      "qid": "Q129187",
+      "dob": "1912-05-28",
+      "countryCode": "AU",
+      "sources": [
+        {
+          "qid": "Q129187",
+          "name": "Patrick White",
+          "dob": "1912-05-28",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/white-patrick",
+          "status": 200,
+          "exact": true,
+          "sha256": "8d7b55664c09922c07bb4ddf13671b69f794a5692addacf9dcdaba1624aed280",
+          "publisherCountry": "HR",
+          "excerpt": "anglofonske književnosti White, Patrick australski književnik Rođen(a): London, 28. V. 1912. Umr(la)o: Sydney, 30. IX. 1990. WHITE, Patrick White [ʍạit], Patrick, australski književnik ( London"
+        },
+        {
+          "qid": "Q129187",
+          "name": "Patrick White",
+          "dob": "1912-05-28",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Patrick_White",
+          "status": 200,
+          "exact": true,
+          "sha256": "94a2c37f1f3eb81f7c47b9bc3d2af1252a29fdfc11c684f30d67a32182e79dc0",
+          "publisherCountry": "NO",
+          "excerpt": "White Patrick Victor Martindale White Uttale wait Født 28. mai 1912, London, Storbritannia Død 30. september 1990, Sydney, Australia Bilde fra 1940 tallet. Patrick White"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q129187",
+        "name": "Patrick White",
+        "dob": "1912-05-28",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1912-05-28T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "orson-welles",
+      "name": "Orson Welles",
+      "qid": "Q24829",
+      "dob": "1915-05-06",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q24829",
+          "name": "Orson Welles",
+          "dob": "1915-05-06",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/welles-orson",
+          "status": 200,
+          "exact": true,
+          "sha256": "ed827b88f6fa7b98f37f3dbb04277704943175e260c8069ce3d1cc26974ddc63",
+          "publisherCountry": "HR",
+          "excerpt": "Welles, Orson američki redatelj i glumac Rođen(a): Kenosha, 6. V. 1915. Umr(la)o: Hollywood, 10. X. 1985. WELLES, Orson Welles [welz], Orson, američki redatelj i glumac"
+        },
+        {
+          "qid": "Q24829",
+          "name": "Orson Welles",
+          "dob": "1915-05-06",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Orson_Welles",
+          "status": 200,
+          "exact": true,
+          "sha256": "3706db425bb5fb6c9effc65de084fa55f583ffe4f141327b58bbf6de8b56db07",
+          "publisherCountry": "NO",
+          "excerpt": "Orson Welles George Orson Welles Uttale welz Født 6. mai 1915, Kenosha Død 10. oktober 1985, Los Angeles Orson Welles. Portrett 1950. Orson Welles Av"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q24829",
+        "name": "Orson Welles",
+        "dob": "1915-05-06",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1915-05-06T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "john-f-kennedy",
+      "name": "John F. Kennedy",
+      "qid": "Q9696",
+      "dob": "1917-05-29",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q9696",
+          "name": "John F. Kennedy",
+          "dob": "1917-05-29",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/John_F._Kennedy",
+          "status": 200,
+          "exact": true,
+          "sha256": "7e67038eaa84be8a36cdc71b008158610f7d0d3c302091ccbd275945e62febe0",
+          "publisherCountry": "NO",
+          "excerpt": "Fitzgerald Kennedy, JFK Uttale k e nnedy Født 29. mai 1917, Brookline, Massachusetts Død 22. november 1963, Dallas, Texas, USA John F. Kennedy Kennedy, John"
+        },
+        {
+          "qid": "Q9696",
+          "name": "John F. Kennedy",
+          "dob": "1917-05-29",
+          "publisher": "U.S. National Archives",
+          "url": "https://www.archives.gov/presidential-libraries/events/centennials/jfk100/bio",
+          "status": 200,
+          "exact": true,
+          "sha256": "cc1bbc14cc154e266197787ee5d6a7722f105f066769401b24b0f47ff7f15ae0",
+          "publisherCountry": "US",
+          "excerpt": "JFK Biography John Fitzgerald Kennedy was born on May 29, 1917, in Brookline, Massachusetts, a few miles outside of Boston. His parents were Joseph Kennedy,"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q9696",
+        "name": "John F. Kennedy",
+        "dob": "1917-05-29",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1917-05-29T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "john-paul-ii",
+      "name": "John Paul II",
+      "qid": "Q989",
+      "dob": "1920-05-18",
+      "countryCode": "PL",
+      "sources": [
+        {
+          "qid": "Q989",
+          "name": "John Paul II",
+          "dob": "1920-05-18",
+          "publisher": "Holy See",
+          "url": "https://www.vatican.va/content/john-paul-ii/en/biografia/documents/hf_jp-ii_spe_20190722_biografia.html",
+          "status": 200,
+          "exact": true,
+          "sha256": "0b34747c088d446fe86715d810d3421ce6fc7809fe368e4f0c81b4d5eda9af4c",
+          "publisherCountry": "VA",
+          "excerpt": "October 1978, was born in Wadowice, Poland, on 18 May 1920. He was the third of three children born to Karol Wojtyła and Emilia Kaczorowska,"
+        },
+        {
+          "qid": "Q989",
+          "name": "John Paul II",
+          "dob": "1920-05-18",
+          "publisher": "Biography.com",
+          "url": "https://www.biography.com/religious-figures/john-paul-ii",
+          "status": 200,
+          "exact": true,
+          "sha256": "629beea8b2f359e9f5c92e75f7efadf8656e1b56b7379c549d0a56cdd14b67c2",
+          "publisherCountry": "US",
+          "excerpt": "year. Early Life Born Karol Józef Wojtyla on May 18, 1920, in Wadowice, Poland, Pope John Paul II's early life was marked by great loss."
+        }
+      ],
+      "wikidata": {
+        "qid": "Q989",
+        "name": "John Paul II",
+        "dob": "1920-05-18",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1920-05-18T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "satyajit-ray",
+      "name": "Satyajit Ray",
+      "qid": "Q8873",
+      "dob": "1921-05-02",
+      "countryCode": "IN",
+      "sources": [
+        {
+          "qid": "Q8873",
+          "name": "Satyajit Ray",
+          "dob": "1921-05-02",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/ray-satyajit",
+          "status": 200,
+          "exact": true,
+          "sha256": "fa140031a9be7b699ef4abf6ce0fe5c966cb9044c8cb6ae7653d8df5d57efbb2",
+          "publisherCountry": "HR",
+          "excerpt": "indijski filmski redatelj, scenarist i skladatelj Rođen(a): Calcutta, 2. V. 1921. Umr(la)o: Calcutta, 23. IV. 1992. RAY, Satyajat, prizor iz filma Apuov svijet Ray (engl."
+        },
+        {
+          "qid": "Q8873",
+          "name": "Satyajit Ray",
+          "dob": "1921-05-02",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Satyajit_Ray",
+          "status": 200,
+          "exact": true,
+          "sha256": "c5dd0419b308e06df6ed452b0b4a6a7eaac3d1a4e88b04f7a5e5b5c5bcd243b4",
+          "publisherCountry": "NO",
+          "excerpt": "av Trond Olav Svendsen Faktaboks Satyajit Ray Født 2. mai 1921, Calcutta Død 23. april 1992, Calcutta Satyajit Ray, 1981 Av Ukjent . Lisens: CC"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q8873",
+        "name": "Satyajit Ray",
+        "dob": "1921-05-02",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1921-05-02T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "sophie-scholl",
+      "name": "Sophie Scholl",
+      "qid": "Q76972",
+      "dob": "1921-05-09",
+      "countryCode": "DE",
+      "sources": [
+        {
+          "qid": "Q76972",
+          "name": "Sophie Scholl",
+          "dob": "1921-05-09",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Sophie_Scholl",
+          "status": 200,
+          "exact": true,
+          "sha256": "b89226de995af60dcce98f83cceccd6543b178540e8666a1ed626a617752c325",
+          "publisherCountry": "NO",
+          "excerpt": "av Astrid Sverresdotter Dypvik Faktaboks Sophie Scholl Født 9. mai 1921, Forchtenberg Død 22. februar 1943, München Minnesmerke over Sophie og Hans Scholl og gruppen"
+        },
+        {
+          "qid": "Q76972",
+          "name": "Sophie Scholl",
+          "dob": "1921-05-09",
+          "publisher": "German National Academy of Sciences / Deutsche Biographie",
+          "url": "https://www.deutsche-biographie.de/sfz107734.html?language=en",
+          "status": 200,
+          "exact": true,
+          "sha256": "011479651793df45fab02d13ccdb5e995cee70e0ba596e033ce695b6f59b2a60",
+          "publisherCountry": "DE",
+          "excerpt": "Sofia, Sophia) Magdalena Angehörige des deutschen Widerstandes, * 9.5.1921 Forchtenberg bei Öhringen, † (hingerichtet) 22.2.1943 München-Stadelheim, ⚰ München, Friedhof am Perlacher Forst. (evangelisch) Genealogy Schw"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q76972",
+        "name": "Sophie Scholl",
+        "dob": "1921-05-09",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1921-05-09T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "andrei-sakharov",
+      "name": "Andrei Sakharov",
+      "qid": "Q997",
+      "dob": "1921-05-21",
+      "countryCode": "RU",
+      "sources": [
+        {
+          "qid": "Q997",
+          "name": "Andrei Sakharov",
+          "dob": "1921-05-21",
+          "publisher": "Nobel Prize Outreach",
+          "url": "https://www.nobelprize.org/laureate/534",
+          "status": 200,
+          "exact": true,
+          "sha256": "6119f9a6ac1c5c9e923fee185e32946c9ff290ddf7c1d778408ad1c2541a717c",
+          "publisherCountry": "SE",
+          "excerpt": "Andrei Dmitrievich Sakharov Nobel Peace Prize 1975 Born: 21 May 1921, Moscow, Russia Died: 14 December 1989, Moscow, USSR (now Russia) Residence at the time"
+        },
+        {
+          "qid": "Q997",
+          "name": "Andrei Sakharov",
+          "dob": "1921-05-21",
+          "publisher": "Andrei Sakharov Science Endowment Fund",
+          "url": "https://sakharov.fund/en/andrei-sakharov/bio/",
+          "status": 200,
+          "exact": true,
+          "sha256": "5b2f96fcee0069a0036a0deb0672b1f1d2737f354acaa18b3f0e449dcf12834e",
+          "publisherCountry": "US",
+          "excerpt": "BIOGRAPHY Andrei Sakharov was born in Moscow on May 21, 1921. His life-long love of science was ignited by his father, Dmitry Sakharov, a professor"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q997",
+        "name": "Andrei Sakharov",
+        "dob": "1921-05-21",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1921-05-21T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "christopher-lee",
+      "name": "Christopher Lee",
+      "qid": "Q180338",
+      "dob": "1922-05-27",
+      "countryCode": "GB",
+      "sources": [
+        {
+          "qid": "Q180338",
+          "name": "Christopher Lee",
+          "dob": "1922-05-27",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/lee-christopher",
+          "status": 200,
+          "exact": true,
+          "sha256": "9a421c5f9fdb271522db7900852e4c379ac53e01f742f2ae43cadaf89b45858f",
+          "publisherCountry": "HR",
+          "excerpt": "Christopher britanski filmski i televizijski glumac Rođen(a): London, 27. V. 1922. Umr(la)o: London, 7. VI. 2015. LEE, Christopher Lee [li:], Christopher (Frank Cavandini), britanski filmski"
+        },
+        {
+          "qid": "Q180338",
+          "name": "Christopher Lee",
+          "dob": "1922-05-27",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Christopher_Lee",
+          "status": 200,
+          "exact": true,
+          "sha256": "ebfc728845d1d59c05f88459d38126fbb0f485097d57481dcf42e115900868e5",
+          "publisherCountry": "NO",
+          "excerpt": "Lee Christopher Frank Carandini Lee Uttale li: Født 27. mai 1922, London Død 7. juni 2015, London Christopher Lee på utdelingen av Women World Awards"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q180338",
+        "name": "Christopher Lee",
+        "dob": "1922-05-27",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1922-05-27T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "henry-kissinger",
+      "name": "Henry Kissinger",
+      "qid": "Q66107",
+      "dob": "1923-05-27",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q66107",
+          "name": "Henry Kissinger",
+          "dob": "1923-05-27",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Henry_Kissinger",
+          "status": 200,
+          "exact": true,
+          "sha256": "0666cf9037069ae2efbc5761b38d4bd5646332a7907d02600eed7ab49f272fb2",
+          "publisherCountry": "NO",
+          "excerpt": "Heinz Alfred Kissinger) Uttale k i ssinger Født 27. mai 1923, Fürth, Tyskland Død 29. november 2023, Connecticut, USA Henry Kissinger var USAs utenriksminister fra"
+        },
+        {
+          "qid": "Q66107",
+          "name": "Henry Kissinger",
+          "dob": "1923-05-27",
+          "publisher": "Nobel Prize Outreach",
+          "url": "https://www.nobelprize.org/prizes/peace/1973/kissinger/biographical/",
+          "status": 200,
+          "exact": true,
+          "sha256": "7d95ed7df7413668e12a5002ef8ee13551787659a30a05a9f7e00fc6ff995286",
+          "publisherCountry": "SE",
+          "excerpt": "Dr. Kissinger was born in Fuerth, Germany, on May 27, 1923, came to the United States in 1938, and was naturalised a United States citizen"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q66107",
+        "name": "Henry Kissinger",
+        "dob": "1923-05-27",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1923-05-27T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "malcolm-x",
+      "name": "Malcolm X",
+      "qid": "Q43303",
+      "dob": "1925-05-19",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q43303",
+          "name": "Malcolm X",
+          "dob": "1925-05-19",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/malcolm-x",
+          "status": 200,
+          "exact": true,
+          "sha256": "518331f03bffcb902f0551bd89d79155d2dd9e44c8858832f79f5e107451ce65",
+          "publisherCountry": "HR",
+          "excerpt": "Malcolm X američki političar i aktivist Rođen(a): Omaha, 19. V. 1925. Umr(la)o: New York, 21. II. 1965. Malcolm X [mæ'lkəm eks] (pravo ime Malcolm Little,"
+        },
+        {
+          "qid": "Q43303",
+          "name": "Malcolm X",
+          "dob": "1925-05-19",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Malcolm_X",
+          "status": 200,
+          "exact": true,
+          "sha256": "9be185e4d8aff89b221e33ed0a626f63f5c2bcb771cb30396f271621a5fa6b6f",
+          "publisherCountry": "NO",
+          "excerpt": "Malik El-Shabazz Uttale m æ lkəm eks Født 19. mai 1925, Omaha, Nebraska, USA Død 21. februar 1965, Manhattan, New York, USA Malcolm X i"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q43303",
+        "name": "Malcolm X",
+        "dob": "1925-05-19",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1925-05-19T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "david-attenborough",
+      "name": "David Attenborough",
+      "qid": "Q183337",
+      "dob": "1926-05-08",
+      "countryCode": "GB",
+      "sources": [
+        {
+          "qid": "Q183337",
+          "name": "David Attenborough",
+          "dob": "1926-05-08",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/attenborough-david",
+          "status": 200,
+          "exact": true,
+          "sha256": "d51e4bc4d2fea6c7eeb8956e8b6dffe5e66b4f8908fca29666adbf853bd840d5",
+          "publisherCountry": "HR",
+          "excerpt": "britanski prirodoslovac, televizijski autor i pisac Rođen(a): London, 8. V. 1926. Attenborough [æ'tənbərə], David (puno ime David Frederick Attenborough ), britanski prirodoslovac, televizijski autor i"
+        },
+        {
+          "qid": "Q183337",
+          "name": "David Attenborough",
+          "dob": "1926-05-08",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/David_Attenborough",
+          "status": 200,
+          "exact": true,
+          "sha256": "d2d6f94521c052eb0a45ef0dd444ba8e28c5c92ba69cfaa58775b3b9d059dcb4",
+          "publisherCountry": "NO",
+          "excerpt": "Attenborough Sir David Attenborough Uttale æ tənbərə Født 8. mai 1926, Isleworth, Middlesex, England David Attenborough er en britisk TV-personlighet, naturhistoriker og forfatter , best"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q183337",
+        "name": "David Attenborough",
+        "dob": "1926-05-08",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1926-05-08T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "agnes-varda",
+      "name": "Agnès Varda",
+      "qid": "Q229990",
+      "dob": "1928-05-30",
+      "countryCode": "FR",
+      "sources": [
+        {
+          "qid": "Q229990",
+          "name": "Agnès Varda",
+          "dob": "1928-05-30",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/varda-agnes",
+          "status": 200,
+          "exact": true,
+          "sha256": "57aa9c70496331c22d49a9329d86ba7cb64fc74d49b712753fdb3bd499d5b098",
+          "publisherCountry": "HR",
+          "excerpt": "redateljica i scenaristica Rođen(a): Ixelles kraj Bruxellesa , 30. V. 1928. Umr(la)o: Pariz, 29. III. 2019. VARDA, Agnès, prizor iz filma Bez krova i zakona"
+        },
+        {
+          "qid": "Q229990",
+          "name": "Agnès Varda",
+          "dob": "1928-05-30",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Agn%C3%A8s_Varda",
+          "status": 200,
+          "exact": true,
+          "sha256": "0b4889ea8264f225e8a4f6a7b2bfabdaaaca1efcb0875830b1e218d510ea9a49",
+          "publisherCountry": "NO",
+          "excerpt": "Agnès Varda Arlette Varda Uttale vard a Født 30. mai 1928, Ixelles, Belgia Død 29. mars 2019, Paris Agnès Varda, 13. februar 2019 Av Martin"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q229990",
+        "name": "Agnès Varda",
+        "dob": "1928-05-30",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1928-05-30T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "audrey-hepburn",
+      "name": "Audrey Hepburn",
+      "qid": "Q42786",
+      "dob": "1929-05-04",
+      "countryCode": "GB",
+      "sources": [
+        {
+          "qid": "Q42786",
+          "name": "Audrey Hepburn",
+          "dob": "1929-05-04",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/hepburn-audrey",
+          "status": 200,
+          "exact": true,
+          "sha256": "aa7a1785798e2d785c1d18ff594098f2de3f668fb67320005db792ed79394169",
+          "publisherCountry": "HR",
+          "excerpt": "Audrey američka filmska glumica nizozemsko-irskoga podrijetla Rođen(a): Bruxelles, 4. V. 1929. Umr(la)o: Tolochenaz-sur-Morges, Švicarska, 20. I. 1993. HEPBURN, Audrey Hepburn [he'pbə:ɹn], Audrey, američka filmska glumica"
+        },
+        {
+          "qid": "Q42786",
+          "name": "Audrey Hepburn",
+          "dob": "1929-05-04",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Audrey_Hepburn",
+          "status": 200,
+          "exact": true,
+          "sha256": "36d6eb5a14fe87dbb4c88a67749dc1d582a33f1f74059972a4f89a4f521081cb",
+          "publisherCountry": "NO",
+          "excerpt": "Audrey Kathleen Ruston Uttale h e bə:n Født 4. mai 1929, Ixelles, Belgia Død 20. januar 1993, Tolochenaz, Vaud, Sveits Audrey Hepburn sammen med Rex"
+        },
+        {
+          "qid": "Q42786",
+          "name": "Audrey Hepburn",
+          "dob": "1929-05-04",
+          "publisher": "English Heritage",
+          "url": "https://www.english-heritage.org.uk/visit/blue-plaques/audrey-hepburn/",
+          "status": 200,
+          "exact": true,
+          "sha256": "f8750c83cf7c61afb3b7888369e2db2dbab7b70f3d199910b1556ec68a4a3551",
+          "publisherCountry": "GB",
+          "excerpt": "Audrey Kathleen Hepburn-Ruston was born in Brussels on 4 May 1929. Her father was a businessman and her mother, Baroness Ella van Heemstra, was from"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q42786",
+        "name": "Audrey Hepburn",
+        "dob": "1929-05-04",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1929-05-04T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "peter-higgs",
+      "name": "Peter Higgs",
+      "qid": "Q192112",
+      "dob": "1929-05-29",
+      "countryCode": "GB",
+      "sources": [
+        {
+          "qid": "Q192112",
+          "name": "Peter Higgs",
+          "dob": "1929-05-29",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/higgs-peter",
+          "status": 200,
+          "exact": true,
+          "sha256": "f4fdf93d0938aaf8ebeb8abc35a2068ede684ecb64791f560ede87fe32edd376",
+          "publisherCountry": "HR",
+          "excerpt": "Peter britanski teorijski fizičar Rođen(a): Newcastle upon Tyne, 29. V. 1929. Umr(la)o: Edinburgh, 8. IV. 2024. HIGGS, Peter kraj LHC sudarivača Higgs [higz], Peter, britanski"
+        },
+        {
+          "qid": "Q192112",
+          "name": "Peter Higgs",
+          "dob": "1929-05-29",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Peter_Higgs",
+          "status": 200,
+          "exact": true,
+          "sha256": "02847042a0b185e27d8f47f4b32934437f1b5e97223d81dab6c1b165d01ea246",
+          "publisherCountry": "NO",
+          "excerpt": "fysikk Øyvind Grøn OsloMet Faktaboks Peter Higgs Født 29. mai 1929, Newcastle upon Tyne, England Død 8. april 2024, Edinburgh, Skottland Peter Higgs Av Bengt"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q192112",
+        "name": "Peter Higgs",
+        "dob": "1929-05-29",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1929-05-29T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "clint-eastwood",
+      "name": "Clint Eastwood",
+      "qid": "Q43203",
+      "dob": "1930-05-31",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q43203",
+          "name": "Clint Eastwood",
+          "dob": "1930-05-31",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/eastwood-clint",
+          "status": 200,
+          "exact": true,
+          "sha256": "09469bbf6d3a7895483e18611be059e467aa144edaf93c6b8413e816155b7170",
+          "publisherCountry": "HR",
+          "excerpt": "filmski redatelj, glumac i producent Rođen(a): San Francisco, 31. V. 1930. EASTWOOD, Clint EASTWOOD, Clint Eastwood [i:'stwud], Clint (pravo ime Clinton Eastwood Jr. ), američki"
+        },
+        {
+          "qid": "Q43203",
+          "name": "Clint Eastwood",
+          "dob": "1930-05-31",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Clint_Eastwood",
+          "status": 200,
+          "exact": true,
+          "sha256": "962615a3f65d6cff77ed85dedb5bc0322b8ad0d0e592abe0a03747947a08d560",
+          "publisherCountry": "NO",
+          "excerpt": "Eastwood Clinton Eastwood jr. Uttale i :stwud Født 31. mai 1930, San Francisco Clint Eastwood og Anjelica Huston i Eastwoods kriminalfilm Blood Work (2002). Warner"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q43203",
+        "name": "Clint Eastwood",
+        "dob": "1930-05-31",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1930-05-31T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "james-brown",
+      "name": "James Brown",
+      "qid": "Q5950",
+      "dob": "1933-05-03",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q5950",
+          "name": "James Brown",
+          "dob": "1933-05-03",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/brown-james",
+          "status": 200,
+          "exact": true,
+          "sha256": "6ec04bad986234991782b49807c0d6ad9ba7c3b067d60ddba21a781a8423f217",
+          "publisherCountry": "HR",
+          "excerpt": "pjevač, skladatelj i producent Rođen(a): Barnwell, Južna Carolina, 3. V. 1933. Umr(la)o: Atlanta, Georgia, 25. XII. 2006. Brown [brạun], James, američki pjevač, skladatelj i producent"
+        },
+        {
+          "qid": "Q5950",
+          "name": "James Brown",
+          "dob": "1933-05-03",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/James_Brown",
+          "status": 200,
+          "exact": true,
+          "sha256": "535480ce3ab01d4fbb2e511a738f5c56fea4064fcf18964d1ee7ffcf4e803fb0",
+          "publisherCountry": "NO",
+          "excerpt": "Brown James Joseph Brown jr. Uttale braun Født 3. mai 1933, Barnwell, Sør-Carolina, USA Død 25. desember 2006, Atlanta, Georgia, USA James Brown under en"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q5950",
+        "name": "James Brown",
+        "dob": "1933-05-03",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1933-05-03T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "steven-weinberg",
+      "name": "Steven Weinberg",
+      "qid": "Q179282",
+      "dob": "1933-05-03",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q179282",
+          "name": "Steven Weinberg",
+          "dob": "1933-05-03",
+          "publisher": "Nobel Prize Outreach",
+          "url": "https://www.nobelprize.org/laureate/115",
+          "status": 200,
+          "exact": true,
+          "sha256": "cde0c767ceabc01c79062748b5b6ac0478ee52757cd50a88b17c79f176160711",
+          "publisherCountry": "SE",
+          "excerpt": "Steven Weinberg Nobel Prize in Physics 1979 Born: 3 May 1933, New York, NY, USA Died: 23 July 2021, Austin, TX, USA Affiliation at the"
+        },
+        {
+          "qid": "Q179282",
+          "name": "Steven Weinberg",
+          "dob": "1933-05-03",
+          "publisher": "Harry Ransom Center, University of Texas at Austin",
+          "url": "https://research.hrc.utexas.edu/fasearch/findingaid.cfm?eadid=01539&showrequest=1",
+          "status": 200,
+          "exact": true,
+          "sha256": "e5b8a8567edbd47e52800c3395a427e163b1f9c3a2d19b3c6c428aa556ae4658",
+          "publisherCountry": "US",
+          "excerpt": "physicist and professor Steven Weinberg was born on May 3, 1933, in New York, New York, to Eva Israel and Frederick Weinberg. By the age"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q179282",
+        "name": "Steven Weinberg",
+        "dob": "1933-05-03",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1933-05-03T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "alexey-leonov",
+      "name": "Alexey Leonov",
+      "qid": "Q154269",
+      "dob": "1934-05-30",
+      "countryCode": "RU",
+      "sources": [
+        {
+          "qid": "Q154269",
+          "name": "Alexey Leonov",
+          "dob": "1934-05-30",
+          "publisher": "European Space Agency",
+          "url": "https://www.esa.int/About_Us/50_years_of_ESA/Alexei_Leonov_The_artistic_spaceman",
+          "status": 200,
+          "exact": true,
+          "sha256": "9452b663d4b2b9077e364a27de48fdcb070f177848fcc27d5380fde18500daab",
+          "publisherCountry": "FR",
+          "excerpt": "his paintings. Alexei Arkhipovich Leonov was born on 30 May 1934 in the small town of Listvyanka, near Lake Baikal in Siberia. The eighth of"
+        },
+        {
+          "qid": "Q154269",
+          "name": "Alexey Leonov",
+          "dob": "1934-05-30",
+          "publisher": "NASA Technical Reports Server",
+          "url": "https://ntrs.nasa.gov/api/citations/19750008514/downloads/19750008514.pdf",
+          "status": 200,
+          "exact": true,
+          "sha256": "258b8b240df012b19b730d029f3df4da5d725a599b21d86ddf6c32c942385a83",
+          "publisherCountry": "US",
+          "excerpt": "Commander, Soviet ASTP Crew BIRTHPLACE AND DATE: Born May 30, 1934 in the Siberian village of Listvyanka, Kemerovo Region. His father was a miner. EDUCATION:"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q154269",
+        "name": "Alexey Leonov",
+        "dob": "1934-05-30",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1934-05-30T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "dennis-hopper",
+      "name": "Dennis Hopper",
+      "qid": "Q102711",
+      "dob": "1936-05-17",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q102711",
+          "name": "Dennis Hopper",
+          "dob": "1936-05-17",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/hopper-dennis",
+          "status": 200,
+          "exact": true,
+          "sha256": "9fdad5742bc48e78769009b27aff7cd6ecb12c1d793164f7f55e7efcb996166f",
+          "publisherCountry": "HR",
+          "excerpt": "filmski glumac, redatelj i producent Rođen(a): Dodge City, 17. V. 1936. Umr(la)o: Los Angeles, 29. V. 2010. Hopper [hɔ'pəɹ], Dennis, američki filmski glumac, redatelj i"
+        },
+        {
+          "qid": "Q102711",
+          "name": "Dennis Hopper",
+          "dob": "1936-05-17",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Dennis_Hopper",
+          "status": 200,
+          "exact": true,
+          "sha256": "9f061a622000c877516cbc6e4e75baf822551d6d3bf74e9435d424ce696ff4c4",
+          "publisherCountry": "NO",
+          "excerpt": "Dennis Lee Hopper Uttale h o pper Født 17. mai 1936, Dodge City, Kansas, USA Død 29. mai 2010, Los Angeles, California, USA Dennis Hopper"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q102711",
+        "name": "Dennis Hopper",
+        "dob": "1936-05-17",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1936-05-17T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "madeleine-albright",
+      "name": "Madeleine Albright",
+      "qid": "Q174438",
+      "dob": "1937-05-15",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q174438",
+          "name": "Madeleine Albright",
+          "dob": "1937-05-15",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/albright-madeleine",
+          "status": 200,
+          "exact": true,
+          "sha256": "f0a42b17fc84e10496a0ef5a2315b8b16813349ae6853d93c2db6c4bd5e1e257",
+          "publisherCountry": "HR",
+          "excerpt": "i politika Albright, Madeleine američka političarka Rođen(a): Prag, 15. V. 1937. Umr(la)o: Washington, 23. III. 2022. ALBRIGHT, Madeleine Albright [ɔ:'lbrait], Madeleine, američka političarka ( Prag"
+        },
+        {
+          "qid": "Q174438",
+          "name": "Madeleine Albright",
+          "dob": "1937-05-15",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Madeleine_Albright",
+          "status": 200,
+          "exact": true,
+          "sha256": "3ea02e8a2582959b7287247df7a02ccabd02d2e394aba35115c3289a763cc2c0",
+          "publisherCountry": "NO",
+          "excerpt": "Albright Madeleine Korbel Albright Uttale å :lbrait Født 15. mai 1937, Praha, Tsjekkoslovakia Død 23. mars 2022, Washington, D.C, USA Madeleine Albright var USAs ambassadør"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q174438",
+        "name": "Madeleine Albright",
+        "dob": "1937-05-15",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1937-05-15T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "preferred"
+          },
+          {
+            "time": "+1937-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "ian-mckellen",
+      "name": "Ian McKellen",
+      "qid": "Q170510",
+      "dob": "1939-05-25",
+      "countryCode": "GB",
+      "sources": [
+        {
+          "qid": "Q170510",
+          "name": "Ian McKellen",
+          "dob": "1939-05-25",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Ian_McKellen",
+          "status": 200,
+          "exact": true,
+          "sha256": "cf8bf7e0c1839dde30c0b0dd75bde035f4903a3168fa4c879801eaad85b121a4",
+          "publisherCountry": "NO",
+          "excerpt": "Ian Murray McKellen Uttale mək e lin Født 25. mai 1939, Burnley, England Ian McKellen, 2013 Av Gage Skidmore . Lisens: CC BY SA 2.0"
+        },
+        {
+          "qid": "Q170510",
+          "name": "Ian McKellen",
+          "dob": "1939-05-25",
+          "publisher": "Ian McKellen official site",
+          "url": "https://www.mckellen.com/life/per.htm",
+          "status": 200,
+          "exact": true,
+          "sha256": "ac632b6509399da4372f24338ced4182581466a1cc0a2c46a761249c8d0dce5f",
+          "publisherCountry": "GB",
+          "excerpt": "was born at 20.30 Greenwich Mean Time, on 25 May 1939, in the general hospital of Burnley, the northern English mill town where his father"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q170510",
+        "name": "Ian McKellen",
+        "dob": "1939-05-25",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1939-05-25T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "joseph-brodsky",
+      "name": "Joseph Brodsky",
+      "qid": "Q862",
+      "dob": "1940-05-24",
+      "countryCode": "RU",
+      "sources": [
+        {
+          "qid": "Q862",
+          "name": "Joseph Brodsky",
+          "dob": "1940-05-24",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/brodski-josif-aleksandrovic",
+          "status": 200,
+          "exact": true,
+          "sha256": "9208c7ab2d04588dd1a2e5dc39d8e863a3af29b0b5339c5029d6cd3c02db35a4",
+          "publisherCountry": "HR",
+          "excerpt": "Aleksandrovič ruski pjesnik Rođen(a): Lenjingrad, danas Sankt Peterburg, 24. V. 1940. Umr(la)o: New York, 28. I. 1996. BRODSKI, Josif Aleksandrovič Brodski (Brodskij) [bro'tsk’ij], Josif Aleksandrovič"
+        },
+        {
+          "qid": "Q862",
+          "name": "Joseph Brodsky",
+          "dob": "1940-05-24",
+          "publisher": "Academy of American Poets",
+          "url": "https://poets.org/index.php/poet/joseph-brodsky",
+          "status": 200,
+          "exact": true,
+          "sha256": "4e689b96f76b0e82336a36de80bc794e751b21a8ecf311e43b08e7d2b8b4fd64",
+          "publisherCountry": "US",
+          "excerpt": "poet Joseph Brodsky was born in Leningrad on May 24, 1940. He left school at the age of fifteen, taking jobs in a morgue, a"
+        },
+        {
+          "qid": "Q862",
+          "name": "Joseph Brodsky",
+          "dob": "1940-05-24",
+          "publisher": "Yale University Library",
+          "url": "https://ead-pdfs.library.yale.edu/784.pdf",
+          "status": 200,
+          "exact": true,
+          "sha256": "72bd09374aeeddf10a86c4fd3304715eb4dfb89b9c88ae756f06af5ae5971919",
+          "publisherCountry": "US",
+          "excerpt": "and Nobel Laureate, was born in Leningrad on May 24, 1940 to Aleksandr Ivanovich Brodskii and Mariia Moiseevna Brodskaia (nee Vol'pert). His birth was just"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q862",
+        "name": "Joseph Brodsky",
+        "dob": "1940-05-24",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1940-05-24T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "nora-ephron",
+      "name": "Nora Ephron",
+      "qid": "Q214677",
+      "dob": "1941-05-19",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q214677",
+          "name": "Nora Ephron",
+          "dob": "1941-05-19",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Nora_Ephron",
+          "status": 200,
+          "exact": true,
+          "sha256": "41fc47d81eaa88d0a31884bf1f7eca7539c80e0d724df14e23a5149f8bfe6e23",
+          "publisherCountry": "NO",
+          "excerpt": "Emilsen Faktaboks Nora Ephron Uttale e från Født 19. mai 1941, New York City, USA Død 26. juni 2012, New York City, USA When Harry"
+        },
+        {
+          "qid": "Q214677",
+          "name": "Nora Ephron",
+          "dob": "1941-05-19",
+          "publisher": "Academy of Achievement",
+          "url": "https://achievement.org/achiever/nora-ephron/",
+          "status": 200,
+          "exact": true,
+          "sha256": "648119954ff83cbf57d3f197683ce565cc6c717abdb4e8c218e0d3083e5b29fb",
+          "publisherCountry": "US",
+          "excerpt": "of the Modern Romantic Comedy Date of Birth May 19, 1941 Date of Death June 26, 2012 Nora Ephron: journalist, novelist, screenwriter, director. Nora Ephron"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q214677",
+        "name": "Nora Ephron",
+        "dob": "1941-05-19",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1941-05-19T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "bob-dylan",
+      "name": "Bob Dylan",
+      "qid": "Q392",
+      "dob": "1941-05-24",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q392",
+          "name": "Bob Dylan",
+          "dob": "1941-05-24",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/dylan-bob",
+          "status": 200,
+          "exact": true,
+          "sha256": "80980bf324ed3c8e6f07980ae236ed9b365503093cef532161f3498891426229",
+          "publisherCountry": "HR",
+          "excerpt": "Bob američki kantautor i književnik Rođen(a): Duluth, Minnesota, 24. V. 1941. DYLAN, Bob Dylan [di'lən], Bob (pravo ime Robert Allen Zimmermann ), američki kantautor i"
+        },
+        {
+          "qid": "Q392",
+          "name": "Bob Dylan",
+          "dob": "1941-05-24",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Bob_Dylan",
+          "status": 200,
+          "exact": true,
+          "sha256": "19ea26d18f567216d83e7581ce1bc7ea4e9f1cb39d9d9ddab63530cc61262dd1",
+          "publisherCountry": "NO",
+          "excerpt": "offisielt i 1962) Uttale d i lən Født 24. mai 1941, Duluth, Minnesota Bob Dylan Bob Dylan på scenen i Barcelona. Av F. Antolín Hernández"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q392",
+        "name": "Bob Dylan",
+        "dob": "1941-05-24",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1941-05-24T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "george-lucas",
+      "name": "George Lucas",
+      "qid": "Q38222",
+      "dob": "1944-05-14",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q38222",
+          "name": "George Lucas",
+          "dob": "1944-05-14",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/George_Lucas",
+          "status": 200,
+          "exact": true,
+          "sha256": "f90a21e0802f01bb78b026f34a01a5c4496dd71ca5b56e4e12cd13fd54604116",
+          "publisherCountry": "NO",
+          "excerpt": "Walton Lucas jr. Uttale l u :kəs Født 14. mai 1944, Modesto, California, USA George Lucas under Filmfestivalen i Venezia i 2009. Av Nicolas Genin"
+        },
+        {
+          "qid": "Q38222",
+          "name": "George Lucas",
+          "dob": "1944-05-14",
+          "publisher": "Academy of Achievement",
+          "url": "https://achievement.org/achiever/george-lucas/",
+          "status": 200,
+          "exact": true,
+          "sha256": "a4d2064044c9795e509ae9d3968c90e2e78b60b62538113cef108aeb72f3188a",
+          "publisherCountry": "US",
+          "excerpt": "I doing this?' Cinematic Phenomenon Date of Birth May 14, 1944 George and Marcia Lucas were married from 1969 to 1983. They met while George"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q38222",
+        "name": "George Lucas",
+        "dob": "1944-05-14",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1944-05-14T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "mary-robinson",
+      "name": "Mary Robinson",
+      "qid": "Q188214",
+      "dob": "1944-05-21",
+      "countryCode": "IE",
+      "sources": [
+        {
+          "qid": "Q188214",
+          "name": "Mary Robinson",
+          "dob": "1944-05-21",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Mary_Robinson",
+          "status": 200,
+          "exact": true,
+          "sha256": "c342aa4762a9332756fe35ce22b35d1c81f67ec18d70bb43caac2c52d51144d9",
+          "publisherCountry": "NO",
+          "excerpt": "f. Bourke Robinson Uttale r o binson Født 21. mai 1944 Mary Robinson Av Nationaal Comité 4 en 5 mei . Lisens: Mary Robinson, irsk"
+        },
+        {
+          "qid": "Q188214",
+          "name": "Mary Robinson",
+          "dob": "1944-05-21",
+          "publisher": "Women’s Museum of Ireland",
+          "url": "https://www.womensmuseumofireland.ie/exhibits/mary-robinson",
+          "status": 200,
+          "exact": true,
+          "sha256": "6a8908cc814883a1c203f96f5c4bd6b49a6aa7ba93a3ff9ebd0008f04fdc1829",
+          "publisherCountry": "IE",
+          "excerpt": "Teresa Winifred Bourke in Ballina, County Mayo on May 21 1944, the daughter of doctors, Robinson once attributed her interest in human rights to being"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q188214",
+        "name": "Mary Robinson",
+        "dob": "1944-05-21",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1944-05-21T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "claudia-goldin",
+      "name": "Claudia Goldin",
+      "qid": "Q1097475",
+      "dob": "1946-05-14",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q1097475",
+          "name": "Claudia Goldin",
+          "dob": "1946-05-14",
+          "publisher": "Lex.dk / Danish Society for Language and Literature",
+          "url": "https://lex.dk/Claudia_Goldin",
+          "status": 200,
+          "exact": true,
+          "sha256": "9b68adaac81f6e99e3796488efb1eb39e0eeaa462b8a8a93eb7fac2ffe09a19c",
+          "publisherCountry": "DK",
+          "excerpt": "anvendelse Faktaboks Claudia Goldin Claudia Dale Goldin Født 14. maj 1946, New York City, New York, USA U-kurven viser kvinders deltagelse på arbejdsmarkedet fra 1790"
+        },
+        {
+          "qid": "Q1097475",
+          "name": "Claudia Goldin",
+          "dob": "1946-05-14",
+          "publisher": "Munzinger",
+          "url": "https://www.munzinger.de/register/portrait/biographien/goldin%20claudia/00/33267",
+          "status": 200,
+          "exact": true,
+          "sha256": "95b7290a109fe6a62dd281107e9e2ebe1283b181f5df67d991134f2a9b81b0fb",
+          "publisherCountry": "DE",
+          "excerpt": "Forschung zu Geschlechterunterschieden auf dem Arbeitsmarkt bekannt * 14. Mai 1946 New York City Herkunft Claudia Dale Goldin wurde am 14. Mai 1946 in New"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q1097475",
+        "name": "Claudia Goldin",
+        "dob": "1946-05-14",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1946-05-14T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "cher",
+      "name": "Cher",
+      "qid": "Q12003",
+      "dob": "1946-05-20",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q12003",
+          "name": "Cher",
+          "dob": "1946-05-20",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Cher_-_amerikansk_artist_og_skuespiller",
+          "status": 200,
+          "exact": true,
+          "sha256": "648f0c06e245de0c0fe1936fd07191031aec749133f72781ff3c92b3d6e0a3b4",
+          "publisherCountry": "NO",
+          "excerpt": "Bergan Faktaboks Cher Cherilyn Sarkisian Uttale ʃeə Født 20. mai 1946, El Centro, California Cher, 2019 Av Raph_PH . Lisens: CC BY SA 4.0 Cher"
+        },
+        {
+          "qid": "Q12003",
+          "name": "Cher",
+          "dob": "1946-05-20",
+          "publisher": "Golden Globes",
+          "url": "https://goldenglobes.com/person/cher/",
+          "status": 200,
+          "exact": true,
+          "sha256": "61073c54bf9a9368cdc6320b1c8d9cc10fd7166ebe00a10ffc015f8e1a6f0e4f",
+          "publisherCountry": "US",
+          "excerpt": "Nominations 3 Wins Cher Cherilyn “Cher” Sarkisian (born May 20, 1946 in El Centro, California) became famous as a singer with her husband Sonny Bono,"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q12003",
+        "name": "Cher",
+        "dob": "1946-05-20",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1946-05-20T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "billy-joel",
+      "name": "Billy Joel",
+      "qid": "Q194333",
+      "dob": "1949-05-09",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q194333",
+          "name": "Billy Joel",
+          "dob": "1949-05-09",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Billy_Joel",
+          "status": 200,
+          "exact": true,
+          "sha256": "cc2e8b85b961ab25b57e9bd44e43ed9246ccbb2a1cb0f3c04d6a655a063e5bf5",
+          "publisherCountry": "NO",
+          "excerpt": "William Martin Joel Uttale dʒ o uəl Født 9. mai 1949, New York City Billy Joel, 2009 Av David Shankbone . Lisens: Billy Joel er"
+        },
+        {
+          "qid": "Q194333",
+          "name": "Billy Joel",
+          "dob": "1949-05-09",
+          "publisher": "Recording Academy",
+          "url": "https://www.grammy.com/artists/billy-joel/12071",
+          "status": 200,
+          "exact": true,
+          "sha256": "7c3b1cbc8a44bc49b1fda21aa3b5956bd77d2fe317d73e5a85b1d79dcd5488d0",
+          "publisherCountry": "US",
+          "excerpt": "and chords are first.\" Born William Martin Joel May 9, 1949, in the Bronx, New York. Early in Billy Joel's career, Philadelphia radio station WMMR"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q194333",
+        "name": "Billy Joel",
+        "dob": "1949-05-09",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1949-05-09T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "stevie-wonder",
+      "name": "Stevie Wonder",
+      "qid": "Q714",
+      "dob": "1950-05-13",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q714",
+          "name": "Stevie Wonder",
+          "dob": "1950-05-13",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/wonder-stevie",
+          "status": 200,
+          "exact": true,
+          "sha256": "69424c4e0dc8bc3b67f46af9038e8f992a752faf0d60e9142a9c374d8aaa31fd",
+          "publisherCountry": "HR",
+          "excerpt": "Stevie američki pjevač i skladatelj Rođen(a): Saginaw, Michigan, 13. V. 1950. WONDER, Stevie Wonder [wʌ'ndəɹ], Stevie (pravo ime Stevland Hardaway Judkins ), američki pjevač i"
+        },
+        {
+          "qid": "Q714",
+          "name": "Stevie Wonder",
+          "dob": "1950-05-13",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Stevie_Wonder",
+          "status": 200,
+          "exact": true,
+          "sha256": "0cb0faf693c76ace6f4adc39231ad0a76a970aced3466dded39cfd4d359d12ce",
+          "publisherCountry": "NO",
+          "excerpt": "Stevland Judkins Morris Uttale w ʌ ndə Født 13. mai 1950, Saginaw, Michigan Stevie Wonder under en konsert i New York i 2006 Stevie Wonder"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q714",
+        "name": "Stevie Wonder",
+        "dob": "1950-05-13",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1950-05-13T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "sally-ride",
+      "name": "Sally Ride",
+      "qid": "Q49285",
+      "dob": "1951-05-26",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q49285",
+          "name": "Sally Ride",
+          "dob": "1951-05-26",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Sally_K._Ride",
+          "status": 200,
+          "exact": true,
+          "sha256": "af320d3039437eb2b1f675c23ced2f34040671e497ef28cc0b14a1ce3c385cfb",
+          "publisherCountry": "NO",
+          "excerpt": "K. Ride Sally Kristen Ride Uttale raid Født 26. mai 1951, Los Angeles, California, USA Død 23. juli 2012, San Diego, California, USA Sally Ride"
+        },
+        {
+          "qid": "Q49285",
+          "name": "Sally Ride",
+          "dob": "1951-05-26",
+          "publisher": "National Aviation Hall of Fame",
+          "url": "https://nationalaviation.org/enshrinee/sally-kristen-ride/",
+          "status": 200,
+          "exact": true,
+          "sha256": "fd354fe8a0f92aef145227dd2e6ea10aa540d9322889a0225d677c39cfbe4412",
+          "publisherCountry": "US",
+          "excerpt": "Donate Learning Center Our Enshrinees Enshrined: 2007 Birth: May 26, 1951 Death: July 23, 2012 Sally Kristen Ride Astronaut & Engineer Born: May 26, 1951"
+        },
+        {
+          "qid": "Q49285",
+          "name": "Sally Ride",
+          "dob": "1951-05-26",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/wp-content/uploads/2015/05/ride_sally.pdf",
+          "status": 200,
+          "exact": true,
+          "sha256": "65f740d55b1a4de8e9e5ff92842edea7a7a868885bd25ccfb9f22dd6236ef87f",
+          "publisherCountry": "US",
+          "excerpt": "RIDE (PH.D.) NASA ASTRONAUT (DECEASED) PERSONAL DATA: Born May 26, 1951, in Los Angeles, California. Died on July 23, 2012. She is survived by Tam"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q49285",
+        "name": "Sally Ride",
+        "dob": "1951-05-26",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1951-05-26T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "pierce-brosnan",
+      "name": "Pierce Brosnan",
+      "qid": "Q81520",
+      "dob": "1953-05-16",
+      "countryCode": "IE",
+      "sources": [
+        {
+          "qid": "Q81520",
+          "name": "Pierce Brosnan",
+          "dob": "1953-05-16",
+          "publisher": "Golden Globes",
+          "url": "https://goldenglobes.com/person/pierce-brosnan/",
+          "status": 200,
+          "exact": true,
+          "sha256": "f483c4a2d2e4d92bfcd8d8a0ec373a5d725639abc78a90e9020a2fe76c78f35d",
+          "publisherCountry": "US",
+          "excerpt": "2 Nominations Pierce Brosnan Pierce Brendan Brosnan (born May 16, 1953 in Drogheda, Ireland) became known for starring in the TV series Remington Steel (1982-87),"
+        },
+        {
+          "qid": "Q81520",
+          "name": "Pierce Brosnan",
+          "dob": "1953-05-16",
+          "publisher": "Los Angeles Times",
+          "url": "https://projects.latimes.com/hollywood/star-walk/pierce-brosnan/",
+          "status": 200,
+          "exact": true,
+          "sha256": "351c09092f2c31025fe38a6c7e3483ded09c6b818e191e97b6e76043ee477929",
+          "publisherCountry": "US",
+          "excerpt": "the 7000 block of Hollywood Boulevard Actor Born May 16, 1953 in Navan, County Meath, Ireland H andsome, suave and perennially charming, Pierce Brosnan was"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q81520",
+        "name": "Pierce Brosnan",
+        "dob": "1953-05-16",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1953-05-16T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "bono",
+      "name": "Bono",
+      "qid": "Q834621",
+      "dob": "1960-05-10",
+      "countryCode": "IE",
+      "sources": [
+        {
+          "qid": "Q834621",
+          "name": "Bono",
+          "dob": "1960-05-10",
+          "publisher": "U2",
+          "url": "https://www.u2.com/blogs/news/birthday-greetings",
+          "status": 200,
+          "exact": true,
+          "sha256": "18919886cb51c103d843431d20a5ee4ff9788b3d2d8261617327b1f2c4863934",
+          "publisherCountry": "IE",
+          "excerpt": "Birthday Greetings It was fifty years ago today, 10th May 1960, that Iris and Robert Hewson presented a son to the world. Happy Birthday Bono."
+        },
+        {
+          "qid": "Q834621",
+          "name": "Bono",
+          "dob": "1960-05-10",
+          "publisher": "Universal Music France",
+          "url": "https://www.universalmusic.fr/artistes/20000029319",
+          "status": 200,
+          "exact": true,
+          "sha256": "041006ef5c2599a08777ee0ff7c4da8361e70ab2f020b2d7b545b484aacf978b",
+          "publisherCountry": "FR",
+          "excerpt": "Bono Nom de naissance Paul David Hewson Naissance 10 Mai 1960, Ireland Newsletter Biographie Leader charismatique du groupe U2, le chanteur irlandais Bono est une"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q834621",
+        "name": "Bono",
+        "dob": "1960-05-10",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1960-05-10T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "george-clooney",
+      "name": "George Clooney",
+      "qid": "Q23844",
+      "dob": "1961-05-06",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q23844",
+          "name": "George Clooney",
+          "dob": "1961-05-06",
+          "publisher": "Hrvatska enciklopedija, Leksikografski zavod Miroslav Krleža",
+          "url": "https://www.enciklopedija.hr/clanak/clooney-george",
+          "status": 200,
+          "exact": true,
+          "sha256": "20f4f0b65480c2a7d2970a532a0da10e7baa4dffe92c05f08df2f96435badde0",
+          "publisherCountry": "HR",
+          "excerpt": "američki filmski glumac i redatelj Rođen(a): Lexington, Kentucky, 6. V. 1961. Clooney [klu:'ni], George, američki filmski glumac i redatelj ( Lexington, Kentucky , 6. V."
+        },
+        {
+          "qid": "Q23844",
+          "name": "George Clooney",
+          "dob": "1961-05-06",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/George_Clooney",
+          "status": 200,
+          "exact": true,
+          "sha256": "852e1c32a8037bdd8c3082a50eaa91056ea1a5d1bcd975d4f77725a1434f4e50",
+          "publisherCountry": "NO",
+          "excerpt": "George Timothy Clooney Uttale kl u :ni Født 6. mai 1961, Lexington, Kentucky George Clooney som Danny Ocean i Steven Soderbergh-filmen Ocean's Eleven (2001). Warner"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q23844",
+        "name": "George Clooney",
+        "dob": "1961-05-06",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1961-05-06T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "janet-jackson",
+      "name": "Janet Jackson",
+      "qid": "Q131324",
+      "dob": "1966-05-16",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q131324",
+          "name": "Janet Jackson",
+          "dob": "1966-05-16",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Janet_Jackson",
+          "status": 200,
+          "exact": true,
+          "sha256": "f978b62dfac2190d667a83ef4f0c25e16125b54b46a03cfd29fa7713e257629e",
+          "publisherCountry": "NO",
+          "excerpt": "Damita Jo Jackson Uttale dʒ æ ksn Født 16. mai 1966, Gary, Indiana Janet Jackson synger i San Francisco, 14. oktober 2015 Janet Jackson, 2015"
+        },
+        {
+          "qid": "Q131324",
+          "name": "Janet Jackson",
+          "dob": "1966-05-16",
+          "publisher": "Rock & Roll Hall of Fame",
+          "url": "https://rockhall.com/inductees/janet-jackson/",
+          "status": 200,
+          "exact": true,
+          "sha256": "9db979a2ae920952bd66a8e7e309c7d4af3bbaa2d81168ee826c301e03017c25",
+          "publisherCountry": "US",
+          "excerpt": "Jackson’s nine children, Janet Damita Jo Jackson (born May 16, 1966, in Gary, Indiana) was already a seasoned vet... Written By Amy Linden sealed with"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q131324",
+        "name": "Janet Jackson",
+        "dob": "1966-05-16",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1966-05-16T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "frederik-x-of-denmark",
+      "name": "Frederik X of Denmark",
+      "qid": "Q1004037",
+      "dob": "1968-05-26",
+      "countryCode": "DK",
+      "sources": [
+        {
+          "qid": "Q1004037",
+          "name": "Frederik X of Denmark",
+          "dob": "1968-05-26",
+          "publisher": "Royal House of Denmark",
+          "url": "https://www.kongehuset.dk/en/the-royal-family/hm-the-king/",
+          "status": 200,
+          "exact": true,
+          "sha256": "f96d54712aae0ed36ef1aff926740f4b118a2919a55180a4f3db4360c82502ac",
+          "publisherCountry": "DK",
+          "excerpt": "January 2024. HM The King was born on 26 May 1968 as the son of HM Queen Margrethe II and Prince Henrik of Denmark (d."
+        },
+        {
+          "qid": "Q1004037",
+          "name": "Frederik X of Denmark",
+          "dob": "1968-05-26",
+          "publisher": "Lex.dk / Danish Society for Language and Literature",
+          "url": "https://lex.dk/Frederik_10._-_konge_af_Danmark",
+          "status": 200,
+          "exact": true,
+          "sha256": "a2980d733b200e86ced68d657790bec6d075a0358f020af0cf2a7cb967a11e91",
+          "publisherCountry": "DK",
+          "excerpt": "Frederik 10., kong Frederik X Frederik X Født 26. maj 1968, Rigshospitalet, København Titel Konge af Danmark Nationalitet Dansk Kong Frederik 10. fotograferet i 2022,"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q1004037",
+        "name": "Frederik X of Denmark",
+        "dob": "1968-05-26",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1968-05-26T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "kylie-minogue",
+      "name": "Kylie Minogue",
+      "qid": "Q11998",
+      "dob": "1968-05-28",
+      "countryCode": "AU",
+      "sources": [
+        {
+          "qid": "Q11998",
+          "name": "Kylie Minogue",
+          "dob": "1968-05-28",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Kylie_Minogue",
+          "status": 200,
+          "exact": true,
+          "sha256": "f18e7cad9a2b24c2e13b76383dc009090cf37a02972fde0fb4bd6450d12b980c",
+          "publisherCountry": "NO",
+          "excerpt": "Kylie Ann Minogue Uttale min o ug Født 28. mai 1968, Melbourne Kylie Minogue synger i Bournemouth i England, 29. september 2018 Kylie Minogue, 2018"
+        },
+        {
+          "qid": "Q11998",
+          "name": "Kylie Minogue",
+          "dob": "1968-05-28",
+          "publisher": "Encyclopedia.com",
+          "url": "https://www.encyclopedia.com/people/literature-and-arts/music-popular-and-jazz-biographies/kylie-minogue",
+          "status": 200,
+          "exact": true,
+          "sha256": "bad49ed2392c3aa3b0252615a2b48df4a055560b5965f26913e9d0bec4315c30",
+          "publisherCountry": "US",
+          "excerpt": "Eva ’ s “ Locomotion. ” Born on May 28, 1968, in Melbourne, Australia , Minogue was one of three children of a Welsh mother"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q11998",
+        "name": "Kylie Minogue",
+        "dob": "1968-05-28",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1968-05-28T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "dennis-bergkamp",
+      "name": "Dennis Bergkamp",
+      "qid": "Q185389",
+      "dob": "1969-05-10",
+      "countryCode": "NL",
+      "sources": [
+        {
+          "qid": "Q185389",
+          "name": "Dennis Bergkamp",
+          "dob": "1969-05-10",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Dennis_Bergkamp",
+          "status": 200,
+          "exact": true,
+          "sha256": "d1b61a80f116e0eef1271e939a70f7f69567d226fde48c5d5992f845498c7a5b",
+          "publisherCountry": "NO",
+          "excerpt": "Faktaboks Dennis Bergkamp Dennis Nicolaas Maria Bergkamp Født 10. mai 1969, Amsterdam Dennis Bergkamp 22.februar 2014. Av Kieran Clarke . Lisens: Dennis Bergkamp er en"
+        },
+        {
+          "qid": "Q185389",
+          "name": "Dennis Bergkamp",
+          "dob": "1969-05-10",
+          "publisher": "The Independent",
+          "url": "https://www.independent.co.uk/sport/football/premier-league/there-was-only-one-dennis-bergkamp-6094721.html",
+          "status": 200,
+          "exact": true,
+          "sha256": "dc23bcc3474dc844ef12a41304e637d93f3b75c725c472e83bf58543beaddbb4",
+          "publisherCountry": "GB",
+          "excerpt": "leader on the pitch.\" His career * BORN 10 May 1969, Amsterdam, Netherlands * CLUBS Ajax 1986-93 Internazionale 1993-95 Arsenal 1995-2006 * GAMES AND GOALS"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q185389",
+        "name": "Dennis Bergkamp",
+        "dob": "1969-05-10",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1969-05-10T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "cate-blanchett",
+      "name": "Cate Blanchett",
+      "qid": "Q80966",
+      "dob": "1969-05-14",
+      "countryCode": "AU",
+      "sources": [
+        {
+          "qid": "Q80966",
+          "name": "Cate Blanchett",
+          "dob": "1969-05-14",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Cate_Blanchett",
+          "status": 200,
+          "exact": true,
+          "sha256": "0692b1494e7875893c1a03a07ad13cf65509edd0fa7939c60e29a03aca90651e",
+          "publisherCountry": "NO",
+          "excerpt": "Catherine Elise Blanchett Uttale bl æ nʃət Født 14. mai 1969, Melbourne, Australia Cate Blanchett, 2015 Av magicinfoto /Shutterstock. Lisens: Begrenset gjenbruk Cate Blanchett i"
+        },
+        {
+          "qid": "Q80966",
+          "name": "Cate Blanchett",
+          "dob": "1969-05-14",
+          "publisher": "Golden Globes",
+          "url": "https://goldenglobes.com/person/cate-blanchett/",
+          "status": 200,
+          "exact": true,
+          "sha256": "67600633312655097961280f55e0d29824992f61d5152e62da277ade853965d3",
+          "publisherCountry": "US",
+          "excerpt": "Blanchett Catherine “Cate” Blanchett (born in Melbourne, Australia, May 14, 1969) was first noticed in Oscar and Lucinda (1997) by Australian director Gillian Armstrong; she"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q80966",
+        "name": "Cate Blanchett",
+        "dob": "1969-05-14",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1969-05-14T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "tina-fey",
+      "name": "Tina Fey",
+      "qid": "Q14540",
+      "dob": "1970-05-18",
+      "countryCode": "US",
+      "sources": [
+        {
+          "qid": "Q14540",
+          "name": "Tina Fey",
+          "dob": "1970-05-18",
+          "publisher": "Biography.com",
+          "url": "https://www.biography.com/actors/tina-fey",
+          "status": 200,
+          "exact": true,
+          "sha256": "cbb5fbc261f4da57d5f123ed52c6db8a61f9bf99a29532a144a0c6d69623dfd1",
+          "publisherCountry": "US",
+          "excerpt": "Tina Fey was born Elizabeth Stamatina Fey on May 18, 1970, in Upper Darby, Pennsylvania, to parents Donald and Zenobia \"Jeanne\" Fey. Jeanne worked in"
+        },
+        {
+          "qid": "Q14540",
+          "name": "Tina Fey",
+          "dob": "1970-05-18",
+          "publisher": "Encyclopedia.com",
+          "url": "https://www.encyclopedia.com/people/literature-and-arts/film-and-television-biographies/tina-fey",
+          "status": 200,
+          "exact": true,
+          "sha256": "1b5d6c984fbc1de0e2ad86452ace26aa8a919f59ccc7f1dd9a346fe939f79093",
+          "publisherCountry": "US",
+          "excerpt": "gale views updated Jun 11 2018 Fey, Tina May 18, 1970 • Upper Darby, Pennsylvania Television writer, screenwriter, actress Tina Fey might have single-handedly made"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q14540",
+        "name": "Tina Fey",
+        "dob": "1970-05-18",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1970-05-18T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": [
+        "https://www.televisionacademy.com/bios/tina-fey"
+      ]
+    },
+    {
+      "id": "david-beckham",
+      "name": "David Beckham",
+      "qid": "Q10520",
+      "dob": "1975-05-02",
+      "countryCode": "GB",
+      "sources": [
+        {
+          "qid": "Q10520",
+          "name": "David Beckham",
+          "dob": "1975-05-02",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/David_Beckham",
+          "status": 200,
+          "exact": true,
+          "sha256": "f790263d673ab7f65d733f3a727d0d55304bcfb37f5c75fe2e733fdc55a0bade",
+          "publisherCountry": "NO",
+          "excerpt": "Robert Joseph Beckham Uttale b e kkəm Født 2. mai 1975 David Beckham var en superstjerne i internasjonal fotball og ble seriemester i fire land;"
+        },
+        {
+          "qid": "Q10520",
+          "name": "David Beckham",
+          "dob": "1975-05-02",
+          "publisher": "Real Madrid C.F.",
+          "url": "https://www.realmadrid.com/en-US/the-club/history/football-legends/david-robert-joseph-beckham",
+          "status": 200,
+          "exact": true,
+          "sha256": "79f9aed613effd534315b7f51823bb87d0dbda29c886ce7e86dc0d894e4519e6",
+          "publisherCountry": "ES",
+          "excerpt": "Place of birth London (England) Date of birth 02/05/1975 Watch videos on RM Play Full name David Robert Joseph Beckham Place of birth London (England)"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q10520",
+        "name": "David Beckham",
+        "dob": "1975-05-02",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1975-05-02T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "cillian-murphy",
+      "name": "Cillian Murphy",
+      "qid": "Q202589",
+      "dob": "1976-05-25",
+      "countryCode": "IE",
+      "sources": [
+        {
+          "qid": "Q202589",
+          "name": "Cillian Murphy",
+          "dob": "1976-05-25",
+          "publisher": "Golden Globes",
+          "url": "https://goldenglobes.com/person/cillian-murphy/",
+          "status": 200,
+          "exact": true,
+          "sha256": "1f15dc2abf05cc02c68916d849e8fb96cfacbb814fe96bb43891cc42c8106c38",
+          "publisherCountry": "US",
+          "excerpt": "Cillian Murphy Cillian Murphy (born in Cork, Ireland, May 25, 1976) acted in the theatre and in movies like 28 Days Later (2002) and Sunshine"
+        },
+        {
+          "qid": "Q202589",
+          "name": "Cillian Murphy",
+          "dob": "1976-05-25",
+          "publisher": "Biography.com",
+          "url": "https://www.biography.com/actors/cillian-murphy",
+          "status": 200,
+          "exact": true,
+          "sha256": "9e3879e2e3739225740f560058a0220ce3e669558f1257411ad36bc21056bd2d",
+          "publisherCountry": "US",
+          "excerpt": "2024. Quick Facts FULL NAME: Cillian Murphy BORN: May 25, 1976 BIRTHPLACE: Douglas, Cork, Ireland SPOUSE: Yvonne McGuinness (2004-present) CHILDREN: Malachy and Aran ASTROLOGICAL SIGN:"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q202589",
+        "name": "Cillian Murphy",
+        "dob": "1976-05-25",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1976-05-25T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "colin-farrell",
+      "name": "Colin Farrell",
+      "qid": "Q172035",
+      "dob": "1976-05-31",
+      "countryCode": "IE",
+      "sources": [
+        {
+          "qid": "Q172035",
+          "name": "Colin Farrell",
+          "dob": "1976-05-31",
+          "publisher": "Golden Globes",
+          "url": "https://goldenglobes.com/person/colin-farrell/",
+          "status": 200,
+          "exact": true,
+          "sha256": "bbefc7d546ee49b30428ea73614499e5b76da19751081326c3af055057539dd3",
+          "publisherCountry": "US",
+          "excerpt": "Nominations 3 Wins Colin Farrell Colin Farrell (born May 31, 1976, in Dublin, Ireland) acted with Tom Cruise in Minority Report (2002) by Steven Spielberg,"
+        },
+        {
+          "qid": "Q172035",
+          "name": "Colin Farrell",
+          "dob": "1976-05-31",
+          "publisher": "Munzinger",
+          "url": "https://www.munzinger.de/register/portrait/biographien/Colin%20Farrell/00/26494",
+          "status": 200,
+          "exact": true,
+          "sha256": "1652a3020de9933e1161673390ac67ddfe4ade58373aebfeac7c16a969cc8826",
+          "publisherCountry": "DE",
+          "excerpt": "Leben\", \"The Banshees of Inisherin\", \"The Penguin\" * 31. Mai 1976 Castleknock/Dublin Herkunft Colin James Farrell wurde am 31. Mai 1976 als Sohn des Ex-Fußballers"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q172035",
+        "name": "Colin Farrell",
+        "dob": "1976-05-31",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1976-05-31T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "pham-doan-trang",
+      "name": "Phạm Đoan Trang",
+      "qid": "Q51120734",
+      "dob": "1978-05-27",
+      "countryCode": "VN",
+      "sources": [
+        {
+          "qid": "Q51120734",
+          "name": "Phạm Đoan Trang",
+          "dob": "1978-05-27",
+          "publisher": "PEN International",
+          "url": "https://www.pen-international.org/cases/pham-doan-trang",
+          "status": 200,
+          "exact": true,
+          "sha256": "7ee5ef428507d325b7c0c025030cf946260182cee8f950d5e65c5782541a3ad1",
+          "publisherCountry": "GB",
+          "excerpt": "from her family and legal representatives. Born on 27 May 1978, Pham Doan Trang’s published works include Chính trị bình dân (Popular Politics , 2018"
+        },
+        {
+          "qid": "Q51120734",
+          "name": "Phạm Đoan Trang",
+          "dob": "1978-05-27",
+          "publisher": "Safeguard Defenders",
+          "url": "https://safeguarddefenders.com/sites/default/files/pdf/MAGNITSKY%20VN%20Single%20paging.pdf",
+          "status": 200,
+          "exact": true,
+          "sha256": "04ea65dced29b6fc38367d59bd6190c439c8a85664f3d65a6da18312a1d18c4f",
+          "publisherCountry": "ES",
+          "publisherLocationSource": "https://safeguarddefenders.com/en/home",
+          "excerpt": "vệ nhân quyền tại Việt Nam. Sinh ngày 27/5/1978, Phạm Đoan Trang là tác giả và người bảo vệ nhân quyền từ những năm đầu"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q51120734",
+        "name": "Phạm Đoan Trang",
+        "dob": "1978-05-27",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1978-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          },
+          {
+            "time": "+1978-05-27T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "preferred"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "andrea-pirlo",
+      "name": "Andrea Pirlo",
+      "qid": "Q43926",
+      "dob": "1979-05-19",
+      "countryCode": "IT",
+      "sources": [
+        {
+          "qid": "Q43926",
+          "name": "Andrea Pirlo",
+          "dob": "1979-05-19",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/MultimediaFiles/Download/competitions/Draws/02/58/32/85/2583285_DOWNLOAD.pdf",
+          "status": 200,
+          "exact": true,
+          "sha256": "466f85826d4904876498fb533db280d11b0a39a0c53981819f16d09c77e59427",
+          "publisherCountry": "CH",
+          "excerpt": "Kit 4 AMBASSADOR ANDREA PIRLO Date of birth: 19/05/1979 Position: Midfielder Clubs: Brescia, Internazionale, Reggina (loan), Brescia (loan), AC Milan, Juventus, New York City •"
+        },
+        {
+          "qid": "Q43926",
+          "name": "Andrea Pirlo",
+          "dob": "1979-05-19",
+          "publisher": "Italian Football Federation",
+          "url": "https://www.figc.it/en/fans/news/happy-birthday-to-andrea-pirlo-who-turns-42-today-y2m47cms",
+          "status": 200,
+          "exact": true,
+          "sha256": "6557c98a5dd9ce77f3b3bd106a1aa879eb753881278aaf7c62b64114ea6740fc",
+          "publisherCountry": "IT",
+          "excerpt": "Michael Regan/Getty Images) Andrea Pirlo was born on 19 May 1979 in Flero in the province of Brescia. Considered from a young age to be"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q43926",
+        "name": "Andrea Pirlo",
+        "dob": "1979-05-19",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1979-05-19T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "robert-pattinson",
+      "name": "Robert Pattinson",
+      "qid": "Q36767",
+      "dob": "1986-05-13",
+      "countryCode": "GB",
+      "sources": [
+        {
+          "qid": "Q36767",
+          "name": "Robert Pattinson",
+          "dob": "1986-05-13",
+          "publisher": "Biography.com",
+          "url": "https://www.biography.com/actors/robert-pattinson",
+          "status": 200,
+          "exact": true,
+          "sha256": "b6499324a0bd11a09d637ee243a0caab8373fbdc25897b4f7d2b3171c03b531c",
+          "publisherCountry": "US",
+          "excerpt": "Quick Facts FULL NAME: Robert Thomas Pattinson BORN: May 13, 1986 BIRTHPLACE: London, United Kingdom CHILDREN: 1 daughter ASTROLOGICAL SIGN: Taurus Early Life Robert Thomas"
+        },
+        {
+          "qid": "Q36767",
+          "name": "Robert Pattinson",
+          "dob": "1986-05-13",
+          "publisher": "International Television Almanac (archived by World Radio History)",
+          "url": "https://www.worldradiohistory.com/Archive-International-Television-Almanac/2013/International-Television-Almanac-2013-Whos-Who.pdf",
+          "status": 200,
+          "exact": true,
+          "sha256": "f98490cd4bcb2680661c777b1ab8e902f8778c18e76b7480ca886368a2ba35bd",
+          "reviewNote": "Original first-date excerpt belonged to Lena Dunham; Pattinson entry separately confirms London, England, May 13, 1986.",
+          "publisherCountry": "US",
+          "excerpt": "PATTINSON, ROBERT Actor. b. London, England, May 13, 1986. PICTURES: Harry Pctter and the Goblet of Fire, Harry Potter and the Ord"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q36767",
+        "name": "Robert Pattinson",
+        "dob": "1986-05-13",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1986-05-13T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": [
+        "https://www.bfi.org.uk/sight-and-sound/news/30-recommendations-bfi-london-film-festival-2017"
+      ]
+    },
+    {
+      "id": "cesc-fabregas",
+      "name": "Cesc Fàbregas",
+      "qid": "Q17499",
+      "dob": "1987-05-04",
+      "countryCode": "ES",
+      "sources": [
+        {
+          "qid": "Q17499",
+          "name": "Cesc Fàbregas",
+          "dob": "1987-05-04",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Francesc_%C2%ABCesc%C2%BB_F%C3%A1bregas",
+          "status": 200,
+          "exact": true,
+          "sha256": "231b35532a2f18ca2e827fabf83e8f3a38fde9bab75b459ccbdec92e910e8fba",
+          "publisherCountry": "NO",
+          "excerpt": "Faktaboks Francesc «Cesc» Fábregas Francesc Fábregas Soler Født 4. mai 1987, Arenys de Mar, Spania Francesc «Cesc» Fábregas, 2015 Av joshjdss . Lisens: Francesc «Cesc»"
+        },
+        {
+          "qid": "Q17499",
+          "name": "Cesc Fàbregas",
+          "dob": "1987-05-04",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/under17/news/0252-0cda5c854055-44e524ba9f27-1000--2004-cesc-fabregas/",
+          "status": 200,
+          "exact": true,
+          "sha256": "dc48bacbc0671b413e212d748ca2817ab406aa4a9e67d92aa9be5c3aaa917efe",
+          "retry": "200 using production checker User-Agent",
+          "publisherCountry": "CH",
+          "excerpt": "the Catalan town of Arenys de Mar on 4 May 1987, Fabregas started his career with FC Barcelona but came to wider prominence on"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q17499",
+        "name": "Cesc Fàbregas",
+        "dob": "1987-05-04",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1987-05-04T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "adele",
+      "name": "Adele",
+      "qid": "Q23215",
+      "dob": "1988-05-05",
+      "countryCode": "GB",
+      "sources": [
+        {
+          "qid": "Q23215",
+          "name": "Adele",
+          "dob": "1988-05-05",
+          "publisher": "Store norske leksikon",
+          "url": "https://snl.no/Adele_-_artist",
+          "status": 200,
+          "exact": true,
+          "sha256": "516d85b0ec89e6a220af7eab29e2d69cd87d77ab3b92c6d3ae4afabe882bd5db",
+          "publisherCountry": "NO",
+          "excerpt": "Bergan Faktaboks Adele Adele Laurie Blue Adkins Født 5. mai 1988, London, England Albumet 21 av Adele CD Av Mats Linder . Lisens: Begrenset gjenbruk"
+        },
+        {
+          "qid": "Q23215",
+          "name": "Adele",
+          "dob": "1988-05-05",
+          "publisher": "Recording Academy",
+          "url": "https://live.grammy.com/artists/adele/528",
+          "status": 200,
+          "exact": true,
+          "sha256": "1c26994e039109e940ec4adc1cde8e73c3f3b8824d71d5857bf8c82a9f06a1ae",
+          "publisherCountry": "US",
+          "excerpt": "for ears. Born Adele Laurie Blue Adkins on May 5, 1988, in London, England Adele's sophomore album, 21 , became her first chart-topping album in"
+        },
+        {
+          "qid": "Q23215",
+          "name": "Adele",
+          "dob": "1988-05-05",
+          "publisher": "Official Charts Company",
+          "url": "https://www.officialcharts.com/artist/3710/adele/",
+          "status": 200,
+          "exact": true,
+          "sha256": "52940cbc30caa9f954f5a7ec23b1b517fe50574f8964754aac73416a164a1c98",
+          "publisherCountry": "GB",
+          "excerpt": "100 Loading... ADELE Adele Laurie Blue Adkins (born May 5 1988) is one of the most successful artists of the 21st century. Since emerging in"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q23215",
+        "name": "Adele",
+        "dob": "1988-05-05",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1988-05-05T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "duong-thuy-vi",
+      "name": "Dương Thúy Vi",
+      "qid": "Q18415820",
+      "dob": "1993-05-11",
+      "countryCode": "VN",
+      "sources": [
+        {
+          "qid": "Q18415820",
+          "name": "Dương Thúy Vi",
+          "dob": "1993-05-11",
+          "publisher": "Olympic Council of Asia",
+          "url": "https://www.ocagames.com/HZ_Info/AG2022-/en/results/wushu/athlete-profile-n2029194-duong-thuy-vi.htm",
+          "status": 200,
+          "exact": true,
+          "sha256": "1d2209a1108df492b16430b41fe75557136a2db4371c028863af97e14e41b169",
+          "publisherCountry": "KW",
+          "excerpt": "Thuy Vi Viet Nam Wushu Date of Birth: 11 May 1993 Age: 30 Gender: Female Height ( m / ft ): 1.58/5'2'' Events and Medals"
+        },
+        {
+          "qid": "Q18415820",
+          "name": "Dương Thúy Vi",
+          "dob": "1993-05-11",
+          "publisher": "International World Games Association",
+          "url": "https://swog2013.theworldgames.org/hide/es/0/Pdf/GetResultbookPdf?filename=Resultbook%2FWushu.pdf",
+          "status": 200,
+          "exact": true,
+          "sha256": "af47ae06d528f53102669b737fa0137667223105eda152b951ef72dd8f9f259a",
+          "publisherCountry": "CH",
+          "excerpt": "DUONG Thuy Vi Women's Taolu Jianshu & Qiangshu 11 MAY 1993 NGUYEN Thanh Tung Men's Taolu Taijiquan & Taijijian 22 OCT 1992 NGUYEN Manh Quyen"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q18415820",
+        "name": "Dương Thúy Vi",
+        "dob": "1993-05-11",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1993-05-11T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "que-ngoc-hai",
+      "name": "Quế Ngọc Hải",
+      "qid": "Q18637770",
+      "dob": "1993-05-15",
+      "countryCode": "VN",
+      "sources": [
+        {
+          "qid": "Q18637770",
+          "name": "Quế Ngọc Hải",
+          "dob": "1993-05-15",
+          "publisher": "Asian Football Confederation",
+          "url": "https://assets.the-afc.com/migration/a/f/afc-asian-cup-uae-2019-technical-report-and-statistics",
+          "status": 200,
+          "exact": true,
+          "sha256": "37747b0232326062ad5a0263cdf40408df2e6a0dc28b507b8d6e1879ed5fff4c",
+          "publisherCountry": "MY",
+          "excerpt": "D. D. MANH Defender 3 Que Ngoc Hai 15-05-1993 Q. N. HAI Defender 4 B T Dung 02-10-1995 B. T. DUNG Defender 5 Doan Van"
+        },
+        {
+          "qid": "Q18637770",
+          "name": "Quế Ngọc Hải",
+          "dob": "1993-05-15",
+          "publisher": "FotMob",
+          "url": "https://www.fotmob.com/en-GB/players/504588/ngoc-hai-que",
+          "status": 200,
+          "exact": true,
+          "sha256": "25dfbf17063bbf06eb3c601b8881589184d24636cce6071788359cdad942a2a8",
+          "publisherCountry": "NO",
+          "excerpt": "Da Nẵng Follow Height 8 Shirt 33 years 15 May 1993 Vietnam Country €50k Transfer value Position Primary defender Transfer value : €50k Highest :"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q18637770",
+        "name": "Quế Ngọc Hải",
+        "dob": "1993-05-15",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+1993-05-15T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "luong-thi-thu-thuong",
+      "name": "Lương Thị Thu Thương",
+      "qid": "Q94977310",
+      "dob": "2000-05-01",
+      "countryCode": "VN",
+      "sources": [
+        {
+          "qid": "Q94977310",
+          "name": "Lương Thị Thu Thương",
+          "dob": "2000-05-01",
+          "publisher": "ESPN",
+          "url": "https://www.espn.co.uk/football/player/_/id/343026/luong-thi-thu-thuong",
+          "status": 200,
+          "exact": true,
+          "sha256": "f5424a8ed4fd168e3938f5ec4d6eedeffec543309968197ee24785b9c95e3ee6",
+          "publisherCountry": "US",
+          "edition": "UK",
+          "reviewNote": "UK edition uses day/month/year; date corroborated by OCA roster.",
+          "excerpt": "Vietnam Defender HT/WT 1.68 m, 54 kg Birthdate 1/5/2000 (26) Nationality Vietnam 2026 AFC Women's Asian Cup Stats START (SUB) 1 (1) G 0 A"
+        },
+        {
+          "qid": "Q94977310",
+          "name": "Lương Thị Thu Thương",
+          "dob": "2000-05-01",
+          "publisher": "Olympic Council of Asia",
+          "url": "https://www.ocagames.com/HZ_Info/AG2022-/resAG2022-/pdf/AG2022-/FBL/AG2022-_FBL_C51_FBLWTEAM11------------GPD-000300--.pdf",
+          "status": 200,
+          "exact": true,
+          "sha256": "fc342679ec72a2fa404fbb78243910847840cd760ff193196e98cf7fb00a6281",
+          "reviewNote": "PDF row 2 confirmed against OCA rendered-table extraction; automatic plain text reordered columns.",
+          "publisherCountry": "KW",
+          "excerpt": "2 LUONG Thi Thu Thuong DF 1 MAY 2000"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q94977310",
+        "name": "Lương Thị Thu Thương",
+        "dob": "2000-05-01",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+2000-05-01T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    },
+    {
+      "id": "khuat-van-khang",
+      "name": "Khuất Văn Khang",
+      "qid": "Q113005949",
+      "dob": "2003-05-11",
+      "countryCode": "VN",
+      "sources": [
+        {
+          "qid": "Q113005949",
+          "name": "Khuất Văn Khang",
+          "dob": "2003-05-11",
+          "publisher": "Olympic Council of Asia",
+          "url": "https://www.ocagames.com/HZ_Info/AG2022-/resAG2022-/pdf/AG2022-/FBL/AG2022-_FBL_C51_FBLMTEAM11------------GPB-000100--.pdf",
+          "status": 200,
+          "exact": true,
+          "sha256": "eb49637e79c340adf06ec58e25c392c08067cb701b178d2f02a311cf56e5f0c7",
+          "publisherCountry": "KW",
+          "excerpt": "19 AUG 2004 14 KHUAT van Khang MF 11 MAY 2003 15 NGUYEN Thanh Nhan FW 28 JUL 2003 21 NGUYEN Duc Anh DF 16"
+        },
+        {
+          "qid": "Q113005949",
+          "name": "Khuất Văn Khang",
+          "dob": "2003-05-11",
+          "publisher": "FotMob",
+          "url": "https://www.fotmob.com/en-GB/players/1478892/khuat-van-khang",
+          "status": 200,
+          "exact": true,
+          "sha256": "7d7c5d8b4d395bb3925e9e0f2afcf0e9b21534fb3fb5cdd697849eedb47aa929",
+          "publisherCountry": "NO",
+          "excerpt": "Khang Viettel Follow Height 11 Shirt 23 years 11 May 2003 Left Preferred foot Vietnam Country €92.9k Transfer value Position Primary Left Wing Back LWB"
+        }
+      ],
+      "wikidata": {
+        "qid": "Q113005949",
+        "name": "Khuất Văn Khang",
+        "dob": "2003-05-11",
+        "human": true,
+        "activeBirthClaims": [
+          {
+            "time": "+2003-05-11T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+            "rank": "normal"
+          }
+        ],
+        "pass": true
+      },
+      "identityOnlyUrls": []
+    }
+  ],
+  "baseline": {
+    "baselinePeople": 385,
+    "preservedPeople": 385,
+    "addedPeople": 93,
+    "finalPeople": 478,
+    "baselineEvents": 4,
+    "preservedEvents": 4,
+    "eventDeepEquality": true,
+    "peopleDeepEquality": true,
+    "mayAdditionsByDay": [
+      {
+        "day": 1,
+        "count": 3
+      },
+      {
+        "day": 2,
+        "count": 3
+      },
+      {
+        "day": 3,
+        "count": 3
+      },
+      {
+        "day": 4,
+        "count": 3
+      },
+      {
+        "day": 5,
+        "count": 3
+      },
+      {
+        "day": 6,
+        "count": 3
+      },
+      {
+        "day": 7,
+        "count": 3
+      },
+      {
+        "day": 8,
+        "count": 3
+      },
+      {
+        "day": 9,
+        "count": 3
+      },
+      {
+        "day": 10,
+        "count": 3
+      },
+      {
+        "day": 11,
+        "count": 3
+      },
+      {
+        "day": 12,
+        "count": 3
+      },
+      {
+        "day": 13,
+        "count": 3
+      },
+      {
+        "day": 14,
+        "count": 3
+      },
+      {
+        "day": 15,
+        "count": 3
+      },
+      {
+        "day": 16,
+        "count": 3
+      },
+      {
+        "day": 17,
+        "count": 3
+      },
+      {
+        "day": 18,
+        "count": 3
+      },
+      {
+        "day": 19,
+        "count": 3
+      },
+      {
+        "day": 20,
+        "count": 3
+      },
+      {
+        "day": 21,
+        "count": 3
+      },
+      {
+        "day": 22,
+        "count": 3
+      },
+      {
+        "day": 23,
+        "count": 3
+      },
+      {
+        "day": 24,
+        "count": 3
+      },
+      {
+        "day": 25,
+        "count": 3
+      },
+      {
+        "day": 26,
+        "count": 3
+      },
+      {
+        "day": 27,
+        "count": 3
+      },
+      {
+        "day": 28,
+        "count": 3
+      },
+      {
+        "day": 29,
+        "count": 3
+      },
+      {
+        "day": 30,
+        "count": 3
+      },
+      {
+        "day": 31,
+        "count": 3
+      }
+    ],
+    "vietnamese": 5,
+    "vietnameseShare": 0.053763440860215055,
+    "oldPeopleSha256": "d3a0663eeccb583ca8561bfa40728825d936b9df8ff702c8c6fd74c52ebf8091",
+    "eventsSha256": "721f6fee592c84032fda9665c7809b5df57682c9ce50bfaa6356faad6138cef0"
+  },
+  "smoke": [
+    {
+      "path": "/",
+      "status": 200,
+      "expected": null,
+      "containsExpected": null
+    },
+    {
+      "path": "/today",
+      "status": 200,
+      "expected": null,
+      "containsExpected": null
+    },
+    {
+      "path": "/birthday/1/1",
+      "status": 200,
+      "expected": null,
+      "containsExpected": null
+    },
+    {
+      "path": "/birthday/2/29",
+      "status": 200,
+      "expected": null,
+      "containsExpected": null
+    },
+    {
+      "path": "/birthday/3/31",
+      "status": 200,
+      "expected": null,
+      "containsExpected": null
+    },
+    {
+      "path": "/birthday/4/30",
+      "status": 200,
+      "expected": null,
+      "containsExpected": null
+    },
+    {
+      "path": "/share/15-5",
+      "status": 200,
+      "expected": null,
+      "containsExpected": null
+    },
+    {
+      "path": "/exact/15-5-1993",
+      "status": 200,
+      "expected": "Quế Ngọc Hải",
+      "containsExpected": true
+    },
+    {
+      "path": "/day/5/15",
+      "status": 200,
+      "expected": null,
+      "containsExpected": null
+    },
+    {
+      "path": "/birthday/5/1",
+      "status": 200,
+      "expected": "Arthur Wellesley, 1st Duke of Wellington",
+      "containsExpected": true
+    },
+    {
+      "path": "/birthday/5/1/people",
+      "status": 200,
+      "expected": "Arthur Wellesley, 1st Duke of Wellington",
+      "containsExpected": true
+    },
+    {
+      "path": "/birthday/5/15",
+      "status": 200,
+      "expected": "L. Frank Baum",
+      "containsExpected": true
+    },
+    {
+      "path": "/birthday/5/15/people",
+      "status": 200,
+      "expected": "L. Frank Baum",
+      "containsExpected": true
+    },
+    {
+      "path": "/birthday/5/16",
+      "status": 200,
+      "expected": "Henry Fonda",
+      "containsExpected": true
+    },
+    {
+      "path": "/birthday/5/16/people",
+      "status": 200,
+      "expected": "Henry Fonda",
+      "containsExpected": true
+    },
+    {
+      "path": "/birthday/5/31",
+      "status": 200,
+      "expected": "Walt Whitman",
+      "containsExpected": true
+    },
+    {
+      "path": "/birthday/5/31/people",
+      "status": 200,
+      "expected": "Walt Whitman",
+      "containsExpected": true
+    },
+    {
+      "path": "/person/audrey-hepburn",
+      "status": 200,
+      "expected": "Audrey Hepburn",
+      "containsExpected": true
+    },
+    {
+      "path": "/person/mary-robinson",
+      "status": 200,
+      "expected": "Mary Robinson",
+      "containsExpected": true
+    },
+    {
+      "path": "/person/cher",
+      "status": 200,
+      "expected": "Cher",
+      "containsExpected": true
+    },
+    {
+      "path": "/person/pham-doan-trang",
+      "status": 200,
+      "expected": "Phạm Đoan Trang",
+      "containsExpected": true
+    },
+    {
+      "path": "/person/robert-pattinson",
+      "status": 200,
+      "expected": "Robert Pattinson",
+      "containsExpected": true
+    },
+    {
+      "path": "/person/duong-thuy-vi",
+      "status": 200,
+      "expected": "Dương Thúy Vi",
+      "containsExpected": true
+    },
+    {
+      "path": "/person/que-ngoc-hai",
+      "status": 200,
+      "expected": "Quế Ngọc Hải",
+      "containsExpected": true
+    },
+    {
+      "path": "/person/luong-thi-thu-thuong",
+      "status": 200,
+      "expected": "Lương Thị Thu Thương",
+      "containsExpected": true
+    },
+    {
+      "path": "/person/khuat-van-khang",
+      "status": 200,
+      "expected": "Khuất Văn Khang",
+      "containsExpected": true
+    }
+  ]
+}

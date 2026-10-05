@@ -644,7 +644,7 @@ for (const p of ALL_PEOPLE) {
       'badmintonasia.org', 'jamesjoyce.ie', 'ireland.ie', 'president.ie', 'rte.ie', 'icc-cricket.com', 'aynrand.org', 'dallassymphony.org',
       'mendelssohn-stiftung.de', 'mnhs.org', 'vle.lt', 'uefa.com', 'realmadrid.com', 'baseballhall.org',
       'dickensmuseum.com', 'lauraingallswilderhome.com', 'unesco.org', 'afi.com', 'sonymusic.co.jp',
-      'adk.de', 'invent.org', 'universalmusic.fr', 'bbaw.de', 'prlib.ru', 'snl.no', 'musees-nationaux-alpesmaritimes.fr', 'sciencemuseumgroup.org.uk', 'millercenter.org',
+      'adk.de', 'invent.org', 'universalmusic.fr', 'bbaw.de', 'prlib.ru', 'snl.no', 'musees-nationaux-alpesmaritimes.fr', 'sciencemuseumgroup.org.uk', 'millercenter.org', 'lex.dk', 'kongehuset.dk', 'televisionacademy.com', 'pen-international.org', 'safeguarddefenders.com', 'english-heritage.org.uk', 'theworldgames.org',
     ];
     const hasInstitutionalSource = independentSources.some((u) => {
       const h = getUrlHostname(u);
@@ -1011,6 +1011,507 @@ for (const [qid,urls] of Object.entries(B008_FOREIGN_DOB_SOURCES)) for (const ur
 }
 for (const p of b008Vietnamese) assert('Rule AC', (p.sourceUrls||[]).some(u=>isApprovedB008ForeignDobSource(p.wikidataId||'',u)), `B008 ${p.id} requires an exact reviewed foreign full-DOB source`);
 console.log(`B008 additions: ${B008_NEW_PEOPLE.length}; Vietnamese: ${b008Vietnamese.length}`);
+
+// ------------------------------------------------------------
+// Rule AD: B009 exact May additions, source hosts, and reviewed foreign DOB sources.
+// ------------------------------------------------------------
+console.log('Checking Rule AD: B009 exact profile set, May coverage, balance, and reviewed sources...');
+const B009_APPROVED_PROFILES: Readonly<Record<string, { wikidataId: string; birthDate: string }>> = {
+  "arthur-wellesley-1st-duke-of-wellington": {
+    "wikidataId": "Q131691",
+    "birthDate": "1769-05-01"
+  },
+  "honore-de-balzac": {
+    "wikidataId": "Q9711",
+    "birthDate": "1799-05-20"
+  },
+  "ralph-waldo-emerson": {
+    "wikidataId": "Q48226",
+    "birthDate": "1803-05-25"
+  },
+  "robert-browning": {
+    "wikidataId": "Q233265",
+    "birthDate": "1812-05-07"
+  },
+  "soren-kierkegaard": {
+    "wikidataId": "Q6512",
+    "birthDate": "1813-05-05"
+  },
+  "richard-wagner": {
+    "wikidataId": "Q1511",
+    "birthDate": "1813-05-22"
+  },
+  "karl-marx": {
+    "wikidataId": "Q9061",
+    "birthDate": "1818-05-05"
+  },
+  "victoria": {
+    "wikidataId": "Q9439",
+    "birthDate": "1819-05-24"
+  },
+  "walt-whitman": {
+    "wikidataId": "Q81438",
+    "birthDate": "1819-05-31"
+  },
+  "florence-nightingale": {
+    "wikidataId": "Q37103",
+    "birthDate": "1820-05-12"
+  },
+  "thomas-henry-huxley": {
+    "wikidataId": "Q184366",
+    "birthDate": "1825-05-04"
+  },
+  "henry-dunant": {
+    "wikidataId": "Q12091",
+    "birthDate": "1828-05-08"
+  },
+  "johannes-brahms": {
+    "wikidataId": "Q7294",
+    "birthDate": "1833-05-07"
+  },
+  "santiago-ramon-y-cajal": {
+    "wikidataId": "Q150526",
+    "birthDate": "1852-05-01"
+  },
+  "sigmund-freud": {
+    "wikidataId": "Q9215",
+    "birthDate": "1856-05-06"
+  },
+  "l-frank-baum": {
+    "wikidataId": "Q207544",
+    "birthDate": "1856-05-15"
+  },
+  "ronald-ross": {
+    "wikidataId": "Q102034",
+    "birthDate": "1857-05-13"
+  },
+  "arthur-conan-doyle": {
+    "wikidataId": "Q35610",
+    "birthDate": "1859-05-22"
+  },
+  "theodor-herzl": {
+    "wikidataId": "Q44003",
+    "birthDate": "1860-05-02"
+  },
+  "j-m-barrie": {
+    "wikidataId": "Q81796",
+    "birthDate": "1860-05-09"
+  },
+  "willem-einthoven": {
+    "wikidataId": "Q189488",
+    "birthDate": "1860-05-21"
+  },
+  "erik-satie": {
+    "wikidataId": "Q187192",
+    "birthDate": "1866-05-17"
+  },
+  "bertrand-russell": {
+    "wikidataId": "Q33760",
+    "birthDate": "1872-05-18"
+  },
+  "douglas-fairbanks": {
+    "wikidataId": "Q104127",
+    "birthDate": "1883-05-23"
+  },
+  "harry-s-truman": {
+    "wikidataId": "Q11613",
+    "birthDate": "1884-05-08"
+  },
+  "alfonso-xiii": {
+    "wikidataId": "Q18363",
+    "birthDate": "1886-05-17"
+  },
+  "par-lagerkvist": {
+    "wikidataId": "Q93137",
+    "birthDate": "1891-05-23"
+  },
+  "fred-astaire": {
+    "wikidataId": "Q100937",
+    "birthDate": "1899-05-10"
+  },
+  "gary-cooper": {
+    "wikidataId": "Q93957",
+    "birthDate": "1901-05-07"
+  },
+  "alfred-kastler": {
+    "wikidataId": "Q71023",
+    "birthDate": "1902-05-03"
+  },
+  "bob-hope": {
+    "wikidataId": "Q94081",
+    "birthDate": "1903-05-29"
+  },
+  "salvador-dali": {
+    "wikidataId": "Q5577",
+    "birthDate": "1904-05-11"
+  },
+  "henry-fonda": {
+    "wikidataId": "Q19155",
+    "birthDate": "1905-05-16"
+  },
+  "katharine-hepburn": {
+    "wikidataId": "Q56016",
+    "birthDate": "1907-05-12"
+  },
+  "laurence-olivier": {
+    "wikidataId": "Q55245",
+    "birthDate": "1907-05-22"
+  },
+  "john-wayne": {
+    "wikidataId": "Q40531",
+    "birthDate": "1907-05-26"
+  },
+  "james-stewart": {
+    "wikidataId": "Q102462",
+    "birthDate": "1908-05-20"
+  },
+  "john-bardeen": {
+    "wikidataId": "Q949",
+    "birthDate": "1908-05-23"
+  },
+  "ian-fleming": {
+    "wikidataId": "Q82104",
+    "birthDate": "1908-05-28"
+  },
+  "benny-goodman": {
+    "wikidataId": "Q46755",
+    "birthDate": "1909-05-30"
+  },
+  "dorothy-hodgkin": {
+    "wikidataId": "Q7487",
+    "birthDate": "1910-05-12"
+  },
+  "patrick-white": {
+    "wikidataId": "Q129187",
+    "birthDate": "1912-05-28"
+  },
+  "orson-welles": {
+    "wikidataId": "Q24829",
+    "birthDate": "1915-05-06"
+  },
+  "john-f-kennedy": {
+    "wikidataId": "Q9696",
+    "birthDate": "1917-05-29"
+  },
+  "john-paul-ii": {
+    "wikidataId": "Q989",
+    "birthDate": "1920-05-18"
+  },
+  "satyajit-ray": {
+    "wikidataId": "Q8873",
+    "birthDate": "1921-05-02"
+  },
+  "sophie-scholl": {
+    "wikidataId": "Q76972",
+    "birthDate": "1921-05-09"
+  },
+  "andrei-sakharov": {
+    "wikidataId": "Q997",
+    "birthDate": "1921-05-21"
+  },
+  "christopher-lee": {
+    "wikidataId": "Q180338",
+    "birthDate": "1922-05-27"
+  },
+  "henry-kissinger": {
+    "wikidataId": "Q66107",
+    "birthDate": "1923-05-27"
+  },
+  "malcolm-x": {
+    "wikidataId": "Q43303",
+    "birthDate": "1925-05-19"
+  },
+  "david-attenborough": {
+    "wikidataId": "Q183337",
+    "birthDate": "1926-05-08"
+  },
+  "agnes-varda": {
+    "wikidataId": "Q229990",
+    "birthDate": "1928-05-30"
+  },
+  "audrey-hepburn": {
+    "wikidataId": "Q42786",
+    "birthDate": "1929-05-04"
+  },
+  "peter-higgs": {
+    "wikidataId": "Q192112",
+    "birthDate": "1929-05-29"
+  },
+  "clint-eastwood": {
+    "wikidataId": "Q43203",
+    "birthDate": "1930-05-31"
+  },
+  "james-brown": {
+    "wikidataId": "Q5950",
+    "birthDate": "1933-05-03"
+  },
+  "steven-weinberg": {
+    "wikidataId": "Q179282",
+    "birthDate": "1933-05-03"
+  },
+  "alexey-leonov": {
+    "wikidataId": "Q154269",
+    "birthDate": "1934-05-30"
+  },
+  "dennis-hopper": {
+    "wikidataId": "Q102711",
+    "birthDate": "1936-05-17"
+  },
+  "madeleine-albright": {
+    "wikidataId": "Q174438",
+    "birthDate": "1937-05-15"
+  },
+  "ian-mckellen": {
+    "wikidataId": "Q170510",
+    "birthDate": "1939-05-25"
+  },
+  "joseph-brodsky": {
+    "wikidataId": "Q862",
+    "birthDate": "1940-05-24"
+  },
+  "nora-ephron": {
+    "wikidataId": "Q214677",
+    "birthDate": "1941-05-19"
+  },
+  "bob-dylan": {
+    "wikidataId": "Q392",
+    "birthDate": "1941-05-24"
+  },
+  "george-lucas": {
+    "wikidataId": "Q38222",
+    "birthDate": "1944-05-14"
+  },
+  "mary-robinson": {
+    "wikidataId": "Q188214",
+    "birthDate": "1944-05-21"
+  },
+  "claudia-goldin": {
+    "wikidataId": "Q1097475",
+    "birthDate": "1946-05-14"
+  },
+  "cher": {
+    "wikidataId": "Q12003",
+    "birthDate": "1946-05-20"
+  },
+  "billy-joel": {
+    "wikidataId": "Q194333",
+    "birthDate": "1949-05-09"
+  },
+  "stevie-wonder": {
+    "wikidataId": "Q714",
+    "birthDate": "1950-05-13"
+  },
+  "sally-ride": {
+    "wikidataId": "Q49285",
+    "birthDate": "1951-05-26"
+  },
+  "pierce-brosnan": {
+    "wikidataId": "Q81520",
+    "birthDate": "1953-05-16"
+  },
+  "bono": {
+    "wikidataId": "Q834621",
+    "birthDate": "1960-05-10"
+  },
+  "george-clooney": {
+    "wikidataId": "Q23844",
+    "birthDate": "1961-05-06"
+  },
+  "janet-jackson": {
+    "wikidataId": "Q131324",
+    "birthDate": "1966-05-16"
+  },
+  "frederik-x-of-denmark": {
+    "wikidataId": "Q1004037",
+    "birthDate": "1968-05-26"
+  },
+  "kylie-minogue": {
+    "wikidataId": "Q11998",
+    "birthDate": "1968-05-28"
+  },
+  "dennis-bergkamp": {
+    "wikidataId": "Q185389",
+    "birthDate": "1969-05-10"
+  },
+  "cate-blanchett": {
+    "wikidataId": "Q80966",
+    "birthDate": "1969-05-14"
+  },
+  "tina-fey": {
+    "wikidataId": "Q14540",
+    "birthDate": "1970-05-18"
+  },
+  "david-beckham": {
+    "wikidataId": "Q10520",
+    "birthDate": "1975-05-02"
+  },
+  "cillian-murphy": {
+    "wikidataId": "Q202589",
+    "birthDate": "1976-05-25"
+  },
+  "colin-farrell": {
+    "wikidataId": "Q172035",
+    "birthDate": "1976-05-31"
+  },
+  "pham-doan-trang": {
+    "wikidataId": "Q51120734",
+    "birthDate": "1978-05-27"
+  },
+  "andrea-pirlo": {
+    "wikidataId": "Q43926",
+    "birthDate": "1979-05-19"
+  },
+  "robert-pattinson": {
+    "wikidataId": "Q36767",
+    "birthDate": "1986-05-13"
+  },
+  "cesc-fabregas": {
+    "wikidataId": "Q17499",
+    "birthDate": "1987-05-04"
+  },
+  "adele": {
+    "wikidataId": "Q23215",
+    "birthDate": "1988-05-05"
+  },
+  "duong-thuy-vi": {
+    "wikidataId": "Q18415820",
+    "birthDate": "1993-05-11"
+  },
+  "que-ngoc-hai": {
+    "wikidataId": "Q18637770",
+    "birthDate": "1993-05-15"
+  },
+  "luong-thi-thu-thuong": {
+    "wikidataId": "Q94977310",
+    "birthDate": "2000-05-01"
+  },
+  "khuat-van-khang": {
+    "wikidataId": "Q113005949",
+    "birthDate": "2003-05-11"
+  }
+};
+const B009_APPROVED_QIDS = new Set(Object.values(B009_APPROVED_PROFILES).map((x) => x.wikidataId));
+const B009_NEW_PEOPLE = ALL_PEOPLE.filter((p) => p.birthMonth === 5 && p.verifiedAt === '2026-10-05');
+const B009_NEW_IDS = new Set(B009_NEW_PEOPLE.map((p) => p.id));
+assert('Rule AD', B009_NEW_PEOPLE.length === 93, `B009 requires exactly 93 new May profiles, found ${B009_NEW_PEOPLE.length}`);
+assert('Rule AD', Object.keys(B009_APPROVED_PROFILES).length === 93 && B009_APPROVED_QIDS.size === 93 && B009_NEW_IDS.size === 93, 'B009 approved profile IDs must be exact and unique');
+assert('Rule AD', B009_NEW_PEOPLE.every((p) => Object.hasOwn(B009_APPROVED_PROFILES, p.id)), 'B009 additions must match only the approved ID list');
+assert('Rule AD', B009_NEW_PEOPLE.length === Object.keys(B009_APPROVED_PROFILES).length, 'B009 must contain every approved ID exactly once');
+for (const p of B009_NEW_PEOPLE) {
+  const expected = B009_APPROVED_PROFILES[p.id];
+  assert('Rule AD', Boolean(expected), `Unapproved B009 ID: ${p.id}`);
+  if (expected) {
+    assert('Rule AD', p.wikidataId === expected.wikidataId, `B009 ${p.id} expected ${expected.wikidataId}, got ${p.wikidataId}`);
+    assert('Rule AD', p.birthDate === expected.birthDate, `B009 ${p.id} expected DOB ${expected.birthDate}, got ${p.birthDate}`);
+  }
+  assert('Rule AD', p.birthMonth === 5 && /^\d{4}-05-\d{2}$/.test(p.birthDate), `B009 ${p.id} must be a May record`);
+  assert('Rule AD', p.birthYear === Number(p.birthDate.slice(0,4)) && p.birthMonth === Number(p.birthDate.slice(5,7)) && p.birthDay === Number(p.birthDate.slice(8,10)), `B009 ${p.id} split date fields must match birthDate`);
+}
+assert('Rule AD', new Set(B009_NEW_PEOPLE.map((p) => p.wikidataId)).size === 93, 'B009 Wikidata IDs must be unique');
+for (let day=1; day<=31; day++) {
+  const count = B009_NEW_PEOPLE.filter((p) => p.birthDay === day).length;
+  assert('Rule AD', count === 3, `B009 May ${day} must have exactly 3 new profiles, found ${count}`);
+}
+const b009Vietnamese = B009_NEW_PEOPLE.filter((p) => p.countryCode === 'VN');
+assert('Rule AD', b009Vietnamese.length === 5, `B009 Vietnamese count must be 5, found ${b009Vietnamese.length}`);
+assert('Rule AD', b009Vietnamese.length / B009_NEW_PEOPLE.length >= 0.05, `B009 Vietnamese share must be at least 5%; found ${b009Vietnamese.length}/${B009_NEW_PEOPLE.length}`);
+assert('Rule AD', ALL_PEOPLE.length === 478, `B009 total people must be 478 after adding 93, found ${ALL_PEOPLE.length}`);
+assert('Rule AD', HISTORY_EVENTS.length === 4, `B009 must preserve all 4 events, found ${HISTORY_EVENTS.length}`);
+
+for (const p of B009_NEW_PEOPLE) {
+  const nonWiki = (p.sourceUrls || []).filter((u) => {
+    const h = getUrlHostname(u);
+    return h && !h.endsWith('wikipedia.org') && !h.endsWith('wikidata.org') && !h.endsWith('wikimedia.org');
+  });
+  const hosts = new Set(nonWiki.map(getUrlHostname));
+  assert('Rule AD', p.sourceUrls?.includes(`https://www.wikidata.org/wiki/${p.wikidataId}`) === true, `B009 ${p.id} requires its exact Wikidata URL`);
+  assert('Rule AD', hosts.size >= 2, `B009 ${p.id} needs two independent non-Wikidata hosts, found ${hosts.size}`);
+}
+
+const B009_FOREIGN_VN_DOB_SOURCES: Readonly<Record<string, readonly {url:string; publisherCountry:string}[]>> = {
+  "Q51120734": [
+    {
+      "url": "https://www.pen-international.org/cases/pham-doan-trang",
+      "publisherCountry": "GB"
+    },
+    {
+      "url": "https://safeguarddefenders.com/sites/default/files/pdf/MAGNITSKY%20VN%20Single%20paging.pdf",
+      "publisherCountry": "ES"
+    }
+  ],
+  "Q18415820": [
+    {
+      "url": "https://www.ocagames.com/HZ_Info/AG2022-/en/results/wushu/athlete-profile-n2029194-duong-thuy-vi.htm",
+      "publisherCountry": "KW"
+    },
+    {
+      "url": "https://swog2013.theworldgames.org/hide/es/0/Pdf/GetResultbookPdf?filename=Resultbook%2FWushu.pdf",
+      "publisherCountry": "CH"
+    }
+  ],
+  "Q18637770": [
+    {
+      "url": "https://assets.the-afc.com/migration/a/f/afc-asian-cup-uae-2019-technical-report-and-statistics",
+      "publisherCountry": "MY"
+    },
+    {
+      "url": "https://www.fotmob.com/en-GB/players/504588/ngoc-hai-que",
+      "publisherCountry": "NO"
+    }
+  ],
+  "Q94977310": [
+    {
+      "url": "https://www.espn.co.uk/football/player/_/id/343026/luong-thi-thu-thuong",
+      "publisherCountry": "GB"
+    },
+    {
+      "url": "https://www.ocagames.com/HZ_Info/AG2022-/resAG2022-/pdf/AG2022-/FBL/AG2022-_FBL_C51_FBLWTEAM11------------GPD-000300--.pdf",
+      "publisherCountry": "KW"
+    }
+  ],
+  "Q113005949": [
+    {
+      "url": "https://www.ocagames.com/HZ_Info/AG2022-/resAG2022-/pdf/AG2022-/FBL/AG2022-_FBL_C51_FBLMTEAM11------------GPB-000100--.pdf",
+      "publisherCountry": "KW"
+    },
+    {
+      "url": "https://www.fotmob.com/en-GB/players/1478892/khuat-van-khang",
+      "publisherCountry": "NO"
+    }
+  ]
+};
+function isApprovedB009ForeignDobSource(qid: string, url: string): boolean {
+  return B009_FOREIGN_VN_DOB_SOURCES[qid]?.some((source) => source.url === url) ?? false;
+}
+for (const [qid, sources] of Object.entries(B009_FOREIGN_VN_DOB_SOURCES)) {
+  for (const source of sources) {
+    const host = getUrlHostname(source.url);
+    assert('Rule AD source metadata', source.publisherCountry !== 'VN' && Boolean(host) && !host.endsWith('.vn'), `B009 Vietnamese DOB publisher must be outside Vietnam: ${source.url}`);
+    assert('Rule AD source positive', isApprovedB009ForeignDobSource(qid, source.url), `Reviewed foreign source must pass: ${source.url}`);
+    assert('Rule AD source negative', !isApprovedB009ForeignDobSource('Q0', source.url), `Foreign source cannot approve a different QID: ${source.url}`);
+    assert('Rule AD source negative', !isApprovedB009ForeignDobSource(qid, `${source.url}#unreviewed`), 'Unreviewed fragment must fail');
+    const queryVariant = source.url.includes('?') ? `${source.url}&unreviewed=1` : `${source.url}?unreviewed=1`;
+    assert('Rule AD source negative', !isApprovedB009ForeignDobSource(qid, queryVariant), 'Unreviewed query variant must fail');
+    assert('Rule AD source negative', !isApprovedB009ForeignDobSource(qid, new URL('/unreviewed', source.url).href), 'Unreviewed path must fail');
+    const spoof = new URL(source.url); spoof.hostname += '.evil.example';
+    assert('Rule AD source negative', !isApprovedB009ForeignDobSource(qid, spoof.href), 'Lookalike host must fail');
+    assert('Rule AD source negative', !isApprovedB009ForeignDobSource(qid, 'not-a-url'), 'Malformed URL must fail');
+  }
+}
+for (const p of b009Vietnamese) {
+  const sources = B009_FOREIGN_VN_DOB_SOURCES[p.wikidataId || ''] || [];
+  assert('Rule AD foreign DOB', sources.length >= 2, `B009 ${p.id} needs two reviewed foreign DOB URLs`);
+  for (const source of sources) {
+    assert('Rule AD foreign DOB', (p.sourceUrls || []).includes(source.url), `B009 ${p.id} must include reviewed DOB source ${source.url}`);
+  }
+  for (const url of p.sourceUrls || []) {
+    const host = getUrlHostname(url);
+    if (host === 'wikidata.org' || host?.endsWith('.wikidata.org')) continue;
+    assert('Rule AD foreign DOB', !host?.endsWith('.vn'), `B009 ${p.id} must not use a Vietnam-hosted source: ${url}`);
+  }
+}
+console.log(`B009 additions: ${B009_NEW_PEOPLE.length}; Vietnamese: ${b009Vietnamese.length}; Vietnamese share: ${(b009Vietnamese.length/B009_NEW_PEOPLE.length*100).toFixed(2)}%`);
+
 
 // ------------------------------------------------------------
 // Summary
