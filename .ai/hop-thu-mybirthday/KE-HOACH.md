@@ -50,3 +50,12 @@ Chủ dự án yêu cầu tiếp tục tháng4 ngày2026-10-05. B007 đã DAT v�
 Chủ dự án yêu cầu lập kế hoạch và tự thực hiện 2026-10-05; review đối chiếu chính xác trước khi nhập database. Task đã review: `.ai/hop-thu-mybirthday/viec/B009-people-may-01-31.md`. Tiêu chí cao hơn vòng trước: 3 hồ sơ/ngày × 31; ít nhất 5% người Việt; mỗi hồ sơ có Wikidata chính xác và hai nhà xuất bản độc lập đều xác nhận full DOB; người Việt có hai nguồn full DOB ngoài Việt Nam. Đã lưu danh sách/captures và loại ứng viên chưa đủ nguồn trước khi tích hợp. B009 được chốt theo review r1; chỉ thêm `PEOPLE_05`, chưa mở tháng 6.
 
 06/10/2026 B009 review r1 DAT cho 93 hồ sơ tháng 5: 5 VN/88 quốc tế, 191 nguồn DOB, strict claims 93/93, Wikidata 478/478, baseline 385+4, smoke 26/26 và cổng kỹ thuật đạt. Sửa metadata publisher ES và excerpt sai người của Almanac; công khai giới hạn nguồn đăng ký thể thao. Tổng 478 người/155 ngày. URL toàn ứng dụng còn 5 lỗi legacy trong snapshot, ngoài phần phát hành B009. Chủ dự án duyệt push phần đạt; dừng sau xác nhận remote, chưa giao tháng 6.
+
+
+## B010 — tháng 6 (BV-011, ACCEPTED)
+
+Chủ dự án yêu cầu tiếp tục mở rộng sau khi B009 được ACCEPTED/push `897331b`. Mở B010 cho 1–30/6, mục tiêu90 (3/ngày), tối thiểu5%VN; 2 publisher ngoàiWiki chứng minh DOB đầy đủ mỗi người; hồ sơ Việt có2 publisher đặt ngoài Việt Nam. Không thêm hồ sơ chưa đạt; bảo toàn478 người+4 events; không mở tháng7 trong cycle.
+
+06/10/2026 B010 review r1 PASS: thêm90 hồ sơ (85 quốc tế/5 Việt,5,56%), đúng3/ngày. 180/180 trang DOB direct HTTP200, exact identity/full DOB; P31 human và P569 Gregorian precision11 khớp90/90; 3 hồ sơ có thêm claim năm nhất quán. Nguồn Việt có country proof nước ngoài; AFC Phan Văn Long là context-only. Joseph Kabila bị loại và thay Bronisław Komorowski do nghi vấn DOB nguồn.
+
+Tổng568 người/184 ngày; tháng6 phủ30/30; baseline478 +4 events deep-equal. Rule AE không nới A–AD. Integrity, Wikidata568/568, tsc/lint/build/coverage, smoke9/9 và diffcheck đạt. Global URL scan 1734 kiểm/12 lỗi đầu/0 manual pending; hai URL Wikidata B010 timeout được retry 200; mọi DOB/context B010 trả200. Reviewer Attention còn10 URL lỗi ngoài B010; không tự sửa tháng khác. Evidence `review/B010-evidence.json`, review `review/B010-people-jun-01-30-r1.md`, report `xong/B010-people-jun-01-30.md`. Được phép push phần đạt theo chỉ thị chủ dự án; xác nhận remote rồi dừng, chưa mở tháng7.

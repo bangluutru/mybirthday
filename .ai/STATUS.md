@@ -2,14 +2,15 @@
 
 ## Current cycle
 
-Cycle: BV-010
-State: ACCEPTED — B009-r1 DAT đối với tập bổ sung tháng 5.
-Task: `.ai/hop-thu-mybirthday/viec/B009-people-may-01-31.md`.
-Review: `.ai/hop-thu-mybirthday/review/B009-people-may-01-31-r1.md`.
-Result: 93 người mới (88 quốc tế/5 Việt, 5,38%), 3/ngày trên 31 ngày. Tổng 478 người/155 ngày phủ; 385 người cũ + 4 sự kiện giữ nguyên.
-Factual review: 191 tài liệu xác nhận full DOB; hai publisher mỗi người, giới hạn dữ liệu đăng ký thể thao chung được ghi rõ; claims Wikidata 93/93 human/Gregorian đúng.
-Validation: Rules A–AD, Wikidata 478/478, tsc/lint/build/coverage, baseline equality, smoke 26/26 và diff check đạt. Kết quả URL B009 ghi trong review/B009-validation.json; cổng toàn ứng dụng có 5 lỗi legacy chưa sửa.
-Git: đã duyệt commit/push theo chủ dự án; kết quả xác nhận remote được báo ở phản hồi cuối. Không mở tháng 6.
+Cycle: BV-011
+State: ACCEPTED — B010-r1 PASS ngày 2026-10-06; phần dữ liệu được duyệt phát hành.
+Task: `.ai/hop-thu-mybirthday/viec/B010-people-jun-01-30.md`.
+Scope/acceptance: 1–30/6; mục tiêu 90 hồ sơ, 3/ngày; tối thiểu 5% Việt Nam; 2 publisher ngoài Wikidata xác nhận exact DOB từng người; hồ sơ Việt có 2 nguồn publisher ngoài Việt Nam. P31/P569 exact Gregorian; review claims/ranks/conflicts; chỉ nhập sau factual review.
+Baseline từ `origin/main`: 478 people, 4 history events, 155/366 ngày phủ; mục tiêu sau 90 hồ sơ là 568 người và 184/366 ngày. Baseline đã có hồ sơ ngày 28/6 nên 30 ngày tháng 6 chỉ tăng thêm 29 ngày phủ.
+Result: tích hợp 90 hồ sơ mới (85 quốc tế/5 Việt, 5,56%), đúng 3/ngày. Tổng 568 người, tháng 6 phủ 30/30 ngày, tổng coverage 184/366. Deep equality giữ 478 hồ sơ nền + 4 events.
+Review/evidence: `.ai/hop-thu-mybirthday/review/B010-people-jun-01-30-r1.md` và `B010-evidence.json`; báo cáo executor ở `xong/B010-people-jun-01-30.md`.
+Validation: integrity, Wikidata 568/568, TypeScript, lint, build, coverage, smoke 9/9 và diffcheck đạt. URL scan toàn app kiểm 1.734 URL/12 lỗi ban đầu/0 manual pending; hai timeout B010 thử lại 200, nguồn DOB/context B010 đều 200. Cảnh báo URL còn lại ngoài scope, không tuyên bố global clean.
+Prior-cycle Reviewer Attention: URL legacy từ các tháng trước không được sửa trong B010.
 
 ## Earlier completed cycle — B008
 

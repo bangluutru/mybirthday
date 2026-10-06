@@ -1,5 +1,6 @@
 import { ALL_PEOPLE, HISTORY_EVENTS, HISTORY_EVENTS_22_FEB, getBirthdayData } from '../src/data/birthdays';
 import { isAdultOnDate, isValidIsoDate } from './wikidata-candidates';
+import { createHash } from 'node:crypto';
 
 interface Failure {
   suite: string;
@@ -635,7 +636,7 @@ for (const p of ALL_PEOPLE) {
       'premierleague.com', 'vntaiwan.catholic.org.tw', 'catholic-hierarchy.org', 'nts.org.uk', 'cidob.org',
       'britishlibrary.cn', 'virginiawoolfsociety.org.uk', 'macarthurmemorial.org', 'adb.anu.edu.au',
       'californiamuseum.org', 'nhl.com', 'hhof.com', 'mozarteum.at', 'salzburg.info', 'dhm.de',
-      'awm.gov.au', 'pkf.org', 'archives-nationales.culture.gouv.fr', 'prlib.ru', 'tgliamz.ru',
+      'awm.gov.au', 'pkf.org', 'archives-nationales.culture.gouv.fr', 'prlib.ru', 'paralymp.ru', 'tgliamz.ru',
       'ictp.it', 'fdrlibrary.org', 'sok.riksarkivet.se', 'nationalacademies.org', 'oeaw.ac.at',
       'austria.info', 'koninklijkhuis.nl', 'annefrank.org', 'yadvashem-france.org', 'ajpn.org',
       'tempestjapan.com', 'yhent.co.kr', 'ncapec.org', 'ocagames.com', 'the-afc.com',
@@ -1415,7 +1416,8 @@ for (let day=1; day<=31; day++) {
 const b009Vietnamese = B009_NEW_PEOPLE.filter((p) => p.countryCode === 'VN');
 assert('Rule AD', b009Vietnamese.length === 5, `B009 Vietnamese count must be 5, found ${b009Vietnamese.length}`);
 assert('Rule AD', b009Vietnamese.length / B009_NEW_PEOPLE.length >= 0.05, `B009 Vietnamese share must be at least 5%; found ${b009Vietnamese.length}/${B009_NEW_PEOPLE.length}`);
-assert('Rule AD', ALL_PEOPLE.length === 478, `B009 total people must be 478 after adding 93, found ${ALL_PEOPLE.length}`);
+const b010CycleDatedProfiles = ALL_PEOPLE.filter((p) => p.birthMonth === 6 && p.verifiedAt === '2026-10-06');
+assert('Rule AD', ALL_PEOPLE.length - b010CycleDatedProfiles.length === 478, `B009 baseline must remain 478 after excluding B010-dated June additions, found ${ALL_PEOPLE.length - b010CycleDatedProfiles.length}`);
 assert('Rule AD', HISTORY_EVENTS.length === 4, `B009 must preserve all 4 events, found ${HISTORY_EVENTS.length}`);
 
 for (const p of B009_NEW_PEOPLE) {
@@ -1511,6 +1513,1430 @@ for (const p of b009Vietnamese) {
   }
 }
 console.log(`B009 additions: ${B009_NEW_PEOPLE.length}; Vietnamese: ${b009Vietnamese.length}; Vietnamese share: ${(b009Vietnamese.length/B009_NEW_PEOPLE.length*100).toFixed(2)}%`);
+
+
+const B010_APPROVED_PROFILES: Readonly<Record<string, { wikidataId: string; birthDate: string; dobSources: readonly { url: string; publisher: string; publisherCountry?: string; countryProofUrl?: string }[]; additionalSourceUrls?: readonly string[] }>> =
+{
+  "marilyn-monroe": {
+    "wikidataId": "Q4616",
+    "birthDate": "1926-06-01",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Marilyn_Monroe",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/monroe-marilyn",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "norman-foster": {
+    "wikidataId": "Q104898",
+    "birthDate": "1935-06-01",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Norman_Foster",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/foster-norman",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "phan-van-long": {
+    "wikidataId": "Q19662437",
+    "birthDate": "1996-06-01",
+    "dobSources": [
+      {
+        "url": "https://www.transfermarkt.co.uk/van-long-phan/profil/spieler/573733",
+        "publisher": "Transfermarkt",
+        "publisherCountry": "DE",
+        "countryProofUrl": "https://www.transfermarkt.com/intern/"
+      },
+      {
+        "url": "https://sg.soccerway.com/player/phan-van-long/M1z6otVh/",
+        "publisher": "Soccerway / Stats Perform",
+        "publisherCountry": "GB",
+        "countryProofUrl": "https://www.statsperform.com/legal/special-category-data-policy/"
+      }
+    ],
+    "additionalSourceUrls": [
+      "https://www.the-afc.com/en/more/news/afc_u-19_championship_md2_vietnam_1-3_japan.html"
+    ]
+  },
+  "thomas-hardy": {
+    "wikidataId": "Q132805",
+    "birthDate": "1840-06-02",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Thomas_Hardy",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/hardy-thomas",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "johnny-weissmuller": {
+    "wikidataId": "Q151284",
+    "birthDate": "1904-06-02",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Johnny_Weissmuller",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/weissmuller-johnny",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "sergio-aguero": {
+    "wikidataId": "Q119562",
+    "birthDate": "1988-06-02",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Sergio_Ag%C3%BCero",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.fcbarcelona.com/en/football/first-team/players/4328/sergio-aguero",
+        "publisher": "FC Barcelona"
+      }
+    ]
+  },
+  "rafael-nadal": {
+    "wikidataId": "Q10132",
+    "birthDate": "1986-06-03",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Rafael_Nadal",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/nadal-rafael",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "josephine-baker": {
+    "wikidataId": "Q151972",
+    "birthDate": "1906-06-03",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Josephine_Baker",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/baker-josephine",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "allen-ginsberg": {
+    "wikidataId": "Q6711",
+    "birthDate": "1926-06-03",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Allen_Ginsberg",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/ginsberg-allen",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "francois-quesnay": {
+    "wikidataId": "Q13575",
+    "birthDate": "1694-06-04",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Fran%C3%A7ois_Quesnay",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/quesnay-francois",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "bronis-aw-komorowski": {
+    "wikidataId": "Q42939",
+    "birthDate": "1952-06-04",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Bronis%C5%82aw_Komorowski",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/komorowski-bronislaw",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "lorenzo-insigne": {
+    "wikidataId": "Q1756086",
+    "birthDate": "1991-06-04",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Lorenzo_Insigne",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.torontofc.ca/players/lorenzo-insigne/",
+        "publisher": "Toronto FC"
+      }
+    ]
+  },
+  "john-maynard-keynes": {
+    "wikidataId": "Q9317",
+    "birthDate": "1883-06-05",
+    "dobSources": [
+      {
+        "url": "https://snl.no/John_Maynard_Keynes",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/keynes-john-maynard",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "federico-garcia-lorca": {
+    "wikidataId": "Q41408",
+    "birthDate": "1898-06-05",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Federico_Garc%C3%ADa_Lorca",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/garcia-lorca-federico",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "pham-thi-thao": {
+    "wikidataId": "Q2202972",
+    "birthDate": "1989-06-05",
+    "dobSources": [
+      {
+        "url": "https://www.ocagames.com/HZ_Info/AG2022-/en/results/rowing/athlete-profile-n2009980-pham-thi-thao.htm",
+        "publisher": "Olympic Council of Asia",
+        "publisherCountry": "KW",
+        "countryProofUrl": "https://oca.asia/council/oca-headquarters/"
+      },
+      {
+        "url": "https://digital.la84.org/digital/api/collection/p17103coll8/id/82424/download",
+        "publisher": "LA84 Foundation / London 2012 Official Report",
+        "publisherCountry": "US",
+        "countryProofUrl": "https://www.la84.org/privacy-policy"
+      }
+    ]
+  },
+  "thomas-mann": {
+    "wikidataId": "Q37030",
+    "birthDate": "1875-06-06",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Thomas_Mann",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/mann-thomas",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "sukarno": {
+    "wikidataId": "Q76127",
+    "birthDate": "1901-06-06",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Sukarno",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/sukarno",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "karl-ferdinand-braun": {
+    "wikidataId": "Q57077",
+    "birthDate": "1850-06-06",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Karl_Ferdinand_Braun",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/braun-karl-ferdinand",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "orhan-pamuk": {
+    "wikidataId": "Q241248",
+    "birthDate": "1952-06-07",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Orhan_Pamuk",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/pamuk-orhan",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "paul-gauguin": {
+    "wikidataId": "Q37693",
+    "birthDate": "1848-06-07",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Paul_Gauguin",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/gauguin-paul",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "mike-pence": {
+    "wikidataId": "Q24313",
+    "birthDate": "1959-06-07",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Mike_Pence",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.theguardian.com/us-news/2016/oct/04/mike-pence-tim-kaine-facts-vp-debate-trump-clinton",
+        "publisher": "www.theguardian.com"
+      }
+    ]
+  },
+  "tim-berners-lee": {
+    "wikidataId": "Q80",
+    "birthDate": "1955-06-08",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Tim_Berners-Lee",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.w3.org/People/Berners-Lee/Longer.html",
+        "publisher": "www.w3.org"
+      }
+    ]
+  },
+  "francis-crick": {
+    "wikidataId": "Q123280",
+    "birthDate": "1916-06-08",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Francis_Crick",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/crick-francis-harry-compton",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "suharto": {
+    "wikidataId": "Q44819",
+    "birthDate": "1921-06-08",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Suharto",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/suharto",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "johnny-depp": {
+    "wikidataId": "Q37175",
+    "birthDate": "1963-06-09",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Johnny_Depp",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/depp-johnny",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "bertha-von-suttner": {
+    "wikidataId": "Q18456",
+    "birthDate": "1843-06-09",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Bertha_von_Suttner",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/suttner-bertha-von",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "george-stephenson": {
+    "wikidataId": "Q133614",
+    "birthDate": "1781-06-09",
+    "dobSources": [
+      {
+        "url": "https://snl.no/George_Stephenson",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/stephenson-george",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "judy-garland": {
+    "wikidataId": "Q11637",
+    "birthDate": "1922-06-10",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Judy_Garland",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/garland-judy",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "carlo-ancelotti": {
+    "wikidataId": "Q174614",
+    "birthDate": "1959-06-10",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Carlo_Ancelotti",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/ancelotti-carlo",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "nguyen-van-lai": {
+    "wikidataId": "Q48225677",
+    "birthDate": "1986-06-10",
+    "dobSources": [
+      {
+        "url": "https://worldathletics.org/athletes/vietnam/van-lai-nguyen-14379365",
+        "publisher": "World Athletics",
+        "publisherCountry": "MC",
+        "countryProofUrl": "https://worldathletics.org/organisation/our-organisation/structure/headquarters"
+      },
+      {
+        "url": "https://www.ocagames.com/OCA/cache/17ag/AT/par.AT.VIE.5106368.html",
+        "publisher": "Olympic Council of Asia",
+        "publisherCountry": "KW",
+        "countryProofUrl": "https://oca.asia/council/oca-headquarters/"
+      }
+    ]
+  },
+  "richard-strauss": {
+    "wikidataId": "Q13894",
+    "birthDate": "1864-06-11",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Richard_Strauss",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/strauss-richard",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "john-constable": {
+    "wikidataId": "Q159297",
+    "birthDate": "1776-06-11",
+    "dobSources": [
+      {
+        "url": "https://snl.no/John_Constable",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/constable-john",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "gene-wilder": {
+    "wikidataId": "Q191966",
+    "birthDate": "1933-06-11",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Gene_Wilder",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.televisionacademy.com/bios/gene-wilder",
+        "publisher": "Television Academy"
+      }
+    ]
+  },
+  "anne-frank": {
+    "wikidataId": "Q4583",
+    "birthDate": "1929-06-12",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Anne_Frank",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/frank-anne",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "johanna-spyri": {
+    "wikidataId": "Q123053",
+    "birthDate": "1827-06-12",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Johanna_Spyri",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/spyri-johanna",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "anthony-eden": {
+    "wikidataId": "Q128995",
+    "birthDate": "1897-06-12",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Anthony_Eden",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/eden-anthony-robert",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "james-clerk-maxwell": {
+    "wikidataId": "Q9095",
+    "birthDate": "1831-06-13",
+    "dobSources": [
+      {
+        "url": "https://snl.no/James_Clerk_Maxwell",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/maxwell-james-clerk",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "luis-walter-alvarez": {
+    "wikidataId": "Q178344",
+    "birthDate": "1911-06-13",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Luis_Walter_Alvarez",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/alvarez-luis-walter",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "paavo-nurmi": {
+    "wikidataId": "Q101942",
+    "birthDate": "1897-06-13",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Paavo_Nurmi",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/nurmi-paavo",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "donald-trump": {
+    "wikidataId": "Q22686",
+    "birthDate": "1946-06-14",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Donald_Trump",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/trump-donald",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "harriet-beecher-stowe": {
+    "wikidataId": "Q102513",
+    "birthDate": "1811-06-14",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Harriet_Beecher_Stowe",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/stowe-harriet-beecher",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "karl-landsteiner": {
+    "wikidataId": "Q84405",
+    "birthDate": "1868-06-14",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Karl_Landsteiner",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/landsteiner-karl",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "edvard-grieg": {
+    "wikidataId": "Q80621",
+    "birthDate": "1843-06-15",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Edvard_Grieg",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/grieg-edvard",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "michael-laudrup": {
+    "wikidataId": "Q188720",
+    "birthDate": "1964-06-15",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Michael_Laudrup",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.transfermarkt.co.uk/michael-laudrup/leistungsdaten/spieler/8023",
+        "publisher": "www.transfermarkt.co.uk"
+      }
+    ]
+  },
+  "alain-aspect": {
+    "wikidataId": "Q364997",
+    "birthDate": "1947-06-15",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Alain_Aspect",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/aspect-alain",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "jurgen-klopp": {
+    "wikidataId": "Q83106",
+    "birthDate": "1967-06-16",
+    "dobSources": [
+      {
+        "url": "https://snl.no/J%C3%BCrgen_Klopp",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/klopp-jurgen",
+        "publisher": "brockhaus.de"
+      }
+    ]
+  },
+  "stan-laurel": {
+    "wikidataId": "Q72869",
+    "birthDate": "1890-06-16",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Stan_Laurel",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/stanlio-i-olio",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "tupac-shakur": {
+    "wikidataId": "Q6107",
+    "birthDate": "1971-06-16",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Tupac_Shakur",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.biography.com/musicians/tupac-shakur",
+        "publisher": "Biography.com"
+      }
+    ]
+  },
+  "eddy-merckx": {
+    "wikidataId": "Q103756",
+    "birthDate": "1945-06-17",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Eddy_Merckx",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/merckx-eddy",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "francois-jacob": {
+    "wikidataId": "Q218311",
+    "birthDate": "1920-06-17",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Fran%C3%A7ois_Jacob",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/jacob-francois",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "william-crookes": {
+    "wikidataId": "Q189552",
+    "birthDate": "1832-06-17",
+    "dobSources": [
+      {
+        "url": "https://snl.no/William_Crookes",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/crookes-william",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "paul-mccartney": {
+    "wikidataId": "Q2599",
+    "birthDate": "1942-06-18",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Paul_McCartney",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/mccartney-paul",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "kaja-kallas": {
+    "wikidataId": "Q11869065",
+    "birthDate": "1977-06-18",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Kaja_Kallas",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.valitsus.ee/en/prime-minister-ministers/prime-minister-kaja-kallas",
+        "publisher": "Government of Estonia"
+      }
+    ]
+  },
+  "lech-kaczynski": {
+    "wikidataId": "Q2757",
+    "birthDate": "1949-06-18",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Lech_Kaczy%C5%84ski",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/kaczynski-lech",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "blaise-pascal": {
+    "wikidataId": "Q1290",
+    "birthDate": "1623-06-19",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Blaise_Pascal",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/pascal-blaise",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "salman-rushdie": {
+    "wikidataId": "Q44306",
+    "birthDate": "1947-06-19",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Salman_Rushdie",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/rushdie-salman",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "dirk-nowitzki": {
+    "wikidataId": "Q44068",
+    "birthDate": "1978-06-19",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Dirk_Nowitzki",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.espn.com/nba/player/_/id/609/dirk-nowitzki",
+        "publisher": "www.espn.com"
+      }
+    ]
+  },
+  "nicole-kidman": {
+    "wikidataId": "Q37459",
+    "birthDate": "1967-06-20",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Nicole_Kidman",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/kidman-nicole",
+        "publisher": "brockhaus.de"
+      }
+    ]
+  },
+  "le-van-cong": {
+    "wikidataId": "Q26837508",
+    "birthDate": "1984-06-20",
+    "dobSources": [
+      {
+        "url": "https://paralymp.ru/upload/iblock/f53/f44zloszr87knyxen4svyg7neyd8hh3a.pdf",
+        "publisher": "Russian Paralympic Committee",
+        "publisherCountry": "RU",
+        "countryProofUrl": "https://paralymp.ru/about/contacts/"
+      },
+      {
+        "url": "https://toyotatimes-sports.toyota/aichi-nagoya-2026/drivepassion/athletes/21043/?source=drivepassion_top",
+        "publisher": "Toyota Motor Corporation / Toyota Times Sports",
+        "publisherCountry": "JP",
+        "countryProofUrl": "https://global.toyota/en/company/profile/overview/"
+      }
+    ]
+  },
+  "frank-lampard": {
+    "wikidataId": "Q41533",
+    "birthDate": "1978-06-20",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Frank_Lampard",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.skysports.com/frank-lampard",
+        "publisher": "Sky Sports"
+      }
+    ]
+  },
+  "jean-paul-sartre": {
+    "wikidataId": "Q9364",
+    "birthDate": "1905-06-21",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Jean-Paul_Sartre",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/sartre-jean-paul",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "edward-snowden": {
+    "wikidataId": "Q13424289",
+    "birthDate": "1983-06-21",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Edward_Snowden",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.theguardian.com/world/2014/feb/01/edward-snowden-intelligence-leak-nsa-contractor-extract",
+        "publisher": "www.theguardian.com"
+      }
+    ]
+  },
+  "francoise-sagan": {
+    "wikidataId": "Q1646",
+    "birthDate": "1935-06-21",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Fran%C3%A7oise_Sagan",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/sagan-francoise",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "meryl-streep": {
+    "wikidataId": "Q873",
+    "birthDate": "1949-06-22",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Meryl_Streep",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/streep-meryl",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "erich-maria-remarque": {
+    "wikidataId": "Q47293",
+    "birthDate": "1898-06-22",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Erich_Maria_Remarque",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/remarque-erich-maria",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "vuong-thi-huyen": {
+    "wikidataId": "Q24809911",
+    "birthDate": "1992-06-22",
+    "dobSources": [
+      {
+        "url": "https://www.pzpc.pl/public/system/files/articles/5675/1660-StarListPackage_GT.pdf",
+        "publisher": "Polish Weightlifting Federation",
+        "publisherCountry": "PL",
+        "countryProofUrl": "https://www.zmbo.pzpc.pl/kontakt"
+      },
+      {
+        "url": "https://www.ocagames.com/orb/books/Jakarta_2018/AG2018_OfficialResultBook_Weightlifting_v1.0.pdf",
+        "publisher": "Olympic Council of Asia",
+        "publisherCountry": "KW",
+        "countryProofUrl": "https://oca.asia/council/oca-headquarters/"
+      }
+    ]
+  },
+  "jean-anouilh": {
+    "wikidataId": "Q179025",
+    "birthDate": "1910-06-23",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Jean_Anouilh",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/anouilh-jean",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "alan-turing": {
+    "wikidataId": "Q7251",
+    "birthDate": "1912-06-23",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Alan_Turing",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/turing-alan-mathison",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "zinedine-zidane": {
+    "wikidataId": "Q1835",
+    "birthDate": "1972-06-23",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Zinedine_Zidane",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/zidane-zinedine",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "lionel-messi": {
+    "wikidataId": "Q615",
+    "birthDate": "1987-06-24",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Lionel_Messi",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/messi-lionel",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "julia-kristeva": {
+    "wikidataId": "Q159876",
+    "birthDate": "1941-06-24",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Julia_Kristeva",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/kristeva-julia",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "fred-hoyle": {
+    "wikidataId": "Q183397",
+    "birthDate": "1915-06-24",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Fred_Hoyle",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/hoyle-fred",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "george-orwell": {
+    "wikidataId": "Q3335",
+    "birthDate": "1903-06-25",
+    "dobSources": [
+      {
+        "url": "https://snl.no/George_Orwell",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/orwell-george",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "george-michael": {
+    "wikidataId": "Q130311",
+    "birthDate": "1963-06-25",
+    "dobSources": [
+      {
+        "url": "https://snl.no/George_Michael",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.televisionacademy.com/bios/george-michael",
+        "publisher": "Television Academy"
+      }
+    ]
+  },
+  "sidney-lumet": {
+    "wikidataId": "Q51559",
+    "birthDate": "1924-06-25",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Sidney_Lumet",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/lumet-sidney",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "ariana-grande": {
+    "wikidataId": "Q151892",
+    "birthDate": "1993-06-26",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Ariana_Grande",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/grande-ariana-20",
+        "publisher": "brockhaus.de"
+      }
+    ]
+  },
+  "claudio-abbado": {
+    "wikidataId": "Q151608",
+    "birthDate": "1933-06-26",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Claudio_Abbado",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/abbado-claudio",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "samir-nasri": {
+    "wikidataId": "Q1920",
+    "birthDate": "1987-06-26",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Samir_Nasri",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.transfermarkt.co.uk/samir-nasri/profil/spieler/18935",
+        "publisher": "Transfermarkt"
+      }
+    ]
+  },
+  "krzysztof-kieslowski": {
+    "wikidataId": "Q55165",
+    "birthDate": "1941-06-27",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Krzysztof_Kie%C5%9Blowski",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/kieslowski-krzysztof",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "nico-rosberg": {
+    "wikidataId": "Q75820",
+    "birthDate": "1985-06-27",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Nico_Rosberg",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/rosberg-nico-erik",
+        "publisher": "brockhaus.de"
+      }
+    ]
+  },
+  "gaston-bachelard": {
+    "wikidataId": "Q270800",
+    "birthDate": "1884-06-27",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Gaston_Bachelard",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/bachelard-gaston",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "jean-jacques-rousseau": {
+    "wikidataId": "Q6527",
+    "birthDate": "1712-06-28",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Jean-Jacques_Rousseau",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/rousseau-jean-jacques",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "luigi-pirandello": {
+    "wikidataId": "Q1403",
+    "birthDate": "1867-06-28",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Luigi_Pirandello",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/pirandello-luigi",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "muhammad-yunus": {
+    "wikidataId": "Q43969",
+    "birthDate": "1940-06-28",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Muhammad_Yunus",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/yunus-muhammad",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "antoine-de-saint-exupery": {
+    "wikidataId": "Q2908",
+    "birthDate": "1900-06-29",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Antoine_de_Saint-Exup%C3%A9ry",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/saint-exupery-antoine-de",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "giacomo-leopardi": {
+    "wikidataId": "Q172599",
+    "birthDate": "1798-06-29",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Giacomo_Leopardi",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/leopardi-giacomo",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "giorgio-napolitano": {
+    "wikidataId": "Q1220",
+    "birthDate": "1925-06-29",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Giorgio_Napolitano",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/napolitano-giorgio",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "mike-tyson": {
+    "wikidataId": "Q79031",
+    "birthDate": "1966-06-30",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Mike_Tyson",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/tyson-mike",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "michael-phelps": {
+    "wikidataId": "Q39562",
+    "birthDate": "1985-06-30",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Michael_Phelps",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/phelps-michael",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  },
+  "paul-berg": {
+    "wikidataId": "Q102379",
+    "birthDate": "1926-06-30",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Paul_Berg",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/berg-paul",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute"
+      }
+    ]
+  }
+};
+
+
+// ------------------------------------------------------------
+// Rule AE: B010 exact June profile set, source allowlist, and foreign-source audit.
+// ------------------------------------------------------------
+console.log('Checking Rule AE: B010 exact June profile set, balance, reviewed sources, and baseline preservation...');
+const B010_NEW_PEOPLE = b010CycleDatedProfiles;
+const B010_APPROVED_IDS = new Set(Object.keys(B010_APPROVED_PROFILES));
+const B010_APPROVED_QIDS = new Set(Object.values(B010_APPROVED_PROFILES).map((profile) => profile.wikidataId));
+assert('Rule AE', B010_NEW_PEOPLE.length === 90, `B010 requires exactly 90 new June profiles, found ${B010_NEW_PEOPLE.length}`);
+assert('Rule AE', B010_APPROVED_IDS.size === 90 && B010_APPROVED_QIDS.size === 90, 'B010 approved IDs and QIDs must be exact and unique');
+assert('Rule AE', B010_NEW_PEOPLE.every((p) => B010_APPROVED_IDS.has(p.id)), 'B010 additions must match only the approved profile ID list');
+assert('Rule AE', B010_NEW_PEOPLE.length === B010_APPROVED_IDS.size, 'B010 must contain every approved profile exactly once');
+assert('Rule AE', new Set(B010_NEW_PEOPLE.map((p) => p.wikidataId)).size === 90, 'B010 Wikidata IDs must be unique');
+
+function isApprovedB010DobSource(qid: string, url: string): boolean {
+  const profile = Object.values(B010_APPROVED_PROFILES).find((approved) => approved.wikidataId === qid);
+  return profile?.dobSources.some((source) => source.url === url) ?? false;
+}
+
+function isApprovedB010ContextSource(qid: string, url: string): boolean {
+  const profile = Object.values(B010_APPROVED_PROFILES).find((approved) => approved.wikidataId === qid);
+  return profile?.additionalSourceUrls?.includes(url) ?? false;
+}
+
+for (const p of B010_NEW_PEOPLE) {
+  const expected = B010_APPROVED_PROFILES[p.id];
+  assert('Rule AE', Boolean(expected), `Unapproved B010 profile ID: ${p.id}`);
+  if (!expected) continue;
+  assert('Rule AE', p.wikidataId === expected.wikidataId, `B010 ${p.id} expected ${expected.wikidataId}, got ${p.wikidataId}`);
+  assert('Rule AE', p.birthDate === expected.birthDate, `B010 ${p.id} expected DOB ${expected.birthDate}, got ${p.birthDate}`);
+  assert('Rule AE', p.birthMonth === 6 && /^\d{4}-06-\d{2}$/.test(p.birthDate), `B010 ${p.id} must be a June record`);
+  assert('Rule AE', p.birthYear === Number(p.birthDate.slice(0,4)) && p.birthDay === Number(p.birthDate.slice(8,10)), `B010 ${p.id} split date fields must match birthDate`);
+  assert('Rule AE', p.sourceUrls?.includes(`https://www.wikidata.org/wiki/${p.wikidataId}`) === true, `B010 ${p.id} requires its exact Wikidata URL`);
+  assert('Rule AE source', expected.dobSources.length === 2, `B010 ${p.id} must have exactly two reviewed DOB publishers`);
+  assert('Rule AE source', new Set(expected.dobSources.map((source) => source.publisher)).size === 2, `B010 ${p.id} DOB publishers must be distinct`);
+  assert('Rule AE source', new Set(expected.dobSources.map((source) => getUrlHostname(source.url))).size === 2, `B010 ${p.id} DOB source hosts must be distinct`);
+  const approvedUrls = expected.dobSources.map((source) => source.url);
+  const approvedContextUrls = expected.additionalSourceUrls || [];
+  const nonWikiUrls = (p.sourceUrls || []).filter((url) => !url.includes('wikidata.org') && !url.includes('wikipedia.org') && !url.includes('wikimedia.org'));
+  const exactApprovedUrls = [...approvedUrls, ...approvedContextUrls];
+  assert('Rule AE source', nonWikiUrls.length === exactApprovedUrls.length && exactApprovedUrls.every((url) => nonWikiUrls.includes(url)), `B010 ${p.id} must include exactly its reviewed DOB and contextual non-Wikidata sources`);
+  for (const source of expected.dobSources) {
+    assert('Rule AE source positive', isApprovedB010DobSource(p.wikidataId || '', source.url), `B010 reviewed source must pass for ${p.id}: ${source.url}`);
+    assert('Rule AE source profile', (p.sourceUrls || []).includes(source.url), `B010 ${p.id} must include reviewed source ${source.url}`);
+    const sourceHost = getUrlHostname(source.url);
+    assert('Rule AE source URL', Boolean(sourceHost) && !sourceHost.endsWith('.vn'), `B010 source must use a valid non-Vietnam host: ${source.url}`);
+  }
+  if (p.countryCode === 'VN') {
+    for (const source of expected.dobSources) {
+      assert('Rule AE Vietnamese publisher country', Boolean(source.publisherCountry) && source.publisherCountry !== 'VN', `B010 Vietnamese DOB publisher must be outside Vietnam: ${source.url}`);
+      assert('Rule AE Vietnamese country evidence', Boolean(source.countryProofUrl?.startsWith('https://')), `B010 Vietnamese source needs a publisher-country proof URL: ${source.publisher}`);
+    }
+  }
+  for (const url of approvedContextUrls) {
+    assert('Rule AE context positive', isApprovedB010ContextSource(p.wikidataId || '', url), `B010 contextual source must pass for ${p.id}: ${url}`);
+    assert('Rule AE context profile', (p.sourceUrls || []).includes(url), `B010 ${p.id} must include reviewed contextual source ${url}`);
+    const host = getUrlHostname(url);
+    assert('Rule AE context URL', Boolean(host) && !host.endsWith('.vn'), `B010 contextual source must use a valid non-Vietnam host: ${url}`);
+    assert('Rule AE context negative', !isApprovedB010ContextSource('Q0', url), `Context source must not approve a different QID: ${url}`);
+  }
+}
+
+for (const [id, expected] of Object.entries(B010_APPROVED_PROFILES)) {
+  const profile = B010_NEW_PEOPLE.find((p) => p.id === id);
+  assert('Rule AE', Boolean(profile), `Missing approved B010 profile ${id}`);
+  if (profile) {
+    assert('Rule AE', profile.birthYear === Number(expected.birthDate.slice(0,4)) && profile.birthMonth === 6 && profile.birthDay === Number(expected.birthDate.slice(8,10)), `B010 ${id} has incorrect date components`);
+  }
+  for (const source of expected.dobSources) {
+    const qid = expected.wikidataId;
+    assert('Rule AE source positive', isApprovedB010DobSource(qid, source.url), `Reviewed source allowlist must accept ${source.url}`);
+    assert('Rule AE source negative', !isApprovedB010DobSource('Q0', source.url), `Source must not approve a different QID: ${source.url}`);
+    assert('Rule AE source negative', !isApprovedB010DobSource(qid, `${source.url}#unreviewed`), `Unreviewed source fragment must fail: ${source.url}`);
+    const queryVariant = source.url.includes('?') ? `${source.url}&unreviewed=1` : `${source.url}?unreviewed=1`;
+    assert('Rule AE source negative', !isApprovedB010DobSource(qid, queryVariant), `Unreviewed source query must fail: ${source.url}`);
+    const pathVariant = new URL(source.url);
+    pathVariant.pathname = `${pathVariant.pathname.replace(/\/$/, '')}/unreviewed`;
+    assert('Rule AE source negative', !isApprovedB010DobSource(qid, pathVariant.href), `Unreviewed source path must fail: ${source.url}`);
+    const lookalike = new URL(source.url);
+    lookalike.hostname += '.evil.example';
+    assert('Rule AE source negative', !isApprovedB010DobSource(qid, lookalike.href), `Lookalike source host must fail: ${source.url}`);
+    assert('Rule AE source negative', !isApprovedB010DobSource(qid, 'not-a-url'), 'Malformed source URL must fail');
+  }
+  for (const url of expected.additionalSourceUrls || []) {
+    assert('Rule AE context positive', isApprovedB010ContextSource(expected.wikidataId, url), `Reviewed context allowlist must accept ${url}`);
+    assert('Rule AE context negative', !isApprovedB010ContextSource('Q0', url), `Context source must not approve a different QID: ${url}`);
+    assert('Rule AE context negative', !isApprovedB010ContextSource(expected.wikidataId, `${url}#unreviewed`), `Unreviewed context fragment must fail: ${url}`);
+    const queryVariant = url.includes('?') ? `${url}&unreviewed=1` : `${url}?unreviewed=1`;
+    assert('Rule AE context negative', !isApprovedB010ContextSource(expected.wikidataId, queryVariant), `Unreviewed context query must fail: ${url}`);
+    const pathVariant = new URL(url);
+    pathVariant.pathname = `${pathVariant.pathname.replace(/\/$/, '')}/unreviewed`;
+    assert('Rule AE context negative', !isApprovedB010ContextSource(expected.wikidataId, pathVariant.href), `Unreviewed context path must fail: ${url}`);
+    const lookalike = new URL(url);
+    lookalike.hostname += '.evil.example';
+    assert('Rule AE context negative', !isApprovedB010ContextSource(expected.wikidataId, lookalike.href), `Lookalike context host must fail: ${url}`);
+    assert('Rule AE context negative', !isApprovedB010ContextSource(expected.wikidataId, 'not-a-url'), 'Malformed context URL must fail');
+  }
+}
+
+const b010Vietnamese = B010_NEW_PEOPLE.filter((p) => p.countryCode === 'VN');
+assert('Rule AE balance', b010Vietnamese.length === 5, `B010 Vietnamese count must be 5, found ${b010Vietnamese.length}`);
+assert('Rule AE balance', b010Vietnamese.length / B010_NEW_PEOPLE.length >= 0.05, `B010 Vietnamese share must be at least 5%; found ${b010Vietnamese.length}/${B010_NEW_PEOPLE.length}`);
+assert('Rule AE balance', new Set(b010Vietnamese.map((p) => p.wikidataId)).size === 5, 'B010 Vietnamese QIDs must be unique');
+for (const p of b010Vietnamese) {
+  const expected = B010_APPROVED_PROFILES[p.id];
+  assert('Rule AE Vietnamese', Boolean(expected) && expected.wikidataId === p.wikidataId, `B010 Vietnamese profile must match reviewed QID: ${p.id}`);
+  const sources = expected?.dobSources || [];
+  assert('Rule AE Vietnamese', sources.length === 2, `B010 Vietnamese ${p.id} requires exactly two reviewed foreign DOB sources`);
+  assert('Rule AE Vietnamese', sources.every((source) => source.publisherCountry !== 'VN' && Boolean(source.countryProofUrl)), `B010 Vietnamese ${p.id} requires two sources with verified foreign publisher countries`);
+  assert('Rule AE Vietnamese', sources.every((source) => (p.sourceUrls || []).includes(source.url)), `B010 Vietnamese ${p.id} must include both approved DOB URLs`);
+}
+assert('Rule AE balance', ALL_PEOPLE.length === 568, `B010 total people must be 568, found ${ALL_PEOPLE.length}`);
+assert('Rule AE events', HISTORY_EVENTS.length === 4, `B010 must preserve exactly 4 history events, found ${HISTORY_EVENTS.length}`);
+const b010CoveredDays = new Set(ALL_PEOPLE.map((p) => `${p.birthMonth}-${p.birthDay}`));
+assert('Rule AE coverage', b010CoveredDays.size === 184, `B010 expected 184 covered calendar days after filling June, found ${b010CoveredDays.size}`);
+for (let day = 1; day <= 30; day++) {
+  const count = B010_NEW_PEOPLE.filter((p) => p.birthDay === day).length;
+  assert('Rule AE coverage', count === 3, `B010 June ${day} must have exactly 3 new profiles, found ${count}`);
+}
+
+function stableSerialize(value: unknown): string {
+  if (Array.isArray(value)) return `[${value.map(stableSerialize).join(',')}]`;
+  if (value && typeof value === 'object') {
+    const record = value as Record<string, unknown>;
+    return `{${Object.keys(record).sort().map((key) => `${JSON.stringify(key)}:${stableSerialize(record[key])}`).join(',')}}`;
+  }
+  return JSON.stringify(value) ?? 'null';
+}
+function stableSha256(value: unknown): string {
+  return createHash('sha256').update(stableSerialize(value)).digest('hex');
+}
+const b010PreservedPeople = ALL_PEOPLE.filter((p) => !B010_APPROVED_IDS.has(p.id)).sort((a, b) => a.id.localeCompare(b.id));
+assert('Rule AE baseline', stableSha256(b010PreservedPeople) === 'b79da34cf8a047a586ddbaf10ab8120f28d31dcbfb8d95f4cebe1f05600cc97e', 'All 478 pre-B010 people must remain deep-equal to the locked baseline');
+assert('Rule AE baseline', stableSha256(HISTORY_EVENTS) === '6dd4aae214c2b43131155c6483c3f3c575fe632e1287583c5c28ce4e40dcfd07', 'All 4 history events must remain deep-equal to the locked baseline');
+console.log(`B010 additions: ${B010_NEW_PEOPLE.length}; Vietnamese: ${b010Vietnamese.length}; Vietnamese share: ${(b010Vietnamese.length / B010_NEW_PEOPLE.length * 100).toFixed(2)}%; coverage: ${b010CoveredDays.size}/366`);
 
 
 // ------------------------------------------------------------
