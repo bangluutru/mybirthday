@@ -51,3 +51,6 @@
 2026-10-06 Chủ dự án yêu cầu tiếp tục; B009 ACCEPTED/push `897331b`. Mở B010/BV-011 cho 1–30/6: 90 người mục tiêu,3/ngày,≥5%VN; yêu cầu hai publisher và kiểm P31/P569 trước nhập. Chỉ thị `viec/B010-people-jun-01-30.md`. Codex thực hiện/review theo ủy quyền trực tiếp. Baseline origin/main:478 người,4 events,155/366 ngày.
 
 2026-10-06 Codex B010/BV-011 review r1 PASS: tích hợp90 người tháng6 (85 quốc tế/5 Việt,5,56%), đúng3/ngày; 180 trang DOB exact HTTP200; P31/P56990/90; tổng568 người/184 ngày; baseline478+4 giữ nguyên. Integrity, Wikidata568/568, tsc/lint/build/coverage, smoke9/9, diffcheck đạt. Global URL scan1734/12 lỗi đầu/0 manual; hai timeout Wikidata B010 retest200, URL DOB/context B010 đều200; lỗi còn lại ngoài scope. Ledger/review/report đã nộp; chốt B010, không mở tháng7.
+| 2026-10-06 | Codex | B011 | Mở BV-012 cho tháng 7 theo yêu cầu chủ dự án; baseline 568 người/4 events/184 ngày đã khóa, chưa nhập dữ liệu. Tháng 8 tuần tự sau B011 pass và remote sync. |
+
+| 2026-10-06 | Codex review r1 | B011 | PASS: 93 hồ sơ tháng 7, 5 người Việt (5,38%), 186 nguồn DOB đối chiếu; 3 URL không tải cục bộ được xác nhận trực tiếp trên trang publisher. P31/P569 93/93, integrity/Wikidata 661/661, tsc/lint/build/coverage, smoke 5/5 đạt. Tổng 661 người/215 ngày; giữ nguyên 568 baseline + 4 events. Được duyệt push; mở B012 chỉ sau xác nhận origin/main. |

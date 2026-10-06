@@ -1,9 +1,17 @@
-# BV-011 — B010: dữ liệu tháng 6
+# BV-012 — B011: dữ liệu tháng 7
 
-State: ACCEPTED — B010-r1 PASS ngày 2026-10-06; phần dữ liệu được duyệt phát hành.
-Reviewer/executor: Codex, theo yêu cầu trực tiếp tiếp tục mở rộng, review và tích hợp phần đạt.
-Task: `.ai/hop-thu-mybirthday/viec/B010-people-jun-01-30.md`.
-Scope: tháng 6 (1–30); mục tiêu 90 hồ sơ (3/ngày), ít nhất 5% người Việt Nam; yêu cầu hai publisher ngoài Wikidata cho mỗi DOB, hai nguồn publisher ngoài Việt Nam cho hồ sơ Việt.
-Acceptance: PASS — 90 hồ sơ mới, 3/ngày, 5/90 người Việt; 180/180 trang DOB direct HTTP 200 và exact DOB; P31/P569 Gregorian 90/90; Rule AE khóa set/nguồn; giữ deep-equal 478 người + 4 events. Tổng 568 người, coverage 184/366.
-URL audit: 1.734 URL đã kiểm, 12 lỗi ban đầu/0 Britannica MANUAL; 2 trang Wikidata B010 timeout đã thử lại HTTP 200; nguồn DOB/context B010 đều đạt. Lỗi URL còn lại ngoài scope, ghi tại review r1.
-Next step: push các tệp B010 đã duyệt, xác nhận origin/main đồng bộ rồi dừng; chưa mở tháng 7.
+State: ACCEPTED — B011-r1 PASS ngày 2026-10-06; duyệt phát hành 93 hồ sơ tháng 7.
+Reviewer/executor: Codex theo yêu cầu trực tiếp của chủ dự án.
+Task: `.ai/hop-thu-mybirthday/viec/B011-people-jul-01-31.md`.
+Review: `.ai/hop-thu-mybirthday/review/B011-people-jul-01-31-r1.md`.
+Evidence: `.ai/hop-thu-mybirthday/review/B011-evidence.json`.
+
+## Acceptance
+
+PASS — thêm đúng 93 hồ sơ mới, 3/ngày, có 5/93 người Việt (5,38%). Mỗi hồ sơ có hai publisher và host trực tiếp khác nhau, đối chiếu đủ danh tính và ngày/tháng/năm. 183/186 trang tải trực tiếp HTTP 200; ba trang không tải được cục bộ (hai HTTP 403, một HTTP 500) đã được mở trực tiếp trên trang publisher và xác nhận đúng tên cùng ngày sinh, có ghi rõ giới hạn hash trang trong ledger. P31 human và P569 Gregorian precision 11 khớp 93/93; không có claim ngày đang hoạt động chính xác hơn bị mâu thuẫn. Hồ sơ Việt có đủ 10 bằng chứng chính thức cho địa điểm publisher ngoài Việt Nam.
+
+Rule AF khóa exact ID/QID/DOB/source pairs và negative URL cases. Giữ deep-equal 568 hồ sơ nền và 4 events; tổng 661 hồ sơ, độ phủ 215/366 ngày, tháng 7 đủ 31/31 ngày.
+
+Validation: `npm test`, `npm run verify:wikidata` (661/661), `npx tsc --noEmit`, `npm run lint`, `npm run build`, `npm run coverage`, smoke 5/5 routes đạt. Lint/build có 32 cảnh báo `<img>` đã có ở các tệp ngoài phạm vi; không có lỗi.
+
+Next step: commit/push đúng các tệp B011 được duyệt và xác nhận `origin/main` đồng bộ. Sau xác nhận, mở B012 tháng 8 theo yêu cầu trực tiếp của chủ dự án.

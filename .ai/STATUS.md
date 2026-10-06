@@ -2,26 +2,32 @@
 
 ## Current cycle
 
-Cycle: BV-011
-State: ACCEPTED — B010-r1 PASS ngày 2026-10-06; phần dữ liệu được duyệt phát hành.
-Task: `.ai/hop-thu-mybirthday/viec/B010-people-jun-01-30.md`.
-Scope/acceptance: 1–30/6; mục tiêu 90 hồ sơ, 3/ngày; tối thiểu 5% Việt Nam; 2 publisher ngoài Wikidata xác nhận exact DOB từng người; hồ sơ Việt có 2 nguồn publisher ngoài Việt Nam. P31/P569 exact Gregorian; review claims/ranks/conflicts; chỉ nhập sau factual review.
-Baseline từ `origin/main`: 478 people, 4 history events, 155/366 ngày phủ; mục tiêu sau 90 hồ sơ là 568 người và 184/366 ngày. Baseline đã có hồ sơ ngày 28/6 nên 30 ngày tháng 6 chỉ tăng thêm 29 ngày phủ.
-Result: tích hợp 90 hồ sơ mới (85 quốc tế/5 Việt, 5,56%), đúng 3/ngày. Tổng 568 người, tháng 6 phủ 30/30 ngày, tổng coverage 184/366. Deep equality giữ 478 hồ sơ nền + 4 events.
-Review/evidence: `.ai/hop-thu-mybirthday/review/B010-people-jun-01-30-r1.md` và `B010-evidence.json`; báo cáo executor ở `xong/B010-people-jun-01-30.md`.
-Validation: integrity, Wikidata 568/568, TypeScript, lint, build, coverage, smoke 9/9 và diffcheck đạt. URL scan toàn app kiểm 1.734 URL/12 lỗi ban đầu/0 manual pending; hai timeout B010 thử lại 200, nguồn DOB/context B010 đều 200. Cảnh báo URL còn lại ngoài scope, không tuyên bố global clean.
-Prior-cycle Reviewer Attention: URL legacy từ các tháng trước không được sửa trong B010.
+Cycle: BV-012
 
-## Earlier completed cycle — B008
+State: ACCEPTED — B011-r1 PASS ngày 2026-10-06, đã được duyệt phát hành.
 
-Cycle: BV-009
-State: ACCEPTED — B008-r1 DAT.
-Result: 90 hồ sơ mới, 3/ngày trên 30/30 ngày; 5 người Việt/85 quốc tế (5,56%). 181/181 nguồn ngoài Wiki cuối cùng tải HTTP 200; mọi hồ sơ có ít nhất một DOB ngoài Wiki ghi đủ ngày. Tổng 385 người/124 ngày; tháng 4 có 93 hồ sơ trên 30/30 ngày; 4 sự kiện được giữ nguyên.
-Validation: Rules A–AC không vi phạm; P31/P569 90/90; Wikidata 385/385; TypeScript, lint, build, coverage, smoke 14/14, deep equality baseline 295 + 4 sự kiện đạt. URL scan snapshot có 16 lỗi trong 1.181 URL nhưng các URL lỗi đã bị loại/thay; lint còn 32 cảnh báo ảnh/font có sẵn.
-Commit: `f7ac98139e9483fd851b97c07eafb9093d3e30e1` đã push; `origin/main` xác nhận đồng bộ 0/0.
+Task: `.ai/hop-thu-mybirthday/viec/B011-people-jul-01-31.md`.
 
-## Reviewer Attention
+Scope: 1–31/7; 93 hồ sơ mới, 3/ngày; tối thiểu 5% người Việt; 2 publisher khác nhau xác nhận full DOB trực tiếp; hồ sơ Việt có 2 publisher ngoài Việt Nam; P31/P569 exact Gregorian precision 11; kiểm tra rank, claim và mâu thuẫn.
 
-Nội dung giao diện “hàng chục nghìn nhân vật” vẫn chưa tương xứng với quy mô dữ liệu hiện có; ngoài phạm vi B009.
+### Kết quả và bằng chứng
 
-URL legacy snapshot: James Joyce API 502; The-Sports/Trần Lê Quốc Toàn 403; Supreme Court of India/Ambedkar 403; Le Monde/Nguyễn Phú Trọng 402; Nobel biographical/Halldór Laxness thiếu exact DOB. Không nằm trong dữ liệu mới B009; chưa sửa.
+Thêm 93 hồ sơ (88 quốc tế, 5 Việt; 5,38%), đủ 3 hồ sơ cho mỗi ngày tháng 7. Có 186 trang DOB từ các cặp publisher/host khác nhau: 183 trang tải HTTP 200 và khớp đủ tên/ngày sinh; 3 trang bị lỗi tải cục bộ (2 HTTP 403, 1 HTTP 500) được mở trực tiếp trên trang publisher, khớp tên và ngày sinh. Không có response hash cho nội dung ba trang này; hash phản hồi lỗi được lưu riêng. P31 human và P569 exact Gregorian precision 11 khớp 93/93; không có claim chính xác hơn đang hoạt động bị mâu thuẫn. 10 trang proof chính thức xác nhận publisher của 5 hồ sơ Việt đặt ngoài Việt Nam.
+
+Quốc gia đối chiếu theo P27/mô tả; nghề và phân loại dùng vai trò tổng quát có căn cứ. Không thêm birthplace hoặc thành tích ngoài bằng chứng.
+
+Tổng 661 hồ sơ, 215/366 ngày có dữ liệu, tháng 7 đủ 31/31. 568 hồ sơ ngoài tháng 7 có SHA-256 deep-equal baseline; 4 events không thay đổi. Rule AF khóa danh sách chính xác, pair URL, country code và negative URL tests. Evidence/review: `.ai/hop-thu-mybirthday/review/B011-evidence.json` và `B011-people-jul-01-31-r1.md`; báo cáo executor: `.ai/hop-thu-mybirthday/xong/B011-people-jul-01-31.md`.
+
+### Validation
+
+`npm test`, `npm run verify:wikidata` (661/661), `npx tsc --noEmit`, `npm run lint`, `npm run build`, `npm run coverage` và smoke 5/5 routes đạt. Lint/build còn 32 cảnh báo `<img>` ở các tệp ngoài phạm vi B011. `git diff --check` sẽ được chốt cùng commit.
+
+### Reviewer Attention
+
+- Một hồ sơ tháng 7 có cùng tên hiển thị với một huấn luyện viên bóng đá sinh tháng 1; dùng slug `nguyen-huy-hoang-swimmer` để bảo đảm ID toàn cục duy nhất.
+- URL legacy từ cycle trước có lỗi đã ghi trong B009/B010; ngoài phạm vi B011, không tự sửa.
+- Chủ dự án yêu cầu mở tháng 8 tiếp sau khi B011 pass, push và xác nhận remote. Chưa mở trong cycle này.
+
+## Earlier completed cycle — BV-011 / B010
+
+State: ACCEPTED — B010-r1 PASS ngày 2026-10-06. Thêm 90 hồ sơ tháng 6 (85 quốc tế, 5 Việt; 5,56%), đúng 3/ngày. Tổng 568 người, coverage 184/366, 4 events giữ nguyên. Integrity/Wikidata 568/568, typecheck/lint/build/coverage/smoke đạt. Commit `1fb7f46cf0cf3b86ad176ce0a5f46cd8b7dcbdd5` đã push; `origin/main` xác nhận 0/0.

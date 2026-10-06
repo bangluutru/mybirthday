@@ -59,3 +59,14 @@ Chủ dự án yêu cầu tiếp tục mở rộng sau khi B009 được ACCEPTE
 06/10/2026 B010 review r1 PASS: thêm90 hồ sơ (85 quốc tế/5 Việt,5,56%), đúng3/ngày. 180/180 trang DOB direct HTTP200, exact identity/full DOB; P31 human và P569 Gregorian precision11 khớp90/90; 3 hồ sơ có thêm claim năm nhất quán. Nguồn Việt có country proof nước ngoài; AFC Phan Văn Long là context-only. Joseph Kabila bị loại và thay Bronisław Komorowski do nghi vấn DOB nguồn.
 
 Tổng568 người/184 ngày; tháng6 phủ30/30; baseline478 +4 events deep-equal. Rule AE không nới A–AD. Integrity, Wikidata568/568, tsc/lint/build/coverage, smoke9/9 và diffcheck đạt. Global URL scan 1734 kiểm/12 lỗi đầu/0 manual pending; hai URL Wikidata B010 timeout được retry 200; mọi DOB/context B010 trả200. Reviewer Attention còn10 URL lỗi ngoài B010; không tự sửa tháng khác. Evidence `review/B010-evidence.json`, review `review/B010-people-jun-01-30-r1.md`, report `xong/B010-people-jun-01-30.md`. Được phép push phần đạt theo chỉ thị chủ dự án; xác nhận remote rồi dừng, chưa mở tháng7.
+
+
+## B011 — tháng 7 (BV-012, ACCEPTED)
+
+Chủ dự án yêu cầu mở tháng 7 rồi tháng 8 liên tiếp, tuần tự. B010 đã ACCEPTED/push `1fb7f46cf0cf3b86ad176ce0a5f46cd8b7dcbdd5`, origin/main 0/0. Mở B011 chỉ cho 1–31/7: mục tiêu 93 hồ sơ mới (3/ngày), ít nhất 5% Việt (tối thiểu 5/93), 2 publisher khác nhau và trang trực tiếp xác nhận DOB đầy đủ cho từng hồ sơ; hồ sơ Việt cần 2 publisher ngoài Việt Nam với HQ proof. Baseline trước B011: 568 people, 4 events, 184/366 ngày phủ; tháng7 trống, tháng8 ngày15 có 2 hồ sơ nền. Bảo toàn baseline deep-equal. Không mở B012 đến khi B011 pass, push và remote xác nhận.
+
+B011-r1 PASS: 93/93 hồ sơ (88 quốc tế/5 Việt), 3/ngày; 186 nguồn trực tiếp từ publisher/host khác nhau, 183 HTTP200 exact DOB+identity, 3 trang xác nhận bằng browser direct-open do lỗi tải cục bộ. P31/P569 93/93, không có claim ngày chính xác hơn mâu thuẫn; 10 proof pages cho publisher nước ngoài của hồ sơ Việt. Giữ 568 baseline people +4 events; tổng 661 người/215 ngày, tháng 7 31/31. Integrity, Wikidata661/661, tsc/lint/build/coverage, smoke5/5 đạt; diffcheck sẽ hoàn tất trước commit. Review/evidence `review/B011-people-jul-01-31-r1.md`, `review/B011-evidence.json`; executor `xong/B011-people-jul-01-31.md`. Được duyệt phát hành; push và xác nhận remote trước B012.
+
+### B012 — tháng 8 (đợi B011 đóng)
+
+Được chủ dự án yêu cầu mở ngay sau B011. Chỉ mở sau khi B011 đã review, push và origin/main xác nhận. Tháng 8 có 31 ngày, target 93 additions (3/ngày), tối thiểu 5% Việt (ít nhất 5), 2 nguồn DOB direct cho mỗi người và 2 publisher nước ngoài cho hồ sơ Việt. Baseline dự kiến sau B011 pass: 661 people, 4 events, 215/366 ngày phủ; 14/8 còn trống, 15/8 có 2 hồ sơ nền. Với đủ 93: tổng754 people, 245/366 covered days, August 31/31 covered. Trước khi mở, lặp mandatory cycle-start: pull, đọc AGENTS/REVIEW/STATUS, xác nhận July accepted/remote sync; tạo task/status riêng, không chạy song song.
