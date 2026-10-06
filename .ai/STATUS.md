@@ -2,32 +2,31 @@
 
 ## Current cycle
 
-Cycle: BV-012
+Cycle: BV-013
 
-State: ACCEPTED — B011-r1 PASS ngày 2026-10-06, đã được duyệt phát hành.
+State: OPEN — B012 tháng 8 được mở theo yêu cầu trực tiếp của chủ dự án.
 
-Task: `.ai/hop-thu-mybirthday/viec/B011-people-jul-01-31.md`.
+Task: `.ai/hop-thu-mybirthday/viec/B012-people-aug-01-31.md`.
 
-Scope: 1–31/7; 93 hồ sơ mới, 3/ngày; tối thiểu 5% người Việt; 2 publisher khác nhau xác nhận full DOB trực tiếp; hồ sơ Việt có 2 publisher ngoài Việt Nam; P31/P569 exact Gregorian precision 11; kiểm tra rank, claim và mâu thuẫn.
+Scope/acceptance: 1–31/8; mục tiêu 93 hồ sơ mới, đúng 3/ngày; ít nhất 5% người Việt; mỗi hồ sơ có 2 publisher/host trực tiếp xác nhận full DOB; hồ sơ Việt cần 2 nguồn từ publisher ngoài Việt Nam và country proof chính thức; rà P31/P569/rank/precision/calendar/conflicts; Rule AG khóa danh sách và nguồn chính xác.
 
-### Kết quả và bằng chứng
+### Baseline
 
-Thêm 93 hồ sơ (88 quốc tế, 5 Việt; 5,38%), đủ 3 hồ sơ cho mỗi ngày tháng 7. Có 186 trang DOB từ các cặp publisher/host khác nhau: 183 trang tải HTTP 200 và khớp đủ tên/ngày sinh; 3 trang bị lỗi tải cục bộ (2 HTTP 403, 1 HTTP 500) được mở trực tiếp trên trang publisher, khớp tên và ngày sinh. Không có response hash cho nội dung ba trang này; hash phản hồi lỗi được lưu riêng. P31 human và P569 exact Gregorian precision 11 khớp 93/93; không có claim chính xác hơn đang hoạt động bị mâu thuẫn. 10 trang proof chính thức xác nhận publisher của 5 hồ sơ Việt đặt ngoài Việt Nam.
+`origin/main` commit `37a632e77c74fd455afd94078042241d6f92274f`: 661 people, 4 events, 215/366 ngày phủ. Tháng 8 hiện có 2 hồ sơ nền ngày 15/8 (Jennifer Lawrence Q189490, Napoleon Bonaparte Q517), còn 30 ngày tháng 8 chưa có người. SHA-256 people baseline `bbdbf73293a1e6e861dffd6bab00b1eee0a4639d79ba2eb9594eec1df97c0334`; events `6dd4aae214c2b43131155c6483c3f3c575fe632e1287583c5c28ce4e40dcfd07`. Sau đủ 93 additions dự kiến 754 people, 245/366 ngày, tháng 8 phủ31/31; 15/8 tổng 5 hồ sơ.
 
-Quốc gia đối chiếu theo P27/mô tả; nghề và phân loại dùng vai trò tổng quát có căn cứ. Không thêm birthplace hoặc thành tích ngoài bằng chứng.
+### Kết quả
 
-Tổng 661 hồ sơ, 215/366 ngày có dữ liệu, tháng 7 đủ 31/31. 568 hồ sơ ngoài tháng 7 có SHA-256 deep-equal baseline; 4 events không thay đổi. Rule AF khóa danh sách chính xác, pair URL, country code và negative URL tests. Evidence/review: `.ai/hop-thu-mybirthday/review/B011-evidence.json` và `B011-people-jul-01-31-r1.md`; báo cáo executor: `.ai/hop-thu-mybirthday/xong/B011-people-jul-01-31.md`.
-
-### Validation
-
-`npm test`, `npm run verify:wikidata` (661/661), `npx tsc --noEmit`, `npm run lint`, `npm run build`, `npm run coverage` và smoke 5/5 routes đạt. Lint/build còn 32 cảnh báo `<img>` ở các tệp ngoài phạm vi B011. `git diff --check` sẽ được chốt cùng commit.
+Chưa tích hợp dữ liệu B012; baseline đã chụp ở `.ai/hop-thu-mybirthday/nhap/B012-baseline.json`.
 
 ### Reviewer Attention
 
-- Một hồ sơ tháng 7 có cùng tên hiển thị với một huấn luyện viên bóng đá sinh tháng 1; dùng slug `nguyen-huy-hoang-swimmer` để bảo đảm ID toàn cục duy nhất.
-- URL legacy từ cycle trước có lỗi đã ghi trong B009/B010; ngoài phạm vi B011, không tự sửa.
-- Chủ dự án yêu cầu mở tháng 8 tiếp sau khi B011 pass, push và xác nhận remote. Chưa mở trong cycle này.
+- B011 giữ lại 3 nguồn browser-direct do local trả HTTP 403/500; evidence và hash hạn chế đã ghi tại `review/B011-evidence.json`.
+- URL legacy từ cycle cũ ngoài scope B012; không tự sửa.
+
+## Earlier completed cycle — BV-012 / B011
+
+State: ACCEPTED — B011-r1 PASS ngày 2026-10-06, commit `37a632e77c74fd455afd94078042241d6f92274f` đã push; origin/main 0/0. Thêm 93 hồ sơ tháng 7 (88 quốc tế, 5 Việt; 5,38%), tổng 661 người/215 ngày, giữ deep-equal baseline 568 người và 4 events. Integrity/Wikidata 661/661, typecheck/lint/build/coverage/smoke5/5 đạt.
 
 ## Earlier completed cycle — BV-011 / B010
 
-State: ACCEPTED — B010-r1 PASS ngày 2026-10-06. Thêm 90 hồ sơ tháng 6 (85 quốc tế, 5 Việt; 5,56%), đúng 3/ngày. Tổng 568 người, coverage 184/366, 4 events giữ nguyên. Integrity/Wikidata 568/568, typecheck/lint/build/coverage/smoke đạt. Commit `1fb7f46cf0cf3b86ad176ce0a5f46cd8b7dcbdd5` đã push; `origin/main` xác nhận 0/0.
+State: ACCEPTED — B010-r1 PASS ngày 2026-10-06. Thêm 90 hồ sơ tháng 6 (85 quốc tế, 5 Việt; 5,56%), đúng 3/ngày. Commit `1fb7f46cf0cf3b86ad176ce0a5f46cd8b7dcbdd5` đã push; origin/main xác nhận 0/0.

@@ -1,17 +1,16 @@
-# BV-012 — B011: dữ liệu tháng 7
+# BV-013 — B012: dữ liệu tháng 8
 
-State: ACCEPTED — B011-r1 PASS ngày 2026-10-06; duyệt phát hành 93 hồ sơ tháng 7.
+State: OPEN — directive B012 mở ngày 2026-10-06 sau khi B011 pass và remote đồng bộ.
 Reviewer/executor: Codex theo yêu cầu trực tiếp của chủ dự án.
-Task: `.ai/hop-thu-mybirthday/viec/B011-people-jul-01-31.md`.
-Review: `.ai/hop-thu-mybirthday/review/B011-people-jul-01-31-r1.md`.
-Evidence: `.ai/hop-thu-mybirthday/review/B011-evidence.json`.
+Task: `.ai/hop-thu-mybirthday/viec/B012-people-aug-01-31.md`.
+Baseline: `origin/main` commit `37a632e77c74fd455afd94078042241d6f92274f` — 661 people, 4 events, 215/366 ngày có dữ liệu. Tháng 8 đã có Jennifer Lawrence và Napoleon Bonaparte cùng ngày 15/8; các ngày khác trống.
 
 ## Acceptance
 
-PASS — thêm đúng 93 hồ sơ mới, 3/ngày, có 5/93 người Việt (5,38%). Mỗi hồ sơ có hai publisher và host trực tiếp khác nhau, đối chiếu đủ danh tính và ngày/tháng/năm. 183/186 trang tải trực tiếp HTTP 200; ba trang không tải được cục bộ (hai HTTP 403, một HTTP 500) đã được mở trực tiếp trên trang publisher và xác nhận đúng tên cùng ngày sinh, có ghi rõ giới hạn hash trang trong ledger. P31 human và P569 Gregorian precision 11 khớp 93/93; không có claim ngày đang hoạt động chính xác hơn bị mâu thuẫn. Hồ sơ Việt có đủ 10 bằng chứng chính thức cho địa điểm publisher ngoài Việt Nam.
+Thêm 93 hồ sơ mới (3/ngày) cho 1–31/8, ít nhất 5% người Việt; mỗi hồ sơ có hai publisher/host trực tiếp khác nhau xác nhận DOB đầy đủ; hồ sơ Việt có hai nguồn publisher ngoài Việt Nam cùng country proof chính thức. Kiểm P31/P569/rank/precision/calendar/claims/conflicts; metadata country/role có nguồn. Rule AG khóa ID/QID/DOB/source pair/category/occupation/country và negative URL cases. Bảo toàn deep-equal toàn bộ 661 người nền và 4 events. Kết quả dự kiến: 754 người, 245/366 ngày, tháng 8 31/31; ngày 15 có tổng 5 hồ sơ.
 
-Rule AF khóa exact ID/QID/DOB/source pairs và negative URL cases. Giữ deep-equal 568 hồ sơ nền và 4 events; tổng 661 hồ sơ, độ phủ 215/366 ngày, tháng 7 đủ 31/31 ngày.
+Next step: chỉ làm B012 tháng 8. Không mở chu kỳ khác cho tới khi review, commit/push và remote verification xong.
 
-Validation: `npm test`, `npm run verify:wikidata` (661/661), `npx tsc --noEmit`, `npm run lint`, `npm run build`, `npm run coverage`, smoke 5/5 routes đạt. Lint/build có 32 cảnh báo `<img>` đã có ở các tệp ngoài phạm vi; không có lỗi.
+## Earlier completed cycle — BV-012 / B011
 
-Next step: commit/push đúng các tệp B011 được duyệt và xác nhận `origin/main` đồng bộ. Sau xác nhận, mở B012 tháng 8 theo yêu cầu trực tiếp của chủ dự án.
+State: ACCEPTED — B011-r1 PASS; commit `37a632e77c74fd455afd94078042241d6f92274f` đã push và `origin/main` xác nhận 0/0. Thêm 93 hồ sơ tháng 7 (88 quốc tế, 5 Việt; 5,38%), coverage 215/366; giữ nguyên 568 hồ sơ nền và 4 events. Evidence/review: `review/B011-evidence.json`, `review/B011-people-jul-01-31-r1.md`; validation gồm integrity, Wikidata 661/661, tsc/lint/build/coverage và smoke 5/5.

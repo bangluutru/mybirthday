@@ -54,3 +54,5 @@
 | 2026-10-06 | Codex | B011 | Mở BV-012 cho tháng 7 theo yêu cầu chủ dự án; baseline 568 người/4 events/184 ngày đã khóa, chưa nhập dữ liệu. Tháng 8 tuần tự sau B011 pass và remote sync. |
 
 | 2026-10-06 | Codex review r1 | B011 | PASS: 93 hồ sơ tháng 7, 5 người Việt (5,38%), 186 nguồn DOB đối chiếu; 3 URL không tải cục bộ được xác nhận trực tiếp trên trang publisher. P31/P569 93/93, integrity/Wikidata 661/661, tsc/lint/build/coverage, smoke 5/5 đạt. Tổng 661 người/215 ngày; giữ nguyên 568 baseline + 4 events. Được duyệt push; mở B012 chỉ sau xác nhận origin/main. |
+
+| 2026-10-06 | Codex | B011 → B012 | B011 commit `37a632e` push thành công, fetch xác nhận origin/main 0/0; chạy pull --ff-only xác nhận up to date. Theo yêu cầu chủ dự án, mở B012/BV-013 cho tháng 8: 93 additions, 3/ngày, ≥5% Việt; baseline 661 people/4 events/215 ngày và hai hồ sơ 15/8. |
