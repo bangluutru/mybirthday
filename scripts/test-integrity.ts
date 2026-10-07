@@ -1,6 +1,7 @@
 import { ALL_PEOPLE, HISTORY_EVENTS, HISTORY_EVENTS_22_FEB, getBirthdayData } from '../src/data/birthdays';
 import { isAdultOnDate, isValidIsoDate } from './wikidata-candidates';
 import { createHash } from 'node:crypto';
+import B013_EVIDENCE from '../.ai/evidence/B013.json';
 
 interface Failure {
   suite: string;
@@ -8,6 +9,40 @@ interface Failure {
 }
 
 const failures: Failure[] = [];
+
+// B013 additions are projected out of every previously accepted cycle snapshot.
+const B013_NEW_IDS = new Set([
+  'edgar-rice-burroughs', 'kirsti-kolle-grondahl', 'per-kirkeby',
+  'bodil-kjer', 'kristin-halvorsen', 'kjetil-andre-aamodt',
+  'alan-ladd', 'knut-nystedt', 'kjell-magne-bondevik',
+  'anton-bruckner', 'bernt-heiberg', 'beyonce',
+  'werner-herzog', 'john-carew', 'arthur-koestler',
+  'jane-addams', 'franz-josef-strauss', 'ingebjorg-kasin-sandsdalen',
+  'sonny-rollins', 'buddy-holly', 'tore-gjelsvik',
+  'antonin-dvorak', 'patsy-cline', 'do-hung-dung',
+  'otis-redding', 'per-jorgensen', 'frode-andresen',
+  'stephen-jay-gould', 'marja-liisa-kirvesniemi', 'pham-thanh-luong',
+  'theodor-w-adorno', 'birgitta-trotzig', 'brian-de-palma',
+  'maurice-chevalier', 'jesse-owens', 'bjorn-floberg',
+  'roald-dahl', 'alex-riel', 'ahmet-necdet-sezer',
+  'jan-masaryk', 'astrid-gjertsen', 'filip-nguyen',
+  'oliver-stone', 'jessye-norman', 'tommy-lee-jones',
+  'lauren-bacall', 'jon-hellesnes', 'vebjorn-rodal',
+  'christian-lous-lange', 'hank-williams', 'randi-bratteli',
+  'greta-garbo', 'nils-petter-molvaer', 'sveinn-einarsson',
+  'mika-waltari', 'william-golding', 'jeremy-irons',
+  'sophia-loren', 'bjorn-wiinblad', 'rolf-kirkvaag',
+  'gustav-holst', 'leonard-cohen', 'lars-saabye-christensen',
+  'fay-weldon', 'nick-cave', 'ha-duc-chinh',
+  'aldo-moro', 'ray-charles', 'per-olov-enquist',
+  'f-scott-fitzgerald', 'jim-henson', 'nils-collett-vogt',
+  'william-faulkner', 'glenn-gould', 'michael-douglas',
+  'george-gershwin', 'elisabeth-bang', 'olivia-newton-john',
+  'tryggve-andersen', 'arthur-penn', 'gwyneth-paltrow',
+  'frances-willard', 'brigitte-bardot', 'liv-dommersnes',
+  'lech-walesa', 'jon-fosse', 'do-duy-manh',
+  'johan-falkberget', 'truman-capote', 'elie-wiesel',
+]);
 
 function assert(suite: string, condition: boolean, message: string) {
   if (!condition) {
@@ -641,7 +676,7 @@ for (const p of ALL_PEOPLE) {
       'austria.info', 'koninklijkhuis.nl', 'annefrank.org', 'yadvashem-france.org', 'ajpn.org',
       'tempestjapan.com', 'yhent.co.kr', 'ncapec.org', 'ocagames.com', 'the-afc.com',
       'jebentertainment.jp', 'fide.com', 'vnanet.vn', 'vatican.va', 'royalsociety.org', 'bfi.org.uk',
-      'enciklopedija.hr', 'lzmk.hr', 'anthonyburgess.org', 'kunaicho.go.jp',
+      'enciklopedija.hr', 'lzmk.hr', 'anthonyburgess.org', 'kunaicho.go.jp', 'treccani.it', 'anu.edu.au',
       'badmintonasia.org', 'jamesjoyce.ie', 'ireland.ie', 'president.ie', 'rte.ie', 'icc-cricket.com', 'aynrand.org', 'dallassymphony.org',
       'mendelssohn-stiftung.de', 'mnhs.org', 'vle.lt', 'uefa.com', 'realmadrid.com', 'baseballhall.org',
       'dickensmuseum.com', 'lauraingallswilderhome.com', 'unesco.org', 'afi.com', 'sonymusic.co.jp',
@@ -676,6 +711,12 @@ for (const p of ALL_PEOPLE) {
       'Q48410': ['https://www.biography.com/actors/richard-gere'],
       'Q5215950': ['https://www.cerezo.jp/team/players/archive/dang_van_lam-2/'],
       'Q7189919': ['https://music.apple.com/us/artist/ph%E1%BA%A1m-qu%E1%BB%B3nh-anh/1757573861'],
+      // Exact B013 athlete pages, locked to the reviewed independent publisher pairs in Rule AH.
+      'Q22162708': ['https://fbref.com/en/players/4433e9ea/Djo-Hung-Dung'],
+      'Q4481043': ['https://fbref.com/en/players/60a6cd31/Pham-Thanh-Luong'],
+      'Q56513413': ['https://www.transfermarkt.us/filip-nguyen/profil/spieler/202914'],
+      'Q25999788': ['https://www.transfermarkt.com/duc-chinh-ha/profil/spieler/508254'],
+      'Q19281994': ['https://www.transfermarkt.de/duy-manh-do/profil/spieler/354784'],
     };
     const hasReviewedPublisherException = reviewedPublisherExceptions[p.wikidataId || '']?.some((u) =>
       independentSources.includes(u)
@@ -1528,7 +1569,7 @@ const B012_NEW_IDS = new Set([
   'katherine-johnson',
 ]);
 const b010CycleDatedProfiles = ALL_PEOPLE.filter((p) => p.birthMonth === 6 && p.verifiedAt === '2026-10-06');
-const b009BaselinePeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7 && !(p.birthMonth === 6 && p.verifiedAt === '2026-10-06') && !B012_NEW_IDS.has(p.id));
+const b009BaselinePeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7 && !(p.birthMonth === 6 && p.verifiedAt === '2026-10-06') && !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id));
 assert('Rule AD', b009BaselinePeople.length === 478, `B009 baseline must remain 478 after excluding B010 and B011 additions, found ${b009BaselinePeople.length}`);
 assert('Rule AD', HISTORY_EVENTS.length === 4, `B009 must preserve all 4 events, found ${HISTORY_EVENTS.length}`);
 
@@ -3025,7 +3066,7 @@ for (const p of b010Vietnamese) {
   assert('Rule AE Vietnamese', sources.every((source) => source.publisherCountry !== 'VN' && Boolean(source.countryProofUrl)), `B010 Vietnamese ${p.id} requires two sources with verified foreign publisher countries`);
   assert('Rule AE Vietnamese', sources.every((source) => (p.sourceUrls || []).includes(source.url)), `B010 Vietnamese ${p.id} must include both approved DOB URLs`);
 }
-const b010ScopePeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7 && !B012_NEW_IDS.has(p.id));
+const b010ScopePeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7 && !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id));
 assert('Rule AE balance', b010ScopePeople.length === 568, `B010 through-June dataset must contain 568 people, found ${b010ScopePeople.length}`);
 assert('Rule AE events', HISTORY_EVENTS.length === 4, `B010 must preserve exactly 4 history events, found ${HISTORY_EVENTS.length}`);
 const b010CoveredDays = new Set(b010ScopePeople.map((p) => `${p.birthMonth}-${p.birthDay}`));
@@ -4843,7 +4884,7 @@ const B011_APPROVED_PROFILES: Readonly<Record<string, {
     ]
   }
 };
-const b011ScopePeople = ALL_PEOPLE.filter((p) => !B012_NEW_IDS.has(p.id));
+const b011ScopePeople = ALL_PEOPLE.filter((p) => !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id));
 const B011_NEW_PEOPLE = b011ScopePeople.filter((p) => p.birthMonth === 7);
 const B011_APPROVED_IDS = new Set(Object.keys(B011_APPROVED_PROFILES));
 const B011_APPROVED_QIDS = new Set(Object.values(B011_APPROVED_PROFILES).map((profile) => profile.wikidataId));
@@ -6712,7 +6753,8 @@ const B012_APPROVED_PROFILES: Readonly<Record<string, {
 };
 const B012_APPROVED_IDS = new Set(Object.keys(B012_APPROVED_PROFILES));
 const B012_APPROVED_QIDS = new Set(Object.values(B012_APPROVED_PROFILES).map((profile) => profile.wikidataId));
-const B012_NEW_PEOPLE = ALL_PEOPLE.filter((p) => B012_APPROVED_IDS.has(p.id));
+const b012HistoricalPeople = ALL_PEOPLE.filter((p) => !B013_NEW_IDS.has(p.id));
+const B012_NEW_PEOPLE = b012HistoricalPeople.filter((p) => B012_APPROVED_IDS.has(p.id));
 assert('Rule AG', B012_NEW_IDS.size === 93 && B012_APPROVED_IDS.size === 93, 'B012 exact allowlist must contain 93 unique IDs');
 assert('Rule AG', B012_NEW_IDS.size === B012_APPROVED_IDS.size && [...B012_NEW_IDS].every((id) => B012_APPROVED_IDS.has(id)), 'B012 historical projection IDs must exactly match the reviewed allowlist');
 assert('Rule AG', B012_NEW_PEOPLE.length === 93, `B012 requires exactly 93 August profiles, found ${B012_NEW_PEOPLE.length}`);
@@ -6775,23 +6817,1723 @@ for (const p of b012Vietnamese) {
 for (let day = 1; day <= 31; day++) {
   const count = B012_NEW_PEOPLE.filter((p) => p.birthDay === day).length;
   assert('Rule AG coverage', count === 3, `B012 August ${day} must have exactly 3 additions, found ${count}`);
-  const total = ALL_PEOPLE.filter((p) => p.birthMonth === 8 && p.birthDay === day).length;
+  const total = b012HistoricalPeople.filter((p) => p.birthMonth === 8 && p.birthDay === day).length;
   assert('Rule AG coverage', total <= 8, `B012 August ${day} must not exceed 8 total people, found ${total}`);
 }
-const b012AugustBaseline = ALL_PEOPLE.filter((p) => p.birthMonth === 8 && !B012_APPROVED_IDS.has(p.id));
+const b012AugustBaseline = b012HistoricalPeople.filter((p) => p.birthMonth === 8 && !B012_APPROVED_IDS.has(p.id));
 assert('Rule AG baseline', b012AugustBaseline.length === 2, `B012 must preserve exactly two baseline August profiles, found ${b012AugustBaseline.length}`);
 assert('Rule AG baseline', b012AugustBaseline.some((p) => p.id === 'jennifer-lawrence' && p.birthDate === '1990-08-15') && b012AugustBaseline.some((p) => p.id === 'napoleon-bonaparte' && p.birthDate === '1769-08-15'), 'B012 must retain Jennifer Lawrence and Napoleon Bonaparte on August 15');
-assert('Rule AG total', ALL_PEOPLE.length === 754, `B012 expected 754 total people, found ${ALL_PEOPLE.length}`);
-const b012CoveredDays = new Set(ALL_PEOPLE.map((p) => `${p.birthMonth}-${p.birthDay}`));
+assert('Rule AG total', b012HistoricalPeople.length === 754, `B012 expected 754 total people, found ${b012HistoricalPeople.length}`);
+const b012CoveredDays = new Set(b012HistoricalPeople.map((p) => `${p.birthMonth}-${p.birthDay}`));
 assert('Rule AG coverage', b012CoveredDays.size === 245, `B012 expected 245 covered calendar days, found ${b012CoveredDays.size}`);
-const b012AugustDays = new Set(ALL_PEOPLE.filter((p) => p.birthMonth === 8).map((p) => p.birthDay));
+const b012AugustDays = new Set(b012HistoricalPeople.filter((p) => p.birthMonth === 8).map((p) => p.birthDay));
 assert('Rule AG coverage', b012AugustDays.size === 31, `B012 must cover all 31 August days, found ${b012AugustDays.size}`);
-assert('Rule AG coverage', ALL_PEOPLE.filter((p) => p.birthMonth === 8 && p.birthDay === 15).length === 5, 'B012 August 15 must contain the three additions and two preserved baseline profiles');
-const b012PreservedPeople = ALL_PEOPLE.filter((p) => !B012_APPROVED_IDS.has(p.id)).sort((a, b) => a.id.localeCompare(b.id));
+assert('Rule AG coverage', b012HistoricalPeople.filter((p) => p.birthMonth === 8 && p.birthDay === 15).length === 5, 'B012 August 15 must contain the three additions and two preserved baseline profiles');
+const b012PreservedPeople = b012HistoricalPeople.filter((p) => !B012_APPROVED_IDS.has(p.id)).sort((a, b) => a.id.localeCompare(b.id));
 assert('Rule AG baseline', b012PreservedPeople.length === 661, `B012 must preserve all 661 baseline people, found ${b012PreservedPeople.length}`);
 assert('Rule AG baseline', stableSha256(b012PreservedPeople) === 'bbdbf73293a1e6e861dffd6bab00b1eee0a4639d79ba2eb9594eec1df97c0334', 'All 661 baseline people must remain deep-equal to origin/main before B012');
 assert('Rule AG baseline', stableSha256(HISTORY_EVENTS) === '6dd4aae214c2b43131155c6483c3f3c575fe632e1287583c5c28ce4e40dcfd07', 'All 4 history events must remain deep-equal to origin/main');
 console.log(`B012 additions: ${B012_NEW_PEOPLE.length}; Vietnamese: ${b012Vietnamese.length}; Vietnamese share: ${(b012Vietnamese.length / B012_NEW_PEOPLE.length * 100).toFixed(2)}%; coverage: ${b012CoveredDays.size}/366`);
+
+
+// ------------------------------------------------------------
+// Rule AH: B013 exact September profile set, direct DOB source pairs,
+// full Wikidata P31/P569 audit, foreign-publisher evidence, and baseline preservation.
+// ------------------------------------------------------------
+console.log('Checking Rule AH: B013 September allowlist, evidence, Wikidata claims, and baseline preservation...');
+const B013_APPROVED_PROFILES: Readonly<Record<string, {
+  wikidataId: string;
+  birthDate: string;
+  countryCode: string;
+  category: string;
+  occupation: string;
+  dobSources: readonly { url: string; publisher: string; publisherCountry?: string; countryProofUrl?: string }[];
+}>> = {
+  "edgar-rice-burroughs": {
+    "wikidataId": "Q148234",
+    "birthDate": "1875-09-01",
+    "countryCode": "US",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Edgar_Rice_Burroughs",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.britannica.com/biography/Edgar-Rice-Burroughs",
+        "publisher": "Encyclopaedia Britannica"
+      }
+    ]
+  },
+  "kirsti-kolle-grondahl": {
+    "wikidataId": "Q462505",
+    "birthDate": "1943-09-01",
+    "countryCode": "NO",
+    "category": "politics",
+    "occupation": "Chính trị gia",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Kirsti_Kolle_Gr%C3%B8ndahl",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/Representantfordeling/Representant/?perid=KKG&tab=Biography",
+        "publisher": "Stortinget"
+      }
+    ]
+  },
+  "per-kirkeby": {
+    "wikidataId": "Q467462",
+    "birthDate": "1938-09-01",
+    "countryCode": "DK",
+    "category": "artist",
+    "occupation": "Họa sĩ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Per_Kirkeby",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://proleksis.lzmk.hr/31198",
+        "publisher": "Proleksis enciklopedija"
+      }
+    ]
+  },
+  "bodil-kjer": {
+    "wikidataId": "Q435317",
+    "birthDate": "1917-09-02",
+    "countryCode": "DK",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Bodil_Kjer",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.filmportal.de/person/5a65d510aaaf4c398159d2df431e1cd1",
+        "publisher": "Filmportal"
+      }
+    ]
+  },
+  "kristin-halvorsen": {
+    "wikidataId": "Q236621",
+    "birthDate": "1960-09-02",
+    "countryCode": "NO",
+    "category": "politics",
+    "occupation": "Chính trị gia",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Kristin_Halvorsen",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/Representantfordeling/Representant/?perid=KHA&tab=Biography",
+        "publisher": "Stortinget"
+      }
+    ]
+  },
+  "kjetil-andre-aamodt": {
+    "wikidataId": "Q2097",
+    "birthDate": "1971-09-02",
+    "countryCode": "NO",
+    "category": "athlete",
+    "occupation": "Vận động viên trượt tuyết",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Kjetil_Andr%C3%A9_Aamodt",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.olympedia.org/athletes/99335",
+        "publisher": "Olympedia"
+      }
+    ]
+  },
+  "alan-ladd": {
+    "wikidataId": "Q346280",
+    "birthDate": "1913-09-03",
+    "countryCode": "US",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Alan_Ladd",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://encyclopediaofarkansas.net/entries/alan-ladd-2767/",
+        "publisher": "Encyclopedia of Arkansas"
+      }
+    ]
+  },
+  "knut-nystedt": {
+    "wikidataId": "Q515696",
+    "birthDate": "1915-09-03",
+    "countryCode": "NO",
+    "category": "music",
+    "occupation": "Nhà soạn nhạc",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Knut_Nystedt",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://theaterencyclopedie.nl/id/01944073-3fe5-7085-907f-80c95c43c1d5",
+        "publisher": "TheaterEncyclopedie"
+      }
+    ]
+  },
+  "kjell-magne-bondevik": {
+    "wikidataId": "Q207655",
+    "birthDate": "1947-09-03",
+    "countryCode": "NO",
+    "category": "politics",
+    "occupation": "Chính trị gia",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Kjell_Magne_Bondevik",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/Representantfordeling/Representant/?perid=KMB&tab=Biography",
+        "publisher": "Stortinget"
+      }
+    ]
+  },
+  "anton-bruckner": {
+    "wikidataId": "Q81752",
+    "birthDate": "1824-09-04",
+    "countryCode": "AT",
+    "category": "music",
+    "occupation": "Nhà soạn nhạc",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Anton_Bruckner",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/bruckner-anton",
+        "publisher": "Brockhaus"
+      }
+    ]
+  },
+  "bernt-heiberg": {
+    "wikidataId": "Q11960814",
+    "birthDate": "1909-09-04",
+    "countryCode": "NO",
+    "category": "artist",
+    "occupation": "Kiến trúc sư",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Bernt_Heiberg",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://lokalhistoriewiki.no/index.php?mobileaction=toggle_view_desktop&title=Bernt_Heiberg",
+        "publisher": "Lokalhistoriewiki"
+      }
+    ]
+  },
+  "beyonce": {
+    "wikidataId": "Q36153",
+    "birthDate": "1981-09-04",
+    "countryCode": "US",
+    "category": "music",
+    "occupation": "Ca sĩ",
+    "dobSources": [
+      {
+        "url": "https://www.womenshistory.org/education-resources/biographies/beyonce-knowles-carter",
+        "publisher": "National Women’s History Museum"
+      },
+      {
+        "url": "https://www.grammy.com/artists/beyonce-knowles/12474/",
+        "publisher": "Recording Academy"
+      }
+    ]
+  },
+  "werner-herzog": {
+    "wikidataId": "Q44131",
+    "birthDate": "1942-09-05",
+    "countryCode": "DE",
+    "category": "artist",
+    "occupation": "Đạo diễn phim",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Werner_Herzog",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/herzog-werner",
+        "publisher": "Brockhaus"
+      }
+    ]
+  },
+  "john-carew": {
+    "wikidataId": "Q192986",
+    "birthDate": "1979-09-05",
+    "countryCode": "NO",
+    "category": "athlete",
+    "occupation": "Cầu thủ bóng đá",
+    "dobSources": [
+      {
+        "url": "https://snl.no/John_Carew",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.premierleague.com/en/players/4101/john-carew/career",
+        "publisher": "Premier League"
+      }
+    ]
+  },
+  "arthur-koestler": {
+    "wikidataId": "Q78494",
+    "birthDate": "1905-09-05",
+    "countryCode": "GB",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://www.ne.se/uppslagsverk/encyklopedi/l%C3%A5ng/arthur-koestler",
+        "publisher": "Nationalencyklopedin"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/koestler-arthur",
+        "publisher": "Hrvatska enciklopedija"
+      }
+    ]
+  },
+  "jane-addams": {
+    "wikidataId": "Q180989",
+    "birthDate": "1860-09-06",
+    "countryCode": "US",
+    "category": "history",
+    "occupation": "Nhà hoạt động xã hội",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Jane_Addams",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://proleksis.lzmk.hr/6836",
+        "publisher": "Proleksis enciklopedija"
+      }
+    ]
+  },
+  "franz-josef-strauss": {
+    "wikidataId": "Q44620",
+    "birthDate": "1915-09-06",
+    "countryCode": "DE",
+    "category": "politics",
+    "occupation": "Chính trị gia",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Franz_Josef_Strauss",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/strauss-franz-josef",
+        "publisher": "Brockhaus"
+      }
+    ]
+  },
+  "ingebjorg-kasin-sandsdalen": {
+    "wikidataId": "Q6032030",
+    "birthDate": "1915-09-06",
+    "countryCode": "NO",
+    "category": "literature",
+    "occupation": "Nhà thơ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Ingebj%C3%B8rg_Kasin_Sandsdalen",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.ensie.nl/oosthoek/sandsdalen-ingebjorg-kasin",
+        "publisher": "Oosthoek"
+      }
+    ]
+  },
+  "sonny-rollins": {
+    "wikidataId": "Q299208",
+    "birthDate": "1930-09-07",
+    "countryCode": "US",
+    "category": "music",
+    "occupation": "Nhạc sĩ jazz",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Sonny_Rollins",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/rollins-sonny",
+        "publisher": "Brockhaus"
+      }
+    ]
+  },
+  "buddy-holly": {
+    "wikidataId": "Q5977",
+    "birthDate": "1936-09-07",
+    "countryCode": "US",
+    "category": "music",
+    "occupation": "Ca sĩ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Buddy_Holly",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/holly-buddy",
+        "publisher": "Brockhaus"
+      }
+    ]
+  },
+  "tore-gjelsvik": {
+    "wikidataId": "Q713168",
+    "birthDate": "1916-09-07",
+    "countryCode": "NO",
+    "category": "scientist",
+    "occupation": "Nhà địa chất học",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Tore_Gjelsvik",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brage.npolar.no/npolar-xmlui/bitstream/handle/11250/174095/OrheimPR2006.pdf?sequence=1",
+        "publisher": "Norsk Polarinstitutt / Brage institutional repository"
+      }
+    ]
+  },
+  "antonin-dvorak": {
+    "wikidataId": "Q7298",
+    "birthDate": "1841-09-08",
+    "countryCode": "CZ",
+    "category": "music",
+    "occupation": "Nhà soạn nhạc",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Anton%C3%ADn_Dvo%C5%99%C3%A1k",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/dvorak-antonin",
+        "publisher": "Brockhaus"
+      }
+    ]
+  },
+  "patsy-cline": {
+    "wikidataId": "Q273080",
+    "birthDate": "1932-09-08",
+    "countryCode": "US",
+    "category": "music",
+    "occupation": "Ca sĩ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Patsy_Cline",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.filmportal.de/person/0e3ed1762fb94a4581c2cbd8b072a5bf",
+        "publisher": "Filmportal"
+      }
+    ]
+  },
+  "do-hung-dung": {
+    "wikidataId": "Q22162708",
+    "birthDate": "1993-09-08",
+    "countryCode": "VN",
+    "category": "athlete",
+    "occupation": "Cầu thủ bóng đá",
+    "dobSources": [
+      {
+        "url": "https://fbref.com/en/players/4433e9ea/Djo-Hung-Dung",
+        "publisher": "FBref / Sports Reference",
+        "publisherCountry": "US",
+        "countryProofUrl": "https://www.sports-reference.com/contact.html"
+      },
+      {
+        "url": "https://www.sofascore.com/football/player/do-hung-dung/830573",
+        "publisher": "Sofascore",
+        "publisherCountry": "HR",
+        "countryProofUrl": "https://corporate.sofascore.com/legal-information"
+      }
+    ]
+  },
+  "otis-redding": {
+    "wikidataId": "Q217839",
+    "birthDate": "1941-09-09",
+    "countryCode": "US",
+    "category": "music",
+    "occupation": "Ca sĩ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Otis_Redding",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.georgiaencyclopedia.org/articles/arts-culture/otis-redding-1941-1967/",
+        "publisher": "New Georgia Encyclopedia"
+      }
+    ]
+  },
+  "per-jorgensen": {
+    "wikidataId": "Q897522",
+    "birthDate": "1952-09-09",
+    "countryCode": "NO",
+    "category": "music",
+    "occupation": "Nhạc sĩ jazz",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Per_J%C3%B8rgensen",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://fnma.sceneweb.no/en/artist/24813/Per_J%C3%B8rgensen",
+        "publisher": "Sceneweb"
+      }
+    ]
+  },
+  "frode-andresen": {
+    "wikidataId": "Q511386",
+    "birthDate": "1973-09-09",
+    "countryCode": "NO",
+    "category": "athlete",
+    "occupation": "Vận động viên hai môn phối hợp",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Frode_Andresen",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.olympedia.org/athletes/99634",
+        "publisher": "Olympedia"
+      }
+    ]
+  },
+  "stephen-jay-gould": {
+    "wikidataId": "Q180619",
+    "birthDate": "1941-09-10",
+    "countryCode": "US",
+    "category": "scientist",
+    "occupation": "Nhà cổ sinh vật học",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Stephen_Jay_Gould",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/gould-stephen-jay",
+        "publisher": "Brockhaus"
+      }
+    ]
+  },
+  "marja-liisa-kirvesniemi": {
+    "wikidataId": "Q234498",
+    "birthDate": "1955-09-10",
+    "countryCode": "FI",
+    "category": "athlete",
+    "occupation": "Vận động viên trượt tuyết",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Marja-Liisa_Kirvesniemi",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.britannica.com/biography/Marja-Liisa-Hamalainen",
+        "publisher": "Encyclopaedia Britannica"
+      }
+    ]
+  },
+  "pham-thanh-luong": {
+    "wikidataId": "Q4481043",
+    "birthDate": "1988-09-10",
+    "countryCode": "VN",
+    "category": "athlete",
+    "occupation": "Cầu thủ bóng đá",
+    "dobSources": [
+      {
+        "url": "https://fbref.com/en/players/60a6cd31/Pham-Thanh-Luong",
+        "publisher": "FBref / Sports Reference",
+        "publisherCountry": "US",
+        "countryProofUrl": "https://www.sports-reference.com/contact.html"
+      },
+      {
+        "url": "https://www.transfermarkt.us/thanh-luong-pham/profil/spieler/138131",
+        "publisher": "Transfermarkt",
+        "publisherCountry": "DE",
+        "countryProofUrl": "https://www.transfermarkt.us/intern/impressum"
+      }
+    ]
+  },
+  "theodor-w-adorno": {
+    "wikidataId": "Q152388",
+    "birthDate": "1903-09-11",
+    "countryCode": "DE",
+    "category": "scientist",
+    "occupation": "Triết gia",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Theodor_W._Adorno",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/theodor-w-adorno",
+        "publisher": "Brockhaus"
+      }
+    ]
+  },
+  "birgitta-trotzig": {
+    "wikidataId": "Q259238",
+    "birthDate": "1929-09-11",
+    "countryCode": "SE",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Birgitta_Trotzig",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/trotzig-birgitta",
+        "publisher": "Hrvatska enciklopedija"
+      }
+    ]
+  },
+  "brian-de-palma": {
+    "wikidataId": "Q189526",
+    "birthDate": "1940-09-11",
+    "countryCode": "US",
+    "category": "artist",
+    "occupation": "Đạo diễn phim",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Brian_De_Palma",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/de-palma-brian",
+        "publisher": "Brockhaus"
+      }
+    ]
+  },
+  "maurice-chevalier": {
+    "wikidataId": "Q106001",
+    "birthDate": "1888-09-12",
+    "countryCode": "FR",
+    "category": "music",
+    "occupation": "Ca sĩ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Maurice_Chevalier",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://proleksis.lzmk.hr/15158",
+        "publisher": "Proleksis enciklopedija"
+      }
+    ]
+  },
+  "jesse-owens": {
+    "wikidataId": "Q52651",
+    "birthDate": "1913-09-12",
+    "countryCode": "US",
+    "category": "athlete",
+    "occupation": "Vận động viên điền kinh",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Jesse_Owens",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.britannica.com/biography/Jesse-Owens",
+        "publisher": "Encyclopaedia Britannica"
+      }
+    ]
+  },
+  "bjorn-floberg": {
+    "wikidataId": "Q879810",
+    "birthDate": "1947-09-12",
+    "countryCode": "NO",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Bj%C3%B8rn_Floberg",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.filmportal.de/person/3d0806e95f1d450fb28439092a0a5327",
+        "publisher": "Filmportal"
+      }
+    ]
+  },
+  "roald-dahl": {
+    "wikidataId": "Q25161",
+    "birthDate": "1916-09-13",
+    "countryCode": "GB",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Roald_Dahl",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://proleksis.lzmk.hr/16693",
+        "publisher": "Proleksis enciklopedija"
+      }
+    ]
+  },
+  "alex-riel": {
+    "wikidataId": "Q1374501",
+    "birthDate": "1940-09-13",
+    "countryCode": "DK",
+    "category": "music",
+    "occupation": "Nghệ sĩ trống jazz",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Alex_Riel",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://lex.dk/Alex_Riel",
+        "publisher": "Lex.dk"
+      }
+    ]
+  },
+  "ahmet-necdet-sezer": {
+    "wikidataId": "Q165487",
+    "birthDate": "1941-09-13",
+    "countryCode": "TR",
+    "category": "politics",
+    "occupation": "Chính trị gia",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Ahmet_Necdet_Sezer",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.anayasa.gov.tr/tr/baskanvekilleri-ve-uyeler/emekli-ve-gorev-suresi-dolan-uyeler/ahmet-necdet-sezer/",
+        "publisher": "T.C. Anayasa Mahkemesi"
+      }
+    ]
+  },
+  "jan-masaryk": {
+    "wikidataId": "Q315531",
+    "birthDate": "1886-09-14",
+    "countryCode": "CZ",
+    "category": "politics",
+    "occupation": "Nhà ngoại giao",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Jan_Masaryk",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://mzv.gov.cz/jnp/cz/o_ministerstvu/struktura/utvary/specializovany_archiv_mzv/kdo_byl_kdo/masaryk_jan.html",
+        "publisher": "Ministerstvo zahraničních věcí ČR"
+      }
+    ]
+  },
+  "astrid-gjertsen": {
+    "wikidataId": "Q4811421",
+    "birthDate": "1928-09-14",
+    "countryCode": "NO",
+    "category": "politics",
+    "occupation": "Chính trị gia",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Astrid_Gjertsen",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/Representant/?perid=ASGJ",
+        "publisher": "Stortinget"
+      }
+    ]
+  },
+  "filip-nguyen": {
+    "wikidataId": "Q56513413",
+    "birthDate": "1992-09-14",
+    "countryCode": "VN",
+    "category": "athlete",
+    "occupation": "Thủ môn bóng đá",
+    "dobSources": [
+      {
+        "url": "https://www.transfermarkt.us/filip-nguyen/profil/spieler/202914",
+        "publisher": "Transfermarkt",
+        "publisherCountry": "DE",
+        "countryProofUrl": "https://www.transfermarkt.us/intern/impressum"
+      },
+      {
+        "url": "https://www.sofascore.com/football/player/nguyen-filip/151931",
+        "publisher": "Sofascore",
+        "publisherCountry": "HR",
+        "countryProofUrl": "https://corporate.sofascore.com/legal-information"
+      }
+    ]
+  },
+  "oliver-stone": {
+    "wikidataId": "Q179497",
+    "birthDate": "1946-09-15",
+    "countryCode": "US",
+    "category": "artist",
+    "occupation": "Đạo diễn phim",
+    "dobSources": [
+      {
+        "url": "https://www.biography.com/movies-tv/oliver-stone",
+        "publisher": "Biography.com"
+      },
+      {
+        "url": "https://www.treccani.it/enciclopedia/oliver-stone_%28Enciclopedia-Italiana%29/",
+        "publisher": "Treccani"
+      }
+    ]
+  },
+  "jessye-norman": {
+    "wikidataId": "Q240937",
+    "birthDate": "1945-09-15",
+    "countryCode": "US",
+    "category": "music",
+    "occupation": "Ca sĩ opera",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Jessye_Norman",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/norman-jessye",
+        "publisher": "Brockhaus"
+      }
+    ]
+  },
+  "tommy-lee-jones": {
+    "wikidataId": "Q170587",
+    "birthDate": "1946-09-15",
+    "countryCode": "US",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Tommy_Lee_Jones",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.filmportal.de/person/ef441e2971b7485abd49376a8442ffd6",
+        "publisher": "Filmportal"
+      }
+    ]
+  },
+  "lauren-bacall": {
+    "wikidataId": "Q104000",
+    "birthDate": "1924-09-16",
+    "countryCode": "US",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Lauren_Bacall",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/bacall-lauren",
+        "publisher": "Brockhaus"
+      }
+    ]
+  },
+  "jon-hellesnes": {
+    "wikidataId": "Q4564029",
+    "birthDate": "1939-09-16",
+    "countryCode": "NO",
+    "category": "scientist",
+    "occupation": "Triết gia",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Jon_Hellesnes",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://forfattarar.sfj.no/writer/jon-hellesnes/",
+        "publisher": "Forfattarar frå Sogn og Fjordane"
+      }
+    ]
+  },
+  "vebjorn-rodal": {
+    "wikidataId": "Q354317",
+    "birthDate": "1972-09-16",
+    "countryCode": "NO",
+    "category": "athlete",
+    "occupation": "Vận động viên điền kinh",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Vebj%C3%B8rn_Rodal",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://worldathletics.org/athletes/norway/vebjorn-rodal-14215450",
+        "publisher": "World Athletics"
+      }
+    ]
+  },
+  "christian-lous-lange": {
+    "wikidataId": "Q206446",
+    "birthDate": "1869-09-17",
+    "countryCode": "NO",
+    "category": "politics",
+    "occupation": "Nhà ngoại giao",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Christian_Lous_Lange",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/lange-christian-lous",
+        "publisher": "Hrvatska enciklopedija"
+      }
+    ]
+  },
+  "hank-williams": {
+    "wikidataId": "Q206181",
+    "birthDate": "1923-09-17",
+    "countryCode": "US",
+    "category": "music",
+    "occupation": "Ca sĩ nhạc đồng quê",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Hank_Williams",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.countrymusichalloffame.org/hall-of-fame/hank-williams",
+        "publisher": "Country Music Hall of Fame"
+      }
+    ]
+  },
+  "randi-bratteli": {
+    "wikidataId": "Q4968156",
+    "birthDate": "1924-09-17",
+    "countryCode": "NO",
+    "category": "literature",
+    "occupation": "Nhà báo",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Randi_Bratteli",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://lokalhistoriewiki.no/index.php?mobileaction=toggle_view_desktop&title=Randi_Bratteli",
+        "publisher": "Lokalhistoriewiki"
+      }
+    ]
+  },
+  "greta-garbo": {
+    "wikidataId": "Q5443",
+    "birthDate": "1905-09-18",
+    "countryCode": "SE",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Greta_Garbo",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/garbo-greta",
+        "publisher": "Brockhaus"
+      }
+    ]
+  },
+  "nils-petter-molvaer": {
+    "wikidataId": "Q738139",
+    "birthDate": "1960-09-18",
+    "countryCode": "NO",
+    "category": "music",
+    "occupation": "Nhạc sĩ jazz",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Nils_Petter_Molv%C3%A6r",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.universalmusic.fr/artistes/20000144514",
+        "publisher": "Universal Music France"
+      }
+    ]
+  },
+  "sveinn-einarsson": {
+    "wikidataId": "Q16095583",
+    "birthDate": "1934-09-18",
+    "countryCode": "IS",
+    "category": "artist",
+    "occupation": "Đạo diễn sân khấu",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Sveinn_Einarsson",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://leikhusid.is/actors/sveinn-einarsson/",
+        "publisher": "Þjóðleikhúsið / Icelandic National Theatre"
+      }
+    ]
+  },
+  "mika-waltari": {
+    "wikidataId": "Q193111",
+    "birthDate": "1908-09-19",
+    "countryCode": "FI",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Mika_Waltari",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.hamhelsinki.fi/veistos/mika-waltari-muistolaatta/",
+        "publisher": "HAM Helsinki Art Museum"
+      }
+    ]
+  },
+  "william-golding": {
+    "wikidataId": "Q44183",
+    "birthDate": "1911-09-19",
+    "countryCode": "GB",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/William_Golding",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/golding-william-gerald",
+        "publisher": "Brockhaus"
+      }
+    ]
+  },
+  "jeremy-irons": {
+    "wikidataId": "Q171745",
+    "birthDate": "1948-09-19",
+    "countryCode": "GB",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Jeremy_Irons",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.britannica.com/biography/Jeremy-Irons",
+        "publisher": "Encyclopaedia Britannica"
+      }
+    ]
+  },
+  "sophia-loren": {
+    "wikidataId": "Q43252",
+    "birthDate": "1934-09-20",
+    "countryCode": "IT",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Sophia_Loren",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/loren-sophia",
+        "publisher": "Brockhaus"
+      }
+    ]
+  },
+  "bjorn-wiinblad": {
+    "wikidataId": "Q879860",
+    "birthDate": "1918-09-20",
+    "countryCode": "DK",
+    "category": "artist",
+    "occupation": "Nhà thiết kế",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Bj%C3%B8rn_Wiinblad",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://biografiskleksikon.lex.dk/Bj%C3%B8rn_Wiinblad",
+        "publisher": "Dansk Biografisk Leksikon / Lex.dk"
+      }
+    ]
+  },
+  "rolf-kirkvaag": {
+    "wikidataId": "Q7360753",
+    "birthDate": "1920-09-20",
+    "countryCode": "NO",
+    "category": "artist",
+    "occupation": "Người dẫn chương trình",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Rolf_Kirkvaag",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://fnma.sceneweb.no/nb/artist/80789/Rolf_Kirkvaag",
+        "publisher": "Sceneweb"
+      }
+    ]
+  },
+  "gustav-holst": {
+    "wikidataId": "Q200867",
+    "birthDate": "1874-09-21",
+    "countryCode": "GB",
+    "category": "music",
+    "occupation": "Nhà soạn nhạc",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Gustav_Holst",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/holst-gustav-theodore",
+        "publisher": "Brockhaus"
+      }
+    ]
+  },
+  "leonard-cohen": {
+    "wikidataId": "Q1276",
+    "birthDate": "1934-09-21",
+    "countryCode": "CA",
+    "category": "music",
+    "occupation": "Ca sĩ, nhạc sĩ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Leonard_Cohen",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://proleksis.lzmk.hr/15694",
+        "publisher": "Proleksis enciklopedija"
+      }
+    ]
+  },
+  "lars-saabye-christensen": {
+    "wikidataId": "Q366281",
+    "birthDate": "1953-09-21",
+    "countryCode": "NO",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Lars_Saabye_Christensen",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.encyclopedia.com/arts/educational-magazines/saabye-christensen-lars-1953",
+        "publisher": "Encyclopedia.com"
+      }
+    ]
+  },
+  "fay-weldon": {
+    "wikidataId": "Q239501",
+    "birthDate": "1931-09-22",
+    "countryCode": "GB",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Fay_Weldon",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/weldon-fay",
+        "publisher": "Brockhaus"
+      }
+    ]
+  },
+  "nick-cave": {
+    "wikidataId": "Q192668",
+    "birthDate": "1957-09-22",
+    "countryCode": "AU",
+    "category": "music",
+    "occupation": "Ca sĩ, nhạc sĩ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Nick_Cave",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.filmportal.de/person/859452c646da4eccb575130195c1101e",
+        "publisher": "Filmportal"
+      }
+    ]
+  },
+  "ha-duc-chinh": {
+    "wikidataId": "Q25999788",
+    "birthDate": "1997-09-22",
+    "countryCode": "VN",
+    "category": "athlete",
+    "occupation": "Cầu thủ bóng đá",
+    "dobSources": [
+      {
+        "url": "https://www.transfermarkt.com/duc-chinh-ha/profil/spieler/508254",
+        "publisher": "Transfermarkt",
+        "publisherCountry": "DE",
+        "countryProofUrl": "https://www.transfermarkt.us/intern/impressum"
+      },
+      {
+        "url": "https://www.sofascore.com/football/player/ha-duc-chinh/889636",
+        "publisher": "Sofascore",
+        "publisherCountry": "HR",
+        "countryProofUrl": "https://corporate.sofascore.com/legal-information"
+      }
+    ]
+  },
+  "aldo-moro": {
+    "wikidataId": "Q171834",
+    "birthDate": "1916-09-23",
+    "countryCode": "IT",
+    "category": "politics",
+    "occupation": "Chính trị gia",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Aldo_Moro",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/moro-aldo",
+        "publisher": "Brockhaus"
+      }
+    ]
+  },
+  "ray-charles": {
+    "wikidataId": "Q544387",
+    "birthDate": "1930-09-23",
+    "countryCode": "US",
+    "category": "music",
+    "occupation": "Ca sĩ, nhạc sĩ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Ray_Charles",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/charles-ray",
+        "publisher": "Brockhaus"
+      }
+    ]
+  },
+  "per-olov-enquist": {
+    "wikidataId": "Q311476",
+    "birthDate": "1934-09-23",
+    "countryCode": "SE",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Per_Olov_Enquist",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://proleksis.lzmk.hr/19750",
+        "publisher": "Proleksis enciklopedija"
+      }
+    ]
+  },
+  "f-scott-fitzgerald": {
+    "wikidataId": "Q93354",
+    "birthDate": "1896-09-24",
+    "countryCode": "US",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/F._Scott_Fitzgerald",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://proleksis.lzmk.hr/21502",
+        "publisher": "Proleksis enciklopedija"
+      }
+    ]
+  },
+  "jim-henson": {
+    "wikidataId": "Q191037",
+    "birthDate": "1936-09-24",
+    "countryCode": "US",
+    "category": "artist",
+    "occupation": "Nghệ sĩ múa rối",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Jim_Henson",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://proleksis.lzmk.hr/58020",
+        "publisher": "Proleksis enciklopedija"
+      }
+    ]
+  },
+  "nils-collett-vogt": {
+    "wikidataId": "Q1992327",
+    "birthDate": "1864-09-24",
+    "countryCode": "NO",
+    "category": "literature",
+    "occupation": "Nhà thơ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Nils_Collett_Vogt",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://lokalhistoriewiki.no/index.php?mobileaction=toggle_view_desktop&title=Nils_Collett_Vogt_%281864%E2%80%931937%29",
+        "publisher": "Lokalhistoriewiki"
+      }
+    ]
+  },
+  "william-faulkner": {
+    "wikidataId": "Q38392",
+    "birthDate": "1897-09-25",
+    "countryCode": "US",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/William_Faulkner",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/faulkner-william-cuthbert",
+        "publisher": "Brockhaus"
+      }
+    ]
+  },
+  "glenn-gould": {
+    "wikidataId": "Q216924",
+    "birthDate": "1932-09-25",
+    "countryCode": "CA",
+    "category": "music",
+    "occupation": "Nghệ sĩ piano",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Glenn_Gould",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://proleksis.lzmk.hr/24073",
+        "publisher": "Proleksis enciklopedija"
+      }
+    ]
+  },
+  "michael-douglas": {
+    "wikidataId": "Q119798",
+    "birthDate": "1944-09-25",
+    "countryCode": "US",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Michael_Douglas",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/douglas-michael-kirk",
+        "publisher": "Brockhaus"
+      }
+    ]
+  },
+  "george-gershwin": {
+    "wikidataId": "Q123829",
+    "birthDate": "1898-09-26",
+    "countryCode": "US",
+    "category": "music",
+    "occupation": "Nhà soạn nhạc",
+    "dobSources": [
+      {
+        "url": "https://snl.no/George_Gershwin",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/gershwin-george",
+        "publisher": "Brockhaus"
+      }
+    ]
+  },
+  "elisabeth-bang": {
+    "wikidataId": "Q4573719",
+    "birthDate": "1922-09-26",
+    "countryCode": "NO",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Elisabeth_Bang",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://sceneweb.no/nb/artist/19749/Elisabeth_Bang",
+        "publisher": "Sceneweb"
+      }
+    ]
+  },
+  "olivia-newton-john": {
+    "wikidataId": "Q185165",
+    "birthDate": "1948-09-26",
+    "countryCode": "AU",
+    "category": "music",
+    "occupation": "Ca sĩ, diễn viên",
+    "dobSources": [
+      {
+        "url": "https://peopleaustralia.anu.edu.au/biography/newtonjohn-dame-olivia-32692",
+        "publisher": "People Australia / Australian National University"
+      },
+      {
+        "url": "https://www.nporadio5.nl/muziek/artiesten/9d176c72-1956-41e1-bd4f-0edcc40d00a7/olivia-newton-john",
+        "publisher": "NPO Radio 5"
+      }
+    ]
+  },
+  "tryggve-andersen": {
+    "wikidataId": "Q721693",
+    "birthDate": "1866-09-27",
+    "countryCode": "NO",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Tryggve_Andersen",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://proleksis.lzmk.hr/8588",
+        "publisher": "Proleksis enciklopedija"
+      }
+    ]
+  },
+  "arthur-penn": {
+    "wikidataId": "Q41136",
+    "birthDate": "1922-09-27",
+    "countryCode": "US",
+    "category": "artist",
+    "occupation": "Đạo diễn phim",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Arthur_Penn",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.filmportal.de/person/bea7d447e42d4ffb91a9188187b89021",
+        "publisher": "Filmportal"
+      }
+    ]
+  },
+  "gwyneth-paltrow": {
+    "wikidataId": "Q34460",
+    "birthDate": "1972-09-27",
+    "countryCode": "US",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Gwyneth_Paltrow",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://goldenglobes.com/person/gwyneth-paltrow/",
+        "publisher": "Golden Globes"
+      }
+    ]
+  },
+  "frances-willard": {
+    "wikidataId": "Q450197",
+    "birthDate": "1839-09-28",
+    "countryCode": "US",
+    "category": "history",
+    "occupation": "Nhà hoạt động xã hội",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Frances_Willard",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.franceswillardmuseum.org/who-is-frances-willard",
+        "publisher": "Frances Willard House Museum"
+      }
+    ]
+  },
+  "brigitte-bardot": {
+    "wikidataId": "Q36268",
+    "birthDate": "1934-09-28",
+    "countryCode": "FR",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Brigitte_Bardot",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/bardot-brigitte",
+        "publisher": "Brockhaus"
+      }
+    ]
+  },
+  "liv-dommersnes": {
+    "wikidataId": "Q273325",
+    "birthDate": "1922-09-28",
+    "countryCode": "NO",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Liv_Dommersnes",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://sceneweb.no/nb/artist/20387/Liv_Str%C3%B8msted%20Dommersnes",
+        "publisher": "Sceneweb"
+      }
+    ]
+  },
+  "lech-walesa": {
+    "wikidataId": "Q444",
+    "birthDate": "1943-09-29",
+    "countryCode": "PL",
+    "category": "politics",
+    "occupation": "Chính trị gia",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Lech_Wa%C5%82%C4%99sa",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/walesa-leszek-lech",
+        "publisher": "Brockhaus"
+      }
+    ]
+  },
+  "jon-fosse": {
+    "wikidataId": "Q443868",
+    "birthDate": "1959-09-29",
+    "countryCode": "NO",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Jon_Fosse",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://brockhaus.de/ecs/julex/article/fosse-jon",
+        "publisher": "Brockhaus"
+      }
+    ]
+  },
+  "do-duy-manh": {
+    "wikidataId": "Q19281994",
+    "birthDate": "1996-09-29",
+    "countryCode": "VN",
+    "category": "athlete",
+    "occupation": "Cầu thủ bóng đá",
+    "dobSources": [
+      {
+        "url": "https://www.transfermarkt.de/duy-manh-do/profil/spieler/354784",
+        "publisher": "Transfermarkt",
+        "publisherCountry": "DE",
+        "countryProofUrl": "https://www.transfermarkt.us/intern/impressum"
+      },
+      {
+        "url": "https://www.goal.com/de/spieler/d-do/3wxucqw1i93q20r564ucn2mdx",
+        "publisher": "GOAL Deutschland",
+        "publisherCountry": "DE",
+        "countryProofUrl": "https://www.goal.com/de/kontakt"
+      }
+    ]
+  },
+  "johan-falkberget": {
+    "wikidataId": "Q721749",
+    "birthDate": "1879-09-30",
+    "countryCode": "NO",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Johan_Falkberget",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://proleksis.lzmk.hr/20389",
+        "publisher": "Proleksis enciklopedija"
+      }
+    ]
+  },
+  "truman-capote": {
+    "wikidataId": "Q134180",
+    "birthDate": "1924-09-30",
+    "countryCode": "US",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Truman_Capote",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.filmportal.de/person/19b4713459ea4c818c162e58af7ddf17",
+        "publisher": "Filmportal"
+      }
+    ]
+  },
+  "elie-wiesel": {
+    "wikidataId": "Q18391",
+    "birthDate": "1928-09-30",
+    "countryCode": "US",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Elie_Wiesel",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.filmportal.de/person/5e1a6b30aea641cb85121ae1d8ef9a62",
+        "publisher": "Filmportal"
+      }
+    ]
+  }
+};
+
+const B013_APPROVED_IDS = new Set(Object.keys(B013_APPROVED_PROFILES));
+const B013_APPROVED_QIDS = new Set(Object.values(B013_APPROVED_PROFILES).map((profile) => profile.wikidataId));
+const B013_NEW_PEOPLE = ALL_PEOPLE.filter((p) => B013_NEW_IDS.has(p.id));
+assert('Rule AH', B013_NEW_IDS.size === 90 && B013_APPROVED_IDS.size === 90, 'B013 must lock exactly 90 unique profile IDs');
+assert('Rule AH', B013_APPROVED_IDS.size === B013_NEW_IDS.size && [...B013_NEW_IDS].every((id) => B013_APPROVED_IDS.has(id)), 'B013 exact ID allowlist must match the September projection');
+assert('Rule AH', B013_NEW_PEOPLE.length === 90 && B013_NEW_PEOPLE.length === B013_APPROVED_IDS.size, `B013 requires exactly 90 approved September profiles, found ${B013_NEW_PEOPLE.length}`);
+assert('Rule AH', B013_APPROVED_QIDS.size === 90 && new Set(B013_NEW_PEOPLE.map((p) => p.wikidataId)).size === 90, 'B013 QIDs must be exact and unique');
+assert('Rule AH', B013_NEW_PEOPLE.every((p) => B013_APPROVED_IDS.has(p.id)), 'B013 additions must match only the approved profile IDs');
+
+function isApprovedB013DobSource(qid: string, url: string): boolean {
+  return Object.values(B013_APPROVED_PROFILES).some((profile) => profile.wikidataId === qid && profile.dobSources.some((source) => source.url === url));
+}
+
+const b013EvidenceProfiles = B013_EVIDENCE.profiles as readonly {
+  id: string; wikidataId: string; birthDate: string; countryCode: string; category: string; occupation: string;
+  dobSources: readonly { url: string; publisher: string; publisherCountry?: string; countryProofUrl?: string }[];
+}[];
+const b013EvidenceProfilesById = new Map(b013EvidenceProfiles.map((profile) => [profile.id, profile]));
+assert('Rule AH evidence', B013_EVIDENCE.schemaVersion === 1 && B013_EVIDENCE.cycle === 'BV-014 / B013', 'B013 evidence file must identify its schema and cycle');
+assert('Rule AH evidence', b013EvidenceProfiles.length === 90 && b013EvidenceProfilesById.size === 90, 'B013 evidence must include 90 unique reviewed profiles');
+
+const B013_COUNTRY_PROOF_URLS: Readonly<Record<string, string>> = {
+  'FBref / Sports Reference': 'https://www.sports-reference.com/contact.html',
+  'Sofascore': 'https://corporate.sofascore.com/legal-information',
+  'Transfermarkt': 'https://www.transfermarkt.us/intern/impressum',
+  'GOAL Deutschland': 'https://www.goal.com/de/kontakt',
+};
+
+for (const p of B013_NEW_PEOPLE) {
+  const expected = B013_APPROVED_PROFILES[p.id];
+  const evidence = b013EvidenceProfilesById.get(p.id);
+  assert('Rule AH', Boolean(expected), `Unapproved B013 profile ID: ${p.id}`);
+  if (!expected) continue;
+  assert('Rule AH', Boolean(evidence), `B013 evidence is missing profile ${p.id}`);
+  assert('Rule AH', p.wikidataId === expected.wikidataId, `B013 ${p.id} expected QID ${expected.wikidataId}, got ${p.wikidataId}`);
+  assert('Rule AH', p.birthDate === expected.birthDate && /^\d{4}-09-\d{2}$/.test(p.birthDate), `B013 ${p.id} expected exact September DOB ${expected.birthDate}, got ${p.birthDate}`);
+  assert('Rule AH', p.birthMonth === 9 && p.birthYear === Number(p.birthDate.slice(0, 4)) && p.birthDay === Number(p.birthDate.slice(8, 10)), `B013 ${p.id} split date fields must match birthDate`);
+  assert('Rule AH', p.countryCode === expected.countryCode && p.category === expected.category, `B013 ${p.id} country/category must match the reviewed mapping`);
+  assert('Rule AH', p.occupation?.length === 1 && p.occupation[0] === expected.occupation, `B013 ${p.id} occupation must match the reviewed mapping`);
+  assert('Rule AH', p.verifiedAt === '2026-10-07', `B013 ${p.id} requires the B013 review date`);
+  assert('Rule AH', p.sourceUrls?.includes(`https://www.wikidata.org/wiki/${expected.wikidataId}`) === true, `B013 ${p.id} requires its exact Wikidata URL`);
+  assert('Rule AH source', expected.dobSources.length === 2, `B013 ${p.id} must have exactly two reviewed DOB publishers`);
+  assert('Rule AH source', new Set(expected.dobSources.map((source) => source.publisher)).size === 2, `B013 ${p.id} publishers must be distinct`);
+  assert('Rule AH source', new Set(expected.dobSources.map((source) => getUrlHostname(source.url))).size === 2, `B013 ${p.id} DOB source hosts must be distinct`);
+  const nonWikiUrls = (p.sourceUrls || []).filter((url) => !['wikidata.org', 'www.wikidata.org', 'wikipedia.org', 'www.wikipedia.org', 'wikimedia.org', 'www.wikimedia.org'].includes(getUrlHostname(url)));
+  const approvedUrls = expected.dobSources.map((source) => source.url);
+  assert('Rule AH source', nonWikiUrls.length === 2 && approvedUrls.every((url) => nonWikiUrls.includes(url)), `B013 ${p.id} must include exactly its reviewed non-Wikidata DOB pair`);
+  assert('Rule AH evidence', evidence?.wikidataId === expected.wikidataId && evidence.birthDate === expected.birthDate && evidence.countryCode === expected.countryCode && evidence.category === expected.category && evidence.occupation === expected.occupation, `B013 evidence mapping must match the allowlist for ${p.id}`);
+  assert('Rule AH evidence', JSON.stringify(evidence?.dobSources) === JSON.stringify(expected.dobSources), `B013 source evidence must match the exact pair for ${p.id}`);
+
+  for (const source of expected.dobSources) {
+    assert('Rule AH source positive', isApprovedB013DobSource(expected.wikidataId, source.url), `B013 reviewed source must pass for ${p.id}: ${source.url}`);
+    assert('Rule AH source profile', (p.sourceUrls || []).includes(source.url), `B013 ${p.id} must include reviewed source ${source.url}`);
+    assert('Rule AH source URL', Boolean(getUrlHostname(source.url)), `B013 source must use a valid URL: ${source.url}`);
+    const capture = (B013_EVIDENCE.sourceCaptures as unknown as Record<string, { profileId: string; wikidataId: string; expectedBirthDate: string; publisher: string; verificationMethod: string; fullDobAndIdentityReviewed: boolean; browserExcerpt?: string | null; capture?: { status?: number; sha256?: string } | null; localAttempts: readonly unknown[] }>)[source.url];
+    assert('Rule AH evidence', Boolean(capture) && capture.profileId === p.id && capture.wikidataId === expected.wikidataId && capture.expectedBirthDate === expected.birthDate && capture.publisher === source.publisher && capture.fullDobAndIdentityReviewed === true, `B013 source evidence must bind the exact profile, DOB, and publisher: ${source.url}`);
+    assert('Rule AH evidence', capture?.verificationMethod === 'direct-http' || (capture?.verificationMethod === 'browser-direct' && Boolean(capture.browserExcerpt)), `B013 source requires direct page evidence: ${source.url}`);
+    assert('Rule AH source negative', !isApprovedB013DobSource('Q0', source.url), `B013 source must not approve another QID: ${source.url}`);
+    assert('Rule AH source negative', !isApprovedB013DobSource(expected.wikidataId, `${source.url}#unreviewed`), `B013 source must reject an unreviewed fragment: ${source.url}`);
+    const queryVariant = source.url.includes('?') ? `${source.url}&unreviewed=1` : `${source.url}?unreviewed=1`;
+    assert('Rule AH source negative', !isApprovedB013DobSource(expected.wikidataId, queryVariant), `B013 source must reject an unreviewed query: ${source.url}`);
+    const pathVariant = new URL(source.url);
+    pathVariant.pathname = `${pathVariant.pathname.replace(/\/$/, '')}/unreviewed`;
+    assert('Rule AH source negative', !isApprovedB013DobSource(expected.wikidataId, pathVariant.href), `B013 source must reject an unreviewed path: ${source.url}`);
+    const lookalike = new URL(source.url);
+    lookalike.hostname += '.evil.example';
+    assert('Rule AH source negative', !isApprovedB013DobSource(expected.wikidataId, lookalike.href), `B013 source must reject a lookalike host: ${source.url}`);
+    assert('Rule AH source negative', !isApprovedB013DobSource(expected.wikidataId, 'not-a-url'), 'B013 source must reject a malformed URL');
+  }
+
+  if (p.countryCode === 'VN') {
+    assert('Rule AH Vietnamese', expected.dobSources.every((source) => source.publisherCountry && source.publisherCountry !== 'VN' && source.countryProofUrl === B013_COUNTRY_PROOF_URLS[source.publisher]), `B013 Vietnamese ${p.id} needs two foreign publishers with exact official country proof`);
+  }
+}
+
+const b013Vietnamese = B013_NEW_PEOPLE.filter((p) => p.countryCode === 'VN');
+assert('Rule AH balance', b013Vietnamese.length === 5, `B013 Vietnamese count must be 5, found ${b013Vietnamese.length}`);
+assert('Rule AH balance', b013Vietnamese.length / B013_NEW_PEOPLE.length >= 0.05, `B013 Vietnamese share must be at least 5%; found ${b013Vietnamese.length}/${B013_NEW_PEOPLE.length}`);
+assert('Rule AH balance', new Set(b013Vietnamese.map((p) => p.wikidataId)).size === 5, 'B013 Vietnamese QIDs must be unique');
+
+const b013EntityAudit = B013_EVIDENCE.wikidataAudit.entities as unknown as Record<string, {
+  label: string | null;
+  p31: readonly { rank: string; value: string; references: number; qualifiers: readonly unknown[] }[];
+  p569: readonly { rank: string; value: { time: string; precision: number; calendar: string; before: number; after: number; timezone: number }; qualifiers: Record<string, readonly { snaktype: string; value: unknown }[]>; references: readonly { hash: string; snaks: Record<string, unknown> }[] }[];
+  activeHumanP31: boolean; activeExactGregorianDob: boolean; activePreciseConflicts: readonly unknown[];
+}>;
+const b013Wikidata = B013_EVIDENCE.wikidataAudit as { retrievedAt: string; endpoint: string; calendarModel: string; entities: Record<string, unknown> };
+assert('Rule AH Wikidata', b013Wikidata.retrievedAt === '2026-10-07' && b013Wikidata.endpoint.startsWith('https://www.wikidata.org/w/api.php') && b013Wikidata.calendarModel === 'http://www.wikidata.org/entity/Q1985727', 'B013 Wikidata evidence must identify its live API, retrieval date, and Gregorian calendar');
+assert('Rule AH Wikidata', Object.keys(b013EntityAudit).length === 90, 'B013 Wikidata audit must contain all 90 QIDs');
+for (const p of B013_NEW_PEOPLE) {
+  const expected = B013_APPROVED_PROFILES[p.id];
+  if (!expected) continue;
+  const entity = b013EntityAudit[expected.wikidataId];
+  assert('Rule AH Wikidata', Boolean(entity), `B013 Wikidata audit is missing ${expected.wikidataId}`);
+  if (!entity) continue;
+  assert('Rule AH Wikidata', entity.activeHumanP31 === true && entity.p31.some((claim) => claim.rank !== 'deprecated' && claim.value === 'Q5'), `B013 ${p.id} must have an active P31 human claim`);
+  assert('Rule AH Wikidata', entity.activeExactGregorianDob === true && entity.activePreciseConflicts.length === 0, `B013 ${p.id} must have an exact Gregorian P569 and no active precise conflict`);
+  assert('Rule AH Wikidata', entity.p31.every((claim) => ['preferred', 'normal', 'deprecated'].includes(claim.rank) && Number.isInteger(claim.references) && claim.references >= 0 && Array.isArray(claim.qualifiers)), `B013 ${p.id} P31 rank, references, and qualifiers must be captured`);
+  assert('Rule AH Wikidata', entity.p569.length > 0 && entity.p569.every((claim) => ['preferred', 'normal', 'deprecated'].includes(claim.rank) && claim.value.calendar === b013Wikidata.calendarModel && claim.value.precision >= 0 && claim.value.precision <= 14 && claim.qualifiers !== undefined && Array.isArray(claim.references) && claim.references.length > 0 && claim.references.every((reference) => Boolean(reference.hash) && typeof reference.snaks === 'object')), `B013 ${p.id} must preserve every P569 rank, qualifier, calendar, precision, and reference`);
+  const activeClaims = entity.p569.filter((claim) => claim.rank !== 'deprecated');
+  const exactClaims = activeClaims.filter((claim) => claim.value.precision === 11);
+  assert('Rule AH Wikidata', exactClaims.some((claim) => claim.value.time.slice(1, 11) === expected.birthDate), `B013 ${p.id} needs an active exact P569 matching ${expected.birthDate}`);
+  assert('Rule AH Wikidata', activeClaims.filter((claim) => claim.value.precision >= 11).every((claim) => claim.value.time.slice(1, 11) === expected.birthDate), `B013 ${p.id} has an active exact or more-precise P569 conflict`);
+  assert('Rule AH Wikidata', activeClaims.filter((claim) => claim.value.precision < 11).every((claim) => claim.value.time.slice(1, 5) === expected.birthDate.slice(0, 4)), `B013 ${p.id} has an active coarser P569 with a conflicting year`);
+  assert('Rule AH age', isAdultOnDate(expected.birthDate, '2026-10-07'), `B013 ${p.id} must be an adult on 2026-10-07`);
+}
+
+const janeAddamsClaims = b013EntityAudit['Q180989']?.p569 || [];
+assert('Rule AH Wikidata exception', janeAddamsClaims.some((claim) => claim.rank === 'preferred' && claim.value.precision === 11 && claim.qualifiers.P7452?.some((qualifier) => (qualifier.value as { id?: string }).id === 'Q71536040')), 'Jane Addams preferred exact P569 must retain its reviewed-rank qualifier');
+assert('Rule AH Wikidata exception', janeAddamsClaims.some((claim) => claim.rank === 'normal' && claim.value.precision === 9 && claim.value.time.slice(1, 5) === '1860'), 'Jane Addams coarser P569 must remain visible with the same year');
+for (const qid of ['Q299208', 'Q4968156']) {
+  const claims = b013EntityAudit[qid]?.p569 || [];
+  const expectedYear = qid === 'Q299208' ? '1930' : '1924';
+  assert('Rule AH Wikidata exception', claims.some((claim) => claim.rank !== 'deprecated' && claim.value.precision === 9 && claim.value.time.slice(1, 5) === expectedYear), `${qid} must retain its same-year coarser P569 claim`);
+}
+assert('Rule AH Wikidata exception', (b013EntityAudit['Q148234']?.p569 || []).some((claim) => claim.rank === 'deprecated' && claim.value.time.slice(1, 11) === '1875-02-23'), 'Edgar Rice Burroughs old contradictory date must remain marked deprecated in the audit');
+
+for (let day = 1; day <= 30; day++) {
+  const additions = B013_NEW_PEOPLE.filter((p) => p.birthDay === day);
+  const total = ALL_PEOPLE.filter((p) => p.birthMonth === 9 && p.birthDay === day);
+  assert('Rule AH coverage', additions.length === 3, `B013 September ${day} must have exactly 3 additions, found ${additions.length}`);
+  assert('Rule AH coverage', total.length === 3 && total.length <= 8, `B013 September ${day} must have 3 additions and no more than 8 total people, found ${total.length}`);
+}
+const b013BaselinePeople = ALL_PEOPLE.filter((p) => !B013_NEW_IDS.has(p.id));
+assert('Rule AH baseline', b013BaselinePeople.length === 754, `B013 must preserve all 754 baseline people, found ${b013BaselinePeople.length}`);
+assert('Rule AH baseline', stableSha256(b013BaselinePeople.sort((a, b) => a.id.localeCompare(b.id))) === '43e159877b62e4e68ba6fb15763c40cbf660325803896fcf0843edc73702c282', 'All 754 origin/main people must remain deep-equal to the B013 baseline');
+assert('Rule AH baseline', stableSha256(HISTORY_EVENTS) === '6dd4aae214c2b43131155c6483c3f3c575fe632e1287583c5c28ce4e40dcfd07', 'All 4 history events must remain deep-equal to the B013 baseline');
+const b013CoveredDays = new Set(ALL_PEOPLE.map((p) => `${p.birthMonth}-${p.birthDay}`));
+const b013SeptemberDays = new Set(ALL_PEOPLE.filter((p) => p.birthMonth === 9).map((p) => p.birthDay));
+assert('Rule AH total', ALL_PEOPLE.length === 844, `B013 expected 844 total people, found ${ALL_PEOPLE.length}`);
+assert('Rule AH coverage', b013CoveredDays.size === 275, `B013 expected 275 covered calendar days, found ${b013CoveredDays.size}`);
+assert('Rule AH coverage', b013SeptemberDays.size === 30, `B013 must cover all 30 September days, found ${b013SeptemberDays.size}`);
+console.log(`B013 additions: ${B013_NEW_PEOPLE.length}; Vietnamese: ${b013Vietnamese.length}; share: ${(b013Vietnamese.length / B013_NEW_PEOPLE.length * 100).toFixed(2)}%; coverage: ${b013CoveredDays.size}/366`);
 
 
 // ------------------------------------------------------------

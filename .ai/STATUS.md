@@ -2,32 +2,29 @@
 
 ## Current cycle
 
-Cycle: BV-013
+Cycle: BV-014 / B013 — September people data
 
-State: ACCEPTED — B012-r1 PASS ngày 2026-10-07; commit đã push và xác nhận `origin/main` đồng bộ.
+State: ACCEPTED — B013-r1 PASS ngày 2026-10-07; chờ cycle tháng 10 theo yêu cầu đã có của người dùng.
 
-Task: `.ai/hop-thu-mybirthday/viec/B012-people-aug-01-31.md`.
+### Baseline
+
+`origin/main` trước B013: commit `238f8989b366857146ff435572506932539ec176`, 754 people, 4 events, 245/366 ngày có dữ liệu; tháng 9 trống. People SHA-256 `43e159877b62e4e68ba6fb15763c40cbf660325803896fcf0843edc73702c282`; events SHA-256 `6dd4aae214c2b43131155c6483c3f3c575fe632e1287583c5c28ce4e40dcfd07`.
 
 ### Kết quả
 
-- Thêm 93 hồ sơ tháng 8, đúng 3/ngày; 5 người Việt (5,38%).
-- 186 nguồn DOB ghi nhận đúng danh tính và ngày sinh đầy đủ; mỗi hồ sơ có hai publisher và host khác nhau. 176 trang HTTP 200 cục bộ; 10 trang xác minh browser-direct.
-- Wikidata P31/P569 khớp Gregorian precision 11: 93/93; không có active DOB chính xác hơn mâu thuẫn.
-- 5/5 hồ sơ Việt có hai nguồn từ publisher ngoài Việt Nam; 10 proof rows dùng 8 URL chính thức.
-- Rule AG, baseline equality và integrity: PASS. Tổng 754 người, 245/366 ngày có dữ liệu; tháng 8 phủ 31/31; 15/8 có 5 người.
-- Giữ nguyên 661 hồ sơ baseline và 4 history events theo SHA-256 people `bbdbf73293a1e6e861dffd6bab00b1eee0a4639d79ba2eb9594eec1df97c0334`, events `6dd4aae214c2b43131155c6483c3f3c575fe632e1287583c5c28ce4e40dcfd07`.
-- Báo cáo: `.ai/hop-thu-mybirthday/xong/B012-people-aug-01-31.md`; review: `.ai/hop-thu-mybirthday/review/B012-people-aug-01-31-r1.md`; ledger: `.ai/hop-thu-mybirthday/review/B012-evidence.json`.
+- Thêm 90 hồ sơ tháng 9, đúng 3/ngày; 5 người Việt (5,56%). Tổng 844 people, 275/366 ngày; tháng 9 phủ 30/30.
+- 180 nguồn DOB đã ghi evidence; 169 URL có HTTP 200 và hash capture cục bộ, 12 trang được xác minh browser-direct do fetch cục bộ không phơi bày ngày sinh.
+- P31/P569: 90/90 QID có human và DOB Gregorian chính xác; toàn bộ active exact/more-precise claims không mâu thuẫn. Rule AH PASS.
+- Bảo toàn 754 người nền theo SHA-256 `43e159877b62e4e68ba6fb15763c40cbf660325803896fcf0843edc73702c282` và 4 events theo SHA-256 `6dd4aae214c2b43131155c6483c3f3c575fe632e1287583c5c28ce4e40dcfd07`.
+- Gates: `npm test` PASS; full `npm run verify:wikidata` PASS 844/844; typecheck, lint, build, coverage và `git diff --check` PASS; HTTP smoke 3/3.
+
+Evidence: `.ai/evidence/B013.json`.
 
 ### Reviewer Attention
 
-- 10/186 trang DOB được mở trực tiếp trong browser vì lượt lấy nội dung cục bộ không trả nội dung trang. Evidence giữ URL, excerpt, thời điểm và hash phản hồi lỗi cục bộ; không có hash byte nội dung gốc của 10 trang này.
-- Lint/build báo 32 cảnh báo `<img>` ở UI ngoài phạm vi B012.
-- Không mở cycle kế tiếp; chờ directive mới.
+- 12 source pages cần browser-direct verification; local capture không có byte response nội dung DOB. Evidence lưu URL, excerpt và lỗi/kết quả fetch cục bộ.
+- Lint/build có warning `<img>` và Google Fonts ngoài phạm vi B013.
 
-## Earlier completed cycle — BV-012 / B011
+## Earlier accepted cycle — BV-013 / B012
 
-State: ACCEPTED — B011-r1 PASS ngày 2026-10-06, commit `37a632e77c74fd455afd94078042241d6f92274f` đã push; origin/main 0/0. Thêm 93 hồ sơ tháng 7 (88 quốc tế, 5 Việt; 5,38%), tổng 661 người/215 ngày, giữ deep-equal baseline 568 người và 4 events. Integrity/Wikidata 661/661, typecheck/lint/build/coverage/smoke5/5 đạt.
-
-## Earlier completed cycle — BV-011 / B010
-
-State: ACCEPTED — B010-r1 PASS ngày 2026-10-06. Thêm 90 hồ sơ tháng 6 (85 quốc tế, 5 Việt; 5,56%), đúng 3/ngày. Commit `1fb7f46cf0cf3b86ad176ce0a5f46cd8b7dcbdd5` đã push; origin/main xác nhận 0/0.
+PASS ngày 2026-10-07. Thêm 93 người tháng 8 (5 Việt), tổng 754 người/245 ngày; bảo toàn 661 baseline + 4 events. Commit `238f8989b366857146ff435572506932539ec176` đã push và xác minh origin/main 0/0.
