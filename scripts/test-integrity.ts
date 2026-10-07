@@ -3,6 +3,7 @@ import { isAdultOnDate, isValidIsoDate } from './wikidata-candidates';
 import { createHash } from 'node:crypto';
 import B013_EVIDENCE from '../.ai/evidence/B013.json';
 import B014_EVIDENCE from '../.ai/evidence/B014.json';
+import { B015_B016_NEW_IDS, runB015B016Integrity } from './test-integrity-b015-b016';
 
 interface Failure {
   suite: string;
@@ -682,6 +683,7 @@ for (const p of ALL_PEOPLE) {
       'mendelssohn-stiftung.de', 'mnhs.org', 'vle.lt', 'uefa.com', 'realmadrid.com', 'baseballhall.org',
       'dickensmuseum.com', 'lauraingallswilderhome.com', 'unesco.org', 'afi.com', 'sonymusic.co.jp',
       'adk.de', 'invent.org', 'universalmusic.fr', 'bbaw.de', 'prlib.ru', 'snl.no', 'musees-nationaux-alpesmaritimes.fr', 'sciencemuseumgroup.org.uk', 'millercenter.org', 'lex.dk', 'kongehuset.dk', 'televisionacademy.com', 'pen-international.org', 'safeguarddefenders.com', 'english-heritage.org.uk', 'theworldgames.org',
+      'canadaswalkoffame.com', 'astridlindgren.com', 'worldathletics.org', 'uzathletics.uz', 'idref.fr', 'datos.bne.es', 'deutsche-kinemathek.de',
     ];
     const hasInstitutionalSource = independentSources.some((u) => {
       const h = getUrlHostname(u);
@@ -1705,7 +1707,7 @@ const B014_NEW_IDS = new Set([
   'zaha-hadid',
 ]);
 const b010CycleDatedProfiles = ALL_PEOPLE.filter((p) => p.birthMonth === 6 && p.verifiedAt === '2026-10-06');
-const b009BaselinePeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7 && !(p.birthMonth === 6 && p.verifiedAt === '2026-10-06') && !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id));
+const b009BaselinePeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7 && !(p.birthMonth === 6 && p.verifiedAt === '2026-10-06') && !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id));
 assert('Rule AD', b009BaselinePeople.length === 478, `B009 baseline must remain 478 after excluding B010 and B011 additions, found ${b009BaselinePeople.length}`);
 assert('Rule AD', HISTORY_EVENTS.length === 4, `B009 must preserve all 4 events, found ${HISTORY_EVENTS.length}`);
 
@@ -3202,7 +3204,7 @@ for (const p of b010Vietnamese) {
   assert('Rule AE Vietnamese', sources.every((source) => source.publisherCountry !== 'VN' && Boolean(source.countryProofUrl)), `B010 Vietnamese ${p.id} requires two sources with verified foreign publisher countries`);
   assert('Rule AE Vietnamese', sources.every((source) => (p.sourceUrls || []).includes(source.url)), `B010 Vietnamese ${p.id} must include both approved DOB URLs`);
 }
-const b010ScopePeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7 && !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id));
+const b010ScopePeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7 && !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id));
 assert('Rule AE balance', b010ScopePeople.length === 568, `B010 through-June dataset must contain 568 people, found ${b010ScopePeople.length}`);
 assert('Rule AE events', HISTORY_EVENTS.length === 4, `B010 must preserve exactly 4 history events, found ${HISTORY_EVENTS.length}`);
 const b010CoveredDays = new Set(b010ScopePeople.map((p) => `${p.birthMonth}-${p.birthDay}`));
@@ -5020,7 +5022,7 @@ const B011_APPROVED_PROFILES: Readonly<Record<string, {
     ]
   }
 };
-const b011ScopePeople = ALL_PEOPLE.filter((p) => !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id));
+const b011ScopePeople = ALL_PEOPLE.filter((p) => !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id));
 const B011_NEW_PEOPLE = b011ScopePeople.filter((p) => p.birthMonth === 7);
 const B011_APPROVED_IDS = new Set(Object.keys(B011_APPROVED_PROFILES));
 const B011_APPROVED_QIDS = new Set(Object.values(B011_APPROVED_PROFILES).map((profile) => profile.wikidataId));
@@ -6889,7 +6891,7 @@ const B012_APPROVED_PROFILES: Readonly<Record<string, {
 };
 const B012_APPROVED_IDS = new Set(Object.keys(B012_APPROVED_PROFILES));
 const B012_APPROVED_QIDS = new Set(Object.values(B012_APPROVED_PROFILES).map((profile) => profile.wikidataId));
-const b012HistoricalPeople = ALL_PEOPLE.filter((p) => !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id));
+const b012HistoricalPeople = ALL_PEOPLE.filter((p) => !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id));
 const B012_NEW_PEOPLE = b012HistoricalPeople.filter((p) => B012_APPROVED_IDS.has(p.id));
 assert('Rule AG', B012_NEW_IDS.size === 93 && B012_APPROVED_IDS.size === 93, 'B012 exact allowlist must contain 93 unique IDs');
 assert('Rule AG', B012_NEW_IDS.size === B012_APPROVED_IDS.size && [...B012_NEW_IDS].every((id) => B012_APPROVED_IDS.has(id)), 'B012 historical projection IDs must exactly match the reviewed allowlist');
@@ -8660,7 +8662,7 @@ for (let day = 1; day <= 30; day++) {
   assert('Rule AH coverage', additions.length === 3, `B013 September ${day} must have exactly 3 additions, found ${additions.length}`);
   assert('Rule AH coverage', total.length === 3 && total.length <= 8, `B013 September ${day} must have 3 additions and no more than 8 total people, found ${total.length}`);
 }
-const b013HistoricalPeople = ALL_PEOPLE.filter((p) => !B014_NEW_IDS.has(p.id));
+const b013HistoricalPeople = ALL_PEOPLE.filter((p) => !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id));
 const b013BaselinePeople = b013HistoricalPeople.filter((p) => !B013_NEW_IDS.has(p.id));
 assert('Rule AH baseline', b013BaselinePeople.length === 754, `B013 must preserve all 754 baseline people, found ${b013BaselinePeople.length}`);
 assert('Rule AH baseline', stableSha256(b013BaselinePeople.sort((a, b) => a.id.localeCompare(b.id))) === '43e159877b62e4e68ba6fb15763c40cbf660325803896fcf0843edc73702c282', 'All 754 origin/main people must remain deep-equal to the B013 baseline');
@@ -10523,19 +10525,22 @@ for (const p of B014_NEW_PEOPLE) {
   assert('Rule AI age', isAdultOnDate(expected.birthDate, '2026-10-07'), `B014 ${p.id} must be an adult on 2026-10-07`);
 }
 
-const b014BaselinePeople = ALL_PEOPLE.filter((p) => !B014_NEW_IDS.has(p.id)).sort((a, b) => a.id.localeCompare(b.id));
+const b014BaselinePeople = ALL_PEOPLE.filter((p) => !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id)).sort((a, b) => a.id.localeCompare(b.id));
 assert('Rule AI baseline', b014BaselinePeople.length === 844, `B014 must preserve all 844 baseline people, found ${b014BaselinePeople.length}`);
 assert('Rule AI baseline', stableSha256(b014BaselinePeople) === '007bfa829d8fed84bf07d1dd9f555975221c37352b131200afdfe42f2bb614b0', 'All 844 origin/main people must remain deep-equal to the B014 baseline');
 assert('Rule AI baseline', stableSha256(HISTORY_EVENTS) === '6dd4aae214c2b43131155c6483c3f3c575fe632e1287583c5c28ce4e40dcfd07', 'All 4 history events must remain deep-equal to the B014 baseline');
-const b014CoveredDays = new Set(ALL_PEOPLE.map((p) => `${p.birthMonth}-${p.birthDay}`));
-const b014OctoberDays = new Set(ALL_PEOPLE.filter((p) => p.birthMonth === 10).map((p) => p.birthDay));
-assert('Rule AI total', ALL_PEOPLE.length === 937, `B014 expected 937 total people, found ${ALL_PEOPLE.length}`);
+const b014SnapshotPeople = ALL_PEOPLE.filter((p) => !B015_B016_NEW_IDS.has(p.id));
+const b014CoveredDays = new Set(b014SnapshotPeople.map((p) => `${p.birthMonth}-${p.birthDay}`));
+const b014OctoberDays = new Set(b014SnapshotPeople.filter((p) => p.birthMonth === 10).map((p) => p.birthDay));
+assert('Rule AI total', b014SnapshotPeople.length === 937, `B014 expected 937 total people, found ${b014SnapshotPeople.length}`);
 assert('Rule AI coverage', b014CoveredDays.size === 306, `B014 expected 306 covered calendar days, found ${b014CoveredDays.size}`);
 assert('Rule AI coverage', b014OctoberDays.size === 31, `B014 must cover all 31 October days, found ${b014OctoberDays.size}`);
 console.log(`B014 additions: ${B014_NEW_PEOPLE.length}; Vietnamese: ${b014Vietnamese.length}; share: ${(b014Vietnamese.length / B014_NEW_PEOPLE.length * 100).toFixed(2)}%; coverage: ${b014CoveredDays.size}/366`);
 
 
 // ------------------------------------------------------------
+runB015B016Integrity(assert);
+
 // Summary
 // ------------------------------------------------------------
 console.log('\n============================================================');
