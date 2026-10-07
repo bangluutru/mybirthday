@@ -56,3 +56,5 @@
 | 2026-10-06 | Codex review r1 | B011 | PASS: 93 hồ sơ tháng 7, 5 người Việt (5,38%), 186 nguồn DOB đối chiếu; 3 URL không tải cục bộ được xác nhận trực tiếp trên trang publisher. P31/P569 93/93, integrity/Wikidata 661/661, tsc/lint/build/coverage, smoke 5/5 đạt. Tổng 661 người/215 ngày; giữ nguyên 568 baseline + 4 events. Được duyệt push; mở B012 chỉ sau xác nhận origin/main. |
 
 | 2026-10-06 | Codex | B011 → B012 | B011 commit `37a632e` push thành công, fetch xác nhận origin/main 0/0; chạy pull --ff-only xác nhận up to date. Theo yêu cầu chủ dự án, mở B012/BV-013 cho tháng 8: 93 additions, 3/ngày, ≥5% Việt; baseline 661 people/4 events/215 ngày và hai hồ sơ 15/8. |
+
+| 2026-10-07 | Codex review r1 | B012 | PASS: thêm 93 hồ sơ tháng 8 (88 quốc tế/5 Việt, 5,38%), đủ 3/ngày; 186 nguồn DOB, 176 HTTP 200 cục bộ và 10 browser-direct; 10 proof rows từ 8 URL chính thức. P31/P569 93/93, integrity Rules A–AG, Wikidata 754/754, typecheck/lint/build/coverage, baseline 661+4 và smoke 6/6 đạt. Tổng 754 người/245 ngày; tháng 8 31/31. 32 cảnh báo lint `<img>` ngoài phạm vi; chưa mở cycle kế tiếp. |

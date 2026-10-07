@@ -667,6 +667,15 @@ for (const p of ALL_PEOPLE) {
       'Q15873': ['https://www.queenonline.com/brian_may'],
       'Q7939157': ['https://www.paralympic.org/sites/default/files/2025-10/Tokyo%202020%20Paralympic%20Games%20-%20Para%20Swimming%20Results.pdf'],
       'Q201825': ['https://www.tff.org/Default.aspx?kisiId=2294024&pageId=526'],
+      // Exact B012 direct DOB pages, each paired and locked with a second publisher in Rule AG.
+      'Q83566': ['https://s3-us-west-1.amazonaws.com/isabelallende.com/assets/bio/Bio_Isabel-en.pdf'],
+      'Q57410': ['https://m.knesset.gov.il/en/about/lexicon/pages/peresshimon.aspx'],
+      'Q483118': ['https://www.biography.com/actors/ben-affleck'],
+      'Q16977': ['https://www.biography.com/political-figures/deng-xiaoping'],
+      'Q483907': ['https://www.biography.com/actors/jack-black'],
+      'Q48410': ['https://www.biography.com/actors/richard-gere'],
+      'Q5215950': ['https://www.cerezo.jp/team/players/archive/dang_van_lam-2/'],
+      'Q7189919': ['https://music.apple.com/us/artist/ph%E1%BA%A1m-qu%E1%BB%B3nh-anh/1757573861'],
     };
     const hasReviewedPublisherException = reviewedPublisherExceptions[p.wikidataId || '']?.some((u) =>
       independentSources.includes(u)
@@ -1423,8 +1432,103 @@ for (let day=1; day<=31; day++) {
 const b009Vietnamese = B009_NEW_PEOPLE.filter((p) => p.countryCode === 'VN');
 assert('Rule AD', b009Vietnamese.length === 5, `B009 Vietnamese count must be 5, found ${b009Vietnamese.length}`);
 assert('Rule AD', b009Vietnamese.length / B009_NEW_PEOPLE.length >= 0.05, `B009 Vietnamese share must be at least 5%; found ${b009Vietnamese.length}/${B009_NEW_PEOPLE.length}`);
+const B012_NEW_IDS = new Set([
+  'herman-melville',
+  'jean-baptiste-lamarck',
+  'pierre-bourdieu',
+  'james-baldwin',
+  'tom-brady',
+  'stanley-baldwin',
+  'martin-sheen',
+  'percy-bysshe-shelley',
+  'knut-hamsun',
+  'william-rowan-hamilton',
+  'neil-armstrong',
+  'guy-de-maupassant',
+  'john-huston',
+  'andy-warhol',
+  'alexander-fleming',
+  'alfred-tennyson',
+  'mata-hari',
+  'ralph-bunche',
+  'abebe-bikila',
+  'paul-dirac',
+  'emiliano-zapata',
+  'ernest-lawrence',
+  'jean-piaget',
+  'amedeo-avogadro',
+  'tove-jansson',
+  'herbert-hoover',
+  'antonio-banderas',
+  'jorge-amado',
+  'pervez-musharraf',
+  'aaron-klug',
+  'jan-palach',
+  'francois-hollande',
+  'erwin-schrodinger',
+  'pete-sampras',
+  'fidel-castro',
+  'alfred-hitchcock',
+  'hans-christian-orsted',
+  'wim-wenders',
+  'steve-martin',
+  'walter-scott',
+  'madonna',
+  'charles-bukowski',
+  'gabriel-lippmann',
+  'robert-de-niro',
+  'herta-muller',
+  'thierry-henry',
+  'roman-polanski',
+  'robert-redford',
+  'luc-montagnier',
+  'bill-clinton',
+  'coco-chanel',
+  'benjamin-harrison',
+  'rajiv-gandhi',
+  'salvatore-quasimodo',
+  'usain-bolt',
+  'augustin-louis-cauchy',
+  'wilt-chamberlain',
+  'claude-debussy',
+  'ray-bradbury',
+  'kobe-bryant',
+  'gene-kelly',
+  'giuseppe-meazza',
+  'jorge-luis-borges',
+  'paulo-coelho',
+  'sean-connery',
+  'tim-burton',
+  'leonard-bernstein',
+  'antoine-lavoisier',
+  'guillaume-apollinaire',
+  'georg-wilhelm-friedrich-hegel',
+  'theodore-dreiser',
+  'jose-eduardo-dos-santos',
+  'paul-martin',
+  'michael-jackson',
+  'ingrid-bergman',
+  'charlie-parker',
+  'ernest-rutherford',
+  'warren-buffett',
+  'mary-shelley',
+  'maria-montessori',
+  'isabel-allende',
+  'shimon-peres',
+  'ben-affleck',
+  'luong-cuong',
+  'dang-tieu-binh',
+  'jack-black',
+  'richard-gere',
+  'hermann-von-helmholtz',
+  'dang-van-lam',
+  'nguyen-dinh-bac',
+  'pham-quynh-anh',
+  'quach-cong-lich',
+  'katherine-johnson',
+]);
 const b010CycleDatedProfiles = ALL_PEOPLE.filter((p) => p.birthMonth === 6 && p.verifiedAt === '2026-10-06');
-const b009BaselinePeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7 && !(p.birthMonth === 6 && p.verifiedAt === '2026-10-06'));
+const b009BaselinePeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7 && !(p.birthMonth === 6 && p.verifiedAt === '2026-10-06') && !B012_NEW_IDS.has(p.id));
 assert('Rule AD', b009BaselinePeople.length === 478, `B009 baseline must remain 478 after excluding B010 and B011 additions, found ${b009BaselinePeople.length}`);
 assert('Rule AD', HISTORY_EVENTS.length === 4, `B009 must preserve all 4 events, found ${HISTORY_EVENTS.length}`);
 
@@ -2921,7 +3025,7 @@ for (const p of b010Vietnamese) {
   assert('Rule AE Vietnamese', sources.every((source) => source.publisherCountry !== 'VN' && Boolean(source.countryProofUrl)), `B010 Vietnamese ${p.id} requires two sources with verified foreign publisher countries`);
   assert('Rule AE Vietnamese', sources.every((source) => (p.sourceUrls || []).includes(source.url)), `B010 Vietnamese ${p.id} must include both approved DOB URLs`);
 }
-const b010ScopePeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7);
+const b010ScopePeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7 && !B012_NEW_IDS.has(p.id));
 assert('Rule AE balance', b010ScopePeople.length === 568, `B010 through-June dataset must contain 568 people, found ${b010ScopePeople.length}`);
 assert('Rule AE events', HISTORY_EVENTS.length === 4, `B010 must preserve exactly 4 history events, found ${HISTORY_EVENTS.length}`);
 const b010CoveredDays = new Set(b010ScopePeople.map((p) => `${p.birthMonth}-${p.birthDay}`));
@@ -4739,7 +4843,8 @@ const B011_APPROVED_PROFILES: Readonly<Record<string, {
     ]
   }
 };
-const B011_NEW_PEOPLE = ALL_PEOPLE.filter((p) => p.birthMonth === 7);
+const b011ScopePeople = ALL_PEOPLE.filter((p) => !B012_NEW_IDS.has(p.id));
+const B011_NEW_PEOPLE = b011ScopePeople.filter((p) => p.birthMonth === 7);
 const B011_APPROVED_IDS = new Set(Object.keys(B011_APPROVED_PROFILES));
 const B011_APPROVED_QIDS = new Set(Object.values(B011_APPROVED_PROFILES).map((profile) => profile.wikidataId));
 assert('Rule AF', B011_NEW_PEOPLE.length === 93, `B011 requires exactly 93 new July profiles, found ${B011_NEW_PEOPLE.length}`);
@@ -4805,14 +4910,1889 @@ for (let day = 1; day <= 31; day++) {
   const count = B011_NEW_PEOPLE.filter((p) => p.birthDay === day).length;
   assert('Rule AF coverage', count === 3, `B011 July ${day} must have exactly 3 new profiles, found ${count}`);
 }
-assert('Rule AF total', ALL_PEOPLE.length === 661, `B011 expected 661 total people after July, found ${ALL_PEOPLE.length}`);
-const b011CoveredDays = new Set(ALL_PEOPLE.map((p) => `${p.birthMonth}-${p.birthDay}`));
+assert('Rule AF historical snapshot', b011ScopePeople.length === 661, `B011 checkpoint must contain 661 people before B012, found ${b011ScopePeople.length}`);
+const b011CoveredDays = new Set(b011ScopePeople.map((p) => `${p.birthMonth}-${p.birthDay}`));
 assert('Rule AF coverage', b011CoveredDays.size === 215, `B011 expected 215 covered calendar days after July, found ${b011CoveredDays.size}`);
-const b011PreservedPeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7).sort((a, b) => a.id.localeCompare(b.id));
+const b011PreservedPeople = b011ScopePeople.filter((p) => p.birthMonth !== 7).sort((a, b) => a.id.localeCompare(b.id));
 assert('Rule AF baseline', b011PreservedPeople.length === 568, `B011 must preserve all 568 non-July baseline people, found ${b011PreservedPeople.length}`);
 assert('Rule AF baseline', stableSha256(b011PreservedPeople) === '7c31cfcf776fa4fcda052ba23f2c4d78883749cb18b80162104bf0b4c09ea674', 'All 568 non-July baseline profiles, including August, must remain deep-equal');
 assert('Rule AF baseline', stableSha256(HISTORY_EVENTS) === '6dd4aae214c2b43131155c6483c3f3c575fe632e1287583c5c28ce4e40dcfd07', 'All 4 history events must remain deep-equal');
 console.log(`B011 additions: ${B011_NEW_PEOPLE.length}; Vietnamese: ${b011Vietnamese.length}; Vietnamese share: ${(b011Vietnamese.length / B011_NEW_PEOPLE.length * 100).toFixed(2)}%; coverage: ${b011CoveredDays.size}/366`);
+
+// ------------------------------------------------------------
+// Rule AG: B012 exact August profile set, direct DOB source pairs,
+// official foreign-publisher evidence for Vietnamese records, and baseline preservation.
+// ------------------------------------------------------------
+console.log('Checking Rule AG: B012 exact August profile set, source pairs, balance, and baseline preservation...');
+const B012_APPROVED_PROFILES: Readonly<Record<string, {
+  wikidataId: string;
+  birthDate: string;
+  countryCode: string;
+  category: string;
+  occupation: string;
+  dobSources: readonly { url: string; publisher: string; publisherCountry: string; countryProofUrl?: string }[];
+}>> = {
+  "herman-melville": {
+    "wikidataId": "Q4985",
+    "birthDate": "1819-08-01",
+    "countryCode": "US",
+    "category": "literature",
+    "occupation": "Nhà văn, nhà thơ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Herman_Melville",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/melville-herman",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "jean-baptiste-lamarck": {
+    "wikidataId": "Q82122",
+    "birthDate": "1744-08-01",
+    "countryCode": "FR",
+    "category": "scientist",
+    "occupation": "Nhà tự nhiên học",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Jean-Baptiste_Lamarck",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/Abecedarij?q=Jean-Baptiste%20Lamarck",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "pierre-bourdieu": {
+    "wikidataId": "Q156268",
+    "birthDate": "1930-08-01",
+    "countryCode": "FR",
+    "category": "scientist",
+    "occupation": "Nhà xã hội học",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Pierre_Bourdieu",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/bourdieu-pierre",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "james-baldwin": {
+    "wikidataId": "Q273210",
+    "birthDate": "1924-08-02",
+    "countryCode": "US",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/James_Baldwin",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/Abecedarij?q=James%20Baldwin",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "tom-brady": {
+    "wikidataId": "Q313381",
+    "birthDate": "1977-08-03",
+    "countryCode": "US",
+    "category": "athlete",
+    "occupation": "Cầu thủ bóng bầu dục Mỹ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Tom_Brady",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/brady-tom",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "stanley-baldwin": {
+    "wikidataId": "Q166635",
+    "birthDate": "1867-08-03",
+    "countryCode": "GB",
+    "category": "politics",
+    "occupation": "Chính khách",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Stanley_Baldwin",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/baldwin-stanley",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "martin-sheen": {
+    "wikidataId": "Q184572",
+    "birthDate": "1940-08-03",
+    "countryCode": "US",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Martin_Sheen",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/sheen-martin",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "percy-bysshe-shelley": {
+    "wikidataId": "Q93343",
+    "birthDate": "1792-08-04",
+    "countryCode": "GB",
+    "category": "literature",
+    "occupation": "Nhà thơ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Percy_Bysshe_Shelley",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/shelley-percy-bysshe",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "knut-hamsun": {
+    "wikidataId": "Q40826",
+    "birthDate": "1859-08-04",
+    "countryCode": "NO",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Knut_Hamsun",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/hamsun-knut",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "william-rowan-hamilton": {
+    "wikidataId": "Q11887",
+    "birthDate": "1805-08-04",
+    "countryCode": "IE",
+    "category": "scientist",
+    "occupation": "Nhà toán học, nhà thiên văn học",
+    "dobSources": [
+      {
+        "url": "https://snl.no/William_Rowan_Hamilton",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/hamilton-william-rowan",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "neil-armstrong": {
+    "wikidataId": "Q1615",
+    "birthDate": "1930-08-05",
+    "countryCode": "US",
+    "category": "scientist",
+    "occupation": "Phi hành gia",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Neil_Armstrong",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/armstrong-neil",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "guy-de-maupassant": {
+    "wikidataId": "Q9327",
+    "birthDate": "1850-08-05",
+    "countryCode": "FR",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Guy_de_Maupassant",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/maupassant-guy-de",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "john-huston": {
+    "wikidataId": "Q51575",
+    "birthDate": "1906-08-05",
+    "countryCode": "US",
+    "category": "actor",
+    "occupation": "Đạo diễn phim, diễn viên",
+    "dobSources": [
+      {
+        "url": "https://snl.no/John_Huston",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/huston-john",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "andy-warhol": {
+    "wikidataId": "Q5603",
+    "birthDate": "1928-08-06",
+    "countryCode": "US",
+    "category": "artist",
+    "occupation": "Họa sĩ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Andy_Warhol",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/warhol-andy",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "alexander-fleming": {
+    "wikidataId": "Q37064",
+    "birthDate": "1881-08-06",
+    "countryCode": "GB",
+    "category": "scientist",
+    "occupation": "Nhà sinh học",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Alexander_Fleming",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/fleming-alexander",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "alfred-tennyson": {
+    "wikidataId": "Q173869",
+    "birthDate": "1809-08-06",
+    "countryCode": "GB",
+    "category": "literature",
+    "occupation": "Nhà thơ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Alfred_Tennyson",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/tennyson-alfred",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "mata-hari": {
+    "wikidataId": "Q82180",
+    "birthDate": "1876-08-07",
+    "countryCode": "NL",
+    "category": "artist",
+    "occupation": "Vũ công",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Mata_Hari",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/mata-hari",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "ralph-bunche": {
+    "wikidataId": "Q213500",
+    "birthDate": "1904-08-07",
+    "countryCode": "US",
+    "category": "politics",
+    "occupation": "Nhà ngoại giao",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Ralph_Bunche",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/Abecedarij?q=Ralph%20Bunche",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "abebe-bikila": {
+    "wikidataId": "Q52596",
+    "birthDate": "1932-08-07",
+    "countryCode": "ET",
+    "category": "athlete",
+    "occupation": "Vận động viên điền kinh",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Abebe_Bikila",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/bikila-abebe",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "paul-dirac": {
+    "wikidataId": "Q47480",
+    "birthDate": "1902-08-08",
+    "countryCode": "GB",
+    "category": "scientist",
+    "occupation": "Nhà vật lý",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Paul_Dirac",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/Abecedarij?q=Paul%20Dirac",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "emiliano-zapata": {
+    "wikidataId": "Q41718",
+    "birthDate": "1879-08-08",
+    "countryCode": "MX",
+    "category": "history",
+    "occupation": "Nhà cách mạng",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Emiliano_Zapata",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/zapata-emiliano",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "ernest-lawrence": {
+    "wikidataId": "Q169577",
+    "birthDate": "1901-08-08",
+    "countryCode": "US",
+    "category": "scientist",
+    "occupation": "Nhà vật lý",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Ernest_Lawrence",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/Abecedarij?q=Ernest%20Lawrence",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "jean-piaget": {
+    "wikidataId": "Q123190",
+    "birthDate": "1896-08-09",
+    "countryCode": "CH",
+    "category": "scientist",
+    "occupation": "Nhà tâm lý học",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Jean_Piaget",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/piaget-jean",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "amedeo-avogadro": {
+    "wikidataId": "Q43476",
+    "birthDate": "1776-08-09",
+    "countryCode": "IT",
+    "category": "scientist",
+    "occupation": "Nhà hóa học",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Amedeo_Avogadro",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/avogadro-amedeo",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "tove-jansson": {
+    "wikidataId": "Q102071",
+    "birthDate": "1914-08-09",
+    "countryCode": "FI",
+    "category": "literature",
+    "occupation": "Nhà văn, họa sĩ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Tove_Jansson",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/Abecedarij?q=Tove%20Jansson",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "herbert-hoover": {
+    "wikidataId": "Q35236",
+    "birthDate": "1874-08-10",
+    "countryCode": "US",
+    "category": "politics",
+    "occupation": "Chính khách",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Herbert_Hoover",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/Abecedarij?q=Herbert%20Hoover",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "antonio-banderas": {
+    "wikidataId": "Q41548",
+    "birthDate": "1960-08-10",
+    "countryCode": "ES",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Antonio_Banderas",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/banderas-antonio",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "jorge-amado": {
+    "wikidataId": "Q184440",
+    "birthDate": "1912-08-10",
+    "countryCode": "BR",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Jorge_Amado",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/amado-jorge",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "pervez-musharraf": {
+    "wikidataId": "Q40495",
+    "birthDate": "1943-08-11",
+    "countryCode": "PK",
+    "category": "politics",
+    "occupation": "Chính khách",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Pervez_Musharraf",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/musharraf-pervez",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "aaron-klug": {
+    "wikidataId": "Q190626",
+    "birthDate": "1926-08-11",
+    "countryCode": "GB",
+    "category": "scientist",
+    "occupation": "Nhà hóa sinh",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Aaron_Klug",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/klug-aaron",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "jan-palach": {
+    "wikidataId": "Q192893",
+    "birthDate": "1948-08-11",
+    "countryCode": "CZ",
+    "category": "history",
+    "occupation": "Nhà hoạt động",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Jan_Palach",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/palach-jan",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "francois-hollande": {
+    "wikidataId": "Q157",
+    "birthDate": "1954-08-12",
+    "countryCode": "FR",
+    "category": "politics",
+    "occupation": "Chính khách",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Fran%C3%A7ois_Hollande",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/hollande-francois",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "erwin-schrodinger": {
+    "wikidataId": "Q9130",
+    "birthDate": "1887-08-12",
+    "countryCode": "AT",
+    "category": "scientist",
+    "occupation": "Nhà vật lý",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Erwin_Schr%C3%B6dinger",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/schrodinger-erwin",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "pete-sampras": {
+    "wikidataId": "Q9446",
+    "birthDate": "1971-08-12",
+    "countryCode": "US",
+    "category": "athlete",
+    "occupation": "Vận động viên quần vợt",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Pete_Sampras",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/sampras-pete",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "fidel-castro": {
+    "wikidataId": "Q11256",
+    "birthDate": "1926-08-13",
+    "countryCode": "CU",
+    "category": "politics",
+    "occupation": "Chính khách",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Fidel_Castro",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/Abecedarij?q=Fidel%20Castro",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "alfred-hitchcock": {
+    "wikidataId": "Q7374",
+    "birthDate": "1899-08-13",
+    "countryCode": "GB",
+    "category": "actor",
+    "occupation": "Đạo diễn phim",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Alfred_Hitchcock",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/hitchcock-alfred",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "hans-christian-orsted": {
+    "wikidataId": "Q44412",
+    "birthDate": "1777-08-14",
+    "countryCode": "DK",
+    "category": "scientist",
+    "occupation": "Nhà vật lý",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Hans_Christian_%C3%98rsted",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/orsted-hans-christian",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "wim-wenders": {
+    "wikidataId": "Q55411",
+    "birthDate": "1945-08-14",
+    "countryCode": "DE",
+    "category": "artist",
+    "occupation": "Đạo diễn phim",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Wim_Wenders",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/wenders-wim",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "steve-martin": {
+    "wikidataId": "Q16473",
+    "birthDate": "1945-08-14",
+    "countryCode": "US",
+    "category": "actor",
+    "occupation": "Diễn viên, nghệ sĩ hài",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Steve_Martin",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/martin-steve",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "walter-scott": {
+    "wikidataId": "Q79025",
+    "birthDate": "1771-08-15",
+    "countryCode": "GB",
+    "category": "literature",
+    "occupation": "Nhà văn, nhà thơ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Walter_Scott",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/scott-walter",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "madonna": {
+    "wikidataId": "Q1744",
+    "birthDate": "1958-08-16",
+    "countryCode": "US",
+    "category": "music",
+    "occupation": "Ca sĩ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Madonna_-_popsanger",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/madonna",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "charles-bukowski": {
+    "wikidataId": "Q76409",
+    "birthDate": "1920-08-16",
+    "countryCode": "US",
+    "category": "literature",
+    "occupation": "Nhà văn, nhà thơ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Charles_Bukowski",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/bukowski-charles",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "gabriel-lippmann": {
+    "wikidataId": "Q133232",
+    "birthDate": "1845-08-16",
+    "countryCode": "FR",
+    "category": "scientist",
+    "occupation": "Nhà vật lý",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Gabriel_Lippmann",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/lippmann-gabriel",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "robert-de-niro": {
+    "wikidataId": "Q36949",
+    "birthDate": "1943-08-17",
+    "countryCode": "US",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Robert_De_Niro",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/de-niro-robert",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "herta-muller": {
+    "wikidataId": "Q38049",
+    "birthDate": "1953-08-17",
+    "countryCode": "DE",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Herta_M%C3%BCller",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/muller-herta",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "thierry-henry": {
+    "wikidataId": "Q45901",
+    "birthDate": "1977-08-17",
+    "countryCode": "FR",
+    "category": "athlete",
+    "occupation": "Cầu thủ bóng đá",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Thierry_Henry",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/henry-thierry",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "roman-polanski": {
+    "wikidataId": "Q51552",
+    "birthDate": "1933-08-18",
+    "countryCode": "FR",
+    "category": "actor",
+    "occupation": "Đạo diễn phim",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Roman_Polanski",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/polanski-roman",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "robert-redford": {
+    "wikidataId": "Q59215",
+    "birthDate": "1936-08-18",
+    "countryCode": "US",
+    "category": "actor",
+    "occupation": "Diễn viên, đạo diễn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Robert_Redford",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/redford-robert",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "luc-montagnier": {
+    "wikidataId": "Q103598",
+    "birthDate": "1932-08-18",
+    "countryCode": "FR",
+    "category": "scientist",
+    "occupation": "Nhà sinh học",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Luc_Montagnier",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/montagnier-luc",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "bill-clinton": {
+    "wikidataId": "Q1124",
+    "birthDate": "1946-08-19",
+    "countryCode": "US",
+    "category": "politics",
+    "occupation": "Chính khách",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Bill_Clinton",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/clinton-william-jefferson",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "coco-chanel": {
+    "wikidataId": "Q45661",
+    "birthDate": "1883-08-19",
+    "countryCode": "FR",
+    "category": "artist",
+    "occupation": "Nhà thiết kế thời trang",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Coco_Chanel",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/chanel-coco",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "benjamin-harrison": {
+    "wikidataId": "Q35678",
+    "birthDate": "1833-08-20",
+    "countryCode": "US",
+    "category": "politics",
+    "occupation": "Chính khách",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Benjamin_Harrison",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/harrison-benjamin",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "rajiv-gandhi": {
+    "wikidataId": "Q4593",
+    "birthDate": "1944-08-20",
+    "countryCode": "IN",
+    "category": "politics",
+    "occupation": "Chính khách",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Rajiv_Gandhi",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/gandhi-rajiv",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "salvatore-quasimodo": {
+    "wikidataId": "Q83038",
+    "birthDate": "1901-08-20",
+    "countryCode": "IT",
+    "category": "literature",
+    "occupation": "Nhà thơ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Salvatore_Quasimodo",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/quasimodo-salvatore",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "usain-bolt": {
+    "wikidataId": "Q1189",
+    "birthDate": "1986-08-21",
+    "countryCode": "JM",
+    "category": "athlete",
+    "occupation": "Vận động viên điền kinh",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Usain_Bolt",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/bolt-usain",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "augustin-louis-cauchy": {
+    "wikidataId": "Q8814",
+    "birthDate": "1789-08-21",
+    "countryCode": "FR",
+    "category": "scientist",
+    "occupation": "Nhà toán học",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Augustin_Louis_Cauchy",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/Abecedarij?q=Augustin%20Louis%20Cauchy",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "wilt-chamberlain": {
+    "wikidataId": "Q182455",
+    "birthDate": "1936-08-21",
+    "countryCode": "US",
+    "category": "athlete",
+    "occupation": "Cầu thủ bóng rổ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Wilt_Chamberlain",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/chamberlain-wilt",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "claude-debussy": {
+    "wikidataId": "Q4700",
+    "birthDate": "1862-08-22",
+    "countryCode": "FR",
+    "category": "music",
+    "occupation": "Nhà soạn nhạc",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Claude_Debussy",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/debussy-claude",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "ray-bradbury": {
+    "wikidataId": "Q40640",
+    "birthDate": "1920-08-22",
+    "countryCode": "US",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Ray_Bradbury",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/bradbury-ray",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "kobe-bryant": {
+    "wikidataId": "Q25369",
+    "birthDate": "1978-08-23",
+    "countryCode": "US",
+    "category": "athlete",
+    "occupation": "Cầu thủ bóng rổ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Kobe_Bryant",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/bryant-kobe",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "gene-kelly": {
+    "wikidataId": "Q73089",
+    "birthDate": "1912-08-23",
+    "countryCode": "US",
+    "category": "actor",
+    "occupation": "Diễn viên, vũ công",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Gene_Kelly",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/kelly-gene",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "giuseppe-meazza": {
+    "wikidataId": "Q192131",
+    "birthDate": "1910-08-23",
+    "countryCode": "IT",
+    "category": "athlete",
+    "occupation": "Cầu thủ bóng đá",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Giuseppe_Meazza",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/meazza-giuseppe",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "jorge-luis-borges": {
+    "wikidataId": "Q909",
+    "birthDate": "1899-08-24",
+    "countryCode": "AR",
+    "category": "literature",
+    "occupation": "Nhà văn, nhà thơ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Jorge_Luis_Borges",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/borges-jorge-luis",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "paulo-coelho": {
+    "wikidataId": "Q12881",
+    "birthDate": "1947-08-24",
+    "countryCode": "BR",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Paulo_Coelho",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/coelho-paulo",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "sean-connery": {
+    "wikidataId": "Q4573",
+    "birthDate": "1930-08-25",
+    "countryCode": "GB",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Sean_Connery",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/connery-sean",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "tim-burton": {
+    "wikidataId": "Q56008",
+    "birthDate": "1958-08-25",
+    "countryCode": "US",
+    "category": "artist",
+    "occupation": "Đạo diễn phim",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Tim_Burton",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/burton-tim",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "leonard-bernstein": {
+    "wikidataId": "Q152505",
+    "birthDate": "1918-08-25",
+    "countryCode": "US",
+    "category": "music",
+    "occupation": "Nhà soạn nhạc, nhạc trưởng",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Leonard_Bernstein",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/bernstein-leonard",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "antoine-lavoisier": {
+    "wikidataId": "Q39607",
+    "birthDate": "1743-08-26",
+    "countryCode": "FR",
+    "category": "scientist",
+    "occupation": "Nhà hóa học",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Antoine_Lavoisier",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/Abecedarij?q=Antoine%20Lavoisier",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "guillaume-apollinaire": {
+    "wikidataId": "Q133855",
+    "birthDate": "1880-08-26",
+    "countryCode": "FR",
+    "category": "literature",
+    "occupation": "Nhà thơ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Guillaume_Apollinaire",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/apollinaire-guillaume",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "georg-wilhelm-friedrich-hegel": {
+    "wikidataId": "Q9235",
+    "birthDate": "1770-08-27",
+    "countryCode": "DE",
+    "category": "history",
+    "occupation": "Triết gia",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Georg_Wilhelm_Friedrich_Hegel",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/hegel-georg-wilhelm-friedrich",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "theodore-dreiser": {
+    "wikidataId": "Q486096",
+    "birthDate": "1871-08-27",
+    "countryCode": "US",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Theodore_Dreiser",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/dreiser-theodore",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "jose-eduardo-dos-santos": {
+    "wikidataId": "Q57313",
+    "birthDate": "1942-08-28",
+    "countryCode": "AO",
+    "category": "politics",
+    "occupation": "Chính khách",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Jos%C3%A9_Eduardo_dos_Santos",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/dos-santos-jose-eduardo",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "paul-martin": {
+    "wikidataId": "Q128529",
+    "birthDate": "1938-08-28",
+    "countryCode": "CA",
+    "category": "politics",
+    "occupation": "Chính khách",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Paul_Martin",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/Abecedarij?q=Paul%20Martin",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "michael-jackson": {
+    "wikidataId": "Q2831",
+    "birthDate": "1958-08-29",
+    "countryCode": "US",
+    "category": "music",
+    "occupation": "Ca sĩ",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Michael_Jackson",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/jackson-michael",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "ingrid-bergman": {
+    "wikidataId": "Q43247",
+    "birthDate": "1915-08-29",
+    "countryCode": "SE",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Ingrid_Bergman",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/bergman-ingrid",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "charlie-parker": {
+    "wikidataId": "Q103767",
+    "birthDate": "1920-08-29",
+    "countryCode": "US",
+    "category": "music",
+    "occupation": "Nhạc sĩ saxophone",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Charlie_Parker",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/parker-charlie",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "ernest-rutherford": {
+    "wikidataId": "Q9123",
+    "birthDate": "1871-08-30",
+    "countryCode": "NZ",
+    "category": "scientist",
+    "occupation": "Nhà vật lý",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Ernest_Rutherford",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/rutherford-ernest",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "warren-buffett": {
+    "wikidataId": "Q47213",
+    "birthDate": "1930-08-30",
+    "countryCode": "US",
+    "category": "entrepreneur",
+    "occupation": "Nhà đầu tư, doanh nhân",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Warren_Buffett",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/Abecedarij?q=Warren%20Buffett",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "mary-shelley": {
+    "wikidataId": "Q47152",
+    "birthDate": "1797-08-30",
+    "countryCode": "GB",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Mary_Shelley",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/Abecedarij?q=Mary%20Shelley",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "maria-montessori": {
+    "wikidataId": "Q131117",
+    "birthDate": "1870-08-31",
+    "countryCode": "IT",
+    "category": "scientist",
+    "occupation": "Bác sĩ, nhà giáo dục",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Maria_Montessori",
+        "publisher": "Store norske leksikon",
+        "publisherCountry": "NO"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/montessori-maria",
+        "publisher": "Hrvatska enciklopedija / Miroslav Krleža Lexicographical Institute",
+        "publisherCountry": "HR"
+      }
+    ]
+  },
+  "isabel-allende": {
+    "wikidataId": "Q83566",
+    "birthDate": "1942-08-02",
+    "countryCode": "CL",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://s3-us-west-1.amazonaws.com/isabelallende.com/assets/bio/Bio_Isabel-en.pdf",
+        "publisher": "Isabel Allende official biography",
+        "publisherCountry": "US"
+      },
+      {
+        "url": "https://www.biography.com/authors-writers/isabel-allende",
+        "publisher": "Biography.com",
+        "publisherCountry": "US"
+      }
+    ]
+  },
+  "shimon-peres": {
+    "wikidataId": "Q57410",
+    "birthDate": "1923-08-02",
+    "countryCode": "IL",
+    "category": "politics",
+    "occupation": "Chính khách",
+    "dobSources": [
+      {
+        "url": "https://m.knesset.gov.il/en/about/lexicon/pages/peresshimon.aspx",
+        "publisher": "The Knesset",
+        "publisherCountry": "IL"
+      },
+      {
+        "url": "https://www.peres-center.org/en/shimon-peres/about/",
+        "publisher": "Peres Center for Peace and Innovation",
+        "publisherCountry": "IL"
+      }
+    ]
+  },
+  "ben-affleck": {
+    "wikidataId": "Q483118",
+    "birthDate": "1972-08-15",
+    "countryCode": "US",
+    "category": "actor",
+    "occupation": "Diễn viên, nhà làm phim",
+    "dobSources": [
+      {
+        "url": "https://www.biography.com/actors/ben-affleck",
+        "publisher": "Biography.com",
+        "publisherCountry": "US"
+      },
+      {
+        "url": "https://www.imdb.com/name/nm0000255/bio/",
+        "publisher": "IMDb",
+        "publisherCountry": "US"
+      }
+    ]
+  },
+  "luong-cuong": {
+    "wikidataId": "Q18459548",
+    "birthDate": "1957-08-15",
+    "countryCode": "VN",
+    "category": "politics",
+    "occupation": "Chính khách",
+    "dobSources": [
+      {
+        "url": "https://lex.dk/L%C6%B0%C6%A1ng_C%C6%B0%E1%BB%9Dng",
+        "publisher": "Lex — Denmark’s National Encyclopedia",
+        "publisherCountry": "DK",
+        "countryProofUrl": "https://lex.dk/"
+      },
+      {
+        "url": "https://www.iseas.edu.sg/wp-content/uploads/2020/03/ISEAS_Perspective_2020_41.pdf",
+        "publisher": "ISEAS — Yusof Ishak Institute",
+        "publisherCountry": "SG",
+        "countryProofUrl": "https://bookshop.iseas.edu.sg/contacts"
+      }
+    ]
+  },
+  "dang-tieu-binh": {
+    "wikidataId": "Q16977",
+    "birthDate": "1904-08-22",
+    "countryCode": "CN",
+    "category": "politics",
+    "occupation": "Chính khách",
+    "dobSources": [
+      {
+        "url": "https://www.biography.com/political-figures/deng-xiaoping",
+        "publisher": "Biography.com",
+        "publisherCountry": "US"
+      },
+      {
+        "url": "https://www.encyclopedia.com/people/history/chinese-and-taiwanese-history-biographies/deng-xiaoping",
+        "publisher": "Encyclopedia.com",
+        "publisherCountry": "US"
+      }
+    ]
+  },
+  "jack-black": {
+    "wikidataId": "Q483907",
+    "birthDate": "1969-08-28",
+    "countryCode": "US",
+    "category": "actor",
+    "occupation": "Diễn viên, nhạc sĩ",
+    "dobSources": [
+      {
+        "url": "https://www.biography.com/actors/jack-black",
+        "publisher": "Biography.com",
+        "publisherCountry": "US"
+      },
+      {
+        "url": "https://www.imdb.com/name/nm0085312/bio/",
+        "publisher": "IMDb",
+        "publisherCountry": "US"
+      }
+    ]
+  },
+  "richard-gere": {
+    "wikidataId": "Q48410",
+    "birthDate": "1949-08-31",
+    "countryCode": "US",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://www.biography.com/actors/richard-gere",
+        "publisher": "Biography.com",
+        "publisherCountry": "US"
+      },
+      {
+        "url": "https://www.imdb.com/name/nm0000152/bio/",
+        "publisher": "IMDb",
+        "publisherCountry": "US"
+      }
+    ]
+  },
+  "hermann-von-helmholtz": {
+    "wikidataId": "Q60024",
+    "birthDate": "1821-08-31",
+    "countryCode": "DE",
+    "category": "scientist",
+    "occupation": "Nhà vật lý, bác sĩ",
+    "dobSources": [
+      {
+        "url": "https://www.helmholtz-berlin.de/zentrum/historie-hzb/hermann-helmholtz_en.html",
+        "publisher": "Helmholtz-Zentrum Berlin",
+        "publisherCountry": "DE"
+      },
+      {
+        "url": "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=NA5518&pos=1&src=CalmView.Persons",
+        "publisher": "The Royal Society catalogue",
+        "publisherCountry": "GB"
+      }
+    ]
+  },
+  "dang-van-lam": {
+    "wikidataId": "Q5215950",
+    "birthDate": "1993-08-13",
+    "countryCode": "VN",
+    "category": "athlete",
+    "occupation": "Cầu thủ bóng đá",
+    "dobSources": [
+      {
+        "url": "https://www.cerezo.jp/team/players/archive/dang_van_lam-2/",
+        "publisher": "Cerezo Osaka",
+        "publisherCountry": "JP",
+        "countryProofUrl": "https://www.cerezo.jp/en/stadium/"
+      },
+      {
+        "url": "https://www.sofascore.com/football/player/dang-van-lam/992817",
+        "publisher": "Sofascore",
+        "publisherCountry": "HR",
+        "countryProofUrl": "https://corporate.sofascore.com/contact"
+      }
+    ]
+  },
+  "nguyen-dinh-bac": {
+    "wikidataId": "Q121608659",
+    "birthDate": "2004-08-19",
+    "countryCode": "VN",
+    "category": "athlete",
+    "occupation": "Cầu thủ bóng đá",
+    "dobSources": [
+      {
+        "url": "https://www.ocagames.com/HZ_Info/AG2022-/en/results/football/athlete-profile-n2028956-nguyen-dinh-bac.htm",
+        "publisher": "Olympic Council of Asia — Hangzhou 2022 official athlete profile",
+        "publisherCountry": "KW",
+        "countryProofUrl": "https://oca.asia/council/constitution/"
+      },
+      {
+        "url": "https://www.sofascore.com/football/player/nguyen-dinh-bac/1390130",
+        "publisher": "Sofascore",
+        "publisherCountry": "HR",
+        "countryProofUrl": "https://corporate.sofascore.com/contact"
+      }
+    ]
+  },
+  "pham-quynh-anh": {
+    "wikidataId": "Q7189919",
+    "birthDate": "1984-08-24",
+    "countryCode": "VN",
+    "category": "music",
+    "occupation": "Ca sĩ",
+    "dobSources": [
+      {
+        "url": "https://music.apple.com/us/artist/ph%E1%BA%A1m-qu%E1%BB%B3nh-anh/1757573861",
+        "publisher": "Apple Music / Apple Inc.",
+        "publisherCountry": "US",
+        "countryProofUrl": "https://www.apple.com/legal/contact/copyright-infringement.html"
+      },
+      {
+        "url": "https://www.imdb.com/name/nm7755030/bio/",
+        "publisher": "IMDb",
+        "publisherCountry": "US",
+        "countryProofUrl": "https://www.imdb.com/conditions/"
+      }
+    ]
+  },
+  "quach-cong-lich": {
+    "wikidataId": "Q56640625",
+    "birthDate": "1993-08-27",
+    "countryCode": "VN",
+    "category": "athlete",
+    "occupation": "Vận động viên điền kinh",
+    "dobSources": [
+      {
+        "url": "https://worldathletics.org/athletes/vietnam/cong-lich-quach-14543357",
+        "publisher": "World Athletics",
+        "publisherCountry": "MC",
+        "countryProofUrl": "https://worldathletics.org/organisation/our-organisation/structure/headquarters"
+      },
+      {
+        "url": "https://www.ocagames.com/orb/theme/books/Jakarta_2018/AG2018_OfficialResultBook_Athletics_v1.1.pdf",
+        "publisher": "Olympic Council of Asia — Jakarta 2018 official results book",
+        "publisherCountry": "KW",
+        "countryProofUrl": "https://oca.asia/council/constitution/"
+      }
+    ]
+  },
+  "katherine-johnson": {
+    "wikidataId": "Q11740",
+    "birthDate": "1918-08-26",
+    "countryCode": "US",
+    "category": "scientist",
+    "occupation": "Nhà toán học",
+    "dobSources": [
+      {
+        "url": "https://science.nasa.gov/people/katherine-johnson/",
+        "publisher": "NASA Science",
+        "publisherCountry": "US"
+      },
+      {
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Johnson_Katherine/",
+        "publisher": "MacTutor History of Mathematics, University of St Andrews",
+        "publisherCountry": "GB"
+      }
+    ]
+  }
+};
+const B012_APPROVED_IDS = new Set(Object.keys(B012_APPROVED_PROFILES));
+const B012_APPROVED_QIDS = new Set(Object.values(B012_APPROVED_PROFILES).map((profile) => profile.wikidataId));
+const B012_NEW_PEOPLE = ALL_PEOPLE.filter((p) => B012_APPROVED_IDS.has(p.id));
+assert('Rule AG', B012_NEW_IDS.size === 93 && B012_APPROVED_IDS.size === 93, 'B012 exact allowlist must contain 93 unique IDs');
+assert('Rule AG', B012_NEW_IDS.size === B012_APPROVED_IDS.size && [...B012_NEW_IDS].every((id) => B012_APPROVED_IDS.has(id)), 'B012 historical projection IDs must exactly match the reviewed allowlist');
+assert('Rule AG', B012_NEW_PEOPLE.length === 93, `B012 requires exactly 93 August profiles, found ${B012_NEW_PEOPLE.length}`);
+assert('Rule AG', B012_APPROVED_QIDS.size === 93 && new Set(B012_NEW_PEOPLE.map((p) => p.wikidataId)).size === 93, 'B012 QIDs must be exact and unique');
+assert('Rule AG', B012_NEW_PEOPLE.every((p) => B012_APPROVED_IDS.has(p.id)), 'B012 additions must match only the approved profile ID list');
+assert('Rule AG', B012_NEW_PEOPLE.length === B012_APPROVED_IDS.size, 'B012 must contain every approved profile exactly once');
+
+function isApprovedB012DobSource(qid: string, url: string): boolean {
+  return Object.values(B012_APPROVED_PROFILES).some((profile) => profile.wikidataId === qid && profile.dobSources.some((source) => source.url === url));
+}
+
+for (const p of B012_NEW_PEOPLE) {
+  const expected = B012_APPROVED_PROFILES[p.id];
+  assert('Rule AG', Boolean(expected), `Unapproved B012 profile ID: ${p.id}`);
+  if (!expected) continue;
+  assert('Rule AG', p.wikidataId === expected.wikidataId, `B012 ${p.id} expected ${expected.wikidataId}, got ${p.wikidataId}`);
+  assert('Rule AG', p.birthDate === expected.birthDate, `B012 ${p.id} expected DOB ${expected.birthDate}, got ${p.birthDate}`);
+  assert('Rule AG', p.birthMonth === 8 && /^\d{4}-08-\d{2}$/.test(p.birthDate), `B012 ${p.id} must be an August record`);
+  assert('Rule AG', p.birthYear === Number(p.birthDate.slice(0, 4)) && p.birthDay === Number(p.birthDate.slice(8, 10)), `B012 ${p.id} split date fields must match birthDate`);
+  assert('Rule AG', p.countryCode === expected.countryCode, `B012 ${p.id} country must match reviewed mapping`);
+  assert('Rule AG', p.category === expected.category, `B012 ${p.id} category must match reviewed mapping`);
+  assert('Rule AG', p.occupation?.length === 1 && p.occupation[0] === expected.occupation, `B012 ${p.id} occupation must match reviewed mapping`);
+  assert('Rule AG', p.verifiedAt === '2026-10-06', `B012 ${p.id} requires the B012 review date`);
+  assert('Rule AG', p.sourceUrls?.includes(`https://www.wikidata.org/wiki/${p.wikidataId}`) === true, `B012 ${p.id} requires its exact Wikidata URL`);
+  assert('Rule AG source', expected.dobSources.length === 2, `B012 ${p.id} must have exactly two reviewed DOB publishers`);
+  assert('Rule AG source', new Set(expected.dobSources.map((source) => source.publisher)).size === 2, `B012 ${p.id} DOB publishers must be distinct`);
+  assert('Rule AG source', new Set(expected.dobSources.map((source) => getUrlHostname(source.url))).size === 2, `B012 ${p.id} DOB source hosts must be distinct`);
+  const approvedUrls = expected.dobSources.map((source) => source.url);
+  const nonWikiUrls = (p.sourceUrls || []).filter((url) => !['wikidata.org','www.wikidata.org','wikipedia.org','www.wikipedia.org','wikimedia.org','www.wikimedia.org'].includes(getUrlHostname(url)));
+  assert('Rule AG source', nonWikiUrls.length === 2 && approvedUrls.every((url) => nonWikiUrls.includes(url)), `B012 ${p.id} must include exactly its two reviewed non-Wikidata DOB sources`);
+  for (const source of expected.dobSources) {
+    assert('Rule AG source positive', isApprovedB012DobSource(p.wikidataId || '', source.url), `B012 reviewed source must pass for ${p.id}: ${source.url}`);
+    assert('Rule AG source profile', (p.sourceUrls || []).includes(source.url), `B012 ${p.id} must include reviewed source ${source.url}`);
+    assert('Rule AG source URL', Boolean(getUrlHostname(source.url)), `B012 source must use a valid host: ${source.url}`);
+    assert('Rule AG source negative', !isApprovedB012DobSource('Q0', source.url), `B012 source must not approve a different QID: ${source.url}`);
+    assert('Rule AG source negative', !isApprovedB012DobSource(p.wikidataId || '', `${source.url}#unreviewed`), `B012 unreviewed source fragment must fail: ${source.url}`);
+    const queryVariant = source.url.includes('?') ? `${source.url}&unreviewed=1` : `${source.url}?unreviewed=1`;
+    assert('Rule AG source negative', !isApprovedB012DobSource(p.wikidataId || '', queryVariant), `B012 unreviewed source query must fail: ${source.url}`);
+    const pathVariant = new URL(source.url);
+    pathVariant.pathname = `${pathVariant.pathname.replace(/\/$/, '')}/unreviewed`;
+    assert('Rule AG source negative', !isApprovedB012DobSource(p.wikidataId || '', pathVariant.href), `B012 unreviewed source path must fail: ${source.url}`);
+    const lookalike = new URL(source.url);
+    lookalike.hostname += '.evil.example';
+    assert('Rule AG source negative', !isApprovedB012DobSource(p.wikidataId || '', lookalike.href), `B012 lookalike source host must fail: ${source.url}`);
+    assert('Rule AG source negative', !isApprovedB012DobSource(p.wikidataId || '', 'not-a-url'), 'B012 malformed source URL must fail');
+  }
+}
+const b012Vietnamese = B012_NEW_PEOPLE.filter((p) => p.countryCode === 'VN');
+assert('Rule AG balance', b012Vietnamese.length === 5, `B012 Vietnamese count must be 5, found ${b012Vietnamese.length}`);
+assert('Rule AG balance', b012Vietnamese.length / B012_NEW_PEOPLE.length >= 0.05, `B012 Vietnamese share must be at least 5%; found ${b012Vietnamese.length}/${B012_NEW_PEOPLE.length}`);
+assert('Rule AG balance', new Set(b012Vietnamese.map((p) => p.wikidataId)).size === 5, 'B012 Vietnamese QIDs must be unique');
+for (const p of b012Vietnamese) {
+  const expected = B012_APPROVED_PROFILES[p.id];
+  const sources = expected?.dobSources || [];
+  assert('Rule AG Vietnamese', Boolean(expected) && expected.wikidataId === p.wikidataId, `B012 Vietnamese profile must match reviewed QID: ${p.id}`);
+  assert('Rule AG Vietnamese', sources.length === 2, `B012 Vietnamese ${p.id} requires exactly two reviewed foreign DOB sources`);
+  assert('Rule AG Vietnamese', sources.every((source) => source.publisherCountry !== 'VN' && Boolean(source.countryProofUrl?.startsWith('https://'))), `B012 Vietnamese ${p.id} requires two foreign publishers with official country proof`);
+  assert('Rule AG Vietnamese', sources.every((source) => (p.sourceUrls || []).includes(source.url)), `B012 Vietnamese ${p.id} must include both approved DOB URLs`);
+}
+for (let day = 1; day <= 31; day++) {
+  const count = B012_NEW_PEOPLE.filter((p) => p.birthDay === day).length;
+  assert('Rule AG coverage', count === 3, `B012 August ${day} must have exactly 3 additions, found ${count}`);
+  const total = ALL_PEOPLE.filter((p) => p.birthMonth === 8 && p.birthDay === day).length;
+  assert('Rule AG coverage', total <= 8, `B012 August ${day} must not exceed 8 total people, found ${total}`);
+}
+const b012AugustBaseline = ALL_PEOPLE.filter((p) => p.birthMonth === 8 && !B012_APPROVED_IDS.has(p.id));
+assert('Rule AG baseline', b012AugustBaseline.length === 2, `B012 must preserve exactly two baseline August profiles, found ${b012AugustBaseline.length}`);
+assert('Rule AG baseline', b012AugustBaseline.some((p) => p.id === 'jennifer-lawrence' && p.birthDate === '1990-08-15') && b012AugustBaseline.some((p) => p.id === 'napoleon-bonaparte' && p.birthDate === '1769-08-15'), 'B012 must retain Jennifer Lawrence and Napoleon Bonaparte on August 15');
+assert('Rule AG total', ALL_PEOPLE.length === 754, `B012 expected 754 total people, found ${ALL_PEOPLE.length}`);
+const b012CoveredDays = new Set(ALL_PEOPLE.map((p) => `${p.birthMonth}-${p.birthDay}`));
+assert('Rule AG coverage', b012CoveredDays.size === 245, `B012 expected 245 covered calendar days, found ${b012CoveredDays.size}`);
+const b012AugustDays = new Set(ALL_PEOPLE.filter((p) => p.birthMonth === 8).map((p) => p.birthDay));
+assert('Rule AG coverage', b012AugustDays.size === 31, `B012 must cover all 31 August days, found ${b012AugustDays.size}`);
+assert('Rule AG coverage', ALL_PEOPLE.filter((p) => p.birthMonth === 8 && p.birthDay === 15).length === 5, 'B012 August 15 must contain the three additions and two preserved baseline profiles');
+const b012PreservedPeople = ALL_PEOPLE.filter((p) => !B012_APPROVED_IDS.has(p.id)).sort((a, b) => a.id.localeCompare(b.id));
+assert('Rule AG baseline', b012PreservedPeople.length === 661, `B012 must preserve all 661 baseline people, found ${b012PreservedPeople.length}`);
+assert('Rule AG baseline', stableSha256(b012PreservedPeople) === 'bbdbf73293a1e6e861dffd6bab00b1eee0a4639d79ba2eb9594eec1df97c0334', 'All 661 baseline people must remain deep-equal to origin/main before B012');
+assert('Rule AG baseline', stableSha256(HISTORY_EVENTS) === '6dd4aae214c2b43131155c6483c3f3c575fe632e1287583c5c28ce4e40dcfd07', 'All 4 history events must remain deep-equal to origin/main');
+console.log(`B012 additions: ${B012_NEW_PEOPLE.length}; Vietnamese: ${b012Vietnamese.length}; Vietnamese share: ${(b012Vietnamese.length / B012_NEW_PEOPLE.length * 100).toFixed(2)}%; coverage: ${b012CoveredDays.size}/366`);
+
 
 // ------------------------------------------------------------
 // Summary
