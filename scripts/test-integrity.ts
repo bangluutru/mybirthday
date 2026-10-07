@@ -2,6 +2,7 @@ import { ALL_PEOPLE, HISTORY_EVENTS, HISTORY_EVENTS_22_FEB, getBirthdayData } fr
 import { isAdultOnDate, isValidIsoDate } from './wikidata-candidates';
 import { createHash } from 'node:crypto';
 import B013_EVIDENCE from '../.ai/evidence/B013.json';
+import B014_EVIDENCE from '../.ai/evidence/B014.json';
 
 interface Failure {
   suite: string;
@@ -717,6 +718,46 @@ for (const p of ALL_PEOPLE) {
       'Q56513413': ['https://www.transfermarkt.us/filip-nguyen/profil/spieler/202914'],
       'Q25999788': ['https://www.transfermarkt.com/duc-chinh-ha/profil/spieler/508254'],
       'Q19281994': ['https://www.transfermarkt.de/duy-manh-do/profil/spieler/354784'],
+      // B014 reviewed exact DOB pages; Rule AI separately locks each page into its independent source pair.
+      'Q173139': ['https://www.skysports.com/football/player/74946/george-weah'],
+      'Q464318': ['https://inc.in/leadership/past-party-presidents/annie-besant'],
+      'Q1001': ['https://www.gandhismriti.gov.in/more/chronology-mahatma-gandhi'],
+      'Q19892123': ['https://www.transfermarkt.com/tien-dung-bui/profil/spieler/407524'],
+      'Q133050': ['https://www.biography.com/actors/susan-sarandon'],
+      'Q184785': ['https://www.biography.com/authors-writers/anne-rice'],
+      'Q36233': ['https://www.hrad.cz/en/president-of-the-cr/former-presidents/vaclav-havel'],
+      'Q4724': ['https://www.modernamuseet.se/stockholm/en/exhibitions/moment-le-corbusier/biography/'],
+      'Q102124': ['https://www.biography.com/actors/sigourney-weaver'],
+      'Q175535': ['https://www.mattdamon.com/bio.html'],
+      'Q7934': ['https://www.oregonencyclopedia.org/articles/herbert-frank-and-the-dune-series/'],
+      'Q1203': ['https://www.beatlesstory.com/blog/9-dream-john-lennon-and-numerology/'],
+      'Q310913': ['https://plumvillage.org/about/thich-nhat-hanh/biography/thich-nhat-hanh-full-biography'],
+      'Q9570': ['https://www.biography.com/actor/amitabh-bachchan'],
+      'Q129591': ['https://www.biography.com/actors/hugh-jackman'],
+      'Q939': ['https://mapa.arquivonacional.gov.br/index.php/component/content/article/395-pedro-de-alcantara-francisco-antonio-joao-carlos-xavier-de-paula-miguel-gabriel-rafael-joaquim-jose-gonzaga-pascoal-cipriano-serafim-de-braganca-e-bourbon-d-pedro-i?Itemid=148&catid=70'],
+      'Q7416': ['https://www.margaretthatcher.org/archive/MTobit'],
+      'Q9513': ['https://www.presidentofindia.gov.in/dr-apj-abdul-kalam-profile'],
+      'Q30875': ['https://www.dib.ie/biography/wilde-oscar-fingal-oflahertie-a9036'],
+      'Q6538': ['https://www.hdg.de/lemo/biografie/guenter-grass.html'],
+      'Q5608': ['https://www.universal-music.co.jp/eminem/biography/'],
+      'Q80596': ['https://www.chipublib.org/arthur-miller-biography/'],
+      'Q5921': ['https://www.chuckberry.com/about'],
+      'Q54545': ['https://www.wtatennis.com/legends/140007/Martina_Navratilova'],
+      'Q209641': ['https://johnlecarre.com/biography/'],
+      'Q190220': ['https://sf-encyclopedia.com/entry/pullman_philip'],
+      'Q12897': ['https://www.cbf.com.br/selecao-brasileira/noticias/selecao-masculina/campo-de-manha-academia-a-tarde/eterno-pele-completaria-85-anos-nesta-quin-ta-feira'],
+      'Q192682': ['https://www.canadaswalkoffame.com/inductees/ryan-reynolds/'],
+      'Q160726': ['https://www.biography.com/filmmaker/ang-lee'],
+      'Q266613': ['https://www.skysports.com/wayne-rooney'],
+      'Q927550': ['https://www.aph.gov.au/~/media/05%20About%20Parliament/54%20Parliamentary%20Depts/544%20Parliamentary%20Library/Handbook/handbook_45th_parliament.pdf'],
+      'Q2038': ['https://www.elysee.fr/francois-mitterrand'],
+      'Q188492': ['https://www.biography.com/movies-tv/seth-macfarlane'],
+      'Q25014': ['https://calperformances.org/learn/program_notes/2005/pn_Cleese.pdf'],
+      'Q5284': ['https://www.biography.com/business-leaders/bill-gates'],
+      'Q40523': ['https://www.biography.com/actors/julia-roberts'],
+      'Q101797': ['https://www.biography.com/actors/winona-ryder'],
+      'Q4465': ['https://www.biography.com/movies-tv/peter-jackson'],
+      'Q47780': ['https://www.cambridge.org/core/services/aop-cambridge-core/content/view/22231C3B20D5E38E63CD579577FC7F21/S1359135516000348a.pdf/zaha-hadid-1950-2016.pdf'],
     };
     const hasReviewedPublisherException = reviewedPublisherExceptions[p.wikidataId || '']?.some((u) =>
       independentSources.includes(u)
@@ -1568,8 +1609,103 @@ const B012_NEW_IDS = new Set([
   'quach-cong-lich',
   'katherine-johnson',
 ]);
+const B014_NEW_IDS = new Set([
+  'jimmy-carter',
+  'george-weah',
+  'annie-besant',
+  'mahatma-gandhi',
+  'sting',
+  'bui-tien-dung',
+  'zlatan-ibrahimovic',
+  'louis-aragon',
+  'gore-vidal',
+  'buster-keaton',
+  'susan-sarandon',
+  'anne-rice',
+  'vaclav-havel',
+  'denis-diderot',
+  'robert-h-goddard',
+  'le-corbusier',
+  'thor-heyerdahl',
+  'hoang-xuan-vinh',
+  'niels-bohr',
+  'desmond-tutu',
+  'henry-a-wallace',
+  'sigourney-weaver',
+  'matt-damon',
+  'frank-herbert',
+  'john-lennon',
+  'leopold-sedar-senghor',
+  'camille-saint-saens',
+  'fridtjof-nansen',
+  'harold-pinter',
+  'xherdan-shaqiri',
+  'eleanor-roosevelt',
+  'thich-nhat-hanh',
+  'amitabh-bachchan',
+  'hugh-jackman',
+  'pedro-i-cua-brasil',
+  'edith-stein',
+  'margaret-thatcher',
+  'alexandria-ocasio-cortez',
+  'paul-simon',
+  'dwight-d-eisenhower',
+  'roger-moore',
+  'usher',
+  'friedrich-nietzsche',
+  'a-p-j-abdul-kalam',
+  'italo-calvino',
+  'oscar-wilde',
+  'gunter-grass',
+  'phan-thi-ha-thanh',
+  'eminem',
+  'arthur-miller',
+  'kimi-raikkonen',
+  'henri-bergson',
+  'chuck-berry',
+  'martina-navratilova',
+  'subrahmanyan-chandrasekhar',
+  'john-le-carre',
+  'philip-pullman',
+  'snoop-dogg',
+  'arthur-rimbaud',
+  'nguyen-tien-linh',
+  'alfred-nobel',
+  'ursula-k-le-guin',
+  'carrie-fisher',
+  'doris-lessing',
+  'franz-liszt',
+  'catherine-deneuve',
+  'pele',
+  'ryan-reynolds',
+  'ang-lee',
+  'wayne-rooney',
+  'malcolm-turnbull',
+  'kevin-kline',
+  'pablo-picasso',
+  'katy-perry',
+  'georges-bizet',
+  'hillary-clinton',
+  'francois-mitterrand',
+  'seth-macfarlane',
+  'theodore-roosevelt',
+  'sylvia-plath',
+  'john-cleese',
+  'bill-gates',
+  'jonas-salk',
+  'julia-roberts',
+  'ellen-johnson-sirleaf',
+  'winona-ryder',
+  'edwin-van-der-sar',
+  'diego-maradona',
+  'paul-valery',
+  'zoran-milanovic',
+  'peter-jackson',
+  'marcus-rashford',
+  'zaha-hadid',
+]);
 const b010CycleDatedProfiles = ALL_PEOPLE.filter((p) => p.birthMonth === 6 && p.verifiedAt === '2026-10-06');
-const b009BaselinePeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7 && !(p.birthMonth === 6 && p.verifiedAt === '2026-10-06') && !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id));
+const b009BaselinePeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7 && !(p.birthMonth === 6 && p.verifiedAt === '2026-10-06') && !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id));
 assert('Rule AD', b009BaselinePeople.length === 478, `B009 baseline must remain 478 after excluding B010 and B011 additions, found ${b009BaselinePeople.length}`);
 assert('Rule AD', HISTORY_EVENTS.length === 4, `B009 must preserve all 4 events, found ${HISTORY_EVENTS.length}`);
 
@@ -3066,7 +3202,7 @@ for (const p of b010Vietnamese) {
   assert('Rule AE Vietnamese', sources.every((source) => source.publisherCountry !== 'VN' && Boolean(source.countryProofUrl)), `B010 Vietnamese ${p.id} requires two sources with verified foreign publisher countries`);
   assert('Rule AE Vietnamese', sources.every((source) => (p.sourceUrls || []).includes(source.url)), `B010 Vietnamese ${p.id} must include both approved DOB URLs`);
 }
-const b010ScopePeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7 && !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id));
+const b010ScopePeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7 && !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id));
 assert('Rule AE balance', b010ScopePeople.length === 568, `B010 through-June dataset must contain 568 people, found ${b010ScopePeople.length}`);
 assert('Rule AE events', HISTORY_EVENTS.length === 4, `B010 must preserve exactly 4 history events, found ${HISTORY_EVENTS.length}`);
 const b010CoveredDays = new Set(b010ScopePeople.map((p) => `${p.birthMonth}-${p.birthDay}`));
@@ -4884,7 +5020,7 @@ const B011_APPROVED_PROFILES: Readonly<Record<string, {
     ]
   }
 };
-const b011ScopePeople = ALL_PEOPLE.filter((p) => !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id));
+const b011ScopePeople = ALL_PEOPLE.filter((p) => !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id));
 const B011_NEW_PEOPLE = b011ScopePeople.filter((p) => p.birthMonth === 7);
 const B011_APPROVED_IDS = new Set(Object.keys(B011_APPROVED_PROFILES));
 const B011_APPROVED_QIDS = new Set(Object.values(B011_APPROVED_PROFILES).map((profile) => profile.wikidataId));
@@ -6753,7 +6889,7 @@ const B012_APPROVED_PROFILES: Readonly<Record<string, {
 };
 const B012_APPROVED_IDS = new Set(Object.keys(B012_APPROVED_PROFILES));
 const B012_APPROVED_QIDS = new Set(Object.values(B012_APPROVED_PROFILES).map((profile) => profile.wikidataId));
-const b012HistoricalPeople = ALL_PEOPLE.filter((p) => !B013_NEW_IDS.has(p.id));
+const b012HistoricalPeople = ALL_PEOPLE.filter((p) => !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id));
 const B012_NEW_PEOPLE = b012HistoricalPeople.filter((p) => B012_APPROVED_IDS.has(p.id));
 assert('Rule AG', B012_NEW_IDS.size === 93 && B012_APPROVED_IDS.size === 93, 'B012 exact allowlist must contain 93 unique IDs');
 assert('Rule AG', B012_NEW_IDS.size === B012_APPROVED_IDS.size && [...B012_NEW_IDS].every((id) => B012_APPROVED_IDS.has(id)), 'B012 historical projection IDs must exactly match the reviewed allowlist');
@@ -8524,16 +8660,1879 @@ for (let day = 1; day <= 30; day++) {
   assert('Rule AH coverage', additions.length === 3, `B013 September ${day} must have exactly 3 additions, found ${additions.length}`);
   assert('Rule AH coverage', total.length === 3 && total.length <= 8, `B013 September ${day} must have 3 additions and no more than 8 total people, found ${total.length}`);
 }
-const b013BaselinePeople = ALL_PEOPLE.filter((p) => !B013_NEW_IDS.has(p.id));
+const b013HistoricalPeople = ALL_PEOPLE.filter((p) => !B014_NEW_IDS.has(p.id));
+const b013BaselinePeople = b013HistoricalPeople.filter((p) => !B013_NEW_IDS.has(p.id));
 assert('Rule AH baseline', b013BaselinePeople.length === 754, `B013 must preserve all 754 baseline people, found ${b013BaselinePeople.length}`);
 assert('Rule AH baseline', stableSha256(b013BaselinePeople.sort((a, b) => a.id.localeCompare(b.id))) === '43e159877b62e4e68ba6fb15763c40cbf660325803896fcf0843edc73702c282', 'All 754 origin/main people must remain deep-equal to the B013 baseline');
 assert('Rule AH baseline', stableSha256(HISTORY_EVENTS) === '6dd4aae214c2b43131155c6483c3f3c575fe632e1287583c5c28ce4e40dcfd07', 'All 4 history events must remain deep-equal to the B013 baseline');
-const b013CoveredDays = new Set(ALL_PEOPLE.map((p) => `${p.birthMonth}-${p.birthDay}`));
-const b013SeptemberDays = new Set(ALL_PEOPLE.filter((p) => p.birthMonth === 9).map((p) => p.birthDay));
-assert('Rule AH total', ALL_PEOPLE.length === 844, `B013 expected 844 total people, found ${ALL_PEOPLE.length}`);
+const b013CoveredDays = new Set(b013HistoricalPeople.map((p) => `${p.birthMonth}-${p.birthDay}`));
+const b013SeptemberDays = new Set(b013HistoricalPeople.filter((p) => p.birthMonth === 9).map((p) => p.birthDay));
+assert('Rule AH total', b013HistoricalPeople.length === 844, `B013 expected 844 total people before B014, found ${b013HistoricalPeople.length}`);
 assert('Rule AH coverage', b013CoveredDays.size === 275, `B013 expected 275 covered calendar days, found ${b013CoveredDays.size}`);
 assert('Rule AH coverage', b013SeptemberDays.size === 30, `B013 must cover all 30 September days, found ${b013SeptemberDays.size}`);
 console.log(`B013 additions: ${B013_NEW_PEOPLE.length}; Vietnamese: ${b013Vietnamese.length}; share: ${(b013Vietnamese.length / B013_NEW_PEOPLE.length * 100).toFixed(2)}%; coverage: ${b013CoveredDays.size}/366`);
+
+
+
+// Rule AI: B014 exact October profile set, source captures, Wikidata audit, and baseline preservation.
+console.log('Checking Rule AI: B014 October allowlist, evidence, Wikidata claims, and baseline preservation...');
+
+type B014DobSource = { url: string; publisher: string; publisherCountry?: string; countryProofUrl?: string };
+type B014ApprovedProfile = {
+  wikidataId: string;
+  birthDate: string;
+  countryCode: string;
+  countryName: string;
+  category: string;
+  occupation: string;
+  dobSources: readonly B014DobSource[];
+};
+const B014_APPROVED_PROFILES: Readonly<Record<string, B014ApprovedProfile>> = {
+  "jimmy-carter": {
+    "wikidataId": "Q23685",
+    "birthDate": "1924-10-01",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "politics",
+    "occupation": "Chính trị gia",
+    "dobSources": [
+      {
+        "url": "https://www.nps.gov/people/james-earl-carter-jr.htm",
+        "publisher": "National Park Service"
+      },
+      {
+        "url": "https://www.biography.com/political-figures/jimmy-carter",
+        "publisher": "Biography.com"
+      }
+    ]
+  },
+  "george-weah": {
+    "wikidataId": "Q173139",
+    "birthDate": "1966-10-01",
+    "countryCode": "LR",
+    "countryName": "Liberia",
+    "category": "athlete",
+    "occupation": "Cầu thủ bóng đá",
+    "dobSources": [
+      {
+        "url": "https://www.skysports.com/football/player/74946/george-weah",
+        "publisher": "Sky Sports"
+      },
+      {
+        "url": "https://www.transfermarkt.us/george-weah/profil/spieler/8542",
+        "publisher": "Transfermarkt"
+      }
+    ]
+  },
+  "annie-besant": {
+    "wikidataId": "Q464318",
+    "birthDate": "1847-10-01",
+    "countryCode": "GB",
+    "countryName": "Vương quốc Anh",
+    "category": "politics",
+    "occupation": "Nhà hoạt động vì nữ quyền",
+    "dobSources": [
+      {
+        "url": "https://inc.in/leadership/past-party-presidents/annie-besant",
+        "publisher": "Indian National Congress"
+      },
+      {
+        "url": "https://www.secularism.org.uk/annie-besant",
+        "publisher": "National Secular Society"
+      }
+    ]
+  },
+  "mahatma-gandhi": {
+    "wikidataId": "Q1001",
+    "birthDate": "1869-10-02",
+    "countryCode": "IN",
+    "countryName": "Ấn Độ",
+    "category": "politics",
+    "occupation": "Nhà hoạt động đấu tranh giành độc lập",
+    "dobSources": [
+      {
+        "url": "https://www.gandhismriti.gov.in/more/chronology-mahatma-gandhi",
+        "publisher": "Gandhi Smriti"
+      },
+      {
+        "url": "https://culture.gov.in/hi/mahatma-gandhi",
+        "publisher": "Ministry of Culture, Government of India"
+      }
+    ]
+  },
+  "sting": {
+    "wikidataId": "Q483203",
+    "birthDate": "1951-10-02",
+    "countryCode": "GB",
+    "countryName": "Vương quốc Anh",
+    "category": "music",
+    "occupation": "Ca sĩ",
+    "dobSources": [
+      {
+        "url": "https://www.sting.com/pages/biography",
+        "publisher": "Sting"
+      },
+      {
+        "url": "https://catalogue.royalalberthall.com/Record.aspx?id=DS%2FUK%2F22&pos=1&src=CalmView.Persons",
+        "publisher": "Royal Albert Hall"
+      }
+    ]
+  },
+  "bui-tien-dung": {
+    "wikidataId": "Q19892123",
+    "birthDate": "1995-10-02",
+    "countryCode": "VN",
+    "countryName": "Việt Nam",
+    "category": "athlete",
+    "occupation": "Cầu thủ bóng đá",
+    "dobSources": [
+      {
+        "url": "https://www.transfermarkt.com/tien-dung-bui/profil/spieler/407524",
+        "publisher": "Transfermarkt",
+        "publisherCountry": "DE",
+        "countryProofUrl": "https://www.transfermarkt.us/intern/impressum"
+      },
+      {
+        "url": "https://www.sofascore.com/football/player/bui-tien-dung/1140343",
+        "publisher": "Sofascore",
+        "publisherCountry": "HR",
+        "countryProofUrl": "https://corporate.sofascore.com/legal-information"
+      }
+    ]
+  },
+  "zlatan-ibrahimovic": {
+    "wikidataId": "Q46896",
+    "birthDate": "1981-10-03",
+    "countryCode": "SE",
+    "countryName": "Thụy Điển",
+    "category": "athlete",
+    "occupation": "Cầu thủ bóng đá",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Zlatan_Ibrahimovic",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.transfermarkt.com/zlatan-ibrahimovic/profil/spieler/3455",
+        "publisher": "Transfermarkt"
+      }
+    ]
+  },
+  "louis-aragon": {
+    "wikidataId": "Q4128",
+    "birthDate": "1897-10-03",
+    "countryCode": "FR",
+    "countryName": "Pháp",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb119347816",
+        "publisher": "Bibliothèque nationale de France"
+      },
+      {
+        "url": "https://junior.universalis.fr/encyclopedie/aragon-louis-1897-1982",
+        "publisher": "Encyclopædia Universalis"
+      }
+    ]
+  },
+  "gore-vidal": {
+    "wikidataId": "Q167821",
+    "birthDate": "1925-10-03",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://research.hrc.utexas.edu/fasearch/findingaid.cfm?eadid=00522",
+        "publisher": "Harry Ransom Center"
+      },
+      {
+        "url": "https://www.biography.com/authors-writers/gore-vidal",
+        "publisher": "Biography.com"
+      }
+    ]
+  },
+  "buster-keaton": {
+    "wikidataId": "Q103949",
+    "birthDate": "1895-10-04",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://www.kansashistory.gov/kansapedia/buster-keaton/18439",
+        "publisher": "Kansas Historical Society"
+      },
+      {
+        "url": "https://busterkeaton.org/about-buster/part-1-a-vaudeville-childhood/",
+        "publisher": "Buster Keaton official site"
+      }
+    ]
+  },
+  "susan-sarandon": {
+    "wikidataId": "Q133050",
+    "birthDate": "1946-10-04",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://www.biography.com/actors/susan-sarandon",
+        "publisher": "Biography.com"
+      },
+      {
+        "url": "https://www.encyclopedia.com/people/literature-and-arts/film-and-television-biographies/susan-sarandon",
+        "publisher": "Encyclopedia.com"
+      }
+    ]
+  },
+  "anne-rice": {
+    "wikidataId": "Q184785",
+    "birthDate": "1941-10-04",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://www.biography.com/authors-writers/anne-rice",
+        "publisher": "Biography.com"
+      },
+      {
+        "url": "https://www.encyclopedia.com/arts/educational-magazines/rice-anne-1941",
+        "publisher": "Encyclopedia.com"
+      }
+    ]
+  },
+  "vaclav-havel": {
+    "wikidataId": "Q36233",
+    "birthDate": "1936-10-05",
+    "countryCode": "CZ",
+    "countryName": "Séc",
+    "category": "literature",
+    "occupation": "Nhà viết kịch",
+    "dobSources": [
+      {
+        "url": "https://www.hrad.cz/en/president-of-the-cr/former-presidents/vaclav-havel",
+        "publisher": "Office of the President of the Czech Republic"
+      },
+      {
+        "url": "https://edu.vaclavhavel.cz/en/vaclav-havel/early-years",
+        "publisher": "edu.vaclavhavel.cz"
+      }
+    ]
+  },
+  "denis-diderot": {
+    "wikidataId": "Q448",
+    "birthDate": "1713-10-05",
+    "countryCode": "FR",
+    "countryName": "Pháp",
+    "category": "literature",
+    "occupation": "Triết gia",
+    "dobSources": [
+      {
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb11900134f",
+        "publisher": "Bibliothèque nationale de France"
+      },
+      {
+        "url": "https://www.hachettebnf.fr/auteur/denis-diderot/",
+        "publisher": "Hachette BNF"
+      }
+    ]
+  },
+  "robert-h-goddard": {
+    "wikidataId": "Q182546",
+    "birthDate": "1882-10-05",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "scientist",
+    "occupation": "Nhà vật lý",
+    "dobSources": [
+      {
+        "url": "https://siarchives.si.edu/history/featured-topics/stories/robert-h-goddard-american-rocket-pioneer",
+        "publisher": "Smithsonian Institution Archives"
+      },
+      {
+        "url": "https://www.eia.gov/kids/history-of-energy/famous-people/goddard.php",
+        "publisher": "U.S. Energy Information Administration"
+      }
+    ]
+  },
+  "le-corbusier": {
+    "wikidataId": "Q4724",
+    "birthDate": "1887-10-06",
+    "countryCode": "FR",
+    "countryName": "Pháp",
+    "category": "artist",
+    "occupation": "Kiến trúc sư",
+    "dobSources": [
+      {
+        "url": "https://www.modernamuseet.se/stockholm/en/exhibitions/moment-le-corbusier/biography/",
+        "publisher": "Moderna Museet"
+      },
+      {
+        "url": "https://mas.be/en/page/architect-le-corbusier",
+        "publisher": "Museum aan de Stroom"
+      }
+    ]
+  },
+  "thor-heyerdahl": {
+    "wikidataId": "Q133622",
+    "birthDate": "1914-10-06",
+    "countryCode": "NO",
+    "countryName": "Na Uy",
+    "category": "history",
+    "occupation": "Nhà thám hiểm",
+    "dobSources": [
+      {
+        "url": "https://snl.no/Thor_Heyerdahl",
+        "publisher": "Store norske leksikon"
+      },
+      {
+        "url": "https://www.kon-tiki.no/en/about-thor-heyerdahl",
+        "publisher": "Kon-Tiki Museum"
+      }
+    ]
+  },
+  "hoang-xuan-vinh": {
+    "wikidataId": "Q2019283",
+    "birthDate": "1974-10-06",
+    "countryCode": "VN",
+    "countryName": "Việt Nam",
+    "category": "athlete",
+    "occupation": "Vận động viên bắn súng",
+    "dobSources": [
+      {
+        "url": "https://www.issf-sports.org/athletes/SHVIEM0610197401",
+        "publisher": "ISSF",
+        "publisherCountry": "DE",
+        "countryProofUrl": "https://www.issf-sports.org/contact"
+      },
+      {
+        "url": "https://www.ocagames.com/OCA/cache/17ag/SH/par.SH.VIE.5107619.html",
+        "publisher": "OCA",
+        "publisherCountry": "KW",
+        "countryProofUrl": "https://oca.asia/council/oca-headquarters/"
+      }
+    ]
+  },
+  "niels-bohr": {
+    "wikidataId": "Q7085",
+    "birthDate": "1885-10-07",
+    "countryCode": "DK",
+    "countryName": "Đan Mạch",
+    "category": "scientist",
+    "occupation": "Nhà vật lý",
+    "dobSources": [
+      {
+        "url": "https://www.nobelprize.org/laureate/27",
+        "publisher": "Nobel Prize Outreach"
+      },
+      {
+        "url": "https://www.biography.com/scientists/niels-bohr",
+        "publisher": "Biography.com"
+      }
+    ]
+  },
+  "desmond-tutu": {
+    "wikidataId": "Q43033",
+    "birthDate": "1931-10-07",
+    "countryCode": "ZA",
+    "countryName": "Nam Phi",
+    "category": "politics",
+    "occupation": "Nhà hoạt động xã hội",
+    "dobSources": [
+      {
+        "url": "https://www.nobelprize.org/laureate/546",
+        "publisher": "Nobel Prize Outreach"
+      },
+      {
+        "url": "https://www.gov.za/DesmondTutu-biography",
+        "publisher": "Government of South Africa"
+      }
+    ]
+  },
+  "henry-a-wallace": {
+    "wikidataId": "Q251666",
+    "birthDate": "1888-10-07",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "politics",
+    "occupation": "Chính trị gia",
+    "dobSources": [
+      {
+        "url": "https://www.millercenter.org/president/fdroosevelt/essays/wallace-1933-secretary-of-agriculture",
+        "publisher": "Miller Center"
+      },
+      {
+        "url": "https://www.ans.iastate.edu/about/history/people/henry-wallace",
+        "publisher": "Iowa State University"
+      }
+    ]
+  },
+  "sigourney-weaver": {
+    "wikidataId": "Q102124",
+    "birthDate": "1949-10-08",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://www.biography.com/actors/sigourney-weaver",
+        "publisher": "Biography.com"
+      },
+      {
+        "url": "https://www.imdb.com/name/nm0000244/bio/",
+        "publisher": "IMDb"
+      }
+    ]
+  },
+  "matt-damon": {
+    "wikidataId": "Q175535",
+    "birthDate": "1970-10-08",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://www.mattdamon.com/bio.html",
+        "publisher": "Matt Damon official site"
+      },
+      {
+        "url": "https://www.biography.com/actors/matt-damon",
+        "publisher": "Biography.com"
+      }
+    ]
+  },
+  "frank-herbert": {
+    "wikidataId": "Q7934",
+    "birthDate": "1920-10-08",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://www.oregonencyclopedia.org/articles/herbert-frank-and-the-dune-series/",
+        "publisher": "Oregon Encyclopedia"
+      },
+      {
+        "url": "https://www.encyclopedia.com/arts/culture-magazines/herbert-frank-1920-1986",
+        "publisher": "Encyclopedia.com"
+      }
+    ]
+  },
+  "john-lennon": {
+    "wikidataId": "Q1203",
+    "birthDate": "1940-10-09",
+    "countryCode": "GB",
+    "countryName": "Vương quốc Anh",
+    "category": "music",
+    "occupation": "Ca sĩ",
+    "dobSources": [
+      {
+        "url": "https://www.beatlesstory.com/blog/9-dream-john-lennon-and-numerology/",
+        "publisher": "The Beatles Story"
+      },
+      {
+        "url": "https://www.universal-music.co.jp/the-beatles/biography/",
+        "publisher": "Universal Music Japan"
+      }
+    ]
+  },
+  "leopold-sedar-senghor": {
+    "wikidataId": "Q154545",
+    "birthDate": "1906-10-09",
+    "countryCode": "SN",
+    "countryName": "Senegal",
+    "category": "politics",
+    "occupation": "Chính trị gia",
+    "dobSources": [
+      {
+        "url": "https://www.presidence.sn/en/presidence/leopold-sedar-senghor/",
+        "publisher": "Presidency of Senegal"
+      },
+      {
+        "url": "https://www.academie-francaise.fr/les-immortels/leopold-sedar-senghor",
+        "publisher": "Académie française"
+      }
+    ]
+  },
+  "camille-saint-saens": {
+    "wikidataId": "Q150445",
+    "birthDate": "1835-10-09",
+    "countryCode": "FR",
+    "countryName": "Pháp",
+    "category": "music",
+    "occupation": "Nhà soạn nhạc",
+    "dobSources": [
+      {
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb13899342r",
+        "publisher": "Bibliothèque nationale de France"
+      },
+      {
+        "url": "https://www.operadeparis.fr/artistes/camille-saint-saens",
+        "publisher": "Opéra national de Paris"
+      }
+    ]
+  },
+  "fridtjof-nansen": {
+    "wikidataId": "Q72292",
+    "birthDate": "1861-10-10",
+    "countryCode": "NO",
+    "countryName": "Na Uy",
+    "category": "history",
+    "occupation": "Nhà thám hiểm",
+    "dobSources": [
+      {
+        "url": "https://www.nobelprize.org/prizes/peace/1922/nansen/biographical/",
+        "publisher": "Nobel Prize Outreach"
+      },
+      {
+        "url": "https://snl.no/Fridtjof_Nansen",
+        "publisher": "Store norske leksikon"
+      }
+    ]
+  },
+  "harold-pinter": {
+    "wikidataId": "Q41042",
+    "birthDate": "1930-10-10",
+    "countryCode": "GB",
+    "countryName": "Vương quốc Anh",
+    "category": "literature",
+    "occupation": "Nhà viết kịch",
+    "dobSources": [
+      {
+        "url": "https://www.nobelprize.org/laureate/801",
+        "publisher": "Nobel Prize Outreach"
+      },
+      {
+        "url": "https://research.hrc.utexas.edu/fasearch/pdf/00108.pdf",
+        "publisher": "Harry Ransom Center"
+      }
+    ]
+  },
+  "xherdan-shaqiri": {
+    "wikidataId": "Q252190",
+    "birthDate": "1991-10-10",
+    "countryCode": "CH",
+    "countryName": "Thụy Sĩ",
+    "category": "athlete",
+    "occupation": "Cầu thủ bóng đá",
+    "dobSources": [
+      {
+        "url": "https://it.uefa.com/euro2024/teams/players/1905360--xherdan-shaqiri/",
+        "publisher": "it.uefa.com"
+      },
+      {
+        "url": "https://www.skysports.com/xherdan-shaqiri",
+        "publisher": "Sky Sports"
+      }
+    ]
+  },
+  "eleanor-roosevelt": {
+    "wikidataId": "Q83396",
+    "birthDate": "1884-10-11",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "politics",
+    "occupation": "Nhà hoạt động nhân quyền",
+    "dobSources": [
+      {
+        "url": "https://www.fdrlibrary.org/er-biography",
+        "publisher": "Franklin D. Roosevelt Presidential Library"
+      },
+      {
+        "url": "https://www.nps.gov/people/eleanor-roosevelt.htm",
+        "publisher": "National Park Service"
+      }
+    ]
+  },
+  "thich-nhat-hanh": {
+    "wikidataId": "Q310913",
+    "birthDate": "1926-10-11",
+    "countryCode": "VN",
+    "countryName": "Việt Nam",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://plumvillage.org/about/thich-nhat-hanh/biography/thich-nhat-hanh-full-biography",
+        "publisher": "Plum Village",
+        "publisherCountry": "FR",
+        "countryProofUrl": "https://plumvillage.org/terms-and-conditions"
+      },
+      {
+        "url": "https://www.ebsco.com/research-starters/biography/thich-nhat-hanh",
+        "publisher": "EBSCO",
+        "publisherCountry": "US",
+        "countryProofUrl": "https://about.ebsco.com/offices"
+      }
+    ]
+  },
+  "amitabh-bachchan": {
+    "wikidataId": "Q9570",
+    "birthDate": "1942-10-11",
+    "countryCode": "IN",
+    "countryName": "Ấn Độ",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://www.biography.com/actor/amitabh-bachchan",
+        "publisher": "Biography.com"
+      },
+      {
+        "url": "https://dff.nic.in/images/Documents/49_53Nfacatalogue-%20.pdf",
+        "publisher": "National Film Archive of India"
+      }
+    ]
+  },
+  "hugh-jackman": {
+    "wikidataId": "Q129591",
+    "birthDate": "1968-10-12",
+    "countryCode": "AU",
+    "countryName": "Úc",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://www.biography.com/actors/hugh-jackman",
+        "publisher": "Biography.com"
+      },
+      {
+        "url": "https://www.imdb.com/name/nm0413168/bio/",
+        "publisher": "IMDb"
+      }
+    ]
+  },
+  "pedro-i-cua-brasil": {
+    "wikidataId": "Q939",
+    "birthDate": "1798-10-12",
+    "countryCode": "BR",
+    "countryName": "Brasil",
+    "category": "politics",
+    "occupation": "Quân chủ",
+    "dobSources": [
+      {
+        "url": "https://mapa.arquivonacional.gov.br/index.php/component/content/article/395-pedro-de-alcantara-francisco-antonio-joao-carlos-xavier-de-paula-miguel-gabriel-rafael-joaquim-jose-gonzaga-pascoal-cipriano-serafim-de-braganca-e-bourbon-d-pedro-i?Itemid=148&catid=70",
+        "publisher": "Arquivo Nacional"
+      },
+      {
+        "url": "https://www.camara.leg.br/tv/177173-dom-pedro-i/",
+        "publisher": "Chamber of Deputies of Brazil"
+      }
+    ]
+  },
+  "edith-stein": {
+    "wikidataId": "Q76749",
+    "birthDate": "1891-10-12",
+    "countryCode": "DE",
+    "countryName": "Đức",
+    "category": "history",
+    "occupation": "Triết gia",
+    "dobSources": [
+      {
+        "url": "https://press.vatican.va/news_services/liturgy/saints/ns_lit_doc_19981011_edith_stein_en.html",
+        "publisher": "Holy See Press Office"
+      },
+      {
+        "url": "https://www.edith-stein-archiv.de/en/edith-steins-lebenschronik",
+        "publisher": "Edith Stein Archive"
+      }
+    ]
+  },
+  "margaret-thatcher": {
+    "wikidataId": "Q7416",
+    "birthDate": "1925-10-13",
+    "countryCode": "GB",
+    "countryName": "Vương quốc Anh",
+    "category": "politics",
+    "occupation": "Chính trị gia",
+    "dobSources": [
+      {
+        "url": "https://www.margaretthatcher.org/archive/MTobit",
+        "publisher": "Margaret Thatcher Foundation"
+      },
+      {
+        "url": "https://www.gov.uk/government/history/past-prime-ministers/margaret-thatcher",
+        "publisher": "UK Government"
+      }
+    ]
+  },
+  "alexandria-ocasio-cortez": {
+    "wikidataId": "Q55223040",
+    "birthDate": "1989-10-13",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "politics",
+    "occupation": "Chính trị gia",
+    "dobSources": [
+      {
+        "url": "https://history.house.gov/People/Detail/25769805196/",
+        "publisher": "U.S. House of Representatives: History, Art & Archives"
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/CDIR-2020-07-22/pdf/CDIR-2020-07-22.pdf",
+        "publisher": "U.S. Government Publishing Office"
+      }
+    ]
+  },
+  "paul-simon": {
+    "wikidataId": "Q4028",
+    "birthDate": "1941-10-13",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "music",
+    "occupation": "Ca sĩ",
+    "dobSources": [
+      {
+        "url": "https://www.biography.com/musicians/paul-simon",
+        "publisher": "Biography.com"
+      },
+      {
+        "url": "https://www.sonymusic.co.jp/artist/SimonAndGarfunkel/profile/",
+        "publisher": "Sony Music Japan"
+      }
+    ]
+  },
+  "dwight-d-eisenhower": {
+    "wikidataId": "Q9916",
+    "birthDate": "1890-10-14",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "politics",
+    "occupation": "Chính trị gia",
+    "dobSources": [
+      {
+        "url": "https://www.eisenhowerlibrary.gov/eisenhowers",
+        "publisher": "Dwight D. Eisenhower Presidential Library"
+      },
+      {
+        "url": "https://www.nps.gov/ddem/learn/historyculture/ikebio.htm",
+        "publisher": "National Park Service"
+      }
+    ]
+  },
+  "roger-moore": {
+    "wikidataId": "Q134333",
+    "birthDate": "1927-10-14",
+    "countryCode": "GB",
+    "countryName": "Vương quốc Anh",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://www.bfi.org.uk/sight-and-sound/news/roger-moore-obituary-star-who-gave-james-bond-martini-dry-wit",
+        "publisher": "British Film Institute"
+      },
+      {
+        "url": "https://www.imdb.com/name/nm0000549/bio/",
+        "publisher": "IMDb"
+      }
+    ]
+  },
+  "usher": {
+    "wikidataId": "Q165911",
+    "birthDate": "1978-10-14",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "music",
+    "occupation": "Ca sĩ",
+    "dobSources": [
+      {
+        "url": "https://www.biography.com/musicians/usher",
+        "publisher": "Biography.com"
+      },
+      {
+        "url": "https://www.sonymusic.co.jp/artist/usher/profile/",
+        "publisher": "Sony Music Japan"
+      }
+    ]
+  },
+  "friedrich-nietzsche": {
+    "wikidataId": "Q9358",
+    "birthDate": "1844-10-15",
+    "countryCode": "DE",
+    "countryName": "Đức",
+    "category": "history",
+    "occupation": "Triết gia",
+    "dobSources": [
+      {
+        "url": "https://plato.stanford.edu/archives/win2000/entries/nietzsche/",
+        "publisher": "Stanford Encyclopedia of Philosophy"
+      },
+      {
+        "url": "https://iep.utm.edu/nietzsch/",
+        "publisher": "Internet Encyclopedia of Philosophy"
+      }
+    ]
+  },
+  "a-p-j-abdul-kalam": {
+    "wikidataId": "Q9513",
+    "birthDate": "1931-10-15",
+    "countryCode": "IN",
+    "countryName": "Ấn Độ",
+    "category": "scientist",
+    "occupation": "Nhà khoa học",
+    "dobSources": [
+      {
+        "url": "https://www.presidentofindia.gov.in/dr-apj-abdul-kalam-profile",
+        "publisher": "President of India"
+      },
+      {
+        "url": "https://ncert.nic.in/desm/pdf/Rashtriya_Avishkar_Saptah_eng.pdf",
+        "publisher": "National Council of Educational Research and Training"
+      }
+    ]
+  },
+  "italo-calvino": {
+    "wikidataId": "Q154756",
+    "birthDate": "1923-10-15",
+    "countryCode": "IT",
+    "countryName": "Ý",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb11894897x",
+        "publisher": "Bibliothèque nationale de France"
+      },
+      {
+        "url": "https://www.treccani.it/enciclopedia/italo-calvino_%28Dizionario-Biografico%29/",
+        "publisher": "Treccani"
+      }
+    ]
+  },
+  "oscar-wilde": {
+    "wikidataId": "Q30875",
+    "birthDate": "1854-10-16",
+    "countryCode": "IE",
+    "countryName": "Ireland",
+    "category": "literature",
+    "occupation": "Nhà thơ",
+    "dobSources": [
+      {
+        "url": "https://www.dib.ie/biography/wilde-oscar-fingal-oflahertie-a9036",
+        "publisher": "Dictionary of Irish Biography"
+      },
+      {
+        "url": "https://www.biography.com/authors-writers/oscar-wilde",
+        "publisher": "Biography.com"
+      }
+    ]
+  },
+  "gunter-grass": {
+    "wikidataId": "Q6538",
+    "birthDate": "1927-10-16",
+    "countryCode": "DE",
+    "countryName": "Đức",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://www.hdg.de/lemo/biografie/guenter-grass.html",
+        "publisher": "hdg.de"
+      },
+      {
+        "url": "https://thebookerprizes.com/the-booker-library/authors/gunter-grass",
+        "publisher": "thebookerprizes.com"
+      }
+    ]
+  },
+  "phan-thi-ha-thanh": {
+    "wikidataId": "Q2425498",
+    "birthDate": "1991-10-16",
+    "countryCode": "VN",
+    "countryName": "Việt Nam",
+    "category": "athlete",
+    "occupation": "Vận động viên thể dục dụng cụ",
+    "dobSources": [
+      {
+        "url": "https://www.lequipe.fr/fiche/thi-ha-thanh-phan/94715",
+        "publisher": "L’Équipe",
+        "publisherCountry": "FR",
+        "countryProofUrl": "https://www.lequipe.fr/mentions-legales"
+      },
+      {
+        "url": "https://www.ocagames.com/OCA/cache/17ag/GA/par.GA.VIE.5108185.html",
+        "publisher": "OCA",
+        "publisherCountry": "KW",
+        "countryProofUrl": "https://oca.asia/council/oca-headquarters/"
+      }
+    ]
+  },
+  "eminem": {
+    "wikidataId": "Q5608",
+    "birthDate": "1972-10-17",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "music",
+    "occupation": "Rapper",
+    "dobSources": [
+      {
+        "url": "https://www.universal-music.co.jp/eminem/biography/",
+        "publisher": "Universal Music Japan"
+      },
+      {
+        "url": "https://www.eminem.net/biography/",
+        "publisher": "eminem.net"
+      }
+    ]
+  },
+  "arthur-miller": {
+    "wikidataId": "Q80596",
+    "birthDate": "1915-10-17",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "literature",
+    "occupation": "Nhà viết kịch",
+    "dobSources": [
+      {
+        "url": "https://www.chipublib.org/arthur-miller-biography/",
+        "publisher": "Chicago Public Library"
+      },
+      {
+        "url": "https://archives.nypl.org/brg/31015",
+        "publisher": "New York Public Library"
+      }
+    ]
+  },
+  "kimi-raikkonen": {
+    "wikidataId": "Q11192",
+    "birthDate": "1979-10-17",
+    "countryCode": "FI",
+    "countryName": "Phần Lan",
+    "category": "athlete",
+    "occupation": "Tay đua ô tô",
+    "dobSources": [
+      {
+        "url": "https://www.formula1.com/en/information/drivers-hall-of-fame-kimi-raikkonen.4Ykdt9U76gWO40cNbjaMXf",
+        "publisher": "Formula 1"
+      },
+      {
+        "url": "https://www.fia.com/file/61780/download",
+        "publisher": "Fédération Internationale de l’Automobile"
+      }
+    ]
+  },
+  "henri-bergson": {
+    "wikidataId": "Q42156",
+    "birthDate": "1859-10-18",
+    "countryCode": "FR",
+    "countryName": "Pháp",
+    "category": "history",
+    "occupation": "Triết gia",
+    "dobSources": [
+      {
+        "url": "https://www.academie-francaise.fr/les-immortels/henri-bergson?election=12-02-1914&fauteuil=7",
+        "publisher": "Académie française"
+      },
+      {
+        "url": "https://plato.stanford.edu/entries/bergson/",
+        "publisher": "Stanford Encyclopedia of Philosophy"
+      }
+    ]
+  },
+  "chuck-berry": {
+    "wikidataId": "Q5921",
+    "birthDate": "1926-10-18",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "music",
+    "occupation": "Nhạc sĩ",
+    "dobSources": [
+      {
+        "url": "https://www.chuckberry.com/about",
+        "publisher": "Chuck Berry official site"
+      },
+      {
+        "url": "https://www.biography.com/musicians/chuck-berry",
+        "publisher": "Biography.com"
+      }
+    ]
+  },
+  "martina-navratilova": {
+    "wikidataId": "Q54545",
+    "birthDate": "1956-10-18",
+    "countryCode": "CZ",
+    "countryName": "Séc",
+    "category": "athlete",
+    "occupation": "Vận động viên quần vợt",
+    "dobSources": [
+      {
+        "url": "https://www.wtatennis.com/legends/140007/Martina_Navratilova",
+        "publisher": "WTA"
+      },
+      {
+        "url": "https://www.martinanavratilova.com/biography",
+        "publisher": "Martina Navratilova official site"
+      }
+    ]
+  },
+  "subrahmanyan-chandrasekhar": {
+    "wikidataId": "Q148109",
+    "birthDate": "1910-10-19",
+    "countryCode": "IN",
+    "countryName": "Ấn Độ",
+    "category": "scientist",
+    "occupation": "Nhà vật lý thiên văn",
+    "dobSources": [
+      {
+        "url": "https://www.nobelprize.org/laureate/122",
+        "publisher": "Nobel Prize Outreach"
+      },
+      {
+        "url": "https://makingscience.royalsociety.org/people/na3455/subrahmanyan-chandrasekhar",
+        "publisher": "makingscience.royalsociety.org"
+      }
+    ]
+  },
+  "john-le-carre": {
+    "wikidataId": "Q209641",
+    "birthDate": "1931-10-19",
+    "countryCode": "GB",
+    "countryName": "Vương quốc Anh",
+    "category": "literature",
+    "occupation": "Tiểu thuyết gia",
+    "dobSources": [
+      {
+        "url": "https://johnlecarre.com/biography/",
+        "publisher": "John le Carré official site"
+      },
+      {
+        "url": "https://www.theguardian.com/books/2020/dec/14/john-le-carre-obituary",
+        "publisher": "The Guardian"
+      }
+    ]
+  },
+  "philip-pullman": {
+    "wikidataId": "Q190220",
+    "birthDate": "1946-10-19",
+    "countryCode": "GB",
+    "countryName": "Vương quốc Anh",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://sf-encyclopedia.com/entry/pullman_philip",
+        "publisher": "Science Fiction Encyclopedia"
+      },
+      {
+        "url": "https://www.encyclopedia.com/people/social-sciences-and-law/political-science-biographies/philip-pullman",
+        "publisher": "Encyclopedia.com"
+      }
+    ]
+  },
+  "snoop-dogg": {
+    "wikidataId": "Q6096",
+    "birthDate": "1971-10-20",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "music",
+    "occupation": "Rapper",
+    "dobSources": [
+      {
+        "url": "https://www.biography.com/musicians/snoop-dogg",
+        "publisher": "Biography.com"
+      },
+      {
+        "url": "https://universalmusic.fr/artistes/20000214636",
+        "publisher": "Universal Music France"
+      }
+    ]
+  },
+  "arthur-rimbaud": {
+    "wikidataId": "Q493",
+    "birthDate": "1854-10-20",
+    "countryCode": "FR",
+    "countryName": "Pháp",
+    "category": "literature",
+    "occupation": "Nhà thơ",
+    "dobSources": [
+      {
+        "url": "https://www.poetryfoundation.org/poets/arthur-rimbaud",
+        "publisher": "Poetry Foundation"
+      },
+      {
+        "url": "https://snl.no/Arthur_Rimbaud",
+        "publisher": "Store norske leksikon"
+      }
+    ]
+  },
+  "nguyen-tien-linh": {
+    "wikidataId": "Q27899182",
+    "birthDate": "1997-10-20",
+    "countryCode": "VN",
+    "countryName": "Việt Nam",
+    "category": "athlete",
+    "occupation": "Cầu thủ bóng đá",
+    "dobSources": [
+      {
+        "url": "https://www.transfermarkt.com/tien-linh-nguyen/marktwertverlauf/spieler/432433",
+        "publisher": "Transfermarkt",
+        "publisherCountry": "DE",
+        "countryProofUrl": "https://www.transfermarkt.us/intern/impressum"
+      },
+      {
+        "url": "https://assets.the-afc.com/migration/a/f/afc-champions-league-2016-preliminary-registration-squad-list-29510",
+        "publisher": "AFC",
+        "publisherCountry": "MY",
+        "countryProofUrl": "https://www.the-afc.com/en/more/privacy_policy.html"
+      }
+    ]
+  },
+  "alfred-nobel": {
+    "wikidataId": "Q23810",
+    "birthDate": "1833-10-21",
+    "countryCode": "SE",
+    "countryName": "Thụy Điển",
+    "category": "scientist",
+    "occupation": "Nhà hóa học",
+    "dobSources": [
+      {
+        "url": "https://www.nobelprize.org/alfred-nobel/",
+        "publisher": "Nobel Prize Outreach"
+      },
+      {
+        "url": "https://www.nobelpeaceprize.org/nobel-peace-prize/history/alfred-nobel",
+        "publisher": "Nobel Peace Center"
+      }
+    ]
+  },
+  "ursula-k-le-guin": {
+    "wikidataId": "Q181659",
+    "birthDate": "1929-10-21",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "literature",
+    "occupation": "Tiểu thuyết gia",
+    "dobSources": [
+      {
+        "url": "https://poets.org/poet/ursula-k-le-guin",
+        "publisher": "Academy of American Poets"
+      },
+      {
+        "url": "https://www.biography.com/writer/ursula-k-le-guin",
+        "publisher": "Biography.com"
+      }
+    ]
+  },
+  "carrie-fisher": {
+    "wikidataId": "Q108941",
+    "birthDate": "1956-10-21",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://www.biography.com/actors/carrie-fisher",
+        "publisher": "Biography.com"
+      },
+      {
+        "url": "https://www.televisionacademy.com/bios/carrie-fisher",
+        "publisher": "Television Academy"
+      }
+    ]
+  },
+  "doris-lessing": {
+    "wikidataId": "Q40874",
+    "birthDate": "1919-10-22",
+    "countryCode": "GB",
+    "countryName": "Vương quốc Anh",
+    "category": "literature",
+    "occupation": "Nhà văn",
+    "dobSources": [
+      {
+        "url": "https://thepresidency.gov.za/sites/default/files/2022-07/National%20Orders%20Booklet%202008_0.pdf",
+        "publisher": "The Presidency of South Africa"
+      },
+      {
+        "url": "https://www.nobelprize.org/prizes/literature/2007/lessing/facts/",
+        "publisher": "Nobel Prize Outreach"
+      }
+    ]
+  },
+  "franz-liszt": {
+    "wikidataId": "Q41309",
+    "birthDate": "1811-10-22",
+    "countryCode": "HU",
+    "countryName": "Hungary",
+    "category": "music",
+    "occupation": "Nghệ sĩ dương cầm",
+    "dobSources": [
+      {
+        "url": "https://www.loc.gov/item/n79079048/franz-liszt/",
+        "publisher": "loc.gov"
+      },
+      {
+        "url": "https://www.liszt.nl/en/franz-liszt",
+        "publisher": "Franz Liszt Society"
+      }
+    ]
+  },
+  "catherine-deneuve": {
+    "wikidataId": "Q106418",
+    "birthDate": "1943-10-22",
+    "countryCode": "FR",
+    "countryName": "Pháp",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://universalmusic.fr/artistes/20000069202",
+        "publisher": "Universal Music France"
+      },
+      {
+        "url": "https://www.ina.fr/actualites-ina/album-photo-catherine-deneuve-cinema-anniversaire",
+        "publisher": "Institut national de l’audiovisuel"
+      }
+    ]
+  },
+  "pele": {
+    "wikidataId": "Q12897",
+    "birthDate": "1940-10-23",
+    "countryCode": "BR",
+    "countryName": "Brasil",
+    "category": "athlete",
+    "occupation": "Cầu thủ bóng đá",
+    "dobSources": [
+      {
+        "url": "https://www.cbf.com.br/selecao-brasileira/noticias/selecao-masculina/campo-de-manha-academia-a-tarde/eterno-pele-completaria-85-anos-nesta-quin-ta-feira",
+        "publisher": "cbf.com.br"
+      },
+      {
+        "url": "https://www.santosfc.com.br/a-origem-do-apelido-pele/",
+        "publisher": "santosfc.com.br"
+      }
+    ]
+  },
+  "ryan-reynolds": {
+    "wikidataId": "Q192682",
+    "birthDate": "1976-10-23",
+    "countryCode": "CA",
+    "countryName": "Canada",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://www.canadaswalkoffame.com/inductees/ryan-reynolds/",
+        "publisher": "Canada’s Walk of Fame"
+      },
+      {
+        "url": "https://www.biography.com/actors/ryan-reynolds",
+        "publisher": "Biography.com"
+      }
+    ]
+  },
+  "ang-lee": {
+    "wikidataId": "Q160726",
+    "birthDate": "1954-10-23",
+    "countryCode": "TW",
+    "countryName": "Đài Loan",
+    "category": "artist",
+    "occupation": "Đạo diễn phim",
+    "dobSources": [
+      {
+        "url": "https://www.biography.com/filmmaker/ang-lee",
+        "publisher": "Biography.com"
+      },
+      {
+        "url": "https://www.encyclopedia.com/people/literature-and-arts/film-and-television-biographies/ang-lee",
+        "publisher": "Encyclopedia.com"
+      }
+    ]
+  },
+  "wayne-rooney": {
+    "wikidataId": "Q266613",
+    "birthDate": "1985-10-24",
+    "countryCode": "GB",
+    "countryName": "Vương quốc Anh",
+    "category": "athlete",
+    "occupation": "Cầu thủ bóng đá",
+    "dobSources": [
+      {
+        "url": "https://www.skysports.com/wayne-rooney",
+        "publisher": "Sky Sports"
+      },
+      {
+        "url": "https://www.englandfootball.com/england/mens-senior-team/squad/Legends-profiles/wayne-rooney",
+        "publisher": "England Football"
+      }
+    ]
+  },
+  "malcolm-turnbull": {
+    "wikidataId": "Q927550",
+    "birthDate": "1954-10-24",
+    "countryCode": "AU",
+    "countryName": "Úc",
+    "category": "politics",
+    "occupation": "Chính trị gia",
+    "dobSources": [
+      {
+        "url": "https://www.aph.gov.au/~/media/05%20About%20Parliament/54%20Parliamentary%20Depts/544%20Parliamentary%20Library/Handbook/handbook_45th_parliament.pdf",
+        "publisher": "aph.gov.au"
+      },
+      {
+        "url": "https://primeministers.moadoph.gov.au/prime-ministers/malcolm-turnbull",
+        "publisher": "Museum of Australian Democracy"
+      }
+    ]
+  },
+  "kevin-kline": {
+    "wikidataId": "Q105817",
+    "birthDate": "1947-10-24",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://www.encyclopedia.com/people/literature-and-arts/film-and-television-biographies/kevin-kline",
+        "publisher": "Encyclopedia.com"
+      },
+      {
+        "url": "https://goldenglobes.com/person/kevin-kline/",
+        "publisher": "Golden Globes"
+      }
+    ]
+  },
+  "pablo-picasso": {
+    "wikidataId": "Q5593",
+    "birthDate": "1881-10-25",
+    "countryCode": "ES",
+    "countryName": "Tây Ban Nha",
+    "category": "artist",
+    "occupation": "Họa sĩ",
+    "dobSources": [
+      {
+        "url": "https://web.guggenheim.org/exhibitions/picasso/biography",
+        "publisher": "Solomon R. Guggenheim Museum"
+      },
+      {
+        "url": "https://www.museepicassoparis.fr/en/picasso-biography/timeline/",
+        "publisher": "Musée national Picasso-Paris"
+      }
+    ]
+  },
+  "katy-perry": {
+    "wikidataId": "Q42493",
+    "birthDate": "1984-10-25",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "music",
+    "occupation": "Ca sĩ",
+    "dobSources": [
+      {
+        "url": "https://www.grammy.com/artists/katy-perry/5726/",
+        "publisher": "Recording Academy"
+      },
+      {
+        "url": "https://universalmusic.fr/artistes/30204417319",
+        "publisher": "Universal Music France"
+      }
+    ]
+  },
+  "georges-bizet": {
+    "wikidataId": "Q56158",
+    "birthDate": "1838-10-25",
+    "countryCode": "FR",
+    "countryName": "Pháp",
+    "category": "music",
+    "occupation": "Nhà soạn nhạc",
+    "dobSources": [
+      {
+        "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html",
+        "publisher": "Washington University in St. Louis"
+      },
+      {
+        "url": "https://www.operadeparis.fr/artistes/georges-bizet",
+        "publisher": "Opéra national de Paris"
+      }
+    ]
+  },
+  "hillary-clinton": {
+    "wikidataId": "Q6294",
+    "birthDate": "1947-10-26",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "politics",
+    "occupation": "Chính trị gia",
+    "dobSources": [
+      {
+        "url": "https://history.state.gov/departmenthistory/people/clinton-hillary-rodham",
+        "publisher": "history.state.gov"
+      },
+      {
+        "url": "https://www.pbs.org/wgbh/americanexperience/features/clinton-hillary-rodham-clinton-biography/",
+        "publisher": "pbs.org"
+      }
+    ]
+  },
+  "francois-mitterrand": {
+    "wikidataId": "Q2038",
+    "birthDate": "1916-10-26",
+    "countryCode": "FR",
+    "countryName": "Pháp",
+    "category": "politics",
+    "occupation": "Chính trị gia",
+    "dobSources": [
+      {
+        "url": "https://www.elysee.fr/francois-mitterrand",
+        "publisher": "Élysée"
+      },
+      {
+        "url": "https://www.assemblee-nationale.fr/gouv_parl/fiches_personnalites/Mitterrand.asp",
+        "publisher": "Assemblée nationale"
+      }
+    ]
+  },
+  "seth-macfarlane": {
+    "wikidataId": "Q188492",
+    "birthDate": "1973-10-26",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "artist",
+    "occupation": "Nhà biên kịch",
+    "dobSources": [
+      {
+        "url": "https://www.biography.com/movies-tv/seth-macfarlane",
+        "publisher": "Biography.com"
+      },
+      {
+        "url": "https://www.encyclopedia.com/education/news-wires-white-papers-and-books/macfarlane-seth-1973",
+        "publisher": "Encyclopedia.com"
+      }
+    ]
+  },
+  "theodore-roosevelt": {
+    "wikidataId": "Q33866",
+    "birthDate": "1858-10-27",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "politics",
+    "occupation": "Chính trị gia",
+    "dobSources": [
+      {
+        "url": "https://www.nps.gov/people/life-of-theodore-roosevelt.htm",
+        "publisher": "National Park Service"
+      },
+      {
+        "url": "https://www.si.edu/object/roosevelt-theodore-1858-1919:auth_per_fbr_EACP15",
+        "publisher": "si.edu"
+      }
+    ]
+  },
+  "sylvia-plath": {
+    "wikidataId": "Q133054",
+    "birthDate": "1932-10-27",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "literature",
+    "occupation": "Nhà thơ",
+    "dobSources": [
+      {
+        "url": "https://poets.org/poet/sylvia-plath",
+        "publisher": "Academy of American Poets"
+      },
+      {
+        "url": "https://www.history.com/this-day-in-history/October-27/sylvia-plath-is-born",
+        "publisher": "history.com"
+      }
+    ]
+  },
+  "john-cleese": {
+    "wikidataId": "Q25014",
+    "birthDate": "1939-10-27",
+    "countryCode": "GB",
+    "countryName": "Vương quốc Anh",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://calperformances.org/learn/program_notes/2005/pn_Cleese.pdf",
+        "publisher": "calperformances.org"
+      },
+      {
+        "url": "https://www.tvencyclopedia.org/tv-encyclopedia-3/cleese-john",
+        "publisher": "TV Encyclopedia"
+      }
+    ]
+  },
+  "bill-gates": {
+    "wikidataId": "Q5284",
+    "birthDate": "1955-10-28",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "entrepreneur",
+    "occupation": "Doanh nhân",
+    "dobSources": [
+      {
+        "url": "https://www.biography.com/business-leaders/bill-gates",
+        "publisher": "Biography.com"
+      },
+      {
+        "url": "https://www.computerhistory.org/tdih/october/28/",
+        "publisher": "Computer History Museum"
+      }
+    ]
+  },
+  "jonas-salk": {
+    "wikidataId": "Q200101",
+    "birthDate": "1914-10-28",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "scientist",
+    "occupation": "Nhà nghiên cứu virus",
+    "dobSources": [
+      {
+        "url": "https://www.salk.edu/about/history-of-salk/jonas-salk/",
+        "publisher": "Salk Institute"
+      },
+      {
+        "url": "https://www.jonassalk.org/docs/BioSketch.html",
+        "publisher": "Jonas Salk Legacy Foundation"
+      }
+    ]
+  },
+  "julia-roberts": {
+    "wikidataId": "Q40523",
+    "birthDate": "1967-10-28",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://www.biography.com/actors/julia-roberts",
+        "publisher": "Biography.com"
+      },
+      {
+        "url": "https://www.encyclopedia.com/people/literature-and-arts/film-and-television-biographies/julia-roberts",
+        "publisher": "Encyclopedia.com"
+      }
+    ]
+  },
+  "ellen-johnson-sirleaf": {
+    "wikidataId": "Q43179",
+    "birthDate": "1938-10-29",
+    "countryCode": "LR",
+    "countryName": "Liberia",
+    "category": "politics",
+    "occupation": "Chính trị gia",
+    "dobSources": [
+      {
+        "url": "https://www.nobelprize.org/prizes/peace/2011/johnson_sirleaf/facts/",
+        "publisher": "Nobel Prize Outreach"
+      },
+      {
+        "url": "https://mo.ibrahim.foundation/prize/laureates/ellen-johnson-sirleaf",
+        "publisher": "Mo Ibrahim Foundation"
+      }
+    ]
+  },
+  "winona-ryder": {
+    "wikidataId": "Q101797",
+    "birthDate": "1971-10-29",
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "category": "actor",
+    "occupation": "Diễn viên",
+    "dobSources": [
+      {
+        "url": "https://www.biography.com/actors/winona-ryder",
+        "publisher": "Biography.com"
+      },
+      {
+        "url": "https://www.encyclopedia.com/people/literature-and-arts/film-and-television-biographies/winona-ryder",
+        "publisher": "Encyclopedia.com"
+      }
+    ]
+  },
+  "edwin-van-der-sar": {
+    "wikidataId": "Q482955",
+    "birthDate": "1970-10-29",
+    "countryCode": "NL",
+    "countryName": "Hà Lan",
+    "category": "athlete",
+    "occupation": "Thủ môn bóng đá",
+    "dobSources": [
+      {
+        "url": "https://www.premierleague.com/en/players/4058/edwin-van-der-sar/overview",
+        "publisher": "Premier League"
+      },
+      {
+        "url": "https://www.onsoranje.nl/toernooien/414/selectie/185184/speler/8558",
+        "publisher": "Royal Netherlands Football Association"
+      }
+    ]
+  },
+  "diego-maradona": {
+    "wikidataId": "Q17515",
+    "birthDate": "1960-10-30",
+    "countryCode": "AR",
+    "countryName": "Argentina",
+    "category": "athlete",
+    "occupation": "Cầu thủ bóng đá",
+    "dobSources": [
+      {
+        "url": "https://www.biography.com/athletes/diego-maradona",
+        "publisher": "Biography.com"
+      },
+      {
+        "url": "https://players.fcbarcelona.com/en/player/501-maradona-diego-armando-maradona-franco",
+        "publisher": "FC Barcelona"
+      }
+    ]
+  },
+  "paul-valery": {
+    "wikidataId": "Q200639",
+    "birthDate": "1871-10-30",
+    "countryCode": "FR",
+    "countryName": "Pháp",
+    "category": "literature",
+    "occupation": "Nhà thơ",
+    "dobSources": [
+      {
+        "url": "https://www.academie-francaise.fr/les-immortels/paul-valery",
+        "publisher": "Académie française"
+      },
+      {
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb119274707",
+        "publisher": "Bibliothèque nationale de France"
+      }
+    ]
+  },
+  "zoran-milanovic": {
+    "wikidataId": "Q57687",
+    "birthDate": "1966-10-30",
+    "countryCode": "HR",
+    "countryName": "Croatia",
+    "category": "politics",
+    "occupation": "Chính trị gia",
+    "dobSources": [
+      {
+        "url": "https://www.predsjednik.hr/en/president/",
+        "publisher": "Office of the President of Croatia"
+      },
+      {
+        "url": "https://www.enciklopedija.hr/clanak/milanovic-zoran/",
+        "publisher": "Croatian Encyclopedia"
+      }
+    ]
+  },
+  "peter-jackson": {
+    "wikidataId": "Q4465",
+    "birthDate": "1961-10-31",
+    "countryCode": "NZ",
+    "countryName": "New Zealand",
+    "category": "artist",
+    "occupation": "Đạo diễn phim",
+    "dobSources": [
+      {
+        "url": "https://www.biography.com/movies-tv/peter-jackson",
+        "publisher": "Biography.com"
+      },
+      {
+        "url": "https://www.ebsco.com/research-starters/biography/peter-jackson",
+        "publisher": "EBSCO"
+      }
+    ]
+  },
+  "marcus-rashford": {
+    "wikidataId": "Q22951255",
+    "birthDate": "1997-10-31",
+    "countryCode": "GB",
+    "countryName": "Vương quốc Anh",
+    "category": "athlete",
+    "occupation": "Cầu thủ bóng đá",
+    "dobSources": [
+      {
+        "url": "https://www.manutd.com/en/teams/mens-team/marcus-rashford",
+        "publisher": "Manchester United"
+      },
+      {
+        "url": "https://www.uefa.com/uefachampionsleague/clubs/players/250088246--marcus-rashford/",
+        "publisher": "uefa.com"
+      }
+    ]
+  },
+  "zaha-hadid": {
+    "wikidataId": "Q47780",
+    "birthDate": "1950-10-31",
+    "countryCode": "IQ",
+    "countryName": "Iraq",
+    "category": "artist",
+    "occupation": "Kiến trúc sư",
+    "dobSources": [
+      {
+        "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/22231C3B20D5E38E63CD579577FC7F21/S1359135516000348a.pdf/zaha-hadid-1950-2016.pdf",
+        "publisher": "Cambridge University Press"
+      },
+      {
+        "url": "https://sammlung.mak.at/en/artist/hadid-zaha_194",
+        "publisher": "MAK Collection Online"
+      }
+    ]
+  }
+};
+const B014_APPROVED_IDS = new Set(Object.keys(B014_APPROVED_PROFILES));
+const B014_APPROVED_QIDS = new Set(Object.values(B014_APPROVED_PROFILES).map((profile) => profile.wikidataId));
+const B014_NEW_PEOPLE = ALL_PEOPLE.filter((p) => B014_NEW_IDS.has(p.id));
+assert('Rule AI', B014_NEW_IDS.size === 93 && B014_APPROVED_IDS.size === 93, 'B014 must lock exactly 93 unique profile IDs');
+assert('Rule AI', B014_APPROVED_IDS.size === B014_NEW_IDS.size && [...B014_NEW_IDS].every((id) => B014_APPROVED_IDS.has(id)), 'B014 exact ID allowlist must match the October projection');
+assert('Rule AI', B014_NEW_PEOPLE.length === 93 && B014_NEW_PEOPLE.length === B014_APPROVED_IDS.size, `B014 requires exactly 93 approved October profiles, found ${B014_NEW_PEOPLE.length}`);
+assert('Rule AI', B014_APPROVED_QIDS.size === 93 && new Set(B014_NEW_PEOPLE.map((p) => p.wikidataId)).size === 93, 'B014 QIDs must be exact and unique');
+assert('Rule AI', B014_NEW_PEOPLE.every((p) => B014_APPROVED_IDS.has(p.id)), 'B014 additions must match only the approved profile IDs');
+assert('Rule AI', !ALL_PEOPLE.some((p) => !B014_NEW_IDS.has(p.id) && p.wikidataId && B014_APPROVED_QIDS.has(p.wikidataId)), 'B014 QIDs must not duplicate an earlier profile');
+
+function isApprovedB014DobSource(qid: string, url: string): boolean {
+  return Object.values(B014_APPROVED_PROFILES).some((profile) => profile.wikidataId === qid && profile.dobSources.some((source) => source.url === url));
+}
+
+const b014EvidenceProfiles = B014_EVIDENCE.profiles as readonly {
+  id: string; wikidataId: string; birthDate: string; countryCode: string; countryName: string; category: string; occupation: string;
+  dobSources: readonly B014DobSource[];
+  identityEvidence: {
+    wikidataLabel: string; description: string | null; candidateCountryCodes: readonly string[]; candidateCountryNames: readonly string[];
+    candidateOccupationTerms: readonly string[]; selectedCountryCode: string; selectedOccupation: string;
+    countryEvidenceSourceUrls: readonly string[]; categoryRationale: string;
+  };
+}[];
+const b014EvidenceProfilesById = new Map(b014EvidenceProfiles.map((profile) => [profile.id, profile]));
+assert('Rule AI evidence', B014_EVIDENCE.schemaVersion === 1 && B014_EVIDENCE.cycle === 'BV-015 / B014', 'B014 evidence file must identify its schema and cycle');
+assert('Rule AI evidence', B014_EVIDENCE.scope.month === 10 && B014_EVIDENCE.scope.profileCount === 93 && B014_EVIDENCE.scope.profilesPerDay === 3, 'B014 evidence must declare the approved October scope');
+assert('Rule AI evidence', b014EvidenceProfiles.length === 93 && b014EvidenceProfilesById.size === 93, 'B014 evidence must include 93 unique reviewed profiles');
+
+const B014_COUNTRY_PROOF_URLS: Readonly<Record<string, string>> = {
+  'Transfermarkt': 'https://www.transfermarkt.us/intern/impressum',
+  'Sofascore': 'https://corporate.sofascore.com/legal-information',
+  'ISSF': 'https://www.issf-sports.org/contact',
+  'OCA': 'https://oca.asia/council/oca-headquarters/',
+  'Plum Village': 'https://plumvillage.org/terms-and-conditions',
+  'EBSCO': 'https://about.ebsco.com/offices',
+  'L’Équipe': 'https://www.lequipe.fr/mentions-legales',
+  'AFC': 'https://www.the-afc.com/en/more/privacy_policy.html',
+};
+
+const b014SourceCaptures = B014_EVIDENCE.sourceCaptures as unknown as Record<string, {
+  profileId: string; wikidataId: string; expectedBirthDate: string; publisher: string; publisherCountry?: string | null;
+  countryProofUrl?: string | null; verificationMethod: string; fullDobAndIdentityReviewed: boolean; browserExcerpt?: string | null;
+  capture?: { status?: number | null; sha256?: string | null; exactDate?: boolean } | null;
+  localAttempts: readonly unknown[];
+}>;
+for (const p of B014_NEW_PEOPLE) {
+  const expected = B014_APPROVED_PROFILES[p.id];
+  const evidence = b014EvidenceProfilesById.get(p.id);
+  assert('Rule AI', Boolean(expected), `Unapproved B014 profile ID: ${p.id}`);
+  assert('Rule AI evidence', Boolean(evidence), `B014 evidence is missing profile ${p.id}`);
+  assert('Rule AI', p.wikidataId === expected.wikidataId, `B014 ${p.id} expected ${expected.wikidataId}, got ${p.wikidataId}`);
+  assert('Rule AI', p.birthDate === expected.birthDate && /^\d{4}-10-\d{2}$/.test(p.birthDate), `B014 ${p.id} expected exact October DOB ${expected.birthDate}, got ${p.birthDate}`);
+  assert('Rule AI', p.birthMonth === 10 && p.birthYear === Number(p.birthDate.slice(0, 4)) && p.birthDay === Number(p.birthDate.slice(8, 10)), `B014 ${p.id} split date fields must match birthDate`);
+  assert('Rule AI', p.countryCode === expected.countryCode && p.countryName === expected.countryName && p.category === expected.category, `B014 ${p.id} country/category must match the reviewed mapping`);
+  assert('Rule AI', p.occupation?.length === 1 && p.occupation[0] === expected.occupation, `B014 ${p.id} occupation must match the reviewed mapping`);
+  assert('Rule AI', p.verifiedAt === '2026-10-07', `B014 ${p.id} requires the B014 review date`);
+  assert('Rule AI', p.sourceUrls?.includes(`https://www.wikidata.org/wiki/${expected.wikidataId}`) === true, `B014 ${p.id} requires its exact Wikidata URL`);
+  assert('Rule AI source', expected.dobSources.length === 2, `B014 ${p.id} must have exactly two reviewed DOB publishers`);
+  assert('Rule AI source', new Set(expected.dobSources.map((source) => source.publisher)).size === 2, `B014 ${p.id} publishers must be distinct`);
+  assert('Rule AI source', new Set(expected.dobSources.map((source) => getUrlHostname(source.url))).size === 2, `B014 ${p.id} DOB source hosts must be distinct`);
+  const nonWikiUrls = (p.sourceUrls || []).filter((url) => {
+    const host = getUrlHostname(url);
+    return host && !host.endsWith('wikipedia.org') && !host.endsWith('wikidata.org') && !host.endsWith('wikimedia.org');
+  });
+  const approvedUrls = expected.dobSources.map((source) => source.url);
+  assert('Rule AI source', nonWikiUrls.length === 2 && approvedUrls.every((url) => nonWikiUrls.includes(url)), `B014 ${p.id} must include exactly its two reviewed non-Wikidata DOB sources`);
+  assert('Rule AI evidence', evidence?.wikidataId === expected.wikidataId && evidence.birthDate === expected.birthDate && evidence.countryCode === expected.countryCode && evidence.countryName === expected.countryName && evidence.category === expected.category && evidence.occupation === expected.occupation, `B014 evidence identity mapping must match the allowlist for ${p.id}`);
+  assert('Rule AI evidence', JSON.stringify(evidence?.dobSources) === JSON.stringify(expected.dobSources), `B014 source evidence must match the exact pair for ${p.id}`);
+  assert('Rule AI evidence', evidence?.identityEvidence.selectedCountryCode === expected.countryCode && evidence.identityEvidence.selectedOccupation === expected.occupation && evidence.identityEvidence.candidateOccupationTerms.length > 0 && Boolean(evidence.identityEvidence.wikidataLabel) && Boolean(evidence.identityEvidence.categoryRationale), `B014 ${p.id} requires a Wikidata identity/occupation snapshot and reviewed mapping`);
+  assert('Rule AI evidence', evidence?.identityEvidence.countryEvidenceSourceUrls.length === 2 && approvedUrls.every((url) => evidence.identityEvidence.countryEvidenceSourceUrls.includes(url)), `B014 ${p.id} country mapping must retain the reviewed identity-source pair`);
+  for (const source of expected.dobSources) {
+    assert('Rule AI source positive', isApprovedB014DobSource(expected.wikidataId, source.url), `B014 reviewed source must pass for ${p.id}: ${source.url}`);
+    assert('Rule AI source profile', (p.sourceUrls || []).includes(source.url), `B014 ${p.id} must include reviewed source ${source.url}`);
+    assert('Rule AI source URL', Boolean(getUrlHostname(source.url)), `B014 source must use a valid URL: ${source.url}`);
+    const capture = b014SourceCaptures[source.url];
+    assert('Rule AI evidence', Boolean(capture) && capture.profileId === p.id && capture.wikidataId === expected.wikidataId && capture.expectedBirthDate === expected.birthDate && capture.publisher === source.publisher && capture.fullDobAndIdentityReviewed === true, `B014 source evidence must bind the exact profile, DOB, and publisher: ${source.url}`);
+    assert('Rule AI evidence', capture?.verificationMethod === 'direct-http' || (capture?.verificationMethod === 'browser-direct' && Boolean(capture.browserExcerpt)), `B014 source requires direct page evidence: ${source.url}`);
+    if (capture?.verificationMethod === 'direct-http') {
+      assert('Rule AI evidence', capture.capture?.status === 200 && Boolean(capture.capture.sha256) && capture.capture.exactDate === true, `B014 local source capture needs HTTP 200, a body hash, and exact DOB match: ${source.url}`);
+    }
+    assert('Rule AI source negative', !isApprovedB014DobSource('Q0', source.url), `B014 source must not approve another QID: ${source.url}`);
+    assert('Rule AI source negative', !isApprovedB014DobSource(expected.wikidataId, `${source.url}#unreviewed`), `B014 source must reject an unreviewed fragment: ${source.url}`);
+    const queryVariant = new URL(source.url); queryVariant.searchParams.set('unreviewed', '1');
+    assert('Rule AI source negative', !isApprovedB014DobSource(expected.wikidataId, queryVariant.href), `B014 source must reject an unreviewed query: ${source.url}`);
+    const pathVariant = new URL(source.url); pathVariant.pathname = `${pathVariant.pathname.replace(/\/$/, '')}/unreviewed`;
+    assert('Rule AI source negative', !isApprovedB014DobSource(expected.wikidataId, pathVariant.href), `B014 source must reject an unreviewed path: ${source.url}`);
+    const lookalike = new URL(source.url); lookalike.hostname += '.evil.example';
+    assert('Rule AI source negative', !isApprovedB014DobSource(expected.wikidataId, lookalike.href), `B014 lookalike source host must fail: ${source.url}`);
+    assert('Rule AI source negative', !isApprovedB014DobSource(expected.wikidataId, 'not-a-url'), 'B014 source must reject a malformed URL');
+    if (p.countryCode === 'VN') {
+      assert('Rule AI Vietnamese', Boolean(source.publisherCountry && source.publisherCountry !== 'VN' && source.countryProofUrl === B014_COUNTRY_PROOF_URLS[source.publisher]), `B014 Vietnamese ${p.id} needs foreign-publisher country proof: ${source.publisher}`);
+      assert('Rule AI Vietnamese', capture.publisherCountry === source.publisherCountry && capture.countryProofUrl === source.countryProofUrl, `B014 ${p.id} source capture must preserve publisher-country proof`);
+    }
+  }
+}
+
+const b014Vietnamese = B014_NEW_PEOPLE.filter((p) => p.countryCode === 'VN');
+assert('Rule AI balance', b014Vietnamese.length === 5, `B014 Vietnamese count must be 5, found ${b014Vietnamese.length}`);
+assert('Rule AI balance', b014Vietnamese.length / B014_NEW_PEOPLE.length >= 0.05, `B014 Vietnamese share must be at least 5%; found ${b014Vietnamese.length}/${B014_NEW_PEOPLE.length}`);
+assert('Rule AI balance', new Set(b014Vietnamese.map((p) => p.wikidataId)).size === 5, 'B014 Vietnamese QIDs must be unique');
+
+const B014_CATEGORY_LABELS: Readonly<Record<string, string>> = { scientist: 'Khoa học', artist: 'Nghệ thuật', actor: 'Điện ảnh', athlete: 'Thể thao', history: 'Lịch sử', literature: 'Văn học', music: 'Âm nhạc', politics: 'Chính trị', entrepreneur: 'Doanh nhân' };
+for (const p of B014_NEW_PEOPLE) {
+  const expected = B014_APPROVED_PROFILES[p.id];
+  assert('Rule AI category', p.categoryLabel === B014_CATEGORY_LABELS[expected.category], `B014 ${p.id} category label must match its category`);
+}
+for (let day = 1; day <= 31; day++) {
+  const additions = B014_NEW_PEOPLE.filter((p) => p.birthDay === day);
+  const total = ALL_PEOPLE.filter((p) => p.birthMonth === 10 && p.birthDay === day);
+  assert('Rule AI coverage', additions.length === 3, `B014 October ${day} must have exactly 3 additions, found ${additions.length}`);
+  assert('Rule AI coverage', total.length === 3 && total.length <= 8, `B014 October ${day} must have 3 additions and no more than 8 total people, found ${total.length}`);
+}
+
+const b014EntityAudit = B014_EVIDENCE.wikidataAudit.entities as unknown as Record<string, {
+  label: string | null;
+  p31: readonly { rank: string; value: string; references: number; qualifiers: readonly unknown[] }[];
+  p569: readonly { rank: string; value: { time: string; precision: number; calendar: string; before: number; after: number; timezone: number }; qualifiers: Record<string, readonly unknown[]>; references: readonly { hash: string; snaks: Record<string, unknown> }[] }[];
+  activeHumanP31: boolean; activeExactGregorianDob: boolean; activePreciseConflicts: readonly unknown[];
+}>;
+const b014Wikidata = B014_EVIDENCE.wikidataAudit as { retrievedAt: string; endpoint: string; calendarModel: string; entities: Record<string, unknown> };
+assert('Rule AI Wikidata', b014Wikidata.retrievedAt === '2026-10-07' && b014Wikidata.endpoint.startsWith('https://www.wikidata.org/w/api.php') && b014Wikidata.calendarModel === 'http://www.wikidata.org/entity/Q1985727', 'B014 Wikidata evidence must identify its API, retrieval date, and Gregorian calendar');
+assert('Rule AI Wikidata', Object.keys(b014EntityAudit).length === 93, 'B014 Wikidata audit must contain all 93 QIDs');
+for (const p of B014_NEW_PEOPLE) {
+  const expected = B014_APPROVED_PROFILES[p.id];
+  const entity = b014EntityAudit[expected.wikidataId];
+  assert('Rule AI Wikidata', Boolean(entity), `B014 Wikidata audit is missing ${expected.wikidataId}`);
+  assert('Rule AI Wikidata', entity.activeHumanP31 === true && entity.p31.some((claim) => claim.rank !== 'deprecated' && claim.value === 'Q5'), `B014 ${p.id} must have an active P31 human claim`);
+  assert('Rule AI Wikidata', entity.activeExactGregorianDob === true && entity.activePreciseConflicts.length === 0, `B014 ${p.id} must have an exact Gregorian P569 and no active precise conflict`);
+  assert('Rule AI Wikidata', entity.p31.length > 0 && entity.p31.every((claim) => ['preferred', 'normal', 'deprecated'].includes(claim.rank) && Number.isInteger(claim.references) && claim.references >= 0 && Array.isArray(claim.qualifiers)), `B014 ${p.id} P31 rank, references, and qualifiers must be captured`);
+  assert('Rule AI Wikidata', entity.p569.length > 0 && entity.p569.every((claim) => ['preferred', 'normal', 'deprecated'].includes(claim.rank) && claim.value.calendar === b014Wikidata.calendarModel && claim.value.precision >= 0 && claim.value.precision <= 14 && claim.qualifiers !== undefined && Array.isArray(claim.references) && claim.references.every((reference) => Boolean(reference.hash) && typeof reference.snaks === 'object')), `B014 ${p.id} must preserve every P569 rank, qualifier, calendar, precision, and reference`);
+  const activeClaims = entity.p569.filter((claim) => claim.rank !== 'deprecated');
+  const exactClaims = activeClaims.filter((claim) => claim.value.precision === 11 && claim.value.calendar === b014Wikidata.calendarModel);
+  assert('Rule AI Wikidata', exactClaims.some((claim) => claim.value.time.slice(1, 11) === expected.birthDate), `B014 ${p.id} needs an active exact P569 matching ${expected.birthDate}`);
+  assert('Rule AI Wikidata', activeClaims.filter((claim) => claim.value.precision >= 11).every((claim) => claim.value.time.slice(1, 11) === expected.birthDate), `B014 ${p.id} has an active exact or more-precise P569 conflict`);
+  assert('Rule AI Wikidata', activeClaims.filter((claim) => claim.value.precision < 11).every((claim) => claim.value.time.slice(1, 5) === expected.birthDate.slice(0, 4)), `B014 ${p.id} has an active coarser P569 with a conflicting year`);
+  const noReferenceActiveClaims = activeClaims.filter((claim) => claim.references.length === 0);
+  assert('Rule AI Wikidata exception', noReferenceActiveClaims.length === 0 || (expected.wikidataId === 'Q129591' && noReferenceActiveClaims.length === 1 && noReferenceActiveClaims[0].value.time.slice(1, 11) === expected.birthDate), `B014 ${p.id} has an active P569 claim without references outside the reviewed Hugh Jackman case`);
+  assert('Rule AI age', isAdultOnDate(expected.birthDate, '2026-10-07'), `B014 ${p.id} must be an adult on 2026-10-07`);
+}
+
+const b014BaselinePeople = ALL_PEOPLE.filter((p) => !B014_NEW_IDS.has(p.id)).sort((a, b) => a.id.localeCompare(b.id));
+assert('Rule AI baseline', b014BaselinePeople.length === 844, `B014 must preserve all 844 baseline people, found ${b014BaselinePeople.length}`);
+assert('Rule AI baseline', stableSha256(b014BaselinePeople) === '007bfa829d8fed84bf07d1dd9f555975221c37352b131200afdfe42f2bb614b0', 'All 844 origin/main people must remain deep-equal to the B014 baseline');
+assert('Rule AI baseline', stableSha256(HISTORY_EVENTS) === '6dd4aae214c2b43131155c6483c3f3c575fe632e1287583c5c28ce4e40dcfd07', 'All 4 history events must remain deep-equal to the B014 baseline');
+const b014CoveredDays = new Set(ALL_PEOPLE.map((p) => `${p.birthMonth}-${p.birthDay}`));
+const b014OctoberDays = new Set(ALL_PEOPLE.filter((p) => p.birthMonth === 10).map((p) => p.birthDay));
+assert('Rule AI total', ALL_PEOPLE.length === 937, `B014 expected 937 total people, found ${ALL_PEOPLE.length}`);
+assert('Rule AI coverage', b014CoveredDays.size === 306, `B014 expected 306 covered calendar days, found ${b014CoveredDays.size}`);
+assert('Rule AI coverage', b014OctoberDays.size === 31, `B014 must cover all 31 October days, found ${b014OctoberDays.size}`);
+console.log(`B014 additions: ${B014_NEW_PEOPLE.length}; Vietnamese: ${b014Vietnamese.length}; share: ${(b014Vietnamese.length / B014_NEW_PEOPLE.length * 100).toFixed(2)}%; coverage: ${b014CoveredDays.size}/366`);
 
 
 // ------------------------------------------------------------
