@@ -4388,17 +4388,19 @@ export const PEOPLE_01: Person[] = [
   "countryName": "Việt Nam",
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
-  "shortDescription": "Giám mục công giáo Việt Nam; sinh ngày 25/1/1953.",
-  "biography": "Anphongsô Nguyễn Hữu Long là giám mục Công giáo người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 2013, Tòa Thánh bổ nhiệm linh mục Alphonse Nguyễn Hữu Long làm giám mục phụ tá giáo phận Hưng Hóa.",
-  "highlights": ["Sinh ngày 25/1/1953.", "Năm 2013, Tòa Thánh bổ nhiệm linh mục Alphonse Nguyễn Hữu Long làm giám mục phụ tá giáo phận Hưng Hóa."],
+  "shortDescription": "Giám mục Việt Nam, được Tòa Thánh bổ nhiệm làm giám mục Vinh năm 2018.",
+  "biography": "Anphongsô Nguyễn Hữu Long là giám mục Công giáo người Việt Nam. Năm 2013, Tòa Thánh bổ nhiệm ông làm giám mục phụ tá Hưng Hóa; tháng 12/2018, ngài được bổ nhiệm làm giám mục Vinh.",
+  "highlights": ["Ngày 15/6/2013, Tòa Thánh bổ nhiệm ngài làm giám mục phụ tá Hưng Hóa.", "Ngày 22/12/2018, Tòa Thánh bổ nhiệm ngài làm giám mục Vinh."],
   "wikidataId": "Q15791820",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q15791820",
     "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2013/06/15/0385.pdf",
-    "https://www.catholic-hierarchy.org/bishop/bnhl.html"
+    "https://www.catholic-hierarchy.org/bishop/bnhl.html",
+    "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2018/12/22/0963/02092.html"
   ],
   "region": "vietnam",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-08",
+  "lifeStatus": "unknown"
 }  ,
 {
   "id": "robert-burns",
@@ -4417,9 +4419,9 @@ export const PEOPLE_01: Person[] = [
   "countryName": "Vương quốc Anh",
   "countryFlag": "🇬🇧",
   "image": "/people/placeholder.svg",
-  "shortDescription": "Nhà thơ Vương quốc Anh; sinh ngày 25/1/1759.",
-  "biography": "Robert Burns là nhà thơ người Vương quốc Anh. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 1780, Robert Burns, em trai Gilbert và những người trẻ ở Tarbolton thành lập Tarbolton Bachelor's Club.",
-  "highlights": ["Sinh ngày 25/1/1759.", "Năm 1780, Robert Burns, em trai Gilbert và những người trẻ ở Tarbolton thành lập Tarbolton Bachelor's Club."],
+  "shortDescription": "Nhà thơ Scotland, tác giả Poems, Chiefly in the Scottish Dialect.",
+  "biography": "Robert Burns là nhà thơ Scotland. Năm 1786, ông xuất bản tập Poems, Chiefly in the Scottish Dialect tại Kilmarnock; trong thư gửi bác sĩ John Moore năm 1787, ông kể lại cuộc đời và con đường đến với thơ.",
+  "highlights": ["Tập thơ đầu tiên của Burns được John Wilson in tại Kilmarnock vào tháng 7/1786.", "Năm 1787, Burns gửi bác sĩ John Moore một bức thư tự thuật về cuộc đời mình."],
   "wikidataId": "Q81960",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q81960",
@@ -4427,7 +4429,11 @@ export const PEOPLE_01: Person[] = [
     "https://www.nls.uk/collections/stories/literature-and-poetry/robert-burns-and-his-history-of-myself/"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-08",
+  "lifeStatus": "deceased",
+  "deathDate": "1796-07-21",
+  "deathDateSourceUrls": ["https://www.gov.uk/government/speeches/burns-night-speech"],
+  "deathDatePrecision": "day"
 }  ,
 {
   "id": "virginia-woolf",
@@ -4446,17 +4452,91 @@ export const PEOPLE_01: Person[] = [
   "countryName": "Vương quốc Anh",
   "countryFlag": "🇬🇧",
   "image": "/people/placeholder.svg",
-  "shortDescription": "Nhà văn Vương quốc Anh; sinh ngày 25/1/1882.",
-  "biography": "Virginia Woolf là nhà văn người Vương quốc Anh. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Between the Acts (1941) là tiểu thuyết cuối cùng của Virginia Woolf, xuất bản vài tháng sau khi bà qua đời.",
-  "highlights": ["Sinh ngày 25/1/1882.", "Between the Acts (1941) là tiểu thuyết cuối cùng của Virginia Woolf, xuất bản vài tháng sau khi bà qua đời."],
+  "shortDescription": "Nhà văn Anh, đồng sáng lập Hogarth Press và tác giả Mrs Dalloway.",
+  "biography": "Virginia Woolf là nhà văn Anh và một trong những tác giả hiện đại chủ nghĩa thế kỷ XX. Cùng chồng Leonard, bà lập Hogarth Press năm 1917; tiểu thuyết Mrs Dalloway xuất bản năm 1925. Bà mất ngày 28/3/1941.",
+  "highlights": ["Virginia và Leonard Woolf bắt đầu Hogarth Press năm 1917.", "Mrs Dalloway, tiểu thuyết thứ tư của Woolf, xuất bản năm 1925."],
   "wikidataId": "Q40909",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q40909",
     "https://www.britishlibrary.cn/en/authors/virginia-woolf/",
-    "https://snl.no/Virginia_Woolf"
+    "https://snl.no/Virginia_Woolf",
+    "https://virginiawoolfsociety.org.uk/resources/virginia-woolf-a-short-biography/",
+    "https://www.britishlibrary.cn/en/works/mrs-dalloway/"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-08",
+  "lifeStatus": "deceased",
+  "deathDate": "1941-03-28",
+  "deathDateSourceUrls": ["https://www.britishlibrary.cn/en/authors/virginia-woolf/"],
+  "deathDatePrecision": "day"
+}  ,
+{
+  "id": "alicia-keys",
+  "slug": "alicia-keys",
+  "name": "Alicia Keys",
+  "birthDate": "1981-01-25",
+  "birthYear": 1981,
+  "birthMonth": 1,
+  "birthDay": 25,
+  "occupation": ["ca sĩ", "nhạc sĩ", "nghệ sĩ dương cầm"],
+  "category": "music",
+  "categoryLabel": "Âm nhạc",
+  "countryCode": "US",
+  "countryName": "Hoa Kỳ",
+  "countryFlag": "🇺🇸",
+  "birthplace": "New York, Hoa Kỳ",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Ca sĩ, nhạc sĩ Mỹ; album đầu tay Songs in A Minor đứng đầu Billboard 200.",
+  "biography": "Alicia Keys là ca sĩ, nhạc sĩ và nghệ sĩ dương cầm Mỹ. Album đầu tay Songs in A Minor (2001) đứng đầu Billboard 200; năm 2003, cô đồng sáng lập Keep a Child Alive.",
+  "highlights": ["Album đầu tay Songs in A Minor của Alicia Keys đứng đầu Billboard 200.", "Năm 2003, Alicia Keys đồng sáng lập Keep a Child Alive, tổ chức hỗ trợ trẻ em và gia đình bị ảnh hưởng bởi HIV."],
+  "wikidataId": "Q121507",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q121507",
+    "https://www.grammy.com/artists/alicia-keys/12104/",
+    "https://www.biography.com/musicians/alicia-keys",
+    "https://www.keepachildalive.org/leadership/"
+  ],
+  "fields": ["design-creative", "entrepreneurship"],
+  "region": "west",
+  "verifiedAt": "2026-10-08",
+  "lifeStatus": "unknown"
+}  ,
+{
+  "id": "joseph-louis-lagrange",
+  "slug": "joseph-louis-lagrange",
+  "name": "Joseph-Louis Lagrange",
+  "birthDate": "1736-01-25",
+  "birthYear": 1736,
+  "birthMonth": 1,
+  "birthDay": 25,
+  "occupation": ["nhà toán học", "nhà thiên văn"],
+  "category": "scientist",
+  "categoryLabel": "Nhà khoa học",
+  "countryCode": "FR",
+  "countryName": "Pháp",
+  "countryFlag": "🇫🇷",
+  "birthplace": "Turin, Italy",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Nhà toán học và nhà thiên văn Pháp, có đóng góp lớn cho cơ học và giải tích.",
+  "biography": "Joseph-Louis Lagrange là nhà toán học và nhà thiên văn người Pháp, sinh tại Turin. Năm 1766, ông kế nhiệm Leonhard Euler làm giám đốc bộ phận Toán tại Viện Hàn lâm Berlin; năm 1788, ông xuất bản chuyên luận Mécanique analytique.",
+  "highlights": ["Năm 1766, Lagrange kế nhiệm Euler làm giám đốc bộ phận Toán tại Viện Hàn lâm Berlin.", "Năm 1788, Lagrange xuất bản chuyên luận Mécanique analytique."],
+  "wikidataId": "Q80222",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q80222",
+    "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+    "https://www.senat.fr/connaitre-le-senat/lhistoire-du-senat/dossiers-dhistoire/sous-le-senat-de-lempire/joseph-louis-lagrange-comte-dempire-1736-1813.html",
+    "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=NA2872&src=CalmView.Persons"
+  ],
+  "fields": ["science-research"],
+  "deathDate": "1813-04-10",
+  "deathDateSourceUrls": [
+    "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+    "https://www.senat.fr/connaitre-le-senat/lhistoire-du-senat/dossiers-dhistoire/sous-le-senat-de-lempire/joseph-louis-lagrange-comte-dempire-1736-1813.html"
+  ],
+  "deathDatePrecision": "day",
+  "lifeStatus": "deceased",
+  "region": "west",
+  "verifiedAt": "2026-10-08"
 }  ,
 {
   "id": "douglas-macarthur",

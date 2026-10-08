@@ -1,0 +1,1207 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-25",
+  "sourceCaptures": [
+    {
+      "id": "alicia-biography",
+      "url": "https://www.biography.com/musicians/alicia-keys",
+      "publisher": "Biography.com",
+      "publisherHost": "www.biography.com",
+      "status": 200,
+      "bytesRead": 515938,
+      "sha256": "d32d8f78c0fe1e99c79f3ed747e3fdabe9afcdc12d3aa80198c31d4c41f19902",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "on Fire (2009), all of which won the artist Grammys. Early Life Musician and actor Alicia Keys was born Alicia Augello Cook on January 25, 1981, in New York, New York. Growing up, Keys was raised by her mother, Nikki Augello—a part-time actress and paralegal. She began piano lessons at age 7 and Augello's dogged insistence that her daughter sti",
+      "excerptSha256": "bf6ef39948d31781f1359fe3b851cfd7c0a236408572541d006a0a247a8e512e"
+    },
+    {
+      "id": "alicia-grammy",
+      "url": "https://www.grammy.com/artists/alicia-keys/12104/",
+      "publisher": "Recording Academy (GRAMMY.com)",
+      "publisherHost": "www.grammy.com",
+      "status": 200,
+      "bytesRead": 190863,
+      "sha256": "78ef0bac5cebffbef6efaac11a4a7991ef68b83d5665de4c9fb3a4bd32faf6e3",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "it on the inside. That's what's really going to make you look like you're ready to rock the world.\" Born Alicia Augello Cook on Jan. 25, 1981, in New York Alicia Keys scored her first No. 1 hit in 2001 with \"Fallin'.\" The song was featured on her debut studio album, Songs In A Minor , which topped the Billboard 200. At … scored her first No. 1 hit in 2001 with \"Fallin'.\" The song was featured on her debut studio album, Songs In A Minor , which topped the Billboard 200. At the 44th GRAMMY Awards in 2002, Keys won her first five career awards, including Best New Artist and Song Of The Year for \"Fallin'.\" That year, she made her GRAMMY debut with … resources that cover a wide range of financial, medical and personal emergencies for music people. In 2003 Keys co-founded Keep a Child Alive, an organization dedicated to supporting treatment, care and support for children and families affected by HIV. All Grammy Awards and Nominations: Alicia Keys Year Category Artist",
+      "excerptSha256": "2b34e5e5e05d7560db9bf55e59da3a12514394c32a740d9df2cb8310447af330"
+    },
+    {
+      "id": "alicia-kca",
+      "url": "https://www.keepachildalive.org/leadership/",
+      "publisher": "Keep a Child Alive",
+      "publisherHost": "www.keepachildalive.org",
+      "status": 200,
+      "bytesRead": 279015,
+      "sha256": "d17f263317a3c09d0c39bf8c84e59adb8b6ae6edf746ad0455a985bab416d593",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "standing shoulder-to-shoulder with partners and using our voice for change. DONATE Leadership Team Alicia Keys Co-Founder View Bio Alicia Keys Co-Founder Alicia Keys is a 16-time GRAMMY® Award-winning singer, songwriter, musician, producer, founder of Keys Soulcare, New York Times best-selling author",
+      "excerptSha256": "2014a6d8ab9382e8f41c9772e0b23afa8aaedd8f8f5e920e81e42a87470fa295"
+    },
+    {
+      "id": "burns-govuk",
+      "url": "https://www.gov.uk/government/speeches/burns-night-speech",
+      "publisher": "Foreign & Commonwealth Office (GOV.UK)",
+      "publisherHost": "www.gov.uk",
+      "status": 200,
+      "bytesRead": 96151,
+      "sha256": "3b90a9c0d2463ce03e11c0ca93f3bfb13eaf5486ee6e8905c4b29e3a86f40ab0",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "a number of the myths surrounding Burns, particularly the one about him being a prodigious drinker. Robert Burns was born in Alloway, Ayrshire, on January 25th, 1759 and died in Dumfries on the 21st July 1796. We celebrate his birth, we don’t mark his death, because Burn’s work is all about life and living, it celebrates the common Man. But in … m being a prodigious drinker. Robert Burns was born in Alloway, Ayrshire, on January 25th, 1759 and died in Dumfries on the 21st July 1796. We celebrate his birth, we don’t mark his death, because Burn’s work is all about life and living, it celebrates the common Man. But in that short 37 years, he left a huge impact",
+      "excerptSha256": "b8db2c75786ce90824f88f380ba98108be27aaa9a38215313b7f457f0e37c62e"
+    },
+    {
+      "id": "burns-nls",
+      "url": "https://www.nls.uk/collections/stories/literature-and-poetry/robert-burns-and-his-history-of-myself/",
+      "publisher": "National Library of Scotland",
+      "publisherHost": "www.nls.uk",
+      "status": 200,
+      "bytesRead": 92648,
+      "sha256": "5d25750fd83848126c553b694d4630dd3c0f86d052b3a02beb30406a56a964ab",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "s.\" Extract of a letter from Robert Burns to Dr John Moore, 2 August 1787 Robert Burns's early life Born on 25 January 1759, Robert Burns spent the first seven years of his life in a cottage built by his tenant-farmer father in Alloway, Ayrshire. The Burns family later moved to nearby Mount Oliphant Fa … ter he wrote to a friend. Here we explore his life and work in his own words. \"A history of myself\" On a summer's day in 1787, Scottish poet Robert Burns sent a letter to his friend John Moore, a Glasgow-educated doctor who was then living in London. Writing at his home in Mauchline, East Ayrshire, Burns begins by saying he has been \"rambling over the country\" but now, … oems, Chiefly in the Scottish dialect' was the result, Burns's first published collection of poems. Printed by John Wilson of Kilmarnock in July 1786, the book is also known as 'The Kilmarnock Edition'. The entire print-run of 612 copies sold out within a month, justifying Burns's belief in his writing abilities and the merit o",
+      "excerptSha256": "c1c1293420a0e90eca1bde180ec68bde151c876a8075734e6cf04bf88946b309"
+    },
+    {
+      "id": "lagrange-mactutor",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+      "publisher": "University of St Andrews, MacTutor History of Mathematics",
+      "publisherHost": "mathshistory.st-andrews.ac.uk",
+      "status": 200,
+      "bytesRead": 81108,
+      "sha256": "fccc1fde7a77120db4c00ba6a8b9fe8a9773ba60047c62c935b91ea5e2262f06",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "content MacTutor Home Biographies History Topics Map Curves Search Joseph-Louis Lagrange Quick Info Born 25 January 1736 Turin, Sardinia-Piedmont (now Italy) Died 10 April 1813 Paris, France Summary Joseph-Louis Lagrange was an Italian-born French mathematician who excelled in all fields of analysis … s Search Joseph-Louis Lagrange Quick Info Born 25 January 1736 Turin, Sardinia-Piedmont (now Italy) Died 10 April 1813 Paris, France Summary Joseph-Louis Lagrange was an Italian-born French mathematician who excelled in all fields of analysis and number theory and analytical and celestial mechanic … Biographies History Topics Map Curves Search Joseph-Louis Lagrange Quick Info Born 25 January 1736 Turin, Sardinia-Piedmont (now Italy) Died 10 April 1813 Paris, France Summary Joseph-Louis Lagrange was an Italian-born French mathematician who excelled in all fields of analysis and number theory and analytical and",
+      "excerptSha256": "e4c9f4c585f29ba026ec8c6b3831ff9d5858bb30f76fffd3520444b47c5a53a7"
+    },
+    {
+      "id": "lagrange-royalsociety",
+      "url": "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=NA2872&src=CalmView.Persons",
+      "publisher": "The Royal Society",
+      "publisherHost": "catalogues.royalsociety.org",
+      "status": 200,
+      "bytesRead": 22965,
+      "sha256": "d882dad3cd2d89fb2ac90bd8d3c72f5da66b4629b2ee08db343c8b48db85817c",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "sed form of name Lagrange; Joseph Louis (1736 - 1813) Dates 1736 - 1813 Place of birth Turin, Italy Date of birth 25 January 1736 Place of death Paris, France Date of death 10 April 1813 DatesAndPlaces Burial: Pantheon, Paris Research field Mechanics Celestial mechanics Astronomy Mathematics Activity Career: … omy Mathematics Activity Career: Professor of Mathematics, Royal School of Artillery, Turin (1754); Director, Berlin Academy (1766); went to Prussia (1766-1787); published 'Mecanique analytique' (1788); went to Paris after death of Frederick the Great, lodged in the Louvre and received pension of 6,000 francs; … al School of Artillery, Turin (1754); Director, Berlin Academy (1766); went to Prussia (1766-1787); published 'Mecanique analytique' (1788); went to Paris after death of Frederick the Great, lodged in the Louvre and received pension of 6,000 francs; Professor, Normal and Polytechnic Schools and member of the Bureau de … 1736 - 1813 Place of birth Turin, Italy Date of birth 25 January 1736 Place of death Paris, France Date of death 10 April 1813 DatesAndPlaces Burial: Pantheon, Paris Research field Mechanics Celestial mechanics Astronomy Mathematics Activity Career: Professor of Mathematics, Royal School of Artillery, Tur",
+      "excerptSha256": "b1c013471c6c97ce5c6797926a69d26c57f703e8cbf9c155558a2c659103d4f0"
+    },
+    {
+      "id": "lagrange-senate",
+      "url": "https://www.senat.fr/connaitre-le-senat/lhistoire-du-senat/dossiers-dhistoire/sous-le-senat-de-lempire/joseph-louis-lagrange-comte-dempire-1736-1813.html",
+      "publisher": "French Senate",
+      "publisherHost": "www.senat.fr",
+      "status": 200,
+      "bytesRead": 143547,
+      "sha256": "82cfc26f08bffd9e4b79eb2dd555e6ed46b23b594b45811819461291de8a8316",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "seph-Louis Lagrange - Comte d'Empire (1736-1813) Joseph-Louis Lagrange - Comte d'Empire (1736-1813) Joseph-Louis Lagrange est né à Turin le 25 janvier 1736 de parents français descendants de Descartes. Brillant élève, il est à 19 ans professeur à l'école d'artillerie de Turin. Avec des amis il fonde la future Académie des sciences de … sa \" Théorie de la libration de la Lune\" et en 1766 pour ses travaux sur les satellites de Jupiter. La même année il rejoint la cour de Frédéric II et succède à Euler comme directeur de la section mathématiques de l'Académie des sciences de Berlin . A la mort de l'empereur, après 20 années de travail fertile, il quitte la Prusse et, sollicité par Mirabeau, vient s'installer à Paris. En 1788 il commence la publication de son … nées de travail fertile, il quitte la Prusse et, sollicité par Mirabeau, vient s'installer à Paris. En 1788 il commence la publication de son ouvrage majeur, la « Mécanique analytique ». Il contribue à l'élaboration du système métrique avec Lavoisier et devient administrateur de la Monnaie en 1792. Lorsqu'un décret de la Convention force les étrangers à sortir de … d'honneur , comte d'Empire, il fut nommé membre du Sénat conservateur dès sa création en l'an VIII. Mort le 10 avril 1813, il est inhumé au Panthéon. Partager cette page Partager sur X Partager sur Facebook Partager sur Linkedin Partager par courriel Nous suivre sur les réseaux X Facebook Linkedin In",
+      "excerptSha256": "d551173d65234cb240780afc5563c54c499f16c2f94d4ee2d0f143cdbbc73bae"
+    },
+    {
+      "id": "nguyen-catholic-hierarchy",
+      "url": "https://www.catholic-hierarchy.org/bishop/bnhl.html",
+      "publisher": "Catholic-Hierarchy",
+      "publisherHost": "www.catholic-hierarchy.org",
+      "status": 200,
+      "bytesRead": 20355,
+      "sha256": "10751859670c851941d2563189383654514c3e24aa55006b91e6d0037ba1f58d",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "back Bishop Alphonse Nguyên Huu Long , P.S.S. Bishop of Vinh , Viet Nam Events Date Age Event Title 25 Jan 1953 Born 29 Dec 1990 37.9 Ordained Priest Priest of Ðà Nẵng , Viet Nam 15 Jun 2013 60.3 Appointed Auxiliary Bishop of Hưng Hóa , Viet Nam 15 Jun 2013 60.3 Appointed Titular Bishop of … tle 25 Jan 1953 Born 29 Dec 1990 37.9 Ordained Priest Priest of Ðà Nẵng , Viet Nam 15 Jun 2013 60.3 Appointed Auxiliary Bishop of Hưng Hóa , Viet Nam 15 Jun 2013 60.3 Appointed Titular Bishop of Gummi in Byzacena 6 Sep 2013 60.6 Ordained Bishop Titular Bishop of Gummi in Byzacena 22 Dec 2018 65.9 Appointed Bishop of … mi in Byzacena 6 Sep 2013 60.6 Ordained Bishop Titular Bishop of Gummi in Byzacena 22 Dec 2018 65.9 Appointed Bishop of Vinh , Viet Nam 12 Feb 2019 66.0 Installed Bishop of Vinh , Viet Nam MicroData Summary Alphonse Nguyên Huu Long Bishop Alphonse Nguyên Huu Long P.S.S. (born 25 Jan 1953 ) Bishop of Vin",
+      "excerptSha256": "cab866a0b989abc32e3101c6f7fb31fc9ff28fef57917bce44d9590e85d18172"
+    },
+    {
+      "id": "nguyen-vatican-2013",
+      "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2013/06/15/0385.pdf",
+      "publisher": "Holy See Press Office",
+      "publisherHost": "press.vatican.va",
+      "status": 200,
+      "bytesRead": 208760,
+      "sha256": "927e51b8d68d3abb4780d0ec75feab99e36cf607da458f22f741c04915cb48d4",
+      "verificationMethod": "direct-http-pdf-selected-excerpt",
+      "excerpt": "lphonse Nguyen Huu Long, P.S.S.\n\nIl Rev.do P. Alphonse Nguyen Huu Long, P.S.S., è nato ad Hà Nôi il 25 gennaio 1953. Ha ricevuto la formazione\nsacerdotale, dal 1965 al 1972, nel Seminario minore San Giovanni di Ðà Nang, e successivamente, dal 1972 al\n1978, nel Seminario maggiore Hoa Binh, della … nità Cattolica Zimbabwena a Londra.\n\n[00883-01.01]\n\n● NOMINA DELL’AUSILIARE DI HUNG HOÁ (VIÊT NAM)\n\nIl Papa ha nominato Ausiliare della diocesi di Hung Hoá (Viêt Nam) il Rev.do P. Alphonse Nguyên Huu Long,\nP.S.S., attualmente Rettore del Seminario maggiore di Hué, assegnandogli la sede titolare vescovile di Gummi\ndi Bizacena.\n\nRev.do",
+      "excerptSha256": "f6aa8333164e5942e9d64bdabf2d6e6dbfbac40cf2cefe622813655de8f43c78"
+    },
+    {
+      "id": "nguyen-vatican-2018",
+      "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2018/12/22/0963/02092.html",
+      "publisher": "Holy See Press Office",
+      "publisherHost": "press.vatican.va",
+      "status": 200,
+      "bytesRead": 23885,
+      "sha256": "b200a38358c495f71fcf524a93461626aba87c4e7fbcc8f2c6b1a67f29da8027",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Rinunce e nomine Home > Bollettino > 2018 > 12 > 22 Rinunce e nomine, 22.12.2018 [B0963] Assenso all’elezione dell’Arcivescovo di Bosra e Hauran (Siria) Assenso all’elezione dell’Arcivescovo di Mosul (Iraq) Assenso all’elezione del Vescovo Ausiliare di Babilon … , il siriaco e conosce l’inglese. [02098-IT.01] Nomina del Vescovo di Vinh (Vietnam) Il Santo Padre ha nominato Vescovo di Vinh (Vietnam) S.E. Mons. Alphonse Nguyên Huu Long, P.S.S., finora Ausiliare di Hung Hoá. [02095-IT.01] Creazione della diocesi di Hà Tĩnh (Vietnam) e nomina del primo Vescovo Il Papa ha creato la nuova Diocesi di Hà Tĩnh (Vietnam",
+      "excerptSha256": "ac4440107e0b94ca8fc20a5e6e8c56b1a7f591ecc050d9dfc83523ef4d9eb99f"
+    },
+    {
+      "id": "wd-alicia",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q121507.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 265150,
+      "sha256": "740c61896e20fd5e288a930b30af77f05c23041fa00979c65aae8553f09754c4",
+      "verificationMethod": "direct-http-json-wikidata-entity",
+      "excerpt": "{\"id\":\"Q121507\",\"label\":null,\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"precision\":null,\"calendar\":null,\"references\":2}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1981-01-25T00:00:00Z\",\"precision\":11,\"calendar\":\"http://www.wikidata.org/entity/Q1985727\",\"references\":2},{\"rank\":\"normal\",\"value\":\"+1981-01-24T00:00:00Z\",\"precision\":11,\"calendar\":\"http://www.wikidata.org/entity/Q1985727\",\"references\":1},{\"rank\":\"normal\",\"value\":\"+1981-00-00T00:00:00Z\",\"precision\":9,\"calendar\":\"http://www.wikidata.org/entity/Q1985727\",\"references\":1}],\"p570\":[],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q30\",\"precision\":null,\"calendar\":null,\"references\":0}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q488205\",\"precision\":null,\"calendar\":null,\"references\":0},{\"rank\":\"normal\",\"value\":\"Q486748\",\"precision\":null,\"calendar\":null,\"references\":0},{\"rank\":\"normal\",\"value\":\"Q33999\",\"precision\":null,\"calendar\":null,\"references\":2},{\"rank\":\"normal\",\"value\":\"Q36834\",\"precision\":null,\"calendar\":null,\"references\":1},{\"rank\":\"normal\",\"value\":\"Q177220\",\"precision\":null,\"calendar\":null,\"references\":1},{\"rank\":\"normal\",\"value\":\"Q10732476\",\"precision\":null,\"calendar\":null,\"references\":1}]}",
+      "excerptSha256": "f7f5fcd10c6432b6bf14cf4629e3004ef0bf67695559b9239870de15f1180ee3"
+    },
+    {
+      "id": "wd-burns",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q81960.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 237893,
+      "sha256": "4ab1e478220278c1ea9368b878e4194422661d2be4c867534b5a443ba36e72c8",
+      "verificationMethod": "direct-http-json-wikidata-entity",
+      "excerpt": "{\"id\":\"Q81960\",\"label\":\"Robert Burns\",\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"precision\":null,\"calendar\":null,\"references\":2}],\"p569\":[{\"rank\":\"preferred\",\"value\":\"+1759-01-25T00:00:00Z\",\"precision\":11,\"calendar\":\"http://www.wikidata.org/entity/Q1985727\",\"references\":14},{\"rank\":\"normal\",\"value\":\"+1759-01-01T00:00:00Z\",\"precision\":9,\"calendar\":\"http://www.wikidata.org/entity/Q1985727\",\"references\":1}],\"p570\":[{\"rank\":\"preferred\",\"value\":\"+1796-07-21T00:00:00Z\",\"precision\":11,\"calendar\":\"http://www.wikidata.org/entity/Q1985727\",\"references\":13},{\"rank\":\"normal\",\"value\":\"+1796-01-01T00:00:00Z\",\"precision\":9,\"calendar\":\"http://www.wikidata.org/entity/Q1985727\",\"references\":1}],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q161885\",\"precision\":null,\"calendar\":null,\"references\":0}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q753110\",\"precision\":null,\"calendar\":null,\"references\":1},{\"rank\":\"normal\",\"value\":\"Q49757\",\"precision\":null,\"calendar\":null,\"references\":2},{\"rank\":\"normal\",\"value\":\"Q36180\",\"precision\":null,\"calendar\":null,\"references\":2},{\"rank\":\"normal\",\"value\":\"Q14915627\",\"precision\":null,\"calendar\":null,\"references\":0},{\"rank\":\"normal\",\"value\":\"Q131512\",\"precision\":null,\"calendar\":null,\"references\":0},{\"rank\":\"normal\",\"value\":\"Q8178443\",\"precision\":null,\"calendar\":null,\"references\":1}]}",
+      "excerptSha256": "6748c0366f094a3592732445326cd686e0ec73995000a8d6fc07e5b7945d5ef5"
+    },
+    {
+      "id": "wd-lagrange",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q80222.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 224311,
+      "sha256": "d7778c723049872bfa5c86e57e6a6dc5cd89391c5cc86394e44610d6c33ede02",
+      "verificationMethod": "direct-http-json-wikidata-entity",
+      "excerpt": "{\"id\":\"Q80222\",\"label\":\"Joseph-Louis Lagrange\",\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"precision\":null,\"calendar\":null,\"references\":1}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1736-01-25T00:00:00Z\",\"precision\":11,\"calendar\":\"http://www.wikidata.org/entity/Q1985727\",\"references\":10}],\"p570\":[{\"rank\":\"normal\",\"value\":\"+1813-04-10T00:00:00Z\",\"precision\":11,\"calendar\":\"http://www.wikidata.org/entity/Q1985727\",\"references\":9}],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q142\",\"precision\":null,\"calendar\":null,\"references\":1},{\"rank\":\"normal\",\"value\":\"Q165154\",\"precision\":null,\"calendar\":null,\"references\":0}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q170790\",\"precision\":null,\"calendar\":null,\"references\":1},{\"rank\":\"normal\",\"value\":\"Q11063\",\"precision\":null,\"calendar\":null,\"references\":0},{\"rank\":\"normal\",\"value\":\"Q169470\",\"precision\":null,\"calendar\":null,\"references\":0},{\"rank\":\"normal\",\"value\":\"Q82955\",\"precision\":null,\"calendar\":null,\"references\":0},{\"rank\":\"normal\",\"value\":\"Q36180\",\"precision\":null,\"calendar\":null,\"references\":1},{\"rank\":\"normal\",\"value\":\"Q1622272\",\"precision\":null,\"calendar\":null,\"references\":2},{\"rank\":\"normal\",\"value\":\"Q20919317\",\"precision\":null,\"calendar\":null,\"references\":1},{\"rank\":\"normal\",\"value\":\"Q3519259\",\"precision\":null,\"calendar\":null,\"references\":1}]}",
+      "excerptSha256": "2244431a282ce9977709bbce419de9c0a80cbe3301158fbfd006b7069890f1be"
+    },
+    {
+      "id": "wd-nguyen",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q15791820.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 25444,
+      "sha256": "3ac1db548948a7101af826503a1cb036b0c058fc83548bed97a57b3dc7bb6ae0",
+      "verificationMethod": "direct-http-json-wikidata-entity",
+      "excerpt": "{\"id\":\"Q15791820\",\"label\":\"Alphonse Nguyên Huu Long\",\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"precision\":null,\"calendar\":null,\"references\":1}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1953-01-25T00:00:00Z\",\"precision\":11,\"calendar\":\"http://www.wikidata.org/entity/Q1985727\",\"references\":1}],\"p570\":[],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q881\",\"precision\":null,\"calendar\":null,\"references\":0}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q250867\",\"precision\":null,\"calendar\":null,\"references\":1},{\"rank\":\"normal\",\"value\":\"Q611644\",\"precision\":null,\"calendar\":null,\"references\":1}]}",
+      "excerptSha256": "dcb36d4454413a5589cd965a69f0e7821e1d09f5350aea98de3ec943ea2873da"
+    },
+    {
+      "id": "wd-woolf",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q40909.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 304075,
+      "sha256": "238c43929f3bc166593e6c626f65a50d29646521719dab263de9f030b7b45fbc",
+      "verificationMethod": "direct-http-json-wikidata-entity",
+      "excerpt": "{\"id\":\"Q40909\",\"label\":\"Virginia Woolf\",\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"precision\":null,\"calendar\":null,\"references\":1}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1882-01-25T00:00:00Z\",\"precision\":11,\"calendar\":\"http://www.wikidata.org/entity/Q1985727\",\"references\":3}],\"p570\":[{\"rank\":\"normal\",\"value\":\"+1941-03-28T00:00:00Z\",\"precision\":11,\"calendar\":\"http://www.wikidata.org/entity/Q1985727\",\"references\":3}],\"p27\":[{\"rank\":\"preferred\",\"value\":\"Q145\",\"precision\":null,\"calendar\":null,\"references\":0},{\"rank\":\"normal\",\"value\":\"Q174193\",\"precision\":null,\"calendar\":null,\"references\":0},{\"rank\":\"normal\",\"value\":\"Q145\",\"precision\":null,\"calendar\":null,\"references\":1}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q6625963\",\"precision\":null,\"calendar\":null,\"references\":1},{\"rank\":\"normal\",\"value\":\"Q11774202\",\"precision\":null,\"calendar\":null,\"references\":1},{\"rank\":\"normal\",\"value\":\"Q18814623\",\"precision\":null,\"calendar\":null,\"references\":1},{\"rank\":\"normal\",\"value\":\"Q15949613\",\"precision\":null,\"calendar\":null,\"references\":1},{\"rank\":\"normal\",\"value\":\"Q18939491\",\"precision\":null,\"calendar\":null,\"references\":1},{\"rank\":\"normal\",\"value\":\"Q4263842\",\"precision\":null,\"calendar\":null,\"references\":1},{\"rank\":\"normal\",\"value\":\"Q2516866\",\"precision\":null,\"calendar\":null,\"references\":1},{\"rank\":\"normal\",\"value\":\"Q36180\",\"precision\":null,\"calendar\":null,\"references\":3},{\"rank\":\"normal\",\"value\":\"Q28692502\",\"precision\":null,\"calendar\":null,\"references\":0},{\"rank\":\"normal\",\"value\":\"Q482980\",\"precision\":null,\"calendar\":null,\"references\":1}]}",
+      "excerptSha256": "4d301c207271c1fd125df50733b7247a26aca6a61c490103e3d90e035c1ec495"
+    },
+    {
+      "id": "woolf-bl-author",
+      "url": "https://www.britishlibrary.cn/en/authors/virginia-woolf/",
+      "publisher": "The British Library",
+      "publisherHost": "www.britishlibrary.cn",
+      "status": 200,
+      "bytesRead": 54388,
+      "sha256": "8d9d15e771d933c7f128e580ae7c3306efed6a88aa27ac559caa8b9975aa9bd5",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "r 简 繁 EN Authors About Search Menu Virginia Woolf Virginia Woolf 别名: Adeline Virginia Stephen (née) 出生: 25/01/1882 逝世: 28/03/1941 性别: Female 职业: Novelist, Essayist and Publisher Virginia Woolf is recognised as one of the most innovative writers of the 20th century. Perhaps best known as the au … s About Search Menu Virginia Woolf Virginia Woolf 别名: Adeline Virginia Stephen (née) 出生: 25/01/1882 逝世: 28/03/1941 性别: Female 职业: Novelist, Essayist and Publisher Virginia Woolf is recognised as one of the most innovative writers of the 20th century. Perhaps best known as the author of Mrs Dal … ised as one of the most innovative writers of the 20th century. Perhaps best known as the author of Mrs Dalloway (1925) and To the Lighthouse (1927), she was also a prolific writer of essays, diaries, letters and biographies. Influenced by seminal writers and artists of the period such as Marcel Pr",
+      "excerptSha256": "640c6871978b34dcd8583e398d00f10e2f3cdf5c29778a1078159a209e871dad"
+    },
+    {
+      "id": "woolf-bl-mrs-dalloway",
+      "url": "https://www.britishlibrary.cn/en/works/mrs-dalloway/",
+      "publisher": "The British Library",
+      "publisherHost": "www.britishlibrary.cn",
+      "status": 200,
+      "bytesRead": 132250,
+      "sha256": "a71d862cdb3cce699f45b2408add24019dab69bcc61dc5e02484ed75af530164",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "k Twitter 简 繁 EN Authors About Search Menu Virginia Woolf’s Mrs Dalloway 出版日期: 1886 文学时期: Modernist In her fourth novel, Mrs Dalloway (1925), the modernist writer Virginia Woolf took on the subject of the English middle classes in the aftermath of the 1914–18 war. She noted in her diary that she wanted ‘to give life &",
+      "excerptSha256": "dace2c33d23272ccb23cca15c3606f1cf6327259ba0d804624c4974b766907ca"
+    },
+    {
+      "id": "woolf-vws",
+      "url": "https://virginiawoolfsociety.org.uk/resources/virginia-woolf-a-short-biography/",
+      "publisher": "Virginia Woolf Society of Great Britain",
+      "publisherHost": "virginiawoolfsociety.org.uk",
+      "status": 200,
+      "bytesRead": 49973,
+      "sha256": "9c589e8272fc4dffc8a75057d72ed83cbd2085d768290bdc77d3649752ca5347",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "ook was published by the Hogarth Press which Virginia had started with her husband Leonard in 1917. Adeline Virginia Stephen was born on 25 January 1882 in London. Her father, Leslie Stephen (1832–1904), was a man of letters (and first editor of the Dictionary of National Biography ) who came from a family distinguished for public service ( … contributed an introduction and leads us to the Bloomsbury Group; and the book was published by the Hogarth Press which Virginia had started with her husband Leonard in 1917. Adeline Virginia Stephen was born on 25 January 1882 in London. Her father, Leslie Stephen (1832–1904), was a man of letters (and first editor of the Dictionary of National Biogr",
+      "excerptSha256": "2b3a4e25a5e90e5becbe65fcea7ebc046a55766fed10a2bab21f9d167f858ffd"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "nguyen-huu-long",
+      "name": "Anphongsô Nguyễn Hữu Long",
+      "wikidataId": "Q15791820",
+      "birthDate": "1953-01-25",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "nguyen-vatican-2013",
+        "nguyen-catholic-hierarchy"
+      ],
+      "careerFactIds": [
+        "nguyen-bishop-auxiliary-2013",
+        "nguyen-bishop-vinh-2018"
+      ],
+      "wikidataCaptureId": "wd-nguyen",
+      "selectedCountryQid": "Q881",
+      "selectedOccupationQids": [
+        "Q250867"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q15791820",
+        "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2013/06/15/0385.pdf",
+        "https://www.catholic-hierarchy.org/bishop/bnhl.html",
+        "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2018/12/22/0963/02092.html"
+      ],
+      "identityClaims": {
+        "label": "Alphonse Nguyên Huu Long",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "precision": null,
+            "calendar": null,
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1953-01-25T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "precision": null,
+            "calendar": null,
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q881",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q250867",
+            "precision": null,
+            "calendar": null,
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q611644",
+            "precision": null,
+            "calendar": null,
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q250867"
+        ]
+      },
+      "wikidataLabel": "Alphonse Nguyên Huu Long",
+      "countryCode": "VN",
+      "category": "history",
+      "occupation": [
+        "giám mục Công giáo"
+      ],
+      "before": {
+        "shortDescription": "Giám mục công giáo Việt Nam; sinh ngày 25/1/1953.",
+        "biography": "Anphongsô Nguyễn Hữu Long là giám mục Công giáo người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 2013, Tòa Thánh bổ nhiệm linh mục Alphonse Nguyễn Hữu Long làm giám mục phụ tá giáo phận Hưng Hóa.",
+        "highlights": [
+          "Sinh ngày 25/1/1953.",
+          "Năm 2013, Tòa Thánh bổ nhiệm linh mục Alphonse Nguyễn Hữu Long làm giám mục phụ tá giáo phận Hưng Hóa."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q15791820",
+          "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2013/06/15/0385.pdf",
+          "https://www.catholic-hierarchy.org/bishop/bnhl.html"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      },
+      "after": {
+        "shortDescription": "Giám mục Việt Nam, được Tòa Thánh bổ nhiệm làm giám mục Vinh năm 2018.",
+        "biography": "Anphongsô Nguyễn Hữu Long là giám mục Công giáo người Việt Nam. Năm 2013, Tòa Thánh bổ nhiệm ông làm giám mục phụ tá Hưng Hóa; tháng 12/2018, ngài được bổ nhiệm làm giám mục Vinh.",
+        "highlights": [
+          "Ngày 15/6/2013, Tòa Thánh bổ nhiệm ngài làm giám mục phụ tá Hưng Hóa.",
+          "Ngày 22/12/2018, Tòa Thánh bổ nhiệm ngài làm giám mục Vinh."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q15791820",
+          "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2013/06/15/0385.pdf",
+          "https://www.catholic-hierarchy.org/bishop/bnhl.html",
+          "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2018/12/22/0963/02092.html"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "unknown",
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      }
+    },
+    {
+      "id": "robert-burns",
+      "name": "Robert Burns",
+      "wikidataId": "Q81960",
+      "birthDate": "1759-01-25",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "1796-07-21",
+      "dobSourceIds": [
+        "burns-govuk",
+        "burns-nls"
+      ],
+      "careerFactIds": [
+        "burns-poems-kilmarnock-1786",
+        "burns-letter-moore-1787"
+      ],
+      "wikidataCaptureId": "wd-burns",
+      "selectedCountryQid": "Q161885",
+      "selectedOccupationQids": [
+        "Q36180",
+        "Q49757"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q81960",
+        "https://www.gov.uk/government/speeches/burns-night-speech",
+        "https://www.nls.uk/collections/stories/literature-and-poetry/robert-burns-and-his-history-of-myself/"
+      ],
+      "identityClaims": {
+        "label": "Robert Burns",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "precision": null,
+            "calendar": null,
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "preferred",
+            "value": "+1759-01-25T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 14
+          },
+          {
+            "rank": "normal",
+            "value": "+1759-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p570": [
+          {
+            "rank": "preferred",
+            "value": "+1796-07-21T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 13
+          },
+          {
+            "rank": "normal",
+            "value": "+1796-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q161885",
+            "precision": null,
+            "calendar": null,
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q161885",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q753110",
+            "precision": null,
+            "calendar": null,
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q49757",
+            "precision": null,
+            "calendar": null,
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "precision": null,
+            "calendar": null,
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q14915627",
+            "precision": null,
+            "calendar": null,
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q131512",
+            "precision": null,
+            "calendar": null,
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q8178443",
+            "precision": null,
+            "calendar": null,
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q36180",
+          "Q49757"
+        ]
+      },
+      "wikidataLabel": "Robert Burns",
+      "countryCode": "GB",
+      "category": "literature",
+      "occupation": [
+        "nhà thơ"
+      ],
+      "before": {
+        "shortDescription": "Nhà thơ Vương quốc Anh; sinh ngày 25/1/1759.",
+        "biography": "Robert Burns là nhà thơ người Vương quốc Anh. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 1780, Robert Burns, em trai Gilbert và những người trẻ ở Tarbolton thành lập Tarbolton Bachelor's Club.",
+        "highlights": [
+          "Sinh ngày 25/1/1759.",
+          "Năm 1780, Robert Burns, em trai Gilbert và những người trẻ ở Tarbolton thành lập Tarbolton Bachelor's Club."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q81960",
+          "https://www.gov.uk/government/speeches/burns-night-speech",
+          "https://www.nls.uk/collections/stories/literature-and-poetry/robert-burns-and-his-history-of-myself/"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      },
+      "after": {
+        "shortDescription": "Nhà thơ Scotland, tác giả Poems, Chiefly in the Scottish Dialect.",
+        "biography": "Robert Burns là nhà thơ Scotland. Năm 1786, ông xuất bản tập Poems, Chiefly in the Scottish Dialect tại Kilmarnock; trong thư gửi bác sĩ John Moore năm 1787, ông kể lại cuộc đời và con đường đến với thơ.",
+        "highlights": [
+          "Tập thơ đầu tiên của Burns được John Wilson in tại Kilmarnock vào tháng 7/1786.",
+          "Năm 1787, Burns gửi bác sĩ John Moore một bức thư tự thuật về cuộc đời mình."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q81960",
+          "https://www.gov.uk/government/speeches/burns-night-speech",
+          "https://www.nls.uk/collections/stories/literature-and-poetry/robert-burns-and-his-history-of-myself/"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "deceased",
+        "deathDate": "1796-07-21",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://www.gov.uk/government/speeches/burns-night-speech"
+        ]
+      },
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "burns-govuk"
+      ],
+      "statusSourceId": "burns-govuk"
+    },
+    {
+      "id": "virginia-woolf",
+      "name": "Virginia Woolf",
+      "wikidataId": "Q40909",
+      "birthDate": "1882-01-25",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "1941-03-28",
+      "dobSourceIds": [
+        "woolf-bl-author",
+        "woolf-vws"
+      ],
+      "careerFactIds": [
+        "woolf-hogarth-press-1917",
+        "woolf-mrs-dalloway-1925"
+      ],
+      "wikidataCaptureId": "wd-woolf",
+      "selectedCountryQid": "Q145",
+      "selectedOccupationQids": [
+        "Q36180",
+        "Q6625963"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q40909",
+        "https://www.britishlibrary.cn/en/authors/virginia-woolf/",
+        "https://snl.no/Virginia_Woolf",
+        "https://virginiawoolfsociety.org.uk/resources/virginia-woolf-a-short-biography/",
+        "https://www.britishlibrary.cn/en/works/mrs-dalloway/"
+      ],
+      "identityClaims": {
+        "label": "Virginia Woolf",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "precision": null,
+            "calendar": null,
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1882-01-25T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 3
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1941-03-28T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 3
+          }
+        ],
+        "p27": [
+          {
+            "rank": "preferred",
+            "value": "Q145",
+            "precision": null,
+            "calendar": null,
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q174193",
+            "precision": null,
+            "calendar": null,
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q145",
+            "precision": null,
+            "calendar": null,
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q145",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q6625963",
+            "precision": null,
+            "calendar": null,
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q11774202",
+            "precision": null,
+            "calendar": null,
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q18814623",
+            "precision": null,
+            "calendar": null,
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q15949613",
+            "precision": null,
+            "calendar": null,
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q18939491",
+            "precision": null,
+            "calendar": null,
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q4263842",
+            "precision": null,
+            "calendar": null,
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2516866",
+            "precision": null,
+            "calendar": null,
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "precision": null,
+            "calendar": null,
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q28692502",
+            "precision": null,
+            "calendar": null,
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q482980",
+            "precision": null,
+            "calendar": null,
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q36180",
+          "Q6625963"
+        ]
+      },
+      "wikidataLabel": "Virginia Woolf",
+      "countryCode": "GB",
+      "category": "literature",
+      "occupation": [
+        "nhà văn"
+      ],
+      "before": {
+        "shortDescription": "Nhà văn Vương quốc Anh; sinh ngày 25/1/1882.",
+        "biography": "Virginia Woolf là nhà văn người Vương quốc Anh. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Between the Acts (1941) là tiểu thuyết cuối cùng của Virginia Woolf, xuất bản vài tháng sau khi bà qua đời.",
+        "highlights": [
+          "Sinh ngày 25/1/1882.",
+          "Between the Acts (1941) là tiểu thuyết cuối cùng của Virginia Woolf, xuất bản vài tháng sau khi bà qua đời."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q40909",
+          "https://www.britishlibrary.cn/en/authors/virginia-woolf/",
+          "https://snl.no/Virginia_Woolf"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      },
+      "after": {
+        "shortDescription": "Nhà văn Anh, đồng sáng lập Hogarth Press và tác giả Mrs Dalloway.",
+        "biography": "Virginia Woolf là nhà văn Anh và một trong những tác giả hiện đại chủ nghĩa thế kỷ XX. Cùng chồng Leonard, bà lập Hogarth Press năm 1917; tiểu thuyết Mrs Dalloway xuất bản năm 1925. Bà mất ngày 28/3/1941.",
+        "highlights": [
+          "Virginia và Leonard Woolf bắt đầu Hogarth Press năm 1917.",
+          "Mrs Dalloway, tiểu thuyết thứ tư của Woolf, xuất bản năm 1925."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q40909",
+          "https://www.britishlibrary.cn/en/authors/virginia-woolf/",
+          "https://snl.no/Virginia_Woolf",
+          "https://virginiawoolfsociety.org.uk/resources/virginia-woolf-a-short-biography/",
+          "https://www.britishlibrary.cn/en/works/mrs-dalloway/"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "deceased",
+        "deathDate": "1941-03-28",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://www.britishlibrary.cn/en/authors/virginia-woolf/"
+        ]
+      },
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "woolf-bl-author"
+      ],
+      "statusSourceId": "woolf-bl-author"
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "alicia-keys",
+      "name": "Alicia Keys",
+      "wikidataId": "Q121507",
+      "birthDate": "1981-01-25",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "alicia-grammy",
+        "alicia-biography"
+      ],
+      "careerFactIds": [
+        "alicia-songs-in-a-minor-billboard-2001",
+        "alicia-kca-cofounder-2003"
+      ],
+      "wikidataCaptureId": "wd-alicia",
+      "selectedCountryQid": "Q30",
+      "selectedOccupationQids": [
+        "Q177220",
+        "Q486748"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q121507",
+        "https://www.grammy.com/artists/alicia-keys/12104/",
+        "https://www.biography.com/musicians/alicia-keys",
+        "https://www.keepachildalive.org/leadership/"
+      ],
+      "identityClaims": {
+        "label": "Alicia Keys",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "precision": null,
+            "calendar": null,
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1981-01-25T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "+1981-01-24T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "+1981-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "precision": null,
+            "calendar": null,
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q488205",
+            "precision": null,
+            "calendar": null,
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q486748",
+            "precision": null,
+            "calendar": null,
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q33999",
+            "precision": null,
+            "calendar": null,
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q36834",
+            "precision": null,
+            "calendar": null,
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q177220",
+            "precision": null,
+            "calendar": null,
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q10732476",
+            "precision": null,
+            "calendar": null,
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q177220",
+          "Q486748"
+        ]
+      },
+      "countryCode": "US",
+      "category": "music",
+      "occupation": [
+        "ca sĩ",
+        "nhạc sĩ",
+        "nghệ sĩ dương cầm"
+      ],
+      "birthplace": "New York, Hoa Kỳ",
+      "birthplaceEvidencePhrase": "in New York",
+      "fields": [
+        "design-creative",
+        "entrepreneurship"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "alicia-songs-in-a-minor-billboard-2001"
+          ],
+          "rationale": "Album đầu tay đứng đầu Billboard 200, thể hiện hoạt động sáng tạo âm nhạc có ghi nhận."
+        },
+        {
+          "field": "entrepreneurship",
+          "careerFactIds": [
+            "alicia-kca-cofounder-2003"
+          ],
+          "rationale": "Việc đồng sáng lập tổ chức hoạt động xã hội thể hiện vai trò xây dựng tổ chức."
+        }
+      ],
+      "reviewNotes": "Wikidata Q121507 currently has no English label and contains active exact P569 values for 24 and 25 January 1981. GRAMMY.com and Biography.com independently state 25 January; retain that date and record the competing claim.",
+      "after": {
+        "shortDescription": "Ca sĩ, nhạc sĩ Mỹ; album đầu tay Songs in A Minor đứng đầu Billboard 200.",
+        "biography": "Alicia Keys là ca sĩ, nhạc sĩ và nghệ sĩ dương cầm Mỹ. Album đầu tay Songs in A Minor (2001) đứng đầu Billboard 200; năm 2003, cô đồng sáng lập Keep a Child Alive.",
+        "highlights": [
+          "Album đầu tay Songs in A Minor của Alicia Keys đứng đầu Billboard 200.",
+          "Năm 2003, Alicia Keys đồng sáng lập Keep a Child Alive, tổ chức hỗ trợ trẻ em và gia đình bị ảnh hưởng bởi HIV."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q121507",
+          "https://www.grammy.com/artists/alicia-keys/12104/",
+          "https://www.biography.com/musicians/alicia-keys",
+          "https://www.keepachildalive.org/leadership/"
+        ],
+        "verifiedAt": "2026-10-08",
+        "fields": [
+          "design-creative",
+          "entrepreneurship"
+        ],
+        "birthplace": "New York, Hoa Kỳ",
+        "lifeStatus": "unknown",
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      }
+    },
+    {
+      "id": "joseph-louis-lagrange",
+      "name": "Joseph-Louis Lagrange",
+      "wikidataId": "Q80222",
+      "birthDate": "1736-01-25",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "1813-04-10",
+      "dobSourceIds": [
+        "lagrange-mactutor",
+        "lagrange-royalsociety"
+      ],
+      "careerFactIds": [
+        "lagrange-berlin-academy-1766",
+        "lagrange-mecanique-analytique-1788"
+      ],
+      "wikidataCaptureId": "wd-lagrange",
+      "selectedCountryQid": "Q142",
+      "selectedOccupationQids": [
+        "Q170790",
+        "Q1622272"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q80222",
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+        "https://www.senat.fr/connaitre-le-senat/lhistoire-du-senat/dossiers-dhistoire/sous-le-senat-de-lempire/joseph-louis-lagrange-comte-dempire-1736-1813.html",
+        "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=NA2872&src=CalmView.Persons"
+      ],
+      "identityClaims": {
+        "label": "Joseph-Louis Lagrange",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "precision": null,
+            "calendar": null,
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1736-01-25T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 10
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1813-04-10T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 9
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q142",
+            "precision": null,
+            "calendar": null,
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q165154",
+            "precision": null,
+            "calendar": null,
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q142",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q170790",
+            "precision": null,
+            "calendar": null,
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q11063",
+            "precision": null,
+            "calendar": null,
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q169470",
+            "precision": null,
+            "calendar": null,
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q82955",
+            "precision": null,
+            "calendar": null,
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "precision": null,
+            "calendar": null,
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "precision": null,
+            "calendar": null,
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q20919317",
+            "precision": null,
+            "calendar": null,
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3519259",
+            "precision": null,
+            "calendar": null,
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q170790",
+          "Q1622272"
+        ]
+      },
+      "wikidataLabel": "Joseph-Louis Lagrange",
+      "countryCode": "FR",
+      "category": "scientist",
+      "occupation": [
+        "nhà toán học",
+        "nhà thiên văn"
+      ],
+      "birthplace": "Turin, Italy",
+      "birthplaceEvidencePhrase": "now Italy",
+      "fields": [
+        "science-research"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "science-research",
+          "careerFactIds": [
+            "lagrange-berlin-academy-1766",
+            "lagrange-mecanique-analytique-1788"
+          ],
+          "rationale": "Nguồn học thuật và hồ sơ Royal Society ghi nhận đóng góp của Lagrange trong toán học và cơ học."
+        }
+      ],
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "lagrange-mactutor",
+        "lagrange-senate"
+      ],
+      "statusSourceId": "lagrange-mactutor",
+      "after": {
+        "shortDescription": "Nhà toán học và nhà thiên văn Pháp, có đóng góp lớn cho cơ học và giải tích.",
+        "biography": "Joseph-Louis Lagrange là nhà toán học và nhà thiên văn người Pháp, sinh tại Turin. Năm 1766, ông kế nhiệm Leonhard Euler làm giám đốc bộ phận Toán tại Viện Hàn lâm Berlin; năm 1788, ông xuất bản chuyên luận Mécanique analytique.",
+        "highlights": [
+          "Năm 1766, Lagrange kế nhiệm Euler làm giám đốc bộ phận Toán tại Viện Hàn lâm Berlin.",
+          "Năm 1788, Lagrange xuất bản chuyên luận Mécanique analytique."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q80222",
+          "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+          "https://www.senat.fr/connaitre-le-senat/lhistoire-du-senat/dossiers-dhistoire/sous-le-senat-de-lempire/joseph-louis-lagrange-comte-dempire-1736-1813.html",
+          "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=NA2872&src=CalmView.Persons"
+        ],
+        "verifiedAt": "2026-10-08",
+        "fields": [
+          "science-research"
+        ],
+        "deathDate": "1813-04-10",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+          "https://www.senat.fr/connaitre-le-senat/lhistoire-du-senat/dossiers-dhistoire/sous-le-senat-de-lempire/joseph-louis-lagrange-comte-dempire-1736-1813.html"
+        ],
+        "lifeStatus": "deceased",
+        "birthplace": "Turin, Italy"
+      }
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "nguyen-bishop-auxiliary-2013",
+      "profileId": "nguyen-huu-long",
+      "displayText": "Ngày 15/6/2013, Tòa Thánh bổ nhiệm ngài làm giám mục phụ tá Hưng Hóa.",
+      "sourceId": "nguyen-vatican-2013",
+      "evidencePhrase": "Il Papa ha nominato Ausiliare della diocesi di Hung Hoá"
+    },
+    {
+      "id": "nguyen-bishop-vinh-2018",
+      "profileId": "nguyen-huu-long",
+      "displayText": "Ngày 22/12/2018, Tòa Thánh bổ nhiệm ngài làm giám mục Vinh.",
+      "sourceId": "nguyen-vatican-2018",
+      "evidencePhrase": "ha nominato Vescovo di Vinh (Vietnam) S.E. Mons. Alphonse Nguyên Huu Long"
+    },
+    {
+      "id": "burns-poems-kilmarnock-1786",
+      "profileId": "robert-burns",
+      "displayText": "Tập thơ đầu tiên của Burns được John Wilson in tại Kilmarnock vào tháng 7/1786.",
+      "sourceId": "burns-nls",
+      "evidencePhrase": "Printed by John Wilson of Kilmarnock in July 1786"
+    },
+    {
+      "id": "burns-letter-moore-1787",
+      "profileId": "robert-burns",
+      "displayText": "Năm 1787, Burns gửi bác sĩ John Moore một bức thư tự thuật về cuộc đời mình.",
+      "sourceId": "burns-nls",
+      "evidencePhrase": "Scottish poet Robert Burns sent a letter to his friend John Moore"
+    },
+    {
+      "id": "woolf-hogarth-press-1917",
+      "profileId": "virginia-woolf",
+      "displayText": "Virginia và Leonard Woolf bắt đầu Hogarth Press năm 1917.",
+      "sourceId": "woolf-vws",
+      "evidencePhrase": "Hogarth Press which Virginia had started with her husband Leonard in 1917"
+    },
+    {
+      "id": "woolf-mrs-dalloway-1925",
+      "profileId": "virginia-woolf",
+      "displayText": "Mrs Dalloway, tiểu thuyết thứ tư của Woolf, xuất bản năm 1925.",
+      "sourceId": "woolf-bl-mrs-dalloway",
+      "evidencePhrase": "In her fourth novel, Mrs Dalloway (1925)"
+    },
+    {
+      "id": "alicia-songs-in-a-minor-billboard-2001",
+      "profileId": "alicia-keys",
+      "displayText": "Album đầu tay Songs in A Minor của Alicia Keys đứng đầu Billboard 200.",
+      "sourceId": "alicia-grammy",
+      "evidencePhrase": "Songs In A Minor , which topped the Billboard 200"
+    },
+    {
+      "id": "alicia-kca-cofounder-2003",
+      "profileId": "alicia-keys",
+      "displayText": "Năm 2003, Alicia Keys đồng sáng lập Keep a Child Alive, tổ chức hỗ trợ trẻ em và gia đình bị ảnh hưởng bởi HIV.",
+      "sourceId": "alicia-grammy",
+      "evidencePhrase": "In 2003 Keys co-founded Keep a Child Alive"
+    },
+    {
+      "id": "lagrange-berlin-academy-1766",
+      "profileId": "joseph-louis-lagrange",
+      "displayText": "Năm 1766, Lagrange kế nhiệm Euler làm giám đốc bộ phận Toán tại Viện Hàn lâm Berlin.",
+      "sourceId": "lagrange-senate",
+      "evidencePhrase": "succède à Euler comme directeur de la section mathématiques de l'Académie des sciences de Berlin"
+    },
+    {
+      "id": "lagrange-mecanique-analytique-1788",
+      "profileId": "joseph-louis-lagrange",
+      "displayText": "Năm 1788, Lagrange xuất bản chuyên luận Mécanique analytique.",
+      "sourceId": "lagrange-royalsociety",
+      "evidencePhrase": "published 'Mecanique analytique' (1788)"
+    }
+  ],
+  "wikidataReview": {
+    "conflicts": [
+      {
+        "profileId": "alicia-keys",
+        "property": "P569",
+        "claimValue": "+1981-01-24T00:00:00Z",
+        "resolution": "date-confirmed",
+        "reviewNote": "The captured Q121507 entity has active precise P569 claims for 24 and 25 January 1981. Two independent publisher hosts, the Recording Academy and Biography.com, state 25 January 1981, so the profile retains 25 January and records the competing claim as resolved.",
+        "sourceIds": [
+          "alicia-grammy",
+          "alicia-biography"
+        ]
+      }
+    ]
+  }
+}
