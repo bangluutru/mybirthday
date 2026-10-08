@@ -1,0 +1,1210 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-20",
+  "sourceCaptures": [
+    {
+      "id": "pham-vpf-dob",
+      "url": "https://vpf.vn/player/pham-duc-huy/",
+      "publisher": "VPF - Vietnam Professional Football",
+      "publisherHost": "vpf.vn",
+      "status": 200,
+      "bytesRead": 623440,
+      "sha256": "e7b87f324fa17d63e5510570b1676b569798553aeca56ce5275445cd00a84e4b",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Năm sinh: 20-01-1995 Quốc tịch: Việt Nam",
+      "excerptSha256": "19e86dd0c90abb90180902eeea89fcbf60b475ee9d2c6c5c3b0af5ed0d701f91"
+    },
+    {
+      "id": "pham-vpf-vleague",
+      "url": "https://vpf.vn/player/pham-duc-huy/",
+      "publisher": "VPF - Vietnam Professional Football",
+      "publisherHost": "vpf.vn",
+      "status": 200,
+      "bytesRead": 623440,
+      "sha256": "e7b87f324fa17d63e5510570b1676b569798553aeca56ce5275445cd00a84e4b",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Vô địch quốc gia Wake-up 247 V.League 1 – 2019 Hà Nội 17 17 0 0 0 0 1 0",
+      "excerptSha256": "fd5fbcae0227464698bcdf7d9859d462e64dee542cd86644d8450972b9116098"
+    },
+    {
+      "id": "pham-vpf-cup",
+      "url": "https://vpf.vn/player/pham-duc-huy/",
+      "publisher": "VPF - Vietnam Professional Football",
+      "publisherHost": "vpf.vn",
+      "status": 200,
+      "bytesRead": 623440,
+      "sha256": "e7b87f324fa17d63e5510570b1676b569798553aeca56ce5275445cd00a84e4b",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Cúp quốc gia Cúp Quốc Gia Bamboo Airways 2019 Hà Nội 3 3 0 0 0 2 0 0",
+      "excerptSha256": "8a8f91d987cc9f999affe75846d4d3e6688c190481f1f17b518f051efd9eef8a"
+    },
+    {
+      "id": "pham-afc-dob",
+      "url": "https://assets.the-afc.com/migration/2/0/20190116%20AC2019%20Final%20Squads.pdf",
+      "publisher": "Asian Football Confederation",
+      "publisherHost": "assets.the-afc.com",
+      "status": 200,
+      "bytesRead": 2514381,
+      "sha256": "47ab471964f059e0bedac1951feb87563085fbbaaa2af1f17cb5d80cd0eaa463",
+      "verificationMethod": "direct-http-pdf-selected-excerpt",
+      "excerpt": "PHAM DUC HUY 20/1/1995",
+      "excerptSha256": "62b4dca293fe0a6bfd6d2ed8fc4691a1aa2d3efadce9d3add2e2fb7c10574031"
+    },
+    {
+      "id": "buzz-nasa-dob",
+      "url": "https://www.nasa.gov/wp-content/uploads/static/history/ap11ann/astrobios.htm",
+      "publisher": "NASA History Office",
+      "publisherHost": "www.nasa.gov",
+      "status": 200,
+      "bytesRead": 35229,
+      "sha256": "206e54d1d2770f7791f58c6353436bb22f9407767a316ec8361f025c2a824f42",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Edwin E. Aldrin, Jr. (1930- ) was born in Montclair, New Jersey, on 20 January 1930.",
+      "excerptSha256": "83efba33b1bbcd0e6eecb552f6d3769e0a7df169de6fa7a2f40902a2e82aeb31"
+    },
+    {
+      "id": "buzz-nasa-apollo",
+      "url": "https://www.nasa.gov/wp-content/uploads/static/history/ap11ann/astrobios.htm",
+      "publisher": "NASA History Office",
+      "publisherHost": "www.nasa.gov",
+      "status": 200,
+      "bytesRead": 35229,
+      "sha256": "206e54d1d2770f7791f58c6353436bb22f9407767a316ec8361f025c2a824f42",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Aldrin, a systems expert, was the Lunar Module pilot and became the second person to walk on the Moon.",
+      "excerptSha256": "88f10f7e5fc578c346b15b3e6c7b462f3482d395037283e1a3bca9c01ef7fab5"
+    },
+    {
+      "id": "buzz-govinfo-dob",
+      "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1969-pt15/pdf/GPO-CRECB-1969-pt15-1-3.pdf",
+      "publisher": "U.S. Government Publishing Office - Congressional Record",
+      "publisherHost": "www.govinfo.gov",
+      "status": 200,
+      "bytesRead": 41088484,
+      "sha256": "ff16c742fdbd8a32b931337e16d3df864f9c171c1643b43dab8cf2d0baa0be07",
+      "verificationMethod": "direct-http-pdf-column-reassembled-excerpt",
+      "excerpt": "Buzz was born in Montclair, N.J., Jan. 20, 1930",
+      "excerptSha256": "5a659d76b6cca7de562853526e330bb415a171483b5f8c1336b398e842975d1b"
+    },
+    {
+      "id": "buzz-smithsonian-gemini",
+      "url": "https://airandspace.si.edu/explore/stories/buzz-aldrin",
+      "publisher": "Smithsonian National Air and Space Museum",
+      "publisherHost": "airandspace.si.edu",
+      "status": 200,
+      "bytesRead": 279675,
+      "sha256": "7223dc7f2c29971331737691d9ac241881a9faba186b73add9e80da801749cfc",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Aldrin performed three EVAs (extravehicular activity, activity outside the spacecraft) including spending over five hours on a spacewalk.",
+      "excerptSha256": "968f0b8a672aa75887b10dbfd10b5ff6ea7f1db17b93158f989a5a6807172ac8"
+    },
+    {
+      "id": "fellini-museum-dob",
+      "url": "https://fellinimuseum.it/en/fellini/",
+      "publisher": "Fellini Museum",
+      "publisherHost": "fellinimuseum.it",
+      "status": 200,
+      "bytesRead": 122311,
+      "sha256": "4c729ce5e3e20bd6fcfde70cd8db0b3042021c59f4977741c053063bb27160b0",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Federico Fellini (Rimini, 20 January 1920 – Rome, 31 October 1993)",
+      "excerptSha256": "eb32e1bdf148581861ffa86a58941f96e6ee3375e511ba6880c26663c8861ae7"
+    },
+    {
+      "id": "fellini-treccani-dob",
+      "url": "https://www.treccani.it/enciclopedia/federico-fellini_%28Dizionario-Biografico%29/",
+      "publisher": "Treccani - Dizionario Biografico",
+      "publisherHost": "www.treccani.it",
+      "status": 200,
+      "bytesRead": 290760,
+      "sha256": "ff60ad3044312612c225e87dd2a2af7863db06d3c0af554ebb45b10738822cfe",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Nacque a Rimini il 20 gennaio 1920 da Urbano (1894-1956) e da Ida Barbiani",
+      "excerptSha256": "c51bfe5d07039748980a849aed51e278780d2f1e8c5725a022eda8140e56211e"
+    },
+    {
+      "id": "fellini-museum-white-sheik",
+      "url": "https://fellinimuseum.it/en/fellini/",
+      "publisher": "Fellini Museum",
+      "publisherHost": "fellinimuseum.it",
+      "status": 200,
+      "bytesRead": 122311,
+      "sha256": "4c729ce5e3e20bd6fcfde70cd8db0b3042021c59f4977741c053063bb27160b0",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "The first film of Federico Fellini as a director, “Lo sceicco bianco” (1952)",
+      "excerptSha256": "a2c9ef945d725c4b614888d7793cf0b2685b3a5967e6612d5738e4eb3d9d4e14"
+    },
+    {
+      "id": "fellini-museum-vitelloni",
+      "url": "https://fellinimuseum.it/en/fellini/",
+      "publisher": "Fellini Museum",
+      "publisherHost": "fellinimuseum.it",
+      "status": 200,
+      "bytesRead": 122311,
+      "sha256": "4c729ce5e3e20bd6fcfde70cd8db0b3042021c59f4977741c053063bb27160b0",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "“I vitelloni” (1953), which won the Silver Lion at Venice Film Festival",
+      "excerptSha256": "a13358d8d8d37217fdd06ffc05447b18d66fcbe4325d060bd76b52bace10abc5"
+    },
+    {
+      "id": "chandra-most-dob",
+      "url": "https://most.gov.lk/web/index.php?Itemid=116&catid=2&id=17%3Aachievements-of-sri-lankan-scientists&lang=en&option=com_content&view=article",
+      "publisher": "Ministry of Science and Technology of Sri Lanka",
+      "publisherHost": "most.gov.lk",
+      "status": 200,
+      "bytesRead": 84061,
+      "sha256": "a47038a1ba6cde1209ed63a190bc07b78b280168170d93a1f2ffc08075706cd2",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Nalin Chandra Wickramasinghe (born 20 January 1939, Colombo)",
+      "excerptSha256": "c2fd8721aa1fb1f600d4000ea86d314ada77950f69b23b1e84bc53c2878d9602"
+    },
+    {
+      "id": "chandra-royal-dob",
+      "url": "https://royalcollege.lk/wp-content/uploads/2021/09/RAVE21-Magazine.pdf",
+      "publisher": "Royal College Colombo",
+      "publisherHost": "royalcollege.lk",
+      "status": 200,
+      "bytesRead": 7058710,
+      "sha256": "355ab8dbd91b322ec6c9b64a0012fee9c1b7085a1a5ee30851af37ae9c9a03d6",
+      "verificationMethod": "direct-http-pdf-selected-excerpt",
+      "excerpt": "Professor Nalin Chandra Wickramasinghe (born 20th January 1939)",
+      "excerptSha256": "af7374eb664759bdff5b46e9dbfe7709f7e63be63731f44c21296dde71bf1ade"
+    },
+    {
+      "id": "chandra-buckingham-dust",
+      "url": "https://www.buckingham.ac.uk/directory/professor-chandra-wickramasinghe/",
+      "publisher": "University of Buckingham",
+      "publisherHost": "www.buckingham.ac.uk",
+      "status": 200,
+      "bytesRead": 141029,
+      "sha256": "82d28f87248691a836e03c20d62a0ba722c01da1a0561d14caca7606866b1719",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Here he began his pioneering work on the nature of Interstellar Dust",
+      "excerptSha256": "20a58ba618c3f8c2cc35140a732e65d1826db1430c9675e880f8f18a0cb89608"
+    },
+    {
+      "id": "chandra-buckingham-book",
+      "url": "https://www.buckingham.ac.uk/directory/professor-chandra-wickramasinghe/",
+      "publisher": "University of Buckingham",
+      "publisherHost": "www.buckingham.ac.uk",
+      "status": 200,
+      "bytesRead": 141029,
+      "sha256": "82d28f87248691a836e03c20d62a0ba722c01da1a0561d14caca7606866b1719",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "He published the first definitive book on Interstellar Grains in 1967",
+      "excerptSha256": "f6a54b3f2773c6cad1a93cdbb1bb687545aae3d28a2e03b011b2f47a63ec14f3"
+    },
+    {
+      "id": "lynch-tv-dob",
+      "url": "https://www.televisionacademy.com/bios/david-lynch",
+      "publisher": "Television Academy",
+      "publisherHost": "www.televisionacademy.com",
+      "status": 200,
+      "bytesRead": 351989,
+      "sha256": "1c00a38b78bdbc0b579d23ab376eece85309ebc33aecad4d5f21df0a8f456bf0",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Birthday January 20, 1946 Birthplace Missoula, Montana",
+      "excerptSha256": "a437efbd9970380d57dd9cd4c41245028caefeb1a63308a0c6454128ec3aa7ec"
+    },
+    {
+      "id": "lynch-tv-death",
+      "url": "https://www.televisionacademy.com/bios/david-lynch",
+      "publisher": "Television Academy",
+      "publisherHost": "www.televisionacademy.com",
+      "status": 200,
+      "bytesRead": 351989,
+      "sha256": "1c00a38b78bdbc0b579d23ab376eece85309ebc33aecad4d5f21df0a8f456bf0",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Date of Passing January 16, 2025",
+      "excerptSha256": "1abf609505d2cae959a3627dad8aff632cfc1d7a596036bf26c82244c8de13b0"
+    },
+    {
+      "id": "lynch-tv-foundation",
+      "url": "https://www.televisionacademy.com/bios/david-lynch",
+      "publisher": "Television Academy",
+      "publisherHost": "www.televisionacademy.com",
+      "status": 200,
+      "bytesRead": 351989,
+      "sha256": "1c00a38b78bdbc0b579d23ab376eece85309ebc33aecad4d5f21df0a8f456bf0",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "He launched the David Lynch Foundation For Consciousness-Based Education and Peace in 2005",
+      "excerptSha256": "3f5c288fff7b4311c6d829f609c1f5c62cf0299f0a832529f327c64f49a306a8"
+    },
+    {
+      "id": "lynch-guardian-dob-death",
+      "url": "https://www.theguardian.com/film/2025/jan/17/david-lynch-obituary",
+      "publisher": "The Guardian",
+      "publisherHost": "www.theguardian.com",
+      "status": 200,
+      "bytesRead": 515696,
+      "sha256": "d0a3ece7a3976d49c93a122c7212536ddb14164a0ff706886aa66a481bec5dd6",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "David Keith Lynch, director, born 20 January 1946; died 16 January 2025",
+      "excerptSha256": "f9f27a753608bb5fd3598b9430ea612026cb40176d5373eee2a5c74202ca41c6"
+    },
+    {
+      "id": "lynch-oscars-eraserhead",
+      "url": "https://www.oscars.org/governors-awards/2019/david-lynch",
+      "publisher": "Academy of Motion Picture Arts and Sciences",
+      "publisherHost": "www.oscars.org",
+      "status": 200,
+      "bytesRead": 42927,
+      "sha256": "a45b3b6082d8be4039435914b437aee86385c74e60eb5208d91e6dc25130aef7",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "He wrote, produced and directed his first full-length feature film, “Eraserhead,” in 1977",
+      "excerptSha256": "62e04cb6cf499abfb621cd6dbd89179f6d7bc75f19c8cbd7c7665a11e4268705"
+    },
+    {
+      "id": "pham-duc-huy-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q22162740.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 18435,
+      "sha256": "fefc826e081d1a8652a8d453ca98b0f9ed565182a4e48d202c07acf6afa3c0c7",
+      "verificationMethod": "direct-http-json-entity-snapshot",
+      "excerpt": "Q22162740 Phạm Đức Huy | P31: normal Q5 references 0 | P569: normal +1995-01-20T00:00:00Z precision 11 calendar Q1985727 references 1 | P570: none | P27: normal Q881 references 0 | P106: normal Q937857 references 0",
+      "excerptSha256": "5fcf13e12727f62f7d4cced8704c4834e19199c4638937e26836e79564d34095"
+    },
+    {
+      "id": "buzz-aldrin-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q2252.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 209647,
+      "sha256": "62543baf7073f7f8a0090353336295701b161043e3fa09c161c6a77745a28659",
+      "verificationMethod": "direct-http-json-entity-snapshot",
+      "excerpt": "Q2252 Buzz Aldrin | P31: normal Q5 references 2 | P569: normal +1930-01-20T00:00:00Z precision 11 calendar Q1985727 references 9 | P570: none | P27: normal Q30 references 1 | P106: normal Q19934710 references 0; normal Q618694 references 0; normal Q11631 references 2; normal Q18814623 references 1; normal Q18844224 references 0; normal Q81096 references 1; normal Q43845 references 1",
+      "excerptSha256": "4b79f9e845c0c9d010c50c095f6534fd3a1c787b2fc1ee78fd775b225e4f1acc"
+    },
+    {
+      "id": "federico-fellini-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q7371.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 305183,
+      "sha256": "96c05bbb5b75d8363fd795812943c514f25dc78b0143020e3cb140c4acc4d785",
+      "verificationMethod": "direct-http-json-entity-snapshot",
+      "excerpt": "Q7371 Federico Fellini | P31: normal Q5 references 5 | P569: normal +1920-01-20T00:00:00Z precision 11 calendar Q1985727 references 17 | P570: normal +1993-10-31T00:00:00Z precision 11 calendar Q1985727 references 13 | P27: normal Q38 references 0 | P106: normal Q2526255 references 0; normal Q28389 references 2; normal Q9334029 references 0; normal Q36180 references 1; normal Q3455803 references 5; normal Q482980 references 1; normal Q69423232 references 0; normal Q15296811 references 1; normal Q1930187 references 1",
+      "excerptSha256": "8526719aea59cff60cefe06851a03acf7ce4c1e77aa9258eb92e8f2a708285a1"
+    },
+    {
+      "id": "chandra-wickramasinghe-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q765741.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 74957,
+      "sha256": "47a2de1e76fa89c187a575120d18e45259dd35d43a61de7e0bd1e015569d7137",
+      "verificationMethod": "direct-http-json-entity-snapshot",
+      "excerpt": "Q765741 Chandra Wickramasinghe | P31: normal Q5 references 1 | P569: preferred +1939-01-20T00:00:00Z precision 11 calendar Q1985727 references 2; normal +1939-01-00T00:00:00Z precision 10 calendar Q1985727 references 1 | P570: none | P27: normal Q854 references 0; normal Q145 references 1 | P106: normal Q11063 references 1; normal Q752129 references 1; normal Q1622272 references 1; normal Q170790 references 0; normal Q169470 references 1",
+      "excerptSha256": "a251e7c9ff0341dcd11f824e76b6718e24d174f51f77f7755a6f226e44a74957"
+    },
+    {
+      "id": "david-lynch-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q2071.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 259402,
+      "sha256": "dd4b645792a2639b0de05d22c66f18dcd0a6793e2e594d74a6b2832c7505735b",
+      "verificationMethod": "direct-http-json-entity-snapshot",
+      "excerpt": "Q2071 David Lynch | P31: normal Q5 references 2 | P569: normal +1946-01-20T00:00:00Z precision 11 calendar Q1985727 references 9 | P570: normal +2025-01-16T00:00:00Z precision 11 calendar Q1985727 references 3 | P27: normal Q30 references 0 | P106: normal Q2526255 references 2; normal Q33999 references 0; normal Q36834 references 1; normal Q2405480 references 0; normal Q1028181 references 2; normal Q7042855 references 0; normal Q10798782 references 0; normal Q822146 references 0; normal Q10800557 references 0; normal Q3282637 references 2; normal Q33231 references 1; normal Q3455803 references 1; normal Q753110 references 0; normal Q222344 references 0; normal Q639669 references 1; normal Q69423232 references 1; normal Q36180 references 0; normal Q266569 references 0; normal Q177220 references 1; normal Q1414443 references 0",
+      "excerptSha256": "06bb068eeebda7a9be3d80f2019d65ff8c90ce9a014b98fc9ea5772dfe35ac53"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "pham-duc-huy",
+      "name": "Phạm Đức Huy",
+      "wikidataId": "Q22162740",
+      "birthDate": "1995-01-20",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "deathDatePrecision": null,
+      "dobSourceIds": [
+        "pham-vpf-dob",
+        "pham-afc-dob"
+      ],
+      "statusSourceId": null,
+      "deathDateSourceIds": [],
+      "careerFactIds": [
+        "pham-vpf-2019-league",
+        "pham-vpf-2019-cup"
+      ],
+      "countryCode": "VN",
+      "category": "athlete",
+      "occupation": [
+        "cầu thủ bóng đá"
+      ],
+      "fields": [],
+      "fieldEvidence": [],
+      "wikidataCaptureId": "pham-duc-huy-wikidata",
+      "wikidataLabel": "Phạm Đức Huy",
+      "identityClaims": {
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 0
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1995-01-20T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q937857",
+            "references": 0
+          }
+        ],
+        "label": "Phạm Đức Huy",
+        "selectedCountryQid": "Q881",
+        "selectedOccupationQids": [
+          "Q937857"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q22162740",
+        "https://assets.the-afc.com/migration/2/0/20190116%20AC2019%20Final%20Squads.pdf",
+        "https://vpf.vn/player/pham-duc-huy/"
+      ],
+      "before": {
+        "biography": "Phạm Đức Huy là cầu thủ bóng đá người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Tại Cúp Quốc gia 2019, Phạm Đức Huy ghi 2 bàn cho Hà Nội.",
+        "highlights": [
+          "Sinh ngày 20/1/1995.",
+          "Tại Cúp Quốc gia 2019, Phạm Đức Huy ghi 2 bàn cho Hà Nội."
+        ],
+        "fields": null,
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q22162740",
+          "https://assets.the-afc.com/migration/2/0/20190116%20AC2019%20Final%20Squads.pdf",
+          "https://vpf.vn/player/pham-duc-huy/"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null
+      },
+      "after": {
+        "biography": "Phạm Đức Huy là tiền vệ bóng đá Việt Nam. Hồ sơ của VPF ghi anh ra sân 17 trận cho Hà Nội tại V.League 1 mùa 2019; ở Cúp Quốc gia Bamboo Airways 2019, anh thi đấu 3 trận và ghi 2 bàn.",
+        "highlights": [
+          "Tại V.League 1 năm 2019, Đức Huy ra sân 17 trận cho Hà Nội.",
+          "Ở Cúp Quốc gia Bamboo Airways 2019, Đức Huy thi đấu 3 trận và ghi 2 bàn cho Hà Nội."
+        ],
+        "fields": null,
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q22162740",
+          "https://assets.the-afc.com/migration/2/0/20190116%20AC2019%20Final%20Squads.pdf",
+          "https://vpf.vn/player/pham-duc-huy/"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "unknown",
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      }
+    },
+    {
+      "id": "buzz-aldrin",
+      "name": "Buzz Aldrin",
+      "wikidataId": "Q2252",
+      "birthDate": "1930-01-20",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "deathDatePrecision": null,
+      "dobSourceIds": [
+        "buzz-nasa-dob",
+        "buzz-govinfo-dob"
+      ],
+      "statusSourceId": null,
+      "deathDateSourceIds": [],
+      "careerFactIds": [
+        "buzz-apollo11-lunar-module",
+        "buzz-gemini12-evas"
+      ],
+      "countryCode": "US",
+      "category": "scientist",
+      "occupation": [
+        "phi hành gia"
+      ],
+      "fields": [
+        "technology-engineering"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "technology-engineering",
+          "careerFactIds": [
+            "buzz-apollo11-lunar-module",
+            "buzz-gemini12-evas"
+          ],
+          "rationale": "Các nhiệm vụ Apollo và Gemini, gồm điều khiển mô-đun Mặt Trăng và hoạt động ngoài tàu, thuộc lịch sử kỹ thuật hàng không vũ trụ."
+        }
+      ],
+      "wikidataCaptureId": "buzz-aldrin-wikidata",
+      "wikidataLabel": "Buzz Aldrin",
+      "identityClaims": {
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1930-01-20T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 9
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q19934710",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q618694",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q11631",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q18814623",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q18844224",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q81096",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q43845",
+            "references": 1
+          }
+        ],
+        "label": "Buzz Aldrin",
+        "selectedCountryQid": "Q30",
+        "selectedOccupationQids": [
+          "Q11631"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q2252",
+        "https://www.nasa.gov/wp-content/uploads/static/history/ap11ann/astrobios.htm",
+        "https://www.govinfo.gov/content/pkg/GPO-CRECB-1969-pt15/pdf/GPO-CRECB-1969-pt15-1-3.pdf",
+        "https://airandspace.si.edu/explore/stories/buzz-aldrin"
+      ],
+      "before": {
+        "biography": "Buzz Aldrin là phi hành gia người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Buzz Aldrin đảm nhiệm vị trí phi công mô-đun Mặt Trăng của Apollo 11 và là người thứ hai đặt chân lên Mặt Trăng.",
+        "highlights": [
+          "Sinh ngày 20/1/1930.",
+          "Buzz Aldrin đảm nhiệm vị trí phi công mô-đun Mặt Trăng của Apollo 11 và là người thứ hai đặt chân lên Mặt Trăng."
+        ],
+        "fields": null,
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q2252",
+          "https://history.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.crew.html",
+          "https://www.congress.gov/91/crecb/1969/07/15/GPO-CRECB-1969-pt15-1-3.pdf"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null
+      },
+      "after": {
+        "biography": "Buzz Aldrin là phi hành gia Hoa Kỳ. Trong Apollo 11, ông điều khiển mô-đun Mặt Trăng và trở thành người thứ hai đặt chân lên Mặt Trăng. Trên Gemini XII, ông thực hiện ba lần hoạt động ngoài tàu với tổng thời gian hơn năm giờ.",
+        "highlights": [
+          "Trong Apollo 11, Buzz Aldrin điều khiển mô-đun Mặt Trăng và là người thứ hai đặt chân lên Mặt Trăng.",
+          "Trên Gemini XII, Aldrin thực hiện ba lần hoạt động ngoài tàu, với tổng thời gian hơn năm giờ."
+        ],
+        "fields": [
+          "technology-engineering"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q2252",
+          "https://www.nasa.gov/wp-content/uploads/static/history/ap11ann/astrobios.htm",
+          "https://www.govinfo.gov/content/pkg/GPO-CRECB-1969-pt15/pdf/GPO-CRECB-1969-pt15-1-3.pdf",
+          "https://airandspace.si.edu/explore/stories/buzz-aldrin"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "unknown",
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      }
+    },
+    {
+      "id": "federico-fellini",
+      "name": "Federico Fellini",
+      "wikidataId": "Q7371",
+      "birthDate": "1920-01-20",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "1993-10-31",
+      "deathDatePrecision": "day",
+      "dobSourceIds": [
+        "fellini-museum-dob",
+        "fellini-treccani-dob"
+      ],
+      "statusSourceId": "fellini-museum-dob",
+      "deathDateSourceIds": [
+        "fellini-museum-dob"
+      ],
+      "careerFactIds": [
+        "fellini-white-sheik",
+        "fellini-vitelloni-silver-lion"
+      ],
+      "countryCode": "IT",
+      "category": "artist",
+      "occupation": [
+        "đạo diễn phim và biên kịch"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "fellini-white-sheik",
+            "fellini-vitelloni-silver-lion"
+          ],
+          "rationale": "Đạo diễn phim truyện và thành tựu tại Liên hoan phim Venice là đóng góp trực tiếp của Fellini vào lĩnh vực sáng tạo điện ảnh."
+        }
+      ],
+      "wikidataCaptureId": "federico-fellini-wikidata",
+      "wikidataLabel": "Federico Fellini",
+      "identityClaims": {
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 5
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1920-01-20T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 17
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1993-10-31T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 13
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q38",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q2526255",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q9334029",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3455803",
+            "references": 5
+          },
+          {
+            "rank": "normal",
+            "value": "Q482980",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q69423232",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q15296811",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1930187",
+            "references": 1
+          }
+        ],
+        "label": "Federico Fellini",
+        "selectedCountryQid": "Q38",
+        "selectedOccupationQids": [
+          "Q2526255",
+          "Q28389"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q7371",
+        "https://fellinimuseum.it/en/fellini/",
+        "https://www.treccani.it/enciclopedia/federico-fellini_%28Dizionario-Biografico%29/"
+      ],
+      "before": {
+        "biography": "Federico Fellini là đạo diễn phim và biên kịch người Ý. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Bộ phim I vitelloni (1953) của Federico Fellini giành Sư tử Bạc tại Venice và góp phần đưa Alberto Sordi đến với thành công lớn.",
+        "highlights": [
+          "Sinh ngày 20/1/1920.",
+          "Bộ phim I vitelloni (1953) của Federico Fellini giành Sư tử Bạc tại Venice và góp phần đưa Alberto Sordi đến với thành công lớn."
+        ],
+        "fields": null,
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q7371",
+          "https://fellinimuseum.it/fellini/",
+          "https://turismoroma.it/en/node/43343"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      },
+      "after": {
+        "biography": "Federico Fellini là đạo diễn phim và biên kịch người Ý. Tác phẩm đầu tiên ông đạo diễn là Lo sceicco bianco (1952); I vitelloni (1953) sau đó giành Sư tử Bạc tại Liên hoan phim Venice.",
+        "highlights": [
+          "Lo sceicco bianco (1952) là bộ phim đầu tiên Federico Fellini đạo diễn.",
+          "I vitelloni (1953) của Fellini giành Sư tử Bạc tại Liên hoan phim Venice."
+        ],
+        "fields": [
+          "design-creative"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q7371",
+          "https://fellinimuseum.it/en/fellini/",
+          "https://www.treccani.it/enciclopedia/federico-fellini_%28Dizionario-Biografico%29/"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "deceased",
+        "deathDate": "1993-10-31",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://fellinimuseum.it/en/fellini/"
+        ]
+      }
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "chandra-wickramasinghe",
+      "name": "Nalin Chandra Wickramasinghe",
+      "wikidataId": "Q765741",
+      "birthDate": "1939-01-20",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "deathDatePrecision": null,
+      "dobSourceIds": [
+        "chandra-most-dob",
+        "chandra-royal-dob"
+      ],
+      "statusSourceId": null,
+      "deathDateSourceIds": [],
+      "careerFactIds": [
+        "chandra-cambridge-interstellar-dust",
+        "chandra-interstellar-grains-book"
+      ],
+      "countryCode": "LK",
+      "category": "scientist",
+      "occupation": [
+        "nhà toán học",
+        "nhà thiên văn học",
+        "nhà sinh học vũ trụ"
+      ],
+      "fields": [
+        "science-research"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "science-research",
+          "careerFactIds": [
+            "chandra-cambridge-interstellar-dust",
+            "chandra-interstellar-grains-book"
+          ],
+          "rationale": "Các nghiên cứu tại Cambridge về bụi liên sao và công trình chuyên khảo năm 1967 thuộc khoa học thiên văn và nghiên cứu liên ngành."
+        }
+      ],
+      "wikidataCaptureId": "chandra-wickramasinghe-wikidata",
+      "wikidataLabel": "Chandra Wickramasinghe",
+      "identityClaims": {
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "preferred",
+            "value": "+1939-01-20T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "+1939-01-00T00:00:00Z",
+            "precision": 10,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q854",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q145",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q11063",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q752129",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q170790",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q169470",
+            "references": 1
+          }
+        ],
+        "label": "Chandra Wickramasinghe",
+        "selectedCountryQid": "Q854",
+        "selectedOccupationQids": [
+          "Q11063",
+          "Q170790",
+          "Q1622272"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q765741",
+        "https://most.gov.lk/web/index.php?Itemid=116&catid=2&id=17%3Aachievements-of-sri-lankan-scientists&lang=en&option=com_content&view=article",
+        "https://royalcollege.lk/wp-content/uploads/2021/09/RAVE21-Magazine.pdf",
+        "https://www.buckingham.ac.uk/directory/professor-chandra-wickramasinghe/"
+      ],
+      "birthplace": "Colombo, Sri Lanka",
+      "birthplaceEvidencePhrase": "Colombo",
+      "reviewNotes": "Wikidata also has a normal-rank P569 claim at month precision for January 1939; it agrees with the preferred exact day.",
+      "after": {
+        "shortDescription": "Nhà toán học và thiên văn học Sri Lanka; sinh ngày 20/1/1939.",
+        "biography": "Nalin Chandra Wickramasinghe là nhà toán học và nhà thiên văn học sinh tại Colombo, Sri Lanka, sau này hoạt động tại Anh. Ở Cambridge, ông nghiên cứu bụi liên sao; năm 1967, ông xuất bản cuốn sách đầu tiên mang tính chuẩn mực về hạt bụi liên sao.",
+        "highlights": [
+          "Tại Cambridge, Wickramasinghe bắt đầu nghiên cứu tiên phong về bản chất của bụi liên sao.",
+          "Năm 1967, ông xuất bản cuốn sách đầu tiên mang tính chuẩn mực về hạt bụi liên sao."
+        ],
+        "fields": [
+          "science-research"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q765741",
+          "https://most.gov.lk/web/index.php?Itemid=116&catid=2&id=17%3Aachievements-of-sri-lankan-scientists&lang=en&option=com_content&view=article",
+          "https://royalcollege.lk/wp-content/uploads/2021/09/RAVE21-Magazine.pdf",
+          "https://www.buckingham.ac.uk/directory/professor-chandra-wickramasinghe/"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "unknown",
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "birthplace": "Colombo, Sri Lanka",
+        "countryCode": "LK",
+        "category": "scientist",
+        "occupation": [
+          "nhà toán học",
+          "nhà thiên văn học",
+          "nhà sinh học vũ trụ"
+        ],
+        "image": "/people/placeholder.svg"
+      }
+    },
+    {
+      "id": "david-lynch",
+      "name": "David Lynch",
+      "wikidataId": "Q2071",
+      "birthDate": "1946-01-20",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "2025-01-16",
+      "deathDatePrecision": "day",
+      "dobSourceIds": [
+        "lynch-tv-dob",
+        "lynch-guardian-dob-death"
+      ],
+      "statusSourceId": "lynch-guardian-dob-death",
+      "deathDateSourceIds": [
+        "lynch-tv-death",
+        "lynch-guardian-dob-death"
+      ],
+      "careerFactIds": [
+        "lynch-eraserhead-feature",
+        "lynch-foundation"
+      ],
+      "countryCode": "US",
+      "category": "artist",
+      "occupation": [
+        "đạo diễn phim",
+        "biên kịch",
+        "nghệ sĩ"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "lynch-eraserhead-feature",
+            "lynch-foundation"
+          ],
+          "rationale": "Đạo diễn và nghệ thuật điện ảnh, cùng hoạt động sáng lập tổ chức văn hóa, thuộc lĩnh vực sáng tạo."
+        }
+      ],
+      "wikidataCaptureId": "david-lynch-wikidata",
+      "wikidataLabel": "David Lynch",
+      "identityClaims": {
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1946-01-20T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 9
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2025-01-16T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 3
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q2526255",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q33999",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36834",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2405480",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1028181",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q7042855",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q10798782",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q822146",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q10800557",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q3282637",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q33231",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3455803",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q753110",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q222344",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q69423232",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q266569",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q177220",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1414443",
+            "references": 0
+          }
+        ],
+        "label": "David Lynch",
+        "selectedCountryQid": "Q30",
+        "selectedOccupationQids": [
+          "Q2526255"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q2071",
+        "https://www.televisionacademy.com/bios/david-lynch",
+        "https://www.theguardian.com/film/2025/jan/17/david-lynch-obituary",
+        "https://www.oscars.org/governors-awards/2019/david-lynch"
+      ],
+      "birthplace": "Missoula, Montana, Hoa Kỳ",
+      "birthplaceEvidencePhrase": "Birthplace Missoula, Montana",
+      "reviewNotes": null,
+      "after": {
+        "shortDescription": "Đạo diễn và nghệ sĩ Hoa Kỳ; sinh ngày 20/1/1946, mất năm 2025.",
+        "biography": "David Lynch là đạo diễn, biên kịch và nghệ sĩ người Mỹ. Phim truyện dài đầu tiên do ông viết, sản xuất và đạo diễn là Eraserhead (1977). Năm 2005, ông thành lập David Lynch Foundation để phổ biến giáo dục dựa trên thiền định.",
+        "highlights": [
+          "Năm 1977, Lynch viết, sản xuất và đạo diễn phim truyện dài đầu tiên của mình, Eraserhead.",
+          "Năm 2005, David Lynch thành lập David Lynch Foundation."
+        ],
+        "fields": [
+          "design-creative"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q2071",
+          "https://www.televisionacademy.com/bios/david-lynch",
+          "https://www.theguardian.com/film/2025/jan/17/david-lynch-obituary",
+          "https://www.oscars.org/governors-awards/2019/david-lynch"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "deceased",
+        "deathDate": "2025-01-16",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://www.televisionacademy.com/bios/david-lynch",
+          "https://www.theguardian.com/film/2025/jan/17/david-lynch-obituary"
+        ],
+        "birthplace": "Missoula, Montana, Hoa Kỳ",
+        "countryCode": "US",
+        "category": "artist",
+        "occupation": [
+          "đạo diễn phim",
+          "biên kịch",
+          "nghệ sĩ"
+        ],
+        "image": "/people/placeholder.svg"
+      }
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "pham-vpf-2019-league",
+      "profileId": "pham-duc-huy",
+      "displayText": "Tại V.League 1 năm 2019, Đức Huy ra sân 17 trận cho Hà Nội.",
+      "sourceId": "pham-vpf-vleague",
+      "evidencePhrase": "Wake-up 247 V.League 1 – 2019 Hà Nội 17 17"
+    },
+    {
+      "id": "pham-vpf-2019-cup",
+      "profileId": "pham-duc-huy",
+      "displayText": "Ở Cúp Quốc gia Bamboo Airways 2019, Đức Huy thi đấu 3 trận và ghi 2 bàn cho Hà Nội.",
+      "sourceId": "pham-vpf-cup",
+      "evidencePhrase": "Cúp Quốc Gia Bamboo Airways 2019 Hà Nội 3 3 0 0 0 2"
+    },
+    {
+      "id": "buzz-apollo11-lunar-module",
+      "profileId": "buzz-aldrin",
+      "displayText": "Trong Apollo 11, Buzz Aldrin điều khiển mô-đun Mặt Trăng và là người thứ hai đặt chân lên Mặt Trăng.",
+      "sourceId": "buzz-nasa-apollo",
+      "evidencePhrase": "Lunar Module pilot and became the second person to walk on the Moon"
+    },
+    {
+      "id": "buzz-gemini12-evas",
+      "profileId": "buzz-aldrin",
+      "displayText": "Trên Gemini XII, Aldrin thực hiện ba lần hoạt động ngoài tàu, với tổng thời gian hơn năm giờ.",
+      "sourceId": "buzz-smithsonian-gemini",
+      "evidencePhrase": "Aldrin performed three EVAs"
+    },
+    {
+      "id": "fellini-white-sheik",
+      "profileId": "federico-fellini",
+      "displayText": "Lo sceicco bianco (1952) là bộ phim đầu tiên Federico Fellini đạo diễn.",
+      "sourceId": "fellini-museum-white-sheik",
+      "evidencePhrase": "The first film of Federico Fellini as a director"
+    },
+    {
+      "id": "fellini-vitelloni-silver-lion",
+      "profileId": "federico-fellini",
+      "displayText": "I vitelloni (1953) của Fellini giành Sư tử Bạc tại Liên hoan phim Venice.",
+      "sourceId": "fellini-museum-vitelloni",
+      "evidencePhrase": "I vitelloni” (1953), which won the Silver Lion at Venice Film Festival"
+    },
+    {
+      "id": "chandra-cambridge-interstellar-dust",
+      "profileId": "chandra-wickramasinghe",
+      "displayText": "Tại Cambridge, Wickramasinghe bắt đầu nghiên cứu tiên phong về bản chất của bụi liên sao.",
+      "sourceId": "chandra-buckingham-dust",
+      "evidencePhrase": "pioneering work on the nature of Interstellar Dust"
+    },
+    {
+      "id": "chandra-interstellar-grains-book",
+      "profileId": "chandra-wickramasinghe",
+      "displayText": "Năm 1967, ông xuất bản cuốn sách đầu tiên mang tính chuẩn mực về hạt bụi liên sao.",
+      "sourceId": "chandra-buckingham-book",
+      "evidencePhrase": "first definitive book on Interstellar Grains in 1967"
+    },
+    {
+      "id": "lynch-eraserhead-feature",
+      "profileId": "david-lynch",
+      "displayText": "Năm 1977, Lynch viết, sản xuất và đạo diễn phim truyện dài đầu tiên của mình, Eraserhead.",
+      "sourceId": "lynch-oscars-eraserhead",
+      "evidencePhrase": "wrote, produced and directed his first full-length feature film"
+    },
+    {
+      "id": "lynch-foundation",
+      "profileId": "david-lynch",
+      "displayText": "Năm 2005, David Lynch thành lập David Lynch Foundation.",
+      "sourceId": "lynch-tv-foundation",
+      "evidencePhrase": "He launched the David Lynch Foundation"
+    }
+  ],
+  "wikidataReview": {
+    "conflicts": []
+  }
+}

@@ -10,7 +10,7 @@
     "people": 1120,
     "death_date_conflict": 33,
     "p570_without_reference": 1,
-    "deathDatesDirectlyConfirmedByPublisherCapture": 308,
+    "deathDatesDirectlyConfirmedByPublisherCapture": 310,
     "deathDatesDirectlyConfirmedInB015B016": 36,
     "deathDatesDirectlyConfirmedInBaseline": 240,
     "preExistingDeathDateConflictsNotOverwritten": 30,
@@ -29,7 +29,8 @@
     "deathDatesDirectlyConfirmedInBV017January16": 2,
     "deathDatesDirectlyConfirmedInBV017January17": 3,
     "deathDatesDirectlyConfirmedInBV017January18": 2,
-    "deathDatesDirectlyConfirmedInBV017January19": 4
+    "deathDatesDirectlyConfirmedInBV017January19": 4,
+    "deathDatesDirectlyConfirmedInBV017January20": 2
   },
   "people": [
     {
@@ -6205,11 +6206,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "unknown",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -6291,11 +6292,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "unknown",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -6414,11 +6415,13 @@
       "activeDeathDates": [
         "1993-10-31"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "1993-10-31",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://fellinimuseum.it/en/fellini/"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {

@@ -3580,8 +3580,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
   "shortDescription": "Cầu thủ bóng đá Việt Nam; sinh ngày 20/1/1995.",
-  "biography": "Phạm Đức Huy là cầu thủ bóng đá người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Tại Cúp Quốc gia 2019, Phạm Đức Huy ghi 2 bàn cho Hà Nội.",
-  "highlights": ["Sinh ngày 20/1/1995.", "Tại Cúp Quốc gia 2019, Phạm Đức Huy ghi 2 bàn cho Hà Nội."],
+  "biography": "Phạm Đức Huy là tiền vệ bóng đá Việt Nam. Hồ sơ của VPF ghi anh ra sân 17 trận cho Hà Nội tại V.League 1 mùa 2019; ở Cúp Quốc gia Bamboo Airways 2019, anh thi đấu 3 trận và ghi 2 bàn.",
+  "highlights": ["Tại V.League 1 năm 2019, Đức Huy ra sân 17 trận cho Hà Nội.", "Ở Cúp Quốc gia Bamboo Airways 2019, Đức Huy thi đấu 3 trận và ghi 2 bàn cho Hà Nội."],
   "wikidataId": "Q22162740",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q22162740",
@@ -3589,7 +3589,8 @@ export const PEOPLE_01: Person[] = [
     "https://vpf.vn/player/pham-duc-huy/"
   ],
   "region": "vietnam",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-08",
+  "lifeStatus": "unknown"
 }  ,
 {
   "id": "buzz-aldrin",
@@ -3609,16 +3610,19 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Phi hành gia Hoa Kỳ; sinh ngày 20/1/1930.",
-  "biography": "Buzz Aldrin là phi hành gia người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Buzz Aldrin đảm nhiệm vị trí phi công mô-đun Mặt Trăng của Apollo 11 và là người thứ hai đặt chân lên Mặt Trăng.",
-  "highlights": ["Sinh ngày 20/1/1930.", "Buzz Aldrin đảm nhiệm vị trí phi công mô-đun Mặt Trăng của Apollo 11 và là người thứ hai đặt chân lên Mặt Trăng."],
+  "biography": "Buzz Aldrin là phi hành gia Hoa Kỳ. Trong Apollo 11, ông điều khiển mô-đun Mặt Trăng và trở thành người thứ hai đặt chân lên Mặt Trăng. Trên Gemini XII, ông thực hiện ba lần hoạt động ngoài tàu với tổng thời gian hơn năm giờ.",
+  "highlights": ["Trong Apollo 11, Buzz Aldrin điều khiển mô-đun Mặt Trăng và là người thứ hai đặt chân lên Mặt Trăng.", "Trên Gemini XII, Aldrin thực hiện ba lần hoạt động ngoài tàu, với tổng thời gian hơn năm giờ."],
   "wikidataId": "Q2252",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q2252",
-    "https://history.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.crew.html",
-    "https://www.congress.gov/91/crecb/1969/07/15/GPO-CRECB-1969-pt15-1-3.pdf"
+    "https://www.nasa.gov/wp-content/uploads/static/history/ap11ann/astrobios.htm",
+    "https://www.govinfo.gov/content/pkg/GPO-CRECB-1969-pt15/pdf/GPO-CRECB-1969-pt15-1-3.pdf",
+    "https://airandspace.si.edu/explore/stories/buzz-aldrin"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-08",
+  "lifeStatus": "unknown",
+  "fields": ["technology-engineering"]
 }  ,
 {
   "id": "federico-fellini",
@@ -3638,16 +3642,89 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇮🇹",
   "image": "/people/placeholder.svg",
   "shortDescription": "Đạo diễn phim và biên kịch Ý; sinh ngày 20/1/1920.",
-  "biography": "Federico Fellini là đạo diễn phim và biên kịch người Ý. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Bộ phim I vitelloni (1953) của Federico Fellini giành Sư tử Bạc tại Venice và góp phần đưa Alberto Sordi đến với thành công lớn.",
-  "highlights": ["Sinh ngày 20/1/1920.", "Bộ phim I vitelloni (1953) của Federico Fellini giành Sư tử Bạc tại Venice và góp phần đưa Alberto Sordi đến với thành công lớn."],
+  "biography": "Federico Fellini là đạo diễn phim và biên kịch người Ý. Tác phẩm đầu tiên ông đạo diễn là Lo sceicco bianco (1952); I vitelloni (1953) sau đó giành Sư tử Bạc tại Liên hoan phim Venice.",
+  "highlights": ["Lo sceicco bianco (1952) là bộ phim đầu tiên Federico Fellini đạo diễn.", "I vitelloni (1953) của Fellini giành Sư tử Bạc tại Liên hoan phim Venice."],
   "wikidataId": "Q7371",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q7371",
-    "https://fellinimuseum.it/fellini/",
-    "https://turismoroma.it/en/node/43343"
+    "https://fellinimuseum.it/en/fellini/",
+    "https://www.treccani.it/enciclopedia/federico-fellini_%28Dizionario-Biografico%29/"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-08",
+  "lifeStatus": "deceased",
+  "deathDate": "1993-10-31",
+  "deathDatePrecision": "day",
+  "deathDateSourceUrls": ["https://fellinimuseum.it/en/fellini/"],
+  "fields": ["design-creative"]
+}  ,
+{
+  "id": "chandra-wickramasinghe",
+  "slug": "chandra-wickramasinghe",
+  "name": "Nalin Chandra Wickramasinghe",
+  "birthDate": "1939-01-20",
+  "birthYear": 1939,
+  "birthMonth": 1,
+  "birthDay": 20,
+  "occupation": ["nhà toán học", "nhà thiên văn học", "nhà sinh học vũ trụ"],
+  "category": "scientist",
+  "categoryLabel": "Nhà khoa học",
+  "countryCode": "LK",
+  "countryName": "Sri Lanka",
+  "countryFlag": "🇱🇰",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Nhà toán học và thiên văn học Sri Lanka; sinh ngày 20/1/1939.",
+  "biography": "Nalin Chandra Wickramasinghe là nhà toán học và nhà thiên văn học sinh tại Colombo, Sri Lanka, sau này hoạt động tại Anh. Ở Cambridge, ông nghiên cứu bụi liên sao; năm 1967, ông xuất bản cuốn sách đầu tiên mang tính chuẩn mực về hạt bụi liên sao.",
+  "highlights": ["Tại Cambridge, Wickramasinghe bắt đầu nghiên cứu tiên phong về bản chất của bụi liên sao.", "Năm 1967, ông xuất bản cuốn sách đầu tiên mang tính chuẩn mực về hạt bụi liên sao."],
+  "wikidataId": "Q765741",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q765741",
+    "https://most.gov.lk/web/index.php?Itemid=116&catid=2&id=17%3Aachievements-of-sri-lankan-scientists&lang=en&option=com_content&view=article",
+    "https://royalcollege.lk/wp-content/uploads/2021/09/RAVE21-Magazine.pdf",
+    "https://www.buckingham.ac.uk/directory/professor-chandra-wickramasinghe/"
+  ],
+  "region": "world",
+  "verifiedAt": "2026-10-08",
+  "lifeStatus": "unknown",
+  "birthplace": "Colombo, Sri Lanka",
+  "fields": ["science-research"]
+}  ,
+{
+  "id": "david-lynch",
+  "slug": "david-lynch",
+  "name": "David Lynch",
+  "birthDate": "1946-01-20",
+  "birthYear": 1946,
+  "birthMonth": 1,
+  "birthDay": 20,
+  "occupation": ["đạo diễn phim", "biên kịch", "nghệ sĩ"],
+  "category": "artist",
+  "categoryLabel": "Nghệ thuật",
+  "countryCode": "US",
+  "countryName": "Hoa Kỳ",
+  "countryFlag": "🇺🇸",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Đạo diễn và nghệ sĩ Hoa Kỳ; sinh ngày 20/1/1946, mất năm 2025.",
+  "biography": "David Lynch là đạo diễn, biên kịch và nghệ sĩ người Mỹ. Phim truyện dài đầu tiên do ông viết, sản xuất và đạo diễn là Eraserhead (1977). Năm 2005, ông thành lập David Lynch Foundation để phổ biến giáo dục dựa trên thiền định.",
+  "highlights": ["Năm 1977, Lynch viết, sản xuất và đạo diễn phim truyện dài đầu tiên của mình, Eraserhead.", "Năm 2005, David Lynch thành lập David Lynch Foundation."],
+  "wikidataId": "Q2071",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q2071",
+    "https://www.televisionacademy.com/bios/david-lynch",
+    "https://www.theguardian.com/film/2025/jan/17/david-lynch-obituary",
+    "https://www.oscars.org/governors-awards/2019/david-lynch"
+  ],
+  "region": "west",
+  "verifiedAt": "2026-10-08",
+  "lifeStatus": "deceased",
+  "deathDate": "2025-01-16",
+  "deathDatePrecision": "day",
+  "deathDateSourceUrls": [
+    "https://www.televisionacademy.com/bios/david-lynch",
+    "https://www.theguardian.com/film/2025/jan/17/david-lynch-obituary"
+  ],
+  "birthplace": "Missoula, Montana, Hoa Kỳ",
+  "fields": ["design-creative"]
 }  ,
 {
   "id": "truong-tan-sang",
