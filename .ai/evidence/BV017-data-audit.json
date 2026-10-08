@@ -10,7 +10,7 @@
     "people": 1120,
     "death_date_conflict": 33,
     "p570_without_reference": 1,
-    "deathDatesDirectlyConfirmedByPublisherCapture": 310,
+    "deathDatesDirectlyConfirmedByPublisherCapture": 312,
     "deathDatesDirectlyConfirmedInB015B016": 36,
     "deathDatesDirectlyConfirmedInBaseline": 240,
     "preExistingDeathDateConflictsNotOverwritten": 30,
@@ -30,7 +30,8 @@
     "deathDatesDirectlyConfirmedInBV017January17": 3,
     "deathDatesDirectlyConfirmedInBV017January18": 2,
     "deathDatesDirectlyConfirmedInBV017January19": 4,
-    "deathDatesDirectlyConfirmedInBV017January20": 2
+    "deathDatesDirectlyConfirmedInBV017January20": 2,
+    "deathDatesDirectlyConfirmedInBV017January21": 2
   },
   "people": [
     {
@@ -6467,11 +6468,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "unknown",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -6517,11 +6518,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "unknown",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -6597,11 +6598,13 @@
       "activeDeathDates": [
         "1957-10-24"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "1957-10-24",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://museeyslparis.com/en/biography/le-deces-de-christian-dior"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {

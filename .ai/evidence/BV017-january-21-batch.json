@@ -1,0 +1,1081 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-21",
+  "sourceCaptures": [
+    {
+      "id": "truong-japantimes-dob",
+      "url": "https://classified.japantimes.com/nationalday/pdfs/20140317-Vietnamese_president--s_visit.pdf",
+      "publisher": "The Japan Times",
+      "publisherHost": "classified.japantimes.com",
+      "status": 200,
+      "bytesRead": 2350815,
+      "sha256": "ca3f8a50f546cfb08f51056dd75d87aaef26a271a44fc2797b7d61f972a7d56f",
+      "verificationMethod": "direct-http-pdf-selected-excerpt",
+      "excerpt": "momen- We have been able to forge -Born on Jan. 21, 1949; married with two children sakura (cherry blossom) view- turmoil, Japan recorded an im- eration. This is also a major issue government and people of Viet- tum of our excellent relations, solid political trust and effective -Qualification: BA in Law ing, enjoying Japanese food and pressive GDP growth of 1.7 per- to be discussed with Japanese nam will give them t",
+      "excerptSha256": "aadafa7407732490fe62d68398b0cce544ee0c6e24fee3be1471fe31a7760025"
+    },
+    {
+      "id": "truong-bcp-biography",
+      "url": "https://en.baochinhphu.vn/biography-of-state-president-sang-11110362.htm",
+      "publisher": "Government News, Viet Nam Government Portal",
+      "publisherHost": "en.baochinhphu.vn",
+      "status": 200,
+      "bytesRead": 67606,
+      "sha256": "936979c17664fdef61384d0f6ef120f114aa2d8a2e78bddad9502dd4e41def8f",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "ollowing is his brief biography: - Date of birth: January 21, 1949 - Native land: Mỹ Hạnh Commune, Đức Hòa District, Long An Province - Date of Party admission: December 20, 1969 - Date of official admission to the Party: December 20, 1970 - Qualification: BA in law - Political theory: High-level - Deputy to the 9th, 10th, 11th and 13th National Assembly Summary of his career: 1966- 1968 Leader of the youth-student m … of the HCM City People’s Committee 1996- January, 2000 Politburo member, Secretary of the HCM City Party Committee January, 2000- 2006 Politburo member, Head of the Party Central Committee’s Economic Commission 2006 - now: Politburo member, Standing member of the Secretariat of the Party Central Committee Home Politics Policies Economy Society Culture Opinion Speeches J. Statements Prime Minister ONLINE NEWSPAPER OF ",
+      "excerptSha256": "f072bdb60355ecc306f5df17a9162a1d0f45d7db84df9165d4442003fd7b9d41"
+    },
+    {
+      "id": "truong-bcp-election",
+      "url": "https://en.baochinhphu.vn/politburo-member-sang-elected-state-president-11110357.htm",
+      "publisher": "Government News, Viet Nam Government Portal",
+      "publisherHost": "en.baochinhphu.vn",
+      "status": 200,
+      "bytesRead": 62607,
+      "sha256": "e0fd80182766192c442c57aeb9b7e1ce56968775890bce5fd67ff414c18692ff",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "mber Trương Tấn Sang on Monday was elected as the new State President of Việt Nam by the 13th NA with the voting rate of 97.4%. July 25, 2011 4:08 PM GMT+7 Party leader Nguyễn Phú Trọng presents flowers to the newly-elected State President, Trương Tấn Sang, Hà Nội, July 25, 2011 - Photo: VGP Mr. Sang, born in 1949 in Mỹ Hạnh Commune, Đức Hòa District, the southern province of Long An, has hold a number of positions, ",
+      "excerptSha256": "1c0aa92716bb253df29cbeb39cf42585fd74e4f4e039e98dbb0b806593f65299"
+    },
+    {
+      "id": "truong-tan-sang-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q57407.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 46878,
+      "sha256": "dd91417dba9506a779f341caf8218112b9f0049cdcda53e97df0b195da8d0503",
+      "verificationMethod": "direct-http-json-entity-claims",
+      "excerpt": "Trương Tấn Sang | P31: Q5 | P569: +1949-01-21T00:00:00Z precision 11 | P570: none | P27: Q881 | P106: Q82955",
+      "excerptSha256": "41992197ea3a3114bc8c9d5d59d9441b5816dcc1779e3b56467b30bc88c59c66"
+    },
+    {
+      "id": "phuong-afc-report",
+      "url": "https://assets.the-afc.com/migration/a/c/AC_2019F_TSG_Report_Interactive_compressed.pdf",
+      "publisher": "Asian Football Confederation",
+      "publisherHost": "assets.the-afc.com",
+      "status": 200,
+      "bytesRead": 21407534,
+      "sha256": "37747b0232326062ad5a0263cdf40408df2e6a0dc28b507b8d6e1879ed5fff4c",
+      "verificationMethod": "direct-http-pdf-selected-excerpt",
+      "excerpt": "n 12-04-1996 N. V. TOAN Forward 10 Nguyen Cong Phuong 21-01-1995 N. C. PHUONG Forward TOP SCORER 11 Ngan Van Dai 09-02-1992 N. V. DAI Midfielder Player Nguyen Công Phuong 12 Nguyen Phong Hong Duy 13-06-1996 N. P. H. DUY Midfielder No. of Goals 2 13 Nguyen Tuan Manh 31-07-1990 N. T. MANH Goalkeeper 14 Tran Minh Vuong 28-03-1995 T. M. VUONG Midfielder 15 Pham Duc Huy 20-01-1995 P. D. HUY Midfielder 16 Do Hung Dung 08-0 … al. The Best Goals section of this equaliser for Vietnam against Jordan joining Almoez Ali’s other 23 contestants to share three. AFC Champions League and a sharp drop to 19.5% in the report also highlights four other spectacularly converted spectacular conversion of a cross from the left that gave European counterpart. This could prompt debate as to direct free-kicks, two of them struck by IR Iran players. Qatar a 1",
+      "excerptSha256": "dbd94e8d17651c08d76e253baa5145c494fed3f6bf08035d337b8993fbd500e1"
+    },
+    {
+      "id": "phuong-jeb",
+      "url": "https://jebentertainment.jp/en/leaguer/nguyen-cong-phuong/",
+      "publisher": "JEB Entertainment Europe B.V.",
+      "publisherHost": "jebentertainment.jp",
+      "status": 200,
+      "bytesRead": 41731,
+      "sha256": "e73976f0f0e6a37ad55524b19eaebbce007e7ddf8f6b92cccdefd1e6719ff9c5",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "nh Phuoc FC（Vietnam） Position ： FW Date of Birth ： 21 Jan. 1995 Height / Weight ： 168cm / 65kg Place of Birth ： Vietnam Previous Clubs ： Yokohama FC Season Team League Apps/Goals 24/25 Truong Tuoi Binh Phuoc FC（Vietnam） Div.2 10/7 2024 Yokohama FC J2 0/0 2023 Yokohama FC J1 0/0 2022 Hoang Anh Gia Lai（Vietnam） Div1 16/5 2021 Hoang Anh Gia Lai（Vietnam） Div1 12/6 2020 Ho Chi Minh City FC（Vietnam） Div1 12/6 2019 Sint-Tru",
+      "excerptSha256": "89343cec526e98d28150785d4a49d7173724973fe84bef77e231fe1934b014e0"
+    },
+    {
+      "id": "phuong-aff-jordan",
+      "url": "https://www.aseanfootball.org/v3/vietnam-make-quarterfinals-of-afc-asian-cup/",
+      "publisher": "ASEAN Football Federation",
+      "publisherHost": "www.aseanfootball.org",
+      "status": 200,
+      "bytesRead": 69899,
+      "sha256": "f4a32895941dc2d3c6145fdefdf67084ff72ef1780866e8929863021bf43f07b",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "n 20 2019 2019 Latest News Vietnam HANOI (20 Jan 2019) – Vietnam made the quarter-finals of the AFC Asian Cup 2019 after beating Jordan 4-2 in the penalty shootout in a Round of 16 tie at the Al Maktoum Stadium in Dubai. The score at the end of regulation and extra time was 1-1. Jordan put up the early pressure and after some early misses only went ahead in the 38 th minute when Baha’ Abdelrahman with a cracker of a  … s in front of the goal mouth which Nguyen Cong Phuong squeezed past the Jordanian defenders for the equaliser. With the extra-time producing no winners, the shootout saw Jordan’s Baha Seif missing first as his attempt came off the crossbar. And with Do Hung Dung making good, the score stood at 2-1 after Baha’ Abdelrahman and Que Ngoc Hai had converted their first attempt. With Ahmed Saleh’s effort denied by Dang Van ",
+      "excerptSha256": "3e6a9dc0576cafd41143022b723dd88aeb132477172b2ccd049b19b14619b547"
+    },
+    {
+      "id": "phuong-bcp-iraq",
+      "url": "https://baochinhphu.vn/doi-tuyen-viet-nam-thua-dang-tiec-tran-ra-quan-102250502.htm",
+      "publisher": "Government Portal of Viet Nam",
+      "publisherHost": "baochinhphu.vn",
+      "status": 200,
+      "bytesRead": 60995,
+      "sha256": "fd56123d3ecfb59c5697e99afa3d088b163c5560ff9266d899b16ac1f121a562",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "à giành trận thắng chung cuộc 3-2. 08/01/2019 22:08 Trận đấu giữa Đội tuyển Việt Nam và Đội tuyển Iraq trong khuôn khổ bảng D Asian Cup 2019 bắt đầu từ 20h30 ngày 8/1 (giờ Hà Nội) trên SVĐ Zayed Sport City ở Abu Dhabi. Kết thúc trận đấu, Iraq thắng 3-2. Bàn thắng: Việt Nam: Ali Faez đá phản lưới nhà (phút 24); Công Phượng (phút 42). Iraq: Mohanad Ali (phút 35); Humam Tariq (phút 60), Ali Adnan (phút 90). HIỆP 1: 1':  … i Faez đá phản lưới nhà (phút 24); Công Phượng (phút 42). Iraq: Mohanad Ali (phút 35); Humam Tariq (phút 60), Ali Adnan (phút 90). HIỆP 1: 1': Đội Việt Nam giao bóng trước. Ngay sau pha giao bóng, Việt Nam tổ chức tấn công bên cánh trái. Tuy nhiên, các cầu thủ Iraq đã phản công lại và Trong Hoàng buộc phải phạm lỗi. 3': Iraq được hưởng quả đá phạt. Xuân Trường bật cao phá bóng giải nguy cho khung thành Việt Nam. 7': ",
+      "excerptSha256": "abc2da4bd2fe68f02585109a6dd744a17cd4a3f671272be9775b88b0f6e2032a"
+    },
+    {
+      "id": "nguyen-cong-phuong-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q18045362.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 34188,
+      "sha256": "1dde1d3db27e489f14979a1d1d0bb38ed12d6e40f8c814a048f74975c0de4842",
+      "verificationMethod": "direct-http-json-entity-claims",
+      "excerpt": "Nguyễn Công Phượng | P31: Q5 | P569: +1995-01-21T00:00:00Z precision 11 | P570: none | P27: Q881 | P106: Q937857",
+      "excerptSha256": "200ab2bb1ddd325b214285557a4bce6ff323772d4a3693a097932f71b1b1046e"
+    },
+    {
+      "id": "dior-designmuseum-dob",
+      "url": "https://designmuseum.org/designers/christian-dior",
+      "publisher": "Design Museum",
+      "publisherHost": "designmuseum.org",
+      "status": 200,
+      "bytesRead": 65721,
+      "sha256": "aa623c1c5d0b0342e1df9e1dc96ba4179519e5d178cd25ca63f3a758718319ff",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "ide range of products. Early Years Christian Dior was born on 21 January 1905 in Granville, a lively seaside town on the Normandy coast, in France. He was the second of the five children of Alexandre Louis Maurice Dior, the latest heir in an established family business of fertiliser manufacturers, and his wife Isabelle. The family lived in a pretty grey and pink house perched high on a cliff with spectacular views ov",
+      "excerptSha256": "285677b71b00baac346ed30963392820037628dd65bf7c1ebcac4d237fc8d977"
+    },
+    {
+      "id": "dior-musee-granville",
+      "url": "https://www.musee-dior-granville.com/christian-dior/",
+      "publisher": "Musée Christian Dior, Granville",
+      "publisherHost": "www.musee-dior-granville.com",
+      "status": 200,
+      "bytesRead": 450210,
+      "sha256": "a7cd46bd885ed1c62ac34f4db761a950772f658ec43098cb85ea98d9c7d1ecb7",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Dior Christian Dior Christian Dior Christian Dior naît le 21 janvier 1905 à Granville, en Normandie, dans une famille qui a fait fortune dans la fabrication d’engrais. Ses parents imaginent pour lui une carrière de diplomate : il abandonne son rêve de devenir architecte et entame des études supérieures à l’Institut d’études politiques de Paris. Il convainc finalement ses parents de l’aider à assouvir sa vraie passion … sitions Les Parfums Christian Dior Les Parfums Christian Dior voient le jour le 11 janvier 1947, un mois avant le premier défilé de Christian Dior au 30 avenue Montaigne. L’idée est de créer un premier parfum qui sublime les robes Haute Couture et permettre au plus grand nombre de s’offrir « un élément de luxe », selon les mots de Serge Heftler-Louiche, Président-Fondateur des Parfums Christian Dior et ami d’enfance ",
+      "excerptSha256": "67091ee214430786aa63e8bc4f5705753c2c9f5ccb1b0339de059961f7d2d022"
+    },
+    {
+      "id": "dior-galerie-timeline",
+      "url": "https://www.galeriedior.com/en/history",
+      "publisher": "La Galerie Dior",
+      "publisherHost": "www.galeriedior.com",
+      "status": 200,
+      "bytesRead": 799245,
+      "sha256": "e0213ca297dddf918e1f4e0176296d487d82a9bbe3c881ef54c67fa9797fe26a",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "or, circa 1940 Miss Dior 1946 1946 Creation of Christian Dior's fashion house Creation of Christian Dior's fashion house Christian Dior and the industrialist Marcel Boussac join forces to create the Christian Dior couture house. On December 16, the couture house opens at 30 Avenue Montaigne, with three ateliers and a staff of 85 people. \"It was in 1946 that I moved into 30 Avenue Montaigne. This delightful house then … bruary 1947. 1947 First collection The first collection, Spring–Summer 1947, is presented on February 12, in the salons of 30 Avenue Montaigne. Dior names his new lines Corolle and En 8. Carmel Snow, the editor-in-chief of Harper’s Bazaar , declares: “My dear Christian, your dresses have such a New Look!” Press release of the first collection, Spring-Summer 1947. First Christian Dior fashion show, Spring-Summer 1947  … er-Louiche, is appointed director. The first perfume, Miss Dior, is launched in December. i Miss Dior perfume, 1947 i Invitation card to the launch of the first Miss Dior perfume on 17 December 1947. i On 9 September 1947, in Dallas, Christian Dior being rewarded the Fashion Oscar by Stanley Marcus. 1948 Christian Dior-New York Christian Dior-New York opens on Fifth Avenue with an exclusive collection of luxury ready",
+      "excerptSha256": "42179c58f49164df0fd43da432b06ddf961c90d4363c3a63e66a8a5f8d4824b0"
+    },
+    {
+      "id": "dior-yves-death",
+      "url": "https://museeyslparis.com/en/biography/le-deces-de-christian-dior",
+      "publisher": "Musée Yves Saint Laurent Paris",
+      "publisherHost": "museeyslparis.com",
+      "status": 200,
+      "bytesRead": 59129,
+      "sha256": "4fb32429d3e9d1dd33d5f8691ffbf0c098550182e2f91226e6a3eef817772449",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Visitor Information Return to list October 24, 1957 Death of Christian Dior Related to Yves Saint Laurent , Pierre Bergé Christian Dior died of a heart attack in Montecatini, Italy. His friend Pierre Bergé attended the funeral. It was a national event. It was as if France had ceased to live. … Christian Dior’s funeral was practically a national funeral. So many flowers were sent that, by evening, the house of Dior ha",
+      "excerptSha256": "af338c4edd9848b3a763fe3056a44dd5ee9ab3abe5a2dbe80616da5df26c0411"
+    },
+    {
+      "id": "christian-dior-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q159694.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 151465,
+      "sha256": "b87d8ed4e6d81f59679127d76270cf9d2cafc513f9e24a9331e18871651bb2de",
+      "verificationMethod": "direct-http-json-entity-claims",
+      "excerpt": "Christian Dior | P31: Q5 | P569: +1905-01-21T00:00:00Z precision 11 | P570: +1957-10-24T00:00:00Z precision 11 | P27: Q142 | P106: Q4845479,Q43845,Q3501317,Q1323191",
+      "excerptSha256": "1df4e8b84833a75095e185ae8407c3f3d3325f625234eaacb22e637812710aa1"
+    },
+    {
+      "id": "allen-biography",
+      "url": "https://www.biography.com/business-leaders/paul-allen",
+      "publisher": "Biography.com",
+      "publisherHost": "www.biography.com",
+      "status": 200,
+      "bytesRead": 503224,
+      "sha256": "df48bd402b5ef3a96ef3a849c22d59ad27068ded802ec6ca9f6f4b6759b68d64",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "ge (1953-2018) Who Was Paul Allen? Born on January 21, 1953, in Seattle, Washington, Paul Allen met fellow Lakeside School student and computer enthusiast Bill Gates when Allen was 14 and Gates was 12. Less than a decade later, in 1975, college drop-outs Allen and Gates founded Microsoft. Allen resigned after being diagnosed with Hodgkin's disease in 1983 and continued to pursue other business, research and philanthr …  college drop-outs Allen and Gates founded Microsoft. Allen resigned after being diagnosed with Hodgkin's disease in 1983 and continued to pursue other business, research and philanthropic opportunities. How Did Paul Allen and Bill Gates Meet? While attending the Lakeside School outside Seattle, 14-year-old Allen met 12-year-old Bill Gates , a fellow student and computer enthusiast. Less than a decade later, in June  … gkin's lymphoma. He passed away on October 15, 2018, from complications of the disease. QUICK FACTS Birth Year: 1953 Birth date: January 21, 1953 Birth State: Washington Birth City: Seattle Birth Country: United States Gender: Male Best Known For: Entrepreneur and investor Paul Allen was best known for being one of the co-founders of Microsoft with Bill Gates. Industries Internet/Computing Schools Washington State Un",
+      "excerptSha256": "fa1bff23576d9dfb0743deacd28c2e07abcf443a99f714e9013738abc9bfb313"
+    },
+    {
+      "id": "allen-nature-obituary",
+      "url": "https://www.nature.com/articles/d41586-018-07259-3",
+      "publisher": "Nature",
+      "publisherHost": "www.nature.com",
+      "status": 200,
+      "bytesRead": 233335,
+      "sha256": "dbc51982438c05286ee18a5c44149c80c6e3e1db458e5f7c7fff28198c084d40",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "itute for Artificial Intelligence. Allen, who died on 15 October, was born on 21 January 1953 in Seattle, Washington, a city to which he remained faithful throughout his life. With school friend Bill Gates, in 1975 he founded Micro-Soft, purveyors of operating systems for the nascent desktop computer market. Bereft of its original hyphen, it grew into one of the world’s most valuable companies, netting Allen a vast p",
+      "excerptSha256": "977adb59f85bf1d9668dd4173cd9fd6bb519fc4b130229ef50f8307125c21ba4"
+    },
+    {
+      "id": "allen-institute-history",
+      "url": "https://alleninstitute.org/history",
+      "publisher": "Allen Institute",
+      "publisherHost": "alleninstitute.org",
+      "status": 200,
+      "bytesRead": 211987,
+      "sha256": "e85044a7d049516764a75f3afbbb02662dd012b4ae76cf49c7121a85d2f4447f",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "ch founded to accelerate discovery The Allen Institute was founded in 2003 with a bold idea: that science could move faster – and have greater impact – if it were done at scale and shared openly. That idea continues to shape everything we do. The Allen Institute was founded in 2003 by investor and philanthropist Paul G. Allen, who co-founded Microsoft in 1975, and his sister Jody Allen, who sought to accelerate biosc",
+      "excerptSha256": "cd7542c24fdd978c03eb9217d248e14d980c23d7688c9f9bdfd39140d8cb659d"
+    },
+    {
+      "id": "paul-allen-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q162005.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 128882,
+      "sha256": "b5570ed19ff9120ff27d17cc565ad9190c1298827f46f522a2483d141728af9a",
+      "verificationMethod": "direct-http-json-entity-claims",
+      "excerpt": "Paul Allen | P31: Q5 | P569: +1953-01-21T00:00:00Z precision 11 | P570: +2018-10-15T00:00:00Z precision 11 | P27: Q30 | P106: Q205375,Q82594,Q3282637,Q639669,Q131524,Q43845,Q183945,Q36834,Q10732476,Q578109,Q5482740,Q12362622,Q557880,Q45916492",
+      "excerptSha256": "bbbddd0ab4a17e83183db7797373119d6a336a23c3aa176b27be802049c1fd93"
+    },
+    {
+      "id": "domingo-moncloa",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/2011/refc20110114.aspx",
+      "publisher": "La Moncloa, Government of Spain",
+      "publisherHost": "www.lamoncloa.gob.es",
+      "status": 200,
+      "bytesRead": 111692,
+      "sha256": "64e40fdec40c6d4de2445ecfcbe0c89ad44fe91655bb657a91bda1508255c5dd",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": " español y su cultura en el mundo. Nacido en Madrid el 21 de enero de 1941, pronto se trasladó a Ciudad de México donde su entorno familiar -sus padres eran cantantes de zarzuela- facilitó el desarrollo de quien, desde muy joven, manifestó condiciones artísticas extraordinarias. Debutó como cantante lírico a los dieciocho años encarnando a Borsa, en \"Rigoletto\", y su primer papel protagonista llegó dos años después c … a de promotor de jóvenes artistas, Domingo creó en 1993 \"Operalia\", un concurso internacional de canto que ha permitido el lanzamiento de la carrera de grandes cantantes. Acciones humanitarias Plácido Domingo es, asimismo, reconocido internacionalmente por sus acciones humanitarias, como ha quedado de manifiesto en sus actuaciones a favor de los damnificados en el terremoto de México en 1985, el huracán \"Katrina\" en ",
+      "excerptSha256": "b491c852a322b75ab0f8a02f3fba2e9e492d531bafacd96cb34704ea248567a2"
+    },
+    {
+      "id": "domingo-encyclopedia",
+      "url": "https://www.encyclopedia.com/education/news-wires-white-papers-and-books/domingo-placido-1941",
+      "publisher": "Gale / Encyclopedia.com",
+      "publisherHost": "www.encyclopedia.com",
+      "status": 200,
+      "bytesRead": 89125,
+      "sha256": "d5e0e387025a5aad42d4a36c89bfda344c36ab3d9bc20e61bdbda6ccb4e1aca8",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "d arts administration. Domingo was born in the Spanish capital of Madrid on January 21, 1941. His parents were both performers in the Spanish musical theater genre called zarzuela, roughly comparable to operetta in the English-speaking world. The family toured Latin America with great success during Domingo's childhood; his mother Pepita became known as the Queen of Zarzuela, and by 1950 the family had settled in Mex",
+      "excerptSha256": "a0bb10db86a779fc788e0ff4c1d3da458d4eb7d61d421ba0fbaf14127e98a3f2"
+    },
+    {
+      "id": "domingo-foundation-profile",
+      "url": "https://fundacionplacidodomingo.org/en/placido-domingo-en/",
+      "publisher": "Fundación Plácido Domingo",
+      "publisherHost": "fundacionplacidodomingo.org",
+      "status": 200,
+      "bytesRead": 759553,
+      "sha256": "964d9a58963698ab0f731dfec588d4c4bf1543c61ff6ee833c3da5fa7f016ce3",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": " and conductor. He has interpreted over 150 roles and has been acclaimed by audiences worldwide in more than 4,000 performances, in both the tenor and baritone repertoire. Widely regarded by international critics as a true “Renaissance man,” he has received numerous honorary titles and some of the most prestigious distinctions, including 12 Grammy Awards, as well as notable honors such as the Presidential Medal of Fr … cclaimed by audiences worldwide in more than 4,000 performances, in both the tenor and baritone repertoire. Widely regarded by international critics as a true “Renaissance man,” he has received numerous honorary titles and some of the most prestigious distinctions, including 12 Grammy Awards, as well as notable honors such as the Presidential Medal of Freedom of the United States, the Princess of Asturias Award for t",
+      "excerptSha256": "19184f0be7a3c319e91bfb721568a858371d48a63563538c632818954cbe44ac"
+    },
+    {
+      "id": "placido-domingo-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q130853.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 211732,
+      "sha256": "9ca4958e92471dd76425dae18a0353ab74884369641ec70c4a749bcc9c78dc8a",
+      "verificationMethod": "direct-http-json-entity-claims",
+      "excerpt": "Plácido Domingo | P31: Q5 | P569: +1941-01-21T00:00:00Z precision 11 | P570: none | P27: Q29 | P106: Q2865819,Q158852,Q33999,Q177220",
+      "excerptSha256": "9cc513123325bc1816ef9d4107a774eef146cac6237e5174feed8d7ccf280cb5"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "truong-tan-sang",
+      "name": "Trương Tấn Sang",
+      "wikidataId": "Q57407",
+      "birthDate": "1949-01-21",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "deathDatePrecision": null,
+      "deathDateSourceIds": [],
+      "dobSourceIds": [
+        "truong-japantimes-dob",
+        "truong-bcp-biography"
+      ],
+      "statusSourceId": null,
+      "careerFactIds": [
+        "truong-hcmc-secretary",
+        "truong-president-election"
+      ],
+      "countryCode": "VN",
+      "category": "politics",
+      "occupation": [
+        "chính khách"
+      ],
+      "fields": [
+        "society-law"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "society-law",
+          "careerFactIds": [
+            "truong-hcmc-secretary",
+            "truong-president-election"
+          ],
+          "rationale": "Các chức vụ Bí thư Thành ủy và Chủ tịch nước là trách nhiệm công quyền, chính sách và quản trị nhà nước."
+        }
+      ],
+      "wikidataCaptureId": "truong-tan-sang-wikidata",
+      "wikidataLabel": "Trương Tấn Sang",
+      "identityClaims": {
+        "label": "Trương Tấn Sang",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1949-01-21T00:00:00Z",
+            "references": 1,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q881",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q82955",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q82955"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q57407",
+        "https://classified.japantimes.com/nationalday/pdfs/20140317-Vietnamese_president--s_visit.pdf",
+        "https://en.baochinhphu.vn/biography-of-state-president-sang-11110362.htm",
+        "https://en.baochinhphu.vn/politburo-member-sang-elected-state-president-11110357.htm"
+      ],
+      "before": {
+        "biography": "Trương Tấn Sang là chính khách người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Ngày 25/7/2011, Quốc hội bầu Trương Tấn Sang làm Chủ tịch nước với 97,4% phiếu thuận.",
+        "highlights": [
+          "Sinh ngày 21/1/1949.",
+          "Ngày 25/7/2011, Quốc hội bầu Trương Tấn Sang làm Chủ tịch nước với 97,4% phiếu thuận."
+        ],
+        "fields": null,
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q57407",
+          "https://uzo.sakura.ne.jp/burma/nlm/nlm_data/nlm_2012/nlm_11_2012/nlm_29_11_2012.pdf",
+          "https://classified.japantimes.com/nationalday/pdfs/20140317-Vietnamese_president--s_visit.pdf",
+          "https://en.baochinhphu.vn/biography-of-state-president-sang-11110362.htm"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null
+      },
+      "after": {
+        "biography": "Trương Tấn Sang là chính khách Việt Nam. Từ năm 1996 đến tháng 1/2000, ông là Bí thư Thành ủy Thành phố Hồ Chí Minh. Ngày 25/7/2011, Quốc hội bầu ông làm Chủ tịch nước với 97,4% phiếu thuận.",
+        "highlights": [
+          "Từ năm 1996 đến tháng 1/2000, ông là Bí thư Thành ủy Thành phố Hồ Chí Minh.",
+          "Ngày 25/7/2011, Quốc hội bầu ông làm Chủ tịch nước với 97,4% phiếu thuận."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q57407",
+          "https://classified.japantimes.com/nationalday/pdfs/20140317-Vietnamese_president--s_visit.pdf",
+          "https://en.baochinhphu.vn/biography-of-state-president-sang-11110362.htm",
+          "https://en.baochinhphu.vn/politburo-member-sang-elected-state-president-11110357.htm"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "unknown",
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "fields": [
+          "society-law"
+        ]
+      }
+    },
+    {
+      "id": "nguyen-cong-phuong",
+      "name": "Nguyễn Công Phượng",
+      "wikidataId": "Q18045362",
+      "birthDate": "1995-01-21",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "deathDatePrecision": null,
+      "deathDateSourceIds": [],
+      "dobSourceIds": [
+        "phuong-afc-report",
+        "phuong-jeb"
+      ],
+      "statusSourceId": null,
+      "careerFactIds": [
+        "phuong-iraq-goal",
+        "phuong-jordan-equaliser"
+      ],
+      "countryCode": "VN",
+      "category": "athlete",
+      "occupation": [
+        "cầu thủ bóng đá"
+      ],
+      "fields": [],
+      "fieldEvidence": [],
+      "wikidataCaptureId": "nguyen-cong-phuong-wikidata",
+      "wikidataLabel": "Nguyễn Công Phượng",
+      "identityClaims": {
+        "label": "Nguyễn Công Phượng",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 0
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1995-01-21T00:00:00Z",
+            "references": 1,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q881",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q937857",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q937857"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q18045362",
+        "https://assets.the-afc.com/migration/a/c/AC_2019F_TSG_Report_Interactive_compressed.pdf",
+        "https://jebentertainment.jp/en/leaguer/nguyen-cong-phuong/",
+        "https://baochinhphu.vn/doi-tuyen-viet-nam-thua-dang-tiec-tran-ra-quan-102250502.htm",
+        "https://www.aseanfootball.org/v3/vietnam-make-quarterfinals-of-afc-asian-cup/"
+      ],
+      "before": {
+        "biography": "Nguyễn Công Phượng là cầu thủ bóng đá người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Ngày 8/1/2019, Nguyễn Công Phượng ghi bàn trong trận Việt Nam thua Iraq 2-3 tại Asian Cup.",
+        "highlights": [
+          "Sinh ngày 21/1/1995.",
+          "Ngày 8/1/2019, Nguyễn Công Phượng ghi bàn trong trận Việt Nam thua Iraq 2-3 tại Asian Cup."
+        ],
+        "fields": null,
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q18045362",
+          "https://assets.the-afc.com/migration/a/c/AC_2019F_TSG_Report_Interactive_compressed.pdf",
+          "https://jebentertainment.jp/en/leaguer/nguyen-cong-phuong/"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null
+      },
+      "after": {
+        "biography": "Nguyễn Công Phượng là tiền đạo Việt Nam. Tại trận ra quân Asian Cup 2019 ngày 8/1, anh ghi bàn vào lưới Iraq. Ở vòng 16 đội, anh ghi bàn gỡ hòa cho Việt Nam trước Jordan.",
+        "highlights": [
+          "Ngày 8/1/2019, anh ghi bàn cho Việt Nam trong trận ra quân Asian Cup gặp Iraq.",
+          "Tại Asian Cup 2019, anh ghi bàn gỡ hòa cho Việt Nam trước Jordan ở vòng 16 đội."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q18045362",
+          "https://assets.the-afc.com/migration/a/c/AC_2019F_TSG_Report_Interactive_compressed.pdf",
+          "https://jebentertainment.jp/en/leaguer/nguyen-cong-phuong/",
+          "https://baochinhphu.vn/doi-tuyen-viet-nam-thua-dang-tiec-tran-ra-quan-102250502.htm",
+          "https://www.aseanfootball.org/v3/vietnam-make-quarterfinals-of-afc-asian-cup/"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "unknown",
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "fields": null
+      }
+    },
+    {
+      "id": "christian-dior",
+      "name": "Christian Dior",
+      "wikidataId": "Q159694",
+      "birthDate": "1905-01-21",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "1957-10-24",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "dior-yves-death"
+      ],
+      "dobSourceIds": [
+        "dior-designmuseum-dob",
+        "dior-musee-granville"
+      ],
+      "statusSourceId": "dior-yves-death",
+      "careerFactIds": [
+        "dior-fashion-house-1946",
+        "dior-first-collection-1947"
+      ],
+      "countryCode": "FR",
+      "category": "artist",
+      "occupation": [
+        "nhà thiết kế thời trang"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "dior-fashion-house-1946",
+            "dior-first-collection-1947"
+          ],
+          "rationale": "Việc xây dựng nhà mốt và trình diễn bộ sưu tập thời trang đầu tiên là các đóng góp trực tiếp trong thiết kế và sáng tạo."
+        }
+      ],
+      "wikidataCaptureId": "christian-dior-wikidata",
+      "wikidataLabel": "Christian Dior",
+      "identityClaims": {
+        "label": "Christian Dior",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1905-01-21T00:00:00Z",
+            "references": 18,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1957-10-24T00:00:00Z",
+            "references": 1,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q142",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q142",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q4845479",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q43845",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3501317",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1323191",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q3501317"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q159694",
+        "https://www.musee-dior-granville.com/christian-dior/",
+        "https://designmuseum.org/designers/christian-dior",
+        "https://www.galeriedior.com/en/history",
+        "https://museeyslparis.com/en/biography/le-deces-de-christian-dior"
+      ],
+      "before": {
+        "biography": "Christian Dior là nhà thiết kế thời trang người Pháp. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Nước hoa Christian Dior ra mắt ngày 11/1/1947, một tháng trước buổi trình diễn đầu tiên của nhà thiết kế tại số 30 đại lộ Montaigne.",
+        "highlights": [
+          "Sinh ngày 21/1/1905.",
+          "Nước hoa Christian Dior ra mắt ngày 11/1/1947, một tháng trước buổi trình diễn đầu tiên của nhà thiết kế tại số 30 đại lộ Montaigne."
+        ],
+        "fields": null,
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q159694",
+          "https://www.musee-dior-granville.com/christian-dior/",
+          "https://designmuseum.org/designers/christian-dior"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      },
+      "after": {
+        "biography": "Christian Dior là nhà thiết kế thời trang người Pháp. Năm 1946, ông hợp tác với Marcel Boussac để thành lập nhà mốt Christian Dior. Ngày 12/2/1947, ông trình diễn bộ sưu tập Haute Couture đầu tiên tại salon số 30 Avenue Montaigne.",
+        "highlights": [
+          "Năm 1946, Christian Dior cùng Marcel Boussac thành lập nhà mốt Christian Dior.",
+          "Ngày 12/2/1947, ông trình diễn bộ sưu tập đầu tiên tại salon số 30 Avenue Montaigne."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q159694",
+          "https://www.musee-dior-granville.com/christian-dior/",
+          "https://designmuseum.org/designers/christian-dior",
+          "https://www.galeriedior.com/en/history",
+          "https://museeyslparis.com/en/biography/le-deces-de-christian-dior"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "deceased",
+        "deathDate": "1957-10-24",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://museeyslparis.com/en/biography/le-deces-de-christian-dior"
+        ],
+        "fields": [
+          "design-creative"
+        ]
+      },
+      "reviewNotes": "Hai nguồn bảo tàng Dior khác nhau về niên biểu nước hoa: Musée Christian Dior Granville nói Les Parfums Christian Dior ra đời ngày 11/1/1947; La Galerie Dior ghi nhà nước hoa thành lập ngày 4/3 và Miss Dior ra mắt tháng 12 (thiệp mời ngày 17/12). Không giữ mốc 11/1 hay ngày ra mắt nước hoa trong nội dung hiển thị; batch chỉ dùng hai mốc thời trang 1946 và 12/2/1947 được Galerie Dior ghi rõ."
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "paul-allen",
+      "name": "Paul G. Allen",
+      "wikidataId": "Q162005",
+      "birthDate": "1953-01-21",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "2018-10-15",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "allen-biography"
+      ],
+      "dobSourceIds": [
+        "allen-biography",
+        "allen-nature-obituary"
+      ],
+      "statusSourceId": "allen-biography",
+      "careerFactIds": [
+        "allen-microsoft-1975",
+        "allen-institute-2003"
+      ],
+      "countryCode": "US",
+      "category": "entrepreneur",
+      "occupation": [
+        "doanh nhân",
+        "lập trình viên máy tính",
+        "nhà đầu tư",
+        "nhà từ thiện"
+      ],
+      "fields": [
+        "technology-engineering",
+        "economics-business",
+        "entrepreneurship",
+        "science-research"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "technology-engineering",
+          "careerFactIds": [
+            "allen-microsoft-1975"
+          ],
+          "rationale": "Việc đồng sáng lập Microsoft đưa ông trực tiếp vào sự phát triển của phần mềm và máy tính cá nhân."
+        },
+        {
+          "field": "economics-business",
+          "careerFactIds": [
+            "allen-microsoft-1975"
+          ],
+          "rationale": "Microsoft là doanh nghiệp công nghệ ông đồng sáng lập cùng Bill Gates năm 1975."
+        },
+        {
+          "field": "entrepreneurship",
+          "careerFactIds": [
+            "allen-microsoft-1975",
+            "allen-institute-2003"
+          ],
+          "rationale": "Ông đồng sáng lập một công ty phần mềm và sau đó khởi lập một viện nghiên cứu."
+        },
+        {
+          "field": "science-research",
+          "careerFactIds": [
+            "allen-institute-2003"
+          ],
+          "rationale": "Viện Allen được lập để tăng tốc nghiên cứu y sinh và mở dữ liệu nghiên cứu."
+        }
+      ],
+      "wikidataCaptureId": "paul-allen-wikidata",
+      "wikidataLabel": "Paul Allen",
+      "identityClaims": {
+        "label": "Paul Allen",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1953-01-21T00:00:00Z",
+            "references": 5,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2018-10-15T00:00:00Z",
+            "references": 3,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 2
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q205375",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q82594",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q3282637",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q131524",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q43845",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q183945",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36834",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q10732476",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q578109",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q5482740",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q12362622",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q557880",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q45916492",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q131524",
+          "Q5482740"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q162005",
+        "https://www.biography.com/business-leaders/paul-allen",
+        "https://www.nature.com/articles/d41586-018-07259-3",
+        "https://alleninstitute.org/history"
+      ],
+      "birthplace": "Seattle, Washington, Hoa Kỳ",
+      "birthplaceEvidencePhrase": "Seattle",
+      "after": {
+        "shortDescription": "Doanh nhân công nghệ người Mỹ, đồng sáng lập Microsoft; sinh ngày 21/1/1953.",
+        "biography": "Paul G. Allen là doanh nhân, lập trình viên và nhà từ thiện người Mỹ. Ông cùng Bill Gates sáng lập Microsoft năm 1975. Năm 2003, ông cùng chị gái Jody Allen thành lập Allen Institute để thúc đẩy nghiên cứu y sinh. Allen qua đời ngày 15/10/2018.",
+        "highlights": [
+          "Năm 1975, ông cùng Bill Gates sáng lập Microsoft, đưa phần mềm máy tính cá nhân đến thị trường đại chúng.",
+          "Năm 2003, ông cùng Jody Allen thành lập Allen Institute để thúc đẩy nghiên cứu y sinh."
+        ],
+        "fields": [
+          "technology-engineering",
+          "economics-business",
+          "entrepreneurship",
+          "science-research"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q162005",
+          "https://www.biography.com/business-leaders/paul-allen",
+          "https://www.nature.com/articles/d41586-018-07259-3",
+          "https://alleninstitute.org/history"
+        ],
+        "lifeStatus": "deceased",
+        "deathDate": "2018-10-15",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://www.biography.com/business-leaders/paul-allen"
+        ]
+      }
+    },
+    {
+      "id": "placido-domingo",
+      "name": "Plácido Domingo",
+      "wikidataId": "Q130853",
+      "birthDate": "1941-01-21",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "deathDatePrecision": null,
+      "deathDateSourceIds": [],
+      "dobSourceIds": [
+        "domingo-moncloa",
+        "domingo-encyclopedia"
+      ],
+      "statusSourceId": null,
+      "careerFactIds": [
+        "domingo-roles-performances",
+        "domingo-operalia-1993"
+      ],
+      "countryCode": "ES",
+      "category": "music",
+      "occupation": [
+        "ca sĩ opera",
+        "nhạc trưởng",
+        "quản lý nghệ thuật"
+      ],
+      "fields": [
+        "design-creative",
+        "education-thought"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "domingo-roles-performances"
+          ],
+          "rationale": "Hơn 150 vai opera và hàng nghìn buổi diễn phản ánh sự nghiệp biểu diễn nghệ thuật của ông."
+        },
+        {
+          "field": "education-thought",
+          "careerFactIds": [
+            "domingo-operalia-1993"
+          ],
+          "rationale": "Ông lập cuộc thi Operalia để hỗ trợ phát hiện và phát triển thế hệ ca sĩ trẻ."
+        }
+      ],
+      "wikidataCaptureId": "placido-domingo-wikidata",
+      "wikidataLabel": "Plácido Domingo",
+      "identityClaims": {
+        "label": "Plácido Domingo",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1941-01-21T00:00:00Z",
+            "references": 10,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q29",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q29",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q2865819",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q158852",
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "value": "Q33999",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q177220",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q2865819",
+          "Q158852"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q130853",
+        "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/2011/refc20110114.aspx",
+        "https://www.encyclopedia.com/education/news-wires-white-papers-and-books/domingo-placido-1941",
+        "https://fundacionplacidodomingo.org/en/placido-domingo-en/"
+      ],
+      "birthplace": "Madrid, Tây Ban Nha",
+      "birthplaceEvidencePhrase": "Madrid",
+      "after": {
+        "shortDescription": "Ca sĩ opera và nhạc trưởng người Tây Ban Nha; sinh ngày 21/1/1941.",
+        "biography": "Plácido Domingo là ca sĩ opera và nhạc trưởng người Tây Ban Nha. Fundación Plácido Domingo ghi nhận ông đã thể hiện hơn 150 vai và có hơn 4.000 buổi diễn. Năm 1993, ông sáng lập Operalia, cuộc thi quốc tế nhằm hỗ trợ phát triển ca sĩ trẻ.",
+        "highlights": [
+          "Trong sự nghiệp opera, ông đã thể hiện hơn 150 vai và tham gia hơn 4.000 buổi diễn.",
+          "Năm 1993, ông sáng lập Operalia, cuộc thi quốc tế hỗ trợ phát hiện và phát triển ca sĩ trẻ."
+        ],
+        "fields": [
+          "design-creative",
+          "education-thought"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q130853",
+          "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/2011/refc20110114.aspx",
+          "https://www.encyclopedia.com/education/news-wires-white-papers-and-books/domingo-placido-1941",
+          "https://fundacionplacidodomingo.org/en/placido-domingo-en/"
+        ],
+        "lifeStatus": "unknown",
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      }
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "truong-hcmc-secretary",
+      "profileId": "truong-tan-sang",
+      "displayText": "Từ năm 1996 đến tháng 1/2000, ông là Bí thư Thành ủy Thành phố Hồ Chí Minh.",
+      "sourceId": "truong-bcp-biography",
+      "evidencePhrase": "1996- January, 2000"
+    },
+    {
+      "id": "truong-president-election",
+      "profileId": "truong-tan-sang",
+      "displayText": "Ngày 25/7/2011, Quốc hội bầu ông làm Chủ tịch nước với 97,4% phiếu thuận.",
+      "sourceId": "truong-bcp-election",
+      "evidencePhrase": "97.4%"
+    },
+    {
+      "id": "phuong-iraq-goal",
+      "profileId": "nguyen-cong-phuong",
+      "displayText": "Ngày 8/1/2019, anh ghi bàn cho Việt Nam trong trận ra quân Asian Cup gặp Iraq.",
+      "sourceId": "phuong-bcp-iraq",
+      "evidencePhrase": "Công Phượng (phút 42)"
+    },
+    {
+      "id": "phuong-jordan-equaliser",
+      "profileId": "nguyen-cong-phuong",
+      "displayText": "Tại Asian Cup 2019, anh ghi bàn gỡ hòa cho Việt Nam trước Jordan ở vòng 16 đội.",
+      "sourceId": "phuong-aff-jordan",
+      "evidencePhrase": "Nguyen Cong Phuong squeezed past the Jordanian defenders for the equaliser"
+    },
+    {
+      "id": "dior-fashion-house-1946",
+      "profileId": "christian-dior",
+      "displayText": "Năm 1946, Christian Dior cùng Marcel Boussac thành lập nhà mốt Christian Dior.",
+      "sourceId": "dior-galerie-timeline",
+      "evidencePhrase": "Christian Dior and the industrialist Marcel Boussac join forces to create the Christian Dior couture house"
+    },
+    {
+      "id": "dior-first-collection-1947",
+      "profileId": "christian-dior",
+      "displayText": "Ngày 12/2/1947, ông trình diễn bộ sưu tập đầu tiên tại salon số 30 Avenue Montaigne.",
+      "sourceId": "dior-galerie-timeline",
+      "evidencePhrase": "The first collection, Spring–Summer 1947, is presented on February 12, in the salons of 30 Avenue Montaigne"
+    },
+    {
+      "id": "allen-microsoft-1975",
+      "profileId": "paul-allen",
+      "displayText": "Năm 1975, ông cùng Bill Gates sáng lập Microsoft, đưa phần mềm máy tính cá nhân đến thị trường đại chúng.",
+      "sourceId": "allen-biography",
+      "evidencePhrase": "in 1975, college drop-outs Allen and Gates founded Microsoft"
+    },
+    {
+      "id": "allen-institute-2003",
+      "profileId": "paul-allen",
+      "displayText": "Năm 2003, ông cùng Jody Allen thành lập Allen Institute để thúc đẩy nghiên cứu y sinh.",
+      "sourceId": "allen-institute-history",
+      "evidencePhrase": "The Allen Institute was founded in 2003 by investor and philanthropist Paul G. Allen"
+    },
+    {
+      "id": "domingo-roles-performances",
+      "profileId": "placido-domingo",
+      "displayText": "Trong sự nghiệp opera, ông đã thể hiện hơn 150 vai và tham gia hơn 4.000 buổi diễn.",
+      "sourceId": "domingo-foundation-profile",
+      "evidencePhrase": "over 150 roles"
+    },
+    {
+      "id": "domingo-operalia-1993",
+      "profileId": "placido-domingo",
+      "displayText": "Năm 1993, ông sáng lập Operalia, cuộc thi quốc tế hỗ trợ phát hiện và phát triển ca sĩ trẻ.",
+      "sourceId": "domingo-moncloa",
+      "evidencePhrase": "Domingo creó en 1993 \"Operalia\""
+    }
+  ],
+  "wikidataReview": {
+    "conflicts": []
+  }
+}
