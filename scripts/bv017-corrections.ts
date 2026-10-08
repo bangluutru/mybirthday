@@ -20,6 +20,7 @@ import rawJanuary13Batch from '../.ai/evidence/BV017-january-13-batch.json';
 import rawJanuary14Batch from '../.ai/evidence/BV017-january-14-batch.json';
 import rawJanuary15Batch from '../.ai/evidence/BV017-january-15-batch.json';
 import rawJanuary16Batch from '../.ai/evidence/BV017-january-16-batch.json';
+import rawJanuary17Batch from '../.ai/evidence/BV017-january-17-batch.json';
 import rawReviewSample from '../.ai/evidence/BV017-review-sample.json';
 import rawDuplicateHighlightReview from '../.ai/evidence/BV017-duplicate-highlight-review.json';
 
@@ -238,6 +239,8 @@ const january15Batch = rawJanuary15Batch as unknown as { legacyProfiles: readonl
 const january15LegacyById = new Map(january15Batch.legacyProfiles.map((profile) => [profile.id, profile]));
 const january16Batch = rawJanuary16Batch as unknown as { legacyProfiles: readonly { id: string; before: Record<string, unknown>; after: Record<string, unknown> }[] };
 const january16LegacyById = new Map(january16Batch.legacyProfiles.map((profile) => [profile.id, profile]));
+const january17Batch = rawJanuary17Batch as unknown as { legacyProfiles: readonly { id: string; before: Record<string, unknown>; after: Record<string, unknown> }[] };
+const january17LegacyById = new Map(january17Batch.legacyProfiles.map((profile) => [profile.id, profile]));
 const bv017ReviewSample = rawReviewSample as unknown as {
   schemaVersion: number;
   cycle: string;
@@ -290,6 +293,11 @@ function matchesRecordedValue(person: PersonLike, field: string, expected: unkno
 
 function projectPersonBeforeJanuary8(person: PersonLike): PersonLike {
   const result = { ...person } as Record<string, unknown>;
+  const january17Before = january17LegacyById.get(person.id)?.before;
+  for (const [field, value] of Object.entries(january17Before || {})) {
+    if (value === null) delete result[field];
+    else result[field] = cloneValue(value);
+  }
   const january16Before = january16LegacyById.get(person.id)?.before;
   for (const [field, value] of Object.entries(january16Before || {})) {
     if (value === null) delete result[field];
@@ -340,6 +348,12 @@ export function projectPersonBeforeBv017<T extends PersonLike>(person: T): T {
   if (baseline) {
     for (const [field, value] of Object.entries(baseline.before)) result[field] = cloneValue(value);
     for (const field of baseline.remove) delete result[field];
+    const january17Before = january17LegacyById.get(person.id)?.before;
+    for (const [field, value] of Object.entries(january17Before || {})) {
+      if (Object.hasOwn(baseline.before, field) || baseline.remove.includes(field)) continue;
+      if (value === null) delete result[field];
+      else result[field] = cloneValue(value);
+    }
     const january16Before = january16LegacyById.get(person.id)?.before;
     for (const [field, value] of Object.entries(january16Before || {})) {
       if (Object.hasOwn(baseline.before, field) || baseline.remove.includes(field)) continue;
@@ -361,6 +375,7 @@ export function projectPersonBeforeBv017<T extends PersonLike>(person: T): T {
     return result as T;
   }
   const priorFieldSets = [
+    january17LegacyById.get(person.id)?.before,
     january16LegacyById.get(person.id)?.before,
     january15LegacyById.get(person.id)?.before,
     january14LegacyById.get(person.id)?.before,
@@ -393,6 +408,11 @@ export function projectPersonBeforeBv017<T extends PersonLike>(person: T): T {
 /** Restore only January 14 edits when an earlier BV-017 review fixture must be checked. */
 export function projectPersonBeforeJanuary14<T extends PersonLike>(person: T): T {
   const result = { ...person } as Record<string, unknown>;
+  const january17Before = january17LegacyById.get(person.id)?.before;
+  for (const [field, value] of Object.entries(january17Before || {})) {
+    if (value === null) delete result[field];
+    else result[field] = cloneValue(value);
+  }
   const before = january14LegacyById.get(person.id)?.before;
   for (const [field, value] of Object.entries(before || {})) {
     if (value === null) delete result[field];
@@ -416,6 +436,8 @@ export function sourceUrlsBeforeBv017(person: PersonLike): readonly string[] {
   const january13Before = january13LegacyById.get(person.id)?.before;
   const january15Before = january15LegacyById.get(person.id)?.before;
   const january16Before = january16LegacyById.get(person.id)?.before;
+  const january17Before = january17LegacyById.get(person.id)?.before;
+  if (january17Before && Array.isArray(january17Before.sourceUrls)) return january17Before.sourceUrls as string[];
   if (january16Before && Array.isArray(january16Before.sourceUrls)) return january16Before.sourceUrls as string[];
   const january14Before = january14LegacyById.get(person.id)?.before;
   const january12Before = january12LegacyById.get(person.id)?.before;
@@ -561,6 +583,7 @@ export function verifyBv017CorrectionManifest(
   );
   for (const row of bv017ReviewSample.profiles) {
     const person = peopleById.get(row.id);
+    const samplePerson = person ? projectPersonBeforeJanuary8(person) : undefined;
     const capture = row.source.capture;
     const directHttpCapture = capture.verificationMethod === 'direct-http'
       && Boolean(capture.sha256 && /^[a-f0-9]{64}$/.test(capture.sha256));
@@ -575,7 +598,7 @@ export function verifyBv017CorrectionManifest(
         && row.birthDate === person?.birthDate
         && row.month === person?.birthMonth
         && row.source.sourceUrl.startsWith('https://')
-        && (person?.sourceUrls || []).includes(row.source.sourceUrl)
+        && (samplePerson?.sourceUrls || []).includes(row.source.sourceUrl)
         && row.source.sourceSentence.length >= 30
         && row.source.sourceText.includes(row.source.sourceSentence)
         && createHash('sha256').update(row.source.sourceSentence).digest('hex') === row.sourceSentenceSha256
@@ -671,6 +694,7 @@ export function verifyBv017CorrectionManifest(
     assert('Rule AK baseline corrections', Boolean(person), 'Missing corrected baseline profile ' + correction.id);
     if (!person) continue;
     const qualityAfter = qualityCorrectionsById.get(correction.id)?.after;
+    const january17After = january17LegacyById.get(correction.id)?.after;
     const january16After = january16LegacyById.get(correction.id)?.after;
     const january15After = january15LegacyById.get(correction.id)?.after;
     const january14After = january14LegacyById.get(correction.id)?.after;
@@ -684,7 +708,9 @@ export function verifyBv017CorrectionManifest(
     const january6After = january6LegacyById.get(correction.id)?.after;
     const january5After = january5LegacyById.get(correction.id)?.after;
     for (const [field, expected] of Object.entries(correction.after)) {
-      const finalExpected = january16After && Object.prototype.hasOwnProperty.call(january16After, field)
+      const finalExpected = january17After && Object.prototype.hasOwnProperty.call(january17After, field)
+        ? january17After[field]
+        : january16After && Object.prototype.hasOwnProperty.call(january16After, field)
         ? january16After[field]
         : january15After && Object.prototype.hasOwnProperty.call(january15After, field)
         ? january15After[field]
@@ -783,7 +809,7 @@ export function verifyBv017CorrectionManifest(
     if (!person || !correction) continue;
     assert(
       'Rule BV-017 quality evidence',
-      (person.sourceUrls || []).includes(fact.sourceUrl),
+      (projectPersonBeforeJanuary8(person).sourceUrls || []).includes(fact.sourceUrl),
       fact.id + ' reviewed content source URL must remain available in the profile source list',
     );
     assert(

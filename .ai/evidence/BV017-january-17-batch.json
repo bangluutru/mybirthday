@@ -1,0 +1,1158 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-17",
+  "capturedAt": "2026-10-09T02:18:00+09:00",
+  "sourceCaptures": [
+    {
+      "id": "franklin-factsheet",
+      "url": "https://www.archives.gov/founding-docs/signers-factsheet",
+      "publisher": "U.S. National Archives",
+      "publisherHost": "www.archives.gov",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 73893,
+      "sha256": "9e935960a72443a652e117a2e0b47f5217271691af5903cc8a6957ce680d51e2",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "pageTitle": "Signers of the Declaration of Independence | National Archives",
+      "excerpt": "Floyd, William NY 12/17/1734 Brookhaven, NY 41 Land Speculator 2 3 8/4/1821 86 Franklin, Benjamin PA 1/17/1706 Boston, MA 70 Scientist, Printer 1 3 4/17/1790 84 Gerry, Elbridge MA 7/17/1744 Marblehead, MA 32 Merchant 1 7 11/23/1814 70 Gwinnett, Button GA c. 1735 Gloucester, England 41 Merchant, Plantation Owner 1 3 5/15/1777 42 Hall, Lyman GA 4/12/1724 Wallingford, CT 52 Physician, Minister 2 1 10/19/1790 66 Hancock, John MA 1/12/1737 Quincy, MA 40 Merchant 1 2 10/8/1793 56",
+      "excerptSha256": "a19c65478f349aafc8c43b83ab67f14b1796c3bed3ace0a9aa0b4a96547c63d7"
+    },
+    {
+      "id": "franklin-loc",
+      "url": "https://www.loc.gov/exhibits/franklin/franklin-intro.html",
+      "publisher": "Library of Congress",
+      "publisherHost": "www.loc.gov",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 11846,
+      "sha256": "2b341985f6221d41e11995838f6a9e986fcdfc56114c3eae2de4e2407e2c17f3",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "pageTitle": "Introduction - Benjamin Franklin: In His Own Words | Exhibitions - Library of Congress",
+      "excerpt": "Born in Boston on January 17, 1706, young Franklin struck out on his own in 1723, eventually finding employment as a journeyman printer in Philadelphia. Franklin's newspaper The Pennsylvania Gazette , his Poor Richard's Almanack , and work as an inventor and scientist propelled him to the front ranks of Philadelphia society and made him a well-known figure throughout the American provinces and England. In 1757, at age fifty-one Franklin, began his career as a diplomat and statesman in London where he essentially remained until the outbreak of the American Revolution. When Franklin returned to Philadelphia in 1775, he served as a delegate to the Continental Congress, where he was instrumental in drafting the Declaration of Independence and the Articles of Confederation. Because of his international experience, Franklin was chosen as one the first ministers to France. In Paris Franklin reached his peak of fame, becoming the focal point fo",
+      "excerptSha256": "1a9fd34c94d4335f4e4a4c05f8add9bbf5b7b46d22a43a3a0e0cf91a4173a659"
+    },
+    {
+      "id": "franklin-archives-pa",
+      "url": "https://www.archives.gov/founding-docs/founding-fathers-pennsylvania",
+      "publisher": "U.S. National Archives",
+      "publisherHost": "www.archives.gov",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 70821,
+      "sha256": "213185a852789e64857c50de9b25f2952a470ffbe5bd83b8e432c696a38d9646",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "pageTitle": "The Founding Fathers: Pennsylvania | National Archives",
+      "excerpt": "ned to Philadelphia in May 1775 and immediately became a distinguished member of the Continental Congress. Thirteen months later, he served on the committee that drafted the Declaration of Independence. He subsequently contributed to the government in other important ways, including service as postmaster general, and took over the duties of president of the Pennsylvania constitutional convention. But, within less than a year and a half after his return, the aged statesman set sail once again for Europe, beginning a career as diplomat that would",
+      "excerptSha256": "3259fca11d80fdedc3d63d76a4003c2e70f041c6d09760ec31ed5a54b14961b4"
+    },
+    {
+      "id": "franklin-brockhaus",
+      "url": "https://brockhaus.de/ecs/julex/article/franklin-benjamin",
+      "publisher": "Brockhaus",
+      "publisherHost": "brockhaus.de",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 198166,
+      "sha256": "a0302605a09129dc64d26afbce2e32b2427a6cce9cfd6bb74a319172e4c6a0c9",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "pageTitle": "Schullexikon - Brockhaus.de",
+      "excerpt": "chriftsteller Benjamin Franklin Vorlesen lassen Drucken Franklin [ˈfræŋklɪn] , Benjamin , US-amerikanischer Politiker, Naturwissenschaftler und Schriftsteller, * 17.1.1706 in Boston (Massachusetts), † 17.4.1790 in Philadelphia (Pennsylvania). In seiner Person dokumentiert sich der Wandel vom Puritaner zum aufstiegsorientierten, den American Dream verfolgenden erfolgreichen Yankee und exemplarischen Amerikaner. Einer der Gründervater der USA Wissenschaftler Schriftsteller Informationen zum Artikel Quellenangabe Leselineal schließen Kostenlos testen redaktionell geprüfte und verlässliche Inhalte altersger",
+      "excerptSha256": "ec30058c74b308b87d609cc833669b2aa58ec5d4806d2fc32936858056ab6095"
+    },
+    {
+      "id": "ali-national-archives",
+      "url": "https://www.archives.gov/research/african-americans/individuals/muhammad-ali",
+      "publisher": "U.S. National Archives",
+      "publisherHost": "www.archives.gov",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 59784,
+      "sha256": "df09ff25e213d5d8453f621edb0f43cdb282831eadcf3eab39d9faa6d9e33f0e",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "pageTitle": "Muhammad Ali (January 17, 1942 - June 6, 2016) | National Archives",
+      "excerpt": "Muhammad Ali is consistently ranked as one of the greatest boxers of all time. At the age of 18, Ali traveled to Rome, Italy to participate in the 1960 Olympics. He won the gold medal in light heavyweight boxing and returned to the United States to pursue his professional boxing career shortly thereafter. It was also around this time that Clay became a member of the Nation of Islam , announcing his name as Cassius X, then Muhammad Ali in 1964. In 1967, Ali had been reigning world heavyweight champion for three years when he publicly refused to be inducted into the American military during the Vietnam War. As a result of his actions, boxing officials decided to punish Ali by stripping him of his titles and suspending him from the game of boxing. During his suspension from 1967-1970, Ali became an activist and toured around the world speaking to civil rights organizations and anti-war groups. After 1970, Ali regained the title of heavyweight champion after defeating George Foreman in a match known as \"The Rumble in the Jungle.\" He continued fighting until 1981, ending his career with a 56-5 professional record. Black Power records at the National Archives related to Muhammad Ali consist of the court case ( Clay",
+      "excerptSha256": "8f4560679144d6330f3f63bc9623ae5d10a17a8e394cc7b89abf1adf3f8841f8"
+    },
+    {
+      "id": "ali-tv-academy",
+      "url": "https://www.televisionacademy.com/bios/muhammad-ali",
+      "publisher": "Television Academy",
+      "publisherHost": "www.televisionacademy.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 312943,
+      "sha256": "ec10d875b123db7b4bdee646a7c3ee80eb61f9dd5703206f7782f9f2a4ceceaa",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "pageTitle": "Muhammad Ali | Emmy Awards and Nominations  | Television Academy",
+      "excerpt": "e / Photo Credit: Photo Credit: / Learn More: imdb wikipedia official website Muhammad Ali Athlete, activist, performer Birthday January 17, 1942 Birthplace Louisville, Kentucky Date of Passing June 3, 2016 Obituary The New York Times Obituary Sports Illustrated Muhammad Ali was a boxer who won the world heayweight boxing title three times, but it was far more than success in the ring that made him perhaps the most influential and renowned athlete of the twentieth century. A man of principle who remained true to his convictions even when doing so caused him personal hardship, Ali drew as much media attention — both positivie and negative — for his stances on race, religion, politics and social issues as he did for his astounding achievements as a prizefighter.",
+      "excerptSha256": "47db990bbf7a36af76ad771e459709ff91b125575e5bf4886fb427c5595eeba9"
+    },
+    {
+      "id": "ali-center",
+      "url": "https://alicenter.org/the-timeline/",
+      "publisher": "Muhammad Ali Center",
+      "publisherHost": "alicenter.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 541415,
+      "sha256": "7d6b0839210ca4ecb09c88228e0331abc68ec40d8514f9630a854b849879168b",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "pageTitle": "The Timeline Of Muhammad Ali’s Life & Legacy | Ali Center",
+      "excerpt": "Jan. 17 1942 Born Cassius Clay, Jr. Cassius Clay, Jr. is born to Odessa and Cassius Clay, Sr. at the Louisville General Hospital in South Louisville. Two years later, brother Rudy (later Rahaman Ali) is born, and soon the family moves into the Parkla … ral pride. Courier Journal Sep. 05 1960 Wins Olympic Gold Medal Three months out of high school, Ali competes at the 1960 Summer Olympics in Rome. Despite being afraid of airplanes, Ali boards the flight while wearing an army surplus parachute. He wins the light-heavyweight gold medal, defeating Zbigniew Pietrzykowski of Poland. See Ali's … e and shouting ‘God is great’ in Arabic. See Ali's Humanitarian efforts Howard Bingham Apr. 28 1967 Refuses Military Draft in Houston Ali twice refuses to step forward when military induction officials call his name, citing his conscientious objection to the war in Vietnam as a minister in the non-violent religion of Islam. Convicted of draft evasion, he is stripped of his heavyweight title and boxing licenses. \"No, I will not go 10,000 miles from home to help murder and kill another poor people simply to continue the domination of white slave masters.\" Muhammad Ali May. 06 1967 Rallies with M … Jun. 03 2016 Muhammad Ali Passes Away Muhammad Ali passes away late in the evening in Scottsdale, Arizona due to respiratory complications. He was 74. Jun. 04 2016 Celebration of Life and Legacy For seven days, Louisville and the Muhammad Ali Center are the epicenter of an histor",
+      "excerptSha256": "98b3a02b9529aba279f129f8fd75c7e99fd4e3a74c06dd95c95bdc074af1a170"
+    },
+    {
+      "id": "michelle-library",
+      "url": "https://www.obamalibrary.gov/obamas/first-lady-michelle-obama",
+      "publisher": "Barack Obama Presidential Library",
+      "publisherHost": "www.obamalibrary.gov",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 26006,
+      "sha256": "1401069fc2af41913668c3bde48b6befdbab352dd5c5eca8403f2ef7350f9fa4",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "pageTitle": "First Lady Michelle Obama | Barack Obama Presidential Library",
+      "excerpt": "Michelle Robinson Obama was born in DeYoung, Illinois, on January 17, 1964, to parents Frasier Robinson III and Marian Shields. She grew up in Chicago’s South Shore neighborhood with her older brother Craig, attending Chicago Public Schools and quickly joining gifted classes in elementary school. Mrs. Obama graduated in 1981 as class salutatorian from Whitney Young High School, Chicago’s first magnet high school. She followed her brother to Princeton University in New Jersey, graduating cum laude in 1985. She earned her Bachelor of Arts degree, majoring in Sociology with a minor in African-American Studies, which informed her senior thesis: “Princeton-Educated Blacks and the Black Community.” In 1988, Mrs. Obama received her law degree from Harvard Law School. Following graduation, she was hired by the Chicag",
+      "excerptSha256": "e87c858419df33f3be865a3476dc35875ef91673b7144b00caeffc9a02e1941e"
+    },
+    {
+      "id": "michelle-foundation",
+      "url": "https://www.obama.org/about/administration/chicago-where-it-began/",
+      "publisher": "Obama Foundation",
+      "publisherHost": "www.obama.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 312398,
+      "sha256": "80df9a2959584109a1a1c02c743238dca09902183dbec7b16db3c50d0fe542e0",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "pageTitle": "Chicago: Where it Began | The Obama Foundation",
+      "excerpt": "at the University of Chicago Law School, and their historic 2008 election night celebration in Grant Park, The Barack Obama Foundation story starts in Chicago. January 17, 1964 Raised on the South Side Mrs. Obama, then Michelle Robinson, grew up in a two-story house on Euclid Avenue in Chicago’s South Shore community, and attended elementary school down the street. Her father, Fraser, was a city pump operator and a Democratic precinct captain. Her mother, Marian, was a secretary at the Spiegel catalog, who later stayed home to raise Michelle and her older brother, Craig. A young Michelle Obama (née Robinson) with her brother Craig Barack and Michelle O",
+      "excerptSha256": "0fbe112cd459d74b6f9a9b6812e889aae8ea7f6aa835846ad1895ddfd741218b"
+    },
+    {
+      "id": "michelle-whitehouse",
+      "url": "https://obamawhitehouse.archives.gov/administration/first-lady-michelle-obama",
+      "publisher": "U.S. National Archives (Obama White House archive)",
+      "publisherHost": "obamawhitehouse.archives.gov",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 112999,
+      "sha256": "a5f39516ed7da9ce5ad462c66ca79577c57e534a2f604f3e38295e8be0df4a58",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "pageTitle": "First Lady Michelle Obama | whitehouse.gov",
+      "excerpt": "l Center, volunteerism skyrocketed. Mrs. Obama has continued her efforts to support and inspire young people during her time as First Lady. In 2010, she launched Let’s Move! , bringing together community leaders, educators, medical professionals, parents, and others in a nationwide effort to address the challenge of childhood obesity. Let’s Move! has an ambitious goal: to solve the epidemic of childhood obesity within a generation. Whether it's providing healthier food in our schools, helping kids be more physically active, or urging companies to market healthier foods to our children, Let’s Move! is focused on giving parents the support they need to make healthier choices for their kids. In 2011, Mrs. Obama and Dr. Jill Biden came together to launch Joining Forces , a nationwide",
+      "excerptSha256": "c84a49d8c8176abf9574684fbb451ae2e7b5f5c5d7ae8cd28fc82293b4cb3354"
+    },
+    {
+      "id": "michelle-let-girls-learn",
+      "url": "https://obamawhitehouse.archives.gov/the-press-office/2015/11/02/op-ed-first-lady-michelle-obama-let-girls-learn",
+      "publisher": "U.S. National Archives (Obama White House archive)",
+      "publisherHost": "obamawhitehouse.archives.gov",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 112160,
+      "sha256": "99ec50d4a2c5fea4abafa13b4b49f2e8b811f9f71fce6d4504343e641eb478cf",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "pageTitle": "Op-Ed by First Lady Michelle Obama: Let Girls Learn | whitehouse.gov",
+      "excerpt": "y have their periods, and then fall behind and wind up dropping out. And it’s true that investments like these are critical for addressing our global girls’ education crisis. That’s why, last spring, the president and I launched Let Girls Learn, a new initiative to fund community girls’ education projects like girls’ leadership camps and school bathrooms; educate girls in conflict zones; and address poverty, HIV, and other issues that keep girls out of school. But while these investments are absolutely necessary to solve our girls’ education problem, they are simply not sufficient. Scholarships, bathrooms, and safe transportation will only go so far if societies still view menstruation as shameful and shun menstruating girls. Or if they fai",
+      "excerptSha256": "6281c4ce2d5c9d6d50af414e47ba1abca63c8a37ab152bc0be1b34a9cad6c1a7"
+    },
+    {
+      "id": "chung-olympedia",
+      "url": "https://www.olympedia.org/athletes/51677",
+      "publisher": "Olympedia",
+      "publisherHost": "www.olympedia.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 9240,
+      "sha256": "599fe13dd63adb9d63d43da30b177d1627150d8cdc9c6f75ed014cfd5c34c2d4",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "pageTitle": "Olympedia – Chung Thị Thanh Lan",
+      "excerpt": "Born 17 January 1962 Measurements 156 cm / 43 kg NOC Vietnam Results Games Discipline (Sport) / Event NOC / Team Pos Medal As 1980 Summer Olympics Swimming ( Aquatics ) VIE Chung Thị Thanh Lan 100 metres Freestyle, Women (Olympic) 29 List mentions Listed in First Female Competitors at the Olympics by Country (First woman to compete for Vietnam) Did you know? The Barcelona Olympics in 1992 were the first Games without any form of boycott in 20 years. Login | Statistics | About | Image Credits | FAQ | Feedback © OlyMADMen 2006 — 2026",
+      "excerptSha256": "4eeb905b9020dfe9e3779968d87e2aefd3126302877765ae32e85254b4cdcf6a"
+    },
+    {
+      "id": "anne-upenn",
+      "url": "https://digital.library.upenn.edu/women/bronte/bronte-anne.html",
+      "publisher": "University of Pennsylvania Libraries",
+      "publisherHost": "digital.library.upenn.edu",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 96680,
+      "sha256": "43c2b99eab2837d63e2877781a94f2fd5e7a09cdd62345804e19ed728a21da4c",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "pageTitle": "Anne Brontë (1820-1849)",
+      "excerpt": "suppositions, and hopes. The Parsonage Anne Brontë was born on January 17th, 1820, at Thornton (see The Brontë Birthplace ). Anne was the last of the six children of Patrick and his wife Maria Branwell Brontë. Her siblings, by age, were Maria, Elizabeth, Charlotte, Branwell, and Emily Jane. Patrick Brontë was the curate of Thornton. Given the size of the family, Patrick actively sought a better clerical appointment. After much difficulty, he was appointed to the perpetual curacy of Haworth. The Brontë family moved to the parsonage there in April, 1820.",
+      "excerptSha256": "7c24bf3f8d81e786cf23bb6f52b7a2f4643b08f58ab68b2258789082c506245f"
+    },
+    {
+      "id": "anne-toronto",
+      "url": "https://rpo.library.utoronto.ca/poets/bront%C3%AB-anne",
+      "publisher": "Representative Poetry Online, University of Toronto",
+      "publisherHost": "rpo.library.utoronto.ca",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 27431,
+      "sha256": "ab1805adfa8fd488db13132a62a72a8b3d6582d5d2a2b40f7ca4b77015193c07",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "pageTitle": "Brontë, Anne | RPO",
+      "excerpt": "iography. Ed. H. C. G. Matthew and Brian Harrison. Oxford: OUP, 2004. Given Name Anne Family Name Brontë Pseudonym(s) Bell, Acton Birth Date January 17, 1820 Death Date May 28, 1849 Nationality English Family Relations sister : Charlotte Brontë sister : Emily Jane Brontë brother : Patrick Branwell Brontë father : Patrick Brontë mother : Maria Brontë Education Miss Wooler's School Religion Honours Occupations Governess Literary Period Victorian Literary Movement Unknown Illness Cause of Death Consumption Buried At St. Mary's churchyard, Castle Hill, Scarborough First RPO Edi",
+      "excerptSha256": "fd11110f2cf1e714fe968285d21f87a85f4c6ab968eff36e8ac9575935458736"
+    },
+    {
+      "id": "anne-history",
+      "url": "https://www.history.com/this-day-in-history/January-17/anne-bronte-is-born",
+      "publisher": "HISTORY",
+      "publisherHost": "www.history.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 613135,
+      "sha256": "17703dba1f2b73d13b17fb1d507dabb8abbc66c140a0373d76cb2c8034921fc7",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "pageTitle": "English author Anne Brontë is born | HISTORY",
+      "excerpt": "d all been secretly writing verse. They self-published Poems by Currer, Ellis and Acton Bell in 1846. Although the book sold only two copies, the sisters continued writing. Charlotte’s Jane Eyre appeared in 1847, an instant success. Emily’s Wuthering Heights and Anne’s Agnes Grey were printed later that year. Anne’s next novel, The Tenant of Wildfell Hall (1848), explored the effects of a young man’s unchecked debauchery. Anne died of tuberculosis in 1849, at the age of 29. Timeline Also on This Day in History Discover more of the major events, famous births, notable deaths and every … On January 17, 1820, Anne Brontë, the youngest of the six Brontë children, is born in Yorkshire, England. Their mother died when Anne was still an infant, and the children were left largely to their own devices in the bleak parsonage in Haworth, a re",
+      "excerptSha256": "e38a9d70385a2036982430c3f4ecb9836988f5b96b4ff4263773105a0cdec1ca"
+    },
+    {
+      "id": "anne-prh",
+      "url": "https://www.penguinrandomhouse.com/authors/3348/anne-bronte/",
+      "publisher": "Penguin Random House",
+      "publisherHost": "www.penguinrandomhouse.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 196009,
+      "sha256": "9ae0fced4c4055344e7b03e7c86bfeb01d6d390154522c82a74a0af15f4bfa64",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "pageTitle": "Anne Bronte | Penguin Random House",
+      "excerpt": ", and madness is reflected in the writings of all three sisters, particularly in The Tenant of Wildfell Hall. The Brontes launched their literary careers in 1846 with a collection of verse published pseudonymously as Poems by Currer, Ellis and Acton Bell. In 1847 Anne’s first novel, Agnes Grey, was published in a volume together with Emily’s Wuthering Heights. Based on Anne’s experiences as a governess, it exposed the desperate plight of unmarried, educated women driven to take up the only respectable career open to them. Though critic George Moore, perhaps Anne’s greatest champion, later deemed it ‘the most perfect prose narrative in English literature,’ the work was overshadowed by the intense originality of Wuthering Heights, not to mention the enormous success of Charlotte’s Jane Eyre, which had appeared a few weeks earlier. Anne continued writing; her second novel, The Tenant of Wildfell Hall, came out in 1848. The bold story of a strong-minded woman’s struggle for independence, the book un … In 1847 Anne’s first novel, Agnes Grey, was published in a volume together with Emily’s Wuthering Heights. Based on Anne’s experiences as a governess, it exposed the desperate plight of unmarried, educated women driven to take up the only respectable career open to them. Though critic George Moore, perhaps Anne’s greatest champion, later deemed it",
+      "excerptSha256": "45051e140703bd07377e014fb959fe2c2d2e81cd3241fc4da3ec8174adfa2ee6"
+    },
+    {
+      "id": "benjamin-franklin-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q34969.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 337916,
+      "sha256": "57019ecce3ff1291af02aea030d875e25347bab021c7f7dacd46bc734573815d",
+      "verificationMethod": "direct-http-json-entity-snapshot+reviewed-claims",
+      "excerpt": "{\"entity\":\"Q34969\",\"claims\":{\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":2}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1706-01-17T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":19}],\"p570\":[{\"rank\":\"normal\",\"value\":\"+1790-04-17T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":18}],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q258532\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q30\",\"references\":0}],\"p106\":[{\"rank\":\"preferred\",\"value\":\"Q82955\",\"references\":4},{\"rank\":\"normal\",\"value\":\"Q2516866\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q175151\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q15994177\",\"references\":0},{\"rank\":\"deprecated\",\"value\":\"Q1416611\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q205375\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q11499147\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q372436\",\"references\":1},{\"rank\":\"preferred\",\"value\":\"Q193391\",\"references\":3},{\"rank\":\"normal\",\"value\":\"Q1225491\",\"references\":0},{\"rank\":\"preferred\",\"value\":\"Q270141\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q10873124\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q5322166\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q639669\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q18930007\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q18814623\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q182436\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q1930187\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q188094\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q169470\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q1607826\",\"references\":0},{\"rank\":\"preferred\",\"value\":\"Q36180\",\"references\":3},{\"rank\":\"normal\",\"value\":\"Q4964182\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q18805\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q40881196\",\"references\":1}]}}",
+      "excerptSha256": "c055c940aa14b76423aad20df86ae3587d76b6c270b68934f02eb3423c1f2589"
+    },
+    {
+      "id": "muhammad-ali-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q36107.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 281893,
+      "sha256": "189bbc793876de30e10dcab555ce53df7d2bdc77696ef027c20de704c8dfd35e",
+      "verificationMethod": "direct-http-json-entity-snapshot+reviewed-claims",
+      "excerpt": "{\"entity\":\"Q36107\",\"claims\":{\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":2}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1942-01-17T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":11}],\"p570\":[{\"rank\":\"normal\",\"value\":\"+2016-06-03T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":11}],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q30\",\"references\":1}],\"p106\":[{\"rank\":\"preferred\",\"value\":\"Q11338576\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q18814623\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q15253558\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q482980\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q2066131\",\"references\":1}]}}",
+      "excerptSha256": "aab42b0f40e8539d6c3f44e594029f0f9a92badbe45360fa2f3811d5dda3c46c"
+    },
+    {
+      "id": "michelle-obama-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q13133.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 217446,
+      "sha256": "9301b2b8161cb4933841ca3d53eb864659c36df8f703380e4c711a9556518669",
+      "verificationMethod": "direct-http-json-entity-snapshot+reviewed-claims",
+      "excerpt": "{\"entity\":\"Q13133\",\"claims\":{\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":3}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1964-01-17T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":7}],\"p570\":[],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q30\",\"references\":1}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q40348\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q36180\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q82955\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q15077007\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q185351\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q2306091\",\"references\":1}]}}",
+      "excerptSha256": "a16e2ef025036c0ee5c1c24ba34b1c7e2328dd9ea7d6e298cd6eeeb6fb74b119"
+    },
+    {
+      "id": "chung-thi-thanh-lan-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q28810222.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 10176,
+      "sha256": "05732dd902ab04ee4ff7954a9317002f331bc4a1133276f8515367a638e43f03",
+      "verificationMethod": "direct-http-json-entity-snapshot+reviewed-claims",
+      "excerpt": "{\"entity\":\"Q28810222\",\"claims\":{\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":0}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1962-01-17T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":1}],\"p570\":[],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q881\",\"references\":1}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q10843402\",\"references\":0}]}}",
+      "excerptSha256": "2cab560a0c71a58456a49283ce1c3b1b19a2fcf4b00f1186a0322f9653334a8b"
+    },
+    {
+      "id": "anne-bronte-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q44520.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 166403,
+      "sha256": "5d365fc9735ac25c3fbc9e71f2e46a7cdf4549cf2b78ec509bd1b2721d3da9d2",
+      "verificationMethod": "direct-http-json-entity-snapshot+reviewed-claims",
+      "excerpt": "{\"entity\":\"Q44520\",\"claims\":{\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":1}],\"p569\":[{\"rank\":\"preferred\",\"value\":\"+1820-01-17T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":8}],\"p570\":[{\"rank\":\"preferred\",\"value\":\"+1849-05-28T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":8}],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q174193\",\"references\":1}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q49757\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q6625963\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q1540278\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q36180\",\"references\":1}]}}",
+      "excerptSha256": "f9969440f1fb0c9139bbe803623d153a318d733972005b037ece2af1f47e1a99"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "benjamin-franklin",
+      "name": "Benjamin Franklin",
+      "wikidataId": "Q34969",
+      "birthDate": "1706-01-17",
+      "lifeStatus": "deceased",
+      "deathDate": "1790-04-17",
+      "dobSourceIds": [
+        "franklin-loc",
+        "franklin-brockhaus"
+      ],
+      "careerFactIds": [
+        "franklin-publishing",
+        "franklin-declaration"
+      ],
+      "countryCode": "US",
+      "category": "history",
+      "occupation": [
+        "nhà ngoại giao, nhà khoa học và chính khách"
+      ],
+      "fields": [
+        "economics-business",
+        "science-research"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "economics-business",
+          "careerFactIds": [
+            "franklin-publishing"
+          ],
+          "rationale": "Xuất bản báo và niên lịch thể hiện hoạt động xuất bản, kinh doanh nội dung của Franklin."
+        },
+        {
+          "field": "science-research",
+          "careerFactIds": [
+            "franklin-publishing"
+          ],
+          "rationale": "Nguồn Library of Congress ghi rõ công trình phát minh và khoa học của Franklin."
+        }
+      ],
+      "wikidataLabel": "Benjamin Franklin",
+      "wikidataCaptureId": "benjamin-franklin-wikidata",
+      "identityClaims": {
+        "label": "Benjamin Franklin",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1706-01-17T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 19
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1790-04-17T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 18
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q258532",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "preferred",
+            "value": "Q82955",
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "value": "Q2516866",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q175151",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q15994177",
+            "references": 0
+          },
+          {
+            "rank": "deprecated",
+            "value": "Q1416611",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q205375",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q11499147",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q372436",
+            "references": 1
+          },
+          {
+            "rank": "preferred",
+            "value": "Q193391",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q1225491",
+            "references": 0
+          },
+          {
+            "rank": "preferred",
+            "value": "Q270141",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q10873124",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q5322166",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q18930007",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q18814623",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q182436",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1930187",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q188094",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q169470",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1607826",
+            "references": 0
+          },
+          {
+            "rank": "preferred",
+            "value": "Q36180",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q4964182",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q18805",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q40881196",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q82955",
+          "Q193391"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q34969",
+        "https://www.archives.gov/founding-docs/signers-gallery",
+        "https://www.nga.org/governor/benjamin-franklin/",
+        "https://brockhaus.de/ecs/julex/article/franklin-benjamin",
+        "https://www.archives.gov/founding-docs/founding-fathers-pennsylvania",
+        "https://www.loc.gov/exhibits/franklin/franklin-intro.html",
+        "https://www.archives.gov/founding-docs/signers-factsheet"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "franklin-brockhaus",
+        "franklin-factsheet"
+      ],
+      "statusSourceId": "franklin-brockhaus",
+      "before": {
+        "biography": "Benjamin Franklin là nhà ngoại giao, nhà khoa học và chính khách người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Franklin từng tham gia ủy ban soạn thảo Tuyên ngôn Độc lập Hoa Kỳ.",
+        "highlights": [
+          "Sinh ngày 17/1/1706.",
+          "Franklin từng tham gia ủy ban soạn thảo Tuyên ngôn Độc lập Hoa Kỳ."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q34969",
+          "https://www.archives.gov/founding-docs/signers-gallery",
+          "https://www.nga.org/governor/benjamin-franklin/",
+          "https://brockhaus.de/ecs/julex/article/franklin-benjamin",
+          "https://www.archives.gov/founding-docs/founding-fathers-pennsylvania"
+        ],
+        "fields": null,
+        "deathDateSourceUrls": [
+          "https://brockhaus.de/ecs/julex/article/franklin-benjamin"
+        ]
+      },
+      "after": {
+        "biography": "Benjamin Franklin (1706–1790) là nhà ngoại giao, nhà khoa học và chính khách Hoa Kỳ. Ông xuất bản Pennsylvania Gazette và Poor Richard's Almanack; Thư viện Quốc hội Hoa Kỳ ghi nhận công trình phát minh, khoa học và xuất bản đã đưa ông lên hàng nhân vật nổi bật ở Philadelphia. Trong Quốc hội Lục địa, ông phục vụ ở ủy ban soạn thảo Tuyên ngôn Độc lập.",
+        "highlights": [
+          "Ông xuất bản Pennsylvania Gazette và Poor Richard's Almanack; công trình khoa học và phát minh giúp ông trở thành nhân vật nổi bật ở Philadelphia.",
+          "Franklin phục vụ trong ủy ban của Quốc hội Lục địa soạn thảo Tuyên ngôn Độc lập Hoa Kỳ."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q34969",
+          "https://www.archives.gov/founding-docs/signers-gallery",
+          "https://www.nga.org/governor/benjamin-franklin/",
+          "https://brockhaus.de/ecs/julex/article/franklin-benjamin",
+          "https://www.archives.gov/founding-docs/founding-fathers-pennsylvania",
+          "https://www.loc.gov/exhibits/franklin/franklin-intro.html",
+          "https://www.archives.gov/founding-docs/signers-factsheet"
+        ],
+        "fields": [
+          "economics-business",
+          "science-research"
+        ],
+        "deathDateSourceUrls": [
+          "https://brockhaus.de/ecs/julex/article/franklin-benjamin",
+          "https://www.archives.gov/founding-docs/signers-factsheet"
+        ]
+      }
+    },
+    {
+      "id": "muhammad-ali",
+      "name": "Muhammad Ali",
+      "wikidataId": "Q36107",
+      "birthDate": "1942-01-17",
+      "lifeStatus": "deceased",
+      "deathDate": "2016-06-03",
+      "dobSourceIds": [
+        "ali-tv-academy",
+        "ali-center"
+      ],
+      "careerFactIds": [
+        "ali-olympic-gold",
+        "ali-antiwar-activism"
+      ],
+      "countryCode": "US",
+      "category": "athlete",
+      "occupation": [
+        "võ sĩ quyền Anh"
+      ],
+      "fields": [
+        "society-law"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "society-law",
+          "careerFactIds": [
+            "ali-antiwar-activism"
+          ],
+          "rationale": "Việc từ chối nhập ngũ và phát biểu với các tổ chức dân quyền, phản chiến là hoạt động xã hội được National Archives ghi nhận."
+        }
+      ],
+      "wikidataLabel": "Muhammad Ali",
+      "wikidataCaptureId": "muhammad-ali-wikidata",
+      "identityClaims": {
+        "label": "Muhammad Ali",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1942-01-17T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 11
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2016-06-03T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 11
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "preferred",
+            "value": "Q11338576",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q18814623",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q15253558",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q482980",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q2066131",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q11338576"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q36107",
+        "https://www.census.gov/library/stories/2022/04/famous-people-who-first-appeared-in-1950-census-records.html",
+        "https://www.televisionacademy.com/bios/muhammad-ali",
+        "https://alicenter.org/the-timeline/"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "ali-center"
+      ],
+      "statusSourceId": "ali-center",
+      "before": {
+        "biography": "Muhammad Ali là võ sĩ quyền Anh người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Muhammad Ali giành huy chương vàng quyền anh hạng dưới nặng tại Olympic rồi trở về Mỹ theo đuổi sự nghiệp chuyên nghiệp.",
+        "highlights": [
+          "Sinh ngày 17/1/1942.",
+          "Muhammad Ali giành huy chương vàng quyền anh hạng dưới nặng tại Olympic rồi trở về Mỹ theo đuổi sự nghiệp chuyên nghiệp."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q36107",
+          "https://www.archives.gov/research/african-americans/individuals/muhammad-ali",
+          "https://www.census.gov/library/stories/2022/04/famous-people-who-first-appeared-in-1950-census-records.html"
+        ],
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "fields": null
+      },
+      "after": {
+        "biography": "Muhammad Ali (1942–2016) là võ sĩ quyền Anh Hoa Kỳ. Ông giành huy chương vàng hạng dưới nặng tại Olympic Rome 1960. Năm 1967, Ali từ chối nhập ngũ trong Chiến tranh Việt Nam; sau khi bị tước danh hiệu và đình chỉ thi đấu, ông phát biểu trước các tổ chức dân quyền và phản chiến.",
+        "highlights": [
+          "Ali giành huy chương vàng quyền Anh hạng dưới nặng tại Olympic Rome 1960.",
+          "Năm 1967, ông từ chối nhập ngũ và sau đó phát biểu trước các tổ chức dân quyền, phản chiến."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q36107",
+          "https://www.census.gov/library/stories/2022/04/famous-people-who-first-appeared-in-1950-census-records.html",
+          "https://www.televisionacademy.com/bios/muhammad-ali",
+          "https://alicenter.org/the-timeline/"
+        ],
+        "lifeStatus": "deceased",
+        "deathDate": "2016-06-03",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://alicenter.org/the-timeline/"
+        ],
+        "fields": [
+          "society-law"
+        ]
+      },
+      "reviewNotes": "Không dùng trang National Archives hiện lưu trong hồ sơ cũ vì tiêu đề trang ghi sai ngày mất là 6/6/2016; Trung tâm Muhammad Ali xác nhận ngày 3/6/2016 và ghi trực tiếp huy chương Olympic cùng việc phản đối quân dịch. Trang National Archives được giữ trong manifest để lưu dấu lý do loại.",
+      "excludedSourceIds": [
+        "ali-national-archives"
+      ]
+    },
+    {
+      "id": "michelle-obama",
+      "name": "Michelle Obama",
+      "wikidataId": "Q13133",
+      "birthDate": "1964-01-17",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "michelle-library",
+        "michelle-foundation"
+      ],
+      "careerFactIds": [
+        "michelle-lets-move",
+        "michelle-let-girls-learn"
+      ],
+      "countryCode": "US",
+      "category": "politics",
+      "occupation": [
+        "luật sư và nhà văn"
+      ],
+      "fields": [
+        "education-thought",
+        "medicine-health"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "medicine-health",
+          "careerFactIds": [
+            "michelle-lets-move"
+          ],
+          "rationale": "Chiến dịch Let’s Move! hướng đến sức khỏe trẻ em và ứng phó béo phì ở trẻ."
+        },
+        {
+          "field": "education-thought",
+          "careerFactIds": [
+            "michelle-let-girls-learn"
+          ],
+          "rationale": "Let Girls Learn tập trung mở rộng cơ hội học tập cho trẻ em gái."
+        }
+      ],
+      "wikidataLabel": "Michelle Obama",
+      "wikidataCaptureId": "michelle-obama-wikidata",
+      "identityClaims": {
+        "label": "Michelle Obama",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 3
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1964-01-17T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 7
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q40348",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q82955",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q15077007",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q185351",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q2306091",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q40348",
+          "Q36180"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q13133",
+        "https://obamalibrary.archives.gov/obamas/first-lady-michelle-obama",
+        "https://obamawhitehouse.archives.gov/administration/first-lady-michelle-obama",
+        "https://www.obamalibrary.gov/obamas/first-lady-michelle-obama",
+        "https://www.obama.org/about/administration/chicago-where-it-began/",
+        "https://obamawhitehouse.archives.gov/the-press-office/2015/11/02/op-ed-first-lady-michelle-obama-let-girls-learn"
+      ],
+      "before": {
+        "biography": "Michelle Obama là luật sư và nhà văn người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 2010, Michelle Obama khởi động chiến dịch Let's Move! nhằm huy động cộng đồng và chuyên gia ứng phó tình trạng béo phì ở trẻ em.",
+        "highlights": [
+          "Sinh ngày 17/1/1964.",
+          "Năm 2010, Michelle Obama khởi động chiến dịch Let's Move! nhằm huy động cộng đồng và chuyên gia ứng phó tình trạng béo phì ở trẻ em."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q13133",
+          "https://obamalibrary.archives.gov/obamas/first-lady-michelle-obama",
+          "https://obamawhitehouse.archives.gov/administration/first-lady-michelle-obama"
+        ],
+        "lifeStatus": null,
+        "fields": null
+      },
+      "after": {
+        "biography": "Michelle Obama là luật sư và nhà văn Hoa Kỳ. Khi làm Đệ nhất phu nhân, bà khởi động Let's Move! để tập hợp cộng đồng, nhà giáo dục và chuyên gia y tế ứng phó tình trạng béo phì ở trẻ em. Bà cùng Tổng thống Obama khởi động Let Girls Learn nhằm mở rộng cơ hội giáo dục cho trẻ em gái trên thế giới.",
+        "highlights": [
+          "Năm 2010, bà khởi động Let's Move! cùng cộng đồng, nhà giáo dục và chuyên gia y tế để ứng phó tình trạng béo phì ở trẻ em.",
+          "Bà cùng Tổng thống Obama khởi động Let Girls Learn để hỗ trợ giáo dục cho trẻ em gái."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q13133",
+          "https://obamalibrary.archives.gov/obamas/first-lady-michelle-obama",
+          "https://obamawhitehouse.archives.gov/administration/first-lady-michelle-obama",
+          "https://www.obamalibrary.gov/obamas/first-lady-michelle-obama",
+          "https://www.obama.org/about/administration/chicago-where-it-began/",
+          "https://obamawhitehouse.archives.gov/the-press-office/2015/11/02/op-ed-first-lady-michelle-obama-let-girls-learn"
+        ],
+        "lifeStatus": "unknown",
+        "fields": [
+          "education-thought",
+          "medicine-health"
+        ]
+      }
+    },
+    {
+      "id": "chung-thi-thanh-lan",
+      "name": "Chung Thị Thanh Lan",
+      "wikidataId": "Q28810222",
+      "birthDate": "1962-01-17",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "chung-olympedia"
+      ],
+      "careerFactIds": [
+        "chung-olympic-swimming",
+        "chung-first-vietnamese-olympic-woman"
+      ],
+      "countryCode": "VN",
+      "category": "athlete",
+      "occupation": [
+        "vận động viên bơi lội"
+      ],
+      "fields": [],
+      "fieldEvidence": [],
+      "wikidataLabel": "Chung Thị Thanh Lan",
+      "wikidataCaptureId": "chung-thi-thanh-lan-wikidata",
+      "identityClaims": {
+        "label": "Chung Thị Thanh Lan",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 0
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1962-01-17T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q881",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q10843402",
+            "references": 0
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q10843402"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q28810222",
+        "https://www.olympedia.org/athletes/51677",
+        "https://digital.la84.org/digital/collection/p17103coll8/id/30689"
+      ],
+      "reviewNotes": "DOB có một nguồn tiểu sử độc lập đã lưu (Olympedia) và P569 Gregorian precision 11 trong entity snapshot; chưa có nguồn hiện thời đủ để xác nhận sống nên giữ unknown.",
+      "before": {
+        "biography": "Chung Thị Thanh Lan là vận động viên bơi lội người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Chung Thị Thanh Lan thi đấu nội dung 100 m tự do nữ tại Thế vận hội mùa hè 1980.",
+        "highlights": [
+          "Sinh ngày 17/1/1962.",
+          "Chung Thị Thanh Lan thi đấu nội dung 100 m tự do nữ tại Thế vận hội mùa hè 1980."
+        ],
+        "lifeStatus": null
+      },
+      "after": {
+        "biography": "Chung Thị Thanh Lan là vận động viên bơi lội Việt Nam, thi đấu nội dung 100 m tự do nữ tại Thế vận hội Moscow 1980 và xếp hạng 29. Olympedia cũng ghi bà trong danh sách những nữ vận động viên đầu tiên thi đấu Olympic cho Việt Nam.",
+        "highlights": [
+          "Tại Olympic Moscow 1980, bà thi đấu 100 m tự do nữ và xếp hạng 29.",
+          "Olympedia liệt kê Chung Thị Thanh Lan trong nhóm nữ vận động viên đầu tiên đại diện Việt Nam tại Olympic."
+        ],
+        "lifeStatus": "unknown"
+      }
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "anne-bronte",
+      "name": "Anne Brontë",
+      "wikidataId": "Q44520",
+      "birthDate": "1820-01-17",
+      "lifeStatus": "deceased",
+      "deathDate": "1849-05-28",
+      "dobSourceIds": [
+        "anne-upenn",
+        "anne-toronto"
+      ],
+      "careerFactIds": [
+        "anne-poems",
+        "anne-agnes-grey",
+        "anne-tenant"
+      ],
+      "countryCode": "GB",
+      "category": "literature",
+      "occupation": [
+        "nhà thơ và tiểu thuyết gia"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "anne-poems",
+            "anne-agnes-grey",
+            "anne-tenant"
+          ],
+          "rationale": "Các tập thơ và tiểu thuyết của Anne là các tác phẩm văn học được nguồn thư viện và nhà xuất bản xác nhận."
+        }
+      ],
+      "wikidataLabel": "Anne Brontë",
+      "wikidataCaptureId": "anne-bronte-wikidata",
+      "identityClaims": {
+        "label": "Anne Brontë",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "preferred",
+            "value": "+1820-01-17T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 8
+          }
+        ],
+        "p570": [
+          {
+            "rank": "preferred",
+            "value": "+1849-05-28T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 8
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q174193",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q174193",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q49757",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q6625963",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q1540278",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q49757",
+          "Q6625963"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q44520",
+        "https://digital.library.upenn.edu/women/bronte/bronte-anne.html",
+        "https://rpo.library.utoronto.ca/poets/bront%C3%AB-anne",
+        "https://www.history.com/this-day-in-history/January-17/anne-bronte-is-born",
+        "https://www.penguinrandomhouse.com/authors/3348/anne-bronte/"
+      ],
+      "birthplace": "Thornton, Yorkshire, Anh",
+      "birthplaceEvidencePhrase": "at Thornton",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "anne-toronto"
+      ],
+      "statusSourceId": "anne-toronto",
+      "verifiedAt": "2026-10-08"
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "franklin-publishing",
+      "profileId": "benjamin-franklin",
+      "displayText": "Ông xuất bản Pennsylvania Gazette và Poor Richard's Almanack; công trình khoa học và phát minh giúp ông trở thành nhân vật nổi bật ở Philadelphia.",
+      "sourceId": "franklin-loc",
+      "evidencePhrase": "work as an inventor and scientist propelled him"
+    },
+    {
+      "id": "franklin-declaration",
+      "profileId": "benjamin-franklin",
+      "displayText": "Franklin phục vụ trong ủy ban của Quốc hội Lục địa soạn thảo Tuyên ngôn Độc lập Hoa Kỳ.",
+      "sourceId": "franklin-archives-pa",
+      "evidencePhrase": "he served on the committee that drafted the Declaration of Independence"
+    },
+    {
+      "id": "ali-olympic-gold",
+      "profileId": "muhammad-ali",
+      "displayText": "Ali giành huy chương vàng quyền Anh hạng dưới nặng tại Olympic Rome 1960.",
+      "sourceId": "ali-center",
+      "evidencePhrase": "He wins the light-heavyweight gold medal"
+    },
+    {
+      "id": "ali-antiwar-activism",
+      "profileId": "muhammad-ali",
+      "displayText": "Năm 1967, ông từ chối nhập ngũ và sau đó phát biểu trước các tổ chức dân quyền, phản chiến.",
+      "sourceId": "ali-center",
+      "evidencePhrase": "Ali twice refuses to step forward when military induction officials call his name"
+    },
+    {
+      "id": "michelle-lets-move",
+      "profileId": "michelle-obama",
+      "displayText": "Năm 2010, bà khởi động Let's Move! cùng cộng đồng, nhà giáo dục và chuyên gia y tế để ứng phó tình trạng béo phì ở trẻ em.",
+      "sourceId": "michelle-whitehouse",
+      "evidencePhrase": "In 2010, she launched Let’s Move!"
+    },
+    {
+      "id": "michelle-let-girls-learn",
+      "profileId": "michelle-obama",
+      "displayText": "Bà cùng Tổng thống Obama khởi động Let Girls Learn để hỗ trợ giáo dục cho trẻ em gái.",
+      "sourceId": "michelle-let-girls-learn",
+      "evidencePhrase": "launched Let Girls Learn"
+    },
+    {
+      "id": "chung-olympic-swimming",
+      "profileId": "chung-thi-thanh-lan",
+      "displayText": "Tại Olympic Moscow 1980, bà thi đấu 100 m tự do nữ và xếp hạng 29.",
+      "sourceId": "chung-olympedia",
+      "evidencePhrase": "100 metres Freestyle, Women (Olympic) 29"
+    },
+    {
+      "id": "chung-first-vietnamese-olympic-woman",
+      "profileId": "chung-thi-thanh-lan",
+      "displayText": "Olympedia liệt kê Chung Thị Thanh Lan trong nhóm nữ vận động viên đầu tiên đại diện Việt Nam tại Olympic.",
+      "sourceId": "chung-olympedia",
+      "evidencePhrase": "First woman to compete for Vietnam"
+    },
+    {
+      "id": "anne-poems",
+      "profileId": "anne-bronte",
+      "displayText": "Năm 1846, Anne cùng các chị gái xuất bản tập thơ dưới bút danh Currer, Ellis và Acton Bell.",
+      "sourceId": "anne-prh",
+      "evidencePhrase": "published pseudonymously as Poems by Currer, Ellis and Acton Bell."
+    },
+    {
+      "id": "anne-agnes-grey",
+      "profileId": "anne-bronte",
+      "displayText": "Năm 1847, Agnes Grey trở thành tiểu thuyết đầu tiên của Anne Brontë.",
+      "sourceId": "anne-prh",
+      "evidencePhrase": "In 1847 Anne’s first novel, Agnes Grey, was published"
+    },
+    {
+      "id": "anne-tenant",
+      "profileId": "anne-bronte",
+      "displayText": "The Tenant of Wildfell Hall xuất bản năm 1848, khai thác hậu quả của sự buông thả của một thanh niên.",
+      "sourceId": "anne-history",
+      "evidencePhrase": "The Tenant of Wildfell Hall (1848), explored the effects of a young man’s unchecked debauchery."
+    }
+  ],
+  "wikidataReview": {
+    "conflicts": []
+  }
+}

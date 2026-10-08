@@ -10,7 +10,7 @@
     "people": 1120,
     "death_date_conflict": 33,
     "p570_without_reference": 1,
-    "deathDatesDirectlyConfirmedByPublisherCapture": 301,
+    "deathDatesDirectlyConfirmedByPublisherCapture": 303,
     "deathDatesDirectlyConfirmedInB015B016": 36,
     "deathDatesDirectlyConfirmedInBaseline": 240,
     "preExistingDeathDateConflictsNotOverwritten": 30,
@@ -26,7 +26,8 @@
     "deathDatesDirectlyConfirmedInBV017January13": 4,
     "deathDatesDirectlyConfirmedInBV017January14": 3,
     "deathDatesDirectlyConfirmedInBV017January15": 2,
-    "deathDatesDirectlyConfirmedInBV017January16": 2
+    "deathDatesDirectlyConfirmedInBV017January16": 2,
+    "deathDatesDirectlyConfirmedInBV017January17": 3
   },
   "people": [
     {
@@ -5375,7 +5376,8 @@
       ],
       "localDeathDatePrecision": "day",
       "localDeathDateSourceUrls": [
-        "https://brockhaus.de/ecs/julex/article/franklin-benjamin"
+        "https://brockhaus.de/ecs/julex/article/franklin-benjamin",
+        "https://www.archives.gov/founding-docs/signers-factsheet"
       ],
       "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
@@ -5466,11 +5468,13 @@
       "activeDeathDates": [
         "2016-06-03"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "2016-06-03",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://alicenter.org/the-timeline/"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -5548,11 +5552,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "unknown",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -5598,11 +5602,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "unknown",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {

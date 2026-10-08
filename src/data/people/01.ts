@@ -3105,18 +3105,20 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà ngoại giao, nhà khoa học và chính khách Hoa Kỳ; sinh ngày 17/1/1706.",
-  "biography": "Benjamin Franklin là nhà ngoại giao, nhà khoa học và chính khách người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Franklin từng tham gia ủy ban soạn thảo Tuyên ngôn Độc lập Hoa Kỳ.",
-  "highlights": ["Sinh ngày 17/1/1706.", "Franklin từng tham gia ủy ban soạn thảo Tuyên ngôn Độc lập Hoa Kỳ."],
+  "biography": "Benjamin Franklin (1706–1790) là nhà ngoại giao, nhà khoa học và chính khách Hoa Kỳ. Ông xuất bản Pennsylvania Gazette và Poor Richard's Almanack; Thư viện Quốc hội Hoa Kỳ ghi nhận công trình phát minh, khoa học và xuất bản đã đưa ông lên hàng nhân vật nổi bật ở Philadelphia. Trong Quốc hội Lục địa, ông phục vụ ở ủy ban soạn thảo Tuyên ngôn Độc lập.",
+  "highlights": ["Ông xuất bản Pennsylvania Gazette và Poor Richard's Almanack; công trình khoa học và phát minh giúp ông trở thành nhân vật nổi bật ở Philadelphia.", "Franklin phục vụ trong ủy ban của Quốc hội Lục địa soạn thảo Tuyên ngôn Độc lập Hoa Kỳ."],
   "wikidataId": "Q34969",
-  "sourceUrls": ["https://www.wikidata.org/wiki/Q34969", "https://www.archives.gov/founding-docs/signers-gallery", "https://www.nga.org/governor/benjamin-franklin/", "https://brockhaus.de/ecs/julex/article/franklin-benjamin", "https://www.archives.gov/founding-docs/founding-fathers-pennsylvania"],
+  "sourceUrls": ["https://www.wikidata.org/wiki/Q34969", "https://www.archives.gov/founding-docs/signers-gallery", "https://www.nga.org/governor/benjamin-franklin/", "https://brockhaus.de/ecs/julex/article/franklin-benjamin", "https://www.archives.gov/founding-docs/founding-fathers-pennsylvania", "https://www.loc.gov/exhibits/franklin/franklin-intro.html", "https://www.archives.gov/founding-docs/signers-factsheet"],
   "region": "west",
   "deathDate": "1790-04-17",
   "lifeStatus": "deceased",
   "deathDateSourceUrls": [
-    "https://brockhaus.de/ecs/julex/article/franklin-benjamin"
+    "https://brockhaus.de/ecs/julex/article/franklin-benjamin",
+    "https://www.archives.gov/founding-docs/signers-factsheet"
   ],
   "deathDatePrecision": "day",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-04",
+  "fields": ["economics-business", "science-research"]
 }  ,
 {
   "id": "muhammad-ali",
@@ -3136,16 +3138,22 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Võ sĩ quyền anh Hoa Kỳ; sinh ngày 17/1/1942.",
-  "biography": "Muhammad Ali là võ sĩ quyền Anh người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Muhammad Ali giành huy chương vàng quyền anh hạng dưới nặng tại Olympic rồi trở về Mỹ theo đuổi sự nghiệp chuyên nghiệp.",
-  "highlights": ["Sinh ngày 17/1/1942.", "Muhammad Ali giành huy chương vàng quyền anh hạng dưới nặng tại Olympic rồi trở về Mỹ theo đuổi sự nghiệp chuyên nghiệp."],
+  "biography": "Muhammad Ali (1942–2016) là võ sĩ quyền Anh Hoa Kỳ. Ông giành huy chương vàng hạng dưới nặng tại Olympic Rome 1960. Năm 1967, Ali từ chối nhập ngũ trong Chiến tranh Việt Nam; sau khi bị tước danh hiệu và đình chỉ thi đấu, ông phát biểu trước các tổ chức dân quyền và phản chiến.",
+  "highlights": ["Ali giành huy chương vàng quyền Anh hạng dưới nặng tại Olympic Rome 1960.", "Năm 1967, ông từ chối nhập ngũ và sau đó phát biểu trước các tổ chức dân quyền, phản chiến."],
   "wikidataId": "Q36107",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q36107",
-    "https://www.archives.gov/research/african-americans/individuals/muhammad-ali",
-    "https://www.census.gov/library/stories/2022/04/famous-people-who-first-appeared-in-1950-census-records.html"
+    "https://www.census.gov/library/stories/2022/04/famous-people-who-first-appeared-in-1950-census-records.html",
+    "https://www.televisionacademy.com/bios/muhammad-ali",
+    "https://alicenter.org/the-timeline/"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-04",
+  "lifeStatus": "deceased",
+  "deathDate": "2016-06-03",
+  "deathDateSourceUrls": ["https://alicenter.org/the-timeline/"],
+  "deathDatePrecision": "day",
+  "fields": ["society-law"]
 }  ,
 {
   "id": "michelle-obama",
@@ -3165,16 +3173,21 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Luật sư và nhà văn Hoa Kỳ; sinh ngày 17/1/1964.",
-  "biography": "Michelle Obama là luật sư và nhà văn người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 2010, Michelle Obama khởi động chiến dịch Let's Move! nhằm huy động cộng đồng và chuyên gia ứng phó tình trạng béo phì ở trẻ em.",
-  "highlights": ["Sinh ngày 17/1/1964.", "Năm 2010, Michelle Obama khởi động chiến dịch Let's Move! nhằm huy động cộng đồng và chuyên gia ứng phó tình trạng béo phì ở trẻ em."],
+  "biography": "Michelle Obama là luật sư và nhà văn Hoa Kỳ. Khi làm Đệ nhất phu nhân, bà khởi động Let's Move! để tập hợp cộng đồng, nhà giáo dục và chuyên gia y tế ứng phó tình trạng béo phì ở trẻ em. Bà cùng Tổng thống Obama khởi động Let Girls Learn nhằm mở rộng cơ hội giáo dục cho trẻ em gái trên thế giới.",
+  "highlights": ["Năm 2010, bà khởi động Let's Move! cùng cộng đồng, nhà giáo dục và chuyên gia y tế để ứng phó tình trạng béo phì ở trẻ em.", "Bà cùng Tổng thống Obama khởi động Let Girls Learn để hỗ trợ giáo dục cho trẻ em gái."],
   "wikidataId": "Q13133",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q13133",
     "https://obamalibrary.archives.gov/obamas/first-lady-michelle-obama",
-    "https://obamawhitehouse.archives.gov/administration/first-lady-michelle-obama"
+    "https://obamawhitehouse.archives.gov/administration/first-lady-michelle-obama",
+    "https://www.obamalibrary.gov/obamas/first-lady-michelle-obama",
+    "https://www.obama.org/about/administration/chicago-where-it-began/",
+    "https://obamawhitehouse.archives.gov/the-press-office/2015/11/02/op-ed-first-lady-michelle-obama-let-girls-learn"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-04",
+  "lifeStatus": "unknown",
+  "fields": ["education-thought", "medicine-health"]
 }  ,
 {
   "id": "chung-thi-thanh-lan",
@@ -3194,8 +3207,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
   "shortDescription": "Vận động viên bơi lội Việt Nam; sinh ngày 17/1/1962.",
-  "biography": "Chung Thị Thanh Lan là vận động viên bơi lội người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Chung Thị Thanh Lan thi đấu nội dung 100 m tự do nữ tại Thế vận hội mùa hè 1980.",
-  "highlights": ["Sinh ngày 17/1/1962.", "Chung Thị Thanh Lan thi đấu nội dung 100 m tự do nữ tại Thế vận hội mùa hè 1980."],
+  "biography": "Chung Thị Thanh Lan là vận động viên bơi lội Việt Nam, thi đấu nội dung 100 m tự do nữ tại Thế vận hội Moscow 1980 và xếp hạng 29. Olympedia cũng ghi bà trong danh sách những nữ vận động viên đầu tiên thi đấu Olympic cho Việt Nam.",
+  "highlights": ["Tại Olympic Moscow 1980, bà thi đấu 100 m tự do nữ và xếp hạng 29.", "Olympedia liệt kê Chung Thị Thanh Lan trong nhóm nữ vận động viên đầu tiên đại diện Việt Nam tại Olympic."],
   "wikidataId": "Q28810222",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q28810222",
@@ -3203,7 +3216,43 @@ export const PEOPLE_01: Person[] = [
     "https://digital.la84.org/digital/collection/p17103coll8/id/30689"
   ],
   "region": "vietnam",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-04",
+  "lifeStatus": "unknown"
+}  ,
+{
+  "id": "anne-bronte",
+  "slug": "anne-bronte",
+  "name": "Anne Brontë",
+  "birthDate": "1820-01-17",
+  "birthYear": 1820,
+  "birthMonth": 1,
+  "birthDay": 17,
+  "occupation": ["nhà thơ và tiểu thuyết gia"],
+  "category": "literature",
+  "categoryLabel": "Văn học",
+  "countryCode": "GB",
+  "countryName": "Vương quốc Anh",
+  "countryFlag": "🇬🇧",
+  "birthplace": "Thornton, Yorkshire, Anh",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Nhà thơ và tiểu thuyết gia Anh; sinh ngày 17/1/1820.",
+  "biography": "Anne Brontë (1820–1849) là nhà thơ và tiểu thuyết gia Anh. Năm 1846, bà cùng các chị gái xuất bản tập thơ Poems by Currer, Ellis and Acton Bell dưới bút danh. Hai tiểu thuyết nổi tiếng của bà là Agnes Grey (1847) và The Tenant of Wildfell Hall (1848).",
+  "highlights": ["Năm 1846, Anne cùng các chị gái xuất bản tập thơ dưới bút danh Currer, Ellis và Acton Bell.", "Năm 1847, Agnes Grey trở thành tiểu thuyết đầu tiên của Anne Brontë.", "The Tenant of Wildfell Hall xuất bản năm 1848, khai thác hậu quả của sự buông thả của một thanh niên."],
+  "wikidataId": "Q44520",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q44520",
+    "https://digital.library.upenn.edu/women/bronte/bronte-anne.html",
+    "https://rpo.library.utoronto.ca/poets/bront%C3%AB-anne",
+    "https://www.history.com/this-day-in-history/January-17/anne-bronte-is-born",
+    "https://www.penguinrandomhouse.com/authors/3348/anne-bronte/"
+  ],
+  "region": "west",
+  "verifiedAt": "2026-10-08",
+  "lifeStatus": "deceased",
+  "deathDate": "1849-05-28",
+  "deathDateSourceUrls": ["https://rpo.library.utoronto.ca/poets/bront%C3%AB-anne"],
+  "deathDatePrecision": "day",
+  "fields": ["design-creative"]
 }  ,
 {
   "id": "nguyen-sinh-hung",
