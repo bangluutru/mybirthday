@@ -1,0 +1,1911 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-09",
+  "sourceCaptures": [
+    {
+      "id": "nixon-archives-dob",
+      "url": "https://www.archives.gov/presidential-libraries/events/centennials/nixon/biography.html",
+      "publisher": "National Archives and Records Administration",
+      "publisherHost": "www.archives.gov",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 39083,
+      "sha256": "7dd3fe40ed1bd49086f107e8c66cd857d1a3fe8496fa0e0ab1b814108e81efce",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "White House Years Nixon Presidential Library and Museum Photo Gallery Biography Richard Nixon (January 9, 1913 - April 22, 1994) Enlarge Richard Milhous Nixon was born on January 9, 1913 on the lemon ranch of his parents, Francis and Hannah Nixon in Yorba Linda, California and raised in nearby Whittier. He attended Whittier College and Duke University School of Law and then joined a law firm in his hometown. He and Patricia \"Pat\" Ryan met in 1938 at rehearsal for a community play in which they were both acting. The",
+      "excerptSha256": "20e36fdb093952a43c857cd82a206d26d9e9ed42ac05d7b49256ac0d2eb6286d"
+    },
+    {
+      "id": "nixon-archives-career",
+      "url": "https://www.archives.gov/presidential-libraries/events/centennials/nixon/biography.html",
+      "publisher": "National Archives and Records Administration",
+      "publisherHost": "www.archives.gov",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 39083,
+      "sha256": "7dd3fe40ed1bd49086f107e8c66cd857d1a3fe8496fa0e0ab1b814108e81efce",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " in 1962, he practiced law, wrote, and traveled extensively in Europe and Asia. In 1968 Nixon was elected the 37th President of the U.S. Nixon’s foreign policy aimed to reduce international tensions by forging new links with old rivals. He began normalizing diplomatic relations with the People's Republic of China, established the policy of détente with the Soviet Union and pursued domestic initiatives that included establishing the Environmental Protection Agency and bringing about the peaceful desegregation of public schools in the South. On July 20, 19",
+      "excerptSha256": "7d4f009aefd6b91f6e22dbecdc8f21035640311a785546cb5871876c8b784f06"
+    },
+    {
+      "id": "nixon-library-dob-death",
+      "url": "https://www.nixonlibrary.gov/president-nixon",
+      "publisher": "Richard Nixon Presidential Library and Museum",
+      "publisherHost": "www.nixonlibrary.gov",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 121849,
+      "sha256": "0c0f4922e61bfc46d415c565d39af9f1d9f69d248117ef95d35ea8a0e8a3e015",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "forthrightly in dealing with Watergate.\" The Nixon Family Richard Milhous Nixon Birth Date: January 9, 1913, in Yorba Linda, California Death Date: April 22, 1994, in New York City, New York Father: Francis Anthony Nixon (1878-1956) Born: Dec. 3, 1878, Elk, Ohio Married: Hannah Milhous - June 25, 1908, Whittier, California Died: Sept. 4, 1956, La Habra, California Religion: Quaker Mother: Hannah Milhous Nixon (1885-1",
+      "excerptSha256": "a723a90e3b1a039faa4f9eb6a91ce27ba79d72b8e8a661cb8e1816a93e202f11"
+    },
+    {
+      "id": "nixon-library-resignation",
+      "url": "https://www.nixonlibrary.gov/president-nixon",
+      "publisher": "Richard Nixon Presidential Library and Museum",
+      "publisherHost": "www.nixonlibrary.gov",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 121849,
+      "sha256": "0c0f4922e61bfc46d415c565d39af9f1d9f69d248117ef95d35ea8a0e8a3e015",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "hibald Cox, badly eroded the president's standing with the public and Congress. Facing certain impeachment and removal from office, Nixon announced his decision to resign in a national televised address on the evening of August 8, 1974. He resigned effective at noon the next day, August 9, 1974. Vice President Ford then became president of the United States. On September 8, 1974, Ford pardoned Nixon for \"all offenses against the United States\" which Nixon \"has committed or may have committed or taken part in\" during his presidency. In response, Nixon issued a statement in w",
+      "excerptSha256": "4cf2787842e8a7b8fedaafdd9580d8826810bc5db76d9f348fb5a74283272ed3"
+    },
+    {
+      "id": "simone-bnf-person",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb11890854p",
+      "publisher": "Bibliothèque nationale de France",
+      "publisherHost": "catalogue.bnf.fr",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 62858,
+      "sha256": "1234146284791e18f18d7823d42db348f4de2b466205ba13f34dab4c6aef2564",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "esponsabilité(s) exercée(s) sur les documents : Auteur, Interprète, Participant Naissance : 1908-01-09, Paris, 6e arrondissement (France) Mort : 1986-04-14, Paris, 14e arrondissement (France) Femme de lettres. - Professeur agrégée de philosophie. Forme(s) rejetée(s) : < Bertrand de Beauvoir, Simone < Beauvoir, Simone Bertrand de < Castor, Le (1908-1986) pseudonyme < Mpovouár, Simón nte translit.-ISO grec moderne < Μποβουάρ, Σιμόν ντε grec moderne < Bouvāra, Sīmona da transl",
+      "excerptSha256": "7acf680940dc2a5307f4ca0b9cda8e13c71276c3dca94c91d94cdf33aec740f5"
+    },
+    {
+      "id": "simone-gallimard-profile",
+      "url": "https://tracts.gallimard.fr/collections/simone-de-beauvoir",
+      "publisher": "Éditions Gallimard",
+      "publisherHost": "tracts.gallimard.fr",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 144686,
+      "sha256": "89ed5486a92d3a141d36ac7d51a3ce5aab374f20a14dd2a53483b883819be45b",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "crise Les post-scriptum de Tracts Accueil Simone de Beauvoir Simone de Beauvoir Simone de Beauvoir est née à Paris le 9 janvier 1908. Elle fit ses études jusqu'au baccalauréat dans le très catholique cours Désir. Agrégée de philosophie en 1929, elle enseigna à Marseille, à Rouen et à Paris jusqu'en 1943. C'est L'Invitée (1943) qu'on doit considérer comme son véritable début littéraire. Viennent ensuite Le sang des autres (1945), Tous les hommes sont mortels (1946), Les Mandarins (prix Goncourt 1954), Les Belles Images (1966) et La Femme rompue (1968). Simone de Beauvoir a écrit des mémoires où elle nous donne elle-même à connaître sa vie, son œuvre. L'ampleur de l'entreprise autobiographique trouve sa justification, son sens, dans une contradiction e",
+      "excerptSha256": "4075a9c2e156c4d2a0546519a3efe47842ee626bc41f523166b393838fe69707"
+    },
+    {
+      "id": "simone-bnf-second-sex",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb41623378j",
+      "publisher": "Bibliothèque nationale de France",
+      "publisherHost": "catalogue.bnf.fr",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 73638,
+      "sha256": "8af3409ea4222220f9450b1ce5ea7ba6c6fd75891b6c673ee946abb9f0e1c756",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "t qu'auteur Titre(s) : Le deuxième sexe... [Texte imprimé] / Simone de Beauvoir Publication : Paris : Gallimard, 1949 Description matérielle : 2 vol. (400, 583 p.) ; in-8 Comprend : I. Les Faits et les mythes. 34° éd. ; II. L'Expérience vécue. 10° éd. Identifiant de la notice : ark:/12148/cb41623378j Notice n° : FRBNF41623378 Fermer ce volet Outils Ouvrir ce volet Outils Outils Citer la notice : Voir la notice dans le catalogue actuel e",
+      "excerptSha256": "c77ceb31d73af7904e1cd2e8f7dcfb0b5f428286b7d157faeda12c3be63a79f1"
+    },
+    {
+      "id": "baez-nwhm-dob",
+      "url": "https://www.womenshistory.org/education-resources/biographies/joan-baez",
+      "publisher": "National Women's History Museum",
+      "publisherHost": "www.womenshistory.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 84425,
+      "sha256": "a484812a266861acb0629ae4a074ff9fd100a86b5559db8b517ccff08d0d0660",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " attention, and pardon my conceit, I usually am.” Joan Baez , age 13 Early Life Joan Chandos Baez was born in Staten Island, New York, on January 9, 1941, to Albert Baez, a physicist from Puebla, Mexico, and Joan Bridge Baez, from Edinburgh, Scotland. She was the second of three sisters, Pauline and Mimi. Her parents raised their children in the Quaker church, teaching them the values of pacifism and civil disobedience. At age thirteen, Baez first experienced racism in the classroom because of her Mexican heritage. She frequently defended herself but fel",
+      "excerptSha256": "33916ef63afd34967814f3c8cff3e3c955bb03a4ba184fa0a2425223db109f38"
+    },
+    {
+      "id": "baez-pbs-dob",
+      "url": "https://www.pbs.org/wnet/americanmasters/masters/joan-baez/",
+      "publisher": "PBS American Masters",
+      "publisherHost": "www.pbs.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 34239,
+      "sha256": "a276e23b4e7d69da5cf7b959e12665cfd19f2c824a03e84a7e7cc0f3f3844aee",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ts Archive Podcast ACCESSIBLE TV SCHEDULE Joan Baez SINGER-SONGWRITER, ACTIVIST Born: Jan 9, 1941 KNOWN FOR Her clear soprano voice, Civil Rights activism AMERICAN MASTERS FILM Joan Baez: How Sweet the Sound (Oct 2009) Directed by Mary Wharton Written Features Joan Baez: How Sweet the Sound How Sweet the Sound Joan Baez: How Swe",
+      "excerptSha256": "0df6b312e7e6becf1c2d1e5148894927f82137dc437f3656a29680b4fa815d67"
+    },
+    {
+      "id": "baez-nwhm-career",
+      "url": "https://www.womenshistory.org/education-resources/biographies/joan-baez",
+      "publisher": "National Women's History Museum",
+      "publisherHost": "www.womenshistory.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 84425,
+      "sha256": "6ffaed6ec0dd75582ce7e665ec939b74ce160a13776dd987b2acdf1918d5fb45",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "r her clear soprano voice and emotionally powerful renditions of folk classics. Folk artist Bob Gibson invited her to perform at the Newport Folk Festival in 1959, cementing her claim to fame at the age of 18. She received a record contract from Vanguard in 1960 and became an icon in American folk music. Joan Baez performing “Silver Dagger,” 1965 According to Baez, both her father and her sister, Mimi, were jealous of her immediate success in the music industry. Mimi harbored resentment towards Baez because she hoped to pursue her own music career but struggled to live in her famous sister’s s",
+      "excerptSha256": "4656b8f5e130caf4da4ae120822db2d419b4f994c0262dd1b65e72f07abfe68b"
+    },
+    {
+      "id": "baez-rockhall-induction",
+      "url": "https://rockhall.com/inductees/joan-baez/",
+      "publisher": "Rock & Roll Hall of Fame",
+      "publisherHost": "rockhall.com",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 259307,
+      "sha256": "82190b43791070d2b961996b3eba9a38073857a9aa9bde9db6594399cce563db",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "hop Museum Tickets Membership Donate Host an Event en English Español Joan Baez Inducted: 2017 Category: Performer Inducted By: Jackson Browne Joan Baez breathed new life into folk music in the 1960s, powering rock music’s turn toward social and political consciousness. Baez’s unwavering dedication to activism shows that volume isn’t the only way to be loud—and totally rock and roll. Induction Jackson Browne Inducts Joan Baez Joan Baez Acceptance Speech Impact The purity of her voice was intoxicating Jackson Browne 2017 Hall of Fame Essay For decades, Jo",
+      "excerptSha256": "2686a3a1ff57111854c880a473b4ba563950fc26ecf30be010bcfd02090f9841"
+    },
+    {
+      "id": "baez-newport-2026-status",
+      "url": "https://www.newportlifemagazine.com/featured/folk-fest-recap-dave-matthews-the-lumineers-ms-lauryn-hill-hayley-williams-nathaniel-rateliff-brandi-carlile-among-stars-of-2026-festival/",
+      "publisher": "Newport Life Magazine",
+      "publisherHost": "www.newportlifemagazine.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 147695,
+      "sha256": "af698f13b06e06b857bd5b9a2440eaf5bb76e273b35a9e24768ea8d3706e7d10",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " weekend of music and memories at Newport Folk Festival Photos by Emilee Angell Nathaniel Rateliff closed out the 2026 Newport Folk Festival with an All-Star cast – Mavis Staples, Joan Baez, Dave Matthews, Brandon Flowers, David Rawlings, Brandi Carlile. It was moving and memorable and one of many great sets that transpired from Friday to Sunday. Brandi Carlile Depending on your musical tastes, you might even say it was far from the best set of the weekend – that that recognition belongs to a host of other high-energy performances, like Tom Morello’s loud takeover of the quad a few hours earlier, or The Lumineers’s heartfelt closing",
+      "excerptSha256": "6cc4c8b304c1a02ce5fbffaf55fb987c37b314cb5a6f564e159e1ff192a1c1d7"
+    },
+    {
+      "id": "capek-hiu-dob-death",
+      "url": "https://biography.hiu.cas.cz/wiki/%C4%8CAPEK_Karel_1890%E2%80%931938",
+      "publisher": "Institute of History, Czech Academy of Sciences",
+      "publisherHost": "biography.hiu.cas.cz",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 63164,
+      "sha256": "9c14d5720395be47166be3a340983df306b312380427d549f972c0f91fe1d9cd",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "a Olgy Scheinpflugové, 1935 Hrob Karla Čapka a Olgy Scheinpflugové na Vyšehradě Datum narození 9. 1. 1890 Místo narození Malé Svatoňovice u Trutnova Datum úmrtí 25. 12. 1938 Místo úmrtí Praha Povolání Spisovatel‎ Překladatel‎ Redaktor nebo žurnalista‎ Významnost A Citace Biografický slovník českých zemí 10, Praha 2008, s. 529–532. ( podrobnější citace ) Trvalý odkaz https://biography.hiu.cas.cz/pageid/44486 ČAPEK, Karel , * 9. 1. 1890 Malé Svatoňovice u Trutnova, † 25. 12. 1938 Praha, spisovatel, novinář, dramatik, filozof, dramaturg,",
+      "excerptSha256": "84b8e476891a3085930db2f5f820dffef22e6eff07983a4230f6a901cd2076e6"
+    },
+    {
+      "id": "capek-bnf-person",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb11895069q",
+      "publisher": "Bibliothèque nationale de France",
+      "publisherHost": "catalogue.bnf.fr",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 63058,
+      "sha256": "c985a75797e2c03847dd93b6ad865b9a5a3ec76cd0b508aea73d1ef9a3707ea3",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "rançais Sexe : Masculin Responsabilité(s) exercée(s) sur les documents : Auteur Naissance : 1890-01-09, Malé Svatoňovice u Trutnova (République tchèque) Mort : 1938-12-25, Prague (République tchèque) Auteur de romans de science-fiction, nouvelliste, auteur dramatique, poète, essayiste, auteur pour enfants, journaliste, critique, philosophe, photographe, illustrateur. - Traducteur d'Apollinaire, Baudelaire, Tristan Corbière, Molière. - Études de philosophie à la Sorbonne, Paris (1911). - Proche du présiden",
+      "excerptSha256": "2666b72d5438699b8a6f2adbaa90b821e95bc62a538a89ff3e2dd5102a4566dd"
+    },
+    {
+      "id": "capek-hiu-rur",
+      "url": "https://biography.hiu.cas.cz/wiki/%C4%8CAPEK_Karel_1890%E2%80%931938",
+      "publisher": "Institute of History, Czech Academy of Sciences",
+      "publisherHost": "biography.hiu.cas.cz",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 63164,
+      "sha256": "a888b7ff763bd1ebae41215a05b92813169b4482d9785497c01534b23a9ca6c4",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "f Palivec, 1886–1975) daroval novomanželům do užívání domek ve Strži u Dobříše. Drama RUR (zkratka Rossum’s Universal Robots, knižně 1920, premiéra 1921) bylo Č. samostatným dílem. Autor v něm soudil odlidštěnou moderní civilizaci. Slovo robot, jež zřejmě vymyslel Josef Č. (odvodil je z výrazu robota), se vžilo v mnoha jazycích. Společná hra bratří Č. Ze života hmyzu (knižně 1921, premiéra 1922) měla revuální charakter, na postavách hmyzu tepala nešvary lidské společnosti. Naopak jako dobrotivé, všeobjímající bytosti představil Č. své současníky v humorně fantastické próze Továrna na absolutno (1922), dějově roztříštěné a myšlenkově nepříliš hluboké. Před dlouhověkostí, j",
+      "excerptSha256": "a95c54af26e3690e36697e0bd6f7afee30f5a2c7b6b16ee00b4a9fce87dfc181"
+    },
+    {
+      "id": "capek-praha-editor-pen",
+      "url": "https://encyklopedie.praha2.cz/osobnost/722-karel-capek",
+      "publisher": "Encyclopedia of Prague 2",
+      "publisherHost": "encyklopedie.praha2.cz",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 65160,
+      "sha256": "b23bef6db879b66de448663fe9318aefa94c785c1dd302290283a7d88f5c3890",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "které se jeden čas tiskly v tiskárně na rohu dnešních ulic V Tůních a Hálkova . Od roku 1921 působil v Lidových novinách . V letech 1921–1923 byl dramaturgem a režisérem Městského divadla na Královských Vinohradech . V letech 1925–1933 se stal prvním předsedou československého odboru PEN klubu. Tento obsah se nachází v jedné z našich her Přiřazování - literatura, spisovatelé (2) Vyzkoušejte si Vaše znalosti v některé z našich her Hrát Ve své polovině dvouvily, kterou si postavili spolu s bratrem Josefem Čapkem ve vinohradské Úzké ulici, dnešní ",
+      "excerptSha256": "0f13692910de2afe8228971ae6b69b707cc0aaf7e344a1b48922f3c1e75d2959"
+    },
+    {
+      "id": "page-rah-dob",
+      "url": "https://catalogue.royalalberthall.com/Record.aspx?id=DS%2FUK%2F11092&src=CalmView.Persons",
+      "publisher": "Royal Albert Hall Research Archive",
+      "publisherHost": "catalogue.royalalberthall.com",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 11595,
+      "sha256": "7ab27e8d14f5611eb6512352074d6891a2aa868f0000df4731226b4d597a9d6d",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "944-); English musician, songwriter and record producer Dates 1944- Gender Male Biography James Patrick 'Jimmy' Page, OBE (born 9 January 1944) is an English musician, songwriter and record producer who achieved international success as the guitarist and leader of the rock band Led Zeppelin. Page began his career as a studio session musician in London and, by the mid-1960s, had become the most sought-after session guitarist in England. He was a member of the Yardbirds from 1966 to 1968. In late 1968, he founded Led Zeppelin. Page is widely cons",
+      "excerptSha256": "03a589e5ed753cf0b58ef2a6836623ac34b4af8cf7ea2ed25a839b61b099757c"
+    },
+    {
+      "id": "page-academy-dob",
+      "url": "https://achievement.org/achiever/jimmy-page/",
+      "publisher": "American Academy of Achievement",
+      "publisherHost": "achievement.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 213984,
+      "sha256": "537a20b5e257a21f2d62cb9578a948473b77a8fd93768adef2c5131010b5daa8",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " I wanted to do, and it clearly did. It clearly did. Rock and Roll Hall of Fame Date of Birth January 9, 1944 1957: 13-year-old James Patrick Page in Epsom, Surrey. James Patrick Page was born in Heston, a suburb of London, but at age eight, he moved with his family to Epsom, Surrey. In the new house, he found an acoustic guitar abandoned by a visitor or a previous occupant. The popularity of Elvis Presley and the British folksinger Lonnie Donegan inspired young Jimmy to take up the guitar. With the aid o",
+      "excerptSha256": "f1a2e00d26467fc7fb4bc6af9f2f7713c8446650ed23f4d0f5baa0f8c06f7853"
+    },
+    {
+      "id": "page-rah-career",
+      "url": "https://catalogue.royalalberthall.com/Record.aspx?id=DS%2FUK%2F11092&src=CalmView.Persons",
+      "publisher": "Royal Albert Hall Research Archive",
+      "publisherHost": "catalogue.royalalberthall.com",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 11595,
+      "sha256": "7ab27e8d14f5611eb6512352074d6891a2aa868f0000df4731226b4d597a9d6d",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "nternational success as the guitarist and leader of the rock band Led Zeppelin. Page began his career as a studio session musician in London and, by the mid-1960s, had become the most sought-after session guitarist in England. He was a member of the Yardbirds from 1966 to 1968. In late 1968, he founded Led Zeppelin. Page is widely considered to be one of the greatest and most influential guitarists of all time. Rolling Stone magazine has described Page as \"the pontiff of power riffing\" and ranked him number 3 in their list of the \"100 Greatest Guitarists of All Time\". In 2010, he was ranked number two in Gibson's list of \"Top 50 Guitarists of All Time\" and, in 2007, number four on Classic Rock's \"100 Wildest Guitar Heroes\". He was inducted into the Rock and Roll Hall of",
+      "excerptSha256": "f0f06327d02ad8ff908ba81c6d64b51a6ffffe9d1b7df47f161664ef74b6e283"
+    },
+    {
+      "id": "page-guardian-living",
+      "url": "https://www.theguardian.com/film/2026/jan/23/becoming-led-zeppelin-became-biggest-documentary-of-year-bernard-macmahon",
+      "publisher": "The Guardian",
+      "publisherHost": "www.theguardian.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 329564,
+      "sha256": "2d20444829860fba62248b658fa0e69d72b737ca0e8468830809534d3991299f",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "han 170 people associated with Led Zeppelin for research purposes – though only the surviving members, Jimmy Page, John Paul Jones and Robert Plant, speak on screen. MacMahon says it was vital to find a way to get through the musicians’ carapace so they “are not just telling stories that they’ve told a thousand times”; he did this, he says, by “inundating” them, on camera, with material designed to trigger emotional responses, including audio interviews with Bonham, snippets of which are included in the film. The originality of MacMahon’s approach is, says Screen International contributing edi",
+      "excerptSha256": "181bcae2b2fdcdfb55a6db88b2d567e11f7b8c458dd537a6abaf2f186f85119c"
+    },
+    {
+      "id": "wikidata-richard-nixon",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q9588.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 297331,
+      "sha256": "62345b18b5b681edc28e7734e02bc88ed6b590528aace54bc3170c6513fab269",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q9588; English label: Richard Nixon; p31=Q5; p569=+1913-01-09T00:00:00Z/p11; p570=+1994-04-22T00:00:00Z/p11; p27=Q30; p106=Q82955,Q189290,Q40348,Q18814623,Q372436,Q185351; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "d11a40ad0c0c5cbdb9c3a099c516e053e70d7f132683f46593cba307116eae1f"
+    },
+    {
+      "id": "wikidata-simone-de-beauvoir",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q7197.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 298423,
+      "sha256": "93662311c0bf2ba51ff0a1b4a961e3c03891a44f3bf8ea6b58fbb9f989272321",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q7197; English label: Simone de Beauvoir; p31=Q5; p569=+1908-01-09T00:00:00Z/p11; p570=+1986-04-14T00:00:00Z/p11; p27=Q142; p106=Q18930007,Q1930187,Q6625963,Q18814623,Q11774202,Q11499147,Q18939491,Q3589292,Q4964182,Q4263842,Q36180,Q482980,Q34074720,Q48930480,Q10800557; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "fb6b154875d735815c2761adee76a3eb45c752f8e8a5b9c3e4a9f54397fc7849"
+    },
+    {
+      "id": "wikidata-joan-baez",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q131725.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 213633,
+      "sha256": "3c3126d4e41716830a3e5b7768c8776c87b366efb04c7ffb7fa69cf670c16771",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q131725; English label: Joan Baez; p31=Q5; p569=+1941-01-09T00:00:00Z/p11; p570=; p27=Q30; p106=Q488205,Q177220,Q36834,Q855091,Q639669,Q5716684,Q16003550,Q15253558,Q183945,Q55960555; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "dade941076c4f99ea6f0e9b5e2410783e83d7b6c3e1c0c7d2249392a1435cf8b"
+    },
+    {
+      "id": "wikidata-karel-capek",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q155855.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 325954,
+      "sha256": "a8ba8e78568e9f3978363eb50152dcfb94e6cce8a886a90cf3e744f06ccb1d4c",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q155855; English label: Karel Čapek; p31=Q5; p569=+1890-01-09T00:00:00Z/p11; p570=+1938-12-25T00:00:00Z/p11; p27=Q533534,Q33946; p106=Q333634,Q6625963,Q3455803,Q33231,Q214917,Q1930187,Q18844224,Q4853732,Q36180,Q4964182,Q1028181,Q4263842,Q11774202,Q49757,Q42298217,Q644687,Q12356615,Q15296811,Q487596,Q140197632; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "ca75fa26ecd38d79cdd36328c40ed8d378f4b4fffc304313570cbb6aef148743"
+    },
+    {
+      "id": "wikidata-jimmy-page",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q165467.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 143494,
+      "sha256": "7469c61dd2bd66f66cda935e7243268ebd0ad62989102c53dd1c14001468da4c",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q165467; English label: Jimmy Page; p31=Q5; p569=+1944-01-09T00:00:00Z/p11; p570=; p27=Q145; p106=Q855091,Q36834,Q753110,Q183945,Q639669,Q10800557,Q3282637,Q578109,Q10798782,Q2405480,Q12374149; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "613f717fc358ffd70a79eea8cf5281357094878d02bb81efb327f2fc1c554347"
+    },
+    {
+      "id": "page-aol-living-september-2026",
+      "url": "https://www.aol.com/articles/jimmy-page-remembers-meeting-princess-023400000.html",
+      "publisher": "AOL (syndicated Parade report)",
+      "publisherHost": "www.aol.com",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 783522,
+      "sha256": "480c62561beaea8fc7e586d2f0cfe8f1315ff01915299dfb1b17dd8092b92c5c",
+      "verificationMethod": "direct-http-html",
+      "excerpt": "Tue, September 22, 2026 at 2:34 AM UTC 0 In 1983, Jimmy Page had a royal encounter he hasn’t forgotten more than four decades later. The Led Zeppelin guitarist, 82, took to Instagram on Sept. 21 for one of his regular “On This Day” posts, this time looking back at the night he met Princess Diana at London’s Royal Albert Hall . “On this day in 1983, I met Princess Diana at @royalalberthall,” Page began his post.",
+      "excerptSha256": "197646b255e3c9e868e3b96d54b0f89c7dc91c6e3a49c2015481c2f0e08a0952"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "richard-nixon",
+      "name": "Richard Nixon",
+      "wikidataId": "Q9588",
+      "wikidataLabel": "Richard Nixon",
+      "birthDate": "1913-01-09",
+      "lifeStatus": "deceased",
+      "deathDate": "1994-04-22",
+      "dobSourceIds": [
+        "nixon-archives-dob",
+        "nixon-library-dob-death"
+      ],
+      "statusSourceId": "nixon-library-dob-death",
+      "careerFactIds": [
+        "jan9-nixon-president",
+        "jan9-nixon-resignation"
+      ],
+      "countryCode": "US",
+      "occupation": [
+        "chính trị gia",
+        "luật sư"
+      ],
+      "birthplace": "Yorba Linda, California, Hoa Kỳ",
+      "birthplaceEvidencePhrase": "born on January 9, 1913 on the lemon ranch of his parents in Yorba Linda, California",
+      "fields": [
+        "society-law"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "society-law",
+          "careerFactIds": [
+            "jan9-nixon-president",
+            "jan9-nixon-resignation"
+          ],
+          "rationale": "His election as the 37th U.S. president and resignation during Watergate are documented in official presidential archives."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-richard-nixon",
+      "identityClaims": {
+        "label": "Richard Nixon",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1913-01-09T00:00:00Z",
+            "references": 14,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1994-04-22T00:00:00Z",
+            "references": 14,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30"
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q82955",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q189290",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q40348",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q18814623",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q372436",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q185351",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q82955",
+          "Q40348"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q9588",
+        "https://www.archives.gov/presidential-libraries/events/centennials/nixon/biography.html",
+        "https://www.nixonlibrary.gov/president-nixon"
+      ],
+      "after": {
+        "shortDescription": "Tổng thống thứ 37 của Hoa Kỳ; từ chức năm 1974 trong bối cảnh vụ Watergate.",
+        "biography": "Richard Nixon sinh ngày 9/1/1913 tại Yorba Linda, California. Năm 1968, ông được bầu làm Tổng thống thứ 37 của Hoa Kỳ. Ông tuyên bố từ chức ngày 8/8/1974; quyết định có hiệu lực từ trưa 9/8, trong bối cảnh vụ Watergate. Ông qua đời tại New York ngày 22/4/1994.",
+        "highlights": [
+          "Năm 1968, Nixon được bầu làm Tổng thống thứ 37 của Hoa Kỳ.",
+          "Ông tuyên bố từ chức ngày 8/8/1974; việc từ chức có hiệu lực vào trưa 9/8."
+        ],
+        "fields": [
+          "society-law"
+        ],
+        "birthplace": "Yorba Linda, California, Hoa Kỳ",
+        "lifeStatus": "deceased",
+        "deathDate": "1994-04-22",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://www.nixonlibrary.gov/president-nixon",
+          "https://www.archives.gov/presidential-libraries/events/centennials/nixon/biography.html"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q9588",
+          "https://www.archives.gov/presidential-libraries/events/centennials/nixon/biography.html",
+          "https://www.nixonlibrary.gov/president-nixon"
+        ],
+        "verifiedAt": "2026-10-08"
+      },
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "nixon-library-dob-death",
+        "nixon-archives-dob"
+      ],
+      "before": {
+        "shortDescription": "Tổng thống thứ 37 của Hoa Kỳ.",
+        "biography": "Richard Nixon sinh ngày 9/1/1913 tại California. Ông là Tổng thống thứ 37 của Hoa Kỳ, tại nhiệm từ năm 1969 đến năm 1974.",
+        "highlights": [
+          "Là Tổng thống Hoa Kỳ từ năm 1969 đến năm 1974.",
+          "Từ chức tổng thống vào tháng 8/1974."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q9588",
+          "https://www.archives.gov/presidential-libraries/events/centennials/nixon/biography.html",
+          "https://www.nixonlibrary.gov/president-nixon"
+        ],
+        "fields": null,
+        "birthplace": null,
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "category": "politics",
+      "countryName": "Hoa Kỳ"
+    },
+    {
+      "id": "simone-de-beauvoir",
+      "name": "Simone de Beauvoir",
+      "wikidataId": "Q7197",
+      "wikidataLabel": "Simone de Beauvoir",
+      "birthDate": "1908-01-09",
+      "lifeStatus": "deceased",
+      "deathDate": "1986-04-14",
+      "dobSourceIds": [
+        "simone-bnf-person",
+        "simone-gallimard-profile"
+      ],
+      "statusSourceId": "simone-bnf-person",
+      "careerFactIds": [
+        "jan9-simone-second-sex",
+        "jan9-simone-teaching"
+      ],
+      "countryCode": "FR",
+      "occupation": [
+        "nhà văn",
+        "triết gia",
+        "giảng viên triết học"
+      ],
+      "birthplace": "Quận 6, Paris, Pháp",
+      "birthplaceEvidencePhrase": "Naissance : 1908-01-09, Paris, 6e arrondissement (France)",
+      "fields": [
+        "design-creative",
+        "education-thought"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "jan9-simone-second-sex"
+          ],
+          "rationale": "The publication record for Le deuxième sexe documents her major literary and intellectual work."
+        },
+        {
+          "field": "education-thought",
+          "careerFactIds": [
+            "jan9-simone-teaching"
+          ],
+          "rationale": "Her philosophy qualification and university-level teaching are documented by Gallimard."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-simone-de-beauvoir",
+      "identityClaims": {
+        "label": "Simone de Beauvoir",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1908-01-09T00:00:00Z",
+            "references": 3,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1986-04-14T00:00:00Z",
+            "references": 3,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q142"
+          }
+        ],
+        "selectedCountryQid": "Q142",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q18930007",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1930187",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q6625963",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q18814623",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q11774202",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q11499147",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q18939491",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3589292",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q4964182",
+            "references": 5
+          },
+          {
+            "rank": "normal",
+            "value": "Q4263842",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "value": "Q482980",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q34074720",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q48930480",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q10800557",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q36180",
+          "Q4964182"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q7197",
+        "https://catalogue.bnf.fr/ark:/12148/cb11890854p",
+        "https://tracts.gallimard.fr/collections/simone-de-beauvoir",
+        "https://catalogue.bnf.fr/ark:/12148/cb41623378j"
+      ],
+      "after": {
+        "shortDescription": "Nhà văn và triết gia Pháp; tác phẩm Le deuxième sexe xuất bản năm 1949.",
+        "biography": "Simone de Beauvoir sinh ngày 9/1/1908 tại quận 6, Paris. Bà đỗ kỳ thi agrégation triết học năm 1929 và giảng dạy tại Marseille, Rouen, Paris đến năm 1943. Le deuxième sexe được Gallimard xuất bản năm 1949. Bà qua đời ngày 14/4/1986 tại Paris.",
+        "highlights": [
+          "Le deuxième sexe được Gallimard xuất bản năm 1949; thư mục BnF ghi nhận ấn bản tại Paris.",
+          "Sau khi đỗ agrégation triết học năm 1929, bà giảng dạy ở Marseille, Rouen và Paris đến năm 1943."
+        ],
+        "fields": [
+          "design-creative",
+          "education-thought"
+        ],
+        "birthplace": "Quận 6, Paris, Pháp",
+        "lifeStatus": "deceased",
+        "deathDate": "1986-04-14",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://catalogue.bnf.fr/ark:/12148/cb11890854p"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q7197",
+          "https://catalogue.bnf.fr/ark:/12148/cb11890854p",
+          "https://tracts.gallimard.fr/collections/simone-de-beauvoir",
+          "https://catalogue.bnf.fr/ark:/12148/cb41623378j"
+        ],
+        "verifiedAt": "2026-10-08"
+      },
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "simone-bnf-person"
+      ],
+      "before": {
+        "shortDescription": "Nhà văn và triết gia người Pháp, tác giả The Second Sex.",
+        "biography": "Simone de Beauvoir sinh ngày 9/1/1908 tại Paris. Bà là nhà văn và triết gia; cuốn The Second Sex được xuất bản năm 1949.",
+        "highlights": [
+          "Tác giả cuốn The Second Sex, xuất bản năm 1949.",
+          "Được lưu danh trong hồ sơ tác giả của Thư viện Quốc gia Pháp."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q7197",
+          "https://snl.no/Simone_de_Beauvoir",
+          "https://www.cambridge.org/core/journals/pmla/article/abs/scandalous-woman-beauvoir-in-paris-january-2008/CC86063FE3104F5E5C93E7C4B3109F2C"
+        ],
+        "fields": null,
+        "birthplace": null,
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "category": "literature",
+      "countryName": "Pháp"
+    },
+    {
+      "id": "joan-baez",
+      "name": "Joan Baez",
+      "wikidataId": "Q131725",
+      "wikidataLabel": "Joan Baez",
+      "birthDate": "1941-01-09",
+      "lifeStatus": "living",
+      "deathDate": null,
+      "dobSourceIds": [
+        "baez-nwhm-dob",
+        "baez-pbs-dob"
+      ],
+      "statusSourceId": "baez-newport-2026-status",
+      "careerFactIds": [
+        "jan9-baez-newport",
+        "jan9-baez-rockhall"
+      ],
+      "countryCode": "US",
+      "occupation": [
+        "ca sĩ nhạc folk",
+        "nhạc sĩ",
+        "nhà hoạt động xã hội"
+      ],
+      "birthplace": "Staten Island, New York, Hoa Kỳ",
+      "birthplaceEvidencePhrase": "born in Staten Island, New York, on January 9, 1941",
+      "fields": [
+        "design-creative",
+        "society-law"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "jan9-baez-newport",
+            "jan9-baez-rockhall"
+          ],
+          "rationale": "Her Newport Folk Festival breakthrough, 1960 record contract and Rock Hall induction document the music career."
+        },
+        {
+          "field": "society-law",
+          "careerFactIds": [
+            "jan9-baez-rockhall"
+          ],
+          "rationale": "The Rock Hall documents the social and political consciousness and activism associated with her musical work."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-joan-baez",
+      "identityClaims": {
+        "label": "Joan Baez",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1941-01-09T00:00:00Z",
+            "references": 11,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30"
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q488205",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q177220",
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "value": "Q36834",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q855091",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q5716684",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q16003550",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q15253558",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q183945",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q55960555",
+            "references": 0
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q177220",
+          "Q639669"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q131725",
+        "https://www.womenshistory.org/education-resources/biographies/joan-baez",
+        "https://www.pbs.org/wnet/americanmasters/masters/joan-baez/",
+        "https://rockhall.com/inductees/joan-baez/",
+        "https://www.newportlifemagazine.com/featured/folk-fest-recap-dave-matthews-the-lumineers-ms-lauryn-hill-hayley-williams-nathaniel-rateliff-brandi-carlile-among-stars-of-2026-festival/"
+      ],
+      "after": {
+        "shortDescription": "Ca sĩ folk và nhà hoạt động xã hội Mỹ; bước ngoặt sự nghiệp đến từ Newport năm 1959.",
+        "biography": "Joan Baez sinh ngày 9/1/1941 tại Staten Island, New York. Bob Gibson mời bà biểu diễn tại Newport Folk Festival năm 1959; năm sau, bà nhận hợp đồng thu âm với Vanguard. Rock & Roll Hall of Fame kết nạp bà năm 2017 và ghi nhận ảnh hưởng âm nhạc gắn với hoạt động xã hội, chính trị. Bà tiếp tục biểu diễn cùng các nghệ sĩ tại Newport Folk Festival năm 2026.",
+        "highlights": [
+          "Baez biểu diễn tại Newport Folk Festival năm 1959 theo lời mời của Bob Gibson và nhận hợp đồng thu âm Vanguard năm 1960.",
+          "Rock & Roll Hall of Fame kết nạp Baez năm 2017, ghi nhận ảnh hưởng của âm nhạc folk và hoạt động xã hội của bà."
+        ],
+        "fields": [
+          "design-creative",
+          "society-law"
+        ],
+        "birthplace": "Staten Island, New York, Hoa Kỳ",
+        "lifeStatus": "living",
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q131725",
+          "https://www.womenshistory.org/education-resources/biographies/joan-baez",
+          "https://www.pbs.org/wnet/americanmasters/masters/joan-baez/",
+          "https://rockhall.com/inductees/joan-baez/",
+          "https://www.newportlifemagazine.com/featured/folk-fest-recap-dave-matthews-the-lumineers-ms-lauryn-hill-hayley-williams-nathaniel-rateliff-brandi-carlile-among-stars-of-2026-festival/"
+        ],
+        "verifiedAt": "2026-10-08"
+      },
+      "statusEvidenceAsOf": "2026",
+      "before": {
+        "shortDescription": "Ca sĩ nhạc folk người Mỹ, đồng thời là nhà hoạt động xã hội.",
+        "biography": "Joan Baez sinh ngày 9/1/1941 tại Staten Island, New York. Bà là ca sĩ nhạc folk và tham gia phong trào dân quyền tại Hoa Kỳ.",
+        "highlights": [
+          "Được giới thiệu vào Rock & Roll Hall of Fame năm 2017.",
+          "Gắn bó với hoạt động vận động cho dân quyền và hòa bình."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q131725",
+          "https://www.womenshistory.org/education-resources/biographies/joan-baez",
+          "https://jfk.org/wp-content/uploads/TSFM_Summer-Fun_Women-of-the-1960s_09-20.pdf"
+        ],
+        "fields": null,
+        "birthplace": null,
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "category": "music",
+      "countryName": "Hoa Kỳ"
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "karel-capek",
+      "name": "Karel Čapek",
+      "wikidataId": "Q155855",
+      "wikidataLabel": "Karel Čapek",
+      "birthDate": "1890-01-09",
+      "lifeStatus": "deceased",
+      "deathDate": "1938-12-25",
+      "dobSourceIds": [
+        "capek-hiu-dob-death",
+        "capek-bnf-person"
+      ],
+      "statusSourceId": "capek-hiu-dob-death",
+      "careerFactIds": [
+        "jan9-capek-rur",
+        "jan9-capek-pen-editor"
+      ],
+      "countryCode": "CZ",
+      "occupation": [
+        "nhà văn",
+        "nhà viết kịch",
+        "nhà báo"
+      ],
+      "birthplace": "Malé Svatoňovice (nay thuộc Cộng hòa Séc)",
+      "birthplaceEvidencePhrase": "Místo narození Malé Svatoňovice u Trutnova",
+      "fields": [
+        "design-creative",
+        "education-thought"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "jan9-capek-rur"
+          ],
+          "rationale": "The research biography records publication and staging dates for his drama R.U.R."
+        },
+        {
+          "field": "education-thought",
+          "careerFactIds": [
+            "jan9-capek-rur",
+            "jan9-capek-pen-editor"
+          ],
+          "rationale": "R.U.R. examines dehumanized technology and he led the Czechoslovak PEN section, as documented by the Czech biographical and city sources."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-karel-capek",
+      "identityClaims": {
+        "label": "Karel Čapek",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1890-01-09T00:00:00Z",
+            "references": 20,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1938-12-25T00:00:00Z",
+            "references": 23,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q533534"
+          },
+          {
+            "rank": "normal",
+            "value": "Q33946"
+          }
+        ],
+        "selectedCountryQid": "Q33946",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q333634",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q6625963",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3455803",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q33231",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q214917",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q1930187",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q18844224",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q4853732",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "value": "Q4964182",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1028181",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q4263842",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q11774202",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q49757",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q42298217",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q644687",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q12356615",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q15296811",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q487596",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q140197632",
+            "references": 0
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q6625963",
+          "Q214917"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q155855",
+        "https://biography.hiu.cas.cz/wiki/%C4%8CAPEK_Karel_1890%E2%80%931938",
+        "https://catalogue.bnf.fr/ark:/12148/cb11895069q",
+        "https://encyklopedie.praha2.cz/osobnost/722-karel-capek"
+      ],
+      "after": {
+        "shortDescription": "Nhà văn, nhà viết kịch và nhà báo Séc; vở R.U.R. đưa từ “robot” vào nhiều ngôn ngữ.",
+        "biography": "Karel Čapek sinh ngày 9/1/1890 tại Malé Svatoňovice, nay thuộc Cộng hòa Séc. Ông làm việc tại Lidové noviny từ năm 1921 và là chủ tịch đầu tiên của bộ phận PEN Tiệp Khắc giai đoạn 1925–1933. Vở R.U.R. được xuất bản năm 1920, công diễn tại Séc năm 1921; hồ sơ của Viện Lịch sử Séc ghi từ “robot” có thể do em trai ông, Josef Čapek, đề xuất. Karel Čapek mất ngày 25/12/1938.",
+        "highlights": [
+          "R.U.R. được in thành sách năm 1920 và công diễn năm 1921; tư liệu của Viện Lịch sử Séc lưu ý Josef Čapek có lẽ là người đề xuất từ “robot”.",
+          "Čapek làm việc tại Lidové noviny từ năm 1921 và giữ chức chủ tịch đầu tiên của bộ phận PEN Tiệp Khắc từ 1925 đến 1933."
+        ],
+        "fields": [
+          "design-creative",
+          "education-thought"
+        ],
+        "lifeStatus": "deceased",
+        "deathDate": "1938-12-25",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://biography.hiu.cas.cz/wiki/%C4%8CAPEK_Karel_1890%E2%80%931938",
+          "https://catalogue.bnf.fr/ark:/12148/cb11895069q"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q155855",
+          "https://biography.hiu.cas.cz/wiki/%C4%8CAPEK_Karel_1890%E2%80%931938",
+          "https://catalogue.bnf.fr/ark:/12148/cb11895069q",
+          "https://encyklopedie.praha2.cz/osobnost/722-karel-capek"
+        ],
+        "verifiedAt": "2026-10-08"
+      },
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "capek-hiu-dob-death",
+        "capek-bnf-person"
+      ],
+      "countryMappingNote": "Wikidata records P27 for Cisleithania (Q533534) and Czechoslovakia (Q33946). The dataset maps his Czech identity and birthplace to present-day CZ; this does not imply that the Czech Republic existed at his 1890 birth.",
+      "category": "literature",
+      "categoryLabel": "Nhà văn",
+      "countryName": "Cộng hòa Séc",
+      "countryFlag": "🇨🇿",
+      "image": "/people/placeholder.svg",
+      "shortDescription": "Nhà văn, nhà viết kịch và nhà báo Séc; vở R.U.R. đưa từ “robot” vào nhiều ngôn ngữ.",
+      "biography": "Karel Čapek sinh ngày 9/1/1890 tại Malé Svatoňovice, nay thuộc Cộng hòa Séc. Ông làm việc tại Lidové noviny từ năm 1921 và là chủ tịch đầu tiên của bộ phận PEN Tiệp Khắc giai đoạn 1925–1933. Vở R.U.R. được xuất bản năm 1920, công diễn tại Séc năm 1921; hồ sơ của Viện Lịch sử Séc ghi từ “robot” có thể do em trai ông, Josef Čapek, đề xuất. Karel Čapek mất ngày 25/12/1938.",
+      "highlights": [
+        "R.U.R. được in thành sách năm 1920 và công diễn năm 1921; tư liệu của Viện Lịch sử Séc lưu ý Josef Čapek có lẽ là người đề xuất từ “robot”.",
+        "Čapek làm việc tại Lidové noviny từ năm 1921 và giữ chức chủ tịch đầu tiên của bộ phận PEN Tiệp Khắc từ 1925 đến 1933."
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Karel_%C4%8Capek",
+      "region": "west",
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "jimmy-page",
+      "name": "Jimmy Page",
+      "wikidataId": "Q165467",
+      "wikidataLabel": "Jimmy Page",
+      "birthDate": "1944-01-09",
+      "lifeStatus": "living",
+      "deathDate": null,
+      "dobSourceIds": [
+        "page-rah-dob",
+        "page-academy-dob"
+      ],
+      "statusSourceId": "page-aol-living-september-2026",
+      "careerFactIds": [
+        "jan9-page-yardbirds",
+        "jan9-page-led-zeppelin"
+      ],
+      "countryCode": "GB",
+      "occupation": [
+        "nhạc sĩ",
+        "tay guitar",
+        "nhà soạn nhạc"
+      ],
+      "birthplace": "Heston, Middlesex, Anh",
+      "birthplaceEvidencePhrase": "James Patrick Page was born in Heston",
+      "fields": [
+        "design-creative",
+        "entrepreneurship"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "jan9-page-yardbirds",
+            "jan9-page-led-zeppelin"
+          ],
+          "rationale": "The Royal Albert Hall archive documents his session work, Yardbirds tenure and later creative band leadership."
+        },
+        {
+          "field": "entrepreneurship",
+          "careerFactIds": [
+            "jan9-page-led-zeppelin"
+          ],
+          "rationale": "The archive specifically identifies Page as the founder of Led Zeppelin."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-jimmy-page",
+      "identityClaims": {
+        "label": "Jimmy Page",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1944-01-09T00:00:00Z",
+            "references": 5,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q145"
+          }
+        ],
+        "selectedCountryQid": "Q145",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q855091",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q36834",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q753110",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q183945",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q10800557",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3282637",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q578109",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q10798782",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2405480",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q12374149",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q855091",
+          "Q753110"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q165467",
+        "https://catalogue.royalalberthall.com/Record.aspx?id=DS%2FUK%2F11092&src=CalmView.Persons",
+        "https://achievement.org/achiever/jimmy-page/",
+        "https://www.theguardian.com/film/2026/jan/23/becoming-led-zeppelin-became-biggest-documentary-of-year-bernard-macmahon",
+        "https://www.aol.com/articles/jimmy-page-remembers-meeting-princess-023400000.html"
+      ],
+      "after": {
+        "shortDescription": "Tay guitar, nhạc sĩ và nhà sản xuất người Anh; sáng lập Led Zeppelin năm 1968.",
+        "biography": "Jimmy Page sinh ngày 9/1/1944 tại Heston, Middlesex. Ông khởi đầu với công việc nhạc công thu âm tại London, chơi trong Yardbirds từ năm 1966 đến 1968 và thành lập Led Zeppelin vào cuối năm 1968. Năm 2026, The Guardian xếp Page cùng John Paul Jones và Robert Plant trong số các thành viên còn sống của ban nhạc.",
+        "highlights": [
+          "Page là nhạc công thu âm được săn đón tại London và là thành viên Yardbirds giai đoạn 1966–1968.",
+          "Cuối năm 1968, ông thành lập Led Zeppelin."
+        ],
+        "fields": [
+          "design-creative",
+          "entrepreneurship"
+        ],
+        "lifeStatus": "living",
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q165467",
+          "https://catalogue.royalalberthall.com/Record.aspx?id=DS%2FUK%2F11092&src=CalmView.Persons",
+          "https://achievement.org/achiever/jimmy-page/",
+          "https://www.theguardian.com/film/2026/jan/23/becoming-led-zeppelin-became-biggest-documentary-of-year-bernard-macmahon",
+          "https://www.aol.com/articles/jimmy-page-remembers-meeting-princess-023400000.html"
+        ],
+        "verifiedAt": "2026-10-08"
+      },
+      "statusEvidenceAsOf": "2026-09-22",
+      "category": "music",
+      "categoryLabel": "Âm nhạc",
+      "countryName": "Vương quốc Anh",
+      "countryFlag": "🇬🇧",
+      "image": "/people/placeholder.svg",
+      "shortDescription": "Tay guitar, nhạc sĩ và nhà sản xuất người Anh; sáng lập Led Zeppelin năm 1968.",
+      "biography": "Jimmy Page sinh ngày 9/1/1944 tại Heston, Middlesex. Ông khởi đầu với công việc nhạc công thu âm tại London, chơi trong Yardbirds từ năm 1966 đến 1968 và thành lập Led Zeppelin vào cuối năm 1968. Năm 2026, The Guardian xếp Page cùng John Paul Jones và Robert Plant trong số các thành viên còn sống của ban nhạc.",
+      "highlights": [
+        "Page là nhạc công thu âm được săn đón tại London và là thành viên Yardbirds giai đoạn 1966–1968.",
+        "Cuối năm 1968, ông thành lập Led Zeppelin."
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jimmy_Page",
+      "region": "west",
+      "verifiedAt": "2026-10-08"
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "jan9-nixon-president",
+      "profileId": "richard-nixon",
+      "displayText": "Năm 1968, Nixon được bầu làm Tổng thống thứ 37 của Hoa Kỳ.",
+      "sourceId": "nixon-archives-career",
+      "evidencePhrase": "In 1968 Nixon was elected the 37th President of the U.S."
+    },
+    {
+      "id": "jan9-nixon-resignation",
+      "profileId": "richard-nixon",
+      "displayText": "Ông tuyên bố từ chức ngày 8/8/1974; việc từ chức có hiệu lực vào trưa 9/8.",
+      "sourceId": "nixon-library-resignation",
+      "evidencePhrase": "He resigned effective at noon the next day, August 9, 1974."
+    },
+    {
+      "id": "jan9-simone-second-sex",
+      "profileId": "simone-de-beauvoir",
+      "displayText": "Le deuxième sexe được Gallimard xuất bản năm 1949; thư mục BnF ghi nhận ấn bản tại Paris.",
+      "sourceId": "simone-bnf-second-sex",
+      "evidencePhrase": "Le deuxième sexe... [Texte imprimé] / Simone de Beauvoir Publication : Paris : Gallimard, 1949"
+    },
+    {
+      "id": "jan9-simone-teaching",
+      "profileId": "simone-de-beauvoir",
+      "displayText": "Sau khi đỗ agrégation triết học năm 1929, bà giảng dạy ở Marseille, Rouen và Paris đến năm 1943.",
+      "sourceId": "simone-gallimard-profile",
+      "evidencePhrase": "Agrégée de philosophie en 1929, elle enseigna à Marseille, à Rouen et à Paris jusqu'en 1943."
+    },
+    {
+      "id": "jan9-baez-newport",
+      "profileId": "joan-baez",
+      "displayText": "Baez biểu diễn tại Newport Folk Festival năm 1959 theo lời mời của Bob Gibson và nhận hợp đồng thu âm Vanguard năm 1960.",
+      "sourceId": "baez-nwhm-career",
+      "evidencePhrase": "Folk artist Bob Gibson invited her to perform at the Newport Folk Festival in 1959, cementing her claim to fame at the age of 18. She received a record contract from Vanguard in 1960"
+    },
+    {
+      "id": "jan9-baez-rockhall",
+      "profileId": "joan-baez",
+      "displayText": "Rock & Roll Hall of Fame kết nạp Baez năm 2017, ghi nhận ảnh hưởng của âm nhạc folk và hoạt động xã hội của bà.",
+      "sourceId": "baez-rockhall-induction",
+      "evidencePhrase": "Joan Baez Inducted: 2017 Category: Performer Inducted By: Jackson Browne Joan Baez breathed new life into folk music in the 1960s, powering rock music’s turn toward social and political consciousness."
+    },
+    {
+      "id": "jan9-capek-rur",
+      "profileId": "karel-capek",
+      "displayText": "R.U.R. được in thành sách năm 1920 và công diễn năm 1921; tư liệu của Viện Lịch sử Séc lưu ý Josef Čapek có lẽ là người đề xuất từ “robot”.",
+      "sourceId": "capek-hiu-rur",
+      "evidencePhrase": "Drama RUR (zkratka Rossum’s Universal Robots, knižně 1920, premiéra 1921) bylo Č. samostatným dílem."
+    },
+    {
+      "id": "jan9-capek-pen-editor",
+      "profileId": "karel-capek",
+      "displayText": "Čapek làm việc tại Lidové noviny từ năm 1921 và giữ chức chủ tịch đầu tiên của bộ phận PEN Tiệp Khắc từ 1925 đến 1933.",
+      "sourceId": "capek-praha-editor-pen",
+      "evidencePhrase": "Od roku 1921 působil v Lidových novinách . V letech 1921–1923 byl dramaturgem a režisérem Městského divadla na Královských Vinohradech . V letech 1925–1933 se stal prvním předsedou československého odboru PEN klubu."
+    },
+    {
+      "id": "jan9-page-yardbirds",
+      "profileId": "jimmy-page",
+      "displayText": "Page là nhạc công thu âm được săn đón tại London và là thành viên Yardbirds giai đoạn 1966–1968.",
+      "sourceId": "page-rah-career",
+      "evidencePhrase": "Page began his career as a studio session musician in London and, by the mid-1960s, had become the most sought-after session guitarist in England. He was a member of the Yardbirds from 1966 to 1968."
+    },
+    {
+      "id": "jan9-page-led-zeppelin",
+      "profileId": "jimmy-page",
+      "displayText": "Cuối năm 1968, ông thành lập Led Zeppelin.",
+      "sourceId": "page-rah-career",
+      "evidencePhrase": "In late 1968, he founded Led Zeppelin."
+    }
+  ],
+  "wikidataReview": {
+    "profiles": {
+      "richard-nixon": {
+        "label": "Richard Nixon",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1913-01-09T00:00:00Z",
+            "references": 14,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1994-04-22T00:00:00Z",
+            "references": 14,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q82955",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q189290",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q40348",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q18814623",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q372436",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q185351",
+            "references": 1
+          }
+        ]
+      },
+      "simone-de-beauvoir": {
+        "label": "Simone de Beauvoir",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1908-01-09T00:00:00Z",
+            "references": 3,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1986-04-14T00:00:00Z",
+            "references": 3,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q142",
+            "references": 2
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q18930007",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1930187",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q6625963",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q18814623",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q11774202",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q11499147",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q18939491",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3589292",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q4964182",
+            "references": 5
+          },
+          {
+            "rank": "normal",
+            "value": "Q4263842",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "value": "Q482980",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q34074720",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q48930480",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q10800557",
+            "references": 1
+          }
+        ]
+      },
+      "joan-baez": {
+        "label": "Joan Baez",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1941-01-09T00:00:00Z",
+            "references": 11,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q488205",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q177220",
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "value": "Q36834",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q855091",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q5716684",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q16003550",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q15253558",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q183945",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q55960555",
+            "references": 0
+          }
+        ]
+      },
+      "karel-capek": {
+        "label": "Karel Čapek",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1890-01-09T00:00:00Z",
+            "references": 20,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1938-12-25T00:00:00Z",
+            "references": 23,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q533534",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q33946",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q333634",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q6625963",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3455803",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q33231",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q214917",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q1930187",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q18844224",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q4853732",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "value": "Q4964182",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1028181",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q4263842",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q11774202",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q49757",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q42298217",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q644687",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q12356615",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q15296811",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q487596",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q140197632",
+            "references": 0
+          }
+        ]
+      },
+      "jimmy-page": {
+        "label": "Jimmy Page",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1944-01-09T00:00:00Z",
+            "references": 5,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q145",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q855091",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q36834",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q753110",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q183945",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q10800557",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3282637",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q578109",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q10798782",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2405480",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q12374149",
+            "references": 1
+          }
+        ]
+      }
+    },
+    "conflicts": []
+  }
+}

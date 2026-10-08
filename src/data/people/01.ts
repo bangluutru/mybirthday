@@ -20,21 +20,22 @@ export const PEOPLE_01: Person[] = [
     "countryFlag": "🇺🇸",
     "birthplace": "New York, Hoa Kỳ",
     "image": "/people/jd-salinger.png",
-    "shortDescription": "Tác giả kiệt tác \"Bắt trẻ đồng xanh\" (The Catcher in the Rye).",
-    "biography": "Jerome David Salinger là nhà văn Mỹ nổi tiếng thế giới với tiểu thuyết The Catcher in the Rye (1951), một trong những tác phẩm có ảnh hưởng nhất thế kỷ 20 về tâm lý tuổi trẻ và sự nổi loạn.",
+    "shortDescription": "Nhà văn Mỹ, tác giả tiểu thuyết The Catcher in the Rye.",
+    "biography": "Jerome David Salinger là nhà văn Mỹ, từng phục vụ trong Lục quân Hoa Kỳ ở Thế chiến II. Ông được biết đến qua tiểu thuyết The Catcher in the Rye.",
     "highlights": [
-      "Tác giả \"The Catcher in the Rye\" bán được hơn 65 triệu bản trên toàn cầu.",
-      "Biểu tượng văn học vĩ đại của thời kỳ hậu Thế chiến thứ hai."
+      "Trong Thế chiến II, Salinger phục vụ trong Lục quân Hoa Kỳ với vai trò nhân viên phản gián.",
+      "The Catcher in the Rye là tác phẩm nổi tiếng nhất của ông."
     ],
     "wikidataId": "Q79904",
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/J._D._Salinger",
     "sourceUrls": [
       "https://www.britannica.com/biography/J-D-Salinger",
-      "https://www.dvidshub.net/news/489630/roll-call-jerome-jd-salinger-1919-2010"
+      "https://www.dvidshub.net/news/489630/roll-call-jerome-jd-salinger-1919-2010",
+      "https://id.loc.gov/authorities/names/n50016589.json"
     ],
     "notabilityScore": 96,
     "region": "west",
-    "verifiedAt": "2026-10-03",
+    "verifiedAt": "2026-10-08",
     "lifeStatus": "deceased",
     "deathDateSourceUrls": ["https://www.dvidshub.net/news/489630/roll-call-jerome-jd-salinger-1919-2010"],
     "deathDatePrecision": "day"
@@ -68,11 +69,15 @@ export const PEOPLE_01: Person[] = [
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Christine_Lagarde",
     "sourceUrls": [
       "https://www.britannica.com/biography/Christine-Lagarde",
-      "https://www.ecb.europa.eu"
+      "https://www.ecb.europa.eu",
+      "https://www.ecb.europa.eu/ecb/decisions/html/cvlagarde.en.html",
+      "https://www.bpb.de/kurz-knapp/lexika/das-europalexikon/309429/lagarde-christine/",
+      "https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in260308~1c03ad3ece.en.html"
     ],
     "notabilityScore": 94,
     "region": "west",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-08",
+    "lifeStatus": "living"
   }
 ,
 {
@@ -93,26 +98,108 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
   "shortDescription": "Cầu thủ bóng đá Việt Nam, thi đấu ở vị trí hậu vệ.",
-  "biography": "Bùi Hoàng Việt Anh là cầu thủ bóng đá Việt Nam. Danh sách đăng ký của Liên đoàn Bóng đá châu Á ghi ngày sinh của anh là 1/1/1999.",
+  "biography": "Bùi Hoàng Việt Anh là hậu vệ bóng đá Việt Nam. Liên đoàn Bóng đá châu Á ghi anh trong danh sách tuyển Việt Nam dự Asian Cup Qatar 2023.",
   "highlights": [
-    "Thi đấu ở vị trí hậu vệ trong danh sách AFC Asian Cup 2023.",
-    "Được đăng ký cho đội tuyển Việt Nam tại AFC Asian Cup 2023."
+    "Có tên trong danh sách hậu vệ tuyển Việt Nam tại AFC Asian Cup Qatar 2023.",
+    "Ghi bàn cho Việt Nam ở trận gặp Iraq tại AFC Asian Cup Qatar 2023."
   ],
   "wikidataId": "Q97159587",
   "wikipediaUrl": "https://vi.wikipedia.org/wiki/Bùi_Hoàng_Việt_Anh",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q97159587",
     "https://assets.the-afc.com/2023_AFC_Asian_Cup/Squad_Lists/AFC-Asian-Cup-Qatar%E2%84%A2-2023-Squad-Lists.pdf",
-    "https://vpf.vn/player/bui-hoang-viet-anh/"
+    "https://vpf.vn/player/bui-hoang-viet-anh/",
+    "https://assets.the-afc.com/Corporate_Page/Technical/Technical_Reports/AFC-Asian-Cup-Qatar-2023%E2%84%A2-Technical-Report.pdf"
   ],
   "region": "vietnam",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08",
+  "lifeStatus": "living"
+},
+{
+  "id": "satyendra-nath-bose",
+  "slug": "satyendra-nath-bose",
+  "name": "Satyendra Nath Bose",
+  "birthDate": "1894-01-01",
+  "deathDate": "1974-02-04",
+  "deathDateSourceUrls": ["https://catalogues.royalsociety.org/calmview/Record.aspx?id=NA3030&src=CalmView.Persons"],
+  "deathDatePrecision": "day",
+  "lifeStatus": "deceased",
+  "birthYear": 1894,
+  "birthMonth": 1,
+  "birthDay": 1,
+  "occupation": ["Nhà vật lý, nhà toán học"],
+  "category": "scientist",
+  "categoryLabel": "Nhà khoa học",
+  "fields": ["science-research"],
+  "countryCode": "IN",
+  "countryName": "Ấn Độ",
+  "countryFlag": "🇮🇳",
+  "birthplace": "Calcutta, Ấn Độ",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Nhà vật lý Ấn Độ, người đặt nền móng cho thống kê Bose–Einstein.",
+  "biography": "Satyendra Nath Bose là nhà vật lý Ấn Độ. Năm 1924, ông gửi Albert Einstein bản thảo về định luật Planck, đề nghị dịch và công bố bài nghiên cứu.",
+  "highlights": [
+    "Năm 1924, Bose gửi Einstein bản thảo về định luật Planck để được dịch và công bố.",
+    "Royal Society bầu Bose làm Fellow năm 1958."
+  ],
+  "wikidataId": "Q45789",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Satyendra_Nath_Bose",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q45789",
+    "https://www.insaindia.res.in/BM/BM7_8307.pdf",
+    "https://catalogues.royalsociety.org/calmview/Record.aspx?id=NA3030&src=CalmView.Persons"
+  ],
+  "notabilityScore": 92,
+  "region": "asia",
+  "verifiedAt": "2026-10-08"
+},
+{
+  "id": "e-m-forster",
+  "slug": "e-m-forster",
+  "name": "E. M. Forster",
+  "birthDate": "1879-01-01",
+  "deathDate": "1970-06-07",
+  "deathDateSourceUrls": ["https://www.penguinrandomhouse.com/authors/9039/em-forster/"],
+  "deathDatePrecision": "day",
+  "lifeStatus": "deceased",
+  "birthYear": 1879,
+  "birthMonth": 1,
+  "birthDay": 1,
+  "occupation": ["Nhà văn, nhà tiểu thuyết"],
+  "category": "literature",
+  "categoryLabel": "Nhà văn",
+  "fields": ["design-creative"],
+  "countryCode": "GB",
+  "countryName": "Vương quốc Anh",
+  "countryFlag": "🇬🇧",
+  "birthplace": "London, Anh",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Nhà văn Anh, tác giả Howards End và A Passage to India.",
+  "biography": "Edward Morgan Forster là nhà văn Anh. Tiểu thuyết Howards End xuất bản năm 1910 đem lại cho ông thành công lớn đầu tiên; ông phát triển ý tưởng cho A Passage to India sau chuyến đi Ấn Độ.",
+  "highlights": [
+    "Howards End, xuất bản năm 1910, là thành công lớn đầu tiên của Forster.",
+    "Forster phát triển ý tưởng cho A Passage to India sau chuyến đi Ấn Độ."
+  ],
+  "wikidataId": "Q189119",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/E._M._Forster",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q189119",
+    "https://www.kings.cam.ac.uk/biographies",
+    "https://www.penguinrandomhouse.com/authors/9039/em-forster/"
+  ],
+  "notabilityScore": 90,
+  "region": "west",
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "therese-of-lisieux",
   "slug": "therese-of-lisieux",
   "name": "Thérèse of Lisieux",
   "birthDate": "1873-01-02",
+  "deathDate": "1897-09-30",
+  "deathDateSourceUrls": ["https://www.therese-de-lisieux.catholique.fr/wp-content/uploads/2022/02/Press-kit.pdf"],
+  "deathDatePrecision": "day",
+  "lifeStatus": "deceased",
   "birthYear": 1873,
   "birthMonth": 1,
   "birthDay": 2,
@@ -126,7 +213,7 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇫🇷",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nữ tu dòng Cát Minh người Pháp, được biết đến với các tác phẩm tự thuật.",
-  "biography": "Thérèse Martin sinh ngày 2/1/1873 tại Alençon, Pháp. Bà gia nhập dòng Cát Minh ở Lisieux năm 1888 và được tuyên thánh năm 1925.",
+  "biography": "Thérèse Martin sinh ngày 2/1/1873 tại Alençon, Pháp. Bà gia nhập dòng Cát Minh ở Lisieux ngày 9/4/1888, viết các bản thảo tự thuật và qua đời ngày 30/9/1897. Giáo hội Công giáo tuyên thánh cho bà năm 1925.",
   "highlights": [
     "Gia nhập dòng Cát Minh Lisieux ngày 9/4/1888.",
     "Được Giáo hoàng Piô XI tuyên thánh ngày 17/5/1925."
@@ -139,13 +226,17 @@ export const PEOPLE_01: Person[] = [
     "https://www.therese-de-lisieux.catholique.fr/wp-content/uploads/2022/02/Press-kit.pdf"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "rudolf-clausius",
   "slug": "rudolf-clausius",
   "name": "Rudolf Clausius",
   "birthDate": "1822-01-02",
+  "deathDate": "1888-08-24",
+  "deathDateSourceUrls": ["https://mathshistory.st-andrews.ac.uk/Biographies/Clausius/"],
+  "deathDatePrecision": "day",
+  "lifeStatus": "deceased",
   "birthYear": 1822,
   "birthMonth": 1,
   "birthDay": 2,
@@ -159,26 +250,30 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇩🇪",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà vật lý người Đức, một trong những người đặt nền móng cho nhiệt động lực học.",
-  "biography": "Rudolf Clausius sinh ngày 2/1/1822 tại Köslin, Phổ. Ông là nhà vật lý và toán học, có đóng góp nền tảng cho ngành nhiệt động lực học.",
+  "biography": "Rudolf Clausius sinh ngày 2/1/1822 tại Köslin, Phổ, và qua đời tại Bonn ngày 24/8/1888. Ông là nhà vật lý, toán học Đức; công trình về lý thuyết cơ học của nhiệt và entropy góp phần đặt nền móng cho nhiệt động lực học.",
   "highlights": [
-    "Được Deutsche Biographie ghi nhận là nhà vật lý và toán học.",
-    "Sinh tại Köslin vào ngày 2/1/1822."
+    "Năm 1850, bài báo đầu tiên của Clausius về lý thuyết cơ học của nhiệt được công bố.",
+    "Năm 1865, Clausius đặt tên entropy cho khái niệm đo tính không thuận nghịch của quá trình nhiệt động lực học."
   ],
   "wikidataId": "Q30693",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Rudolf_Clausius",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q30693",
     "https://www.deutsche-biographie.de/gnd116540486.html?language=en",
-    "https://catalogues.royalsociety.org/calmview/Record.aspx?id=NA8171&src=CalmView.Persons"
+    "https://mathshistory.st-andrews.ac.uk/Biographies/Clausius/"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "mily-balakirev",
   "slug": "mily-balakirev",
   "name": "Mily Balakirev",
   "birthDate": "1837-01-02",
+  "deathDate": "1910-05-29",
+  "deathDateSourceUrls": ["https://www.vle.lt/straipsnis/milij-balakirev/"],
+  "deathDatePrecision": "day",
+  "lifeStatus": "deceased",
   "birthYear": 1837,
   "birthMonth": 1,
   "birthDay": 2,
@@ -192,20 +287,175 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇷🇺",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà soạn nhạc và nghệ sĩ dương cầm người Nga.",
-  "biography": "Mily Balakirev là nhà soạn nhạc và nghệ sĩ dương cầm người Nga, sinh ngày 2/1/1837. Ông gắn với nhóm các nhà soạn nhạc Nga được gọi là “The Five”.",
+  "biography": "Mily Balakirev là nhà soạn nhạc Nga sinh ngày 2/1/1837, gắn với nhóm Mighty Handful. Năm 1862, ông và Gavriil Lomakin thành lập Trường Âm nhạc Miễn phí ở St Petersburg; ông qua đời năm 1910.",
   "highlights": [
-    "Sáng tác nhạc giao hưởng, nhạc piano và nhạc thính phòng.",
-    "Là một trong những nhà soạn nhạc Nga thuộc nhóm “The Five”."
+    "Năm 1862, Balakirev cùng G. Lomakin thành lập Free Music School tại St Petersburg; ông lãnh đạo trường đến năm 1872.",
+    "Ông dẫn dắt Mighty Handful, định hình tư tưởng sáng tác và cách nhóm khai thác chất liệu dân ca Nga."
   ],
   "wikidataId": "Q185040",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Mily_Balakirev",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q185040",
     "https://polskabibliotekamuzyczna.pl/encyklopedia/balakiriew-2/?lang=en",
-    "https://digital.lib.washington.edu/bitstreams/8f5ddc65-5192-40de-9d8a-46a3406f846d/download"
+    "https://www.chandos.net/chanimages/Booklets/CH241-29.pdf",
+    "https://www.vle.lt/straipsnis/milij-balakirev/"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08"
+},
+{
+  "id": "roger-miller",
+  "slug": "roger-miller",
+  "name": "Roger Miller",
+  "nativeName": "Roger Dean Miller",
+  "birthDate": "1936-01-02",
+  "deathDate": "1992-10-25",
+  "deathDateSourceUrls": [
+    "https://countrymusichalloffame.org/hall-of-fame/roger-miller",
+    "https://www.tshaonline.org/handbook/entries/miller-roger-dean"
+  ],
+  "deathDatePrecision": "day",
+  "lifeStatus": "deceased",
+  "birthYear": 1936,
+  "birthMonth": 1,
+  "birthDay": 2,
+  "occupation": ["ca sĩ", "nhạc sĩ sáng tác", "nhà soạn nhạc"],
+  "category": "music",
+  "categoryLabel": "Âm nhạc",
+  "fields": ["design-creative"],
+  "countryCode": "US",
+  "countryName": "Hoa Kỳ",
+  "countryFlag": "🇺🇸",
+  "birthplace": "Fort Worth, Texas, Hoa Kỳ",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Ca sĩ kiêm nhạc sĩ country Mỹ, tác giả “King of the Road” và nhạc kịch Big River.",
+  "biography": "Roger Miller là ca sĩ kiêm nhạc sĩ country người Mỹ. “King of the Road” trở thành hit giao thoa giữa country và pop; ông giành 11 giải Grammy và nhận Tony năm 1985 cho phần nhạc của Big River.",
+  "highlights": [
+    "“King of the Road” là ca khúc bán chạy hàng triệu bản và đưa Miller thành ngôi sao country-pop.",
+    "Miller nhận giải Tony năm 1985 cho phần nhạc của vở Broadway Big River."
+  ],
+  "wikidataId": "Q712359",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Roger_Miller",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q712359",
+    "https://countrymusichalloffame.org/hall-of-fame/roger-miller",
+    "https://www.tshaonline.org/handbook/entries/miller-roger-dean",
+    "https://nashvillesongwritersfoundation.com/Site/inductee?entry_id=3863"
+  ],
+  "notabilityScore": 92,
+  "region": "west",
+  "verifiedAt": "2026-10-08"
+},
+{
+  "id": "todd-haynes",
+  "slug": "todd-haynes",
+  "name": "Todd Haynes",
+  "birthDate": "1961-01-02",
+  "lifeStatus": "unknown",
+  "birthYear": 1961,
+  "birthMonth": 1,
+  "birthDay": 2,
+  "occupation": ["đạo diễn điện ảnh", "biên kịch", "nhà sản xuất phim"],
+  "category": "artist",
+  "categoryLabel": "Nghệ thuật",
+  "fields": ["design-creative"],
+  "countryCode": "US",
+  "countryName": "Hoa Kỳ",
+  "countryFlag": "🇺🇸",
+  "birthplace": "Los Angeles, California, Hoa Kỳ",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Đạo diễn, biên kịch người Mỹ gắn với phong trào New Queer Cinema.",
+  "biography": "Todd Haynes là đạo diễn và biên kịch điện ảnh Mỹ gắn với phong trào New Queer Cinema. Các tác phẩm của ông gồm Poison, Safe, Velvet Goldmine và Far from Heaven.",
+  "highlights": [
+    "Haynes viết và đạo diễn Poison, Safe, Velvet Goldmine và Far from Heaven.",
+    "Far from Heaven mang về cho ông đề cử Oscar đầu tiên ở hạng mục Kịch bản gốc."
+  ],
+  "wikidataId": "Q446580",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Todd_Haynes",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q446580",
+    "https://goldenglobes.com/person/todd-haynes/",
+    "https://www.encyclopedia.com/arts/educational-magazines/haynes-todd-1961",
+    "https://www.bfi.org.uk/features/where-begin-todd-haynes"
+  ],
+  "notabilityScore": 90,
+  "region": "west",
+  "verifiedAt": "2026-10-08"
+},
+{
+  "id": "stephen-stills",
+  "slug": "stephen-stills",
+  "name": "Stephen Stills",
+  "nativeName": "Stephen Arthur Stills",
+  "birthDate": "1945-01-03",
+  "lifeStatus": "unknown",
+  "birthYear": 1945,
+  "birthMonth": 1,
+  "birthDay": 3,
+  "occupation": ["ca sĩ", "nhạc sĩ sáng tác", "nghệ sĩ đa nhạc cụ"],
+  "category": "music",
+  "categoryLabel": "Âm nhạc",
+  "fields": ["design-creative"],
+  "countryCode": "US",
+  "countryName": "Hoa Kỳ",
+  "countryFlag": "🇺🇸",
+  "birthplace": "Dallas, Texas, Hoa Kỳ",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Ca sĩ, nhạc sĩ Mỹ từng hoạt động trong Buffalo Springfield, CSN và CSNY.",
+  "biography": "Stephen Stills là ca sĩ, nhạc sĩ và nghệ sĩ đa nhạc cụ người Mỹ. Ông hoạt động trong Buffalo Springfield, Crosby, Stills & Nash, Crosby, Stills, Nash & Young và Manassas; các nhóm Buffalo Springfield và CSN được đưa vào Rock and Roll Hall of Fame.",
+  "highlights": [
+    "Stills hoạt động trong bốn nhóm gồm Manassas, Buffalo Springfield, Crosby, Stills & Nash và Crosby, Stills, Nash & Young.",
+    "CSN đã hợp tác với nhau từ năm 1969."
+  ],
+  "wikidataId": "Q354496",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Stephen_Stills",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q354496",
+    "https://snapshot.apple.com/us/person/6670615782",
+    "https://www.encyclopedia.com/education/news-wires-white-papers-and-books/stills-stephen",
+    "https://stephenstills.com/pages/bio",
+    "https://www.songhall.org/profiles/stephen-stills"
+  ],
+  "notabilityScore": 91,
+  "region": "west",
+  "verifiedAt": "2026-10-08"
+},
+{
+  "id": "mel-gibson",
+  "slug": "mel-gibson",
+  "name": "Mel Gibson",
+  "nativeName": "Mel Colmcille Gerard Gibson",
+  "birthDate": "1956-01-03",
+  "lifeStatus": "unknown",
+  "birthYear": 1956,
+  "birthMonth": 1,
+  "birthDay": 3,
+  "occupation": ["diễn viên", "đạo diễn điện ảnh", "nhà sản xuất phim", "biên kịch"],
+  "category": "actor",
+  "categoryLabel": "Diễn viên",
+  "fields": ["design-creative"],
+  "countryCode": "US",
+  "countryName": "Hoa Kỳ",
+  "countryFlag": "🇺🇸",
+  "birthplace": "Peekskill, New York, Hoa Kỳ",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Diễn viên, đạo diễn và nhà sản xuất phim người Mỹ.",
+  "biography": "Mel Gibson là diễn viên, đạo diễn, nhà sản xuất và biên kịch người Mỹ. Ông đạo diễn Braveheart và diễn xuất trong nhiều phim như Mad Max, Lethal Weapon và The Patriot.",
+  "highlights": [
+    "Braveheart đoạt Oscar Phim hay nhất.",
+    "Mel Gibson nhận Oscar Đạo diễn xuất sắc nhất cho Braveheart."
+  ],
+  "wikidataId": "Q42229",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Mel_Gibson",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q42229",
+    "https://goldenglobes.com/person/mel-gibson/",
+    "https://www.biography.com/actors/mel-gibson",
+    "https://www.oscars.org/oscars/ceremonies/1996/memorable-moments"
+  ],
+  "notabilityScore": 92,
+  "region": "west",
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "j-r-r-tolkien",
@@ -225,20 +475,24 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇬🇧",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà văn và học giả Anh, tác giả The Hobbit và The Lord of the Rings.",
-  "biography": "J. R. R. Tolkien sinh ngày 3/1/1892. Ông là nhà văn và học giả ngữ văn, được biết đến qua các tác phẩm The Hobbit và The Lord of the Rings.",
+  "biography": "J. R. R. Tolkien là nhà văn, học giả ngữ văn và giáo sư tại Oxford. The Hobbit xuất bản năm 1937; The Lord of the Rings ra mắt thành ba tập trong giai đoạn 1954–1955. Ông qua đời ngày 2/9/1973.",
   "highlights": [
-    "The Hobbit được xuất bản năm 1937.",
+    "The Hobbit do nhà xuất bản George Allen & Unwin phát hành năm 1937.",
     "The Lord of the Rings được xuất bản trong các năm 1954–1955."
   ],
+  "deathDate": "1973-09-02",
+  "deathDateSourceUrls": ["https://www.tolkienestate.com/es/vida/biography/"],
+  "deathDatePrecision": "day",
+  "lifeStatus": "deceased",
   "wikidataId": "Q892",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/J._R._R._Tolkien",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q892",
     "https://www.tolkienestate.com/es/vida/biography/",
-    "https://www.britannica.com/biography/J-R-R-Tolkien"
+    "https://www.birmingham.gov.uk/info/50166/j_r_r_tolkien/1584/"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "michael-schumacher",
@@ -258,20 +512,21 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇩🇪",
   "image": "/people/placeholder.svg",
   "shortDescription": "Tay đua ô tô người Đức, bảy lần vô địch thế giới Công thức 1.",
-  "biography": "Michael Schumacher sinh ngày 3/1/1969 gần Cologne, Đức. Anh giành bảy chức vô địch thế giới Công thức 1 trong sự nghiệp.",
+  "biography": "Michael Schumacher là tay đua Công thức 1 người Đức. Anh giành 91 chiến thắng chặng và bảy chức vô địch thế giới; năm chức vô địch liên tiếp gần nhất của anh đến với Ferrari từ 2000 đến 2004.",
   "highlights": [
-    "Vô địch thế giới Công thức 1 bảy lần.",
-    "Giành chức vô địch đầu tiên năm 1994 và chức vô địch thứ bảy năm 2004."
+    "Schumacher thắng 91 chặng và giành bảy chức vô địch thế giới F1.",
+    "Anh giành năm chức vô địch liên tiếp từ năm 2000 đến năm 2004."
   ],
+  "lifeStatus": "unknown",
   "wikidataId": "Q9671",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Michael_Schumacher",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q9671",
     "https://www.formula1.com/en/information/drivers-hall-of-fame-michael-schumacher.7KdX5nJlTG55vR5JQSbZ21",
-    "https://www.ferrari.com/en-BE/formula1/michael-schumacher"
+    "https://www.mercedesamgf1.com/news/50-years-ago-a-star-was-born"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "clement-attlee",
@@ -286,16 +541,23 @@ export const PEOPLE_01: Person[] = [
   ],
   "category": "politics",
   "categoryLabel": "Chính trị gia",
+  "fields": [
+    "society-law"
+  ],
   "countryCode": "GB",
   "countryName": "Vương quốc Anh",
   "countryFlag": "🇬🇧",
   "image": "/people/placeholder.svg",
   "shortDescription": "Thủ tướng Vương quốc Anh từ năm 1945 đến năm 1951.",
-  "biography": "Clement Attlee sinh ngày 3/1/1883 tại London. Ông lãnh đạo Công đảng và giữ chức Thủ tướng Anh giai đoạn 1945–1951.",
+  "biography": "Clement Attlee là chính trị gia Công đảng Anh, giữ chức Thủ tướng từ năm 1945 đến 1951. Chính phủ của ông mở rộng dịch vụ xã hội, lập Dịch vụ Y tế Quốc gia và quốc hữu hóa các ngành công nghiệp trọng yếu. Ông qua đời ngày 8/10/1967.",
   "highlights": [
-    "Lãnh đạo Công đảng từ năm 1935 đến năm 1955.",
-    "Giữ chức Thủ tướng Vương quốc Anh từ năm 1945 đến năm 1951."
+    "Attlee lãnh đạo Công đảng từ năm 1935 đến năm 1955 và giữ chức Thủ tướng từ năm 1945 đến năm 1951.",
+    "Chính phủ Attlee thành lập Dịch vụ Y tế Quốc gia (NHS) và quốc hữu hóa các ngành công nghiệp trọng yếu."
   ],
+  "deathDate": "1967-10-08",
+  "deathDateSourceUrls": ["https://www.gov.uk/government/history/past-prime-ministers/clement-attlee"],
+  "deathDatePrecision": "day",
+  "lifeStatus": "deceased",
   "wikidataId": "Q129006",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Clement_Attlee",
   "sourceUrls": [
@@ -304,14 +566,18 @@ export const PEOPLE_01: Person[] = [
     "https://www.innertemplelibrary.org.uk/wp-content/uploads/2017/10/Profile-Clement_Attlee.pdf"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08"
 },
-{
-  "id": "louis-braille",
-  "slug": "louis-braille",
-  "name": "Louis Braille",
-  "birthDate": "1809-01-04",
-  "birthYear": 1809,
+  {
+    "id": "louis-braille",
+    "slug": "louis-braille",
+    "name": "Louis Braille",
+    "birthDate": "1809-01-04",
+    "deathDate": "1852-01-06",
+    "deathDateSourceUrls": ["https://museelouisbraille.com/en/biographie"],
+    "deathDatePrecision": "day",
+    "lifeStatus": "deceased",
+    "birthYear": 1809,
   "birthMonth": 1,
   "birthDay": 4,
   "occupation": [
@@ -324,23 +590,24 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇫🇷",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà giáo dục người Pháp, người phát triển hệ thống chữ nổi Braille.",
-  "biography": "Louis Braille sinh ngày 4/1/1809 tại Coupvray, Pháp. Ông phát triển hệ thống chữ nổi mang tên mình để người mù và người khiếm thị đọc, viết.",
-  "highlights": [
-    "Phát triển hệ thống chữ nổi Braille.",
-    "Sinh tại Coupvray, Pháp, ngày 4/1/1809."
+    "biography": "Louis Braille sinh ngày 4/1/1809 tại Coupvray, Pháp. Năm 15 tuổi, ông phát triển bản đầu tiên của hệ thống đọc viết xúc giác sáu chấm, về sau có 64 tổ hợp ký hiệu; ông cũng tạo hệ thống chữ nổi cho âm nhạc và toán học. Năm 1829, Braille xuất bản cuốn sách trình bày phương pháp ghi lời nói và âm nhạc bằng chấm nổi. Ông dạy tại Viện Thanh thiếu niên mù ở Paris và qua đời vì bệnh lao ngày 6/1/1852.",
+    "highlights": [
+      "Năm 15 tuổi, Braille phát triển bản đầu tiên của hệ thống đọc viết xúc giác, về sau được tinh chỉnh thành ô sáu chấm với 64 tổ hợp.",
+      "Năm 1829, Braille xuất bản cuốn sách mô tả hệ thống chữ nổi cho lời nói và âm nhạc; sau đó ông làm giáo viên tại viện dành cho người mù ở Paris."
   ],
   "wikidataId": "Q93182",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Louis_Braille",
-  "sourceUrls": [
-    "https://www.wikidata.org/wiki/Q93182",
-    "https://www.loc.gov/exhibits/louis-braille/overview.html",
-    "https://museelouisbraille.com/en/biographie"
-  ],
-  "region": "west",
-  "verifiedAt": "2026-10-03"
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q93182",
+      "https://www.loc.gov/exhibits/louis-braille/overview.html",
+      "https://museelouisbraille.com/en/biographie",
+      "https://www.loc.gov/nls/services-and-resources/informational-publications/about-braille/"
+    ],
+    "region": "west",
+    "verifiedAt": "2026-10-08"
 },
-{
-  "id": "le-tan-tai",
+  {
+    "id": "le-tan-tai",
   "slug": "le-tan-tai",
   "name": "Lê Tấn Tài",
   "birthDate": "1984-01-04",
@@ -357,31 +624,35 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
   "shortDescription": "Cầu thủ bóng đá Việt Nam, từng thi đấu ở vị trí tiền vệ.",
-  "biography": "Lê Tấn Tài là cầu thủ bóng đá Việt Nam, sinh ngày 4/1/1984. Hồ sơ bóng đá chuyên nghiệp và báo chí thể thao Việt Nam ghi nhận anh thi đấu ở vị trí tiền vệ.",
-  "highlights": [
-    "Từng thi đấu cho đội tuyển bóng đá quốc gia Việt Nam.",
-    "Hồ sơ VPF ghi ngày sinh là 4/1/1984."
+    "lifeStatus": "unknown",
+    "biography": "Lê Tấn Tài là tiền vệ bóng đá Việt Nam, sinh ngày 4/1/1984. Bài viết của Tuổi Trẻ ghi nhận anh được gọi tập trung đội tuyển quốc gia năm 2004 khi mới 20 tuổi. VPF thống kê anh ra sân 11 trận và ghi một bàn cho Becamex TP. Hồ Chí Minh tại V.League 2019. Báo Xây dựng ghi anh cùng đội tuyển Việt Nam vô địch AFF Cup 2008.",
+    "highlights": [
+      "VPF thống kê Lê Tấn Tài thi đấu 11 trận và ghi một bàn cho Becamex TP. Hồ Chí Minh tại V.League 2019.",
+      "Tấn Tài là thành viên đội tuyển Việt Nam vô địch AFF Cup 2008; anh cũng có hai chức vô địch V-League vào các năm 2014 và 2015."
   ],
   "wikidataId": "Q926038",
   "wikipediaUrl": "https://vi.wikipedia.org/wiki/Lê_Tấn_Tài",
   "sourceUrls": [
-    "https://www.wikidata.org/wiki/Q926038",
-    "https://tuoitre.vn/le-tan-tai-tro-lai-san-co-20220207150434672.htm",
-    "https://vpf.vn/player/le-tan-tai/"
+      "https://www.wikidata.org/wiki/Q926038",
+      "https://tuoitre.vn/le-tan-tai-la-ai-47908.htm",
+      "https://vpf.vn/player/le-tan-tai/",
+      "https://baoxaydung.vn/le-tan-tai-toi-tra-lai-cho-bong-da-tat-ca-su-tu-te-192275988.htm",
+      "https://www.transfermarkt.com/tan-tai-le/profil/spieler/64641"
   ],
   "region": "vietnam",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08"
 },
-{
-  "id": "nguyen-huy-hoang",
+  {
+    "id": "nguyen-huy-hoang",
   "slug": "nguyen-huy-hoang",
   "name": "Nguyễn Huy Hoàng",
   "birthDate": "1981-01-04",
   "birthYear": 1981,
   "birthMonth": 1,
   "birthDay": 4,
-  "occupation": [
-    "huấn luyện viên bóng đá"
+    "occupation": [
+      "huấn luyện viên bóng đá",
+      "cựu cầu thủ bóng đá"
   ],
   "category": "athlete",
   "categoryLabel": "Vận động viên",
@@ -390,20 +661,97 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
   "shortDescription": "Huấn luyện viên bóng đá Việt Nam, từng là cầu thủ của Sông Lam Nghệ An.",
-  "biography": "Nguyễn Huy Hoàng sinh ngày 4/1/1981. Hồ sơ của câu lạc bộ Sông Lam Nghệ An ghi ông giữ vị trí huấn luyện viên trưởng.",
-  "highlights": [
-    "Được câu lạc bộ Sông Lam Nghệ An ghi nhận là huấn luyện viên trưởng.",
-    "Ngày sinh trong hồ sơ câu lạc bộ là 04/01/1981."
+    "lifeStatus": "unknown",
+    "biography": "Nguyễn Huy Hoàng là cựu trung vệ của Sông Lam Nghệ An và đội tuyển Việt Nam, sinh ngày 4/1/1981. Báo Nghệ An ghi ông từng giành danh hiệu Cầu thủ trẻ xuất sắc nhất Việt Nam năm 2001 và cùng SLNA vô địch V.League ba lần. Sau khi giải nghệ, ông chuyển sang huấn luyện; SLNA liệt kê ông là HLV trưởng đội U19 dự vòng loại giải quốc gia năm 2024.",
+    "highlights": [
+      "Báo Nghệ An ghi Huy Hoàng đoạt danh hiệu Cầu thủ trẻ xuất sắc nhất Việt Nam năm 2001 và cùng SLNA vô địch V.League các mùa 1999–2000, 2000–2001 và 2010–2011.",
+      "Danh sách của SLNA cho vòng loại giải U19 quốc gia năm 2024 ghi Nguyễn Huy Hoàng ở vị trí HLV trưởng."
   ],
   "wikidataId": "Q926022",
   "sourceUrls": [
-    "https://www.wikidata.org/wiki/Q926022",
-    "https://www.slnafc.com/tin-tuc/danh-sach-hlv-vdv-u19-slna-tham-gia-vong-loai-giai-vo-dich-u19-quoc-gia-nam-2024-7826",
-    "https://www.transfermarkt.com/huy-hoang-nguyen/profil/trainer/92217"
+      "https://www.wikidata.org/wiki/Q926022",
+      "https://www.slnafc.com/tin-tuc/danh-sach-hlv-vdv-u19-slna-tham-gia-vong-loai-giai-vo-dich-u19-quoc-gia-nam-2024-7826",
+      "https://www.transfermarkt.com/huy-hoang-nguyen/profil/trainer/92217",
+      "https://www.national-football-teams.com/player/7251/Huy_Hoang_Nguy_N.html",
+      "https://baonghean.vn/hlv-huy-hoang-bac-toc-trong-nam-dau-cam-quan-o-v-league-10247258.html"
   ],
   "region": "vietnam",
-  "verifiedAt": "2026-10-03"
-},
+    "verifiedAt": "2026-10-08"
+  },
+  {
+    "id": "john-mclaughlin",
+    "slug": "john-mclaughlin",
+    "name": "John McLaughlin",
+    "birthDate": "1942-01-04",
+    "birthYear": 1942,
+    "birthMonth": 1,
+    "birthDay": 4,
+    "occupation": ["nghệ sĩ guitar", "nhà soạn nhạc"],
+    "category": "music",
+    "categoryLabel": "Âm nhạc",
+    "fields": ["design-creative"],
+    "countryCode": "GB",
+    "countryName": "Vương quốc Anh",
+    "countryFlag": "🇬🇧",
+    "birthplace": "Doncaster, Yorkshire, Anh",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Nghệ sĩ guitar người Anh, gương mặt tiên phong của jazz fusion.",
+    "biography": "John McLaughlin là nghệ sĩ guitar và nhà soạn nhạc người Anh, sinh tại Doncaster ngày 4/1/1942. Năm 1969, ông chuyển đến New York để tham gia nhóm Lifetime của Tony Williams; sau đó ông được mời vào ban nhạc của Miles Davis. Từ năm 1971 đến 1975, ông dẫn dắt Mahavishnu Orchestra, rồi thành lập Shakti để kết hợp jazz acoustic với âm nhạc Ấn Độ.",
+    "highlights": [
+      "Năm 1969, McLaughlin tham gia nhóm Lifetime của Tony Williams, rồi góp mặt trong ban nhạc của Miles Davis.",
+      "Ông dẫn dắt Mahavishnu Orchestra từ năm 1971 đến 1975 và sau đó thành lập nhóm Shakti, kết hợp jazz acoustic với âm nhạc Ấn Độ."
+    ],
+    "wikidataId": "Q164757",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/John_McLaughlin_(musician)",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q164757",
+      "https://www.bluenote.com/artist/john-mclaughlin/",
+      "https://www.encyclopedia.com/people/literature-and-arts/music-popular-and-jazz-biographies/john-mclaughlin",
+      "https://universalmusic.fr/artistes/20000125061"
+    ],
+    "notabilityScore": 90,
+    "region": "west",
+    "verifiedAt": "2026-10-08",
+    "lifeStatus": "unknown"
+  },
+  {
+    "id": "gao-xingjian",
+    "slug": "gao-xingjian",
+    "name": "Gao Xingjian",
+    "nativeName": "高行健",
+    "birthDate": "1940-01-04",
+    "birthYear": 1940,
+    "birthMonth": 1,
+    "birthDay": 4,
+    "occupation": ["nhà văn", "nhà viết kịch", "họa sĩ"],
+    "category": "literature",
+    "categoryLabel": "Nhà văn",
+    "fields": ["design-creative"],
+    "countryCode": "CN",
+    "countryName": "Trung Quốc",
+    "countryFlag": "🇨🇳",
+    "birthplace": "Ganzhou, Giang Tây, Trung Quốc",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Nhà văn, nhà viết kịch gốc Trung Quốc, đoạt Nobel Văn học năm 2000.",
+    "biography": "Gao Xingjian là nhà văn, nhà viết kịch và họa sĩ sinh tại Ganzhou, Trung Quốc; ông hiện mang quốc tịch Pháp. Năm 2000, ông nhận Giải Nobel Văn học vì tác phẩm mở ra những hướng đi mới cho tiểu thuyết và kịch Trung Quốc. Vở kịch đầu tiên của ông, Juedui xinhao (Alarm Signal), được dàn dựng năm 1982.",
+    "highlights": [
+      "Gao Xingjian nhận Giải Nobel Văn học năm 2000 với ghi nhận tác phẩm mở ra hướng đi mới cho tiểu thuyết và kịch Trung Quốc.",
+      "Năm 1982, vở kịch đầu tiên của Gao, Juedui xinhao (Alarm Signal), được dàn dựng tại Trung Quốc."
+    ],
+    "wikidataId": "Q18143",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Gao_Xingjian",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q18143",
+      "https://www.nobelprize.org/prizes/literature/2000/gao/facts/",
+      "https://www.nobelprize.org/prizes/literature/2000/gao/biographical/",
+      "https://www.ebsco.com/research-starters/biography/gao-xingjian",
+      "https://dublinliteraryaward.ie/the-library/authors/gao-xingjian/"
+    ],
+    "notabilityScore": 93,
+    "region": "asia",
+    "verifiedAt": "2026-10-08",
+    "lifeStatus": "unknown"
+  },
 {
   "id": "umberto-eco",
   "slug": "umberto-eco",
@@ -424,8 +772,8 @@ export const PEOPLE_01: Person[] = [
   "shortDescription": "Nhà văn, triết gia và học giả người Ý.",
   "biography": "Umberto Eco sinh ngày 5/1/1932 tại Alessandria, Ý. Ông là nhà văn và học giả, đồng thời giảng dạy tại Đại học Bologna.",
   "highlights": [
-    "Tác giả tiểu thuyết The Name of the Rose.",
-    "Là giáo sư tại Đại học Bologna."
+    "Từ năm 1975, Umberto Eco là giáo sư chính thức ngành ký hiệu học tại Đại học Bologna.",
+    "Tiểu thuyết The Name of the Rose (1980) mở đầu mạch sáng tác văn học của Eco."
   ],
   "wikidataId": "Q12807",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Umberto_Eco",
@@ -440,11 +788,10 @@ export const PEOPLE_01: Person[] = [
   "deathDate": "2016-02-19",
   "lifeStatus": "deceased",
   "deathDateSourceUrls": [
-    "http://www.repubblica.it/cultura/2016/02/20/news/morto_lo_scrittore_umberto_eco-133816061/",
-    "https://brockhaus.de/ecs/julex/article/eco-umberto"
+    "https://www.britannica.com/biography/Umberto-Eco"
   ],
   "deathDatePrecision": "day",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "konrad-adenauer",
@@ -466,18 +813,25 @@ export const PEOPLE_01: Person[] = [
   "shortDescription": "Thủ tướng đầu tiên của Cộng hòa Liên bang Đức.",
   "biography": "Konrad Adenauer sinh ngày 5/1/1876 tại Köln. Ông là Thủ tướng đầu tiên của Cộng hòa Liên bang Đức, giữ chức vụ từ năm 1949 đến năm 1963.",
   "highlights": [
-    "Giữ chức Thủ tướng Tây Đức từ năm 1949 đến năm 1963.",
-    "Trước đó là Thị trưởng Köln."
+    "Konrad Adenauer là Thủ tướng đầu tiên của Cộng hòa Liên bang Đức từ năm 1949 đến 1963.",
+    "Ông làm Thị trưởng Köln giai đoạn 1917–1933 và một số tháng năm 1945."
   ],
   "wikidataId": "Q2492",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Konrad_Adenauer",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q2492",
     "https://www.bundesarchiv.de/konrad-adenauer/",
-    "https://www.konrad-adenauer.de/biographie/"
+    "https://www.konrad-adenauer.de/biographie/",
+    "https://www.bpb.de/kurz-knapp/lexika/das-europalexikon/176660/adenauer-konrad/"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-03"
+  "deathDate": "1967-04-19",
+  "deathDatePrecision": "day",
+  "deathDateSourceUrls": [
+    "https://www.bpb.de/kurz-knapp/lexika/das-europalexikon/176660/adenauer-konrad/"
+  ],
+  "lifeStatus": "deceased",
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "frank-walter-steinmeier",
@@ -499,18 +853,102 @@ export const PEOPLE_01: Person[] = [
   "shortDescription": "Chính trị gia Đức, Tổng thống Liên bang Đức từ năm 2017.",
   "biography": "Frank-Walter Steinmeier sinh ngày 5/1/1956 tại Detmold. Ông là chính trị gia Đức và được bầu làm Tổng thống Liên bang Đức năm 2017.",
   "highlights": [
-    "Được bầu làm Tổng thống Liên bang Đức năm 2017.",
-    "Sinh tại Detmold ngày 5/1/1956."
+    "Ngày 12/2/2017, Đại hội Liên bang Đức bầu Steinmeier làm Tổng thống thứ 12 của nước này.",
+    "Ông giữ chức Bộ trưởng Ngoại giao Liên bang Đức từ tháng 11/2005 đến tháng 10/2009."
   ],
   "wikidataId": "Q76658",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Frank-Walter_Steinmeier",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q76658",
     "https://www.bundestag.de/webarchiv/abgeordnete/biografien18/S/steinmeier_frank_walter-258964",
-    "https://www.bundespraesident.de/DE/bundespraesident/biographie/biographie_node.html"
+    "https://www.bundespraesident.de/DE/bundespraesident/biographie/biographie_node.html",
+    "https://www.senatspressestelle.bremen.de/pressemitteilungen/offizielle-feierlichkeiten-zur-deutschen-einheit-haben-begonnen-491814?asl=bremen02.c.732.de"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-03"
+  "lifeStatus": "living",
+  "verifiedAt": "2026-10-08"
+},
+{
+  "id": "hayao-miyazaki",
+  "slug": "hayao-miyazaki",
+  "name": "Hayao Miyazaki",
+  "nativeName": "宮崎 駿",
+  "birthDate": "1941-01-05",
+  "birthYear": 1941,
+  "birthMonth": 1,
+  "birthDay": 5,
+  "occupation": [
+    "đạo diễn phim hoạt hình",
+    "họa sĩ hoạt họa",
+    "nhà làm phim"
+  ],
+  "category": "artist",
+  "categoryLabel": "Nghệ thuật",
+  "fields": ["design-creative"],
+  "countryCode": "JP",
+  "countryName": "Nhật Bản",
+  "countryFlag": "🇯🇵",
+  "birthplace": "Tokyo, Nhật Bản",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Đạo diễn hoạt hình Nhật Bản, đồng sáng lập Studio Ghibli.",
+  "biography": "Hayao Miyazaki sinh ngày 5/1/1941 tại Tokyo, Nhật Bản. Năm 1985, ông cùng đạo diễn Isao Takahata thành lập Studio Ghibli. Phim Spirited Away do ông đạo diễn được trao giải Academy Award cho phim hoạt hình xuất sắc.",
+  "highlights": [
+    "Năm 1985, Miyazaki cùng đạo diễn Isao Takahata thành lập Studio Ghibli.",
+    "Phim Spirited Away do Miyazaki đạo diễn được trao giải Academy Award cho phim hoạt hình xuất sắc."
+  ],
+  "wikidataId": "Q55400",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Hayao_Miyazaki",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q55400",
+    "https://img-lib.musabi.ac.jp/search/index.php/person/detail/12950",
+    "https://www.encyclopedia.com/arts/educational-magazines/miyazaki-hayao-1941"
+  ],
+  "notabilityScore": 91,
+  "region": "asia",
+  "lifeStatus": "unknown",
+  "verifiedAt": "2026-10-08"
+},
+{
+  "id": "paramahansa-yogananda",
+  "slug": "paramahansa-yogananda",
+  "name": "Paramahansa Yogananda",
+  "birthDate": "1893-01-05",
+  "birthYear": 1893,
+  "birthMonth": 1,
+  "birthDay": 5,
+  "occupation": [
+    "đạo sư yoga",
+    "nhà tư tưởng",
+    "nhà văn"
+  ],
+  "category": "history",
+  "categoryLabel": "Tư tưởng",
+  "fields": ["education-thought"],
+  "countryCode": "IN",
+  "countryName": "Ấn Độ",
+  "countryFlag": "🇮🇳",
+  "birthplace": "Gorakhpur, Ấn Độ",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Đạo sư yoga và tác giả Ấn Độ, phổ biến thiền định và Kriya Yoga tại phương Tây.",
+  "biography": "Paramahansa Yogananda (tên khai sinh Mukunda Lal Ghosh) sinh ngày 5/1/1893 tại Gorakhpur, Ấn Độ. Năm 1920, ông thành lập Self-Realization Fellowship để phổ biến triết học yoga và thiền định. Tự truyện Autobiography of a Yogi được xuất bản năm 1946 và có ảnh hưởng đến độc giả Mỹ. Ông qua đời ngày 7/3/1952 tại Los Angeles.",
+  "highlights": [
+    "Năm 1920, Yogananda thành lập Self-Realization Fellowship để phổ biến triết học yoga và thiền định.",
+    "Tự truyện Autobiography of a Yogi của Yogananda được xuất bản năm 1946 và có ảnh hưởng đến độc giả Mỹ."
+  ],
+  "wikidataId": "Q312549",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Paramahansa_Yogananda",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q312549",
+    "https://www.encyclopedia.com/people/philosophy-and-religion/other-religious-beliefs-biographies/paramahansa-yogananda",
+    "https://yogananda.org/a-beloved-world-teacher"
+  ],
+  "notabilityScore": 91,
+  "region": "asia",
+  "deathDate": "1952-03-07",
+  "deathDatePrecision": "day",
+  "deathDateSourceUrls": ["https://yogananda.org/a-beloved-world-teacher"],
+  "lifeStatus": "deceased",
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "kahlil-gibran",
@@ -525,15 +963,16 @@ export const PEOPLE_01: Person[] = [
   ],
   "category": "literature",
   "categoryLabel": "Nhà văn",
+  "fields": ["design-creative"],
   "countryCode": "LB",
   "countryName": "Liban",
   "countryFlag": "🇱🇧",
   "image": "/people/placeholder.svg",
-  "shortDescription": "Nhà văn, nhà thơ và họa sĩ người Liban-Mỹ, tác giả The Prophet.",
-  "biography": "Kahlil Gibran sinh ngày 6/1/1883 tại Bsharri, Liban. Ông là nhà văn, nhà thơ và họa sĩ; tác phẩm The Prophet được xuất bản năm 1923.",
+  "shortDescription": "Nhà văn, nhà thơ và họa sĩ Liban-Mỹ, tác giả The Prophet và The Madman.",
+  "biography": "Kahlil Gibran sinh ngày 6/1/1883 tại Bsharri, Liban. Năm 1918, tập thơ và văn xuôi The Madman được xuất bản; The Prophet ra mắt năm 1923. Ông đóng góp cho các tạp chí Arab-American như Al-Funūn và Al-Mohajer, và qua đời tại New York ngày 10/4/1931.",
   "highlights": [
-    "Tác giả tập văn xuôi The Prophet, xuất bản năm 1923.",
-    "Sinh tại Bsharri, Liban, ngày 6/1/1883."
+    "Tập thơ và văn xuôi The Madman của Gibran được xuất bản năm 1918.",
+    "Gibran đóng góp cho các tạp chí Arab-American như Al-Funūn và Al-Mohajer."
   ],
   "wikidataId": "Q47737",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Kahlil_Gibran",
@@ -543,7 +982,11 @@ export const PEOPLE_01: Person[] = [
     "https://www.lib.ncsu.edu/findingaids/kc0057"
   ],
   "region": "asia",
-  "verifiedAt": "2026-10-03"
+  "deathDate": "1931-04-10",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": ["https://poets.org/poet/kahlil-gibran"],
+  "deathDatePrecision": "day",
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "syd-barrett",
@@ -558,15 +1001,16 @@ export const PEOPLE_01: Person[] = [
   ],
   "category": "music",
   "categoryLabel": "Âm nhạc",
+  "fields": ["design-creative"],
   "countryCode": "GB",
   "countryName": "Vương quốc Anh",
   "countryFlag": "🇬🇧",
   "image": "/people/placeholder.svg",
-  "shortDescription": "Nhạc sĩ người Anh, thành viên sáng lập ban nhạc Pink Floyd.",
-  "biography": "Syd Barrett sinh ngày 6/1/1946 tại Cambridge. Ông là nhạc sĩ, ca sĩ kiêm sáng tác và một trong những thành viên ban đầu của Pink Floyd.",
+  "shortDescription": "Nhạc sĩ, người viết ca khúc và họa sĩ người Anh; thành viên sáng lập Pink Floyd.",
+  "biography": "Syd Barrett, tên khai sinh Roger Keith Barrett, sinh ngày 6/1/1946 tại Cambridge. Ông là nhạc sĩ, người viết ca khúc và họa sĩ, đồng sáng lập Pink Floyd. Sau khi rời nhóm năm 1968, ông thu âm với tư cách nghệ sĩ solo cho hãng Harvest. Barrett qua đời ngày 7/7/2006 tại Cambridge.",
   "highlights": [
-    "Là thành viên ban đầu của Pink Floyd.",
-    "Tên khai sinh của ông là Roger Keith Barrett."
+    "Syd Barrett là thành viên sáng lập Pink Floyd cùng Roger Waters và David Gilmour.",
+    "Sau khi rời Pink Floyd năm 1968, Barrett tiếp tục sự nghiệp thu âm solo với hãng Harvest."
   ],
   "wikidataId": "Q173061",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Syd_Barrett",
@@ -576,7 +1020,11 @@ export const PEOPLE_01: Person[] = [
     "https://cambridgeppf.org/syd-barrett/"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-03"
+  "deathDate": "2006-07-07",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": ["https://www.sydbarrett.com/syds-life/"],
+  "deathDatePrecision": "day",
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "heinrich-schliemann",
@@ -591,15 +1039,16 @@ export const PEOPLE_01: Person[] = [
   ],
   "category": "history",
   "categoryLabel": "Nhân vật lịch sử",
+  "fields": ["science-research"],
   "countryCode": "DE",
   "countryName": "Đức",
   "countryFlag": "🇩🇪",
   "image": "/people/placeholder.svg",
-  "shortDescription": "Nhà khảo cổ học Đức được biết đến qua các cuộc khai quật tại Hisarlik.",
-  "biography": "Heinrich Schliemann sinh ngày 6/1/1822 tại Neubukow. Ông theo đuổi khảo cổ học và tiến hành khai quật tại địa điểm Hisarlik, thường được gắn với thành Troy cổ đại.",
+  "shortDescription": "Nhà khảo cổ học Đức nổi tiếng với các cuộc khai quật tại Troy và Mycenae.",
+  "biography": "Heinrich Schliemann sinh ngày 6/1/1822 tại Neubukow, Đức. Sau thời gian làm thương nhân, từ thập niên 1870 ông theo đuổi khảo cổ học và khai quật các địa điểm gắn với Troy và Mycenae. Các cuộc khai quật và công bố của ông góp phần làm rõ khảo cổ học Mycenae. Ông qua đời tại Naples ngày 26/12/1890.",
   "highlights": [
-    "Tiến hành khai quật tại Hisarlik ở Thổ Nhĩ Kỳ ngày nay.",
-    "Sinh ngày 6/1/1822 tại Neubukow, Đức."
+    "Schliemann khai quật các địa điểm được cho là thành Troy và Mycenae theo sử thi cổ điển.",
+    "Các cuộc khai quật và công bố của Schliemann góp phần làm sáng tỏ khảo cổ học Mycenae."
   ],
   "wikidataId": "Q57106",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Heinrich_Schliemann",
@@ -607,6 +1056,7 @@ export const PEOPLE_01: Person[] = [
     "https://www.wikidata.org/wiki/Q57106",
     "https://www.dhm.de/lemo/biografie/heinrich-schliemann",
     "https://archives.iu.edu/html/InU-Li-VAD7007.html",
+    "https://www.nummus.gr/en/heinrich-schliemann/",
     "https://brockhaus.de/ecs/julex/article/schliemann-heinrich"
   ],
   "region": "west",
@@ -616,7 +1066,78 @@ export const PEOPLE_01: Person[] = [
     "https://brockhaus.de/ecs/julex/article/schliemann-heinrich"
   ],
   "deathDatePrecision": "day",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08"
+},
+{
+  "id": "rolf-zinkernagel",
+  "slug": "rolf-zinkernagel",
+  "name": "Rolf M. Zinkernagel",
+  "birthDate": "1944-01-06",
+  "birthYear": 1944,
+  "birthMonth": 1,
+  "birthDay": 6,
+  "occupation": ["bác sĩ", "nhà miễn dịch học"],
+  "category": "scientist",
+  "categoryLabel": "Nhà khoa học",
+  "fields": ["medicine-health", "science-research"],
+  "countryCode": "CH",
+  "countryName": "Thụy Sĩ",
+  "countryFlag": "🇨🇭",
+  "birthplace": "Riehen, Thụy Sĩ",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Nhà miễn dịch học Thụy Sĩ đoạt Nobel Y học năm 1996.",
+  "biography": "Rolf Zinkernagel sinh ngày 6/1/1944 tại Riehen, Thụy Sĩ. Năm 1973, ông và Peter Doherty chứng minh cách hệ miễn dịch nhận diện tế bào nhiễm virus. Zinkernagel nhận Giải Nobel Sinh lý học hoặc Y học năm 1996 và là giáo sư Miễn dịch học Thực nghiệm tại Đại học Zurich giai đoạn 1979–2008.",
+  "highlights": [
+    "Năm 1973, Rolf Zinkernagel và Peter Doherty chứng minh cách hệ miễn dịch nhận diện tế bào nhiễm virus.",
+    "Ông là giáo sư Miễn dịch học Thực nghiệm tại Đại học Zurich giai đoạn 1979–2008."
+  ],
+  "wikidataId": "Q116064",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Rolf_M._Zinkernagel",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q116064",
+    "https://www.nobelprize.org/laureate/456",
+    "https://www.uzh.ch/en/researchinnovation/excellence/nobelprize/zinkernagel.html"
+  ],
+  "notabilityScore": 90,
+  "region": "west",
+  "lifeStatus": "unknown",
+  "verifiedAt": "2026-10-08"
+},
+{
+  "id": "rowan-atkinson",
+  "slug": "rowan-atkinson",
+  "name": "Rowan Atkinson",
+  "birthDate": "1955-01-06",
+  "birthYear": 1955,
+  "birthMonth": 1,
+  "birthDay": 6,
+  "occupation": ["diễn viên", "nghệ sĩ hài", "biên kịch"],
+  "category": "actor",
+  "categoryLabel": "Diễn viên",
+  "fields": ["design-creative"],
+  "countryCode": "GB",
+  "countryName": "Vương quốc Anh",
+  "countryFlag": "🇬🇧",
+  "birthplace": "Gosforth, gần Newcastle, Anh",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Diễn viên hài Anh, nổi tiếng với các chương trình Not the Nine O'Clock News và Blackadder.",
+  "biography": "Rowan Atkinson sinh ngày 6/1/1955 tại miền bắc nước Anh. Ông viết và biểu diễn trong các chương trình hài truyền hình, được ghi nhận là người sáng tạo Not the Nine O'Clock News và tham gia biểu diễn tại The Secret Policeman's Ball của Amnesty International năm 1979.",
+  "highlights": [
+    "Atkinson đồng sáng tạo và viết cho chương trình hài Not the Nine O'Clock News từ cuối thập niên 1970.",
+    "Năm 1979, ông biểu diễn tiểu phẩm tại chương trình gây quỹ The Secret Policeman’s Ball của Amnesty International."
+  ],
+  "wikidataId": "Q23760",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Rowan_Atkinson",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q23760",
+    "https://www.theguardian.com/culture/2008/dec/28/rowan-atkinson-profile-oliver-blackadder",
+    "https://www.encyclopedia.com/books/culture-magazines/atkinson-rowan",
+    "https://www.bafta.org/awards/television/light-entertainment-performance"
+  ],
+  "notabilityScore": 90,
+  "region": "west",
+  "lifeStatus": "unknown",
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "millard-fillmore",
@@ -635,21 +1156,27 @@ export const PEOPLE_01: Person[] = [
   "countryName": "Hoa Kỳ",
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
-  "shortDescription": "Tổng thống thứ 13 của Hoa Kỳ.",
-  "biography": "Millard Fillmore sinh ngày 7/1/1800 tại bang New York. Ông giữ chức Tổng thống thứ 13 của Hoa Kỳ từ năm 1850 đến năm 1853.",
+  "shortDescription": "Tổng thống thứ 13 của Hoa Kỳ, trước đó là Phó Tổng thống và nghị sĩ.",
+  "biography": "Millard Fillmore sinh ngày 7/1/1800 tại Locke Township, nay là Summerhill, bang New York. Ông học nghề, tự học luật, làm nghị sĩ và giữ chức Phó Tổng thống dưới thời Zachary Taylor. Sau khi Taylor qua đời, Fillmore kế nhiệm chức Tổng thống và phục vụ từ tháng 7/1850 đến tháng 3/1853. Trước đó, ông chủ trì Ủy ban Ways and Means của Hạ viện trong Quốc hội khóa 27. Fillmore qua đời tại Buffalo ngày 8/3/1874.",
   "highlights": [
-    "Giữ chức Tổng thống Hoa Kỳ từ năm 1850 đến năm 1853.",
-    "Trước khi làm tổng thống, ông là Phó Tổng thống Hoa Kỳ."
+    "Fillmore kế nhiệm Tổng thống sau khi Zachary Taylor qua đời và phục vụ từ năm 1850 đến năm 1853.",
+    "Trước khi trở thành Phó Tổng thống, Fillmore chủ trì Ủy ban Ways and Means của Hạ viện trong Quốc hội khóa 27."
   ],
   "wikidataId": "Q12306",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Millard_Fillmore",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q12306",
     "https://history.house.gov/People/Detail/13119",
-    "https://guides.loc.gov/millard-fillmore"
+    "https://guides.loc.gov/millard-fillmore",
+    "https://www.govinfo.gov/content/pkg/CDOC-104sdoc26/pdf/CDOC-104sdoc26.pdf"
   ],
+  "fields": ["society-law"],
   "region": "west",
-  "verifiedAt": "2026-10-03"
+  "lifeStatus": "deceased",
+  "deathDate": "1874-03-08",
+  "deathDatePrecision": "day",
+  "deathDateSourceUrls": ["https://www.govinfo.gov/content/pkg/CDOC-104sdoc26/pdf/CDOC-104sdoc26.pdf"],
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "lewis-hamilton",
@@ -668,21 +1195,23 @@ export const PEOPLE_01: Person[] = [
   "countryName": "Vương quốc Anh",
   "countryFlag": "🇬🇧",
   "image": "/people/placeholder.svg",
-  "shortDescription": "Tay đua người Anh, nhiều lần vô địch thế giới Công thức 1.",
-  "biography": "Lewis Hamilton sinh ngày 7/1/1985 tại Stevenage, Anh. Anh thi đấu Công thức 1 và giành bảy chức vô địch thế giới.",
+  "shortDescription": "Tay đua Công thức 1 người Anh, bảy lần vô địch thế giới.",
+  "biography": "Lewis Hamilton sinh ngày 7/1/1985 tại Stevenage, Anh. Anh ra mắt Công thức 1 với McLaren năm 2007 và giành bảy chức vô địch thế giới, cân bằng kỷ lục số danh hiệu của giải. Trang hồ sơ mùa giải hiện tại của Formula 1 ghi nhận anh thi đấu cho Ferrari trong mùa 2026.",
   "highlights": [
-    "Bảy lần vô địch thế giới Công thức 1.",
-    "Ra mắt Công thức 1 năm 2007."
+    "Hamilton đã giành bảy chức vô địch thế giới Công thức 1, bằng kỷ lục danh hiệu của giải.",
+    "Hamilton ra mắt Công thức 1 năm 2007 với màn trình diễn tân binh được Formula 1 xếp vào hàng nổi bật nhất lịch sử giải."
   ],
   "wikidataId": "Q9673",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Lewis_Hamilton",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q9673",
     "https://www.formula1.com/en/drivers/lewis-hamilton",
-    "https://www.britannica.com/biography/Lewis-Hamilton"
+    "https://www.britannica.com/biography/Lewis-Hamilton",
+    "https://www.fia.com/file/61780/download"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-03"
+  "lifeStatus": "living",
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "joseph-bonaparte",
@@ -701,21 +1230,106 @@ export const PEOPLE_01: Person[] = [
   "countryName": "Pháp",
   "countryFlag": "🇫🇷",
   "image": "/people/placeholder.svg",
-  "shortDescription": "Chính khách người Pháp, từng giữ ngôi vua Tây Ban Nha.",
-  "biography": "Joseph Bonaparte sinh ngày 7/1/1768 tại Corsica. Ông là anh của Napoléon Bonaparte và giữ ngôi vua Tây Ban Nha từ năm 1808 đến năm 1813.",
+  "shortDescription": "Chính khách và nhà ngoại giao Pháp, từng làm vua Naples và Tây Ban Nha.",
+  "biography": "Joseph Bonaparte sinh ngày 7/1/1768 trên đảo Corsica. Ông học luật, phục vụ trong chính quyền Pháp và tham gia đàm phán các hiệp ước với Hoa Kỳ, Áo và Anh. Napoléon bổ nhiệm ông làm vua Naples năm 1806 rồi chuyển ông sang ngai vàng Tây Ban Nha năm 1808; ông rời Tây Ban Nha năm 1813. Sau nhiều năm lưu vong, Joseph qua đời tại Florence ngày 28/7/1844.",
   "highlights": [
-    "Giữ ngôi vua Tây Ban Nha từ năm 1808 đến năm 1813.",
-    "Là anh trai của Napoléon Bonaparte."
+    "Joseph Bonaparte làm vua Naples từ năm 1806, rồi làm vua Tây Ban Nha từ năm 1808 đến năm 1813.",
+    "Trong vai trò nhà ngoại giao, ông tham gia đàm phán các hiệp ước Mortefontaine, Lunéville và Amiens."
   ],
   "wikidataId": "Q7726",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Joseph_Bonaparte",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q7726",
     "https://www.napoleon.org/en/history-of-the-two-empires/biographies/bonaparte-joseph",
-    "https://tile.loc.gov/storage-services/public/gdcmassbookdig/historyofjosephb00abbo_0/historyofjosephb00abbo_0.pdf"
+    "https://tile.loc.gov/storage-services/public/gdcmassbookdig/historyofjosephb00abbo_0/historyofjosephb00abbo_0.pdf",
+    "https://www.lancasterhistory.org/images/stories/JournalArticles/vol27no9pp161_163_135540.pdf",
+    "https://www.napoleon.org/en/history-of-the-two-empires/paintings/portrait-de-joseph-bonaparte"
   ],
+  "fields": ["society-law"],
   "region": "west",
-  "verifiedAt": "2026-10-03"
+  "lifeStatus": "deceased",
+  "deathDate": "1844-07-28",
+  "deathDatePrecision": "day",
+  "deathDateSourceUrls": ["https://www.napoleon.org/en/history-of-the-two-empires/biographies/bonaparte-joseph"],
+  "verifiedAt": "2026-10-08"
+},
+{
+  "id": "cao-dinh-thuyen",
+  "slug": "cao-dinh-thuyen",
+  "name": "Phaolô Maria Cao Đình Thuyên",
+  "birthDate": "1927-01-07",
+  "birthYear": 1927,
+  "birthMonth": 1,
+  "birthDay": 7,
+  "occupation": ["giám mục Công giáo", "linh mục"],
+  "category": "history",
+  "categoryLabel": "Nhân vật lịch sử",
+  "fields": ["society-law"],
+  "countryCode": "VN",
+  "countryName": "Việt Nam",
+  "countryFlag": "🇻🇳",
+  "birthplace": "Tràng Lưu, Hương Khê, Hà Tĩnh, Việt Nam",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Giám mục Công giáo Việt Nam, phục vụ Giáo phận Vinh từ năm 2000 đến 2010.",
+  "biography": "Phaolô Maria Cao Đình Thuyên sinh ngày 7/1/1927 tại Tràng Lưu, Hà Tĩnh. Ngài được thụ phong linh mục năm 1960, tấn phong giám mục năm 1992 và kế nhiệm chức Giám mục chính tòa Giáo phận Vinh năm 2000. Ngài nghỉ hưu năm 2010 và qua đời tại Nghệ An ngày 29/8/2022.",
+  "highlights": [
+    "Cao Đình Thuyên được thụ phong linh mục năm 1960 và tấn phong giám mục tại Giáo phận Vinh năm 1992.",
+    "Ngài giữ chức Giám mục chính tòa Giáo phận Vinh từ năm 2000 đến khi nghỉ hưu năm 2010."
+  ],
+  "wikidataId": "Q2058567",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Paul-Marie_Cao_%C3%90%C3%ACnh_Thuy%C3%AAn",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q2058567",
+    "https://vntaiwan.catholic.org.tw/vnchurch/vinh/gmthuyen.htm",
+    "https://giaophanhatinh.org/cao-pho-duc-cha-phaolo-maria-cao-dinh-thuyen.htdiocese"
+  ],
+  "notabilityScore": 86,
+  "region": "vietnam",
+  "lifeStatus": "deceased",
+  "deathDate": "2022-08-29",
+  "deathDatePrecision": "day",
+  "deathDateSourceUrls": ["https://giaophanhatinh.org/cao-pho-duc-cha-phaolo-maria-cao-dinh-thuyen.htdiocese"],
+  "verifiedAt": "2026-10-08"
+},
+{
+  "id": "achille-maramotti",
+  "slug": "achille-maramotti",
+  "name": "Achille Maramotti",
+  "birthDate": "1927-01-07",
+  "birthYear": 1927,
+  "birthMonth": 1,
+  "birthDay": 7,
+  "occupation": ["doanh nhân ngành thời trang", "nhà công nghiệp"],
+  "category": "entrepreneur",
+  "categoryLabel": "Doanh nhân",
+  "fields": ["entrepreneurship", "economics-business"],
+  "countryCode": "IT",
+  "countryName": "Ý",
+  "countryFlag": "🇮🇹",
+  "birthplace": "Reggio Emilia, Ý",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Doanh nhân Ý sáng lập Max Mara và phát triển tập đoàn thời trang ready-to-wear.",
+  "biography": "Achille Maramotti sinh ngày 7/1/1927 tại Reggio Emilia, Ý. Năm 1951, ông thành lập Max Mara và phát triển một tập đoàn thời trang ready-to-wear với nhiều thương hiệu và mạng lưới cửa hàng quốc tế. Ông cũng gây dựng một bộ sưu tập nghệ thuật đương đại, được trưng bày trong không gian công cộng tại nhà máy cũ của công ty. Maramotti qua đời ngày 12/1/2005.",
+  "highlights": [
+    "Maramotti xây dựng Max Mara thành một đế chế thời trang ready-to-wear với khoảng 1.200 cửa hàng tại 90 quốc gia.",
+    "Ông gây dựng bộ sưu tập nghệ thuật đương đại của nhà sáng lập Max Mara và mở không gian đó cho công chúng."
+  ],
+  "wikidataId": "Q340230",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Achille_Maramotti",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q340230",
+    "https://www.gazzettaufficiale.it/atto/parte_seconda/caricaDettaglioAtto/originario?atto.codiceRedazionale=C-4616&atto.dataPubblicazioneGazzetta=2002-02-20",
+    "https://www.fondazionepirelli.org/it/cultura-dimpresa/fabbrica-darte/",
+    "https://www.theguardian.com/news/2005/jan/18/guardianobituaries.italy",
+    "https://www.the-independent.com/news/obituaries/achille-maramotti-5524094.html"
+  ],
+  "notabilityScore": 86,
+  "region": "west",
+  "lifeStatus": "deceased",
+  "deathDate": "2005-01-12",
+  "deathDatePrecision": "day",
+  "deathDateSourceUrls": ["https://www.theguardian.com/news/2005/jan/18/guardianobituaries.italy"],
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "elvis-presley",
@@ -735,11 +1349,19 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Ca sĩ và diễn viên người Mỹ, một trong những nghệ sĩ tiêu biểu của nhạc rock and roll.",
-  "biography": "Elvis Presley là ca sĩ và diễn viên người Mỹ. Năm 1956, Heartbreak Hotel trở thành đĩa đơn quán quân đầu tiên của Elvis Presley; ông cũng xuất hiện trong Love Me Tender (1956), Jailhouse Rock (1957) và Blue Hawaii (1961).",
-  "highlights": ["Sinh ngày 8/1/1935.", "Năm 1956, Heartbreak Hotel trở thành đĩa đơn quán quân đầu tiên của Elvis Presley; ông cũng xuất hiện trong Love Me Tender (1956), Jailhouse Rock (1957) và Blue Hawaii (1961)."],
+  "biography": "Elvis Presley sinh ngày 8/1/1935 tại Tupelo, Mississippi. Năm 1956, “Heartbreak Hotel” trở thành đĩa đơn quán quân đầu tiên của ông; cùng năm, ông ra mắt điện ảnh với Love Me Tender. Ông qua đời tại Memphis ngày 16/8/1977.",
+  "highlights": [
+    "Năm 1956, “Heartbreak Hotel” trở thành đĩa đơn quán quân đầu tiên của Presley; sự kiện mở đầu chuỗi 18 đĩa đơn quán quân trong sự nghiệp.",
+    "Presley ra mắt điện ảnh với Love Me Tender năm 1956."
+  ],
   "wikidataId": "Q303",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Elvis_Presley",
-  "sourceUrls": ["https://www.wikidata.org/wiki/Q303", "https://www.graceland.com/elvis-faq", "https://www.nps.gov/people/elvis-presley.htm", "https://brockhaus.de/ecs/julex/article/presley-elvis-aaron", "https://www.grammy.com/artists/elvis-presley/6033/"],
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q303",
+    "https://www.graceland.com/quick-facts",
+    "https://brockhaus.de/ecs/julex/article/presley-elvis-aaron",
+    "https://www.grammy.com/artists/elvis-presley/6033/"
+  ],
   "region": "west",
   "deathDate": "1977-08-16",
   "lifeStatus": "deceased",
@@ -747,7 +1369,10 @@ export const PEOPLE_01: Person[] = [
     "https://brockhaus.de/ecs/julex/article/presley-elvis-aaron"
   ],
   "deathDatePrecision": "day",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08",
+  "fields": [
+    "design-creative"
+  ]
 },
 {
   "id": "stephen-hawking",
@@ -767,29 +1392,34 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇬🇧",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà vật lý lý thuyết người Anh, nghiên cứu về hố đen và vũ trụ học.",
-  "biography": "Stephen Hawking sinh ngày 8/1/1942 tại Oxford. Ông là nhà vật lý lý thuyết và nhà vũ trụ học tại Đại học Cambridge, đồng thời là tác giả cuốn A Brief History of Time.",
+  "biography": "Stephen Hawking sinh ngày 8/1/1942 tại Oxford, Anh. Ông nghiên cứu về hố đen và vũ trụ học; đề xuất bức xạ Hawking, được công bố trên Nature năm 1974. Cuốn A Brief History of Time xuất bản năm 1988 và trở thành một trong những sách bán chạy nhất về khoa học phổ thông.",
   "highlights": [
-    "Nghiên cứu về hố đen và vũ trụ học.",
-    "A Brief History of Time được xuất bản năm 1988."
+    "Năm 1974, Hawking đề xuất bức xạ phát ra từ hố đen; bài nghiên cứu “Black hole explosions?” được đăng trên Nature.",
+    "A Brief History of Time, do Bantam Press xuất bản năm 1988, là một trong những tác phẩm chính của Hawking."
   ],
   "wikidataId": "Q17714",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Stephen_Hawking",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q17714",
-    "https://www.cam.ac.uk/stories/stephen-hawking",
+    "https://www.kicc.cam.ac.uk/news/stephen-hawking-8-january-1942-2013-14-march-2018",
     "https://www.hawking.org.uk/biography",
     "http://www.bbc.com/news/uk-43396008",
-    "https://www.theguardian.com/science/2018/mar/14/stephen-hawking-professor-dies-aged-76"
+    "https://www.theguardian.com/science/2018/mar/14/stephen-hawking-professor-dies-aged-76",
+    "https://www.pas.va/en/academicians/deceased/hawking.html"
   ],
   "region": "west",
   "deathDate": "2018-03-14",
   "lifeStatus": "deceased",
   "deathDateSourceUrls": [
     "http://www.bbc.com/news/uk-43396008",
-    "https://www.theguardian.com/science/2018/mar/14/stephen-hawking-professor-dies-aged-76"
+    "https://www.theguardian.com/science/2018/mar/14/stephen-hawking-professor-dies-aged-76",
+    "https://www.kicc.cam.ac.uk/news/stephen-hawking-8-january-1942-2013-14-march-2018"
   ],
   "deathDatePrecision": "day",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08",
+  "fields": [
+    "science-research"
+  ]
 },
 {
   "id": "vo-thi-anh-xuan",
@@ -808,21 +1438,124 @@ export const PEOPLE_01: Person[] = [
   "countryName": "Việt Nam",
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
-  "shortDescription": "Chính trị gia Việt Nam, từng giữ chức Phó Chủ tịch nước.",
-  "biography": "Võ Thị Ánh Xuân sinh ngày 8/1/1970 tại An Giang. Bà là chính trị gia Việt Nam và từng đảm nhiệm chức Phó Chủ tịch nước.",
+  "shortDescription": "Nhà giáo và chính trị gia Việt Nam, được bầu giữ chức Phó Chủ tịch nước nhiệm kỳ 2026–2031.",
+  "biography": "Võ Thị Ánh Xuân sinh ngày 8/1/1970 tại Thới Sơn, An Giang. Bà bắt đầu sự nghiệp với công việc giảng dạy hóa học tại Trường THPT Mỹ Thới từ năm 1992, sau đó đảm nhiệm nhiều vị trí trong chính quyền và tổ chức phụ nữ tỉnh An Giang. Quốc hội bầu bà làm Phó Chủ tịch nước năm 2021 và tiếp tục bầu bà cho nhiệm kỳ 2026–2031.",
   "highlights": [
-    "Được Quốc hội bầu làm Phó Chủ tịch nước năm 2021.",
-    "Tiểu sử Quốc hội ghi ngày sinh 08/01/1970."
+    "Bà được Quốc hội bầu giữ chức Phó Chủ tịch nước nhiệm kỳ 2021–2026 và tái đắc cử nhiệm kỳ 2026–2031.",
+    "Từ năm 1992 đến 1996, bà dạy hóa học tại Trường THPT Mỹ Thới ở An Giang."
   ],
   "wikidataId": "Q24957799",
   "wikipediaUrl": "https://vi.wikipedia.org/wiki/Võ_Thị_Ánh_Xuân",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q24957799",
-    "https://quochoi.vn/UserControls/Publishing/News/BinhLuan/pFormPrint.aspx?ItemID=54121&UrlListProcess=%2Fcontent%2Ftintuc%2FLists%2FNews",
-    "https://xaydungchinhsach.chinhphu.vn/tieu-su-quyen-chu-tich-nuoc-vo-thi-anh-xuan-119230119192432066.htm"
+    "https://xaydungchinhsach.chinhphu.vn/tieu-su-quyen-chu-tich-nuoc-vo-thi-anh-xuan-119230119192432066.htm",
+    "https://en.daihoidang.vn/nhan-su/vo-thi-anh-xuan-12.html",
+    "https://baochinhphu.vn/ba-vo-thi-anh-xuan-duoc-bau-giu-chuc-pho-chu-tich-nuoc-nhiem-ky-2026-2031-102260407165232585.htm"
   ],
   "region": "vietnam",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08",
+  "fields": [
+    "society-law"
+  ],
+  "lifeStatus": "living"
+},
+{
+  "id": "joseph-weizenbaum",
+  "slug": "joseph-weizenbaum",
+  "name": "Joseph Weizenbaum",
+  "birthDate": "1923-01-08",
+  "birthYear": 1923,
+  "birthMonth": 1,
+  "birthDay": 8,
+  "occupation": [
+    "nhà khoa học máy tính",
+    "nhà giáo",
+    "nhà nghiên cứu đạo đức công nghệ"
+  ],
+  "category": "scientist",
+  "categoryLabel": "Nhà khoa học",
+  "fields": [
+    "technology-engineering",
+    "education-thought"
+  ],
+  "countryCode": "US",
+  "countryName": "Hoa Kỳ",
+  "countryFlag": "🇺🇸",
+  "birthplace": "Berlin, Đức",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Nhà khoa học máy tính Đức-Mỹ tại MIT, tạo ra chương trình ELIZA và viết về trách nhiệm xã hội của công nghệ.",
+  "biography": "Joseph Weizenbaum sinh ngày 8/1/1923 tại Berlin và sang Hoa Kỳ cùng gia đình vào giữa thập niên 1930. Ông gia nhập MIT năm 1963, phát triển chương trình xử lý ngôn ngữ ELIZA và tham gia nhóm General Electric xây dựng hệ thống máy tính đầu tiên dành riêng cho nghiệp vụ ngân hàng. Sau khi chứng kiến người dùng gán cảm xúc và hiểu biết cho ELIZA, ông trở thành một tiếng nói phê bình về giới hạn và trách nhiệm xã hội của máy tính.",
+  "highlights": [
+    "Năm 1955, Weizenbaum tham gia nhóm General Electric thiết kế và xây dựng hệ thống máy tính đầu tiên dành riêng cho hoạt động ngân hàng.",
+    "ELIZA mô phỏng cuộc trò chuyện trị liệu; phản ứng của người dùng khiến Weizenbaum suy nghĩ sâu về các hệ quả triết học của AI và trở thành tiếng nói phê bình về AI."
+  ],
+  "wikidataId": "Q75778",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Joseph_Weizenbaum",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q75778",
+    "https://history.computer.org/pioneers/pdfs/W/Weizenbaum.pdf",
+    "https://www.troschke-archiv.de/interviews/joseph-weizenbaum",
+    "https://news.mit.edu/2008/obit-weizenbaum-0310"
+  ],
+  "notabilityScore": 88,
+  "region": "west",
+  "lifeStatus": "deceased",
+  "deathDate": "2008-03-05",
+  "deathDatePrecision": "day",
+  "deathDateSourceUrls": [
+    "https://www.troschke-archiv.de/interviews/joseph-weizenbaum"
+  ],
+  "verifiedAt": "2026-10-08"
+},
+{
+  "id": "hanae-mori",
+  "slug": "hanae-mori",
+  "name": "Hanae Mori",
+  "nativeName": "森 英恵",
+  "birthDate": "1926-01-08",
+  "birthYear": 1926,
+  "birthMonth": 1,
+  "birthDay": 8,
+  "occupation": [
+    "nhà thiết kế thời trang",
+    "doanh nhân"
+  ],
+  "category": "artist",
+  "categoryLabel": "Nhà thiết kế",
+  "fields": [
+    "design-creative",
+    "entrepreneurship"
+  ],
+  "countryCode": "JP",
+  "countryName": "Nhật Bản",
+  "countryFlag": "🇯🇵",
+  "birthplace": "Muikaichi (nay là Yoshika), Shimane, Nhật Bản",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Nhà thiết kế Nhật Bản mở studio thời trang năm 1951 và đưa thời trang haute couture Nhật Bản đến Paris.",
+  "biography": "Hanae Mori sinh ngày 8/1/1926 tại Muikaichi, nay là Yoshika thuộc tỉnh Shimane, Nhật Bản. Bà mở studio thiết kế năm 1951, phụ trách trang phục cho hàng trăm bộ phim Nhật trong thập niên 1950 và lần đầu giới thiệu thời trang ở nước ngoài tại New York năm 1965. Năm 1977, Mori trở thành nhà thiết kế châu Á đầu tiên được kết nạp vào tổ chức haute couture Paris. Bà qua đời ngày 11/8/2022.",
+  "highlights": [
+    "Năm 1951, Mori mở studio thiết kế; bà phụ trách trang phục cho hàng trăm bộ phim Nhật trong thập niên 1950.",
+    "Năm 1977, bà trở thành nhà thiết kế châu Á đầu tiên được kết nạp vào tổ chức haute couture Paris."
+  ],
+  "wikidataId": "Q755465",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Hanae_Mori",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q755465",
+    "https://artplatform.go.jp/ja/artists/A1986",
+    "https://www.theguardian.com/fashion/2022/aug/23/hanae-mori-obituary",
+    "https://www.hanae-mori.com/history_en/",
+    "https://www.arttowermito.or.jp/english/gallery/lineup/article_5051.html"
+  ],
+  "notabilityScore": 88,
+  "region": "asia",
+  "lifeStatus": "deceased",
+  "deathDate": "2022-08-11",
+  "deathDatePrecision": "day",
+  "deathDateSourceUrls": [
+    "https://artplatform.go.jp/ja/artists/A1986",
+    "https://www.theguardian.com/fashion/2022/aug/23/hanae-mori-obituary"
+  ],
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "richard-nixon",
@@ -837,15 +1570,17 @@ export const PEOPLE_01: Person[] = [
   ],
   "category": "politics",
   "categoryLabel": "Chính trị gia",
+  "fields": ["society-law"],
   "countryCode": "US",
   "countryName": "Hoa Kỳ",
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
-  "shortDescription": "Tổng thống thứ 37 của Hoa Kỳ.",
-  "biography": "Richard Nixon sinh ngày 9/1/1913 tại California. Ông là Tổng thống thứ 37 của Hoa Kỳ, tại nhiệm từ năm 1969 đến năm 1974.",
+  "birthplace": "Yorba Linda, California, Hoa Kỳ",
+  "shortDescription": "Tổng thống thứ 37 của Hoa Kỳ; từ chức năm 1974 trong bối cảnh vụ Watergate.",
+  "biography": "Richard Nixon sinh ngày 9/1/1913 tại Yorba Linda, California. Năm 1968, ông được bầu làm Tổng thống thứ 37 của Hoa Kỳ. Ông tuyên bố từ chức ngày 8/8/1974; quyết định có hiệu lực từ trưa 9/8, trong bối cảnh vụ Watergate. Ông qua đời tại New York ngày 22/4/1994.",
   "highlights": [
-    "Là Tổng thống Hoa Kỳ từ năm 1969 đến năm 1974.",
-    "Từ chức tổng thống vào tháng 8/1974."
+    "Năm 1968, Nixon được bầu làm Tổng thống thứ 37 của Hoa Kỳ.",
+    "Ông tuyên bố từ chức ngày 8/8/1974; việc từ chức có hiệu lực vào trưa 9/8."
   ],
   "wikidataId": "Q9588",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Richard_Nixon",
@@ -855,7 +1590,14 @@ export const PEOPLE_01: Person[] = [
     "https://www.nixonlibrary.gov/president-nixon"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-03"
+  "lifeStatus": "deceased",
+  "deathDate": "1994-04-22",
+  "deathDatePrecision": "day",
+  "deathDateSourceUrls": [
+    "https://www.nixonlibrary.gov/president-nixon",
+    "https://www.archives.gov/presidential-libraries/events/centennials/nixon/biography.html"
+  ],
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "simone-de-beauvoir",
@@ -870,25 +1612,37 @@ export const PEOPLE_01: Person[] = [
   ],
   "category": "literature",
   "categoryLabel": "Nhà văn",
+  "fields": [
+    "design-creative",
+    "education-thought"
+  ],
   "countryCode": "FR",
   "countryName": "Pháp",
   "countryFlag": "🇫🇷",
   "image": "/people/placeholder.svg",
-  "shortDescription": "Nhà văn và triết gia người Pháp, tác giả The Second Sex.",
-  "biography": "Simone de Beauvoir sinh ngày 9/1/1908 tại Paris. Bà là nhà văn và triết gia; cuốn The Second Sex được xuất bản năm 1949.",
+  "birthplace": "Quận 6, Paris, Pháp",
+  "shortDescription": "Nhà văn và triết gia Pháp; tác phẩm Le deuxième sexe xuất bản năm 1949.",
+  "biography": "Simone de Beauvoir sinh ngày 9/1/1908 tại quận 6, Paris. Bà đỗ kỳ thi agrégation triết học năm 1929 và giảng dạy tại Marseille, Rouen, Paris đến năm 1943. Le deuxième sexe được Gallimard xuất bản năm 1949. Bà qua đời ngày 14/4/1986 tại Paris.",
   "highlights": [
-    "Tác giả cuốn The Second Sex, xuất bản năm 1949.",
-    "Được lưu danh trong hồ sơ tác giả của Thư viện Quốc gia Pháp."
+    "Le deuxième sexe được Gallimard xuất bản năm 1949; thư mục BnF ghi nhận ấn bản tại Paris.",
+    "Sau khi đỗ agrégation triết học năm 1929, bà giảng dạy ở Marseille, Rouen và Paris đến năm 1943."
   ],
   "wikidataId": "Q7197",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Simone_de_Beauvoir",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q7197",
-    "https://snl.no/Simone_de_Beauvoir",
-    "https://www.cambridge.org/core/journals/pmla/article/abs/scandalous-woman-beauvoir-in-paris-january-2008/CC86063FE3104F5E5C93E7C4B3109F2C"
+    "https://catalogue.bnf.fr/ark:/12148/cb11890854p",
+    "https://tracts.gallimard.fr/collections/simone-de-beauvoir",
+    "https://catalogue.bnf.fr/ark:/12148/cb41623378j"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-03"
+  "lifeStatus": "deceased",
+  "deathDate": "1986-04-14",
+  "deathDatePrecision": "day",
+  "deathDateSourceUrls": [
+    "https://catalogue.bnf.fr/ark:/12148/cb11890854p"
+  ],
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "joan-baez",
@@ -903,25 +1657,125 @@ export const PEOPLE_01: Person[] = [
   ],
   "category": "music",
   "categoryLabel": "Âm nhạc",
+  "fields": [
+    "design-creative",
+    "society-law"
+  ],
   "countryCode": "US",
   "countryName": "Hoa Kỳ",
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
-  "shortDescription": "Ca sĩ nhạc folk người Mỹ, đồng thời là nhà hoạt động xã hội.",
-  "biography": "Joan Baez sinh ngày 9/1/1941 tại Staten Island, New York. Bà là ca sĩ nhạc folk và tham gia phong trào dân quyền tại Hoa Kỳ.",
+  "birthplace": "Staten Island, New York, Hoa Kỳ",
+  "shortDescription": "Ca sĩ folk và nhà hoạt động xã hội Mỹ; bước ngoặt sự nghiệp đến từ Newport năm 1959.",
+  "biography": "Joan Baez sinh ngày 9/1/1941 tại Staten Island, New York. Bob Gibson mời bà biểu diễn tại Newport Folk Festival năm 1959; năm sau, bà nhận hợp đồng thu âm với Vanguard. Rock & Roll Hall of Fame kết nạp bà năm 2017 và ghi nhận ảnh hưởng âm nhạc gắn với hoạt động xã hội, chính trị. Bà tiếp tục biểu diễn cùng các nghệ sĩ tại Newport Folk Festival năm 2026.",
   "highlights": [
-    "Được giới thiệu vào Rock & Roll Hall of Fame năm 2017.",
-    "Gắn bó với hoạt động vận động cho dân quyền và hòa bình."
+    "Baez biểu diễn tại Newport Folk Festival năm 1959 theo lời mời của Bob Gibson và nhận hợp đồng thu âm Vanguard năm 1960.",
+    "Rock & Roll Hall of Fame kết nạp Baez năm 2017, ghi nhận ảnh hưởng của âm nhạc folk và hoạt động xã hội của bà."
   ],
   "wikidataId": "Q131725",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Joan_Baez",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q131725",
     "https://www.womenshistory.org/education-resources/biographies/joan-baez",
-    "https://jfk.org/wp-content/uploads/TSFM_Summer-Fun_Women-of-the-1960s_09-20.pdf"
+    "https://www.pbs.org/wnet/americanmasters/masters/joan-baez/",
+    "https://rockhall.com/inductees/joan-baez/",
+    "https://www.newportlifemagazine.com/featured/folk-fest-recap-dave-matthews-the-lumineers-ms-lauryn-hill-hayley-williams-nathaniel-rateliff-brandi-carlile-among-stars-of-2026-festival/"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-03"
+  "lifeStatus": "living",
+  "verifiedAt": "2026-10-08"
+},
+{
+  "id": "karel-capek",
+  "slug": "karel-capek",
+  "name": "Karel Čapek",
+  "birthDate": "1890-01-09",
+  "birthYear": 1890,
+  "birthMonth": 1,
+  "birthDay": 9,
+  "occupation": [
+    "nhà văn",
+    "nhà viết kịch",
+    "nhà báo"
+  ],
+  "category": "literature",
+  "categoryLabel": "Nhà văn",
+  "fields": [
+    "design-creative",
+    "education-thought"
+  ],
+  "countryCode": "CZ",
+  "countryName": "Cộng hòa Séc",
+  "countryFlag": "🇨🇿",
+  "birthplace": "Malé Svatoňovice (nay thuộc Cộng hòa Séc)",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Nhà văn, nhà viết kịch và nhà báo Séc; vở R.U.R. đưa từ “robot” vào nhiều ngôn ngữ.",
+  "biography": "Karel Čapek sinh ngày 9/1/1890 tại Malé Svatoňovice, nay thuộc Cộng hòa Séc. Ông làm việc tại Lidové noviny từ năm 1921 và là chủ tịch đầu tiên của bộ phận PEN Tiệp Khắc giai đoạn 1925–1933. Vở R.U.R. được xuất bản năm 1920, công diễn tại Séc năm 1921; hồ sơ của Viện Lịch sử Séc ghi từ “robot” có thể do em trai ông, Josef Čapek, đề xuất. Karel Čapek mất ngày 25/12/1938.",
+  "highlights": [
+    "R.U.R. được in thành sách năm 1920 và công diễn năm 1921; tư liệu của Viện Lịch sử Séc lưu ý Josef Čapek có lẽ là người đề xuất từ “robot”.",
+    "Čapek làm việc tại Lidové noviny từ năm 1921 và giữ chức chủ tịch đầu tiên của bộ phận PEN Tiệp Khắc từ 1925 đến 1933."
+  ],
+  "wikidataId": "Q155855",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Karel_%C4%8Capek",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q155855",
+    "https://biography.hiu.cas.cz/wiki/%C4%8CAPEK_Karel_1890%E2%80%931938",
+    "https://catalogue.bnf.fr/ark:/12148/cb11895069q",
+    "https://encyklopedie.praha2.cz/osobnost/722-karel-capek"
+  ],
+  "region": "west",
+  "lifeStatus": "deceased",
+  "deathDate": "1938-12-25",
+  "deathDatePrecision": "day",
+  "deathDateSourceUrls": [
+    "https://biography.hiu.cas.cz/wiki/%C4%8CAPEK_Karel_1890%E2%80%931938",
+    "https://catalogue.bnf.fr/ark:/12148/cb11895069q"
+  ],
+  "verifiedAt": "2026-10-08"
+},
+{
+  "id": "jimmy-page",
+  "slug": "jimmy-page",
+  "name": "Jimmy Page",
+  "nativeName": "James Patrick Page",
+  "birthDate": "1944-01-09",
+  "birthYear": 1944,
+  "birthMonth": 1,
+  "birthDay": 9,
+  "occupation": [
+    "nhạc sĩ",
+    "tay guitar",
+    "nhà soạn nhạc"
+  ],
+  "category": "music",
+  "categoryLabel": "Âm nhạc",
+  "fields": [
+    "design-creative",
+    "entrepreneurship"
+  ],
+  "countryCode": "GB",
+  "countryName": "Vương quốc Anh",
+  "countryFlag": "🇬🇧",
+  "birthplace": "Heston, Middlesex, Anh",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Tay guitar, nhạc sĩ và nhà sản xuất người Anh; sáng lập Led Zeppelin năm 1968.",
+  "biography": "Jimmy Page sinh ngày 9/1/1944 tại Heston, Middlesex. Ông khởi đầu với công việc nhạc công thu âm tại London, chơi trong Yardbirds từ năm 1966 đến 1968 và thành lập Led Zeppelin vào cuối năm 1968. Năm 2026, The Guardian xếp Page cùng John Paul Jones và Robert Plant trong số các thành viên còn sống của ban nhạc.",
+  "highlights": [
+    "Page là nhạc công thu âm được săn đón tại London và là thành viên Yardbirds giai đoạn 1966–1968.",
+    "Cuối năm 1968, ông thành lập Led Zeppelin."
+  ],
+  "wikidataId": "Q165467",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Jimmy_Page",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q165467",
+    "https://catalogue.royalalberthall.com/Record.aspx?id=DS%2FUK%2F11092&src=CalmView.Persons",
+    "https://achievement.org/achiever/jimmy-page/",
+    "https://www.theguardian.com/film/2026/jan/23/becoming-led-zeppelin-became-biggest-documentary-of-year-bernard-macmahon",
+    "https://www.aol.com/articles/jimmy-page-remembers-meeting-princess-023400000.html"
+  ],
+  "region": "west",
+  "lifeStatus": "living",
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "donald-knuth",
@@ -941,20 +1795,25 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà khoa học máy tính người Mỹ, tác giả The Art of Computer Programming.",
-  "biography": "Donald Knuth sinh ngày 10/1/1938. Ông là nhà khoa học máy tính tại Đại học Stanford và là tác giả bộ sách The Art of Computer Programming.",
+  "biography": "Donald Knuth sinh ngày 10/1/1938 tại Milwaukee. Ông là nhà khoa học máy tính và giáo sư danh dự tại Đại học Stanford; bộ sách The Art of Computer Programming của ông bắt đầu xuất bản năm 1968. Ông tạo ra hệ thống sắp chữ TeX cùng ngôn ngữ thiết kế phông chữ METAFONT.",
   "highlights": [
-    "Nhận Giải Turing của ACM năm 1974.",
-    "Tác giả bộ sách The Art of Computer Programming."
+    "Bộ sách The Art of Computer Programming của ông bắt đầu xuất bản từ năm 1968.",
+    "Knuth tạo ra hệ thống sắp chữ TeX cùng ngôn ngữ thiết kế phông chữ METAFONT."
   ],
   "wikidataId": "Q17457",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Donald_Knuth",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q17457",
     "https://cs.stanford.edu/~knuth/vita.pdf",
-    "https://mathshistory.st-andrews.ac.uk/Biographies/Knuth/"
+    "https://mathshistory.st-andrews.ac.uk/Biographies/Knuth/",
+    "https://profiles.stanford.edu/donald-knuth",
+    "https://bhavana.org.in/the-dawn-of-rigour-in-the-art-of-programming",
+    "https://www-cs-faculty.stanford.edu/~knuth/news.html"
   ],
+  "fields": ["technology-engineering"],
+  "lifeStatus": "living",
   "region": "west",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "robert-woodrow-wilson",
@@ -974,20 +1833,22 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà thiên văn học người Mỹ, đồng nhận Nobel Vật lý năm 1978.",
-  "biography": "Robert Woodrow Wilson sinh ngày 10/1/1936. Ông là nhà thiên văn học và nhà vật lý, đồng nhận Giải Nobel Vật lý năm 1978.",
+  "biography": "Robert Woodrow Wilson sinh ngày 10/1/1936 tại Houston. Ông là nhà thiên văn học và nhà vật lý; cùng Arno Penzias, ông phát hiện bức xạ nền vi sóng vũ trụ năm 1964 và đồng nhận Giải Nobel Vật lý năm 1978. Trạng thái sống hiện được giữ là chưa rõ vì batch này chưa có nguồn cập nhật đủ mạnh để xác nhận.",
   "highlights": [
-    "Đồng nhận Giải Nobel Vật lý năm 1978.",
-    "Nghiên cứu cùng Arno Penzias về bức xạ nền vi sóng vũ trụ."
+    "Robert Woodrow Wilson và Arno Penzias đồng nhận Giải Nobel Vật lý năm 1978.",
+    "Năm 1964, Wilson và Penzias phát hiện bức xạ nền vi sóng vũ trụ khi nghiên cứu bức xạ vũ trụ."
   ],
   "wikidataId": "Q171034",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Robert_Woodrow_Wilson",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q171034",
     "https://www.nobelprize.org/laureate/112",
-    "https://www.britannica.com/biography/Robert-Woodrow-Wilson"
+    "https://physicstoday.aip.org/news/robert-woodrow-wilson"
   ],
+  "fields": ["science-research"],
+  "lifeStatus": "unknown",
   "region": "west",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "george-foreman",
@@ -1006,11 +1867,11 @@ export const PEOPLE_01: Person[] = [
   "countryName": "Hoa Kỳ",
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
-  "shortDescription": "Võ sĩ quyền Anh người Mỹ, từng giành huy chương vàng Olympic.",
-  "biography": "George Foreman sinh ngày 10/1/1949. Ông là võ sĩ quyền Anh hạng nặng và giành huy chương vàng tại Thế vận hội Mexico City năm 1968.",
+  "shortDescription": "Võ sĩ quyền Anh người Mỹ, vô địch Olympic và hai lần vô địch hạng nặng thế giới.",
+  "biography": "George Foreman sinh ngày 10/1/1949 tại Marshall, Texas. Ông giành huy chương vàng quyền Anh hạng nặng tại Olympic Mexico City năm 1968; năm 1973, ông đánh bại Joe Frazier để giành chức vô địch quyền Anh hạng nặng thế giới. Foreman qua đời ngày 21/3/2025 tại Houston.",
   "highlights": [
-    "Giành huy chương vàng Olympic năm 1968.",
-    "Hai lần trở thành nhà vô địch quyền Anh hạng nặng thế giới."
+    "Foreman giành huy chương vàng quyền Anh hạng nặng tại Olympic Mexico City năm 1968.",
+    "Ngày 22/1/1973, ông đánh bại Joe Frazier để giành chức vô địch quyền Anh hạng nặng thế giới."
   ],
   "wikidataId": "Q213919",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/George_Foreman",
@@ -1019,8 +1880,84 @@ export const PEOPLE_01: Person[] = [
     "https://www.tshaonline.org/handbook/entries/foreman-george-edward-big-george",
     "https://www.olympedia.org/athletes/8668"
   ],
+  "deathDate": "2025-03-21",
+  "deathDatePrecision": "day",
+  "deathDateSourceUrls": ["https://www.olympedia.org/athletes/8668"],
   "region": "west",
-  "verifiedAt": "2026-10-03"
+  "lifeStatus": "deceased",
+  "verifiedAt": "2026-10-08"
+},
+{
+  "id": "michel-henry",
+  "slug": "michel-henry",
+  "name": "Michel Henry",
+  "birthDate": "1922-01-10",
+  "birthYear": 1922,
+  "birthMonth": 1,
+  "birthDay": 10,
+  "occupation": ["triết gia", "tiểu thuyết gia"],
+  "category": "literature",
+  "categoryLabel": "Văn học",
+  "countryCode": "FR",
+  "countryName": "Pháp",
+  "countryFlag": "🇫🇷",
+  "birthplace": "Hải Phòng (nay thuộc Việt Nam; khi đó là Đông Dương thuộc Pháp)",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Triết gia và tiểu thuyết gia Pháp sinh tại Hải Phòng, phát triển hiện tượng học của sự sống.",
+  "biography": "Michel Henry sinh tại Hải Phòng ngày 10/1/1922. Hồ sơ của Thư viện Quốc gia Pháp xác định ông là triết gia và tiểu thuyết gia Pháp. Ông phát triển hướng hiện tượng học của sự sống và cũng viết bốn tiểu thuyết; L’amour les yeux fermés được trao Prix Renaudot năm 1976.",
+  "highlights": [
+    "Henry đặt tên hướng triết học của mình là “hiện tượng học của sự sống”.",
+    "Ông viết bốn tiểu thuyết; L’amour les yeux fermés được trao giải Prix Renaudot năm 1976."
+  ],
+  "wikidataId": "Q610255",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Michel_Henry",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q610255",
+    "https://catalogue.bnf.fr/ark:/12148/cb11907289p",
+    "https://plato.stanford.edu/entries/michel-henry/"
+  ],
+  "fields": ["education-thought", "design-creative"],
+  "deathDate": "2002-07-03",
+  "deathDatePrecision": "day",
+  "deathDateSourceUrls": ["https://catalogue.bnf.fr/ark:/12148/cb11907289p"],
+  "lifeStatus": "deceased",
+  "region": "west",
+  "verifiedAt": "2026-10-08"
+},
+{
+  "id": "rod-stewart",
+  "slug": "rod-stewart",
+  "name": "Rod Stewart",
+  "birthDate": "1945-01-10",
+  "birthYear": 1945,
+  "birthMonth": 1,
+  "birthDay": 10,
+  "occupation": ["ca sĩ", "nhạc sĩ", "nhà sản xuất âm nhạc"],
+  "category": "music",
+  "categoryLabel": "Âm nhạc",
+  "countryCode": "GB",
+  "countryName": "Vương quốc Anh",
+  "countryFlag": "🇬🇧",
+  "birthplace": "London, Anh",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Ca sĩ, nhạc sĩ người Anh, thành viên nhóm Faces và nghệ sĩ solo thành công quốc tế.",
+  "biography": "Rod Stewart sinh tại London ngày 10/1/1945. Ông hoạt động với nhóm Faces và đồng thời xây dựng sự nghiệp solo. Album Every Picture Tells a Story (1971) có ca khúc Maggie May, từng đứng đầu bảng xếp hạng tại Anh và Hoa Kỳ.",
+  "highlights": [
+    "Album Every Picture Tells a Story (1971) có ca khúc Maggie May, đạt số 1 tại Anh và Hoa Kỳ.",
+    "Rod Stewart là thành viên thường trực của nhóm rock Faces từ năm 1969 đến 1975."
+  ],
+  "wikidataId": "Q182655",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Rod_Stewart",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q182655",
+    "https://www.universalmusic.fr/artistes/20000154932",
+    "https://ssl.sme.co.jp/artist/rodstewart/profile/",
+    "https://www.theo2.co.uk/events/detail/rod-stewart-2027"
+  ],
+  "fields": ["design-creative"],
+  "lifeStatus": "living",
+  "region": "west",
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "kailash-satyarthi",
@@ -1040,20 +1977,24 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇮🇳",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà hoạt động Ấn Độ vì quyền trẻ em và quyền được giáo dục.",
-  "biography": "Kailash Satyarthi sinh ngày 11/1/1954. Ông là nhà hoạt động vì quyền trẻ em và đồng nhận Giải Nobel Hòa bình năm 2014.",
+  "biography": "Kailash Satyarthi sinh ngày 11/1/1954 tại Vidisha, Ấn Độ. Ông thành lập Bachpan Bachao Andolan năm 1980 để đấu tranh chống lao động trẻ em; năm 2014, ông cùng Malala Yousafzai nhận Giải Nobel Hòa bình vì quyền trẻ em và quyền giáo dục.",
   "highlights": [
-    "Đồng nhận Giải Nobel Hòa bình năm 2014.",
-    "Hoạt động chống lao động trẻ em và thúc đẩy quyền giáo dục."
+    "Ông thành lập Bachpan Bachao Andolan (Phong trào Cứu tuổi thơ) năm 1980.",
+    "Kailash Satyarthi cùng Malala Yousafzai nhận Giải Nobel Hòa bình năm 2014 vì quyền trẻ em và giáo dục."
   ],
   "wikidataId": "Q3442375",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Kailash_Satyarthi",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q3442375",
     "https://www.nobelprize.org/prizes/peace/2014/satyarthi/biographical/",
-    "https://wsds.teriin.org/2015/pdf/speaker/kailash.pdf"
+    "https://wsds.teriin.org/2015/pdf/speaker/kailash.pdf",
+    "https://www.kailashsatyarthi.net/stories-from-his-early-life/",
+    "https://satyarthi.org.in/our-founder/"
   ],
   "region": "asia",
-  "verifiedAt": "2026-10-03"
+  "lifeStatus": "living",
+  "fields": ["society-law", "education-thought"],
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "roger-guillemin",
@@ -1073,20 +2014,27 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇫🇷",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà nội tiết học người Pháp-Mỹ, đồng nhận Nobel Sinh lý học hoặc Y học năm 1977.",
-  "biography": "Roger Guillemin sinh ngày 11/1/1924 tại Dijon, Pháp. Ông là nhà khoa học nghiên cứu hormone và đồng nhận Giải Nobel năm 1977.",
+  "biography": "Roger Guillemin sinh ngày 11/1/1924 tại Dijon, Pháp. Nghiên cứu của ông về hormone vùng dưới đồi làm sáng tỏ cơ chế điều hòa hormone của tuyến yên; ông đồng nhận Nobel Sinh lý học hoặc Y học năm 1977. Ông qua đời ngày 21/2/2024.",
   "highlights": [
-    "Đồng nhận Nobel Sinh lý học hoặc Y học năm 1977.",
-    "Nghiên cứu hormone peptide của não."
+    "Ông đồng nhận Giải Nobel Sinh lý học hoặc Y học năm 1977 cho các phát hiện về hormone peptide của não.",
+    "Thí nghiệm của Guillemin cho thấy tế bào vùng dưới đồi tạo chất kích thích tuyến yên tiết hormone ACTH."
   ],
   "wikidataId": "Q242169",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Roger_Guillemin",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q242169",
-    "https://www.aacr.org/professionals/membership/aacr-academy/fellows/roger-c-l-guillemin-md-phd/",
-    "https://www.salk.edu/news-release/salk-institute-mourns-the-loss-of-nobel-laureate-roger-guillemin-distinguished-professor-emeritus/"
+    "https://www.aacr.org/professionals/membership/in-memoriam/roger-c-l-guillemin/",
+    "https://www.salk.edu/news-release/salk-institute-mourns-the-loss-of-nobel-laureate-roger-guillemin-distinguished-professor-emeritus/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11098124/",
+    "https://www.nobelprize.org/prizes/medicine/1977/guillemin/biographical/"
   ],
+  "lifeStatus": "deceased",
+  "deathDate": "2024-02-21",
+  "deathDatePrecision": "day",
+  "deathDateSourceUrls": ["https://www.salk.edu/news-release/salk-institute-mourns-the-loss-of-nobel-laureate-roger-guillemin-distinguished-professor-emeritus/"],
+  "fields": ["science-research", "medicine-health"],
   "region": "west",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "nguyen-hoang-duc",
@@ -1106,20 +2054,99 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
   "shortDescription": "Cầu thủ bóng đá Việt Nam, thi đấu ở vị trí tiền vệ.",
-  "biography": "Nguyễn Hoàng Đức sinh ngày 11/1/1998. Anh là cầu thủ bóng đá Việt Nam và thi đấu ở vị trí tiền vệ.",
+  "biography": "Nguyễn Hoàng Đức sinh ngày 11/1/1998 tại Cẩm Giàng, Hải Dương. Tiền vệ này giành Quả bóng vàng Việt Nam năm 2021 và 2023.",
   "highlights": [
-    "Được Liên đoàn Bóng đá Việt Nam vinh danh với Quả bóng vàng Việt Nam năm 2021.",
-    "Hồ sơ nhân vật của Thông tấn xã Việt Nam ghi ngày sinh 11/1/1998."
+    "Nguyễn Hoàng Đức giành Quả bóng vàng Việt Nam lần đầu vào năm 2021.",
+    "Anh giành Quả bóng vàng nam Việt Nam năm 2023."
   ],
   "wikidataId": "Q61613045",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Nguyễn_Hoàng_Đức",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q61613045",
     "https://nvsk.vnanet.vn/nguyen-hoang-duc-6804.vna",
-    "https://vnexpress.net/chu-de/nguyen-hoang-duc-1358"
+    "https://vnexpress.net/chu-de/nguyen-hoang-duc-1358",
+    "https://vpf.vn/player/nguyen-hoang-duc/",
+    "https://en.vff.org.vn/en/chuyen-muc/khen-thuong-ky-luat/khen-thuong/qua-bong-vang/",
+    "https://en.baochinhphu.vn/midfielder-nguyen-hoang-duc-wins-2023-golden-ball-111240221110020791.htm"
   ],
   "region": "vietnam",
-  "verifiedAt": "2026-10-03"
+  "lifeStatus": "living",
+  "verifiedAt": "2026-10-08"
+},
+{
+  "id": "alice-paul",
+  "slug": "alice-paul",
+  "name": "Alice Paul",
+  "birthDate": "1885-01-11",
+  "deathDate": "1977-07-09",
+  "deathDatePrecision": "day",
+  "birthYear": 1885,
+  "birthMonth": 1,
+  "birthDay": 11,
+  "occupation": ["nhà hoạt động vì quyền phụ nữ", "nhà hoạt động nữ quyền", "nhà hoạt động chính trị"],
+  "category": "history",
+  "categoryLabel": "Nhân vật lịch sử",
+  "countryCode": "US",
+  "countryName": "Hoa Kỳ",
+  "countryFlag": "🇺🇸",
+  "birthplace": "New Jersey, Hoa Kỳ",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Nhà hoạt động Mỹ vì quyền phụ nữ, lãnh đạo phong trào đòi quyền bầu cử và tác giả ERA.",
+  "biography": "Alice Paul sinh ngày 11/1/1885 tại New Jersey. Bà cùng các thành viên Congressional Union thành lập Woman’s Party năm 1916 và viết Tu chính án Quyền Bình đẳng năm 1923. Bà qua đời ngày 9/7/1977.",
+  "highlights": [
+    "Năm 1916, Alice Paul cùng các thành viên Congressional Union thành lập Woman’s Party.",
+    "Năm 1923, Alice Paul viết Tu chính án Quyền Bình đẳng (ERA)."
+  ],
+  "wikidataId": "Q127328",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Alice_Paul",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q127328",
+    "https://home.nps.gov/bepa/learn/alice-paul.htm",
+    "https://www.womenshistory.org/education-resources/biographies/alice-paul",
+    "https://live.alicepaul.org/nwp/",
+    "https://live.alicepaul.org/equal-rights-amendment-2/"
+  ],
+  "fields": ["society-law"],
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": ["https://home.nps.gov/bepa/learn/alice-paul.htm"],
+  "region": "west",
+  "verifiedAt": "2026-10-08"
+},
+{
+  "id": "mary-j-blige",
+  "slug": "mary-j-blige",
+  "name": "Mary J. Blige",
+  "birthDate": "1971-01-11",
+  "birthYear": 1971,
+  "birthMonth": 1,
+  "birthDay": 11,
+  "occupation": ["ca sĩ", "nhạc sĩ", "diễn viên"],
+  "category": "music",
+  "categoryLabel": "Âm nhạc",
+  "countryCode": "US",
+  "countryName": "Hoa Kỳ",
+  "countryFlag": "🇺🇸",
+  "birthplace": "Bronx, New York, Hoa Kỳ",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Ca sĩ, nhạc sĩ và diễn viên Mỹ, một trong những giọng ca tiêu biểu của hip-hop soul.",
+  "biography": "Mary J. Blige sinh ngày 11/1/1971 tại Bronx, New York. Album đầu tay What’s the 411? (1992) đưa ca khúc “Real Love” vào Top 10; cô giành Grammy đầu tiên năm 1995 với ca khúc kết hợp cùng Method Man.",
+  "highlights": [
+    "Album đầu tay What’s the 411? (1992) đưa ca khúc “Real Love” vào Top 10.",
+    "Blige giành Grammy đầu tiên năm 1995 với ca khúc kết hợp cùng Method Man."
+  ],
+  "wikidataId": "Q228909",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Mary_J._Blige",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q228909",
+    "https://www.grammy.com/artists/mary-j-blige/779/",
+    "https://www.biography.com/musicians/mary-j-blige",
+    "https://www.universalmusic.fr/artistes/20000217897",
+    "https://www.maryjblige.com/announcements/upcoming-shows"
+  ],
+  "fields": ["design-creative"],
+  "lifeStatus": "living",
+  "region": "west",
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "jack-london",
@@ -1139,27 +2166,32 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà văn và nhà báo người Mỹ, tác giả The Call of the Wild.",
-  "biography": "Jack London sinh ngày 12/1/1876 tại San Francisco. Ông là nhà văn, nhà báo và tác giả của The Call of the Wild.",
+  "biography": "Jack London, tên khai sinh John Griffith Chaney, là nhà văn và nhà báo Mỹ sinh tại San Francisco. Ông nổi tiếng quốc tế nhờ The Call of the Wild (1903) và The Sea Wolf (1904); từ năm 1900 đến 1916, ông viết hơn 50 cuốn sách.",
   "highlights": [
-    "The Call of the Wild được xuất bản năm 1903.",
-    "Sinh tại San Francisco ngày 12/1/1876."
+    "Jack London nổi tiếng quốc tế nhờ The Call of the Wild (1903) và The Sea-Wolf (1904).",
+    "Trong giai đoạn 1900–1916, Jack London viết hơn 50 cuốn sách, gồm cả hư cấu và phi hư cấu."
   ],
   "wikidataId": "Q45765",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Jack_London",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q45765",
-    "https://www.parks.ca.gov/pages/478/files/JackLondonBrochure2008.pdf",
-    "https://www.britannica.com/biography/Jack-London",
+    "https://jacklondonpark.com/jack-london-books/",
+    "https://www.jack-london.org/en/biography.html",
     "https://brockhaus.de/ecs/julex/article/london-jack"
   ],
   "region": "west",
   "deathDate": "1916-11-22",
   "lifeStatus": "deceased",
   "deathDateSourceUrls": [
+    "https://www.jack-london.org/en/biography.html",
     "https://brockhaus.de/ecs/julex/article/london-jack"
   ],
   "deathDatePrecision": "day",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08",
+  "birthplace": "San Francisco, California, Hoa Kỳ",
+  "fields": [
+    "design-creative"
+  ]
 },
 {
   "id": "swami-vivekananda",
@@ -1179,20 +2211,32 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇮🇳",
   "image": "/people/placeholder.svg",
   "shortDescription": "Tu sĩ Hindu và nhà tư tưởng người Ấn Độ.",
-  "biography": "Swami Vivekananda sinh ngày 12/1/1863 tại Kolkata. Ông là tu sĩ Hindu và diễn giả, được biết đến qua bài phát biểu tại Chicago năm 1893.",
+  "biography": "Swami Vivekananda, tên khai sinh Narendranath Datta, là tu sĩ Hindu và nhà tư tưởng Ấn Độ sinh tại Kolkata. Ông diễn thuyết tại Nghị viện Tôn giáo Thế giới ở Chicago năm 1893 và sáng lập Ramakrishna Mission năm 1897.",
   "highlights": [
-    "Phát biểu tại Nghị viện Tôn giáo Thế giới ở Chicago năm 1893.",
-    "Sinh ngày 12/1/1863 tại Kolkata."
+    "Swami Vivekananda sáng lập Ramakrishna Mission ngày 1/5/1897.",
+    "Bài diễn thuyết của ông tại Nghị viện Tôn giáo Thế giới ở Chicago năm 1893 mở đầu bằng lời chào “Sisters and brothers of America”."
   ],
   "wikidataId": "Q47478",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Swami_Vivekananda",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q47478",
-    "https://www.ramakrishna.org.sg/AboutUs/SwamiVivekananda",
-    "https://www.britannica.com/biography/Vivekananda"
+    "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=114547",
+    "https://www.ramakrishna.org.sg/our-inspiration2.html",
+    "https://belurmath.org/faq/"
   ],
   "region": "asia",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08",
+  "birthplace": "Kolkata, Ấn Độ",
+  "fields": [
+    "education-thought"
+  ],
+  "lifeStatus": "deceased",
+  "deathDate": "1902-07-04",
+  "deathDatePrecision": "day",
+  "deathDateSourceUrls": [
+    "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=114547",
+    "https://www.ramakrishna.org.sg/our-inspiration2.html"
+  ]
 },
 {
   "id": "charles-perrault",
@@ -1212,21 +2256,112 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇫🇷",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà văn Pháp gắn với việc ghi chép và phổ biến truyện cổ tích.",
-  "biography": "Charles Perrault sinh ngày 12/1/1628 tại Paris. Ông là nhà văn Pháp, được biết đến qua các truyện như Cô bé Lọ Lem và Người đẹp ngủ trong rừng.",
+  "biography": "Charles Perrault là nhà văn Pháp sinh tại Paris. Ông được bầu vào Académie française năm 1671; các truyện của ông được xuất bản năm 1697 dưới tên con trai, Perrault d’Armancour.",
   "highlights": [
-    "Tác giả tập Histoires ou contes du temps passé (1697).",
-    "Hồ sơ tác giả của Thư viện Quốc gia Pháp ghi ngày sinh 12/1/1628."
+    "Charles Perrault được bầu vào Académie française năm 1671.",
+    "Truyện của Perrault được xuất bản năm 1697 dưới tên con trai ông, Perrault d’Armancour."
   ],
   "wikidataId": "Q128460",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Charles_Perrault",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q128460",
-    "https://snl.no/Charles_Perrault",
+    "https://catalogue.bnf.fr/ark:/12148/cb119192165.public",
     "https://www.academie-francaise.fr/les-immortels/charles-perrault"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08",
+  "birthplace": "Paris, Pháp",
+  "fields": [
+    "design-creative"
+  ],
+  "lifeStatus": "deceased",
+  "deathDate": "1703-05-16",
+  "deathDatePrecision": "day",
+  "deathDateSourceUrls": [
+    "https://catalogue.bnf.fr/ark:/12148/cb119192165.public"
+  ]
 },
+{
+  "id": "haruki-murakami",
+  "slug": "haruki-murakami",
+  "name": "Haruki Murakami",
+  "birthDate": "1949-01-12",
+  "birthYear": 1949,
+  "birthMonth": 1,
+  "birthDay": 12,
+  "occupation": [
+    "nhà văn",
+    "dịch giả"
+  ],
+  "category": "literature",
+  "categoryLabel": "Văn học",
+  "countryCode": "JP",
+  "countryName": "Nhật Bản",
+  "countryFlag": "🇯🇵",
+  "birthplace": "Kyoto, Nhật Bản",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Nhà văn Nhật Bản, ra mắt với tiểu thuyết Kaze no uta o kike năm 1979.",
+  "biography": "Haruki Murakami là nhà văn Nhật Bản sinh tại Kyoto. Khi còn học tại Đại học Waseda, ông mở một quán cà phê nhạc jazz; cuốn sách đầu tiên của ông, Kaze no uta o kike (Hear the Wind Sing), xuất bản năm 1979.",
+  "highlights": [
+    "Khi còn học tại Đại học Waseda, Haruki Murakami mở một quán cà phê nhạc jazz.",
+    "Cuốn sách đầu tiên của ông, Kaze no uta o kike (Hear the Wind Sing), được xuất bản năm 1979."
+  ],
+  "wikidataId": "Q134798",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Haruki_Murakami",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q134798",
+    "https://www.shinchosha.co.jp/harukimurakami/author.html",
+    "https://www.encyclopedia.com/journals/culture-magazines/murakami-haruki"
+  ],
+  "fields": [
+    "design-creative"
+  ],
+  "lifeStatus": "unknown",
+  "region": "asia",
+  "verifiedAt": "2026-10-08"
+},
+{
+  "id": "melanie-c",
+  "slug": "melanie-c",
+  "name": "Melanie C",
+  "birthDate": "1974-01-12",
+  "birthYear": 1974,
+  "birthMonth": 1,
+  "birthDay": 12,
+  "occupation": [
+    "ca sĩ",
+    "nhạc sĩ"
+  ],
+  "category": "music",
+  "categoryLabel": "Âm nhạc",
+  "countryCode": "GB",
+  "countryName": "Vương quốc Anh",
+  "countryFlag": "🇬🇧",
+  "birthplace": "Whiston, Merseyside, Anh",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Ca sĩ, nhạc sĩ người Anh, từng là thành viên Spice Girls với biệt danh Sporty Spice.",
+  "biography": "Melanie C (Melanie Jayne Chisholm) là ca sĩ, nhạc sĩ người Anh sinh tại Whiston. Cô nổi tiếng khi là thành viên Spice Girls với biệt danh Sporty Spice; lịch biểu diễn hiện liệt kê các buổi diễn sắp tới của cô tại Glasgow và Perth.",
+  "highlights": [
+    "Melanie C nổi tiếng khi là thành viên Spice Girls và được biết đến với biệt danh Sporty Spice.",
+    "Trang Live Nation liệt kê các buổi diễn sắp tới của Melanie C tại Glasgow ngày 20/10 và Perth ngày 11/11."
+  ],
+  "wikidataId": "Q151830",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Melanie_C",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q151830",
+    "https://www.encyclopedia.com/women/dictionaries-thesauruses-pictures-and-press-releases/chisholm-melanie-1974",
+    "https://www.fandango.com/people/melanie-chisholm-114769/biography",
+    "https://www.livenation.com/artist/K8vZ9171qI0/melanie-c-events"
+  ],
+  "fields": [
+    "design-creative"
+  ],
+  "lifeStatus": "living",
+  "region": "west",
+  "verifiedAt": "2026-10-08"
+},
+
+
 {
   "id": "wilhelm-wien",
   "slug": "wilhelm-wien",

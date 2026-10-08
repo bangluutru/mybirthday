@@ -10,7 +10,7 @@
     "people": 1120,
     "death_date_conflict": 33,
     "p570_without_reference": 1,
-    "deathDatesDirectlyConfirmedByPublisherCapture": 276,
+    "deathDatesDirectlyConfirmedByPublisherCapture": 294,
     "deathDatesDirectlyConfirmedInB015B016": 36,
     "deathDatesDirectlyConfirmedInBaseline": 240,
     "preExistingDeathDateConflictsNotOverwritten": 30,
@@ -18,7 +18,11 @@
     "unresolvedP570MultiDateProfiles": 5,
     "unreviewedP570MultiDateProfiles": 0,
     "p570ConflictsResolvedToExactDate": 27,
-    "p570ConflictsWithEventDateOnly": 1
+    "p570ConflictsWithEventDateOnly": 1,
+    "deathDatesDirectlyConfirmedInBV017January5": 1,
+    "deathDatesDirectlyConfirmedInBV017January10": 2,
+    "deathDatesDirectlyConfirmedInBV017January11": 2,
+    "deathDatesDirectlyConfirmedInBV017January12": 3
   },
   "people": [
     {
@@ -176,11 +180,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "living",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -226,11 +230,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "living",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -318,11 +322,13 @@
       "activeDeathDates": [
         "1897-09-30"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "1897-09-30",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://www.therese-de-lisieux.catholique.fr/wp-content/uploads/2022/02/Press-kit.pdf"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -398,11 +404,13 @@
       "activeDeathDates": [
         "1888-08-24"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "1888-08-24",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Clausius/"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -528,11 +536,13 @@
       "activeDeathDates": [
         "1910-05-16"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "1910-05-29",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://www.vle.lt/straipsnis/milij-balakirev/"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -698,11 +708,13 @@
       "activeDeathDates": [
         "1973-09-02"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "1973-09-02",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://www.tolkienestate.com/es/vida/biography/"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -762,11 +774,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "unknown",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -845,11 +857,13 @@
       "activeDeathDates": [
         "1967-10-08"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "1967-10-08",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://www.gov.uk/government/history/past-prime-ministers/clement-attlee"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -919,11 +933,13 @@
       "activeDeathDates": [
         "1852-01-06"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "1852-01-06",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://museelouisbraille.com/en/biographie"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -978,11 +994,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "unknown",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -1028,11 +1044,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "unknown",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -1216,8 +1232,7 @@
       ],
       "localDeathDatePrecision": "day",
       "localDeathDateSourceUrls": [
-        "http://www.repubblica.it/cultura/2016/02/20/news/morto_lo_scrittore_umberto_eco-133816061/",
-        "https://brockhaus.de/ecs/julex/article/eco-umberto"
+        "https://www.britannica.com/biography/Umberto-Eco"
       ],
       "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
@@ -1346,11 +1361,13 @@
       "activeDeathDates": [
         "1967-04-19"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "1967-04-19",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://www.bpb.de/kurz-knapp/lexika/das-europalexikon/176660/adenauer-konrad/"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -1425,11 +1442,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "living",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -1597,11 +1614,13 @@
       "activeDeathDates": [
         "1931-04-10"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "1931-04-10",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://poets.org/poet/kahlil-gibran"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -1677,11 +1696,13 @@
       "activeDeathDates": [
         "2006-07-07"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "2006-07-07",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://www.sydbarrett.com/syds-life/"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -1911,11 +1932,13 @@
       "activeDeathDates": [
         "1874-03-08"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "1874-03-08",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://www.govinfo.gov/content/pkg/CDOC-104sdoc26/pdf/CDOC-104sdoc26.pdf"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -1991,11 +2014,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "living",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -2067,11 +2090,13 @@
       "activeDeathDates": [
         "1844-07-28"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "1844-07-28",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://www.napoleon.org/en/history-of-the-two-empires/biographies/bonaparte-joseph"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -2404,7 +2429,8 @@
       "localDeathDatePrecision": "day",
       "localDeathDateSourceUrls": [
         "http://www.bbc.com/news/uk-43396008",
-        "https://www.theguardian.com/science/2018/mar/14/stephen-hawking-professor-dies-aged-76"
+        "https://www.theguardian.com/science/2018/mar/14/stephen-hawking-professor-dies-aged-76",
+        "https://www.kicc.cam.ac.uk/news/stephen-hawking-8-january-1942-2013-14-march-2018"
       ],
       "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
@@ -2452,11 +2478,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "living",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -2544,11 +2570,14 @@
       "activeDeathDates": [
         "1994-04-22"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "1994-04-22",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://www.nixonlibrary.gov/president-nixon",
+        "https://www.archives.gov/presidential-libraries/events/centennials/nixon/biography.html"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -2702,11 +2731,13 @@
       "activeDeathDates": [
         "1986-04-14"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "1986-04-14",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://catalogue.bnf.fr/ark:/12148/cb11890854p"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -2826,11 +2857,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "living",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -2934,11 +2965,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "living",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -3002,11 +3033,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "unknown",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -3098,11 +3129,13 @@
       "activeDeathDates": [
         "2025-03-21"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "2025-03-21",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://www.olympedia.org/athletes/8668"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -3166,11 +3199,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "living",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -3268,11 +3301,13 @@
       "activeDeathDates": [
         "2024-02-21"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "2024-02-21",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://www.salk.edu/news-release/salk-institute-mourns-the-loss-of-nobel-laureate-roger-guillemin-distinguished-professor-emeritus/"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -3318,11 +3353,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "living",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -3488,6 +3523,7 @@
       ],
       "localDeathDatePrecision": "day",
       "localDeathDateSourceUrls": [
+        "https://www.jack-london.org/en/biography.html",
         "https://brockhaus.de/ecs/julex/article/london-jack"
       ],
       "localLifeStatusExplicit": true,
@@ -3618,11 +3654,14 @@
       "activeDeathDates": [
         "1902-07-04"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "1902-07-04",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=114547",
+        "https://www.ramakrishna.org.sg/our-inspiration2.html"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -3728,11 +3767,13 @@
       "activeDeathDates": [
         "1703-05-16"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "1703-05-16",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://catalogue.bnf.fr/ark:/12148/cb119192165.public"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {

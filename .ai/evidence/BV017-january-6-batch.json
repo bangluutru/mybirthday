@@ -1,0 +1,1630 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-06",
+  "capturedAt": "2026-10-08T13:30:00Z",
+  "sourceCaptures": [
+    {
+      "id": "gibran-poets-dob",
+      "url": "https://poets.org/poet/kahlil-gibran",
+      "publisher": "Poets.org",
+      "publisherHost": "poets.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 62060,
+      "sha256": "590745f8d2f8da20ed9999a8d580c041574bdd7c4348dadac3102fb350e6230f",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Read poems by this poet Kahlil Gibran, known in Arabic as Gibran Khalil Gibran, was born January 6, 1883, in Bsharri, Lebanon, which at the time was part of Syria and part of the Ottoman Empire. He was the youngest son of Khalil Sa’d Jubran, a tax collector eventually imprisoned for embezzlement, and Kamila Jubran, whose father was a clergyman in the Maronite Chr",
+      "excerptSha256": "6a321f00cdeba5b90e076f0089cbd7330d32d24f525a6fbd619d7ed28520a834"
+    },
+    {
+      "id": "gibran-ncsu-dob",
+      "url": "https://www.lib.ncsu.edu/findingaids/kc0057",
+      "publisher": "North Carolina State University Libraries",
+      "publisherHost": "www.lib.ncsu.edu",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 92981,
+      "sha256": "5d5c0d48e6de0eb08f9b5f5183f8e20ca5a6924260db6a93bf6dc7c47bd0d586",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "iographical/historical note Gibran Khalil Gibran (1883-1931), or Khalil Gibran, was born on January 6, 1883 in Bsharri to a Maronite Christian Family. In 1895, he immigrated with his mother and younger siblings to the United States and his name was Anglicized to Kahlil Gibran. He attended a public school in Boston, Quincy School, and took drawing classe",
+      "excerptSha256": "777c0ee87725be148677da7059e6f6813ab3b2fe34c4d233e789d79b6fb6c149"
+    },
+    {
+      "id": "gibran-madman",
+      "url": "https://poets.org/poet/kahlil-gibran",
+      "publisher": "Poets.org",
+      "publisherHost": "poets.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 62060,
+      "sha256": "590745f8d2f8da20ed9999a8d580c041574bdd7c4348dadac3102fb350e6230f",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " Knopf, who would become his publisher. In 1918, Gibran’s book of poems and parables The Madman was published. In 1923, Knopf published what would become Gibran’s most famous work, The Prophet . Though not met with critical praise or early success—the book was never reviewed by the New York Times , for example, and sold only twelve hundred copies in its first year—the",
+      "excerptSha256": "d2c434d9e82c8488651cc6f44b6ddb16819ad07b3c0a3fc87ac0e6f8f43ebbe0"
+    },
+    {
+      "id": "gibran-periodicals",
+      "url": "https://www.lib.ncsu.edu/findingaids/kc0057",
+      "publisher": "North Carolina State University Libraries",
+      "publisherHost": "www.lib.ncsu.edu",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 92981,
+      "sha256": "5d5c0d48e6de0eb08f9b5f5183f8e20ca5a6924260db6a93bf6dc7c47bd0d586",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "u'l-Baha (1844-1921), then leader of the Baha'i faith. He also contributed to multiple Arab American periodicals, including Al-Funūn and Al-Mohajer , as well as an Egyptian cultural and literary magazine Al-Hilal . In 1920, Gibran re-formed The Pen League, an Arab-American Mahjar literary group, with its original founders Nasib Arida and Abd al-Masih Ha",
+      "excerptSha256": "8923a1ca36855f8b68115659baecd345a10da623c7d20bc23f475f586984e9b1"
+    },
+    {
+      "id": "gibran-death",
+      "url": "https://poets.org/poet/kahlil-gibran",
+      "publisher": "Poets.org",
+      "publisherHost": "poets.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 62060,
+      "sha256": "590745f8d2f8da20ed9999a8d580c041574bdd7c4348dadac3102fb350e6230f",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ove, longing, and death, and explore religious themes. He died of cirrhosis of the liver on April 10, 1931, in New York City. Related Poets poems Year Title 1926 Youth and Age 1918 How I Became a Madman (Prologue) 1918 Defeat 1920 Love 1923 The Farewell 1923 On Death 1923 On Religion 1923 On Beauty 1923 On Pleasur",
+      "excerptSha256": "0bb395d40374fa3d842945b738f80221745f3027a94436a9b6b261211366daf9"
+    },
+    {
+      "id": "wikidata-kahlil-gibran",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q47737.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 242726,
+      "sha256": "8448f7fee4ce9d94f8931f607b9928a9ee46408337989249720e811e1e169808",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q47737; English label: Kahlil Gibran; p31=Q5; p569=+1883-01-06T00:00:00Z/11,+1883-00-00T00:00:00Z/9; p570=+1931-04-10T00:00:00Z/11,+1931-00-00T00:00:00Z/9; p27=Q12560,Q108865226,Q108865218; p106=Q36180,Q49757,Q1028181,Q4964182,Q15949613,Q3391743; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "9f9b617d3b1ae499c042aa2401c8f85b699ce34ff31540fde871fa3951664761"
+    },
+    {
+      "id": "syd-official-dob",
+      "url": "https://www.sydbarrett.com/syds-life/",
+      "publisher": "Syd Barrett official website",
+      "publisherHost": "www.sydbarrett.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 120102,
+      "sha256": "2b62c684683150414ce374af2e4b21c092b751c8c4a0968a004f640bdf576fc6",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " 6 JANUARY 1946 CAMBRIDGE, ENGLAND Roger Keith Barrett was born on 6 January 1946, in Cambridge, England. His parents were Max (Dr A M Barrett) and Win (née Heeps). Roger was the fourth of five children, the others being Alan, Don, Ruth and Rosemary. The young Roger was",
+      "excerptSha256": "d24851cbc5e208eed9525263e2a1733b51b65789a6feaddb650d0520201c7517"
+    },
+    {
+      "id": "syd-cambridge-dob",
+      "url": "https://cambridgeppf.org/syd-barrett/",
+      "publisher": "Cambridge & District Blue Plaques Scheme",
+      "publisherHost": "cambridgeppf.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 505915,
+      "sha256": "465d5770ba5bfc1b9c860fe8c5866c73cc23f796da24ee52059aad61300b2e07",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " when the University is open. Roger Keith “Syd” Barrett, was born on 6 January 1946 in Cambridge, the fourth of five children. His parents Max and Winifred Barrett actively encouraged his music and art interests from an early age. He picked up the nickname ‘Syd’ during his attend",
+      "excerptSha256": "098c4567a69c99798770df301a16177886697c864ca6e95bbb6b392866d0afbd"
+    },
+    {
+      "id": "syd-pink-floyd",
+      "url": "https://cambridgeppf.org/syd-barrett/",
+      "publisher": "Cambridge & District Blue Plaques Scheme",
+      "publisherHost": "cambridgeppf.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 505915,
+      "sha256": "465d5770ba5bfc1b9c860fe8c5866c73cc23f796da24ee52059aad61300b2e07",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "yd Barrett (1946 – 2006) Syd was a musician, songwriter, painter and founder member of Pink Floyd. Location: inside Anglia Ruskin University. Home Blue Plaques Syd Barrett (1946 – 2006) Syd Barrett (1946 – 2006) Syd Barrett was a musician, songwriter, painter and founder mem",
+      "excerptSha256": "09ab83984aacc31728c29cd1c9f2855f21a0f9fcce3dae196814eefdb4c18528"
+    },
+    {
+      "id": "syd-solo-career",
+      "url": "https://www.sydbarrett.com/syds-life/",
+      "publisher": "Syd Barrett official website",
+      "publisherHost": "www.sydbarrett.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 120102,
+      "sha256": "2b62c684683150414ce374af2e4b21c092b751c8c4a0968a004f640bdf576fc6",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "way to Southampton. SOLO ARTIST, 1968 Syd and Pink Floyd officially parted company in March 1968, with the band’s management Blackhill Enterprises deciding to stick with Syd as a solo artist. EMI’s new Harvest label committed to a Barrett solo project, and over the course of a year Syd recorded The Madcap Laughs . Star",
+      "excerptSha256": "7de205c93b06810cb5f572c6475f1bd7dbed7cdc0e873e7ddc73557ba4a85059"
+    },
+    {
+      "id": "syd-death",
+      "url": "https://www.sydbarrett.com/syds-life/",
+      "publisher": "Syd Barrett official website",
+      "publisherHost": "www.sydbarrett.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 120102,
+      "sha256": "2b62c684683150414ce374af2e4b21c092b751c8c4a0968a004f640bdf576fc6",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "e, December 1971 JULY 7, 2006 Roger “Syd” Barrett died of pancreatic cancer on 7 July 2006 at Addenbrooke’s Hospital in Cambridge, but his legacy lives on in the acknowledgement of his increasing influence over scores of musicians. A tribute concert was held a",
+      "excerptSha256": "6f979a3f26e155564edf08b3a1f4902c92c77fbe4e0e7632804313ef03b0bd60"
+    },
+    {
+      "id": "wikidata-syd-barrett",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q173061.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 132512,
+      "sha256": "1394fcd8fa0857561c86280179796bf217496ed214b34e0b4ea2a123f88ff4ce",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q173061; English label: Syd Barrett; p31=Q5; p569=+1946-01-06T00:00:00Z/11; p570=+2006-07-07T00:00:00Z/11; p27=Q145; p106=Q855091,Q177220,Q49757,Q488205; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "725bb83b7cf920fe6cb1deb879c30d34445efbf64d4daf147a69fbd569ae459b"
+    },
+    {
+      "id": "schliemann-dhm-dob",
+      "url": "https://www.dhm.de/lemo/biografie/heinrich-schliemann",
+      "publisher": "German Historical Museum (DHM)",
+      "publisherHost": "www.dhm.de",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 41979,
+      "sha256": "ed8511802036f4fc822f221ff985d6ac6cfed62d8c2c1c62cb670f858df93165",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "822-1890 Archäologe 1822 6. Januar: Johann Ludwig Heinrich Julius Schliemann wird als Sohn des protestantischen Pfarrers Ernst Schliemann und dessen Frau Luise (geb. Bürger) als fünftes von neun Kindern in Neubukow (Mecklenburg) geboren. 1823 Di",
+      "excerptSha256": "bd776696443d545a1723578a441bd2df81278b798a5d3f61f9df91f01599ebd1"
+    },
+    {
+      "id": "schliemann-iu-dob",
+      "url": "https://archives.iu.edu/html/InU-Li-VAD7007.html",
+      "publisher": "Indiana University Lilly Library",
+      "publisherHost": "archives.iu.edu",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 4855,
+      "sha256": "2c6c392e78c4e7383dd94bc1bb634501715ebd993c4636207435d94a1d4ef9f3",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "h Schliemann, 1822-1890, was born in Neubukow, Germany, on 6 January 1822. His mother died when he was nine years old, and his father sank into poverty in the following years. As a result, Schliemann had to leave school and begin working when he was fourt",
+      "excerptSha256": "c5e460d3a2b8f88cb9c3e06c90a57f243cf1bfc6cb6a0e93bb1d6b106eb1ef8e"
+    },
+    {
+      "id": "schliemann-iu-sites",
+      "url": "https://archives.iu.edu/html/InU-Li-VAD7007.html",
+      "publisher": "Indiana University Lilly Library",
+      "publisherHost": "archives.iu.edu",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 4855,
+      "sha256": "2c6c392e78c4e7383dd94bc1bb634501715ebd993c4636207435d94a1d4ef9f3",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "n Homer's Iliad and Odyssey , he became an amateur archaeologist in the 1870s. He is famous for excavating the presumed locations of Troy, Mycenae, and other sites from classical works. Schliemann died in Naples, Italy, on 26 December 1890. Scope and Contents The Schliemann mss., 1869-1890, consists of correspondence a",
+      "excerptSha256": "64013d9422f51b9d925eb3268894ae5a97d5dc51af992060092f65e83a450412"
+    },
+    {
+      "id": "schliemann-nummus-work",
+      "url": "https://www.nummus.gr/en/heinrich-schliemann/",
+      "publisher": "Numismatic Museum of Athens",
+      "publisherHost": "www.nummus.gr",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 107591,
+      "sha256": "c51c89d46de4c1369581c2a05b19b7fdc626d7606a5ce2f81f845e01b3ac0ab0",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "iar with Homer from an early. The discovery of Troy-Iliou and the excavation of important prehistoric cities, such as Mycenae, Tiryns and Orchomenos, ascribed a historic status to the Homeric epics. His excavations and publications gave Schliemann the title of the “father of Mycenaean archaeology” as he managed to shed light on an important period of ancient",
+      "excerptSha256": "84b02d6a8ac1ed0f547be2093f6127247f3d68ff133d9267e7a3cfb7bd972cdd"
+    },
+    {
+      "id": "schliemann-brockhaus-death",
+      "url": "https://brockhaus.de/ecs/julex/article/schliemann-heinrich",
+      "publisher": "Brockhaus Encyclopedia",
+      "publisherHost": "brockhaus.de",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 202663,
+      "sha256": "265684d807cf26a4ed387b594fae28569233af78c98cf98ba88bb45632bd2525",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "2 in Neubukow (Kreis Bad Doberan), † 26.12.1890 in Neapel. wissenmedia Heinrich Schliemann Heinrich Schliemann (1822-90) war ein deutscher Kaufmann und Altertumsforscher. Bekannt wurde er vor allem durch seine Entdeckung des homerischen Troja. Schliemann ",
+      "excerptSha256": "16dbdd9b6a350f66c911364e8c4df19a5d947d401377d7a24f9770f654e025f1"
+    },
+    {
+      "id": "wikidata-heinrich-schliemann",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q57106.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 235280,
+      "sha256": "5bbe18ee0e22a5c1a85e0a27f748575a8606c0e9b112da3a4befa0eafd10f386",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q57106; English label: Heinrich Schliemann; p31=Q5; p569=+1822-01-06T00:00:00Z/11; p570=+1890-12-26T00:00:00Z/11; p27=Q158445,Q34266,Q30; p106=Q43845,Q1792450,Q3621491,Q323081,Q215536,Q12356615,Q131524,Q36180; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "b9159d231dcf242997f11a566937767a081285b48f36056dd3b98157ba90b4ba"
+    },
+    {
+      "id": "zinkernagel-nobel-dob",
+      "url": "https://www.nobelprize.org/laureate/456",
+      "publisher": "Nobel Prize",
+      "publisherHost": "www.nobelprize.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 166505,
+      "sha256": "4a86b5360114657ff8de5fecefe0088c483dc4e2ab3caca0a665aabc7576e5db",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "el Prize in Physiology or Medicine 1996 Born: 6 January 1944, Basel, Switzerland Affiliation at the time of the award: University of Zurich, Institute of Experimental Immunology, Zurich, Switzerland Prize motivation: “for their discoveries concerning the specificity of the cell mediated immune defen",
+      "excerptSha256": "e8d4c0501cd260658c637cf1de7281edf3692cec82ac157caace9ede0fe98357"
+    },
+    {
+      "id": "zinkernagel-uzh-dob",
+      "url": "https://www.uzh.ch/en/researchinnovation/excellence/nobelprize/zinkernagel.html",
+      "publisher": "University of Zurich",
+      "publisherHost": "www.uzh.ch",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytesRead": 141165,
+      "sha256": "ede0e7c152e037cb53e8e9450c81c6d93c44d6be823dda01875032ccaf68e59b",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Additional Information Rolf Zinkernagel * 6 January 1944 in Riehen 1979-2008 Professor of Experimental Immunology at the University of Zurich. Nobel Prize in Physiology or Medicine 1996 “for discoveries concerning the specificity of the cell mediated immune defense” The Nobe",
+      "excerptSha256": "5ed06e4e820d3dbbf87bbcf68abc078562fb9dc09a75d10e8a6eb6cd92f6dab4"
+    },
+    {
+      "id": "zinkernagel-nobel-discovery",
+      "url": "https://www.nobelprize.org/laureate/456",
+      "publisher": "Nobel Prize",
+      "publisherHost": "www.nobelprize.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 166505,
+      "sha256": "4a86b5360114657ff8de5fecefe0088c483dc4e2ab3caca0a665aabc7576e5db",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ing mice, Rolf Zinkernagel and Peter Doherty proved in 1973 how the immune system recognises virus-ridden cells. A kind of white blood cell, the T-cell, kills the virus-ridden cells, but only if it recognises both the foreign substances, viruses, and certain substances from the body's own cells. The discovery has provided an importan",
+      "excerptSha256": "26bf50c11e28e5533cceffe7e217e99ea664d7734cdf012c5154b956d62e994c"
+    },
+    {
+      "id": "zinkernagel-uzh-professor",
+      "url": "https://www.uzh.ch/en/researchinnovation/excellence/nobelprize/zinkernagel.html",
+      "publisher": "University of Zurich",
+      "publisherHost": "www.uzh.ch",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytesRead": 141165,
+      "sha256": "ede0e7c152e037cb53e8e9450c81c6d93c44d6be823dda01875032ccaf68e59b",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " Rolf Zinkernagel * 6 January 1944 in Riehen 1979-2008 Professor of Experimental Immunology at the University of Zurich. Nobel Prize in Physiology or Medicine 1996 “for discoveries concerning the specificity of the cell mediated immune defense” The Nobel Prize in Physiology or Medicin",
+      "excerptSha256": "e55f24e2c42466a7360211d3da52f50e01b98270731a318713f112ff41605f4c"
+    },
+    {
+      "id": "wikidata-rolf-zinkernagel",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q116064.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 96811,
+      "sha256": "fc705abad658b8ccbd0030fb959314970bb18a076f85ecde45250d9c1fe31276",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q116064; English label: Rolf M. Zinkernagel; p31=Q5; p569=+1944-01-06T00:00:00Z/11,+1944-00-00T00:00:00Z/9; p570=; p27=Q39; p106=Q12119633,Q1622272,Q39631,Q121594; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "8c9bbd921320a7d011e75ef551732d271fc6014686413d0277777560f76df9aa"
+    },
+    {
+      "id": "atkinson-guardian-dob",
+      "url": "https://www.theguardian.com/culture/2008/dec/28/rowan-atkinson-profile-oliver-blackadder",
+      "publisher": "The Guardian",
+      "publisherHost": "www.theguardian.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 301098,
+      "sha256": "2f19b78c947522bfe0cc2442cceb130e473aafbdb405c6c93bf4fbf0d6b1e000",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "t his genius. The Atkinson Lowdown Born: Rowan Sebastian Atkinson in Gosforth, near Newcastle, on 6 January 1955, the youngest of three sons of farmers Eric and Ella Atkinson. He married Sunestra Sastry, a make-up artist on Blackadder, at the Russian Tea Room in New York in 1990; they have two child",
+      "excerptSha256": "2a160ef61fa4d77824bde38e9611541d8e548862f70205691ed6fcaa688bd928"
+    },
+    {
+      "id": "atkinson-encyclopedia-dob",
+      "url": "https://www.encyclopedia.com/books/culture-magazines/atkinson-rowan",
+      "publisher": "Gale / Encyclopedia.com",
+      "publisherHost": "www.encyclopedia.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 65960,
+      "sha256": "2c8d3d43620c49e541bde92858a17597bd6293efe288181ed0297168c21c9692",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " Rowan Atkinson Actor and comedian Born Rowan Sebastian Atkinson, January 6, 1955, in Newcastle–Upon–Tyne, England; son of Eric and Ella May Atkinson; married Sunetra Sastry (a makeup artist), 1990; children: Benjamin, Lily. Education: University of Newcastle, BS; the Queen'",
+      "excerptSha256": "f92531bb30afb1d04cbb4e8cbc66092626fd6367c2ead27b0e7b63b2c90b7d0a"
+    },
+    {
+      "id": "atkinson-encyclopedia-creator",
+      "url": "https://www.encyclopedia.com/books/culture-magazines/atkinson-rowan",
+      "publisher": "Gale / Encyclopedia.com",
+      "publisherHost": "www.encyclopedia.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 65960,
+      "sha256": "2c8d3d43620c49e541bde92858a17597bd6293efe288181ed0297168c21c9692",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " Mr Bean (animated series), 2003—. Creator of television programs, including: Not the Nine O'Clock News, 1980; The Blackadder, 1983; Blackadder the Third, 1987; Laughing Matters, 1993. Writer of television programs, including: (with others) Not the Nine O'Clock News, 1979–82; Canned Laughter, 1",
+      "excerptSha256": "69ea5a8288a56738d52cfbe05c76fefb63f23b058c40a6a07aec3607cbe2cff6"
+    },
+    {
+      "id": "atkinson-guardian-stage",
+      "url": "https://www.theguardian.com/culture/2008/dec/28/rowan-atkinson-profile-oliver-blackadder",
+      "publisher": "The Guardian / The Observer",
+      "publisherHost": "www.theguardian.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 301098,
+      "sha256": "2f19b78c947522bfe0cc2442cceb130e473aafbdb405c6c93bf4fbf0d6b1e000",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Angus Deayton as his straight man. At Amnesty International's benefit, The Secret Policeman's Ball, in 1979 he performed a hilarious sketch as a headmaster addressing a room of schoolboys. He then joined Mel Smith, Griff Rhys Jones and Pamela Stephenson in the vanguard of alternative comedy, the sketch series Not the Nine O",
+      "excerptSha256": "dc907039eb47bb5725e622df7038062319337a1721beece29600b971dfa91f1c"
+    },
+    {
+      "id": "wikidata-rowan-atkinson",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q23760.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 182332,
+      "sha256": "cebbbe8a117c0337bd7fc4d5fba6656d4a77fee68b704cd16fc9a8f5b4dac6a4",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q23760; English label: Rowan Atkinson; p31=Q5; p569=+1955-01-06T00:00:00Z/11; p570=; p27=Q145; p106=Q10798782,Q10800557,Q245068,Q2405480,Q2259451,Q28389,Q1326886,Q33999,Q13235160,Q3282637,Q2059704,Q1416106; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "7830067b07b84fd60f26b05dbfbf1ed507510362a6663956cfcb1677505e3594"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "kahlil-gibran",
+      "name": "Kahlil Gibran",
+      "wikidataId": "Q47737",
+      "birthDate": "1883-01-06",
+      "lifeStatus": "deceased",
+      "deathDate": "1931-04-10",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "gibran-death"
+      ],
+      "dobSourceIds": [
+        "gibran-poets-dob",
+        "gibran-ncsu-dob"
+      ],
+      "statusSourceId": "gibran-death",
+      "careerFactIds": [
+        "jan6-gibran-madman",
+        "jan6-gibran-periodicals"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "jan6-gibran-madman",
+            "jan6-gibran-periodicals"
+          ],
+          "rationale": "His published poetry and prose books and contributions to Arab-American and Egyptian cultural periodicals document a career in literature and creative arts."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-kahlil-gibran",
+      "identityClaims": {
+        "label": "Kahlil Gibran",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "preferred",
+            "value": "+1883-01-06T00:00:00Z",
+            "references": 14,
+            "precision": 11,
+            "calendar": "Q1985727"
+          },
+          {
+            "rank": "normal",
+            "value": "+1883-00-00T00:00:00Z",
+            "references": 2,
+            "precision": 9,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "preferred",
+            "value": "+1931-04-10T00:00:00Z",
+            "references": 14,
+            "precision": 11,
+            "calendar": "Q1985727"
+          },
+          {
+            "rank": "normal",
+            "value": "+1931-00-00T00:00:00Z",
+            "references": 2,
+            "precision": 9,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q12560",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q108865226",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q108865218",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q108865226",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 5
+          },
+          {
+            "rank": "normal",
+            "value": "Q49757",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q1028181",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q4964182",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q15949613",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q3391743",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q36180",
+          "Q49757"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q47737",
+        "https://poets.org/poet/kahlil-gibran",
+        "https://www.lib.ncsu.edu/findingaids/kc0057"
+      ],
+      "before": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q47737",
+          "https://poets.org/poet/kahlil-gibran",
+          "https://www.lib.ncsu.edu/findingaids/kc0057"
+        ],
+        "shortDescription": "Nhà văn, nhà thơ và họa sĩ người Liban-Mỹ, tác giả The Prophet.",
+        "biography": "Kahlil Gibran sinh ngày 6/1/1883 tại Bsharri, Liban. Ông là nhà văn, nhà thơ và họa sĩ; tác phẩm The Prophet được xuất bản năm 1923.",
+        "highlights": [
+          "Tác giả tập văn xuôi The Prophet, xuất bản năm 1923.",
+          "Sinh tại Bsharri, Liban, ngày 6/1/1883."
+        ],
+        "fields": null,
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q47737",
+          "https://poets.org/poet/kahlil-gibran",
+          "https://www.lib.ncsu.edu/findingaids/kc0057"
+        ],
+        "shortDescription": "Nhà văn, nhà thơ và họa sĩ Liban-Mỹ, tác giả The Prophet và The Madman.",
+        "biography": "Kahlil Gibran sinh ngày 6/1/1883 tại Bsharri, Liban. Năm 1918, tập thơ và văn xuôi The Madman được xuất bản; The Prophet ra mắt năm 1923. Ông đóng góp cho các tạp chí Arab-American như Al-Funūn và Al-Mohajer, và qua đời tại New York ngày 10/4/1931.",
+        "highlights": [
+          "Tập thơ và văn xuôi The Madman của Gibran được xuất bản năm 1918.",
+          "Gibran đóng góp cho các tạp chí Arab-American như Al-Funūn và Al-Mohajer."
+        ],
+        "fields": [
+          "design-creative"
+        ],
+        "lifeStatus": "deceased",
+        "deathDate": "1931-04-10",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://poets.org/poet/kahlil-gibran"
+        ],
+        "verifiedAt": "2026-10-08"
+      }
+    },
+    {
+      "id": "syd-barrett",
+      "name": "Syd Barrett",
+      "wikidataId": "Q173061",
+      "birthDate": "1946-01-06",
+      "lifeStatus": "deceased",
+      "deathDate": "2006-07-07",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "syd-death"
+      ],
+      "dobSourceIds": [
+        "syd-official-dob",
+        "syd-cambridge-dob"
+      ],
+      "statusSourceId": "syd-death",
+      "careerFactIds": [
+        "jan6-syd-pink-floyd",
+        "jan6-syd-solo"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "jan6-syd-pink-floyd",
+            "jan6-syd-solo"
+          ],
+          "rationale": "The captured institutional and official sources document his songwriting, painting, founding role in Pink Floyd, and solo recording career."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-syd-barrett",
+      "identityClaims": {
+        "label": "Syd Barrett",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1946-01-06T00:00:00Z",
+            "references": 4,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2006-07-07T00:00:00Z",
+            "references": 5,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q145",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q145",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q855091",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q177220",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q49757",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q488205",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q488205"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q173061",
+        "https://www.sydbarrett.com/syds-life/",
+        "https://cambridgeppf.org/syd-barrett/"
+      ],
+      "before": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q173061",
+          "https://www.sydbarrett.com/syds-life/",
+          "https://cambridgeppf.org/syd-barrett/"
+        ],
+        "shortDescription": "Nhạc sĩ người Anh, thành viên sáng lập ban nhạc Pink Floyd.",
+        "biography": "Syd Barrett sinh ngày 6/1/1946 tại Cambridge. Ông là nhạc sĩ, ca sĩ kiêm sáng tác và một trong những thành viên ban đầu của Pink Floyd.",
+        "highlights": [
+          "Là thành viên ban đầu của Pink Floyd.",
+          "Tên khai sinh của ông là Roger Keith Barrett."
+        ],
+        "fields": null,
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q173061",
+          "https://www.sydbarrett.com/syds-life/",
+          "https://cambridgeppf.org/syd-barrett/"
+        ],
+        "shortDescription": "Nhạc sĩ, người viết ca khúc và họa sĩ người Anh; thành viên sáng lập Pink Floyd.",
+        "biography": "Syd Barrett, tên khai sinh Roger Keith Barrett, sinh ngày 6/1/1946 tại Cambridge. Ông là nhạc sĩ, người viết ca khúc và họa sĩ, đồng sáng lập Pink Floyd. Sau khi rời nhóm năm 1968, ông thu âm với tư cách nghệ sĩ solo cho hãng Harvest. Barrett qua đời ngày 7/7/2006 tại Cambridge.",
+        "highlights": [
+          "Syd Barrett là thành viên sáng lập Pink Floyd cùng Roger Waters và David Gilmour.",
+          "Sau khi rời Pink Floyd năm 1968, Barrett tiếp tục sự nghiệp thu âm solo với hãng Harvest."
+        ],
+        "fields": [
+          "design-creative"
+        ],
+        "lifeStatus": "deceased",
+        "deathDate": "2006-07-07",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://www.sydbarrett.com/syds-life/"
+        ],
+        "verifiedAt": "2026-10-08"
+      }
+    },
+    {
+      "id": "heinrich-schliemann",
+      "name": "Heinrich Schliemann",
+      "wikidataId": "Q57106",
+      "birthDate": "1822-01-06",
+      "lifeStatus": "deceased",
+      "deathDate": "1890-12-26",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "schliemann-brockhaus-death"
+      ],
+      "dobSourceIds": [
+        "schliemann-dhm-dob",
+        "schliemann-iu-dob"
+      ],
+      "statusSourceId": "schliemann-brockhaus-death",
+      "careerFactIds": [
+        "jan6-schliemann-sites",
+        "jan6-schliemann-mycenaean"
+      ],
+      "fields": [
+        "science-research"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "science-research",
+          "careerFactIds": [
+            "jan6-schliemann-sites",
+            "jan6-schliemann-mycenaean"
+          ],
+          "rationale": "The German historical museum, Indiana University archive, and Athens Numismatic Museum describe archaeological excavations at Troy and Mycenae and their scholarly significance."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-heinrich-schliemann",
+      "identityClaims": {
+        "label": "Heinrich Schliemann",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1822-01-06T00:00:00Z",
+            "references": 13,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1890-12-26T00:00:00Z",
+            "references": 11,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q158445",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q34266",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q158445",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q43845",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1792450",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3621491",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q323081",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q215536",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q12356615",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q131524",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q3621491"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q57106",
+        "https://www.dhm.de/lemo/biografie/heinrich-schliemann",
+        "https://archives.iu.edu/html/InU-Li-VAD7007.html",
+        "https://www.nummus.gr/en/heinrich-schliemann/",
+        "https://brockhaus.de/ecs/julex/article/schliemann-heinrich"
+      ],
+      "before": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q57106",
+          "https://www.dhm.de/lemo/biografie/heinrich-schliemann",
+          "https://archives.iu.edu/html/InU-Li-VAD7007.html",
+          "https://brockhaus.de/ecs/julex/article/schliemann-heinrich"
+        ],
+        "shortDescription": "Nhà khảo cổ học Đức được biết đến qua các cuộc khai quật tại Hisarlik.",
+        "biography": "Heinrich Schliemann sinh ngày 6/1/1822 tại Neubukow. Ông theo đuổi khảo cổ học và tiến hành khai quật tại địa điểm Hisarlik, thường được gắn với thành Troy cổ đại.",
+        "highlights": [
+          "Tiến hành khai quật tại Hisarlik ở Thổ Nhĩ Kỳ ngày nay.",
+          "Sinh ngày 6/1/1822 tại Neubukow, Đức."
+        ],
+        "fields": null,
+        "lifeStatus": "deceased",
+        "deathDate": "1890-12-26",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://brockhaus.de/ecs/julex/article/schliemann-heinrich"
+        ],
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q57106",
+          "https://www.dhm.de/lemo/biografie/heinrich-schliemann",
+          "https://archives.iu.edu/html/InU-Li-VAD7007.html",
+          "https://www.nummus.gr/en/heinrich-schliemann/",
+          "https://brockhaus.de/ecs/julex/article/schliemann-heinrich"
+        ],
+        "shortDescription": "Nhà khảo cổ học Đức nổi tiếng với các cuộc khai quật tại Troy và Mycenae.",
+        "biography": "Heinrich Schliemann sinh ngày 6/1/1822 tại Neubukow, Đức. Sau thời gian làm thương nhân, từ thập niên 1870 ông theo đuổi khảo cổ học và khai quật các địa điểm gắn với Troy và Mycenae. Các cuộc khai quật và công bố của ông góp phần làm rõ khảo cổ học Mycenae. Ông qua đời tại Naples ngày 26/12/1890.",
+        "highlights": [
+          "Schliemann khai quật các địa điểm được cho là thành Troy và Mycenae theo sử thi cổ điển.",
+          "Các cuộc khai quật và công bố của Schliemann góp phần làm sáng tỏ khảo cổ học Mycenae."
+        ],
+        "fields": [
+          "science-research"
+        ],
+        "deathDateSourceUrls": [
+          "https://brockhaus.de/ecs/julex/article/schliemann-heinrich"
+        ],
+        "verifiedAt": "2026-10-08"
+      }
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "rolf-zinkernagel",
+      "name": "Rolf M. Zinkernagel",
+      "wikidataId": "Q116064",
+      "birthDate": "1944-01-06",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "zinkernagel-nobel-dob",
+        "zinkernagel-uzh-dob"
+      ],
+      "careerFactIds": [
+        "jan6-zinkernagel-discovery",
+        "jan6-zinkernagel-professor"
+      ],
+      "countryCode": "CH",
+      "countryName": "Thụy Sĩ",
+      "birthplace": "Riehen, Thụy Sĩ",
+      "birthplaceEvidencePhrase": "Riehen",
+      "category": "scientist",
+      "categoryLabel": "Nhà khoa học",
+      "occupation": [
+        "bác sĩ",
+        "nhà miễn dịch học"
+      ],
+      "fields": [
+        "medicine-health",
+        "science-research"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "medicine-health",
+          "careerFactIds": [
+            "jan6-zinkernagel-discovery"
+          ],
+          "rationale": "His directly sourced work explains immune recognition of virus-infected cells and its medical significance."
+        },
+        {
+          "field": "science-research",
+          "careerFactIds": [
+            "jan6-zinkernagel-discovery",
+            "jan6-zinkernagel-professor"
+          ],
+          "rationale": "His captured Nobel and University of Zurich records document immunological research and a long professorship."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-rolf-zinkernagel",
+      "identityClaims": {
+        "label": "Rolf M. Zinkernagel",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "preferred",
+            "value": "+1944-01-06T00:00:00Z",
+            "references": 4,
+            "precision": 11,
+            "calendar": "Q1985727"
+          },
+          {
+            "rank": "normal",
+            "value": "+1944-00-00T00:00:00Z",
+            "references": 1,
+            "precision": 9,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q39",
+            "references": 2
+          }
+        ],
+        "selectedCountryQid": "Q39",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q12119633",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q39631",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q121594",
+            "references": 3
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q12119633",
+          "Q39631"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q116064",
+        "https://www.nobelprize.org/laureate/456",
+        "https://www.uzh.ch/en/researchinnovation/excellence/nobelprize/zinkernagel.html"
+      ]
+    },
+    {
+      "id": "rowan-atkinson",
+      "name": "Rowan Atkinson",
+      "wikidataId": "Q23760",
+      "birthDate": "1955-01-06",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "atkinson-guardian-dob",
+        "atkinson-encyclopedia-dob"
+      ],
+      "careerFactIds": [
+        "jan6-atkinson-creator",
+        "jan6-atkinson-stage"
+      ],
+      "countryCode": "GB",
+      "countryName": "Vương quốc Anh",
+      "birthplace": "Gosforth, gần Newcastle, Anh",
+      "birthplaceEvidencePhrase": "Gosforth, near Newcastle",
+      "category": "actor",
+      "categoryLabel": "Diễn viên",
+      "occupation": [
+        "diễn viên",
+        "nghệ sĩ hài",
+        "biên kịch"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "jan6-atkinson-creator",
+            "jan6-atkinson-stage"
+          ],
+          "rationale": "The captured biographical and press sources document his writing, television comedy work, and stage performance."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-rowan-atkinson",
+      "identityClaims": {
+        "label": "Rowan Atkinson",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 3
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1955-01-06T00:00:00Z",
+            "references": 8,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q145",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q145",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q10798782",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q10800557",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q245068",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q2405480",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2259451",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1326886",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q33999",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q13235160",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3282637",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2059704",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1416106",
+            "references": 0
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q33999",
+          "Q245068",
+          "Q28389"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q23760",
+        "https://www.theguardian.com/culture/2008/dec/28/rowan-atkinson-profile-oliver-blackadder",
+        "https://www.encyclopedia.com/books/culture-magazines/atkinson-rowan",
+        "https://www.bafta.org/awards/television/light-entertainment-performance"
+      ]
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "jan6-gibran-madman",
+      "profileId": "kahlil-gibran",
+      "displayText": "Tập thơ và văn xuôi The Madman của Gibran được xuất bản năm 1918.",
+      "sourceId": "gibran-madman",
+      "evidencePhrase": "The Madman was published"
+    },
+    {
+      "id": "jan6-gibran-periodicals",
+      "profileId": "kahlil-gibran",
+      "displayText": "Gibran đóng góp cho các tạp chí Arab-American như Al-Funūn và Al-Mohajer.",
+      "sourceId": "gibran-periodicals",
+      "evidencePhrase": "Al-Funūn and Al-Mohajer"
+    },
+    {
+      "id": "jan6-syd-pink-floyd",
+      "profileId": "syd-barrett",
+      "displayText": "Syd Barrett là thành viên sáng lập Pink Floyd cùng Roger Waters và David Gilmour.",
+      "sourceId": "syd-pink-floyd",
+      "evidencePhrase": "founder member of Pink Floyd"
+    },
+    {
+      "id": "jan6-syd-solo",
+      "profileId": "syd-barrett",
+      "displayText": "Sau khi rời Pink Floyd năm 1968, Barrett tiếp tục sự nghiệp thu âm solo với hãng Harvest.",
+      "sourceId": "syd-solo-career",
+      "evidencePhrase": "EMI’s new Harvest label committed"
+    },
+    {
+      "id": "jan6-schliemann-sites",
+      "profileId": "heinrich-schliemann",
+      "displayText": "Schliemann khai quật các địa điểm được cho là thành Troy và Mycenae theo sử thi cổ điển.",
+      "sourceId": "schliemann-iu-sites",
+      "evidencePhrase": "excavating the presumed locations of Troy, Mycenae"
+    },
+    {
+      "id": "jan6-schliemann-mycenaean",
+      "profileId": "heinrich-schliemann",
+      "displayText": "Các cuộc khai quật và công bố của Schliemann góp phần làm sáng tỏ khảo cổ học Mycenae.",
+      "sourceId": "schliemann-nummus-work",
+      "evidencePhrase": "Mycenae, Tiryns and Orchomenos"
+    },
+    {
+      "id": "jan6-zinkernagel-discovery",
+      "profileId": "rolf-zinkernagel",
+      "displayText": "Năm 1973, Rolf Zinkernagel và Peter Doherty chứng minh cách hệ miễn dịch nhận diện tế bào nhiễm virus.",
+      "sourceId": "zinkernagel-nobel-discovery",
+      "evidencePhrase": "proved in 1973 how the immune system recognises virus-ridden cells"
+    },
+    {
+      "id": "jan6-zinkernagel-professor",
+      "profileId": "rolf-zinkernagel",
+      "displayText": "Ông là giáo sư Miễn dịch học Thực nghiệm tại Đại học Zurich giai đoạn 1979–2008.",
+      "sourceId": "zinkernagel-uzh-professor",
+      "evidencePhrase": "1979-2008 Professor of Experimental Immunology at the University of Zurich"
+    },
+    {
+      "id": "jan6-atkinson-creator",
+      "profileId": "rowan-atkinson",
+      "displayText": "Atkinson đồng sáng tạo và viết cho chương trình hài Not the Nine O'Clock News từ cuối thập niên 1970.",
+      "sourceId": "atkinson-encyclopedia-creator",
+      "evidencePhrase": "Creator of television programs, including: Not the Nine O'Clock News"
+    },
+    {
+      "id": "jan6-atkinson-stage",
+      "profileId": "rowan-atkinson",
+      "displayText": "Năm 1979, ông biểu diễn tiểu phẩm tại chương trình gây quỹ The Secret Policeman’s Ball của Amnesty International.",
+      "sourceId": "atkinson-guardian-stage",
+      "evidencePhrase": "At Amnesty International's benefit, The Secret Policeman's Ball, in 1979"
+    }
+  ],
+  "wikidataReview": {
+    "profiles": {
+      "kahlil-gibran": {
+        "label": "Kahlil Gibran",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "preferred",
+            "value": "+1883-01-06T00:00:00Z",
+            "references": 14,
+            "precision": 11,
+            "calendar": "Q1985727"
+          },
+          {
+            "rank": "normal",
+            "value": "+1883-00-00T00:00:00Z",
+            "references": 2,
+            "precision": 9,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "preferred",
+            "value": "+1931-04-10T00:00:00Z",
+            "references": 14,
+            "precision": 11,
+            "calendar": "Q1985727"
+          },
+          {
+            "rank": "normal",
+            "value": "+1931-00-00T00:00:00Z",
+            "references": 2,
+            "precision": 9,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q12560",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q108865226",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q108865218",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 5
+          },
+          {
+            "rank": "normal",
+            "value": "Q49757",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q1028181",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q4964182",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q15949613",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q3391743",
+            "references": 1
+          }
+        ]
+      },
+      "syd-barrett": {
+        "label": "Syd Barrett",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1946-01-06T00:00:00Z",
+            "references": 4,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2006-07-07T00:00:00Z",
+            "references": 5,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q145",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q855091",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q177220",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q49757",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q488205",
+            "references": 1
+          }
+        ]
+      },
+      "heinrich-schliemann": {
+        "label": "Heinrich Schliemann",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1822-01-06T00:00:00Z",
+            "references": 13,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1890-12-26T00:00:00Z",
+            "references": 11,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q158445",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q34266",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q43845",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1792450",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3621491",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q323081",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q215536",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q12356615",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q131524",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 1
+          }
+        ]
+      },
+      "rolf-zinkernagel": {
+        "label": "Rolf M. Zinkernagel",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "preferred",
+            "value": "+1944-01-06T00:00:00Z",
+            "references": 4,
+            "precision": 11,
+            "calendar": "Q1985727"
+          },
+          {
+            "rank": "normal",
+            "value": "+1944-00-00T00:00:00Z",
+            "references": 1,
+            "precision": 9,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q39",
+            "references": 2
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q12119633",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q39631",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q121594",
+            "references": 3
+          }
+        ]
+      },
+      "rowan-atkinson": {
+        "label": "Rowan Atkinson",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 3
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1955-01-06T00:00:00Z",
+            "references": 8,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q145",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q10798782",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q10800557",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q245068",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q2405480",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2259451",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1326886",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q33999",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q13235160",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3282637",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2059704",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1416106",
+            "references": 0
+          }
+        ]
+      }
+    },
+    "conflicts": [
+      {
+        "profileId": "kahlil-gibran",
+        "wikidataId": "Q47737",
+        "property": "P569",
+        "selectedDate": "1883-01-06",
+        "activeClaims": [
+          {
+            "rank": "preferred",
+            "date": "1883-01-06",
+            "precision": 11,
+            "references": 14
+          },
+          {
+            "rank": "normal",
+            "date": "1883-01-01",
+            "precision": 9,
+            "references": 2
+          }
+        ],
+        "resolution": "The exact day is supported by Poets.org and North Carolina State University Libraries. The additional active year-only P569 has precision 9 and is a less precise compatible date; preserve it in the audit and select the exact source-verified day."
+      },
+      {
+        "profileId": "rolf-zinkernagel",
+        "wikidataId": "Q116064",
+        "property": "P569",
+        "selectedDate": "1944-01-06",
+        "activeClaims": [
+          {
+            "rank": "preferred",
+            "date": "1944-01-06",
+            "precision": 11,
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "date": "1944-01-01",
+            "precision": 9,
+            "references": 1
+          }
+        ],
+        "resolution": "The exact day is supported independently by NobelPrize.org and the University of Zurich. The additional active year-only P569 has precision 9 and is compatible but less precise; preserve both claims in the audit and use the exact source-verified date."
+      }
+    ]
+  }
+}

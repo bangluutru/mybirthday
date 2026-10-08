@@ -1,0 +1,1667 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-05",
+  "capturedAt": "2026-10-08T12:39:30Z",
+  "sourceCaptures": [
+    {
+      "id": "adenauer-bpb",
+      "url": "https://www.bpb.de/kurz-knapp/lexika/das-europalexikon/176660/adenauer-konrad/",
+      "publisher": "Federal Agency for Civic Education (bpb)",
+      "publisherHost": "www.bpb.de",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 145115,
+      "sha256": "4180fcb4f966d00bbefeecf4506818b188d46dbef93e6b44120cc968dde7c2f4",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "[* 5.1.1876 · † 19.4.1967] dt. Politiker (CDU). Von 1917–33 sowie 1945 für einige Monate Oberbürgermeister von Köln. 1949–63 erster dt. Bundeskanzler, 1951–55 gleichzeitig Außenminister. A. gestaltete die Westintegration der Bundesrepublik. Als deren entscheidenden Bestandteil begriff er die europ. Einigung, die er konsequent vorantrieb. Dabei hoffte er, dass Wohlstand und Freiheit des Westens auf Dauer so viel Attraktivität ausstrahlen würden, dass der Ostblock destabilisiert und auch die Wiedervereinigung möglich würde (sog. Magnet-Theorie). Aufgrund seines Einsatzes für die Integration gilt A. als einer der Gründungsväter Europas. Literatur W. Weidenfeld: Konrad Adenauer und Europa. Die g",
+      "excerptSha256": "1351932bcc50ff95dc19296461d0919914c2aed0557c7c5a7e9783b7581d788f"
+    },
+    {
+      "id": "adenauer-bundesarchiv",
+      "url": "https://www.bundesarchiv.de/konrad-adenauer/",
+      "publisher": "German Federal Archives (Bundesarchiv)",
+      "publisherHost": "www.bundesarchiv.de",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 174135,
+      "sha256": "a49b1845d9aa4c6b3c3356681d0102d6aa005b97c5158f2beea5590a2cd663a5",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Konrad Adenauer wurde am 5. Januar 1876 in Köln geboren. Seine politische Karriere, die 1906 im Deutschen Kaiserreich begann, erreichte ihren Höhepunkt über 40 Jahre später in der Bundesrepublik Deutschland – mit der Wahl zum ersten Bundeskanzler im Jahr 1949. Das Bundesarchiv präsentiert in verschiedenen Beiträgen ausgewählte Archivalien zu seinem politischen Leben – von der Weimarer Republik über die NS -Diktatur bis zur Zeit der deutschen Teilung. Die Archivalien bieten einen exemplarischen Einblick in die Vielfalt der zu",
+      "excerptSha256": "85ab349bfca7cb5935666ce3c4ae76d0656fb65b00abf929503a59d3d5c0bb85"
+    },
+    {
+      "id": "eco-britannica",
+      "url": "https://www.britannica.com/biography/Umberto-Eco",
+      "publisher": "Encyclopaedia Britannica",
+      "publisherHost": "www.britannica.com",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytesRead": 123279,
+      "sha256": "d956c013aa07f255c285c5699a506e17ae6da425befc1fc44115ffb1f775cf72",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Born: January 5, 1932, Alessandria , Italy (Show more) Died: February 19, 2016, Milan (aged 84) (Show more) Notable Works: “Foucault’s Pendulum” “Inventing the Enemy, and Other Occasional Writings” “Kant and the Platypus” “Numero Zero” “The Infinity of Lists” “The Name of the Rose” “The Open Work” “The Search for the P",
+      "excerptSha256": "d5c36e21900f0f0fc3833fa9cdf5dc4d4b001aa6b7f517dff9193ccc82c8c3d9"
+    },
+    {
+      "id": "eco-unibo-dob",
+      "url": "https://www.unibo.it/en/university/the-university-of-bologna-mourns-the-death-of-umberto-eco",
+      "publisher": "University of Bologna",
+      "publisherHost": "www.unibo.it",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 475740,
+      "sha256": "116e2a726030035365b9b0425992af9356efacc472e34ca39ed81d62f70b9e7b",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Born in Alessandria, Italy, on 5 January 1932, Umberto Eco studied at the Universityof Turin with Luigi Pareyson, and graduated in 1954 with a thesis on the aesthetics of Thomas Acquinas, subsequently published in 1956. His studies of medieval aesthetics and philosophy were only one element of his many cultural interests, which brought him into contact with the avant-garde (in music, lit",
+      "excerptSha256": "e90b90b17954508e813ad170f22f46e483bda5f761a8086a445f9823a8227558"
+    },
+    {
+      "id": "eco-unibo-professor",
+      "url": "https://www.unibo.it/en/university/the-university-of-bologna-mourns-the-death-of-umberto-eco",
+      "publisher": "University of Bologna",
+      "publisherHost": "www.unibo.it",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 475740,
+      "sha256": "116e2a726030035365b9b0425992af9356efacc472e34ca39ed81d62f70b9e7b",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "From 1975, Umberto Eco was Full Professor of Semiotics at the University of Bologna . His contribution to the University was fundamental: after helping to found the first degree course in Italy in Drama, Art and Music Studies (DAMS) in the early 1970s , he set up the degree programme of Communication Sciences (1992), which he directed personally in its early years. In 1990 he also founded the Advanced School of Human",
+      "excerptSha256": "5746d6fad0412f16b22a98114097706e33e5680ec8d10b79927e802bf57b762e"
+    },
+    {
+      "id": "eco-unibo-rose",
+      "url": "https://www.unibo.it/en/university/the-university-of-bologna-mourns-the-death-of-umberto-eco",
+      "publisher": "University of Bologna",
+      "publisherHost": "www.unibo.it",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 475740,
+      "sha256": "116e2a726030035365b9b0425992af9356efacc472e34ca39ed81d62f70b9e7b",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "literary work, which began with The Name of the Rose (1980) and continued with Foucault's Pendulum (1988), The Island of the Day Before (1994), Baudolino (2000), The Mysterious Flame of Queen Loana (2004), The Prague Cemetery (2010) and Numero Zero (2015). From 1975, Umberto Eco was Full Professor of Semiotics at the University of Bologna . His contribution to the University was fundamental: after helping to found the first degree course in Italy in Drama, Art and Music Studies (DAMS) in the ear",
+      "excerptSha256": "6fb780e4914d9a21c60b20367a3b25a51aeef8b4fbcca1318bea6fddd96bfc6c"
+    },
+    {
+      "id": "miyazaki-gale-career",
+      "url": "https://www.encyclopedia.com/arts/educational-magazines/miyazaki-hayao-1941",
+      "publisher": "Gale / Encyclopedia.com",
+      "publisherHost": "www.encyclopedia.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 73292,
+      "sha256": "b9265278af8af0d4085415b2deaa8f6680a1dfe138b5de32e81e1e6882660a43",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Spirited Away received the Academy Award for best animated feature film in 2002, shattered box office records in Japan, and was widely praised by American critics. \"The animation is gorgeous [and] the story is engrossing,\" declared critic George Meyer in the Sarasota Herald Tribune. BIOGRAPHICAL AND CRITICAL SOURCES: books Authors and Artists for Young Adults, Volume 37, Gale (",
+      "excerptSha256": "b3accc709f5842fbbb3394a8bb83539061d77e3fc44be1fae8f09a90a97198ee"
+    },
+    {
+      "id": "miyazaki-gale-dob",
+      "url": "https://www.encyclopedia.com/arts/educational-magazines/miyazaki-hayao-1941",
+      "publisher": "Gale / Encyclopedia.com",
+      "publisherHost": "www.encyclopedia.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 73292,
+      "sha256": "b9265278af8af0d4085415b2deaa8f6680a1dfe138b5de32e81e1e6882660a43",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Born January 5, 1941, in Tokyo, Japan; son of Katsuji Miyazaki (an aeronautical engineer); married Akemi Ota (an animator), 1965; children: Keisuke, one other son. Education: Attended Gakushuin University. ADDRESSES: Off?ce— Studio Ghibli, 1-4-25 Kajinocho, Koganei-shi 184, Japan. CAREER: Animator, ",
+      "excerptSha256": "1be39d086652b9670813c8ba5396ded2d910b71fc71a66802cb7cbd43551e67f"
+    },
+    {
+      "id": "miyazaki-musabi-career",
+      "url": "https://img-lib.musabi.ac.jp/search/index.php/person/detail/12950",
+      "publisher": "Musashino Art University Image Library",
+      "publisherHost": "img-lib.musabi.ac.jp",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 283733,
+      "sha256": "e6ce2f7451a6487d62088e461a71bb2b0ebf476273ae63e1a4cad71b0d5c0cdc",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "1985年に高畑勲とともに設立したアニメーション制作会社スタジオ・ジブリは、以後作品作りの拠点となっている。子どもの為のアニメーションを作り続け、『風の谷のナウシカ』や『もののけ姫』など、自然との関係を問いかけるメッセージ性の強い作品もある。自身が企画開発した「三鷹の森ジブリ美術館」の館主も務める。 DVD・VHS・FILM etc. DVD・VHS・FILM etc. DVD館内視聴のみ 「もののけ姫」はこうして生まれた。 Mononokehimewa koshite umareta 浦谷 年良 ドキュメンタリー/Documentary DVD貸出可 赤毛のアン 1 Anne of Green Gables 1 ／ Akage no an 1 高畑 勲（演出） アニメーション/Animation DVD貸出可 赤毛のアン 10 Anne of Green Gables 10 ／ Akage no an 10 高畑 勲（演出） ",
+      "excerptSha256": "bfaa448d96403dd6b31d68147b59ffb61279bb08d800ff51e4d50fa4989a81f0"
+    },
+    {
+      "id": "miyazaki-musabi-dob",
+      "url": "https://img-lib.musabi.ac.jp/search/index.php/person/detail/12950",
+      "publisher": "Musashino Art University Image Library",
+      "publisherHost": "img-lib.musabi.ac.jp",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 283733,
+      "sha256": "e6ce2f7451a6487d62088e461a71bb2b0ebf476273ae63e1a4cad71b0d5c0cdc",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Date of Birth 1941/01/05 出身地 Birth Place 日本/Japan，東京都 経歴 Biography もともと漫画家を志していたが、アニメーション映画『白蛇伝』との出会いからアニメーションに魅せられる。学習院大学卒業後、1963年に東映動画社にアニメーターとして入社し『わんわん忠臣蔵』の動画を担当。1968年には高畑勲、大塚康生らと共に『太陽の王子ホルスの大冒険』の制作を行なう。以後テレビ・アニメ『アルプスの少女ハイジ』を手がけ、1978年にはNHK初のアニメーション・シリーズ『未来少年コナン』で監督に",
+      "excerptSha256": "b65e1a64c1d274f4be0aecafc116ec7ddb0cba06ae07d5dd91a9e6202d4253b2"
+    },
+    {
+      "id": "steinmeier-bremen-2026",
+      "url": "https://www.senatspressestelle.bremen.de/pressemitteilungen/offizielle-feierlichkeiten-zur-deutschen-einheit-haben-begonnen-491814?asl=bremen02.c.732.de",
+      "publisher": "Senate Chancellery of Bremen",
+      "publisherHost": "www.senatspressestelle.bremen.de",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 18226,
+      "sha256": "3a443220c76509ef4033e438de89482688e87565c93c93de8366cff4c46d2334",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "03.10.2026 Der protokollarische Teil der Feiern zum Tag der Deutschen Einheit hat begonnen: Die Vertreterinnen und Vertreter der Verfassungsorgane haben sich heute früh (3. Oktober 2026) bereits im Rathaus in das Goldene Buch eingetragen. In diesen Minuten fängt der ökumenische Gottesdienst im Bremer St. Petri Dom an. Ab 12 Uhr schließt sich der zentrale Festakt im Konzertaus \"Die Glocke\" an. Bundeskanzler Friedrich Merz, Bundesratspräsident Andreas Bovenschulte, Bundespräsident Frank-Walter Steinmeier, Bundestagspräsidentin Julia Klöckner und der Präsident des Bundesverfassungsgerichts, Stephan Harbarth. Der Gottesdienst steht unter dem Motto \"Viele Gaben – ein Geist\". Die Predigten werden ",
+      "excerptSha256": "455b42bde8abf150a1a0da1026d1315ee59f374695b9fa79f46199f4eebc67bc"
+    },
+    {
+      "id": "steinmeier-bundestag",
+      "url": "https://www.bundestag.de/webarchiv/abgeordnete/biografien18/S/steinmeier_frank_walter-258964",
+      "publisher": "German Bundestag",
+      "publisherHost": "www.bundestag.de",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytesRead": 96746,
+      "sha256": "ece8f9a313003f5549778afd491aa3dc35e33a336ad25301ed0963a2df6fb9b5",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Geboren am 5. Januar 1956 in Detmold (Kreis Lippe), verheiratet, ein Kind. 1974 bis 1976 Bundeswehrdienst; 1976 bis 1982 Studium der Rechtswissenschaft, seit 1980 zusätzlich der Politikwissenschaft, an der Justus-Liebig-Universität in Gießen; 1986 Zweite Juristische Staatsprüfung; 1986 bis 1991 Wissenschaftlicher Mitarbeiter am Lehrstuhl für öffentliches Recht und Wissenschaft von der Politik, Fachbereich Rechtswissenschaft, Universität Gießen. 1975 Eintritt in die SPD; 1991 Referent für Medienrecht und Medienpolitik in der Niedersächsischen Staatskanzlei; 1993 Leiter des persönlichen Büros des niedersächsischen Ministerpräsidenten; 1994 bis 1996 Leiter der Abteilung für Richtlinien der Politik, Ressortkoordinierung und -planung. 1996 bis 1998 Staats",
+      "excerptSha256": "e064e42fe581647e7dd7aecf51466488a9f5a1bccb11f32e8dc8143e61766f1e"
+    },
+    {
+      "id": "steinmeier-bundestag-foreign",
+      "url": "https://www.bundestag.de/webarchiv/abgeordnete/biografien18/S/steinmeier_frank_walter-258964",
+      "publisher": "German Bundestag",
+      "publisherHost": "www.bundestag.de",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytesRead": 96746,
+      "sha256": "ece8f9a313003f5549778afd491aa3dc35e33a336ad25301ed0963a2df6fb9b5",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "November 2005 bis Oktober 2009 Bundesminister des Auswärtigen; seit Oktober 2007 stellvertretender Vorsitzender der SPD; seit November 2007 Vizekanzler; September bis Oktober 2008 kommissarischer SPD-Vorsitzender; 18. Oktober 2008 Wahl zum Kanzlerkandidaten der SPD; Oktober 2009 bis Dezember 2013 Vorsitzender der SPD-Fraktion. Mitglied des Deutschen Bundestages seit 2009; Dezember 2013 bis Januar 2017 Bundesminister des Auswärtigen. Dr. Frank-Walter Steinmeier hat auf seine Mitgliedschaft im 18.",
+      "excerptSha256": "37cd595d4bf86f468f7d6aefa7cb33610bfc86eabca83a4c5e9e7131f1e20a7c"
+    },
+    {
+      "id": "steinmeier-president",
+      "url": "https://www.bundespraesident.de/DE/bundespraesident/biographie/biographie_node.html",
+      "publisher": "Office of the Federal President of Germany",
+      "publisherHost": "www.bundespraesident.de",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 117247,
+      "sha256": "13b8a16f085f13f6f6a39a1a1f7bd30548164b571083752a65ecb6b12f17923f",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Frank-Walter Steinmeier wird am 5. Januar 1956 in Detmold/Kreis Lippe geboren. Er ist seit 1995 mit Elke Büdenbender verheiratet. Gemeinsam haben sie eine Tochter. Nach dem Besuch des Neusprachlichen Gymnasiums in Blomberg und einer zweijährigen Bundeswehrzeit studiert Frank-Walter Steinmeier ab 1976 Rechtswissenschaften, seit 1980 zusätzlich auch Politikwissenschaften, an der Justus-Liebig-Universität in Gießen. 1982 legt er seine Erste Juristische Staatsprüfung ab. Anschließend leistet er seinen Juristischen Vorbereitungsdienst in Frankfurt am Main und Gießen, den er 1986 mit der Zweiten Juristischen Staatsprüfung beendet. Danach arbeitet er als Wissenschaftlicher Mitarbeiter am Lehrstuhl für öffentliches Recht und Wissenschaft von der Po",
+      "excerptSha256": "597072e12a42fee34f3c6317aa1b963892d419174bc8d6bde9ae6cec73693f86"
+    },
+    {
+      "id": "steinmeier-president-election",
+      "url": "https://www.bundespraesident.de/DE/bundespraesident/biographie/biographie_node.html",
+      "publisher": "Office of the Federal President of Germany",
+      "publisherHost": "www.bundespraesident.de",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 117247,
+      "sha256": "13b8a16f085f13f6f6a39a1a1f7bd30548164b571083752a65ecb6b12f17923f",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Am 12. Februar 2017 wurde Frank-Walter Steinmeier zum 12. Bundespräsidenten der Bundesrepublik Deutschland gewählt . Am 13. Februar 2022 bestätigte die 17. Bundesversammlung ihn für eine zweite Amtszeit. Bundespräsident Frank-Walter Steinmeier Biographie Schwerpunkte Elke Büdenbender Seiteninformationen und -Funktionen Seite teilen https://www.bundespraesident.de/DE/bundespraesident/biographie/biographie_node.html Link kopiere",
+      "excerptSha256": "50f1c2239795166a9db57ed5c53ee602f0212bee0a5562abb219dc3d169512ca"
+    },
+    {
+      "id": "yogananda-gale-book",
+      "url": "https://www.encyclopedia.com/people/philosophy-and-religion/other-religious-beliefs-biographies/paramahansa-yogananda",
+      "publisher": "Gale / Encyclopedia.com",
+      "publisherHost": "www.encyclopedia.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 63893,
+      "sha256": "02091a9035456eb07603d5dee37a91dc17a60c6af51b8764e00aad25ea507eab",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Among his last accomplishments was the writing of his Autobiography of a Yogi (1946), which was widely influential in attracting Americans to Eastern religion. He was also the teacher of Donald Walters, founder of the Ananda Church of Self-Realization, and Roy Eugene Davis, now head of the Church of the Christian Spiritual Alliance. Sources: Yogananda, Swami Paramahansa. Autobiography of a Yogi. New York : ",
+      "excerptSha256": "1fd01038012aa619750eda5edc9ab215969818c8a705751bdb71df6b2dfbb773"
+    },
+    {
+      "id": "yogananda-gale-dob",
+      "url": "https://www.encyclopedia.com/people/philosophy-and-religion/other-religious-beliefs-biographies/paramahansa-yogananda",
+      "publisher": "Gale / Encyclopedia.com",
+      "publisherHost": "www.encyclopedia.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 63893,
+      "sha256": "02091a9035456eb07603d5dee37a91dc17a60c6af51b8764e00aad25ea507eab",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Yogananda was born Mukunda Lal Ghosh in Gorakpur, near Calcutta, on January 5, 1893. He manifested psychic powers as a child. As a youth he was fascinated by the holy men of India and visited many of them. Shortly after graduating from high school, he was initiated by Swami Yukteswar in the spiritual lineage of Swami Babaji, a legendary H",
+      "excerptSha256": "810cc44c6827a74ecb48a236c8fdf2f214c5f2c08391f2a8a24b84315ea11311"
+    },
+    {
+      "id": "yogananda-srf-death",
+      "url": "https://yogananda.org/a-beloved-world-teacher",
+      "publisher": "Self-Realization Fellowship",
+      "publisherHost": "yogananda.org",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 202381,
+      "sha256": "4897ba4892f14237aa52c84aed4d6563b204a19d8c9e7435ed486f85cbbcc761",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "On March 7, 1952, the great guru entered mahasamadhi , a God‑illumined master’s conscious exit from the body at the time of physical death. He had just finished giving a short speech at a banquet honoring India’s ambassador to the United States, Dr. Binay R. Sen, at the Biltmore Hotel in Los Angeles. His passing was marked by an extraordinary phenomenon. A notarized statement signed by the Director of Forest Lawn Memorial‑Park testified",
+      "excerptSha256": "c6ebf7e5eff144cf61f2872832214be207afc043ce39055eb90976bc167de4c5"
+    },
+    {
+      "id": "yogananda-srf-dob",
+      "url": "https://yogananda.org/a-beloved-world-teacher",
+      "publisher": "Self-Realization Fellowship",
+      "publisherHost": "yogananda.org",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 202381,
+      "sha256": "4897ba4892f14237aa52c84aed4d6563b204a19d8c9e7435ed486f85cbbcc761",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Paramahansa Yogananda was born Mukunda Lal Ghosh on January 5, 1893, in Gorakhpur, India, into a devout and well-to-do Bengali family. From his earliest years, it was evident to those around him that the depth of his awareness and experience of the spiritual was far beyond the ordinary. Both his parents were disciples of Lahiri Mahasaya, the renowned master ",
+      "excerptSha256": "c41498cc7bc09324e75a8208398c1861008f0455f64bbb1d851fec9d2ebccf79"
+    },
+    {
+      "id": "yogananda-srf-founder",
+      "url": "https://yogananda.org/a-beloved-world-teacher",
+      "publisher": "Self-Realization Fellowship",
+      "publisherHost": "yogananda.org",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 202381,
+      "sha256": "4897ba4892f14237aa52c84aed4d6563b204a19d8c9e7435ed486f85cbbcc761",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " personal, transcendental perception of the Infinite Father.” The young swami arrived in Boston in September 1920. His first speech, made to the International Congress of Religious Liberals, was on “The Science of Religion,” and was enthusiastically received. That same year he founded Self-Realization Fellowship to disseminate worldwide his teachings on India’s ancient science and philosophy of Yoga and its time-honored tradition of meditation. The first SRF meditation center was started in Boston with the help of Dr. and Mrs. M. W. Lewis and Mrs. Alice Hasey (Sister Yogmata), who were to become lifelong disciples. A few of the delegates to the International Congress of Religious Liberals, October 1920, Boston, Massachusetts, at which Yoganandaji (second from right) gave his maiden speech in America. For the next sever",
+      "excerptSha256": "d9b46104e070e14686105d2a930cb38b3ca4ee5b2e16f950b5533be5e73a3e01"
+    },
+    {
+      "id": "wikidata-frank-walter-steinmeier",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q76658.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytesRead": 232760,
+      "sha256": "83b5c9f7cc690788a875f5444dc3e77988f9715c9ef93bfe3a2854e876111072",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q76658; English label: Frank-Walter Steinmeier; p31=Q5; p569=+1956-01-05T00:00:00Z/11; p570=; p27=Q183; p106=Q82955,Q40348,Q12416358,Q185351,Q7330070; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "c3ec929de329583d90cd0044aab5811e565c1a2a2560bad25249f8cba37b5e79"
+    },
+    {
+      "id": "wikidata-hayao-miyazaki",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q55400.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytesRead": 303325,
+      "sha256": "cdf03cadb3c99c8ed02b3bbbe76275a4978d375ca72f138c3ba708f76bd4ed9a",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q55400; English label: Hayao Miyazaki; p31=Q5; p569=+1941-01-05T00:00:00Z/11,+1941-01-01T00:00:00Z/9; p570=; p27=Q17; p106=Q2526255,Q266569,Q191633,Q28389,Q7042855,Q3282637,Q822146,Q3578589,Q3455803,Q715301,Q1062952,Q100684552,Q779815,Q222344,Q1414443,Q11892507; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "87c52e6edfdedd16809b742cb2d8cfd8db0c05fe485dc600f2fdd92c4caa6d77"
+    },
+    {
+      "id": "wikidata-konrad-adenauer",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q2492.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytesRead": 318937,
+      "sha256": "ea9d554acb65bad4925543d00c7c54cd7f0f347beed08097dac9f6a0a059dde1",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q2492; English label: Konrad Adenauer; p31=Q5; p569=+1876-01-05T00:00:00Z/11; p570=+1967-04-19T00:00:00Z/11; p27=Q27306,Q183; p106=Q40348,Q16533,Q335757,Q1397808,Q18814623,Q56022,Q10732476,Q82955,Q147733,Q185351,Q2285706; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "1f69c5889a6ad059082b409726e5be3324d319e162d69cf7295964f2d2d71d91"
+    },
+    {
+      "id": "wikidata-paramahansa-yogananda",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q312549.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytesRead": 116970,
+      "sha256": "6a83f614a264b91670434bb1db1df74174b036398762eb6a90c89469d0079bda",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q312549; English label: Paramahansa Yogananda; p31=Q5; p569=+1893-01-05T00:00:00Z/11; p570=+1952-03-07T00:00:00Z/11; p27=Q129286,Q668,Q1775277; p106=Q4964182,Q18814623,Q36180,Q2901587,Q432386; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "cc0a8a31cfbef20ca321e7247f76c14be6f62e9fa897c2d9ff3ec968d8e30141"
+    },
+    {
+      "id": "wikidata-umberto-eco",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q12807.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytesRead": 307405,
+      "sha256": "a025857652974ac6877ae1304c3f4a31ccf84e813e077c89842e74ee4767b1c2",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q12807; English label: Umberto Eco; p31=Q5; p569=+1932-01-05T00:00:00Z/11; p570=+2016-02-19T00:00:00Z/11; p27=Q38,Q172579; p106=Q4964182,Q6625963,Q11774202,Q1231865,Q28389,Q333634,Q1622272,Q21694753,Q36180,Q4263842,Q3332711,Q17167049,Q201788; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "e7ca7ad1545eb10f4a627cf230c01ca09c04db4390a1a7fd9ead77a2732dab70"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "umberto-eco",
+      "name": "Umberto Eco",
+      "wikidataId": "Q12807",
+      "birthDate": "1932-01-05",
+      "lifeStatus": "deceased",
+      "deathDate": "2016-02-19",
+      "dobSourceIds": [
+        "eco-unibo-dob",
+        "eco-britannica"
+      ],
+      "careerFactIds": [
+        "jan5-eco-semiotics",
+        "jan5-eco-rose"
+      ],
+      "wikidataCaptureId": "wikidata-umberto-eco",
+      "identityClaims": {
+        "label": "Umberto Eco",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1932-01-05T00:00:00Z",
+            "references": 21,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2016-02-19T00:00:00Z",
+            "references": 15,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q38",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q172579",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q38",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q4964182",
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "value": "Q6625963",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q11774202",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q1231865",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q333634",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q21694753",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "value": "Q4263842",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q3332711",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q17167049",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q201788",
+            "references": 2
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q36180",
+          "Q4964182"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q12807",
+        "https://www.unibo.it/en/university/the-university-of-bologna-mourns-the-death-of-umberto-eco",
+        "https://www.britannica.com/biography/Umberto-Eco",
+        "http://www.repubblica.it/cultura/2016/02/20/news/morto_lo_scrittore_umberto_eco-133816061/",
+        "https://brockhaus.de/ecs/julex/article/eco-umberto"
+      ],
+      "after": {
+        "deathDate": "2016-02-19",
+        "deathDateSourceUrls": [
+          "https://www.britannica.com/biography/Umberto-Eco"
+        ],
+        "deathDatePrecision": "day",
+        "lifeStatus": "deceased",
+        "verifiedAt": "2026-10-08",
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q12807",
+          "https://www.unibo.it/en/university/the-university-of-bologna-mourns-the-death-of-umberto-eco",
+          "https://www.britannica.com/biography/Umberto-Eco",
+          "http://www.repubblica.it/cultura/2016/02/20/news/morto_lo_scrittore_umberto_eco-133816061/",
+          "https://brockhaus.de/ecs/julex/article/eco-umberto"
+        ],
+        "highlights": [
+          "Từ năm 1975, Umberto Eco là giáo sư chính thức ngành ký hiệu học tại Đại học Bologna.",
+          "Tiểu thuyết The Name of the Rose (1980) mở đầu mạch sáng tác văn học của Eco."
+        ]
+      },
+      "statusSourceId": "eco-britannica",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "eco-britannica"
+      ],
+      "before": {
+        "deathDate": "2016-02-19",
+        "deathDateSourceUrls": [
+          "http://www.repubblica.it/cultura/2016/02/20/news/morto_lo_scrittore_umberto_eco-133816061/",
+          "https://brockhaus.de/ecs/julex/article/eco-umberto"
+        ],
+        "deathDatePrecision": "day",
+        "lifeStatus": "deceased",
+        "verifiedAt": "2026-10-03",
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q12807",
+          "https://www.unibo.it/en/university/the-university-of-bologna-mourns-the-death-of-umberto-eco",
+          "https://www.britannica.com/biography/Umberto-Eco",
+          "http://www.repubblica.it/cultura/2016/02/20/news/morto_lo_scrittore_umberto_eco-133816061/",
+          "https://brockhaus.de/ecs/julex/article/eco-umberto"
+        ],
+        "highlights": [
+          "Tác giả tiểu thuyết The Name of the Rose.",
+          "Là giáo sư tại Đại học Bologna."
+        ]
+      }
+    },
+    {
+      "id": "konrad-adenauer",
+      "name": "Konrad Adenauer",
+      "wikidataId": "Q2492",
+      "birthDate": "1876-01-05",
+      "lifeStatus": "deceased",
+      "deathDate": "1967-04-19",
+      "dobSourceIds": [
+        "adenauer-bundesarchiv",
+        "adenauer-bpb"
+      ],
+      "careerFactIds": [
+        "jan5-adenauer-chancellor",
+        "jan5-adenauer-mayor"
+      ],
+      "wikidataCaptureId": "wikidata-konrad-adenauer",
+      "identityClaims": {
+        "label": "Konrad Adenauer",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1876-01-05T00:00:00Z",
+            "references": 17,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1967-04-19T00:00:00Z",
+            "references": 16,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q27306",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q183",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q183",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q40348",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q16533",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q335757",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1397808",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q18814623",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q56022",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q10732476",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q82955",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q147733",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q185351",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2285706",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q82955",
+          "Q40348"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q2492",
+        "https://www.bundesarchiv.de/konrad-adenauer/",
+        "https://www.konrad-adenauer.de/biographie/",
+        "https://www.bpb.de/kurz-knapp/lexika/das-europalexikon/176660/adenauer-konrad/"
+      ],
+      "after": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q2492",
+          "https://www.bundesarchiv.de/konrad-adenauer/",
+          "https://www.konrad-adenauer.de/biographie/",
+          "https://www.bpb.de/kurz-knapp/lexika/das-europalexikon/176660/adenauer-konrad/"
+        ],
+        "lifeStatus": "deceased",
+        "deathDate": "1967-04-19",
+        "deathDateSourceUrls": [
+          "https://www.bpb.de/kurz-knapp/lexika/das-europalexikon/176660/adenauer-konrad/"
+        ],
+        "deathDatePrecision": "day",
+        "verifiedAt": "2026-10-08",
+        "highlights": [
+          "Konrad Adenauer là Thủ tướng đầu tiên của Cộng hòa Liên bang Đức từ năm 1949 đến 1963.",
+          "Ông làm Thị trưởng Köln giai đoạn 1917–1933 và một số tháng năm 1945."
+        ]
+      },
+      "statusSourceId": "adenauer-bpb",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "adenauer-bpb"
+      ],
+      "before": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q2492",
+          "https://www.bundesarchiv.de/konrad-adenauer/",
+          "https://www.konrad-adenauer.de/biographie/"
+        ],
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDateSourceUrls": null,
+        "deathDatePrecision": null,
+        "verifiedAt": "2026-10-03",
+        "highlights": [
+          "Giữ chức Thủ tướng Tây Đức từ năm 1949 đến năm 1963.",
+          "Trước đó là Thị trưởng Köln."
+        ]
+      }
+    },
+    {
+      "id": "frank-walter-steinmeier",
+      "name": "Frank-Walter Steinmeier",
+      "wikidataId": "Q76658",
+      "birthDate": "1956-01-05",
+      "lifeStatus": "living",
+      "deathDate": null,
+      "dobSourceIds": [
+        "steinmeier-president",
+        "steinmeier-bundestag"
+      ],
+      "careerFactIds": [
+        "jan5-steinmeier-president",
+        "jan5-steinmeier-foreign-minister"
+      ],
+      "wikidataCaptureId": "wikidata-frank-walter-steinmeier",
+      "identityClaims": {
+        "label": "Frank-Walter Steinmeier",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1956-01-05T00:00:00Z",
+            "references": 9,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q183",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q183",
+        "p106": [
+          {
+            "rank": "preferred",
+            "value": "Q82955",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q40348",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q12416358",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q185351",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q7330070",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q82955",
+          "Q40348"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q76658",
+        "https://www.bundestag.de/webarchiv/abgeordnete/biografien18/S/steinmeier_frank_walter-258964",
+        "https://www.bundespraesident.de/DE/bundespraesident/biographie/biographie_node.html",
+        "https://www.senatspressestelle.bremen.de/pressemitteilungen/offizielle-feierlichkeiten-zur-deutschen-einheit-haben-begonnen-491814?asl=bremen02.c.732.de"
+      ],
+      "after": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q76658",
+          "https://www.bundestag.de/webarchiv/abgeordnete/biografien18/S/steinmeier_frank_walter-258964",
+          "https://www.bundespraesident.de/DE/bundespraesident/biographie/biographie_node.html",
+          "https://www.senatspressestelle.bremen.de/pressemitteilungen/offizielle-feierlichkeiten-zur-deutschen-einheit-haben-begonnen-491814?asl=bremen02.c.732.de"
+        ],
+        "highlights": [
+          "Ngày 12/2/2017, Đại hội Liên bang Đức bầu Steinmeier làm Tổng thống thứ 12 của nước này.",
+          "Ông giữ chức Bộ trưởng Ngoại giao Liên bang Đức từ tháng 11/2005 đến tháng 10/2009."
+        ],
+        "lifeStatus": "living",
+        "verifiedAt": "2026-10-08"
+      },
+      "statusSourceId": "steinmeier-bremen-2026",
+      "before": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q76658",
+          "https://www.bundestag.de/webarchiv/abgeordnete/biografien18/S/steinmeier_frank_walter-258964",
+          "https://www.bundespraesident.de/DE/bundespraesident/biographie/biographie_node.html"
+        ],
+        "highlights": [
+          "Được bầu làm Tổng thống Liên bang Đức năm 2017.",
+          "Sinh tại Detmold ngày 5/1/1956."
+        ],
+        "lifeStatus": null,
+        "deathDate": null,
+        "verifiedAt": "2026-10-03"
+      }
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "hayao-miyazaki",
+      "name": "Hayao Miyazaki",
+      "wikidataId": "Q55400",
+      "birthDate": "1941-01-05",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "miyazaki-musabi-dob",
+        "miyazaki-gale-dob"
+      ],
+      "careerFactIds": [
+        "jan5-miyazaki-ghibli",
+        "jan5-miyazaki-spirited-away"
+      ],
+      "countryCode": "JP",
+      "category": "artist",
+      "occupation": [
+        "đạo diễn phim hoạt hình",
+        "họa sĩ hoạt họa",
+        "nhà làm phim"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "jan5-miyazaki-ghibli",
+            "jan5-miyazaki-spirited-away"
+          ],
+          "rationale": "Các nguồn trực tiếp ghi nhận công việc hoạt họa, đạo diễn phim và việc đồng sáng lập hãng phim hoạt hình Studio Ghibli."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-hayao-miyazaki",
+      "identityClaims": {
+        "label": "Hayao Miyazaki",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "preferred",
+            "value": "+1941-01-05T00:00:00Z",
+            "references": 13,
+            "precision": 11,
+            "calendar": "Q1985727"
+          },
+          {
+            "rank": "normal",
+            "value": "+1941-01-01T00:00:00Z",
+            "references": 5,
+            "precision": 9,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q17",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q17",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q2526255",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q266569",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q191633",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q7042855",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q3282637",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q822146",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q3578589",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q3455803",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q715301",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q1062952",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q100684552",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q779815",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q222344",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1414443",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q11892507",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q2526255",
+          "Q266569",
+          "Q191633"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q55400",
+        "https://img-lib.musabi.ac.jp/search/index.php/person/detail/12950",
+        "https://www.encyclopedia.com/arts/educational-magazines/miyazaki-hayao-1941"
+      ],
+      "after": {
+        "countryCode": "JP",
+        "category": "artist",
+        "occupation": [
+          "đạo diễn phim hoạt hình",
+          "họa sĩ hoạt họa",
+          "nhà làm phim"
+        ],
+        "fields": [
+          "design-creative"
+        ],
+        "lifeStatus": "unknown",
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q55400",
+          "https://img-lib.musabi.ac.jp/search/index.php/person/detail/12950",
+          "https://www.encyclopedia.com/arts/educational-magazines/miyazaki-hayao-1941"
+        ]
+      }
+    },
+    {
+      "id": "paramahansa-yogananda",
+      "name": "Paramahansa Yogananda",
+      "wikidataId": "Q312549",
+      "birthDate": "1893-01-05",
+      "lifeStatus": "deceased",
+      "deathDate": "1952-03-07",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "yogananda-srf-death"
+      ],
+      "dobSourceIds": [
+        "yogananda-gale-dob",
+        "yogananda-srf-dob"
+      ],
+      "statusSourceId": "yogananda-srf-death",
+      "careerFactIds": [
+        "jan5-yogananda-srf",
+        "jan5-yogananda-autobiography"
+      ],
+      "countryCode": "IN",
+      "category": "history",
+      "occupation": [
+        "đạo sư yoga",
+        "nhà tư tưởng",
+        "nhà văn"
+      ],
+      "fields": [
+        "education-thought"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "education-thought",
+          "careerFactIds": [
+            "jan5-yogananda-srf",
+            "jan5-yogananda-autobiography"
+          ],
+          "rationale": "Hai facts ghi nhận tổ chức giảng dạy yoga/thiền và tác phẩm tự truyện có ảnh hưởng của Yogananda."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-paramahansa-yogananda",
+      "identityClaims": {
+        "label": "Paramahansa Yogananda",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1893-01-05T00:00:00Z",
+            "references": 5,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1952-03-07T00:00:00Z",
+            "references": 5,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "preferred",
+            "value": "Q129286",
+            "references": 1
+          },
+          {
+            "rank": "preferred",
+            "value": "Q668",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1775277",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q668",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q4964182",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q18814623",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q2901587",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q432386",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q2901587",
+          "Q18814623",
+          "Q4964182"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q312549",
+        "https://www.encyclopedia.com/people/philosophy-and-religion/other-religious-beliefs-biographies/paramahansa-yogananda",
+        "https://yogananda.org/a-beloved-world-teacher"
+      ],
+      "after": {
+        "countryCode": "IN",
+        "category": "history",
+        "occupation": [
+          "đạo sư yoga",
+          "nhà tư tưởng",
+          "nhà văn"
+        ],
+        "fields": [
+          "education-thought"
+        ],
+        "lifeStatus": "deceased",
+        "deathDate": "1952-03-07",
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q312549",
+          "https://www.encyclopedia.com/people/philosophy-and-religion/other-religious-beliefs-biographies/paramahansa-yogananda",
+          "https://yogananda.org/a-beloved-world-teacher"
+        ]
+      }
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "jan5-eco-semiotics",
+      "profileId": "umberto-eco",
+      "displayText": "Từ năm 1975, Umberto Eco là giáo sư chính thức ngành ký hiệu học tại Đại học Bologna.",
+      "sourceId": "eco-unibo-professor",
+      "evidencePhrase": "From 1975, Umberto Eco was Full Professor of Semiotics"
+    },
+    {
+      "id": "jan5-eco-rose",
+      "profileId": "umberto-eco",
+      "displayText": "Tiểu thuyết The Name of the Rose (1980) mở đầu mạch sáng tác văn học của Eco.",
+      "sourceId": "eco-unibo-rose",
+      "evidencePhrase": "literary work, which began with The Name of the Rose (1980)"
+    },
+    {
+      "id": "jan5-adenauer-chancellor",
+      "profileId": "konrad-adenauer",
+      "displayText": "Konrad Adenauer là Thủ tướng đầu tiên của Cộng hòa Liên bang Đức từ năm 1949 đến 1963.",
+      "sourceId": "adenauer-bpb",
+      "evidencePhrase": "1949–63 erster dt. Bundeskanzler"
+    },
+    {
+      "id": "jan5-adenauer-mayor",
+      "profileId": "konrad-adenauer",
+      "displayText": "Ông làm Thị trưởng Köln giai đoạn 1917–1933 và một số tháng năm 1945.",
+      "sourceId": "adenauer-bpb",
+      "evidencePhrase": "Von 1917–33 sowie 1945 für einige Monate Oberbürgermeister von Köln"
+    },
+    {
+      "id": "jan5-steinmeier-president",
+      "profileId": "frank-walter-steinmeier",
+      "displayText": "Ngày 12/2/2017, Đại hội Liên bang Đức bầu Steinmeier làm Tổng thống thứ 12 của nước này.",
+      "sourceId": "steinmeier-president-election",
+      "evidencePhrase": "Am 12. Februar 2017 wurde Frank-Walter Steinmeier zum 12. Bundespräsidenten"
+    },
+    {
+      "id": "jan5-steinmeier-foreign-minister",
+      "profileId": "frank-walter-steinmeier",
+      "displayText": "Ông giữ chức Bộ trưởng Ngoại giao Liên bang Đức từ tháng 11/2005 đến tháng 10/2009.",
+      "sourceId": "steinmeier-bundestag-foreign",
+      "evidencePhrase": "November 2005 bis Oktober 2009 Bundesminister des Auswärtigen"
+    },
+    {
+      "id": "jan5-miyazaki-ghibli",
+      "profileId": "hayao-miyazaki",
+      "displayText": "Năm 1985, Miyazaki cùng đạo diễn Isao Takahata thành lập Studio Ghibli.",
+      "sourceId": "miyazaki-musabi-career",
+      "evidencePhrase": "1985年に高畑勲とともに設立したアニメーション制作会社スタジオ・ジブリ"
+    },
+    {
+      "id": "jan5-miyazaki-spirited-away",
+      "profileId": "hayao-miyazaki",
+      "displayText": "Phim Spirited Away do Miyazaki đạo diễn được trao giải Academy Award cho phim hoạt hình xuất sắc.",
+      "sourceId": "miyazaki-gale-career",
+      "evidencePhrase": "Spirited Away received the Academy Award for best animated feature film"
+    },
+    {
+      "id": "jan5-yogananda-srf",
+      "profileId": "paramahansa-yogananda",
+      "displayText": "Năm 1920, Yogananda thành lập Self-Realization Fellowship để phổ biến triết học yoga và thiền định.",
+      "sourceId": "yogananda-srf-founder",
+      "evidencePhrase": "That same year he founded Self-Realization Fellowship"
+    },
+    {
+      "id": "jan5-yogananda-autobiography",
+      "profileId": "paramahansa-yogananda",
+      "displayText": "Tự truyện Autobiography of a Yogi của Yogananda được xuất bản năm 1946 và có ảnh hưởng đến độc giả Mỹ.",
+      "sourceId": "yogananda-gale-book",
+      "evidencePhrase": "Autobiography of a Yogi (1946)"
+    }
+  ],
+  "wikidataReview": {
+    "scope": "P31/P569/P570/P27/P106 captured directly for all three existing January 5 profiles and two new profiles.",
+    "profiles": {
+      "umberto-eco": {
+        "P31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "P569": [
+          {
+            "rank": "normal",
+            "value": "+1932-01-05T00:00:00Z",
+            "references": 21,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "P570": [
+          {
+            "rank": "normal",
+            "value": "+2016-02-19T00:00:00Z",
+            "references": 15,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "P27": [
+          {
+            "rank": "normal",
+            "value": "Q38",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q172579",
+            "references": 0
+          }
+        ],
+        "P106": [
+          {
+            "rank": "normal",
+            "value": "Q4964182",
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "value": "Q6625963",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q11774202",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q1231865",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q333634",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q21694753",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "value": "Q4263842",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q3332711",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q17167049",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q201788",
+            "references": 2
+          }
+        ],
+        "label": "Umberto Eco"
+      },
+      "konrad-adenauer": {
+        "P31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "P569": [
+          {
+            "rank": "normal",
+            "value": "+1876-01-05T00:00:00Z",
+            "references": 17,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "P570": [
+          {
+            "rank": "normal",
+            "value": "+1967-04-19T00:00:00Z",
+            "references": 16,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "P27": [
+          {
+            "rank": "normal",
+            "value": "Q27306",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q183",
+            "references": 0
+          }
+        ],
+        "P106": [
+          {
+            "rank": "normal",
+            "value": "Q40348",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q16533",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q335757",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1397808",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q18814623",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q56022",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q10732476",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q82955",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q147733",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q185351",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2285706",
+            "references": 1
+          }
+        ],
+        "label": "Konrad Adenauer"
+      },
+      "frank-walter-steinmeier": {
+        "P31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "P569": [
+          {
+            "rank": "normal",
+            "value": "+1956-01-05T00:00:00Z",
+            "references": 9,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "P570": [],
+        "P27": [
+          {
+            "rank": "normal",
+            "value": "Q183",
+            "references": 1
+          }
+        ],
+        "P106": [
+          {
+            "rank": "preferred",
+            "value": "Q82955",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q40348",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q12416358",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q185351",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q7330070",
+            "references": 1
+          }
+        ],
+        "label": "Frank-Walter Steinmeier"
+      },
+      "hayao-miyazaki": {
+        "P31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "P569": [
+          {
+            "rank": "preferred",
+            "value": "+1941-01-05T00:00:00Z",
+            "references": 13,
+            "precision": 11,
+            "calendar": "Q1985727"
+          },
+          {
+            "rank": "normal",
+            "value": "+1941-01-01T00:00:00Z",
+            "references": 5,
+            "precision": 9,
+            "calendar": "Q1985727"
+          }
+        ],
+        "P570": [],
+        "P27": [
+          {
+            "rank": "normal",
+            "value": "Q17",
+            "references": 1
+          }
+        ],
+        "P106": [
+          {
+            "rank": "normal",
+            "value": "Q2526255",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q266569",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q191633",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q7042855",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q3282637",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q822146",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q3578589",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q3455803",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q715301",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q1062952",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q100684552",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q779815",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q222344",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1414443",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q11892507",
+            "references": 1
+          }
+        ],
+        "label": "Hayao Miyazaki"
+      },
+      "paramahansa-yogananda": {
+        "P31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "P569": [
+          {
+            "rank": "normal",
+            "value": "+1893-01-05T00:00:00Z",
+            "references": 5,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "P570": [
+          {
+            "rank": "normal",
+            "value": "+1952-03-07T00:00:00Z",
+            "references": 5,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "P27": [
+          {
+            "rank": "preferred",
+            "value": "Q129286",
+            "references": 1
+          },
+          {
+            "rank": "preferred",
+            "value": "Q668",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1775277",
+            "references": 0
+          }
+        ],
+        "P106": [
+          {
+            "rank": "normal",
+            "value": "Q4964182",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q18814623",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q2901587",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q432386",
+            "references": 1
+          }
+        ],
+        "label": "Paramahansa Yogananda"
+      }
+    },
+    "conflicts": [
+      {
+        "profileId": "hayao-miyazaki",
+        "wikidataId": "Q55400",
+        "property": "P569",
+        "selectedDate": "1941-01-05",
+        "activeClaims": [
+          {
+            "rank": "preferred",
+            "date": "1941-01-05",
+            "precision": 11,
+            "references": 13
+          },
+          {
+            "rank": "normal",
+            "date": "1941-01-01",
+            "precision": 9,
+            "references": 5
+          }
+        ],
+        "resolution": "The active 1941-01-01 P569 claim has precision 9 (year only), so it records the year 1941 rather than an exact competing birthday. The preferred precision-11 P569 claim and independent Musashino Art University and Gale records support 5 January 1941; retain the exact local date and record the lower-precision claim explicitly."
+      }
+    ]
+  }
+}

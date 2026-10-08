@@ -1,0 +1,294 @@
+import { createHash } from 'node:crypto';
+import rawEvidence from '../.ai/evidence/BV017-january-11-batch.json';
+import { ALL_PEOPLE } from '../src/data/birthdays';
+import { PERSON_FIELD_LABELS, type PersonField } from '../src/data/types';
+
+type Capture = {
+  id: string;
+  url: string;
+  publisher: string;
+  publisherHost: string;
+  status: number;
+  contentType: string;
+  bytesRead: number;
+  sha256: string;
+  verificationMethod: string;
+  excerpt: string;
+  excerptSha256: string;
+};
+
+type Profile = {
+  id: string;
+  name: string;
+  wikidataId: string;
+  birthDate: string;
+  lifeStatus: 'living' | 'deceased' | 'unknown';
+  deathDate: string | null;
+  deathDatePrecision?: 'year' | 'month' | 'day' | 'presumed-day';
+  deathDateSourceIds?: readonly string[];
+  dobSourceIds: readonly string[];
+  statusSourceId?: string;
+  statusEvidenceAsOf?: string;
+  careerFactIds: readonly string[];
+  countryCode?: string;
+  category?: string;
+  occupation?: readonly string[];
+  birthplace?: string;
+  wikidataLabel?: string;
+  birthplaceEvidencePhrase?: string;
+  fields?: readonly PersonField[];
+  fieldEvidence?: readonly { field: PersonField; careerFactIds: readonly string[]; rationale: string }[];
+  wikidataCaptureId?: string;
+  identityClaims?: {
+    label: string;
+    p31: readonly { rank: string; value: string; references: number }[];
+    p569: readonly { rank: string; value: string; precision: number; calendar: string; references: number }[];
+    p570: readonly { rank: string; value: string; precision: number; calendar: string; references: number }[];
+    p27: readonly { rank: string; value: string }[];
+    selectedCountryQid: string;
+    p106: readonly { rank: string; value: string }[];
+    selectedOccupationQids: readonly string[];
+  };
+  sourceUrls: readonly string[];
+  before?: Record<string, unknown>;
+  after?: Record<string, unknown>;
+};
+
+type CareerFact = { id: string; profileId: string; displayText: string; sourceId: string; evidencePhrase: string };
+type JanuaryEvidence = {
+  schemaVersion: number;
+  cycle: string;
+  batch: string;
+  sourceCaptures: readonly Capture[];
+  legacyProfiles: readonly Profile[];
+  newProfiles: readonly Profile[];
+  careerFacts: readonly CareerFact[];
+  wikidataReview: { profiles: Record<string, { label: string; p31: readonly { rank: string; value: string; references: number }[]; p569: readonly { rank: string; value: string; precision: number; calendar: string; references: number }[]; p570: readonly { rank: string; value: string; precision: number; calendar: string; references: number }[]; p27: readonly { rank: string; value: string; references: number }[]; p106: readonly { rank: string; value: string; references: number }[] }>; conflicts: readonly { profileId: string; wikidataId: string; property: string; selectedDate: string; activeClaims: readonly { rank: string; date: string; precision: number; references: number }[]; resolution: string }[] };
+};
+
+const evidence = rawEvidence as unknown as JanuaryEvidence;
+const EXPECTED_MANIFEST_SHA256 = 'e8e5c9a6c0cbb94ff962918fabd70be0918224e08b6384781bcf937c854b5529';
+const GREGORIAN_QID = 'Q1985727';
+export const BV017_JAN11_NEW_IDS = new Set(evidence.newProfiles.map((profile) => profile.id));
+export const BV017_JAN11_REVIEWED_IDS = new Set([...evidence.legacyProfiles, ...evidence.newProfiles].map((profile) => profile.id));
+
+function stableSerialize(value: unknown): string {
+  if (Array.isArray(value)) return '[' + value.map(stableSerialize).join(',') + ']';
+  if (value && typeof value === 'object') {
+    const record = value as Record<string, unknown>;
+    return '{' + Object.keys(record).sort().map((key) => JSON.stringify(key) + ':' + stableSerialize(record[key])).join(',') + '}';
+  }
+  return JSON.stringify(value) ?? 'null';
+}
+
+function sha256(value: string): string {
+  return createHash('sha256').update(value).digest('hex');
+}
+
+function hostOf(url: string): string {
+  try { return new URL(url).hostname.toLowerCase(); } catch { return ''; }
+}
+
+function hasExactDobExcerpt(capture: Capture, birthDate: string): boolean {
+  const [year, month, day] = birthDate.split('-');
+  const monthName = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][Number(month) - 1];
+  const abbreviatedMonth = ['Jan.', 'Feb.', 'Mar.', 'Apr.', 'May', 'Jun.', 'Jul.', 'Aug.', 'Sep.', 'Oct.', 'Nov.', 'Dec.'][Number(month) - 1];
+  const ordinal = Number(day) === 1 ? 'st' : Number(day) === 2 ? 'nd' : Number(day) === 3 ? 'rd' : 'th';
+  const normalizedExcerpt = capture.excerpt.toLocaleLowerCase();
+  return [
+    birthDate,
+    `${Number(day)} ${monthName} ${year}`,
+    `${Number(day)} ${monthName}, ${year}`,
+    `${Number(day)}${ordinal} ${monthName} ${year}`,
+    `${monthName} ${Number(day)}, ${year}`,
+    `${abbreviatedMonth} ${Number(day)}, ${year}`,
+    `${abbreviatedMonth.replace('.', '')} ${Number(day)}, ${year}`,
+    `${monthName} ${day}, ${year}`,
+    `${Number(day)} January, ${year}`,
+    `${Number(day)}. ${['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'][Number(month) - 1]} ${year}`,
+    `${year} ${Number(day)}. ${['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'][Number(month) - 1]}`,
+    `${Number(day)}.${Number(month)}.${year}`,
+    `${year}/${month}/${day}`,
+    `${year} ${month} ${day}`,
+    `${day}.${month}.${year}`,
+    `${Number(day)}. ${['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'][Number(month) - 1]} ${year}`,
+    `${Number(day)}.${Number(month)}.${year}`,
+    `${day}-${month}-${year}`,
+    `${Number(day)}-${Number(month)}-${year}`,
+    `${day}/${month}/${year}`,
+    `${Number(day)}/${Number(month)}/${year}`,
+    `${Number(day)}/${month}/${year}`,
+    `${monthName} ${Number(day)},${year}`,
+    `${Number(day)} janvier ${year}`,
+    `${Number(day)} gennaio ${year}`,
+    `${Number(day)} gennaio, ${year}`,
+  ].some((dateText) => normalizedExcerpt.includes(dateText.toLocaleLowerCase()))
+    || new RegExp('(?:^|\\D)' + Number(day) + '\\s*[./-]\\s*' + Number(month) + '\\s*[./-]\\s*' + year + '(?:\\D|$)', 'i').test(capture.excerpt)
+    || normalizedExcerpt.includes(`${year}年${Number(month)}月${Number(day)}日`);
+}
+
+function hasExactDeathDateExcerpt(capture: Capture, deathDate: string): boolean {
+  const [year, month, day] = deathDate.split('-');
+  const monthName = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][Number(month) - 1];
+  const ordinal = Number(day) === 1 ? 'st' : Number(day) === 2 ? 'nd' : Number(day) === 3 ? 'rd' : 'th';
+  const germanMonthName = ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'][Number(month) - 1];
+  return [
+    deathDate,
+    `${Number(day)} ${monthName} ${year}`,
+    `${Number(day)} ${monthName}, ${year}`,
+    `${Number(day)}${ordinal} ${monthName} ${year}`,
+    `${monthName} ${Number(day)}, ${year}`,
+    `${monthName} ${day}, ${year}`,
+    `${monthName} ${Number(day)} ${year}`,
+    `${year} ${month} ${day}`,
+    `${day}.${month}.${year}`,
+    `${Number(day)}.${Number(month)}.${year}`,
+    `${day}/${month}/${year}`,
+    `${Number(day)}/${Number(month)}/${year}`,
+    `${Number(day)}. ${germanMonthName} ${year}`,
+    `${day}. ${germanMonthName} ${year}`,
+  ].some((dateText) => capture.excerpt.includes(dateText))
+    || new RegExp('(?:^|\\D)' + Number(day) + '\\s*[./-]\\s*' + Number(month) + '\\s*[./-]\\s*' + year + '(?:\\D|$)').test(capture.excerpt);
+}
+
+export function runBv017January11BatchIntegrity(
+  assert: (suite: string, condition: boolean, message: string) => void,
+): void {
+  console.log('Checking Rule AX: evidence-backed BV-017 January 11 review and expansion batch...');
+  const stableHash = createHash('sha256').update(stableSerialize(evidence)).digest('hex');
+  assert('Rule AX manifest', stableHash === EXPECTED_MANIFEST_SHA256, 'January 11 captures, profile decisions, corrections, and Wikidata extracts must match the pinned review hash');
+  assert('Rule AX scope', evidence.schemaVersion === 1 && evidence.cycle === 'BV-017' && evidence.batch === '2026-01-11', 'January 11 batch must identify the active BV-017 cycle and exact calendar date');
+  assert('Rule AX scope', evidence.legacyProfiles.length === 3 && evidence.newProfiles.length === 2 && evidence.careerFacts.length === 10, 'January 11 batch must review three existing and add two profiles with two facts each');
+
+  const capturesById = new Map(evidence.sourceCaptures.map((capture) => [capture.id, capture]));
+  assert('Rule AX captures', capturesById.size === evidence.sourceCaptures.length && evidence.sourceCaptures.length === 31, 'All thirty-one source capture IDs must be unique and retained');
+  for (const capture of evidence.sourceCaptures) {
+    let validUrl = false;
+    try { validUrl = new URL(capture.url).protocol === 'https:'; } catch { validUrl = false; }
+    assert('Rule AX captures', capture.status === 200 && capture.bytesRead > 0 && /^[a-f0-9]{64}$/.test(capture.sha256), capture.id + ' must retain a successful body capture, byte count, and SHA-256');
+    assert('Rule AX captures', validUrl && hostOf(capture.url) === capture.publisherHost.toLowerCase() && capture.publisher.trim().length > 2, capture.id + ' must identify an HTTPS source and its exact publisher host');
+    assert('Rule AX captures', capture.excerpt.trim().length > 20 && sha256(capture.excerpt) === capture.excerptSha256, capture.id + ' reviewed excerpt must match its pinned text hash');
+    assert('Rule AX captures', capture.verificationMethod.startsWith('direct-http'), capture.id + ' must identify a direct HTTP capture');
+  }
+
+  const factsById = new Map(evidence.careerFacts.map((fact) => [fact.id, fact]));
+  const peopleById = new Map(ALL_PEOPLE.map((person) => [person.id, person]));
+  const profileRows = [...evidence.legacyProfiles, ...evidence.newProfiles];
+  const profileIds = new Set(profileRows.map((profile) => profile.id));
+  assert('Rule AX identity', profileIds.size === profileRows.length, 'Reviewed January 11 profile IDs must be unique');
+  assert('Rule AX identity', stableSerialize([...profileIds].sort()) === stableSerialize(['alice-paul', 'kailash-satyarthi', 'mary-j-blige', 'nguyen-hoang-duc', 'roger-guillemin'].sort()), 'January 11 evidence must bind exactly the three reviewed legacy profiles and two reviewed additions');
+
+  for (const profile of profileRows) {
+    const person = peopleById.get(profile.id);
+    assert('Rule AX identity', Boolean(person), profile.id + ' must exist in the local people dataset');
+    if (!person) continue;
+    assert('Rule AX identity', person.name === profile.name && person.wikidataId === profile.wikidataId && person.birthDate === profile.birthDate, profile.id + ' name, Wikidata identity, and exact DOB must match reviewed evidence');
+    assert('Rule AX date', person.birthMonth === 1 && person.birthDay === 11 && profile.birthDate.endsWith('-01-11'), profile.id + ' must belong to January 11');
+    assert('Rule AX status', (person.lifeStatus ?? 'unknown') === profile.lifeStatus && (person.deathDate ?? null) === profile.deathDate, profile.id + ' local status and death date must match the reviewed decision');
+
+    const dobSources = profile.dobSourceIds.map((id) => capturesById.get(id)).filter((capture): capture is Capture => Boolean(capture));
+    assert('Rule AX DOB', dobSources.length === 2 && new Set(dobSources.map((source) => source.publisherHost)).size === 2, profile.id + ' must have two independent retained DOB source hosts');
+    for (const source of dobSources) {
+      assert('Rule AX DOB', hasExactDobExcerpt(source, profile.birthDate), profile.id + ' DOB capture ' + source.id + ' must state the exact day, month, and year');
+      assert('Rule AX sources', profile.sourceUrls.includes(source.url) && person.sourceUrls?.includes(source.url) === true, profile.id + ' DOB sources must remain on the profile and in its evidence row');
+    }
+
+    if (profile.lifeStatus === 'deceased') {
+      assert('Rule AX status', Boolean(profile.deathDate && profile.deathDatePrecision === 'day' && (profile.deathDateSourceIds || []).length > 0), profile.id + ' exact death date requires a dedicated captured source');
+      for (const id of profile.deathDateSourceIds || []) {
+        const source = capturesById.get(id);
+        assert('Rule AX status', Boolean(source && profile.deathDate && hasExactDeathDateExcerpt(source, profile.deathDate) && profile.sourceUrls.includes(source.url) && person.deathDateSourceUrls?.includes(source.url)), profile.id + ' exact death date must appear in a captured source retained on the profile');
+      }
+    } else {
+      assert('Rule AX status', profile.deathDate === null && person.deathDate === undefined, profile.id + ' without a sourced death date must not be assigned one');
+    }
+
+    if (profile.lifeStatus !== 'unknown') {
+      const statusSource = capturesById.get(profile.statusSourceId || '');
+      assert('Rule AX status', Boolean(statusSource && profile.sourceUrls.includes(statusSource.url) && person.sourceUrls?.includes(statusSource.url)), profile.id + ' living/deceased status must have a directly captured source retained on the profile');
+      if (profile.lifeStatus === 'living') {
+        const hasCurrentIdentityEvidence = profile.id === 'kailash-satyarthi'
+          ? Boolean(statusSource && statusSource.url.includes('satyarthi.org.in/our-founder') && statusSource.excerpt.includes('continues fighting for child rights'))
+          : profile.id === 'nguyen-hoang-duc'
+            ? Boolean(statusSource && statusSource.url.includes('vpf.vn/player/nguyen-hoang-duc') && statusSource.excerpt.includes('2026/27'))
+            : profile.id === 'mary-j-blige'
+              ? Boolean(statusSource && statusSource.url.includes('maryjblige.com/announcements/upcoming-shows') && statusSource.excerpt.includes('two upcoming concerts') && statusSource.excerpt.includes('November 18th'))
+              : false;
+        const expectedStatusEvidenceDate = '2026-10-08';
+        assert('Rule AX status', hasCurrentIdentityEvidence && profile.statusEvidenceAsOf === expectedStatusEvidenceDate, profile.id + ' living status must have a recent identity-matched source and an explicit evidence date');
+      } else {
+        assert('Rule AX status', Boolean(statusSource && profile.deathDateSourceIds?.includes(statusSource.id)), profile.id + ' deceased status must bind to its direct death-date capture');
+      }
+    }
+
+    const profileFacts = profile.careerFactIds.map((id) => factsById.get(id)).filter((fact): fact is CareerFact => Boolean(fact));
+    assert('Rule AX career facts', profileFacts.length === 2 && profileFacts.every((fact) => fact.profileId === profile.id), profile.id + ' must map exactly two direct career facts to its identity');
+    const fieldEvidence = profile.fieldEvidence || [];
+    assert('Rule AX fields', stableSerialize(person.fields || []) === stableSerialize(profile.fields || []) && fieldEvidence.length === (profile.fields || []).length && fieldEvidence.every((row) => profile.fields?.includes(row.field) && row.rationale.trim().length > 30 && row.careerFactIds.length > 0 && row.careerFactIds.every((id) => profile.careerFactIds.includes(id))), profile.id + ' every assigned field must match the profile and cite related reviewed career facts');
+    for (const fact of profileFacts) {
+      const source = capturesById.get(fact.sourceId);
+      assert('Rule AX career facts', Boolean(source && source.status === 200 && source.excerpt.includes(fact.evidencePhrase)), fact.id + ' evidence phrase must appear in its captured publisher excerpt');
+      assert('Rule AX career facts', person.highlights?.includes(fact.displayText) === true && fact.displayText.trim().length >= 35, fact.id + ' displayed highlight must match the source-supported fact');
+      assert('Rule AX career facts', Boolean(source && profile.sourceUrls.includes(source.url) && person.sourceUrls?.includes(source.url)), fact.id + ' source URL must remain on the local profile');
+    }
+
+    if (profile.after) {
+      const current = person as unknown as Record<string, unknown>;
+      for (const [field, expected] of Object.entries(profile.after)) {
+        const actual = current[field] === undefined ? null : current[field];
+        assert('Rule AX corrections', stableSerialize(actual) === stableSerialize(expected), profile.id + ' current ' + field + ' must match the reviewed correction');
+      }
+    }
+
+    if (BV017_JAN11_NEW_IDS.has(profile.id)) {
+      assert('Rule AX new profile fields', person.countryCode === profile.countryCode && person.category === profile.category && stableSerialize(person.occupation) === stableSerialize(profile.occupation), profile.id + ' country, category, and occupation must match the evidence row');
+      const birthplaceSource = profile.dobSourceIds.map((id) => capturesById.get(id)).find((source) => source?.excerpt.includes(profile.birthplaceEvidencePhrase || ''));
+      assert('Rule AX birthplace', Boolean(profile.birthplace && person.birthplace === profile.birthplace && profile.birthplaceEvidencePhrase && birthplaceSource), profile.id + ' birthplace must match a DOB source excerpt retained in the evidence batch');
+      assert('Rule AX fields', stableSerialize(person.fields) === stableSerialize(profile.fields) && (profile.fields || []).every((field) => Object.hasOwn(PERSON_FIELD_LABELS, field)), profile.id + ' field tags must be valid and match the evidence allowlist');
+      assert('Rule AX content', person.image === '/people/placeholder.svg' && Boolean(person.biography?.trim() && person.shortDescription?.trim()), profile.id + ' must retain a substantive profile and neutral image placeholder');
+      const identity = profile.identityClaims;
+      const wdCapture = capturesById.get(profile.wikidataCaptureId || '');
+      const wdPageUrl = 'https://www.wikidata.org/wiki/' + profile.wikidataId;
+      assert('Rule AX Wikidata', Boolean(identity && wdCapture && wdCapture.url.endsWith('/' + profile.wikidataId + '.json') && profile.sourceUrls.includes(wdPageUrl) && person.sourceUrls?.includes(wdPageUrl)), profile.id + ' must retain a direct Wikidata entity capture and profile page source');
+      if (identity) {
+        assert('Rule AX Wikidata', identity.label === (profile.wikidataLabel || profile.name) && identity.p31.some((claim) => claim.rank !== 'deprecated' && claim.value === 'Q5'), profile.id + ' active P31 must identify the matching human');
+        assert('Rule AX Wikidata', identity.p569.some((claim) => claim.rank !== 'deprecated' && claim.value === '+' + profile.birthDate + 'T00:00:00Z' && claim.precision === 11 && claim.calendar === GREGORIAN_QID), profile.id + ' P569 must state the exact Gregorian birth date');
+        if (profile.deathDate) assert('Rule AX Wikidata', identity.p570.some((claim) => claim.rank !== 'deprecated' && claim.value === '+' + profile.deathDate + 'T00:00:00Z' && claim.precision === 11 && claim.calendar === GREGORIAN_QID), profile.id + ' P570 must agree with the independently sourced exact death date');
+        assert('Rule AX Wikidata', identity.p27.some((claim) => claim.rank !== 'deprecated' && claim.value === identity.selectedCountryQid) && identity.p106.some((claim) => claim.rank !== 'deprecated' && identity.selectedOccupationQids.includes(claim.value)), profile.id + ' country and occupation must match active P27/P106 claims');
+      }
+    }
+  }
+
+  const p569ConflictsByProfile = new Map(evidence.wikidataReview.conflicts.filter((row) => row.property === 'P569').map((row) => [row.profileId, row]));
+  const p570ConflictsByProfile = new Map(evidence.wikidataReview.conflicts.filter((row) => row.property === 'P570').map((row) => [row.profileId, row]));
+  assert('Rule AX Wikidata', p569ConflictsByProfile.size === 0, 'January 11 audit must account for every P569 conflict; none are present in this batch');
+  assert('Rule AX Wikidata', p570ConflictsByProfile.size === 1 && p570ConflictsByProfile.has('alice-paul'), 'January 11 audit must document Alice Paul’s preferred 1977 and lower-rank 1978 P570 dates');
+  const aliceDeathConflict = p570ConflictsByProfile.get('alice-paul');
+  assert('Rule AX Wikidata conflict', Boolean(aliceDeathConflict && aliceDeathConflict.wikidataId === 'Q127328' && aliceDeathConflict.selectedDate === '1977-07-09' && aliceDeathConflict.activeClaims.length === 2 && aliceDeathConflict.activeClaims.some((claim) => claim.rank === 'preferred' && claim.date === '1977-07-09' && claim.precision === 11) && aliceDeathConflict.activeClaims.some((claim) => claim.rank === 'normal' && claim.date === '1978-07-09' && claim.precision === 11) && aliceDeathConflict.resolution.includes('NPS')), 'Alice Paul’s P570 disagreement must retain both active exact dates and the independently sourced resolution');
+  for (const profile of profileRows) {
+    const identity = profile.identityClaims;
+    const capture = capturesById.get(profile.wikidataCaptureId || '');
+    assert('Rule AX Wikidata', Boolean(identity && capture && capture.url.endsWith('/' + profile.wikidataId + '.json') && capture.verificationMethod.startsWith('direct-http-json')), profile.id + ' must retain a direct entity capture and a parsed P31/P569/P570/P27/P106 audit');
+    if (!identity) continue;
+    const activeP31 = identity.p31.filter((claim) => claim.rank !== 'deprecated');
+    const activeP569 = identity.p569.filter((claim) => claim.rank !== 'deprecated');
+    assert('Rule AX Wikidata', activeP31.some((claim) => claim.value === 'Q5'), profile.id + ' active P31 must identify a human');
+    assert('Rule AX Wikidata', activeP569.some((claim) => claim.value === '+' + profile.birthDate + 'T00:00:00Z' && claim.precision === 11 && claim.calendar === GREGORIAN_QID), profile.id + ' must have an active precise Gregorian P569 matching the source-verified DOB');
+    if (profile.deathDate) assert('Rule AX Wikidata', identity.p570.some((claim) => claim.rank !== 'deprecated' && claim.value === '+' + profile.deathDate + 'T00:00:00Z' && claim.precision === 11 && claim.calendar === GREGORIAN_QID), profile.id + ' P570 must match the source-verified death date');
+    const disagreements = activeP569.filter((claim) => claim.value !== '+' + profile.birthDate + 'T00:00:00Z');
+    const conflict = p569ConflictsByProfile.get(profile.id);
+    assert('Rule AX Wikidata', disagreements.length === (conflict ? 1 : 0), profile.id + ' every active P569 disagreement must have exactly one explicit resolution row');
+    if (conflict) {
+      assert('Rule AX Wikidata conflict', conflict.wikidataId === profile.wikidataId && conflict.property === 'P569' && conflict.selectedDate === profile.birthDate && conflict.activeClaims.length === activeP569.length, profile.id + ' P569 conflict review must bind the QID, selected date, and all active claims');
+      assert('Rule AX Wikidata conflict', conflict.activeClaims.some((claim) => claim.date === profile.birthDate && claim.precision === 11) && conflict.activeClaims.some((claim) => claim.date.startsWith(profile.birthDate.slice(0, 4) + '-') && claim.precision === 9) && conflict.resolution.includes('year-precision'), profile.id + ' P569 review must retain the exact day claim and document the year-only claim');
+    }
+  }
+
+  for (const fact of evidence.careerFacts) {
+    assert('Rule AX career facts', profileIds.has(fact.profileId), fact.id + ' must belong to a reviewed January 11 profile');
+    assert('Rule AX career facts', fact.evidencePhrase.length > 15 && fact.displayText.length > 30, fact.id + ' must include a specific source phrase and nontrivial displayed claim');
+  }
+  const jan11People = ALL_PEOPLE.filter((person) => person.birthMonth === 1 && person.birthDay === 11);
+  assert('Rule AX daily coverage', jan11People.length === 5 && jan11People.every((person) => profileIds.has(person.id)), 'January 11 must contain exactly five profiles admitted by this reviewed evidence batch');
+  assert('Rule AX new IDs', BV017_JAN11_NEW_IDS.size === 2 && evidence.newProfiles.every((profile) => BV017_JAN11_NEW_IDS.has(profile.id)), 'The new-profile exclusion set must contain exactly the two January 11 additions');
+}

@@ -6,6 +6,18 @@ import B013_EVIDENCE from '../.ai/evidence/B013.json';
 import B014_EVIDENCE from '../.ai/evidence/B014.json';
 import { B015_B016_NEW_IDS, runB015B016Integrity } from './test-integrity-b015-b016';
 import { BV017_EXPANSION_NEW_IDS } from './test-bv017-expansion-pilot';
+import { BV017_JAN1_NEW_IDS, BV017_JAN1_REVIEWED_IDS, runBv017January1BatchIntegrity } from './test-bv017-january-1-batch';
+import { BV017_JAN2_NEW_IDS, BV017_JAN2_REVIEWED_IDS, runBv017January2BatchIntegrity } from './test-bv017-january-2-batch';
+import { BV017_JAN3_NEW_IDS, BV017_JAN3_REVIEWED_IDS, runBv017January3BatchIntegrity } from './test-bv017-january-3-batch';
+import { BV017_JAN4_NEW_IDS, BV017_JAN4_REVIEWED_IDS, runBv017January4BatchIntegrity } from './test-bv017-january-4-batch';
+import { BV017_JAN5_NEW_IDS, BV017_JAN5_REVIEWED_IDS, runBv017January5BatchIntegrity } from './test-bv017-january-5-batch';
+import { BV017_JAN6_NEW_IDS, BV017_JAN6_REVIEWED_IDS, runBv017January6BatchIntegrity } from './test-bv017-january-6-batch';
+import { BV017_JAN7_NEW_IDS, BV017_JAN7_REVIEWED_IDS, runBv017January7BatchIntegrity } from './test-bv017-january-7-batch';
+import { BV017_JAN8_NEW_IDS, BV017_JAN8_REVIEWED_IDS, runBv017January8BatchIntegrity } from './test-bv017-january-8-batch';
+import { BV017_JAN9_NEW_IDS, BV017_JAN9_REVIEWED_IDS, runBv017January9BatchIntegrity } from './test-bv017-january-9-batch';
+import { BV017_JAN10_NEW_IDS, BV017_JAN10_REVIEWED_IDS, runBv017January10BatchIntegrity } from './test-bv017-january-10-batch';
+import { BV017_JAN11_NEW_IDS, BV017_JAN11_REVIEWED_IDS, runBv017January11BatchIntegrity } from './test-bv017-january-11-batch';
+import { BV017_JAN12_NEW_IDS, BV017_JAN12_REVIEWED_IDS, runBv017January12BatchIntegrity } from './test-bv017-january-12-batch';
 import { projectPersonBeforeBv017, sourceUrlsBeforeBv017, verifyBv017CorrectionManifest } from './bv017-corrections';
 
 interface Failure {
@@ -642,7 +654,8 @@ for (const p of ALL_PEOPLE) {
     }
   }
 
-  const isOldPerson = OLD_30_PERSON_IDS.has(p.id) && p.verifiedAt === '2026-10-03';
+  const isOldPerson = OLD_30_PERSON_IDS.has(p.id)
+    && (p.verifiedAt === '2026-10-03' || BV017_JAN1_REVIEWED_IDS.has(p.id) || BV017_JAN2_REVIEWED_IDS.has(p.id) || BV017_JAN3_REVIEWED_IDS.has(p.id) || (BV017_JAN4_REVIEWED_IDS.has(p.id) || BV017_JAN5_REVIEWED_IDS.has(p.id) || BV017_JAN6_REVIEWED_IDS.has(p.id) || BV017_JAN7_REVIEWED_IDS.has(p.id) || BV017_JAN8_REVIEWED_IDS.has(p.id) || BV017_JAN9_REVIEWED_IDS.has(p.id) || BV017_JAN10_REVIEWED_IDS.has(p.id) || BV017_JAN11_REVIEWED_IDS.has(p.id) || BV017_JAN12_REVIEWED_IDS.has(p.id)));
   if (isOldPerson) continue;
 
   assert(
@@ -672,7 +685,7 @@ for (const p of ALL_PEOPLE) {
     const independentHosts = new Set(independentSources.map(getUrlHostname));
     const institutionalHosts = [
       'britannica.com', 'nobelprize.org', 'olympedia.org', 'loc.gov', 'nps.gov',
-      'oscars.org', 'rockhall.com', 'ecb.europa.eu', 'parliament.uk', 'royal.uk',
+      'oscars.org', 'rockhall.com', 'songhall.org', 'ecb.europa.eu', 'parliament.uk', 'royal.uk',
       'vatican.va', 'carmelitaniscalzi.com', 'therese-de-lisieux.catholique.fr', 'deutsche-biographie.de', 'royalsociety.org',
       'polskabibliotekamuzyczna.pl', 'tolkienestate.com', 'formula1.com', 'innertemplelibrary.org.uk',
       'vpf.vn', 'slnafc.com', 'braillemuseum.org', 'unibo.it', 'dhm.de', 'konrad-adenauer.de',
@@ -706,7 +719,10 @@ for (const p of ALL_PEOPLE) {
       'adk.de', 'invent.org', 'universalmusic.fr', 'bbaw.de', 'prlib.ru', 'snl.no', 'musees-nationaux-alpesmaritimes.fr', 'sciencemuseumgroup.org.uk', 'millercenter.org', 'lex.dk', 'kongehuset.dk', 'televisionacademy.com', 'pen-international.org', 'safeguarddefenders.com', 'english-heritage.org.uk', 'theworldgames.org',
       'canadaswalkoffame.com', 'astridlindgren.com', 'worldathletics.org', 'uzathletics.uz', 'idref.fr', 'datos.bne.es', 'deutsche-kinemathek.de',
       // BV-017 pilot publishers: foundations, public archives, universities, and official organizations.
-      'bloomberg.org', 'ndl.go.jp', 'fhcm.paris', 'qdnd.vn', 'group.softbank',
+      'bloomberg.org', 'ndl.go.jp', 'fhcm.paris', 'qdnd.vn', 'group.softbank', 'musabi.ac.jp', 'yogananda.org', 'bafta.org',
+      'giaophanhatinh.org', 'fondazionepirelli.org', 'gazzettaufficiale.it',
+      'computer.org', 'pas.va', 'artplatform.go.jp', 'arttowermito.or.jp',
+      'chinhphu.vn', 'baochinhphu.vn',
       'iima.ac.in', 'iitk.ac.in', 'uni-muenchen.de', 'alvaraalto.fi', 'thebodyshop.in',
     ];
     const hasInstitutionalSource = independentSources.some((u) => {
@@ -717,6 +733,10 @@ for (const p of ALL_PEOPLE) {
         (VERIFIED_FOREIGN_VN_DOCUMENTS[p.wikidataId || '']?.includes(u) ?? false);
     });
     const reviewedPublisherExceptions: Readonly<Record<string, readonly string[]>> = {
+      // Exact BV-017 January 12 sources reviewed against these identities.
+      'Q45765': ['https://jacklondonpark.com/jack-london-books/'],
+      'Q134798': ['https://www.shinchosha.co.jp/harukimurakami/author.html'],
+      'Q151830': ['https://www.livenation.com/artist/K8vZ9171qI0/melanie-c-events'],
       // Two independently edited foreign obituaries carry the exact full DOB for this Vietnamese former head of state.
       'Q318458': [
         'https://www.theguardian.com/world/2024/jul/30/nguyen-phu-trong-obituary',
@@ -861,8 +881,11 @@ for (let day = 1; day <= 31; day++) {
 console.log('Checking Rule T: January 1-31 additions nationality balance (20%-40% Vietnamese)...');
 const NEW_JAN_PEOPLE = ALL_PEOPLE.filter((p) =>
   p.birthMonth === 1 && p.birthDay >= 1 && p.birthDay <= 31 &&
-  !(OLD_30_PERSON_IDS.has(p.id) && p.verifiedAt === '2026-10-03') &&
+  !(OLD_30_PERSON_IDS.has(p.id) && (p.verifiedAt === '2026-10-03' || BV017_JAN1_REVIEWED_IDS.has(p.id) || BV017_JAN2_REVIEWED_IDS.has(p.id) || BV017_JAN3_REVIEWED_IDS.has(p.id) || (BV017_JAN4_REVIEWED_IDS.has(p.id) || BV017_JAN5_REVIEWED_IDS.has(p.id) || BV017_JAN6_REVIEWED_IDS.has(p.id) || BV017_JAN7_REVIEWED_IDS.has(p.id) || BV017_JAN8_REVIEWED_IDS.has(p.id) || BV017_JAN9_REVIEWED_IDS.has(p.id) || BV017_JAN10_REVIEWED_IDS.has(p.id) || BV017_JAN11_REVIEWED_IDS.has(p.id) || BV017_JAN12_REVIEWED_IDS.has(p.id)))) &&
   !BV017_EXPANSION_NEW_IDS.has(p.id)
+  && !BV017_JAN1_NEW_IDS.has(p.id)
+  && !BV017_JAN2_NEW_IDS.has(p.id)
+  && !BV017_JAN3_NEW_IDS.has(p.id) && !BV017_JAN4_NEW_IDS.has(p.id) && !BV017_JAN5_NEW_IDS.has(p.id) && !BV017_JAN6_NEW_IDS.has(p.id) && !BV017_JAN7_NEW_IDS.has(p.id) && !BV017_JAN8_NEW_IDS.has(p.id) && !BV017_JAN9_NEW_IDS.has(p.id) && !BV017_JAN10_NEW_IDS.has(p.id) && !BV017_JAN11_NEW_IDS.has(p.id) && !BV017_JAN12_NEW_IDS.has(p.id)
 );
 const newVietnameseCount = NEW_JAN_PEOPLE.filter((p) => p.countryCode === 'VN').length;
 const newInternationalCount = NEW_JAN_PEOPLE.length - newVietnameseCount;
@@ -1732,7 +1755,7 @@ const B014_NEW_IDS = new Set([
   'zaha-hadid',
 ]);
 const b010CycleDatedProfiles = ALL_PEOPLE.filter((p) => p.birthMonth === 6 && p.verifiedAt === '2026-10-06');
-const b009BaselinePeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7 && !(p.birthMonth === 6 && p.verifiedAt === '2026-10-06') && !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id) && !BV017_EXPANSION_NEW_IDS.has(p.id));
+const b009BaselinePeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7 && !(p.birthMonth === 6 && p.verifiedAt === '2026-10-06') && !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id) && !BV017_EXPANSION_NEW_IDS.has(p.id) && !BV017_JAN1_NEW_IDS.has(p.id) && !BV017_JAN2_NEW_IDS.has(p.id) && !BV017_JAN3_NEW_IDS.has(p.id) && !BV017_JAN4_NEW_IDS.has(p.id) && !BV017_JAN5_NEW_IDS.has(p.id) && !BV017_JAN6_NEW_IDS.has(p.id) && !BV017_JAN7_NEW_IDS.has(p.id) && !BV017_JAN8_NEW_IDS.has(p.id) && !BV017_JAN10_NEW_IDS.has(p.id) && !BV017_JAN9_NEW_IDS.has(p.id) && !BV017_JAN11_NEW_IDS.has(p.id) && !BV017_JAN12_NEW_IDS.has(p.id));
 assert('Rule AD', b009BaselinePeople.length === 478, `B009 baseline must remain 478 after excluding B010 and B011 additions, found ${b009BaselinePeople.length}`);
 assert('Rule AD', HISTORY_EVENTS.length === 4, `B009 must preserve all 4 events, found ${HISTORY_EVENTS.length}`);
 
@@ -3229,7 +3252,7 @@ for (const p of b010Vietnamese) {
   assert('Rule AE Vietnamese', sources.every((source) => source.publisherCountry !== 'VN' && Boolean(source.countryProofUrl)), `B010 Vietnamese ${p.id} requires two sources with verified foreign publisher countries`);
   assert('Rule AE Vietnamese', sources.every((source) => (p.sourceUrls || []).includes(source.url)), `B010 Vietnamese ${p.id} must include both approved DOB URLs`);
 }
-const b010ScopePeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7 && !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id) && !BV017_EXPANSION_NEW_IDS.has(p.id));
+const b010ScopePeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7 && !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id) && !BV017_EXPANSION_NEW_IDS.has(p.id) && !BV017_JAN1_NEW_IDS.has(p.id) && !BV017_JAN2_NEW_IDS.has(p.id) && !BV017_JAN3_NEW_IDS.has(p.id) && !BV017_JAN4_NEW_IDS.has(p.id) && !BV017_JAN5_NEW_IDS.has(p.id) && !BV017_JAN6_NEW_IDS.has(p.id) && !BV017_JAN7_NEW_IDS.has(p.id) && !BV017_JAN8_NEW_IDS.has(p.id) && !BV017_JAN10_NEW_IDS.has(p.id) && !BV017_JAN9_NEW_IDS.has(p.id) && !BV017_JAN11_NEW_IDS.has(p.id) && !BV017_JAN12_NEW_IDS.has(p.id));
 assert('Rule AE balance', b010ScopePeople.length === 568, `B010 through-June dataset must contain 568 people, found ${b010ScopePeople.length}`);
 assert('Rule AE events', HISTORY_EVENTS.length === 4, `B010 must preserve exactly 4 history events, found ${HISTORY_EVENTS.length}`);
 const b010CoveredDays = new Set(b010ScopePeople.map((p) => `${p.birthMonth}-${p.birthDay}`));
@@ -5047,7 +5070,7 @@ const B011_APPROVED_PROFILES: Readonly<Record<string, {
     ]
   }
 };
-const b011ScopePeople = ALL_PEOPLE.filter((p) => !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id) && !BV017_EXPANSION_NEW_IDS.has(p.id));
+const b011ScopePeople = ALL_PEOPLE.filter((p) => !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id) && !BV017_EXPANSION_NEW_IDS.has(p.id) && !BV017_JAN1_NEW_IDS.has(p.id) && !BV017_JAN2_NEW_IDS.has(p.id) && !BV017_JAN3_NEW_IDS.has(p.id) && !BV017_JAN4_NEW_IDS.has(p.id) && !BV017_JAN5_NEW_IDS.has(p.id) && !BV017_JAN6_NEW_IDS.has(p.id) && !BV017_JAN7_NEW_IDS.has(p.id) && !BV017_JAN8_NEW_IDS.has(p.id) && !BV017_JAN10_NEW_IDS.has(p.id) && !BV017_JAN9_NEW_IDS.has(p.id) && !BV017_JAN11_NEW_IDS.has(p.id) && !BV017_JAN12_NEW_IDS.has(p.id));
 const B011_NEW_PEOPLE = b011ScopePeople.filter((p) => p.birthMonth === 7);
 const B011_APPROVED_IDS = new Set(Object.keys(B011_APPROVED_PROFILES));
 const B011_APPROVED_QIDS = new Set(Object.values(B011_APPROVED_PROFILES).map((profile) => profile.wikidataId));
@@ -6916,7 +6939,7 @@ const B012_APPROVED_PROFILES: Readonly<Record<string, {
 };
 const B012_APPROVED_IDS = new Set(Object.keys(B012_APPROVED_PROFILES));
 const B012_APPROVED_QIDS = new Set(Object.values(B012_APPROVED_PROFILES).map((profile) => profile.wikidataId));
-const b012HistoricalPeople = ALL_PEOPLE.filter((p) => !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id) && !BV017_EXPANSION_NEW_IDS.has(p.id));
+const b012HistoricalPeople = ALL_PEOPLE.filter((p) => !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id) && !BV017_EXPANSION_NEW_IDS.has(p.id) && !BV017_JAN1_NEW_IDS.has(p.id) && !BV017_JAN2_NEW_IDS.has(p.id) && !BV017_JAN3_NEW_IDS.has(p.id) && !BV017_JAN4_NEW_IDS.has(p.id) && !BV017_JAN5_NEW_IDS.has(p.id) && !BV017_JAN6_NEW_IDS.has(p.id) && !BV017_JAN7_NEW_IDS.has(p.id) && !BV017_JAN8_NEW_IDS.has(p.id) && !BV017_JAN10_NEW_IDS.has(p.id) && !BV017_JAN9_NEW_IDS.has(p.id) && !BV017_JAN11_NEW_IDS.has(p.id) && !BV017_JAN12_NEW_IDS.has(p.id));
 const B012_NEW_PEOPLE = b012HistoricalPeople.filter((p) => B012_APPROVED_IDS.has(p.id));
 assert('Rule AG', B012_NEW_IDS.size === 93 && B012_APPROVED_IDS.size === 93, 'B012 exact allowlist must contain 93 unique IDs');
 assert('Rule AG', B012_NEW_IDS.size === B012_APPROVED_IDS.size && [...B012_NEW_IDS].every((id) => B012_APPROVED_IDS.has(id)), 'B012 historical projection IDs must exactly match the reviewed allowlist');
@@ -8687,7 +8710,7 @@ for (let day = 1; day <= 30; day++) {
   assert('Rule AH coverage', additions.length === 3, `B013 September ${day} must have exactly 3 additions, found ${additions.length}`);
   assert('Rule AH coverage', total.length === 3 && total.length <= 8, `B013 September ${day} must have 3 additions and no more than 8 total people, found ${total.length}`);
 }
-const b013HistoricalPeople = ALL_PEOPLE.filter((p) => !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id) && !BV017_EXPANSION_NEW_IDS.has(p.id));
+const b013HistoricalPeople = ALL_PEOPLE.filter((p) => !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id) && !BV017_EXPANSION_NEW_IDS.has(p.id) && !BV017_JAN1_NEW_IDS.has(p.id) && !BV017_JAN2_NEW_IDS.has(p.id) && !BV017_JAN3_NEW_IDS.has(p.id) && !BV017_JAN4_NEW_IDS.has(p.id) && !BV017_JAN5_NEW_IDS.has(p.id) && !BV017_JAN6_NEW_IDS.has(p.id) && !BV017_JAN7_NEW_IDS.has(p.id) && !BV017_JAN8_NEW_IDS.has(p.id) && !BV017_JAN10_NEW_IDS.has(p.id) && !BV017_JAN9_NEW_IDS.has(p.id) && !BV017_JAN11_NEW_IDS.has(p.id) && !BV017_JAN12_NEW_IDS.has(p.id));
 const b013BaselinePeople = b013HistoricalPeople.filter((p) => !B013_NEW_IDS.has(p.id));
 assert('Rule AH baseline', b013BaselinePeople.length === 754, `B013 must preserve all 754 baseline people, found ${b013BaselinePeople.length}`);
 assert('Rule AH baseline', stableSha256(b013BaselinePeople.sort((a, b) => a.id.localeCompare(b.id)).map(projectPersonBeforeBv017)) === '43e159877b62e4e68ba6fb15763c40cbf660325803896fcf0843edc73702c282', 'All 754 origin/main people must remain deep-equal to the B013 baseline after the independently verified BV-017 correction projection');
@@ -10550,11 +10573,11 @@ for (const p of B014_NEW_PEOPLE) {
   assert('Rule AI age', isAdultOnDate(expected.birthDate, '2026-10-07'), `B014 ${p.id} must be an adult on 2026-10-07`);
 }
 
-const b014BaselinePeople = ALL_PEOPLE.filter((p) => !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id) && !BV017_EXPANSION_NEW_IDS.has(p.id)).sort((a, b) => a.id.localeCompare(b.id));
+const b014BaselinePeople = ALL_PEOPLE.filter((p) => !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id) && !BV017_EXPANSION_NEW_IDS.has(p.id) && !BV017_JAN1_NEW_IDS.has(p.id) && !BV017_JAN2_NEW_IDS.has(p.id) && !BV017_JAN3_NEW_IDS.has(p.id) && !BV017_JAN4_NEW_IDS.has(p.id) && !BV017_JAN5_NEW_IDS.has(p.id) && !BV017_JAN6_NEW_IDS.has(p.id) && !BV017_JAN7_NEW_IDS.has(p.id) && !BV017_JAN8_NEW_IDS.has(p.id) && !BV017_JAN10_NEW_IDS.has(p.id) && !BV017_JAN9_NEW_IDS.has(p.id) && !BV017_JAN11_NEW_IDS.has(p.id) && !BV017_JAN12_NEW_IDS.has(p.id)).sort((a, b) => a.id.localeCompare(b.id));
 assert('Rule AI baseline', b014BaselinePeople.length === 844, `B014 must preserve all 844 baseline people, found ${b014BaselinePeople.length}`);
 assert('Rule AI baseline', stableSha256(b014BaselinePeople.map(projectPersonBeforeBv017)) === '007bfa829d8fed84bf07d1dd9f555975221c37352b131200afdfe42f2bb614b0', 'All 844 origin/main people must remain deep-equal to the B014 baseline after the independently verified BV-017 correction projection');
 assert('Rule AI baseline', stableSha256(HISTORY_EVENTS) === '6dd4aae214c2b43131155c6483c3f3c575fe632e1287583c5c28ce4e40dcfd07', 'All 4 history events must remain deep-equal to the B014 baseline');
-const b014SnapshotPeople = ALL_PEOPLE.filter((p) => !B015_B016_NEW_IDS.has(p.id) && !BV017_EXPANSION_NEW_IDS.has(p.id));
+const b014SnapshotPeople = ALL_PEOPLE.filter((p) => !B015_B016_NEW_IDS.has(p.id) && !BV017_EXPANSION_NEW_IDS.has(p.id) && !BV017_JAN1_NEW_IDS.has(p.id) && !BV017_JAN2_NEW_IDS.has(p.id) && !BV017_JAN3_NEW_IDS.has(p.id) && !BV017_JAN4_NEW_IDS.has(p.id) && !BV017_JAN5_NEW_IDS.has(p.id) && !BV017_JAN6_NEW_IDS.has(p.id) && !BV017_JAN7_NEW_IDS.has(p.id) && !BV017_JAN8_NEW_IDS.has(p.id) && !BV017_JAN10_NEW_IDS.has(p.id) && !BV017_JAN9_NEW_IDS.has(p.id) && !BV017_JAN11_NEW_IDS.has(p.id) && !BV017_JAN12_NEW_IDS.has(p.id));
 const b014CoveredDays = new Set(b014SnapshotPeople.map((p) => `${p.birthMonth}-${p.birthDay}`));
 const b014OctoberDays = new Set(b014SnapshotPeople.filter((p) => p.birthMonth === 10).map((p) => p.birthDay));
 assert('Rule AI total', b014SnapshotPeople.length === 937, `B014 expected 937 total people, found ${b014SnapshotPeople.length}`);
@@ -10564,6 +10587,18 @@ console.log(`B014 additions: ${B014_NEW_PEOPLE.length}; Vietnamese: ${b014Vietna
 
 
 // ------------------------------------------------------------
+runBv017January1BatchIntegrity(assert);
+runBv017January2BatchIntegrity(assert);
+runBv017January3BatchIntegrity(assert);
+runBv017January4BatchIntegrity(assert);
+runBv017January5BatchIntegrity(assert);
+runBv017January6BatchIntegrity(assert);
+runBv017January7BatchIntegrity(assert);
+runBv017January8BatchIntegrity(assert);
+runBv017January9BatchIntegrity(assert);
+runBv017January10BatchIntegrity(assert);
+runBv017January11BatchIntegrity(assert);
+runBv017January12BatchIntegrity(assert);
 runB015B016Integrity(assert);
 
 // Summary

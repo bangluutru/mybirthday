@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "cycle": "BV-017",
   "retrievedAt": "2026-10-07T22:31:53Z",
-  "verifiedPeopleCount": 276,
+  "verifiedPeopleCount": 294,
   "baselineCorrections": [
     {
       "id": "abraham-lincoln",
@@ -4732,7 +4732,8 @@
         "deathDatePrecision": "day",
         "sourceUrls": [
           "https://www.britannica.com/biography/J-D-Salinger",
-          "https://www.dvidshub.net/news/489630/roll-call-jerome-jd-salinger-1919-2010"
+          "https://www.dvidshub.net/news/489630/roll-call-jerome-jd-salinger-1919-2010",
+          "https://id.loc.gov/authorities/names/n50016589.json"
         ]
       },
       "deathDateEvidence": [

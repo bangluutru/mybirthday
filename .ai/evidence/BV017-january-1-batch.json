@@ -1,0 +1,638 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-01",
+  "capturedAt": "2026-10-08",
+  "sourceCaptures": [
+    {
+      "id": "salinger-dvids",
+      "url": "https://www.dvidshub.net/news/489630/roll-call-jerome-jd-salinger-1919-2010",
+      "publisher": "U.S. Army Intelligence Center of Excellence via DVIDS",
+      "publisherHost": "www.dvidshub.net",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 68424,
+      "sha256": "c65a62134a56e0eac36f3a33a9f39428f6d301fc18109500bd89ae9e62d54bdc",
+      "verificationMethod": "direct-http",
+      "excerpt": "January 1, 1919 - January 27, 2010. On Jan. 27, 2010, celebrated author and former Army counterintelligence agent Jerome \"J.D.\" Salinger passed away at his home in New Hampshire. Born in Manhattan on Jan. 1, 1919, Jerome David Salinger grew up in an upper-middle-class Jewish family. Salinger was assigned to the 4th CIC Detachment attached to the 4th Infantry Division. He served as an interrogator throughout the war. In his most famous work, \"The Catcher in the Rye,\" Salinger explored themes of angst, trauma, and loss of innocence.",
+      "excerptSha256": "96443f95b55bae891f53aee72496a71a4be70934228e08ed5bd084a447f004ea"
+    },
+    {
+      "id": "salinger-loc",
+      "url": "https://id.loc.gov/authorities/names/n50016589.json",
+      "publisher": "Library of Congress Name Authority File",
+      "publisherHost": "id.loc.gov",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 38136,
+      "sha256": "b377014f925f7df88bc8b0be89afcb9fb385669277697046f92f6335262a172a",
+      "verificationMethod": "direct-http+json-field-extraction",
+      "excerpt": "Salinger, J. D. (Jerome David), 1919-2010; birthDate: 1919-01-01; title: The Catcher in the rye, 1951.",
+      "excerptSha256": "fe84e60586ffa2130d9fd23b473fb8819a9c63ce3ee9399a886fa159e8874393"
+    },
+    {
+      "id": "lagarde-ecb",
+      "url": "https://www.ecb.europa.eu/ecb/decisions/html/cvlagarde.en.html",
+      "publisher": "European Central Bank",
+      "publisherHost": "www.ecb.europa.eu",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 107014,
+      "sha256": "e6cba3ddb6a9e9bd900eb85b9bd7c48f7903826bc93104a1fbbccd418efdaece",
+      "verificationMethod": "direct-http",
+      "excerpt": "Date of birth 1 January 1956. Professional career Since November 2019 President of the European Central Bank. 2011-2019 Managing Director of the International Monetary Fund, Washington, D.C.",
+      "excerptSha256": "17f61b5e72b1752bf47b854cf63a90afa7a99a88ec5ef71087db3a61820bf7da"
+    },
+    {
+      "id": "lagarde-bpb",
+      "url": "https://www.bpb.de/kurz-knapp/lexika/das-europalexikon/309429/lagarde-christine/",
+      "publisher": "Bundeszentrale für politische Bildung (bpb)",
+      "publisherHost": "www.bpb.de",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 146804,
+      "sha256": "bec4e27c287c565aa66b8e3deae7994ab8ffbe6ee8df583854e372d25b5c6946",
+      "verificationMethod": "direct-http",
+      "excerpt": "[* 1.1.1956 in Paris, Frankreich] frz. Politikerin und Präsidentin der Europäischen Zentralbank (EZB) in Frankfurt am Main (seit 1.11.2019), erste Frau in diesem Amt.",
+      "excerptSha256": "9a20a1cfafe91dfa717d7f320282a35c93a54cca345fe903610e9238e31a03b7"
+    },
+    {
+      "id": "lagarde-ecb-interview",
+      "url": "https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in260308~1c03ad3ece.en.html",
+      "publisher": "European Central Bank",
+      "publisherHost": "www.ecb.europa.eu",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 111125,
+      "sha256": "d31cb2db95f82b2a864db1330dd28bedd1e6d8049b482cef94ae908adaa44efa",
+      "verificationMethod": "direct-http",
+      "excerpt": "Interview with Christine Lagarde, President of the ECB, conducted by Benedetta Poletti on 12 February 2026. 8 March 2026. Madame Lagarde, you were the first woman to be made partner at a major multinational law firm. You were also the first woman to serve as Economy Minister in a G7 country, the first to lead the International Monetary Fund, the first here at the ECB.",
+      "excerptSha256": "58a6671ed4e272ae9794fc68bbfd2c97bf6b268600b5269a45aa08717c7c5626"
+    },
+    {
+      "id": "bui-afc-squad",
+      "url": "https://assets.the-afc.com/2023_AFC_Asian_Cup/Squad_Lists/AFC-Asian-Cup-Qatar%E2%84%A2-2023-Squad-Lists.pdf",
+      "publisher": "Asian Football Confederation",
+      "publisherHost": "assets.the-afc.com",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytesRead": 6834584,
+      "sha256": "6d0e353074f6631e14cfc36b48d77f2b2ec276473a99d8e185a775d6bef04d6d",
+      "verificationMethod": "direct-http+pdf-text-extract",
+      "excerpt": "20 Defender BUI HOANG VIET ANH B.H. VIET ANH 01-01-1999 CONG AN HA NOI (VIE) 184 81 6 0",
+      "excerptSha256": "33b94e44f5854879c72b992ad182c679dfc106bf6b86e932eb04ca3b185d9318"
+    },
+    {
+      "id": "bui-afc-technical-report",
+      "url": "https://assets.the-afc.com/Corporate_Page/Technical/Technical_Reports/AFC-Asian-Cup-Qatar-2023%E2%84%A2-Technical-Report.pdf",
+      "publisher": "Asian Football Confederation",
+      "publisherHost": "assets.the-afc.com",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytesRead": 20171300,
+      "sha256": "45d2796b6fb0a2002e099d696578eb9383efea6582b73f314bd65d41cbd83fb9",
+      "verificationMethod": "direct-http+pdf-text-extract",
+      "excerpt": "SET PLAYS RANKING NO. SCORER Match TIME Type. 8 20 Bui Hoang Viet Anh Iraq v Vietnam 42’ Indirect Free Kick.",
+      "excerptSha256": "e7028c5f5668b2e1461b7e7f2e332cc77dd267fbc2b7d8a5d101c9b97677b953"
+    },
+    {
+      "id": "bui-vpf",
+      "url": "https://vpf.vn/player/bui-hoang-viet-anh/",
+      "publisher": "Vietnam Professional Football Joint Stock Company (VPF)",
+      "publisherHost": "vpf.vn",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 607802,
+      "sha256": "27a1c4bde447dadad85cfe05aea261ab577291433b87f7ada061ab62a2af591a",
+      "verificationMethod": "direct-http",
+      "excerpt": "Player Statistic First Name: Bùi Last Name: Hoàng Việt Anh Cao (cm): 184 Nặng (kg): 82 Vị trí: Hậu vệ Năm sinh: 01-01-1999 Quốc tịch: Việt Nam. Vô địch Quốc gia LPBank 2025/26 | Công an Hà Nội | 15 | 15.",
+      "excerptSha256": "b5817e1aeb1e9dd78665106956085d4619333dc7e6d26141e6e3aa162088b6e9"
+    },
+    {
+      "id": "bose-royal-society",
+      "url": "https://catalogues.royalsociety.org/calmview/Record.aspx?id=NA3030&src=CalmView.Persons",
+      "publisher": "The Royal Society",
+      "publisherHost": "catalogues.royalsociety.org",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 21552,
+      "sha256": "8e09633646f99c35da63cbc75bbebdce7262d84f6070a8834d7e9a7b97ecfa34",
+      "verificationMethod": "direct-http",
+      "excerpt": "Satyendra Nath Bose; birth date: 1 January 1894; death date: 4 February 1974; certificate of election to the Royal Society, 20 March 1958.",
+      "excerptSha256": "87fef7936dd437d61ed985e7fa4079bfda931290d4e862bb4d59deb994d3140f"
+    },
+    {
+      "id": "bose-insa",
+      "url": "https://www.insaindia.res.in/BM/BM7_8307.pdf",
+      "publisher": "Indian National Science Academy",
+      "publisherHost": "www.insaindia.res.in",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytesRead": 5248397,
+      "sha256": "dfdc41ec178bb89a516699c28fee5eed6c59d1073a1752f5dcc50edd7d158dd6",
+      "verificationMethod": "direct-http+pdf-text-extract",
+      "excerpt": "Satyendra Nath Bose was born on the New Year's Day, January 1, 1894, in Calcutta. He sent a duplicate copy of the manuscript, which was entitled \"Planck's law and light quantum hypothesis,\" to Einstein in Berlin, with a request to have it translated into German and published in the Zeitschrift für Physik. Einstein immediately translated Bose's paper into German.",
+      "excerptSha256": "e9a41fb37a585976fd76a58d50e65fa27d12b62594d8b6cf2d74016b4de2d946"
+    },
+    {
+      "id": "forster-kings",
+      "url": "https://www.kings.cam.ac.uk/biographies",
+      "publisher": "King's College Cambridge",
+      "publisherHost": "www.kings.cam.ac.uk",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 89535,
+      "sha256": "888ad74c008622db30871725642fdd28a862f02bb159236a58be172a08c41012",
+      "verificationMethod": "direct-http",
+      "excerpt": "Forster, Edward Morgan (1879-1970). Morgan Forster, as his friends knew him, was born on 1 January 1879. He came up to King's College, Cambridge, in 1897. First they went to Florence, in October 1901, which inspired his novel A Room with a View.",
+      "excerptSha256": "c83928301e07b38c9137d6bc8527778a3443bd0272276eebb8541ee20f6d0862"
+    },
+    {
+      "id": "forster-penguin",
+      "url": "https://www.penguinrandomhouse.com/authors/9039/em-forster/",
+      "publisher": "Penguin Random House",
+      "publisherHost": "www.penguinrandomhouse.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 168699,
+      "sha256": "915fe88b18ef29066f62df01f902d9ae2e8827155bdba731f7b7ac54cbb866dd",
+      "verificationMethod": "direct-http",
+      "excerpt": "Edward Morgan Forster was born on January 1, 1879, in London. It was not until the publication of Howards End, in 1910, that Forster achieved his first major success as a novelist. Forster first visited India during 1912 and 1913, and after a return visit in 1921, from those experiences came his most celebrated novel, A Passage to India. He died in Coventry, England, on June 7, 1970.",
+      "excerptSha256": "75e36e4696ff5daac52145f185c266b32fc1dd7d5a371dfdd25491052d8495d3"
+    },
+    {
+      "id": "wikidata-bose",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q45789.json",
+      "publisher": "Wikidata entity API",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 123028,
+      "sha256": "69cc23f4deb9bf615b00760dc330e9f7abe3ad881b70b833fec3bf4ee7ce12b7",
+      "verificationMethod": "direct-http+entity-claim-extraction",
+      "excerpt": "Q45789 Satyendra Nath Bose; P31 Q5; P569 +1894-01-01T00:00:00Z precision 11; P570 +1974-02-04T00:00:00Z precision 11; P27 includes Q668; P106 includes Q169470 and Q170790.",
+      "excerptSha256": "8068d93b14dec78d9f2021e885d07577e66bde6f9eaa6372217a3649c6a8389c"
+    },
+    {
+      "id": "wikidata-forster",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q189119.json",
+      "publisher": "Wikidata entity API",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 241366,
+      "sha256": "8c585373772870b576fe5adb1757d8903d0fe05c355f4ab0df34e2b6b458df75",
+      "verificationMethod": "direct-http+entity-claim-extraction",
+      "excerpt": "Q189119 E. M. Forster; P31 Q5; P569 +1879-01-01T00:00:00Z precision 11; P570 +1970-06-07T00:00:00Z precision 11; P27 includes Q145; P106 includes Q36180 and Q6625963.",
+      "excerptSha256": "ba0c974238d6659a0b487f562ba5f23f291d5cdcf110c63b7b437347d01bfc49"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "jd-salinger",
+      "name": "J. D. Salinger",
+      "wikidataId": "Q79904",
+      "birthDate": "1919-01-01",
+      "lifeStatus": "deceased",
+      "deathDate": "2010-01-27",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": ["salinger-dvids"],
+      "dobSourceIds": [
+        "salinger-dvids",
+        "salinger-loc"
+      ],
+      "statusSourceId": "salinger-dvids",
+      "careerFactIds": [
+        "salinger-counterintelligence",
+        "salinger-catcher"
+      ],
+      "before": {
+        "shortDescription": "Tác giả kiệt tác \"Bắt trẻ đồng xanh\" (The Catcher in the Rye).",
+        "biography": "Jerome David Salinger là nhà văn Mỹ nổi tiếng thế giới với tiểu thuyết The Catcher in the Rye (1951), một trong những tác phẩm có ảnh hưởng nhất thế kỷ 20 về tâm lý tuổi trẻ và sự nổi loạn.",
+        "highlights": [
+          "Tác giả \"The Catcher in the Rye\" bán được hơn 65 triệu bản trên toàn cầu.",
+          "Biểu tượng văn học vĩ đại của thời kỳ hậu Thế chiến thứ hai."
+        ],
+        "sourceUrls": [
+          "https://www.britannica.com/biography/J-D-Salinger",
+          "https://www.dvidshub.net/news/489630/roll-call-jerome-jd-salinger-1919-2010"
+        ],
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "shortDescription": "Nhà văn Mỹ, tác giả tiểu thuyết The Catcher in the Rye.",
+        "biography": "Jerome David Salinger là nhà văn Mỹ, từng phục vụ trong Lục quân Hoa Kỳ ở Thế chiến II. Ông được biết đến qua tiểu thuyết The Catcher in the Rye.",
+        "highlights": [
+          "Trong Thế chiến II, Salinger phục vụ trong Lục quân Hoa Kỳ với vai trò nhân viên phản gián.",
+          "The Catcher in the Rye là tác phẩm nổi tiếng nhất của ông."
+        ],
+        "sourceUrls": [
+          "https://www.britannica.com/biography/J-D-Salinger",
+          "https://www.dvidshub.net/news/489630/roll-call-jerome-jd-salinger-1919-2010",
+          "https://id.loc.gov/authorities/names/n50016589.json"
+        ],
+        "verifiedAt": "2026-10-08"
+      }
+    },
+    {
+      "id": "christine-lagarde",
+      "name": "Christine Lagarde",
+      "wikidataId": "Q484605",
+      "birthDate": "1956-01-01",
+      "lifeStatus": "living",
+      "deathDate": null,
+      "dobSourceIds": [
+        "lagarde-ecb",
+        "lagarde-bpb"
+      ],
+      "statusSourceId": "lagarde-ecb-interview",
+      "careerFactIds": [
+        "lagarde-first-ecb",
+        "lagarde-first-imf"
+      ],
+      "before": {
+        "sourceUrls": [
+          "https://www.britannica.com/biography/Christine-Lagarde",
+          "https://www.ecb.europa.eu"
+        ],
+        "verifiedAt": "2026-10-03",
+        "lifeStatus": null
+      },
+      "after": {
+        "sourceUrls": [
+          "https://www.britannica.com/biography/Christine-Lagarde",
+          "https://www.ecb.europa.eu",
+          "https://www.ecb.europa.eu/ecb/decisions/html/cvlagarde.en.html",
+          "https://www.bpb.de/kurz-knapp/lexika/das-europalexikon/309429/lagarde-christine/",
+          "https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in260308~1c03ad3ece.en.html"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "living"
+      }
+    },
+    {
+      "id": "bui-hoang-viet-anh",
+      "name": "Bùi Hoàng Việt Anh",
+      "wikidataId": "Q97159587",
+      "birthDate": "1999-01-01",
+      "lifeStatus": "living",
+      "deathDate": null,
+      "dobSourceIds": [
+        "bui-afc-squad",
+        "bui-vpf"
+      ],
+      "statusSourceId": "bui-vpf",
+      "careerFactIds": [
+        "bui-defender",
+        "bui-goal-iraq"
+      ],
+      "before": {
+        "biography": "Bùi Hoàng Việt Anh là cầu thủ bóng đá Việt Nam. Danh sách đăng ký của Liên đoàn Bóng đá châu Á ghi ngày sinh của anh là 1/1/1999.",
+        "highlights": [
+          "Thi đấu ở vị trí hậu vệ trong danh sách AFC Asian Cup 2023.",
+          "Được đăng ký cho đội tuyển Việt Nam tại AFC Asian Cup 2023."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q97159587",
+          "https://assets.the-afc.com/2023_AFC_Asian_Cup/Squad_Lists/AFC-Asian-Cup-Qatar%E2%84%A2-2023-Squad-Lists.pdf",
+          "https://vpf.vn/player/bui-hoang-viet-anh/"
+        ],
+        "verifiedAt": "2026-10-03",
+        "lifeStatus": null
+      },
+      "after": {
+        "biography": "Bùi Hoàng Việt Anh là hậu vệ bóng đá Việt Nam. Liên đoàn Bóng đá châu Á ghi anh trong danh sách tuyển Việt Nam dự Asian Cup Qatar 2023.",
+        "highlights": [
+          "Có tên trong danh sách hậu vệ tuyển Việt Nam tại AFC Asian Cup Qatar 2023.",
+          "Ghi bàn cho Việt Nam ở trận gặp Iraq tại AFC Asian Cup Qatar 2023."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q97159587",
+          "https://assets.the-afc.com/2023_AFC_Asian_Cup/Squad_Lists/AFC-Asian-Cup-Qatar%E2%84%A2-2023-Squad-Lists.pdf",
+          "https://vpf.vn/player/bui-hoang-viet-anh/",
+          "https://assets.the-afc.com/Corporate_Page/Technical/Technical_Reports/AFC-Asian-Cup-Qatar-2023%E2%84%A2-Technical-Report.pdf"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "living"
+      }
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "satyendra-nath-bose",
+      "name": "Satyendra Nath Bose",
+      "wikidataId": "Q45789",
+      "birthDate": "1894-01-01",
+      "countryCode": "IN",
+      "category": "scientist",
+      "occupation": [
+        "Nhà vật lý, nhà toán học"
+      ],
+      "fields": [
+        "science-research"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "science-research",
+          "careerFactIds": [
+            "bose-einstein-paper",
+            "bose-royal-society-fellow"
+          ],
+          "rationale": "The INSA memoir documents Bose's theoretical physics work; the Royal Society record documents election as a Fellow."
+        }
+      ],
+      "lifeStatus": "deceased",
+      "deathDate": "1974-02-04",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "bose-royal-society"
+      ],
+      "dobSourceIds": [
+        "bose-insa",
+        "bose-royal-society"
+      ],
+      "statusSourceId": "bose-royal-society",
+      "careerFactIds": [
+        "bose-einstein-paper",
+        "bose-royal-society-fellow"
+      ],
+      "wikidataCaptureId": "wikidata-bose",
+      "identityClaims": {
+        "label": "Satyendra Nath Bose",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1894-01-01T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 7
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1974-02-04T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 7
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q129286"
+          },
+          {
+            "rank": "deprecated",
+            "value": "Q1775277"
+          },
+          {
+            "rank": "normal",
+            "value": "Q668"
+          }
+        ],
+        "selectedCountryQid": "Q668",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q169470"
+          },
+          {
+            "rank": "normal",
+            "value": "Q170790"
+          },
+          {
+            "rank": "normal",
+            "value": "Q82955"
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272"
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q169470",
+          "Q170790"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q45789",
+        "https://www.insaindia.res.in/BM/BM7_8307.pdf",
+        "https://catalogues.royalsociety.org/calmview/Record.aspx?id=NA3030&src=CalmView.Persons"
+      ]
+    },
+    {
+      "id": "e-m-forster",
+      "name": "E. M. Forster",
+      "wikidataId": "Q189119",
+      "birthDate": "1879-01-01",
+      "countryCode": "GB",
+      "category": "literature",
+      "occupation": [
+        "Nhà văn, nhà tiểu thuyết"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "forster-howards-end",
+            "forster-passage-india"
+          ],
+          "rationale": "Both retained facts document Forster's novels and literary work."
+        }
+      ],
+      "lifeStatus": "deceased",
+      "deathDate": "1970-06-07",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "forster-penguin"
+      ],
+      "dobSourceIds": [
+        "forster-kings",
+        "forster-penguin"
+      ],
+      "statusSourceId": "forster-penguin",
+      "careerFactIds": [
+        "forster-howards-end",
+        "forster-passage-india"
+      ],
+      "wikidataCaptureId": "wikidata-forster",
+      "identityClaims": {
+        "label": "E. M. Forster",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1879-01-01T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 17
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1970-06-07T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 17
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q145"
+          },
+          {
+            "rank": "normal",
+            "value": "Q174193"
+          }
+        ],
+        "selectedCountryQid": "Q145",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q36180"
+          },
+          {
+            "rank": "normal",
+            "value": "Q6625963"
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389"
+          },
+          {
+            "rank": "normal",
+            "value": "Q4263842"
+          },
+          {
+            "rank": "normal",
+            "value": "Q864380"
+          },
+          {
+            "rank": "normal",
+            "value": "Q18844224"
+          },
+          {
+            "rank": "normal",
+            "value": "Q8178443"
+          },
+          {
+            "rank": "normal",
+            "value": "Q11774202"
+          },
+          {
+            "rank": "normal",
+            "value": "Q13418253"
+          },
+          {
+            "rank": "normal",
+            "value": "Q1930187"
+          },
+          {
+            "rank": "normal",
+            "value": "Q201788"
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q36180",
+          "Q6625963"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q189119",
+        "https://www.kings.cam.ac.uk/biographies",
+        "https://www.penguinrandomhouse.com/authors/9039/em-forster/"
+      ]
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "salinger-counterintelligence",
+      "profileId": "jd-salinger",
+      "displayText": "Trong Thế chiến II, Salinger phục vụ trong Lục quân Hoa Kỳ với vai trò nhân viên phản gián.",
+      "sourceId": "salinger-dvids",
+      "evidencePhrase": "former Army counterintelligence agent"
+    },
+    {
+      "id": "salinger-catcher",
+      "profileId": "jd-salinger",
+      "displayText": "The Catcher in the Rye là tác phẩm nổi tiếng nhất của ông.",
+      "sourceId": "salinger-dvids",
+      "evidencePhrase": "In his most famous work, \"The Catcher in the Rye,\""
+    },
+    {
+      "id": "lagarde-first-ecb",
+      "profileId": "christine-lagarde",
+      "displayText": "Người phụ nữ đầu tiên giữ chức Chủ tịch Ngân hàng Trung ương Châu Âu.",
+      "sourceId": "lagarde-bpb",
+      "evidencePhrase": "erste Frau in diesem Amt"
+    },
+    {
+      "id": "lagarde-first-imf",
+      "profileId": "christine-lagarde",
+      "displayText": "Người phụ nữ đầu tiên làm Tổng giám đốc Quỹ Tiền tệ Quốc tế (IMF).",
+      "sourceId": "lagarde-ecb-interview",
+      "evidencePhrase": "the first to lead the International Monetary Fund"
+    },
+    {
+      "id": "bui-defender",
+      "profileId": "bui-hoang-viet-anh",
+      "displayText": "Có tên trong danh sách hậu vệ tuyển Việt Nam tại AFC Asian Cup Qatar 2023.",
+      "sourceId": "bui-afc-squad",
+      "evidencePhrase": "Defender BUI HOANG VIET ANH"
+    },
+    {
+      "id": "bui-goal-iraq",
+      "profileId": "bui-hoang-viet-anh",
+      "displayText": "Ghi bàn cho Việt Nam ở trận gặp Iraq tại AFC Asian Cup Qatar 2023.",
+      "sourceId": "bui-afc-technical-report",
+      "evidencePhrase": "Bui Hoang Viet Anh Iraq v Vietnam 42’"
+    },
+    {
+      "id": "bose-einstein-paper",
+      "profileId": "satyendra-nath-bose",
+      "displayText": "Năm 1924, Bose gửi Einstein bản thảo về định luật Planck để được dịch và công bố.",
+      "sourceId": "bose-insa",
+      "evidencePhrase": "sent a duplicate copy of the manuscript"
+    },
+    {
+      "id": "bose-royal-society-fellow",
+      "profileId": "satyendra-nath-bose",
+      "displayText": "Royal Society bầu Bose làm Fellow năm 1958.",
+      "sourceId": "bose-royal-society",
+      "evidencePhrase": "certificate of election to the Royal Society, 20 March 1958"
+    },
+    {
+      "id": "forster-howards-end",
+      "profileId": "e-m-forster",
+      "displayText": "Howards End, xuất bản năm 1910, là thành công lớn đầu tiên của Forster.",
+      "sourceId": "forster-penguin",
+      "evidencePhrase": "Howards End, in 1910, that Forster achieved his first major success as a novelist"
+    },
+    {
+      "id": "forster-passage-india",
+      "profileId": "e-m-forster",
+      "displayText": "Forster phát triển ý tưởng cho A Passage to India sau chuyến đi Ấn Độ.",
+      "sourceId": "forster-penguin",
+      "evidencePhrase": "from those experiences came his most celebrated novel, A Passage to India"
+    }
+  ]
+}

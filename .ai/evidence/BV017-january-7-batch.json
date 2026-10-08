@@ -1,0 +1,1309 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-07",
+  "capturedAt": "2026-10-08T13:20:22Z",
+  "sourceCaptures": [
+    {
+      "id": "fillmore-house-career",
+      "url": "https://history.house.gov/People/Detail/13119",
+      "publisher": "U.S. House of Representatives, History, Art & Archives",
+      "publisherHost": "history.house.gov",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 162307,
+      "sha256": "7a3f54f2a99de69634b962c43f91db181f44916799598d3f5ebe97d335562421",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "FILLMORE, Millard, A Representative from New York, Vice President and 13th President of the United States; born in Locke Township (now Summerhill), Cayuga County, N.Y., January 7, 1800; reared on a farm; largely self-taught; apprenticed to a clothier; taught school in Buffalo while studying law; admitted to the bar in 1823 and commenced practice in East Aurora, N.Y.; moved to Buffalo, N.Y., in 1830; member, State assembly 1829-1831; elected as an Anti-Mason to the Twenty-third Congress (March 4, 1833-March 3, 1835); elected as a Whig to the Twenty-fifth and to the two succeeding Congresses (March 4, 1837-March 3, 1843); chair, Committee on Ways and Means (Twenty-seventh Congress); declined to be a candidate for renomination in 1842; unsuccessful Whig candidate for Governor in 1844; State comptroller 1847-1849; elected Vice President of the United States on the Whig ticket headed by Zachary Taylor in 1848, and was inaugurated March 4, 1849; became President upon the death of President Taylor and served from July 10, 1850, to March 3, 1853; unsuccessful candidate for the Whig nomination for president in 1852; unsuccessful candidate for president on the National American ticket in 185",
+      "excerptSha256": "affb63458a227eb78be64a3d54c1998daa50d10c4b19f717e10a7e77aa31cb7b"
+    },
+    {
+      "id": "fillmore-govinfo-dob",
+      "url": "https://www.govinfo.gov/content/pkg/CDOC-104sdoc26/pdf/CDOC-104sdoc26.pdf",
+      "publisher": "U.S. Government Publishing Office, GovInfo",
+      "publisherHost": "www.govinfo.gov",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytesRead": 3829606,
+      "sha256": "bc3b52d5ebc84d579a99ac669f14d3f32004b4752a8c5810865bce4ee65841fd",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Millard Fillmore was born on January 7, 1800, regularly entertained the city’s elite and others into an impoverished farm family in the central with whom he associated in founding and pro- New York frontier town of Locke. The second of moting local educational, cultural, and civic in- Nathaniel and Phoebe Fillmore’s nine children, stitutions. Millard found little time for forma",
+      "excerptSha256": "d9cf0c87aba691f3be01c5fb3cc4489d8bd970e5501ea6e118a9d314ce874ea9"
+    },
+    {
+      "id": "fillmore-govinfo-death",
+      "url": "https://www.govinfo.gov/content/pkg/CDOC-104sdoc26/pdf/CDOC-104sdoc26.pdf",
+      "publisher": "U.S. Government Publishing Office, GovInfo",
+      "publisherHost": "www.govinfo.gov",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytesRead": 3829606,
+      "sha256": "bc3b52d5ebc84d579a99ac669f14d3f32004b4752a8c5810865bce4ee65841fd",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Millard Fillmore died at the in 1852, hoping to advance Daniel Webster’s can- age of seventy-four on March 8, 1874. [ 176 ] NOTES 1 U.S., Congress, Senate, Congressional Globe, 33d Cong., 3, the Senate was without a president pro tempore, who 1st sess., pp. 4–5. under the presidential succession plan then in effect might 2 Robert J. Rayback, Millard Fillmore: Biography of a Presi- have taken over.",
+      "excerptSha256": "7acf5b49ef45314f066ad8fbca64eadcb1517961923b2858eb898e33136b71aa"
+    },
+    {
+      "id": "hamilton-f1-profile",
+      "url": "https://www.formula1.com/en/drivers/lewis-hamilton",
+      "publisher": "Formula 1",
+      "publisherHost": "www.formula1.com",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 427821,
+      "sha256": "455251016712f09eebbc350053d77fad2d7eef79354b706f383745364a0e1bb8",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Lewis Hamilton United Kingdom Ferrari 44 Shop now STATISTICS 2026 SEASON Season Position 3rd Season Points 214 Grand Prix Races 16 Grand Prix Points 194 Grand Prix Wins 1 Grand Prix Podiums 6 Grand Prix Poles 0 Grand Prix Top 10s 15 DHL Fastest Laps 1 DNFs 1 Sprint Races 5 Sprint Points 20 Sprint Wins 0 Sprint Podiums 2 Sprint Poles 1 Sprint Top 10s 5 Full season results CAREER STATS Grands Prix Entered 396 Career Points 5232.5 Highest Race Finish 1 (x106) Podiums 208 Highest Grid Position 1 (x104) Pole Positions 104 World Championships 7 DNFs 35 Results archive Biography Date of Birth 07/01/1985 Place of Birth Stevenage, England DRIVING A SCUDERIA FERRARI HP CAR FOR THE FIRST TIME WAS ONE OF THE BEST FEELINGS OF MY LIFE. Lewis Hamilton ‘Still I Rise’ – these are the words emblazoned across the back of Lewis Hamilton’s helmet and tattooed across his shoulders, and ever since annihilating expectations with one of the greatest rookie performances in F1 history in 2007, that’s pretty much all he’s done. In a stellar Formula 1 career spanning spells with McLaren, Mercedes and Ferrari, Hamilton has risen to the top of the all-time pole positions list ahead of his hero Ayrton Senna, surged into first place in the wins column surpassing the inimitable Michael Schumacher, and matched the legendary German’s seven world titles. Is he the G.O.A.T? Few would deny that he’s in the conversation – and what’s more he’s got there his way, twinning his relentless speed with a refusal to conform to stereotypes for how a racing driver should think, dress or behave. Respect is hard earned in F1, but Hamilton – Sir Lewis Hamilton to be precise – has it from every one of his peers. Why? Because",
+      "excerptSha256": "d9acbf4e7d01c796c6e51cfd0f89ef50817530299d7cc85c328d1f40c9f85260"
+    },
+    {
+      "id": "hamilton-fia-media",
+      "url": "https://www.fia.com/file/61780/download",
+      "publisher": "Fédération Internationale de l’Automobile",
+      "publisherHost": "www.fia.com",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytesRead": 3642641,
+      "sha256": "e6255b9f365965e5aca326cd0e4c9fba178211be01a9d4a8eaae88b5bcb96754",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "GRAND PRIX ENTERED: 202 WORLD CHAMPIONSHIPS: 3 HIGHEST RACE FINISH: 1(X60) HIGHEST GRID POSITION: 1 DATE OF BIRTH: 07/01/1985 PLACE OF BIRTH: STEVENAGE, ENGLAND TEAM: MERCEDES NATIONALITY: FINNISH PODIUMS: 19 POINTS: 623 GRAND PRIX ENTERED: 92 WORLD CHAMPIONSHIPS: N/A HIGHEST RACE FINISH: 1 (X2) HIGHEST GRID POSITION: 1 DATE OF BIRTH: 28/08/1989 PLACE OF BIRTH: NASTOLA, FINLAND FULL TEAM NAME: SCUDERIA FERRARI DEBUT: MONACO 1950 BASE: MARANELLO, ITALY TEAM PRINCIPAL: MAURIZIO ARRIVABENE TECHNICA",
+      "excerptSha256": "a946d7679b496c343bd9e71e6be3a3c82f98572a584ab73167f33cf0a039b55c"
+    },
+    {
+      "id": "cao-vntaiwan-profile",
+      "url": "https://vntaiwan.catholic.org.tw/vnchurch/vinh/gmthuyen.htm",
+      "publisher": "Vietnamese Missionaries in Asia",
+      "publisherHost": "vntaiwan.catholic.org.tw",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 15423,
+      "sha256": "2e8abc142a1deaa3b8cfa18df5ae3426b59720f6159c23ac47e7f9e936b35a2c",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Ðức Cha Paul Marie Cao Ðình Thuyên Nguyên Giám Mục Giáo Phận Vinh Khẩu Hiệu : \"Cùng Chịu Ðóng Ðinh Vào Thập Giá Với Ðức Kitô\" Prepared for Internet by Vietnamese Missionaries in Asia Ngày Sự kiện Chức vụ 7/01/1927 Sinh Tại Trảng Lưu 14/05/1960 Thụ phong Linh Mục Giáo Phận Vinh, Việt Nam 6/07/1992 Ðược bổ nhiệm Giám Mục Phó Giáo Phận Vinh, Việt Nam 19/11/1992 Thụ Phong Giám Mục Giám Mục Phó Giáo Phận Vinh, Việt Nam 11/12/2000 Kế nhiệm Giám Mục Chánh Tòa Giáo Phận Vinh, Việt Nam 13/05/2010 Hưu dưỡng Giám Mục Chánh Tòa Giáo Phận Vinh, Việt Nam 29/08/2022 Qua đời Nguyên Giám Mục Chánh Tòa Giáo Phận Vinh, Việt Nam Thánh lễ An táng Ðức Cố Giám mục Phaolô Maria Cao Ðình Thuyên Bài Giảng của ÐTGM Hà Nội trong Thánh Lễ an táng Ðức cố Giám mục Phaolô Maria Cao Ðình Thuyên Cáo phó Ðức cha Phaolô Maria Cao Ðình Thuyên Nguyên Giám mục Giáo phận Vinh an nghỉ trong Chúa Ðức Cha Phaolô Maria Cao Ðình Thuyên Cây Ðại Thụ Của Giáo Phận Vinh Ðã Ngã Xuống Ðức cha Phaolô Maria Cao Ðình Thuyên được Chúa gọi về vào lúc 13h00 ngày 29 tháng 8 năm 2022 Thánh lễ mừng thượng thọ Ðức Cha Phaolô Maria Cao Ðình Thuyên Ðức Thánh Cha chấp thuận đơn xin nghỉ hưu của Ðức Cha Cao Ðình Thuyên Back to Vietnamese Mission",
+      "excerptSha256": "9d6a8befd8dd0b883470a2f82431454ab72f5bc8e6e873b1c8371e441fd6a095"
+    },
+    {
+      "id": "cao-hatinh-dob",
+      "url": "https://giaophanhatinh.org/cao-pho-duc-cha-phaolo-maria-cao-dinh-thuyen.htdiocese",
+      "publisher": "Giáo phận Hà Tĩnh",
+      "publisherHost": "giaophanhatinh.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 147452,
+      "sha256": "8d27767752fbac93330a5cfb55e1ba97b6699d10f22f977046282c3b3c4ea879",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Ðức Cha Phaolô Maria Cao Ðình Thuyên sinh ngày 07/01/1927 tại Giáo họ Tràng Lưu, Giáo xứ Tràng Lưu, Giáo hạt Ngàn Sâu, Giáo phận Hà Tĩnh, xã Lộc Yên, huyện Hương Khê, tỉnh Hà Tĩnh. Thân sinh ngài là cụ ông G.B. Cao Ðình Tùng (qua đời 1967) và cụ bà Anna Nguyễn Thị Ðích (qua đời 1968). Gia đình có 5 trai, 2 gái mà ngài là con đầu lòng. * Ngày 13/08/1938: Nhập học Trường tập Xuân Phong. * Ngày 13/08/1942: Nhập học Tiểu Chủng viện Xã Ðoài. * Ngày 01/07/1950: Mãn Tiểu Chủng viện, thầy Phaolô về giúp Sở Quản lý Nhà Chung Xã Ðoài, giúp cha Phêrô Cát, quản lý. * Ngày 01/01/1955: Nhập học Ðại Chủng viện Xã Ðoài. * Ngày 01/05/1957: Nhập hàng giáo sĩ. * Ngày 21/12/1957: Chịu các chức nhỏ. * Ngày 31/01",
+      "excerptSha256": "00938eb7b9b2caede4906f78d252af0f74f2d1a19564175f449c520b586b1fca"
+    },
+    {
+      "id": "cao-hatinh-career",
+      "url": "https://giaophanhatinh.org/cao-pho-duc-cha-phaolo-maria-cao-dinh-thuyen.htdiocese",
+      "publisher": "Giáo phận Hà Tĩnh",
+      "publisherHost": "giaophanhatinh.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 147452,
+      "sha256": "8d27767752fbac93330a5cfb55e1ba97b6699d10f22f977046282c3b3c4ea879",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Ngày 14/05/1960: Chịu chức Linh mục bởi Ðức Giám mục G.B. Trần Hữu Ðức. * Ngày 12/07/1960: Phó xứ Bảo Nham. * Ngày 31/01/1961: Quản xứ Quy Hậu. * Ngày 13/08/1971: Quản lý Tòa Giám mục. * Năm 1980: Được bổ nhiệm Tổng đại diện, kiêm 2 giáo hạt Nhân Hoà và Xã Ðoài. * Ngày 01/11/1992: Được Đức Thánh Cha Gioan Phaolô II bổ nhiệm làm Giám mục phó Giáo phận Vinh. * Ngày 19/11/1992: Lễ Tấn phong Giám mục tại Nhà thờ Chính tòa Xã Đoài, do Đức Giám mục Phêrô Gioan Trần Xuân Hạp chủ phong; Châm ngôn Giám m",
+      "excerptSha256": "d43707895be43db981a0c154fc69f7670e722c95c2309f0ab0e6f2feb8ae0c00"
+    },
+    {
+      "id": "cao-hatinh-death",
+      "url": "https://giaophanhatinh.org/cao-pho-duc-cha-phaolo-maria-cao-dinh-thuyen.htdiocese",
+      "publisher": "Giáo phận Hà Tĩnh",
+      "publisherHost": "giaophanhatinh.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 147452,
+      "sha256": "8d27767752fbac93330a5cfb55e1ba97b6699d10f22f977046282c3b3c4ea879",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " Kitô Phục Sinh Giáo phận Hà Tĩnh kính báo: ĐỨC CHA PHAOLÔ MARIA CAO ĐÌNH THUYÊN Nguyên Giám mục Giáo phận Vinh, là người con ưu tú Giáo phận Hà Tĩnh Đã an nghỉ trong Chúa lúc 13 giờ, ngày 29/08/2022 Hưởng thọ 95 tuổi, 62 năm Linh mục và 30 năm Giám mục Lễ viếng bắt đầu từ 08h00’ ngày 30/08/2022 Thánh lễ An táng Đức Cha Phaolô Maria sẽ được cử hành",
+      "excerptSha256": "faec27bafefe655527a02dca64840a64f7589e2a14e539780565d4983616833f"
+    },
+    {
+      "id": "maramotti-gazzetta-dob",
+      "url": "https://www.gazzettaufficiale.it/atto/parte_seconda/caricaDettaglioAtto/originario?atto.codiceRedazionale=C-4616&atto.dataPubblicazioneGazzetta=2002-02-20",
+      "publisher": "Gazzetta Ufficiale della Repubblica Italiana",
+      "publisherHost": "www.gazzettaufficiale.it",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytesRead": 19756,
+      "sha256": "10c27b7acc01b9f1ecf92cb83ad2246fc531f43d93d6c6e01fd413fd0e96ae19",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Maramotti Achille nato a R. Emilia il 7 gennaio 1927, in qualita' di legale rappresentante dell'azienda agricola Maramotti Lombardini S.r.l., proprietaria degli immobili contraddistinti nel N.C.T. del comune di R. Emilia al foglio 47, mappali 128-131, indennita' complessiva pari a L. 97.203.000 (dic",
+      "excerptSha256": "c53a062e9d6fb9259d682a5edc3a7073d3a1e41e7bea08175c759c86151ddf8a"
+    },
+    {
+      "id": "maramotti-independent-dob-career",
+      "url": "https://www.the-independent.com/news/obituaries/achille-maramotti-5524094.html",
+      "publisher": "The Independent",
+      "publisherHost": "www.the-independent.com",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 199174,
+      "sha256": "8092b7ce9751f992a0a0c3072d2cfe06f0a8cf8d24b9f2408dc48e762623692f",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "nt Max, a man perennially drunk but always dashing, the \"Mara\" from the family surname. Achille Maramotti, businessman: born Reggio Emilia, Italy 7 January 1927; married 1952 Ida Lombardini (two sons, one daughter); died Albinea, Italy 12 January 2005. The Italian fashion label MaxMara has always stood out: because there is no one person behind the label, there is no figurehead. MaxMara was founded by Achille Maramotti in 1951; he wanted a name that could be pronounced in any language and yet hinted at no one in particular. The \"Max\" came from a local character called Count Max, a man perennially drunk but always dashing, the \"Mara\" from the family surname. This lack of ego was even more incredible when you consider that Italians have long been obsessed with \" la marca \" (the label) and that in the 1950s most women still had their clothes made at the local dressmakers, or, if they were r",
+      "excerptSha256": "e868733205fb331a89eef50d25c83e6b0ec1dc6178d860d28ee1132d17853273"
+    },
+    {
+      "id": "maramotti-pirelli-business",
+      "url": "https://www.fondazionepirelli.org/it/cultura-dimpresa/fabbrica-darte/",
+      "publisher": "Fondazione Pirelli",
+      "publisherHost": "www.fondazionepirelli.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 116295,
+      "sha256": "8457c69686ea70df19484a40f3927e5ff86d8b0e90622c61b9d4121d1958b3aa",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Maramotti, nato a Reggio Emilia il 7 gennaio 1927, è stato uno dei più importanti e riservati imprenditori italiani, fondatore di un impero del pret-a-porter con circa 1200 boutique sparse in 90 Paesi. Marina Rinaldi, Max Co., Marella, Sportmax, Pennyblack, Blues, Weekend, Pianoforte e Maxima sono altrettanti marchi nati dalla stessa mente imprenditoriale. Ciò che più conta, e che Pirozzi fa capire bene, è però l’alchimia fra capacità produttiva – in questo caso tessile e commerciale -, e capacità di raccogliere negli anni una collezione d’arte di alto livello oltre che di offrirla al pubblico negli spazi che erano della fabbrica. Con, fra l’altro, la stessa azienda che crea una società fatta apposta per sostenere economicamente le attività artistiche dedicate al pubblico. Bella è la descrizione della trasformazione della fabbrica in luogo d’esposizione artistica: “Nel 2003 l’azienda, in",
+      "excerptSha256": "b1953af931cd841590c22c95198266e586847e12ca3bf0da11e8d19d1995d9cb"
+    },
+    {
+      "id": "maramotti-pirelli-art",
+      "url": "https://www.fondazionepirelli.org/it/cultura-dimpresa/fabbrica-darte/",
+      "publisher": "Fondazione Pirelli",
+      "publisherHost": "www.fondazionepirelli.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 116295,
+      "sha256": "8457c69686ea70df19484a40f3927e5ff86d8b0e90622c61b9d4121d1958b3aa",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Collezione d’arte contemporanea del fondatore di Max Mara, Achille Maramotti. (…) Per la conversione è stato scelto un approccio rispettoso che conserva la cruda essenzialità della costruzione, conformandosi alla logica del progetto originale che la concepiva come struttura adattabile a diversi scopi e capace di trasformarsi secondo mutevoli necessità. Da questo progetto, lo spazio espositivo si configura per essere un ‘luogo della memoria’, in cui i pavimenti macchiati conservano il vissuto delle macchine e del lavoro, i soffitti e le pareti tornano bianchi, il cemento armato è a vista, i frangisole e i parapetti delle scale sono quelli di un tempo. Eliminati così gli elementi aggiuntivi pr",
+      "excerptSha256": "7d799acbebc482e1b21376f4f3123ccbc6adfc0ebfc35e97458e4c304a8832f0"
+    },
+    {
+      "id": "maramotti-guardian-career",
+      "url": "https://www.theguardian.com/news/2005/jan/18/guardianobituaries.italy",
+      "publisher": "The Guardian",
+      "publisherHost": "www.theguardian.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 284620,
+      "sha256": "7f2c8cb708a0449f282c2759d328408e73a33fa91574d4c4569f922a124e10fe",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ality and ready-to-wear Veronica Horwell Tue 18 Jan 2005 12.43 GMT Share Prefer the Guardian on Google The Forbes-rated fortune of Achille Maramotti, founder of the fashion firm Max Mara, who has died aged 78, derived from two prescient 1951 investments. Marshall Plan dollars were then flowing through northern Italy to fund the revival of its textile industry, which had maintained its craft standards, but lost plant and equipment in the second world war. Quality fabrics were available again, sold by the metre: middle-class Italian women had the stuff made up by their tailor or dressmaker, despising factory-made garments. Maramotti, a recent graduate with a law degree from Parma University, was acting for a Swiss raincoat manufacturer who bought Italian materials. He decided to go into the fashion business himself, to create day clothes that were industrially cut and sewn but in the best ",
+      "excerptSha256": "f6e8c72f4631d4dec34b80c0d798d5811f329c53d43b6c5aca8a95d8e2e5a686"
+    },
+    {
+      "id": "maramotti-guardian-death",
+      "url": "https://www.theguardian.com/news/2005/jan/18/guardianobituaries.italy",
+      "publisher": "The Guardian",
+      "publisherHost": "www.theguardian.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 284620,
+      "sha256": "7f2c8cb708a0449f282c2759d328408e73a33fa91574d4c4569f922a124e10fe",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "e Maramotti herd. He is survived by his wife, Ida, two sons and a daughter. · Achille Maramotti, fashion entrepreneur and banker, born January 7 1927; died January 12 2005 Explore more on these topics Italy Europe obituaries Share Reuse this content Most viewed Most viewed World Europe US news Americas Asia Australia Middle East Africa Inequality G",
+      "excerptSha256": "5c9cb7e3e8dd38fb5a7fdb923da465c3ef67a9537b03afe464e420b0cde20afa"
+    },
+    {
+      "id": "joseph-napoleon-dob",
+      "url": "https://www.napoleon.org/en/history-of-the-two-empires/biographies/bonaparte-joseph",
+      "publisher": "Fondation Napoléon, Napoleon.org",
+      "publisherHost": "www.napoleon.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 52625,
+      "sha256": "f6d863f15d2194a1647c5b5155123898d6b56a12eeb049420451cf8c7449fa9b",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Born in Ajaccio, 7 January, 1768, he was the eldest son of Charles Bonaparte and Letizia Ramolino. Initially destined for the Law, Joseph was forced by the exile of the Bonapartes from Corsica, after the rift with Paoli , to return to Provence. In 1794 he married Marie-Julie Clary (1771-1845), the daughter of a rich Marseilles businessman. Thanks to his brother’s influence, Joseph was appointed Commissaire des guerres for the Army of Italy and then elected by his Corsican compatriots, on 23 Germ",
+      "excerptSha256": "98411e617918598d6ad888b058417b265364dfa9c15206ab846a28814b10f318"
+    },
+    {
+      "id": "joseph-lancaster-dob",
+      "url": "https://www.lancasterhistory.org/images/stories/JournalArticles/vol27no9pp161_163_135540.pdf",
+      "publisher": "LancasterHistory.org",
+      "publisherHost": "www.lancasterhistory.org",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytesRead": 135540,
+      "sha256": "431419d93305c52e64ea831304420ae2d1d293ea135952d157d7fdbfac484a29",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Joseph Bonaparte, eldest brother of Napoleon, was born January 7, 1768, at Corte, on the island of Corsica. He was educated at the Colloge at Autun, in France. In 1785, he returned to Corsica, and, shortly thereafter, began the study of law at the University of Pisa. He was frequently employed by his brother, the First Consul of France, in various ",
+      "excerptSha256": "d74094c334ba7d01e69de73492642761f935efde1ce960db490bcfae9b714815"
+    },
+    {
+      "id": "joseph-napoleon-death",
+      "url": "https://www.napoleon.org/en/history-of-the-two-empires/biographies/bonaparte-joseph",
+      "publisher": "Fondation Napoléon, Napoleon.org",
+      "publisherHost": "www.napoleon.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 52625,
+      "sha256": "f6d863f15d2194a1647c5b5155123898d6b56a12eeb049420451cf8c7449fa9b",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ved to England, returning to America 1837-1839, coming back again to London before finally settling in 1844 in Florence where he died 28 July, 1844. Jean Tulard, Dictionnaire Napoléon , 1999, tome 2, pp. 85-86 With the kind permission of Editions Fayard . Print Return to top Share it twitter faceboo",
+      "excerptSha256": "cc49f1699cc8eb3cc102e685eec37f815c852529388b8a394a383b7c114ad33d"
+    },
+    {
+      "id": "joseph-napoleon-treaties",
+      "url": "https://www.napoleon.org/en/history-of-the-two-empires/paintings/portrait-de-joseph-bonaparte",
+      "publisher": "Fondation Napoléon, Napoleon.org",
+      "publisherHost": "www.napoleon.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 54316,
+      "sha256": "fcde1375903b3468883a37e786da76d2822662672142ffc364b3ac67bd365ce3",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "negotiating most notably the Treaty of Mortefontaine with the United States in 1800, the Peace of Lunéville with Austria and the Concordat with the Holy See in 1801 and the Peace of Amiens with England in 1802. Highlights of his military career were his appointments to the rank of colonel and Brigadier General in 1804, and as Major General and commander of the army of Naples in 1805. He was made King of Naples in March 1806, but gave up his throne in July 1808 to Joachim Murat to become King of Spain. The defeat of Vitoria, 21 June, 1813, marked the end of the Napoleonic presence in Spain. As Lieutenant General of the Emperor in 1814, he was not able to prevent the surrender of Paris on 30 March. Napoleon’s abdication in 1814 forced Joseph into exile in Switzerland, where he owned the Château de Prangins from 1814 to 1827. After the defeat of Waterloo, on 18 June 1815 and Napoleon’s second abdication, Joseph Bonaparte settled in the United States, later returning to live in Europe, in ",
+      "excerptSha256": "275291a44f722b994a5a91c66e55f5d724fca22b33cff74577390e7eac989fbe"
+    },
+    {
+      "id": "wikidata-millard-fillmore",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q12306.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 165947,
+      "sha256": "a56b658bef3dc2ab85afec39b893c593fde02d2ddfb4da4b98958dfd20645fdb",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q12306; English label: Millard Fillmore; p31=Q5; p569=+1800-01-07T00:00:00Z/p11; p570=+1874-03-08T00:00:00Z/p11; p27=Q30; p106=Q82955,Q40348,Q372436,Q185351; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "73f07d6baee0dc5ef7c3c6bdd87b5609e11a6374d844bae0d93183883f6c43ff"
+    },
+    {
+      "id": "wikidata-lewis-hamilton",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q9673.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 195733,
+      "sha256": "967305d623ae8535b0b0fd1274ca10a9958ddde8ab09d07c8665a0116d3963a6",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q9673; English label: Lewis Hamilton; p31=Q5; p569=+1985-01-07T00:00:00Z/p11,+1985-00-00T00:00:00Z/p9; p570=; p27=Q145; p106=Q10841764,Q10349745; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "5ca49b81760e68c8cebcb2059ee053a9b59fb7c697ee15a41022f636c7615016"
+    },
+    {
+      "id": "wikidata-joseph-bonaparte",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q7726.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 146625,
+      "sha256": "8c6a17da0434497c2798a071170db77c1085e29c8d0267e98e35baa7ac56a14a",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q7726; English label: Joseph Bonaparte; p31=Q5; p569=+1768-01-07T00:00:00Z/p11; p570=+1844-07-28T00:00:00Z/p11; p27=Q142; p106=Q82955,Q193391,Q189290; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "9512888eb3714d4d4d85005a23e98adef377bd15213a8f3872816adc38d7877a"
+    },
+    {
+      "id": "wikidata-cao-dinh-thuyen",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q2058567.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 25094,
+      "sha256": "7f45a5aa35d6b9d763defea7a5aae027a95a707c12bde3b38f75a8312ded869a",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q2058567; English label: Paul-Marie Cao Dinh Thuyen; p31=Q5; p569=+1927-01-07T00:00:00Z/p11; p570=+2022-08-29T00:00:00Z/p11; p27=Q881; p106=Q250867,Q611644,Q25393460; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "221102adfd05697083b719481378b549afe7cab7f24e1822fc6057167e62bfee"
+    },
+    {
+      "id": "wikidata-achille-maramotti",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q340230.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 17895,
+      "sha256": "53b79128b29d02db45bc6f0ff53ddcc86e8bcdc1b0f44454488dc306ade7fabc",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q340230; English label: Achille Maramotti; p31=Q5; p569=+1927-01-07T00:00:00Z/p11; p570=+2005-01-12T00:00:00Z/p11; p27=Q38,Q172579; p106=Q3501317,Q43845,Q2516866; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "e84326fe2778a6054812a93176c0d35f02bd4dca1afbdd004533bf2df5255217"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "millard-fillmore",
+      "name": "Millard Fillmore",
+      "wikidataId": "Q12306",
+      "birthDate": "1800-01-07",
+      "lifeStatus": "deceased",
+      "deathDate": "1874-03-08",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "fillmore-govinfo-death"
+      ],
+      "dobSourceIds": [
+        "fillmore-house-career",
+        "fillmore-govinfo-dob"
+      ],
+      "statusSourceId": "fillmore-govinfo-death",
+      "careerFactIds": [
+        "jan7-fillmore-president",
+        "jan7-fillmore-ways-means"
+      ],
+      "fields": [
+        "society-law"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "society-law",
+          "careerFactIds": [
+            "jan7-fillmore-president",
+            "jan7-fillmore-ways-means"
+          ],
+          "rationale": "His work as a U.S. representative, committee chair, vice president, and president documents a career in government and public institutions."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-millard-fillmore",
+      "identityClaims": {
+        "label": "Millard Fillmore",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1800-01-07T00:00:00Z",
+            "references": 9,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1874-03-08T00:00:00Z",
+            "references": 9,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q82955",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q40348",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q372436",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q185351",
+            "references": 1
+          }
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q12306",
+        "https://history.house.gov/People/Detail/13119",
+        "https://guides.loc.gov/millard-fillmore",
+        "https://www.govinfo.gov/content/pkg/CDOC-104sdoc26/pdf/CDOC-104sdoc26.pdf"
+      ],
+      "before": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q12306",
+          "https://history.house.gov/People/Detail/13119",
+          "https://guides.loc.gov/millard-fillmore"
+        ],
+        "shortDescription": "Tổng thống thứ 13 của Hoa Kỳ.",
+        "biography": "Millard Fillmore sinh ngày 7/1/1800 tại bang New York. Ông giữ chức Tổng thống thứ 13 của Hoa Kỳ từ năm 1850 đến năm 1853.",
+        "highlights": [
+          "Giữ chức Tổng thống Hoa Kỳ từ năm 1850 đến năm 1853.",
+          "Trước khi làm tổng thống, ông là Phó Tổng thống Hoa Kỳ."
+        ],
+        "fields": null,
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q12306",
+          "https://history.house.gov/People/Detail/13119",
+          "https://guides.loc.gov/millard-fillmore",
+          "https://www.govinfo.gov/content/pkg/CDOC-104sdoc26/pdf/CDOC-104sdoc26.pdf"
+        ],
+        "shortDescription": "Tổng thống thứ 13 của Hoa Kỳ, trước đó là Phó Tổng thống và nghị sĩ.",
+        "biography": "Millard Fillmore sinh ngày 7/1/1800 tại Locke Township, nay là Summerhill, bang New York. Ông học nghề, tự học luật, làm nghị sĩ và giữ chức Phó Tổng thống dưới thời Zachary Taylor. Sau khi Taylor qua đời, Fillmore kế nhiệm chức Tổng thống và phục vụ từ tháng 7/1850 đến tháng 3/1853. Trước đó, ông chủ trì Ủy ban Ways and Means của Hạ viện trong Quốc hội khóa 27. Fillmore qua đời tại Buffalo ngày 8/3/1874.",
+        "highlights": [
+          "Fillmore kế nhiệm Tổng thống sau khi Zachary Taylor qua đời và phục vụ từ năm 1850 đến năm 1853.",
+          "Trước khi trở thành Phó Tổng thống, Fillmore chủ trì Ủy ban Ways and Means của Hạ viện trong Quốc hội khóa 27."
+        ],
+        "fields": [
+          "society-law"
+        ],
+        "lifeStatus": "deceased",
+        "deathDate": "1874-03-08",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://www.govinfo.gov/content/pkg/CDOC-104sdoc26/pdf/CDOC-104sdoc26.pdf"
+        ],
+        "verifiedAt": "2026-10-08"
+      }
+    },
+    {
+      "id": "lewis-hamilton",
+      "name": "Lewis Hamilton",
+      "wikidataId": "Q9673",
+      "birthDate": "1985-01-07",
+      "lifeStatus": "living",
+      "deathDate": null,
+      "deathDatePrecision": null,
+      "deathDateSourceIds": [],
+      "dobSourceIds": [
+        "hamilton-f1-profile",
+        "hamilton-fia-media"
+      ],
+      "statusSourceId": "hamilton-f1-profile",
+      "careerFactIds": [
+        "jan7-hamilton-titles",
+        "jan7-hamilton-rookie"
+      ],
+      "fields": [],
+      "fieldEvidence": [],
+      "wikidataCaptureId": "wikidata-lewis-hamilton",
+      "identityClaims": {
+        "label": "Lewis Hamilton",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 3
+          }
+        ],
+        "p569": [
+          {
+            "rank": "preferred",
+            "value": "+1985-01-07T00:00:00Z",
+            "references": 4,
+            "precision": 11,
+            "calendar": "Q1985727"
+          },
+          {
+            "rank": "normal",
+            "value": "+1985-00-00T00:00:00Z",
+            "references": 3,
+            "precision": 9,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q145",
+            "references": 4
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q10841764",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q10349745",
+            "references": 1
+          }
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q9673",
+        "https://www.formula1.com/en/drivers/lewis-hamilton",
+        "https://www.britannica.com/biography/Lewis-Hamilton",
+        "https://www.fia.com/file/61780/download"
+      ],
+      "before": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q9673",
+          "https://www.formula1.com/en/drivers/lewis-hamilton",
+          "https://www.britannica.com/biography/Lewis-Hamilton"
+        ],
+        "shortDescription": "Tay đua người Anh, nhiều lần vô địch thế giới Công thức 1.",
+        "biography": "Lewis Hamilton sinh ngày 7/1/1985 tại Stevenage, Anh. Anh thi đấu Công thức 1 và giành bảy chức vô địch thế giới.",
+        "highlights": [
+          "Bảy lần vô địch thế giới Công thức 1.",
+          "Ra mắt Công thức 1 năm 2007."
+        ],
+        "fields": null,
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q9673",
+          "https://www.formula1.com/en/drivers/lewis-hamilton",
+          "https://www.britannica.com/biography/Lewis-Hamilton",
+          "https://www.fia.com/file/61780/download"
+        ],
+        "shortDescription": "Tay đua Công thức 1 người Anh, bảy lần vô địch thế giới.",
+        "biography": "Lewis Hamilton sinh ngày 7/1/1985 tại Stevenage, Anh. Anh ra mắt Công thức 1 với McLaren năm 2007 và giành bảy chức vô địch thế giới, cân bằng kỷ lục số danh hiệu của giải. Trang hồ sơ mùa giải hiện tại của Formula 1 ghi nhận anh thi đấu cho Ferrari trong mùa 2026.",
+        "highlights": [
+          "Hamilton đã giành bảy chức vô địch thế giới Công thức 1, bằng kỷ lục danh hiệu của giải.",
+          "Hamilton ra mắt Công thức 1 năm 2007 với màn trình diễn tân binh được Formula 1 xếp vào hàng nổi bật nhất lịch sử giải."
+        ],
+        "fields": null,
+        "lifeStatus": "living",
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "verifiedAt": "2026-10-08"
+      }
+    },
+    {
+      "id": "joseph-bonaparte",
+      "name": "Joseph Bonaparte",
+      "wikidataId": "Q7726",
+      "birthDate": "1768-01-07",
+      "lifeStatus": "deceased",
+      "deathDate": "1844-07-28",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "joseph-napoleon-death"
+      ],
+      "dobSourceIds": [
+        "joseph-napoleon-dob",
+        "joseph-lancaster-dob"
+      ],
+      "statusSourceId": "joseph-napoleon-death",
+      "careerFactIds": [
+        "jan7-joseph-kings",
+        "jan7-joseph-treaties"
+      ],
+      "fields": [
+        "society-law"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "society-law",
+          "careerFactIds": [
+            "jan7-joseph-kings",
+            "jan7-joseph-treaties"
+          ],
+          "rationale": "His roles as diplomat and monarch and his treaty negotiations document participation in government and public institutions."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-joseph-bonaparte",
+      "identityClaims": {
+        "label": "Joseph Bonaparte",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1768-01-07T00:00:00Z",
+            "references": 7,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1844-07-28T00:00:00Z",
+            "references": 7,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q142",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q82955",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q193391",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q189290",
+            "references": 0
+          }
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q7726",
+        "https://www.napoleon.org/en/history-of-the-two-empires/biographies/bonaparte-joseph",
+        "https://tile.loc.gov/storage-services/public/gdcmassbookdig/historyofjosephb00abbo_0/historyofjosephb00abbo_0.pdf",
+        "https://www.lancasterhistory.org/images/stories/JournalArticles/vol27no9pp161_163_135540.pdf",
+        "https://www.napoleon.org/en/history-of-the-two-empires/paintings/portrait-de-joseph-bonaparte"
+      ],
+      "before": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q7726",
+          "https://www.napoleon.org/en/history-of-the-two-empires/biographies/bonaparte-joseph",
+          "https://tile.loc.gov/storage-services/public/gdcmassbookdig/historyofjosephb00abbo_0/historyofjosephb00abbo_0.pdf"
+        ],
+        "shortDescription": "Chính khách người Pháp, từng giữ ngôi vua Tây Ban Nha.",
+        "biography": "Joseph Bonaparte sinh ngày 7/1/1768 tại Corsica. Ông là anh của Napoléon Bonaparte và giữ ngôi vua Tây Ban Nha từ năm 1808 đến năm 1813.",
+        "highlights": [
+          "Giữ ngôi vua Tây Ban Nha từ năm 1808 đến năm 1813.",
+          "Là anh trai của Napoléon Bonaparte."
+        ],
+        "fields": null,
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q7726",
+          "https://www.napoleon.org/en/history-of-the-two-empires/biographies/bonaparte-joseph",
+          "https://tile.loc.gov/storage-services/public/gdcmassbookdig/historyofjosephb00abbo_0/historyofjosephb00abbo_0.pdf",
+          "https://www.lancasterhistory.org/images/stories/JournalArticles/vol27no9pp161_163_135540.pdf",
+          "https://www.napoleon.org/en/history-of-the-two-empires/paintings/portrait-de-joseph-bonaparte"
+        ],
+        "shortDescription": "Chính khách và nhà ngoại giao Pháp, từng làm vua Naples và Tây Ban Nha.",
+        "biography": "Joseph Bonaparte sinh ngày 7/1/1768 trên đảo Corsica. Ông học luật, phục vụ trong chính quyền Pháp và tham gia đàm phán các hiệp ước với Hoa Kỳ, Áo và Anh. Napoléon bổ nhiệm ông làm vua Naples năm 1806 rồi chuyển ông sang ngai vàng Tây Ban Nha năm 1808; ông rời Tây Ban Nha năm 1813. Sau nhiều năm lưu vong, Joseph qua đời tại Florence ngày 28/7/1844.",
+        "highlights": [
+          "Joseph Bonaparte làm vua Naples từ năm 1806, rồi làm vua Tây Ban Nha từ năm 1808 đến năm 1813.",
+          "Trong vai trò nhà ngoại giao, ông tham gia đàm phán các hiệp ước Mortefontaine, Lunéville và Amiens."
+        ],
+        "fields": [
+          "society-law"
+        ],
+        "lifeStatus": "deceased",
+        "deathDate": "1844-07-28",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://www.napoleon.org/en/history-of-the-two-empires/biographies/bonaparte-joseph"
+        ],
+        "verifiedAt": "2026-10-08"
+      }
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "cao-dinh-thuyen",
+      "name": "Phaolô Maria Cao Đình Thuyên",
+      "wikidataLabel": "Paul-Marie Cao Dinh Thuyen",
+      "wikidataId": "Q2058567",
+      "birthDate": "1927-01-07",
+      "lifeStatus": "deceased",
+      "deathDate": "2022-08-29",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "cao-hatinh-death"
+      ],
+      "dobSourceIds": [
+        "cao-vntaiwan-profile",
+        "cao-hatinh-dob"
+      ],
+      "statusSourceId": "cao-hatinh-death",
+      "careerFactIds": [
+        "jan7-cao-priest-bishop",
+        "jan7-cao-diocese"
+      ],
+      "countryCode": "VN",
+      "countryName": "Việt Nam",
+      "category": "history",
+      "categoryLabel": "Nhân vật lịch sử",
+      "occupation": [
+        "giám mục Công giáo",
+        "linh mục"
+      ],
+      "birthplace": "Tràng Lưu, Hương Khê, Hà Tĩnh, Việt Nam",
+      "birthplaceEvidencePhrase": "xã Lộc Yên, huyện Hương Khê, tỉnh Hà Tĩnh",
+      "fields": [
+        "society-law"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "society-law",
+          "careerFactIds": [
+            "jan7-cao-priest-bishop",
+            "jan7-cao-diocese"
+          ],
+          "rationale": "His priesthood and long-term leadership of the Diocese of Vinh document a role in Vietnamese religious and social institutions."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-cao-dinh-thuyen",
+      "identityClaims": {
+        "label": "Paul-Marie Cao Dinh Thuyen",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1927-01-07T00:00:00Z",
+            "references": 1,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2022-08-29T00:00:00Z",
+            "references": 0,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q250867",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q611644",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q25393460",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q881",
+        "selectedOccupationQids": [
+          "Q611644",
+          "Q250867"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q2058567",
+        "https://vntaiwan.catholic.org.tw/vnchurch/vinh/gmthuyen.htm",
+        "https://giaophanhatinh.org/cao-pho-duc-cha-phaolo-maria-cao-dinh-thuyen.htdiocese"
+      ]
+    },
+    {
+      "id": "achille-maramotti",
+      "name": "Achille Maramotti",
+      "wikidataLabel": null,
+      "wikidataId": "Q340230",
+      "birthDate": "1927-01-07",
+      "lifeStatus": "deceased",
+      "deathDate": "2005-01-12",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "maramotti-guardian-death"
+      ],
+      "dobSourceIds": [
+        "maramotti-gazzetta-dob",
+        "maramotti-independent-dob-career"
+      ],
+      "statusSourceId": "maramotti-guardian-death",
+      "careerFactIds": [
+        "jan7-maramotti-maxmara",
+        "jan7-maramotti-art"
+      ],
+      "countryCode": "IT",
+      "countryName": "Ý",
+      "category": "entrepreneur",
+      "categoryLabel": "Doanh nhân",
+      "occupation": [
+        "doanh nhân ngành thời trang",
+        "nhà công nghiệp"
+      ],
+      "birthplace": "Reggio Emilia, Ý",
+      "birthplaceEvidencePhrase": "Reggio Emilia, Italy",
+      "fields": [
+        "entrepreneurship",
+        "economics-business"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "entrepreneurship",
+          "careerFactIds": [
+            "jan7-maramotti-maxmara"
+          ],
+          "rationale": "Founding Max Mara and building it into an international ready-to-wear company documents his entrepreneurial work."
+        },
+        {
+          "field": "economics-business",
+          "careerFactIds": [
+            "jan7-maramotti-maxmara",
+            "jan7-maramotti-art"
+          ],
+          "rationale": "The sources document the growth of his fashion business and the company-supported public art collection."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-achille-maramotti",
+      "identityClaims": {
+        "label": "Achille Maramotti",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1927-01-07T00:00:00Z",
+            "references": 1,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2005-01-12T00:00:00Z",
+            "references": 1,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q38",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q172579",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q3501317",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q43845",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2516866",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q38",
+        "selectedOccupationQids": [
+          "Q43845"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q340230",
+        "https://www.gazzettaufficiale.it/atto/parte_seconda/caricaDettaglioAtto/originario?atto.codiceRedazionale=C-4616&atto.dataPubblicazioneGazzetta=2002-02-20",
+        "https://www.fondazionepirelli.org/it/cultura-dimpresa/fabbrica-darte/",
+        "https://www.theguardian.com/news/2005/jan/18/guardianobituaries.italy",
+        "https://www.the-independent.com/news/obituaries/achille-maramotti-5524094.html"
+      ]
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "jan7-fillmore-president",
+      "profileId": "millard-fillmore",
+      "displayText": "Fillmore kế nhiệm Tổng thống sau khi Zachary Taylor qua đời và phục vụ từ năm 1850 đến năm 1853.",
+      "sourceId": "fillmore-house-career",
+      "evidencePhrase": "became President upon the death of President Taylor and served from July 10, 1850, to March 3, 1853"
+    },
+    {
+      "id": "jan7-fillmore-ways-means",
+      "profileId": "millard-fillmore",
+      "displayText": "Trước khi trở thành Phó Tổng thống, Fillmore chủ trì Ủy ban Ways and Means của Hạ viện trong Quốc hội khóa 27.",
+      "sourceId": "fillmore-house-career",
+      "evidencePhrase": "chair, Committee on Ways and Means (Twenty-seventh Congress)"
+    },
+    {
+      "id": "jan7-hamilton-titles",
+      "profileId": "lewis-hamilton",
+      "displayText": "Hamilton đã giành bảy chức vô địch thế giới Công thức 1, bằng kỷ lục danh hiệu của giải.",
+      "sourceId": "hamilton-f1-profile",
+      "evidencePhrase": "World Championships 7"
+    },
+    {
+      "id": "jan7-hamilton-rookie",
+      "profileId": "lewis-hamilton",
+      "displayText": "Hamilton ra mắt Công thức 1 năm 2007 với màn trình diễn tân binh được Formula 1 xếp vào hàng nổi bật nhất lịch sử giải.",
+      "sourceId": "hamilton-f1-profile",
+      "evidencePhrase": "one of the greatest rookie performances in F1 history in 2007"
+    },
+    {
+      "id": "jan7-cao-priest-bishop",
+      "profileId": "cao-dinh-thuyen",
+      "displayText": "Cao Đình Thuyên được thụ phong linh mục năm 1960 và tấn phong giám mục tại Giáo phận Vinh năm 1992.",
+      "sourceId": "cao-hatinh-career",
+      "evidencePhrase": "Ngày 14/05/1960: Chịu chức Linh mục bởi"
+    },
+    {
+      "id": "jan7-cao-diocese",
+      "profileId": "cao-dinh-thuyen",
+      "displayText": "Ngài giữ chức Giám mục chính tòa Giáo phận Vinh từ năm 2000 đến khi nghỉ hưu năm 2010.",
+      "sourceId": "cao-vntaiwan-profile",
+      "evidencePhrase": "11/12/2000 Kế nhiệm Giám Mục Chánh Tòa Giáo Phận Vinh, Việt Nam 13/05/2010 Hưu dưỡng"
+    },
+    {
+      "id": "jan7-maramotti-maxmara",
+      "profileId": "achille-maramotti",
+      "displayText": "Maramotti xây dựng Max Mara thành một đế chế thời trang ready-to-wear với khoảng 1.200 cửa hàng tại 90 quốc gia.",
+      "sourceId": "maramotti-independent-dob-career",
+      "evidencePhrase": "MaxMara was founded by Achille Maramotti in 1951"
+    },
+    {
+      "id": "jan7-maramotti-art",
+      "profileId": "achille-maramotti",
+      "displayText": "Ông gây dựng bộ sưu tập nghệ thuật đương đại của nhà sáng lập Max Mara và mở không gian đó cho công chúng.",
+      "sourceId": "maramotti-pirelli-business",
+      "evidencePhrase": "capacità di raccogliere negli anni una collezione d’arte di alto livello oltre che di offrirla al pubblico"
+    },
+    {
+      "id": "jan7-joseph-kings",
+      "profileId": "joseph-bonaparte",
+      "displayText": "Joseph Bonaparte làm vua Naples từ năm 1806, rồi làm vua Tây Ban Nha từ năm 1808 đến năm 1813.",
+      "sourceId": "joseph-napoleon-treaties",
+      "evidencePhrase": "He was made King of Naples in March 1806, but gave up his throne in July 1808 to Joachim Murat to become King of Spain"
+    },
+    {
+      "id": "jan7-joseph-treaties",
+      "profileId": "joseph-bonaparte",
+      "displayText": "Trong vai trò nhà ngoại giao, ông tham gia đàm phán các hiệp ước Mortefontaine, Lunéville và Amiens.",
+      "sourceId": "joseph-napoleon-treaties",
+      "evidencePhrase": "negotiating most notably the Treaty of Mortefontaine with the United States in 1800"
+    }
+  ],
+  "wikidataReview": {
+    "profiles": {
+      "millard-fillmore": {
+        "label": "Millard Fillmore",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1800-01-07T00:00:00Z",
+            "references": 9,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1874-03-08T00:00:00Z",
+            "references": 9,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q82955",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q40348",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q372436",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q185351",
+            "references": 1
+          }
+        ]
+      },
+      "lewis-hamilton": {
+        "label": "Lewis Hamilton",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 3
+          }
+        ],
+        "p569": [
+          {
+            "rank": "preferred",
+            "value": "+1985-01-07T00:00:00Z",
+            "references": 4,
+            "precision": 11,
+            "calendar": "Q1985727"
+          },
+          {
+            "rank": "normal",
+            "value": "+1985-00-00T00:00:00Z",
+            "references": 3,
+            "precision": 9,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q145",
+            "references": 4
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q10841764",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q10349745",
+            "references": 1
+          }
+        ]
+      },
+      "joseph-bonaparte": {
+        "label": "Joseph Bonaparte",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1768-01-07T00:00:00Z",
+            "references": 7,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1844-07-28T00:00:00Z",
+            "references": 7,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q142",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q82955",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q193391",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q189290",
+            "references": 0
+          }
+        ]
+      },
+      "cao-dinh-thuyen": {
+        "label": "Paul-Marie Cao Dinh Thuyen",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1927-01-07T00:00:00Z",
+            "references": 1,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2022-08-29T00:00:00Z",
+            "references": 0,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q250867",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q611644",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q25393460",
+            "references": 1
+          }
+        ]
+      },
+      "achille-maramotti": {
+        "label": "Achille Maramotti",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1927-01-07T00:00:00Z",
+            "references": 1,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2005-01-12T00:00:00Z",
+            "references": 1,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q38",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q172579",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q3501317",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q43845",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2516866",
+            "references": 0
+          }
+        ]
+      }
+    },
+    "conflicts": [
+      {
+        "profileId": "lewis-hamilton",
+        "wikidataId": "Q9673",
+        "property": "P569",
+        "selectedDate": "1985-01-07",
+        "activeClaims": [
+          {
+            "rank": "preferred",
+            "date": "1985-01-07",
+            "precision": 11,
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "date": "1985-00-00",
+            "precision": 9,
+            "references": 3
+          }
+        ],
+        "resolution": "The preferred exact Gregorian day 1985-01-07 is retained because independent sources give that date. The additional normal-rank P569 is year-precision 1985, agrees with the exact year, and does not identify a competing day."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1431 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-11",
+  "capturedAt": "2026-10-08T14:54:52Z",
+  "sourceCaptures": [
+    {
+      "id": "kailash-official-dob",
+      "url": "https://www.kailashsatyarthi.net/stories-from-his-early-life/",
+      "publisher": "Kailash Satyarthi official website",
+      "publisherHost": "www.kailashsatyarthi.net",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 46105,
+      "sha256": "85157d2e828588c6d3f3a9c6e1fed22ce55231418b98dc32dc772ce547279a10",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "rt STORIES FROM HIS EARLY LIFE The Journey Begins Kailash Sharma, born on January 11, 1954, in the small town of Vidisha in Madhya Pradesh, was the youngest of five siblings in a modest, middle-class family. His father, Ram Prasad Sharma, served as a head constable in the state police, and his mother, Chironj",
+      "excerptSha256": "5838c5cfcc5f1886d6e078ad082b2b79ddd149e30f5f36bd7f6e337dfc7b14db"
+    },
+    {
+      "id": "kailash-nobel-dob",
+      "url": "https://www.nobelprize.org/prizes/peace/2014/satyarthi/biographical/",
+      "publisher": "Nobel Prize",
+      "publisherHost": "www.nobelprize.org",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 214481,
+      "sha256": "68edbb73c7b385cf951c07d701f90727240e9346a732150c2c9b5cb1a6e8c370",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "o K ailash Satyarthi (born on January 11, 1954) is a human rights activist from India who has been at the forefront of the global movement to end child slavery and exploitation since 1980, when he gave up a lucrative career as an electrical engineer to initiate a crusad",
+      "excerptSha256": "514479900d4bbf6b695b4b7b6798b08594132de15f2a0360e0e8c275930271cb"
+    },
+    {
+      "id": "kailash-bba-fact",
+      "url": "https://www.nobelprize.org/prizes/peace/2014/satyarthi/biographical/",
+      "publisher": "Nobel Prize",
+      "publisherHost": "www.nobelprize.org",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 214481,
+      "sha256": "68edbb73c7b385cf951c07d701f90727240e9346a732150c2c9b5cb1a6e8c370",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ropped his family name and adopted “Satyarthi” (English: Seeker of Truth) as his surname. Kailash founded Bachpan Bachao Andolan (Save Childhood Movement) in 1980 as the first people’s movement for social justice, equity, education and peace for all children in India. He braved all odds to uphold the rights of marginalised and victimised children, not only in India but across the world. In the last 35 years his effor",
+      "excerptSha256": "224505ea74fe701b6c7b776934e6bdb0bc3a2671aab71f1ffa3db43309f7ede8"
+    },
+    {
+      "id": "kailash-nobel-fact",
+      "url": "https://www.nobelprize.org/prizes/peace/2014/satyarthi/biographical/",
+      "publisher": "Nobel Prize",
+      "publisherHost": "www.nobelprize.org",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 214481,
+      "sha256": "68edbb73c7b385cf951c07d701f90727240e9346a732150c2c9b5cb1a6e8c370",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": ". This was a defining moment in the history of human rights activism. In 2014, Kailash Satyarthi was awarded the Nobel Peace Prize jointly with Malala Yousafzai for their struggle against the suppression of children and young people and for the right of all children to education. Kailash has dedicated the entire prize sum to the advancement of the rights of children. On January",
+      "excerptSha256": "da5829305dd2c1529fdc4bb8e4fd917ee3d278fac646f8702f03d26a3b82fe52"
+    },
+    {
+      "id": "kailash-living",
+      "url": "https://satyarthi.org.in/our-founder/",
+      "publisher": "Kailash Satyarthi Children’s Foundation",
+      "publisherHost": "satyarthi.org.in",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 182745,
+      "sha256": "d435036a17cfb2b4767a264ef8d3896aee6b6528b12e01229a3de0ff412793af",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "hild as his own led to him being awarded the Nobel Peace Prize . In 2014, Kailash Satyarthi became the 8th Indian to win Nobel Prize and he continues fighting for child rights and protection with the same passion as he believes – “The Nobel Peace Prize is just a comma, not a full stop.” Letter to Satyarthi Donate Now Where it all began? Growing up in Vidisha, Madhya Pradesh, young Kailash couldn’t quite understand wh",
+      "excerptSha256": "d75f75fb6d4e24497823e8a0daef988014af9bd7416539f69746a74f17992bc5"
+    },
+    {
+      "id": "roger-salk-dob",
+      "url": "https://www.salk.edu/news-release/salk-institute-mourns-the-loss-of-nobel-laureate-roger-guillemin-distinguished-professor-emeritus/",
+      "publisher": "Salk Institute",
+      "publisherHost": "www.salk.edu",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 203301,
+      "sha256": "89525e4e348d1b24c99fac15476d2b027fdf9c1cf79972d472f9f8cb1145cf85",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "the medical treatment of infertility and is also used to treat prostate cancer. Guillemin was born in Dijon, the capital of France’s Burgundy region, on January 11, 1924. He entered medical school at the Université de Bourgogne in 1943, receiving his MD from the Faculté de Médecine in Lyon (then under the same academic administration as his university in Dijon) in 194",
+      "excerptSha256": "cee9b2dfdf6bf899abe3c532a05540ef0b328dfdc0bcf88d0cc3ba65f4500168"
+    },
+    {
+      "id": "roger-aacr-dob",
+      "url": "https://www.aacr.org/professionals/membership/in-memoriam/roger-c-l-guillemin/",
+      "publisher": "American Association for Cancer Research",
+      "publisherHost": "www.aacr.org",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 289005,
+      "sha256": "082ee4547c432515eea3478567f8c09685c82223ac8601dfe3bd995f89a55349",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ceived the other half for separate but related discoveries on peptide hormones. Guillemin was born in Dijon, France, on January 11, 1924. In his early years, his medical studies in his native France were interrupted by World War II, during which he joined the French Resistance and helped Allied pilots and other persons escape to Switzerland. Guillemin earned his medical degree",
+      "excerptSha256": "42887a31a2121267b36a63dac4205a3d104dee28011f114d1846eae416161fb5"
+    },
+    {
+      "id": "roger-salk-death",
+      "url": "https://www.salk.edu/news-release/salk-institute-mourns-the-loss-of-nobel-laureate-roger-guillemin-distinguished-professor-emeritus/",
+      "publisher": "Salk Institute",
+      "publisherHost": "www.salk.edu",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 203301,
+      "sha256": "89525e4e348d1b24c99fac15476d2b027fdf9c1cf79972d472f9f8cb1145cf85",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "lemin , recipient of the 1977 Nobel Prize in Physiology or Medicine and neuroendocrinology pioneer, died on February 21, 2024, in Del Mar, California at the age of 100. Roger Guillemin Click here for a high-resolution image. Credit: Salk Institute “We are incredibly saddened to learn of Roger’s passing,” says Salk President Gerald Joyce . “He leaves a remark",
+      "excerptSha256": "c659100cd81b7c2a175f0f554f8653aad2d2f92cf4bd0bdc79655457c37cf6eb"
+    },
+    {
+      "id": "roger-nobel-fact",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11098124/",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "publisherHost": "pmc.ncbi.nlm.nih.gov",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 100420,
+      "sha256": "5c13c2570eeba08a09543e717399e2fdb863d7c100d50602abd1f6e159f87a32",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "family, friends, and many ex-colleagues. His copious scientific contributions, which led to numerous prizes and awards, culminating in the Nobel Prize for Physiology or Medicine in 1977, had opened the way, not only to a new understanding of the mechanisms that control the function of the anterior pituitary gland but also to the development of novel treatments for sex-steroid-dependent cancers, endometriosis, precocious puberty, and pancreatic tu",
+      "excerptSha256": "56878d3371f89768c87a21ad989911980a9034032ab59e654c01e9c68ec2a924"
+    },
+    {
+      "id": "roger-hormone-fact",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11098124/",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "publisherHost": "pmc.ncbi.nlm.nih.gov",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 100420,
+      "sha256": "5c13c2570eeba08a09543e717399e2fdb863d7c100d50602abd1f6e159f87a32",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "trategy: He cocultured hypothalamic and pituitary cells and noticed that when the two types of tissues remained in close contact, hypothalamic cells produced a substance which stimulated adrenocorticotropic hormone (ACTH) release by the pituitary cells. However, when the two cell populations were subsequently separated, ACTH release stopped. Guillemin concluded, correctly, that the hypothalamus produced signals that were humoral, and not neuronal, as they could act on pituitary cells through the culture m",
+      "excerptSha256": "caf7134af44bb77142564ca2b0171ed09a9068adaec522c45518d8011b2125ad"
+    },
+    {
+      "id": "nguyen-vnexpress-dob",
+      "url": "https://vnexpress.net/chu-de/nguyen-hoang-duc-1358",
+      "publisher": "VnExpress",
+      "publisherHost": "vnexpress.net",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 299789,
+      "sha256": "6c317a36a761241778fcb20ad9958b2d0b059c3dde4b9d48a26f58045d27f4ac",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "h(e){} .fck_detail .box-tinlienquanv2{max-width:100%} Nguyễn Hoàng Đức Tên đầy đủ: Nguyễn Hoàng Đức Ngày sinh: 11/1/1998 Nơi sinh: Cẩm Giàng, Hải Dương Câu lạc bộ: CLB Thể Công Viettel ĐTQG: Đội tuyển Việt Nam Vị trí: Tiền vệ Chiều cao: 185 cm Các CLB từng khoác áo 2017 - Hiện tại: CLB Thể Công Viettel Thành tích nổi bật Cấp CLB CLB Viettel: Vô địch V-League",
+      "excerptSha256": "f09afe7b9399e98a99067989afba31ce62599b34e2f9dc61c7c53644a9c2e2ed"
+    },
+    {
+      "id": "nguyen-vpf-dob",
+      "url": "https://vpf.vn/player/nguyen-hoang-duc/",
+      "publisher": "Vietnam Professional Football (VPF)",
+      "publisherHost": "vpf.vn",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 672063,
+      "sha256": "9cfe549f939f26f7d6974d3b751e20c46b1ae5d70b116061dacaf2daba185fe7",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "layer Statistic First Name: Nguyễn Last Name: Hoàng Đức Cao (cm): 183 Nặng (kg): 74 Vị trí: Tiền vệ Năm sinh: 11-01-1998 Quốc tịch: Việt Nam Season Hạng nhất quốc gia Hạng Nhất Quốc gia 2018 Thể Công – Viettel 0 0 0 0 0 9 1 0 Vô địch quốc gia Wake-up 247 V.League 1 – 2019 Thể Công – Viettel 20 20 0 0 0 1 0 0 Cúp quốc gia Cúp Quốc Gia Bamboo Airways",
+      "excerptSha256": "09840f78428128ab661f23be22303a5920c224f75a5866dcc8e8a5b331a114e7"
+    },
+    {
+      "id": "nguyen-vpf-current",
+      "url": "https://vpf.vn/player/nguyen-hoang-duc/",
+      "publisher": "Vietnam Professional Football (VPF)",
+      "publisherHost": "vpf.vn",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 672063,
+      "sha256": "9cfe549f939f26f7d6974d3b751e20c46b1ae5d70b116061dacaf2daba185fe7",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ock_td_uid_11_6ac7ad24d5c0c); Tất Cả Hoạt động VPF Tin Bóng đá Việt Nam Tin Cúp Quốc Gia Tin Hạng Nhất Tin nổi bật Tin V-League Danh sách thi đấu Danh sách đăng ký thi đấu CLB Thể Công Viettel vs… Tin nổi bật Trước vòng 3 LPBank V.League 1-2026/27: Gay cấn và khó lường! Tin Cúp Quốc Gia Xác định các cặp đấu vòng 1/8 Cúp QG SACOMBANK 2026/27 Thông báo chung Thông báo số 3 LPBank V.League 1 – 2026/27 Vô địch quốc gia Lịch thi đấu và Kết quả Bảng xếp hạng Thông báo Các đội bóng Điều Lệ Thư viện Download Hạng nhất quốc gia Lịch thi đấu và Kết quả Bảng xếp hạng Thông báo Các đội bóng Điều lệ Thư viện Download Cúp quốc gia Lịch thi đấu và",
+      "excerptSha256": "546d712cdb7782d4818cf781d797087b509fd970c17eb57917d3789797a213a1"
+    },
+    {
+      "id": "nguyen-vff-2021",
+      "url": "https://en.vff.org.vn/en/chuyen-muc/khen-thuong-ky-luat/khen-thuong/qua-bong-vang/",
+      "publisher": "Vietnam Football Federation",
+      "publisherHost": "en.vff.org.vn",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 76881,
+      "sha256": "2c6e76df728a75173e6bd0fe59a0cd628a40c551c5a41e4b7f72939afd73e335",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ely excitingly and impressively. With the contributions to the Vietnam men’s national team in 2021, midfielder Nguyen Hoang Duc was awarded the Vietnam Golden Ball title for the first time. In the women’s title, striker Huynh Nhu received the award for the third time in a row. Goalkeeper Ho Van Y received the futsal Golden Ball for the first time. Press conference of Vietnamese Golden Ball Awards 2021 This morning, S",
+      "excerptSha256": "525f0502768ba4034274f3fac91ca6498b2afd403937dac50a36a02cd540f94d"
+    },
+    {
+      "id": "nguyen-gov-2023",
+      "url": "https://en.baochinhphu.vn/midfielder-nguyen-hoang-duc-wins-2023-golden-ball-111240221110020791.htm",
+      "publisher": "Viet Nam Government News",
+      "publisherHost": "en.baochinhphu.vn",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 66836,
+      "sha256": "1154cf20cd55eafd518be92a1e1f7c649880f7fe64c48b306cef09e6db3d49e2",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Midfielder Nguyen Hoang Duc wins 2023 Golden Ball { \"@context\": \"http://schema.org\", \"@type\": \"NewsArticle\", \"mainEntityOfPage\":{ \"@type\":\"WebPage\", \"@id\":\"https://en.baochinhphu.vn/midfielder-nguyen-hoang-duc-wins-2023-golden-ball-111240221110020791.htm\" }, \"headline\": \"Midfielder Nguyen Hoang Duc wins 2023 Golden Ball\", \"description\": \"",
+      "excerptSha256": "7805e9c1839d72dd4a77ebb6787c7153307a6bd2a3ee04358ce4fdf955a6ffdc"
+    },
+    {
+      "id": "alice-nps-dob",
+      "url": "https://home.nps.gov/bepa/learn/alice-paul.htm",
+      "publisher": "U.S. National Park Service",
+      "publisherHost": "home.nps.gov",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 55558,
+      "sha256": "b39561397d710d895dbbf376a83573174a2626d1ef111ea77df50e34a5fe855c",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Party Collection, Library of Congress Quick Facts Born : January 11, 1885 in Mount Laurel, New Jersey Died: July 9, 1977 in Moorestown, New Jersey Significance: Suffragist, feminist, and political strategist for women's equality. Organizer of confrontational protests in support of the Nine",
+      "excerptSha256": "5ae3b91d3df8507f9fe22d34d43668601a683d71c9e1f2419076d9aa4b372899"
+    },
+    {
+      "id": "alice-nwhm-dob",
+      "url": "https://www.womenshistory.org/education-resources/biographies/alice-paul",
+      "publisher": "National Women’s History Museum",
+      "publisherHost": "www.womenshistory.org",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 6024640,
+      "sha256": "08c029a301f620fd36b9c022850fd8a582730a6efbc8d974b87f42faf2f1cc11",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "5 | Updated and Expanded by Katlynn Cross-Harris Early Life Born on January 11, 1885, in Mount Laurel, New Jersey, Paul was the oldest of four children of Tracie Parry and William Paul, a wealthy Quaker businessman (Lunardini, 2013). Paul’s parents embraced gender equality, education for women, and working to improve s",
+      "excerptSha256": "00954f6cebb35d9ccd394701e1eecbb6da8140022c7407499aff0768e05a0158"
+    },
+    {
+      "id": "alice-nps-death",
+      "url": "https://home.nps.gov/bepa/learn/alice-paul.htm",
+      "publisher": "U.S. National Park Service",
+      "publisherHost": "home.nps.gov",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 55558,
+      "sha256": "b39561397d710d895dbbf376a83573174a2626d1ef111ea77df50e34a5fe855c",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "rn : January 11, 1885 in Mount Laurel, New Jersey Died: July 9, 1977 in Moorestown, New Jersey Significance: Suffragist, feminist, and political strategist for women's equality. Organizer of confrontational protests in support of the Nineteenth Amendment to the U.S. Constitution. Founder of the National Woman",
+      "excerptSha256": "bbbfda63dee911eade6c5fa04a790f187d5854b677d50b98ca8d96f0900785e6"
+    },
+    {
+      "id": "alice-nwp-fact",
+      "url": "https://live.alicepaul.org/nwp/",
+      "publisher": "Alice Paul Institute",
+      "publisherHost": "live.alicepaul.org",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 96686,
+      "sha256": "dd8d306679e2663e08cf9fec6d38560926514febf76ff8be909724f1ed58306a",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "tactics were seen as too extreme for NAWSA’s leadership and the Congressional Union split from NAWSA in 1914. In 1916, the Congressional Union formed the Woman’s Party, comprised of the enfranchised members of the Congressional Union. In 1917, the two organizations formally merged to form the National Woman’s Party (NWP). From the Pankhursts, Paul adopted the philosophy to “hold the party in power responsible.” The NWP would w",
+      "excerptSha256": "ea5ab5f500306ee5c79aa13fb3294d5c151e8ddf3447ca62ed8d4792460bc38a"
+    },
+    {
+      "id": "alice-era-fact",
+      "url": "https://live.alicepaul.org/equal-rights-amendment-2/",
+      "publisher": "Alice Paul Institute",
+      "publisherHost": "live.alicepaul.org",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 122967,
+      "sha256": "fd0593f88e92d3eed08604667a6dc961f7f57b10382435fc9b81495f7265ca2e",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "mendment Equal Rights Amendment The History of the Equal Rights Amendment (ERA) In 1923, on the 75th anniversary of the Seneca Falls Convention, Alice Paul announced that she would be working for a new constitutional amendment, one she authored and initially called the “Lucretia Mott Amendment.” This amendment called for absolute equality stating, “Men and women shall have equal rights throughout the United States and every place subjec",
+      "excerptSha256": "d97724fdb94cbb0811b9c9758c1d0a5c9ed7b1825986f97061aa0ad00ca0aaec"
+    },
+    {
+      "id": "mary-grammy-dob",
+      "url": "https://www.grammy.com/artists/mary-j-blige/779/",
+      "publisher": "Recording Academy / GRAMMY.com",
+      "publisherHost": "www.grammy.com",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 193700,
+      "sha256": "2a4fb891042f8c9cd182077e85ea07143d7683dbdf2f48ca2b43bcfffc603eaa",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "is real, it's not going to be smooth.\" Born Mary Jane Blige Jan. 11, 1971, in the Bronx, New York. Mary J. Blige stepped into the spotlight with her 1992 debut album, What's The 411 , which gave her a Top 10 hit with \"Real Love.\" Blige had success w",
+      "excerptSha256": "e85d4013da2b1ca0fb12477061195099300badf7580ad72811555e3932d9e436"
+    },
+    {
+      "id": "mary-biography-dob",
+      "url": "https://www.biography.com/musicians/mary-j-blige",
+      "publisher": "Biography.com",
+      "publisherHost": "www.biography.com",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 493355,
+      "sha256": "c3f51fc73165ee69b8c6b367dcd882c1003de156bf1b2927ea78fb5a6ba6c35c",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "rld War II-era drama Mudbound.Early LifeBorn on January 11, 1971, in the Bronx, New York, Blige has won over millions of fans with her music. But before becoming a successful hip-hop singer, Blige endured a hellish childhood marred by violence, alcohol and drugs. Her mother, Cora",
+      "excerptSha256": "e6666bfa22d3d9fe57e6303fbdd564b3cff7c1a478cf2ae89f3eae5dad7f0289"
+    },
+    {
+      "id": "mary-grammy-album-fact",
+      "url": "https://www.grammy.com/artists/mary-j-blige/779/",
+      "publisher": "Recording Academy / GRAMMY.com",
+      "publisherHost": "www.grammy.com",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 193700,
+      "sha256": "2a4fb891042f8c9cd182077e85ea07143d7683dbdf2f48ca2b43bcfffc603eaa",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "1971, in the Bronx, New York. Mary J. Blige stepped into the spotlight with her 1992 debut album, What's The 411 , which gave her a Top 10 hit with \"Real Love.\" Blige had success with her next No. 7 album, My Life, which featured the hits \"I'm Going Down,\" \"Mary Jane,\" \"I Love You,\" and the title track, which became a signature song for Blige. Blige won her first career GRAMMY",
+      "excerptSha256": "b7a4ae46694d20ec914b590740e16201240dfc5b29f81a201a1788e23faf9fda"
+    },
+    {
+      "id": "mary-universal-career-fact",
+      "url": "https://www.universalmusic.fr/artistes/20000217897",
+      "publisher": "Universal Music France",
+      "publisherHost": "www.universalmusic.fr",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 1081937,
+      "sha256": "e25ee8d002532fc2683e61cc75a59eefa0e3c9b276c17952e915574597434418",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "e Blige voit le jour dans le Bronx à New York (États-Unis), le 11 janvier 1971. Elle publie son premier album What's the 411? (produit par Sean Combs et classé n° 6 en 1992) et développe une formule musicale inédite entre R&B et rap. Dès l'année suivante, elle publie My Life, qui s'installe en septième position au Billboard et en 57e au Royaume-Uni. En 1997, Share My World prol",
+      "excerptSha256": "c278fc8ee66791ead0b49fff59cd5e3630fffd21e69d67e76eb668bb9cf2215c"
+    },
+    {
+      "id": "mary-grammy-first-award",
+      "url": "https://www.grammy.com/artists/mary-j-blige/779/",
+      "publisher": "Recording Academy / GRAMMY.com",
+      "publisherHost": "www.grammy.com",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 193700,
+      "sha256": "2a4fb891042f8c9cd182077e85ea07143d7683dbdf2f48ca2b43bcfffc603eaa",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "e You,\" and the title track, which became a signature song for Blige. Blige won her first career GRAMMY for 1995 for Best Rap Performance By A Duo Or Group for \"I'll Be There For You / You're All I Need To Get By,\" a collaboration with Method Man . She won her first solo GRAMMY for Best Female R&B Vocal Performance in 2003 for \"He Think I Don't Know\" from her album, No More Drama . At the 39th GRAMMY Awards in 1997, Blige made",
+      "excerptSha256": "e460d0687ef8248270fad66a0760ca0351e0b056816b0cacfd7333dca90f0609"
+    },
+    {
+      "id": "mary-current-shows",
+      "url": "https://www.maryjblige.com/announcements/upcoming-shows",
+      "publisher": "Mary J. Blige official website",
+      "publisherHost": "www.maryjblige.com",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 48903,
+      "sha256": "fb440f264907c613a9e0422a3059fa3ac858822612909290b8215a7ab10c900b",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ve in Concert Get Your Tickets Share: Upcoming Shows on Nov. 18th & 20th Share: Mary J. Blige has two upcoming concerts and we can’t wait to see her back on the stage. The performances will be on November 18th in Brooklyn, NY, and on the 20th in Baltimore, MD. Get Your Tickets Want Love Out Now More Than a Lover Music Video More Than a Lover Release My Life, My Story Reintroduc",
+      "excerptSha256": "b78ecf08891b2b4548e2109b9e62286eace008e82abefaff6d6724342b188609"
+    },
+    {
+      "id": "wikidata-3442375",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q3442375.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 76501,
+      "sha256": "8039505e0c2ad148d92c3a1e3d83c055009a7258afcaef98215e51fb04929375",
+      "verificationMethod": "direct-http-json-entity-capture+claim-audit",
+      "excerpt": "Wikidata entity Q3442375; English label: Kailash Satyarthi; p31=Q5; p569=+1954-01-11T00:00:00Z/p11; p570=; p27=Q668; p106=Q85305832,Q81096,Q3400985,Q1326886",
+      "excerptSha256": "ff1c35b6799166d67702a484dda0edcdca5c1efc2577e799b1ca90182de22f38"
+    },
+    {
+      "id": "wikidata-242169",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q242169.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 123725,
+      "sha256": "dca2b8a50a7dba045dcc19689096c5efa44d768a6cb21c1234c782adfd947172",
+      "verificationMethod": "direct-http-json-entity-capture+claim-audit",
+      "excerpt": "Wikidata entity Q242169; English label: Roger Guillemin; p31=Q5; p569=+1924-01-11T00:00:00Z/p11; p570=+2024-02-21T00:00:00Z/p11; p27=Q142,Q30; p106=Q4531850,Q2919046,Q1622272,Q6337803,Q39631,Q2055046",
+      "excerptSha256": "071cfda3b8dc8a89ca0eb348c927dcd9e896d95d5ea4d90d6955d749b5efc754"
+    },
+    {
+      "id": "wikidata-61613045",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q61613045.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 16389,
+      "sha256": "9ccf9daad4a6eac48a56c6212dcb109cc27da58b114af6bf50f061e24c50f96f",
+      "verificationMethod": "direct-http-json-entity-capture+claim-audit",
+      "excerpt": "Wikidata entity Q61613045; English label: Nguyễn Hoàng Đức; p31=Q5; p569=+1998-01-11T00:00:00Z/p11; p570=; p27=Q881; p106=Q937857",
+      "excerptSha256": "3bc9983d32cd5b74d7c870c7112551e29fa4120cac055f54ae447c9e8ce4be60"
+    },
+    {
+      "id": "wikidata-127328",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q127328.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 95931,
+      "sha256": "80287bed2ace01aa12c3f724e672311f3104646b3fd3b58abed0da8730209a40",
+      "verificationMethod": "direct-http-json-entity-capture+claim-audit",
+      "excerpt": "Wikidata entity Q127328; English label: Alice Paul; p31=Q5; p569=+1885-01-11T00:00:00Z/p11; p570=+1977-07-09T00:00:00Z/p11,+1978-07-09T00:00:00Z/p11; p27=Q30; p106=Q185351,Q28692502,Q322170",
+      "excerptSha256": "855147edf31cdc77784a64f8bdcb9aee689ffd19b9fa25e76a188a13ee88949d"
+    },
+    {
+      "id": "wikidata-228909",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q228909.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 165985,
+      "sha256": "ec476cf53e3d4f87cf2be147f8301b485538f4758c71b36c5a884a047bbbb5ac",
+      "verificationMethod": "direct-http-json-entity-capture+claim-audit",
+      "excerpt": "Wikidata entity Q228909; English label: Mary J. Blige; p31=Q5; p569=+1971-01-11T00:00:00Z/p11; p570=; p27=Q30; p106=Q177220,Q753110,Q33999,Q131524,Q639669",
+      "excerptSha256": "483e70e7db65249d16afe0af09c8f29669640991202c6430589c1acbd5ddff1e"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "kailash-satyarthi",
+      "name": "Kailash Satyarthi",
+      "wikidataId": "Q3442375",
+      "birthDate": "1954-01-11",
+      "lifeStatus": "living",
+      "deathDate": null,
+      "dobSourceIds": [
+        "kailash-official-dob",
+        "kailash-nobel-dob"
+      ],
+      "statusSourceId": "kailash-living",
+      "statusEvidenceAsOf": "2026-10-08",
+      "careerFactIds": [
+        "jan11-kailash-bba",
+        "jan11-kailash-nobel"
+      ],
+      "countryCode": "IN",
+      "category": "history",
+      "occupation": [
+        "nhà hoạt động nhân quyền",
+        "nhà hoạt động vì quyền trẻ em"
+      ],
+      "wikidataCaptureId": "wikidata-3442375",
+      "identityClaims": {
+        "label": "Kailash Satyarthi",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1954-01-11T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 3
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q668",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q668",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q85305832",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q81096",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3400985",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1326886",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q85305832"
+        ]
+      },
+      "fields": [
+        "society-law",
+        "education-thought"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "society-law",
+          "careerFactIds": [
+            "jan11-kailash-bba"
+          ],
+          "rationale": "Bachpan Bachao Andolan hoạt động chống lao động trẻ em và bảo vệ quyền trẻ em, thuộc lĩnh vực xã hội và quyền."
+        },
+        {
+          "field": "education-thought",
+          "careerFactIds": [
+            "jan11-kailash-nobel"
+          ],
+          "rationale": "Nobel ghi rõ công việc của ông gắn với quyền được giáo dục của trẻ em."
+        }
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q3442375",
+        "https://www.kailashsatyarthi.net/stories-from-his-early-life/",
+        "https://www.nobelprize.org/prizes/peace/2014/satyarthi/biographical/",
+        "https://satyarthi.org.in/our-founder/"
+      ],
+      "before": {
+        "biography": "Kailash Satyarthi sinh ngày 11/1/1954. Ông là nhà hoạt động vì quyền trẻ em và đồng nhận Giải Nobel Hòa bình năm 2014.",
+        "highlights": [
+          "Đồng nhận Giải Nobel Hòa bình năm 2014.",
+          "Hoạt động chống lao động trẻ em và thúc đẩy quyền giáo dục."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q3442375",
+          "https://www.nobelprize.org/prizes/peace/2014/satyarthi/biographical/",
+          "https://wsds.teriin.org/2015/pdf/speaker/kailash.pdf"
+        ],
+        "lifeStatus": null,
+        "fields": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "biography": "Kailash Satyarthi sinh ngày 11/1/1954 tại Vidisha, Ấn Độ. Ông thành lập Bachpan Bachao Andolan năm 1980 để đấu tranh chống lao động trẻ em; năm 2014, ông cùng Malala Yousafzai nhận Giải Nobel Hòa bình vì quyền trẻ em và quyền giáo dục.",
+        "highlights": [
+          "Ông thành lập Bachpan Bachao Andolan (Phong trào Cứu tuổi thơ) năm 1980.",
+          "Kailash Satyarthi cùng Malala Yousafzai nhận Giải Nobel Hòa bình năm 2014 vì quyền trẻ em và giáo dục."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q3442375",
+          "https://www.nobelprize.org/prizes/peace/2014/satyarthi/biographical/",
+          "https://wsds.teriin.org/2015/pdf/speaker/kailash.pdf",
+          "https://www.kailashsatyarthi.net/stories-from-his-early-life/",
+          "https://satyarthi.org.in/our-founder/"
+        ],
+        "lifeStatus": "living",
+        "fields": [
+          "society-law",
+          "education-thought"
+        ],
+        "verifiedAt": "2026-10-08"
+      },
+      "wikidataLabel": "Kailash Satyarthi"
+    },
+    {
+      "id": "roger-guillemin",
+      "name": "Roger Guillemin",
+      "wikidataId": "Q242169",
+      "birthDate": "1924-01-11",
+      "lifeStatus": "deceased",
+      "deathDate": "2024-02-21",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "roger-salk-death"
+      ],
+      "dobSourceIds": [
+        "roger-salk-dob",
+        "roger-aacr-dob"
+      ],
+      "statusSourceId": "roger-salk-death",
+      "careerFactIds": [
+        "jan11-roger-nobel",
+        "jan11-roger-hormone"
+      ],
+      "countryCode": "FR",
+      "category": "scientist",
+      "occupation": [
+        "nhà nội tiết học",
+        "nhà thần kinh học",
+        "nhà khoa học"
+      ],
+      "wikidataCaptureId": "wikidata-242169",
+      "identityClaims": {
+        "label": "Roger Guillemin",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 3
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1924-01-11T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 8
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2024-02-21T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q142",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q142",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q4531850",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q2919046",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q6337803",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q39631",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2055046",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q2919046",
+          "Q39631"
+        ]
+      },
+      "fields": [
+        "science-research",
+        "medicine-health"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "science-research",
+          "careerFactIds": [
+            "jan11-roger-nobel",
+            "jan11-roger-hormone"
+          ],
+          "rationale": "Các nghiên cứu của ông về hormone vùng dưới đồi và công trình Nobel là nghiên cứu khoa học cơ bản."
+        },
+        {
+          "field": "medicine-health",
+          "careerFactIds": [
+            "jan11-roger-hormone"
+          ],
+          "rationale": "Nghiên cứu hormone của ông góp phần mở đường cho các ứng dụng điều trị y học."
+        }
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q242169",
+        "https://www.salk.edu/news-release/salk-institute-mourns-the-loss-of-nobel-laureate-roger-guillemin-distinguished-professor-emeritus/",
+        "https://www.aacr.org/professionals/membership/in-memoriam/roger-c-l-guillemin/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11098124/",
+        "https://www.nobelprize.org/prizes/medicine/1977/guillemin/biographical/"
+      ],
+      "before": {
+        "biography": "Roger Guillemin sinh ngày 11/1/1924 tại Dijon, Pháp. Ông là nhà khoa học nghiên cứu hormone và đồng nhận Giải Nobel năm 1977.",
+        "highlights": [
+          "Đồng nhận Nobel Sinh lý học hoặc Y học năm 1977.",
+          "Nghiên cứu hormone peptide của não."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q242169",
+          "https://www.aacr.org/professionals/membership/aacr-academy/fellows/roger-c-l-guillemin-md-phd/",
+          "https://www.salk.edu/news-release/salk-institute-mourns-the-loss-of-nobel-laureate-roger-guillemin-distinguished-professor-emeritus/"
+        ],
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "fields": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "biography": "Roger Guillemin sinh ngày 11/1/1924 tại Dijon, Pháp. Nghiên cứu của ông về hormone vùng dưới đồi làm sáng tỏ cơ chế điều hòa hormone của tuyến yên; ông đồng nhận Nobel Sinh lý học hoặc Y học năm 1977. Ông qua đời ngày 21/2/2024.",
+        "highlights": [
+          "Ông đồng nhận Giải Nobel Sinh lý học hoặc Y học năm 1977 cho các phát hiện về hormone peptide của não.",
+          "Thí nghiệm của Guillemin cho thấy tế bào vùng dưới đồi tạo chất kích thích tuyến yên tiết hormone ACTH."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q242169",
+          "https://www.aacr.org/professionals/membership/in-memoriam/roger-c-l-guillemin/",
+          "https://www.salk.edu/news-release/salk-institute-mourns-the-loss-of-nobel-laureate-roger-guillemin-distinguished-professor-emeritus/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11098124/",
+          "https://www.nobelprize.org/prizes/medicine/1977/guillemin/biographical/"
+        ],
+        "lifeStatus": "deceased",
+        "deathDate": "2024-02-21",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://www.salk.edu/news-release/salk-institute-mourns-the-loss-of-nobel-laureate-roger-guillemin-distinguished-professor-emeritus/"
+        ],
+        "fields": [
+          "science-research",
+          "medicine-health"
+        ],
+        "verifiedAt": "2026-10-08"
+      },
+      "wikidataLabel": "Roger Guillemin"
+    },
+    {
+      "id": "nguyen-hoang-duc",
+      "name": "Nguyễn Hoàng Đức",
+      "wikidataId": "Q61613045",
+      "birthDate": "1998-01-11",
+      "lifeStatus": "living",
+      "deathDate": null,
+      "dobSourceIds": [
+        "nguyen-vnexpress-dob",
+        "nguyen-vpf-dob"
+      ],
+      "statusSourceId": "nguyen-vpf-current",
+      "statusEvidenceAsOf": "2026-10-08",
+      "careerFactIds": [
+        "jan11-nguyen-golden-ball-2021",
+        "jan11-nguyen-golden-ball-2023"
+      ],
+      "countryCode": "VN",
+      "category": "athlete",
+      "occupation": [
+        "cầu thủ bóng đá"
+      ],
+      "birthplace": "Cẩm Giàng, Hải Dương, Việt Nam",
+      "birthplaceEvidencePhrase": "Cẩm Giàng, Hải Dương",
+      "wikidataCaptureId": "wikidata-61613045",
+      "identityClaims": {
+        "label": "Nguyễn Hoàng Đức",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1998-01-11T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q881",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q937857",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q937857"
+        ]
+      },
+      "fields": [],
+      "fieldEvidence": [],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q61613045",
+        "https://vnexpress.net/chu-de/nguyen-hoang-duc-1358",
+        "https://vpf.vn/player/nguyen-hoang-duc/",
+        "https://en.vff.org.vn/en/chuyen-muc/khen-thuong-ky-luat/khen-thuong/qua-bong-vang/",
+        "https://en.baochinhphu.vn/midfielder-nguyen-hoang-duc-wins-2023-golden-ball-111240221110020791.htm"
+      ],
+      "before": {
+        "biography": "Nguyễn Hoàng Đức sinh ngày 11/1/1998. Anh là cầu thủ bóng đá Việt Nam và thi đấu ở vị trí tiền vệ.",
+        "highlights": [
+          "Được Liên đoàn Bóng đá Việt Nam vinh danh với Quả bóng vàng Việt Nam năm 2021.",
+          "Hồ sơ nhân vật của Thông tấn xã Việt Nam ghi ngày sinh 11/1/1998."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q61613045",
+          "https://nvsk.vnanet.vn/nguyen-hoang-duc-6804.vna",
+          "https://vnexpress.net/chu-de/nguyen-hoang-duc-1358"
+        ],
+        "lifeStatus": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "biography": "Nguyễn Hoàng Đức sinh ngày 11/1/1998 tại Cẩm Giàng, Hải Dương. Tiền vệ này giành Quả bóng vàng Việt Nam năm 2021 và 2023.",
+        "highlights": [
+          "Nguyễn Hoàng Đức giành Quả bóng vàng Việt Nam lần đầu vào năm 2021.",
+          "Anh giành Quả bóng vàng nam Việt Nam năm 2023."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q61613045",
+          "https://nvsk.vnanet.vn/nguyen-hoang-duc-6804.vna",
+          "https://vnexpress.net/chu-de/nguyen-hoang-duc-1358",
+          "https://vpf.vn/player/nguyen-hoang-duc/",
+          "https://en.vff.org.vn/en/chuyen-muc/khen-thuong-ky-luat/khen-thuong/qua-bong-vang/",
+          "https://en.baochinhphu.vn/midfielder-nguyen-hoang-duc-wins-2023-golden-ball-111240221110020791.htm"
+        ],
+        "lifeStatus": "living",
+        "verifiedAt": "2026-10-08"
+      },
+      "wikidataLabel": "Nguyễn Hoàng Đức"
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "alice-paul",
+      "name": "Alice Paul",
+      "wikidataId": "Q127328",
+      "wikidataLabel": "Alice Paul",
+      "birthDate": "1885-01-11",
+      "lifeStatus": "deceased",
+      "deathDate": "1977-07-09",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "alice-nps-death"
+      ],
+      "dobSourceIds": [
+        "alice-nps-dob",
+        "alice-nwhm-dob"
+      ],
+      "statusSourceId": "alice-nps-death",
+      "statusEvidenceAsOf": null,
+      "careerFactIds": [
+        "jan11-alice-nwp",
+        "jan11-alice-era"
+      ],
+      "countryCode": "US",
+      "category": "history",
+      "occupation": [
+        "nhà hoạt động vì quyền phụ nữ",
+        "nhà hoạt động nữ quyền",
+        "nhà hoạt động chính trị"
+      ],
+      "birthplace": "New Jersey, Hoa Kỳ",
+      "wikidataCaptureId": "wikidata-127328",
+      "identityClaims": {
+        "label": "Alice Paul",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1885-01-11T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 5
+          }
+        ],
+        "p570": [
+          {
+            "rank": "preferred",
+            "value": "+1977-07-09T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 5
+          },
+          {
+            "rank": "normal",
+            "value": "+1978-07-09T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q185351",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q28692502",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q322170",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q185351",
+          "Q28692502"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q127328",
+        "https://home.nps.gov/bepa/learn/alice-paul.htm",
+        "https://www.womenshistory.org/education-resources/biographies/alice-paul",
+        "https://live.alicepaul.org/nwp/",
+        "https://live.alicepaul.org/equal-rights-amendment-2/"
+      ],
+      "fields": [
+        "society-law"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "society-law",
+          "careerFactIds": [
+            "jan11-alice-nwp",
+            "jan11-alice-era"
+          ],
+          "rationale": "Lãnh đạo phong trào quyền bầu cử và soạn thảo Tu chính án Quyền Bình đẳng."
+        }
+      ],
+      "birthplaceEvidencePhrase": "New Jersey"
+    },
+    {
+      "id": "mary-j-blige",
+      "name": "Mary J. Blige",
+      "wikidataId": "Q228909",
+      "wikidataLabel": "Mary J. Blige",
+      "birthDate": "1971-01-11",
+      "lifeStatus": "living",
+      "deathDate": null,
+      "deathDatePrecision": null,
+      "deathDateSourceIds": [],
+      "dobSourceIds": [
+        "mary-grammy-dob",
+        "mary-biography-dob"
+      ],
+      "statusSourceId": "mary-current-shows",
+      "statusEvidenceAsOf": "2026-10-08",
+      "careerFactIds": [
+        "jan11-mary-album",
+        "jan11-mary-grammy"
+      ],
+      "countryCode": "US",
+      "category": "music",
+      "occupation": [
+        "ca sĩ",
+        "nhạc sĩ",
+        "diễn viên"
+      ],
+      "birthplace": "Bronx, New York, Hoa Kỳ",
+      "wikidataCaptureId": "wikidata-228909",
+      "identityClaims": {
+        "label": "Mary J. Blige",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 4
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1971-01-11T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 4
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q177220",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q753110",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q33999",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q131524",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q177220"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q228909",
+        "https://www.grammy.com/artists/mary-j-blige/779/",
+        "https://www.biography.com/musicians/mary-j-blige",
+        "https://www.universalmusic.fr/artistes/20000217897",
+        "https://www.maryjblige.com/announcements/upcoming-shows"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "jan11-mary-album",
+            "jan11-mary-grammy"
+          ],
+          "rationale": "Album, ca khúc và các giải thưởng âm nhạc là các tác phẩm và thành tựu sáng tạo."
+        }
+      ],
+      "birthplaceEvidencePhrase": "Bronx, New York"
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "jan11-kailash-bba",
+      "profileId": "kailash-satyarthi",
+      "displayText": "Ông thành lập Bachpan Bachao Andolan (Phong trào Cứu tuổi thơ) năm 1980.",
+      "sourceId": "kailash-bba-fact",
+      "evidencePhrase": "Kailash founded Bachpan Bachao Andolan (Save Childhood Movement) in 1980"
+    },
+    {
+      "id": "jan11-kailash-nobel",
+      "profileId": "kailash-satyarthi",
+      "displayText": "Kailash Satyarthi cùng Malala Yousafzai nhận Giải Nobel Hòa bình năm 2014 vì quyền trẻ em và giáo dục.",
+      "sourceId": "kailash-nobel-fact",
+      "evidencePhrase": "In 2014, Kailash Satyarthi was awarded the Nobel Peace Prize jointly with Malala Yousafzai"
+    },
+    {
+      "id": "jan11-roger-nobel",
+      "profileId": "roger-guillemin",
+      "displayText": "Ông đồng nhận Giải Nobel Sinh lý học hoặc Y học năm 1977 cho các phát hiện về hormone peptide của não.",
+      "sourceId": "roger-nobel-fact",
+      "evidencePhrase": "culminating in the Nobel Prize for Physiology or Medicine in 1977"
+    },
+    {
+      "id": "jan11-roger-hormone",
+      "profileId": "roger-guillemin",
+      "displayText": "Thí nghiệm của Guillemin cho thấy tế bào vùng dưới đồi tạo chất kích thích tuyến yên tiết hormone ACTH.",
+      "sourceId": "roger-hormone-fact",
+      "evidencePhrase": "hypothalamic cells produced a substance which stimulated adrenocorticotropic hormone (ACTH) release by the pituitary cells"
+    },
+    {
+      "id": "jan11-nguyen-golden-ball-2021",
+      "profileId": "nguyen-hoang-duc",
+      "displayText": "Nguyễn Hoàng Đức giành Quả bóng vàng Việt Nam lần đầu vào năm 2021.",
+      "sourceId": "nguyen-vff-2021",
+      "evidencePhrase": "midfielder Nguyen Hoang Duc was awarded the Vietnam Golden Ball title for the first time"
+    },
+    {
+      "id": "jan11-nguyen-golden-ball-2023",
+      "profileId": "nguyen-hoang-duc",
+      "displayText": "Anh giành Quả bóng vàng nam Việt Nam năm 2023.",
+      "sourceId": "nguyen-gov-2023",
+      "evidencePhrase": "Midfielder Nguyen Hoang Duc wins 2023 Golden Ball"
+    },
+    {
+      "id": "jan11-alice-nwp",
+      "profileId": "alice-paul",
+      "displayText": "Năm 1916, Alice Paul cùng các thành viên Congressional Union thành lập Woman’s Party.",
+      "sourceId": "alice-nwp-fact",
+      "evidencePhrase": "In 1916, the Congressional Union formed the Woman’s Party"
+    },
+    {
+      "id": "jan11-alice-era",
+      "profileId": "alice-paul",
+      "displayText": "Năm 1923, Alice Paul viết Tu chính án Quyền Bình đẳng (ERA).",
+      "sourceId": "alice-era-fact",
+      "evidencePhrase": "Alice Paul announced that she would be working for a new constitutional amendment, one she authored"
+    },
+    {
+      "id": "jan11-mary-album",
+      "profileId": "mary-j-blige",
+      "displayText": "Album đầu tay What’s the 411? (1992) đưa ca khúc “Real Love” vào Top 10.",
+      "sourceId": "mary-grammy-album-fact",
+      "evidencePhrase": "1992 debut album, What's The 411"
+    },
+    {
+      "id": "jan11-mary-grammy",
+      "profileId": "mary-j-blige",
+      "displayText": "Blige giành Grammy đầu tiên năm 1995 với ca khúc kết hợp cùng Method Man.",
+      "sourceId": "mary-grammy-first-award",
+      "evidencePhrase": "Blige won her first career GRAMMY for 1995"
+    }
+  ],
+  "wikidataReview": {
+    "profiles": {
+      "Q3442375": {
+        "label": "Kailash Satyarthi",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1954-01-11T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 3
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q668",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q85305832",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q81096",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3400985",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1326886",
+            "references": 1
+          }
+        ]
+      },
+      "Q242169": {
+        "label": "Roger Guillemin",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 3
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1924-01-11T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 8
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2024-02-21T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q142",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q4531850",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q2919046",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q6337803",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q39631",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2055046",
+            "references": 1
+          }
+        ]
+      },
+      "Q61613045": {
+        "label": "Nguyễn Hoàng Đức",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1998-01-11T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q937857",
+            "references": 1
+          }
+        ]
+      },
+      "Q127328": {
+        "label": "Alice Paul",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1885-01-11T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 5
+          }
+        ],
+        "p570": [
+          {
+            "rank": "preferred",
+            "value": "+1977-07-09T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 5
+          },
+          {
+            "rank": "normal",
+            "value": "+1978-07-09T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q185351",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q28692502",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q322170",
+            "references": 1
+          }
+        ]
+      },
+      "Q228909": {
+        "label": "Mary J. Blige",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 4
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1971-01-11T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 4
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q177220",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q753110",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q33999",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q131524",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669",
+            "references": 1
+          }
+        ]
+      }
+    },
+    "conflicts": [
+      {
+        "profileId": "alice-paul",
+        "wikidataId": "Q127328",
+        "property": "P570",
+        "selectedDate": "1977-07-09",
+        "activeClaims": [
+          {
+            "rank": "preferred",
+            "date": "1977-07-09",
+            "precision": 11,
+            "references": 5
+          },
+          {
+            "rank": "normal",
+            "date": "1978-07-09",
+            "precision": 11,
+            "references": 1
+          }
+        ],
+        "resolution": "The direct NPS biography states that Alice Paul died July 9, 1977. Wikidata has a preferred exact Gregorian P570 for 1977 and a normal-rank exact P570 for 1978; retain the independently sourced preferred date and record the lower-rank mismatch for review."
+      }
+    ]
+  }
+}

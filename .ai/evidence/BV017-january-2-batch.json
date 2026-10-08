@@ -1,0 +1,688 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-02",
+  "capturedAt": "2026-10-08T12:02:25.577Z",
+  "sourceCaptures": [
+    {
+      "id": "therese-vatican",
+      "url": "https://www.vatican.va/news_services/liturgy/documents/ns_lit_doc_19101997_stherese_en.html",
+      "publisher": "Vatican",
+      "publisherHost": "www.vatican.va",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 9156,
+      "sha256": "d5cfd8cb063a69b77a3396373bf875546d1f6555cc72fe193600dffc8ff97e7d",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "THÉRÈSE MARTIN was born at Alençon, France on 2 January 1873. On 9 April 1888 she entered the Carmel of Lisieux. She was canonized by Pope Pius XI on 17 May 1925.",
+      "excerptSha256": "60c17eb515df8167999de1b10f5565d6e4cd85aa661c9c77fe4c3adf6dee7b22"
+    },
+    {
+      "id": "therese-lisieux",
+      "url": "https://www.therese-de-lisieux.catholique.fr/wp-content/uploads/2022/02/Press-kit.pdf",
+      "publisher": "Sanctuary of Lisieux",
+      "publisherHost": "www.therese-de-lisieux.catholique.fr",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytesRead": 1017112,
+      "sha256": "933cc3e9eb3a768bf4d55443cd73be3c86899fcf688d338a47e062793d7b470e",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Thérèse of Lisieux, known throughout the world, was born Thérèse Martin on 2 January 1873 in Alençon and died on 30 September 1897 in the Carmelite convent in Lisieux, where she was a nun for nine years. Her seminal work is Histoire d'une Âme, or Autobiographical Manuscripts, published a year after her death.",
+      "excerptSha256": "5ce4f17e36b04dd599f6250e36d02333e199ef4952505c94fc57fda6a6d48210"
+    },
+    {
+      "id": "clausius-deutsche",
+      "url": "https://www.deutsche-biographie.de/gnd116540486.html?language=en",
+      "publisher": "Deutsche Biographie",
+      "publisherHost": "www.deutsche-biographie.de",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 99198,
+      "sha256": "d5fa0ce9d093e6c0eee804623c82291007aa6b92bb50c3ab45ac65acbc4e975c",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Rudolf Julius Emanuel C. wurde am 2. Januar 1822 in Köslin in Pommern geboren. 1865 schuf er im Anschluß daran den Begriff der „Entropie“, einer Zustandsfunktion, deren Gesamtwert in einem abgeschlossenen System nie abnimmt. Er erlag seiner Krankheit am 24. August desselben Jahres.",
+      "excerptSha256": "51b7f395544ddd13d18be789c0d4bd83fb73bbcff77d20df4d89a9302ff288e9"
+    },
+    {
+      "id": "clausius-mactutor",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Clausius/",
+      "publisher": "MacTutor History of Mathematics",
+      "publisherHost": "mathshistory.st-andrews.ac.uk",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 47823,
+      "sha256": "e9b07ee05f51a517e37ac9b2be05dfba6d3fc65158b657b963df5235221e4a24",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Rudolf Julius Emmanuel Clausius Quick Info Born 2 January 1822 Koslin, Prussia (now Koszalin, Poland) Died 24 August 1888 Bonn, Germany. Clausius's first paper on the mechanical theory of heat was published in 1850. In a paper which he published in 1865 the concept is named and clearly defined for the first time.",
+      "excerptSha256": "50f9cef96eb8804a3d3f35baef15f23250f1fa40737ff4e6e8028c5edc4ddcaa"
+    },
+    {
+      "id": "balakirev-pbm",
+      "url": "https://polskabibliotekamuzyczna.pl/encyklopedia/balakiriew-2/?lang=en",
+      "publisher": "Polska Biblioteka Muzyczna",
+      "publisherHost": "polskabibliotekamuzyczna.pl",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 163812,
+      "sha256": "5fd903bc4a880b8688b31a6efc70a07a324f9523a074d2c12909a0055f508cf3",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Balakirev Mily Alexeyevich, *2 January 1837 (21 December 1836) Nizhny Novgorod (present-day Gorky), †29 (16) May 1910 Saint Petersburg, Russian composer, pianist, conductor and music activist. In 1862, together with G. Lomakin, he founded the Free Music School in St Petersburg, which he directed until 1872. Until the end of the 1860s, Balakirev served as the leader of this group, shaping its creative ideology and influencing their approach to musical folklore.",
+      "excerptSha256": "7aeb382ff6f9f36084848c198aaae7cc73d4d1036dac6022cc27b22ecae8f4a5"
+    },
+    {
+      "id": "balakirev-naxos",
+      "url": "https://www.chandos.net/chanimages/Booklets/CH241-29.pdf",
+      "publisher": "Chandos Records",
+      "publisherHost": "www.chandos.net",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytesRead": 2704271,
+      "sha256": "f4fb2541c56d0026c8668f25216de3053eafc2bafc18da558be60c7b0899515e",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Mily Alexeyevich Balakirev was an important figure in Russian music of the nineteenth century. He was born in Nizhniy Novgorod on 21 December 1836 / 2 January 1837 (the first date corresponds to the old Russian calendar).",
+      "excerptSha256": "be03d6665b2a2172e8038d962657a1bbf348e4492df5af7c53d1e6e9dc661264"
+    },
+    {
+      "id": "balakirev-vle",
+      "url": "https://www.vle.lt/straipsnis/milij-balakirev/",
+      "publisher": "Visuotinė lietuvių enciklopedija",
+      "publisherHost": "www.vle.lt",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 41693,
+      "sha256": "effc1071b18f2a60704d471a8bdb927086d8017629594bc37d0b9e6b94c3309a",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Balakirev Milij (rus. Милий Балакирев) 1837 01 02 Žemutinis Naugardas 1910 05 29 Sankt Peterburgas, rusų kompozitorius, pianistas, dirigentas. 1862 su dirigentu G. Lomakinu įkūrė Nemokamą muzikos mokyklą.",
+      "excerptSha256": "fb261ce11f78bd1ac1f8fb678e1086833a84867ad3196da7292b5203fe128cf1"
+    },
+    {
+      "id": "roger-cmhof",
+      "url": "https://countrymusichalloffame.org/hall-of-fame/roger-miller",
+      "publisher": "Country Music Hall of Fame and Museum",
+      "publisherHost": "countrymusichalloffame.org",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 122476,
+      "sha256": "d78c6fa96815f64dc00585cc5b92034164529882f1008de212e10b353d32cb52",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Born January 2, 1936 Died October 25, 1992 Birthplace Fort Worth, Texas. The most famous was “King of the Road,” a million-seller. In 1965–66 he won eleven Grammy awards. Two decades later, he received a 1985 Tony award for his score for Big River, a Broadway musical based on Mark Twain’s The Adventures of Huckleberry Finn.",
+      "excerptSha256": "ee809f8d6f14d79546bf5371ebeea0ae47d4b60bf1ea9360988446671450894d"
+    },
+    {
+      "id": "roger-tsha",
+      "url": "https://www.tshaonline.org/handbook/entries/miller-roger-dean",
+      "publisher": "Texas State Historical Association",
+      "publisherHost": "www.tshaonline.org",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 137619,
+      "sha256": "eb69698bf6888fb7e073eb8b6fb9b8524d25c13888345c262357a7c12eff4aed",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Roger Miller, musician, composer, and television star, was born in Fort Worth, Texas, on January 2, 1936. The most famous was “King of the Road,” a million-seller. In 1985 he received five Tony awards for his score to Big River, a musical based on Huckleberry Finn. He died in Los Angeles on October 25, 1992.",
+      "excerptSha256": "8687c87eb5c97568837602c9029864f7a4d70e090c1a217f5afca1e4cf0477af"
+    },
+    {
+      "id": "roger-nashville",
+      "url": "https://nashvillesongwritersfoundation.com/Site/inductee?entry_id=3863",
+      "publisher": "Nashville Songwriters Hall of Fame",
+      "publisherHost": "nashvillesongwritersfoundation.com",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 180573,
+      "sha256": "0542778a0289c010a6e23fb13664dbca1f81c2dd7d9b798544dd53f8d8a42f76",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Birth Name: Roger Dean Miller Birth Date: 01-02-1936. When “Dang Me” went #1 country, it started a three-year golden period that included his signature hit “King of the Road,” 11 Grammy Awards and his own NBC-TV series. Miller came back strong in 1985, writing the score to the Tony Award-winning hit Broadway musical Big River.",
+      "excerptSha256": "5030c2fdf1dd8cb7cb524ce56566b03acf772796a321a9d7300eafa3985e7d45"
+    },
+    {
+      "id": "todd-encyclopedia",
+      "url": "https://www.encyclopedia.com/arts/educational-magazines/haynes-todd-1961",
+      "publisher": "Encyclopedia.com (Gale)",
+      "publisherHost": "www.encyclopedia.com",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 60033,
+      "sha256": "95d9816b4e0edda03f8607a7e4fdec6cd5f22d97f71566ad48d61df876611a1d",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "HAYNES, Todd 1961- PERSONAL: Born January 2, 1961, in Los Angeles, CA. CAREER: Screenwriter, producer, director, actor. He cofounded Apparatus Productions, New York, 1987-91.",
+      "excerptSha256": "b3fc0f72703d25608e211b70a0e8e037a91230c2cbb9f64286368001500ddf23"
+    },
+    {
+      "id": "todd-golden",
+      "url": "https://goldenglobes.com/person/todd-haynes/",
+      "publisher": "Golden Globes",
+      "publisherHost": "goldenglobes.com",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 72458,
+      "sha256": "c615ca21ab7e4ea3ffc2a3a349d20e08530536c913c451c52240d0d03c6163b1",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Todd Haynes (born January 2, 1961, in Los Angeles, California) wrote and directed Poison (1991), Safe (1995) with Julianne Moore, Velvet Goldmine (1998), Far From Heaven (2002) with Julianne Moore and Dennis Quaid, I’m Not There (2007) about Bob Dylan.",
+      "excerptSha256": "6bcb16c0b592f42c1fdb12e9f19561109cff19e66c00cab4798d2e082c57427a"
+    },
+    {
+      "id": "todd-bfi",
+      "url": "https://www.bfi.org.uk/features/where-begin-todd-haynes",
+      "publisher": "British Film Institute",
+      "publisherHost": "www.bfi.org.uk",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 206221,
+      "sha256": "f4cb1eaa3305763b9c2760f88edd69c5f84463f983af204cc16e7b5a2e2980f6",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Best known as a pioneer of the New Queer Cinema movement that emerged in the late 1980s and early 1990s, Haynes foregrounds sexualities that are transgressive, deviant and disruptive. Far from Heaven (2002) was Haynes’s breakout hit, winning him his first Oscar nomination, for best original screenplay.",
+      "excerptSha256": "63d496022956f27538787606df3e0259b1b1b95063923ceb7aed50e60e7c0ca6"
+    },
+    {
+      "id": "wikidata-roger",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q712359.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json",
+      "bytesRead": 108094,
+      "sha256": "d72eda8521fb2984e11abcdec6b0b635001b25a2203e4a2fab3ed23b0c083d9e",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "\"entities\":{\"Q712359\":{\"pageid\":669867,\"ns\":0,\"title\":\"Q712359\",\"lastrevid\":2541665512,\"modified\":\"2026-09-07T11:54:26Z\",\"type\":\"item\",\"id\":\"Q712359\",\"labels\":{\"ar\":{\"language\":\"ar\",\"value\":\"\\u0631\\u0648\\u062c\\u0631 \\u0645\\u064a\\u0644\\u0631\"},\"arz\":{\"language\":\"arz\",\"value\":\"\\u0631\\u0648\\u062c\\u0631 \\u0645\\u064a\\u0644\\u0631\"},\"ast\":{\"language\":\"ast\",\"value\":\"Roger Miller\"},\"azb\":{\"language\":\"azb\",\"value\":\"\\u0631\\u0627\\u062c\\u0631 \\u0645\\u06cc\\u0644\\u0631\"},\"br\":{\"language\":\"br\",\"value\":\"Roger Miller\"},\"ca\":{\"language\":\"ca\",\"value\":\"Roger Miller\"},\"ckb\":{\"language\":\"ckb\",\"value\":\"\\u0695\\u06c6\\u062c\\u06d5\\u0631 \\u0645\\u06cc\\u0644\\u06d5\\u0631\"},\"cs\":{\"language\":\"cs\",\"value\":\"Roger Miller\"},\"da\":{\"language\":\"da\",\"value\":\"Roger Miller\"},\"de\":{\"language\":\"de\",\"value\":\"Roger Miller\"},\"en\":{\"language\":\"en\",\"value\":\"Roger Miller\"},\"es\":{\"language\":\"es\",\"value\":\"Roger Miller\"},\"eu\":{\"language\":\"eu\",\"value\":\"Roger Miller\"},\"fa\":{\"language\":\"fa\",\"value\":\"\\u06a9\\u0648\\u0631\\u0646\\u0628\\u0631\\u06af \\u0645\\u06cc\\u0644\\u0631\"},\"fi\":{\"language\":\"fi\",\"value\":\"Roger Miller\"},\"fr\":{\"language\":\"fr\",\"value\":\"Roger Miller\"},\"ga\":{\"language\":\"ga\",\"value\":\"Roger Miller\"},\"he\":{\"language\":\"he\",\"value\":\"\\u05e8\\u05d5\\u05d2'\\u05e8 \\u05de\\u05d9\\u05dc\\u05e8\"},\"hu\":{\"language\":\"hu\",\"value\":\"Roger Miller\"},\"hy\":{\"language\":\"hy\",\"value\":\"\\u054c\\u0578\\u057b\\u0565\\u0580 \\u0544\\u056b\\u056c\\u056c\\u0565\\u0580\"},\"it\":{\"language\":\"it\",\"value\":\"Roger Miller\"},\"ja\":{\"language\":\"ja\",\"value\":\"\\u30ed\\u30b8\\u30e3\\u30fc\\u30fb\\u30df\\u30e9\\u30fc\"},\"nb\":{\"language\":\"nb\",\"value\":\"Roger Miller\"},\"nl\":{\"language\":\"nl\",\"value\":",
+      "excerptSha256": "5c60ceecd0335769bc36437b61b10484e3f4d9db6c4e314f7ab4de8cd441dcf1"
+    },
+    {
+      "id": "wikidata-todd",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q446580.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json",
+      "bytesRead": 122355,
+      "sha256": "fadc1d7f7dc98a48098bdc663c7d9b383389cb81fc1fed272cdd9e01431c009a",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "\"entities\":{\"Q446580\":{\"pageid\":421359,\"ns\":0,\"title\":\"Q446580\",\"lastrevid\":2546591267,\"modified\":\"2026-09-16T09:12:55Z\",\"type\":\"item\",\"id\":\"Q446580\",\"labels\":{\"pl\":{\"language\":\"pl\",\"value\":\"Todd Haynes\"},\"ru\":{\"language\":\"ru\",\"value\":\"\\u0422\\u043e\\u0434\\u0434 \\u0425\\u0435\\u0439\\u043d\\u0441\"},\"fr\":{\"language\":\"fr\",\"value\":\"Todd Haynes\"},\"es\":{\"language\":\"es\",\"value\":\"Todd Haynes\"},\"en\":{\"language\":\"en\",\"value\":\"Todd Haynes\"},\"ca\":{\"language\":\"ca\",\"value\":\"Todd Haynes\"},\"hu\":{\"language\":\"hu\",\"value\":\"Todd Haynes\"},\"fi\":{\"language\":\"fi\",\"value\":\"Todd Haynes\"},\"it\":{\"language\":\"it\",\"value\":\"Todd Haynes\"},\"de\":{\"language\":\"de\",\"value\":\"Todd Haynes\"},\"ja\":{\"language\":\"ja\",\"value\":\"\\u30c8\\u30c3\\u30c9\\u30fb\\u30d8\\u30a4\\u30f3\\u30ba\"},\"fa\":{\"language\":\"fa\",\"value\":\"\\u062a\\u0627\\u062f \\u0647\\u06cc\\u0646\\u0632\"},\"sh\":{\"language\":\"sh\",\"value\":\"Todd Haynes\"},\"sv\":{\"language\":\"sv\",\"value\":\"Todd Haynes\"},\"ko\":{\"language\":\"ko\",\"value\":\"\\ud1a0\\ub4dc \\ud5e4\\uc778\\uc988\"},\"nb\":{\"language\":\"nb\",\"value\":\"Todd Haynes\"},\"zh\":{\"language\":\"zh\",\"value\":\"\\u9676\\u5fb7\\u00b7\\u6d77\\u6069\\u65af\"},\"nl\":{\"language\":\"nl\",\"value\":\"Todd Haynes\"},\"ar\":{\"language\":\"ar\",\"value\":\"\\u062a\\u0648\\u062f \\u0647\\u064a\\u0646\\u0632\"},\"da\":{\"language\":\"da\",\"value\":\"Todd Haynes\"},\"nn\":{\"language\":\"nn\",\"value\":\"Todd Haynes\"},\"mg\":{\"language\":\"mg\",\"value\":\"Todd Haynes\"},\"pt\":{\"language\":\"pt\",\"value\":\"Todd Haynes\"},\"gl\":{\"language\":\"gl\",\"value\":\"Todd Haynes\"},\"el\":{\"language\":\"el\",\"value\":\"\\u03a4\\u03bf\\u03bd\\u03c4 \\u03a7\\u03ad\\u03b9\\u03bd\\u03c2\"},\"uk\":{\"language\":\"uk\",\"value\":\"\\u0422\\u043e\\u0434\\u0434 \\u0413\\u0435\\u0439\\u043d\\",
+      "excerptSha256": "47cc8dc250518f7c45ee6c4cb131054ab81c1a83b54ff515907405f8dd3fc518"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "therese-of-lisieux",
+      "name": "Thérèse of Lisieux",
+      "wikidataId": "Q181715",
+      "birthDate": "1873-01-02",
+      "lifeStatus": "deceased",
+      "deathDate": "1897-09-30",
+      "deathDatePrecision": "day",
+      "dobSourceIds": [
+        "therese-vatican",
+        "therese-lisieux"
+      ],
+      "deathDateSourceIds": [
+        "therese-lisieux"
+      ],
+      "statusSourceId": "therese-lisieux",
+      "careerFactIds": [
+        "jan2-therese-1",
+        "jan2-therese-2"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q181715",
+        "https://www.vatican.va/news_services/liturgy/documents/ns_lit_doc_19101997_stherese_en.html",
+        "https://www.therese-de-lisieux.catholique.fr/wp-content/uploads/2022/02/Press-kit.pdf"
+      ],
+      "before": {
+        "deathDate": null,
+        "deathDateSourceUrls": null,
+        "deathDatePrecision": null,
+        "lifeStatus": null,
+        "biography": "Thérèse Martin sinh ngày 2/1/1873 tại Alençon, Pháp. Bà gia nhập dòng Cát Minh ở Lisieux năm 1888 và được tuyên thánh năm 1925.",
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "deathDate": "1897-09-30",
+        "deathDateSourceUrls": [
+          "https://www.therese-de-lisieux.catholique.fr/wp-content/uploads/2022/02/Press-kit.pdf"
+        ],
+        "deathDatePrecision": "day",
+        "lifeStatus": "deceased",
+        "biography": "Thérèse Martin sinh ngày 2/1/1873 tại Alençon, Pháp. Bà gia nhập dòng Cát Minh ở Lisieux ngày 9/4/1888, viết các bản thảo tự thuật và qua đời ngày 30/9/1897. Giáo hội Công giáo tuyên thánh cho bà năm 1925.",
+        "verifiedAt": "2026-10-08"
+      }
+    },
+    {
+      "id": "rudolf-clausius",
+      "name": "Rudolf Clausius",
+      "wikidataId": "Q30693",
+      "birthDate": "1822-01-02",
+      "lifeStatus": "deceased",
+      "deathDate": "1888-08-24",
+      "deathDatePrecision": "day",
+      "dobSourceIds": [
+        "clausius-deutsche",
+        "clausius-mactutor"
+      ],
+      "deathDateSourceIds": [
+        "clausius-mactutor"
+      ],
+      "statusSourceId": "clausius-mactutor",
+      "careerFactIds": [
+        "jan2-clausius-1",
+        "jan2-clausius-2"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q30693",
+        "https://www.deutsche-biographie.de/gnd116540486.html?language=en",
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Clausius/"
+      ],
+      "before": {
+        "deathDate": null,
+        "deathDateSourceUrls": null,
+        "deathDatePrecision": null,
+        "lifeStatus": null,
+        "biography": "Rudolf Clausius sinh ngày 2/1/1822 tại Köslin, Phổ. Ông là nhà vật lý và toán học, có đóng góp nền tảng cho ngành nhiệt động lực học.",
+        "highlights": [
+          "Được Deutsche Biographie ghi nhận là nhà vật lý và toán học.",
+          "Sinh tại Köslin vào ngày 2/1/1822."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q30693",
+          "https://www.deutsche-biographie.de/gnd116540486.html?language=en",
+          "https://catalogues.royalsociety.org/calmview/Record.aspx?id=NA8171&src=CalmView.Persons"
+        ],
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "deathDate": "1888-08-24",
+        "deathDateSourceUrls": [
+          "https://mathshistory.st-andrews.ac.uk/Biographies/Clausius/"
+        ],
+        "deathDatePrecision": "day",
+        "lifeStatus": "deceased",
+        "biography": "Rudolf Clausius sinh ngày 2/1/1822 tại Köslin, Phổ, và qua đời tại Bonn ngày 24/8/1888. Ông là nhà vật lý, toán học Đức; công trình về lý thuyết cơ học của nhiệt và entropy góp phần đặt nền móng cho nhiệt động lực học.",
+        "highlights": [
+          "Năm 1850, bài báo đầu tiên của Clausius về lý thuyết cơ học của nhiệt được công bố.",
+          "Năm 1865, Clausius đặt tên entropy cho khái niệm đo tính không thuận nghịch của quá trình nhiệt động lực học."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q30693",
+          "https://www.deutsche-biographie.de/gnd116540486.html?language=en",
+          "https://mathshistory.st-andrews.ac.uk/Biographies/Clausius/"
+        ],
+        "verifiedAt": "2026-10-08"
+      }
+    },
+    {
+      "id": "mily-balakirev",
+      "name": "Mily Balakirev",
+      "wikidataId": "Q185040",
+      "birthDate": "1837-01-02",
+      "lifeStatus": "deceased",
+      "deathDate": "1910-05-29",
+      "deathDatePrecision": "day",
+      "dobSourceIds": [
+        "balakirev-pbm",
+        "balakirev-naxos"
+      ],
+      "deathDateSourceIds": [
+        "balakirev-vle"
+      ],
+      "statusSourceId": "balakirev-vle",
+      "careerFactIds": [
+        "jan2-balakirev-1",
+        "jan2-balakirev-2"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q185040",
+        "https://polskabibliotekamuzyczna.pl/encyklopedia/balakiriew-2/?lang=en",
+        "https://www.chandos.net/chanimages/Booklets/CH241-29.pdf",
+        "https://www.vle.lt/straipsnis/milij-balakirev/"
+      ],
+      "before": {
+        "deathDate": null,
+        "deathDateSourceUrls": null,
+        "deathDatePrecision": null,
+        "lifeStatus": null,
+        "biography": "Mily Balakirev là nhà soạn nhạc và nghệ sĩ dương cầm người Nga, sinh ngày 2/1/1837. Ông gắn với nhóm các nhà soạn nhạc Nga được gọi là “The Five”.",
+        "highlights": [
+          "Sáng tác nhạc giao hưởng, nhạc piano và nhạc thính phòng.",
+          "Là một trong những nhà soạn nhạc Nga thuộc nhóm “The Five”."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q185040",
+          "https://polskabibliotekamuzyczna.pl/encyklopedia/balakiriew-2/?lang=en",
+          "https://digital.lib.washington.edu/bitstreams/8f5ddc65-5192-40de-9d8a-46a3406f846d/download"
+        ],
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "deathDate": "1910-05-29",
+        "deathDateSourceUrls": [
+          "https://www.vle.lt/straipsnis/milij-balakirev/"
+        ],
+        "deathDatePrecision": "day",
+        "lifeStatus": "deceased",
+        "biography": "Mily Balakirev là nhà soạn nhạc Nga sinh ngày 2/1/1837, gắn với nhóm Mighty Handful. Năm 1862, ông và Gavriil Lomakin thành lập Trường Âm nhạc Miễn phí ở St Petersburg; ông qua đời năm 1910.",
+        "highlights": [
+          "Năm 1862, Balakirev cùng G. Lomakin thành lập Free Music School tại St Petersburg; ông lãnh đạo trường đến năm 1872.",
+          "Ông dẫn dắt Mighty Handful, định hình tư tưởng sáng tác và cách nhóm khai thác chất liệu dân ca Nga."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q185040",
+          "https://polskabibliotekamuzyczna.pl/encyklopedia/balakiriew-2/?lang=en",
+          "https://www.chandos.net/chanimages/Booklets/CH241-29.pdf",
+          "https://www.vle.lt/straipsnis/milij-balakirev/"
+        ],
+        "verifiedAt": "2026-10-08"
+      }
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "roger-miller",
+      "name": "Roger Miller",
+      "wikidataId": "Q712359",
+      "birthDate": "1936-01-02",
+      "countryCode": "US",
+      "category": "music",
+      "occupation": [
+        "ca sĩ",
+        "nhạc sĩ sáng tác",
+        "nhà soạn nhạc"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "lifeStatus": "deceased",
+      "deathDate": "1992-10-25",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "roger-cmhof",
+        "roger-tsha"
+      ],
+      "dobSourceIds": [
+        "roger-cmhof",
+        "roger-tsha"
+      ],
+      "statusSourceId": "roger-cmhof",
+      "careerFactIds": [
+        "jan2-roger-1",
+        "jan2-roger-2"
+      ],
+      "wikidataCaptureId": "wikidata-roger",
+      "identityClaims": {
+        "label": "Roger Miller",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1936-01-02T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 9
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1992-10-25T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 6
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 2
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q177220",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q488205",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q36834",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q822146",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q33999",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q55960555",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q806349",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "selectedOccupationQids": [
+          "Q177220",
+          "Q488205",
+          "Q36834"
+        ]
+      },
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "jan2-roger-1",
+            "jan2-roger-2"
+          ],
+          "rationale": "Các ca khúc của Miller và phần nhạc cho vở Big River là sản phẩm sáng tác được các tổ chức âm nhạc ghi nhận."
+        }
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q712359",
+        "https://countrymusichalloffame.org/hall-of-fame/roger-miller",
+        "https://www.tshaonline.org/handbook/entries/miller-roger-dean",
+        "https://nashvillesongwritersfoundation.com/Site/inductee?entry_id=3863"
+      ]
+    },
+    {
+      "id": "todd-haynes",
+      "name": "Todd Haynes",
+      "wikidataId": "Q446580",
+      "birthDate": "1961-01-02",
+      "countryCode": "US",
+      "category": "artist",
+      "occupation": [
+        "đạo diễn điện ảnh",
+        "biên kịch",
+        "nhà sản xuất phim"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "todd-golden",
+        "todd-encyclopedia"
+      ],
+      "careerFactIds": [
+        "jan2-todd-1",
+        "jan2-todd-2"
+      ],
+      "wikidataCaptureId": "wikidata-todd",
+      "identityClaims": {
+        "label": "Todd Haynes",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1961-01-02T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 5
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 3
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q33999",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2526255",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q3282637",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2059704",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q3455803",
+            "references": 2
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "selectedOccupationQids": [
+          "Q2526255",
+          "Q28389"
+        ]
+      },
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "jan2-todd-1",
+            "jan2-todd-2"
+          ],
+          "rationale": "Haynes viết kịch bản và đạo diễn phim; các tác phẩm được tổ chức điện ảnh và lễ trao giải ghi nhận."
+        }
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q446580",
+        "https://goldenglobes.com/person/todd-haynes/",
+        "https://www.encyclopedia.com/arts/educational-magazines/haynes-todd-1961",
+        "https://www.bfi.org.uk/features/where-begin-todd-haynes"
+      ]
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "jan2-therese-1",
+      "profileId": "therese-of-lisieux",
+      "displayText": "Gia nhập dòng Cát Minh Lisieux ngày 9/4/1888.",
+      "sourceId": "therese-vatican",
+      "evidencePhrase": "On 9 April 1888 she entered the Carmel of Lisieux."
+    },
+    {
+      "id": "jan2-therese-2",
+      "profileId": "therese-of-lisieux",
+      "displayText": "Được Giáo hoàng Piô XI tuyên thánh ngày 17/5/1925.",
+      "sourceId": "therese-vatican",
+      "evidencePhrase": "She was canonized by Pope Pius XI on 17 May 1925."
+    },
+    {
+      "id": "jan2-clausius-1",
+      "profileId": "rudolf-clausius",
+      "displayText": "Năm 1850, bài báo đầu tiên của Clausius về lý thuyết cơ học của nhiệt được công bố.",
+      "sourceId": "clausius-mactutor",
+      "evidencePhrase": "Clausius's first paper on the mechanical theory of heat was published in 1850."
+    },
+    {
+      "id": "jan2-clausius-2",
+      "profileId": "rudolf-clausius",
+      "displayText": "Năm 1865, Clausius đặt tên entropy cho khái niệm đo tính không thuận nghịch của quá trình nhiệt động lực học.",
+      "sourceId": "clausius-deutsche",
+      "evidencePhrase": "1865 schuf er im Anschluß daran den Begriff der „Entropie“"
+    },
+    {
+      "id": "jan2-balakirev-1",
+      "profileId": "mily-balakirev",
+      "displayText": "Năm 1862, Balakirev cùng G. Lomakin thành lập Free Music School tại St Petersburg; ông lãnh đạo trường đến năm 1872.",
+      "sourceId": "balakirev-pbm",
+      "evidencePhrase": "In 1862, together with G. Lomakin, he founded the Free Music School in St Petersburg, which he directed until 1872"
+    },
+    {
+      "id": "jan2-balakirev-2",
+      "profileId": "mily-balakirev",
+      "displayText": "Ông dẫn dắt Mighty Handful, định hình tư tưởng sáng tác và cách nhóm khai thác chất liệu dân ca Nga.",
+      "sourceId": "balakirev-pbm",
+      "evidencePhrase": "Balakirev served as the leader of this group"
+    },
+    {
+      "id": "jan2-roger-1",
+      "profileId": "roger-miller",
+      "displayText": "“King of the Road” là ca khúc bán chạy hàng triệu bản và đưa Miller thành ngôi sao country-pop.",
+      "sourceId": "roger-cmhof",
+      "evidencePhrase": "“King of the Road,” a million-seller"
+    },
+    {
+      "id": "jan2-roger-2",
+      "profileId": "roger-miller",
+      "displayText": "Miller nhận giải Tony năm 1985 cho phần nhạc của vở Broadway Big River.",
+      "sourceId": "roger-cmhof",
+      "evidencePhrase": "he received a 1985 Tony award for his score for Big River"
+    },
+    {
+      "id": "jan2-todd-1",
+      "profileId": "todd-haynes",
+      "displayText": "Haynes viết và đạo diễn Poison, Safe, Velvet Goldmine và Far from Heaven.",
+      "sourceId": "todd-golden",
+      "evidencePhrase": "wrote and directed Poison (1991), Safe (1995) with Julianne Moore, Velvet Goldmine (1998), Far From Heaven (2002)"
+    },
+    {
+      "id": "jan2-todd-2",
+      "profileId": "todd-haynes",
+      "displayText": "Far from Heaven mang về cho ông đề cử Oscar đầu tiên ở hạng mục Kịch bản gốc.",
+      "sourceId": "todd-bfi",
+      "evidencePhrase": "Far from Heaven (2002) was Haynes’s breakout hit, winning him his first Oscar nomination, for best original screenplay."
+    }
+  ]
+}

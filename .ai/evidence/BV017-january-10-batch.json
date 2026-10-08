@@ -1,0 +1,1411 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-10",
+  "sourceCaptures": [
+    {
+      "id": "knuth-mactutor-dob",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Knuth/",
+      "publisher": "MacTutor History of Mathematics",
+      "publisherHost": "mathshistory.st-andrews.ac.uk",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 38522,
+      "sha256": "6efcb75d40659a594edd8c2bd44c8f27c38b32ec9047d8970361f97f077465c3",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Home Biographies History Topics Map Curves Search Donald Ervin Knuth Quick Info Born 10 January 1938 Milwaukee, Wisconsin, USA Summary Donald Knuth is an American mathematician and computer scientist most famous for his contributions to the study of algorithms and inventing the TeX typesetting language. View seven larger pictures Biography Donald Knuth 's parents were Ervin Henry Knuth and Louise Marie Bohning. Donald's father Ervin was",
+      "excerptSha256": "2f1a34fbeb44e24bc414e717068bca83d3891fb1d465609d6e14fdef2838fad0"
+    },
+    {
+      "id": "knuth-mactutor-taocp",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Knuth/",
+      "publisher": "MacTutor History of Mathematics",
+      "publisherHost": "mathshistory.st-andrews.ac.uk",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 38522,
+      "sha256": "6efcb75d40659a594edd8c2bd44c8f27c38b32ec9047d8970361f97f077465c3",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "n pages and Addison-Wesley realised that here was a much more major work than they had originally envisaged. Discussions led to a decision that Knuth should produce a seven volume work covering much more than compilers. The work became The Art of Computer Programming and publication began in 1968 when Volume 1 : Fundamental Algorithms appeared. Volume 2 : Seminumerical algorithms came out in the following year, and Volume 3 : Sorting and searching in 1973 . In the Preface Knuth writes that these are:- ... books that have been designed to train the reader in the various skills which go into a programmer's craft... [ They are ] not meant to serve as an introduction to computer programming; the reader is supposed to have some previou",
+      "excerptSha256": "5f81923756d669e83a71ad4d0a51967a89dbefdbf2c5171e9da3018ff730278f"
+    },
+    {
+      "id": "knuth-bhavana-dob",
+      "url": "https://bhavana.org.in/the-dawn-of-rigour-in-the-art-of-programming",
+      "publisher": "Bhāvanā",
+      "publisherHost": "bhavana.org.in",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 113864,
+      "sha256": "72c49cbd93eb6af1113ebf3d7225eb173fe71bbf5750668729226f77bc96a1e5",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "o both newcomers and cognoscenti alike. Donald Ervin Knuth was born on 10 January 1938 in Milwaukee, Wisconsin to a Lutheran couple, both deeply steeped in their neighbourhood community, faith, and music. The first of two children, Knuth gleefully inherited and soaked in all three parental traits&mdash;namely, strong fellowship and bonding with members of a chosen community, a lifelong kinship with the church, and an",
+      "excerptSha256": "f7e4528e1a16cddcd359419fb7dc9f6762a0d37fa2ecd8e203fed5d8611de21d"
+    },
+    {
+      "id": "knuth-stanford-tex",
+      "url": "https://profiles.stanford.edu/donald-knuth",
+      "publisher": "Stanford Profiles",
+      "publisherHost": "profiles.stanford.edu",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 101450,
+      "sha256": "fdc1661b49a5392f27cefef38df9e498040770b4f582dc1bbbce834607672085",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "he process he also popularized the asymptotic notation. In addition to fundamental contributions in several branches of theoretical computer science, Knuth is the creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces. As a writer and scholar,[4] Knuth created the WEB and CWEB computer programming systems designed to encourage and facilitate literate programming, and designed the MIX/MMIX instruction set architectures. As a member of the academic and scientific community, Knuth is strongly opposed to the policy of granting software patents. He has expressed his disagreement directly to the patent offices of the United States and Europe.",
+      "excerptSha256": "0bc4ad831d3ab622b621b16e61b31e1828570b45d0f71212935865f25aa842f8"
+    },
+    {
+      "id": "knuth-official-news-living",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/news.html",
+      "publisher": "Donald Knuth's Stanford site",
+      "publisherHost": "www-cs-faculty.stanford.edu",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 21187,
+      "sha256": "8ae154a13def1322d9f3003cc47ca42ab2dd5511663e7f81abd8a6f525ad0422",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "down to the schedule of public events] Happy 2026 (I'm still looking for the catchiest way to appreciate the number MMXXVI. Exercise 7.2.1.6&ndash;122 gives 1234+.5*6+789 and -1+2345*6/7+8+9 and 1+(2/3)*45*67.8-9 ; other suggestions are welcome. The most elegant that I've seen so far is a beauty that was suggested independently by Arnaud Lefebvre and by Evangelos Georgiadis: 2&sup1;&sup1;&minus;2&middot;11.) Beiju My Japanese friends tell me that my birthday this year will be the best. My Brazilian friends tell me that I should celebrate that occasion with tapioca pancakes. I shall cover up t",
+      "excerptSha256": "1339dc41ca4508b7035b60ce4af8ec778a26f02b92d273d5b07ae07688005131"
+    },
+    {
+      "id": "wilson-nobel-dob",
+      "url": "https://www.nobelprize.org/laureate/112",
+      "publisher": "Nobel Prize",
+      "publisherHost": "www.nobelprize.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 165744,
+      "sha256": "b91f5990a0c013a205253b6b5e9f7b60b381ea01517a6589105ef19614d7e6ab",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ing. Nobel Foundation archive Robert Woodrow Wilson Nobel Prize in Physics 1978 Born: 10 January 1936, Houston, TX, USA Affiliation at the time of the award: Bell Laboratories, Holmdel, NJ, USA Prize motivation: “for their discovery of cosmic microwave background radiation” Prize share: 1/4 Work Radiation falls toward the earth from outer space. This cosmic radiation initially appeared to become weaker as wavelengths of the radiation became shorter. However, when Robert Wilson and Arno Penzias s",
+      "excerptSha256": "4f3245b0a07db63ab0d29fec595a43d07f72bc75ec70bf49393048075400765f"
+    },
+    {
+      "id": "wilson-nobel-discovery",
+      "url": "https://www.nobelprize.org/laureate/112",
+      "publisher": "Nobel Prize",
+      "publisherHost": "www.nobelprize.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 165744,
+      "sha256": "b91f5990a0c013a205253b6b5e9f7b60b381ea01517a6589105ef19614d7e6ab",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "er as wavelengths of the radiation became shorter. However, when Robert Wilson and Arno Penzias studied cosmic radiation in 1964, they discovered that microwaves with a wavelength of about 7 centimeters were stronger than expected. At first they thought that the results were caused by distortions or faults in the measurements, but that was not the case. This cosmic background radiation probably is a remnant of the Big Bang when the universe was created. To cite this section MLA style: Robert Woodrow Wilson – Facts. NobelPrize.org. Nobel Prize Outreach 2026. Thu. 8 Oct 2026. <https://www.nobelprize.org/prizes/phys",
+      "excerptSha256": "3bc7abc2b1f64f8620e1bbbb75cdb2a05d414c914dec3f17747a0d6cde97a0d2"
+    },
+    {
+      "id": "wilson-physics-today-dob",
+      "url": "https://physicstoday.aip.org/news/robert-woodrow-wilson",
+      "publisher": "Physics Today / American Institute of Physics",
+      "publisherHost": "physicstoday.aip.org",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytesRead": 176829,
+      "sha256": "15c040aee7ef768fa61df1f06c2c89de9d045f2b0ae8742fb36546b6d63eabc8",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "codiscovered the cosmic microwave background radiation. DOI: 10.1063/PT.6.6.20180110a Physics Today Born on 10 January 1936 in Houston, Texas, Robert Woodrow Wilson is a Nobel Prize–winning astronomer who codiscovered the cosmic microwave background radiation. While attending graduate school at Caltech, Wilson began working at the Owens Valley Radio Observatory. There he worked on creating a galactic survey of the Milky Way. After earning his PhD in physics in 1962, he took a job at Bell Labs, where he collaborated with fellow radio astronomer Arno Penzias. While using an antenna to research radiation in gas clouds between stars, the two discovered the",
+      "excerptSha256": "8e17510fd9930b512ce8476e336c9bc2014c406c5788f5b2f1933a2116a72a18"
+    },
+    {
+      "id": "foreman-tsha-dob",
+      "url": "https://www.tshaonline.org/handbook/entries/foreman-george-edward-big-george",
+      "publisher": "Texas State Historical Association",
+      "publisherHost": "www.tshaonline.org",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 178406,
+      "sha256": "0dec5dd539b5f6ba19c7378e28403e0d6d0afe35d34762f84c5fc7d4d724836b",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": ", professional boxer, pastor, author, entrepreneur, and two-time heavyweight champion of the world, was born on January 10, 1949, in Marshall, Texas, to Nancy Ree (Nelson). George&rsquo;s mother married J. D. Foreman, the man George considered to be his father. The Foreman family was recorded on the 1950 federal census in Houston. George did not learn until he was an adult that Leroy Moorehead was actually his biological father. George Foreman grew up in the Fifth Ward of Houston. A self-profess",
+      "excerptSha256": "7a4ef1bbd3c12c1dc3af4fb7a49655930f1ef259fe0edec37068718e6b8c2159"
+    },
+    {
+      "id": "foreman-tsha-olympic",
+      "url": "https://www.tshaonline.org/handbook/entries/foreman-george-edward-big-george",
+      "publisher": "Texas State Historical Association",
+      "publisherHost": "www.tshaonline.org",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 178406,
+      "sha256": "0dec5dd539b5f6ba19c7378e28403e0d6d0afe35d34762f84c5fc7d4d724836b",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "oxer, Foreman had a successful amateur career. The culmination came at the 1968 Olympics in Mexico City when he defeated Jonas Capulis (of Lithuania) to win the gold medal in the heavyweight boxing category. The lasting image of Foreman in the games came as he waved an American flag in the ring following his victory. In 1969 Foreman turned professional. A heavy hitter, by 1972 his record stood at thirty-seven wins and zero losses. Thirty-five of his thirty-seven victories were by knockout. This success caused the World Boxin",
+      "excerptSha256": "56d3d4e3a416da89c8a24fc2be52bad2ae9a1eecdb80bc398f023f6981dd9d3d"
+    },
+    {
+      "id": "foreman-tsha-frazier",
+      "url": "https://www.tshaonline.org/handbook/entries/foreman-george-edward-big-george",
+      "publisher": "Texas State Historical Association",
+      "publisherHost": "www.tshaonline.org",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 178406,
+      "sha256": "0dec5dd539b5f6ba19c7378e28403e0d6d0afe35d34762f84c5fc7d4d724836b",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "il and the World Boxing Association to both rank Foreman as the number one challenger in the world. On January 22, 1973, Foreman fought Joe Frazier in Kingston, Jamaica, for the heavyweight title. In the fight dubbed &ldquo;The Sunshine Showdown,&rdquo; Foreman knocked Frazier down six times on the way to a second round knockout. With the victory, Foreman became the undisputed heavyweight champion of the world. Foreman successfully defended his championship title twice in the next year, once against Jose Roman and once against Ken Norton. Then, on October 30, 1974, Foreman faced Muhammad Ali in the &ldquo;Rumble",
+      "excerptSha256": "401212c7bf5d36595e8faca04dbe56f8f9719e8bdeeba5e6e40e51d9445ef40d"
+    },
+    {
+      "id": "foreman-olympedia-dob-death",
+      "url": "https://www.olympedia.org/athletes/8668",
+      "publisher": "Olympedia",
+      "publisherHost": "www.olympedia.org",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 12506,
+      "sha256": "81f7dda0eb8e2a5551ec21e2b3ed9735c85b55043fbaf376359ecf728ec94157",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Used name George•Foreman Nick/petnames Big George Born 10 January 1949 in Marshall, Texas (USA) Died 21 March 2025 (aged 76 years 2 months 11 days) in Houston, Texas (USA) Measurements 192 cm / 99 kg NOC United States Medals OG Gold 1 Silver 0 Bronze 0 Total 1 Biography George Foreman is one of the most powerful punchers in boxing history. He had little experience in 1968 when he won the AAU title, the Olympic trials and the Olympic Games. At Mexico City he became famous when, after winning the final bout, he took a small American flag and waved it to the four cor",
+      "excerptSha256": "54f9d99810689dea9a039f180b853aaed822b89c62dfd966a92d654ae32914d0"
+    },
+    {
+      "id": "michel-bnf-identity-status",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb11907289p",
+      "publisher": "Bibliothèque nationale de France",
+      "publisherHost": "catalogue.bnf.fr",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 60684,
+      "sha256": "4e000f48f977a4a935397eed92605c8563242ff5b07357dbaf96cb73273a0782",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": ": Masculin Responsabilité(s) exercée(s) sur les documents : Auteur, Participant Naissance : 1922-01-10, Haïphong (Viet Nam) Mort : 2002-07-03, Albi (Tarn) Philosophe et romancier. Source(s) : La Barbarie / Michel Henry, 1987 Dictionnaire des philosophes / sous la dir. de D. Huisman, 1984 . - Le Monde, 2002-07-07/08 . - Libération, 2002-08-09 . - Qui était qui, XXe siècle / Béatrice et Michel Wattel, 2005 BN Cat. gén. 1960-1969 Domaine(s) : 100 Identifiant international de l'autorité : ISNI 0000 0001 2101 0783 , cf. http://isni.org/isni/0000000121010783 I",
+      "excerptSha256": "747a9f548ef6fccdcee2709057b1b97cd199e62fd37be7bd646b484ce35a5850"
+    },
+    {
+      "id": "michel-sep-dob",
+      "url": "https://plato.stanford.edu/entries/michel-henry/",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "publisherHost": "plato.stanford.edu",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 91545,
+      "sha256": "4c191705e414cc17ec667f3ff953d29d10b20e2c7c938a504f83efe6a611d58c",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "dicals Academic Tools Other Internet Resources Related Entries 1. Life and Work Michel Henry was born on January 10, 1922 in Haiphong, Vietnam (then, French Indochina). After the accidental death of his father, the family returned to Paris in 1929. In Paris, Henry became a student at the prestigious Lyc&eacute;e Henri IV, then graduated with a Master thesis on Spinoza in 1943 with Jean Grenier as director. Soon after having turned in his thesis, partially published in the Revue d&rsquo;histoire de la philosophie et d&rsquo;histoire g&eacute;n&eacute;rale de la civilisation in 1944 and 1946, Henry joined the French Resistance and was assigned to the &ldquo;Pericles&rdquo; division in the region of Haut Jura. He returned to Paris at the end of 1944, obtaining the Agr&eacu",
+      "excerptSha256": "12e5036c5c3f53878f0b4b25b8c703e7f41bf9a48f991795475c51b7302d4c62"
+    },
+    {
+      "id": "michel-sep-phenomenology",
+      "url": "https://plato.stanford.edu/entries/michel-henry/",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "publisherHost": "plato.stanford.edu",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 91545,
+      "sha256": "4c191705e414cc17ec667f3ff953d29d10b20e2c7c938a504f83efe6a611d58c",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "eading of the phenomenological tradition (especially of Husserl and Heidegger). Henry named his approach &ldquo;phenomenology of life&rdquo; and, before that, &ldquo;material phenomenology&rdquo; or &ldquo;radical phenomenology&rdquo;. He was, in part, influenced by the work of Maine de Biran. Perhaps the most characteristic, as well as most controversial, feature of Henry&rsquo;s phenomenology of life is that it grounds intentionality in a pre-intentional form of appearing, namely immanent affectivity or &ldquo;life&rdquo;. In the last period of his work (1992&ndash;2002), Henry developed a philosophy of religion and Christianity b",
+      "excerptSha256": "1544838e24a69fb7492c6184ccd469a7ad38cacc342395c7b46cee384f542bde"
+    },
+    {
+      "id": "michel-sep-novels",
+      "url": "https://plato.stanford.edu/entries/michel-henry/",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "publisherHost": "plato.stanford.edu",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 91545,
+      "sha256": "4c191705e414cc17ec667f3ff953d29d10b20e2c7c938a504f83efe6a611d58c",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "e (1988), Material Phenomenology (1990), I Am the Truth (1996), Incarnation (2000). In addition, he authored four novels, one of which&mdash; L&rsquo;amour les yeux ferm&eacute;s &mdash;was awarded the Prix Renaudot in 1976. He died on July 3, 2002 in Albi, France. 2. Phenomenology of Life and the Concept of Transcendental Affectivity Since the publication of the Essence of Manifestation in 1963, Henry&rsquo;s entire oeuvre was devoted to the systematic development of a phenomenology that, while constituting itself within the phenomenological tradition, criticizes substantially not only classi",
+      "excerptSha256": "7c84a645e945b4ff15b0072d9ae8c9f611419acf930bc5dbaf9eaecf6847e431"
+    },
+    {
+      "id": "rod-universal-dob",
+      "url": "https://www.universalmusic.fr/artistes/20000154932",
+      "publisher": "Universal Music France",
+      "publisherHost": "www.universalmusic.fr",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 1041096,
+      "sha256": "d33a8ca2e185cab42215fd614940d010a55a859240a1944360069cff3c7c73d9",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "pos Global impact Boutiques Rod Stewart Nom de naissance Roderick David Stewart Naissance 10 Janvier 1945, London, London, England Newsletter Biographie Connu pour sa voix éraillée, Sir Rod Stewart a multiplié les succès tout au long de sa carrière. Né à Londres le 10 janvier 1945, Roderick David Stewart effectue ses débuts au sein de groupes de rhythm'n'blues, comme chanteur et harmoniciste de Long John Baldry (1964), puis du Jeff Beck Group (1967). Membre permanent du groupe de rock Faces (1969-1975, puis à chaque réunion), il connaît en parallèle le succès par ses enregi",
+      "excerptSha256": "a0e9aa3b61f45311bd6db6cbebd1d0c0bbf28b6854c11a6d269cb248e9a47359"
+    },
+    {
+      "id": "rod-universal-maggie",
+      "url": "https://www.universalmusic.fr/artistes/20000154932",
+      "publisher": "Universal Music France",
+      "publisherHost": "www.universalmusic.fr",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 1041096,
+      "sha256": "d33a8ca2e185cab42215fd614940d010a55a859240a1944360069cff3c7c73d9",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "uis à chaque réunion), il connaît en parallèle le succès par ses enregistrements en solo, notamment Every Picture Tells a Story (1971) qui abrite la ballade folk « Maggie May » (n° 1 au Royaume-Uni et aux États-Unis), puis Never a Dull Moment (1972) et son titre-phare « You Wear It Well » , Atlantic Crossing (1975) avec le tube « Sailing » et A Night on the Town (1976) dont est extrait « Tonight's the Night » . En 1978, son orientation vers le disco avec le titre « D'ya Think I'm Sexy » et l'album Blondes Have More Fun s'avère une réussite commerciale mondiale et établit sa réputation de séducteur à la coupe de cheveux hirsute. Doté",
+      "excerptSha256": "cf00b95120f18f0e41ec0b051aa8d79b66c94214a7334a98d0baa7c370618d75"
+    },
+    {
+      "id": "rod-universal-faces",
+      "url": "https://www.universalmusic.fr/artistes/20000154932",
+      "publisher": "Universal Music France",
+      "publisherHost": "www.universalmusic.fr",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 1041096,
+      "sha256": "d33a8ca2e185cab42215fd614940d010a55a859240a1944360069cff3c7c73d9",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "e groupes de rhythm'n'blues, comme chanteur et harmoniciste de Long John Baldry (1964), puis du Jeff Beck Group (1967). Membre permanent du groupe de rock Faces (1969-1975, puis à chaque réunion), il connaît en parallèle le succès par ses enregistrements en solo, notamment Every Picture Tells a Story (1971) qui abrite la ballade folk « Maggie May » (n° 1 au Royaume-Uni et aux États-Unis), puis Never a Dull Moment (1972) et son titre-phare « You Wear It Well » , Atlantic Crossing (1975) avec le tube « Sailing » et A Night on the Town (1976) dont est extrait « Tonight's the Night » . En 1978, son orientation vers l",
+      "excerptSha256": "b7b2d5498f07b01d56f4a80cfe7ac1d7a9c204c47f945d6b7d8c3064cfd5b737"
+    },
+    {
+      "id": "rod-sony-profile",
+      "url": "https://ssl.sme.co.jp/artist/rodstewart/profile/",
+      "publisher": "Sony Music Entertainment Japan",
+      "publisherHost": "ssl.sme.co.jp",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 11435,
+      "sha256": "484226ac6d09231b73120329abeb121fd2289382dd92de38b5dc7559a3798d10",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "フィ ビデオ ニュース ライブ / イベント メディア リンク プロフィール ロッド・スチュワート 1945年1月10日，英国ロンドン生まれ。子供の頃はプロのサッカー選手を夢見ていた彼は，14歳のときに父親からプレゼントされたギターがきっかけで、音楽に目覚め，本格的な音楽活動をスタート。1964年にデッカに初のソロ音源を録音後，ロング・ジョン・ボールドリーのフーチー・クーチー・メン、スティームパケット、ショットガン・エクスプレスなどでの活動を経て，1966年末にジェフ・ベック・グループに参加。しかし、そのジェフ・ベック・グループは短命に終わり，1969年にロッドはフェイセズの一員として再出発すると同時に、ソロでも活躍。フェイセズとしてワーナーと契約を結ぶ一方で，ソロではヴァーティゴ／マーキュリーと契約を結び，1970年代前半までロッドはフェイセズとソロという二束のわらじを履いて活躍する。1975年末のフェイセズ解散後はソロ活動に専念し，「今夜きめよう」（8週連続の全米NO.1を記録）、「アイム・セクシー」（英米でNO.1を記録）など、現在までコンスタントにシングル・ヒットを連発。これまでにロッドがソロで放ったシングル・ヒットは約60曲、アルバムはベスト盤も含めると、実に30枚近くにのぼる。1975年から25年間ソロで在籍したワーナーを離れ，2001年には同じワーナー系のアトランティックへ移籍。その後，2002年10月にはBMG傘下のJレコードへ移籍して『ザ・グレイト・アメリカン・ソングブック』を発表。ロッドが初めてアメリカのスタンダード・ナンバーにチャレンジしたこのアルバムは、全米だけで200万枚以上を売上げ、グラミー賞の“最優秀トラディショナル・ポップ・アルバム”部門にもノ",
+      "excerptSha256": "a13071ec72384b289ab2b2611fe20fcd79a6e5d7288fb7909939339b86bdfdff"
+    },
+    {
+      "id": "rod-o2-status",
+      "url": "https://www.theo2.co.uk/events/detail/rod-stewart-2027",
+      "publisher": "The O2",
+      "publisherHost": "www.theo2.co.uk",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 143487,
+      "sha256": "8e8e5007d587efd8970817d6ff94e7eac568bb982fcdadecb4b4bddb380a8124",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "l be directed to AXS.com to purchase your tickets. AXS is the official ticketing partner of The O2. Tuesday 11 May 2027 Doors: 6:30 PM / Show Start: 7:30 PM Buy tickets + Add to calendar Friday 14 May 2027 Doors: 6:30 PM / Show Start: 7:30 PM Buy tickets + Add to calendar Event Details Doors 6:30PM Show 7:30PM Sir Rod Stewart, one of the best-selling artists in the history of recorded music and one of the most successful touring artists of the last half century, is coming to The O2 with The Final Encore, marketing the culmination of an extraordinary live career spanning more than six decades. Rod Stewart said, &ldquo;My dear friends, The time has come to say farewell to life on the road. After more than six decades, The Final Encore will most definitely be my last. I&rsquo;ve been singing the music I love since I was 19 years old, and I&rsquo;ve had the privilege of taking it around the world to all of you. It has given me a life beyond anything I could ever have imagined, and I hope I&rsquo;ve given you some fond memories in return. So, may I take this opportunity to thank you for making this extraordinary life possible. I hope you&rsquo;ll join me so I can thank you the best way",
+      "excerptSha256": "355fd16ceff1973774e820c5b5976d516b55851ea8dbd56a23970148740c8cbc"
+    },
+    {
+      "id": "wikidata-17457",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q17457.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 227819,
+      "sha256": "cf736ab247dba8fa1cefb28975b1bccb81ec4592fe17f2c7a99d8691089525c1",
+      "verificationMethod": "direct-http-json-entity-capture+claim-audit",
+      "excerpt": "Wikidata entity Q17457; English label: Donald Knuth; p31=Q5; p569=+1938-01-10T00:00:00Z/p11; p570=; p27=Q30; p106=Q170790,Q82594,Q17486330,Q36180,Q5482740,Q1622272,Q81096,Q3400985",
+      "excerptSha256": "2da8fb7d537b8ea1f4e49f1418d22586a3b4588e6fdfbbbdd307eb9cb789ca1d"
+    },
+    {
+      "id": "wikidata-171034",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q171034.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 116458,
+      "sha256": "2ec9cdb724946ea5d2741ab993827f8eeaa224333061a417c2eed089503e78e7",
+      "verificationMethod": "direct-http-json-entity-capture+claim-audit",
+      "excerpt": "Wikidata entity Q171034; English label: Robert Wilson; p31=Q5; p569=+1936-01-10T00:00:00Z/p11; p570=; p27=Q30; p106=Q11063,Q169470,Q1650915,Q115784320",
+      "excerptSha256": "8dffdd9c142fd78ee8a7710fec2bdee33b56d3bd0fd95d47c13ddcb51251c463"
+    },
+    {
+      "id": "wikidata-213919",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q213919.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 156472,
+      "sha256": "000fa6dbd5d3d2ba5c851c01d3c43927625c1628915ac120d7421e018df1ee8d",
+      "verificationMethod": "direct-http-json-entity-capture+claim-audit",
+      "excerpt": "Wikidata entity Q213919; English label: George Foreman; p31=Q5; p569=+1949-01-10T00:00:00Z/p11,+1949-00-00T00:00:00Z/p9; p570=+2025-03-21T00:00:00Z/p11; p27=Q30; p106=Q11338576,Q43845",
+      "excerptSha256": "c48710887ff0db647c02ee0d6f379ad80428c30487c82d43ca060c27f0e20944"
+    },
+    {
+      "id": "wikidata-610255",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q610255.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 83895,
+      "sha256": "1491024ef01c9519ff391df39b88d9d3af3071cec4150f5c59c26eae5afdc7c9",
+      "verificationMethod": "direct-http-json-entity-capture+claim-audit",
+      "excerpt": "Wikidata entity Q610255; English label: Michel Henry; p31=Q5; p569=+1922-01-10T00:00:00Z/p11; p570=+2002-07-03T00:00:00Z/p11; p27=Q142; p106=Q4964182,Q36180,Q1622272",
+      "excerptSha256": "2302fb33999d94fca31ca9e80a255e61f18f632a7c0d33a97579aba19852dfeb"
+    },
+    {
+      "id": "wikidata-182655",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q182655.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 187598,
+      "sha256": "2740625e5481890c334e2138ff46f44aaf3ab990f1ece3dcc3396276b91c4c22",
+      "verificationMethod": "direct-http-json-entity-capture+claim-audit",
+      "excerpt": "Wikidata entity Q182655; English label: Rod Stewart; p31=Q5; p569=+1945-01-10T00:00:00Z/p11; p570=; p27=Q145; p106=Q488205,Q177220,Q855091,Q55960555,Q2643890,Q36834,Q639669",
+      "excerptSha256": "4b0283a2074af39e924e173db7c72a5908142149973f06d574bfc2e53690d14a"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "donald-knuth",
+      "name": "Donald Knuth",
+      "wikidataId": "Q17457",
+      "wikidataLabel": "Donald Knuth",
+      "birthDate": "1938-01-10",
+      "lifeStatus": "living",
+      "deathDate": null,
+      "dobSourceIds": [
+        "knuth-mactutor-dob",
+        "knuth-bhavana-dob"
+      ],
+      "careerFactIds": [
+        "jan10-knuth-taocp",
+        "jan10-knuth-tex"
+      ],
+      "countryCode": "US",
+      "category": "scientist",
+      "occupation": [
+        "nhà khoa học máy tính"
+      ],
+      "fields": [
+        "technology-engineering"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "technology-engineering",
+          "careerFactIds": [
+            "jan10-knuth-taocp",
+            "jan10-knuth-tex"
+          ],
+          "rationale": "The Art of Computer Programming and TeX document Knuth’s lasting contributions to computational methods and technical publishing."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-17457",
+      "identityClaims": {
+        "label": "Donald Knuth",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1938-01-10T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 6
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30"
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q170790",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q82594",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q17486330",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q5482740",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q81096",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3400985",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q354034",
+            "references": 0
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q170790"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q17457",
+        "https://cs.stanford.edu/~knuth/vita.pdf",
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Knuth/",
+        "https://profiles.stanford.edu/donald-knuth",
+        "https://bhavana.org.in/the-dawn-of-rigour-in-the-art-of-programming",
+        "https://www-cs-faculty.stanford.edu/~knuth/news.html"
+      ],
+      "before": {
+        "shortDescription": "Nhà khoa học máy tính người Mỹ, tác giả The Art of Computer Programming.",
+        "biography": "Donald Knuth sinh ngày 10/1/1938. Ông là nhà khoa học máy tính tại Đại học Stanford và là tác giả bộ sách The Art of Computer Programming.",
+        "highlights": [
+          "Nhận Giải Turing của ACM năm 1974.",
+          "Tác giả bộ sách The Art of Computer Programming."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q17457",
+          "https://cs.stanford.edu/~knuth/vita.pdf",
+          "https://mathshistory.st-andrews.ac.uk/Biographies/Knuth/"
+        ],
+        "lifeStatus": null,
+        "fields": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "shortDescription": "Nhà khoa học máy tính người Mỹ, tác giả The Art of Computer Programming.",
+        "biography": "Donald Knuth sinh ngày 10/1/1938 tại Milwaukee. Ông là nhà khoa học máy tính và giáo sư danh dự tại Đại học Stanford; bộ sách The Art of Computer Programming của ông bắt đầu xuất bản năm 1968. Ông tạo ra hệ thống sắp chữ TeX cùng ngôn ngữ thiết kế phông chữ METAFONT.",
+        "highlights": [
+          "Bộ sách The Art of Computer Programming của ông bắt đầu xuất bản từ năm 1968.",
+          "Knuth tạo ra hệ thống sắp chữ TeX cùng ngôn ngữ thiết kế phông chữ METAFONT."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q17457",
+          "https://cs.stanford.edu/~knuth/vita.pdf",
+          "https://mathshistory.st-andrews.ac.uk/Biographies/Knuth/",
+          "https://profiles.stanford.edu/donald-knuth",
+          "https://bhavana.org.in/the-dawn-of-rigour-in-the-art-of-programming",
+          "https://www-cs-faculty.stanford.edu/~knuth/news.html"
+        ],
+        "lifeStatus": "living",
+        "fields": [
+          "technology-engineering"
+        ],
+        "verifiedAt": "2026-10-08"
+      },
+      "statusSourceId": "knuth-official-news-living",
+      "statusEvidenceAsOf": "2026"
+    },
+    {
+      "id": "robert-woodrow-wilson",
+      "name": "Robert Woodrow Wilson",
+      "wikidataId": "Q171034",
+      "wikidataLabel": "Robert Wilson",
+      "birthDate": "1936-01-10",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "wilson-nobel-dob",
+        "wilson-physics-today-dob"
+      ],
+      "careerFactIds": [
+        "jan10-wilson-nobel",
+        "jan10-wilson-cmb"
+      ],
+      "countryCode": "US",
+      "category": "scientist",
+      "occupation": [
+        "nhà thiên văn học, nhà vật lý"
+      ],
+      "fields": [
+        "science-research"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "science-research",
+          "careerFactIds": [
+            "jan10-wilson-nobel",
+            "jan10-wilson-cmb"
+          ],
+          "rationale": "His radio astronomy research and discovery of the cosmic microwave background are directly documented by Nobel Prize and Physics Today sources."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-171034",
+      "identityClaims": {
+        "label": "Robert Wilson",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1936-01-10T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 4
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30"
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q11063",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q169470",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q1650915",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q115784320",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q11063"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q171034",
+        "https://www.nobelprize.org/laureate/112",
+        "https://physicstoday.aip.org/news/robert-woodrow-wilson"
+      ],
+      "before": {
+        "shortDescription": "Nhà thiên văn học người Mỹ, đồng nhận Nobel Vật lý năm 1978.",
+        "biography": "Robert Woodrow Wilson sinh ngày 10/1/1936. Ông là nhà thiên văn học và nhà vật lý, đồng nhận Giải Nobel Vật lý năm 1978.",
+        "highlights": [
+          "Đồng nhận Giải Nobel Vật lý năm 1978.",
+          "Nghiên cứu cùng Arno Penzias về bức xạ nền vi sóng vũ trụ."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q171034",
+          "https://www.nobelprize.org/laureate/112",
+          "https://www.britannica.com/biography/Robert-Woodrow-Wilson"
+        ],
+        "lifeStatus": null,
+        "fields": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "shortDescription": "Nhà thiên văn học người Mỹ, đồng nhận Nobel Vật lý năm 1978.",
+        "biography": "Robert Woodrow Wilson sinh ngày 10/1/1936 tại Houston. Ông là nhà thiên văn học và nhà vật lý; cùng Arno Penzias, ông phát hiện bức xạ nền vi sóng vũ trụ năm 1964 và đồng nhận Giải Nobel Vật lý năm 1978. Trạng thái sống hiện được giữ là chưa rõ vì batch này chưa có nguồn cập nhật đủ mạnh để xác nhận.",
+        "highlights": [
+          "Robert Woodrow Wilson và Arno Penzias đồng nhận Giải Nobel Vật lý năm 1978.",
+          "Năm 1964, Wilson và Penzias phát hiện bức xạ nền vi sóng vũ trụ khi nghiên cứu bức xạ vũ trụ."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q171034",
+          "https://www.nobelprize.org/laureate/112",
+          "https://physicstoday.aip.org/news/robert-woodrow-wilson"
+        ],
+        "lifeStatus": "unknown",
+        "fields": [
+          "science-research"
+        ],
+        "verifiedAt": "2026-10-08"
+      }
+    },
+    {
+      "id": "george-foreman",
+      "name": "George Foreman",
+      "wikidataId": "Q213919",
+      "wikidataLabel": "George Foreman",
+      "birthDate": "1949-01-10",
+      "lifeStatus": "deceased",
+      "deathDate": "2025-03-21",
+      "dobSourceIds": [
+        "foreman-tsha-dob",
+        "foreman-olympedia-dob-death"
+      ],
+      "careerFactIds": [
+        "jan10-foreman-olympic",
+        "jan10-foreman-frazier"
+      ],
+      "countryCode": "US",
+      "category": "athlete",
+      "occupation": [
+        "võ sĩ quyền Anh"
+      ],
+      "fields": [],
+      "fieldEvidence": [],
+      "wikidataCaptureId": "wikidata-213919",
+      "identityClaims": {
+        "label": "George Foreman",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 4
+          }
+        ],
+        "p569": [
+          {
+            "rank": "preferred",
+            "value": "+1949-01-10T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "value": "+1949-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar": "Q1985727",
+            "references": 4
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2025-03-21T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30"
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q11338576",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q43845",
+            "references": 0
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q11338576"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q213919",
+        "https://www.tshaonline.org/handbook/entries/foreman-george-edward-big-george",
+        "https://www.olympedia.org/athletes/8668"
+      ],
+      "before": {
+        "shortDescription": "Võ sĩ quyền Anh người Mỹ, từng giành huy chương vàng Olympic.",
+        "biography": "George Foreman sinh ngày 10/1/1949. Ông là võ sĩ quyền Anh hạng nặng và giành huy chương vàng tại Thế vận hội Mexico City năm 1968.",
+        "highlights": [
+          "Giành huy chương vàng Olympic năm 1968.",
+          "Hai lần trở thành nhà vô địch quyền Anh hạng nặng thế giới."
+        ],
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "verifiedAt": "2026-10-03",
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q213919",
+          "https://www.tshaonline.org/handbook/entries/foreman-george-edward-big-george",
+          "https://www.olympedia.org/athletes/8668"
+        ]
+      },
+      "after": {
+        "shortDescription": "Võ sĩ quyền Anh người Mỹ, vô địch Olympic và hai lần vô địch hạng nặng thế giới.",
+        "biography": "George Foreman sinh ngày 10/1/1949 tại Marshall, Texas. Ông giành huy chương vàng quyền Anh hạng nặng tại Olympic Mexico City năm 1968; năm 1973, ông đánh bại Joe Frazier để giành chức vô địch quyền Anh hạng nặng thế giới. Foreman qua đời ngày 21/3/2025 tại Houston.",
+        "highlights": [
+          "Foreman giành huy chương vàng quyền Anh hạng nặng tại Olympic Mexico City năm 1968.",
+          "Ngày 22/1/1973, ông đánh bại Joe Frazier để giành chức vô địch quyền Anh hạng nặng thế giới."
+        ],
+        "lifeStatus": "deceased",
+        "deathDate": "2025-03-21",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://www.olympedia.org/athletes/8668"
+        ],
+        "verifiedAt": "2026-10-08",
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q213919",
+          "https://www.tshaonline.org/handbook/entries/foreman-george-edward-big-george",
+          "https://www.olympedia.org/athletes/8668"
+        ]
+      },
+      "statusSourceId": "foreman-olympedia-dob-death",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "foreman-olympedia-dob-death"
+      ]
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "michel-henry",
+      "name": "Michel Henry",
+      "wikidataId": "Q610255",
+      "wikidataLabel": "Michel Henry",
+      "birthDate": "1922-01-10",
+      "lifeStatus": "deceased",
+      "deathDate": "2002-07-03",
+      "dobSourceIds": [
+        "michel-sep-dob",
+        "michel-bnf-identity-status"
+      ],
+      "careerFactIds": [
+        "jan10-michel-phenomenology",
+        "jan10-michel-novels"
+      ],
+      "countryCode": "FR",
+      "category": "literature",
+      "occupation": [
+        "triết gia",
+        "tiểu thuyết gia"
+      ],
+      "birthplace": "Hải Phòng (nay thuộc Việt Nam; khi đó là Đông Dương thuộc Pháp)",
+      "birthplaceEvidencePhrase": "Haiphong, Vietnam",
+      "fields": [
+        "education-thought",
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "education-thought",
+          "careerFactIds": [
+            "jan10-michel-phenomenology"
+          ],
+          "rationale": "The Stanford Encyclopedia describes the named phenomenological approach that became the focus of Henry’s philosophical work."
+        },
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "jan10-michel-novels"
+          ],
+          "rationale": "The encyclopedia documents four novels and the literary prize awarded to L’amour les yeux fermés."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-610255",
+      "identityClaims": {
+        "label": "Michel Henry",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1922-01-10T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 4
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2002-07-03T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 4
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q142"
+          }
+        ],
+        "selectedCountryQid": "Q142",
+        "p106": [
+          {
+            "rank": "preferred",
+            "value": "Q4964182",
+            "references": 2
+          },
+          {
+            "rank": "preferred",
+            "value": "Q36180",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q4964182"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q610255",
+        "https://catalogue.bnf.fr/ark:/12148/cb11907289p",
+        "https://plato.stanford.edu/entries/michel-henry/"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "michel-bnf-identity-status"
+      ],
+      "statusSourceId": "michel-bnf-identity-status",
+      "categoryLabel": "Văn học",
+      "countryName": "Pháp",
+      "countryFlag": "🇫🇷",
+      "image": "/people/placeholder.svg",
+      "shortDescription": "Triết gia và tiểu thuyết gia Pháp sinh tại Hải Phòng, phát triển hiện tượng học của sự sống.",
+      "biography": "Michel Henry sinh tại Hải Phòng ngày 10/1/1922. Hồ sơ của Thư viện Quốc gia Pháp xác định ông là triết gia và tiểu thuyết gia Pháp. Ông phát triển hướng hiện tượng học của sự sống và cũng viết bốn tiểu thuyết; L’amour les yeux fermés được trao Prix Renaudot năm 1976.",
+      "highlights": [
+        "Henry đặt tên hướng triết học của mình là “hiện tượng học của sự sống”.",
+        "Ông viết bốn tiểu thuyết; L’amour les yeux fermés được trao giải Prix Renaudot năm 1976."
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Michel_Henry",
+      "region": "west",
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "rod-stewart",
+      "name": "Rod Stewart",
+      "wikidataId": "Q182655",
+      "wikidataLabel": "Rod Stewart",
+      "birthDate": "1945-01-10",
+      "lifeStatus": "living",
+      "dobSourceIds": [
+        "rod-universal-dob",
+        "rod-sony-profile"
+      ],
+      "careerFactIds": [
+        "jan10-rod-maggie-may",
+        "jan10-rod-faces"
+      ],
+      "countryCode": "GB",
+      "category": "music",
+      "occupation": [
+        "ca sĩ",
+        "nhạc sĩ",
+        "nhà sản xuất âm nhạc"
+      ],
+      "birthplace": "London, Anh",
+      "birthplaceEvidencePhrase": "Naissance 10 Janvier 1945, London, London, England",
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "jan10-rod-maggie-may",
+            "jan10-rod-faces"
+          ],
+          "rationale": "Universal Music documents his work with Faces and the solo album containing the chart-topping single Maggie May."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-182655",
+      "identityClaims": {
+        "label": "Rod Stewart",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1945-01-10T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 7
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q145"
+          }
+        ],
+        "selectedCountryQid": "Q145",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q488205",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q177220",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q855091",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q55960555",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q2643890",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q36834",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q488205"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q182655",
+        "https://www.universalmusic.fr/artistes/20000154932",
+        "https://ssl.sme.co.jp/artist/rodstewart/profile/",
+        "https://www.theo2.co.uk/events/detail/rod-stewart-2027"
+      ],
+      "deathDateSourceIds": [],
+      "statusSourceId": "rod-o2-status",
+      "categoryLabel": "Âm nhạc",
+      "countryName": "Vương quốc Anh",
+      "countryFlag": "🇬🇧",
+      "image": "/people/placeholder.svg",
+      "shortDescription": "Ca sĩ, nhạc sĩ người Anh, thành viên nhóm Faces và nghệ sĩ solo thành công quốc tế.",
+      "biography": "Rod Stewart sinh tại London ngày 10/1/1945. Ông hoạt động với nhóm Faces và đồng thời xây dựng sự nghiệp solo. Album Every Picture Tells a Story (1971) có ca khúc Maggie May, từng đứng đầu bảng xếp hạng tại Anh và Hoa Kỳ.",
+      "highlights": [
+        "Album Every Picture Tells a Story (1971) có ca khúc Maggie May, đạt số 1 tại Anh và Hoa Kỳ.",
+        "Rod Stewart là thành viên thường trực của nhóm rock Faces từ năm 1969 đến 1975."
+      ],
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Rod_Stewart",
+      "region": "west",
+      "verifiedAt": "2026-10-08",
+      "statusEvidenceAsOf": "2026-10-08",
+      "deathDate": null
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "jan10-knuth-taocp",
+      "profileId": "donald-knuth",
+      "displayText": "Bộ sách The Art of Computer Programming của ông bắt đầu xuất bản từ năm 1968.",
+      "sourceId": "knuth-mactutor-taocp",
+      "evidencePhrase": "The work became The Art of Computer Programming and publication began in 1968"
+    },
+    {
+      "id": "jan10-knuth-tex",
+      "profileId": "donald-knuth",
+      "displayText": "Knuth tạo ra hệ thống sắp chữ TeX cùng ngôn ngữ thiết kế phông chữ METAFONT.",
+      "sourceId": "knuth-stanford-tex",
+      "evidencePhrase": "Knuth is the creator of the TeX computer typesetting system"
+    },
+    {
+      "id": "jan10-wilson-nobel",
+      "profileId": "robert-woodrow-wilson",
+      "displayText": "Robert Woodrow Wilson và Arno Penzias đồng nhận Giải Nobel Vật lý năm 1978.",
+      "sourceId": "wilson-nobel-dob",
+      "evidencePhrase": "Robert Woodrow Wilson Nobel Prize in Physics 1978"
+    },
+    {
+      "id": "jan10-wilson-cmb",
+      "profileId": "robert-woodrow-wilson",
+      "displayText": "Năm 1964, Wilson và Penzias phát hiện bức xạ nền vi sóng vũ trụ khi nghiên cứu bức xạ vũ trụ.",
+      "sourceId": "wilson-nobel-discovery",
+      "evidencePhrase": "when Robert Wilson and Arno Penzias studied cosmic radiation in 1964, they discovered"
+    },
+    {
+      "id": "jan10-foreman-olympic",
+      "profileId": "george-foreman",
+      "displayText": "Foreman giành huy chương vàng quyền Anh hạng nặng tại Olympic Mexico City năm 1968.",
+      "sourceId": "foreman-tsha-olympic",
+      "evidencePhrase": "to win the gold medal in the heavyweight boxing category"
+    },
+    {
+      "id": "jan10-foreman-frazier",
+      "profileId": "george-foreman",
+      "displayText": "Ngày 22/1/1973, ông đánh bại Joe Frazier để giành chức vô địch quyền Anh hạng nặng thế giới.",
+      "sourceId": "foreman-tsha-frazier",
+      "evidencePhrase": "On January 22, 1973, Foreman fought Joe Frazier"
+    },
+    {
+      "id": "jan10-michel-phenomenology",
+      "profileId": "michel-henry",
+      "displayText": "Henry đặt tên hướng triết học của mình là “hiện tượng học của sự sống”.",
+      "sourceId": "michel-sep-phenomenology",
+      "evidencePhrase": "Henry named his approach &ldquo;phenomenology of life&rdquo;"
+    },
+    {
+      "id": "jan10-michel-novels",
+      "profileId": "michel-henry",
+      "displayText": "Ông viết bốn tiểu thuyết; L’amour les yeux fermés được trao giải Prix Renaudot năm 1976.",
+      "sourceId": "michel-sep-novels",
+      "evidencePhrase": "authored four novels, one of which"
+    },
+    {
+      "id": "jan10-rod-maggie-may",
+      "profileId": "rod-stewart",
+      "displayText": "Album Every Picture Tells a Story (1971) có ca khúc Maggie May, đạt số 1 tại Anh và Hoa Kỳ.",
+      "sourceId": "rod-universal-maggie",
+      "evidencePhrase": "Maggie May » (n° 1 au Royaume-Uni et aux États-Unis)"
+    },
+    {
+      "id": "jan10-rod-faces",
+      "profileId": "rod-stewart",
+      "displayText": "Rod Stewart là thành viên thường trực của nhóm rock Faces từ năm 1969 đến 1975.",
+      "sourceId": "rod-universal-faces",
+      "evidencePhrase": "Membre permanent du groupe de rock Faces (1969-1975"
+    }
+  ],
+  "wikidataReview": {
+    "profiles": {
+      "Q17457": {
+        "label": "Donald Knuth",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1938-01-10T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 6
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q170790",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q82594",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q17486330",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q5482740",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q81096",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3400985",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q354034",
+            "references": 0
+          }
+        ]
+      },
+      "Q171034": {
+        "label": "Robert Wilson",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1936-01-10T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 4
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q11063",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q169470",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q1650915",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q115784320",
+            "references": 1
+          }
+        ]
+      },
+      "Q213919": {
+        "label": "George Foreman",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 4
+          }
+        ],
+        "p569": [
+          {
+            "rank": "preferred",
+            "value": "+1949-01-10T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "value": "+1949-00-00T00:00:00Z",
+            "precision": 9,
+            "calendar": "Q1985727",
+            "references": 4
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2025-03-21T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q11338576",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q43845",
+            "references": 0
+          }
+        ]
+      },
+      "Q610255": {
+        "label": "Michel Henry",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1922-01-10T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 4
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2002-07-03T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 4
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q142",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "preferred",
+            "value": "Q4964182",
+            "references": 2
+          },
+          {
+            "rank": "preferred",
+            "value": "Q36180",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 1
+          }
+        ]
+      },
+      "Q182655": {
+        "label": "Rod Stewart",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1945-01-10T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 7
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q145",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q488205",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q177220",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q855091",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q55960555",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q2643890",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q36834",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669",
+            "references": 1
+          }
+        ]
+      }
+    },
+    "conflicts": [
+      {
+        "profileId": "george-foreman",
+        "wikidataId": "Q213919",
+        "property": "P569",
+        "selectedDate": "1949-01-10",
+        "activeClaims": [
+          {
+            "rank": "preferred",
+            "date": "1949-01-10",
+            "precision": 11,
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "date": "1949-00-00",
+            "precision": 9,
+            "references": 4
+          }
+        ],
+        "resolution": "The preferred exact Gregorian date 1949-01-10 is retained because direct Texas State Historical Association and Olympedia biographies state that day. The additional normal-rank P569 is year-precision 1949, agrees with the exact year, and does not identify a competing day."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1237 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-04",
+  "capturedAt": "2026-10-08T00:00:00Z",
+  "sourceCaptures": [
+    {
+      "id": "braille-loc",
+      "url": "https://www.loc.gov/exhibits/louis-braille/overview.html",
+      "publisher": "Library of Congress",
+      "publisherHost": "www.loc.gov",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 10984,
+      "sha256": "b8eb288d704a415b1bc844c75621f3f3e7481ec0ae64483299bfb28e261215b4",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "riting system revolutionized the way blind people perceived and contributed to the world. Born January 4, 1809, in Coupvray, France, Louis Braille lost his sight at age three as a result of an injury. Educated at the Royal Institute for Blind Youth in Paris, Braille was recognized as highly intelligent and creative. By fifteen, he had developed the initial version of a tactile system of reading and writing—later refined to a raised, six-dot cell with sixty-four possible combinations corresponding to the alphabet, punctuation, and key symbols. He later devised braille systems for music and mathematics. When Braille died in 1852 from tuberculosis at age forty-three, he did not realize that his invention would enable blind and visually handicapped people throughout the world to read and write as well as sighted people. Today, we have approximately eighty-five braille systems in the world based on Braille's invention. In mounting … tute for Blind Youth in Paris, Braille was recognized as highly intelligent and creative. By fifteen, he had developed the initial version of a tactile system of reading and writing—later refined to a raised, six-dot cell with sixty-four possible combinations corresponding to the alphabet, punctuation, and key symbols. He later devised braille systems for music and mathematics. When Braille died in 1852 from tuberculosis at age forty-three, he did not realize that his invention would enable blind and visually handicapped people throughout the world to read and write as well as sighted people. Today, we have approximately eighty-five braille systems in the world based on Braille's invention. In mounting Louis Braille: His Legacy and Influence, the Library of Congress joins the worldwide commemoration of the inventor's 200th birthday. Connect with the Library All ways to connect Find Us On Subscribe & Comment RSS & E-Mail Blogs … y-four possible combinations corresponding to the alphabet, punctuation, and key symbols. He later devised braille systems for music and mathematics. When Braille died in 1852 from tuberculosis at age forty-three, he did not realize that his invention would enable blind and visually handicapped people throughout the world to read and write as well as sighted people. Today, we have approximately eighty-five braille systems in the world based on Braille's invention. In mounting Louis Braille: His Legacy and Influence, the Library of Congress joins the worldwide commemoration of the inventor's 200th birthday. Connect with the Library All ways to connect Find Us On Subscribe & Comment RSS & E-Mail Blogs Download & Play Apps Podcasts Webcasts iTunesU (external link) Questions Ask a Librarian Contact Us About | Press | Jobs | Donate Inspector General | Legal | Accessibility | External Link Disclaimer | USA.gov Speech Enabled",
+      "excerptSha256": "18a4e633de512044e7a11c68bccc883f77307148a1e42e38c3f5ed900c16601f"
+    },
+    {
+      "id": "braille-museum",
+      "url": "https://museelouisbraille.com/en/biographie",
+      "publisher": "Musée Louis Braille",
+      "publisherHost": "museelouisbraille.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 14687,
+      "sha256": "d012cb6eaad78ff8b1f944076be356f5703ef490aadd7055d342afdaf0e629fb",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "or the blind made him the one to give them the means of accessing learning and knowledge. Louis Braille was born on 4 January 1809 in Coupvray, in Seine-et-Marne, about forty kilometers east of Paris. The youngest of four siblings, he was raised by loving and caring parents. A tragic accident at the age of three in his father's saddlery shop caused Louis to go blind. Imitating his father and holding a sharp tool, he severely injured his right eye. Medical knowledge at that time could not save his eyesight, an infection spread to both eyes, and by the age of five Louis was completely blind. Fortunately, Louis was lucky to be raised in a close-knit family, with parents who wanted to give him a good education despite his severe disability, which, at the time, was exceptional. After learning the alphabet, made with nails hit into a wooden plank, he attended Father Palluy's classes, before going to the village school for three year … alphabet was used, even though it was already relatively successful. Of delicate health, Louis Braille died of tuberculosis at the Royal Institute for Blind Youth on 6 January 1852 at the age of 43. He was buried in the cemetery of his village, Coupvray, a few days later. His ashes were transferred to the Panthéon on 21 June 1852. © 2026 - Musée Louis Braille - Legal Notice 13 Rue Louis Braille, 77700 Coupvray This site uses cookies to provide you with the best possible experience. By continuing to use this site, you agree to the use of cookies . I accept",
+      "excerptSha256": "cbfbabc4330b5cc5a9657acae82078a5bf2489caed3d0349daf6a7ed60efaf82"
+    },
+    {
+      "id": "braille-nls",
+      "url": "https://www.loc.gov/nls/services-and-resources/informational-publications/about-braille/",
+      "publisher": "Library of Congress National Library Service for the Blind and Print Disabled",
+      "publisherHost": "www.loc.gov",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 113573,
+      "sha256": "ce70063311bbd673208eea1570c897e8df55a64b7d7c62205d36914424bbdf5d",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "the military code was that a single fingertip could not feel all the dots with one touch. Braille created a reading method based on a cell of six dots. This crucial improvement meant that a fingertip could encompass the entire cell unit with one impression and move rapidly from one cell to the next. Braille himself was blind from the age of three. He was born in the village of Coupvray near Paris on January 4, 1809. One day he was playing with a sharp tool belonging to his father, a harness maker. The child accidently injured one eye with the tool and developed an infection that later caused total blindness. Until 1819, Braille attended the local village school, where his superior mental abilities put him at the head of his class. He received a scholarship to the National Institute of the Blind, where he was the youngest student. Soon afterward, he began the development of the embossed code. In 1829 he published the code in Pr … was the youngest student. Soon afterward, he began the development of the embossed code. In 1829 he published the code in Procédé pour Ecrire les Paroles, la Musique et le Plain-Chant au Moyen de Points , which also contained a braille music code based on the same six-dot cell. After he developed his system for reading and writing, Braille remained at the institute as an instructor. Eventually an incessant cough made it impossible for him to lecture. He died at the age of forty-three, and was buried in the family plot in the village cemetery in Coupvray. In 1952, on the centennial of his death, his body was ceremoniously transferred to the Pantheon in Paris. A monument to Louis Braille stands in the main square of Coupvray. The Braille Alphabet The braille cell, an arrangement of six dots, is the basic unit for reading and writing braille. Sixty-three different patterns are possible from these six dots. For purposes of identi … de based on the same six-dot cell. After he developed his system for reading and writing, Braille remained at the institute as an instructor. Eventually an incessant cough made it impossible for him to lecture. He died at the age of forty-three, and was buried in the family plot in the village cemetery in Coupvray. In 1952, on the centennial of his death, his body was ceremoniously transferred to the Pantheon in Paris. A monument to Louis Braille stands in the main square of Coupvray. The Braille Alphabet The braille cell, an arrangement of six dots, is the basic unit for reading and writing braille. Sixty-three different patterns are possible from these six dots. For purposes of identification and description, these dots are numbered downward 1-2-3 on the left and 4-5-6 on the right: 1 ● ● 4 2 ● ● 5 3 ● ● 6 (Note: As shown here, the “●” symbol represents a raised braille dot in the six-dot configuration. The “○” symbol repres",
+      "excerptSha256": "317b53a8b5dc98369b1eae49d8a19687130178dffc8dfc02c6d0f85aeccfb0d7"
+    },
+    {
+      "id": "tantai-vpf",
+      "url": "https://vpf.vn/player/le-tan-tai/",
+      "publisher": "Vietnam Professional Football (VPF)",
+      "publisherHost": "vpf.vn",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 433643,
+      "sha256": "5204a8c4fb7cb5253c58bf7b94169460f4a4f603c643ac6b8aad8cb3bc07c429",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Quốc gia LS 2020 Vô địch Quốc gia LS 2021 Wake-up 247 V.League 1 - 2019 Player Statistic First Name: Lê Last Name: Tấn Tài Cao (cm): 167 Nặng (kg): 66 Vị trí: Tiền vệ Năm sinh: 04-01-1984 Quốc tịch: Việt Nam Season Vô địch quốc gia V.League 2018 Becamex TP. Hồ Chí Minh 0 0 0 0 0 1 5 0 Vô địch quốc gia Wake-up 247 V.League 1 – 2019 Becamex TP. Hồ Chí Minh 11 11 0 0 0 1 7 0 Cúp quốc gia Cúp Quốc Gia Bamboo Airways 2019 Becamex TP. Hồ Chí Minh 0 0 0 0 0 0 0 0 Vô địch quốc gia Vô địch Quốc gia LS 2020 Hà Nội 9 8 0 1 3 0 3 0 Vô địch quốc gia Vô địch Quốc gia LS 2020 Hồng Lĩnh Hà Tĩnh 3 3 0 0 0 0 0 0 Vô địch quốc gia Vô địch Quốc gia LS 2021 Hà Nội 6 5 0 1 5 0 2 0 Cúp quốc gia Cúp Quốc Gia Bamboo Airways 2021 Hà Nội 0 0 0 0 0 0 0 0 Hạng nhất quốc gia Hạng Nhất Quốc Gia LS 2022 Khatoco Khánh Hòa 17 2 0 15 1 0 2 0 Cúp quốc gia CÚP QUỐC GIA BAF MEAT 2022 Khatoco Khánh Hòa 1 0 0 1 0 0 0 0 Matches 03-03-2019 17:00 Becamex TP. Hồ Chí Min … n Vô địch quốc gia V.League 2018 Becamex TP. Hồ Chí Minh 0 0 0 0 0 1 5 0 Vô địch quốc gia Wake-up 247 V.League 1 – 2019 Becamex TP. Hồ Chí Minh 11 11 0 0 0 1 7 0 Cúp quốc gia Cúp Quốc Gia Bamboo Airways 2019 Becamex TP. Hồ Chí Minh 0 0 0 0 0 0 0 0 Vô địch quốc gia Vô địch Quốc gia LS 2020 Hà Nội 9 8 0 1 3 0 3 0 Vô địch quốc gia Vô địch Quốc gia LS 2020 Hồng Lĩnh Hà Tĩnh 3 3 0 0 0 0 0 0 Vô địch quốc gia Vô địch Quốc gia LS 2021 Hà Nội 6 5 0 1 5 0 2 0 Cúp quốc gia Cúp Quốc Gia Bamboo Airways 2021 Hà Nội 0 0 0 0 0 0 0 0 Hạng nhất quốc gia Hạng Nhất Quốc Gia LS 2022 Khatoco Khánh Hòa 17 2 0 15 1 0 2 0 Cúp quốc gia CÚP QUỐC GIA BAF MEAT 2022 Khatoco Khánh Hòa 1 0 0 1 0 0 0 0 Matches 03-03-2019 17:00 Becamex TP. Hồ Chí Minh 3 - 1 SHB Đà Nẵng 07-03-2019 16:30 Sông Lam Nghệ An 2 - 1 Becamex TP. Hồ Chí Minh 08-04-2019 17:00 Becamex TP. Hồ Chí Minh 1 - 0 Thể Công – Viettel 12-04-2019 17:00 Becamex TP. Hồ Chí Minh 2 - 3 Công an TP. Hồ Ch",
+      "excerptSha256": "4acbc1d1b6c06656d644cc563da5beac33a26ffb16a42be56675f061de9b24cd"
+    },
+    {
+      "id": "tantai-tuoitre",
+      "url": "https://tuoitre.vn/le-tan-tai-la-ai-47908.htm",
+      "publisher": "Tuổi Trẻ Online",
+      "publisherHost": "tuoitre.vn",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 470379,
+      "sha256": "0d2e04b7207996af8a1daca87c609a210018321ea68493562e064fec1f161192",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "a cầu thủ này Tài là nhân vật lạ nhất, gây bất ngờ nhất. Tài còn rất trẻ khi mới 20 tuổi (sinh ngày 4-1-1984). Trong cuộc gặp gỡ trưa 12-9 khi đang chuẩn bị hành lý để vào TP.HCM tập trung cùng đội tuyển, Tài tự giới thiệu với tôi mình là “con nhà nông... chính hiệu”. Tài sinh ra và lớn lên ở thôn Ninh Điền, xã Ninh Thọ, huyện Ninh Hòa (Khánh Hòa) và đến với bóng đá sân ruộng từ hồi còn nhỏ. Phải đến khi học tại Trường THPT Trần Quý Cáp (Ninh Hòa), Tài mới được chơi cho có vẻ “chính qui” là vào đội bóng đá của trường đi tham gia giải bóng đá phong trào của huyện. NCác nhà chuyên môn nói gì? *HLV Trần Bình Sự (người dẫn dắt đội Đồng Nai cùng đoạt suất thăng hạng nhất với Khánh Hòa): Ở vòng chung kết Giải bóng đá hạng nhì toàn quốc vừa rồi tôi có dịp xem Lê Tấn Tài thi đấu ba trận trong màu áo Khánh Hòa. Thú thật, tôi không hiểu vì sao ông Tavares lại gọi Tài vào đội tuyển quốc gia khi mà anh còn rất non. Chưa kể chiều cao 1,66m … 004 05:01 GMT+7 Lê Tấn Tài là ai? S.H. - D.B. TT - Sau bốn ngày nghỉ xả hơi, tối qua 12-9 đội tuyển bóng đá VN đã tập trung trở lại tại Trung tâm Thành Long nhằm chuẩn bị cho Agribank Cup. Phóng to Tấn Tài - Ảnh: P.S.N. TT - Sau bốn ngày nghỉ xả hơi, tối qua 12-9 đội tuyển bóng đá VN đã tập trung trở lại tại Trung tâm Thành Long nhằm chuẩn bị cho Agribank Cup. Đợt tập trung này HLV Tavares đã gọi thêm hậu vệ Phùng Văn Nhiên (Nam Định), thủ môn Đặng Tuấn Điệp (Hải Phòng) và hậu vệ Lê Tấn Tài (Khánh Hòa). Trong ba cầu thủ này Tài là nhân vật lạ nhất, gây bất ngờ nhất. Tài còn rất trẻ khi mới 20 tuổi (sinh ngày 4-1-1984). Trong cuộc gặp gỡ trưa 12-9 khi đang chuẩn bị hành lý để vào TP.HCM tập trung cùng đội tuyển, Tài tự giới thiệu với tôi mình là “con nhà nông... chính hiệu”. Tài sinh ra và lớn lên ở thôn Ninh Điền, xã Ninh Thọ, huyện Ninh Hòa (Khánh Hòa) và đến với bóng đá sân ruộng từ hồi còn nhỏ. Phải đến khi học tại Trường T",
+      "excerptSha256": "e82a585c486d11a3ffc98d00ac8acd9f9195ae2f000c1f47066efc6ce0f7adf8"
+    },
+    {
+      "id": "tantai-baoxaydung",
+      "url": "https://baoxaydung.vn/le-tan-tai-toi-tra-lai-cho-bong-da-tat-ca-su-tu-te-192275988.htm",
+      "publisher": "Báo Xây dựng",
+      "publisherHost": "baoxaydung.vn",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 950061,
+      "sha256": "5dfee76f1f4af7920437a9e486955fc6cbbfaeba92c9df18c62646c609ae29de",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "g, không thể mất bên nào, nếu không đòn gánh sẽ rớt xuống. Cảm ơn anh về cuộc trò chuyện! Lê Tấn Tài sinh ngày 4/1/1984 tại Khánh Hòa. Anh trưởng thành từ lò đào tạo trẻ của CLB Sanna Khánh Hòa và thi đấu cho đội bóng quê hương trong giai đoạn 2003-2012 rồi chuyển sang khoác áo Hải Phòng. Năm 2014, Tấn Tài được B.Bình Dương chiêu mộ và gắn bó cùng đội bóng đất Thủ tới nay. Từ năm 2005, Tấn Tài là gương mặt quen thuộc ở đội tuyển U23 Việt Nam, đội tuyển quốc gia Việt Nam. Trong sự nghiệp của mình, anh từng giành nhiều danh hiệu cao quý, tiêu biểu nhất là chức vô địch AFF Cup 2008 và hai lần vô địch V-League vào năm 2014, 2015. HAGL lộ “tử huyệt” dù thắng cựu vô địch B.Bình Dương Báo Xây dựng trên Tin Liên quan Bệnh “ném đá” công trình nghìn tỷ? Tuấn Hưng thừa nhận \"đang kiệt quệ\" với bạn thân Tin tức tai nạn giao thông mới nhất hôm nay 19/10/2018 Bình luận bài viết ( 0 ) Gửi bình luận Bình luận mới nhất Được quan tâm nhất Xem t … Nam. Trong sự nghiệp của mình, anh từng giành nhiều danh hiệu cao quý, tiêu biểu nhất là chức vô địch AFF Cup 2008 và hai lần vô địch V-League vào năm 2014, 2015. HAGL lộ “tử huyệt” dù thắng cựu vô địch B.Bình Dương Báo Xây dựng trên Tin Liên quan Bệnh “ném đá” công trình nghìn tỷ? Tuấn Hưng thừa nhận \"đang kiệt quệ\" với bạn thân Tin tức tai nạn giao thông mới nhất hôm nay 19/10/2018 Bình luận bài viết ( 0 ) Gửi bình luận Bình luận mới nhất Được quan tâm nhất Xem tất cả bình luận Thông tin tòa soạn Cơ quan chủ quản: Bộ Xây dựng Giấy phép số: 03/GP-BVHTTDL, cấp ngày 1/4/2025 Tổng biên tập: Nguyễn Thị Hồng Nga Phó Tổng biên tập: Nguyễn Sơn Tùng, Nguyễn Đức Thắng, La Đức Hùng Tòa soạn: Số 2 Nguyễn Công Hoan, phường Giảng Võ, Hà Nội. Hotline: 0901 514 799; Quảng cáo và phát hành: 0915.057.282 Email: bandoc@baoxaydung.vn Cấm sao chép dưới mọi hình thức nếu không có sự chấp thuận bằng văn bản Bình luận bài viết ( 0 ) Bình luận mới",
+      "excerptSha256": "2c2acbbabbe4085d93cdfdbafbafb722a2789f536a4d9b40cee4e40d56693450"
+    },
+    {
+      "id": "tantai-transfermarkt",
+      "url": "https://www.transfermarkt.com/tan-tai-le/profil/spieler/64641",
+      "publisher": "Transfermarkt",
+      "publisherHost": "www.transfermarkt.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 108469,
+      "sha256": "a61d020d1dd7f23493cc4ba5766c63e4238cb9f351218b978e4e9e5f3b0a6ffb",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "um service Tan Tai Le 1 1 1 Retired Last club: Khanh Hoa FC Most games for: Binh Duong FC Retired since: 01/12/2022 Date of birth/Age: 04/01/1984 (42) Place of birth: Khánh Hoà Citizenship: Vietnam Height: 1,66 m Position: Central Midfield Former International: Vietnam Caps/Goals: 53 / 3 Player data Main position Main position: Central Midfield Other position: Attacking Midfield Left Midfield Facts and data Name in home country: Lê Tấn Tài Date of birth/Age: 04/01/1984 (42) Place of birth: Khánh Hoà Height: 1,66 m Citizenship: Vietnam Position: Midfield - Central Midfield Foot: right Current club: Retired Joined: 01/12/2022 Contract expires: - Transfermarkt Videos Youth clubs Khanh Hoa FC Quick Links Most valuable players in the world Latest transfers Latest rumours Latest market value updates FIFA World ranking Best betting sites Be Involved Mods & Data Scouts Apply as Mod or Datascout 11 commandments Found a mistake? Career … 1 Retired Last club: Khanh Hoa FC Most games for: Binh Duong FC Retired since: 01/12/2022 Date of birth/Age: 04/01/1984 (42) Place of birth: Khánh Hoà Citizenship: Vietnam Height: 1,66 m Position: Central Midfield Former International: Vietnam Caps/Goals: 53 / 3 Player data Main position Main position: Central Midfield Other position: Attacking Midfield Left Midfield Facts and data Name in home country: Lê Tấn Tài Date of birth/Age: 04/01/1984 (42) Place of birth: Khánh Hoà Height: 1,66 m Citizenship: Vietnam Position: Midfield - Central Midfield Foot: right Current club: Retired Joined: 01/12/2022 Contract expires: - Transfermarkt Videos Youth clubs Khanh Hoa FC Quick Links Most valuable players in the world Latest transfers Latest rumours Latest market value updates FIFA World ranking Best betting sites Be Involved Mods & Data Scouts Apply as Mod or Datascout 11 commandments Found a mistake? Career Contact About Us TM-Team F",
+      "excerptSha256": "b4d7321bd7db3611f2bd484fa5dc0184b03c98e83e1d57ded000dab8a1a1326e"
+    },
+    {
+      "id": "huy-slna",
+      "url": "https://www.slnafc.com/tin-tuc/danh-sach-hlv-vdv-u19-slna-tham-gia-vong-loai-giai-vo-dich-u19-quoc-gia-nam-2024-7826",
+      "publisher": "Sông Lam Nghệ An FC",
+      "publisherHost": "www.slnafc.com",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 144742,
+      "sha256": "383b95e7f83172850fa620a0f9b9df10bacdaa3d9cf14b5a545c7b544d406f8c",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "hiều cao Cân nặng Số áo Quan chức, cán bộ, HLV 1 Trần Quang Dũng Trưởng đoàn 14/04/1980 2 Nguyễn Huy Hoàng HLV Trưởng 04/01/1981 3 Tag: Tác giả / Trích dẫn : SLNAFC.com Tin liên quan Sông Lam Nghệ An cử 2 đội tham dự Giải Bóng đá Vô địch U15 quốc gia 2026 11/02/2026 10:02:00 Thư viện ảnh 45 Sông Lam Nghệ An 2-3 SHB Đà Nẵng | Vòng 1/8 Cúp Quốc gia 2025/26 Cúp Quốc gia 16/11/2025 36 Sông Lam Nghệ An 2-1 Becamex TP. Hồ Chí Minh | Vòng 11 V.League 2025/26 V.League 09/11/2025 82 Sông Lam Nghệ An 0-1 Đông Á Thanh Hóa | Vòng 8 V.League 2025/26 V.League 26/10/2025 Thư viện videos HIGHLIGHTS | BECAMEX TP.HCM - SLNA | VĂN LƯƠNG SẮC SẢO, VĂN BÌNH VỮNG VÀNG Tin tức 23/05/2026 HIGHLIGHTS | ĐÔNG Á THANH HÓA - SÔNG LAM NGHỆ AN | NỖ LỰC GIÀNH LẤY ĐIỂM SỐ Tin tức 18/04/2026 HIGHLIGHTS | SLNA - SHB ĐÀ NẴNG | GIỮ TRỌN 3 ĐIỂM Ở LẠI CHẢO LỬA Tin tức 10/04/2026 CÔNG TY CỔ PHẦN THỂ THAO SÔNG LAM NGHỆ AN CÔNG TY CỔ PHẦN THỂ THAO SÔNG LAM NGHỆ AN MST:",
+      "excerptSha256": "c1fc937af2d2f6b4d95ae8aac2495aa92f4cf61ac91aa3df85fff985da61b0d0"
+    },
+    {
+      "id": "huy-transfermarkt",
+      "url": "https://www.transfermarkt.com/huy-hoang-nguyen/profil/trainer/92217",
+      "publisher": "Transfermarkt",
+      "publisherHost": "www.transfermarkt.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 103612,
+      "sha256": "31fa4db17ac31bc7677d5e65d49d98c97e8be9cb43499e6caf67961c84cec905",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ing Betting Player agents Agent support Agent statistics Premium service Huy Hoang Nguyen SLNA FC Assistant Manager V.League 1 Appointed: 12/06/2025 Date of birth/Age: 04/01/1981 (45) Place of birth: Nghĩa Đàn, Nghệ An Citizenship: Vietnam Coaching Licence : A Licence Avg. term as coach : 1.05 Years Preferred formation : 4-1-4-1 Former player: Last club : XSKT Can Tho FC Most games for : SLNA FC Retired : 01/09/2013 Personal Details Name in Home Country / Full Name: Nguyễn Huy Hoàng Date of birth/Age: 04/01/1981 (45) Place of Birth: Nghĩa Đàn, Nghệ An Citizenship: Vietnam Avg. term as coach: 1.05 Years Coaching Licence: A Licence Preferred formation: 4-1-4-1 History This is an overview of the career of a manager. Compact Detailed wappen Club & role Appointed In charge until Matches PPM SLNA FC Caretaker Manager 25/26 (01/10/2025) 25/26 (07/10/2025) 1 1.00 SLNA FC Assistant Manager 24/25 (12/06/2025) - - 0.00 Assistant Manager … emium service Huy Hoang Nguyen SLNA FC Assistant Manager V.League 1 Appointed: 12/06/2025 Date of birth/Age: 04/01/1981 (45) Place of birth: Nghĩa Đàn, Nghệ An Citizenship: Vietnam Coaching Licence : A Licence Avg. term as coach : 1.05 Years Preferred formation : 4-1-4-1 Former player: Last club : XSKT Can Tho FC Most games for : SLNA FC Retired : 01/09/2013 Personal Details Name in Home Country / Full Name: Nguyễn Huy Hoàng Date of birth/Age: 04/01/1981 (45) Place of Birth: Nghĩa Đàn, Nghệ An Citizenship: Vietnam Avg. term as coach: 1.05 Years Coaching Licence: A Licence Preferred formation: 4-1-4-1 History This is an overview of the career of a manager. Compact Detailed wappen Club & role Appointed In charge until Matches PPM SLNA FC Caretaker Manager 25/26 (01/10/2025) 25/26 (07/10/2025) 1 1.00 SLNA FC Assistant Manager 24/25 (12/06/2025) - - 0.00 Assistant Manager of: Sy Son Van (23 Games), Nhu Thuat Phan (9 Games) SLNA FC",
+      "excerptSha256": "aaea339a81f50b252857e67ad4ae1c31f285195676f489d1bf817586a57a9363"
+    },
+    {
+      "id": "huy-nft",
+      "url": "https://www.national-football-teams.com/player/7251/Huy_Hoang_Nguy_N.html",
+      "publisher": "National Football Teams",
+      "publisherHost": "www.national-football-teams.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 183948,
+      "sha256": "38f014325d6c4e9aef248483efc39d1ed4c192821be956d2bb7017a2bf41dd11",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "dly provided by Viettel Add Picture Nguyễn , Huy Hoàng Position Centre Back ( CB ) Age 45 Day of Birth 1981-01-04 Place of Birth Qu?nh Lâm (Vietnam) Height 1.74m Vietnam FIFA Matches 37 FIFA Goals 1 Non-FIFA Matches 0 Non-FIFA Goals 0 Performance chart for Huy Hoàng Nguyễn National Team Appearances of Huy Hoàng Nguyễn FIFA Non FIFA Season Country M S G M S G 2010 Vietnam 2 3 0 0 0 0 2007 Vietnam 12 0 0 0 0 0 2004 Vietnam 8 1 1 0 0 0 2003 Vietnam 3 0 0 0 0 0 2002 Vietnam 7 1 0 0 0 0 32 5 1 0 0 0 Club Appearances of Huy Hoàng Nguyễn Season Club M G R Cha Cup 2014 Cần Thơ FC - 0 3 ( II ) 2013 Cần Thơ FC - 0 5 ( II ) 2013 Sông Lam Nghệ An 4 0 4 ( I ) 2012 Sông Lam Nghệ An 19 0 4 ( I ) 2011 Sông Lam Nghệ An 20 0 1 ( I ) 2010 Sông Lam Nghệ An - - 9 ( I ) 2009 Sông Lam Nghệ An - - 3 ( I ) 2008 Sông Lam Nghệ An - - 9 ( I ) 2007 Sông Lam Nghệ An - - 7 ( I ) 2006 Sông Lam Nghệ An - - 5 ( I ) 2005 Sông Lam Nghệ An - - 5 ( I ) 2004 Sông L … ack ( CB ) Age 45 Day of Birth 1981-01-04 Place of Birth Qu?nh Lâm (Vietnam) Height 1.74m Vietnam FIFA Matches 37 FIFA Goals 1 Non-FIFA Matches 0 Non-FIFA Goals 0 Performance chart for Huy Hoàng Nguyễn National Team Appearances of Huy Hoàng Nguyễn FIFA Non FIFA Season Country M S G M S G 2010 Vietnam 2 3 0 0 0 0 2007 Vietnam 12 0 0 0 0 0 2004 Vietnam 8 1 1 0 0 0 2003 Vietnam 3 0 0 0 0 0 2002 Vietnam 7 1 0 0 0 0 32 5 1 0 0 0 Club Appearances of Huy Hoàng Nguyễn Season Club M G R Cha Cup 2014 Cần Thơ FC - 0 3 ( II ) 2013 Cần Thơ FC - 0 5 ( II ) 2013 Sông Lam Nghệ An 4 0 4 ( I ) 2012 Sông Lam Nghệ An 19 0 4 ( I ) 2011 Sông Lam Nghệ An 20 0 1 ( I ) 2010 Sông Lam Nghệ An - - 9 ( I ) 2009 Sông Lam Nghệ An - - 3 ( I ) 2008 Sông Lam Nghệ An - - 9 ( I ) 2007 Sông Lam Nghệ An - - 7 ( I ) 2006 Sông Lam Nghệ An - - 5 ( I ) 2005 Sông Lam Nghệ An - - 5 ( I ) 2004 Sông Lam Nghệ An - - 4 ( I ) 2003 Sông Lam Nghệ An - - 5 ( I ) 2001/02 Sông La",
+      "excerptSha256": "7265cd5763ed412169ec74c74bcb05052536779597b3d2c575809a770c93a471"
+    },
+    {
+      "id": "huy-baonghean",
+      "url": "https://baonghean.vn/hlv-huy-hoang-bac-toc-trong-nam-dau-cam-quan-o-v-league-10247258.html",
+      "publisher": "Báo Nghệ An",
+      "publisherHost": "baonghean.vn",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 113499,
+      "sha256": "76390b71d7d1493b0cc2e7e55145cfcdcf09908cdc5de48db5aae026d09a3e2f",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "đầu như vậy hoàn toàn có cơ sở để nghĩ về một tương lai khởi sắc hơn cho bóng đá xứ Nghệ. HLV Nguyễn Huy Hoàng sinh năm 1981 tại Nghĩa Đàn, Nghệ An. Anh từng là trung vệ nổi tiếng của SLNA và Đội tuyển Việt Nam với lối chơi rắn và quyết liệt. Khi còn thi đấu, Huy Hoàng từng đoạt danh hiệu Cầu thủ trẻ xuất sắc nhất Việt Nam 2001. Cùng với SLNA, anh có mặt ở hầu hết những danh hiệu cao quý như vô địch V.League (3): 1999-00, 2000-01 và 2010-2011. Vô địch Cúp Quốc gia (2): 2001–2002, 2010. Vô địch Siêu cúp Quốc gia (4): 2000, 2001, 2002, 2011. Năm 2016, sau khi giải nghệ, Huy Hoàng bắt đầu công tác huấn luyện tại SLNA tại đội trẻ và lên làm HLV phó tại SLNA từ cuối năm 2017 trước khi chính thức dẫn dắt SLNA từ năm 2021. AD Quảng cáo 0 0 0 Cảm ơn bạn! Đã ủng hộ cho bài viết Gửi bình luận Bình luận của bạn đã được gửi và sẽ hiển thị sau khi được duyệt bởi ban biên tập. Ban biên tập giữ quyền biên tập nội dung bình luận để phù hợp vớ … n Việt Nam với lối chơi rắn và quyết liệt. Khi còn thi đấu, Huy Hoàng từng đoạt danh hiệu Cầu thủ trẻ xuất sắc nhất Việt Nam 2001. Cùng với SLNA, anh có mặt ở hầu hết những danh hiệu cao quý như vô địch V.League (3): 1999-00, 2000-01 và 2010-2011. Vô địch Cúp Quốc gia (2): 2001–2002, 2010. Vô địch Siêu cúp Quốc gia (4): 2000, 2001, 2002, 2011. Năm 2016, sau khi giải nghệ, Huy Hoàng bắt đầu công tác huấn luyện tại SLNA tại đội trẻ và lên làm HLV phó tại SLNA từ cuối năm 2017 trước khi chính thức dẫn dắt SLNA từ năm 2021. AD Quảng cáo 0 0 0 Cảm ơn bạn! Đã ủng hộ cho bài viết Gửi bình luận Bình luận của bạn đã được gửi và sẽ hiển thị sau khi được duyệt bởi ban biên tập. Ban biên tập giữ quyền biên tập nội dung bình luận để phù hợp với qui định nội dung của Báo. HLV Hữu Thắng SLNA Văn Quyến Đình Đồng V.League Bài liên quan Đọc tiếp Đọc tiếp Xem thêm Thể thao Đọc nhiều x Thể thao HLV Huy Hoàng bạc tóc trong năm đầu cầm quân ở V.Lea … t sắc nhất Việt Nam 2001. Cùng với SLNA, anh có mặt ở hầu hết những danh hiệu cao quý như vô địch V.League (3): 1999-00, 2000-01 và 2010-2011. Vô địch Cúp Quốc gia (2): 2001–2002, 2010. Vô địch Siêu cúp Quốc gia (4): 2000, 2001, 2002, 2011. Năm 2016, sau khi giải nghệ, Huy Hoàng bắt đầu công tác huấn luyện tại SLNA tại đội trẻ và lên làm HLV phó tại SLNA từ cuối năm 2017 trước khi chính thức dẫn dắt SLNA từ năm 2021. AD Quảng cáo 0 0 0 Cảm ơn bạn! Đã ủng hộ cho bài viết Gửi bình luận Bình luận của bạn đã được gửi và sẽ hiển thị sau khi được duyệt bởi ban biên tập. Ban biên tập giữ quyền biên tập nội dung bình luận để phù hợp với qui định nội dung của Báo. HLV Hữu Thắng SLNA Văn Quyến Đình Đồng V.League Bài liên quan Đọc tiếp Đọc tiếp Xem thêm Thể thao Đọc nhiều x Thể thao HLV Huy Hoàng bạc tóc trong năm đầu cầm quân ở V.League Cỡ chữ Mặc định Thời sự Xây dựng Đảng Kinh tế Quốc tế Xã hội Giáo dục Pháp luật Thể thao Kết nối doan",
+      "excerptSha256": "48400c564cf5e06469f64ca5f8eff0107849b1516d85adb87904d9b02cf8d038"
+    },
+    {
+      "id": "john-bluenote",
+      "url": "https://www.bluenote.com/artist/john-mclaughlin/",
+      "publisher": "Blue Note Records",
+      "publisherHost": "www.bluenote.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 86443,
+      "sha256": "fa1f0b9c49eb6e993b0e477661b7ee87a38dd6f9ec1e04e6fe5b120dccf8954f",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "whether as a solo artist or bandmember — represent some of fusion’s greatest recordings. McLaughlin was born January 4, 1942, in Yorkshire, England, and began playing guitar at age 11. Initially attracted to blues and swing, he worked with British artists like Georgie Fame, Graham Bond, Brian Auger, and Ginger Baker. McLaughlin formed his own band in 1968, and recorded the excellent debut Extrapolation in early 1969. Later that year he moved to New York to join Tony Williams’ groundbreaking fusion band Lifetime, and appeared on the classic Emergency! Through Williams, McLaughlin was invited to join Miles Davis’ band, and became an important part of fusion landmarks like In a Silent Way, Bitches Brew, and A Tribute to Jack Johnson. In 1970, wanting to explore acoustic and Eastern music, McLaughlin recorded the classic My Goal’s Beyond; he soon left Davis, and after one further solo album, Devotion, McLaughlin spent some time w … ormed his own band in 1968, and recorded the excellent debut Extrapolation in early 1969. Later that year he moved to New York to join Tony Williams’ groundbreaking fusion band Lifetime, and appeared on the classic Emergency! Through Williams, McLaughlin was invited to join Miles Davis’ band, and became an important part of fusion landmarks like In a Silent Way, Bitches Brew, and A Tribute to Jack Johnson. In 1970, wanting to explore acoustic and Eastern music, McLaughlin recorded the classic My Goal’s Beyond; he soon left Davis, and after one further solo album, Devotion, McLaughlin spent some time woodshedding. He re-emerged in 1971 as leader of the Mahavishnu Orchestra, a seminal band that did much to define and popularize early jazz-rock fusion, as evidenced by the albums The Inner Mounting Flame, Birds of Fire, and Visions of the Emerald Beyond. Pausing to record Love Devotion Surrender with Carlos Santana in 1972, McLaug … vis, and after one further solo album, Devotion, McLaughlin spent some time woodshedding. He re-emerged in 1971 as leader of the Mahavishnu Orchestra, a seminal band that did much to define and popularize early jazz-rock fusion, as evidenced by the albums The Inner Mounting Flame, Birds of Fire, and Visions of the Emerald Beyond. Pausing to record Love Devotion Surrender with Carlos Santana in 1972, McLaughlin led Mahavishnu until 1975. Returning to spiritual preoccupations on My Goal’s Beyond, he then formed Shakti, which fused acoustic jazz with Indian music over the course of three albums. McLaughlin returned to his solo career in the late ’70s, forming a backing outfit called the One Truth Band, and also recording the guitar trio albums Friday Night in San Francisco and Passion, Grace & Fire with fellow fusion burner Al di Meola and flamenco guitarist Paco de Lucia. As the ’80s went along, McLaughlin experimented with clas",
+      "excerptSha256": "168be4cf9bae390c7d86092a040501db82fce78bad75c245ae08d0cd7c0e5480"
+    },
+    {
+      "id": "john-encyclopedia",
+      "url": "https://www.encyclopedia.com/people/literature-and-arts/music-popular-and-jazz-biographies/john-mclaughlin",
+      "publisher": "Encyclopedia.com (Gale)",
+      "publisherHost": "www.encyclopedia.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 228179,
+      "sha256": "304434461942165de206983d64862ff858a828884e0f020a9fae01dfc5ad7567",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "rummer Tony Williams , however, whom he wanted to play with most of all. For the Record … Born January 4,1942, in Yorkshire, England; mother was concert violinist. Worked as a guitar teacher, 1960s; joined group Tony Williams Lifetime, c. 1969; recorded with Miles Davis , 1969; released solo album Extrapolation, Polydor, 1969; formed Mahavishnu Orchestra and released its Columbia debut, 1972; formed Shakti and released its debut Shakti With John McLaughlin, 1976; recorded and performed as solo artist and guest performer, 1978 — ; recorded live and studio albums with Paco De Lucia and Al Di Meola, 1981-83; left Columbia and signed with Warner Bros., 1981; re-formed Mahavishnu Orchestra with new lineup, 1984; appeared in and performed on soundtrack of film Round Midnight, 1986; moved to Verve Records, c. 1987; formed John McLaughlin Trio, 1988. Addresses: Record company — Verve Records, Worldwide Plaza, 825 Eighth Ave., New York … 1969; recorded with Miles Davis , 1969; released solo album Extrapolation, Polydor, 1969; formed Mahavishnu Orchestra and released its Columbia debut, 1972; formed Shakti and released its debut Shakti With John McLaughlin, 1976; recorded and performed as solo artist and guest performer, 1978 — ; recorded live and studio albums with Paco De Lucia and Al Di Meola, 1981-83; left Columbia and signed with Warner Bros., 1981; re-formed Mahavishnu Orchestra with new lineup, 1984; appeared in and performed on soundtrack of film Round Midnight, 1986; moved to Verve Records, c. 1987; formed John McLaughlin Trio, 1988. Addresses: Record company — Verve Records, Worldwide Plaza, 825 Eighth Ave., New York , NY 10019. He began playing professionally in London in the early 1960s, hooking up with the Graham Bond Organization, a seminal outfit that included bassist Jack Bruce and drummer Ginger Baker, later the rhythm section of the influentia",
+      "excerptSha256": "2b67ad1d8c5dcf7b850a832b4c3fc0b5e6f2987649de0eb3458e766355054a04"
+    },
+    {
+      "id": "john-universal",
+      "url": "https://universalmusic.fr/artistes/20000125061",
+      "publisher": "Universal Music France",
+      "publisherHost": "universalmusic.fr",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 1041983,
+      "sha256": "29022f49c347987752ea19a9c735a58ec0e54c7c44e7a3bffad49d3b7cb25a49",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "echercher Menu Menu Accueil Nos artistes À propos Global impact Boutiques John McLaughlin Naissance 4 Janvier 1942, Doncaster, Yorkshire, United Kingdom Newsletter Biographie Musicien issu du revival du blues anglais, John McLaughlin (dit Mahavishnu McLaughlin, né en 1942) est considéré comme l'un des guitaristes les plus doués de sa génération. Maître de techniques musicales aussi différentes que le rock, le jazz et la musique indienne, le soliste recruté en 1968 par Miles Davis s'est affirmé, au cours d'une carrière aussi longue qu'éclectique, comme un artiste des fusions musicales, en solo ou au sein des groupes Mahavishnu Orchestra, Shakti et Remember Shakti. Son parcours prolifique dans les années 1970 atteint un point culminant dans le trio formé avec ses homologues Paco de Lucia et Al di Meola sur l'album Friday Night in San Francisco (1981), suivi de Passion, Grace & Fire (1983) et The Guitar Trio (1996). Ce musicien c … de techniques musicales aussi différentes que le rock, le jazz et la musique indienne, le soliste recruté en 1968 par Miles Davis s'est affirmé, au cours d'une carrière aussi longue qu'éclectique, comme un artiste des fusions musicales, en solo ou au sein des groupes Mahavishnu Orchestra, Shakti et Remember Shakti. Son parcours prolifique dans les années 1970 atteint un point culminant dans le trio formé avec ses homologues Paco de Lucia et Al di Meola sur l'album Friday Night in San Francisco (1981), suivi de Passion, Grace & Fire (1983) et The Guitar Trio (1996). Ce musicien constamment en quête de nouvelles expériences fonde en 1983 le groupe Free Spirits puis, dans les années 2000, oeuvre dans un jazz contemporain avec de nouveaux partenaires réguliers. Né le 4 janvier 1942 à Doncaster (Grande-Bretagne), John McLaughlin est le fils d'une violoniste. Il débute le piano à l'âge de quatre ans, puis commence deux ans plus tard",
+      "excerptSha256": "4f9c88a592f5274e6053bcfa6906999a46cc09397e7ab5c0f61d4d0395629199"
+    },
+    {
+      "id": "gao-nobel-facts",
+      "url": "https://www.nobelprize.org/prizes/literature/2000/gao/facts/",
+      "publisher": "Nobel Prize",
+      "publisherHost": "www.nobelprize.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 168163,
+      "sha256": "96f84e442dc4f38c6aa03990471e1fce633dcd0d036d7e77a7afe1ba4091835c",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Photo: Céline Yang. Nobel Foundation archive Gao Xingjian Nobel Prize in Literature 2000 Born: 4 January 1940, Ganzhou, China Residence at the time of the award: France Prize motivation: “for an œuvre of universal validity, bitter insights and linguistic ingenuity, which has opened new paths for the Chinese novel and drama” Language: Chinese Prize share: 1/1 Life Chinese writer, playwright and painter Gao Xingjian grew up in Jiangxi Province in eastern China. During the 1980s he published a variety of plays, poems and essays that were considered subversive by the Chinese regime. The increasing level of criticism led Gao Xingjian to settle in France, and he is now a French citizen. Gao Xingjian left the Communist Party in China in connection with the Tiananmen Square massacre. Work A hallmark of Gao Xingjian’s writing is the blending of traditional Chinese literature and drama with a Western and modernist form. The novel Soul … ture 2000 Born: 4 January 1940, Ganzhou, China Residence at the time of the award: France Prize motivation: “for an œuvre of universal validity, bitter insights and linguistic ingenuity, which has opened new paths for the Chinese novel and drama” Language: Chinese Prize share: 1/1 Life Chinese writer, playwright and painter Gao Xingjian grew up in Jiangxi Province in eastern China. During the 1980s he published a variety of plays, poems and essays that were considered subversive by the Chinese regime. The increasing level of criticism led Gao Xingjian to settle in France, and he is now a French citizen. Gao Xingjian left the Communist Party in China in connection with the Tiananmen Square massacre. Work A hallmark of Gao Xingjian’s writing is the blending of traditional Chinese literature and drama with a Western and modernist form. The novel Soul Mountain (1999) is based on impressions from journeys in southern and southweste … inese regime. The increasing level of criticism led Gao Xingjian to settle in France, and he is now a French citizen. Gao Xingjian left the Communist Party in China in connection with the Tiananmen Square massacre. Work A hallmark of Gao Xingjian’s writing is the blending of traditional Chinese literature and drama with a Western and modernist form. The novel Soul Mountain (1999) is based on impressions from journeys in southern and southwestern China, which Gao undertook when persecution from the Chinese regime increased. The book is a medley of genres and techniques, with a shifting narrative perspective and tales of people Gao met on the road: monks, folk musicians, a victim of the Cultural Revolution and others. To cite this section MLA style: Gao Xingjian – Facts. NobelPrize.org. Nobel Prize Outreach 2026. Thu. 8 Oct 2026. <https://www.nobelprize.org/prizes/literature/2000/gao/facts/> Go to the top of the page Six days, s",
+      "excerptSha256": "a44dcd77eed57631c35043ee595bc6019c200be3877e3088e3294e6db34871f6"
+    },
+    {
+      "id": "gao-nobel-bio",
+      "url": "https://www.nobelprize.org/prizes/literature/2000/gao/biographical/",
+      "publisher": "Nobel Prize",
+      "publisherHost": "www.nobelprize.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 184266,
+      "sha256": "ab45f6aeb96acead4867b5377d2e3a6fd9f8014fc437928f44a302f95c69a449",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "e Biobibliography Award ceremony speech Award ceremony video Banquet video G ao Xingjian, born January 4, 1940 in Ganzhou (Jiangxi province) in eastern China, is today a French citizen. Writer of prose, translator, dramatist, director, critic and artist. Gao Xingjian grew up during the aftermath of the Japanese invasion, his father was a bank official and his mother an amateur actress who stimulated the young Gao’s interest in the theatre and writing. He received his basic education in the schools of the People’s Republic and took a degree in French in 1962 at the Department of Foreign Languages in Beijing. During the Cultural Revolution (1966-76) he was sent to a re-education camp and felt it necessary to burn a suitcase full of manuscripts. Not until 1979 could he publish his work and travel abroad, to France and Italy. During the period 1980-87 he published short stories, essays and dramas in literary magazines in China and … d his basic education in the schools of the People’s Republic and took a degree in French in 1962 at the Department of Foreign Languages in Beijing. During the Cultural Revolution (1966-76) he was sent to a re-education camp and felt it necessary to burn a suitcase full of manuscripts. Not until 1979 could he publish his work and travel abroad, to France and Italy. During the period 1980-87 he published short stories, essays and dramas in literary magazines in China and also four books: Premier essai sur les techniques du roman moderne / A Preliminary Discussion of the Art of Modern Fiction (1981) which gave rise to a violent polemic on “modernism”, the narrative A Pigeon Called Red Beak (1985), Collected Plays (1985) and In Search of a Modern Form of Dramatic Representation (1987). Several of his experimental and pioneering plays – inspired in part by Brecht, Artaud and Beckett – were produced at the Theatre of Popular Art in … t by Brecht, Artaud and Beckett – were produced at the Theatre of Popular Art in Beijing: his theatrical debut with Signal d’alarme / Signal Alarm (1982) was a tempestuous success, and the absurd drama which established his reputation Arrêt de bus / Bus Stop (1983) was condemned during the campaign against “intellectual pollution” (described by one eminent member of the party as the most pernicious piece of writing since the foundation of the People’s Republic); L’Homme sauvage / Wild Man (1985) also gave rise to heated domestic polemic and international attention. In 1986 L’autre rive / The Other Shore was banned and since then none of his plays have been performed in China. In order to avoid harassment he undertook a ten-month walking-tour of the forest and mountain regions of Sichuan Province, tracing the course of the Yangzi river from its source to the coast. In 1987 he left China and settled down a year later in Paris as",
+      "excerptSha256": "69ac592c9cff007e8b2a6818bc4e9c0ee92ff95c90b973db9c78a4eb678b4d7b"
+    },
+    {
+      "id": "gao-dublin",
+      "url": "https://dublinliteraryaward.ie/the-library/authors/gao-xingjian/",
+      "publisher": "Dublin Literary Award",
+      "publisherHost": "dublinliteraryaward.ie",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 83906,
+      "sha256": "2141c250a89959a03ddc453f63b5cae6facbe717f62c03c1373c675b07e92a01",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "The Library > Authors > Gao Xingjian Instagram Facebook Youtube Tiktok Bsky Gao Xingjian Gao Xingjian (born January 4, 1940, Ganzhou, Jiangxi province, China) is a Chinese émigré novelist, playwright, and critic who in 2000 was awarded the Nobel Prize for Literature “for an oeuvre of universal validity, bitter insights and linguistic ingenuity.” He is also renowned as a stage director and as an artist. Gao was educated in state schools and from 1957 to 1962 attended the Beijing Foreign Languages Institute, where he earned a degree in French. Persecuted as an intellectual during the Cultural Revolution, Gao was forced to destroy his early writings and was later sent to a re-education camp, where he endured nearly six years of hard labour. Afterward he was assigned by the government to work at the Foreign Languages Press. He became a translator but was unable to publish his work or travel abroad until 1979. Gao first gained cri … ght”). In 1981 he became a resident playwright with the Beijing People’s Art Theatre, and in 1982 his first play, Juedui xinhao ( Alarm Signal ), written in collaboration with Liu Huiyuan, was performed. Gao Xingjian (born January 4, 1940, Ganzhou, Jiangxi province, China) is a Chinese émigré novelist, playwright, and critic who in 2000 was awarded the Nobel Prize for Literature “for an oeuvre of universal validity, bitter insights and linguistic ingenuity.” He is also renowned as a stage director and as an artist. Gao was educated in state schools and from 1957 to 1962 attended the Beijing Foreign Languages Institute, where he earned a degree in French. Persecuted as an intellectual during the Cultural Revolution, Gao was forced to destroy his early writings and was later sent to a re-education camp, where he endured nearly six years of hard labour. Afterward he was assigned by the government to work at the Foreign Languages",
+      "excerptSha256": "b450e4ce953ff376c202119206a3e14b4333fd57a1c663ac31305950202be058"
+    },
+    {
+      "id": "gao-ebsco",
+      "url": "https://www.ebsco.com/research-starters/biography/gao-xingjian",
+      "publisher": "EBSCO Research Starters",
+      "publisherHost": "www.ebsco.com",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 190805,
+      "sha256": "e08ae2257511d62b04788830284ee45b11b0a7837d908655e5311b64970d7805",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "er, celebrated for his exploration of the human condition through various literary forms. Born on January 4, 1940, in Ganzhou, Jiangxi province, during the tumultuous period of the Second Sino-Japanese War, Gao faced significant personal and political challenges throughout his life, particularly during the Cultural Revolution in China. He gained prominence for his novels, notably \"Soul Mountain\" and \"One Man's Bible,\" which exemplify his experimental narrative style and autobiographical elements. In 2000, Gao was awarded the Nobel Prize in Literature, recognized for his unique artistic vision and humanistic approach. Gao's writing often reflects his experiences with totalitarianism and the search for self in a complex world. He employs innovative techniques, such as shifting perspectives and stream-of-consciousness narration, to delve into themes of identity, memory, and existential inquiry. In addition to his literary achieve … s Bible,\" which exemplify his experimental narrative style and autobiographical elements. In 2000, Gao was awarded the Nobel Prize in Literature, recognized for his unique artistic vision and humanistic approach. Gao's writing often reflects his experiences with totalitarianism and the search for self in a complex world. He employs innovative techniques, such as shifting perspectives and stream-of-consciousness narration, to delve into themes of identity, memory, and existential inquiry. In addition to his literary achievements, Gao has gained acclaim as a painter, exhibiting his works internationally. His plays, which blend modern Western theatrical elements with traditional Chinese themes, have also garnered attention, despite being banned in China. Overall, Gao Xingjian's multifaceted career continues to resonate with audiences seeking profound reflections on life and society. Authored by : Lutz, R. C., PhD 1 of 4 Authored",
+      "excerptSha256": "81ab06273f806779aff9d2baa31b9398127c645f516da2d505f7e01f47838448"
+    },
+    {
+      "id": "wikidata-louis-braille",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q93182.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytesRead": 123610,
+      "sha256": "e4dd0924a3a62eac94dbd2ef6536b67c9767aa43d2951e39f57916242455b744",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q93182; English label: Louis Braille; p31=Q5; p569=+1809-01-04T00:00:00Z; p570=+1852-01-06T00:00:00Z; p27=Q142; p106=Q765778,Q205375,Q56312751; P569 values are source snapshot claims and must be assessed against independent publisher sources.",
+      "excerptSha256": "862cfb88492d7eff1e16fe5d05840eba6775d7d5c62cad4362ed34684eb09c8f"
+    },
+    {
+      "id": "wikidata-le-tan-tai",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q926038.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytesRead": 24951,
+      "sha256": "3865d3c58372d3893fdd8e7860efccba11f5ea24fe19fc7d5648f7c0e0f4b93f",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q926038; English label: Le Tan Tai; p31=Q5; p569=+1984-01-04T00:00:00Z,+1984-03-26T00:00:00Z; p570=; p27=Q881; p106=Q937857; P569 values are source snapshot claims and must be assessed against independent publisher sources.",
+      "excerptSha256": "e037c23a63017327c9a20a475040f6f41622739e3530498bd90cb33d668f24f3"
+    },
+    {
+      "id": "wikidata-nguyen-huy-hoang",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q926022.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytesRead": 22876,
+      "sha256": "a47d092cbbcc5777a6dc87a25106eab980ac6209588fb7b4b32ead302413a71a",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q926022; English label: Nguyen Huy Hoang; p31=Q5; p569=+1981-01-04T00:00:00Z; p570=; p27=Q881; p106=Q937857; P569 values are source snapshot claims and must be assessed against independent publisher sources.",
+      "excerptSha256": "cbdd49edf574a30e2c6d88f579ab535ab9319874fe8cd83b361337b447a651ac"
+    },
+    {
+      "id": "wikidata-john-mclaughlin",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q164757.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytesRead": 105236,
+      "sha256": "e6060caf16a706f0bf5cadeacb9d6b008f7f285b1a7f6322f2078cedfa658807",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q164757; English label: John McLaughlin; p31=Q5; p569=+1942-01-04T00:00:00Z; p570=; p27=Q145; p106=Q855091,Q15981151,Q753110,Q55960555,Q36834,Q639669; P569 values are source snapshot claims and must be assessed against independent publisher sources.",
+      "excerptSha256": "26cc11ac66d802ee0587138526b8887bb20ff8951faadf4b7a58d0eef1d5baea"
+    },
+    {
+      "id": "wikidata-gao-xingjian",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q18143.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytesRead": 147257,
+      "sha256": "72516df0a2134399400aea5d77c4112d92fa589b9df2ae692b78c076a493227c",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q18143; English label: Gao Xingjian; p31=Q5; p569=+1940-01-04T00:00:00Z; p570=; p27=Q148,Q142; p106=Q36180,Q1028181,Q333634,Q6625963,Q214917,Q4263842,Q2526255,Q28389; P569 values are source snapshot claims and must be assessed against independent publisher sources.",
+      "excerptSha256": "0dba938e8d4d0edd0cf5726f56082b9eeee5a6965da5cd3b34abfbf95d677eca"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "louis-braille",
+      "name": "Louis Braille",
+      "wikidataId": "Q93182",
+      "birthDate": "1809-01-04",
+      "lifeStatus": "deceased",
+      "deathDate": "1852-01-06",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "braille-museum"
+      ],
+      "dobSourceIds": [
+        "braille-loc",
+        "braille-museum"
+      ],
+      "careerFactIds": [
+        "jan4-braille-six-dot",
+        "jan4-braille-1829"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q93182",
+        "https://www.loc.gov/exhibits/louis-braille/overview.html",
+        "https://museelouisbraille.com/en/biographie",
+        "https://www.loc.gov/nls/services-and-resources/informational-publications/about-braille/"
+      ],
+      "before": {
+        "biography": "Louis Braille sinh ngày 4/1/1809 tại Coupvray, Pháp. Ông phát triển hệ thống chữ nổi mang tên mình để người mù và người khiếm thị đọc, viết.",
+        "highlights": [
+          "Phát triển hệ thống chữ nổi Braille.",
+          "Sinh tại Coupvray, Pháp, ngày 4/1/1809."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q93182",
+          "https://www.loc.gov/exhibits/louis-braille/overview.html",
+          "https://museelouisbraille.com/en/biographie"
+        ],
+        "deathDate": null,
+        "deathDateSourceUrls": null,
+        "deathDatePrecision": null,
+        "lifeStatus": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "biography": "Louis Braille sinh ngày 4/1/1809 tại Coupvray, Pháp. Năm 15 tuổi, ông phát triển bản đầu tiên của hệ thống đọc viết xúc giác sáu chấm, về sau có 64 tổ hợp ký hiệu; ông cũng tạo hệ thống chữ nổi cho âm nhạc và toán học. Năm 1829, Braille xuất bản cuốn sách trình bày phương pháp ghi lời nói và âm nhạc bằng chấm nổi. Ông dạy tại Viện Thanh thiếu niên mù ở Paris và qua đời vì bệnh lao ngày 6/1/1852.",
+        "highlights": [
+          "Năm 15 tuổi, Braille phát triển bản đầu tiên của hệ thống đọc viết xúc giác, về sau được tinh chỉnh thành ô sáu chấm với 64 tổ hợp.",
+          "Năm 1829, Braille xuất bản cuốn sách mô tả hệ thống chữ nổi cho lời nói và âm nhạc; sau đó ông làm giáo viên tại viện dành cho người mù ở Paris."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q93182",
+          "https://www.loc.gov/exhibits/louis-braille/overview.html",
+          "https://museelouisbraille.com/en/biographie",
+          "https://www.loc.gov/nls/services-and-resources/informational-publications/about-braille/"
+        ],
+        "deathDate": "1852-01-06",
+        "deathDateSourceUrls": [
+          "https://museelouisbraille.com/en/biographie"
+        ],
+        "deathDatePrecision": "day",
+        "lifeStatus": "deceased",
+        "verifiedAt": "2026-10-08"
+      },
+      "identityClaims": {
+        "label": "Louis Braille",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1809-01-04T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 9
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1852-01-06T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 9
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q142",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q765778",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q205375",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q56312751",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q142",
+        "selectedOccupationQids": [
+          "Q765778",
+          "Q205375",
+          "Q56312751"
+        ]
+      },
+      "wikidataCaptureId": "wikidata-louis-braille"
+    },
+    {
+      "id": "le-tan-tai",
+      "name": "Lê Tấn Tài",
+      "wikidataId": "Q926038",
+      "birthDate": "1984-01-04",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "tantai-vpf",
+        "tantai-tuoitre"
+      ],
+      "careerFactIds": [
+        "jan4-tantai-vpf-2019",
+        "jan4-tantai-aff"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q926038",
+        "https://tuoitre.vn/le-tan-tai-la-ai-47908.htm",
+        "https://vpf.vn/player/le-tan-tai/",
+        "https://baoxaydung.vn/le-tan-tai-toi-tra-lai-cho-bong-da-tat-ca-su-tu-te-192275988.htm",
+        "https://www.transfermarkt.com/tan-tai-le/profil/spieler/64641"
+      ],
+      "before": {
+        "biography": "Lê Tấn Tài là cầu thủ bóng đá Việt Nam, sinh ngày 4/1/1984. Hồ sơ bóng đá chuyên nghiệp và báo chí thể thao Việt Nam ghi nhận anh thi đấu ở vị trí tiền vệ.",
+        "highlights": [
+          "Từng thi đấu cho đội tuyển bóng đá quốc gia Việt Nam.",
+          "Hồ sơ VPF ghi ngày sinh là 4/1/1984."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q926038",
+          "https://tuoitre.vn/le-tan-tai-tro-lai-san-co-20220207150434672.htm",
+          "https://vpf.vn/player/le-tan-tai/"
+        ],
+        "lifeStatus": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "biography": "Lê Tấn Tài là tiền vệ bóng đá Việt Nam, sinh ngày 4/1/1984. Bài viết của Tuổi Trẻ ghi nhận anh được gọi tập trung đội tuyển quốc gia năm 2004 khi mới 20 tuổi. VPF thống kê anh ra sân 11 trận và ghi một bàn cho Becamex TP. Hồ Chí Minh tại V.League 2019. Báo Xây dựng ghi anh cùng đội tuyển Việt Nam vô địch AFF Cup 2008.",
+        "highlights": [
+          "VPF thống kê Lê Tấn Tài thi đấu 11 trận và ghi một bàn cho Becamex TP. Hồ Chí Minh tại V.League 2019.",
+          "Tấn Tài là thành viên đội tuyển Việt Nam vô địch AFF Cup 2008; anh cũng có hai chức vô địch V-League vào các năm 2014 và 2015."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q926038",
+          "https://tuoitre.vn/le-tan-tai-la-ai-47908.htm",
+          "https://vpf.vn/player/le-tan-tai/",
+          "https://baoxaydung.vn/le-tan-tai-toi-tra-lai-cho-bong-da-tat-ca-su-tu-te-192275988.htm",
+          "https://www.transfermarkt.com/tan-tai-le/profil/spieler/64641"
+        ],
+        "lifeStatus": "unknown",
+        "verifiedAt": "2026-10-08"
+      },
+      "identityClaims": {
+        "label": "Le Tan Tai",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1984-01-04T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "+1984-03-26T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q937857",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q881",
+        "selectedOccupationQids": [
+          "Q937857"
+        ]
+      },
+      "wikidataCaptureId": "wikidata-le-tan-tai"
+    },
+    {
+      "id": "nguyen-huy-hoang",
+      "name": "Nguyễn Huy Hoàng",
+      "wikidataId": "Q926022",
+      "birthDate": "1981-01-04",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "huy-slna",
+        "huy-transfermarkt"
+      ],
+      "careerFactIds": [
+        "jan4-huy-award",
+        "jan4-huy-slna-coach"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q926022",
+        "https://www.slnafc.com/tin-tuc/danh-sach-hlv-vdv-u19-slna-tham-gia-vong-loai-giai-vo-dich-u19-quoc-gia-nam-2024-7826",
+        "https://www.transfermarkt.com/huy-hoang-nguyen/profil/trainer/92217",
+        "https://www.national-football-teams.com/player/7251/Huy_Hoang_Nguy_N.html",
+        "https://baonghean.vn/hlv-huy-hoang-bac-toc-trong-nam-dau-cam-quan-o-v-league-10247258.html"
+      ],
+      "before": {
+        "occupation": [
+          "huấn luyện viên bóng đá"
+        ],
+        "biography": "Nguyễn Huy Hoàng sinh ngày 4/1/1981. Hồ sơ của câu lạc bộ Sông Lam Nghệ An ghi ông giữ vị trí huấn luyện viên trưởng.",
+        "highlights": [
+          "Được câu lạc bộ Sông Lam Nghệ An ghi nhận là huấn luyện viên trưởng.",
+          "Ngày sinh trong hồ sơ câu lạc bộ là 04/01/1981."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q926022",
+          "https://www.slnafc.com/tin-tuc/danh-sach-hlv-vdv-u19-slna-tham-gia-vong-loai-giai-vo-dich-u19-quoc-gia-nam-2024-7826",
+          "https://www.transfermarkt.com/huy-hoang-nguyen/profil/trainer/92217"
+        ],
+        "lifeStatus": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "occupation": [
+          "huấn luyện viên bóng đá",
+          "cựu cầu thủ bóng đá"
+        ],
+        "biography": "Nguyễn Huy Hoàng là cựu trung vệ của Sông Lam Nghệ An và đội tuyển Việt Nam, sinh ngày 4/1/1981. Báo Nghệ An ghi ông từng giành danh hiệu Cầu thủ trẻ xuất sắc nhất Việt Nam năm 2001 và cùng SLNA vô địch V.League ba lần. Sau khi giải nghệ, ông chuyển sang huấn luyện; SLNA liệt kê ông là HLV trưởng đội U19 dự vòng loại giải quốc gia năm 2024.",
+        "highlights": [
+          "Báo Nghệ An ghi Huy Hoàng đoạt danh hiệu Cầu thủ trẻ xuất sắc nhất Việt Nam năm 2001 và cùng SLNA vô địch V.League các mùa 1999–2000, 2000–2001 và 2010–2011.",
+          "Danh sách của SLNA cho vòng loại giải U19 quốc gia năm 2024 ghi Nguyễn Huy Hoàng ở vị trí HLV trưởng."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q926022",
+          "https://www.slnafc.com/tin-tuc/danh-sach-hlv-vdv-u19-slna-tham-gia-vong-loai-giai-vo-dich-u19-quoc-gia-nam-2024-7826",
+          "https://www.transfermarkt.com/huy-hoang-nguyen/profil/trainer/92217",
+          "https://www.national-football-teams.com/player/7251/Huy_Hoang_Nguy_N.html",
+          "https://baonghean.vn/hlv-huy-hoang-bac-toc-trong-nam-dau-cam-quan-o-v-league-10247258.html"
+        ],
+        "lifeStatus": "unknown",
+        "verifiedAt": "2026-10-08"
+      },
+      "identityClaims": {
+        "label": "Nguyen Huy Hoang",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1981-01-04T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 2
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q937857",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q881",
+        "selectedOccupationQids": [
+          "Q937857"
+        ]
+      },
+      "wikidataCaptureId": "wikidata-nguyen-huy-hoang"
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "john-mclaughlin",
+      "name": "John McLaughlin",
+      "wikidataId": "Q164757",
+      "birthDate": "1942-01-04",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "john-bluenote",
+        "john-encyclopedia"
+      ],
+      "careerFactIds": [
+        "jan4-john-lifetime-miles",
+        "jan4-john-mahavishnu-shakti"
+      ],
+      "countryCode": "GB",
+      "category": "music",
+      "occupation": [
+        "nghệ sĩ guitar",
+        "nhà soạn nhạc"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "jan4-john-lifetime-miles",
+            "jan4-john-mahavishnu-shakti"
+          ],
+          "rationale": "Các nguồn nghề nghiệp ghi nhận sự nghiệp guitar sáng tạo của McLaughlin qua nhóm Lifetime, ban nhạc Miles Davis, Mahavishnu Orchestra và Shakti."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-john-mclaughlin",
+      "identityClaims": {
+        "label": "John McLaughlin",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1942-01-04T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 5
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q145",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q145",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q855091",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q15981151",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q753110",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q55960555",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36834",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q855091",
+          "Q36834",
+          "Q639669"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q164757",
+        "https://www.bluenote.com/artist/john-mclaughlin/",
+        "https://www.encyclopedia.com/people/literature-and-arts/music-popular-and-jazz-biographies/john-mclaughlin",
+        "https://universalmusic.fr/artistes/20000125061"
+      ],
+      "after": {
+        "countryCode": "GB",
+        "category": "music",
+        "fields": [
+          "design-creative"
+        ],
+        "lifeStatus": "unknown"
+      }
+    },
+    {
+      "id": "gao-xingjian",
+      "name": "Gao Xingjian",
+      "wikidataId": "Q18143",
+      "birthDate": "1940-01-04",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "gao-nobel-facts",
+        "gao-ebsco"
+      ],
+      "careerFactIds": [
+        "jan4-gao-nobel",
+        "jan4-gao-alarm-signal"
+      ],
+      "countryCode": "CN",
+      "category": "literature",
+      "occupation": [
+        "nhà văn",
+        "nhà viết kịch",
+        "họa sĩ"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "countrySelectionRationale": "Wikidata có cả P27 Trung Quốc và Pháp; hồ sơ dùng Trung Quốc để thể hiện nguồn gốc và căn tính văn học Trung Quốc, còn tiểu sử nêu rõ ông hiện mang quốc tịch Pháp theo Nobel Prize.",
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "jan4-gao-nobel",
+            "jan4-gao-alarm-signal"
+          ],
+          "rationale": "Nobel Prize mô tả Gao là nhà văn, nhà viết kịch và họa sĩ; Dublin Literary Award ghi nhận sự nghiệp sân khấu, hỗ trợ lĩnh vực sáng tạo."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-gao-xingjian",
+      "identityClaims": {
+        "label": "Gao Xingjian",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1940-01-04T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 5
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q148",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q142",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q148",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1028181",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q333634",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q6625963",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q214917",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q4263842",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q2526255",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389",
+            "references": 0
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q36180",
+          "Q214917",
+          "Q1028181"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q18143",
+        "https://www.nobelprize.org/prizes/literature/2000/gao/facts/",
+        "https://www.nobelprize.org/prizes/literature/2000/gao/biographical/",
+        "https://www.ebsco.com/research-starters/biography/gao-xingjian",
+        "https://dublinliteraryaward.ie/the-library/authors/gao-xingjian/"
+      ],
+      "after": {
+        "countryCode": "CN",
+        "category": "literature",
+        "fields": [
+          "design-creative"
+        ],
+        "lifeStatus": "unknown"
+      }
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "jan4-braille-six-dot",
+      "profileId": "louis-braille",
+      "displayText": "Năm 15 tuổi, Braille phát triển bản đầu tiên của hệ thống đọc viết xúc giác, về sau được tinh chỉnh thành ô sáu chấm với 64 tổ hợp.",
+      "sourceId": "braille-loc",
+      "evidencePhrase": "By fifteen, he had developed the initial version of a tactile system of reading and writing"
+    },
+    {
+      "id": "jan4-braille-1829",
+      "profileId": "louis-braille",
+      "displayText": "Năm 1829, Braille xuất bản cuốn sách mô tả hệ thống chữ nổi cho lời nói và âm nhạc; sau đó ông làm giáo viên tại viện dành cho người mù ở Paris.",
+      "sourceId": "braille-nls",
+      "evidencePhrase": "In 1829 he published the code in Procédé pour Ecrire les Paroles"
+    },
+    {
+      "id": "jan4-tantai-vpf-2019",
+      "profileId": "le-tan-tai",
+      "displayText": "VPF thống kê Lê Tấn Tài thi đấu 11 trận và ghi một bàn cho Becamex TP. Hồ Chí Minh tại V.League 2019.",
+      "sourceId": "tantai-vpf",
+      "evidencePhrase": "Wake-up 247 V.League 1 – 2019 Becamex TP. Hồ Chí Minh 11 11 0 0 0 1 7 0"
+    },
+    {
+      "id": "jan4-tantai-aff",
+      "profileId": "le-tan-tai",
+      "displayText": "Tấn Tài là thành viên đội tuyển Việt Nam vô địch AFF Cup 2008; anh cũng có hai chức vô địch V-League vào các năm 2014 và 2015.",
+      "sourceId": "tantai-baoxaydung",
+      "evidencePhrase": "chức vô địch AFF Cup 2008 và hai lần vô địch V-League vào năm 2014, 2015"
+    },
+    {
+      "id": "jan4-huy-award",
+      "profileId": "nguyen-huy-hoang",
+      "displayText": "Báo Nghệ An ghi Huy Hoàng đoạt danh hiệu Cầu thủ trẻ xuất sắc nhất Việt Nam năm 2001 và cùng SLNA vô địch V.League các mùa 1999–2000, 2000–2001 và 2010–2011.",
+      "sourceId": "huy-baonghean",
+      "evidencePhrase": "Cầu thủ trẻ xuất sắc nhất Việt Nam 2001"
+    },
+    {
+      "id": "jan4-huy-slna-coach",
+      "profileId": "nguyen-huy-hoang",
+      "displayText": "Danh sách của SLNA cho vòng loại giải U19 quốc gia năm 2024 ghi Nguyễn Huy Hoàng ở vị trí HLV trưởng.",
+      "sourceId": "huy-slna",
+      "evidencePhrase": "Nguyễn Huy Hoàng HLV Trưởng 04/01/1981"
+    },
+    {
+      "id": "jan4-john-lifetime-miles",
+      "profileId": "john-mclaughlin",
+      "displayText": "Năm 1969, McLaughlin tham gia nhóm Lifetime của Tony Williams, rồi góp mặt trong ban nhạc của Miles Davis.",
+      "sourceId": "john-bluenote",
+      "evidencePhrase": "Later that year he moved to New York to join Tony Williams’ groundbreaking fusion band Lifetime"
+    },
+    {
+      "id": "jan4-john-mahavishnu-shakti",
+      "profileId": "john-mclaughlin",
+      "displayText": "Ông dẫn dắt Mahavishnu Orchestra từ năm 1971 đến 1975 và sau đó thành lập nhóm Shakti, kết hợp jazz acoustic với âm nhạc Ấn Độ.",
+      "sourceId": "john-bluenote",
+      "evidencePhrase": "He re-emerged in 1971 as leader of the Mahavishnu Orchestra"
+    },
+    {
+      "id": "jan4-gao-nobel",
+      "profileId": "gao-xingjian",
+      "displayText": "Gao Xingjian nhận Giải Nobel Văn học năm 2000 với ghi nhận tác phẩm mở ra hướng đi mới cho tiểu thuyết và kịch Trung Quốc.",
+      "sourceId": "gao-nobel-facts",
+      "evidencePhrase": "Nobel Prize in Literature 2000 Born: 4 January 1940"
+    },
+    {
+      "id": "jan4-gao-alarm-signal",
+      "profileId": "gao-xingjian",
+      "displayText": "Năm 1982, vở kịch đầu tiên của Gao, Juedui xinhao (Alarm Signal), được dàn dựng tại Trung Quốc.",
+      "sourceId": "gao-dublin",
+      "evidencePhrase": "in 1982 his first play, Juedui xinhao ( Alarm Signal ), written in collaboration with Liu Huiyuan, was performed"
+    }
+  ],
+  "wikidataReview": {
+    "scope": "P31/P569/P570/P27/P106 captured for all three existing profiles and two new profiles.",
+    "profiles": {
+      "louis-braille": {
+        "label": "Louis Braille",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1809-01-04T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 9
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1852-01-06T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 9
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q142",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q765778",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q205375",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q56312751",
+            "references": 0
+          }
+        ]
+      },
+      "le-tan-tai": {
+        "label": "Le Tan Tai",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1984-01-04T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "+1984-03-26T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q937857",
+            "references": 0
+          }
+        ]
+      },
+      "nguyen-huy-hoang": {
+        "label": "Nguyen Huy Hoang",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1981-01-04T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 2
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q937857",
+            "references": 0
+          }
+        ]
+      },
+      "john-mclaughlin": {
+        "label": "John McLaughlin",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1942-01-04T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 5
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q145",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q855091",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q15981151",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q753110",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q55960555",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36834",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669",
+            "references": 1
+          }
+        ]
+      },
+      "gao-xingjian": {
+        "label": "Gao Xingjian",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1940-01-04T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 5
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q148",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q142",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1028181",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q333634",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q6625963",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q214917",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q4263842",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q2526255",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389",
+            "references": 0
+          }
+        ]
+      }
+    },
+    "conflicts": [
+      {
+        "profileId": "le-tan-tai",
+        "wikidataId": "Q926038",
+        "property": "P569",
+        "selectedDate": "1984-01-04",
+        "activeClaims": [
+          {
+            "rank": "normal",
+            "date": "1984-01-04",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "date": "1984-03-26",
+            "references": 1
+          }
+        ],
+        "resolution": "1984-01-04 retained: VPF, Tuổi Trẻ and Transfermarkt independently state 4 January 1984; the second active Wikidata date 26 March 1984 conflicts with all three publisher records and is not used locally."
+      }
+    ]
+  }
+}

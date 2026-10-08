@@ -1,0 +1,1588 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-12",
+  "capturedAt": "2026-10-08T15:24:15Z",
+  "sourceCaptures": [
+    {
+      "id": "jack-park-dob",
+      "url": "https://jacklondonpark.com/jack-london-books/",
+      "publisher": "Jack London State Historic Park",
+      "publisherHost": "jacklondonpark.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 337267,
+      "sha256": "68e1c028f9840526851d011fef84f50a659ae880cf283b87983781b3f4c20a12",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " \" - Jack London, \"Getting into print\", The Editor Magazine 1903 The Books of Jack London Jack London was born on January 12, 1876. By age 30, he was internationally famous for Call of the Wild (1903), The Sea Wolf , (1904) and many other literary and journalistic accomplishments. Though he wrote passionately about the great questions of life and death and t",
+      "excerptSha256": "8dabb67bbb539d0343d204c51a11eef08d990f0696fa03a3f0844af5330ebbbf"
+    },
+    {
+      "id": "jack-society-dob-death",
+      "url": "https://www.jack-london.org/en/biography.html",
+      "publisher": "Jack London International",
+      "publisherHost": "www.jack-london.org",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 45791,
+      "sha256": "0a7c738789f119f0f9f1b10debc8806a971064e4da6af7eca9c76bc74dbf6300",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " London International Overview Bibliography Texts Biography Themes Gallery Search DE · EN January 12, 1876 — November 22, 1916 · 40 years Jack London born John Griffith Chaney, San Francisco \"Strikingly handsome, full of laughter, restless and hard on himself — one of the most attractive and romantic figures of his time.\" By Reinhard Wissdorf The city of Oakland loves to drape itself in ",
+      "excerptSha256": "edd5aba65f803bb0f56b5bbd85a50cf2915a743f43d7ee3b9b544f96c1420402"
+    },
+    {
+      "id": "jack-society-career",
+      "url": "https://www.jack-london.org/en/biography.html",
+      "publisher": "Jack London International",
+      "publisherHost": "www.jack-london.org",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 45791,
+      "sha256": "0a7c738789f119f0f9f1b10debc8806a971064e4da6af7eca9c76bc74dbf6300",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "fe and mother of his two daughters Joan and Little Bess, and married Charmian Kittredge . Between 1900 and 1916 he produced over fifty books — fiction and nonfiction — hundreds of short stories, and countless articles. On November 22, 1916 — with the United States on the verge of entering the World War — Jack London complained of severe nausea after dinner a",
+      "excerptSha256": "98b95fdd792f18b8415d6f3243205441c43adde83baa2c98bf89e09aba88c839"
+    },
+    {
+      "id": "jack-society-literary",
+      "url": "https://www.jack-london.org/en/biography.html",
+      "publisher": "Jack London International",
+      "publisherHost": "www.jack-london.org",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 45791,
+      "sha256": "0a7c738789f119f0f9f1b10debc8806a971064e4da6af7eca9c76bc74dbf6300",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ural; that something we all lack and know nothing of. — Jack London, on the Sonoma Valley By the age of twenty-nine he was internationally famous through The Call of the Wild (1903), The Sea-Wolf (1904), and other literary and journalistic work. He was divorced from Bessie Maddern, his first wife and mother of his two daughters Joan and Little Bess, and marr",
+      "excerptSha256": "e4cbe8f1a0cec5b60337f28f8fd6ecac2742d49b8d9635ce980606dd6d8bb09d"
+    },
+    {
+      "id": "vive-pib-dob",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=114547",
+      "publisher": "Press Information Bureau, Government of India",
+      "publisherHost": "www.pib.gov.in",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 49791,
+      "sha256": "deaa426bcc7a66f02ffee5fa920065639bf60a018e162a7fe5a4e171df1d7790",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " USA and London. Swami Vivekananda, known in his pre-monastic life as Narendranath Datta, was born in Kolkata on 12 January 1863. Born with a yogic temperament, he used to practise meditation even from his boyhood, and was associated with Brahmo Movement for some time. By the tim",
+      "excerptSha256": "9544209d6ee7e21c4781d9dd8b69fd6129165e26a5407ba7f01684b769e3c83a"
+    },
+    {
+      "id": "vive-pib-mission",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=114547",
+      "publisher": "Press Information Bureau, Government of India",
+      "publisherHost": "www.pib.gov.in",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 49791,
+      "sha256": "deaa426bcc7a66f02ffee5fa920065639bf60a018e162a7fe5a4e171df1d7790",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ound his plan for their uplift by the application of the principles of Practical Vedanta. Swami Vivekananda founded the Ramakrishna Mission on 1 May 1897, in which monks and common people would jointly undertake propagation of Practical Vedanta, and various forms of social service, such as running hospitals, schools, colleges, hostels, ru",
+      "excerptSha256": "82b03dc8df139ffdd433b7f424696651912f2447c754b0e91d6bd219823718a9"
+    },
+    {
+      "id": "vive-pib-death",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=114547",
+      "publisher": "Press Information Bureau, Government of India",
+      "publisherHost": "www.pib.gov.in",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 49791,
+      "sha256": "deaa426bcc7a66f02ffee5fa920065639bf60a018e162a7fe5a4e171df1d7790",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "spent on inspiring and guiding people, both monastic and lay. His health deteriorated and the end came quietly on the night of 4 July 1902. Before his Mahasamadhi, he had written to a Western follower: “It may be that I shall find it good to get outside my body, to cast it off like a worn out garmen",
+      "excerptSha256": "8e46158d12458b688798b3ab05cb199069796c43df2651318e9c943673683b90"
+    },
+    {
+      "id": "vive-sg-dob",
+      "url": "https://www.ramakrishna.org.sg/our-inspiration2.html",
+      "publisher": "Ramakrishna Mission Singapore",
+      "publisherHost": "www.ramakrishna.org.sg",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 62326,
+      "sha256": "f3847f23c19de8b15c3cb3c16d096679bc7f5baf9681209f9137951770378952",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ami Vivekananda Swami Vivekananda, known in his pre-monastic life as Narendra Nath Datta, was born in an affluent family in Kolkata on 12 January 1863. His father, Vishwanath Datta, was a successful attorney with interests in a wide range of subjects, and his mother, Bhuvaneshwari Devi, was endowed ",
+      "excerptSha256": "a44590aacd0769c59cb2a301bf39b08686c1a82bbbe49fe1d02b191458c381a2"
+    },
+    {
+      "id": "vive-sg-death",
+      "url": "https://www.ramakrishna.org.sg/our-inspiration2.html",
+      "publisher": "Ramakrishna Mission Singapore",
+      "publisherHost": "www.ramakrishna.org.sg",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 62326,
+      "sha256": "f3847f23c19de8b15c3cb3c16d096679bc7f5baf9681209f9137951770378952",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ng lectures and inspiring people, told upon Swamiji’s health. His health deteriorated and the end came quietly on the night of 4 July 1902. Before his Mahasamadhi he had written to a Western follower: “It may be that I shall find it good to get outside my body, to cast it off like a worn out garment",
+      "excerptSha256": "f8582cf58429301bfd729965c5c4c12fe1b4884a1535105f15f77e65c5046ac6"
+    },
+    {
+      "id": "vive-belur-speech",
+      "url": "https://belurmath.org/faq/",
+      "publisher": "Ramakrishna Math and Mission, Belur Math",
+      "publisherHost": "belurmath.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 755658,
+      "sha256": "471887e9e1a45322d9b30b671c7fb0a130f471690ace13e6c990f256b8b4e807",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": ") General Secretary Date: 02.05.2021 Clarification on Swami Vivekananda’s Voice Recording Swami Vivekananda’s speeches at the World’s Parliament of Religions in Chicago, USA, in 1893 heralded a new era in inter-religious understanding and propagation of Indian religious thoughts in the West. Among his speeches at the Parliament of Religions, the first speech",
+      "excerptSha256": "4730dc63f51356cdbe22f6459f9599cbb545b3145d493099e4e0ddb93bd76ee2"
+    },
+    {
+      "id": "perrault-bnf-bio",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb119192165.public",
+      "publisher": "Bibliothèque nationale de France",
+      "publisherHost": "catalogue.bnf.fr",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 62098,
+      "sha256": "4651c4a38d20cb166f2fea69a13bdd350f779dbd5d1376d84fef94205d4c507d",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "tionale Pays : France Langue(s) : français . françaisA traduit de : latin Sexe : Masculin Naissance : 1628-01-12, Paris (France) Mort : 1703-05-16, Paris (France) Homme de lettres, conteur. - Membre de l'Académie française (1671). - Contrôleur général de la Surintendance des bâtiments du Roi. - Les contes ont été publiés en 1697 sous le nom de son fils : Perrault d'Armancour. Forme(s) rejetée(s) : < Perrault, Carlos ",
+      "excerptSha256": "0257247d762e7e4c31268c450f4c2be7c3c5c66dbb9f12c8a2b154c68f8cca1c"
+    },
+    {
+      "id": "perrault-academy-dob",
+      "url": "https://www.academie-francaise.fr/les-immortels/charles-perrault",
+      "publisher": "Académie française",
+      "publisherHost": "www.academie-francaise.fr",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 37173,
+      "sha256": "127b348e091885b97d38c4dc86f6240c8241bc6feca0f9634ded53854066839c",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "e en images L’actualité Charles PERRAULT Élu en 1671 au fauteuil 23 N°85 Poète Biographie Né à Paris, le 12 janvier 1628. Frère de Claude Perrault, l’architecte du Louvre, favori et protégé de Colbert, il fut secrétaire perpétuel de l’Académie des Inscriptions, après avoir fait partie avec Chapelain",
+      "excerptSha256": "3dbb486b9aaf1664acc5366d0e4771043e91eab1c8e41fe4ddae7691af275c30"
+    },
+    {
+      "id": "perrault-academy-career",
+      "url": "https://www.academie-francaise.fr/les-immortels/charles-perrault",
+      "publisher": "Académie française",
+      "publisherHost": "www.academie-francaise.fr",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 37173,
+      "sha256": "127b348e091885b97d38c4dc86f6240c8241bc6feca0f9634ded53854066839c",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "gogiques Partenariats et collaborations L'Académie en images L’actualité Charles PERRAULT Élu en 1671 au fauteuil 23 N°85 Poète Biographie Né à Paris, le 12 janvier 1628. Frère de Claude Perrault, l’architecte du Louvre, favori et protégé de Colbert, il fut secrétaire perpétuel de l’Académie des Ins",
+      "excerptSha256": "430120e0aaa36555c9a0a55aff8ec694f5b0addeb202ec813e2f7c200a7c2316"
+    },
+    {
+      "id": "haruki-shin-dob",
+      "url": "https://www.shinchosha.co.jp/harukimurakami/author.html",
+      "publisher": "Shinchosha",
+      "publisherHost": "www.shinchosha.co.jp",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 110699,
+      "sha256": "52b513cfd508156652c30539f46e6ee5a55131ba54ac33b0d1037e04bad928a2",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "愛聴し自身の作品にモチーフとして取り入れるなどしている。 年表 ～1960年代 1970年代 1980年代 1990年代 2000年代 2010年代 2020年代 1949 0歳 1月12日京都府京都市に出生。まもなく兵庫県西宮市、のちに芦屋市に転居 1964 15歳 兵庫県立神戸高等学校入学 1968 19歳 早稲田大学第一文学部に入学 1974 25歳 5月 ジャズ喫茶「ピーター・キャット」を国分寺に開店（店名は以前飼っていた猫の名前から） 1975 26歳 早稲田大学第一文学部卒業 1977 28歳 「ピーター・キャット」を千駄ヶ谷に移す 1978 29歳 4月 神宮球場で野球を観戦中に",
+      "excerptSha256": "82d2443c4418525f91c79e2c4c079cf58ff08d64b7215d58b6a87c95fa835f5f"
+    },
+    {
+      "id": "haruki-shin-career",
+      "url": "https://www.shinchosha.co.jp/harukimurakami/author.html",
+      "publisher": "Shinchosha",
+      "publisherHost": "www.shinchosha.co.jp",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 110699,
+      "sha256": "52b513cfd508156652c30539f46e6ee5a55131ba54ac33b0d1037e04bad928a2",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "akami 新潮社公式サイト トップページ 著者紹介 作品紹介 エッセイ・書評 特設サイト ご感想 トップページ 著者紹介 作品紹介 エッセイ・書評 特設サイト ご感想 著者紹介 早稲田大学在学中にジャズ喫茶を開く。1979年、『風の歌を聴け』で群像新人文学賞を受賞しデビュー。1987年発表の『ノルウェイの森』は2009年時点で上下巻1000万部を売るベストセラーとなり、これをきっかけに村上春樹ブームが起きる。その他の主な作品に『羊をめぐる冒険』、『世界の終りとハードボイルド・ワンダーランド』、『ねじまき鳥クロニクル』、『海辺のカフカ』、『1Q84』などがある。 日本国外でも人気が高く、柴田元幸は村上を現代アメリカでも大きな影響力をもつ作家の一人と評している。 デビュー以",
+      "excerptSha256": "e7a24a60d03e12e06f8e80b8477ca169746aa64b2876bc4d0e160916184007b8"
+    },
+    {
+      "id": "haruki-ency-dob-career",
+      "url": "https://www.encyclopedia.com/journals/culture-magazines/murakami-haruki",
+      "publisher": "Encyclopedia.com",
+      "publisherHost": "www.encyclopedia.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 66791,
+      "sha256": "da3666b65cafa502c02861170e8567cb6a9dda13992945ae22dbf950eb732aaf",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "e views updated Murakami, Haruki Career Sidelights Selected Writings Sources Author B orn January 12, 1949, in Kyoto, Japan; son of teachers; married Yoko Takahashi, 1971. Education: Waseda University, Tokyo, Japan, 1975. Addresses: Contact —c/o Knopf Publishing Group, Random House, 1745 Broadway, New York , NY 10019. Home —Tokyo, Japan. Career O wner/operator, Peter Cat jazz club, Tokyo, 1974-82; published first book, Kaze no uta o kike (Hear the Wind Sing), 1979; visiting scholar, Princeton University , 1991-93; ",
+      "excerptSha256": "8ba872c6a7cab78e284788b3ba0ebc175c7f8ba7bee8486bdae27c4cf0a466a4"
+    },
+    {
+      "id": "mel-ency-dob-career",
+      "url": "https://www.encyclopedia.com/women/dictionaries-thesauruses-pictures-and-press-releases/chisholm-melanie-1974",
+      "publisher": "Encyclopedia.com",
+      "publisherHost": "www.encyclopedia.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 49624,
+      "sha256": "3e89e1a15e1da8873b893682d08c1bcf0aa9f1049fa122d86302beaaa6814d92",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "1974–) English singer. Name variations: Melanie C, Mel C, Sporty Spice, The Spice Girls . Born Melanie Jayne Chisholm, Jan 12, 1974, in Liverpool, England. Shot to fame as part of pop-quintet, the Spice Girls , formed in London (1994); released \"Wannabe,\" the 1st debut single by an all-girl band to enter international charts at #1 (1997), followed by Spice , which went to #1 in UK charts and was 1st debut album by UK performers to enter US charts at #1 (1997); had other Top-10 singles, including \"Say You'll be Ther",
+      "excerptSha256": "2129e743489e4f1dc735c34009df6fda199840851b14a5cee16de2661130ece3"
+    },
+    {
+      "id": "mel-fandango-dob",
+      "url": "https://www.fandango.com/people/melanie-chisholm-114769/biography",
+      "publisher": "Fandango",
+      "publisherHost": "www.fandango.com",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 116607,
+      "sha256": "2b92dcba6d690f8f138343e521610d84c09593fa86db636348f028243a8bfde5",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "OTHERMOMMYB3G1 Go to next offer Melanie Chisholm Biography Overview Biography Filmography Date of Birth: Jan 12, 1974 Birth Place: Whiston, Knowsley, Merseyside, England, UK Biography Melanie Chisholm-better known as Melanie C, and formerly as Sporty Spice-came to fame as one of the '90s UK pop sens",
+      "excerptSha256": "cdbb1fdef32e0568c9429f806a73d0e3c84f7fefcb3ec9f959ee42f03d6cb3b5"
+    },
+    {
+      "id": "mel-livenation-status",
+      "url": "https://www.livenation.com/artist/K8vZ9171qI0/melanie-c-events",
+      "publisher": "Live Nation",
+      "publisherHost": "www.livenation.com",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 475684,
+      "sha256": "4a6093e0dd04d9e0e237285743ee8780b07ae925512b40263c1f1c63e096954f",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "You Are ( Spice Girls cover ) 16 Spice Up Your Life ( Spice Girls cover ) 17 Drum Machine All Upcoming Shows Tue, Oct 20 SWG3 Galvanizers Glasgow, United Kingdom Buy Tickets Melanie C Wed, Oct 21 O2 Ritz Manchester Manchester, United Kingdom Buy Tickets Melanie C Fri, Oct 23 O2 Academy Brixton London, United Kingdom Buy Tickets Melanie C Sat, Oct 24 O2 Institute Birmingham Birmingham, United Kingdom Buy Tickets Melanie C Mon, Oct 26 Botanique Brussels, Belgium Buy Tickets Melanie C Fri, Oct 30 Metropol Berlin Berlin, Germany Buy Tickets Melanie C - World Tour Wed, Nov 11 Astor Theatre Perth, Australia Buy Tickets Melanie C Fri, Nov 13 Northcote Theatre Melbourne, Australia Buy Tickets Melanie C Sat, Nov 14 The Tivoli Brisbane, Australia Buy Tickets Melanie C Sun, Nov 15 Enmore Theatre Sydney Sydney, Australia Buy Tickets Melanie C",
+      "excerptSha256": "f1b3ba05184371ab1833d880fe5dcc9e7e033e3bc6006df29debb8718b3d169a"
+    },
+    {
+      "id": "wikidata-45765",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q45765.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 255040,
+      "sha256": "fe8815f540e4a27a5bb8c8be9d69e173daf3beecb65a977fc54313012d7c57e0",
+      "verificationMethod": "direct-http-json-entity-capture+claim-audit",
+      "excerpt": "Wikidata entity Q45765; English label: Jack London; p31=Q5; p569=+1876-01-12T00:00:00Z/11; p570=+1916-11-22T00:00:00Z/11; p27=Q30; p106=Q36180,Q1930187,Q6625963,Q164236,Q11774202,Q18814623,Q28389,Q18844224,Q4853732,Q3579035,Q12144794,Q49757,Q18939491,Q707995,Q12356615",
+      "excerptSha256": "07c64bb56876901267206e988b37dc0e2022f0bae6b28d9e697b0d56f6ba33a0"
+    },
+    {
+      "id": "wikidata-47478",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q47478.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 202287,
+      "sha256": "b15c042ae43e4e1ebb97cc67a1d14219411522b2725e7e345cca71553dc6cad6",
+      "verificationMethod": "direct-http-json-entity-capture+claim-audit",
+      "excerpt": "Wikidata entity Q47478; English label: Swami Vivekananda; p31=Q5; p569=+1863-01-12T00:00:00Z/11; p570=+1902-07-04T00:00:00Z/11; p27=Q129286; p106=Q733786,Q4964182,Q36180,Q49757,Q37226,Q64711780,Q12859263,Q177220,Q11774202,Q3579035,Q864380",
+      "excerptSha256": "9f744c578f8316e6b5c19d857a9a3d08a6def083dba162013c9b2e8382fbab66"
+    },
+    {
+      "id": "wikidata-128460",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q128460.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 236038,
+      "sha256": "f236251940ea35dc310015441d565e54baf783c001b7ef0148f8c6c07aa33ff0",
+      "verificationMethod": "direct-http-json-entity-capture+claim-audit",
+      "excerpt": "Wikidata entity Q128460; English label: Charles Perrault; p31=Q5; p569=+1628-01-12T00:00:00Z/11; p570=+1703-05-16T00:00:00Z/11; p27=Q70972; p106=Q36180,Q49757,Q1209498,Q20551564,Q6430706,Q4853732,Q17391638,Q15949613,Q69423232",
+      "excerptSha256": "681d8539599aa091b9891502896355757201ddfe705dabe368a7e9356be7f7bd"
+    },
+    {
+      "id": "wikidata-134798",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q134798.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 219574,
+      "sha256": "22f1ac53970dce28f1820d25e145047717b04a46a54869a97e34a5fbd0635a8a",
+      "verificationMethod": "direct-http-json-entity-capture+claim-audit",
+      "excerpt": "Wikidata entity Q134798; English label: Haruki Murakami; p31=Q5; p569=+1949-01-12T00:00:00Z/11; p570=; p27=Q17; p106=Q14467526,Q6625963,Q36180,Q333634,Q11774202,Q11513337,Q1622272,Q18844224,Q12144794,Q15949613",
+      "excerptSha256": "3a693a93e4942958ae4247a6f27e52d7ae6958bac9f119d569444322b4331b5f"
+    },
+    {
+      "id": "wikidata-151830",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q151830.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 140557,
+      "sha256": "c76e34be5753f635255149106611b4069814c1604c0767bbf3a0c5c71b3d236b",
+      "verificationMethod": "direct-http-json-entity-capture+claim-audit",
+      "excerpt": "Wikidata entity Q151830; English label: Melanie C; p31=Q5; p569=+1974-01-12T00:00:00Z/11; p570=; p27=Q145; p106=Q488205,Q33999,Q55960555,Q36834,Q60723829,Q639669",
+      "excerptSha256": "7e3f529b2151a00dc38c8e829bc17445902073dbd42eb24ab4d887ad0f33a260"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "name": "Jack London",
+      "birthDate": "1876-01-12",
+      "lifeStatus": "deceased",
+      "deathDate": "1916-11-22",
+      "deathDatePrecision": "day",
+      "dobSourceIds": [
+        "jack-park-dob",
+        "jack-society-dob-death"
+      ],
+      "statusSourceId": "jack-society-dob-death",
+      "deathDateSourceIds": [
+        "jack-society-dob-death"
+      ],
+      "careerFactIds": [
+        "jack-call-wild",
+        "jack-fifty-books"
+      ],
+      "id": "jack-london",
+      "wikidataId": "Q45765",
+      "countryCode": "US",
+      "category": "literature",
+      "occupation": [
+        "nhà văn",
+        "nhà báo"
+      ],
+      "birthplace": "San Francisco, California, Hoa Kỳ",
+      "wikidataLabel": "Jack London",
+      "birthplaceEvidencePhrase": "San Francisco",
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "jack-call-wild",
+            "jack-fifty-books"
+          ],
+          "rationale": "Các nguồn ghi nhận tiểu thuyết nổi tiếng và sản lượng sách hư cấu, phi hư cấu của ông."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-45765",
+      "identityClaims": {
+        "label": "Jack London",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1876-01-12T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 19
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1916-11-22T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 18
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30"
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q36180"
+          },
+          {
+            "rank": "normal",
+            "value": "Q1930187"
+          },
+          {
+            "rank": "normal",
+            "value": "Q6625963"
+          },
+          {
+            "rank": "normal",
+            "value": "Q164236"
+          },
+          {
+            "rank": "normal",
+            "value": "Q11774202"
+          },
+          {
+            "rank": "normal",
+            "value": "Q18814623"
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389"
+          },
+          {
+            "rank": "normal",
+            "value": "Q18844224"
+          },
+          {
+            "rank": "normal",
+            "value": "Q4853732"
+          },
+          {
+            "rank": "normal",
+            "value": "Q3579035"
+          },
+          {
+            "rank": "normal",
+            "value": "Q12144794"
+          },
+          {
+            "rank": "normal",
+            "value": "Q49757"
+          },
+          {
+            "rank": "normal",
+            "value": "Q18939491"
+          },
+          {
+            "rank": "normal",
+            "value": "Q707995"
+          },
+          {
+            "rank": "normal",
+            "value": "Q12356615"
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q36180",
+          "Q1930187"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q45765",
+        "https://jacklondonpark.com/jack-london-books/",
+        "https://www.jack-london.org/en/biography.html"
+      ],
+      "before": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q45765",
+          "https://www.parks.ca.gov/pages/478/files/JackLondonBrochure2008.pdf",
+          "https://www.britannica.com/biography/Jack-London",
+          "https://brockhaus.de/ecs/julex/article/london-jack"
+        ],
+        "deathDateSourceUrls": [
+          "https://brockhaus.de/ecs/julex/article/london-jack"
+        ],
+        "biography": "Jack London sinh ngày 12/1/1876 tại San Francisco. Ông là nhà văn, nhà báo và tác giả của The Call of the Wild.",
+        "highlights": [
+          "The Call of the Wild được xuất bản năm 1903.",
+          "Sinh tại San Francisco ngày 12/1/1876."
+        ],
+        "birthplace": null,
+        "fields": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q45765",
+          "https://jacklondonpark.com/jack-london-books/",
+          "https://www.jack-london.org/en/biography.html",
+          "https://brockhaus.de/ecs/julex/article/london-jack"
+        ],
+        "deathDateSourceUrls": [
+          "https://www.jack-london.org/en/biography.html",
+          "https://brockhaus.de/ecs/julex/article/london-jack"
+        ],
+        "birthplace": "San Francisco, California, Hoa Kỳ",
+        "fields": [
+          "design-creative"
+        ],
+        "biography": "Jack London, tên khai sinh John Griffith Chaney, là nhà văn và nhà báo Mỹ sinh tại San Francisco. Ông nổi tiếng quốc tế nhờ The Call of the Wild (1903) và The Sea Wolf (1904); từ năm 1900 đến 1916, ông viết hơn 50 cuốn sách.",
+        "highlights": [
+          "Jack London nổi tiếng quốc tế nhờ The Call of the Wild (1903) và The Sea-Wolf (1904).",
+          "Trong giai đoạn 1900–1916, Jack London viết hơn 50 cuốn sách, gồm cả hư cấu và phi hư cấu."
+        ],
+        "verifiedAt": "2026-10-08"
+      }
+    },
+    {
+      "name": "Swami Vivekananda",
+      "birthDate": "1863-01-12",
+      "lifeStatus": "deceased",
+      "deathDate": "1902-07-04",
+      "deathDatePrecision": "day",
+      "dobSourceIds": [
+        "vive-pib-dob",
+        "vive-sg-dob"
+      ],
+      "statusSourceId": "vive-pib-death",
+      "deathDateSourceIds": [
+        "vive-pib-death",
+        "vive-sg-death"
+      ],
+      "careerFactIds": [
+        "vive-mission",
+        "vive-chicago-speech"
+      ],
+      "id": "swami-vivekananda",
+      "wikidataId": "Q47478",
+      "countryCode": "IN",
+      "category": "history",
+      "occupation": [
+        "tu sĩ",
+        "triết gia"
+      ],
+      "birthplace": "Kolkata, Ấn Độ",
+      "wikidataLabel": "Swami Vivekananda",
+      "birthplaceEvidencePhrase": "born in Kolkata",
+      "fields": [
+        "education-thought"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "education-thought",
+          "careerFactIds": [
+            "vive-mission",
+            "vive-chicago-speech"
+          ],
+          "rationale": "Ông tổ chức một sứ mệnh giáo dục, tư tưởng và xã hội, đồng thời diễn thuyết về triết lý tôn giáo."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-47478",
+      "identityClaims": {
+        "label": "Swami Vivekananda",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1863-01-12T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 5
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1902-07-04T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 5
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q129286"
+          }
+        ],
+        "selectedCountryQid": "Q129286",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q733786"
+          },
+          {
+            "rank": "normal",
+            "value": "Q4964182"
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180"
+          },
+          {
+            "rank": "normal",
+            "value": "Q49757"
+          },
+          {
+            "rank": "normal",
+            "value": "Q37226"
+          },
+          {
+            "rank": "normal",
+            "value": "Q64711780"
+          },
+          {
+            "rank": "normal",
+            "value": "Q12859263"
+          },
+          {
+            "rank": "normal",
+            "value": "Q177220"
+          },
+          {
+            "rank": "normal",
+            "value": "Q11774202"
+          },
+          {
+            "rank": "normal",
+            "value": "Q3579035"
+          },
+          {
+            "rank": "normal",
+            "value": "Q864380"
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q733786",
+          "Q4964182"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q47478",
+        "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=114547",
+        "https://www.ramakrishna.org.sg/our-inspiration2.html",
+        "https://belurmath.org/faq/"
+      ],
+      "before": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q47478",
+          "https://www.ramakrishna.org.sg/AboutUs/SwamiVivekananda",
+          "https://www.britannica.com/biography/Vivekananda"
+        ],
+        "biography": "Swami Vivekananda sinh ngày 12/1/1863 tại Kolkata. Ông là tu sĩ Hindu và diễn giả, được biết đến qua bài phát biểu tại Chicago năm 1893.",
+        "highlights": [
+          "Phát biểu tại Nghị viện Tôn giáo Thế giới ở Chicago năm 1893.",
+          "Sinh ngày 12/1/1863 tại Kolkata."
+        ],
+        "birthplace": null,
+        "fields": null,
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q47478",
+          "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=114547",
+          "https://www.ramakrishna.org.sg/our-inspiration2.html",
+          "https://belurmath.org/faq/"
+        ],
+        "birthplace": "Kolkata, Ấn Độ",
+        "fields": [
+          "education-thought"
+        ],
+        "biography": "Swami Vivekananda, tên khai sinh Narendranath Datta, là tu sĩ Hindu và nhà tư tưởng Ấn Độ sinh tại Kolkata. Ông diễn thuyết tại Nghị viện Tôn giáo Thế giới ở Chicago năm 1893 và sáng lập Ramakrishna Mission năm 1897.",
+        "highlights": [
+          "Swami Vivekananda sáng lập Ramakrishna Mission ngày 1/5/1897.",
+          "Bài diễn thuyết của ông tại Nghị viện Tôn giáo Thế giới ở Chicago năm 1893 mở đầu bằng lời chào “Sisters and brothers of America”."
+        ],
+        "lifeStatus": "deceased",
+        "deathDate": "1902-07-04",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=114547",
+          "https://www.ramakrishna.org.sg/our-inspiration2.html"
+        ],
+        "verifiedAt": "2026-10-08"
+      }
+    },
+    {
+      "name": "Charles Perrault",
+      "birthDate": "1628-01-12",
+      "lifeStatus": "deceased",
+      "deathDate": "1703-05-16",
+      "deathDatePrecision": "day",
+      "dobSourceIds": [
+        "perrault-bnf-bio",
+        "perrault-academy-dob"
+      ],
+      "statusSourceId": "perrault-bnf-bio",
+      "deathDateSourceIds": [
+        "perrault-bnf-bio"
+      ],
+      "careerFactIds": [
+        "perrault-election",
+        "perrault-tales-1697"
+      ],
+      "id": "charles-perrault",
+      "wikidataId": "Q128460",
+      "countryCode": "FR",
+      "category": "literature",
+      "occupation": [
+        "nhà văn"
+      ],
+      "birthplace": "Paris, Pháp",
+      "wikidataLabel": "Charles Perrault",
+      "birthplaceEvidencePhrase": "Paris (France)",
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "perrault-election",
+            "perrault-tales-1697"
+          ],
+          "rationale": "Các nguồn ghi nhận tư cách nhà văn, thành viên Académie française và tập truyện xuất bản năm 1697."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-128460",
+      "identityClaims": {
+        "label": "Charles Perrault",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1628-01-12T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 14
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1703-05-16T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 11
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q70972"
+          }
+        ],
+        "selectedCountryQid": "Q70972",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q36180"
+          },
+          {
+            "rank": "normal",
+            "value": "Q49757"
+          },
+          {
+            "rank": "normal",
+            "value": "Q1209498"
+          },
+          {
+            "rank": "normal",
+            "value": "Q20551564"
+          },
+          {
+            "rank": "normal",
+            "value": "Q6430706"
+          },
+          {
+            "rank": "normal",
+            "value": "Q4853732"
+          },
+          {
+            "rank": "normal",
+            "value": "Q17391638"
+          },
+          {
+            "rank": "normal",
+            "value": "Q15949613"
+          },
+          {
+            "rank": "normal",
+            "value": "Q69423232"
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q36180"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q128460",
+        "https://catalogue.bnf.fr/ark:/12148/cb119192165.public",
+        "https://www.academie-francaise.fr/les-immortels/charles-perrault"
+      ],
+      "before": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q128460",
+          "https://snl.no/Charles_Perrault",
+          "https://www.academie-francaise.fr/les-immortels/charles-perrault"
+        ],
+        "biography": "Charles Perrault sinh ngày 12/1/1628 tại Paris. Ông là nhà văn Pháp, được biết đến qua các truyện như Cô bé Lọ Lem và Người đẹp ngủ trong rừng.",
+        "highlights": [
+          "Tác giả tập Histoires ou contes du temps passé (1697).",
+          "Hồ sơ tác giả của Thư viện Quốc gia Pháp ghi ngày sinh 12/1/1628."
+        ],
+        "birthplace": null,
+        "fields": null,
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q128460",
+          "https://catalogue.bnf.fr/ark:/12148/cb119192165.public",
+          "https://www.academie-francaise.fr/les-immortels/charles-perrault"
+        ],
+        "birthplace": "Paris, Pháp",
+        "fields": [
+          "design-creative"
+        ],
+        "biography": "Charles Perrault là nhà văn Pháp sinh tại Paris. Ông được bầu vào Académie française năm 1671; các truyện của ông được xuất bản năm 1697 dưới tên con trai, Perrault d’Armancour.",
+        "highlights": [
+          "Charles Perrault được bầu vào Académie française năm 1671.",
+          "Truyện của Perrault được xuất bản năm 1697 dưới tên con trai ông, Perrault d’Armancour."
+        ],
+        "lifeStatus": "deceased",
+        "deathDate": "1703-05-16",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://catalogue.bnf.fr/ark:/12148/cb119192165.public"
+        ],
+        "verifiedAt": "2026-10-08"
+      }
+    }
+  ],
+  "newProfiles": [
+    {
+      "name": "Haruki Murakami",
+      "birthDate": "1949-01-12",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "haruki-shin-dob",
+        "haruki-ency-dob-career"
+      ],
+      "careerFactIds": [
+        "haruki-peter-cat",
+        "haruki-first-book"
+      ],
+      "countryCode": "JP",
+      "category": "literature",
+      "occupation": [
+        "nhà văn",
+        "dịch giả"
+      ],
+      "birthplace": "Kyoto, Nhật Bản",
+      "birthplaceEvidencePhrase": "京都府京都市",
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "haruki-peter-cat",
+            "haruki-first-book"
+          ],
+          "rationale": "Hai facts được duyệt ghi nhận hành trình sáng tác và lần ra mắt tiểu thuyết đầu tay của ông."
+        }
+      ],
+      "id": "haruki-murakami",
+      "wikidataId": "Q134798",
+      "wikidataLabel": "Haruki Murakami",
+      "wikidataCaptureId": "wikidata-134798",
+      "identityClaims": {
+        "label": "Haruki Murakami",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1949-01-12T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 6
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q17"
+          }
+        ],
+        "selectedCountryQid": "Q17",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q14467526"
+          },
+          {
+            "rank": "normal",
+            "value": "Q6625963"
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180"
+          },
+          {
+            "rank": "normal",
+            "value": "Q333634"
+          },
+          {
+            "rank": "normal",
+            "value": "Q11774202"
+          },
+          {
+            "rank": "normal",
+            "value": "Q11513337"
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272"
+          },
+          {
+            "rank": "normal",
+            "value": "Q18844224"
+          },
+          {
+            "rank": "normal",
+            "value": "Q12144794"
+          },
+          {
+            "rank": "normal",
+            "value": "Q15949613"
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q36180",
+          "Q333634"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q134798",
+        "https://www.shinchosha.co.jp/harukimurakami/author.html",
+        "https://www.encyclopedia.com/journals/culture-magazines/murakami-haruki"
+      ]
+    },
+    {
+      "name": "Melanie C",
+      "birthDate": "1974-01-12",
+      "lifeStatus": "living",
+      "deathDate": null,
+      "dobSourceIds": [
+        "mel-ency-dob-career",
+        "mel-fandango-dob"
+      ],
+      "statusSourceId": "mel-livenation-status",
+      "statusEvidenceAsOf": "2026-10-08",
+      "careerFactIds": [
+        "mel-spice-girls",
+        "mel-upcoming-shows"
+      ],
+      "countryCode": "GB",
+      "category": "music",
+      "occupation": [
+        "ca sĩ",
+        "nhạc sĩ"
+      ],
+      "birthplace": "Whiston, Merseyside, Anh",
+      "birthplaceEvidencePhrase": "Birth Place: Whiston",
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "mel-spice-girls",
+            "mel-upcoming-shows"
+          ],
+          "rationale": "Nguồn ghi nhận sự nghiệp nhóm nhạc và lịch biểu diễn của cô."
+        }
+      ],
+      "id": "melanie-c",
+      "wikidataId": "Q151830",
+      "wikidataLabel": "Melanie C",
+      "wikidataCaptureId": "wikidata-151830",
+      "identityClaims": {
+        "label": "Melanie C",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1974-01-12T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q145"
+          }
+        ],
+        "selectedCountryQid": "Q145",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q488205"
+          },
+          {
+            "rank": "normal",
+            "value": "Q33999"
+          },
+          {
+            "rank": "normal",
+            "value": "Q55960555"
+          },
+          {
+            "rank": "normal",
+            "value": "Q36834"
+          },
+          {
+            "rank": "normal",
+            "value": "Q60723829"
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669"
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q488205"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q151830",
+        "https://www.encyclopedia.com/women/dictionaries-thesauruses-pictures-and-press-releases/chisholm-melanie-1974",
+        "https://www.fandango.com/people/melanie-chisholm-114769/biography",
+        "https://www.livenation.com/artist/K8vZ9171qI0/melanie-c-events"
+      ]
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "jack-call-wild",
+      "profileId": "jack-london",
+      "displayText": "Jack London nổi tiếng quốc tế nhờ The Call of the Wild (1903) và The Sea-Wolf (1904).",
+      "sourceId": "jack-society-literary",
+      "evidencePhrase": "internationally famous through The Call of the Wild (1903), The Sea-Wolf (1904)"
+    },
+    {
+      "id": "jack-fifty-books",
+      "profileId": "jack-london",
+      "displayText": "Trong giai đoạn 1900–1916, Jack London viết hơn 50 cuốn sách, gồm cả hư cấu và phi hư cấu.",
+      "sourceId": "jack-society-career",
+      "evidencePhrase": "Between 1900 and 1916 he produced over fifty books"
+    },
+    {
+      "id": "vive-mission",
+      "profileId": "swami-vivekananda",
+      "displayText": "Swami Vivekananda sáng lập Ramakrishna Mission ngày 1/5/1897.",
+      "sourceId": "vive-pib-mission",
+      "evidencePhrase": "founded the Ramakrishna Mission on 1 May 1897"
+    },
+    {
+      "id": "vive-chicago-speech",
+      "profileId": "swami-vivekananda",
+      "displayText": "Bài diễn thuyết của ông tại Nghị viện Tôn giáo Thế giới ở Chicago năm 1893 mở đầu bằng lời chào “Sisters and brothers of America”.",
+      "sourceId": "vive-belur-speech",
+      "evidencePhrase": "Swami Vivekananda’s speeches at the World’s Parliament of Religions in Chicago, USA, in 1893"
+    },
+    {
+      "id": "perrault-election",
+      "profileId": "charles-perrault",
+      "displayText": "Charles Perrault được bầu vào Académie française năm 1671.",
+      "sourceId": "perrault-academy-career",
+      "evidencePhrase": "Élu en 1671 au fauteuil 23"
+    },
+    {
+      "id": "perrault-tales-1697",
+      "profileId": "charles-perrault",
+      "displayText": "Truyện của Perrault được xuất bản năm 1697 dưới tên con trai ông, Perrault d’Armancour.",
+      "sourceId": "perrault-bnf-bio",
+      "evidencePhrase": "Les contes ont été publiés en 1697 sous le nom de son fils"
+    },
+    {
+      "id": "haruki-peter-cat",
+      "profileId": "haruki-murakami",
+      "displayText": "Khi còn học tại Đại học Waseda, Haruki Murakami mở một quán cà phê nhạc jazz.",
+      "sourceId": "haruki-shin-career",
+      "evidencePhrase": "早稲田大学在学中にジャズ喫茶を開く"
+    },
+    {
+      "id": "haruki-first-book",
+      "profileId": "haruki-murakami",
+      "displayText": "Cuốn sách đầu tiên của ông, Kaze no uta o kike (Hear the Wind Sing), được xuất bản năm 1979.",
+      "sourceId": "haruki-ency-dob-career",
+      "evidencePhrase": "published first book, Kaze no uta o kike (Hear the Wind Sing), 1979"
+    },
+    {
+      "id": "mel-spice-girls",
+      "profileId": "melanie-c",
+      "displayText": "Melanie C nổi tiếng khi là thành viên Spice Girls và được biết đến với biệt danh Sporty Spice.",
+      "sourceId": "mel-ency-dob-career",
+      "evidencePhrase": "Shot to fame as part of pop-quintet, the Spice Girls"
+    },
+    {
+      "id": "mel-upcoming-shows",
+      "profileId": "melanie-c",
+      "displayText": "Trang Live Nation liệt kê các buổi diễn sắp tới của Melanie C tại Glasgow ngày 20/10 và Perth ngày 11/11.",
+      "sourceId": "mel-livenation-status",
+      "evidencePhrase": "All Upcoming Shows Tue, Oct 20"
+    }
+  ],
+  "wikidataReview": {
+    "profiles": {
+      "Q45765": {
+        "label": "Jack London",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1876-01-12T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 19
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1916-11-22T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 18
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 5
+          },
+          {
+            "rank": "normal",
+            "value": "Q1930187",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q6625963",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q164236",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q11774202",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q18814623",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q18844224",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q4853732",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q3579035",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q12144794",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q49757",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q18939491",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q707995",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q12356615",
+            "references": 1
+          }
+        ]
+      },
+      "Q47478": {
+        "label": "Swami Vivekananda",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1863-01-12T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 5
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1902-07-04T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 5
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q129286",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q733786",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q4964182",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q49757",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q37226",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q64711780",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q12859263",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q177220",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q11774202",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q3579035",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q864380",
+            "references": 0
+          }
+        ]
+      },
+      "Q128460": {
+        "label": "Charles Perrault",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1628-01-12T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 14
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1703-05-16T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 11
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q70972",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 5
+          },
+          {
+            "rank": "normal",
+            "value": "Q49757",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1209498",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q20551564",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q6430706",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q4853732",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q17391638",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q15949613",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q69423232",
+            "references": 1
+          }
+        ]
+      },
+      "Q134798": {
+        "label": "Haruki Murakami",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1949-01-12T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 6
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q17",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q14467526",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q6625963",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "value": "Q333634",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q11774202",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q11513337",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q18844224",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q12144794",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q15949613",
+            "references": 0
+          }
+        ]
+      },
+      "Q151830": {
+        "label": "Melanie C",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1974-01-12T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q145",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q488205",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q33999",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q55960555",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36834",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q60723829",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669",
+            "references": 1
+          }
+        ]
+      }
+    },
+    "conflicts": []
+  },
+  "reviewNotes": [
+    "Two newly added profiles are Japan and United Kingdom, so this batch makes no additional United States additions.",
+    "Haruki Murakami lifeStatus remains unknown; no recent identity-matched current-status evidence was retained.",
+    "Swami Vivekananda Wikidata P27 identifies the historical British Raj (Q129286); countryCode IN records present-day geographic/cultural origin from the independent birth sources.",
+    "The PIB page returned HTTP 403 on a later recheck; its evidence row uses the preserved earlier direct HTTP 200 body capture from this review session."
+  ]
+}

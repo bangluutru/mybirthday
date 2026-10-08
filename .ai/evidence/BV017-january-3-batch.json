@@ -1,0 +1,1025 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-03",
+  "capturedAt": "2026-10-08T12:11:00Z",
+  "sourceCaptures": [
+    {
+      "id": "tolkien-estate",
+      "url": "https://www.tolkienestate.com/es/vida/biography/",
+      "publisher": "The Tolkien Estate",
+      "publisherHost": "www.tolkienestate.com",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 12768,
+      "sha256": "f68314347d9645b700e2f6253777f5392b7c434369879f75f6ddb02e89d3aa21",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Auden (1955) Carta 212 a Rhona Beare (1958) Letter to Eileen Elgar, September 1963 Priscilla Tolkien, 26 Nov 1963 Letter to Christopher Bretherton, a reader, 16 July 1964 Michael Tolkien, 1967-1968 Letter to Carole Batten-Phelps, a reader, autumn 1971 Christopher Tolkien, 11 July 1972 Vida Biography Timeline Family photographs AUDIOVISUAL Audio Visual Seleccionar página Home / Vida / Biography Biography Childhood John Ronald Reuel Tolkien was born on 3rd January 1892 in Bloemfontein, in the Orange Free State (now South Africa), to Arthur and Mabel Tolkien. … It was published by George Allen & Unwin in 1937 with Tolkien’s own illustrations, maps and dust jacket design. … It appeared in three volumes between 1954 and 1955. … He died on 2nd September 1973, aged eighty-one, while visiting friends in Bournemouth and is buried in Oxford alongside his beloved wife Edith.",
+      "excerptSha256": "4666fc0da2810b0ab33b9928dd772d1c0b00f4fb52a6262cc0838abb1db30829"
+    },
+    {
+      "id": "tolkien-birmingham",
+      "url": "https://www.birmingham.gov.uk/info/50166/j_r_r_tolkien/1584/",
+      "publisher": "Birmingham City Council",
+      "publisherHost": "www.birmingham.gov.uk",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 3384,
+      "sha256": "f33ee78d4597e3304cf092ab27880d373dd788ec24a13bd4ebbe2657e70e8bd9",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "John Ronald Reuel Tolkien, author of The Hobbit and The Lord of the Rings , was born in Bloemfontein, an Afrikaans-speaking area of South Africa, on 3 January 1892. … John Ronald Reuel Tolkien, author of The Hobbit and The Lord of the Rings , was born in Bloemfontein, an Afrikaans-speaking area of South Africa, on 3 January 1892.",
+      "excerptSha256": "3e1f8c1b69b7e1698c4719a1c1a394b1772e98fe5c5389de8e048c636a513bb3"
+    },
+    {
+      "id": "f1-schumacher",
+      "url": "https://www.formula1.com/en/information/drivers-hall-of-fame-michael-schumacher.7KdX5nJlTG55vR5JQSbZ21",
+      "publisher": "Formula 1",
+      "publisherHost": "www.formula1.com",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 8895,
+      "sha256": "e55396091d84673350b77e7422bf95999006cef6bd9ba18b5feaccbbf213ae53",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "He was born on 3 January, 1969, near Cologne, Germany, six years before his brother Ralf, who would also become a Formula One driver of note. … Seven times a champion, Michael Schumacher also holds nearly every scoring record in the book by a considerable margin.",
+      "excerptSha256": "e26ce5dbf2aa05ee0eab28afa5f0fc29ad50468292563e6f63703aa94a3fdabd"
+    },
+    {
+      "id": "schumacher-mercedes",
+      "url": "https://www.mercedesamgf1.com/news/50-years-ago-a-star-was-born",
+      "publisher": "Mercedes-AMG PETRONAS F1 Team",
+      "publisherHost": "www.mercedesamgf1.com",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 4671,
+      "sha256": "9b1e615541c2817af28e5cb8c20f644951e35ef789bc0f7421335ff3458a615e",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "0 Years Ago, A Star Was Born - Mercedes-AMG PETRONAS F1 Team Skip to content Sign In Team Store Mercedes-AMG Mercedes-Benz Latest Back News F1 Explained Wallpapers Hear From Us Driver Cards Media Centre 2026 Back Car Calendar Standings Team Back Our Team Drivers F1 Academy Social Impact Esports Club Hospitality Sustainability Back Engineering Change On The Road At Home On The Car Beyond Our World Governance Reports Fans Back Interactive Experiences Off-Track Experiences Competitions Wallpapers Team Patches Winners' Stories Fan View Driver Cards FAQs T&Cs Partners Careers The Road to 2026 Back Overview Articles Watch the Series Interactive Quizzes Sign In Team Store Mercedes-AMG Mercedes-Benz 50 Years Ago, A Star Was Born Wishing Michael Schumacher all the very best on his birthday! On 3 January 1969, a boy named Michael Schumacher was born in the small town of Hürth, Germany - a boy, who would go on to become the most successful Formula One driver of all times. … With 91 race wins and seven FIA Formula One Drivers' World Championships, he is an absolute icon of the sport who has dominated the series like no one else. … He moved to Formula One in the following year, racing for Jordan before joining Benetton with whom he went on to win the Drivers' World Championship in 1994 and 1995. … He stayed with the team from Maranello for a decade and won five consecutive Drivers' (2000-2004) and six consecutive Constructors' (1999-2004) Championships with the Scuderia.",
+      "excerptSha256": "b5c72339145dfcc22e9c987f18b513d0b67ec3520b4b82e283dcf83e174be91c"
+    },
+    {
+      "id": "attlee-gov",
+      "url": "https://www.gov.uk/government/history/past-prime-ministers/clement-attlee",
+      "publisher": "GOV.UK",
+      "publisherHost": "www.gov.uk",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 7920,
+      "sha256": "31d69924b0c76327b56e3ac3238e9d37e52db5fe78bdbe0f43c892be6b8ccbb7",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Born 3 January 1883, London Died 8 October 1967, London Dates in office 1945 to 1951 Political party Labour Major acts National Health Service Act 1946: made healthcare free on the basis of citizenship and need rather than the payment of fees or insurance premiums. … Born 3 January 1883, London Died 8 October 1967, London Dates in office 1945 to 1951 Political party Labour Major acts National Health Service Act 1946: made healthcare free on the basis of citizenship and need rather than the payment of fees or insurance premiums. … Accept additional cookies Reject additional cookies View cookies Hide cookie message Skip to main content GOV.UK Navigation menu Menu Menu Services and information Benefits Births, death, marriages and care Business and self-employed Childcare and parenting Citizenship and living in the UK Crime, justice and the law Disabled people Driving and transport Education and learning Employing people Environment and countryside Housing and local services Money and tax Passports, travel and living abroad Visas and immigration Working, jobs and pensions Government activity Departments Departments, agencies and public bodies News News stories, speeches, letters and notices Guidance and regulation Detailed guidance, regulations and rules Research and statistics Reports, analysis and official statistics Policy papers and consultations Consultations and strategy Transparency Data, Freedom of Information releases and corporate reports Search GOV.UK &times; Search GOV.UK Search Search GOV.UK Search Home History of the UK government Past Prime Ministers Clement Attlee Labour 1945 to 1951 Clement Attlee was leader of the Labour Party from 1935 to 1955, and served as Britain’s Prime Minister from 1945 to 1951. … As Prime Minister, he enlarged and improved social services and the public sector in post-war Britain, creating the National Health Service and nationalising major industries and public utilities.",
+      "excerptSha256": "0a74df540c691bdc7f6b1706cba46d4e8af293e1e05e9d251110c6dfa074470a"
+    },
+    {
+      "id": "attlee-inner-temple",
+      "url": "https://www.innertemplelibrary.org.uk/wp-content/uploads/2017/10/Profile-Clement_Attlee.pdf",
+      "publisher": "The Honourable Society of the Inner Temple",
+      "publisherHost": "www.innertemplelibrary.org.uk",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 7037,
+      "sha256": "5da01fd3ed3e109b13956b169afd0a0aa03bfd83356f7dc3bcbe114f734dfa52",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "PROFILE\n                           Clement Attlee was born on 3 January 1883 in Putney, the seventh of\n\n                           eight children.",
+      "excerptSha256": "409bb80138a832e4e02906bc39282f788d26bc963affb213ba187ce0538817e3"
+    },
+    {
+      "id": "stills-apple",
+      "url": "https://snapshot.apple.com/us/person/6670615782",
+      "publisher": "Apple",
+      "publisherHost": "snapshot.apple.com",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 1773,
+      "sha256": "76070e6a022b6e0f91d5081319d77851c1330bf09bf064db82c59f07362f7a3b",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Stephen Stills - Movies and Music - Apple Snapshot Stephen Stills American musician Stephen Stills is an American musician. … Report a Concern Stephen Stills on Apple Music Albums Manassas Manassas 1972 Stephen Stills Stephen Stills 1970 Top Songs Love the One You're With Stephen Stills · 1970 Johnny's Garden Manassas · 1969 We Are Not Helpless Stephen Stills · 1970 More on Apple Music ↗ Stephen Stills on Apple TV Movies Echo in the Canyon Documentary · 2019 Legends of the Canyon: Classic Artists Documentary · 2010 Crosby, Stills, Nash & Young - Fifty By Four Documentary · 2014 More on Apple TV ↗ About FROM Dallas, TX, United States BORN January 3, 1945 GENRE Rock Apple Music Apple TV Snapshot Stephen Stills United States Apple Music Apple TV Apple Podcasts Copyright © 2026 Apple Inc.",
+      "excerptSha256": "2955193550bcf38312738978de1086478e9a590b020f3a6585c3ef086dab7ffc"
+    },
+    {
+      "id": "stills-encyclopedia",
+      "url": "https://www.encyclopedia.com/education/news-wires-white-papers-and-books/stills-stephen",
+      "publisher": "Encyclopedia.com (Gale)",
+      "publisherHost": "www.encyclopedia.com",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 13370,
+      "sha256": "d80bb45725285ce6b5cf0a791ef5747f36fc5b8b8ec0f6d1aa42c89da35a091a",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "tills, Stephen | Encyclopedia.com Skip to main content EXPLORE EXPLORE Earth and Environment History Literature and the Arts Medicine People Philosophy and Religion Places Plants and Animals Science and Technology Social Sciences and the Law Sports and Everyday Life Additional References Articles Daily College & Higher Education Pathways News wires white papers and books Stills, Stephen Stills, Stephen gale views updated Stephen Stills Rock guitarist, singer-songwriter For the Record &#x2026; Selected discography Sources Singer-songwriter Stephen Stills has influenced rock music in many different guises. … &#x201D; Stills was born January 3, 1945, in Dallas , Texas .",
+      "excerptSha256": "3eb50fb37c78185895963a3ee4fc0a5c940fc88e15c820fff31dc7340213d579"
+    },
+    {
+      "id": "stills-official",
+      "url": "https://stephenstills.com/pages/bio",
+      "publisher": "Stephen Stills official website",
+      "publisherHost": "stephenstills.com",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 9538,
+      "sha256": "fb9b68063bb223f0e4cb0fea99d2ed22c1c36aedef6afaf62162aa259ee3cb18",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "tephen Stills Bio | Stephen Stills Register a shopping account Log in Toggle main navigation Home Bio News Shop Discography close Home Bio News Shop Discography Stephen Stills Bio Stephen Stills is one of rock music's most enduring figures with a career now spanning six decades, multiple solo works, and four hugely influential groups – Manassas, Buffalo Springfield, Crosby, Stills & Nash (CSN), and Crosby, Stills, Nash & Young (CSNY). … He has been inducted into the Rock and Roll Hall of Fame twice for Buffalo Springfield and CSN, is a member of the Songwriter's Hall of Fame, and is a BMI Music Icon.",
+      "excerptSha256": "51a62ed71660a86741afa0e9f953b076b0a13bcaf611cb17e255ce863bbcdcbf"
+    },
+    {
+      "id": "stills-songhall",
+      "url": "https://www.songhall.org/profiles/stephen-stills",
+      "publisher": "Songwriters Hall of Fame",
+      "publisherHost": "www.songhall.org",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 5660,
+      "sha256": "f56ac6f77fb676d6db1149b6c062e41599141f84f8fe276ab4896fb5139c62f5",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "As Crosby, Stills & Nash (CSN), this trio of legendary singer-songwriters has been actively collaborating since 1969, when they first harmonized in either Joni Mitchell's living room or Mama Cass Elliot's dining room, depending on which member you ask (Crosby and Nash ascribe to the former, Stills is adamant about the latter.) Wherever its point of origin, the connection they forged from day one - as artists and as friends - was profound and unbreakable.",
+      "excerptSha256": "13ed4f818d753b5b3e2a815cbf9e07dae98ee1404080019b638785d9e9e9a116"
+    },
+    {
+      "id": "mel-golden",
+      "url": "https://goldenglobes.com/person/mel-gibson/",
+      "publisher": "Golden Globes",
+      "publisherHost": "goldenglobes.com",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 3827,
+      "sha256": "2bc1275afbcda379e91d82110c6ec91da21a3d1e29fcedb0770cc4b4bdd85338",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "DeMille Award LIVE Coverage LIVE Coverage 2024 LIVE Coverage 2025 LIVE Coverage 2026 News Latest News Video Gallery Photo Gallery History Golden Globes History About Award Rules and Entry Forms Media Info Publicist Info Publicist Application Voter Application Voter Info Golden Globes Leadership Team Contact Us FAQs Skip to content The 83rd Annual Golden Globes® Now Streaming On Demand Awards Database 5 Nominations 1 Win Mel Gibson Mel Gibson (born in Peekskill, New York January 3, 1956) moved to Sydney, Australia at age 12, worked with Australian directors George Miller in Mad Max (1979), and sequels The Road Warrior (1981), Beyond Thunderdome (1985), Peter Weir in Gallipoli (1981) and The Year of Living Dangerously (1982) with Sigourney Weaver, Gillian Armstrong in Mrs. … Golden Globe Awards 2017 Nominee Best Director - Motion Picture Hacksaw Ridge Mel Gibson 2007 Nominee Best Motion Picture – Non-English Language Apocalypto United States 2001 Nominee Best Performance by an Actor in a Motion Picture - Musical or Comedy What Women Want Mel Gibson 1997 Nominee Best Performance by an Actor in a Motion Picture - Drama Ransom Mel Gibson 1996 Winner Best Director - Motion Picture Braveheart Mel Gibson Subscribe to Newsletter Email address Submit GG will store your name and email address and use them to send the Weekly Globe newsletter.",
+      "excerptSha256": "42448b01950893d1e54515aa585f7242332da7e148fc95f208b7f32fdb04981b"
+    },
+    {
+      "id": "mel-biography",
+      "url": "https://www.biography.com/actors/mel-gibson",
+      "publisher": "Biography.com",
+      "publisherHost": "www.biography.com",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 13537,
+      "sha256": "d7c52770a361d5293201d5b8682bdfe03f7d989c45f0e804118719603470b052",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Early Life Mel Colmcille Gerard Gibson was born on January 3, 1956, in Peekskill, New York. … The film went on to triumph at the Oscars, winning top honors in five categories, including Best Picture and Best Director.",
+      "excerptSha256": "f2420ecf93e3a6d8ad8c378348e44c9f318bc2e6583cceeb299f02798e2cf2f6"
+    },
+    {
+      "id": "mel-oscar-moments",
+      "url": "https://www.oscars.org/oscars/ceremonies/1996/memorable-moments",
+      "publisher": "Academy of Motion Picture Arts and Sciences",
+      "publisherHost": "www.oscars.org",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 5808,
+      "sha256": "21e0de6e294eac9afe118ea7c6145b2736fdb4c2c13f0a1e0ea1701674db32ca",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "he 68th Academy Awards Memorable Moments | Oscars.org | Academy of Motion Picture Arts and Sciences Skip to main content Visit the largest museum in the world dedicated to the art of moviemaking — The Academy Museum Main navigation Home Awards/Industry Oscars Governors Awards Student Academy Awards Scientific and Technical Awards How To Become a Member SCIENCE AND TECHNOLOGY COUNCIL Museum/Collection Academy Museum Academy Film Archive Academy Library Academy Collection Support and Shop Academy100 Make a Gift to the Museum Make a Gift to the Academy Foundation BECOME A MUSEUM MEMBER Academy Museum Store Private Events and Filming Learn Gold Rising Nicholl Fellowships Fellowship for Women Academy Museum Education Program Accessibility Sustainability Alumni Program News News and Updates Member Login Home Awards/Industry Oscars Governors Awards Student Academy Awards Scientific and Technical Awards How To Become a Member SCIENCE AND TECHNOLOGY COUNCIL Museum/Collection Academy Museum Academy Film Archive Academy Library Academy Collection Support and Shop Academy100 Make a Gift to the Museum Make a Gift to the Academy Foundation BECOME A MUSEUM MEMBER Academy Museum Store Private Events and Filming Learn Gold Rising Nicholl Fellowships Fellowship for Women Academy Museum Education Program Accessibility Sustainability Alumni Program News News and Updates Member Login Search Members Login Home Oscars Oscars® Ceremonies Oscars® Ceremonies The 68th Academy Awards Memorable Moments The 68th Academy Awards Memorable Moments Image Best Picture: Braveheart Braveheart also won Academy Awards for Cinematography (John Toll), Directing (Mel Gibson), Makeup (Peter Frampton, Paul Pattison, and Lois Burwell), and Sound Effects Editing (Lon Bender and Per Hallberg). … he 68th Academy Awards Memorable Moments | Oscars.org | Academy of Motion Picture Arts and Sciences Skip to main content Visit the largest museum in the world dedicated to the art of moviemaking — The Academy Museum Main navigation Home Awards/Industry Oscars Governors Awards Student Academy Awards Scientific and Technical Awards How To Become a Member SCIENCE AND TECHNOLOGY COUNCIL Museum/Collection Academy Museum Academy Film Archive Academy Library Academy Collection Support and Shop Academy100 Make a Gift to the Museum Make a Gift to the Academy Foundation BECOME A MUSEUM MEMBER Academy Museum Store Private Events and Filming Learn Gold Rising Nicholl Fellowships Fellowship for Women Academy Museum Education Program Accessibility Sustainability Alumni Program News News and Updates Member Login Home Awards/Industry Oscars Governors Awards Student Academy Awards Scientific and Technical Awards How To Become a Member SCIENCE AND TECHNOLOGY COUNCIL Museum/Collection Academy Museum Academy Film Archive Academy Library Academy Collection Support and Shop Academy100 Make a Gift to the Museum Make a Gift to the Academy Foundation BECOME A MUSEUM MEMBER Academy Museum Store Private Events and Filming Learn Gold Rising Nicholl Fellowships Fellowship for Women Academy Museum Education Program Accessibility Sustainability Alumni Program News News and Updates Member Login Search Members Login Home Oscars Oscars® Ceremonies Oscars® Ceremonies The 68th Academy Awards Memorable Moments The 68th Academy Awards Memorable Moments Image Best Picture: Braveheart Braveheart also won Academy Awards for Cinematography (John Toll), Directing (Mel Gibson), Makeup (Peter Frampton, Paul Pattison, and Lois Burwell), and Sound Effects Editing (Lon Bender and Per Hallberg).",
+      "excerptSha256": "2fc727a53dc8937638b4ccea49a35f0f9fa413c6413d2ede0e7c3441ed8e3849"
+    },
+    {
+      "id": "wd-tolkien",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q892.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json",
+      "bytesRead": 399400,
+      "sha256": "afca8c8ef5ff658a2422193a1d385593981556a39e478b713c64d681190bb021",
+      "verificationMethod": "direct-http-entity-capture+reviewed-claims",
+      "excerpt": "Entity Q892, label J. R. R. Tolkien; P31 Q5; P569 +1892-01-03T00:00:00Z; P570 +1973-09-02T00:00:00Z; P27 Q145; P106 Q14467526,Q49757,Q1622272,Q4853732,Q333634,Q4263842,Q11774202,Q189290,Q482980,Q36180,Q201788,Q644687,Q37226,Q12144794,Q13418253,Q6625963,Q8178443,Q13570226",
+      "excerptSha256": "1159d128d6e8405432b2a076034d9bb832f90753331b90faa89aaf51b4d2e287"
+    },
+    {
+      "id": "wd-schumacher",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q9671.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json",
+      "bytesRead": 193203,
+      "sha256": "69c2fd255d8707d7c7b4acef883e65715884228d48a2e870595dff287e39d739",
+      "verificationMethod": "direct-http-entity-capture+reviewed-claims",
+      "excerpt": "Entity Q9671, label Michael Schumacher; P31 Q5; P569 +1969-01-03T00:00:00Z; P570 none; P27 Q183; P106 Q10841764,Q3014296",
+      "excerptSha256": "9281d940e532a1735c7454c2dc814ae20113913edc20e7725b7f9ed752eab11b"
+    },
+    {
+      "id": "wd-attlee",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q129006.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json",
+      "bytesRead": 229210,
+      "sha256": "09ac53915ae9e760fdb0b4b06d1f6dcd098a8df586f4b61b5dffa7de0988e782",
+      "verificationMethod": "direct-http-entity-capture+reviewed-claims",
+      "excerpt": "Entity Q129006, label Clement Attlee; P31 Q5; P569 +1883-01-03T00:00:00Z; P570 +1967-10-08T00:00:00Z; P27 Q145; P106 Q82955,Q193391,Q121594",
+      "excerptSha256": "fab3a0318b65826ef4ebe8a7f2f4262cce95701a1826d0e2ab60e3d94eac4b03"
+    },
+    {
+      "id": "wd-stills",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q354496.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json",
+      "bytesRead": 91252,
+      "sha256": "e4eafe0716caaf3ea540ad80a0e26f6929a865192d0b3ba0f51b4031bfda0038",
+      "verificationMethod": "direct-http-entity-capture+reviewed-claims",
+      "excerpt": "Entity Q354496, label Stephen Stills; P31 Q5; P569 +1945-01-03T00:00:00Z; P570 none; P27 Q30; P106 Q855091,Q177220,Q488205,Q10666486,Q36834,Q639669",
+      "excerptSha256": "e1e0cd05ab96fbebb1749f2a72b9073b3ffd23ccf5857b876dba2d9ae960847d"
+    },
+    {
+      "id": "wd-mel",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q42229.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json",
+      "bytesRead": 173840,
+      "sha256": "138c3eea6b6ae1166cc113f0cf47feab71bc1c4c6c8dab2ead8538753dca12f1",
+      "verificationMethod": "direct-http-entity-capture+reviewed-claims",
+      "excerpt": "Entity Q42229, label Mel Gibson; P31 Q5; P569 +1956-01-03T00:00:00Z; P570 none; P27 Q30,Q27; P106 Q3282637,Q10800557,Q2526255,Q36180,Q2405480,Q28389,Q10798782,Q33999,Q3455803,Q69423232",
+      "excerptSha256": "d71b0bebdc97415c3d543c666fc7559b370654a44e3a8d37e33c85bce899b78e"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "j-r-r-tolkien",
+      "name": "J. R. R. Tolkien",
+      "wikidataId": "Q892",
+      "birthDate": "1892-01-03",
+      "lifeStatus": "deceased",
+      "deathDate": "1973-09-02",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "tolkien-estate"
+      ],
+      "dobSourceIds": [
+        "tolkien-estate",
+        "tolkien-birmingham"
+      ],
+      "statusSourceId": "tolkien-estate",
+      "careerFactIds": [
+        "jan3-tolkien-1",
+        "jan3-tolkien-2"
+      ],
+      "wikidataCaptureId": "wd-tolkien",
+      "identityClaims": {
+        "label": "J. R. R. Tolkien",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1892-01-03T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1973-09-02T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q145",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q145",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q14467526",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q49757",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q4853732",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q333634",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q4263842",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q11774202",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q189290",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q482980",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q201788",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q644687",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q37226",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q12144794",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q13418253",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q6625963",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q8178443",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q13570226",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q482980",
+          "Q13418253"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q892",
+        "https://www.tolkienestate.com/es/vida/biography/",
+        "https://www.birmingham.gov.uk/info/50166/j_r_r_tolkien/1584/"
+      ],
+      "before": {
+        "id": "j-r-r-tolkien",
+        "slug": "j-r-r-tolkien",
+        "name": "J. R. R. Tolkien",
+        "birthDate": "1892-01-03",
+        "birthYear": 1892,
+        "birthMonth": 1,
+        "birthDay": 3,
+        "occupation": [
+          "nhà văn, học giả ngữ văn"
+        ],
+        "category": "literature",
+        "categoryLabel": "Nhà văn",
+        "countryCode": "GB",
+        "countryName": "Vương quốc Anh",
+        "countryFlag": "🇬🇧",
+        "image": "/people/placeholder.svg",
+        "shortDescription": "Nhà văn và học giả Anh, tác giả The Hobbit và The Lord of the Rings.",
+        "biography": "J. R. R. Tolkien sinh ngày 3/1/1892. Ông là nhà văn và học giả ngữ văn, được biết đến qua các tác phẩm The Hobbit và The Lord of the Rings.",
+        "highlights": [
+          "The Hobbit được xuất bản năm 1937.",
+          "The Lord of the Rings được xuất bản trong các năm 1954–1955."
+        ],
+        "wikidataId": "Q892",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q892",
+          "https://www.tolkienestate.com/es/vida/biography/",
+          "https://www.britannica.com/biography/J-R-R-Tolkien"
+        ],
+        "region": "west",
+        "verifiedAt": "2026-10-03",
+        "deathDate": null,
+        "deathDateSourceUrls": null,
+        "deathDatePrecision": null,
+        "lifeStatus": null
+      },
+      "after": {
+        "deathDate": "1973-09-02",
+        "deathDateSourceUrls": [
+          "https://www.tolkienestate.com/es/vida/biography/"
+        ],
+        "deathDatePrecision": "day",
+        "lifeStatus": "deceased",
+        "biography": "J. R. R. Tolkien là nhà văn, học giả ngữ văn và giáo sư tại Oxford. The Hobbit xuất bản năm 1937; The Lord of the Rings ra mắt thành ba tập trong giai đoạn 1954–1955. Ông qua đời ngày 2/9/1973.",
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q892",
+          "https://www.tolkienestate.com/es/vida/biography/",
+          "https://www.birmingham.gov.uk/info/50166/j_r_r_tolkien/1584/"
+        ],
+        "verifiedAt": "2026-10-08",
+        "highlights": [
+          "The Hobbit do nhà xuất bản George Allen & Unwin phát hành năm 1937.",
+          "The Lord of the Rings được xuất bản trong các năm 1954–1955."
+        ]
+      }
+    },
+    {
+      "id": "michael-schumacher",
+      "name": "Michael Schumacher",
+      "wikidataId": "Q9671",
+      "birthDate": "1969-01-03",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "f1-schumacher",
+        "schumacher-mercedes"
+      ],
+      "careerFactIds": [
+        "jan3-schumacher-1",
+        "jan3-schumacher-2"
+      ],
+      "wikidataCaptureId": "wd-schumacher",
+      "identityClaims": {
+        "label": "Michael Schumacher",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1969-01-03T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q183",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q183",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q10841764",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3014296",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q10841764"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q9671",
+        "https://www.formula1.com/en/information/drivers-hall-of-fame-michael-schumacher.7KdX5nJlTG55vR5JQSbZ21",
+        "https://www.mercedesamgf1.com/news/50-years-ago-a-star-was-born"
+      ],
+      "before": {
+        "id": "michael-schumacher",
+        "slug": "michael-schumacher",
+        "name": "Michael Schumacher",
+        "birthDate": "1969-01-03",
+        "birthYear": 1969,
+        "birthMonth": 1,
+        "birthDay": 3,
+        "occupation": [
+          "tay đua Công thức 1"
+        ],
+        "category": "athlete",
+        "categoryLabel": "Vận động viên",
+        "countryCode": "DE",
+        "countryName": "Đức",
+        "countryFlag": "🇩🇪",
+        "image": "/people/placeholder.svg",
+        "shortDescription": "Tay đua ô tô người Đức, bảy lần vô địch thế giới Công thức 1.",
+        "biography": "Michael Schumacher sinh ngày 3/1/1969 gần Cologne, Đức. Anh giành bảy chức vô địch thế giới Công thức 1 trong sự nghiệp.",
+        "highlights": [
+          "Vô địch thế giới Công thức 1 bảy lần.",
+          "Giành chức vô địch đầu tiên năm 1994 và chức vô địch thứ bảy năm 2004."
+        ],
+        "wikidataId": "Q9671",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Michael_Schumacher",
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q9671",
+          "https://www.formula1.com/en/information/drivers-hall-of-fame-michael-schumacher.7KdX5nJlTG55vR5JQSbZ21",
+          "https://www.ferrari.com/en-BE/formula1/michael-schumacher"
+        ],
+        "region": "west",
+        "verifiedAt": "2026-10-03",
+        "deathDate": null,
+        "deathDateSourceUrls": null,
+        "deathDatePrecision": null,
+        "lifeStatus": null
+      },
+      "after": {
+        "lifeStatus": "unknown",
+        "biography": "Michael Schumacher là tay đua Công thức 1 người Đức. Anh giành 91 chiến thắng chặng và bảy chức vô địch thế giới; năm chức vô địch liên tiếp gần nhất của anh đến với Ferrari từ 2000 đến 2004.",
+        "highlights": [
+          "Schumacher thắng 91 chặng và giành bảy chức vô địch thế giới F1.",
+          "Anh giành năm chức vô địch liên tiếp từ năm 2000 đến năm 2004."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q9671",
+          "https://www.formula1.com/en/information/drivers-hall-of-fame-michael-schumacher.7KdX5nJlTG55vR5JQSbZ21",
+          "https://www.mercedesamgf1.com/news/50-years-ago-a-star-was-born"
+        ],
+        "verifiedAt": "2026-10-08"
+      }
+    },
+    {
+      "id": "clement-attlee",
+      "name": "Clement Attlee",
+      "wikidataId": "Q129006",
+      "birthDate": "1883-01-03",
+      "lifeStatus": "deceased",
+      "deathDate": "1967-10-08",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "attlee-gov"
+      ],
+      "dobSourceIds": [
+        "attlee-gov",
+        "attlee-inner-temple"
+      ],
+      "statusSourceId": "attlee-gov",
+      "careerFactIds": [
+        "jan3-attlee-1",
+        "jan3-attlee-2"
+      ],
+      "wikidataCaptureId": "wd-attlee",
+      "identityClaims": {
+        "label": "Clement Attlee",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1883-01-03T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1967-10-08T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q145",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q145",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q82955",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q193391",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q121594",
+            "references": 0
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q82955"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q129006",
+        "https://www.gov.uk/government/history/past-prime-ministers/clement-attlee",
+        "https://www.innertemplelibrary.org.uk/wp-content/uploads/2017/10/Profile-Clement_Attlee.pdf"
+      ],
+      "before": {
+        "id": "clement-attlee",
+        "slug": "clement-attlee",
+        "name": "Clement Attlee",
+        "birthDate": "1883-01-03",
+        "birthYear": 1883,
+        "birthMonth": 1,
+        "birthDay": 3,
+        "occupation": [
+          "chính trị gia"
+        ],
+        "category": "politics",
+        "categoryLabel": "Chính trị gia",
+        "countryCode": "GB",
+        "countryName": "Vương quốc Anh",
+        "countryFlag": "🇬🇧",
+        "image": "/people/placeholder.svg",
+        "shortDescription": "Thủ tướng Vương quốc Anh từ năm 1945 đến năm 1951.",
+        "biography": "Clement Attlee sinh ngày 3/1/1883 tại London. Ông lãnh đạo Công đảng và giữ chức Thủ tướng Anh giai đoạn 1945–1951.",
+        "highlights": [
+          "Lãnh đạo Công đảng từ năm 1935 đến năm 1955.",
+          "Giữ chức Thủ tướng Vương quốc Anh từ năm 1945 đến năm 1951."
+        ],
+        "wikidataId": "Q129006",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Clement_Attlee",
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q129006",
+          "https://www.gov.uk/government/history/past-prime-ministers/clement-attlee",
+          "https://www.innertemplelibrary.org.uk/wp-content/uploads/2017/10/Profile-Clement_Attlee.pdf"
+        ],
+        "region": "west",
+        "verifiedAt": "2026-10-03",
+        "deathDate": null,
+        "deathDateSourceUrls": null,
+        "deathDatePrecision": null,
+        "lifeStatus": null
+      },
+      "after": {
+        "deathDate": "1967-10-08",
+        "deathDateSourceUrls": [
+          "https://www.gov.uk/government/history/past-prime-ministers/clement-attlee"
+        ],
+        "deathDatePrecision": "day",
+        "lifeStatus": "deceased",
+        "biography": "Clement Attlee là chính trị gia Công đảng Anh, giữ chức Thủ tướng từ năm 1945 đến 1951. Chính phủ của ông mở rộng dịch vụ xã hội, lập Dịch vụ Y tế Quốc gia và quốc hữu hóa các ngành công nghiệp trọng yếu. Ông qua đời ngày 8/10/1967.",
+        "highlights": [
+          "Attlee lãnh đạo Công đảng từ năm 1935 đến năm 1955 và giữ chức Thủ tướng từ năm 1945 đến năm 1951.",
+          "Chính phủ Attlee thành lập Dịch vụ Y tế Quốc gia (NHS) và quốc hữu hóa các ngành công nghiệp trọng yếu."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q129006",
+          "https://www.gov.uk/government/history/past-prime-ministers/clement-attlee",
+          "https://www.innertemplelibrary.org.uk/wp-content/uploads/2017/10/Profile-Clement_Attlee.pdf"
+        ],
+        "verifiedAt": "2026-10-08"
+      }
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "stephen-stills",
+      "name": "Stephen Stills",
+      "wikidataId": "Q354496",
+      "birthDate": "1945-01-03",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "stills-apple",
+        "stills-encyclopedia"
+      ],
+      "careerFactIds": [
+        "jan3-stills-1",
+        "jan3-stills-2"
+      ],
+      "countryCode": "US",
+      "category": "music",
+      "occupation": [
+        "ca sĩ",
+        "nhạc sĩ sáng tác",
+        "nghệ sĩ đa nhạc cụ"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "jan3-stills-1",
+            "jan3-stills-2"
+          ],
+          "rationale": "Các sự kiện về nhóm nhạc và sáng tác thể hiện hoạt động nghệ thuật âm nhạc của Stills."
+        }
+      ],
+      "wikidataCaptureId": "wd-stills",
+      "identityClaims": {
+        "label": "Stephen Stills",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1945-01-03T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 2
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q855091",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q177220",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q488205",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q10666486",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36834",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q177220",
+          "Q488205",
+          "Q639669"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q354496",
+        "https://snapshot.apple.com/us/person/6670615782",
+        "https://www.encyclopedia.com/education/news-wires-white-papers-and-books/stills-stephen",
+        "https://stephenstills.com/pages/bio",
+        "https://www.songhall.org/profiles/stephen-stills"
+      ]
+    },
+    {
+      "id": "mel-gibson",
+      "name": "Mel Gibson",
+      "wikidataId": "Q42229",
+      "birthDate": "1956-01-03",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "mel-golden",
+        "mel-biography"
+      ],
+      "careerFactIds": [
+        "jan3-mel-1",
+        "jan3-mel-2"
+      ],
+      "countryCode": "US",
+      "category": "actor",
+      "occupation": [
+        "diễn viên",
+        "đạo diễn điện ảnh",
+        "nhà sản xuất phim",
+        "biên kịch"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "jan3-mel-1",
+            "jan3-mel-2"
+          ],
+          "rationale": "Các giải thưởng và phim do Gibson đạo diễn thể hiện hoạt động sáng tạo trong điện ảnh."
+        }
+      ],
+      "wikidataCaptureId": "wd-mel",
+      "identityClaims": {
+        "label": "Mel Gibson",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1956-01-03T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q27",
+            "references": 2
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q3282637",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q10800557",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2526255",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q2405480",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q10798782",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q33999",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q3455803",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q69423232",
+            "references": 0
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q33999",
+          "Q2526255",
+          "Q3282637",
+          "Q28389"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q42229",
+        "https://goldenglobes.com/person/mel-gibson/",
+        "https://www.biography.com/actors/mel-gibson",
+        "https://www.oscars.org/oscars/ceremonies/1996/memorable-moments"
+      ]
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "jan3-tolkien-1",
+      "profileId": "j-r-r-tolkien",
+      "displayText": "The Hobbit do nhà xuất bản George Allen & Unwin phát hành năm 1937.",
+      "sourceId": "tolkien-estate",
+      "evidencePhrase": "published by George Allen & Unwin in 1937"
+    },
+    {
+      "id": "jan3-tolkien-2",
+      "profileId": "j-r-r-tolkien",
+      "displayText": "The Lord of the Rings được xuất bản trong các năm 1954–1955.",
+      "sourceId": "tolkien-estate",
+      "evidencePhrase": "appeared in three volumes between 1954 and 1955"
+    },
+    {
+      "id": "jan3-schumacher-1",
+      "profileId": "michael-schumacher",
+      "displayText": "Schumacher thắng 91 chặng và giành bảy chức vô địch thế giới F1.",
+      "sourceId": "schumacher-mercedes",
+      "evidencePhrase": "With 91 race wins and seven FIA Formula One Drivers' World Championships"
+    },
+    {
+      "id": "jan3-schumacher-2",
+      "profileId": "michael-schumacher",
+      "displayText": "Anh giành năm chức vô địch liên tiếp từ năm 2000 đến năm 2004.",
+      "sourceId": "schumacher-mercedes",
+      "evidencePhrase": "won five consecutive Drivers' (2000-2004)"
+    },
+    {
+      "id": "jan3-attlee-1",
+      "profileId": "clement-attlee",
+      "displayText": "Attlee lãnh đạo Công đảng từ năm 1935 đến năm 1955 và giữ chức Thủ tướng từ năm 1945 đến năm 1951.",
+      "sourceId": "attlee-gov",
+      "evidencePhrase": "served as Britain’s Prime Minister from 1945 to 1951"
+    },
+    {
+      "id": "jan3-attlee-2",
+      "profileId": "clement-attlee",
+      "displayText": "Chính phủ Attlee thành lập Dịch vụ Y tế Quốc gia (NHS) và quốc hữu hóa các ngành công nghiệp trọng yếu.",
+      "sourceId": "attlee-gov",
+      "evidencePhrase": "creating the National Health Service and nationalising major industries"
+    },
+    {
+      "id": "jan3-stills-1",
+      "profileId": "stephen-stills",
+      "displayText": "Stills hoạt động trong bốn nhóm gồm Manassas, Buffalo Springfield, Crosby, Stills & Nash và Crosby, Stills, Nash & Young.",
+      "sourceId": "stills-official",
+      "evidencePhrase": "four hugely influential groups"
+    },
+    {
+      "id": "jan3-stills-2",
+      "profileId": "stephen-stills",
+      "displayText": "CSN đã hợp tác với nhau từ năm 1969.",
+      "sourceId": "stills-songhall",
+      "evidencePhrase": "actively collaborating since 1969"
+    },
+    {
+      "id": "jan3-mel-1",
+      "profileId": "mel-gibson",
+      "displayText": "Braveheart đoạt Oscar Phim hay nhất.",
+      "sourceId": "mel-oscar-moments",
+      "evidencePhrase": "Best Picture: Braveheart"
+    },
+    {
+      "id": "jan3-mel-2",
+      "profileId": "mel-gibson",
+      "displayText": "Mel Gibson nhận Oscar Đạo diễn xuất sắc nhất cho Braveheart.",
+      "sourceId": "mel-oscar-moments",
+      "evidencePhrase": "Directing (Mel Gibson)"
+    }
+  ]
+}

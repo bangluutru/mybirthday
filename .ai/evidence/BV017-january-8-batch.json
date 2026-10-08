@@ -1,0 +1,1543 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-08",
+  "capturedAt": "2026-10-08T13:46:05Z",
+  "sourceCaptures": [
+    {
+      "id": "elvis-brockhaus-dob",
+      "url": "https://brockhaus.de/ecs/julex/article/presley-elvis-aaron",
+      "publisher": "Brockhaus",
+      "publisherHost": "brockhaus.de",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 208509,
+      "sha256": "8ec0235281b5d9e3488d203cb056fcdcda3b7113ba485ea8bea95676eb7e482a",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Elvis Presley war ein amerikanischer Sänger und Gitarrist, * 8.1.1935 in East Tupelo (Mississippi), † 16.8.1977 in Memphis (Tennessee). IMAGO/Everett Collection Elvis Presley Mitte der 1960er-Jahre. Jugend und Herkunft Sun Records Der Rebell Der Schauspieler Bei der Armee Comeback 1968 Las Vegas und Aloha from Hawaii Literatur Informationen zum Artikel Quellenangabe Leselineal schließen Kostenlos testen redaktionell geprüfte und verlässliche Inhalte altersgerecht aufbereitet im Schullexikon monatlich kündbar Kosten",
+      "excerptSha256": "18905e1f133698a176d5c94b55dadd39925810ee37e7e2e4b68e83c4ddd3e0c9"
+    },
+    {
+      "id": "elvis-grammy-dob-career",
+      "url": "https://www.grammy.com/artists/elvis-presley/6033/",
+      "publisher": "The Recording Academy (GRAMMY.com)",
+      "publisherHost": "www.grammy.com",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 144977,
+      "sha256": "c2c706f0348164b7ade0a1fe13263ac878487f8ce990567c0e75aeae612a6efc",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Born Elvis Aaron Presley Jan. 8, 1935, in Tupelo, Mississippi. Died Aug. 16, 1977, in Memphis, Tennessee. The King of Rock and Roll had his first No. 1 single with \"Heartbreak Hotel\" in 1956, followed by a string of hits the same year, including \"Blue Suede Shoes,\" \"I Want You, I Need You, I Love You,\" \"Don't Be Cruel,\" and \"Hound Dog.\" Presley scored 18 No. 1 hits throughout his career. He catapulted further into the mainstream with appearances in several popular movies, including Love Me Tender (1956), Jailhouse Rock (1957) and Blue Hawaii (1961). Presley earned his first GRAMMY nominations at the 2nd GRAMMY Awards for Record Of The Year (\"A Fool Such As I\"), Best Performance By A \"Top 40\" Artist (\"A Big Hunk O' Love\") and Best Rhythm & Blues Performance (\"A Big Hunk O' Love\"). He won his first GRAMMY for 1967 for Best Sacred Performance for his version of \"How Great Thou Art.\" He was ",
+      "excerptSha256": "2191775d3e1b6bfb8978b87793faea9c894d9945ef92a206c1ec12590e4015e5"
+    },
+    {
+      "id": "elvis-graceland-film",
+      "url": "https://www.graceland.com/quick-facts",
+      "publisher": "Graceland",
+      "publisherHost": "www.graceland.com",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 135427,
+      "sha256": "52bf7958ea798a3259b9a87956f8e5b9cfdf7342e62fc7459c88690b859ff241",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Elvis’ first movie was “Love Me Tender” and was released in 1956. Elvis’ first gold record was for “Heartbreak Hotel” and was received in 1956. Elvis purchased Graceland Mansion, his home in Memphis, in 1957 for $102,500. Elvis recorded “That’s All Right” on July 5, 1954, on the Sun Record label. Elvis got his first guitar in Tupelo on his 11th birthday – January 8, 1946. Before becoming famous, Elvis drove a delivery truck for Crown Electric in Memphis. Elvis was inducted into the U.S. Army in ",
+      "excerptSha256": "3c03798363c9066b1a0db42eb0b69d3fd45b12506d315feccbc83f3ead7a54c6"
+    },
+    {
+      "id": "hawking-kicc-dob",
+      "url": "https://www.kicc.cam.ac.uk/news/stephen-hawking-8-january-1942-2013-14-march-2018",
+      "publisher": "Kavli Institute for Cosmology, University of Cambridge",
+      "publisherHost": "www.kicc.cam.ac.uk",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 51677,
+      "sha256": "580025b2df6ccf9011eb36adb0d3e58ec8b86483d4935fc81f1008f07f705a8d",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Stephen Hawking, 8 January 1942 – 14 March 2018 | Kavli Institute for Cosmology, Cambridge skip to content Study at Cambridge About the University Research at Cambridge Search site Home Study at Cambridge Undergraduate Undergraduate courses Applying Events and open days Fees and finance Postgraduate Postgraduate courses How to apply Postgraduate events Fees and funding International students Continuing education Executive and professional education Courses in education About the University How the University and Colleges work Term dates and cal",
+      "excerptSha256": "e64b79dee8143e0d8ac3eae2295732aba2c41bd65727d8360e3c4dfd867d1a78"
+    },
+    {
+      "id": "hawking-estate-dob",
+      "url": "https://www.hawking.org.uk/biography",
+      "publisher": "Stephen Hawking Estate",
+      "publisherHost": "www.hawking.org.uk",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 55127,
+      "sha256": "a81cd59e436b92665837f979c1a12dee9a0ca534ff573950d80b698c3ec85494",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Stephen William Hawking was born on 8th January 1942, exactly 300 years after the death of the Italian astronomer, Galileo Galilei. Perhaps it seems a fitting symmetry. Often referred to as ‘the father of observational astronomy,’ Galileo was one of Stephen’s inspirations during his long career as a theoretical physicist and cosmologist. Stephen was born in Oxford during WWII, the eldest of four children to parents Dr Frank Hawking and Eileen Isobel Hawking. With his siblings, Stephen had a happ",
+      "excerptSha256": "56ae36ac387f3381198ac6dac700ebab6e60cbc32e962d10eca844ea579411bb"
+    },
+    {
+      "id": "hawking-estate-radiation",
+      "url": "https://www.hawking.org.uk/biography",
+      "publisher": "Stephen Hawking Estate",
+      "publisherHost": "www.hawking.org.uk",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 55127,
+      "sha256": "a81cd59e436b92665837f979c1a12dee9a0ca534ff573950d80b698c3ec85494",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "This research was published in 1974 by Nature as ‘Black hole explosions?’ . However, when announced at a conference in Oxford, his theory was seen as controversial and angrily disputed. Now widely accepted and known as Hawking radiation , Stephen’s proposal unifies the seemingly impossible – general relativity with quantum theory, the large with the small. Despite their names becoming joined in a formula, Stephen and Jacob Bekenstein never actually worked together. In 1972, Bekenstein proposed that black holes have an entropy. Bekenstein had a formula for entropy that said the entropy was prop",
+      "excerptSha256": "5485f40a76190ebf5c81bfd9271645d4a6ee17c37f2c73ad776ec8cfc193ba01"
+    },
+    {
+      "id": "hawking-pas-book",
+      "url": "https://www.pas.va/en/academicians/deceased/hawking.html",
+      "publisher": "Pontifical Academy of Sciences",
+      "publisherHost": "www.pas.va",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 76420,
+      "sha256": "d1e929a01cfc4bed649967553832647be12e56a3647dce42c374ed9c6618145d",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "S.W., Is the End in Sight for Theoretical Physics? , Cambs Univ. Press (1980); Hawking, S.W., A Brief History of Time , Bantam Press (1988); Hawking, S.W., Black Holes and Baby Universes and Other Essays , Bantam Books (1993); Hawking, S.W., The Nature of Space and Time , Princeton University Press (1996); Hawking, S.W., The Large, the Small, and the Human Mind , Cambridge University Press (1997); Hawking, S.W., The Universe in a Nutshell , Bantam Press (2001); Hawking, S.W., On The Shoulders of Giants. The Great Works of Physics and Astronomy , Running Press (2002); Hawking, S.W., Information Loss in Black Holes , Cambridge University Press ",
+      "excerptSha256": "c2f2e900ee400d7a5f364555626ad0dc8e82aaa0e84303dca94238868d0cf8aa"
+    },
+    {
+      "id": "hawking-kicc-death",
+      "url": "https://www.kicc.cam.ac.uk/news/stephen-hawking-8-january-1942-2013-14-march-2018",
+      "publisher": "Kavli Institute for Cosmology, University of Cambridge",
+      "publisherHost": "www.kicc.cam.ac.uk",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 51677,
+      "sha256": "580025b2df6ccf9011eb36adb0d3e58ec8b86483d4935fc81f1008f07f705a8d",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "On 14th March 2018 Professor Stephen Hawking died peacefully at his home in Cambridge at the age of 76. Stephen Hawking is widely recognised as one of the most influential theoretical physicists in modern times. He has made seminal contributions to several areas of astrophysics. In particular, his studies have provided some of the pillars of our understanding of black holes, including the concept ",
+      "excerptSha256": "4c147235e8abaf1e1a34069f63a17c9cea6779e2b4e62016d0cf7a29e33693da"
+    },
+    {
+      "id": "vo-gov-dob",
+      "url": "https://xaydungchinhsach.chinhphu.vn/tieu-su-quyen-chu-tich-nuoc-vo-thi-anh-xuan-119230119192432066.htm",
+      "publisher": "Cổng Thông tin điện tử Chính phủ",
+      "publisherHost": "xaydungchinhsach.chinhphu.vn",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 506437,
+      "sha256": "d48eb2e7dbce710a028d688f2957e5c0e2373a3ed64ef8b71989bec6ae1ffcad",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Ngày sinh: 08/01/1970 Nam/Nữ: Nữ Dân tộc: Kinh - Quê quán: Xã Thới Sơn, huyện Tịnh Biên, tỉnh An Giang - Ngày vào Đảng: 20/12/1994 Ngày chính thức: 20/12/1995 - Trình độ được đào tạo: + Giáo dục phổ thông: 12/12 + Chuyên môn nghiệp vụ: Cử nhân Khoa học, ngành Sư phạm Hóa học; Thạc sỹ chuyên ngành Quản lý công + Lý luận chính trị: Cử nhân + Ngoại ngữ: Anh văn B1 - Uỷ viên dự khuyết Trung ương Đảng khóa XI - Uỷ viên Trung ương Đảng khóa XII, XIII - Đại biểu Quốc hội khóa XIV, XV Tóm tắt quá trình công tác của quyền Chủ tịch nước Võ Thị Ánh Xuân 9",
+      "excerptSha256": "1795763e531cfb64efa91e72e40bb5a78f2da82aea4f289b7acbb1b0fb497444"
+    },
+    {
+      "id": "vo-vna-dob",
+      "url": "https://en.daihoidang.vn/nhan-su/vo-thi-anh-xuan-12.html",
+      "publisher": "Vietnam News Agency, 14th National Party Congress website",
+      "publisherHost": "en.daihoidang.vn",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 15101,
+      "sha256": "f58d30096908382a095a0578b58392f5887198497280075847ea3467c1245b92",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Date of birth: January 8, 1970 Date of Party admission : December 20, 1994 Position: - Secretary of the 14th Party Central Committee - Member of the Party Central Committee in the 11th (alternate), 12th, 13th, and 14 tenures - Vice President of the Socialist Republic of Vietnam (since April 2021) - Vice Chairwoman of the National Election Council (since June 2025) - Deputy to the National Assembly in the 14th and 15th tenures Working history Biog",
+      "excerptSha256": "8a7f00bbfef51848276a29acca8186a7784c0b3b44cbd7c5c9700dc83f645903"
+    },
+    {
+      "id": "vo-current-reelection",
+      "url": "https://baochinhphu.vn/ba-vo-thi-anh-xuan-duoc-bau-giu-chuc-pho-chu-tich-nuoc-nhiem-ky-2026-2031-102260407165232585.htm",
+      "publisher": "Báo Điện tử Chính phủ",
+      "publisherHost": "baochinhphu.vn",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 336843,
+      "sha256": "ee3b6a267dd9848306e206d35ad4f17a48f31bfcd9325061ee09fb9f3ab14cd7",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Bà Võ Thị Ánh Xuân được bầu giữ chức Phó Chủ tịch nước nhiệm kỳ 2026-2031 chính phủ nước cộng hòa xã hội chủ nghĩa việt nam Báo Điện tử Chính phủ English 中文 trang chủ Chính trị Đối ngoại Tổ chức nhân sự Hội nhập Kinh tế Ngân hàng Chứng khoán Kinh doanh Văn hóa Thể thao Du lịch Xã hội Pháp luật Đời sống Y tế Khoa giáo Giáo dục Khoa học - Công nghệ Quốc tế Góp Ý Hiến Kế Mới Nhất Tổng Bí thư, Chủ tịch nước Tô Lâm dự Phiên thảo luận cấp cao Đại hội đồng LHQ khóa 81, làm việc tại Hoa Kỳ, thăm Canada Chiến dịch 500 ngày đêm tìm kiếm, quy tập và xác định danh tính hài cốt liệt sĩ Bảo vệ nền tảng tư tưởng của Đảng trong kỷ nguyên phát triển mới 100 n",
+      "excerptSha256": "31d55f2380534a35eb117cc9dd64ba36861be330c7c31944b5a7a7fb0af52e4f"
+    },
+    {
+      "id": "vo-gov-teaching",
+      "url": "https://xaydungchinhsach.chinhphu.vn/tieu-su-quyen-chu-tich-nuoc-vo-thi-anh-xuan-119230119192432066.htm",
+      "publisher": "Cổng Thông tin điện tử Chính phủ",
+      "publisherHost": "xaydungchinhsach.chinhphu.vn",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 506437,
+      "sha256": "d48eb2e7dbce710a028d688f2957e5c0e2373a3ed64ef8b71989bec6ae1ffcad",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "9/1992 - 7/1996: Giáo viên Trường Phổ thông Trung học Mỹ Thới, Thị xã Long Xuyên, tỉnh An Giang. 8/1996 - 7/2001: Chuyên viên nghiên cứu tổng hợp, Văn phòng Tỉnh ủy An Giang. 8/2001 - 8/2010: Ủy viên Ban Thường vụ, Phó Chủ tịch, Chủ tịch Hội Liên hiệp Phụ nữ tỉnh An Giang (Ủy viên Ban Chấp hành Đảng bộ tỉnh từ tháng 12/2005 đến tháng 10/2010). 8/2010- 10/2010: Phó Trưởng Ban Dân vận Tỉnh ủy An Giang. 11/2010 - 01/2011: Ủy viên Ban Thường vụ Tỉnh ủy, Bí thư Thị ủy Tân Châu. 02/2011 - 01/2013: Ủy viên dự khuyết Ban Chấp hành Trung ương Đảng, Ủy viên Ban Thường vụ Tỉnh ủy, Bí thư Thị ủy Tân Châu.",
+      "excerptSha256": "ee3615b01f7c087a71a1280b958205e37e3842aaeb698d49191db03667bbd493"
+    },
+    {
+      "id": "weizen-ieee-dob",
+      "url": "https://history.computer.org/pioneers/pdfs/W/Weizenbaum.pdf",
+      "publisher": "IEEE Computer Society",
+      "publisherHost": "history.computer.org",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytesRead": 15999,
+      "sha256": "320783fcae141d6450c29b506a3422a6895caaf8a4212bf5ae6ca58b2da570e8",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Joseph Weizenbaum Born January 8, 1923, Berlin, Germany; inventor in 1965 of ELIZA, the mechanical psychiatrist, who first warned of the dangers of confusing computers with people and vice versa. Education: BS, Wayne University, 1948; MS, Wayne University, 1950. Professional Experience: systems engineer, Computer Development Laboratory, General Electric Corp., 1955-1963; MIT: visiting associate professor, electrical engineering, 1964, associate professor, 1964-1970, professor, computer science a",
+      "excerptSha256": "f18be66a18d81b1c714726d252c07639cbcbbbf33ee4242e38a753d572aaa7cc"
+    },
+    {
+      "id": "weizen-troschke-dob",
+      "url": "https://www.troschke-archiv.de/interviews/joseph-weizenbaum",
+      "publisher": "Harald von Troschke Archive",
+      "publisherHost": "www.troschke-archiv.de",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 117966,
+      "sha256": "8d7efe2f115fa72de10fdbaabfb681154f6684936322277f13f3a90a651a707f",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "geb. 08. Januar 1923 in Berlin ; gest. 05. März 2008 in Gröben bei Berlin Berufe: Informatiker , Mathematiker GND-Nummer: 118820591 „Er galt und gilt auch heute noch als einer der mit Abstand genialsten Köpfe seines Fachs. Seine in alle Weltsprachen übersetzten Abhandlungen zum Generalthema ‚EDV und Computerwissenschaften‘ fehlen in keiner Fachbibliothek der Welt. Mitte der 60er Jahre erregte Joseph Weizenbaum großes Aufsehen mit seinem Computerp",
+      "excerptSha256": "e60911b285adb650700c89c4d6cef98b3cf35e557182abbfdfc83db9235f4e05"
+    },
+    {
+      "id": "weizen-mit-banking",
+      "url": "https://news.mit.edu/2008/obit-weizenbaum-0310",
+      "publisher": "Massachusetts Institute of Technology",
+      "publisherHost": "news.mit.edu",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 93427,
+      "sha256": "2443f9e5628a61da34e87ddcbbe9bf1d01c9021b7cf9eef9c417f9a9b1a07459",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "In 1955, Weizenbaum became a member of the General Electric team that designed and built the first computer system dedicated to banking operations. Among his early technical contributions were the list processing system SLIP and the natural language understanding program ELIZA, which was an important development in artificial intelligence and cemented his role in the folklore of computer science research. Named for the heroine of \"My Fair Lady,\" ELIZA was perhaps the first instance of what today is known as a chatterbot program. Specifically, the ELIZA program simulated a conversation between a patient and a psychotherapist by using a person's responses to shape the computer's replies. Weize",
+      "excerptSha256": "a55f369a8a79d410572da9e522da3f84d6bf9f89362dccade3e581865e01ff28"
+    },
+    {
+      "id": "weizen-mit-eliza",
+      "url": "https://news.mit.edu/2008/obit-weizenbaum-0310",
+      "publisher": "Massachusetts Institute of Technology",
+      "publisherHost": "news.mit.edu",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 93427,
+      "sha256": "2443f9e5628a61da34e87ddcbbe9bf1d01c9021b7cf9eef9c417f9a9b1a07459",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ed design and build a digital computer at Wayne University in Detroit. In 1955, Weizenbaum became a member of the General Electric team that designed and built the first computer system dedicated to banking operations. Among his early technical contributions were the list processing system SLIP and the natural language understanding program ELIZA, which was an important development in artificial intelligence and cemented his role in the folklore of computer science research. Named for the heroine of \"My Fair Lady,\" ELIZA was perhaps the first instance of what today is known as a chatterbot program. Specifically, the ELIZA program simulated a conversation between a patient and a psychotherapist by using a person's responses to shape the computer's replies. Weizenbaum was shocked to discover that many users were taking his program seriously and were opening their hearts to it. The experience prompted him to think philosophically about the implications of artificial intelligence, and, later, to become a critic of it. In 1976, he authored \"Computer Power and Human Reason: From Judgment to Calculation,\" in which he displayed ambivalence toward computer technology and warned against giving machines the responsibility for making genuinely human choices. Specifically, Weizenbaum argued t",
+      "excerptSha256": "cb03eb5e42216be9209a27fdd6dfdd4197d89708d02ecdd2ebd49c96cce35b14"
+    },
+    {
+      "id": "weizen-mit-death",
+      "url": "https://news.mit.edu/2008/obit-weizenbaum-0310",
+      "publisher": "Massachusetts Institute of Technology",
+      "publisherHost": "news.mit.edu",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 93427,
+      "sha256": "2443f9e5628a61da34e87ddcbbe9bf1d01c9021b7cf9eef9c417f9a9b1a07459",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "died March 5 in Berlin. He was 85. Weizenbaum, who was Jewish, fled Nazi Germany with his parents and arrived in the United States in the mid-1930s. At the beginning of his career with computers, in the early 1950s, he worked on analog computers; later, he helped design and build a digital computer at Wayne University in Detroit. In 1955, Weizenbau",
+      "excerptSha256": "d5ef525ca93d5ff908388044964bc3fc6a7f3ffb0387bb6487a7b52c2533561f"
+    },
+    {
+      "id": "hanae-apj-dob-place",
+      "url": "https://artplatform.go.jp/ja/artists/A1986",
+      "publisher": "Art Platform Japan, National Center for Art Research",
+      "publisherHost": "artplatform.go.jp",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 39587,
+      "sha256": "21fc2f8d725a1becceaefadcc11ad743eef5fcfeadd1633b13f60f5502bba0aa",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "生年月日/結成年月日 1926-01-08 生地/結成地 島根県鹿足郡六日市町（現・吉賀町） 没年月日/解散年月日 2022-08-11 性別 女性 活動領域 ファッション 主要展覧会 OPEN English 日本語 2026 生誕100年 森英恵 ヴァイタル・タイプ, 国立新美術館, 2026年. 外部情報源 OPEN Wikipedia English 日本語 森 英恵（森 英惠、もり はなえ、1926年1月8日 - 2022年8月11日）は、日本のファッションデザイナーであり、日本人で唯",
+      "excerptSha256": "a15e3e549fb5e6faa6f14e4f979a9aa03784e41e8206eae925782b2e350fbf97"
+    },
+    {
+      "id": "hanae-guardian-dob-death",
+      "url": "https://www.theguardian.com/fashion/2022/aug/23/hanae-mori-obituary",
+      "publisher": "The Guardian",
+      "publisherHost": "www.theguardian.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 339382,
+      "sha256": "f66922bf2992848b7211a2e4c935fb0837955962d04d3f69bf67ff3cb23e089b",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Hanae Mori, fashion designer and business executive, born 8 January 1926; died 11 August 2022 This article was amended on 1 September 2022. Hanae Mori’s husband was Ken Mori, not “Kenzo Mori” as an earlier version said. Explore more on these topics Fashion Japan Magazines France New York Retail industry obituaries Share Reuse this content Comments ( … ) Sign in or create your Guardian account to join the discussion Most viewed Most viewed Business Economics Banking Money Markets Project Syndicat",
+      "excerptSha256": "afbdd54368b474ed9dc0f554455292c7bb6200b7ac347f056888adbaee2e3b5e"
+    },
+    {
+      "id": "hanae-brand-studio",
+      "url": "https://www.hanae-mori.com/history_en/",
+      "publisher": "HANAE MORI official site",
+      "publisherHost": "www.hanae-mori.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 64640,
+      "sha256": "ab7a894323cb5590ec66ada62ac291aaa43692e27b28336120380a706c60787a",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ト NEWS CONTENTS HISTORY JAPAN ENGLISH CONTENTS PARTNER CONTACT HISTORY Hanae Mori The Work of Hanae Mori It has been over 70 years since Hanae Mori began her design career, as she opened her studio in 1951. She was in charge of hundreds of film costumes during the heyday of Japanese films from the 1950s. After the success of her first overseas show in New York in 1965, she worked in the U.S., followed by the opening of her own maison in Avenue Montaigne, Paris in 1977. She has been active worldwide as the only Asian designer to be accepted as a member of La Chambre Syndicale de la Couture Parisienne. During 27 years of presenting new haute couture creations in Paris every season, Hanae Mori,",
+      "excerptSha256": "54378ce5e2f398670877bcce987ebfc4af0cedab7ff4a14b8de635225de7fcdf"
+    },
+    {
+      "id": "hanae-arttower-haute",
+      "url": "https://www.arttowermito.or.jp/english/gallery/lineup/article_5051.html",
+      "publisher": "Art Tower Mito",
+      "publisherHost": "www.arttowermito.or.jp",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 33433,
+      "sha256": "32ea9702273f3cfdc43bcc569d5f5a24ba9609d86a81522faf09fffcfe4f6721",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "first Asian member of “La Chambre Syndicale de la Couture Parisienne” in 1977 and became known as a world-renowned fashion designer. Not only for the brand crowning her name but also as a pioneer of Japanese fashion designers, Hanae Mori has been loved as a woman symbolizing the pioneer of women’s social advancement. This exhibition follows her footprints as a designer who carved out a career for herself in the turbulent age through her wide-ranging works such as haute couture which she has been working on for more than half a century, movie and theater costumes, and uniforms. BS TV TOKYO “Fas",
+      "excerptSha256": "b3de407ee83c5a63fffcab385d71f57839277117e79b3d9e18090424f00f18a4"
+    },
+    {
+      "id": "wikidata-elvis-presley",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q303.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 347559,
+      "sha256": "ffc754e86c4413cdb18034fd8fcb43d3b81ee5c8009e1d5eff4a0b4bc1e307d3",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q303; English label: Elvis Presley; p31=Q5; p569=+1935-01-08T00:00:00Z/p11; p570=+1977-08-16T00:00:00Z/p11; p27=Q30; p106=Q10800557,Q177220,Q36834,Q33999,Q47064,Q189290,Q12362622,Q15253558,Q639669; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "997c0852bee8edab14536891d7468e04bbbca346fbcfe3339ee64609b17a0302"
+    },
+    {
+      "id": "wikidata-stephen-hawking",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q17714.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 450942,
+      "sha256": "413188d3c0dad5d310195daabf34b53002ca4bc4f123c4c66cabf35e2c2bbbf5",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q17714; English label: Stephen Hawking; p31=Q5; p569=+1942-01-08T00:00:00Z/p11; p570=+2018-03-14T00:00:00Z/p11; p27=Q145; p106=Q19350898,Q2998308,Q752129,Q170790,Q1231865,Q3745071,Q1622272,Q36180,Q169470,Q15980158,Q11063,Q10798782,Q18814623,Q18844224,Q1412961,Q901; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "e64ad1720ed83006de6522b60ec5d5934863aec2c7dbdc79dd3741919acd093c"
+    },
+    {
+      "id": "wikidata-vo-thi-anh-xuan",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q24957799.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 32662,
+      "sha256": "682b72f1718b9bd6f19b4c0f8a1fe412ed329db586b6a9a306cb9828bb93a381",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q24957799; English label: Võ Thị Ánh Xuân; p31=Q5; p569=+1970-01-08T00:00:00Z/p11; p570=; p27=Q881; p106=Q82955; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "fa279c8610d9b5048509b07b4338100a3b3e008c72eaff4c24f1473ab5695cd5"
+    },
+    {
+      "id": "wikidata-joseph-weizenbaum",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q75778.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 104303,
+      "sha256": "194bd46a81a035c809074bf6e5ff171a739229474c1e5201f8de2492bfbb7f41",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q75778; English label: Joseph Weizenbaum; p31=Q5; p569=+1923-01-08T00:00:00Z/p11; p570=+2008-03-05T00:00:00Z/p11; p27=Q183,Q30; p106=Q82594,Q15980158,Q1622272,Q15976092,Q4964182,Q37226,Q2500638,Q170790; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "8497ef8b992d168697f68b2a15c1e367851913033995d814fba11d0e323e8b30"
+    },
+    {
+      "id": "wikidata-hanae-mori",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q755465.json",
+      "publisher": "Wikidata EntityData",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 90288,
+      "sha256": "02d812f3be969d2ee39b58704e8eac30ec978ca9534c36255967dff1bb16dd28",
+      "verificationMethod": "direct-http-json-property-extract",
+      "excerpt": "Wikidata entity Q755465; English label: Hanae Mori; p31=Q5; p569=+1926-01-08T00:00:00Z/p11; p570=+2022-08-11T00:00:00Z/p11; p27=Q17,Q188712; p106=Q3501317,Q43845; P569 values are a snapshot and are assessed against independent publisher sources.",
+      "excerptSha256": "380b148f5293a6def70af365016b174018ff669cb19f176bd23ccf92dfba891f"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "elvis-presley",
+      "name": "Elvis Presley",
+      "wikidataId": "Q303",
+      "birthDate": "1935-01-08",
+      "lifeStatus": "deceased",
+      "deathDate": "1977-08-16",
+      "dobSourceIds": [
+        "elvis-brockhaus-dob",
+        "elvis-grammy-dob-career"
+      ],
+      "statusSourceId": "elvis-brockhaus-dob",
+      "deathDateSourceIds": [
+        "elvis-brockhaus-dob"
+      ],
+      "careerFactIds": [
+        "jan8-elvis-first-no1",
+        "jan8-elvis-film-debut"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "jan8-elvis-first-no1",
+            "jan8-elvis-film-debut"
+          ],
+          "rationale": "His chart-topping recordings and film debut document creative work across popular music and screen performance."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-elvis-presley",
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q303",
+        "https://www.graceland.com/quick-facts",
+        "https://brockhaus.de/ecs/julex/article/presley-elvis-aaron",
+        "https://www.grammy.com/artists/elvis-presley/6033/"
+      ],
+      "identityClaims": {
+        "label": "Elvis Presley",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1935-01-08T00:00:00Z",
+            "references": 16,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1977-08-16T00:00:00Z",
+            "references": 15,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q10800557",
+            "references": 1
+          },
+          {
+            "rank": "preferred",
+            "value": "Q177220",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q36834",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q33999",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q47064",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q189290",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q12362622",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q15253558",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "selectedOccupationQids": [
+          "Q177220",
+          "Q33999"
+        ]
+      },
+      "deathDatePrecision": "day",
+      "before": {
+        "biography": "Elvis Presley là ca sĩ và diễn viên người Mỹ. Năm 1956, Heartbreak Hotel trở thành đĩa đơn quán quân đầu tiên của Elvis Presley; ông cũng xuất hiện trong Love Me Tender (1956), Jailhouse Rock (1957) và Blue Hawaii (1961).",
+        "highlights": [
+          "Sinh ngày 8/1/1935.",
+          "Năm 1956, Heartbreak Hotel trở thành đĩa đơn quán quân đầu tiên của Elvis Presley; ông cũng xuất hiện trong Love Me Tender (1956), Jailhouse Rock (1957) và Blue Hawaii (1961)."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q303",
+          "https://www.graceland.com/elvis-faq",
+          "https://www.nps.gov/people/elvis-presley.htm",
+          "https://brockhaus.de/ecs/julex/article/presley-elvis-aaron",
+          "https://www.grammy.com/artists/elvis-presley/6033/"
+        ],
+        "fields": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "biography": "Elvis Presley sinh ngày 8/1/1935 tại Tupelo, Mississippi. Năm 1956, “Heartbreak Hotel” trở thành đĩa đơn quán quân đầu tiên của ông; cùng năm, ông ra mắt điện ảnh với Love Me Tender. Ông qua đời tại Memphis ngày 16/8/1977.",
+        "highlights": [
+          "Năm 1956, “Heartbreak Hotel” trở thành đĩa đơn quán quân đầu tiên của Presley; sự kiện mở đầu chuỗi 18 đĩa đơn quán quân trong sự nghiệp.",
+          "Presley ra mắt điện ảnh với Love Me Tender năm 1956."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q303",
+          "https://www.graceland.com/quick-facts",
+          "https://brockhaus.de/ecs/julex/article/presley-elvis-aaron",
+          "https://www.grammy.com/artists/elvis-presley/6033/"
+        ],
+        "fields": [
+          "design-creative"
+        ],
+        "verifiedAt": "2026-10-08"
+      }
+    },
+    {
+      "id": "stephen-hawking",
+      "name": "Stephen Hawking",
+      "wikidataId": "Q17714",
+      "birthDate": "1942-01-08",
+      "lifeStatus": "deceased",
+      "deathDate": "2018-03-14",
+      "dobSourceIds": [
+        "hawking-kicc-dob",
+        "hawking-estate-dob"
+      ],
+      "statusSourceId": "hawking-kicc-death",
+      "deathDateSourceIds": [
+        "hawking-kicc-death"
+      ],
+      "careerFactIds": [
+        "jan8-hawking-radiation",
+        "jan8-hawking-book"
+      ],
+      "fields": [
+        "science-research"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "science-research",
+          "careerFactIds": [
+            "jan8-hawking-radiation",
+            "jan8-hawking-book"
+          ],
+          "rationale": "His black-hole radiation research and scientific writing for the public are documented in direct institutional and estate sources."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-stephen-hawking",
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q17714",
+        "https://www.kicc.cam.ac.uk/news/stephen-hawking-8-january-1942-2013-14-march-2018",
+        "https://www.hawking.org.uk/biography",
+        "http://www.bbc.com/news/uk-43396008",
+        "https://www.theguardian.com/science/2018/mar/14/stephen-hawking-professor-dies-aged-76",
+        "https://www.pas.va/en/academicians/deceased/hawking.html"
+      ],
+      "identityClaims": {
+        "label": "Stephen Hawking",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1942-01-08T00:00:00Z",
+            "references": 16,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2018-03-14T00:00:00Z",
+            "references": 12,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q145",
+            "references": 2
+          }
+        ],
+        "p106": [
+          {
+            "rank": "preferred",
+            "value": "Q19350898",
+            "references": 1
+          },
+          {
+            "rank": "preferred",
+            "value": "Q2998308",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q752129",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q170790",
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "value": "Q1231865",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q3745071",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 2
+          },
+          {
+            "rank": "preferred",
+            "value": "Q36180",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q169470",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q15980158",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q11063",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q10798782",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q18814623",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q18844224",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1412961",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q901",
+            "references": 2
+          }
+        ],
+        "selectedCountryQid": "Q145",
+        "selectedOccupationQids": [
+          "Q19350898",
+          "Q2998308"
+        ]
+      },
+      "deathDatePrecision": "day",
+      "before": {
+        "biography": "Stephen Hawking sinh ngày 8/1/1942 tại Oxford. Ông là nhà vật lý lý thuyết và nhà vũ trụ học tại Đại học Cambridge, đồng thời là tác giả cuốn A Brief History of Time.",
+        "highlights": [
+          "Nghiên cứu về hố đen và vũ trụ học.",
+          "A Brief History of Time được xuất bản năm 1988."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q17714",
+          "https://www.cam.ac.uk/stories/stephen-hawking",
+          "https://www.hawking.org.uk/biography",
+          "http://www.bbc.com/news/uk-43396008",
+          "https://www.theguardian.com/science/2018/mar/14/stephen-hawking-professor-dies-aged-76"
+        ],
+        "fields": null,
+        "deathDateSourceUrls": [
+          "http://www.bbc.com/news/uk-43396008",
+          "https://www.theguardian.com/science/2018/mar/14/stephen-hawking-professor-dies-aged-76"
+        ],
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "biography": "Stephen Hawking sinh ngày 8/1/1942 tại Oxford, Anh. Ông nghiên cứu về hố đen và vũ trụ học; đề xuất bức xạ Hawking, được công bố trên Nature năm 1974. Cuốn A Brief History of Time xuất bản năm 1988 và trở thành một trong những sách bán chạy nhất về khoa học phổ thông.",
+        "highlights": [
+          "Năm 1974, Hawking đề xuất bức xạ phát ra từ hố đen; bài nghiên cứu “Black hole explosions?” được đăng trên Nature.",
+          "A Brief History of Time, do Bantam Press xuất bản năm 1988, là một trong những tác phẩm chính của Hawking."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q17714",
+          "https://www.kicc.cam.ac.uk/news/stephen-hawking-8-january-1942-2013-14-march-2018",
+          "https://www.hawking.org.uk/biography",
+          "http://www.bbc.com/news/uk-43396008",
+          "https://www.theguardian.com/science/2018/mar/14/stephen-hawking-professor-dies-aged-76",
+          "https://www.pas.va/en/academicians/deceased/hawking.html"
+        ],
+        "fields": [
+          "science-research"
+        ],
+        "deathDateSourceUrls": [
+          "http://www.bbc.com/news/uk-43396008",
+          "https://www.theguardian.com/science/2018/mar/14/stephen-hawking-professor-dies-aged-76",
+          "https://www.kicc.cam.ac.uk/news/stephen-hawking-8-january-1942-2013-14-march-2018"
+        ],
+        "verifiedAt": "2026-10-08"
+      }
+    },
+    {
+      "id": "vo-thi-anh-xuan",
+      "name": "Võ Thị Ánh Xuân",
+      "wikidataId": "Q24957799",
+      "birthDate": "1970-01-08",
+      "lifeStatus": "living",
+      "deathDate": null,
+      "dobSourceIds": [
+        "vo-gov-dob",
+        "vo-vna-dob"
+      ],
+      "statusSourceId": "vo-current-reelection",
+      "deathDateSourceIds": [],
+      "careerFactIds": [
+        "jan8-vo-reelection",
+        "jan8-vo-teaching"
+      ],
+      "fields": [
+        "society-law"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "society-law",
+          "careerFactIds": [
+            "jan8-vo-reelection",
+            "jan8-vo-teaching"
+          ],
+          "rationale": "Her elected public office and earlier teaching career are documented by government and national news sources."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-vo-thi-anh-xuan",
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q24957799",
+        "https://xaydungchinhsach.chinhphu.vn/tieu-su-quyen-chu-tich-nuoc-vo-thi-anh-xuan-119230119192432066.htm",
+        "https://en.daihoidang.vn/nhan-su/vo-thi-anh-xuan-12.html",
+        "https://baochinhphu.vn/ba-vo-thi-anh-xuan-duoc-bau-giu-chuc-pho-chu-tich-nuoc-nhiem-ky-2026-2031-102260407165232585.htm"
+      ],
+      "identityClaims": {
+        "label": "Võ Thị Ánh Xuân",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 0
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1970-01-08T00:00:00Z",
+            "references": 1,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q82955",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q881",
+        "selectedOccupationQids": [
+          "Q82955"
+        ]
+      },
+      "before": {
+        "shortDescription": "Chính trị gia Việt Nam, từng giữ chức Phó Chủ tịch nước.",
+        "biography": "Võ Thị Ánh Xuân sinh ngày 8/1/1970 tại An Giang. Bà là chính trị gia Việt Nam và từng đảm nhiệm chức Phó Chủ tịch nước.",
+        "highlights": [
+          "Được Quốc hội bầu làm Phó Chủ tịch nước năm 2021.",
+          "Tiểu sử Quốc hội ghi ngày sinh 08/01/1970."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q24957799",
+          "https://quochoi.vn/UserControls/Publishing/News/BinhLuan/pFormPrint.aspx?ItemID=54121&UrlListProcess=%2Fcontent%2Ftintuc%2FLists%2FNews",
+          "https://xaydungchinhsach.chinhphu.vn/tieu-su-quyen-chu-tich-nuoc-vo-thi-anh-xuan-119230119192432066.htm"
+        ],
+        "fields": null,
+        "lifeStatus": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "shortDescription": "Nhà giáo và chính trị gia Việt Nam, được bầu giữ chức Phó Chủ tịch nước nhiệm kỳ 2026–2031.",
+        "biography": "Võ Thị Ánh Xuân sinh ngày 8/1/1970 tại Thới Sơn, An Giang. Bà bắt đầu sự nghiệp với công việc giảng dạy hóa học tại Trường THPT Mỹ Thới từ năm 1992, sau đó đảm nhiệm nhiều vị trí trong chính quyền và tổ chức phụ nữ tỉnh An Giang. Quốc hội bầu bà làm Phó Chủ tịch nước năm 2021 và tiếp tục bầu bà cho nhiệm kỳ 2026–2031.",
+        "highlights": [
+          "Bà được Quốc hội bầu giữ chức Phó Chủ tịch nước nhiệm kỳ 2021–2026 và tái đắc cử nhiệm kỳ 2026–2031.",
+          "Từ năm 1992 đến 1996, bà dạy hóa học tại Trường THPT Mỹ Thới ở An Giang."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q24957799",
+          "https://xaydungchinhsach.chinhphu.vn/tieu-su-quyen-chu-tich-nuoc-vo-thi-anh-xuan-119230119192432066.htm",
+          "https://en.daihoidang.vn/nhan-su/vo-thi-anh-xuan-12.html",
+          "https://baochinhphu.vn/ba-vo-thi-anh-xuan-duoc-bau-giu-chuc-pho-chu-tich-nuoc-nhiem-ky-2026-2031-102260407165232585.htm"
+        ],
+        "fields": [
+          "society-law"
+        ],
+        "lifeStatus": "living",
+        "verifiedAt": "2026-10-08"
+      }
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "joseph-weizenbaum",
+      "name": "Joseph Weizenbaum",
+      "wikidataId": "Q75778",
+      "birthDate": "1923-01-08",
+      "lifeStatus": "deceased",
+      "deathDate": "2008-03-05",
+      "dobSourceIds": [
+        "weizen-ieee-dob",
+        "weizen-troschke-dob"
+      ],
+      "statusSourceId": "weizen-troschke-dob",
+      "deathDateSourceIds": [
+        "weizen-troschke-dob"
+      ],
+      "careerFactIds": [
+        "jan8-weizenbaum-banking",
+        "jan8-weizenbaum-eliza-ethics"
+      ],
+      "fields": [
+        "technology-engineering",
+        "education-thought"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "technology-engineering",
+          "careerFactIds": [
+            "jan8-weizenbaum-banking",
+            "jan8-weizenbaum-eliza-ethics"
+          ],
+          "rationale": "His early computer-system design and natural-language program are documented by MIT and IEEE Computer Society sources."
+        },
+        {
+          "field": "education-thought",
+          "careerFactIds": [
+            "jan8-weizenbaum-eliza-ethics"
+          ],
+          "rationale": "The user response to ELIZA led him to examine the philosophical and social limits of artificial intelligence."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-joseph-weizenbaum",
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q75778",
+        "https://history.computer.org/pioneers/pdfs/W/Weizenbaum.pdf",
+        "https://www.troschke-archiv.de/interviews/joseph-weizenbaum",
+        "https://news.mit.edu/2008/obit-weizenbaum-0310"
+      ],
+      "identityClaims": {
+        "label": "Joseph Weizenbaum",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 3
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1923-01-08T00:00:00Z",
+            "references": 7,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2008-03-05T00:00:00Z",
+            "references": 7,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q183",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q82594",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q15980158",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q15976092",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q4964182",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q37226",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2500638",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q170790",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "selectedOccupationQids": [
+          "Q82594",
+          "Q1622272",
+          "Q4964182"
+        ]
+      },
+      "deathDatePrecision": "day",
+      "countryCode": "US",
+      "countryName": "Hoa Kỳ",
+      "category": "scientist",
+      "categoryLabel": "Nhà khoa học",
+      "occupation": [
+        "nhà khoa học máy tính",
+        "nhà giáo",
+        "nhà nghiên cứu đạo đức công nghệ"
+      ],
+      "birthplace": "Berlin, Đức",
+      "birthplaceEvidencePhrase": "Berlin, Germany",
+      "wikidataLabel": "Joseph Weizenbaum"
+    },
+    {
+      "id": "hanae-mori",
+      "name": "Hanae Mori",
+      "wikidataId": "Q755465",
+      "birthDate": "1926-01-08",
+      "lifeStatus": "deceased",
+      "deathDate": "2022-08-11",
+      "dobSourceIds": [
+        "hanae-apj-dob-place",
+        "hanae-guardian-dob-death"
+      ],
+      "statusSourceId": "hanae-apj-dob-place",
+      "deathDateSourceIds": [
+        "hanae-apj-dob-place",
+        "hanae-guardian-dob-death"
+      ],
+      "careerFactIds": [
+        "jan8-mori-studio",
+        "jan8-mori-haute-couture"
+      ],
+      "fields": [
+        "design-creative",
+        "entrepreneurship"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "jan8-mori-studio",
+            "jan8-mori-haute-couture"
+          ],
+          "rationale": "Her fashion-design studio, film costumes, and Paris couture work document a sustained creative-design career."
+        },
+        {
+          "field": "entrepreneurship",
+          "careerFactIds": [
+            "jan8-mori-studio"
+          ],
+          "rationale": "Opening her own design studio in 1951 is direct evidence of independent business creation."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-hanae-mori",
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q755465",
+        "https://artplatform.go.jp/ja/artists/A1986",
+        "https://www.theguardian.com/fashion/2022/aug/23/hanae-mori-obituary",
+        "https://www.hanae-mori.com/history_en/",
+        "https://www.arttowermito.or.jp/english/gallery/lineup/article_5051.html"
+      ],
+      "identityClaims": {
+        "label": "Hanae Mori",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1926-01-08T00:00:00Z",
+            "references": 4,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2022-08-11T00:00:00Z",
+            "references": 2,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q17",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q188712",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q3501317",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q43845",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q17",
+        "selectedOccupationQids": [
+          "Q3501317",
+          "Q43845"
+        ]
+      },
+      "deathDatePrecision": "day",
+      "countryCode": "JP",
+      "countryName": "Nhật Bản",
+      "category": "artist",
+      "categoryLabel": "Nhà thiết kế",
+      "occupation": [
+        "nhà thiết kế thời trang",
+        "doanh nhân"
+      ],
+      "birthplace": "Muikaichi (nay là Yoshika), Shimane, Nhật Bản",
+      "birthplaceEvidencePhrase": "生地/結成地 島根県鹿足郡六日市町（現・吉賀町）",
+      "wikidataLabel": "Hanae Mori"
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "jan8-elvis-first-no1",
+      "profileId": "elvis-presley",
+      "displayText": "Năm 1956, “Heartbreak Hotel” trở thành đĩa đơn quán quân đầu tiên của Presley; sự kiện mở đầu chuỗi 18 đĩa đơn quán quân trong sự nghiệp.",
+      "sourceId": "elvis-grammy-dob-career",
+      "evidencePhrase": "first No. 1 single with \"Heartbreak Hotel\" in 1956"
+    },
+    {
+      "id": "jan8-elvis-film-debut",
+      "profileId": "elvis-presley",
+      "displayText": "Presley ra mắt điện ảnh với Love Me Tender năm 1956.",
+      "sourceId": "elvis-graceland-film",
+      "evidencePhrase": "Elvis’ first movie was “Love Me Tender” and was released in 1956"
+    },
+    {
+      "id": "jan8-hawking-radiation",
+      "profileId": "stephen-hawking",
+      "displayText": "Năm 1974, Hawking đề xuất bức xạ phát ra từ hố đen; bài nghiên cứu “Black hole explosions?” được đăng trên Nature.",
+      "sourceId": "hawking-estate-radiation",
+      "evidencePhrase": "This research was published in 1974 by Nature as ‘Black hole explosions?’"
+    },
+    {
+      "id": "jan8-hawking-book",
+      "profileId": "stephen-hawking",
+      "displayText": "A Brief History of Time, do Bantam Press xuất bản năm 1988, là một trong những tác phẩm chính của Hawking.",
+      "sourceId": "hawking-pas-book",
+      "evidencePhrase": "Bantam Press (1988)"
+    },
+    {
+      "id": "jan8-vo-reelection",
+      "profileId": "vo-thi-anh-xuan",
+      "displayText": "Bà được Quốc hội bầu giữ chức Phó Chủ tịch nước nhiệm kỳ 2021–2026 và tái đắc cử nhiệm kỳ 2026–2031.",
+      "sourceId": "vo-current-reelection",
+      "evidencePhrase": "Bà Võ Thị Ánh Xuân được bầu giữ chức Phó Chủ tịch nước nhiệm kỳ 2026-2031"
+    },
+    {
+      "id": "jan8-vo-teaching",
+      "profileId": "vo-thi-anh-xuan",
+      "displayText": "Từ năm 1992 đến 1996, bà dạy hóa học tại Trường THPT Mỹ Thới ở An Giang.",
+      "sourceId": "vo-gov-teaching",
+      "evidencePhrase": "9/1992 - 7/1996: Giáo viên Trường Phổ thông Trung học Mỹ Thới"
+    },
+    {
+      "id": "jan8-weizenbaum-banking",
+      "profileId": "joseph-weizenbaum",
+      "displayText": "Năm 1955, Weizenbaum tham gia nhóm General Electric thiết kế và xây dựng hệ thống máy tính đầu tiên dành riêng cho hoạt động ngân hàng.",
+      "sourceId": "weizen-mit-banking",
+      "evidencePhrase": "designed and built the first computer system dedicated to banking operations"
+    },
+    {
+      "id": "jan8-weizenbaum-eliza-ethics",
+      "profileId": "joseph-weizenbaum",
+      "displayText": "ELIZA mô phỏng cuộc trò chuyện trị liệu; phản ứng của người dùng khiến Weizenbaum suy nghĩ sâu về các hệ quả triết học của AI và trở thành tiếng nói phê bình về AI.",
+      "sourceId": "weizen-mit-eliza",
+      "evidencePhrase": "The experience prompted him to think philosophically about the implications of artificial intelligence"
+    },
+    {
+      "id": "jan8-mori-studio",
+      "profileId": "hanae-mori",
+      "displayText": "Năm 1951, Mori mở studio thiết kế; bà phụ trách trang phục cho hàng trăm bộ phim Nhật trong thập niên 1950.",
+      "sourceId": "hanae-brand-studio",
+      "evidencePhrase": "opened her studio in 1951"
+    },
+    {
+      "id": "jan8-mori-haute-couture",
+      "profileId": "hanae-mori",
+      "displayText": "Năm 1977, bà trở thành nhà thiết kế châu Á đầu tiên được kết nạp vào tổ chức haute couture Paris.",
+      "sourceId": "hanae-arttower-haute",
+      "evidencePhrase": "first Asian member of “La Chambre Syndicale de la Couture Parisienne” in 1977"
+    }
+  ],
+  "wikidataReview": {
+    "profiles": {
+      "elvis-presley": {
+        "label": "Elvis Presley",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1935-01-08T00:00:00Z",
+            "references": 16,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1977-08-16T00:00:00Z",
+            "references": 15,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q10800557",
+            "references": 1
+          },
+          {
+            "rank": "preferred",
+            "value": "Q177220",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q36834",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q33999",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q47064",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q189290",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q12362622",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q15253558",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669",
+            "references": 1
+          }
+        ]
+      },
+      "stephen-hawking": {
+        "label": "Stephen Hawking",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1942-01-08T00:00:00Z",
+            "references": 16,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2018-03-14T00:00:00Z",
+            "references": 12,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q145",
+            "references": 2
+          }
+        ],
+        "p106": [
+          {
+            "rank": "preferred",
+            "value": "Q19350898",
+            "references": 1
+          },
+          {
+            "rank": "preferred",
+            "value": "Q2998308",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q752129",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q170790",
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "value": "Q1231865",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q3745071",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 2
+          },
+          {
+            "rank": "preferred",
+            "value": "Q36180",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q169470",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q15980158",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q11063",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q10798782",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q18814623",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q18844224",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1412961",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q901",
+            "references": 2
+          }
+        ]
+      },
+      "vo-thi-anh-xuan": {
+        "label": "Võ Thị Ánh Xuân",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 0
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1970-01-08T00:00:00Z",
+            "references": 1,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q82955",
+            "references": 1
+          }
+        ]
+      },
+      "joseph-weizenbaum": {
+        "label": "Joseph Weizenbaum",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 3
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1923-01-08T00:00:00Z",
+            "references": 7,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2008-03-05T00:00:00Z",
+            "references": 7,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q183",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q82594",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q15980158",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q15976092",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q4964182",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q37226",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2500638",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q170790",
+            "references": 1
+          }
+        ]
+      },
+      "hanae-mori": {
+        "label": "Hanae Mori",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1926-01-08T00:00:00Z",
+            "references": 4,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2022-08-11T00:00:00Z",
+            "references": 2,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q17",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q188712",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q3501317",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q43845",
+            "references": 0
+          }
+        ]
+      }
+    },
+    "conflicts": []
+  }
+}

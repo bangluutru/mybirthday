@@ -1,6 +1,6 @@
 # BV-017 — Chất lượng dữ liệu và mở rộng lĩnh vực
 
-State: WAITING_FOR_REVIEW — pilot 30 hồ sơ và các cổng BV-017 đã hoàn tất ngày 2026-10-08; chờ review trước batch mở rộng lớn hơn.
+State: IMPLEMENTING — theo phê duyệt trực tiếp của người dùng ngày 2026-10-08, tiếp tục rà soát hồ sơ chưa đủ evidence rồi mở rộng theo batch tới khi mỗi ngày có ít nhất 5 hồ sơ đạt chuẩn.
 Reviewer/executor: Codex làm trực tiếp trên repository; không qua hộp thư.
 Baseline trước BV-016: `de3ade7bf757a12c8ab2c191f9c02531f62971c7` (937 people, 4 events).
 Implementation baseline: `0d67324a3bd251ce4960a418c4ea291c86238f63` (1.120 people, 4 events).
@@ -28,6 +28,7 @@ Thực hiện tuần tự hai phần đã được người dùng duyệt:
 - Mục tiêu đa dạng của batch mở rộng: ít nhất 60% thuộc lĩnh vực ưu tiên; tìm tối thiểu 50 doanh nhân; hướng tới 8–12% hồ sơ bổ sung là người Việt, ít nhất một nửa người Việt bổ sung ngoài thể thao; Hoa Kỳ không quá 30% hồ sơ bổ sung. Không hạ chuẩn để đạt quota; báo minh bạch mục tiêu không đạt.
 - Mỗi người mới cần hai nguồn DOB có danh tính, ngày và nguồn gốc độc lập; evidence theo từng trường; P31/P569 audit; tình trạng sống/mất; biography và highlights có nội dung; ảnh chỉ khi quyền sử dụng phù hợp.
 - Triển khai theo pilot, sau đó theo batch tháng; các chỉ tiêu mỗi ngày được đánh giá lại theo số hồ sơ đạt chuẩn sau phần A.
+- Chỉ tính một hồ sơ vào ngưỡng 5/ngày khi hồ sơ có nội dung sự nghiệp thực chất được source trực tiếp hỗ trợ và identity/DOB được xác minh theo evidence hiện có hoặc capture review mới; không dùng riêng số lượng hay URL chưa kiểm tra để tuyên bố đạt.
 
 ## Acceptance
 
@@ -39,11 +40,13 @@ Thực hiện tuần tự hai phần đã được người dùng duyệt:
 - Pilot 30–40 hồ sơ mở rộng được review trước khi áp dụng batch lớn; taxonomy có test và không phá category cũ.
 - Kết quả cuối đạt ít nhất 5 người/ngày nếu đủ người đạt chuẩn; nếu thiếu phải nêu từng ngày và không thêm dữ liệu yếu.
 - Baseline changes có hash mới và test preservation hợp lệ; giữ 4 history events trừ khi có chỉ thị riêng.
+- Mục tiêu tiếp tục do người dùng phê duyệt ngày 2026-10-08: hoàn tất review nội dung và mở rộng theo batch; dừng khi cả 366 ngày đều có ít nhất 5 hồ sơ được evidence manifest và validator tính là đạt.
 - Validation phù hợp: `npm test`, `npx tsc --noEmit`, `npm run lint`, `npm run build`, `npm run coverage`, `git diff --check`, cùng live source/Wikidata và HTTP smoke cho UI thay đổi.
 - Cập nhật `.ai/STATUS.md`, báo cáo evidence, commit và push theo chỉ thị hiện hành.
 
 ## Reviewer attention
 
 - BV-016 / B015+B016 đã được triển khai ở commit `0d67324a3bd251ce4960a418c4ea291c86238f63`; trước review mới trạng thái là WAITING_FOR_REVIEW. Yêu cầu trực tiếp ngày 2026-10-07 cho phép tiếp tục sửa chất lượng và mở rộng.
+- Yêu cầu trực tiếp ngày 2026-10-08 phê duyệt tiếp tục BV-017 sau pilot; cập nhật trạng thái sang IMPLEMENTING và chỉ xử lý mục tiêu evidence-backed >=5 hồ sơ/ngày.
 - Baseline 22/2 có 16 people, vượt ngưỡng 8 trong directive cũ; giữ nguyên ngoại lệ cho kế hoạch này.
 - B014 tháng 10 từng WAITING_FOR_REVIEW; không ghi nhận ACCEPTED nếu chưa review evidence.

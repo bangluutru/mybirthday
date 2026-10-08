@@ -8,6 +8,18 @@ import { PERSON_FIELD_LABELS, type PersonField } from '../src/data/types';
 import { isAdultOnDate } from './wikidata-candidates';
 import { projectPersonBeforeBv017, sourceUrlsBeforeBv017, verifyBv017CorrectionManifest } from './bv017-corrections';
 import { BV017_EXPANSION_NEW_IDS, runBv017ExpansionPilotIntegrity } from './test-bv017-expansion-pilot';
+import { BV017_JAN1_NEW_IDS } from './test-bv017-january-1-batch';
+import { BV017_JAN2_NEW_IDS } from './test-bv017-january-2-batch';
+import { BV017_JAN3_NEW_IDS } from './test-bv017-january-3-batch';
+import { BV017_JAN4_NEW_IDS } from './test-bv017-january-4-batch';
+import { BV017_JAN5_NEW_IDS } from './test-bv017-january-5-batch';
+import { BV017_JAN6_NEW_IDS } from './test-bv017-january-6-batch';
+import { BV017_JAN7_NEW_IDS } from './test-bv017-january-7-batch';
+import { BV017_JAN8_NEW_IDS } from './test-bv017-january-8-batch';
+import { BV017_JAN9_NEW_IDS } from './test-bv017-january-9-batch';
+import { BV017_JAN10_NEW_IDS } from './test-bv017-january-10-batch';
+import { BV017_JAN11_NEW_IDS } from './test-bv017-january-11-batch';
+import { BV017_JAN12_NEW_IDS } from './test-bv017-january-12-batch';
 
 type DobSource = { url: string; publisher: string; publisherCountry?: string | null; countryProofUrl?: string | null };
 type EvidenceProfile = {
@@ -430,12 +442,12 @@ export function runB015B016Integrity(assert: (suite: string, condition: boolean,
   }
   assert('Rule AJ Wikidata audit', noReferenceQids.sort().join(',') === 'Q11891308,Q121028378,Q137214005', 'The three active P569 claims without references must remain explicitly recorded');
 
-  const baselinePeople = ALL_PEOPLE.filter((person) => !B015_B016_NEW_IDS.has(person.id) && !BV017_EXPANSION_NEW_IDS.has(person.id)).sort((a, b) => a.id.localeCompare(b.id));
+  const baselinePeople = ALL_PEOPLE.filter((person) => !B015_B016_NEW_IDS.has(person.id) && !BV017_EXPANSION_NEW_IDS.has(person.id) && !BV017_JAN1_NEW_IDS.has(person.id) && !BV017_JAN2_NEW_IDS.has(person.id) && !BV017_JAN3_NEW_IDS.has(person.id) && !BV017_JAN4_NEW_IDS.has(person.id) && !BV017_JAN5_NEW_IDS.has(person.id) && !BV017_JAN6_NEW_IDS.has(person.id) && !BV017_JAN7_NEW_IDS.has(person.id) && !BV017_JAN8_NEW_IDS.has(person.id) && !BV017_JAN9_NEW_IDS.has(person.id) && !BV017_JAN10_NEW_IDS.has(person.id) && !BV017_JAN11_NEW_IDS.has(person.id) && !BV017_JAN12_NEW_IDS.has(person.id)).sort((a, b) => a.id.localeCompare(b.id));
   assert('Rule AJ baseline', baselinePeople.length === 937, 'Preserve all 937 baseline people');
   assert('Rule AJ baseline', stableSha256(baselinePeople.map(projectPersonBeforeBv017)) === '889afd19959eeddcc367e5910f4fa35d89922fcde8722efe99e3de6157702aaa', 'All 937 baseline people must remain deep-equal after the independently verified BV-017 correction projection');
   assert('Rule AJ baseline', stableSha256(HISTORY_EVENTS) === '6dd4aae214c2b43131155c6483c3f3c575fe632e1287583c5c28ce4e40dcfd07', 'All four baseline history events must remain deep-equal');
   const coveredDays = new Set(ALL_PEOPLE.map((person) => person.birthMonth + '-' + person.birthDay));
-  assert('Rule AJ total', ALL_PEOPLE.length === 1150, 'Expected 1150 total people after the 30-profile BV-017 pilot');
+  assert('Rule AJ total', ALL_PEOPLE.length === 1174, 'Expected 1,174 total people after the 30-profile BV-017 pilot and January 1-12 batches');
   assert('Rule AJ coverage', coveredDays.size === 366, 'Expected 366 covered calendar days');
   console.log('B015+B016 additions: ' + additions.length + '; Vietnamese: November ' + novemberVietnamese.length + ', December ' + decemberVietnamese.length + '; active P569 claims without references: ' + noReferenceQids.length + '; coverage: ' + coveredDays.size + '/366');
   runBv017ExpansionPilotIntegrity(assert);
