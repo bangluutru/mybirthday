@@ -10,7 +10,7 @@
     "people": 1120,
     "death_date_conflict": 33,
     "p570_without_reference": 1,
-    "deathDatesDirectlyConfirmedByPublisherCapture": 297,
+    "deathDatesDirectlyConfirmedByPublisherCapture": 299,
     "deathDatesDirectlyConfirmedInB015B016": 36,
     "deathDatesDirectlyConfirmedInBaseline": 240,
     "preExistingDeathDateConflictsNotOverwritten": 30,
@@ -23,7 +23,8 @@
     "deathDatesDirectlyConfirmedInBV017January10": 2,
     "deathDatesDirectlyConfirmedInBV017January11": 2,
     "deathDatesDirectlyConfirmedInBV017January12": 3,
-    "deathDatesDirectlyConfirmedInBV017January13": 4
+    "deathDatesDirectlyConfirmedInBV017January13": 4,
+    "deathDatesDirectlyConfirmedInBV017January14": 3
   },
   "people": [
     {
@@ -3956,6 +3957,7 @@
       ],
       "localDeathDatePrecision": "day",
       "localDeathDateSourceUrls": [
+        "https://www.asianscientist.com/2019/04/topnews/sydney-brenner-nobel-laureate-dies-92-c-elegans-obituary/",
         "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=NA3395&src=CalmView.Persons"
       ],
       "localLifeStatusExplicit": true,
@@ -4233,7 +4235,8 @@
       ],
       "localDeathDatePrecision": "day",
       "localDeathDateSourceUrls": [
-        "https://brockhaus.de/ecs/julex/article/schweitzer-albert"
+        "https://brockhaus.de/ecs/julex/article/schweitzer-albert",
+        "https://www.albert-schweitzer.ch/albert-und-helene-schweitzer/albert-schweitzer"
       ],
       "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
@@ -4401,11 +4404,13 @@
       "activeDeathDates": [
         "1970-11-25"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "1970-11-25",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://www.library.shinjuku.tokyo.jp/database/jinbutuyukari/070/post53.html"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -4457,11 +4462,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "unknown",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {

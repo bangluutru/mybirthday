@@ -1,0 +1,1543 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-14",
+  "capturedAt": "2026-10-08T16:11:20Z",
+  "sourceCaptures": [
+    {
+      "id": "albert-foundation-dob",
+      "url": "https://www.albert-schweitzer.ch/albert-und-helene-schweitzer/albert-schweitzer",
+      "publisher": "Albert Schweitzer Foundation",
+      "publisherHost": "www.albert-schweitzer.ch",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 92638,
+      "sha256": "75627656493e49dc9e1ebae4a10ca571cb14d09fa6eb55bc62f3130b62908478",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "tzer/Helen Breslau Die Jahre vor Lambarene – Briefe 1902–1912 ISBN: 978-3-406-36788-5 Albert Schweitzer Leben und Werke 14. Januar 1875; Albert Schweitzer wird in Kaysersberg / Oberelsass als deutscher Staatsbürger geboren. 1893; Studium der Theologie und Philosophie in Strassburg. Pfingsten 1896; Entschluss zu einem Beruf menschlichen Dienens nach dem 30. Lebens",
+      "excerptSha256": "364b465301bac3a6e8e8a0c23324e5eb93e392773cff3ec32fc2c5d551a9487b"
+    },
+    {
+      "id": "albert-brockhaus-dob",
+      "url": "https://brockhaus.de/ecs/julex/article/schweitzer-albert",
+      "publisher": "Brockhaus",
+      "publisherHost": "brockhaus.de",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 196980,
+      "sha256": "843806841d9910b9f34b63d45a37e4877439a046416e4958d8a867aab9e9fe41",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "udwig Philipp Albert Schweitzer war ein deutsch-französischer Philosoph, Theologe, Arzt und Friedensnobelpreisträger, * 14.1.1875 in Kaysersberg im Elsass (heute zu Colmar-Ribeauvillé, Frankreich), † 4.9.1965 in Lambarene (Gabun). IMAGO/TT Albert Schweitzer im Oktober 1955 in London. Ein bekannter Tropenarzt Schriftsteller, Musiker und Philosoph Information",
+      "excerptSha256": "13717085db4fb3d26d8865f33d365996ee5a9d4e2ee085560a0dc40e6858dfd3"
+    },
+    {
+      "id": "albert-foundation-nobel",
+      "url": "https://www.albert-schweitzer.ch/albert-und-helene-schweitzer/albert-schweitzer",
+      "publisher": "Albert Schweitzer Foundation",
+      "publisherHost": "www.albert-schweitzer.ch",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 92638,
+      "sha256": "75627656493e49dc9e1ebae4a10ca571cb14d09fa6eb55bc62f3130b62908478",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "; Goethepreis der Stadt Frankfurt. 1949; Reise nach Amerika und Rede zum 200. Geburtstag von Goethe in Aspen, Colorado. 1953; Friedensnobelpreis rückwirkend für das Jahr 1952. 23. April 1957; Erster Appell gegen die Atomrüstung über Radio Oslo. 22. Mai; Frau Helene verlässt Lambarene und stirbt am 1. Juni in Zürich. 9. Dezember 1959; 14. und letzte Reise nach Lambarene. 4. September 1965; Albert Schwe",
+      "excerptSha256": "f11b68f6a45fbec566fe1a63aa050405ea9c78b7d3a55acdc737cb3bd4007f8f"
+    },
+    {
+      "id": "albert-foundation-hospital-death",
+      "url": "https://www.albert-schweitzer.ch/albert-und-helene-schweitzer/albert-schweitzer",
+      "publisher": "Albert Schweitzer Foundation",
+      "publisherHost": "www.albert-schweitzer.ch",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 92638,
+      "sha256": "75627656493e49dc9e1ebae4a10ca571cb14d09fa6eb55bc62f3130b62908478",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "in mit der Dissertation «Die psychiatrische Beurteilung Jesu». Am 21. März Abfahrt in Günsbach und am 16. April Ankunft in Lambarene, wo er zusammen mit seiner Frau das erste Spital auf der Missionsstation von Andende aufbaut. 1914 Zwischen dem 5. August und Ende November werden Schweitzers wegen des Krieges in Europa als deutsche Staatsbürger von schwarzen Soldaten bewacht. Danach kann Schweizer seine Tätigkeit als Arzt wieder auf ...  Frau Helene verlässt Lambarene und stirbt am 1. Juni in Zürich. 9. Dezember 1959; 14. und letzte Reise nach Lambarene. 4. September 1965; Albert Schweitzer stirbt vor Mitternacht 90-jährig und wird am folgenden Tag neben dem Grab seiner Frau beigesetzt. BUCHHINWEIS Albert Schweitzer Aus meiner Kindheit und Jugendzeit ISBN: 978-3-406-68385-5 Albert Schweitzer Biographie lang 1875 Am 14. Jan",
+      "excerptSha256": "5349b9a67cbe45d77b146eb004dffe7fe79225fe08ae7ff98e0bc18b4a7931a2"
+    },
+    {
+      "id": "mishima-museum-dob",
+      "url": "https://www.mishimayukio.jp/about/",
+      "publisher": "Mishima Yukio Literary Museum",
+      "publisherHost": "www.mishimayukio.jp",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 31752,
+      "sha256": "1162d501e3dcfb854e10192ff50ced2431997e39f477e8f6b9365de10c2f4cbd",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "島は書名にも気を使い、本の装丁にも凝ったから、どの本にも三島らしさが出ている。三島の略年譜も一緒に展示しており、これらを見比べながら三島の作品と生涯をたどることができる。 2 平岡公威から三島由紀夫へ―10代の文学熱 平岡公威（戸籍名）は、大正14年（1925）1月14日に生まれた。学習院中等科から高等科にかけて、詩や小説の創作にのめり込む。母・倭文重が保管していた驚くほどの多くの資料が残されている。「花ざかりの森」は16歳のときに書いた小説で、最も注目される作品である。戦争が激しくなると、生の証しを残すべく執筆に没頭した。この時期の原稿は書き直しが多く、作品の生成過程がうかがえる。その一部が入れ替えをしながら展示されている。 3 プロフェッショナルの道―20代の苦闘 終戦後、川端康成の推薦を得て雑誌「人間」に「煙草」を発",
+      "excerptSha256": "fb0ef85d9b74d451dfbd53624435062b0a63207bb4f0bd525e6afb98beee087a"
+    },
+    {
+      "id": "mishima-shinjuku-dob-death",
+      "url": "https://www.library.shinjuku.tokyo.jp/database/jinbutuyukari/070/post53.html",
+      "publisher": "Shinjuku City Library",
+      "publisherHost": "www.library.shinjuku.tokyo.jp",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 8386,
+      "sha256": "c447d1c1d50b69e58bf09294a8ca52d8ada1ca105e01379065470994ee050fc0",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "新宿区ゆかりの人物データベース > 三島 由紀夫 三島 由紀夫 みしま ゆきお 財団法人日本近代文学館提供（外部サイト） 著作物一覧 新宿区立図書館所蔵の著作物 関連資料一覧 人物に関連した新宿区立図書館所蔵の資料 プロフィール 生年月日 大正14年1月14日(1925年) 没年 昭和45年11月25日(1970年) 職業等 小説家 出身 東京都生まれ ゆかりの地 大正14年～昭和8年 ： 永住町2 昭和8年～昭和12年 ： 西信濃町16 経歴 三島由紀夫（本名・平岡公威（きみたけ））は、永住町２（現・四谷４丁目２２番地）に、農務省官僚平岡梓の長男として生まれた。昭和６年学習院初等に入学、８年に西信濃町（現・信濃町８）に転居し、１２年に渋谷区大山町（現・渋谷区松濤）に移るまで、幼少時代を四谷で過ごした。母倭文重（しずえ）の回 ... 由紀夫 三島 由紀夫 みしま ゆきお 財団法人日本近代文学館提供（外部サイト） 著作物一覧 新宿区立図書館所蔵の著作物 関連資料一覧 人物に関連した新宿区立図書館所蔵の資料 プロフィール 生年月日 大正14年1月14日(1925年) 没年 昭和45年11月25日(1970年) 職業等 小説家 出身 東京都生まれ ゆかりの地 大正14年～昭和8年 ： 永住町2 昭和8年～昭和12年 ： 西信濃町16 経歴 三島由紀夫（本名・平岡公威（きみたけ））は、永住町２（現・四谷４丁目２２番地）に、農務省官僚平岡梓の長男として生まれた。昭和６年学習院初等に入学、８年に西信濃町（現・信濃町８）に転居し、１２年に渋谷区大山町（現・渋谷区松濤）に移るまで、幼少時代を四谷で過ごした。母倭文重（しずえ）の回想（※『伜・三島由紀夫』平岡梓著／文芸春秋 ",
+      "excerptSha256": "388625d576b939b0d5e4de901fe7c252b38d80c4b198f943d2856a71f20fd683"
+    },
+    {
+      "id": "mishima-museum-shiosai",
+      "url": "https://www.mishimayukio.jp/about/",
+      "publisher": "Mishima Yukio Literary Museum",
+      "publisherHost": "www.mishimayukio.jp",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 31752,
+      "sha256": "1162d501e3dcfb854e10192ff50ced2431997e39f477e8f6b9365de10c2f4cbd",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "く執筆に没頭した。この時期の原稿は書き直しが多く、作品の生成過程がうかがえる。その一部が入れ替えをしながら展示されている。 3 プロフェッショナルの道―20代の苦闘 終戦後、川端康成の推薦を得て雑誌「人間」に「煙草」を発表した東大時代から、ベストセラー小説「潮騒」で一躍有名になる時期までを扱う。20代初めは実力を認められながら、作品は酷評されていた。それが大蔵省を辞めて「仮面の告白」を発表すると、それまで批判的だった批評家までもが認めるようになった。その後「愛の渇き」「青の時代」「禁色」などの秀作によって着実に力を発揮していく。この20代の苦闘を資料や写真でたどる。 4 八面六臂のスタア―充実の30代 三島由紀夫は30代になると矢継ぎ早に優れた小説を発表しました。同時代に完成度の高い戯曲も手掛けます。20代から書いてきた能を",
+      "excerptSha256": "3824aaacd39c7fa666a590359455cf38dca3fa1407286312ddb2b49f244c03ed"
+    },
+    {
+      "id": "mishima-shinjuku-kamen",
+      "url": "https://www.library.shinjuku.tokyo.jp/database/jinbutuyukari/070/post53.html",
+      "publisher": "Shinjuku City Library",
+      "publisherHost": "www.library.shinjuku.tokyo.jp",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 8386,
+      "sha256": "c447d1c1d50b69e58bf09294a8ca52d8ada1ca105e01379065470994ee050fc0",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "な時聞を過ごしたという。 昭和２２年、東京帝国大学を卒業、大蔵省に入省して銀行局国民貯蓄課に勤務、四ツ谷駅前の戦災に焼け残った小学校校舎（旧・四谷第三小）の仮庁舎へ通勤した。しかし翌年には退職、学生時代より行ってきた創作活動を本格的に始動、２４年『仮面の告白』を発表して作家としての地位を確立した。以後、『金閣寺』『潮騒』『鏡子の家』『豊饒の海』などの小説の他、『近代能楽集』などに代表される戯曲を次々と発表した。 作品は英・仏・独語などに翻訳され、海外でも広く紹介された。また多くの作品が舞台化、映画化されている。４２年、自衛隊に体験入隊、「楯の会」を結成し、４５年１１月２５日、会員らと陸上自衛隊市ヶ谷駐屯地（現・防衛省）の東部方面総監室に入り、益田兼利総監を拘束、バルコニー前の自衛隊員らに演説後、割腹自殺した。 出典：新宿ゆかりの文学者 前の画",
+      "excerptSha256": "0070815ea93a7efff630ca00beb0a51cfcba017ff8d420c7ef10f0791fef542b"
+    },
+    {
+      "id": "suboi-vov-dob",
+      "url": "https://vov.vn/van-hoa/nghe-si/suboi-tu-co-be-teen-mac-quan-thung-den-nu-hoang-hip-hop-viet-551201.vov",
+      "publisher": "Voice of Vietnam (VOV)",
+      "publisherHost": "vov.vn",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 267181,
+      "sha256": "9956e24ec8663267a0b56fc53a731f15296566cceb9482bca0d7dc369d467c05",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": ": Từ cô bé teen mặc quần thụng đến \"nữ hoàng Hip hop\" Việt Nổi tiếng từ khá sớm, Suboi, tên thật là Hàng Lâm Trang Anh, sinh ngày 14 tháng 1 năm 1990. Nữ rapper đã có một hành trình “lột xác” từ cô gái tuổi teen trong quần thụng, áo thun, đến một Suboi trưởng thành, nữ tính, quyến rũ hơn nhưng vẫn không mất đi “chất riêng” vốn có. Không chỉ là cái tên gắn với những hit lớn như",
+      "excerptSha256": "8bc666bf78d050af50a2986f411f4c3d547309fc56fb7ad20c1f93f9a0b5e52a"
+    },
+    {
+      "id": "suboi-voh-dob",
+      "url": "https://voh.com.vn/tieu-su-sao/tieu-su-rapper-suboi-373884.html",
+      "publisher": "VOH",
+      "publisherHost": "voh.com.vn",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 275309,
+      "sha256": "8ec783041526ccfb4983a8742fd041e9ba34dcaf59c0c07c998616e923791843",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "là “Vietnam's queen of hip-hop ” khi đạt được thành công ở cả trong và ngoài nước. Suboi là ai? Tên: Hàng Lâm Trang Anh Ngày sinh: 14/01/1990 Quê quán: Thành phố Hồ Chí Minh Instagram: @justsuboi Sinh ra và lớn lên tại TPHCM, Suboi thừa nhận rằng nơi này có ý nghĩa rất lớn đối với mình. Thậm chí, cô còn xăm hai chữ Sài Gòn nho nhỏ trên cổ tay để làm kỷ niệm và nhắc nhở",
+      "excerptSha256": "572713f6a8c1bdaa9baba0bb78c422c643ca111dcfec0a640aa3585dca0dfcac"
+    },
+    {
+      "id": "suboi-vne-run",
+      "url": "https://vnexpress.net/suboi-ra-mat-album-run-tren-itunes-o-109-nuoc-3086542.html",
+      "publisher": "VnExpress",
+      "publisherHost": "vnexpress.net",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 264967,
+      "sha256": "af2656106bf963b8d751c866d2782971c90360d629b90c59e06d38668ac275fc",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "c bài hát do chính Suboi sáng tác như: Run, Người ta hiểu, Sài Gòn, Come back down, Thiên đường biết, Lời thỉnh cầu ... CD được bán trên iTunes của Apple ở 109 quốc gia với giá 12 USD (bao gồm thuế). Ca sĩ Suboi (phải) bên anh PMX - DJ hip hop người Nhật. Trong album mang màu sắc rap, hiphop và dubstep, Suboi gói trọn cảm xúc của cô về bản thân, về cuộc sống sau hai năm tạm xa làng nhạc. Ở đó có",
+      "excerptSha256": "08d21bde945b6a1a71ef1f929b2c3bdd946109058d16d8d515247c06ebd21d1c"
+    },
+    {
+      "id": "suboi-vov-yseali",
+      "url": "https://vov.vn/van-hoa/nghe-si/rapper-suboi-xuat-hien-trong-clip-cua-nha-trang-tri-an-ong-obama-583862.vov",
+      "publisher": "Voice of Vietnam (VOV)",
+      "publisherHost": "vov.vn",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 248998,
+      "sha256": "88082cbb4a14a746e63b2f97c15568749c7c6bd09562eee528c68c91386a4f07",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ẻ Đông Nam Á) do ông thành lập tại TP.HCM ngày 25/5/2016. Hàng trăm bạn trẻ trong đó có một số nghệ sĩ tham dự sự kiện. Nữ rapper Suboi là người cuối cùng và cũng là nghệ sĩ hiếm hoi có cơ hội đặt câu hỏi cho Obama. Khi cô giới thiệu mình là một rapper, Tổng thống Mỹ tỏ ra thích thú./. Time: “Nữ hoàng Hip Hop Việt” gây ấn tượng mạnh với Tổng thống Obama VOV.VN - “Trước khi tôi trả lời câu hỏi của cháu, sao cháu không hát một chút rap nhỉ?” ",
+      "excerptSha256": "217a406509c83b6d6abbb1a26fefed794c5ae564db951db6173bc3d8f4ad5ce1"
+    },
+    {
+      "id": "silbermann-saebi-dob-death",
+      "url": "https://saebi.isgv.de/person/snr/3727",
+      "publisher": "Sächsische Biografie, ISGV",
+      "publisherHost": "saebi.isgv.de",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 12800,
+      "sha256": "7d114383b8c6cfad4809a88116bc6deb2c9de03c6f219142f235bd00599087c3",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ssum Projektteam Autoren Kontakt zur Tabellensuche Gottfried Silbermann (1683-1753) Name: Silbermann Vorname: Gottfried geboren: 14.01.1683 in Kleinbobritzsch bei Frauenstein/ Erzgebirge gestorben: 04.08.1753 in Dresden Beerdigungsort: Dresden (Alter Johannisfriedhof) Beruf: Orgelbauer GND: 118614304 GND : 118614304 SNR: 3727 SNR : 3727 Artikelstatus: Artikel in Bear ... mann (1683-1753) Name: Silbermann Vorname: Gottfried geboren: 14.01.1683 in Kleinbobritzsch bei Frauenstein/ Erzgebirge gestorben: 04.08.1753 in Dresden Beerdigungsort: Dresden (Alter Johannisfriedhof) Beruf: Orgelbauer GND: 118614304 GND : 118614304 SNR: 3727 SNR : 3727 Artikelstatus: Artikel in Bearbeitung zur Tabellensuche erwähnt in folgenden Artikeln: Ernst Hähnel",
+      "excerptSha256": "ab9b33577e6d34f72c1cc5c143f995aef5b83d92ba3f281158c9bf8d4af0a9c1"
+    },
+    {
+      "id": "silbermann-dnb-dob",
+      "url": "https://www.deutsche-biographie.de/gnd118614304.html",
+      "publisher": "Deutsche Biographie",
+      "publisherHost": "www.deutsche-biographie.de",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytesRead": 52398,
+      "sha256": "8d096411d03584441a6b64fe90c9f3cf4a937b9a32f95f5bfb90adca1246ad07",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " RDF Druckfassung Druckvorlage Scan vorheriger Artikel folgender Artikel Silbermann, Gottfried Orgel- und Klavierbauer, * 14. 1. 1683 Kleinbobritzsch bei Frauenstein (Erzgebirge, Sachsen), † 4. 8. 1753 Dresden. Genealogie V Michael (I.) (1640–1713), Zimmermann in K. , Tischlermeister, seit 1686 in F. (s. Fam.art.), S d. Veit; M Anna Maria, T d. Caspar Preußler, ... kel Silbermann, Gottfried Orgel- und Klavierbauer, * 14. 1. 1683 Kleinbobritzsch bei Frauenstein (Erzgebirge, Sachsen), † 4. 8. 1753 Dresden. Genealogie V Michael (I.) (1640–1713), Zimmermann in K. , Tischlermeister, seit 1686 in F. (s. Fam.art.), S d. Veit; M Anna Maria, T d. Caspar Preußler, in Großwaltersdorf (Erzgebirge, Sachsen); Ur-Gvv Georg; Geschw u. a",
+      "excerptSha256": "73086996b45bc508e392b6ceab46fdea31df8711838e0e237bf0c34c97782cba"
+    },
+    {
+      "id": "silbermann-dnb-freiberg",
+      "url": "https://www.deutsche-biographie.de/gnd118614304.html",
+      "publisher": "Deutsche Biographie",
+      "publisherHost": "www.deutsche-biographie.de",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytesRead": 52398,
+      "sha256": "8d096411d03584441a6b64fe90c9f3cf4a937b9a32f95f5bfb90adca1246ad07",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "end dessen Aufenthalt in Paris 1704–06 leitete S. die Straßburger Werkstatt und arbeitete 1708/09 selbst in Frankreich. 1710 ließ er sich in Freiberg (Sachsen) nieder und errichtete dort auf Empfehlung des Komponisten Johann Kuhnau (1667–1722) die große Domorgel (erhalten). Als kgl. poln. und kfl. sächs. Hof- und Landorgelbauer seit 1723 schuf S. insgesamt 46 Orgeln in Mitteldeutschland sowie zahlreiche Saitenklaviere. Dabei beteiligte er sich u. a. mit dem",
+      "excerptSha256": "09c27b721bb7b1f0ffcb1a8eb9ec7ff8954715787607681b80021edce6457436"
+    },
+    {
+      "id": "silbermann-dnb-count",
+      "url": "https://www.deutsche-biographie.de/gnd118614304.html",
+      "publisher": "Deutsche Biographie",
+      "publisherHost": "www.deutsche-biographie.de",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytesRead": 52398,
+      "sha256": "8d096411d03584441a6b64fe90c9f3cf4a937b9a32f95f5bfb90adca1246ad07",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "au (1667–1722) die große Domorgel (erhalten). Als kgl. poln. und kfl. sächs. Hof- und Landorgelbauer seit 1723 schuf S. insgesamt 46 Orgeln in Mitteldeutschland sowie zahlreiche Saitenklaviere. Dabei beteiligte er sich u. a. mit dem „Cembal d'Amour“ aktiv an der Weiterentwicklung des Klavierbaus und verstand darüber hinaus, seine starke Position so gut zu nutzen, daß er es zu einem für e",
+      "excerptSha256": "74fbe24d2783acbb32852e8b70c51b65f1fb0b0d829da8d44730966148072f19"
+    },
+    {
+      "id": "hosokawa-kantei-dob",
+      "url": "https://japan.kantei.go.jp/past_cabinet/079.html",
+      "publisher": "Prime Minister of Japan and His Cabinet",
+      "publisherHost": "japan.kantei.go.jp",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 6760,
+      "sha256": "b8ecaf9c314764c4f95829a706b7dac9a87a87c76b388c5a28febd27a34b4916",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " your browser Home The Cabinet Previous Prime Ministers HOSOKAWA Morihiro HOSOKAWA Morihiro 79th Prime Minister Profile Date of birth: January 14, 1938 From: Kumamoto Age at inauguration: 55 Term in office: August 9, 1993 - April 28, 1994 Days in office this term: 263 Total days in office: 263 Back to The Previous Prime Ministers",
+      "excerptSha256": "20a2f6e980413cb530299d15acbac5d981f3b58a4522041f2cd3caae83717a07"
+    },
+    {
+      "id": "hosokawa-munzinger-dob",
+      "url": "https://www.munzinger.de/register/portrait/biographien/hosokawa%20morihiro/00/20805",
+      "publisher": "Munzinger Biographie",
+      "publisherHost": "www.munzinger.de",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytesRead": 17095,
+      "sha256": "37ebd2aaddbd42bdb558da19b0a0cc41efc31b0e56073e6689c27f1dea4805bb",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ründer der Neuen Japan-Partei (Japan New Party - JNP; Nihonshinto) * 14. Januar 1938 Tokio Herkunft Morihiro Hosokawa , am 14. Jan. 1938 in Tokio geboren, ist das achtzehnte Oberhaupt einer alten Samurai-Familie. Als Daimyo-Clan regierten die Fürsten Hosokawa vom 17. bis 19. Jahrhundert in Higo, der heutigen Provinz Kumamoto auf der Südinsel Kiuschu. Die Großväter H.s waren Mitgli",
+      "excerptSha256": "50d57ff8a4b9e4b48221d009b7d40dff5cedb9e85020a8fd8844a492b98a4f0c"
+    },
+    {
+      "id": "hosokawa-kantei-term",
+      "url": "https://japan.kantei.go.jp/past_cabinet/079.html",
+      "publisher": "Prime Minister of Japan and His Cabinet",
+      "publisherHost": "japan.kantei.go.jp",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 6760,
+      "sha256": "b8ecaf9c314764c4f95829a706b7dac9a87a87c76b388c5a28febd27a34b4916",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ro HOSOKAWA Morihiro 79th Prime Minister Profile Date of birth: January 14, 1938 From: Kumamoto Age at inauguration: 55 Term in office: August 9, 1993 - April 28, 1994 Days in office this term: 263 Total days in office: 263 Back to The Previous Prime Ministers",
+      "excerptSha256": "f8cd74cf1afc751b73216d2d23a048013db7587c4779706ad72faa4728b33afc"
+    },
+    {
+      "id": "hosokawa-munzinger-reporter",
+      "url": "https://www.munzinger.de/register/portrait/biographien/hosokawa%20morihiro/00/20805",
+      "publisher": "Munzinger Biographie",
+      "publisherHost": "www.munzinger.de",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytesRead": 17095,
+      "sha256": "37ebd2aaddbd42bdb558da19b0a0cc41efc31b0e56073e6689c27f1dea4805bb",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "e H. sein Jurastudium an der von deutschen Jesuiten gegründeten Sophia-Universität in Tokio. Wirken Nach seinem Studium arbeitete H. als Reporter bei \"Asahi Shimbun\", einer 1879 gegründeten, als linksintellektuell geltenden Tageszeitung in Tokio, deren Morgenausgabe inzwischen (1993) mit einer Auflage von über acht Millionen erscheint. Nachdem es ihm mißlang, mit Hilfe einer konservativen Ref",
+      "excerptSha256": "68c216152543cddc5584f7634a1339f678687b59dd1bb816a3b84abcd675de50"
+    },
+    {
+      "id": "wikidata-Q49325",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q49325.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 294352,
+      "sha256": "5348828cbea598f02077adcd70b46a20cd5dcf3cc5c9d969dc5a764000696a8e",
+      "verificationMethod": "direct-http-json-body-capture+reviewed-extract",
+      "excerpt": "{\"claims\": {\"P106\": [{\"rank\": \"normal\", \"references\": 2, \"value\": \"Q1234713\"}, {\"rank\": \"normal\", \"references\": 2, \"value\": \"Q4964182\"}, {\"rank\": \"normal\", \"references\": 2, \"value\": \"Q39631\"}, {\"rank\": \"normal\", \"references\": 1, \"value\": \"Q765778\"}, {\"rank\": \"normal\", \"references\": 1, \"value\": \"Q551835\"}, {\"rank\": \"normal\", \"references\": 1, \"value\": \"Q1622272\"}, {\"rank\": \"normal\", \"references\": 1, \"value\": \"Q14915627\"}, {\"rank\": \"normal\", \"references\": 0, \"value\": \"Q20198542\"}, {\"rank\": \"normal\", \"references\": 0, \"value\": \"Q36834\"}, {\"rank\": \"normal\", \"references\": 1, \"value\": \"Q219477\"}, {\"rank\": \"normal\", \"references\": 1, \"value\": \"Q16003550\"}, {\"rank\": \"normal\", \"references\": 1, \"value\": \"Q482980\"}, {\"rank\": \"normal\", \"references\": 1, \"value\": \"Q639669\"}], \"P27\": [{\"rank\": \"normal\", \"references\": 2, \"value\": \"Q1206012\"}, {\"rank\": \"normal\", \"references\": 1, \"value\": \"Q142\"}], \"P31\": [{\"rank\": \"normal\", \"references\": 3, \"value\": \"Q5\"}], \"P569\": [{\"calendar\": \"Q1985727\", \"precision\": 11, \"rank\": \"normal\", \"references\": 18, \"value\": \"+1875-01-14T00:00:00Z\"}], \"P570\": [{\"calendar\": \"Q1985727\", \"precision\": 11, \"rank\": \"normal\", \"references\": 16, \"value\": \"+1965-09-04T00:00:00Z\"}]}, \"id\": \"Q49325\", \"label\": \"Albert Schweitzer\"}",
+      "excerptSha256": "e4b142d0cd24caedf269018e828b3134a1bb93a0c3592e0a70257240d0eaf276"
+    },
+    {
+      "id": "wikidata-Q134456",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q134456.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 290252,
+      "sha256": "532020b782fb9c0394bb30a2b8943efbca2ac60a24f683992c1884ddb8109a0f",
+      "verificationMethod": "direct-http-json-body-capture+reviewed-extract",
+      "excerpt": "{\"claims\": {\"P106\": [{\"rank\": \"normal\", \"references\": 1, \"value\": \"Q36180\"}, {\"rank\": \"normal\", \"references\": 0, \"value\": \"Q12144794\"}, {\"rank\": \"normal\", \"references\": 0, \"value\": \"Q6625963\"}, {\"rank\": \"normal\", \"references\": 1, \"value\": \"Q214917\"}, {\"rank\": \"normal\", \"references\": 0, \"value\": \"Q28389\"}, {\"rank\": \"normal\", \"references\": 1, \"value\": \"Q49757\"}, {\"rank\": \"normal\", \"references\": 1, \"value\": \"Q11774202\"}, {\"rank\": \"normal\", \"references\": 0, \"value\": \"Q333634\"}, {\"rank\": \"normal\", \"references\": 1, \"value\": \"Q6430706\"}, {\"rank\": \"normal\", \"references\": 0, \"value\": \"Q2259451\"}, {\"rank\": \"normal\", \"references\": 1, \"value\": \"Q10800557\"}, {\"rank\": \"normal\", \"references\": 3, \"value\": \"Q2526255\"}, {\"rank\": \"normal\", \"references\": 1, \"value\": \"Q3387717\"}, {\"rank\": \"normal\", \"references\": 0, \"value\": \"Q4610556\"}, {\"rank\": \"normal\", \"references\": 1, \"value\": \"Q11499147\"}, {\"rank\": \"normal\", \"references\": 0, \"value\": \"Q212238\"}, {\"rank\": \"normal\", \"references\": 0, \"value\": \"Q15949613\"}, {\"rank\": \"normal\", \"references\": 1, \"value\": \"Q33999\"}, {\"rank\": \"normal\", \"references\": 1, \"value\": \"Q755070\"}], \"P27\": [{\"rank\": \"normal\", \"references\": 1, \"value\": \"Q17\"}], \"P31\": [{\"rank\": \"normal\", \"references\": 2, \"value\": \"Q5\"}], \"P569\": [{\"calendar\": \"Q1985727\", \"precision\": 11, \"rank\": \"normal\", \"references\": 10, \"value\": \"+1925-01-14T00:00:00Z\"}], \"P570\": [{\"calendar\": \"Q1985727\", \"precision\": 11, \"rank\": \"normal\", \"references\": 11, \"value\": \"+1970-11-25T00:00:00Z\"}]}, \"id\": \"Q134456\", \"label\": \"Yukio Mishima\"}",
+      "excerptSha256": "a538b740a457818194fb6ce0d26c7d5ce3e4f8be5b90129128833a9a1c709001"
+    },
+    {
+      "id": "wikidata-Q16233605",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q16233605.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 40309,
+      "sha256": "5db94c9d52cca5303e1ecf7fcdafd49b7f0c07204e892c9b260fe375f5bb8d5f",
+      "verificationMethod": "direct-http-json-body-capture+reviewed-extract",
+      "excerpt": "{\"claims\": {\"P106\": [{\"rank\": \"normal\", \"references\": 0, \"value\": \"Q488205\"}, {\"rank\": \"normal\", \"references\": 0, \"value\": \"Q2252262\"}], \"P27\": [{\"rank\": \"normal\", \"references\": 0, \"value\": \"Q881\"}], \"P31\": [{\"rank\": \"normal\", \"references\": 1, \"value\": \"Q5\"}], \"P569\": [{\"calendar\": \"Q1985727\", \"precision\": 11, \"rank\": \"normal\", \"references\": 1, \"value\": \"+1990-01-14T00:00:00Z\"}], \"P570\": []}, \"id\": \"Q16233605\", \"label\": \"Suboi\"}",
+      "excerptSha256": "16ef42fd43e1c6deb94457bc7047e05e6c5e818526c7471440ca9779ccd75aa1"
+    },
+    {
+      "id": "wikidata-Q61720",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q61720.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 59261,
+      "sha256": "a1f11e234bf77db9df437e6d8080553a995cbb559f8bbb1828536e16a58cd5a2",
+      "verificationMethod": "direct-http-json-body-capture+reviewed-extract",
+      "excerpt": "{\"claims\": {\"P106\": [{\"rank\": \"normal\", \"references\": 1, \"value\": \"Q1937431\"}, {\"rank\": \"normal\", \"references\": 1, \"value\": \"Q885122\"}], \"P27\": [{\"rank\": \"normal\", \"references\": 1, \"value\": \"Q156199\"}], \"P31\": [{\"rank\": \"normal\", \"references\": 1, \"value\": \"Q5\"}], \"P569\": [{\"calendar\": \"Q1985727\", \"precision\": 11, \"rank\": \"normal\", \"references\": 1, \"value\": \"+1683-01-14T00:00:00Z\"}], \"P570\": [{\"calendar\": \"Q1985727\", \"precision\": 11, \"rank\": \"normal\", \"references\": 1, \"value\": \"+1753-08-04T00:00:00Z\"}]}, \"id\": \"Q61720\", \"label\": \"Gottfried Silbermann\"}",
+      "excerptSha256": "fbaaa260c37ddea72fd64c319fa01e89cda628aeb46346af664585b787618456"
+    },
+    {
+      "id": "wikidata-Q315555",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q315555.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 93535,
+      "sha256": "9ca8c9b356c1f5b4d24de0fae4494f9e9c6f36a44dfdf96b9b473a748d03ecf6",
+      "verificationMethod": "direct-http-json-body-capture+reviewed-extract",
+      "excerpt": "{\"claims\": {\"P106\": [{\"rank\": \"normal\", \"references\": 1, \"value\": \"Q82955\"}, {\"rank\": \"normal\", \"references\": 1, \"value\": \"Q1930187\"}, {\"rank\": \"normal\", \"references\": 1, \"value\": \"Q7541856\"}, {\"rank\": \"normal\", \"references\": 1, \"value\": \"Q3400050\"}], \"P27\": [{\"rank\": \"normal\", \"references\": 0, \"value\": \"Q17\"}], \"P31\": [{\"rank\": \"normal\", \"references\": 1, \"value\": \"Q5\"}], \"P569\": [{\"calendar\": \"Q1985727\", \"precision\": 11, \"rank\": \"normal\", \"references\": 3, \"value\": \"+1938-01-14T00:00:00Z\"}], \"P570\": []}, \"id\": \"Q315555\", \"label\": \"Morihiro Hosokawa\"}",
+      "excerptSha256": "e96eb51edfa66b8d2c5b4cdcf4277f7093755a43f7b8b80fc6d8f136bf5a19a6"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "albert-schweitzer",
+      "name": "Albert Schweitzer",
+      "wikidataId": "Q49325",
+      "birthDate": "1875-01-14",
+      "lifeStatus": "deceased",
+      "deathDate": "1965-09-04",
+      "deathDatePrecision": "day",
+      "dobSourceIds": [
+        "albert-foundation-dob",
+        "albert-brockhaus-dob"
+      ],
+      "statusSourceId": "albert-foundation-hospital-death",
+      "deathDateSourceIds": [
+        "albert-foundation-hospital-death"
+      ],
+      "careerFactIds": [
+        "albert-nobel-1952",
+        "albert-lambarene-hospital"
+      ],
+      "countryCode": "DE",
+      "category": "history",
+      "occupation": [
+        "bác sĩ, nhà thần học"
+      ],
+      "fields": [
+        "medicine-health",
+        "education-thought"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "medicine-health",
+          "careerFactIds": [
+            "albert-lambarene-hospital"
+          ],
+          "rationale": "Nguồn của quỹ Schweitzer ghi nhận ông cùng vợ lập bệnh viện ở Lambarene và làm bác sĩ."
+        },
+        {
+          "field": "education-thought",
+          "careerFactIds": [
+            "albert-nobel-1952"
+          ],
+          "rationale": "Hoạt động thần học, triết học và tư tưởng nhân đạo của ông được ghi nhận trong tiểu sử."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-Q49325",
+      "identityClaims": {
+        "label": "Albert Schweitzer",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 3
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1875-01-14T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 18
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1965-09-04T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 16
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q1206012",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q142",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q142",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q1234713",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q4964182",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q39631",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q765778",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q551835",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q14915627",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q20198542",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36834",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q219477",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q16003550",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q482980",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q1234713"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q49325",
+        "https://www.nobelprize.org/prizes/peace/1952/schweitzer/biographical/",
+        "https://www.albert-schweitzer.ch/albert-und-helene-schweitzer/albert-schweitzer",
+        "https://brockhaus.de/ecs/julex/article/schweitzer-albert"
+      ],
+  "before": {
+    "biography": "Albert Schweitzer sinh ngày 14/1/1875 tại Kaysersberg. Ông là bác sĩ và nhà thần học, đồng thời nhận Giải Nobel Hòa bình năm 1952.",
+    "highlights": [
+      "Nhận Giải Nobel Hòa bình năm 1952.",
+      "Thành lập bệnh viện tại Lambaréné, Gabon."
+    ],
+    "fields": null,
+        "deathDateSourceUrls": [
+          "https://brockhaus.de/ecs/julex/article/schweitzer-albert"
+        ],
+        "verifiedAt": "2026-10-03"
+      },
+  "after": {
+    "biography": "Albert Schweitzer sinh ngày 14/1/1875 tại Kaysersberg. Ông là bác sĩ và nhà thần học, nhận Giải Nobel Hòa bình năm 1953 cho niên giải 1952.",
+    "highlights": [
+      "Ông nhận Giải Nobel Hòa bình năm 1953, cho giải thưởng năm 1952.",
+      "Ông cùng vợ lập bệnh viện đầu tiên tại Lambarene, Gabon."
+    ],
+    "fields": [
+          "medicine-health",
+          "education-thought"
+        ],
+        "deathDateSourceUrls": [
+          "https://brockhaus.de/ecs/julex/article/schweitzer-albert",
+          "https://www.albert-schweitzer.ch/albert-und-helene-schweitzer/albert-schweitzer"
+        ],
+        "verifiedAt": "2026-10-08"
+      }
+    },
+    {
+      "id": "yukio-mishima",
+      "name": "Yukio Mishima",
+      "wikidataId": "Q134456",
+      "birthDate": "1925-01-14",
+      "lifeStatus": "deceased",
+      "deathDate": "1970-11-25",
+      "deathDatePrecision": "day",
+      "dobSourceIds": [
+        "mishima-museum-dob",
+        "mishima-shinjuku-dob-death"
+      ],
+      "statusSourceId": "mishima-shinjuku-dob-death",
+      "deathDateSourceIds": [
+        "mishima-shinjuku-dob-death"
+      ],
+      "careerFactIds": [
+        "mishima-shiosai",
+        "mishima-kamen-mask"
+      ],
+      "countryCode": "JP",
+      "category": "literature",
+      "occupation": [
+        "nhà văn"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "mishima-shiosai",
+            "mishima-kamen-mask"
+          ],
+          "rationale": "Tiểu thuyết và kịch của Mishima được bảo tàng văn học cùng thư viện thành phố ghi nhận."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-Q134456",
+      "identityClaims": {
+        "label": "Yukio Mishima",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1925-01-14T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 10
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1970-11-25T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 11
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q17",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q17",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q12144794",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q6625963",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q214917",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q49757",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q11774202",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q333634",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q6430706",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2259451",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q10800557",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2526255",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q3387717",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q4610556",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q11499147",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q212238",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q15949613",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q33999",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q755070",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q36180"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q134456",
+        "https://www.mishimayukio.jp/about/",
+        "https://www.britannica.com/biography/Yukio-Mishima",
+        "https://www.library.shinjuku.tokyo.jp/database/jinbutuyukari/070/post53.html"
+      ],
+      "before": {
+        "highlights": [
+          "Tác phẩm The Temple of the Golden Pavilion xuất bản năm 1956.",
+          "Được lưu danh trong hồ sơ tác giả của Thư viện Quốc gia Pháp."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q134456",
+          "https://www.mishimayukio.jp/about/",
+          "https://www.britannica.com/biography/Yukio-Mishima"
+        ],
+        "fields": null,
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDateSourceUrls": null,
+        "deathDatePrecision": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+    "highlights": [
+      "Tiểu thuyết bán chạy The Sound of Waves (Shiosai) giúp Yukio Mishima nhanh chóng nổi tiếng.",
+          "Năm 1949, ông xuất bản Confessions of a Mask và xác lập vị trí nhà văn."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q134456",
+          "https://www.mishimayukio.jp/about/",
+          "https://www.britannica.com/biography/Yukio-Mishima",
+          "https://www.library.shinjuku.tokyo.jp/database/jinbutuyukari/070/post53.html"
+        ],
+        "fields": [
+          "design-creative"
+        ],
+        "lifeStatus": "deceased",
+        "deathDate": "1970-11-25",
+        "deathDateSourceUrls": [
+          "https://www.library.shinjuku.tokyo.jp/database/jinbutuyukari/070/post53.html"
+        ],
+        "deathDatePrecision": "day",
+        "verifiedAt": "2026-10-08"
+      }
+    },
+    {
+      "id": "suboi",
+      "name": "Suboi",
+      "wikidataId": "Q16233605",
+      "birthDate": "1990-01-14",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "suboi-vov-dob",
+        "suboi-voh-dob"
+      ],
+      "careerFactIds": [
+        "suboi-run-album",
+        "suboi-yseali-obama"
+      ],
+      "countryCode": "VN",
+      "category": "music",
+      "occupation": [
+        "rapper, nhạc sĩ"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "suboi-run-album",
+            "suboi-yseali-obama"
+          ],
+          "rationale": "Album rap và hoạt động biểu diễn công khai của Suboi thuộc sáng tạo nghệ thuật và âm nhạc."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-Q16233605",
+      "identityClaims": {
+        "label": "Suboi",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1990-01-14T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q881",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q488205",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q2252262",
+            "references": 0
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q488205",
+          "Q2252262"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q16233605",
+        "https://vov.vn/van-hoa/nghe-si/suboi-tu-co-be-teen-mac-quan-thung-den-nu-hoang-hip-hop-viet-551201.vov",
+        "https://voh.com.vn/tieu-su-sao/tieu-su-rapper-suboi-373884.html",
+        "https://vnexpress.net/suboi-ra-mat-album-run-tren-itunes-o-109-nuoc-3086542.html",
+        "https://vov.vn/van-hoa/nghe-si/rapper-suboi-xuat-hien-trong-clip-cua-nha-trang-tri-an-ong-obama-583862.vov"
+      ],
+      "before": {
+        "biography": "Suboi sinh ngày 14/1/1990 tại Thành phố Hồ Chí Minh. Cô là rapper và nhạc sĩ, được truyền thông Việt Nam gọi là một trong những nghệ sĩ nữ tiên phong của hip-hop Việt.",
+        "highlights": [
+          "Phát hành album Run năm 2014.",
+          "Được mời phát biểu tại sự kiện APEC CEO Summit năm 2017."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q16233605",
+          "https://vov.vn/van-hoa/nghe-si/suboi-tu-co-be-teen-mac-quan-thung-den-nu-hoang-hip-hop-viet-post551201.vov",
+          "https://voh.com.vn/tieu-su-sao/tieu-su-rapper-suboi-373884.html"
+        ],
+        "fields": null,
+        "lifeStatus": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "biography": "Suboi sinh ngày 14/1/1990 tại Thành phố Hồ Chí Minh. Cô phát hành album Run năm 2014. Năm 2016, cô gặp Tổng thống Barack Obama trong cuộc trò chuyện với các thủ lĩnh trẻ YSEALI tại Thành phố Hồ Chí Minh.",
+        "highlights": [
+          "Album Run của Suboi được phát hành vào tháng 9/2014 và đưa lên iTunes tại 109 quốc gia.",
+          "Tại cuộc gặp YSEALI ngày 25/5/2016, Suboi là một trong số ít nghệ sĩ được đặt câu hỏi cho Tổng thống Barack Obama."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q16233605",
+          "https://vov.vn/van-hoa/nghe-si/suboi-tu-co-be-teen-mac-quan-thung-den-nu-hoang-hip-hop-viet-551201.vov",
+          "https://voh.com.vn/tieu-su-sao/tieu-su-rapper-suboi-373884.html",
+          "https://vnexpress.net/suboi-ra-mat-album-run-tren-itunes-o-109-nuoc-3086542.html",
+          "https://vov.vn/van-hoa/nghe-si/rapper-suboi-xuat-hien-trong-clip-cua-nha-trang-tri-an-ong-obama-583862.vov"
+        ],
+        "fields": [
+          "design-creative"
+        ],
+        "lifeStatus": "unknown",
+        "verifiedAt": "2026-10-08"
+      }
+    },
+    {
+      "id": "gottfried-silbermann",
+      "name": "Gottfried Silbermann",
+      "wikidataId": "Q61720",
+      "birthDate": "1683-01-14",
+      "lifeStatus": "deceased",
+      "deathDate": "1753-08-04",
+      "deathDatePrecision": "day",
+      "dobSourceIds": [
+        "silbermann-saebi-dob-death",
+        "silbermann-dnb-dob"
+      ],
+      "statusSourceId": "silbermann-saebi-dob-death",
+      "deathDateSourceIds": [
+        "silbermann-saebi-dob-death",
+        "silbermann-dnb-dob"
+      ],
+      "careerFactIds": [
+        "silbermann-freiberg-organ",
+        "silbermann-46-organs"
+      ],
+      "countryCode": "DE",
+      "category": "music",
+      "occupation": [
+        "Thợ chế tác đàn organ và nhạc cụ phím"
+      ],
+      "fields": [
+        "technology-engineering",
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "technology-engineering",
+          "careerFactIds": [
+            "silbermann-freiberg-organ",
+            "silbermann-46-organs"
+          ],
+          "rationale": "Silbermann thiết kế và chế tạo đại phong cầm cùng nhiều nhạc cụ phím."
+        },
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "silbermann-freiberg-organ"
+          ],
+          "rationale": "Các đại phong cầm do Silbermann thiết kế là nhạc cụ sáng tạo gắn với kiến trúc nhà thờ."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-Q61720",
+      "identityClaims": {
+        "label": "Gottfried Silbermann",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1683-01-14T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1753-08-04T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q156199",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q156199",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q1937431",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q885122",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q885122"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q61720",
+        "https://saebi.isgv.de/person/snr/3727",
+        "https://www.deutsche-biographie.de/gnd118614304.html"
+      ],
+  "before": {
+    "highlights": [
+      "Năm 1710, Silbermann định cư tại Freiberg và xây dựng đại phong cầm cho nhà thờ chính tòa nơi đây.",
+      "Silbermann chế tạo tổng cộng 46 đàn organ tại miền Trung nước Đức."
+    ],
+    "deathDate": null,
+        "deathDateSourceUrls": null,
+        "deathDatePrecision": null
+      },
+  "after": {
+    "highlights": [
+      "Silbermann định cư tại Freiberg năm 1710 và dựng đại phong cầm cho nhà thờ chính tòa theo đề nghị của Johann Kuhnau.",
+      "Ông chế tạo tổng cộng 46 đàn organ tại miền Trung nước Đức."
+    ],
+    "deathDate": "1753-08-04",
+        "deathDateSourceUrls": [
+          "https://saebi.isgv.de/person/snr/3727",
+          "https://www.deutsche-biographie.de/gnd118614304.html"
+        ],
+        "deathDatePrecision": "day"
+      }
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "morihiro-hosokawa",
+      "name": "Morihiro Hosokawa",
+      "wikidataId": "Q315555",
+      "birthDate": "1938-01-14",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "hosokawa-kantei-dob",
+        "hosokawa-munzinger-dob"
+      ],
+      "careerFactIds": [
+        "hosokawa-prime-minister-term",
+        "hosokawa-asahi-reporter"
+      ],
+      "countryCode": "JP",
+      "category": "politics",
+      "occupation": [
+        "chính trị gia"
+      ],
+      "birthplace": "Tokyo, Nhật Bản",
+      "wikidataLabel": "Morihiro Hosokawa",
+      "birthplaceEvidencePhrase": "am 14. Jan. 1938 in Tokio geboren",
+      "fields": [
+        "society-law"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "society-law",
+          "careerFactIds": [
+            "hosokawa-prime-minister-term",
+            "hosokawa-asahi-reporter"
+          ],
+          "rationale": "Ông đứng đầu chính phủ Nhật Bản và có hoạt động chính trị được nguồn chính thức cùng tiểu sử ghi nhận."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-Q315555",
+      "identityClaims": {
+        "label": "Morihiro Hosokawa",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1938-01-14T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 3
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q17",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q17",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q82955",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1930187",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q7541856",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3400050",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q82955"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q315555",
+        "https://japan.kantei.go.jp/past_cabinet/079.html",
+        "https://www.munzinger.de/register/portrait/biographien/hosokawa%20morihiro/00/20805"
+      ]
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "albert-nobel-1952",
+      "profileId": "albert-schweitzer",
+      "displayText": "Ông nhận Giải Nobel Hòa bình năm 1953, cho giải thưởng năm 1952.",
+      "sourceId": "albert-foundation-nobel",
+      "evidencePhrase": "1953; Friedensnobelpreis rückwirkend für das Jahr 1952"
+    },
+    {
+      "id": "albert-lambarene-hospital",
+      "profileId": "albert-schweitzer",
+      "displayText": "Ông cùng vợ lập bệnh viện đầu tiên tại Lambarene, Gabon.",
+      "sourceId": "albert-foundation-hospital-death",
+      "evidencePhrase": "in Lambarene, wo er zusammen mit seiner Frau das erste Spital auf der Missionsstation"
+    },
+    {
+      "id": "mishima-shiosai",
+      "profileId": "yukio-mishima",
+      "displayText": "Tiểu thuyết bán chạy The Sound of Waves (Shiosai) giúp Yukio Mishima nhanh chóng nổi tiếng.",
+      "sourceId": "mishima-museum-shiosai",
+      "evidencePhrase": "ベストセラー小説「潮騒」で一躍有名"
+    },
+    {
+      "id": "mishima-kamen-mask",
+      "profileId": "yukio-mishima",
+      "displayText": "Năm 1949, ông xuất bản Confessions of a Mask và xác lập vị trí nhà văn.",
+      "sourceId": "mishima-shinjuku-kamen",
+      "evidencePhrase": "２４年『仮面の告白』を発表して作家としての地位を確立"
+    },
+    {
+      "id": "suboi-run-album",
+      "profileId": "suboi",
+      "displayText": "Album Run của Suboi được phát hành vào tháng 9/2014 và đưa lên iTunes tại 109 quốc gia.",
+      "sourceId": "suboi-vne-run",
+      "evidencePhrase": "CD được bán trên iTunes của Apple ở 109 quốc gia"
+    },
+    {
+      "id": "suboi-yseali-obama",
+      "profileId": "suboi",
+      "displayText": "Tại cuộc gặp YSEALI ngày 25/5/2016, Suboi là một trong số ít nghệ sĩ được đặt câu hỏi cho Tổng thống Barack Obama.",
+      "sourceId": "suboi-vov-yseali",
+      "evidencePhrase": "Nữ rapper Suboi là người cuối cùng và cũng là nghệ sĩ hiếm hoi có cơ hội đặt câu hỏi cho Obama"
+    },
+    {
+      "id": "silbermann-freiberg-organ",
+      "profileId": "gottfried-silbermann",
+      "displayText": "Silbermann định cư tại Freiberg năm 1710 và dựng đại phong cầm cho nhà thờ chính tòa theo đề nghị của Johann Kuhnau.",
+      "sourceId": "silbermann-dnb-freiberg",
+      "evidencePhrase": "1710 ließ er sich in Freiberg (Sachsen) nieder und errichtete dort auf Empfehlung des Komponisten Johann Kuhnau"
+    },
+    {
+      "id": "silbermann-46-organs",
+      "profileId": "gottfried-silbermann",
+      "displayText": "Ông chế tạo tổng cộng 46 đàn organ tại miền Trung nước Đức.",
+      "sourceId": "silbermann-dnb-count",
+      "evidencePhrase": "insgesamt 46 Orgeln in Mitteldeutschland"
+    },
+    {
+      "id": "hosokawa-prime-minister-term",
+      "profileId": "morihiro-hosokawa",
+      "displayText": "Morihiro Hosokawa giữ chức Thủ tướng thứ 79 của Nhật Bản từ ngày 9/8/1993 đến ngày 28/4/1994.",
+      "sourceId": "hosokawa-kantei-term",
+      "evidencePhrase": "Term in office: August 9, 1993 - April 28, 1994"
+    },
+    {
+      "id": "hosokawa-asahi-reporter",
+      "profileId": "morihiro-hosokawa",
+      "displayText": "Trước khi bước vào chính trường, ông làm phóng viên cho báo Asahi Shimbun.",
+      "sourceId": "hosokawa-munzinger-reporter",
+      "evidencePhrase": "arbeitete H. als Reporter bei \"Asahi Shimbun\""
+    }
+  ],
+  "wikidataReview": {
+    "profiles": {
+      "Q49325": {
+        "label": "Albert Schweitzer",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 3
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1875-01-14T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 18
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1965-09-04T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 16
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q1206012",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q142",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q1234713",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q4964182",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q39631",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q765778",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q551835",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q14915627",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q20198542",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36834",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q219477",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q16003550",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q482980",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669",
+            "references": 1
+          }
+        ]
+      },
+      "Q134456": {
+        "label": "Yukio Mishima",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1925-01-14T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 10
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1970-11-25T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 11
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q17",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q12144794",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q6625963",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q214917",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q49757",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q11774202",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q333634",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q6430706",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2259451",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q10800557",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2526255",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q3387717",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q4610556",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q11499147",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q212238",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q15949613",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q33999",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q755070",
+            "references": 1
+          }
+        ]
+      },
+      "Q16233605": {
+        "label": "Suboi",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1990-01-14T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q488205",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q2252262",
+            "references": 0
+          }
+        ]
+      },
+      "Q61720": {
+        "label": "Gottfried Silbermann",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1683-01-14T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1753-08-04T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q156199",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q1937431",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q885122",
+            "references": 1
+          }
+        ]
+      },
+      "Q315555": {
+        "label": "Morihiro Hosokawa",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1938-01-14T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 3
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q17",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q82955",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1930187",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q7541856",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3400050",
+            "references": 1
+          }
+        ]
+      }
+    },
+    "conflicts": []
+  }
+}

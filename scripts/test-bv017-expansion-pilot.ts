@@ -2,6 +2,8 @@ import { createHash } from 'node:crypto';
 import rawExpansionPilot from '../.ai/evidence/BV017-expansion-pilot.json';
 import { ALL_PEOPLE } from '../src/data/birthdays';
 import { PERSON_FIELD_LABELS, type PersonField } from '../src/data/types';
+import { projectPersonBeforeJanuary14 } from './bv017-corrections';
+import { BV017_JAN14_NEW_IDS } from './test-bv017-january-14-batch';
 
 type PilotCapture = {
   status: number | null;
@@ -269,13 +271,14 @@ export function runBv017ExpansionPilotIntegrity(assert: (suite: string, conditio
     const person = peopleById.get(profile.id);
     assert('Rule AM data rows', Boolean(person), profile.id + ' must exist in the local people data');
     if (!person) continue;
+    const personAtPilotReview = projectPersonBeforeJanuary14(person);
 
     const date = profile.birthDate;
     const expectedQidUrl = 'https://www.wikidata.org/wiki/' + profile.wikidataId;
     assert('Rule AM identity', person.wikidataId === profile.wikidataId && person.slug === profile.id && person.birthDate === date, profile.id + ' ID, QID, and exact birth date must match the allowlist');
     assert('Rule AM identity', /^\d{4}-\d{2}-\d{2}$/.test(date) && person.birthYear === Number(date.slice(0, 4)) && person.birthMonth === Number(date.slice(5, 7)) && person.birthDay === Number(date.slice(8, 10)), profile.id + ' split birth-date fields must match the full Gregorian date');
     assert('Rule AM identity', person.countryCode === profile.countryCode && person.countryName === profile.countryName && person.category === profile.category && person.occupation?.length === 1 && person.occupation[0] === profile.occupation, profile.id + ' country, legacy category, and occupation must match reviewed identity evidence');
-    assert('Rule AM identity', person.lifeStatus === profile.lifeStatus && person.deathDate === undefined && profile.deathDate === null, profile.id + ' life status must be explicit without adding an unreviewed death date');
+    assert('Rule AM identity', personAtPilotReview.lifeStatus === profile.lifeStatus && personAtPilotReview.deathDate === undefined && profile.deathDate === null, profile.id + ' life status must be explicit without adding an unreviewed death date at the pilot review point');
     assert('Rule AM identity', person.sourceUrls?.includes(expectedQidUrl) === true && profile.sourceUrls.includes(expectedQidUrl), profile.id + ' must retain the exact Wikidata source URL');
     assert('Rule AM content', Boolean(person.shortDescription?.trim() && person.biography?.trim() && person.highlights?.length === 2 && person.highlights.every((highlight) => highlight.trim().length >= 35)), profile.id + ' requires a substantive biography and two nontrivial highlights');
     assert('Rule AM content', person.fields?.join('|') === profile.fields.join('|'), profile.id + ' local field tags must match the reviewed pilot mapping');
@@ -302,7 +305,7 @@ export function runBv017ExpansionPilotIntegrity(assert: (suite: string, conditio
 
     const profileFacts = profile.careerFactIds.map((factId) => factsById.get(factId)).filter((fact): fact is PilotCareerFact => Boolean(fact));
     assert('Rule AM career facts', profileFacts.length === 2 && profileFacts.every((fact) => fact.id === profile.id && fact.wikidataId === profile.wikidataId), profile.id + ' must map two career facts to its exact person and QID');
-    assert('Rule AM career facts', profileFacts.every((fact) => person.highlights?.includes(fact.displayText)), profile.id + ' displayed highlights must be the retained sourced career facts');
+    assert('Rule AM career facts', profileFacts.every((fact) => personAtPilotReview.highlights?.includes(fact.displayText)), profile.id + ' displayed highlights must be the retained sourced career facts at the pilot review point');
     for (const fact of profileFacts) {
       const capture = fact.capture;
       assert('Rule AM career facts', fact.field === 'career' && Boolean(fact.sourceUrl && fact.sourceText && fact.evidencePhrase), fact.factId + ' must identify a source, source phrase, and career claim');
@@ -385,8 +388,9 @@ export function runBv017ExpansionPilotIntegrity(assert: (suite: string, conditio
     const collisions = ALL_PEOPLE.filter((candidate) => candidate.id !== profile.id && candidate.wikidataId === profile.wikidataId);
     assert('Rule AM identity', collisions.length === 0, profile.id + ' Wikidata ID must not duplicate another local profile');
     const dayCount = ALL_PEOPLE.filter((candidate) => candidate.birthMonth === month && candidate.birthDay === Number(date.slice(8, 10))).length;
+    const laterSameDayAdditions = ALL_PEOPLE.filter((candidate) => candidate.birthMonth === month && candidate.birthDay === Number(date.slice(8, 10)) && BV017_JAN14_NEW_IDS.has(candidate.id)).length;
     const newDayCount = evidence.profiles.filter((candidate) => candidate.birthDate.slice(5) === date.slice(5)).length;
-    assert('Rule AM coverage', newDayCount === 1 && dayCount === 4, profile.id + ' must add one person to a previously three-person birthday and remain below the day cap');
+    assert('Rule AM coverage', newDayCount === 1 && dayCount - laterSameDayAdditions === 4, profile.id + ' must add one person to a previously three-person birthday and remain below the day cap at pilot review');
   }
 
   assert('Rule AM identity', expectedById.size === evidence.profiles.length, 'No duplicate identity rows may remain in the allowlist');
@@ -421,5 +425,5 @@ export function runBv017ExpansionPilotIntegrity(assert: (suite: string, conditio
   assert('Rule AM status captures', evidence.statusCaptures.every((capture) => capture.capturedAt.startsWith('2026-10-08') && capture.excerptSha256 === textSha256(capture.excerpt)), 'Current-status source captures must retain their capture date and excerpt hashes');
   assert('Rule AM statuses', lifeStatusCounts.living === 4 && lifeStatusCounts.deceased === 25 && lifeStatusCounts.unknown === 1, 'Pilot life-status totals must remain 4 living, 25 deceased, and 1 unknown');
   assert('Rule AM statuses', evidence.summary.p570ConflictsWithStatusOnly === 1, 'The single multi-date P570 status case must be retained without assigning a local death date');
-  assert('Rule AM total', ALL_PEOPLE.length === 1176 && ALL_PEOPLE.filter((person) => BV017_EXPANSION_NEW_IDS.has(person.id)).length === 30, 'The full local dataset must contain 1,176 profiles including this 30-person pilot and the January 1-13 batches');
+  assert('Rule AM total', ALL_PEOPLE.length === 1177 && ALL_PEOPLE.filter((person) => BV017_EXPANSION_NEW_IDS.has(person.id)).length === 30, 'The full local dataset must contain 1,177 profiles including this 30-person pilot and the January 1-14 batches');
 }

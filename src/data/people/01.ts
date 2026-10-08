@@ -2570,15 +2570,16 @@ export const PEOPLE_01: Person[] = [
   ],
   "category": "history",
   "categoryLabel": "Nhân vật lịch sử",
+  "fields": ["medicine-health", "education-thought"],
   "countryCode": "DE",
   "countryName": "Đức",
   "countryFlag": "🇩🇪",
   "image": "/people/placeholder.svg",
   "shortDescription": "Bác sĩ, nhà thần học và nhà triết học người Đức-Pháp, Nobel Hòa bình năm 1952.",
-  "biography": "Albert Schweitzer sinh ngày 14/1/1875 tại Kaysersberg. Ông là bác sĩ và nhà thần học, đồng thời nhận Giải Nobel Hòa bình năm 1952.",
+  "biography": "Albert Schweitzer sinh ngày 14/1/1875 tại Kaysersberg. Ông là bác sĩ và nhà thần học, nhận Giải Nobel Hòa bình năm 1953 cho niên giải 1952.",
   "highlights": [
-    "Nhận Giải Nobel Hòa bình năm 1952.",
-    "Thành lập bệnh viện tại Lambaréné, Gabon."
+    "Ông nhận Giải Nobel Hòa bình năm 1953, cho giải thưởng năm 1952.",
+    "Ông cùng vợ lập bệnh viện đầu tiên tại Lambarene, Gabon."
   ],
   "wikidataId": "Q49325",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Albert_Schweitzer",
@@ -2592,10 +2593,11 @@ export const PEOPLE_01: Person[] = [
   "deathDate": "1965-09-04",
   "lifeStatus": "deceased",
   "deathDateSourceUrls": [
-    "https://brockhaus.de/ecs/julex/article/schweitzer-albert"
+    "https://brockhaus.de/ecs/julex/article/schweitzer-albert",
+    "https://www.albert-schweitzer.ch/albert-und-helene-schweitzer/albert-schweitzer"
   ],
   "deathDatePrecision": "day",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "yukio-mishima",
@@ -2610,6 +2612,7 @@ export const PEOPLE_01: Person[] = [
   ],
   "category": "literature",
   "categoryLabel": "Nhà văn",
+  "fields": ["design-creative"],
   "countryCode": "JP",
   "countryName": "Nhật Bản",
   "countryFlag": "🇯🇵",
@@ -2617,18 +2620,23 @@ export const PEOPLE_01: Person[] = [
   "shortDescription": "Nhà văn Nhật Bản, tác giả tiểu thuyết và kịch.",
   "biography": "Yukio Mishima sinh ngày 14/1/1925 tại Tokyo. Ông là nhà văn Nhật Bản, sáng tác tiểu thuyết, truyện ngắn và kịch.",
   "highlights": [
-    "Tác phẩm The Temple of the Golden Pavilion xuất bản năm 1956.",
-    "Được lưu danh trong hồ sơ tác giả của Thư viện Quốc gia Pháp."
+    "Tiểu thuyết bán chạy The Sound of Waves (Shiosai) giúp Yukio Mishima nhanh chóng nổi tiếng.",
+    "Năm 1949, ông xuất bản Confessions of a Mask và xác lập vị trí nhà văn."
   ],
   "wikidataId": "Q134456",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Yukio_Mishima",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q134456",
     "https://www.mishimayukio.jp/about/",
-    "https://www.britannica.com/biography/Yukio-Mishima"
+    "https://www.britannica.com/biography/Yukio-Mishima",
+    "https://www.library.shinjuku.tokyo.jp/database/jinbutuyukari/070/post53.html"
   ],
   "region": "asia",
-  "verifiedAt": "2026-10-03"
+  "lifeStatus": "deceased",
+  "deathDate": "1970-11-25",
+  "deathDateSourceUrls": ["https://www.library.shinjuku.tokyo.jp/database/jinbutuyukari/070/post53.html"],
+  "deathDatePrecision": "day",
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "suboi",
@@ -2643,25 +2651,29 @@ export const PEOPLE_01: Person[] = [
   ],
   "category": "music",
   "categoryLabel": "Âm nhạc",
+  "fields": ["design-creative"],
   "countryCode": "VN",
   "countryName": "Việt Nam",
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
   "shortDescription": "Rapper và nhạc sĩ người Việt Nam.",
-  "biography": "Suboi sinh ngày 14/1/1990 tại Thành phố Hồ Chí Minh. Cô là rapper và nhạc sĩ, được truyền thông Việt Nam gọi là một trong những nghệ sĩ nữ tiên phong của hip-hop Việt.",
+  "biography": "Suboi sinh ngày 14/1/1990 tại Thành phố Hồ Chí Minh. Cô phát hành album Run năm 2014. Năm 2016, cô gặp Tổng thống Barack Obama trong cuộc trò chuyện với các thủ lĩnh trẻ YSEALI tại Thành phố Hồ Chí Minh.",
   "highlights": [
-    "Phát hành album Run năm 2014.",
-    "Được mời phát biểu tại sự kiện APEC CEO Summit năm 2017."
+    "Album Run của Suboi được phát hành vào tháng 9/2014 và đưa lên iTunes tại 109 quốc gia.",
+    "Tại cuộc gặp YSEALI ngày 25/5/2016, Suboi là một trong số ít nghệ sĩ được đặt câu hỏi cho Tổng thống Barack Obama."
   ],
   "wikidataId": "Q16233605",
   "wikipediaUrl": "https://vi.wikipedia.org/wiki/Suboi",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q16233605",
-    "https://vov.vn/van-hoa/nghe-si/suboi-tu-co-be-teen-mac-quan-thung-den-nu-hoang-hip-hop-viet-post551201.vov",
-    "https://voh.com.vn/tieu-su-sao/tieu-su-rapper-suboi-373884.html"
+    "https://vov.vn/van-hoa/nghe-si/suboi-tu-co-be-teen-mac-quan-thung-den-nu-hoang-hip-hop-viet-551201.vov",
+    "https://voh.com.vn/tieu-su-sao/tieu-su-rapper-suboi-373884.html",
+    "https://vnexpress.net/suboi-ra-mat-album-run-tren-itunes-o-109-nuoc-3086542.html",
+    "https://vov.vn/van-hoa/nghe-si/rapper-suboi-xuat-hien-trong-clip-cua-nha-trang-tri-an-ong-obama-583862.vov"
   ],
   "region": "vietnam",
-  "verifiedAt": "2026-10-03"
+  "lifeStatus": "unknown",
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "martin-luther-king-jr",
@@ -4352,8 +4364,8 @@ export const PEOPLE_01: Person[] = [
     "shortDescription": "Thợ chế tác đàn organ người Đức, nổi tiếng với các nhạc cụ bàn phím.",
     "biography": "Gottfried Silbermann chế tạo đàn organ và nhạc cụ phím ở Sachsen. Sau khi định cư tại Freiberg năm 1710, ông xây dựng đại phong cầm cho nhà thờ chính tòa địa phương và chế tạo tổng cộng 46 đàn organ.",
     "highlights": [
-      "Năm 1710, Silbermann định cư tại Freiberg và xây dựng đại phong cầm cho nhà thờ chính tòa nơi đây.",
-      "Silbermann chế tạo tổng cộng 46 đàn organ tại miền Trung nước Đức."
+      "Silbermann định cư tại Freiberg năm 1710 và dựng đại phong cầm cho nhà thờ chính tòa theo đề nghị của Johann Kuhnau.",
+      "Ông chế tạo tổng cộng 46 đàn organ tại miền Trung nước Đức."
     ],
     "wikidataId": "Q61720",
     "sourceUrls": [
@@ -4361,7 +4373,45 @@ export const PEOPLE_01: Person[] = [
       "https://saebi.isgv.de/person/snr/3727",
       "https://www.deutsche-biographie.de/gnd118614304.html"
     ],
+    "deathDate": "1753-08-04",
+    "deathDateSourceUrls": ["https://saebi.isgv.de/person/snr/3727", "https://www.deutsche-biographie.de/gnd118614304.html"],
+    "deathDatePrecision": "day",
     "region": "west",
+    "verifiedAt": "2026-10-08"
+  },
+  {
+    "id": "morihiro-hosokawa",
+    "slug": "morihiro-hosokawa",
+    "name": "Morihiro Hosokawa",
+    "nativeName": "細川護熙",
+    "birthDate": "1938-01-14",
+    "birthYear": 1938,
+    "birthMonth": 1,
+    "birthDay": 14,
+    "occupation": ["chính trị gia"],
+    "category": "politics",
+    "categoryLabel": "Chính trị",
+    "fields": ["society-law"],
+    "countryCode": "JP",
+    "countryName": "Nhật Bản",
+    "countryFlag": "🇯🇵",
+    "birthplace": "Tokyo, Nhật Bản",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Chính trị gia Nhật Bản, Thủ tướng thứ 79 của nước này.",
+    "biography": "Morihiro Hosokawa là chính trị gia Nhật Bản sinh tại Tokyo. Ông giữ chức Thủ tướng thứ 79 từ tháng 8/1993 đến tháng 4/1994. Trước khi bước vào chính trường, ông làm phóng viên cho báo Asahi Shimbun và thành lập Đảng Nhật Bản Mới năm 1992.",
+    "highlights": [
+      "Morihiro Hosokawa giữ chức Thủ tướng thứ 79 của Nhật Bản từ ngày 9/8/1993 đến ngày 28/4/1994.",
+      "Trước khi bước vào chính trường, ông làm phóng viên cho báo Asahi Shimbun."
+    ],
+    "wikidataId": "Q315555",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Morihiro_Hosokawa",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q315555",
+      "https://japan.kantei.go.jp/past_cabinet/079.html",
+      "https://www.munzinger.de/register/portrait/biographien/hosokawa%20morihiro/00/20805"
+    ],
+    "region": "asia",
+    "lifeStatus": "unknown",
     "verifiedAt": "2026-10-08"
   },
 ];

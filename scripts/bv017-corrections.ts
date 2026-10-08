@@ -17,6 +17,7 @@ import rawJanuary10Batch from '../.ai/evidence/BV017-january-10-batch.json';
 import rawJanuary11Batch from '../.ai/evidence/BV017-january-11-batch.json';
 import rawJanuary12Batch from '../.ai/evidence/BV017-january-12-batch.json';
 import rawJanuary13Batch from '../.ai/evidence/BV017-january-13-batch.json';
+import rawJanuary14Batch from '../.ai/evidence/BV017-january-14-batch.json';
 import rawReviewSample from '../.ai/evidence/BV017-review-sample.json';
 import rawDuplicateHighlightReview from '../.ai/evidence/BV017-duplicate-highlight-review.json';
 
@@ -229,6 +230,8 @@ const january12Batch = rawJanuary12Batch as unknown as { legacyProfiles: readonl
 const january12LegacyById = new Map(january12Batch.legacyProfiles.map((profile) => [profile.id, profile]));
 const january13Batch = rawJanuary13Batch as unknown as { legacyProfiles: readonly { id: string; before: Record<string, unknown>; after: Record<string, unknown> }[] };
 const january13LegacyById = new Map(january13Batch.legacyProfiles.map((profile) => [profile.id, profile]));
+const january14Batch = rawJanuary14Batch as unknown as { legacyProfiles: readonly { id: string; before: Record<string, unknown>; after: Record<string, unknown> }[] };
+const january14LegacyById = new Map(january14Batch.legacyProfiles.map((profile) => [profile.id, profile]));
 const bv017ReviewSample = rawReviewSample as unknown as {
   schemaVersion: number;
   cycle: string;
@@ -281,6 +284,11 @@ function matchesRecordedValue(person: PersonLike, field: string, expected: unkno
 
 function projectPersonBeforeJanuary8(person: PersonLike): PersonLike {
   const result = { ...person } as Record<string, unknown>;
+  const january14Before = january14LegacyById.get(person.id)?.before;
+  for (const [field, value] of Object.entries(january14Before || {})) {
+    if (value === null) delete result[field];
+    else result[field] = cloneValue(value);
+  }
   const january13Before = january13LegacyById.get(person.id)?.before;
   for (const [field, value] of Object.entries(january13Before || {})) {
     if (value === null) delete result[field];
@@ -321,9 +329,16 @@ export function projectPersonBeforeBv017<T extends PersonLike>(person: T): T {
   if (baseline) {
     for (const [field, value] of Object.entries(baseline.before)) result[field] = cloneValue(value);
     for (const field of baseline.remove) delete result[field];
+    const january14Before = january14LegacyById.get(person.id)?.before;
+    for (const [field, value] of Object.entries(january14Before || {})) {
+      if (Object.hasOwn(baseline.before, field) || baseline.remove.includes(field)) continue;
+      if (value === null) delete result[field];
+      else result[field] = cloneValue(value);
+    }
     return result as T;
   }
   const priorFieldSets = [
+    january14LegacyById.get(person.id)?.before,
     january13LegacyById.get(person.id)?.before,
     january12LegacyById.get(person.id)?.before,
     january11LegacyById.get(person.id)?.before,
@@ -350,6 +365,17 @@ export function projectPersonBeforeBv017<T extends PersonLike>(person: T): T {
   return result as T;
 }
 
+/** Restore only January 14 edits when an earlier BV-017 review fixture must be checked. */
+export function projectPersonBeforeJanuary14<T extends PersonLike>(person: T): T {
+  const result = { ...person } as Record<string, unknown>;
+  const before = january14LegacyById.get(person.id)?.before;
+  for (const [field, value] of Object.entries(before || {})) {
+    if (value === null) delete result[field];
+    else result[field] = cloneValue(value);
+  }
+  return result as T;
+}
+
 /** Return URLs as they appeared to historical source-pair checks before death-source additions. */
 export function sourceUrlsBeforeBv017(person: PersonLike): readonly string[] {
   const before = correctionsById.get(person.id)?.before
@@ -363,7 +389,9 @@ export function sourceUrlsBeforeBv017(person: PersonLike): readonly string[] {
   const january10Before = january10LegacyById.get(person.id)?.before;
   const january11Before = january11LegacyById.get(person.id)?.before;
   const january13Before = january13LegacyById.get(person.id)?.before;
+  const january14Before = january14LegacyById.get(person.id)?.before;
   const january12Before = january12LegacyById.get(person.id)?.before;
+  if (january14Before && Array.isArray(january14Before.sourceUrls)) return january14Before.sourceUrls as string[];
   if (january13Before && Array.isArray(january13Before.sourceUrls)) return january13Before.sourceUrls as string[];
   if (january12Before && Array.isArray(january12Before.sourceUrls)) return january12Before.sourceUrls as string[];
   if (january11Before && Array.isArray(january11Before.sourceUrls)) return january11Before.sourceUrls as string[];
@@ -614,6 +642,7 @@ export function verifyBv017CorrectionManifest(
     assert('Rule AK baseline corrections', Boolean(person), 'Missing corrected baseline profile ' + correction.id);
     if (!person) continue;
     const qualityAfter = qualityCorrectionsById.get(correction.id)?.after;
+    const january14After = january14LegacyById.get(correction.id)?.after;
     const january13After = january13LegacyById.get(correction.id)?.after;
     const january12After = january12LegacyById.get(correction.id)?.after;
     const january11After = january11LegacyById.get(correction.id)?.after;
@@ -624,7 +653,9 @@ export function verifyBv017CorrectionManifest(
     const january6After = january6LegacyById.get(correction.id)?.after;
     const january5After = january5LegacyById.get(correction.id)?.after;
     for (const [field, expected] of Object.entries(correction.after)) {
-      const finalExpected = january13After && Object.prototype.hasOwnProperty.call(january13After, field)
+      const finalExpected = january14After && Object.prototype.hasOwnProperty.call(january14After, field)
+        ? january14After[field]
+        : january13After && Object.prototype.hasOwnProperty.call(january13After, field)
         ? january13After[field]
         : january12After && Object.prototype.hasOwnProperty.call(january12After, field)
         ? january12After[field]
