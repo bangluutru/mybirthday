@@ -1,0 +1,1045 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-24",
+  "sourceCaptures": [
+    {
+      "id": "moon-pa",
+      "url": "https://www.pa.go.kr/online_contents/president/history19.jsp",
+      "publisher": "Presidential Archives of the Republic of Korea",
+      "publisherHost": "www.pa.go.kr",
+      "status": 200,
+      "bytesRead": 71935,
+      "sha256": "698a22d026908245e9dd6bcc4dcd6ae9df2771377ef0981abfa8d0e8dfb48aff",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "일 메뉴 열기 닫기 이승만 윤보선 박정희 최규하 전두환 노태우 김영삼 김대중 노무현 이명박 박근혜 문재인 윤석열 제19대 문재인 현재 메뉴 제19대 문재인_약력 모바일 메뉴 열기 닫기 약력 취임식 대통령 기록물 기본약력사항 기본약력사항 성명 문재인 (1953. 1. 24 ~) 본관 남평(南平) 출생지 경상남도 거제시 가족사항 영부인: 김정숙 , 자녀: 1남1녀 취미 독서, 등산, 바둑 종교 천주교 재임기간 2017.5 ~ 2022.5 영부인 영부인 기본약력사항 성명 김정숙 (1954. 11. 15 ~) 출생지 서울특별시 종교 천주교 학력사항 학력사항 졸업 년도 학교명 전공명 비고 1965 남항초등학교 1968 경남중학교 1971 경남고등학교 1980 경희대학교 법학과 경력사항 경력사항 년도 내용 1980 사법시험 합격 1995~2001 법무법인 부산 대표변호사 2003~2004 대통령비서실 민정수석비서관 2004~2005 대통령비서",
+      "excerptSha256": "2618d81e75cb6a0e398e4ef2db2a6fe7c027837d645feea5a47e8d2fbc2c905d"
+    },
+    {
+      "id": "moon-ehistory",
+      "url": "https://www.ehistory.go.kr/movie/president?index_page=72&subjectID=111121",
+      "publisher": "e영상역사관, Ministry of Culture, Sports and Tourism of Korea",
+      "publisherHost": "www.ehistory.go.kr",
+      "status": 200,
+      "bytesRead": 31250,
+      "sha256": "9cdb07191d022c89aa2fd78eade29b5b53b120599b2f5fdceb0c9117f222d1de",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "수 있습니다. 윤석열 문재인 박근혜 이명박 노무현 김대중 김영삼 노태우 전두환 최규하 박정희 윤보선 이승만 20대 윤석열 (尹錫悅) 출생 | 1960년 12월 18일(서울특별시) 재임 | 2022년 5월 ~ 2025년 4월 19대 문재인 (文在寅) 출생 | 1953년 1월 24일 (경남 거제) 재임 | 2017년 5월 ~ 2022년 5월 50대 핵심정책 백서 영상보기 PDF 다운로드 18대 박근혜 (朴槿惠) 출생 | 1952년 2월 2일 (대구광역시) 재임 | 2013년 2월 ~ 2017년 3월 17대 이명박 (李明博) 출생 | 1941년 12월 19일 (일본) 재임 | 2008년 2월 ~ 2013년 2월 16대 노무현(盧武鉉) 출생 | 1946년 9월 1일 (경남 김해) 사망 | 2009년 5월 23일 재임 | 2003년 2월 ~ 2008년 2월 15대 김대중 (金大中) 출생 | 1924년 1월 6일 (전남 신안) 사망 | 2009년 8월 … 무현 김대중 김영삼 노태우 전두환 최규하 박정희 윤보선 이승만 20대 윤석열 (尹錫悅) 출생 | 1960년 12월 18일(서울특별시) 재임 | 2022년 5월 ~ 2025년 4월 19대 문재인 (文在寅) 출생 | 1953년 1월 24일 (경남 거제) 재임 | 2017년 5월 ~ 2022년 5월 50대 핵심정책 백서 영상보기 PDF 다운로드 18대 박근혜 (朴槿惠) 출생 | 1952년 2월 2일 (대구광역시) 재임 | 2013년 2월 ~ 2017년 3월 17대 이명박 (李明博) 출생 | 1941년 12월 19일 (일본) 재임 | 2008년 2월 ~ 2013년 2월 16대 노무현(盧武鉉) 출생 | 1946년 9월 1일 (경남 김해) 사망 | 2009년 5월 23일 재임 | 2003년 2월 ~ 2008년 2월 15대 김대중 (金大中) 출생 | 1924년 1월 6일 (전남 신안) 사망 | 2009년 8월 18일 재임 | 1998년 2월 ~ 2003년 2월 14대",
+      "excerptSha256": "474f67eb2f43d10e7df790b3ef4ee71bebfbd7e99436895fd92f5f516e55a49c"
+    },
+    {
+      "id": "frederick-oxford",
+      "url": "https://frederick.mml.ox.ac.uk/history",
+      "publisher": "University of Oxford, Faculty of Medieval and Modern Languages",
+      "publisherHost": "frederick.mml.ox.ac.uk",
+      "status": 200,
+      "bytesRead": 16470,
+      "sha256": "c0b1a3a997279460ac405e3cbb30c3641cd0418e60379bd2ab3a8642042eadc9",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "History | Frederick the Great Jump to Navigation --> Frederick the Great --> History Frederick II was born on 24 January 1712 in Berlin and was King of Prussia from 1740 to 1786 (technically only ‘King in Prussia’ until 1772). He was a member of the Hohenzollern dynasty. His mother Sophia Dorothea of Hanover was the daughter of Britain’s King George I and sister of King George II, and for a long time hoped to achieve a double marriage with B … ory | Frederick the Great Jump to Navigation --> Frederick the Great --> History Frederick II was born on 24 January 1712 in Berlin and was King of Prussia from 1740 to 1786 (technically only ‘King in Prussia’ until 1772). He was a member of the Hohenzollern dynasty. His mother Sophia Dorothea of Hanover was the daughter of Britain’s King George I and sister of King George II, and for a long time hoped to achieve a double marriage with British royals for the Crown Prince and his sister Wi … as as tension-filled as that of other monarchs espousing ‘enlightened absolutism’. He regarded himself as the ‘First Servant of his State’, pursued a policy of religious tolerance, and abolished torture immediately he came to power. He put Berlin on the cultural map, attracting scholars, musicians and artists to Berlin and Potsdam and creating architectural landmarks such as the State Opera House. Frederick decreed that he wished to be buried with his dogs in Sanssouci – a wish that conflicted … s espousing ‘enlightened absolutism’. He regarded himself as the ‘First Servant of his State’, pursued a policy of religious tolerance, and abolished torture immediately he came to power. He put Berlin on the cultural map, attracting scholars, musicians and artists to Berlin and Potsdam and creating architectural landmarks such as the State Opera House. Frederick decreed that he wished to be buried with his dogs in Sanssouci – a wish that conflicted with what his family considered pro",
+      "excerptSha256": "5306e20a55e450692949231c93fbfd46eb18f4bccb4e74bec8d86cb3bb0e873d"
+    },
+    {
+      "id": "frederick-deutschebio",
+      "url": "https://www.deutsche-biographie.de/sfz56983.html",
+      "publisher": "Deutsche Biographie, Bayerische Staatsbibliothek",
+      "publisherHost": "www.deutsche-biographie.de",
+      "status": 200,
+      "bytesRead": 344488,
+      "sha256": "bc536b34c3f13bf0e4e52f7965ecf4d1130030752066a106f42cca2789162c20",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "878) NDB -online Biographien Quellen Literatur Objekte Porträts Ausgehende Verknüpfungen Eingehende Verknüpfungen Orte Zitierweise Netzwerk Friedrich II. Lebensdaten 1712 – 1786 Geburtsort Berlin Sterbeort Sanssouci bei Potsdam Beruf/Funktion König von Preußen/seit 1772 ; König in Preußen/bis 1772 Konfession reformiert Normdaten GND: 118535749 | GND-Explorer | OGND | VIAF Namensvarianten Friedrich II. von Preußen Friedrich II. von Preußen Friedrich II. in Preußen Friedrich der Große Friedrich … RDF Druckfassung Druckvorlage Scan --> vorheriger Artikel folgender Artikel --> Friedrich II. der Große König in, seit 1772 von Preußen, * 24.1.1712 Berlin, † 17.8.1786 Sanssouci bei Potsdam, ⚰ Potsdam, Garnison-Kirche, jetzt Burg Hohenzollern. Genealogie V Kg. Frdr. Wilh. I. in P. ( † 1740, s. NDB V); M Sophie Dor. ( † 1757), T d. Georg I. ( † 1727), Kf. v. Hannover, Kg. v. Großbritannien; Om Georg II. ( † 1760), Kf. v. Hannover, Kg. v. Großbritannien; 6 B (3 jung †), 7 Schw (1 jung … Eingehende Verknüpfungen Orte Zitierweise Netzwerk Friedrich II. Lebensdaten 1712 – 1786 Geburtsort Berlin Sterbeort Sanssouci bei Potsdam Beruf/Funktion König von Preußen/seit 1772 ; König in Preußen/bis 1772 Konfession reformiert Normdaten GND: 118535749 | GND-Explorer | OGND | VIAF Namensvarianten Friedrich II. von Preußen Friedrich II. von Preußen Friedrich II. in Preußen Friedrich der Große Friedrich II. der Große Friedrich II. Friedrich II. von Preußen Friedrich II. in Preußen Fri",
+      "excerptSha256": "9ff2d8a3037422daa85ad970a0c767a5f93bf8850caa8ad6fd36f64eb326d1f0"
+    },
+    {
+      "id": "frederick-spsg",
+      "url": "https://www.spsg.de/blog/article/2017/08/17/kartoffeln-am-grab-zum-tod-friedrichs-des-grossen-in-sanssouci-am-17-august-1786?no_cache=1",
+      "publisher": "Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg",
+      "publisherHost": "www.spsg.de",
+      "status": 200,
+      "bytesRead": 78089,
+      "sha256": "a82c69b029869b77eb160607edc89727f2886e16f12aff13c5ab9770ceeeaf29",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "etshop Konto Zum Ticketshop Startseite Blog Blog Zurück zur Listenansicht Kartoffeln am Grab. Zum Tod Friedrichs des Großen in Sanssouci am 17. August 1786 Forschung , Schlösser , Menschen 17. August 2017 | Von Jürgen Luh Vor 231 Jahren, am 17. August 1786, stirbt König Friedrich II. von Preußen im Schloss Sanssouci. Seine Grabstätte auf der obersten Terrasse von Sanssouci, wo er am 17. August 1991 seine letzte Ruhestätte fand, wird regelmäßig mit Kartoffeln geschmückt – … roßen in Sanssouci am 17. August 1786 Forschung , Schlösser , Menschen 17. August 2017 | Von Jürgen Luh Vor 231 Jahren, am 17. August 1786, stirbt König Friedrich II. von Preußen im Schloss Sanssouci. Seine Grabstätte auf der obersten Terrasse von Sanssouci, wo er am 17. August 1991 seine letzte Ruhestätte fand, wird regelmäßig mit Kartoffeln geschmückt – denn ihm haben wir schließlich die Kartoffel zu verdanken. Aber stimmt das überhaupt? Friedrich-Kenner Dr. Jürgen Luh, in der SP",
+      "excerptSha256": "d0073b36257f41c4d3b01e45c614c4d10b461118fe8dd954bfae15ba780cf5d1"
+    },
+    {
+      "id": "suarez-barcelona",
+      "url": "https://www.fcbarcelona.com/en/futbol/primer-equip/jugadors/4138/luis-suarez",
+      "publisher": "FC Barcelona",
+      "publisherHost": "www.fcbarcelona.com",
+      "status": 200,
+      "bytesRead": 391190,
+      "sha256": "fb30d26cb998bd46bb3714228bf38d3d465c535d5ffe0b00c261178286cf2c60",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "ng coach José Ramon De La Fuente Field fitness coach Pepe Conde Gym and strength fitness coach Benjamin Kugel Place of birth Salto, Uruguay Date of birth 24/01/1987 Weight 72kg Height 182cm Club debut 25/10/14 Honours Previous Chevron pointing left Next Chevron SVG pointing right Barça Honours La Liga 4 la-liga 2014/15 • 2015/16 • 2017/18 • 2018/19 Barça Honours Champions League 1 champions-league 2014/15 Barça Honours Copa del Rey 4 copa-del-rey 2014/15 • 2015/16 • 2016/17 • 201 … ate of birth 24/01/1987 Weight 72kg Height 182cm Club debut 25/10/14 Honours Previous Chevron pointing left Next Chevron SVG pointing right Barça Honours La Liga 4 la-liga 2014/15 • 2015/16 • 2017/18 • 2018/19 Barça Honours Champions League 1 champions-league 2014/15 Barça Honours Copa del Rey 4 copa-del-rey 2014/15 • 2015/16 • 2016/17 • 2017/18 Barça Honours Club World Cup 1 club-world-cup 2015/16 Barça Honours European Super Cup 1 european-super-cup 2015/16 Barça Honours Spani … s Chevron pointing left Next Chevron SVG pointing right Barça Honours La Liga 4 la-liga 2014/15 • 2015/16 • 2017/18 • 2018/19 Barça Honours Champions League 1 champions-league 2014/15 Barça Honours Copa del Rey 4 copa-del-rey 2014/15 • 2015/16 • 2016/17 • 2017/18 Barça Honours Club World Cup 1 club-world-cup 2015/16 Barça Honours European Super Cup 1 european-super-cup 2015/16 Barça Honours Spanish Super Cup 2 spanish-super-cup 2016/17 • 2018/19 Uruguay Copa América 1 copa-",
+      "excerptSha256": "16571994d045964aba459cc97f9fe3d7554615cdf63482dd0bff4a66c2b68f73"
+    },
+    {
+      "id": "suarez-auf",
+      "url": "https://auf.org.uy/luis-suarez/",
+      "publisher": "Uruguayan Football Association (AUF)",
+      "publisherHost": "auf.org.uy",
+      "status": 200,
+      "bytesRead": 570204,
+      "sha256": "d92906954283623253a85ac030931a4c699f987c70961c705797f632f6d730e0",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "jugadores Luis Suárez Twitter Instagram Facebook SITIO OFICIAL Nombre: Luis Alberto Suárez Díaz Posición: Delantero Equipo: Inter de Miami Nacimiento: 24/01/1987 Ciudad Natal: Salto - Uruguay LuisSuarez9 luissuarez9 LuisSuarez9 http://www.luissuarez9.com/es/ Compartir Selección Mayor Debut 07/02/2007 (vs Colombia) último Partido 06/09/2024 (vs Paraguay) 143 Partidos 69 Ganados 42 Empatados 32 Perdidos 69 Ganados 42 Empatados 32 Perdidos 69 Goles 11.281 Minutos Un Gol cada: 163 … (vs Colombia) último Partido 06/09/2024 (vs Paraguay) 143 Partidos 69 Ganados 42 Empatados 32 Perdidos 69 Ganados 42 Empatados 32 Perdidos 69 Goles 11.281 Minutos Un Gol cada: 163 minutos Torneos disputados CONMEBOL Copa América USA 2024 Eliminatorias Mundial de la FIFA 2026 Copa Mundial FIFA - Catar 2022 Copa América Brasil 2021 Eliminatorias Catar 2022 Copa América Brasil 2019 Copa Mundial Rusia 2018 Eliminatorias Rusia 2018 Copa América Centenario USA 2016 Cop … LuisSuarez9 http://www.luissuarez9.com/es/ Compartir Selección Mayor Debut 07/02/2007 (vs Colombia) último Partido 06/09/2024 (vs Paraguay) 143 Partidos 69 Ganados 42 Empatados 32 Perdidos 69 Ganados 42 Empatados 32 Perdidos 69 Goles 11.281 Minutos Un Gol cada: 163 minutos Torneos disputados CONMEBOL Copa América USA 2024 Eliminatorias Mundial de la FIFA 2026 Copa Mundial FIFA - Catar 2022 Copa América Brasil 2021 Eliminatorias Catar 2022 Copa América Brasil 2019 Copa",
+      "excerptSha256": "fcfd113b7fff13cd6b7678e09955b1aff96bd1ae68d1b5632aaa71166664a0b9"
+    },
+    {
+      "id": "shechtman-technion",
+      "url": "https://www.technion.ac.il/en/blog/2011/10/who-is-dan-shechtman/",
+      "publisher": "Technion – Israel Institute of Technology",
+      "publisherHost": "www.technion.ac.il",
+      "status": 200,
+      "bytesRead": 170735,
+      "sha256": "84c52f290c02be6efd2295539980ece8ba3eec38fbb666f50f35aafff5f833c5",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "l press in Jerusalem this week, “Ninety percent subsequently left but the ten percent who stayed made Israel into the great country it is.” Dan Shechtman was born in Tel Aviv on January 24, 1941. “ I went to a youth movement – HaShomer Hatzair. In 1959, I started my military service – it was 2.5 years then. During which, I met my future wife. Then I went to Technion to study engineering. It was the dream of my life. I thought it was the best thing a man could be. I read a book in my youth by Jules Verne, The … Mysterious Island . There was a character, Cyrus Smith, who could do everything. He was an engineer, and I wanted to be like him. Shechtman received his BSc, MSc, and PhD from Technion in 1966, 1968, and 1972, respectively. He joined the Technion Faculty of Materials Engineering in 1975, and was made Distinguished Professor in 1998. He holds the Philip Tobias Chair in Material Sciences, and heads the Louis Edelstein Centre for Quasicrystals. “ In 1975, I was offered a position at Technion. I was mad",
+      "excerptSha256": "27a6eb2ee309a157fb119891f8a1b5842d658b9f758013972d0e80ecbe01d525"
+    },
+    {
+      "id": "shechtman-nobel",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2011/shechtman/facts/",
+      "publisher": "Nobel Prize Outreach",
+      "publisherHost": "www.nobelprize.org",
+      "status": 200,
+      "bytesRead": 167640,
+      "sha256": "4ab32c44ccc49d2a576bf87389ba7ecc542fee6947b8b7525b72d6da2913b8b8",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "ard ceremony speech Award ceremony video Banquet video © The Nobel Foundation. Photo: U. Montan Dan Shechtman Nobel Prize in Chemistry 2011 Born: 24 January 1941, Tel Aviv, British Mandate of Palestine (now Israel) Affiliation at the time of the award: Technion - Israel Institute of Technology, Haifa, Israel Prize motivation: “for the discovery of quasicrystals” Prize share: 1/1 Life Dan Shechtman was born in Tel Aviv, in what was then the British Mandate for Palestine. He ear … tine (now Israel) Affiliation at the time of the award: Technion - Israel Institute of Technology, Haifa, Israel Prize motivation: “for the discovery of quasicrystals” Prize share: 1/1 Life Dan Shechtman was born in Tel Aviv, in what was then the British Mandate for Palestine. He earned his PhD in materials science from the Technion Israel Institute of Technology in Haifa in 1972. Shechtman has been associated with Technion since that time, but has also spent time abroad. He made h … n 1982, when Dan Shechtman was studying what are known as diffraction patterns, which occur when x-rays are passed through the crystals, he discovered a regular diffraction pattern that did not match any periodically repeated structure. This showed that there are crystal structures that are mathematically regular, but that do not repeat themselves. These are called quasicrystals. To cite this section MLA style: Dan Shechtman – Facts. NobelPrize.org. Nobel Prize Outreach 2026. Thu. 8 Oct 2026. <h",
+      "excerptSha256": "cab2015610efe9c131136e964bb7cfc62160b9b95e10a5c076220dc31d346996"
+    },
+    {
+      "id": "shechtman-nist",
+      "url": "https://www.nist.gov/nist-and-nobel/dan-shechtman/person-behind-nobel-prize-dan-shechtman",
+      "publisher": "National Institute of Standards and Technology",
+      "publisherHost": "www.nist.gov",
+      "status": 200,
+      "bytesRead": 106323,
+      "sha256": "299663b2ac1c653b713b1140ce146983892fb9290ba619d0ed856cb4c6b5ac38",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Jan Hall Other NIST Connections to the Nobel Prize Educational Resources The Person behind the Nobel Prize: Dan Shechtman Dan Shechtman was born on January 24, 1941 in Tel Aviv, a city on the Mediterranean coast of what was then Palestine and in 1948 became the state of Israel. His mother’s parents had immigrated to Palestine from Ukraine in the early 1900s, and his grandfather, Zeev Ashur, set up the first Jewish printing house in Palestine. They worked with people who would lat … t prime minister, and Isac Ben Zvi, the second president of the state of Israel. Dan Shechtman alongside one of his key research tools, the transmission electron microscope. Credit: Photo by Bob Elbert / Iowa State University Shechtman’s father came to Palestine in the 1930s, also from Ukraine, and went into printing after marrying Shechtman’s mother. They moved several times during Shechtman’s childhood, but never far from Tel Aviv. “I was really a scientist since a very early age. I wa",
+      "excerptSha256": "27acd097d5f3b3a05888ec4b3d525f11a4a63a45a784fda5bc8ebd70e5b12f3c"
+    },
+    {
+      "id": "serrault-bnf",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb120578789",
+      "publisher": "Bibliothèque nationale de France",
+      "publisherHost": "catalogue.bnf.fr",
+      "status": 200,
+      "bytesRead": 59599,
+      "sha256": "118259d24228deef05e52a7ecc3d6f0916af083db3fa182737296eb181302358",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Résumé, Table des matières… Serrault, Michel (1928-2007) forme internationale Pays : France Langue(s) : français . français Sexe : Masculin Naissance : 1928-01-24, Brunoy (Essonne) Mort : 2007-07-29, Équemauville (Calvados) Acteur. Forme(s) associée(s) : >> << Poiret et Serrault Source(s) : Le cri de la carotte : conversations avec Jean-Louis Remilleux / Michel Serrault, 1994 Dict. du cinéma / J. L. Passek, 1991 . - WW France 1991-1992 . - Monde, 2007-07-31 Identifiant internat … hel (1928-2007) forme internationale Pays : France Langue(s) : français . français Sexe : Masculin Naissance : 1928-01-24, Brunoy (Essonne) Mort : 2007-07-29, Équemauville (Calvados) Acteur. Forme(s) associée(s) : >> << Poiret et Serrault Source(s) : Le cri de la carotte : conversations avec Jean-Louis Remilleux / Michel Serrault, 1994 Dict. du cinéma / J. L. Passek, 1991 . - WW France 1991-1992 . - Monde, 2007-07-31 Identifiant international de l'autorité : ISNI 0000 0001 … France Langue(s) : français . français Sexe : Masculin Naissance : 1928-01-24, Brunoy (Essonne) Mort : 2007-07-29, Équemauville (Calvados) Acteur. Forme(s) associée(s) : >> << Poiret et Serrault Source(s) : Le cri de la carotte : conversations avec Jean-Louis Remilleux / Michel Serrault, 1994 Dict. du cinéma / J. L. Passek, 1991 . - WW France 1991-1992 . - Monde, 2007-07-31 Identifiant international de l'autorité : ISNI 0000 0001 2123 6416 , cf. http://isni.org",
+      "excerptSha256": "019f7a4b2c8862768e3013f21b5eff6162df227f4c037948d93cc0510d39dd0a"
+    },
+    {
+      "id": "serrault-allocine",
+      "url": "https://www.allocine.fr/personne/fichepersonne-320/biographie/",
+      "publisher": "AlloCiné",
+      "publisherHost": "www.allocine.fr",
+      "status": 200,
+      "bytesRead": 368003,
+      "sha256": "0b20d9031817943166128208c9dfc82519ca06babed70b1241ac289aaa33f4da",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "op films/séries News Photos Streaming Récompenses Vidéos VOD, DVD État civil Métiers Acteur , Producteur , Dialoguiste Nationalité Français Naissance 24 janvier 1928 (Brunoy - France) Décès 29 juillet 2007 à l'age de 79 ans (Honfleur, Calvados - France) Biographie Refusé au Conservatoire au terme de deux années d'études au centre du spectacle de la rue Blanche, Michel Serrault signe son premier contrat en 1946, pour une tournée en Allemagne. Il y joue notamment Les fourberies de S … enses Vidéos VOD, DVD État civil Métiers Acteur , Producteur , Dialoguiste Nationalité Français Naissance 24 janvier 1928 (Brunoy - France) Décès 29 juillet 2007 à l'age de 79 ans (Honfleur, Calvados - France) Biographie Refusé au Conservatoire au terme de deux années d'études au centre du spectacle de la rue Blanche, Michel Serrault signe son premier contrat en 1946, pour une tournée en Allemagne. Il y joue notamment Les fourberies de Scapin . En 1948, il fait son service mil … dos - France) Biographie Refusé au Conservatoire au terme de deux années d'études au centre du spectacle de la rue Blanche, Michel Serrault signe son premier contrat en 1946, pour une tournée en Allemagne. Il y joue notamment Les fourberies de Scapin . En 1948, il fait son service militaire à Dijon dans l'aviation. De retour à Paris, il apparaît dans Dugudu , le second spectacle de Robert Dhery après Les Branquignols . C'est en 1952 qu'il rencontre Jean Poiret aux matinées classiques du t",
+      "excerptSha256": "07687a5c9ee3f675578edd196a4b01c5c2cb071a49e6c9d0180fd81bff1e17c3"
+    },
+    {
+      "id": "serrault-ina",
+      "url": "https://www.ina.fr/actualites-ina/la-folle-histoire-de-la-cage-aux-folles",
+      "publisher": "Institut national de l’audiovisuel (INA)",
+      "publisherHost": "www.ina.fr",
+      "status": 200,
+      "bytesRead": 135275,
+      "sha256": "ab2e38a2499384bb7149836abbff962c6e452d2d4a4b3499fe0a922dee951107",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "ret est remplacé par l’acteur transalpin Ugo Tognazzi. Avec 5,5 millions d’entrées, «La cage aux folles» devient le film de l’année 1978 et Michel Serrault décroche le César du meilleur acteur pour son rôle de Zaza Napoli. Fort de ce succès, Zaza débarque en Amérique. Avec «La cage aux folles», l’Amérique puritaine découvre un sujet audacieux traité sur un ton décomplexé. Avec plus de 8 millions de spectateurs, le film bat un record d’entrée pour une oeuvre en langue étrangère. En 1980, le film est nominé a",
+      "excerptSha256": "4d431349ff46a83a6bc4df6b61ba4a5cc678fa728322aae3ae513992aa52a834"
+    },
+    {
+      "id": "serrault-cesar",
+      "url": "https://www.academie-cinema.org/personnes/michel-serrault-178207/",
+      "publisher": "Académie des César",
+      "publisherHost": "www.academie-cinema.org",
+      "status": 200,
+      "bytesRead": 62002,
+      "sha256": "be43f189cee8e31332d3076e44ec2b9166db76b2c3f4971886c6bf97c269da0a",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "alités Dans les films Dans les événements Dans les contenus Dans la médiathèque < Retour à la liste Michel Serrault Palmarès Plus Voir plus 3 César 8 Nominations César & Nominations Plus Voir plus Indique l'obtention d'un César Indique une Nomination 1996 Meilleur Acteur Nelly et Mr Arnaud 1991 Meilleur Acteur Docteur Petiot 1986 Meilleur Acteur On ne meurt que deux fois 1984 Meilleur Acteur Mortelle randonnée 1982 Meilleur Acteur Garde à vue 1981 Meilleur Acteur … Palmarès Plus Voir plus 3 César 8 Nominations César & Nominations Plus Voir plus Indique l'obtention d'un César Indique une Nomination 1996 Meilleur Acteur Nelly et Mr Arnaud 1991 Meilleur Acteur Docteur Petiot 1986 Meilleur Acteur On ne meurt que deux fois 1984 Meilleur Acteur Mortelle randonnée 1982 Meilleur Acteur Garde à vue 1981 Meilleur Acteur La cage aux folles 2 1979 Meilleur Acteur La cage aux folles Meilleur Acteur dans un Second Rôle L'argent des autres En vid … ault Palmarès Plus Voir plus 3 César 8 Nominations César & Nominations Plus Voir plus Indique l'obtention d'un César Indique une Nomination 1996 Meilleur Acteur Nelly et Mr Arnaud 1991 Meilleur Acteur Docteur Petiot 1986 Meilleur Acteur On ne meurt que deux fois 1984 Meilleur Acteur Mortelle randonnée 1982 Meilleur Acteur Garde à vue 1981 Meilleur Acteur La cage aux folles 2 1979 Meilleur Acteur La cage aux folles Meilleur Acteur dans un Second Rôle L'argent d … ominations César & Nominations Plus Voir plus Indique l'obtention d'un César Indique une Nomination 1996 Meilleur Acteur Nelly et Mr Arnaud 1991 Meilleur Acteur Docteur Petiot 1986 Meilleur Acteur On ne meurt que deux fois 1984 Meilleur Acteur Mortelle randonnée 1982 Meilleur Acteur Garde à vue 1981 Meilleur Acteur La cage aux folles 2 1979 Meilleur Acteur La cage aux folles Meilleur Acteur dans un Second Rôle L'argent des autres En videos Michel Serrault, Mei … lly et Mr Arnaud 1991 Meilleur Acteur Docteur Petiot 1986 Meilleur Acteur On ne meurt que deux fois 1984 Meilleur Acteur Mortelle randonnée 1982 Meilleur Acteur Garde à vue 1981 Meilleur Acteur La cage aux folles 2 1979 Meilleur Acteur La cage aux folles Meilleur Acteur dans un Second Rôle L'argent des autres En videos Michel Serrault, Meilleur Acteur dans NELLY ET MR ARNAUD Lien Vimeo : https://vimeo.com/77206821 Michel Serrault, Meilleur Acteur dans GARDE À",
+      "excerptSha256": "9301294e34cd53f293db0b72f9004becc830f8bd74e76472f41910b596b7693f"
+    },
+    {
+      "id": "wd-moon",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q21001.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 101641,
+      "sha256": "0c19c6d0c966243ab986fe2154952b943818754ec6de7a2de3047ae102db95b4",
+      "verificationMethod": "direct-http-json-wikidata-entity",
+      "excerpt": "{\"id\":\"Q21001\",\"label\":\"Moon Jae-in\",\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":0}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1953-01-24T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":2}],\"p570\":[],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q884\",\"references\":1}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q82955\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q40348\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q998550\",\"references\":1}]}",
+      "excerptSha256": "e7a581cfeccc5f17c8df95cd124bb22e30a2b2e9ae24abeeebe85db424883f77"
+    },
+    {
+      "id": "wd-frederick",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q33550.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 262005,
+      "sha256": "4f0dda9123344c70e2b9aaf6e8dae75a4e46574a795e2969c3d9f9c9ec18c362",
+      "verificationMethod": "direct-http-json-wikidata-entity",
+      "excerpt": "{\"id\":\"Q33550\",\"label\":\"Frederick II of Prussia\",\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":1}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1712-01-24T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":14}],\"p570\":[{\"rank\":\"normal\",\"value\":\"+1786-08-17T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":14}],\"p27\":[{\"rank\":\"preferred\",\"value\":\"Q27306\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q183\",\"references\":1}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q1097498\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q10732476\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q116\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q12097\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q8178443\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q36834\",\"references\":1}]}",
+      "excerptSha256": "623a77a7d3f2aef8fe90c0eb0ed8c965649734c4462396368e9a58d6b62bba22"
+    },
+    {
+      "id": "wd-suarez",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q26517.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 157276,
+      "sha256": "dddaf58e706e462f03f20055eb4d1d202bb79cf04c023aafaf1544a5c1a81d34",
+      "verificationMethod": "direct-http-json-wikidata-entity",
+      "excerpt": "{\"id\":\"Q26517\",\"label\":\"Luis Suárez\",\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":2}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1987-01-24T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":4}],\"p570\":[],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q77\",\"references\":1}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q201788\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q937857\",\"references\":1}]}",
+      "excerptSha256": "eba833c4f9d5b71aed384b05475408e51be854614a8fa2abaa002b60c3cb8b57"
+    },
+    {
+      "id": "wd-shechtman",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q44111.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 89598,
+      "sha256": "f5a25087328631d8ed5d9c24b1c6600a2b360a9951cbeddd5f60f42b702b76ee",
+      "verificationMethod": "direct-http-json-wikidata-entity",
+      "excerpt": "{\"id\":\"Q44111\",\"label\":\"Dan Shechtman\",\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":1}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1941-01-24T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":2}],\"p570\":[],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q801\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q30\",\"references\":1}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q169470\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q593644\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q81096\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q1231865\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q1622272\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q15142825\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q21329070\",\"references\":1}]}",
+      "excerptSha256": "d4bc24f4415f18d77fc14fb5d905ad789a08dc8f5d6c98bb913bbcb54af3783b"
+    },
+    {
+      "id": "wd-serrault",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q318088.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 107834,
+      "sha256": "72e7fbe01855980ee19397e7f4e0e75ad832f12c9fd4bff9954d0d1d4dddf57a",
+      "verificationMethod": "direct-http-json-wikidata-entity",
+      "excerpt": "{\"id\":\"Q318088\",\"label\":\"Michel Serrault\",\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":1}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1928-01-24T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":10}],\"p570\":[{\"rank\":\"normal\",\"value\":\"+2007-07-29T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":12}],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q142\",\"references\":1}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q10800557\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q33999\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q2259451\",\"references\":1}]}",
+      "excerptSha256": "012f537ca23050504ff96b20a31db620f815f64d55515a9a49f51970df55ef48"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "moon-jae-in",
+      "name": "Moon Jae-in",
+      "wikidataId": "Q21001",
+      "birthDate": "1953-01-24",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "moon-pa",
+        "moon-ehistory"
+      ],
+      "careerFactIds": [
+        "moon-kyung-hee-law-1980",
+        "moon-presidency-2017-2022"
+      ],
+      "countryCode": "KR",
+      "category": "politics",
+      "occupation": [
+        "luật sư và chính khách"
+      ],
+      "fields": [
+        "society-law"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "society-law",
+          "careerFactIds": [
+            "moon-kyung-hee-law-1980"
+          ],
+          "rationale": "Bằng luật, kỳ thi tư pháp và sự nghiệp luật sư được nguồn hồ sơ chính thức ghi nhận; đây là lĩnh vực pháp luật."
+        }
+      ],
+      "wikidataCaptureId": "wd-moon",
+      "wikidataLabel": "Moon Jae-in",
+      "selectedCountryQid": "Q884",
+      "selectedOccupationQids": [
+        "Q82955",
+        "Q40348"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q21001",
+        "https://www.pa.go.kr/online_contents/president/history19.jsp",
+        "https://www.ehistory.go.kr/movie/president?index_page=72&subjectID=111121"
+      ],
+      "verifiedAt": "2026-10-08",
+      "before": {
+        "biography": "Moon Jae-in là luật sư và chính khách người Hàn Quốc. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 1982, Moon Jae-in tốt nghiệp hạng nhì tại Viện Nghiên cứu và Đào tạo Tư pháp Hàn Quốc.",
+        "highlights": [
+          "Sinh ngày 24/1/1953.",
+          "Năm 1982, Moon Jae-in tốt nghiệp hạng nhì tại Viện Nghiên cứu và Đào tạo Tư pháp Hàn Quốc."
+        ],
+        "fields": null,
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q21001",
+          "https://www.korea.net/FILE/pdfdata/2017/11/MoonJae-inPresidentoftheRepublicofKorea_en_1113.pdf",
+          "https://www.pa.go.kr/online_contents/president/history19.jsp"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      },
+      "shortDescription": "Luật sư và chính khách Hàn Quốc; sinh ngày 24/1/1953.",
+      "biography": "Moon Jae-in là luật sư và chính khách Hàn Quốc. Ông tốt nghiệp Khoa Luật Đại học Kyung Hee năm 1980, đỗ kỳ thi tư pháp cùng năm và giữ chức Tổng thống Hàn Quốc từ tháng 5/2017 đến tháng 5/2022.",
+      "highlights": [
+        "Năm 1980, Moon tốt nghiệp Khoa Luật Đại học Kyung Hee.",
+        "Moon giữ chức Tổng thống Hàn Quốc từ tháng 5/2017 đến tháng 5/2022."
+      ],
+      "identityClaims": {
+        "label": "Moon Jae-in",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 0
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1953-01-24T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 2
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q884",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q884",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q82955",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q40348",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q998550",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q82955",
+          "Q40348"
+        ]
+      },
+      "after": {
+        "biography": "Moon Jae-in là luật sư và chính khách Hàn Quốc. Ông tốt nghiệp Khoa Luật Đại học Kyung Hee năm 1980, đỗ kỳ thi tư pháp cùng năm và giữ chức Tổng thống Hàn Quốc từ tháng 5/2017 đến tháng 5/2022.",
+        "highlights": [
+          "Năm 1980, Moon tốt nghiệp Khoa Luật Đại học Kyung Hee.",
+          "Moon giữ chức Tổng thống Hàn Quốc từ tháng 5/2017 đến tháng 5/2022."
+        ],
+        "fields": [
+          "society-law"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q21001",
+          "https://www.pa.go.kr/online_contents/president/history19.jsp",
+          "https://www.ehistory.go.kr/movie/president?index_page=72&subjectID=111121"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "unknown",
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      }
+    },
+    {
+      "id": "friedrich-ii-of-prussia",
+      "name": "Friedrich II của Phổ",
+      "wikidataId": "Q33550",
+      "birthDate": "1712-01-24",
+      "lifeStatus": "deceased",
+      "deathDate": "1786-08-17",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "frederick-deutschebio",
+        "frederick-spsg"
+      ],
+      "statusSourceId": "frederick-deutschebio",
+      "dobSourceIds": [
+        "frederick-oxford",
+        "frederick-deutschebio"
+      ],
+      "careerFactIds": [
+        "frederick-reign-1740-1786",
+        "frederick-tolerance-abolished-torture"
+      ],
+      "countryCode": "DE",
+      "category": "history",
+      "occupation": [
+        "vua và nhà soạn nhạc"
+      ],
+      "fields": [
+        "society-law"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "society-law",
+          "careerFactIds": [
+            "frederick-tolerance-abolished-torture"
+          ],
+          "rationale": "Ông áp dụng chính sách khoan dung tôn giáo và bãi bỏ tra tấn khi lên ngôi, là các quyết định về xã hội và luật lệ."
+        }
+      ],
+      "wikidataCaptureId": "wd-frederick",
+      "wikidataLabel": "Frederick II of Prussia",
+      "selectedCountryQid": "Q27306",
+      "selectedOccupationQids": [
+        "Q116",
+        "Q36834"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q33550",
+        "https://frederick.mml.ox.ac.uk/history",
+        "https://www.deutsche-biographie.de/sfz56983.html",
+        "https://www.spsg.de/blog/article/2017/08/17/kartoffeln-am-grab-zum-tod-friedrichs-des-grossen-in-sanssouci-am-17-august-1786?no_cache=1"
+      ],
+      "verifiedAt": "2026-10-08",
+      "reviewNotes": "Wikidata ưu tiên quốc tịch Phổ (Q27306) và cũng ghi nhận Đức (Q183). Mã DE được giữ theo quy ước mã quốc gia hiện đại của hồ sơ hiện hữu; không dùng mã DE để phủ nhận bối cảnh Phổ.",
+      "before": {
+        "biography": "Friedrich II của Phổ là vua và nhà soạn nhạc người Đức. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Khi lên nắm quyền, Friedrich II theo đuổi chính sách khoan dung tôn giáo và bãi bỏ tra tấn.",
+        "highlights": [
+          "Sinh ngày 24/1/1712.",
+          "Khi lên nắm quyền, Friedrich II theo đuổi chính sách khoan dung tôn giáo và bãi bỏ tra tấn."
+        ],
+        "fields": null,
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q33550",
+          "https://frederick.mml.ox.ac.uk/history",
+          "https://www.deutsche-biographie.de/sfz56983.html"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "shortDescription": "Vua và nhà soạn nhạc Đức; sinh ngày 24/1/1712."
+      },
+      "shortDescription": "Vua Phổ và nhà soạn nhạc; sinh ngày 24/1/1712.",
+      "biography": "Friedrich II cai trị Phổ từ năm 1740 đến 1786. Ông theo đuổi chính sách khoan dung tôn giáo, bãi bỏ tra tấn khi lên nắm quyền và thu hút các học giả, nhạc sĩ cùng nghệ sĩ đến Berlin và Potsdam.",
+      "highlights": [
+        "Friedrich II cai trị Phổ từ năm 1740 đến 1786.",
+        "Sau khi lên ngôi, ông theo đuổi chính sách khoan dung tôn giáo và bãi bỏ tra tấn."
+      ],
+      "identityClaims": {
+        "label": "Frederick II of Prussia",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1712-01-24T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 14
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1786-08-17T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 14
+          }
+        ],
+        "p27": [
+          {
+            "rank": "preferred",
+            "value": "Q27306",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q183",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q27306",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q1097498",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q10732476",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q116",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q12097",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q8178443",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36834",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q116",
+          "Q36834"
+        ]
+      },
+      "after": {
+        "shortDescription": "Vua Phổ và nhà soạn nhạc; sinh ngày 24/1/1712.",
+        "biography": "Friedrich II cai trị Phổ từ năm 1740 đến 1786. Ông theo đuổi chính sách khoan dung tôn giáo, bãi bỏ tra tấn khi lên nắm quyền và thu hút các học giả, nhạc sĩ cùng nghệ sĩ đến Berlin và Potsdam.",
+        "highlights": [
+          "Friedrich II cai trị Phổ từ năm 1740 đến 1786.",
+          "Sau khi lên ngôi, ông theo đuổi chính sách khoan dung tôn giáo và bãi bỏ tra tấn."
+        ],
+        "fields": [
+          "society-law"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q33550",
+          "https://frederick.mml.ox.ac.uk/history",
+          "https://www.deutsche-biographie.de/sfz56983.html",
+          "https://www.spsg.de/blog/article/2017/08/17/kartoffeln-am-grab-zum-tod-friedrichs-des-grossen-in-sanssouci-am-17-august-1786?no_cache=1"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "deceased",
+        "deathDate": "1786-08-17",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://www.deutsche-biographie.de/sfz56983.html",
+          "https://www.spsg.de/blog/article/2017/08/17/kartoffeln-am-grab-zum-tod-friedrichs-des-grossen-in-sanssouci-am-17-august-1786?no_cache=1"
+        ]
+      }
+    },
+    {
+      "id": "luis-suarez",
+      "name": "Luis Alberto Suárez",
+      "wikidataId": "Q26517",
+      "birthDate": "1987-01-24",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "suarez-barcelona",
+        "suarez-auf"
+      ],
+      "careerFactIds": [
+        "suarez-uruguay-69-goals",
+        "suarez-barcelona-honours"
+      ],
+      "countryCode": "UY",
+      "category": "athlete",
+      "occupation": [
+        "cầu thủ bóng đá"
+      ],
+      "fields": [],
+      "fieldEvidence": [],
+      "wikidataCaptureId": "wd-suarez",
+      "wikidataLabel": "Luis Suárez",
+      "selectedCountryQid": "Q77",
+      "selectedOccupationQids": [
+        "Q937857"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q26517",
+        "https://www.fcbarcelona.com/en/futbol/primer-equip/jugadors/4138/luis-suarez",
+        "https://auf.org.uy/luis-suarez/"
+      ],
+      "verifiedAt": "2026-10-08",
+      "before": {
+        "biography": "Luis Alberto Suárez là cầu thủ bóng đá người Uruguay. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Hiệp hội Bóng đá Uruguay thống kê Luis Suárez có 69 bàn cho đội tuyển quốc gia.",
+        "highlights": [
+          "Sinh ngày 24/1/1987.",
+          "Hiệp hội Bóng đá Uruguay thống kê Luis Suárez có 69 bàn cho đội tuyển quốc gia."
+        ],
+        "fields": null,
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q26517",
+          "https://www.fcbarcelona.com/en/futbol/primer-equip/jugadors/4138/luis-suarez",
+          "https://auf.org.uy/luis-suarez/"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      },
+      "shortDescription": "Cầu thủ bóng đá Uruguay; sinh ngày 24/1/1987.",
+      "biography": "Luis Alberto Suárez là cầu thủ bóng đá người Uruguay. Hiệp hội Bóng đá Uruguay ghi nhận anh có 69 bàn trong 143 lần ra sân cho đội tuyển quốc gia. Cùng Barcelona, anh giành bốn chức vô địch La Liga và một UEFA Champions League.",
+      "highlights": [
+        "Hiệp hội Bóng đá Uruguay ghi nhận Suárez có 69 bàn sau 143 lần ra sân cho đội tuyển quốc gia.",
+        "Cùng Barcelona, Suárez giành bốn chức vô địch La Liga và một UEFA Champions League."
+      ],
+      "identityClaims": {
+        "label": "Luis Suárez",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1987-01-24T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 4
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q77",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q77",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q201788",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q937857",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q937857"
+        ]
+      },
+      "after": {
+        "biography": "Luis Alberto Suárez là cầu thủ bóng đá người Uruguay. Hiệp hội Bóng đá Uruguay ghi nhận anh có 69 bàn trong 143 lần ra sân cho đội tuyển quốc gia. Cùng Barcelona, anh giành bốn chức vô địch La Liga và một UEFA Champions League.",
+        "highlights": [
+          "Hiệp hội Bóng đá Uruguay ghi nhận Suárez có 69 bàn sau 143 lần ra sân cho đội tuyển quốc gia.",
+          "Cùng Barcelona, Suárez giành bốn chức vô địch La Liga và một UEFA Champions League."
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "unknown",
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      }
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "dan-shechtman",
+      "name": "Dan Shechtman",
+      "wikidataId": "Q44111",
+      "birthDate": "1941-01-24",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "shechtman-technion",
+        "shechtman-nobel"
+      ],
+      "careerFactIds": [
+        "shechtman-nobel-quasicrystals",
+        "shechtman-technion-appointment"
+      ],
+      "countryCode": "IL",
+      "category": "scientist",
+      "occupation": [
+        "nhà khoa học vật liệu",
+        "kỹ sư"
+      ],
+      "birthplace": "Tel Aviv, Israel",
+      "wikidataLabel": "Dan Shechtman",
+      "birthplaceEvidencePhrase": "Tel Aviv",
+      "fields": [
+        "technology-engineering",
+        "science-research"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "technology-engineering",
+          "careerFactIds": [
+            "shechtman-technion-appointment"
+          ],
+          "rationale": "Shechtman làm việc trong Khoa Kỹ thuật Vật liệu và hoạt động trong kỹ thuật vật liệu."
+        },
+        {
+          "field": "science-research",
+          "careerFactIds": [
+            "shechtman-nobel-quasicrystals"
+          ],
+          "rationale": "Phát hiện quasicrystal là đóng góp khoa học thực nghiệm và mở ra lĩnh vực nghiên cứu mới."
+        }
+      ],
+      "wikidataCaptureId": "wd-shechtman",
+      "selectedCountryQid": "Q801",
+      "selectedOccupationQids": [
+        "Q21329070",
+        "Q81096"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q44111",
+        "https://www.technion.ac.il/en/blog/2011/10/who-is-dan-shechtman/",
+        "https://www.nobelprize.org/prizes/chemistry/2011/shechtman/facts/",
+        "https://www.nist.gov/nist-and-nobel/dan-shechtman/person-behind-nobel-prize-dan-shechtman"
+      ],
+      "verifiedAt": "2026-10-08",
+      "after": {
+        "shortDescription": "Nhà khoa học vật liệu Israel; Nobel Hóa học 2011; sinh ngày 24/1/1941.",
+        "biography": "Dan Shechtman là nhà khoa học vật liệu và kỹ sư Israel. Năm 1982, ông phát hiện quasicrystal, một dạng cấu trúc tinh thể không tuần hoàn. Phát hiện này mang về cho ông Nobel Hóa học năm 2011; ông gia nhập khoa kỹ thuật vật liệu của Technion từ năm 1975.",
+        "highlights": [
+          "Năm 2011, Dan Shechtman nhận Nobel Hóa học cho phát hiện quasicrystal.",
+          "Shechtman gia nhập khoa Kỹ thuật Vật liệu của Technion năm 1975 và được phong giáo sư xuất sắc năm 1998."
+        ],
+        "fields": [
+          "technology-engineering",
+          "science-research"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q44111",
+          "https://www.technion.ac.il/en/blog/2011/10/who-is-dan-shechtman/",
+          "https://www.nobelprize.org/prizes/chemistry/2011/shechtman/facts/",
+          "https://www.nist.gov/nist-and-nobel/dan-shechtman/person-behind-nobel-prize-dan-shechtman"
+        ],
+        "verifiedAt": "2026-10-08",
+        "birthplace": "Tel Aviv, Israel",
+        "lifeStatus": "unknown",
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      },
+      "identityClaims": {
+        "label": "Dan Shechtman",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1941-01-24T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 2
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q801",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q801",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q169470",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q593644",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q81096",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1231865",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q15142825",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q21329070",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q21329070",
+          "Q81096"
+        ]
+      }
+    },
+    {
+      "id": "michel-serrault",
+      "name": "Michel Serrault",
+      "wikidataId": "Q318088",
+      "birthDate": "1928-01-24",
+      "lifeStatus": "deceased",
+      "deathDate": "2007-07-29",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "serrault-bnf",
+        "serrault-allocine"
+      ],
+      "statusSourceId": "serrault-bnf",
+      "dobSourceIds": [
+        "serrault-bnf",
+        "serrault-allocine"
+      ],
+      "careerFactIds": [
+        "serrault-first-theatre-contract",
+        "serrault-la-cage-cesar"
+      ],
+      "countryCode": "FR",
+      "category": "actor",
+      "occupation": [
+        "diễn viên sân khấu và điện ảnh"
+      ],
+      "birthplace": "Brunoy, Pháp",
+      "wikidataLabel": "Michel Serrault",
+      "birthplaceEvidencePhrase": "Brunoy (Essonne)",
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "serrault-first-theatre-contract",
+            "serrault-la-cage-cesar"
+          ],
+          "rationale": "Sân khấu và vai diễn điện ảnh của Serrault là hoạt động trực tiếp trong nghệ thuật biểu diễn."
+        }
+      ],
+      "wikidataCaptureId": "wd-serrault",
+      "selectedCountryQid": "Q142",
+      "selectedOccupationQids": [
+        "Q33999",
+        "Q2259451"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q318088",
+        "https://catalogue.bnf.fr/ark:/12148/cb120578789",
+        "https://www.allocine.fr/personne/fichepersonne-320/biographie/",
+        "https://www.ina.fr/actualites-ina/la-folle-histoire-de-la-cage-aux-folles",
+        "https://www.academie-cinema.org/personnes/michel-serrault-178207/"
+      ],
+      "verifiedAt": "2026-10-08",
+      "after": {
+        "shortDescription": "Diễn viên Pháp; sinh ngày 24/1/1928, mất ngày 29/7/2007.",
+        "biography": "Michel Serrault là diễn viên sân khấu và điện ảnh người Pháp. Năm 1946, ông ký hợp đồng đầu tiên để tham gia chuyến lưu diễn ở Đức. Vai Zaza trong phim La Cage aux folles giúp ông giành giải César Nam diễn viên chính xuất sắc năm 1979.",
+        "highlights": [
+          "Năm 1946, Serrault ký hợp đồng diễn xuất đầu tiên cho một chuyến lưu diễn ở Đức.",
+          "Với vai Zaza trong La Cage aux folles, Serrault giành César Nam diễn viên chính xuất sắc năm 1979."
+        ],
+        "fields": [
+          "design-creative"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q318088",
+          "https://catalogue.bnf.fr/ark:/12148/cb120578789",
+          "https://www.allocine.fr/personne/fichepersonne-320/biographie/",
+          "https://www.ina.fr/actualites-ina/la-folle-histoire-de-la-cage-aux-folles",
+          "https://www.academie-cinema.org/personnes/michel-serrault-178207/"
+        ],
+        "verifiedAt": "2026-10-08",
+        "birthplace": "Brunoy, Pháp",
+        "lifeStatus": "deceased",
+        "deathDate": "2007-07-29",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://catalogue.bnf.fr/ark:/12148/cb120578789",
+          "https://www.allocine.fr/personne/fichepersonne-320/biographie/"
+        ]
+      },
+      "identityClaims": {
+        "label": "Michel Serrault",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1928-01-24T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 10
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2007-07-29T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 12
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q142",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q142",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q10800557",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q33999",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2259451",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q33999",
+          "Q2259451"
+        ]
+      }
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "moon-kyung-hee-law-1980",
+      "profileId": "moon-jae-in",
+      "displayText": "Năm 1980, Moon tốt nghiệp Khoa Luật Đại học Kyung Hee.",
+      "sourceId": "moon-pa",
+      "evidencePhrase": "1980 경희대학교 법학과"
+    },
+    {
+      "id": "moon-presidency-2017-2022",
+      "profileId": "moon-jae-in",
+      "displayText": "Moon giữ chức Tổng thống Hàn Quốc từ tháng 5/2017 đến tháng 5/2022.",
+      "sourceId": "moon-ehistory",
+      "evidencePhrase": "재임 | 2017년 5월 ~ 2022년 5월"
+    },
+    {
+      "id": "frederick-reign-1740-1786",
+      "profileId": "friedrich-ii-of-prussia",
+      "displayText": "Friedrich II cai trị Phổ từ năm 1740 đến 1786.",
+      "sourceId": "frederick-oxford",
+      "evidencePhrase": "King of Prussia from 1740 to 1786"
+    },
+    {
+      "id": "frederick-tolerance-abolished-torture",
+      "profileId": "friedrich-ii-of-prussia",
+      "displayText": "Sau khi lên ngôi, ông theo đuổi chính sách khoan dung tôn giáo và bãi bỏ tra tấn.",
+      "sourceId": "frederick-oxford",
+      "evidencePhrase": "pursued a policy of religious tolerance, and abolished torture immediately he came to power"
+    },
+    {
+      "id": "suarez-uruguay-69-goals",
+      "profileId": "luis-suarez",
+      "displayText": "Hiệp hội Bóng đá Uruguay ghi nhận Suárez có 69 bàn sau 143 lần ra sân cho đội tuyển quốc gia.",
+      "sourceId": "suarez-auf",
+      "evidencePhrase": "69 Goles"
+    },
+    {
+      "id": "suarez-barcelona-honours",
+      "profileId": "luis-suarez",
+      "displayText": "Cùng Barcelona, Suárez giành bốn chức vô địch La Liga và một UEFA Champions League.",
+      "sourceId": "suarez-barcelona",
+      "evidencePhrase": "Barça Honours La Liga 4"
+    },
+    {
+      "id": "shechtman-nobel-quasicrystals",
+      "profileId": "dan-shechtman",
+      "displayText": "Năm 2011, Dan Shechtman nhận Nobel Hóa học cho phát hiện quasicrystal.",
+      "sourceId": "shechtman-nobel",
+      "evidencePhrase": "for the discovery of quasicrystals"
+    },
+    {
+      "id": "shechtman-technion-appointment",
+      "profileId": "dan-shechtman",
+      "displayText": "Shechtman gia nhập khoa Kỹ thuật Vật liệu của Technion năm 1975 và được phong giáo sư xuất sắc năm 1998.",
+      "sourceId": "shechtman-technion",
+      "evidencePhrase": "joined the Technion Faculty of Materials Engineering in 1975, and was made Distinguished Professor in 1998"
+    },
+    {
+      "id": "serrault-first-theatre-contract",
+      "profileId": "michel-serrault",
+      "displayText": "Năm 1946, Serrault ký hợp đồng diễn xuất đầu tiên cho một chuyến lưu diễn ở Đức.",
+      "sourceId": "serrault-allocine",
+      "evidencePhrase": "Michel Serrault signe son premier contrat en 1946"
+    },
+    {
+      "id": "serrault-la-cage-cesar",
+      "profileId": "michel-serrault",
+      "displayText": "Với vai Zaza trong La Cage aux folles, Serrault giành César Nam diễn viên chính xuất sắc năm 1979.",
+      "sourceId": "serrault-cesar",
+      "evidencePhrase": "1979 Meilleur Acteur La cage aux folles"
+    }
+  ],
+  "wikidataReview": {
+    "conflicts": []
+  }
+}

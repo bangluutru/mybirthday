@@ -4227,16 +4227,18 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇰🇷",
   "image": "/people/placeholder.svg",
   "shortDescription": "Luật sư và chính khách Hàn Quốc; sinh ngày 24/1/1953.",
-  "biography": "Moon Jae-in là luật sư và chính khách người Hàn Quốc. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 1982, Moon Jae-in tốt nghiệp hạng nhì tại Viện Nghiên cứu và Đào tạo Tư pháp Hàn Quốc.",
-  "highlights": ["Sinh ngày 24/1/1953.", "Năm 1982, Moon Jae-in tốt nghiệp hạng nhì tại Viện Nghiên cứu và Đào tạo Tư pháp Hàn Quốc."],
+  "biography": "Moon Jae-in là luật sư và chính khách Hàn Quốc. Ông tốt nghiệp Khoa Luật Đại học Kyung Hee năm 1980, đỗ kỳ thi tư pháp cùng năm và giữ chức Tổng thống Hàn Quốc từ tháng 5/2017 đến tháng 5/2022.",
+  "highlights": ["Năm 1980, Moon tốt nghiệp Khoa Luật Đại học Kyung Hee.", "Moon giữ chức Tổng thống Hàn Quốc từ tháng 5/2017 đến tháng 5/2022."],
   "wikidataId": "Q21001",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q21001",
-    "https://www.korea.net/FILE/pdfdata/2017/11/MoonJae-inPresidentoftheRepublicofKorea_en_1113.pdf",
-    "https://www.pa.go.kr/online_contents/president/history19.jsp"
+    "https://www.pa.go.kr/online_contents/president/history19.jsp",
+    "https://www.ehistory.go.kr/movie/president?index_page=72&subjectID=111121"
   ],
   "region": "asia",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-08",
+  "fields": ["society-law"],
+  "lifeStatus": "unknown"
 }  ,
 {
   "id": "friedrich-ii-of-prussia",
@@ -4255,17 +4257,23 @@ export const PEOPLE_01: Person[] = [
   "countryName": "Đức",
   "countryFlag": "🇩🇪",
   "image": "/people/placeholder.svg",
-  "shortDescription": "Vua và nhà soạn nhạc Đức; sinh ngày 24/1/1712.",
-  "biography": "Friedrich II của Phổ là vua và nhà soạn nhạc người Đức. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Khi lên nắm quyền, Friedrich II theo đuổi chính sách khoan dung tôn giáo và bãi bỏ tra tấn.",
-  "highlights": ["Sinh ngày 24/1/1712.", "Khi lên nắm quyền, Friedrich II theo đuổi chính sách khoan dung tôn giáo và bãi bỏ tra tấn."],
+  "shortDescription": "Vua Phổ và nhà soạn nhạc; sinh ngày 24/1/1712.",
+  "biography": "Friedrich II cai trị Phổ từ năm 1740 đến 1786. Ông theo đuổi chính sách khoan dung tôn giáo, bãi bỏ tra tấn khi lên nắm quyền và thu hút các học giả, nhạc sĩ cùng nghệ sĩ đến Berlin và Potsdam.",
+  "highlights": ["Friedrich II cai trị Phổ từ năm 1740 đến 1786.", "Sau khi lên ngôi, ông theo đuổi chính sách khoan dung tôn giáo và bãi bỏ tra tấn."],
   "wikidataId": "Q33550",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q33550",
     "https://frederick.mml.ox.ac.uk/history",
-    "https://www.deutsche-biographie.de/sfz56983.html"
+    "https://www.deutsche-biographie.de/sfz56983.html",
+    "https://www.spsg.de/blog/article/2017/08/17/kartoffeln-am-grab-zum-tod-friedrichs-des-grossen-in-sanssouci-am-17-august-1786?no_cache=1"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-08",
+  "fields": ["society-law"],
+  "lifeStatus": "deceased",
+  "deathDate": "1786-08-17",
+  "deathDateSourceUrls": ["https://www.deutsche-biographie.de/sfz56983.html", "https://www.spsg.de/blog/article/2017/08/17/kartoffeln-am-grab-zum-tod-friedrichs-des-grossen-in-sanssouci-am-17-august-1786?no_cache=1"],
+  "deathDatePrecision": "day"
 }  ,
 {
   "id": "luis-suarez",
@@ -4285,8 +4293,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇾",
   "image": "/people/placeholder.svg",
   "shortDescription": "Cầu thủ bóng đá Uruguay; sinh ngày 24/1/1987.",
-  "biography": "Luis Alberto Suárez là cầu thủ bóng đá người Uruguay. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Hiệp hội Bóng đá Uruguay thống kê Luis Suárez có 69 bàn cho đội tuyển quốc gia.",
-  "highlights": ["Sinh ngày 24/1/1987.", "Hiệp hội Bóng đá Uruguay thống kê Luis Suárez có 69 bàn cho đội tuyển quốc gia."],
+  "biography": "Luis Alberto Suárez là cầu thủ bóng đá người Uruguay. Hiệp hội Bóng đá Uruguay ghi nhận anh có 69 bàn trong 143 lần ra sân cho đội tuyển quốc gia. Cùng Barcelona, anh giành bốn chức vô địch La Liga và một UEFA Champions League.",
+  "highlights": ["Hiệp hội Bóng đá Uruguay ghi nhận Suárez có 69 bàn sau 143 lần ra sân cho đội tuyển quốc gia.", "Cùng Barcelona, Suárez giành bốn chức vô địch La Liga và một UEFA Champions League."],
   "wikidataId": "Q26517",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q26517",
@@ -4294,7 +4302,74 @@ export const PEOPLE_01: Person[] = [
     "https://auf.org.uy/luis-suarez/"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-08",
+  "lifeStatus": "unknown"
+}  ,
+{
+  "id": "dan-shechtman",
+  "slug": "dan-shechtman",
+  "name": "Dan Shechtman",
+  "birthDate": "1941-01-24",
+  "birthYear": 1941,
+  "birthMonth": 1,
+  "birthDay": 24,
+  "occupation": ["nhà khoa học vật liệu", "kỹ sư"],
+  "category": "scientist",
+  "categoryLabel": "Nhà khoa học",
+  "countryCode": "IL",
+  "countryName": "Israel",
+  "countryFlag": "🇮🇱",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Nhà khoa học vật liệu Israel; Nobel Hóa học 2011; sinh ngày 24/1/1941.",
+  "biography": "Dan Shechtman là nhà khoa học vật liệu và kỹ sư Israel. Năm 1982, ông phát hiện quasicrystal, một dạng cấu trúc tinh thể không tuần hoàn. Phát hiện này mang về cho ông Nobel Hóa học năm 2011; ông gia nhập khoa kỹ thuật vật liệu của Technion từ năm 1975.",
+  "highlights": ["Năm 2011, Dan Shechtman nhận Nobel Hóa học cho phát hiện quasicrystal.", "Shechtman gia nhập khoa Kỹ thuật Vật liệu của Technion năm 1975 và được phong giáo sư xuất sắc năm 1998."],
+  "wikidataId": "Q44111",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q44111",
+    "https://www.technion.ac.il/en/blog/2011/10/who-is-dan-shechtman/",
+    "https://www.nobelprize.org/prizes/chemistry/2011/shechtman/facts/",
+    "https://www.nist.gov/nist-and-nobel/dan-shechtman/person-behind-nobel-prize-dan-shechtman"
+  ],
+  "region": "asia",
+  "verifiedAt": "2026-10-08",
+  "birthplace": "Tel Aviv, Israel",
+  "fields": ["technology-engineering", "science-research"],
+  "lifeStatus": "unknown"
+}  ,
+{
+  "id": "michel-serrault",
+  "slug": "michel-serrault",
+  "name": "Michel Serrault",
+  "birthDate": "1928-01-24",
+  "birthYear": 1928,
+  "birthMonth": 1,
+  "birthDay": 24,
+  "occupation": ["diễn viên sân khấu và điện ảnh"],
+  "category": "actor",
+  "categoryLabel": "Diễn viên",
+  "countryCode": "FR",
+  "countryName": "Pháp",
+  "countryFlag": "🇫🇷",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Diễn viên Pháp; sinh ngày 24/1/1928, mất ngày 29/7/2007.",
+  "biography": "Michel Serrault là diễn viên sân khấu và điện ảnh người Pháp. Năm 1946, ông ký hợp đồng đầu tiên để tham gia chuyến lưu diễn ở Đức. Vai Zaza trong phim La Cage aux folles giúp ông giành giải César Nam diễn viên chính xuất sắc năm 1979.",
+  "highlights": ["Năm 1946, Serrault ký hợp đồng diễn xuất đầu tiên cho một chuyến lưu diễn ở Đức.", "Với vai Zaza trong La Cage aux folles, Serrault giành César Nam diễn viên chính xuất sắc năm 1979."],
+  "wikidataId": "Q318088",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q318088",
+    "https://catalogue.bnf.fr/ark:/12148/cb120578789",
+    "https://www.allocine.fr/personne/fichepersonne-320/biographie/",
+    "https://www.ina.fr/actualites-ina/la-folle-histoire-de-la-cage-aux-folles",
+    "https://www.academie-cinema.org/personnes/michel-serrault-178207/"
+  ],
+  "region": "west",
+  "verifiedAt": "2026-10-08",
+  "birthplace": "Brunoy, Pháp",
+  "fields": ["design-creative"],
+  "lifeStatus": "deceased",
+  "deathDate": "2007-07-29",
+  "deathDateSourceUrls": ["https://catalogue.bnf.fr/ark:/12148/cb120578789", "https://www.allocine.fr/personne/fichepersonne-320/biographie/"],
+  "deathDatePrecision": "day"
 }  ,
 {
   "id": "nguyen-huu-long",

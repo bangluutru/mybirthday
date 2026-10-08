@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "cycle": "BV-017",
-  "retrievedAt": "2026-10-08T19:31:55.792Z",
+  "retrievedAt": "2026-10-08T19:52:03.650Z",
   "endpoint": "Wikidata wbgetentities",
   "peopleCount": 1120,
   "summary": {
@@ -10,7 +10,7 @@
     "people": 1120,
     "death_date_conflict": 33,
     "p570_without_reference": 1,
-    "deathDatesDirectlyConfirmedByPublisherCapture": 320,
+    "deathDatesDirectlyConfirmedByPublisherCapture": 322,
     "deathDatesDirectlyConfirmedInB015B016": 36,
     "deathDatesDirectlyConfirmedInBaseline": 240,
     "preExistingDeathDateConflictsNotOverwritten": 30,
@@ -33,7 +33,8 @@
     "deathDatesDirectlyConfirmedInBV017January20": 2,
     "deathDatesDirectlyConfirmedInBV017January21": 2,
     "deathDatesDirectlyConfirmedInBV017January22": 5,
-    "deathDatesDirectlyConfirmedInBV017January23": 4
+    "deathDatesDirectlyConfirmedInBV017January23": 4,
+    "deathDatesDirectlyConfirmedInBV017January24": 2
   },
   "people": [
     {
@@ -7386,11 +7387,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "unknown",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -7484,11 +7485,14 @@
       "activeDeathDates": [
         "1786-08-17"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "1786-08-17",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://www.deutsche-biographie.de/sfz56983.html",
+        "https://www.spsg.de/blog/article/2017/08/17/kartoffeln-am-grab-zum-tod-friedrichs-des-grossen-in-sanssouci-am-17-august-1786?no_cache=1"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -7540,11 +7544,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "unknown",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
