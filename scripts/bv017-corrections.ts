@@ -16,6 +16,7 @@ import rawJanuary9Batch from '../.ai/evidence/BV017-january-9-batch.json';
 import rawJanuary10Batch from '../.ai/evidence/BV017-january-10-batch.json';
 import rawJanuary11Batch from '../.ai/evidence/BV017-january-11-batch.json';
 import rawJanuary12Batch from '../.ai/evidence/BV017-january-12-batch.json';
+import rawJanuary13Batch from '../.ai/evidence/BV017-january-13-batch.json';
 import rawReviewSample from '../.ai/evidence/BV017-review-sample.json';
 import rawDuplicateHighlightReview from '../.ai/evidence/BV017-duplicate-highlight-review.json';
 
@@ -182,7 +183,7 @@ const preDeathSourceUrlsById = new Map(recentEvidence.profiles.map((profile) => 
   ...(profile.supportingSources || []).map((source) => source.url),
 ]]));
 const BV017_CORRECTION_MANIFEST_SHA256 = '5836da6c67d0da18987d454e6c8aa790eae7e52067142c1d2c902536dd276c74';
-const BV017_BASELINE_PROJECTION_SHA256 = '86346fb70079fefc3d0630ebc8dbc925ffb2e544b1c8baa896f25cd964763ef4';
+const BV017_BASELINE_PROJECTION_SHA256 = '6b20680763555fec3bde011c4ef9af5901c761bb18279c9427db73c81a5ef518';
 const qualityManifest = rawQualityCorrections as unknown as {
   cycle: string;
   reviewMethod: string;
@@ -226,6 +227,8 @@ const january11Batch = rawJanuary11Batch as unknown as { legacyProfiles: readonl
 const january11LegacyById = new Map(january11Batch.legacyProfiles.map((profile) => [profile.id, profile]));
 const january12Batch = rawJanuary12Batch as unknown as { legacyProfiles: readonly { id: string; before: Record<string, unknown>; after: Record<string, unknown> }[] };
 const january12LegacyById = new Map(january12Batch.legacyProfiles.map((profile) => [profile.id, profile]));
+const january13Batch = rawJanuary13Batch as unknown as { legacyProfiles: readonly { id: string; before: Record<string, unknown>; after: Record<string, unknown> }[] };
+const january13LegacyById = new Map(january13Batch.legacyProfiles.map((profile) => [profile.id, profile]));
 const bv017ReviewSample = rawReviewSample as unknown as {
   schemaVersion: number;
   cycle: string;
@@ -278,6 +281,11 @@ function matchesRecordedValue(person: PersonLike, field: string, expected: unkno
 
 function projectPersonBeforeJanuary8(person: PersonLike): PersonLike {
   const result = { ...person } as Record<string, unknown>;
+  const january13Before = january13LegacyById.get(person.id)?.before;
+  for (const [field, value] of Object.entries(january13Before || {})) {
+    if (value === null) delete result[field];
+    else result[field] = cloneValue(value);
+  }
   const january12Before = january12LegacyById.get(person.id)?.before;
   for (const [field, value] of Object.entries(january12Before || {})) {
     if (value === null) delete result[field];
@@ -316,6 +324,7 @@ export function projectPersonBeforeBv017<T extends PersonLike>(person: T): T {
     return result as T;
   }
   const priorFieldSets = [
+    january13LegacyById.get(person.id)?.before,
     january12LegacyById.get(person.id)?.before,
     january11LegacyById.get(person.id)?.before,
     january10LegacyById.get(person.id)?.before,
@@ -353,7 +362,9 @@ export function sourceUrlsBeforeBv017(person: PersonLike): readonly string[] {
   const january9Before = january9LegacyById.get(person.id)?.before;
   const january10Before = january10LegacyById.get(person.id)?.before;
   const january11Before = january11LegacyById.get(person.id)?.before;
+  const january13Before = january13LegacyById.get(person.id)?.before;
   const january12Before = january12LegacyById.get(person.id)?.before;
+  if (january13Before && Array.isArray(january13Before.sourceUrls)) return january13Before.sourceUrls as string[];
   if (january12Before && Array.isArray(january12Before.sourceUrls)) return january12Before.sourceUrls as string[];
   if (january11Before && Array.isArray(january11Before.sourceUrls)) return january11Before.sourceUrls as string[];
   if (january10Before && Array.isArray(january10Before.sourceUrls)) return january10Before.sourceUrls as string[];
@@ -603,6 +614,7 @@ export function verifyBv017CorrectionManifest(
     assert('Rule AK baseline corrections', Boolean(person), 'Missing corrected baseline profile ' + correction.id);
     if (!person) continue;
     const qualityAfter = qualityCorrectionsById.get(correction.id)?.after;
+    const january13After = january13LegacyById.get(correction.id)?.after;
     const january12After = january12LegacyById.get(correction.id)?.after;
     const january11After = january11LegacyById.get(correction.id)?.after;
     const january10After = january10LegacyById.get(correction.id)?.after;
@@ -612,7 +624,9 @@ export function verifyBv017CorrectionManifest(
     const january6After = january6LegacyById.get(correction.id)?.after;
     const january5After = january5LegacyById.get(correction.id)?.after;
     for (const [field, expected] of Object.entries(correction.after)) {
-      const finalExpected = january12After && Object.prototype.hasOwnProperty.call(january12After, field)
+      const finalExpected = january13After && Object.prototype.hasOwnProperty.call(january13After, field)
+        ? january13After[field]
+        : january12After && Object.prototype.hasOwnProperty.call(january12After, field)
         ? january12After[field]
         : january11After && Object.prototype.hasOwnProperty.call(january11After, field)
         ? january11After[field]

@@ -1,0 +1,1458 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-13",
+  "capturedAt": "2026-10-08T15:47:01Z",
+  "sourceCaptures": [
+    {
+      "id": "wien-wuerzburg-dob-death",
+      "url": "https://www.uni-wuerzburg.de/uniarchiv/persoenlichkeiten/gelehrtentafeln/wilhelm-wien/",
+      "publisher": "University of Würzburg",
+      "publisherHost": "www.uni-wuerzburg.de",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 60531,
+      "sha256": "a862888330a5b07106610a1ccf52be94040c35975db454822d90c862bf3b7004",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "er Portrait Wilhelm Wien, Quelle: Universität Würzburg * 13. Januar 1864 in Gaffken † 30. August 1928 in München Als Nachfolger Wilhelm Conrad Röntgens und Friedrich Kohlrauschs nahm er 1900 den Ruf an den Lehrstuhl für Physik der Universität Würzburg an. Auf ihn geht das Wiensche Verschiebungsgesetz (1896) und das Wiensche Strahlungsgesetz zurück. Er leistete mit seinen Theorien über die ele",
+      "excerptSha256": "0898213e0901870748c0b0fbf8c96e6c312462fc1eb3150a10ecaa62d67e8c97"
+    },
+    {
+      "id": "wien-wuerzburg-displacement-law",
+      "url": "https://www.uni-wuerzburg.de/uniarchiv/persoenlichkeiten/gelehrtentafeln/wilhelm-wien/",
+      "publisher": "University of Würzburg",
+      "publisherHost": "www.uni-wuerzburg.de",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 60531,
+      "sha256": "a862888330a5b07106610a1ccf52be94040c35975db454822d90c862bf3b7004",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " den Lehrstuhl für Physik der Universität Würzburg an. Auf ihn geht das Wiensche Verschiebungsgesetz (1896) und das Wiensche Strahlungsgesetz zurück. Er leistete mit seinen Theorien über die elektromagnetische Natur aller physikalischen Prozesse wichtige Vorarbeit zu Einsteins spezieller Relativitätstheorie (Äquiv",
+      "excerptSha256": "c1f3e1a609c1cfb99ce8da316018c716712ebdffa3376bff1015b064b80efd65"
+    },
+    {
+      "id": "wien-mactutor-dob",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Wien/",
+      "publisher": "MacTutor History of Mathematics Archive",
+      "publisherHost": "mathshistory.st-andrews.ac.uk",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 47804,
+      "sha256": "9d4adc39e02add319dc2a57bfa0bf8c143c6467a65f3e960b6979b8104078fc1",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "h Wilhelm Carl Werner Otto Fritz Franz Wien Quick Info Born 13 January 1864 Gaffken, near Fischhausen, East Prussia (now Primorsk Kaliningrad Oblast Russia) Died 30 August 1928 Munich, Germany Summary Wilhelm Wien was a German physicist who won the Nobel prize for discovering the proton. View t",
+      "excerptSha256": "bff5bf2441c34ca55eb4e91aac1ca73fdc32187f5ff8cdd92c89df25e1fcaf19"
+    },
+    {
+      "id": "wien-nobel-1911",
+      "url": "https://www.nobelprize.org/prizes/physics/1911/summary/",
+      "publisher": "Nobel Prize Outreach",
+      "publisherHost": "www.nobelprize.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 162111,
+      "sha256": "909a6cb92ab8a4cc326a7a5c915c686d9265764c81f6d2b9b460d31e40bfa68c",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "obel Foundation archive. Wilhelm Wien Prize share: 1/1 The Nobel Prize in Physics 1911 was awarded to Wilhelm Wien \"for his discoveries regarding the laws governing the radiation of heat\" To cite this section MLA style: The Nobel Prize in Physics 1911. NobelPrize.org. Nobel Prize Outreach 2026. Thu. 8 Oct 2026. <h",
+      "excerptSha256": "cb2a13ae473a0848b1d3efd0000d3c871ad286060e3311209ad8bde1bbe76158"
+    },
+    {
+      "id": "brenner-nobel-cv-dob",
+      "url": "https://www.nobelprize.org/prizes/medicine/2002/brenner/cv/",
+      "publisher": "Nobel Prize Outreach",
+      "publisherHost": "www.nobelprize.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 169671,
+      "sha256": "6878e6e88c79c982e7f91d3a3d772940b487968b1c24b881d3d02e539dfc0972",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ard ceremony speech Award ceremony video Banquet video Sydney Brenner , born January 13, 1927, South Africa. Nationality: British Address: The Molecular Sciences Institute, 2168 Shattuck Avenue, 2nd Floor, Berkeley, CA 94704, USA Academic Education and Appointments 1947 MSc University of Witwatersrand, South Afric",
+      "excerptSha256": "6b0ce6aea82558a7b3dd02fd3a84dd0b485d5ff12a6f7467802b001ba4bb473d"
+    },
+    {
+      "id": "brenner-royal-dob-death",
+      "url": "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=NA3395&src=CalmView.Persons",
+      "publisher": "The Royal Society",
+      "publisherHost": "catalogues.royalsociety.org",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 22750,
+      "sha256": "a792c60521af0bdfee3d22b279e9486ccdf77852c67c18ff755bd152786161a2",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "onality British Place of birth Germiston, South Africa Date of birth 13 January 1927 Date of death 05 April 2019 Occupation Molecular Biologist Activity Career: Distinguished Research Professor, Salk Institute for Biological Studies Medals and prizes: Nobel Prize (Physiology or Medicine) 2002 Honours: CH 1987 Membership category Fell",
+      "excerptSha256": "18e037f580978015e8c0b863fba1e07a55cf5aa46f6aec3c4394a3349123546e"
+    },
+    {
+      "id": "brenner-salk-mrna",
+      "url": "https://www.salk.edu/news-release/salk-mourns-the-passing-of-nobel-laureate-and-salk-distinguished-professor-emeritus-sydney-brenner/",
+      "publisher": "Salk Institute",
+      "publisherHost": "www.salk.edu",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 200898,
+      "sha256": "6a4b76b937e9b4919fd386daf674cf6f5e9a273b987565c8c6d968c816023047",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "creation during translation. Around this time, he also co-discovered the existence of messenger RNA (mRNA), one of the molecular intermediates between DNA and proteins, and demonstrated that the nucleotide sequence of mRNA determines the order of amino acids in proteins. This work led to his first Lasker Award in Basic Medical Research; he later received a second Lasker Award in honor of his outstanding lifetime achievements. In 1976 Crick left Cambri",
+      "excerptSha256": "ff277bf3cd2e2c841dd935339e6692876b8380c305accfd2b932e3042a23f51f"
+    },
+    {
+      "id": "brenner-nobel-2002",
+      "url": "https://www.nobelprize.org/prizes/medicine/2002/summary/",
+      "publisher": "Nobel Prize Outreach",
+      "publisherHost": "www.nobelprize.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 167726,
+      "sha256": "16c2d19c009926691f421d2433c0b32b5d7d906797dc3c21230660782438096b",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "l Foundation archive. John E. Sulston Prize share: 1/3 The Nobel Prize in Physiology or Medicine 2002 was awarded jointly to Sydney Brenner, H. Robert Horvitz and John E. Sulston \"for their discoveries concerning genetic regulation of organ development and programmed cell death\" To cite this section MLA style: The Nobel Prize in Physiology or Medicine 2002. NobelPrize.org. Nobel Prize Outreach 2026. Thu. 8 Oct 2026. <https://www.no",
+      "excerptSha256": "219f36f006bea36cf0c32f9d330b420fa37b37618b4ad8ce9d28bcec1c708308"
+    },
+    {
+      "id": "patrick-biography-dob",
+      "url": "https://www.biography.com/actors/patrick-dempsey",
+      "publisher": "Biography.com",
+      "publisherHost": "www.biography.com",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 468108,
+      "sha256": "c3b4f99e4610c175b9edebcd27453c6baa146c9b3336356c262719f02ac4a5bf",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "s auto racing in his spare time. Early Life and Career Dempsey was born on January 13, 1966, in Lewiston, Maine. The youngest of three children, Dempsey dropped out of high school to tour as a juggler and magician. He eventually segued into theater, performing in several plays including the lead role in Brighton B",
+      "excerptSha256": "e8dd999050dd00de754c8c6ef4716ee841f1b1080f100ab33008ea42f286b177"
+    },
+    {
+      "id": "patrick-biography-grey",
+      "url": "https://www.biography.com/actors/patrick-dempsey",
+      "publisher": "Biography.com",
+      "publisherHost": "www.biography.com",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 468108,
+      "sha256": "c3b4f99e4610c175b9edebcd27453c6baa146c9b3336356c262719f02ac4a5bf",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "y Patrick Dempsey Patrick Dempsey is an American actor best known for his role as Dr. Derek Shepherd on the hit medical drama 'Grey's Anatomy.' Updated: Apr 14, 2021 12:32 PM EDT Share Article Photo: Arnold Jerocki/Getty Images (1966-) Who Is Patrick Dempsey? American actor Patrick Dempsey dropped out of high school to tour as a juggler and magician bef",
+      "excerptSha256": "6a81d06229ca43823107425ef374a18f414d5a73ffcc488e38f490f57997680c"
+    },
+    {
+      "id": "patrick-allocine-dob",
+      "url": "https://www.allocine.fr/personne/fichepersonne-21312/biographie/",
+      "publisher": "AlloCiné",
+      "publisherHost": "www.allocine.fr",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 298816,
+      "sha256": "982c17fd3959721fc0004b399cc0b172e2bb8ccd6e306782f41d3b13b9698fea",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " naissance Patrick Galen Dempsey Nationalité Américain Naissance 13 janvier 1966 (Lewiston, Maine, Etats-Unis) Age 60 ans Biographie Jongleur et magicien amateur, le jeune Patrick Dempsey trouve rapidement le chemin de la scène pour s'adonner à la comédie. Après s'être formé dans une troupe locale de son état nata",
+      "excerptSha256": "ea16146cb5a48844a6c071bff08ab1f160cb6742d4d7624c74a0840e6faa23bb"
+    },
+    {
+      "id": "patrick-center-founder",
+      "url": "https://www.dempseycenter.org/wp-content/uploads/2026/01/Intro-to-Dempsey-Center-1.pdf",
+      "publisher": "Dempsey Center",
+      "publisherHost": "www.dempseycenter.org",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytesRead": 10934920,
+      "sha256": "82c6857e5562fe02b9e72141b0ae73b79b99d6eefdcbe1827999f73ce9f78995",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "d : 5 / 3 / 2 0 2 4 J H LEARN ABOUT THE DEMPSEY CENTER The Dempsey Center was founded by actor and Maine native Patrick Dempsey and his family in 2008 in Lewiston, Maine. Patrick’s mother, Amanda Dempsey, was diagnosed with ovarian cancer in 1997. After standing alongside her with the rest of his family in her cancer journey until her passing in 2014, and inspired by Amanda’s passion for helping others, Patrick and his family created a space where those impacted by cance",
+      "excerptSha256": "cb1ab7e6d07a5803824008746733d38d1345ad80c41e2b846ffd4322eee6c52b"
+    },
+    {
+      "id": "zhou-ecnu-dob-death",
+      "url": "https://english.ecnu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1394&wbtreeid=1599",
+      "publisher": "East China Normal University",
+      "publisherHost": "english.ecnu.edu.cn",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytesRead": 44017,
+      "sha256": "5feb49a20b11b196fe28dd7427f6fbb1a870f53b03c87dee005850718be51122",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ntribution in internationalizing the Chinese language. Zhou Youguang (January 13, 1906-January 14, 2017) studied economics in his early years. He joined the Chinese Characters Reform Committee in 1955, engaging fully in language research. For all he had done, he is known as “ Father of Chinese Pinyin ”. At the age of 17, Zhou Youguang was admitted into St. John’s Universit",
+      "excerptSha256": "b3ba98a3e96c9751d233c2f24bfd216fdd55ce337f09d274af503f7c3a2d393f"
+    },
+    {
+      "id": "zhou-ecnu-committee",
+      "url": "https://english.ecnu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1394&wbtreeid=1599",
+      "publisher": "East China Normal University",
+      "publisherHost": "english.ecnu.edu.cn",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytesRead": 44017,
+      "sha256": "5feb49a20b11b196fe28dd7427f6fbb1a870f53b03c87dee005850718be51122",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "anuary 14, 2017) studied economics in his early years. He joined the Chinese Characters Reform Committee in 1955, engaging fully in language research. For all he had done, he is known as “ Father of Chinese Pinyin ”. At the age of 17, Zhou Youguang was admitted into St. John’s University in Shanghai. After that, h",
+      "excerptSha256": "1bea3307c37c77a64580f463bb8bc8098e68a539bed1515bc07888eefcc9a2d3"
+    },
+    {
+      "id": "zhou-ecnu-pinyin",
+      "url": "https://english.ecnu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1394&wbtreeid=1599",
+      "publisher": "East China Normal University",
+      "publisherHost": "english.ecnu.edu.cn",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytesRead": 44017,
+      "sha256": "5feb49a20b11b196fe28dd7427f6fbb1a870f53b03c87dee005850718be51122",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "aging fully in language research. For all he had done, he is known as “ Father of Chinese Pinyin ”. At the age of 17, Zhou Youguang was admitted into St. John’s University in Shanghai. After that, he came into contact with Latin and, out of interest, independently learned alphabetical writing systems, which laid a",
+      "excerptSha256": "34778b47bc74be2b5bae02e355b3ed37f34dbfb19d974e8b220b351cc85581ee"
+    },
+    {
+      "id": "zhou-irish-dob",
+      "url": "https://www.irishtimes.com/life-and-style/people/obituary-zhou-youguang-the-father-of-pinyin-1.2938707",
+      "publisher": "The Irish Times",
+      "publisherHost": "www.irishtimes.com",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 288478,
+      "sha256": "e30f07306a394a094fa6b410c74a5569b16497e46e66c5608bf77099737c830b",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "imperial dynasty, the Qing, which endured until 1912), Zhou was born in Changzhou, in eastern China, on January 13th, 1906. His name at birth was Zhou Yaoping; he adopted the pen name Zhou Youguang as an adult. In 1927, after studying at St John’s University in Shanghai, he graduated from Guanghua University there with a degree in economics. At the start of the second Sino-Japanese war, Zhou ",
+      "excerptSha256": "bd4b57469b382562b82edc76d8512fc697f25113b99d5abdc05157386f49e4c6"
+    },
+    {
+      "id": "bond-harper-dob",
+      "url": "https://harpercollins.co.uk/blogs/authors/michael-bond-604",
+      "publisher": "HarperCollins UK",
+      "publisherHost": "harpercollins.co.uk",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 478903,
+      "sha256": "15332c8fad6f165705dc5cfae4e5a5e9b0865e53ee6a428554074e89ef47390d",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Go All In Michael Bond Follow me: Who is Michael Bond? Michael Bond was born in Newbury, Berkshire on 13 January 1926 and educated at Presentation College, Reading. He served in the Royal Air Force and the British Army before working as a cameraman for BBC TV for 19 years. In 2015, Michael was awarded a CBE for his services to children’s literature, to add to the OBE he re",
+      "excerptSha256": "23e9a3b739db2bb61d79799643f146c6f7238ea74167fffab261e3c845c6a0fb"
+    },
+    {
+      "id": "bond-guardian-dob-death",
+      "url": "https://www.theguardian.com/books/2017/jun/28/michael-bond-obituary",
+      "publisher": "The Guardian",
+      "publisherHost": "www.theguardian.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 331908,
+      "sha256": "39217563ffda035df6cb800b00122a6f56e091bed0677b80863102c35a6ace26",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "a, Karen; his son, Anthony, and by four grandchildren. Michael Bond, author, born 13 January 1926; died 27 June 2017 Explore more on these topics Michael Bond Paddington Television obituaries Share Reuse this content Comments ( … ) Sign in or create your Guardian account to join the discussion Most viewed Most viewed Books Music TV & radio Art & design ",
+      "excerptSha256": "7d90c65c00bf83c406cc11edf0223790a476265d5c004a225d5ba7eb39899c24"
+    },
+    {
+      "id": "bond-guardian-books",
+      "url": "https://www.theguardian.com/books/2017/jun/28/michael-bond-obituary",
+      "publisher": "The Guardian",
+      "publisherHost": "www.theguardian.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 331908,
+      "sha256": "39217563ffda035df6cb800b00122a6f56e091bed0677b80863102c35a6ace26",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "n memoirs, Bears and Forbears, definitely not sexless. In all he wrote more than 150 books and was appointed OBE in 1997 and CBE in 2015 for services to literature. Yet he was reconciled to Paddington being his permanent achievement, with such cracking lines as “ ‘Bears is sixpence extra,’ the taxi driver said gruffly. ‘Sticky bears is ninepence.’” (Of ",
+      "excerptSha256": "d0aa5bd17354699b48f44b79670b11ca513f3546620d684a9cf5dc3159660e5b"
+    },
+    {
+      "id": "bond-smithsonian-paddington",
+      "url": "https://www.smithsonianmag.com/smithsonian-institution/paddington-bear-turns-sixty-180970439/",
+      "publisher": "Smithsonian Libraries",
+      "publisherHost": "www.smithsonianmag.com",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 72780,
+      "sha256": "0fa9b88b85c33830da103fcfdd9da6b6345dd5c72ec86daf1f7ff547a6313cfa",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " Reddit LinkedIn Bluesky Print Add as preferred source The first volume of the delightful children's series by author Michael Bond appeared on October 13, 1958. Matt Alexander, Associated Press The plot of the much-loved 2017 film, Paddington 2 , revolves around a one-of-a-kind, pop-up book. The volume is for sale in the Notting Hill antique store of the Hungarian refugee Mr. Gruber. After opening the ",
+      "excerptSha256": "bb42f7e3486bb38e1f2cfdcc1fe7ca4306cfa6df6990eef51d7624ea8328fa39"
+    },
+    {
+      "id": "wikidata-Q57068",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q57068.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 171398,
+      "sha256": "6a48fde775e7cd37dac5ee72fb136c52240a911cded8f7b3bef6507f450dcf0b",
+      "verificationMethod": "direct-http-json+parsed-claims-review",
+      "excerpt": "{\"id\":\"Q57068\",\"label\":\"Wilhelm Wien\",\"P31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":1}],\"P569\":[{\"rank\":\"normal\",\"value\":\"+1864-01-13T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":8}],\"P570\":[{\"rank\":\"normal\",\"value\":\"+1928-08-30T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":8}],\"P27\":[{\"rank\":\"normal\",\"value\":\"Q183\",\"references\":1}],\"P106\":[{\"rank\":\"normal\",\"value\":\"Q169470\",\"references\":3},{\"rank\":\"normal\",\"value\":\"Q1622272\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q19350898\",\"references\":0}]}",
+      "excerptSha256": "7ba3909752dbd490a08ffa3929672b287301fbe3a397746c8e0b26ca84e00e59"
+    },
+    {
+      "id": "wikidata-Q234463",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q234463.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 163906,
+      "sha256": "c5e222c0d7ba5ef65213b392a9f97600f1387486b87c8eab502051cb31c74b5a",
+      "verificationMethod": "direct-http-json+parsed-claims-review",
+      "excerpt": "{\"id\":\"Q234463\",\"label\":\"Sydney Brenner\",\"P31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":1}],\"P569\":[{\"rank\":\"normal\",\"value\":\"+1927-01-13T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":6}],\"P570\":[{\"rank\":\"normal\",\"value\":\"+2019-04-05T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":4}],\"P27\":[{\"rank\":\"normal\",\"value\":\"Q258\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q145\",\"references\":1}],\"P106\":[{\"rank\":\"normal\",\"value\":\"Q864835\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q3126128\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q1622272\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q864503\",\"references\":2}]}",
+      "excerptSha256": "319978ced066f6920cc27dd8ac3117a1313f04d240b443789ca23213f053e61c"
+    },
+    {
+      "id": "wikidata-Q212518",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q212518.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 113776,
+      "sha256": "bf24210632572bc38cdf2208bf6561d2f00d5fd611ca4d54391a89dafac16f93",
+      "verificationMethod": "direct-http-json+parsed-claims-review",
+      "excerpt": "{\"id\":\"Q212518\",\"label\":\"Patrick Dempsey\",\"P31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":2}],\"P569\":[{\"rank\":\"normal\",\"value\":\"+1966-01-13T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":2}],\"P570\":[],\"P27\":[{\"rank\":\"normal\",\"value\":\"Q30\",\"references\":1}],\"P106\":[{\"rank\":\"normal\",\"value\":\"Q33999\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q10798782\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q3282637\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q2526255\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q2405480\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q17307272\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q10349745\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q2259451\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q10800557\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q28389\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q4610556\",\"references\":1}]}",
+      "excerptSha256": "29dc3ee23b178562f901490fe669695abe6909eceb9bd4f008ac18d1c7c54ecc"
+    },
+    {
+      "id": "wikidata-Q591407",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q591407.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 64226,
+      "sha256": "b0c4fb53dca2b928be164d06db9e8e05af6f8e34d5f572cf9d03395658829f46",
+      "verificationMethod": "direct-http-json+parsed-claims-review",
+      "excerpt": "{\"id\":\"Q591407\",\"label\":\"Zhou Youguang\",\"P31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":1}],\"P569\":[{\"rank\":\"normal\",\"value\":\"+1906-01-13T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":2}],\"P570\":[{\"rank\":\"normal\",\"value\":\"+2017-01-14T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":2}],\"P27\":[{\"rank\":\"normal\",\"value\":\"Q148\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q13426199\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q8733\",\"references\":0}],\"P106\":[{\"rank\":\"normal\",\"value\":\"Q14467526\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q806798\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q188094\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q1622272\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q860918\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q333634\",\"references\":0}]}",
+      "excerptSha256": "db190d65e805915e190cd03017776546ff013e93d820c53ca3c27ee21804e94f"
+    },
+    {
+      "id": "wikidata-Q122127",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q122127.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 122574,
+      "sha256": "b2e621e60938bcbc952c2e15ae3121a294aaf7cd2c9dad11b457ba33623cc1ab",
+      "verificationMethod": "direct-http-json+parsed-claims-review",
+      "excerpt": "{\"id\":\"Q122127\",\"label\":\"Michael Bond\",\"P31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":2}],\"P569\":[{\"rank\":\"normal\",\"value\":\"+1926-01-13T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":7}],\"P570\":[{\"rank\":\"normal\",\"value\":\"+2017-06-27T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":6}],\"P27\":[{\"rank\":\"normal\",\"value\":\"Q145\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q174193\",\"references\":0}],\"P106\":[{\"rank\":\"normal\",\"value\":\"Q36180\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q4853732\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q28389\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q18814623\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q1208175\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q222344\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q4479442\",\"references\":0}]}",
+      "excerptSha256": "80b9d31f988cdeaf005ab4aca9be533a120349df381062ccba9bc89d052fd623"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "wilhelm-wien",
+      "name": "Wilhelm Wien",
+      "wikidataId": "Q57068",
+      "birthDate": "1864-01-13",
+      "lifeStatus": "deceased",
+      "deathDate": "1928-08-30",
+      "deathDatePrecision": "day",
+      "dobSourceIds": [
+        "wien-wuerzburg-dob-death",
+        "wien-mactutor-dob"
+      ],
+      "statusSourceId": "wien-wuerzburg-dob-death",
+      "deathDateSourceIds": [
+        "wien-wuerzburg-dob-death"
+      ],
+      "careerFactIds": [
+        "wien-nobel-1911-fact",
+        "wien-displacement-law-fact"
+      ],
+      "countryCode": "DE",
+      "category": "scientist",
+      "occupation": [
+        "nhà vật lý"
+      ],
+      "fields": [
+        "science-research"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "science-research",
+          "careerFactIds": [
+            "wien-nobel-1911-fact",
+            "wien-displacement-law-fact"
+          ],
+          "rationale": "Nobel về bức xạ nhiệt và định luật dịch chuyển Wien là các đóng góp vật lý nghiên cứu được nguồn chính thức và lịch sử khoa học ghi nhận."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-Q57068",
+      "identityClaims": {
+        "label": "Wilhelm Wien",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1864-01-13T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 8
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1928-08-30T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 8
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q183"
+          }
+        ],
+        "selectedCountryQid": "Q183",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q169470"
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272"
+          },
+          {
+            "rank": "normal",
+            "value": "Q19350898"
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q169470"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q57068",
+        "https://www.uni-wuerzburg.de/uniarchiv/persoenlichkeiten/gelehrtentafeln/wilhelm-wien/",
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Wien/",
+        "https://www.nobelprize.org/prizes/physics/1911/summary/"
+      ],
+      "before": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q57068",
+          "https://www.uni-wuerzburg.de/uniarchiv/persoenlichkeiten/gelehrtentafeln/wilhelm-wien/",
+          "https://mathshistory.st-andrews.ac.uk/Biographies/Wien/"
+        ],
+        "biography": "Wilhelm Wien sinh ngày 13/1/1864. Ông là nhà vật lý người Đức và được trao Nobel Vật lý năm 1911 nhờ các nghiên cứu về bức xạ nhiệt.",
+        "highlights": [
+          "Nhận Nobel Vật lý năm 1911.",
+          "Được ghi nhận với định luật dịch chuyển Wien về bức xạ vật đen."
+        ],
+        "fields": null,
+        "deathDate": null,
+        "lifeStatus": null,
+        "deathDateSourceUrls": null,
+        "deathDatePrecision": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q57068",
+          "https://www.uni-wuerzburg.de/uniarchiv/persoenlichkeiten/gelehrtentafeln/wilhelm-wien/",
+          "https://mathshistory.st-andrews.ac.uk/Biographies/Wien/",
+          "https://www.nobelprize.org/prizes/physics/1911/summary/"
+        ],
+        "biography": "Wilhelm Wien là nhà vật lý người Đức, sinh tại Gaffken năm 1864. Năm 1911, ông nhận Nobel Vật lý nhờ các khám phá về những định luật chi phối bức xạ nhiệt; ông cũng đưa ra định luật dịch chuyển Wien năm 1896.",
+        "highlights": [
+          "Wilhelm Wien nhận Nobel Vật lý năm 1911 nhờ những khám phá về các định luật chi phối bức xạ nhiệt.",
+          "Đại học Würzburg ghi nhận định luật dịch chuyển Wien của ông được công bố năm 1896."
+        ],
+        "fields": [
+          "science-research"
+        ],
+        "deathDate": "1928-08-30",
+        "lifeStatus": "deceased",
+        "deathDateSourceUrls": [
+          "https://www.uni-wuerzburg.de/uniarchiv/persoenlichkeiten/gelehrtentafeln/wilhelm-wien/"
+        ],
+        "deathDatePrecision": "day",
+        "verifiedAt": "2026-10-08"
+      }
+    },
+    {
+      "id": "sydney-brenner",
+      "name": "Sydney Brenner",
+      "wikidataId": "Q234463",
+      "birthDate": "1927-01-13",
+      "lifeStatus": "deceased",
+      "deathDate": "2019-04-05",
+      "deathDatePrecision": "day",
+      "dobSourceIds": [
+        "brenner-nobel-cv-dob",
+        "brenner-royal-dob-death"
+      ],
+      "statusSourceId": "brenner-royal-dob-death",
+      "deathDateSourceIds": [
+        "brenner-royal-dob-death"
+      ],
+      "careerFactIds": [
+        "brenner-nobel-2002-fact",
+        "brenner-mrna-fact"
+      ],
+      "countryCode": "ZA",
+      "category": "scientist",
+      "occupation": [
+        "nhà sinh học phân tử"
+      ],
+      "fields": [
+        "science-research"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "science-research",
+          "careerFactIds": [
+            "brenner-nobel-2002-fact",
+            "brenner-mrna-fact"
+          ],
+          "rationale": "Các nguồn khoa học ghi nhận nghiên cứu về mã di truyền, điều hòa phát triển và đồng phát hiện RNA thông tin."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-Q234463",
+      "identityClaims": {
+        "label": "Sydney Brenner",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1927-01-13T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 6
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2019-04-05T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 4
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q258"
+          },
+          {
+            "rank": "normal",
+            "value": "Q145"
+          }
+        ],
+        "selectedCountryQid": "Q258",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q864835"
+          },
+          {
+            "rank": "normal",
+            "value": "Q3126128"
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272"
+          },
+          {
+            "rank": "normal",
+            "value": "Q864503"
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q3126128"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q234463",
+        "https://www.nobelprize.org/prizes/medicine/2002/brenner/cv/",
+        "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=NA3395&src=CalmView.Persons",
+        "https://www.salk.edu/news-release/salk-mourns-the-passing-of-nobel-laureate-and-salk-distinguished-professor-emeritus-sydney-brenner/",
+        "https://www.nobelprize.org/prizes/medicine/2002/summary/",
+        "https://www.asianscientist.com/2019/04/topnews/sydney-brenner-nobel-laureate-dies-92-c-elegans-obituary/"
+      ],
+      "before": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q234463",
+          "https://www.nobelprize.org/prizes/medicine/2002/brenner/cv/",
+          "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=NA3395&src=CalmView.Persons",
+          "https://www.asianscientist.com/2019/04/topnews/sydney-brenner-nobel-laureate-dies-92-c-elegans-obituary/"
+        ],
+        "biography": "Sydney Brenner sinh ngày 13/1/1927 tại Germiston, Nam Phi. Ông là nhà sinh học phân tử và đồng nhận Nobel năm 2002.",
+        "highlights": [
+          "Đồng nhận Nobel Sinh lý học hoặc Y học năm 2002.",
+          "Nghiên cứu về cơ chế di truyền điều hòa phát triển cơ quan."
+        ],
+        "fields": null,
+        "deathDate": "2019-04-05",
+        "lifeStatus": "deceased",
+        "deathDateSourceUrls": [
+          "https://www.asianscientist.com/2019/04/topnews/sydney-brenner-nobel-laureate-dies-92-c-elegans-obituary/"
+        ],
+        "deathDatePrecision": "day",
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q234463",
+          "https://www.nobelprize.org/prizes/medicine/2002/brenner/cv/",
+          "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=NA3395&src=CalmView.Persons",
+          "https://www.salk.edu/news-release/salk-mourns-the-passing-of-nobel-laureate-and-salk-distinguished-professor-emeritus-sydney-brenner/",
+          "https://www.nobelprize.org/prizes/medicine/2002/summary/",
+          "https://www.asianscientist.com/2019/04/topnews/sydney-brenner-nobel-laureate-dies-92-c-elegans-obituary/"
+        ],
+        "biography": "Sydney Brenner sinh ngày 13/1/1927 tại Germiston, Nam Phi. Ông là nhà sinh học phân tử, đồng nhận Nobel Sinh lý học hoặc Y học năm 2002 và đồng phát hiện RNA thông tin.",
+        "highlights": [
+          "Sydney Brenner cùng H. Robert Horvitz và John E. Sulston nhận Nobel năm 2002 cho các khám phá về điều hòa di truyền trong phát triển cơ quan và chết tế bào theo chương trình.",
+          "Brenner đồng phát hiện RNA thông tin (mRNA) và cho thấy trình tự nucleotide của mRNA quyết định thứ tự amino acid trong protein."
+        ],
+        "fields": [
+          "science-research"
+        ],
+        "deathDate": "2019-04-05",
+        "lifeStatus": "deceased",
+        "deathDateSourceUrls": [
+          "https://www.asianscientist.com/2019/04/topnews/sydney-brenner-nobel-laureate-dies-92-c-elegans-obituary/",
+          "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=NA3395&src=CalmView.Persons"
+        ],
+        "deathDatePrecision": "day",
+        "verifiedAt": "2026-10-08"
+      }
+    },
+    {
+      "id": "patrick-dempsey",
+      "name": "Patrick Dempsey",
+      "wikidataId": "Q212518",
+      "birthDate": "1966-01-13",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "patrick-biography-dob",
+        "patrick-allocine-dob"
+      ],
+      "careerFactIds": [
+        "patrick-greys-anatomy-fact",
+        "patrick-dempsey-center-fact"
+      ],
+      "countryCode": "US",
+      "category": "actor",
+      "occupation": [
+        "diễn viên"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "patrick-greys-anatomy-fact",
+            "patrick-dempsey-center-fact"
+          ],
+          "rationale": "Hai facts ghi nhận vai diễn truyền hình nổi bật và việc sáng lập tổ chức hỗ trợ cộng đồng của ông."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-Q212518",
+      "identityClaims": {
+        "label": "Patrick Dempsey",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1966-01-13T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 2
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30"
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q33999"
+          },
+          {
+            "rank": "normal",
+            "value": "Q10798782"
+          },
+          {
+            "rank": "normal",
+            "value": "Q3282637"
+          },
+          {
+            "rank": "normal",
+            "value": "Q2526255"
+          },
+          {
+            "rank": "normal",
+            "value": "Q2405480"
+          },
+          {
+            "rank": "normal",
+            "value": "Q17307272"
+          },
+          {
+            "rank": "normal",
+            "value": "Q10349745"
+          },
+          {
+            "rank": "normal",
+            "value": "Q2259451"
+          },
+          {
+            "rank": "normal",
+            "value": "Q10800557"
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389"
+          },
+          {
+            "rank": "normal",
+            "value": "Q4610556"
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q33999"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q212518",
+        "https://www.biography.com/actors/patrick-dempsey",
+        "https://www.allocine.fr/personne/fichepersonne-21312/biographie/",
+        "https://www.dempseycenter.org/wp-content/uploads/2026/01/Intro-to-Dempsey-Center-1.pdf"
+      ],
+      "before": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q212518",
+          "https://www.biography.com/actors/patrick-dempsey",
+          "https://www.allocine.fr/personne/fichepersonne-21312/biographie/",
+          "https://www.patrickdempsey.com/timeline/"
+        ],
+        "biography": "Patrick Dempsey sinh ngày 13/1/1966 tại Lewiston, Maine. Ông là diễn viên và nhà sáng lập Dempsey Center, tổ chức hỗ trợ người bị ảnh hưởng bởi ung thư.",
+        "highlights": [
+          "Đóng vai bác sĩ Derek Shepherd trong Grey’s Anatomy.",
+          "Thành lập Dempsey Center năm 2008."
+        ],
+        "fields": null,
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDateSourceUrls": null,
+        "deathDatePrecision": null,
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q212518",
+          "https://www.biography.com/actors/patrick-dempsey",
+          "https://www.allocine.fr/personne/fichepersonne-21312/biographie/",
+          "https://www.dempseycenter.org/wp-content/uploads/2026/01/Intro-to-Dempsey-Center-1.pdf"
+        ],
+        "biography": "Patrick Dempsey sinh ngày 13/1/1966 tại Lewiston, Maine. Ông là diễn viên, được biết đến với vai bác sĩ Derek Shepherd trong Grey’s Anatomy; ông cùng gia đình thành lập Dempsey Center năm 2008.",
+        "highlights": [
+          "Patrick Dempsey thủ vai bác sĩ Derek Shepherd trong bộ phim truyền hình Grey’s Anatomy.",
+          "Patrick Dempsey cùng gia đình thành lập Dempsey Center tại Lewiston, Maine, vào năm 2008."
+        ],
+        "fields": [
+          "design-creative"
+        ],
+        "lifeStatus": "unknown",
+        "verifiedAt": "2026-10-08",
+        "deathDate": null,
+        "deathDateSourceUrls": null,
+        "deathDatePrecision": null
+      }
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "zhou-youguang",
+      "name": "Zhou Youguang",
+      "wikidataId": "Q591407",
+      "birthDate": "1906-01-13",
+      "lifeStatus": "deceased",
+      "deathDate": "2017-01-14",
+      "deathDatePrecision": "day",
+      "dobSourceIds": [
+        "zhou-ecnu-dob-death",
+        "zhou-irish-dob"
+      ],
+      "statusSourceId": "zhou-ecnu-dob-death",
+      "deathDateSourceIds": [
+        "zhou-ecnu-dob-death"
+      ],
+      "careerFactIds": [
+        "zhou-committee-fact",
+        "zhou-pinyin-fact"
+      ],
+      "countryCode": "CN",
+      "category": "scientist",
+      "occupation": [
+        "nhà ngôn ngữ học"
+      ],
+      "birthplace": "Thường Châu, Trung Quốc",
+      "wikidataLabel": "Zhou Youguang",
+      "birthplaceEvidencePhrase": "born in Changzhou",
+      "fields": [
+        "education-thought"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "education-thought",
+          "careerFactIds": [
+            "zhou-committee-fact",
+            "zhou-pinyin-fact"
+          ],
+          "rationale": "Ông tham gia cải cách chữ viết và đóng góp cho Hanyu Pinyin, một dự án ngôn ngữ và giáo dục có ảnh hưởng rộng."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-Q591407",
+      "identityClaims": {
+        "label": "Zhou Youguang",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1906-01-13T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 2
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2017-01-14T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 2
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q148"
+          },
+          {
+            "rank": "normal",
+            "value": "Q13426199"
+          },
+          {
+            "rank": "normal",
+            "value": "Q8733"
+          }
+        ],
+        "selectedCountryQid": "Q148",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q14467526"
+          },
+          {
+            "rank": "normal",
+            "value": "Q806798"
+          },
+          {
+            "rank": "normal",
+            "value": "Q188094"
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272"
+          },
+          {
+            "rank": "normal",
+            "value": "Q860918"
+          },
+          {
+            "rank": "normal",
+            "value": "Q333634"
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q14467526"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q591407",
+        "https://english.ecnu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1394&wbtreeid=1599",
+        "https://www.irishtimes.com/life-and-style/people/obituary-zhou-youguang-the-father-of-pinyin-1.2938707"
+      ]
+    },
+    {
+      "id": "michael-bond",
+      "name": "Michael Bond",
+      "wikidataId": "Q122127",
+      "birthDate": "1926-01-13",
+      "lifeStatus": "deceased",
+      "deathDate": "2017-06-27",
+      "deathDatePrecision": "day",
+      "dobSourceIds": [
+        "bond-harper-dob",
+        "bond-guardian-dob-death"
+      ],
+      "statusSourceId": "bond-guardian-dob-death",
+      "deathDateSourceIds": [
+        "bond-guardian-dob-death"
+      ],
+      "careerFactIds": [
+        "bond-paddington-1958-fact",
+        "bond-books-150-fact"
+      ],
+      "countryCode": "GB",
+      "category": "literature",
+      "occupation": [
+        "nhà văn"
+      ],
+      "birthplace": "Newbury, Berkshire, Anh",
+      "wikidataLabel": "Michael Bond",
+      "birthplaceEvidencePhrase": "Newbury, Berkshire",
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "bond-paddington-1958-fact",
+            "bond-books-150-fact"
+          ],
+          "rationale": "Các nguồn ghi nhận loạt sách Paddington và sản lượng sáng tác của ông trong văn học thiếu nhi."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-Q122127",
+      "identityClaims": {
+        "label": "Michael Bond",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1926-01-13T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 7
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2017-06-27T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 6
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q145"
+          },
+          {
+            "rank": "normal",
+            "value": "Q174193"
+          }
+        ],
+        "selectedCountryQid": "Q145",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q36180"
+          },
+          {
+            "rank": "normal",
+            "value": "Q4853732"
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389"
+          },
+          {
+            "rank": "normal",
+            "value": "Q18814623"
+          },
+          {
+            "rank": "normal",
+            "value": "Q1208175"
+          },
+          {
+            "rank": "normal",
+            "value": "Q222344"
+          },
+          {
+            "rank": "normal",
+            "value": "Q4479442"
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q36180"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q122127",
+        "https://harpercollins.co.uk/blogs/authors/michael-bond-604",
+        "https://www.theguardian.com/books/2017/jun/28/michael-bond-obituary",
+        "https://www.smithsonianmag.com/smithsonian-institution/paddington-bear-turns-sixty-180970439/"
+      ]
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "wien-nobel-1911-fact",
+      "profileId": "wilhelm-wien",
+      "displayText": "Wilhelm Wien nhận Nobel Vật lý năm 1911 nhờ những khám phá về các định luật chi phối bức xạ nhiệt.",
+      "sourceId": "wien-nobel-1911",
+      "evidencePhrase": "The Nobel Prize in Physics 1911 was awarded to Wilhelm Wien"
+    },
+    {
+      "id": "wien-displacement-law-fact",
+      "profileId": "wilhelm-wien",
+      "displayText": "Đại học Würzburg ghi nhận định luật dịch chuyển Wien của ông được công bố năm 1896.",
+      "sourceId": "wien-wuerzburg-displacement-law",
+      "evidencePhrase": "Wiensche Verschiebungsgesetz (1896)"
+    },
+    {
+      "id": "brenner-nobel-2002-fact",
+      "profileId": "sydney-brenner",
+      "displayText": "Sydney Brenner cùng H. Robert Horvitz và John E. Sulston nhận Nobel năm 2002 cho các khám phá về điều hòa di truyền trong phát triển cơ quan và chết tế bào theo chương trình.",
+      "sourceId": "brenner-nobel-2002",
+      "evidencePhrase": "The Nobel Prize in Physiology or Medicine 2002 was awarded jointly to Sydney Brenner"
+    },
+    {
+      "id": "brenner-mrna-fact",
+      "profileId": "sydney-brenner",
+      "displayText": "Brenner đồng phát hiện RNA thông tin (mRNA) và cho thấy trình tự nucleotide của mRNA quyết định thứ tự amino acid trong protein.",
+      "sourceId": "brenner-salk-mrna",
+      "evidencePhrase": "co-discovered the existence of messenger RNA (mRNA)"
+    },
+    {
+      "id": "patrick-greys-anatomy-fact",
+      "profileId": "patrick-dempsey",
+      "displayText": "Patrick Dempsey thủ vai bác sĩ Derek Shepherd trong bộ phim truyền hình Grey’s Anatomy.",
+      "sourceId": "patrick-biography-grey",
+      "evidencePhrase": "best known for his role as Dr. Derek Shepherd on the hit medical drama"
+    },
+    {
+      "id": "patrick-dempsey-center-fact",
+      "profileId": "patrick-dempsey",
+      "displayText": "Patrick Dempsey cùng gia đình thành lập Dempsey Center tại Lewiston, Maine, vào năm 2008.",
+      "sourceId": "patrick-center-founder",
+      "evidencePhrase": "The Dempsey Center was founded by actor and Maine native Patrick Dempsey and his family in 2008"
+    },
+    {
+      "id": "zhou-committee-fact",
+      "profileId": "zhou-youguang",
+      "displayText": "Zhou Youguang tham gia Ủy ban Cải cách chữ Hán của Trung Quốc năm 1955.",
+      "sourceId": "zhou-ecnu-committee",
+      "evidencePhrase": "He joined the Chinese Characters Reform Committee in 1955"
+    },
+    {
+      "id": "zhou-pinyin-fact",
+      "profileId": "zhou-youguang",
+      "displayText": "Ông được East China Normal University giới thiệu với danh xưng “Cha đẻ của Hanyu Pinyin”.",
+      "sourceId": "zhou-ecnu-pinyin",
+      "evidencePhrase": "Father of Chinese Pinyin"
+    },
+    {
+      "id": "bond-paddington-1958-fact",
+      "profileId": "michael-bond",
+      "displayText": "Tập đầu tiên, A Bear Called Paddington, ra mắt ngày 13/10/1958.",
+      "sourceId": "bond-smithsonian-paddington",
+      "evidencePhrase": "The first volume of the delightful children's series by author Michael Bond appeared on October 13, 1958"
+    },
+    {
+      "id": "bond-books-150-fact",
+      "profileId": "michael-bond",
+      "displayText": "Michael Bond viết hơn 150 cuốn sách và được trao OBE năm 1997, CBE năm 2015.",
+      "sourceId": "bond-guardian-books",
+      "evidencePhrase": "In all he wrote more than 150 books"
+    }
+  ],
+  "wikidataReview": {
+    "profiles": {
+      "Q57068": {
+        "label": "Wilhelm Wien",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1864-01-13T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 8
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1928-08-30T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 8
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q183",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q169470",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q19350898",
+            "references": 0
+          }
+        ]
+      },
+      "Q234463": {
+        "label": "Sydney Brenner",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1927-01-13T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 6
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2019-04-05T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 4
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q258",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q145",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q864835",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3126128",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q864503",
+            "references": 2
+          }
+        ]
+      },
+      "Q212518": {
+        "label": "Patrick Dempsey",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1966-01-13T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 2
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q33999",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q10798782",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3282637",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q2526255",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q2405480",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q17307272",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q10349745",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2259451",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q10800557",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q4610556",
+            "references": 1
+          }
+        ]
+      },
+      "Q591407": {
+        "label": "Zhou Youguang",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1906-01-13T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 2
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2017-01-14T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 2
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q148",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q13426199",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q8733",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q14467526",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q806798",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q188094",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q860918",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q333634",
+            "references": 0
+          }
+        ]
+      },
+      "Q122127": {
+        "label": "Michael Bond",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1926-01-13T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 7
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2017-06-27T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 6
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q145",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q174193",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q4853732",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q18814623",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1208175",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q222344",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q4479442",
+            "references": 0
+          }
+        ]
+      }
+    },
+    "conflicts": []
+  }
+}

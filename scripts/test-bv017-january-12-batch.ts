@@ -101,6 +101,7 @@ function hasExactDobExcerpt(capture: Capture, birthDate: string): boolean {
     `${Number(day)} ${monthName}, ${year}`,
     `${Number(day)}${ordinal} ${monthName} ${year}`,
     `${monthName} ${Number(day)}, ${year}`,
+    `${monthName} ${Number(day)}${ordinal}, ${year}`,
     `${abbreviatedMonth} ${Number(day)}, ${year}`,
     `${abbreviatedMonth.replace('.', '')} ${Number(day)}, ${year}`,
     `${monthName} ${day}, ${year}`,

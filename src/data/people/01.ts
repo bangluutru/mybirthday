@@ -2380,20 +2380,26 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇩🇪",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà vật lý người Đức, nhận Nobel Vật lý năm 1911.",
-  "biography": "Wilhelm Wien sinh ngày 13/1/1864. Ông là nhà vật lý người Đức và được trao Nobel Vật lý năm 1911 nhờ các nghiên cứu về bức xạ nhiệt.",
+  "biography": "Wilhelm Wien là nhà vật lý người Đức, sinh tại Gaffken năm 1864. Năm 1911, ông nhận Nobel Vật lý nhờ các khám phá về những định luật chi phối bức xạ nhiệt; ông cũng đưa ra định luật dịch chuyển Wien năm 1896.",
   "highlights": [
-    "Nhận Nobel Vật lý năm 1911.",
-    "Được ghi nhận với định luật dịch chuyển Wien về bức xạ vật đen."
+    "Wilhelm Wien nhận Nobel Vật lý năm 1911 nhờ những khám phá về các định luật chi phối bức xạ nhiệt.",
+    "Đại học Würzburg ghi nhận định luật dịch chuyển Wien của ông được công bố năm 1896."
   ],
   "wikidataId": "Q57068",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Wilhelm_Wien",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q57068",
     "https://www.uni-wuerzburg.de/uniarchiv/persoenlichkeiten/gelehrtentafeln/wilhelm-wien/",
-    "https://mathshistory.st-andrews.ac.uk/Biographies/Wien/"
+    "https://mathshistory.st-andrews.ac.uk/Biographies/Wien/",
+    "https://www.nobelprize.org/prizes/physics/1911/summary/"
   ],
+  "fields": ["science-research"],
   "region": "west",
-  "verifiedAt": "2026-10-03"
+  "deathDate": "1928-08-30",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": ["https://www.uni-wuerzburg.de/uniarchiv/persoenlichkeiten/gelehrtentafeln/wilhelm-wien/"],
+  "deathDatePrecision": "day",
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "sydney-brenner",
@@ -2413,10 +2419,10 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇿🇦",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà sinh học phân tử, đồng nhận Nobel Sinh lý học hoặc Y học năm 2002.",
-  "biography": "Sydney Brenner sinh ngày 13/1/1927 tại Germiston, Nam Phi. Ông là nhà sinh học phân tử và đồng nhận Nobel năm 2002.",
+  "biography": "Sydney Brenner sinh ngày 13/1/1927 tại Germiston, Nam Phi. Ông là nhà sinh học phân tử, đồng nhận Nobel Sinh lý học hoặc Y học năm 2002 và đồng phát hiện RNA thông tin.",
   "highlights": [
-    "Đồng nhận Nobel Sinh lý học hoặc Y học năm 2002.",
-    "Nghiên cứu về cơ chế di truyền điều hòa phát triển cơ quan."
+    "Sydney Brenner cùng H. Robert Horvitz và John E. Sulston nhận Nobel năm 2002 cho các khám phá về điều hòa di truyền trong phát triển cơ quan và chết tế bào theo chương trình.",
+    "Brenner đồng phát hiện RNA thông tin (mRNA) và cho thấy trình tự nucleotide của mRNA quyết định thứ tự amino acid trong protein."
   ],
   "wikidataId": "Q234463",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Sydney_Brenner",
@@ -2424,16 +2430,20 @@ export const PEOPLE_01: Person[] = [
     "https://www.wikidata.org/wiki/Q234463",
     "https://www.nobelprize.org/prizes/medicine/2002/brenner/cv/",
     "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=NA3395&src=CalmView.Persons",
+    "https://www.salk.edu/news-release/salk-mourns-the-passing-of-nobel-laureate-and-salk-distinguished-professor-emeritus-sydney-brenner/",
+    "https://www.nobelprize.org/prizes/medicine/2002/summary/",
     "https://www.asianscientist.com/2019/04/topnews/sydney-brenner-nobel-laureate-dies-92-c-elegans-obituary/"
   ],
   "region": "world",
   "deathDate": "2019-04-05",
   "lifeStatus": "deceased",
   "deathDateSourceUrls": [
-    "https://www.asianscientist.com/2019/04/topnews/sydney-brenner-nobel-laureate-dies-92-c-elegans-obituary/"
+    "https://www.asianscientist.com/2019/04/topnews/sydney-brenner-nobel-laureate-dies-92-c-elegans-obituary/",
+    "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=NA3395&src=CalmView.Persons"
   ],
   "deathDatePrecision": "day",
-  "verifiedAt": "2026-10-03"
+  "fields": ["science-research"],
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "patrick-dempsey",
@@ -2453,10 +2463,10 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Diễn viên người Mỹ, được biết đến qua vai diễn trong Grey’s Anatomy.",
-  "biography": "Patrick Dempsey sinh ngày 13/1/1966 tại Lewiston, Maine. Ông là diễn viên và nhà sáng lập Dempsey Center, tổ chức hỗ trợ người bị ảnh hưởng bởi ung thư.",
+  "biography": "Patrick Dempsey sinh ngày 13/1/1966 tại Lewiston, Maine. Ông là diễn viên, được biết đến với vai bác sĩ Derek Shepherd trong Grey’s Anatomy; ông cùng gia đình thành lập Dempsey Center năm 2008.",
   "highlights": [
-    "Đóng vai bác sĩ Derek Shepherd trong Grey’s Anatomy.",
-    "Thành lập Dempsey Center năm 2008."
+    "Patrick Dempsey thủ vai bác sĩ Derek Shepherd trong bộ phim truyền hình Grey’s Anatomy.",
+    "Patrick Dempsey cùng gia đình thành lập Dempsey Center tại Lewiston, Maine, vào năm 2008."
   ],
   "wikidataId": "Q212518",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Patrick_Dempsey",
@@ -2464,10 +2474,88 @@ export const PEOPLE_01: Person[] = [
     "https://www.wikidata.org/wiki/Q212518",
     "https://www.biography.com/actors/patrick-dempsey",
     "https://www.allocine.fr/personne/fichepersonne-21312/biographie/",
-    "https://www.patrickdempsey.com/timeline/"
+    "https://www.dempseycenter.org/wp-content/uploads/2026/01/Intro-to-Dempsey-Center-1.pdf"
   ],
+  "fields": ["design-creative"],
+  "lifeStatus": "unknown",
   "region": "west",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08"
+},
+{
+  "id": "zhou-youguang",
+  "slug": "zhou-youguang",
+  "name": "Zhou Youguang",
+  "nativeName": "周有光",
+  "birthDate": "1906-01-13",
+  "birthYear": 1906,
+  "birthMonth": 1,
+  "birthDay": 13,
+  "occupation": ["nhà ngôn ngữ học"],
+  "category": "scientist",
+  "categoryLabel": "Khoa học",
+  "fields": ["education-thought"],
+  "countryCode": "CN",
+  "countryName": "Trung Quốc",
+  "countryFlag": "🇨🇳",
+  "birthplace": "Thường Châu, Trung Quốc",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Nhà ngôn ngữ học Trung Quốc, được biết đến với Hanyu Pinyin.",
+  "biography": "Zhou Youguang là nhà ngôn ngữ học Trung Quốc sinh tại Thường Châu. Năm 1955, ông tham gia Ủy ban Cải cách chữ Hán và được biết đến với đóng góp cho Hanyu Pinyin.",
+  "highlights": [
+    "Zhou Youguang tham gia Ủy ban Cải cách chữ Hán của Trung Quốc năm 1955.",
+    "Ông được East China Normal University giới thiệu với danh xưng “Cha đẻ của Hanyu Pinyin”."
+  ],
+  "wikidataId": "Q591407",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Zhou_Youguang",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q591407",
+    "https://english.ecnu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1394&wbtreeid=1599",
+    "https://www.irishtimes.com/life-and-style/people/obituary-zhou-youguang-the-father-of-pinyin-1.2938707"
+  ],
+  "deathDate": "2017-01-14",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": ["https://english.ecnu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1394&wbtreeid=1599"],
+  "deathDatePrecision": "day",
+  "region": "asia",
+  "verifiedAt": "2026-10-08"
+},
+{
+  "id": "michael-bond",
+  "slug": "michael-bond",
+  "name": "Michael Bond",
+  "birthDate": "1926-01-13",
+  "birthYear": 1926,
+  "birthMonth": 1,
+  "birthDay": 13,
+  "occupation": ["nhà văn"],
+  "category": "literature",
+  "categoryLabel": "Văn học",
+  "fields": ["design-creative"],
+  "countryCode": "GB",
+  "countryName": "Vương quốc Anh",
+  "countryFlag": "🇬🇧",
+  "birthplace": "Newbury, Berkshire, Anh",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Nhà văn Anh, tác giả loạt truyện Paddington.",
+  "biography": "Michael Bond là nhà văn Anh sinh tại Newbury. Tập đầu tiên về Paddington xuất bản năm 1958; trong sự nghiệp, ông viết hơn 150 cuốn sách.",
+  "highlights": [
+    "Tập đầu tiên, A Bear Called Paddington, ra mắt ngày 13/10/1958.",
+    "Michael Bond viết hơn 150 cuốn sách và được trao OBE năm 1997, CBE năm 2015."
+  ],
+  "wikidataId": "Q122127",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Michael_Bond",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q122127",
+    "https://harpercollins.co.uk/blogs/authors/michael-bond-604",
+    "https://www.theguardian.com/books/2017/jun/28/michael-bond-obituary",
+    "https://www.smithsonianmag.com/smithsonian-institution/paddington-bear-turns-sixty-180970439/"
+  ],
+  "deathDate": "2017-06-27",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": ["https://www.theguardian.com/books/2017/jun/28/michael-bond-obituary"],
+  "deathDatePrecision": "day",
+  "region": "west",
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "albert-schweitzer",

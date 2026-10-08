@@ -421,5 +421,5 @@ export function runBv017ExpansionPilotIntegrity(assert: (suite: string, conditio
   assert('Rule AM status captures', evidence.statusCaptures.every((capture) => capture.capturedAt.startsWith('2026-10-08') && capture.excerptSha256 === textSha256(capture.excerpt)), 'Current-status source captures must retain their capture date and excerpt hashes');
   assert('Rule AM statuses', lifeStatusCounts.living === 4 && lifeStatusCounts.deceased === 25 && lifeStatusCounts.unknown === 1, 'Pilot life-status totals must remain 4 living, 25 deceased, and 1 unknown');
   assert('Rule AM statuses', evidence.summary.p570ConflictsWithStatusOnly === 1, 'The single multi-date P570 status case must be retained without assigning a local death date');
-  assert('Rule AM total', ALL_PEOPLE.length === 1174 && ALL_PEOPLE.filter((person) => BV017_EXPANSION_NEW_IDS.has(person.id)).length === 30, 'The full local dataset must contain 1,174 profiles including this 30-person pilot and the January 1-12 batches');
+  assert('Rule AM total', ALL_PEOPLE.length === 1176 && ALL_PEOPLE.filter((person) => BV017_EXPANSION_NEW_IDS.has(person.id)).length === 30, 'The full local dataset must contain 1,176 profiles including this 30-person pilot and the January 1-13 batches');
 }
