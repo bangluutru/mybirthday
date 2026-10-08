@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "cycle": "BV-017",
-  "retrievedAt": "2026-10-08T20:12:00.797Z",
+  "retrievedAt": "2026-10-08T20:28:57.058Z",
   "endpoint": "Wikidata wbgetentities",
   "peopleCount": 1120,
   "summary": {
@@ -10,7 +10,7 @@
     "people": 1120,
     "death_date_conflict": 33,
     "p570_without_reference": 1,
-    "deathDatesDirectlyConfirmedByPublisherCapture": 325,
+    "deathDatesDirectlyConfirmedByPublisherCapture": 328,
     "deathDatesDirectlyConfirmedInB015B016": 36,
     "deathDatesDirectlyConfirmedInBaseline": 240,
     "preExistingDeathDateConflictsNotOverwritten": 30,
@@ -35,7 +35,8 @@
     "deathDatesDirectlyConfirmedInBV017January22": 5,
     "deathDatesDirectlyConfirmedInBV017January23": 4,
     "deathDatesDirectlyConfirmedInBV017January24": 2,
-    "deathDatesDirectlyConfirmedInBV017January25": 3
+    "deathDatesDirectlyConfirmedInBV017January25": 3,
+    "deathDatesDirectlyConfirmedInBV017January26": 3
   },
   "people": [
     {
@@ -7931,11 +7932,13 @@
       "activeDeathDates": [
         "1964-04-05"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "1964-04-05",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://adb.anu.edu.au/biography/macarthur-douglas-10890"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -8088,11 +8091,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "unknown",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -8160,11 +8163,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "unknown",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {

@@ -4555,17 +4555,23 @@ export const PEOPLE_01: Person[] = [
   "countryName": "Hoa Kỳ",
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
-  "shortDescription": "Tướng lĩnh quân đội Hoa Kỳ; sinh ngày 26/1/1880.",
-  "biography": "Douglas MacArthur là tướng lĩnh quân đội người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 1903, Douglas MacArthur tốt nghiệp đầu lớp tại West Point với một trong những thành tích học tập tốt nhất trong lịch sử học viện.",
-  "highlights": ["Sinh ngày 26/1/1880.", "Năm 1903, Douglas MacArthur tốt nghiệp đầu lớp tại West Point với một trong những thành tích học tập tốt nhất trong lịch sử học viện."],
+  "shortDescription": "Tướng lĩnh Hoa Kỳ; tốt nghiệp đứng đầu lớp tại West Point năm 1903.",
+  "biography": "Douglas MacArthur là tướng lĩnh quân đội Hoa Kỳ. Năm 1903, ông tốt nghiệp đứng đầu lớp tại Học viện Quân sự Hoa Kỳ ở West Point; sau đó phục vụ tại Philippines với vai trò sĩ quan công binh cấp úy.",
+  "highlights": ["Năm 1903, Douglas MacArthur tốt nghiệp đứng đầu lớp tại Học viện Quân sự Hoa Kỳ ở West Point.", "Sau khi tốt nghiệp, MacArthur phục vụ tại Philippines với vai trò sĩ quan công binh cấp úy."],
   "wikidataId": "Q127417",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q127417",
     "https://macarthurmemorial.org/DocumentCenter/View/1689/BioDouglasMacArthur?bidId=",
-    "https://adb.anu.edu.au/lifesummary/macarthur-douglas-10890"
+    "https://adb.anu.edu.au/lifesummary/macarthur-douglas-10890",
+    "https://adb.anu.edu.au/biography/macarthur-douglas-10890",
+    "https://www.macarthurmemorial.org/186/Who-is-MacArthur"
   ],
+  "deathDate": "1964-04-05",
+  "deathDateSourceUrls": ["https://adb.anu.edu.au/biography/macarthur-douglas-10890"],
+  "deathDatePrecision": "day",
+  "lifeStatus": "deceased",
   "region": "west",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-08"
 }  ,
 {
   "id": "angela-davis",
@@ -4584,17 +4590,18 @@ export const PEOPLE_01: Person[] = [
   "countryName": "Hoa Kỳ",
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
-  "shortDescription": "Nhà hoạt động chính trị và học giả Hoa Kỳ; sinh ngày 26/1/1944.",
-  "biography": "Angela Davis là nhà hoạt động chính trị và học giả người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 1969, Angela Davis được tuyển làm giảng viên triết học tại Đại học California, Los Angeles.",
-  "highlights": ["Sinh ngày 26/1/1944.", "Năm 1969, Angela Davis được tuyển làm giảng viên triết học tại Đại học California, Los Angeles."],
+  "shortDescription": "Nhà hoạt động chính trị và học giả Hoa Kỳ, từng giảng dạy triết học tại UCLA.",
+  "biography": "Angela Davis là nhà hoạt động chính trị và học giả người Hoa Kỳ. Năm 1969, bà được tuyển dạy triết học tại Đại học California, Los Angeles; ngày 4/6/1972, bồi thẩm đoàn tuyên bà không có tội sau 16 tháng bị giam.",
+  "highlights": ["Năm 1969, Angela Davis được tuyển làm giảng viên triết học tại Đại học California, Los Angeles.", "Ngày 4/6/1972, bồi thẩm đoàn tuyên Angela Davis không có tội sau 16 tháng bị giam."],
   "wikidataId": "Q160456",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q160456",
     "https://www.archives.gov/research/african-americans/individuals/angela-davis",
     "https://museumca.org/wp-content/uploads/2022/09/2022_Timeline_AngelaDavis-FINAL.pdf"
   ],
+  "lifeStatus": "unknown",
   "region": "west",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-08"
 }  ,
 {
   "id": "wayne-gretzky",
@@ -4613,17 +4620,99 @@ export const PEOPLE_01: Person[] = [
   "countryName": "Canada",
   "countryFlag": "🇨🇦",
   "image": "/people/placeholder.svg",
-  "shortDescription": "Cầu thủ khúc côn cầu trên băng Canada; sinh ngày 26/1/1961.",
-  "biography": "Wayne Gretzky là cầu thủ khúc côn cầu trên băng người Canada. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Trong thập niên 1980, Wayne Gretzky giành danh hiệu cầu thủ giá trị nhất NHL (Hart Trophy) 9 lần và dẫn đầu giải về điểm số 7 lần.",
-  "highlights": ["Sinh ngày 26/1/1961.", "Trong thập niên 1980, Wayne Gretzky giành danh hiệu cầu thủ giá trị nhất NHL (Hart Trophy) 9 lần và dẫn đầu giải về điểm số 7 lần."],
+  "shortDescription": "Cầu thủ khúc côn cầu Canada, từng giành chín Hart Trophy tại NHL.",
+  "biography": "Wayne Gretzky là cầu thủ khúc côn cầu trên băng người Canada. Ông giành Hart Trophy, giải cầu thủ giá trị nhất NHL, chín lần; năm 1978, ở tuổi 16, ông dẫn đầu Giải vô địch trẻ thế giới về số điểm.",
+  "highlights": ["Gretzky giành Hart Trophy, giải MVP của NHL, chín lần.", "Năm 1978, ở tuổi 16, Wayne Gretzky dẫn đầu Giải vô địch trẻ thế giới về số điểm."],
   "wikidataId": "Q209518",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q209518",
     "https://www.nhl.com/news/this-date-in-nhl-history-january-26-286014088",
-    "https://hhof.com/induction_archives/ind99wg2.shtml"
+    "https://hhof.com/induction_archives/ind99wg2.shtml",
+    "https://halloffamers.sportshall.ca/?language=EN&wayne_gretzky="
   ],
+  "lifeStatus": "unknown",
   "region": "west",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-08"
+}  ,
+{
+  "id": "bessie-coleman",
+  "slug": "bessie-coleman",
+  "name": "Bessie Coleman",
+  "birthDate": "1892-01-26",
+  "birthYear": 1892,
+  "birthMonth": 1,
+  "birthDay": 26,
+  "occupation": ["phi công dân dụng"],
+  "category": "history",
+  "categoryLabel": "Nhân vật lịch sử",
+  "countryCode": "US",
+  "countryName": "Hoa Kỳ",
+  "countryFlag": "🇺🇸",
+  "birthplace": "Atlanta, Texas, Hoa Kỳ",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Phi công người Mỹ; năm 1921 trở thành phụ nữ Mỹ gốc Phi đầu tiên được cấp bằng phi công quốc tế.",
+  "biography": "Bessie Coleman là phi công người Mỹ. Ngày 15/6/1921, bà trở thành phụ nữ Mỹ gốc Phi đầu tiên được cấp bằng phi công; tháng 2/1922, bà xuất hiện tại buổi trình diễn hàng không đầu tiên của mình ở Hoa Kỳ.",
+  "highlights": [
+    "Ngày 15/6/1921, Bessie Coleman trở thành phụ nữ Mỹ gốc Phi đầu tiên trên thế giới được cấp bằng phi công.",
+    "Tháng 2/1922, Coleman xuất hiện tại buổi trình diễn hàng không đầu tiên của cô ở Hoa Kỳ, trên đảo Long Island."
+  ],
+  "wikidataId": "Q254376",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q254376",
+    "https://www.af.mil/News/Article-Display/Article/111769/bessie-coleman-woman-who-dared-to-dream-made-aviation-history/",
+    "https://www.tshaonline.org/handbook/entries/coleman-bessie"
+  ],
+  "fields": ["technology-engineering"],
+  "deathDate": "1926-04-30",
+  "deathDateSourceUrls": [
+    "https://www.af.mil/News/Article-Display/Article/111769/bessie-coleman-woman-who-dared-to-dream-made-aviation-history/",
+    "https://www.tshaonline.org/handbook/entries/coleman-bessie"
+  ],
+  "deathDatePrecision": "day",
+  "lifeStatus": "deceased",
+  "region": "west",
+  "verifiedAt": "2026-10-08"
+}  ,
+{
+  "id": "roger-vadim",
+  "slug": "roger-vadim",
+  "name": "Roger Vadim",
+  "birthDate": "1928-01-26",
+  "birthYear": 1928,
+  "birthMonth": 1,
+  "birthDay": 26,
+  "occupation": ["đạo diễn điện ảnh", "biên kịch"],
+  "category": "artist",
+  "categoryLabel": "Nghệ thuật",
+  "countryCode": "FR",
+  "countryName": "Pháp",
+  "countryFlag": "🇫🇷",
+  "birthplace": "Paris, Pháp",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Đạo diễn điện ảnh Pháp, gắn với các phim Et Dieu... créa la femme và Barbarella.",
+  "biography": "Roger Vadim là đạo diễn và biên kịch người Pháp. Phim dài đầu tay ông đạo diễn là Et Dieu... créa la femme (1956); Cinémathèque française ghi ông đạo diễn Barbarella (1967).",
+  "highlights": [
+    "Phim dài đầu tay do Roger Vadim đạo diễn là Et Dieu... créa la femme (1956).",
+    "La Cinémathèque française ghi Roger Vadim là đạo diễn Barbarella (Pháp–Ý, 1967)."
+  ],
+  "wikidataId": "Q383420",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q383420",
+    "https://catalogue.bnf.fr/ark:/12148/cb11927401d.public",
+    "https://www.enciklopedija.hr/clanak/vadim-roger",
+    "https://www.cinematheque.fr/film/52412.html",
+    "https://catalogue.bnf.fr/ark:/12148/cb16616632z"
+  ],
+  "fields": ["design-creative"],
+  "deathDate": "2000-02-11",
+  "deathDateSourceUrls": [
+    "https://catalogue.bnf.fr/ark:/12148/cb11927401d.public",
+    "https://www.enciklopedija.hr/clanak/vadim-roger"
+  ],
+  "deathDatePrecision": "day",
+  "lifeStatus": "deceased",
+  "region": "west",
+  "verifiedAt": "2026-10-08"
 }  ,
 {
   "id": "wolfgang-amadeus-mozart",
