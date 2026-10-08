@@ -25,6 +25,7 @@ import rawJanuary18Batch from '../.ai/evidence/BV017-january-18-batch.json';
 import rawJanuary19Batch from '../.ai/evidence/BV017-january-19-batch.json';
 import rawJanuary20Batch from '../.ai/evidence/BV017-january-20-batch.json';
 import rawJanuary21Batch from '../.ai/evidence/BV017-january-21-batch.json';
+import rawJanuary22Batch from '../.ai/evidence/BV017-january-22-batch.json';
 import rawReviewSample from '../.ai/evidence/BV017-review-sample.json';
 import rawDuplicateHighlightReview from '../.ai/evidence/BV017-duplicate-highlight-review.json';
 
@@ -253,6 +254,8 @@ const january20Batch = rawJanuary20Batch as unknown as { legacyProfiles: readonl
 const january20LegacyById = new Map(january20Batch.legacyProfiles.map((profile) => [profile.id, profile]));
 const january21Batch = rawJanuary21Batch as unknown as { legacyProfiles: readonly { id: string; before: Record<string, unknown>; after: Record<string, unknown> }[] };
 const january21LegacyById = new Map(january21Batch.legacyProfiles.map((profile) => [profile.id, profile]));
+const january22Batch = rawJanuary22Batch as unknown as { legacyProfiles: readonly { id: string; before: Record<string, unknown>; after: Record<string, unknown> }[] };
+const january22LegacyById = new Map(january22Batch.legacyProfiles.map((profile) => [profile.id, profile]));
 const bv017ReviewSample = rawReviewSample as unknown as {
   schemaVersion: number;
   cycle: string;
@@ -305,6 +308,11 @@ function matchesRecordedValue(person: PersonLike, field: string, expected: unkno
 
 function projectPersonBeforeJanuary8(person: PersonLike): PersonLike {
   const result = { ...person } as Record<string, unknown>;
+  const january22Before = january22LegacyById.get(person.id)?.before;
+  for (const [field, value] of Object.entries(january22Before || {})) {
+    if (value === null) delete result[field];
+    else result[field] = cloneValue(value);
+  }
   const january21Before = january21LegacyById.get(person.id)?.before;
   for (const [field, value] of Object.entries(january21Before || {})) {
     if (value === null) delete result[field];
@@ -380,6 +388,12 @@ export function projectPersonBeforeBv017<T extends PersonLike>(person: T): T {
   if (baseline) {
     for (const [field, value] of Object.entries(baseline.before)) result[field] = cloneValue(value);
     for (const field of baseline.remove) delete result[field];
+    const january22Before = january22LegacyById.get(person.id)?.before;
+    for (const [field, value] of Object.entries(january22Before || {})) {
+      if (Object.hasOwn(baseline.before, field) || baseline.remove.includes(field)) continue;
+      if (value === null) delete result[field];
+      else result[field] = cloneValue(value);
+    }
     const january21Before = january21LegacyById.get(person.id)?.before;
     for (const [field, value] of Object.entries(january21Before || {})) {
       if (Object.hasOwn(baseline.before, field) || baseline.remove.includes(field)) continue;
@@ -431,6 +445,7 @@ export function projectPersonBeforeBv017<T extends PersonLike>(person: T): T {
     return result as T;
   }
   const priorFieldSets = [
+    january22LegacyById.get(person.id)?.before,
     january21LegacyById.get(person.id)?.before,
     january20LegacyById.get(person.id)?.before,
     january19LegacyById.get(person.id)?.before,
@@ -468,6 +483,11 @@ export function projectPersonBeforeBv017<T extends PersonLike>(person: T): T {
 /** Restore only January 14 edits when an earlier BV-017 review fixture must be checked. */
 export function projectPersonBeforeJanuary14<T extends PersonLike>(person: T): T {
   const result = { ...person } as Record<string, unknown>;
+  const january22Before = january22LegacyById.get(person.id)?.before;
+  for (const [field, value] of Object.entries(january22Before || {})) {
+    if (value === null) delete result[field];
+    else result[field] = cloneValue(value);
+  }
   const january21Before = january21LegacyById.get(person.id)?.before;
   for (const [field, value] of Object.entries(january21Before || {})) {
     if (value === null) delete result[field];
@@ -519,6 +539,8 @@ export function sourceUrlsBeforeBv017(person: PersonLike): readonly string[] {
   const january17Before = january17LegacyById.get(person.id)?.before;
   const january18Before = january18LegacyById.get(person.id)?.before;
   const january21Before = january21LegacyById.get(person.id)?.before;
+  const january22Before = january22LegacyById.get(person.id)?.before;
+  if (january22Before && Array.isArray(january22Before.sourceUrls)) return january22Before.sourceUrls as string[];
   if (january21Before && Array.isArray(january21Before.sourceUrls)) return january21Before.sourceUrls as string[];
   const january20Before = january20LegacyById.get(person.id)?.before;
   if (january20Before && Array.isArray(january20Before.sourceUrls)) return january20Before.sourceUrls as string[];
@@ -783,6 +805,7 @@ export function verifyBv017CorrectionManifest(
     if (!person) continue;
     const qualityAfter = qualityCorrectionsById.get(correction.id)?.after;
     const january21After = january21LegacyById.get(correction.id)?.after;
+    const january22After = january22LegacyById.get(correction.id)?.after;
     const january20After = january20LegacyById.get(correction.id)?.after;
     const january19After = january19LegacyById.get(correction.id)?.after;
     const january18After = january18LegacyById.get(correction.id)?.after;
@@ -800,7 +823,9 @@ export function verifyBv017CorrectionManifest(
     const january6After = january6LegacyById.get(correction.id)?.after;
     const january5After = january5LegacyById.get(correction.id)?.after;
     for (const [field, expected] of Object.entries(correction.after)) {
-      const finalExpected = january21After && Object.prototype.hasOwnProperty.call(january21After, field)
+      const finalExpected = january22After && Object.prototype.hasOwnProperty.call(january22After, field)
+        ? january22After[field]
+        : january21After && Object.prototype.hasOwnProperty.call(january21After, field)
         ? january21After[field]
         : january20After && Object.prototype.hasOwnProperty.call(january20After, field)
         ? january20After[field]

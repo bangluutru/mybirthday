@@ -1,0 +1,1088 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-22",
+  "sourceCaptures": [
+    {
+      "id": "mau-vntaiwan",
+      "url": "https://vntaiwan.catholic.org.tw/vnchurch/vinhlong/gmmau.htm",
+      "publisher": "Vietnamese Missionaries in Asia",
+      "publisherHost": "vntaiwan.catholic.org.tw",
+      "status": 200,
+      "bytesRead": 12041,
+      "sha256": "db95e30ac32bf2dd9012bede67c259f222365ea2a2c711e021c7969eefb98311",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Internet by Vietnamese Missionaries in Asia Ngày Sự kiện Chức vụ 22/01/1914 Sinh Tại Bà Rịa 21/09/1940 Thụ phong Linh Mục Giáo Phận 12/07/1968 Ðược bổ nhiệm Giám Mục Chánh Tòa Giáo Phận Vĩnh Long, Việt Nam 12/09/1968 Thụ phong Giám Mục Giám Mục Chánh Tòa Giáo Phận Vĩnh Long, Việt Nam 3/07/2001 Hưu d … ionaries in Asia Ngày Sự kiện Chức vụ 22/01/1914 Sinh Tại Bà Rịa 21/09/1940 Thụ phong Linh Mục Giáo Phận 12/07/1968 Ðược bổ nhiệm Giám Mục Chánh Tòa Giáo Phận Vĩnh Long, Việt Nam 12/09/1968 Thụ phong Giám Mục Giám Mục Chánh Tòa Giáo Phận Vĩnh Long, Việt Nam 3/07/2001 Hưu dưỡng Giám Mục Chánh Tòa Giá … /01/1914 Sinh Tại Bà Rịa 21/09/1940 Thụ phong Linh Mục Giáo Phận 12/07/1968 Ðược bổ nhiệm Giám Mục Chánh Tòa Giáo Phận Vĩnh Long, Việt Nam 12/09/1968 Thụ phong Giám Mục Giám Mục Chánh Tòa Giáo Phận Vĩnh Long, Việt Nam 3/07/2001 Hưu dưỡng Giám Mục Chánh Tòa Giáo Phận Vĩnh Long, Việt Nam 31/01/201 3 Q … m Ðức giám mục Giacôbê Nguyễn Văn Mầu đã an nghỉ trong Chúa ngày 31/01/2013 Back to Vietnamese Missionaries in Asia Home Page",
+      "excerptSha256": "8512a79fd57e7d2055d1db6fa38700ebefa79bce0150720ffb80dfc6e315a5bf"
+    },
+    {
+      "id": "mau-catholic-hierarchy",
+      "url": "https://www.catholic-hierarchy.org/bishop/bngvm.html",
+      "publisher": "Catholic Hierarchy",
+      "publisherHost": "www.catholic-hierarchy.org",
+      "status": 200,
+      "bytesRead": 18749,
+      "sha256": "786d32fad75477137106936e042511a9ee1c2c06a72aed67c8f08edb5455561d",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "hop Emeritus of Vĩnh Long , Viet Nam Events Date Age Event Title 22 Jan 1914 Born 21 Sep 1940 26.6 Ordained Priest Priest 12 Jul 1968 54.4 Appointed Bishop of Vĩnh Long , Viet Nam 12 Sep 1968 54.6 Ordained Bishop Bishop of Vĩnh Long , Viet Nam 3 Jul 2001 87.4 Retired Bishop of Vĩnh Long , Viet Nam 3 …  Viet Nam 3 Jul 2001 87.4 Retired Bishop of Vĩnh Long , Viet Nam 31 Jan 2013 99.0 Died Bishop Emeritus of Vĩnh Long , Viet Nam MicroData Summary Jacques Nguyễn Văn Mầu Bishop Jacques Nguyễn Văn Mầu (born 22 Jan 1914 , died 31 Jan 2013 ) Bishop Emeritus of Vĩnh Long Event Place Birth Place Bà Ria a p",
+      "excerptSha256": "62a8c4cdde53f13c34cf33d546a05239fb72e94d3e41b47c4d5428a9e50d698e"
+    },
+    {
+      "id": "byron-westminster",
+      "url": "https://www.westminster-abbey.org/abbey-commemorations/commemorations/lord-byron",
+      "publisher": "Westminster Abbey",
+      "publisherHost": "www.westminster-abbey.org",
+      "status": 200,
+      "bytesRead": 179628,
+      "sha256": "93c5aeba3fdd65fdae854ff0b4fc9ec3ea94a1ff602dd79024fbc18a1d89fc6c",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": " tire Torture and Time, and breathe when I expire He was born on 22nd January 1788 in London, son of Captain John Byron (known as Mad Jack) and his second wife Catherine (Gordon). His ancestor had been rewarded for services to Henry VIII with the gift of Newstead Abbey in Nottinghamshire. His best k … . His best known poems are probably Childe Harold and Don Juan . After the success of the former work he recalled \"I awoke one morning and found myself famous\". He had various liasons, notably with Lady Caroline Lamb who wrote that he was \"Mad, bad and dangerous to know\". But he married Annabella Mi … s inlaid with gold Sienna marble lettering and reads: LORD BYRON Died 19 April 1824 aged 36 at Missolonghi, Greece. But there is that within me which shall tire Torture and Time, and breathe when I expire He was born on 22nd January 1788 in London, son of Captain John Byron (known as Mad Jack) and h",
+      "excerptSha256": "db4bd92b9f3be44459dfe1ad04b743e0d2d8fa62097a2fd728bb9621c622abaa"
+    },
+    {
+      "id": "byron-hrc",
+      "url": "https://research.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00421",
+      "publisher": "Harry Ransom Center, University of Texas at Austin",
+      "publisherHost": "research.hrc.utexas.edu",
+      "status": 200,
+      "bytesRead": 72369,
+      "sha256": "675d7d7c42550cb91b9ed5c7429a23011735e4896a847b82ec729b86aafd7282",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "in Biographical Sketch George Gordon Byron was born in London on January 22, 1788, the son of John \"Mad Jack\" Byron and Catherine Gordon. His father, having spent his wife’s inheritance, eventually left for France, where he died when Byron was three. Byron and his mother lived in Aberdeen until he b",
+      "excerptSha256": "3e873f9c415a7705fa9041b6525092924cacf36c199275f1c0615a3bfbf3bd96"
+    },
+    {
+      "id": "byron-poetry-foundation",
+      "url": "https://www.poetryfoundation.org/poets/lord-byron",
+      "publisher": "Poetry Foundation",
+      "publisherHost": "www.poetryfoundation.org",
+      "status": 200,
+      "bytesRead": 894868,
+      "sha256": "60ef3759c86044a0bb7ce07828bdb712a0368536e530d787590f46a8dd616bcc",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": " liberty in his works and deeds, giving money, time, energy, and finally his life to the Greek war of independence. His faceted personality found expression in satire, verse narrative, ode, lyric, speculative drama, historical tragedy, confessional poetry, dramatic monologue, seriocomic epic, and vo",
+      "excerptSha256": "4744c41b69b1ff2f0f22903b8044be982da930532a8bf00ad7674130c97f57ab"
+    },
+    {
+      "id": "strindberg-museum-life",
+      "url": "https://www.strindbergsmuseet.se/om-strindberg/strindbergs-liv/",
+      "publisher": "Strindberg Museum",
+      "publisherHost": "www.strindbergsmuseet.se",
+      "status": 200,
+      "bytesRead": 120012,
+      "sha256": "64557951ef3dc08f38fd590dc8e41668a52cadd60704836e55a3d882f6aa525f",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "bergs liv Barndom Johan August Strindberg föddes i Stockholm den 22 januari 1849. På fädernet tillhörde han en känd borgarfamilj med kulturella intressen. Hans far hade det nya yrket ångbåtskommissionär och var ansvarig för godstrafiken på Mälaren och Göta kanal. Modern däremot var en enkel men reli … a Bantorget, för vilken han i rask takt skrivit fyra kammarspel: Oväder, Brända tomten, Spöksonaten, Pelikanen (alla 1907). Han förälskar sig i en ung elev vid teatern, Fanny Falkner. Strindberg avlider i sitt hem efter en längre tids sjukdom den 14 maj 1912 och begravs fem dagar senare på Nya (nume …  1907 skriver Strindberg fyra kammarspel, däribland Spöksonaten. I november startar han Intima teatern, som drivs i tre år. Ålderdom Efter det att Harriet Bosse gift om sig våren 1908 flyttar Strindberg till en hyreslägenhet på Drottninggatan 85 (en byggnad han kom att kalla (Blå Tornet). Han börjar … kner. Strindberg avlider i sitt hem efter en längre tids sjukdom den 14 maj 1912 och begravs fem dagar senare på Nya (numera Norra) kyrkogården. Hans sista färd beses av 60 000 personer. Strindbergs Intima teater Strindbergssällskapet Med stöd av Stockholms stad Adress: Drottninggatan 85 111 60 Stoc",
+      "excerptSha256": "563e1d9b54d8646ba638fe1fd39780113bc57f031d84210c00e49b6a4105b1f5"
+    },
+    {
+      "id": "strindberg-society-bio",
+      "url": "https://auguststrindberg.se/biography/",
+      "publisher": "The Strindberg Society",
+      "publisherHost": "auguststrindberg.se",
+      "status": 200,
+      "bytesRead": 106245,
+      "sha256": "8aba833f706bc1f4595d2d784419e3d704538a1ddf83006b189686470b6f4149",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "iana The Strindberg Prize 🇸🇪 Svenska Biography AUGUST STRINDBERG 22.1 1849 – 14.5 1912 A photograph of Strindberg, taken during his last walk in April of 1912, shows a dark figure surrounded by whirling snow. His face is in shadow, almost blank. The expression changes: a sick, introspective old man,",
+      "excerptSha256": "942763b0ba0427547127118efdefcf3ec9bbdee44587ddd6c4e7d9a392d10f05"
+    },
+    {
+      "id": "kreisky-parliament",
+      "url": "https://www.parlament.gv.at/person/969",
+      "publisher": "Austrian Parliament",
+      "publisherHost": "www.parlament.gv.at",
+      "status": 200,
+      "bytesRead": 54667,
+      "sha256": "acddcfb9b7b52d603e9324d8d3751f69de6aeba1f61c12bf091d8e0d682e705b",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "enheiten im Bundeskanzleramt 02.04.1953-16.07.1959 Kurzbiografie Geb.: 22.01.1911, Wien Verst.: 29.07.1990, Wien Berufliche Tätigkeit: ao. Gesandter und bev. Minister i. R. Weitere Politische Mandate/Funktionen Funktionen in der Sozialistischen Arbeiterjugend und in der SdP ab 1926 Vorsitzender-Stel … eramt 02.04.1953-16.07.1959 Kurzbiografie Geb.: 22.01.1911, Wien Verst.: 29.07.1990, Wien Berufliche Tätigkeit: ao. Gesandter und bev. Minister i. R. Weitere Politische Mandate/Funktionen Funktionen in der Sozialistischen Arbeiterjugend und in der SdP ab 1926 Vorsitzender-Stellvertreter der SPÖ 1957 … digung 04.02.1971-08.02.1971 Bundeskanzler 21.04.1970-24.05.1983 Bundesminister für Auswärtige Angelegenheiten 31.07.1959-19.04.1966 Bundesminister für die auswärtigen Angelegenheiten im Bundeskanzleramt 16.07.1959-31.07.1959 Staatssekretär für die auswärtigen Angelegenheiten im Bundeskanzleramt 02. …  Bundesministeriums für Landesverteidigung 04.02.1971-08.02.1971 Bundeskanzler 21.04.1970-24.05.1983 Bundesminister für Auswärtige Angelegenheiten 31.07.1959-19.04.1966 Bundesminister für die auswärtigen Angelegenheiten im Bundeskanzleramt 16.07.1959-31.07.1959 Staatssekretär für die auswärtigen Ang",
+      "excerptSha256": "b03cf681e7c918b56ae7d7e7658927f6f7417e9e39496a976f974663f81455e8"
+    },
+    {
+      "id": "kreisky-vienna-university",
+      "url": "https://geschichte.univie.ac.at/de/personen/bruno-kreisky",
+      "publisher": "University of Vienna",
+      "publisherHost": "geschichte.univie.ac.at",
+      "status": 200,
+      "bytesRead": 30190,
+      "sha256": "131dfcd48c433453a89b50cd1f07134b650cf3ca5d84370bbe4815ef79915268",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "ks Thematiken Personen Zeitleiste Karte Index Bruno Kreisky, Dr. 22.1.1911 – 29.7.1990 geb. in Wien, Österreich gest. in Lainzer Krankenhaus, Wien, Österreich österreichischer Bundeskanzler 1970-1983 Disziplin Rechtswissenschaften Biografie Bruno Kreisky war von 1953 bis 1958 Staatssekretär für Ausw … atssekretär für Auswärtige Angelegenheiten ins Bundeskanzleramt, 1959 bis 1966 Bundesminister für Auswärtige Angelegenheiten und schließlich von 1970 bis 1983 Bundeskanzler von Österreich. Zuletzt aktualisiert am 07.02.2017 - 18:18 50jähriges Promotionsjubiläum von Bruno Kreisky BestandgeberIn: Arch … 66 Bundesminister für Auswärtige Angelegenheiten und schließlich von 1970 bis 1983 Bundeskanzler von Österreich. Zuletzt aktualisiert am 07.02.2017 - 18:18 50jähriges Promotionsjubiläum von Bruno Kreisky BestandgeberIn: Archiv der Universität Wien, Bildarchiv UrheberIn: Foto Vouk, Wien Signatur: 106",
+      "excerptSha256": "99dded8521b67f5ef5083a2233719b8b4ae7b02c917707142597143da04f0ebe"
+    },
+    {
+      "id": "dutilleux-bnf",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb138935467",
+      "publisher": "Bibliothèque nationale de France",
+      "publisherHost": "catalogue.bnf.fr",
+      "status": 200,
+      "bytesRead": 60771,
+      "sha256": "1a9169516846f51801622cd74271918e8fa9d5ee6e82f6c07474358708c95d99",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": " sur les documents : Auteur, Interprète, Participant Naissance : 1916-01-22, Angers (Maine-et-Loire) Mort : 2013-05-22, Paris (France) Compositeur. Source(s) : Métaboles [Musique imprimée] / Henri Dutilleux, cop. 1967 . - Mystère et mémoire des sons / Henri Dutilleux ; entretiens avec Claude Glayman … rticipant Naissance : 1916-01-22, Angers (Maine-et-Loire) Mort : 2013-05-22, Paris (France) Compositeur. Source(s) : Métaboles [Musique imprimée] / Henri Dutilleux, cop. 1967 . - Mystère et mémoire des sons / Henri Dutilleux ; entretiens avec Claude Glayman, 1993 Libération, 2013-05-23 . - WW, Franc",
+      "excerptSha256": "f649f0773dc5c64c4e9a4a4996cc4450e86334442db95e5761f01ffc23be6c0e"
+    },
+    {
+      "id": "dutilleux-praemium",
+      "url": "https://www.praemiumimperiale.org/en/laureate/dutilleux/",
+      "publisher": "Japan Art Association, Praemium Imperiale",
+      "publisherHost": "www.praemiumimperiale.org",
+      "status": 200,
+      "bytesRead": 40043,
+      "sha256": "f8fcd88f2641eff691d941d8c18ffb460d8705fe581d5ab408d5761bfe90d73d",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "f musical craftsmanship. Andrew Hugill read more Chronology 1916 Born January 22, Angers, France 1933 Studied composition, conducting and counterpoint at the Conservatoire de Paris 1938 Wins Grand Prix de Rome for composition en 1938 1943 Quatre mélodies (voice and piano) 1944 Geôle (voice and orche … ducting and counterpoint at the Conservatoire de Paris 1938 Wins Grand Prix de Rome for composition en 1938 1943 Quatre mélodies (voice and piano) 1944 Geôle (voice and orchestra) 1945-63 'Directeur du Service des illustrations musicales' at Radiodiffusion francaise 1948 Sonate (piano) 1950 Choral,  … the voice and instrumental combinations, as well as a celebrated cello concerto written for Mstislav Rostropovich , entitled Tout un monde lointain (‘A whole distant World’), 1970. Such works consistently show the fluidity with which Dutilleux handles colour, melody and rhythm. His œuvre is a model ",
+      "excerptSha256": "4e5c3f7efd8c7431c1e88a61448f35e28afcdaba9f042abf512950224a8374ad"
+    },
+    {
+      "id": "dutilleux-ircam",
+      "url": "https://ressources.ircam.fr/en/composer/henri-dutilleux/biography",
+      "publisher": "IRCAM",
+      "publisherHost": "ressources.ircam.fr",
+      "status": 200,
+      "bytesRead": 148895,
+      "sha256": "4cc3645dad8f4820b1c29ddc2644ad37670716dee1d7b25d9879534fcc69f004",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "re Acanthes updated May 23, 2013 Henri Dutilleux French composer born 22 January 1916 in Angers; died 22 May 2013 in Paris. menu advanced search biography oeuvre list of works by date list of works by type resources audios Do you notice a mistake? contact us A French composer born in 1916 in Angers, … est honors in harmony, counterpoint, and fugue, and received the Grand Prix de Rome in 1938 with his cantata L’anneau du Roi . During this period he studied Vincent d’Indy's treatise on music and discovered Stravinsky, Bartók, and serialism, but always remained at the margins of these different aest",
+      "excerptSha256": "82bba89bf07310a4b0fe7478c3afa40033ad0dc49a16258511578da26575c30f"
+    },
+    {
+      "id": "mau-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q1678059.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 26122,
+      "sha256": "f48c66d4168a2480107c348719a76e71a647eb556848724e5ac558edf53dadd9",
+      "verificationMethod": "direct-http-json-entity-claims",
+      "excerpt": "Nguyen Van Mau | P31:Q5 | P569:+1914-01-22T00:00:00Z precision 11 | P570:+2013-01-31T00:00:00Z precision 11 | P27:Q881 | P106:Q1622272,Q250867,Q611644",
+      "excerptSha256": "3db34a188aa6a2663f8e7bb8be3f6c9930844f1cece891a831bd42a5c01b061f"
+    },
+    {
+      "id": "byron-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q5679.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 351354,
+      "sha256": "9172382365713bdf56d409651dd19547f1f65845a1e1edd22e60a527f0033b76",
+      "verificationMethod": "direct-http-json-entity-claims",
+      "excerpt": "Lord Byron | P31:Q5 | P569:+1788-01-22T00:00:00Z precision 11 | P570:+1824-04-19T00:00:00Z precision 11 | P27:Q174193,Q161885,Q145 | P106:Q49757,Q822146,Q82955,Q18814623,Q333634,Q18939491,Q36180,Q8178443,Q2478141,Q125360586",
+      "excerptSha256": "3c67605cd7386daadee7cf779dd0fc3e3cd755c8e12eb9dca21c2d58ab303e3a"
+    },
+    {
+      "id": "strindberg-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q7724.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 330615,
+      "sha256": "f35975d9429aa3bc1677252610d114552bf88347f6c885c54905d1504e2a4316",
+      "verificationMethod": "direct-http-json-entity-claims",
+      "excerpt": "August Strindberg | P31:Q5 | P569:+1849-01-22T00:00:00Z precision 11 | P570:+1912-05-14T00:00:00Z precision 11 | P27:Q34 | P106:Q214917,Q49757,Q33231,Q1028181,Q6625963,Q18814623,Q28389,Q36180,Q11774202,Q12144794,Q483501,Q8178443",
+      "excerptSha256": "6b3c4a8f1a4a6fe9c478fc8a1b5c4919a4e159ef63aeea015345b3de5db02daf"
+    },
+    {
+      "id": "kreisky-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q44517.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 138523,
+      "sha256": "c8be8a6243228100b367bd742d4e72922cbf5aa08b7b48258f088ac770ff9554",
+      "verificationMethod": "direct-http-json-entity-claims",
+      "excerpt": "Bruno Kreisky | P31:Q5 | P569:+1911-01-22T00:00:00Z precision 11 | P570:+1990-07-29T00:00:00Z precision 11 | P27:Q533534,Q40 | P106:Q82955,Q193391,Q40348,Q164236,Q185351",
+      "excerptSha256": "ce880d62279a6c9630216d3562f742f44375052632f050241491074b5dab84d0"
+    },
+    {
+      "id": "dutilleux-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q318829.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 141389,
+      "sha256": "883210dfb67981ad64aee52fdfc191803a9260519c0364a7be3373e6b2f99e87",
+      "verificationMethod": "direct-http-json-entity-claims",
+      "excerpt": "Henri Dutilleux | P31:Q5 | P569:+1916-01-22T00:00:00Z precision 11 | P570:+2013-05-22T00:00:00Z precision 11 | P27:Q142 | P106:Q36834,Q14915627,Q1415090,Q486748",
+      "excerptSha256": "c0a8602726c87f9bd0f8900ab43b796d65745b40122f13cd6a524442be833a80"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "nguyen-van-mau",
+      "name": "Giacôbê Nguyễn Văn Mầu",
+      "wikidataId": "Q1678059",
+      "birthDate": "1914-01-22",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "2013-01-31",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "mau-vntaiwan"
+      ],
+      "dobSourceIds": [
+        "mau-vntaiwan",
+        "mau-catholic-hierarchy"
+      ],
+      "statusSourceId": "mau-vntaiwan",
+      "careerFactIds": [
+        "mau-ordination-1940",
+        "mau-bishop-appointment-1968"
+      ],
+      "countryCode": "VN",
+      "category": "history",
+      "occupation": [
+        "giám mục Công giáo"
+      ],
+      "fields": [
+        "society-law"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "society-law",
+          "careerFactIds": [
+            "mau-ordination-1940",
+            "mau-bishop-appointment-1968"
+          ],
+          "rationale": "Việc thụ phong linh mục và lãnh đạo Giáo phận Vĩnh Long là các vai trò trong một thiết chế tôn giáo và cộng đồng."
+        }
+      ],
+      "wikidataCaptureId": "mau-wikidata",
+      "wikidataLabel": "Nguyen Van Mau",
+      "identityClaims": {
+        "label": "Nguyen Van Mau",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1914-01-22T00:00:00Z",
+            "references": 1,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2013-01-31T00:00:00Z",
+            "references": 1,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q881",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q250867",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q611644",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q1622272"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q1678059",
+        "https://vntaiwan.catholic.org.tw/vnchurch/vinhlong/gmmau.htm",
+        "https://www.catholic-hierarchy.org/bishop/bngvm.html"
+      ],
+      "before": {
+        "biography": "Giacôbê Nguyễn Văn Mầu là giám mục Công giáo người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Ngày 12/7/1968, Nguyễn Văn Mầu được bổ nhiệm làm giám mục Vĩnh Long.",
+        "highlights": [
+          "Sinh ngày 22/1/1914.",
+          "Ngày 12/7/1968, Nguyễn Văn Mầu được bổ nhiệm làm giám mục Vĩnh Long."
+        ],
+        "fields": null,
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q1678059",
+          "https://vntaiwan.catholic.org.tw/vnchurch/vinhlong/gmmau.htm",
+          "https://www.catholic-hierarchy.org/bishop/bngvm.html"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      },
+      "after": {
+        "biography": "Giacôbê Nguyễn Văn Mầu là giám mục Công giáo người Việt Nam. Ngày 21/9/1940, ông được thụ phong linh mục. Ngày 12/7/1968, ông được bổ nhiệm làm Giám mục Chính tòa Giáo phận Vĩnh Long.",
+        "highlights": [
+          "Ngày 21/9/1940, ông được thụ phong linh mục.",
+          "Ngày 12/7/1968, ông được bổ nhiệm làm Giám mục Chính tòa Giáo phận Vĩnh Long."
+        ],
+        "fields": [
+          "society-law"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q1678059",
+          "https://vntaiwan.catholic.org.tw/vnchurch/vinhlong/gmmau.htm",
+          "https://www.catholic-hierarchy.org/bishop/bngvm.html"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "deceased",
+        "deathDate": "2013-01-31",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://vntaiwan.catholic.org.tw/vnchurch/vinhlong/gmmau.htm"
+        ]
+      }
+    },
+    {
+      "id": "lord-byron",
+      "name": "Lord Byron",
+      "wikidataId": "Q5679",
+      "birthDate": "1788-01-22",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "1824-04-19",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "byron-westminster"
+      ],
+      "dobSourceIds": [
+        "byron-westminster",
+        "byron-hrc"
+      ],
+      "statusSourceId": "byron-westminster",
+      "careerFactIds": [
+        "byron-childe-harold-fame",
+        "byron-greek-independence"
+      ],
+      "countryCode": "GB",
+      "category": "literature",
+      "occupation": [
+        "nhà thơ"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "byron-childe-harold-fame"
+          ],
+          "rationale": "Childe Harold và thơ của Byron là đóng góp trực tiếp cho sáng tác văn học và thơ ca."
+        }
+      ],
+      "wikidataCaptureId": "byron-wikidata",
+      "wikidataLabel": "Lord Byron",
+      "identityClaims": {
+        "label": "Lord Byron",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1788-01-22T00:00:00Z",
+            "references": 5,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1824-04-19T00:00:00Z",
+            "references": 4,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q174193",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q161885",
+            "references": 0
+          },
+          {
+            "rank": "deprecated",
+            "value": "Q145",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q174193",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q49757",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q822146",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q82955",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q18814623",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q333634",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q18939491",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 5
+          },
+          {
+            "rank": "normal",
+            "value": "Q8178443",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q2478141",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q125360586",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q49757"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q5679",
+        "https://www.westminster-abbey.org/abbey-commemorations/commemorations/lord-byron",
+        "https://research.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00421",
+        "https://www.poetryfoundation.org/poets/lord-byron"
+      ],
+      "before": {
+        "biography": "Lord Byron là nhà thơ người Vương quốc Anh. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Thành công của Childe Harold đưa Lord Byron trở nên nổi tiếng; Westminster Abbey liệt kê tác phẩm này cùng Don Juan trong số các bài thơ nổi tiếng nhất của ông.",
+        "highlights": [
+          "Sinh ngày 22/1/1788.",
+          "Thành công của Childe Harold đưa Lord Byron trở nên nổi tiếng; Westminster Abbey liệt kê tác phẩm này cùng Don Juan trong số các bài thơ nổi tiếng nhất của ông."
+        ],
+        "fields": null,
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q5679",
+          "https://www.westminster-abbey.org/abbey-commemorations/commemorations/lord-byron",
+          "https://research.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00421"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      },
+      "after": {
+        "biography": "Lord Byron là nhà thơ người Anh. Sau thành công của Childe Harold, ông kể rằng mình thức dậy một buổi sáng và thấy đã nổi tiếng. Ông ủng hộ cuộc chiến giành độc lập của Hy Lạp và dành cho phong trào này tiền bạc, sức lực, cuối cùng cả mạng sống.",
+        "highlights": [
+          "Sau thành công của Childe Harold, Byron kể rằng ông thức dậy một buổi sáng và thấy mình đã nổi tiếng.",
+          "Byron dành tiền bạc, thời gian, sức lực và cuối cùng cả mạng sống để ủng hộ cuộc chiến giành độc lập của Hy Lạp."
+        ],
+        "fields": [
+          "design-creative"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q5679",
+          "https://www.westminster-abbey.org/abbey-commemorations/commemorations/lord-byron",
+          "https://research.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00421",
+          "https://www.poetryfoundation.org/poets/lord-byron"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "deceased",
+        "deathDate": "1824-04-19",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://www.westminster-abbey.org/abbey-commemorations/commemorations/lord-byron"
+        ]
+      }
+    },
+    {
+      "id": "august-strindberg",
+      "name": "August Strindberg",
+      "wikidataId": "Q7724",
+      "birthDate": "1849-01-22",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "1912-05-14",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "strindberg-museum-life"
+      ],
+      "dobSourceIds": [
+        "strindberg-museum-life",
+        "strindberg-society-bio"
+      ],
+      "statusSourceId": "strindberg-museum-life",
+      "careerFactIds": [
+        "strindberg-four-plays-1907",
+        "strindberg-intima-theater-1907"
+      ],
+      "countryCode": "SE",
+      "category": "literature",
+      "occupation": [
+        "nhà văn và nhà viết kịch"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "strindberg-four-plays-1907",
+            "strindberg-intima-theater-1907"
+          ],
+          "rationale": "Viết kịch và tổ chức sân khấu Intima Teatern là đóng góp trực tiếp cho sáng tác và nghệ thuật sân khấu."
+        }
+      ],
+      "wikidataCaptureId": "strindberg-wikidata",
+      "wikidataLabel": "August Strindberg",
+      "identityClaims": {
+        "label": "August Strindberg",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1849-01-22T00:00:00Z",
+            "references": 23,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1912-05-14T00:00:00Z",
+            "references": 22,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q34",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q34",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q214917",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q49757",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q33231",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1028181",
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "value": "Q6625963",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q18814623",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "value": "Q11774202",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q12144794",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q483501",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q8178443",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q49757"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q7724",
+        "https://www.strindbergsmuseet.se/om-strindberg/strindbergs-liv/",
+        "https://auguststrindberg.se/biography/"
+      ],
+      "before": {
+        "biography": "August Strindberg là nhà văn và nhà viết kịch người Thụy Điển. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 1907, August Strindberg viết bốn vở kịch, trong đó có “Spöksonaten”.",
+        "highlights": [
+          "Sinh ngày 22/1/1849.",
+          "Năm 1907, August Strindberg viết bốn vở kịch, trong đó có “Spöksonaten”."
+        ],
+        "fields": null,
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q7724",
+          "https://www.strindbergsmuseet.se/om-strindberg/strindbergs-liv/barndom/",
+          "https://auguststrindberg.se/biography/",
+          "https://www.strindbergsmuseet.se/om-strindberg/strindbergs-liv/"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      },
+      "after": {
+        "biography": "August Strindberg là nhà văn và nhà viết kịch người Thụy Điển. Năm 1907, ông viết bốn kịch ngắn cho sân khấu riêng và cùng năm mở nhà hát Intima Teatern.",
+        "highlights": [
+          "Năm 1907, ông viết bốn kịch ngắn: Oväder, Brända tomten, Spöksonaten và Pelikanen.",
+          "Tháng 11/1907, ông mở nhà hát Intima Teatern."
+        ],
+        "fields": [
+          "design-creative"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q7724",
+          "https://www.strindbergsmuseet.se/om-strindberg/strindbergs-liv/",
+          "https://auguststrindberg.se/biography/"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "deceased",
+        "deathDate": "1912-05-14",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://www.strindbergsmuseet.se/om-strindberg/strindbergs-liv/"
+        ]
+      }
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "bruno-kreisky",
+      "name": "Bruno Kreisky",
+      "wikidataId": "Q44517",
+      "birthDate": "1911-01-22",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "1990-07-29",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "kreisky-parliament"
+      ],
+      "dobSourceIds": [
+        "kreisky-parliament",
+        "kreisky-vienna-university"
+      ],
+      "statusSourceId": "kreisky-parliament",
+      "careerFactIds": [
+        "kreisky-foreign-minister-1959",
+        "kreisky-chancellor-1970"
+      ],
+      "countryCode": "AT",
+      "category": "politics",
+      "occupation": [
+        "chính khách",
+        "nhà ngoại giao"
+      ],
+      "fields": [
+        "society-law"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "society-law",
+          "careerFactIds": [
+            "kreisky-foreign-minister-1959",
+            "kreisky-chancellor-1970"
+          ],
+          "rationale": "Các nhiệm kỳ Bộ trưởng Ngoại giao và Thủ tướng là trách nhiệm công quyền, ngoại giao và quản trị nhà nước."
+        }
+      ],
+      "wikidataCaptureId": "kreisky-wikidata",
+      "wikidataLabel": "Bruno Kreisky",
+      "identityClaims": {
+        "label": "Bruno Kreisky",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1911-01-22T00:00:00Z",
+            "references": 11,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1990-07-29T00:00:00Z",
+            "references": 11,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q533534",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q40",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q40",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q82955",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q193391",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q40348",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q164236",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q185351",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q82955"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q44517",
+        "https://www.parlament.gv.at/person/969",
+        "https://geschichte.univie.ac.at/de/personen/bruno-kreisky"
+      ],
+      "birthplace": "Vienna, Áo",
+      "birthplaceEvidencePhrase": "Wien",
+      "after": {
+        "shortDescription": "Chính khách Áo; sinh ngày 22/1/1911.",
+        "biography": "Bruno Kreisky là chính khách và nhà ngoại giao Áo. Từ năm 1959 đến 1966, ông giữ chức Bộ trưởng Ngoại giao; từ năm 1970 đến 1983, ông là Thủ tướng Áo.",
+        "highlights": [
+          "Từ năm 1959 đến 1966, ông giữ chức Bộ trưởng Ngoại giao Áo.",
+          "Ông làm Thủ tướng Áo từ tháng 4/1970 đến tháng 5/1983."
+        ],
+        "fields": [
+          "society-law"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q44517",
+          "https://www.parlament.gv.at/person/969",
+          "https://geschichte.univie.ac.at/de/personen/bruno-kreisky"
+        ],
+        "lifeStatus": "deceased",
+        "deathDate": "1990-07-29",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://www.parlament.gv.at/person/969"
+        ]
+      }
+    },
+    {
+      "id": "henri-dutilleux",
+      "name": "Henri Dutilleux",
+      "wikidataId": "Q318829",
+      "birthDate": "1916-01-22",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "2013-05-22",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "dutilleux-bnf"
+      ],
+      "dobSourceIds": [
+        "dutilleux-bnf",
+        "dutilleux-ircam"
+      ],
+      "statusSourceId": "dutilleux-bnf",
+      "careerFactIds": [
+        "dutilleux-grand-prix-rome-1938",
+        "dutilleux-cello-concerto-1970"
+      ],
+      "countryCode": "FR",
+      "category": "music",
+      "occupation": [
+        "nhà soạn nhạc"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "dutilleux-grand-prix-rome-1938",
+            "dutilleux-cello-concerto-1970"
+          ],
+          "rationale": "Giải sáng tác và concerto cello là đóng góp trực tiếp trong sáng tác âm nhạc."
+        }
+      ],
+      "wikidataCaptureId": "dutilleux-wikidata",
+      "wikidataLabel": "Henri Dutilleux",
+      "identityClaims": {
+        "label": "Henri Dutilleux",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1916-01-22T00:00:00Z",
+            "references": 13,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2013-05-22T00:00:00Z",
+            "references": 13,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q142",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q142",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q36834",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q14915627",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1415090",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q486748",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q36834"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q318829",
+        "https://catalogue.bnf.fr/ark:/12148/cb138935467",
+        "https://www.praemiumimperiale.org/en/laureate/dutilleux/",
+        "https://ressources.ircam.fr/en/composer/henri-dutilleux/biography"
+      ],
+      "birthplace": "Angers, Pháp",
+      "birthplaceEvidencePhrase": "Angers",
+      "after": {
+        "shortDescription": "Nhà soạn nhạc Pháp; sinh ngày 22/1/1916.",
+        "biography": "Henri Dutilleux là nhà soạn nhạc Pháp. Năm 1938, ông giành Grand Prix de Rome cho sáng tác. Năm 1970, ông viết concerto cello Tout un monde lointain cho nghệ sĩ Mstislav Rostropovich.",
+        "highlights": [
+          "Năm 1938, ông giành Grand Prix de Rome cho sáng tác âm nhạc.",
+          "Năm 1970, ông viết concerto cello Tout un monde lointain cho nghệ sĩ Mstislav Rostropovich."
+        ],
+        "fields": [
+          "design-creative"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q318829",
+          "https://catalogue.bnf.fr/ark:/12148/cb138935467",
+          "https://www.praemiumimperiale.org/en/laureate/dutilleux/",
+          "https://ressources.ircam.fr/en/composer/henri-dutilleux/biography"
+        ],
+        "lifeStatus": "deceased",
+        "deathDate": "2013-05-22",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://catalogue.bnf.fr/ark:/12148/cb138935467"
+        ]
+      }
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "mau-ordination-1940",
+      "profileId": "nguyen-van-mau",
+      "displayText": "Ngày 21/9/1940, ông được thụ phong linh mục.",
+      "sourceId": "mau-catholic-hierarchy",
+      "evidencePhrase": "21 Sep 1940"
+    },
+    {
+      "id": "mau-bishop-appointment-1968",
+      "profileId": "nguyen-van-mau",
+      "displayText": "Ngày 12/7/1968, ông được bổ nhiệm làm Giám mục Chính tòa Giáo phận Vĩnh Long.",
+      "sourceId": "mau-vntaiwan",
+      "evidencePhrase": "12/07/1968"
+    },
+    {
+      "id": "byron-childe-harold-fame",
+      "profileId": "lord-byron",
+      "displayText": "Sau thành công của Childe Harold, Byron kể rằng ông thức dậy một buổi sáng và thấy mình đã nổi tiếng.",
+      "sourceId": "byron-westminster",
+      "evidencePhrase": "After the success of the former work"
+    },
+    {
+      "id": "byron-greek-independence",
+      "profileId": "lord-byron",
+      "displayText": "Byron dành tiền bạc, thời gian, sức lực và cuối cùng cả mạng sống để ủng hộ cuộc chiến giành độc lập của Hy Lạp.",
+      "sourceId": "byron-poetry-foundation",
+      "evidencePhrase": "finally his life to the Greek war of independence"
+    },
+    {
+      "id": "strindberg-four-plays-1907",
+      "profileId": "august-strindberg",
+      "displayText": "Năm 1907, ông viết bốn kịch ngắn: Oväder, Brända tomten, Spöksonaten và Pelikanen.",
+      "sourceId": "strindberg-museum-life",
+      "evidencePhrase": "Oväder, Brända tomten, Spöksonaten, Pelikanen"
+    },
+    {
+      "id": "strindberg-intima-theater-1907",
+      "profileId": "august-strindberg",
+      "displayText": "Tháng 11/1907, ông mở nhà hát Intima Teatern.",
+      "sourceId": "strindberg-museum-life",
+      "evidencePhrase": "I november startar han Intima teatern"
+    },
+    {
+      "id": "kreisky-foreign-minister-1959",
+      "profileId": "bruno-kreisky",
+      "displayText": "Từ năm 1959 đến 1966, ông giữ chức Bộ trưởng Ngoại giao Áo.",
+      "sourceId": "kreisky-parliament",
+      "evidencePhrase": "Bundesminister für Auswärtige Angelegenheiten 31.07.1959-19.04.1966"
+    },
+    {
+      "id": "kreisky-chancellor-1970",
+      "profileId": "bruno-kreisky",
+      "displayText": "Ông làm Thủ tướng Áo từ tháng 4/1970 đến tháng 5/1983.",
+      "sourceId": "kreisky-parliament",
+      "evidencePhrase": "Bundeskanzler 21.04.1970-24.05.1983"
+    },
+    {
+      "id": "dutilleux-grand-prix-rome-1938",
+      "profileId": "henri-dutilleux",
+      "displayText": "Năm 1938, ông giành Grand Prix de Rome cho sáng tác âm nhạc.",
+      "sourceId": "dutilleux-ircam",
+      "evidencePhrase": "Grand Prix de Rome in 1938"
+    },
+    {
+      "id": "dutilleux-cello-concerto-1970",
+      "profileId": "henri-dutilleux",
+      "displayText": "Năm 1970, ông viết concerto cello Tout un monde lointain cho nghệ sĩ Mstislav Rostropovich.",
+      "sourceId": "dutilleux-praemium",
+      "evidencePhrase": "cello concerto written for Mstislav Rostropovich"
+    }
+  ],
+  "wikidataReview": {
+    "conflicts": []
+  }
+}

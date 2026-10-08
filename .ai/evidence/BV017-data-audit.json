@@ -10,7 +10,7 @@
     "people": 1120,
     "death_date_conflict": 33,
     "p570_without_reference": 1,
-    "deathDatesDirectlyConfirmedByPublisherCapture": 312,
+    "deathDatesDirectlyConfirmedByPublisherCapture": 317,
     "deathDatesDirectlyConfirmedInB015B016": 36,
     "deathDatesDirectlyConfirmedInBaseline": 240,
     "preExistingDeathDateConflictsNotOverwritten": 30,
@@ -31,7 +31,8 @@
     "deathDatesDirectlyConfirmedInBV017January18": 2,
     "deathDatesDirectlyConfirmedInBV017January19": 4,
     "deathDatesDirectlyConfirmedInBV017January20": 2,
-    "deathDatesDirectlyConfirmedInBV017January21": 2
+    "deathDatesDirectlyConfirmedInBV017January21": 2,
+    "deathDatesDirectlyConfirmedInBV017January22": 5
   },
   "people": [
     {
@@ -6674,11 +6675,13 @@
       "activeDeathDates": [
         "2013-01-31"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "2013-01-31",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://vntaiwan.catholic.org.tw/vnchurch/vinhlong/gmmau.htm"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -6802,11 +6805,13 @@
       "activeDeathDates": [
         "1824-04-19"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "1824-04-19",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://www.westminster-abbey.org/abbey-commemorations/commemorations/lord-byron"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -6934,11 +6939,13 @@
       "activeDeathDates": [
         "1912-05-14"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "1912-05-14",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://www.strindbergsmuseet.se/om-strindberg/strindbergs-liv/"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
