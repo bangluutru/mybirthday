@@ -5,7 +5,7 @@
   "scope": {
     "baselinePeople": 1120,
     "changedProfiles": 1079,
-    "changedFields": 3941
+    "changedFields": 3949
   },
   "profiles": [
     {
@@ -3021,6 +3021,7 @@
         "deathDate",
         "deathDatePrecision",
         "deathDateSourceUrls",
+        "fields",
         "lifeStatus"
       ]
     },
@@ -8283,7 +8284,10 @@
           "Lĩnh vực hoạt động: người mẫu."
         ]
       },
-      "remove": []
+      "remove": [
+        "fields",
+        "lifeStatus"
+      ]
     },
     {
       "id": "katharine-hepburn",
@@ -13715,7 +13719,13 @@
           "Lĩnh vực hoạt động: nhà văn, nhà phê bình và nhà làm phim."
         ]
       },
-      "remove": []
+      "remove": [
+        "deathDate",
+        "deathDatePrecision",
+        "deathDateSourceUrls",
+        "fields",
+        "lifeStatus"
+      ]
     },
     {
       "id": "svante-arrhenius",

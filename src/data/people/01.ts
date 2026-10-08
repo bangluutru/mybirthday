@@ -2894,17 +2894,25 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇬🇧",
   "image": "/people/placeholder.svg",
   "shortDescription": "Người mẫu Vương quốc Anh; sinh ngày 16/1/1974.",
-  "biography": "Kate Moss là người mẫu người Vương quốc Anh. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Kate Moss ra mắt bộ sưu tập đầu tiên hợp tác với Topshop năm 2007 dưới nhãn Kate Moss for Topshop.",
-  "highlights": ["Sinh ngày 16/1/1974.", "Kate Moss ra mắt bộ sưu tập đầu tiên hợp tác với Topshop năm 2007 dưới nhãn Kate Moss for Topshop."],
+  "biography": "Kate Moss là người mẫu người Anh. Sarah Doukas phát hiện bà tại sân bay JFK khi bà 14 tuổi; năm 2007, bà ra mắt bộ sưu tập đầu tiên hợp tác với Topshop.",
+  "highlights": [
+    "Sarah Doukas phát hiện Kate Moss tại sân bay JFK năm 1988, khi bà 14 tuổi.",
+    "Năm 2007, bà ra mắt bộ sưu tập đầu tiên hợp tác với Topshop dưới nhãn Kate Moss for Topshop."
+  ],
   "wikidataId": "Q212531",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q212531",
     "https://www.vogue.co.uk/article/kate-moss-biography",
-    "https://catalogue.royalalberthall.com/Record.aspx?id=PERF16257&src=CalmView.Performance"
+    "https://catalogue.royalalberthall.com/Record.aspx?id=PERF16257&src=CalmView.Performance",
+    "https://catalogue.royalalberthall.com/Record.aspx?id=DS%2FUK%2F22168&src=CalmView.Persons"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-04"
-}  ,
+  "verifiedAt": "2026-10-08",
+  "fields": [
+    "design-creative"
+  ],
+  "lifeStatus": "unknown"
+},
 {
   "id": "susan-sontag",
   "slug": "susan-sontag",
@@ -2923,17 +2931,32 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà văn, nhà phê bình và nhà làm phim Hoa Kỳ; sinh ngày 16/1/1933.",
-  "biography": "Susan Sontag là nhà văn, nhà phê bình và nhà làm phim người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Từ năm 1987 đến 1989, Susan Sontag giữ chức chủ tịch American Center of PEN và vận động cho các nhà văn bị đàn áp hoặc bị giam cầm.",
-  "highlights": ["Sinh ngày 16/1/1933.", "Từ năm 1987 đến 1989, Susan Sontag giữ chức chủ tịch American Center of PEN và vận động cho các nhà văn bị đàn áp hoặc bị giam cầm."],
+  "biography": "Susan Sontag là nhà văn và nhà phê bình người Mỹ. Năm 2000, tiểu thuyết In America giúp bà nhận National Book Award; từ năm 1987 đến 1989, bà giữ chức chủ tịch PEN American Center.",
+  "highlights": [
+    "Năm 2000, Susan Sontag nhận National Book Award cho tiểu thuyết In America.",
+    "Từ năm 1987 đến 1989, bà giữ chức chủ tịch PEN American Center."
+  ],
   "wikidataId": "Q152824",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q152824",
     "https://oac.cdlib.org/findaid/ark:/13030/kt2489n7qw",
-    "https://susansontag.com/SusanSontag/index.shtml"
+    "https://susansontag.com/SusanSontag/index.shtml",
+    "https://www.biography.com/authors-writers/susan-sontag",
+    "https://www.encyclopedia.com/arts/culture-magazines/sontag-susan-1933-2004"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-04"
-}  ,
+  "verifiedAt": "2026-10-08",
+  "fields": [
+    "education-thought"
+  ],
+  "lifeStatus": "deceased",
+  "deathDate": "2004-12-28",
+  "deathDatePrecision": "day",
+  "deathDateSourceUrls": [
+    "https://www.biography.com/authors-writers/susan-sontag",
+    "https://www.encyclopedia.com/arts/culture-magazines/sontag-susan-1933-2004"
+  ]
+},
 {
   "id": "dian-fossey",
   "slug": "dian-fossey",
@@ -2952,23 +2975,118 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà động vật học và linh trưởng học Hoa Kỳ; sinh ngày 16/1/1932.",
-  "biography": "Dian Fossey là nhà động vật học và linh trưởng học người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Dian Fossey học tại San Jose State College và nhận bằng cử nhân năm 1954; bà lấy bằng tiến sĩ tại Đại học Cambridge năm 1976.",
-  "highlights": ["Sinh ngày 16/1/1932.", "Dian Fossey học tại San Jose State College và nhận bằng cử nhân năm 1954; bà lấy bằng tiến sĩ tại Đại học Cambridge năm 1976."],
+  "biography": "Dian Fossey nghiên cứu linh trưởng tại Cambridge và nhận bằng tiến sĩ năm 1976. Năm 1978, bà lập Digit Fund để tài trợ tuần tra bảo vệ khỉ đột trước nạn săn trộm.",
+  "highlights": [
+    "Năm 1976, Dian Fossey nhận bằng tiến sĩ tại Đại học Cambridge dựa trên nghiên cứu của bà.",
+    "Năm 1978, bà lập Digit Fund để tài trợ tuần tra kiểm lâm bảo vệ khỉ đột."
+  ],
   "wikidataId": "Q234224",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q234224",
     "https://www.nationalgeographic.com/adventure/article/140116-dian-fossey-google-doodle-national-geographic-gorillas-birthday",
-    "https://archives.mcmaster.ca/index.php/fossey-dian-2"
+    "https://archives.mcmaster.ca/index.php/fossey-dian-2",
+    "https://www.biography.com/scientists/dian-fossey",
+    "https://www.encyclopedia.com/people/science-and-technology/zoology-biographies/dian-fossey",
+    "https://gorillas.org/about/dian-fossey/"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-04",
+  "verifiedAt": "2026-10-08",
   "deathDate": "1985-12-26",
   "lifeStatus": "deceased",
   "deathDateSourceUrls": [
-    "https://www.nationalgeographic.com/adventure/article/140116-dian-fossey-google-doodle-national-geographic-gorillas-birthday"
+    "https://www.nationalgeographic.com/adventure/article/140116-dian-fossey-google-doodle-national-geographic-gorillas-birthday",
+    "https://www.biography.com/scientists/dian-fossey"
   ],
-  "deathDatePrecision": "day"
-}  ,
+  "deathDatePrecision": "day",
+  "fields": [
+    "science-research",
+    "earth-environment"
+  ]
+},
+
+{
+  "id": "my-tam",
+  "slug": "my-tam",
+  "name": "Mỹ Tâm",
+  "birthDate": "1981-01-16",
+  "birthYear": 1981,
+  "birthMonth": 1,
+  "birthDay": 16,
+  "occupation": [
+    "ca sĩ",
+    "nhạc sĩ"
+  ],
+  "category": "artist",
+  "categoryLabel": "Nghệ thuật",
+  "countryCode": "VN",
+  "countryName": "Việt Nam",
+  "countryFlag": "🇻🇳",
+  "birthplace": "Đà Nẵng, Việt Nam",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Ca sĩ, nhạc sĩ Việt Nam; nhận Best Asian Artist tại MAMA 2012.",
+  "biography": "Phan Thị Mỹ Tâm là ca sĩ, nhạc sĩ Việt Nam, sinh tại Đà Nẵng. Năm 2012, cô nhận giải Best Asian Artist tại MAMA; album Tâm 9 đạt vị trí số 10 trên Billboard World Albums tuần 20–27/1.",
+  "highlights": [
+    "Năm 2012, Mỹ Tâm nhận giải Best Asian Artist tại Mnet Asian Music Awards (MAMA).",
+    "Album Tâm 9 đứng ở vị trí số 10 trong bảng Billboard World Albums cho tuần 20–27/1."
+  ],
+  "wikidataId": "Q1993589",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q1993589",
+    "https://tuoitre.vn/my-tam.html",
+    "https://www.qobuz.com/us-en/interpreter/my-tam/2642090",
+    "https://english.vov.vn/en/culture/my-tam-wins-best-asian-artist-at-mama-2012-251034.vov",
+    "https://vnexpress.net/album-moi-cua-my-tam-vao-top-10-bang-xep-hang-billboard-3703039.html"
+  ],
+  "region": "vietnam",
+  "verifiedAt": "2026-10-08",
+  "lifeStatus": "unknown",
+  "fields": [
+    "design-creative"
+  ]
+},
+{
+  "id": "jennie",
+  "slug": "jennie",
+  "name": "Jennie",
+  "birthDate": "1996-01-16",
+  "birthYear": 1996,
+  "birthMonth": 1,
+  "birthDay": 16,
+  "occupation": [
+    "ca sĩ",
+    "rapper"
+  ],
+  "category": "artist",
+  "categoryLabel": "Nghệ thuật",
+  "countryCode": "KR",
+  "countryName": "Hàn Quốc",
+  "countryFlag": "🇰🇷",
+  "birthplace": "Hàn Quốc",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Ca sĩ, rapper Hàn Quốc; thành viên BLACKPINK và nghệ sĩ solo.",
+  "biography": "Jennie là ca sĩ, rapper người Hàn Quốc. Cô ra mắt solo với đĩa đơn SOLO năm 2018 và tiếp tục hoạt động solo với album Ruby phát hành năm 2025.",
+  "highlights": [
+    "Năm 2018, Jennie ra mắt solo với đĩa đơn đầu tay mang tên SOLO.",
+    "Năm 2025, cô phát hành album solo Ruby, đánh dấu bước tiếp theo trong sự nghiệp solo."
+  ],
+  "wikidataId": "Q26262599",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q26262599",
+    "https://ygfamily.com/en/artists/blackpink/profile",
+    "https://news.nate.com/view/20230116n02680?mid=e0600",
+    "https://thetvdb.com/people/8010329-jennie-kim",
+    "https://music.apple.com/us/artist/jennie/913944?uo=2",
+    "https://music.apple.com/us/album/ruby/1795979743",
+    "https://www.ygfamily.com/en/artists/jennie/discography/498"
+  ],
+  "region": "asia",
+  "verifiedAt": "2026-10-08",
+  "lifeStatus": "unknown",
+  "fields": [
+    "design-creative"
+  ]
+},
+
 {
   "id": "benjamin-franklin",
   "slug": "benjamin-franklin",

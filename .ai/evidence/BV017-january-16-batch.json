@@ -1,0 +1,1543 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-16",
+  "capturedAt": "2026-10-08T16:58:44.618886Z",
+  "sourceCaptures": [
+    {
+      "id": "kate-vogue",
+      "publisher": "British Vogue",
+      "url": "https://www.vogue.co.uk/article/kate-moss-biography",
+      "publisherHost": "www.vogue.co.uk",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 597139,
+      "sha256": "0f8fffe2d2cf0920730967fbe5f17b69b9aa43749a567ddc7ac6af573012b898",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "esist reading about, and she's someone whose antics fascinate. She's a style icon for a generation. Born on 16 January 1974, Croydon. Kate Moss aged 14 was discovered by Sarah Doukas, the founder of Storm model agency, at JFK airport in 1988 and was to pioneer the 'waif' look. At 18, she became the face of Calvin Klein, most famously fronting his underwear campaign with Mark Wahlberg and appearing nu … eone whose antics fascinate. She's a style icon for a generation. Born on 16 January 1974, Croydon. Kate Moss aged 14 was discovered by Sarah Doukas, the founder of Storm model agency, at JFK airport in 1988 and was to pioneer the 'waif' look. At 18, she became the face of Calvin Klein, most famously fronting his underwear campaign with Mark Wahlberg and appearing nude for his perfume adverts f …  Lila Grace with *Dazed & Confused* editor Jefferson Hack. They separated in 2004. She launched her first collection for Topshop in 2007 under the Kate Moss for Topshop label, featuring pieces inspired by her own style. Her second collection for Topshop was for autumn/winter 2010-11. After appearing in Longchamp's campaigns for eight seasons, she collaborated on a collection of handbags with the brand in ",
+      "excerptSha256": "e134833d535dd8be590d6397c6dd656197eabae7041ed7692e3913348b299ef6"
+    },
+    {
+      "id": "kate-rah",
+      "publisher": "Royal Albert Hall Archive",
+      "url": "https://catalogue.royalalberthall.com/Record.aspx?id=DS%2FUK%2F22168&src=CalmView.Persons",
+      "publisherHost": "catalogue.royalalberthall.com",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 11852,
+      "sha256": "bed1dcff0bd39a06761bcc018c0863f5060e56a922e780bd0e4987cdf54c1e05",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "H OUR CATALOGUE SEARCH OUR EVENT HISTORY SEARCH OUR PERFORMERS CONTACT Record Code DS/UK/22168 Name Moss; Kate (16 January 1974-); English model and businesswoman Dates 16 January 1974- Gender Female Place of Birth/Origin London, England (born) Biography Katherine Ann Moss is an English model and businesswoman. Born in Croydon, Greater London, she was discovered in 1988 at age 14 by Sarah Doukas, founder …  Katherine Ann Moss is an English model and businesswoman. Born in Croydon, Greater London, she was discovered in 1988 at age 14 by Sarah Doukas, founder of Storm Model Management, at JFK Airport in New York City. Arriving at the end of the \"supermodel era\", Moss rose to fame in the mid 1990s as part of the heroin chic fashion trend. Her collaborations with Calvin Klein brought her to fashion icon status. … s. She is known for her waifish figure, and role in size zero fashion. She received an award at the 2013 British Fashion Awards to acknowledge her contribution to fashion over 25 years. Moss is also a contributing fashion editor for British Vogue. Moss has had her own clothing range and has been involved in musical projects. She has won accolades for modelling. In 2007, Time named her one of the world's ",
+      "excerptSha256": "00b94c93763c9e3a618c3d42fa2f9ba95437b3869e068235d36ce9af652e3e58"
+    },
+    {
+      "id": "susan-biography",
+      "publisher": "Biography.com",
+      "url": "https://www.biography.com/authors-writers/susan-sontag",
+      "publisherHost": "www.biography.com",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 484113,
+      "sha256": "afc8b4d727bff77893d9c60c5ac795d771316cf4e4c557237159c99d6dc23d8c",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "May 26, 2022 3:14 PM EDT Share Article (1933-2004) What Is Susan Sontag Known For? Susan Sontag was born on January 16, 1933, in New York City. In 1964, she gained recognition for her essay “Notes on Camp.” Sontag became widely known for her nonfiction works including Against Interpretation and Other Essays (1966), On Photography (1976) and Illness as Metaphor (1978), as well as for novels like The Vo … or (1978), as well as for novels like The Volcano Lover (1992) and In America (2000), for which she won the National Book Award. Sontag died from cancer on December 28, 2004, in New York. Early Life and Education Susan Sontag was born on January 16, 1933, in New York, New York to Mildred and Jack Rosenblatt, with the couple later having a second daughter, Judith. Sontag’s father was a fur trader, and her … e The Volcano Lover (1992) and In America (2000), for which she won the National Book Award. Sontag died from cancer on December 28, 2004, in New York. Early Life and Education Susan Sontag was born on January 16, 1933, in New York, New York to Mildred and Jack Rosenblatt, with the couple later having a second daughter, Judith. Sontag’s father was a fur trader, and her parents lived overseas for his business while",
+      "excerptSha256": "cfc1da25b8ee03e54c78a6b147ae578b0240e2ebcc1c7f83a02dc28414fe9b82"
+    },
+    {
+      "id": "susan-encyclopedia",
+      "publisher": "Encyclopedia.com (Gale)",
+      "url": "https://www.encyclopedia.com/arts/culture-magazines/sontag-susan-1933-2004",
+      "publisherHost": "www.encyclopedia.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 80205,
+      "sha256": "48b9b8f01c0e1dcedebf4e51e6c82910604920d0fa7b7b85d21b16a71bcf6852",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "ontag, Susan 1933–2004 Sontag, Susan 1933–2004 gale views updated Sontag, Susan 1933–2004 PERSONAL: Born January 16, 1933, in New York , NY; died of leukemia December 28, 2004, in New York , NY; married Philip Rieff (a professor of sociology), 1950 (divorced, 1958); children: David. Education: Attended University of California , Berkeley, 1948–49; University of Chicago , B.A., 1951; Harvard Univers … –2004 gale views updated Sontag, Susan 1933–2004 PERSONAL: Born January 16, 1933, in New York , NY; died of leukemia December 28, 2004, in New York , NY; married Philip Rieff (a professor of sociology), 1950 (divorced, 1958); children: David. Education: Attended University of California , Berkeley, 1948–49; University of Chicago , B.A., 1951; Harvard University , M.A. (English), 1954, M.A. (philosophy), 1955, P … mscript , 1971, and Promised Lands , 1974; director of stage play Waiting for Godot , 1993. MEMBER: PEN American Center (president, 1987–89), American Academy of Arts and Letters, American Academy of Arts and Sciences (elected 1993). AWARDS, HONORS: Fellowships from American Association of University Women , 1957, Rockefeller Foundation , 1966, 1974, Guggenheim Memorial Foundation, 1966, 1975, and MacArthur",
+      "excerptSha256": "5c4a661b35a858954d2a6385980d79ec0bb548571e47ce9bff46b8c1aad42fd5"
+    },
+    {
+      "id": "dian-biography",
+      "publisher": "Biography.com",
+      "url": "https://www.biography.com/scientists/dian-fossey",
+      "publisherHost": "www.biography.com",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 472982,
+      "sha256": "cb6712e8376538cdb4b6432210f3b7067771e6624d2756f7769820de7d526609",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "he Mist (1983), which was later adapted for a film starring Sigourney Weaver. Early Life Fossey was born on January 16, 1932, in San Francisco, California, and grew up with her mother and stepfather. Developing an affinity for animals at a young age, throughout her youth, Fossey was an avid horseback rider and an aspiring veterinarian. However, after enrolling in pre-veterinary studies at the Universi … etween her fieldwork there and obtaining a Ph.D. based on her research at Cambridge University. She earned her degree in 1976, and later accepted a visiting associate professorship at Cornell University. Published in 1983, Fossey's Gorillas in the Mist went on to become a best-seller. A film with the same name was also released in 1988, starring Sigourney Weaver as Fossey. Death and Legacy Considered t … he gorillas not only via the media, but also by destroying poachers' dogs and traps. Tragically, on December 26, 1985, Fossey was found hacked to death, presumably by poachers, at her Rwandan forest camp. No assailant has ever been found or prosecuted in her murder. Today, Dian Fossey's work continues through the Dian Fossey Gorilla Fund International (formerly named the Digit Fund), under whic",
+      "excerptSha256": "559cb6c69d48677e32a303a5117f9fa9d46d13b6739f44a4e33149423479fbed"
+    },
+    {
+      "id": "dian-encyclopedia",
+      "publisher": "Encyclopedia.com (Gale)",
+      "url": "https://www.encyclopedia.com/people/science-and-technology/zoology-biographies/dian-fossey",
+      "publisherHost": "www.encyclopedia.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 126465,
+      "sha256": "992cf94b0d32903b02db0ba3e334c322f73f7e73700f5e6b961df5308c71375b",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "mountain gorilla and to her eventual demise high in the fog enshrouded mountains of eastern Africa. Born in San Francisco on January 16, 1932, Fossey was fascinated with animals from an early age. She entered the University of California at Davis to study pre- veterinary medicine but found it difficult to master courses in chemistry and physics. Instead she completed a B.A. in 1954 from San Jose State University in oc … as pictured in National Geographic and Gorillas in the Mist , and Fossey honored him by forming the Digit Fund in 1978. This organization would go on to become the Dian Fossey Gorilla Fund, a conservation group that continued into the early 2000s to raise money and organize efforts to protect gorillas. It is perhaps all too easy to emphasize Fossey’s contribution to primate conservation at the e …  She spent almost her entire remaining life studying gorillas in Karisoke, leaving only to gain her PhD in 1976 from Cambridge University under the guidance of ethologist Robert A. Hinde and again in 1980 to briefly teach at Cornell University . She was murdered in Karisoke in 1985. Field Methods . As recounted in Fossey’s 1983 book, Gorillas in the Mist , preparations for the field inclu",
+      "excerptSha256": "8efce03bb4be72bf51f0e297843d597c7c84f80a0ec122caaba93ddb98ea4b8e"
+    },
+    {
+      "id": "dian-natgeo",
+      "publisher": "National Geographic",
+      "url": "https://www.nationalgeographic.com/adventure/article/140116-dian-fossey-google-doodle-national-geographic-gorillas-birthday",
+      "publisherHost": "www.nationalgeographic.com",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 250294,
+      "sha256": "01736f80bd86abdccff9e02eea4d55761dd2dc3469864c22065113534ae65eb5",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "leading authority on the study of endangered mountain gorillas in the forests of Rwanda. Fossey was born in San Francisco , California, on January 16, 1932. She graduated from San Jose State College in 1954 with a bachelor's degree in occupational therapy. Nearly ten years later, in 1963, she decided to take out a bank loan and withdraw her life savings to embark on a journey to Africa. After arriving in Tanzania, she met Louis Lea … I copied their vocalizations, including some startling deep belching noises. Tragically, Fossey was murdered at her research camp on Mount Visoke on December 26, 1985. There is speculation that her murder was related to her efforts to conserve the dwindling gorilla populations in Rwanda. The search for her killers is ongoing, and her research with gorillas continues today through the Dian Fossey Gorilla Fund International . Much of Fossey's r",
+      "excerptSha256": "ae179316fdbddb01dfbf00f77334325de8c6dd58bf0e74ea47b807ff086d7228"
+    },
+    {
+      "id": "dian-gorilla-org",
+      "publisher": "The Gorilla Organization",
+      "url": "https://gorillas.org/about/dian-fossey/",
+      "publisherHost": "gorillas.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 187501,
+      "sha256": "8e336ae674aafa407f0aaddc995bf38d417833d223acf2899656693e2923e539",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "enemies, there’s no doubt that she played a vital role in saving mountain gorillas from extinction. In 1978, she established the Digit Fund, named after one of her favourite gorillas, Digit, who was brutally murdered by poachers that same year. The Digit Fund helped finance vital ranger patrols, keeping gorillas safe from hunters. Meanwhile her autobiography and the 1987 Hollywood movie inspired, “ Gorillas in the M … ork. Despite facing both economic and political obstacles, she successfully fought to establish the first dedicated ranger patrols. Alongside her research and frontline conservation, she also made it her mission to bring the plight of the great apes to the world’s attention. Saving the \"Gorilla's in the Mist\" Though Dr. Dian Fossey’s robust approach to conservation and fierce determination to safeguard the ",
+      "excerptSha256": "713a0eb26d329877e648fe16d7b234966fccaf80d7955ef4c207741c4c6d1609"
+    },
+    {
+      "id": "mytam-tuoitre",
+      "publisher": "Tuổi Trẻ Online",
+      "url": "https://tuoitre.vn/my-tam.html",
+      "publisherHost": "tuoitre.vn",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 408269,
+      "sha256": "d747173bb5d093ad13eba672a4e611eed70bcc846c25cfd215a3e6b53ffadca7",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": ": 0918.033.133 Tag: Mỹ Tâm Mỹ Tâm Thông tin chung Họ tên: Phan Thị Mỹ Tâm Nghệ danh: Họa mi tóc nâu Ngày sinh: 16 tháng 1 năm 1981 Nơi sinh: Đà Nẵng Học vấn: Trường Đại học Văn hóa Nghệ thuật Quân đội Nghề nghiệp: Ca sĩ, nhạc sĩ, diễn viên, đạo diễn phim, nhà sản xuất Quốc tịch: Việt Nam Sự nghiệp Hoạt động nghệ thuật từ 1999 - hiện nay Giải thưởng 2019: Super Icon (ELLE Style Awards). 2018: Ca sĩ ấn tượng  … âm Thông tin chung Họ tên: Phan Thị Mỹ Tâm Nghệ danh: Họa mi tóc nâu Ngày sinh: 16 tháng 1 năm 1981 Nơi sinh: Đà Nẵng Học vấn: Trường Đại học Văn hóa Nghệ thuật Quân đội Nghề nghiệp: Ca sĩ, nhạc sĩ, diễn viên, đạo diễn phim, nhà sản xuất Quốc tịch: Việt Nam Sự nghiệp Hoạt động nghệ thuật từ 1999 - hiện nay Giải thưởng 2019: Super Icon (ELLE Style Awards). 2018: Ca sĩ ấn tượng (Ấn tượng VTV). 20",
+      "excerptSha256": "209fbab7db1abd139091a6b40d964e883a3b891170ee9e1cae66c41bb37bba3e"
+    },
+    {
+      "id": "mytam-qobuz",
+      "publisher": "Qobuz",
+      "url": "https://www.qobuz.com/us-en/interpreter/my-tam/2642090",
+      "publisherHost": "www.qobuz.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 371978,
+      "sha256": "8146f5ba9a67947e6dd4de4180e8f39105956538ccd78a82d9dfa90483a6332f",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "s downloads. From $10.83/month 1 month free Subscribe My Tam Phan Thị Mỹ Tâm, also known as My Tam, born on January 16, 1981, in Đà Nẵng, Vietnam, is a Vietnamese singer-songwriter and actress. She studied at the conservatory of Hô Chi Minh-Ville and began her career with the album Mãi Yêu in 2001. Her third studio album, Yesterday & Now , set a sales record in the Vietnamese music market in 2003. Not … onth 1 month free Subscribe My Tam Phan Thị Mỹ Tâm, also known as My Tam, born on January 16, 1981, in Đà Nẵng, Vietnam, is a Vietnamese singer-songwriter and actress. She studied at the conservatory of Hô Chi Minh-Ville and began her career with the album Mãi Yêu in 2001. Her third studio album, Yesterday & Now , set a sales record in the Vietnamese music market in 2003. Notable achievements inc",
+      "excerptSha256": "ebf2bb6442685acea1e169c291581ea7c79bffa7c5ef6c63e89f528cf70ff52a"
+    },
+    {
+      "id": "mytam-vov",
+      "publisher": "Voice of Vietnam (VOV)",
+      "url": "https://english.vov.vn/en/culture/my-tam-wins-best-asian-artist-at-mama-2012-251034.vov",
+      "publisherHost": "english.vov.vn",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 198115,
+      "sha256": "0c63186f80897d01673828c61880dea73cd6f95a8dc063afe596bbccbc26c4c6",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " at MAMA 2012 Saturday, 18:50, 01/12/2012 Copy link thành công! (VOV) -Singer My Tam has become the first and only Vietnamese artist to receive the Best Asian Artist title at the Mnet Asian Music Awards (MAMA) 2012. The award ceremony was held in Hong Kong on November 30. My Tam could not attend the award ceremony in person because of her Vietnam Idol 2012 responsibilities. In a video message shown at the eve … ink thành công! (VOV) -Singer My Tam has become the first and only Vietnamese artist to receive the Best Asian Artist title at the Mnet Asian Music Awards (MAMA) 2012. The award ceremony was held in Hong Kong on November 30. My Tam could not attend the award ceremony in person because of her Vietnam Idol 2012 responsibilities. In a video message shown at the event, Tam said it was her great honour to be awarded such wonderful spiritual gift t",
+      "excerptSha256": "bd55cdf8d6b83df44e28f0440d0aac0c1e292a5ed7dbe72a61b78d5f04eb3bd7"
+    },
+    {
+      "id": "mytam-vnexpress",
+      "publisher": "VnExpress",
+      "url": "https://vnexpress.net/album-moi-cua-my-tam-vao-top-10-bang-xep-hang-billboard-3703039.html",
+      "publisherHost": "vnexpress.net",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 269573,
+      "sha256": "a8efa6f7589913200c746949452d9c3649d8a94a702b6a0e58022bdc8c9fc3e4",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " --> Album mới của Mỹ Tâm vào top 10 bảng xếp hạng Billboard \"Tâm 9\" ở vị trí số 10 trong hạng mục \"World Albums\" (Album thế giới), tính theo tuần từ ngày 20 đến 27/1. Tâm 9 đứng sau một số sản phẩm như Love Yourself: Her, You Never Walk Alone, Wings của BTS, Mixtape của Stray Kids, True Color của JBJ... Bảng xếp hạng \"World Albums\" dựa trên doanh số các album bán chạy trên thế giới (trừ n … ạng Billboard \"Tâm 9\" ở vị trí số 10 trong hạng mục \"World Albums\" (Album thế giới), tính theo tuần từ ngày 20 đến 27/1. Tâm 9 đứng sau một số sản phẩm như Love Yourself: Her, You Never Walk Alone, Wings của BTS, Mixtape của Stray Kids, True Color của JBJ... Bảng xếp hạng \"World Albums\" dựa trên doanh số các album bán chạy trên thế giới (trừ nước Mỹ), số liệu do Nielsen Music cung cấp. Nhiều tên ",
+      "excerptSha256": "97a6e428fa99132d8a15c7467157a95d04513a4d0908948567eb94b207d2b367"
+    },
+    {
+      "id": "jennie-yg-profile",
+      "publisher": "YG Entertainment",
+      "url": "https://ygfamily.com/en/artists/blackpink/profile",
+      "publisherHost": "ygfamily.com",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytesRead": 35270,
+      "sha256": "729c667b7f6e9e532c2252947c893780b323b4e8b8b1ef892ccd5be4d7883033",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " + ${#temporals.format(artistDebut.debut, 'yyyy.MM.dd')}\"> --> --> 한국 --> --> member JISOO 95.01.03 JENNIE 96.01.16 ROSÉ 97.02.11 LISA 97.03.27 awards & achievements ACHIEVEMENTS & AWARDS 2026 01 40th Golden Disc Awards [Best Digital Song] 2025 12 RIAA GOLD Certification 2025 12 Asia Artist Awards 2025 [10 LEGENDARY FEMALE GROUP] 2023 02 12th Circle Chart Music Awards [Girl Group of the Year,",
+      "excerptSha256": "987955510518dc2e6c8a86ab2ff45f84968294b85e39cb482db6fafd45fa7447"
+    },
+    {
+      "id": "jennie-mydaily",
+      "publisher": "MyDaily (via Nate)",
+      "url": "https://news.nate.com/view/20230116n02680?mid=e0600",
+      "publisherHost": "news.nate.com",
+      "status": 200,
+      "contentType": "text/html; charset=euc-kr",
+      "bytesRead": 156072,
+      "sha256": "03ef27cbe802f6d4c1cd473a983849604dba9ca56bba3f418da91f2cb84e1f38",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "에 귀여운 토끼 탈을 뒤집어쓴 채 소파에 앉아 포즈 취하고 있다. 제니의 러블리한 매력이 사진에 가득하다. 제니가 글에서 언급한 '호깨비'는 팬들 사이에선 매니저로 알려져 있다. 제니는 1996년 1월 16일생이다. 제니의 생일 기념 사진에 많으 네티즌들이 축하 메시지를 보내고 있다. 한편 제니가 소속된 블랙핑크는 약 150만 명을 동원하는 K팝 걸그룹 최대 규모의 월드투어를 진행 중이다. [사진 = 블랙핑크 제니] (이승록 기자 roku@mydaily.co.kr) [HOT NEWS] 女아이돌 \"열애설 사진, 너무 심한게 찍히면…\" 진짜? 설현, 지민이랑 합동 생파 했나?…코에 저건 뭐? ''결혼'' 고성희, 멕시코서 아찔 비키니…몸매 대박 최예나 역대급 파격 패션…사진 본 우기 \"너무 좋은데\" \"혼자 보 … 운 토끼 탈을 뒤집어쓴 채 소파에 앉아 포즈 취하고 있다. 제니의 러블리한 매력이 사진에 가득하다. 제니가 글에서 언급한 '호깨비'는 팬들 사이에선 매니저로 알려져 있다. 제니는 1996년 1월 16일생이다. 제니의 생일 기념 사진에 많으 네티즌들이 축하 메시지를 보내고 있다. 한편 제니가 소속된 블랙핑크는 약 150만 명을 동원하는 K팝 걸그룹 최대 규모의 월드투어를 진행 중이다. [사진 = 블랙핑크 제니] (이승록 기자 roku@mydaily.co.kr) [HOT NEWS] 女아이돌 \"열애설 사진, 너무 심한게 찍히면…\" 진짜? 설현, 지민이랑 합동 생파 했나?…코에 저건 뭐? ''결혼'' 고성희, 멕시코서 아찔 비키니…몸매 대박 최예나 역대급 파격 패션…사진 본 우기 \"너무 좋은데\" \"혼자",
+      "excerptSha256": "a7a4551ece45389472ad1150b47265d4bfcca93fb4cf0e1557d4203d9ecd6d6a"
+    },
+    {
+      "id": "jennie-tvdb",
+      "publisher": "TheTVDB",
+      "url": "https://thetvdb.com/people/8010329-jennie-kim",
+      "publisherHost": "thetvdb.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 110529,
+      "sha256": "2ba23bdee54b21ee751eaea818547677c4296b03a20f56621a393d7e2a929a9d",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "7일에는 오드아틀리에(OA)라는 회사를 설립했습니다. Aliases 제니 English 한국어 General Filmography Born In Seoul, South Korea Born January 16, 1996 Gender Female On Other Sites IMDB Instagram Official Website TV Maze TheMovieDB.com Wikidata Wikipedia Race East Asian or Pacific Islander Created August 12, 2021 by Administrator admin Modified November 24, 2024 by kooyuh Popularity Most Recent Alphabetically All Series Movies  … 돌'로 연기 데뷔를 했습니다. 2023년 11월 7일에는 오드아틀리에(OA)라는 회사를 설립했습니다. Aliases 제니 English 한국어 General Filmography Born In Seoul, South Korea Born January 16, 1996 Gender Female On Other Sites IMDB Instagram Official Website TV Maze TheMovieDB.com Wikidata Wikipedia Race East Asian or Pacific Islander Created August 12, 2021 by Administrator admin Modified November 24, 2024 by kooyuh Popularity Most Recent Alphabetica",
+      "excerptSha256": "15c29796dc8e7e071e653b3625735ba98e8fb451b1298490b62180c0688506f2"
+    },
+    {
+      "id": "jennie-apple-music",
+      "publisher": "Apple Music",
+      "url": "https://music.apple.com/us/artist/jennie/913944?uo=2",
+      "publisherHost": "music.apple.com",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 476063,
+      "sha256": "a064226704697129d4fd4e54dc6e42209586615f9effcdc3fa274f40af30c919",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": ". “The song is all about knowing your worth, and living like there’s no second version of you.”   Born 김제니 (aka Jennie Kim) in Seongnam in 1996, JENNIE recognized her own worth early on, when she moved by herself to New Zealand at age nine to learn English. She would return to Korea five years later, in 2010, to pursue her dream of becoming a K-pop star. By 2016, she had debuted in BLACKPINK, which became one of the mos …  followed suit, confirming her versatility as both a singer and rapper across seamless collabs with Dua Lipa and Childish Gambino, amongst others. She cemented her affinity for high-profile teamwork with her 2026 remix of Tame Impala’s “Dracula,” which transformed a funky earworm into a viral sensation, thanks—once again—to the sheer confidence of her vocal performance.\",\"image\":\"https://is1-ssl.mzstatic.c",
+      "excerptSha256": "3a3e8900f72eee23172445b977834ba4598de5e54326d9000e3bc4f2f84560fb"
+    },
+    {
+      "id": "jennie-yg-discography",
+      "publisher": "YG Entertainment",
+      "url": "https://www.ygfamily.com/en/artists/jennie/discography/498",
+      "publisherHost": "www.ygfamily.com",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytesRead": 26447,
+      "sha256": "63b6b999668b95494d2881090c568e0c1175a5c821aa16b550b29d6f7f377053",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "-> PROFILE --> DISCOGRAPHY --> CONCERT --> PRIVATE STAGE --> SCHEDULE --> --> SOLO 1st SINGLE ALBUM 2018-11-12 JENNIE, a member of YG Entertainment's leading girl group BLACKPINK, unveils her first single SOLO exuding a different vibe from her music with BLACKPINK. Showcasing a more mature, delicate musicality, and a diverse range of charms, JENNIE's first leap into the sky as a solo art … --> DISCOGRAPHY --> CONCERT --> PRIVATE STAGE --> SCHEDULE --> --> SOLO 1st SINGLE ALBUM 2018-11-12 JENNIE, a member of YG Entertainment's leading girl group BLACKPINK, unveils her first single SOLO exuding a different vibe from her music with BLACKPINK. Showcasing a more mature, delicate musicality, and a diverse range of charms, JENNIE's first leap into the sky as a solo artist is highly ant … h BLACKPINK. Showcasing a more mature, delicate musicality, and a diverse range of charms, JENNIE's first leap into the sky as a solo artist is highly anticipated. Track List DISC 1 SOLO All Albums --> You & Me SPECIAL SINGLE 2023-10-06 SOLO 1st SINGLE ALBUM 2018-11-12 top FAMILY SITE YG recruit YG LIFE YG SELECT YG AUDITION PRIVACY POLICY CONTACT All contents of YG Entertainment are protected by copyright. ⓒYG Enter",
+      "excerptSha256": "d5e7d584a30eb83de50dafa7446ac9b1648eca43640e313b68598a49d2a3d5e6"
+    },
+    {
+      "id": "wikidata-Q212531",
+      "publisher": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q212531.json",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 101902,
+      "sha256": "5ab35fb64127f3ba7f466164834a52be1f091c5b870853468c6d9ada20c03f12",
+      "verificationMethod": "direct-http-json+reviewed-claims",
+      "excerpt": "{\"id\":\"Q212531\",\"label\":\"Kate Moss\",\"claims\":{\"P31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":2}],\"P569\":[{\"rank\":\"normal\",\"value\":\"+1974-01-16T00:00:00Z\",\"precision\":11,\"calendar\":\"http://www.wikidata.org/entity/Q1985727\",\"references\":6}],\"P570\":[],\"P27\":[{\"rank\":\"normal\",\"value\":\"Q145\",\"references\":1}],\"P106\":[{\"rank\":\"normal\",\"value\":\"Q4610556\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q3501317\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q43845\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q3357567\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q177220\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q3286043\",\"references\":1}]}}",
+      "excerptSha256": "906e314b22bc5687e178b460d045ca8f8ed913330b9a452e0a6b1f6590926638",
+      "qid": "Q212531",
+      "label": "Kate Moss",
+      "claims": {
+        "P31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "P569": [
+          {
+            "rank": "normal",
+            "value": "+1974-01-16T00:00:00Z",
+            "precision": 11,
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "references": 6
+          }
+        ],
+        "P570": [],
+        "P27": [
+          {
+            "rank": "normal",
+            "value": "Q145",
+            "references": 1
+          }
+        ],
+        "P106": [
+          {
+            "rank": "normal",
+            "value": "Q4610556",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3501317",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q43845",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3357567",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q177220",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q3286043",
+            "references": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "wikidata-Q152824",
+      "publisher": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q152824.json",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 232410,
+      "sha256": "18f33bb4a015d32b440e479aafcdef7a754f2f7b96beb2124d78bfc8f91ba143",
+      "verificationMethod": "direct-http-json+reviewed-claims",
+      "excerpt": "{\"id\":\"Q152824\",\"label\":\"Susan Sontag\",\"claims\":{\"P31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":1}],\"P569\":[{\"rank\":\"normal\",\"value\":\"+1933-01-16T00:00:00Z\",\"precision\":11,\"calendar\":\"http://www.wikidata.org/entity/Q1985727\",\"references\":12}],\"P570\":[{\"rank\":\"normal\",\"value\":\"+2004-12-28T00:00:00Z\",\"precision\":11,\"calendar\":\"http://www.wikidata.org/entity/Q1985727\",\"references\":13}],\"P27\":[{\"rank\":\"normal\",\"value\":\"Q30\",\"references\":0}],\"P106\":[{\"rank\":\"normal\",\"value\":\"Q36180\",\"references\":4},{\"rank\":\"normal\",\"value\":\"Q2526255\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q28389\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q121594\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q11774202\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q6625963\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q4964182\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q4263842\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q1930187\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q28692502\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q4220892\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q3387717\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q1476215\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q201788\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q6051619\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q3455803\",\"references\":1}]}}",
+      "excerptSha256": "e468ebd3936ff14a5ff31be71d95c8ff5ce352a28062362aa6c7de1ac9ce86cd",
+      "qid": "Q152824",
+      "label": "Susan Sontag",
+      "claims": {
+        "P31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "P569": [
+          {
+            "rank": "normal",
+            "value": "+1933-01-16T00:00:00Z",
+            "precision": 11,
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "references": 12
+          }
+        ],
+        "P570": [
+          {
+            "rank": "normal",
+            "value": "+2004-12-28T00:00:00Z",
+            "precision": 11,
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "references": 13
+          }
+        ],
+        "P27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 0
+          }
+        ],
+        "P106": [
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "value": "Q2526255",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q121594",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q11774202",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q6625963",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q4964182",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q4263842",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1930187",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q28692502",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q4220892",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3387717",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1476215",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q201788",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q6051619",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3455803",
+            "references": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "wikidata-Q234224",
+      "publisher": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q234224.json",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 97908,
+      "sha256": "1cf7ddfd1119ee64eb7d794dfe9eb1e3367d5b3b1003a610d877b3268bb8b07f",
+      "verificationMethod": "direct-http-json+reviewed-claims",
+      "excerpt": "{\"id\":\"Q234224\",\"label\":\"Dian Fossey\",\"claims\":{\"P31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":1}],\"P569\":[{\"rank\":\"normal\",\"value\":\"+1932-01-16T00:00:00Z\",\"precision\":11,\"calendar\":\"http://www.wikidata.org/entity/Q1985727\",\"references\":6}],\"P570\":[{\"rank\":\"preferred\",\"value\":\"+1985-12-26T00:00:00Z\",\"precision\":11,\"calendar\":\"http://www.wikidata.org/entity/Q1985727\",\"references\":6},{\"rank\":\"normal\",\"value\":\"+1985-12-27T00:00:00Z\",\"precision\":11,\"calendar\":\"http://www.wikidata.org/entity/Q1985727\",\"references\":1}],\"P27\":[{\"rank\":\"normal\",\"value\":\"Q30\",\"references\":1}],\"P106\":[{\"rank\":\"normal\",\"value\":\"Q4773904\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q16825962\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q16831721\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q350979\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q3400985\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q36180\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q15839134\",\"references\":1}]}}",
+      "excerptSha256": "8398d24e81a882eef26de3f9f1993d921438b6d224b9d70b2a016fb6a45a6add",
+      "qid": "Q234224",
+      "label": "Dian Fossey",
+      "claims": {
+        "P31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "P569": [
+          {
+            "rank": "normal",
+            "value": "+1932-01-16T00:00:00Z",
+            "precision": 11,
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "references": 6
+          }
+        ],
+        "P570": [
+          {
+            "rank": "preferred",
+            "value": "+1985-12-26T00:00:00Z",
+            "precision": 11,
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "references": 6
+          },
+          {
+            "rank": "normal",
+            "value": "+1985-12-27T00:00:00Z",
+            "precision": 11,
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "references": 1
+          }
+        ],
+        "P27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 1
+          }
+        ],
+        "P106": [
+          {
+            "rank": "normal",
+            "value": "Q4773904",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q16825962",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q16831721",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q350979",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3400985",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q15839134",
+            "references": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "wikidata-Q1993589",
+      "publisher": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q1993589.json",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 36159,
+      "sha256": "5f4bab03a05add8b29b06a7ac376876223360dd914ffcd983b9f645e19e6a93c",
+      "verificationMethod": "direct-http-json+reviewed-claims",
+      "excerpt": "{\"id\":\"Q1993589\",\"label\":\"Mỹ Tâm\",\"claims\":{\"P31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":1}],\"P569\":[{\"rank\":\"normal\",\"value\":\"+1981-01-16T00:00:00Z\",\"precision\":11,\"calendar\":\"http://www.wikidata.org/entity/Q1985727\",\"references\":1}],\"P570\":[],\"P27\":[{\"rank\":\"normal\",\"value\":\"Q881\",\"references\":0}],\"P106\":[{\"rank\":\"normal\",\"value\":\"Q177220\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q639669\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q33999\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q2526255\",\"references\":1}]}}",
+      "excerptSha256": "a05a8c6a3eb71cbca0293fa12338a57a0e6b0d8ee06ee7f46324ee160ab80ed7",
+      "qid": "Q1993589",
+      "label": "Mỹ Tâm",
+      "claims": {
+        "P31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "P569": [
+          {
+            "rank": "normal",
+            "value": "+1981-01-16T00:00:00Z",
+            "precision": 11,
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "references": 1
+          }
+        ],
+        "P570": [],
+        "P27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 0
+          }
+        ],
+        "P106": [
+          {
+            "rank": "normal",
+            "value": "Q177220",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q33999",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q2526255",
+            "references": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "wikidata-Q26262599",
+      "publisher": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q26262599.json",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 101097,
+      "sha256": "2f8bcaab086891ff7e87b8405c127f5a7713857fce12fbd6ff4eb057901ff94f",
+      "verificationMethod": "direct-http-json+reviewed-claims",
+      "excerpt": "{\"id\":\"Q26262599\",\"label\":\"Jennie\",\"claims\":{\"P31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":0}],\"P569\":[{\"rank\":\"normal\",\"value\":\"+1996-01-16T00:00:00Z\",\"precision\":11,\"calendar\":\"http://www.wikidata.org/entity/Q1985727\",\"references\":1}],\"P570\":[],\"P27\":[{\"rank\":\"normal\",\"value\":\"Q884\",\"references\":1}],\"P106\":[{\"rank\":\"normal\",\"value\":\"Q2252262\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q4610556\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q488205\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q5716684\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q13235160\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q55960555\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q183945\",\"references\":1},{\"rank\":\"preferred\",\"value\":\"Q177220\",\"references\":2}]}}",
+      "excerptSha256": "27063ff4e130a94251f26e163a38828c8b14d207409cf131a676fbf90ec04be8",
+      "qid": "Q26262599",
+      "label": "Jennie",
+      "claims": {
+        "P31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 0
+          }
+        ],
+        "P569": [
+          {
+            "rank": "normal",
+            "value": "+1996-01-16T00:00:00Z",
+            "precision": 11,
+            "calendar": "http://www.wikidata.org/entity/Q1985727",
+            "references": 1
+          }
+        ],
+        "P570": [],
+        "P27": [
+          {
+            "rank": "normal",
+            "value": "Q884",
+            "references": 1
+          }
+        ],
+        "P106": [
+          {
+            "rank": "normal",
+            "value": "Q2252262",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q4610556",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q488205",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q5716684",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q13235160",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q55960555",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q183945",
+            "references": 1
+          },
+          {
+            "rank": "preferred",
+            "value": "Q177220",
+            "references": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "jennie-apple-ruby",
+      "publisher": "Apple Music",
+      "url": "https://music.apple.com/us/album/ruby/1795979743",
+      "publisherHost": "music.apple.com",
+      "status": 200,
+      "contentType": "text/html",
+      "bytesRead": 510464,
+      "sha256": "89e56508b4e3dab74b329b8ff060899a8b92aa1640541ed4fe8d7fe7a554a45e",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Jennie Kim debuted as a K-pop performer in BLACKPINK in 2016 and released her first solo song, the finger-snapping “Solo,” two years later. But it wasn’t until her debut solo album, 2025’s Ruby, that she got a more profound chance to self-reflect through her music.",
+      "excerptSha256": "513881d201eb58bffe6f96958de6be8e7c47a23336587bd612d40cfa7f0e8a8c"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "kate-moss",
+      "name": "Kate Moss",
+      "wikidataId": "Q212531",
+      "wikidataLabel": "Kate Moss",
+      "birthDate": "1974-01-16",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "kate-vogue",
+        "kate-rah"
+      ],
+      "careerFactIds": [
+        "kate-discovery-1988",
+        "kate-topshop-2007"
+      ],
+      "countryCode": "GB",
+      "category": "artist",
+      "occupation": [
+        "người mẫu"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "kate-discovery-1988",
+            "kate-topshop-2007"
+          ],
+          "rationale": "Sự nghiệp người mẫu, chiến dịch thời trang và hợp tác thiết kế của bà thuộc lĩnh vực thời trang và sáng tạo."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-Q212531",
+      "identityClaims": {
+        "label": "Kate Moss",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1974-01-16T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 6
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q145",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q145",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q4610556",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3501317",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q43845",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3357567",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q177220",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q3286043",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q4610556"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q212531",
+        "https://www.vogue.co.uk/article/kate-moss-biography",
+        "https://catalogue.royalalberthall.com/Record.aspx?id=PERF16257&src=CalmView.Performance",
+        "https://catalogue.royalalberthall.com/Record.aspx?id=DS%2FUK%2F22168&src=CalmView.Persons"
+      ],
+      "before": {
+        "biography": "Kate Moss là người mẫu người Vương quốc Anh. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Kate Moss ra mắt bộ sưu tập đầu tiên hợp tác với Topshop năm 2007 dưới nhãn Kate Moss for Topshop.",
+        "highlights": [
+          "Sinh ngày 16/1/1974.",
+          "Kate Moss ra mắt bộ sưu tập đầu tiên hợp tác với Topshop năm 2007 dưới nhãn Kate Moss for Topshop."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q212531",
+          "https://www.vogue.co.uk/article/kate-moss-biography",
+          "https://catalogue.royalalberthall.com/Record.aspx?id=PERF16257&src=CalmView.Performance"
+        ],
+        "verifiedAt": "2026-10-04",
+        "fields": null,
+        "lifeStatus": null
+      },
+      "after": {
+        "biography": "Kate Moss là người mẫu người Anh. Sarah Doukas phát hiện bà tại sân bay JFK khi bà 14 tuổi; năm 2007, bà ra mắt bộ sưu tập đầu tiên hợp tác với Topshop.",
+        "highlights": [
+          "Sarah Doukas phát hiện Kate Moss tại sân bay JFK năm 1988, khi bà 14 tuổi.",
+          "Năm 2007, bà ra mắt bộ sưu tập đầu tiên hợp tác với Topshop dưới nhãn Kate Moss for Topshop."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q212531",
+          "https://www.vogue.co.uk/article/kate-moss-biography",
+          "https://catalogue.royalalberthall.com/Record.aspx?id=PERF16257&src=CalmView.Performance",
+          "https://catalogue.royalalberthall.com/Record.aspx?id=DS%2FUK%2F22168&src=CalmView.Persons"
+        ],
+        "verifiedAt": "2026-10-08",
+        "fields": [
+          "design-creative"
+        ],
+        "lifeStatus": "unknown"
+      }
+    },
+    {
+      "id": "susan-sontag",
+      "name": "Susan Sontag",
+      "wikidataId": "Q152824",
+      "wikidataLabel": "Susan Sontag",
+      "birthDate": "1933-01-16",
+      "lifeStatus": "deceased",
+      "deathDate": "2004-12-28",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "susan-biography",
+        "susan-encyclopedia"
+      ],
+      "statusSourceId": "susan-biography",
+      "dobSourceIds": [
+        "susan-biography",
+        "susan-encyclopedia"
+      ],
+      "careerFactIds": [
+        "sontag-national-book-award",
+        "sontag-pen-presidency"
+      ],
+      "countryCode": "US",
+      "category": "literature",
+      "occupation": [
+        "nhà văn",
+        "nhà phê bình",
+        "nhà làm phim"
+      ],
+      "fields": [
+        "education-thought"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "education-thought",
+          "careerFactIds": [
+            "sontag-national-book-award",
+            "sontag-pen-presidency"
+          ],
+          "rationale": "Tiểu thuyết và các bài phê bình có giải thưởng tạo nên đóng góp văn học và tư tưởng của bà."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-Q152824",
+      "identityClaims": {
+        "label": "Susan Sontag",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1933-01-16T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 12
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2004-12-28T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 13
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "value": "Q2526255",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q121594",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q11774202",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q6625963",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q4964182",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q4263842",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1930187",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q28692502",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q4220892",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3387717",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1476215",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q201788",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q6051619",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3455803",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q36180",
+          "Q2526255"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q152824",
+        "https://oac.cdlib.org/findaid/ark:/13030/kt2489n7qw",
+        "https://susansontag.com/SusanSontag/index.shtml",
+        "https://www.biography.com/authors-writers/susan-sontag",
+        "https://www.encyclopedia.com/arts/culture-magazines/sontag-susan-1933-2004"
+      ],
+      "before": {
+        "biography": "Susan Sontag là nhà văn, nhà phê bình và nhà làm phim người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Từ năm 1987 đến 1989, Susan Sontag giữ chức chủ tịch American Center of PEN và vận động cho các nhà văn bị đàn áp hoặc bị giam cầm.",
+        "highlights": [
+          "Sinh ngày 16/1/1933.",
+          "Từ năm 1987 đến 1989, Susan Sontag giữ chức chủ tịch American Center of PEN và vận động cho các nhà văn bị đàn áp hoặc bị giam cầm."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q152824",
+          "https://oac.cdlib.org/findaid/ark:/13030/kt2489n7qw",
+          "https://susansontag.com/SusanSontag/index.shtml"
+        ],
+        "verifiedAt": "2026-10-04",
+        "fields": null,
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      },
+      "after": {
+        "biography": "Susan Sontag là nhà văn và nhà phê bình người Mỹ. Năm 2000, tiểu thuyết In America giúp bà nhận National Book Award; từ năm 1987 đến 1989, bà giữ chức chủ tịch PEN American Center.",
+        "highlights": [
+          "Năm 2000, Susan Sontag nhận National Book Award cho tiểu thuyết In America.",
+          "Từ năm 1987 đến 1989, bà giữ chức chủ tịch PEN American Center."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q152824",
+          "https://oac.cdlib.org/findaid/ark:/13030/kt2489n7qw",
+          "https://susansontag.com/SusanSontag/index.shtml",
+          "https://www.biography.com/authors-writers/susan-sontag",
+          "https://www.encyclopedia.com/arts/culture-magazines/sontag-susan-1933-2004"
+        ],
+        "verifiedAt": "2026-10-08",
+        "fields": [
+          "education-thought"
+        ],
+        "lifeStatus": "deceased",
+        "deathDate": "2004-12-28",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://www.biography.com/authors-writers/susan-sontag",
+          "https://www.encyclopedia.com/arts/culture-magazines/sontag-susan-1933-2004"
+        ]
+      }
+    },
+    {
+      "id": "dian-fossey",
+      "name": "Dian Fossey",
+      "wikidataId": "Q234224",
+      "wikidataLabel": "Dian Fossey",
+      "birthDate": "1932-01-16",
+      "lifeStatus": "deceased",
+      "deathDate": "1985-12-26",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "dian-natgeo",
+        "dian-biography"
+      ],
+      "statusSourceId": "dian-natgeo",
+      "dobSourceIds": [
+        "dian-biography",
+        "dian-encyclopedia"
+      ],
+      "careerFactIds": [
+        "fossey-cambridge-degree",
+        "fossey-digit-fund"
+      ],
+      "countryCode": "US",
+      "category": "scientist",
+      "occupation": [
+        "nhà động vật học",
+        "nhà linh trưởng học"
+      ],
+      "fields": [
+        "science-research",
+        "earth-environment"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "science-research",
+          "careerFactIds": [
+            "fossey-cambridge-degree",
+            "fossey-digit-fund"
+          ],
+          "rationale": "Bằng tiến sĩ và hoạt động nghiên cứu khỉ đột là đóng góp khoa học, nghiên cứu trực tiếp."
+        },
+        {
+          "field": "earth-environment",
+          "careerFactIds": [
+            "fossey-digit-fund"
+          ],
+          "rationale": "Quỹ Digit tài trợ tuần tra bảo vệ khỉ đột và sinh cảnh của chúng."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-Q234224",
+      "identityClaims": {
+        "label": "Dian Fossey",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1932-01-16T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 6
+          }
+        ],
+        "p570": [
+          {
+            "rank": "preferred",
+            "value": "+1985-12-26T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 6
+          },
+          {
+            "rank": "normal",
+            "value": "+1985-12-27T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q4773904",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q16825962",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q16831721",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q350979",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3400985",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q15839134",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q16825962",
+          "Q16831721"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q234224",
+        "https://www.nationalgeographic.com/adventure/article/140116-dian-fossey-google-doodle-national-geographic-gorillas-birthday",
+        "https://archives.mcmaster.ca/index.php/fossey-dian-2",
+        "https://www.biography.com/scientists/dian-fossey",
+        "https://www.encyclopedia.com/people/science-and-technology/zoology-biographies/dian-fossey",
+        "https://gorillas.org/about/dian-fossey/"
+      ],
+      "before": {
+        "biography": "Dian Fossey là nhà động vật học và linh trưởng học người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Dian Fossey học tại San Jose State College và nhận bằng cử nhân năm 1954; bà lấy bằng tiến sĩ tại Đại học Cambridge năm 1976.",
+        "highlights": [
+          "Sinh ngày 16/1/1932.",
+          "Dian Fossey học tại San Jose State College và nhận bằng cử nhân năm 1954; bà lấy bằng tiến sĩ tại Đại học Cambridge năm 1976."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q234224",
+          "https://www.nationalgeographic.com/adventure/article/140116-dian-fossey-google-doodle-national-geographic-gorillas-birthday",
+          "https://archives.mcmaster.ca/index.php/fossey-dian-2"
+        ],
+        "verifiedAt": "2026-10-04",
+        "fields": null,
+        "deathDateSourceUrls": [
+          "https://www.nationalgeographic.com/adventure/article/140116-dian-fossey-google-doodle-national-geographic-gorillas-birthday"
+        ]
+      },
+      "after": {
+        "biography": "Dian Fossey nghiên cứu linh trưởng tại Cambridge và nhận bằng tiến sĩ năm 1976. Năm 1978, bà lập Digit Fund để tài trợ tuần tra bảo vệ khỉ đột trước nạn săn trộm.",
+        "highlights": [
+          "Năm 1976, Dian Fossey nhận bằng tiến sĩ tại Đại học Cambridge dựa trên nghiên cứu của bà.",
+          "Năm 1978, bà lập Digit Fund để tài trợ tuần tra kiểm lâm bảo vệ khỉ đột."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q234224",
+          "https://www.nationalgeographic.com/adventure/article/140116-dian-fossey-google-doodle-national-geographic-gorillas-birthday",
+          "https://archives.mcmaster.ca/index.php/fossey-dian-2",
+          "https://www.biography.com/scientists/dian-fossey",
+          "https://www.encyclopedia.com/people/science-and-technology/zoology-biographies/dian-fossey",
+          "https://gorillas.org/about/dian-fossey/"
+        ],
+        "verifiedAt": "2026-10-08",
+        "fields": [
+          "science-research",
+          "earth-environment"
+        ],
+        "deathDateSourceUrls": [
+          "https://www.nationalgeographic.com/adventure/article/140116-dian-fossey-google-doodle-national-geographic-gorillas-birthday",
+          "https://www.biography.com/scientists/dian-fossey"
+        ],
+        "lifeStatus": "deceased",
+        "deathDate": "1985-12-26",
+        "deathDatePrecision": "day"
+      }
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "my-tam",
+      "slug": "my-tam",
+      "name": "Mỹ Tâm",
+      "wikidataId": "Q1993589",
+      "wikidataLabel": "Mỹ Tâm",
+      "birthDate": "1981-01-16",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "mytam-tuoitre",
+        "mytam-qobuz"
+      ],
+      "careerFactIds": [
+        "mytam-mama-2012",
+        "mytam-billboard-tam9"
+      ],
+      "countryCode": "VN",
+      "category": "artist",
+      "occupation": [
+        "ca sĩ",
+        "nhạc sĩ"
+      ],
+      "birthplace": "Đà Nẵng, Việt Nam",
+      "birthplaceEvidencePhrase": "Đà Nẵng",
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "mytam-mama-2012",
+            "mytam-billboard-tam9"
+          ],
+          "rationale": "Sự nghiệp ca hát, sáng tác và thành tích với album nhạc thuộc lĩnh vực sáng tạo."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-Q1993589",
+      "identityClaims": {
+        "label": "Mỹ Tâm",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1981-01-16T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q881",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q177220",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q33999",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q2526255",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q177220",
+          "Q639669"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q1993589",
+        "https://tuoitre.vn/my-tam.html",
+        "https://www.qobuz.com/us-en/interpreter/my-tam/2642090",
+        "https://english.vov.vn/en/culture/my-tam-wins-best-asian-artist-at-mama-2012-251034.vov",
+        "https://vnexpress.net/album-moi-cua-my-tam-vao-top-10-bang-xep-hang-billboard-3703039.html"
+      ],
+      "reviewNotes": "Không có capture hiện thời độc lập để kết luận tình trạng living; giữ unknown."
+    },
+    {
+      "id": "jennie",
+      "slug": "jennie",
+      "name": "Jennie",
+      "wikidataId": "Q26262599",
+      "wikidataLabel": "Jennie",
+      "birthDate": "1996-01-16",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "jennie-yg-profile",
+        "jennie-mydaily",
+        "jennie-tvdb"
+      ],
+      "careerFactIds": [
+        "jennie-solo-debut",
+        "jennie-ruby-2025"
+      ],
+      "countryCode": "KR",
+      "category": "artist",
+      "occupation": [
+        "ca sĩ",
+        "rapper"
+      ],
+      "birthplace": "Hàn Quốc",
+      "birthplaceEvidencePhrase": "South Korea",
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "jennie-solo-debut",
+            "jennie-ruby-2025"
+          ],
+          "rationale": "Hoạt động solo với các đĩa đơn và album nhạc thuộc lĩnh vực sáng tạo."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-Q26262599",
+      "identityClaims": {
+        "label": "Jennie",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 0
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1996-01-16T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q884",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q884",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q2252262",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q4610556",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q488205",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q5716684",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q13235160",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q55960555",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q183945",
+            "references": 1
+          },
+          {
+            "rank": "preferred",
+            "value": "Q177220",
+            "references": 2
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q177220",
+          "Q2252262"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q26262599",
+        "https://ygfamily.com/en/artists/blackpink/profile",
+        "https://news.nate.com/view/20230116n02680?mid=e0600",
+        "https://thetvdb.com/people/8010329-jennie-kim",
+        "https://music.apple.com/us/artist/jennie/913944?uo=2",
+        "https://www.ygfamily.com/en/artists/jennie/discography/498",
+        "https://music.apple.com/us/album/ruby/1795979743"
+      ],
+      "reviewNotes": "Các capture về thành phố nơi sinh không thống nhất: Apple Music nói Seongnam, TheTVDB nói Seoul. Chỉ lưu Hàn Quốc ở cấp quốc gia; giữ lifeStatus unknown."
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "kate-discovery-1988",
+      "profileId": "kate-moss",
+      "displayText": "Sarah Doukas phát hiện Kate Moss tại sân bay JFK năm 1988, khi bà 14 tuổi.",
+      "sourceId": "kate-rah",
+      "evidencePhrase": "discovered in 1988 at age 14 by Sarah Doukas"
+    },
+    {
+      "id": "kate-topshop-2007",
+      "profileId": "kate-moss",
+      "displayText": "Năm 2007, bà ra mắt bộ sưu tập đầu tiên hợp tác với Topshop dưới nhãn Kate Moss for Topshop.",
+      "sourceId": "kate-vogue",
+      "evidencePhrase": "first collection for Topshop in 2007"
+    },
+    {
+      "id": "sontag-national-book-award",
+      "profileId": "susan-sontag",
+      "displayText": "Năm 2000, Susan Sontag nhận National Book Award cho tiểu thuyết In America.",
+      "sourceId": "susan-biography",
+      "evidencePhrase": "In America (2000), for which she won the National Book Award"
+    },
+    {
+      "id": "sontag-pen-presidency",
+      "profileId": "susan-sontag",
+      "displayText": "Từ năm 1987 đến 1989, bà giữ chức chủ tịch PEN American Center.",
+      "sourceId": "susan-encyclopedia",
+      "evidencePhrase": "PEN American Center (president, 1987–89)"
+    },
+    {
+      "id": "fossey-cambridge-degree",
+      "profileId": "dian-fossey",
+      "displayText": "Năm 1976, Dian Fossey nhận bằng tiến sĩ tại Đại học Cambridge dựa trên nghiên cứu của bà.",
+      "sourceId": "dian-biography",
+      "evidencePhrase": "She earned her degree in 1976"
+    },
+    {
+      "id": "fossey-digit-fund",
+      "profileId": "dian-fossey",
+      "displayText": "Năm 1978, bà lập Digit Fund để tài trợ tuần tra kiểm lâm bảo vệ khỉ đột.",
+      "sourceId": "dian-gorilla-org",
+      "evidencePhrase": "In 1978, she established the Digit Fund"
+    },
+    {
+      "id": "mytam-mama-2012",
+      "profileId": "my-tam",
+      "displayText": "Năm 2012, Mỹ Tâm nhận giải Best Asian Artist tại Mnet Asian Music Awards (MAMA).",
+      "sourceId": "mytam-vov",
+      "evidencePhrase": "Best Asian Artist title at the Mnet Asian Music Awards (MAMA) 2012"
+    },
+    {
+      "id": "mytam-billboard-tam9",
+      "profileId": "my-tam",
+      "displayText": "Album Tâm 9 đứng ở vị trí số 10 trong bảng Billboard World Albums cho tuần 20–27/1.",
+      "sourceId": "mytam-vnexpress",
+      "evidencePhrase": "\"Tâm 9\" ở vị trí số 10 trong hạng mục \"World Albums\""
+    },
+    {
+      "id": "jennie-solo-debut",
+      "profileId": "jennie",
+      "displayText": "Năm 2018, Jennie ra mắt solo với đĩa đơn đầu tay mang tên SOLO.",
+      "sourceId": "jennie-yg-discography",
+      "evidencePhrase": "unveils her first single SOLO"
+    },
+    {
+      "id": "jennie-ruby-2025",
+      "profileId": "jennie",
+      "displayText": "Năm 2025, cô phát hành album solo Ruby, đánh dấu bước tiếp theo trong sự nghiệp solo.",
+      "sourceId": "jennie-apple-ruby",
+      "evidencePhrase": "debut solo album, 2025’s Ruby"
+    }
+  ],
+  "wikidataReview": {
+    "conflicts": [
+      {
+        "profileId": "dian-fossey",
+        "property": "P570",
+        "claimValue": "+1985-12-27T00:00:00Z",
+        "resolution": "date-confirmed",
+        "reviewNote": "Snapshot trực tiếp có preferred 1985-12-26 và một normal-rank claim 1985-12-27. National Geographic ghi bà bị sát hại ngày 26/12/1985 và direct-source death review đã chốt 26/12; giữ ngày địa phương đó, ghi nhận claim 27/12 là xung đột không được nguồn trực tiếp hỗ trợ.",
+        "sourceIds": [
+          "dian-natgeo"
+        ]
+      }
+    ]
+  }
+}
