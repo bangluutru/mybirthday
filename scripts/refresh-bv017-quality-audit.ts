@@ -49,6 +49,7 @@ const january19BatchPath = `${root}/.ai/evidence/BV017-january-19-batch.json`;
 const january20BatchPath = `${root}/.ai/evidence/BV017-january-20-batch.json`;
 const january21BatchPath = `${root}/.ai/evidence/BV017-january-21-batch.json`;
 const january22BatchPath = `${root}/.ai/evidence/BV017-january-22-batch.json`;
+const january23BatchPath = `${root}/.ai/evidence/BV017-january-23-batch.json`;
 const qualityAuditPath = `${root}/.ai/evidence/BV017-quality-audit.json`;
 const audit = JSON.parse(readFileSync(auditPath, 'utf8')) as WikidataAudit;
 const newProfilesEvidence = JSON.parse(readFileSync(newProfilesPath, 'utf8')) as {
@@ -213,6 +214,12 @@ const january21Batch = JSON.parse(readFileSync(january21BatchPath, 'utf8')) as {
   sourceCaptures: { id: string; status: number; sha256: string; excerpt: string; excerptSha256: string; verificationMethod: string }[];
 };
 const january22Batch = JSON.parse(readFileSync(january22BatchPath, 'utf8')) as {
+  legacyProfiles: { id: string; lifeStatus: string; deathDate: string | null; deathDateSourceIds?: string[]; careerFactIds: string[] }[];
+  newProfiles: { id: string; lifeStatus: string; deathDate: string | null; deathDateSourceIds?: string[]; careerFactIds: string[] }[];
+  careerFacts: { id: string; profileId: string; sourceId: string; evidencePhrase: string }[];
+  sourceCaptures: { id: string; status: number; sha256: string; excerpt: string; excerptSha256: string; verificationMethod: string }[];
+};
+const january23Batch = JSON.parse(readFileSync(january23BatchPath, 'utf8')) as {
   legacyProfiles: { id: string; lifeStatus: string; deathDate: string | null; deathDateSourceIds?: string[]; careerFactIds: string[] }[];
   newProfiles: { id: string; lifeStatus: string; deathDate: string | null; deathDateSourceIds?: string[]; careerFactIds: string[] }[];
   careerFacts: { id: string; profileId: string; sourceId: string; evidencePhrase: string }[];
@@ -543,6 +550,21 @@ for (const fact of january22Batch.careerFacts) {
 const january22ReviewedProfileIds = new Set([...january22Batch.legacyProfiles, ...january22Batch.newProfiles]
   .filter((profile) => profile.careerFactIds.length >= 2 && profile.careerFactIds.every((factId) => january22Batch.careerFacts.some((fact) => fact.id === factId && jan22FactIdsByProfile.get(profile.id)?.has(factId))))
   .map((profile) => profile.id));
+const jan23SourceById = new Map(january23Batch.sourceCaptures.map((source) => [source.id, source]));
+const jan23FactIdsByProfile = new Map<string, Set<string>>();
+for (const fact of january23Batch.careerFacts) {
+  const source = jan23SourceById.get(fact.sourceId);
+  if (!source || source.status !== 200 || !/^[a-f0-9]{64}$/.test(source.sha256)
+    || source.excerptSha256 !== createHash('sha256').update(source.excerpt).digest('hex')
+    || !source.verificationMethod.startsWith('direct-http')
+    || !source.excerpt.includes(fact.evidencePhrase)) continue;
+  const factIds = jan23FactIdsByProfile.get(fact.profileId) || new Set<string>();
+  factIds.add(fact.id);
+  jan23FactIdsByProfile.set(fact.profileId, factIds);
+}
+const january23ReviewedProfileIds = new Set([...january23Batch.legacyProfiles, ...january23Batch.newProfiles]
+  .filter((profile) => profile.careerFactIds.length >= 2 && profile.careerFactIds.every((factId) => january23Batch.careerFacts.some((fact) => fact.id === factId && jan23FactIdsByProfile.get(profile.id)?.has(factId))))
+  .map((profile) => profile.id));
 const contentEvidenceById = new Map(contentEvidence.facts.map((fact) => [fact.id, fact]));
 const qualityFactIds = new Set(qualityCorrections.facts.map((fact) => fact.id));
 const qualityCaptureById = new Map(qualityCaptures.captures.map((capture) => [capture.id, capture]));
@@ -846,11 +868,32 @@ const directlyCapturedJanuary22DeathIds = new Set([...january22Batch.legacyProfi
       return candidates.some((dateText) => source.excerpt.toLocaleLowerCase().includes(dateText.toLocaleLowerCase())) || numericDate.test(source.excerpt);
     }))
   .map((profile) => profile.id));
+const directlyCapturedJanuary23DeathIds = new Set([...january23Batch.legacyProfiles, ...january23Batch.newProfiles]
+  .filter((profile) => Boolean(profile.deathDate && profile.lifeStatus === 'deceased')
+    && (profile.deathDateSourceIds || []).some((sourceId) => {
+      const source = jan23SourceById.get(sourceId);
+      if (!source || source.status !== 200 || !/^[a-f0-9]{64}$/.test(source.sha256)
+        || source.excerptSha256 !== createHash('sha256').update(source.excerpt).digest('hex')
+        || !source.verificationMethod.startsWith('direct-http')) return false;
+      const [year, month, day] = (profile.deathDate || '').split('-');
+      const d = Number(day);
+      const m = Number(month);
+      const monthNamesEn = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+      const monthNamesFr = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
+      const monthNamesEs = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+      const monthNamesSv = ['januari', 'februari', 'mars', 'april', 'maj', 'juni', 'juli', 'augusti', 'september', 'oktober', 'november', 'december'];
+      const monthNamesDe = ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'];
+      const candidates = [profile.deathDate || '', `${monthNamesEn[m - 1]} ${d}, ${year}`, `${d} ${monthNamesEn[m - 1]} ${year}`, `${d} ${monthNamesFr[m - 1]} ${year}`, `${d} ${monthNamesSv[m - 1]} ${year}`, `${d}. ${monthNamesDe[m - 1]} ${year}`, `${d} de ${monthNamesEs[m - 1]} de ${year}`, `${d} de ${monthNamesEs[m - 1]} ${year}`];
+      const numericDate = new RegExp(`(?:^|\\D)0?${d}\\s*[./-]\\s*0?${m}\\s*[./-]\\s*${year}(?:\\D|$)`);
+      return candidates.some((dateText) => source.excerpt.toLocaleLowerCase().includes(dateText.toLocaleLowerCase())) || numericDate.test(source.excerpt);
+    }))
+  .map((profile) => profile.id));
 const conflictReviewById = new Map(deathEvidence.conflictReviews.map((review) => [review.id, review]));
 const reviewedConflictIds = deathEvidence.conflictReviews.map((review) => review.id).sort();
 const reviewedConflictIdSet = new Set(reviewedConflictIds);
 const correctionEvidenceIds = new Set(deathEvidence.baselineCorrections.map((correction) => correction.id));
-deathEvidence.verifiedPeopleCount = new Set([...correctionEvidenceIds, ...directlyCapturedNewDeathIds, ...directlyCapturedJanuary5DeathIds, ...directlyCapturedJanuary6DeathIds, ...directlyCapturedJanuary7DeathIds, ...directlyCapturedJanuary8DeathIds, ...directlyCapturedJanuary9DeathIds, ...directlyCapturedJanuary10DeathIds, ...directlyCapturedJanuary11DeathIds, ...directlyCapturedJanuary12DeathIds, ...directlyCapturedJanuary13DeathIds, ...directlyCapturedJanuary14DeathIds, ...directlyCapturedJanuary15DeathIds, ...directlyCapturedJanuary16DeathIds, ...directlyCapturedJanuary17DeathIds, ...directlyCapturedJanuary18DeathIds, ...directlyCapturedJanuary19DeathIds, ...directlyCapturedJanuary20DeathIds, ...directlyCapturedJanuary21DeathIds, ...directlyCapturedJanuary22DeathIds]).size;
+deathEvidence.verifiedPeopleCount = new Set([...correctionEvidenceIds, ...directlyCapturedNewDeathIds, ...directlyCapturedJanuary5DeathIds, ...directlyCapturedJanuary6DeathIds, ...directlyCapturedJanuary7DeathIds, ...directlyCapturedJanuary8DeathIds, ...directlyCapturedJanuary9DeathIds, ...directlyCapturedJanuary10DeathIds, ...directlyCapturedJanuary11DeathIds, ...directlyCapturedJanuary12DeathIds, ...directlyCapturedJanuary13DeathIds, ...directlyCapturedJanuary14DeathIds, ...directlyCapturedJanuary15DeathIds, ...directlyCapturedJanuary16DeathIds, ...directlyCapturedJanuary17DeathIds, ...directlyCapturedJanuary18DeathIds, ...directlyCapturedJanuary19DeathIds, ...directlyCapturedJanuary20DeathIds, ...directlyCapturedJanuary21DeathIds, ...directlyCapturedJanuary22DeathIds, ...directlyCapturedJanuary23DeathIds]).size;
+deathEvidence.retrievedAt = new Date().toISOString();
 
 function hasDateOnlyBiography(person: Person): boolean {
   if (!person.biography) return false;
@@ -935,6 +978,7 @@ const people = ALL_PEOPLE.map((person) => {
     isBV017January20Reviewed: january20ReviewedProfileIds.has(person.id),
     isBV017January21Reviewed: january21ReviewedProfileIds.has(person.id),
     isBV017January22Reviewed: january22ReviewedProfileIds.has(person.id),
+    isBV017January23Reviewed: january23ReviewedProfileIds.has(person.id),
     biographyTemplatePattern: exactSimpleBio || dateOnlyBio || hasGenericRoleBiography(person),
     biographyContainsGeneratedBirthSentence: dateOnlyBio,
     biographyGenericRoleTemplate: hasGenericRoleBiography(person),
@@ -942,7 +986,7 @@ const people = ALL_PEOPLE.map((person) => {
   highlightsOnlyBirthDateAndBroadCategory: categoryOnlyHighlights,
   highlightsOnlyBirthDateAndRoleTemplate: hasRoleOnlyHighlights(person),
   highlightsRepeatingShortDescription: hasDuplicateSummaryHighlight(person),
-    hasDirectlyCapturedCareerFact: contentEvidenceById.has(person.id) || qualityFactIds.has(person.id) || expansionPilotProfilesWithCareerFacts.has(person.id) || january1ReviewedProfileIds.has(person.id) || january2ReviewedProfileIds.has(person.id) || january3ReviewedProfileIds.has(person.id) || january4ReviewedProfileIds.has(person.id) || january5ReviewedProfileIds.has(person.id) || january6ReviewedProfileIds.has(person.id) || january7ReviewedProfileIds.has(person.id) || january8ReviewedProfileIds.has(person.id) || january9ReviewedProfileIds.has(person.id) || january10ReviewedProfileIds.has(person.id) || january11ReviewedProfileIds.has(person.id) || january12ReviewedProfileIds.has(person.id) || january13ReviewedProfileIds.has(person.id) || january14ReviewedProfileIds.has(person.id) || january15ReviewedProfileIds.has(person.id) || january16ReviewedProfileIds.has(person.id) || january17ReviewedProfileIds.has(person.id) || january18ReviewedProfileIds.has(person.id) || january19ReviewedProfileIds.has(person.id) || january20ReviewedProfileIds.has(person.id) || january21ReviewedProfileIds.has(person.id) || january22ReviewedProfileIds.has(person.id),
+    hasDirectlyCapturedCareerFact: contentEvidenceById.has(person.id) || qualityFactIds.has(person.id) || expansionPilotProfilesWithCareerFacts.has(person.id) || january1ReviewedProfileIds.has(person.id) || january2ReviewedProfileIds.has(person.id) || january3ReviewedProfileIds.has(person.id) || january4ReviewedProfileIds.has(person.id) || january5ReviewedProfileIds.has(person.id) || january6ReviewedProfileIds.has(person.id) || january7ReviewedProfileIds.has(person.id) || january8ReviewedProfileIds.has(person.id) || january9ReviewedProfileIds.has(person.id) || january10ReviewedProfileIds.has(person.id) || january11ReviewedProfileIds.has(person.id) || january12ReviewedProfileIds.has(person.id) || january13ReviewedProfileIds.has(person.id) || january14ReviewedProfileIds.has(person.id) || january15ReviewedProfileIds.has(person.id) || january16ReviewedProfileIds.has(person.id) || january17ReviewedProfileIds.has(person.id) || january18ReviewedProfileIds.has(person.id) || january19ReviewedProfileIds.has(person.id) || january20ReviewedProfileIds.has(person.id) || january21ReviewedProfileIds.has(person.id) || january22ReviewedProfileIds.has(person.id) || january23ReviewedProfileIds.has(person.id),
     lifeStatusExplicit: explicit,
     lifeStatus: person.lifeStatus ?? null,
     deathDate: person.deathDate ?? null,
@@ -1043,6 +1087,10 @@ const counts = {
   bv017January22CareerFacts: january22Batch.careerFacts.length,
   bv017January22ProfilesWithDirectlyCapturedDeathDate: directlyCapturedJanuary22DeathIds.size,
   bv017January22SourceCaptures: january22Batch.sourceCaptures.length,
+  bv017January23ReviewedProfilesWithDirectlyCapturedCareerFacts: people.filter((person) => january23ReviewedProfileIds.has(person.id) && person.hasDirectlyCapturedCareerFact).length,
+  bv017January23CareerFacts: january23Batch.careerFacts.length,
+  bv017January23ProfilesWithDirectlyCapturedDeathDate: directlyCapturedJanuary23DeathIds.size,
+  bv017January23SourceCaptures: january23Batch.sourceCaptures.length,
   b015B016BiographiesContainingGeneratedBirthSentence: people.filter((person) => person.isB015B016Addition && person.biographyContainsGeneratedBirthSentence).length,
   b015B016CategoryOnlyHighlights: people.filter((person) => person.isB015B016Addition && person.highlightsOnlyBirthDateAndBroadCategory).length,
   b015B016ProfilesWithoutThreeSourceUrls: people.filter((person) => person.isB015B016Addition && person.sourceUrlCount < 3).length,
@@ -1119,6 +1167,7 @@ audit.summary.deathDatesDirectlyConfirmedInBV017January19 = directlyCapturedJanu
 audit.summary.deathDatesDirectlyConfirmedInBV017January20 = directlyCapturedJanuary20DeathIds.size;
 audit.summary.deathDatesDirectlyConfirmedInBV017January21 = directlyCapturedJanuary21DeathIds.size;
 audit.summary.deathDatesDirectlyConfirmedInBV017January22 = directlyCapturedJanuary22DeathIds.size;
+audit.summary.deathDatesDirectlyConfirmedInBV017January23 = directlyCapturedJanuary23DeathIds.size;
 audit.summary.reviewedP570ConflictProfiles = reviewedConflictIds.length;
 audit.summary.unresolvedP570MultiDateProfiles = counts.unresolvedP570MultiDateProfiles;
 audit.summary.unreviewedP570MultiDateProfiles = counts.unreviewedP570MultiDateProfiles;

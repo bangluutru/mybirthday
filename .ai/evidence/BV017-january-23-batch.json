@@ -1,0 +1,1165 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-23",
+  "sourceCaptures": [
+    {
+      "id": "hilbert-mactutor",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/",
+      "publisher": "MacTutor History of Mathematics",
+      "publisherHost": "mathshistory.st-andrews.ac.uk",
+      "status": 200,
+      "bytesRead": 134443,
+      "sha256": "478a8bc2c660577039dac785a0c651b5a1000095d4ce0615c3f32cd34c6a491e",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Skip to content MacTutor Home Biographies History Topics Map Curves Search David Hilbert Quick Info Born 23 January 1862 Wehlau, near Königsberg, Prussia (now Kaliningrad, Russia) Died 14 February 1943 Göttingen, Germany Summary Hilbert 's work in geometry had the greatest influence in that area after Euclid. A systematic study of the axioms of Euclidean geometry led Hilbert to propose 21 such axioms and he analysed their significance. He made contributions in many areas of mathematics and physics. View twelve larger pictures Biography David Hilbert 's father, Otto Hilbert, was the son of a judge who was a high r … of Euclidean geometry led Hilbert to propose 21 such axioms and he analysed their significance. He published Grundlagen der Geometrie in 1899 putting geometry in a formal axiomatic setting. The book continued to appear in new editions and was a major influence in promoting the axiomatic approach to mathematics which has been one of the major characteristics of the subject throughout the 20 th century. Reviews of Grundlagen der Geometrie and other of Hilbert's books are at THIS LINK . More about Grundlagen der Mathematik is at THIS LINK . Hilbert's famous 23 Paris problems challenged ( and still today challenge ) … other of Hilbert's books are at THIS LINK . More about Grundlagen der Mathematik is at THIS LINK . Hilbert's famous 23 Paris problems challenged ( and still today challenge ) mathematicians to solve fundamental questions. Hilbert's famous speech The Problems of Mathematics was delivered to the Second International Congress of Mathematicians in Paris. It was a speech full of optimism for mathematics in the coming century and he felt that open problems were the sign of vitality in the subject:- The great importance of definite problems for the progress of mathematical science in general ... is undeniable. ... [ fo … Hilbert Quick Info Born 23 January 1862 Wehlau, near Königsberg, Prussia (now Kaliningrad, Russia) Died 14 February 1943 Göttingen, Germany Summary Hilbert 's work in geometry had the greatest influence in that area after Euclid. A systematic study of the axioms of Euclidean geometry led Hilbert to propose 21 such axioms and he analysed their significance. He made contributions in many areas of mathematics and physics. View twelve larger pictures Biography David Hilbert 's father, Otto Hilbert, was the son of a judge who was a high ranking Privy Councillor. Otto was a county judge who had married Maria Therese E",
+      "excerptSha256": "f932e2c8092ffa64e71860e3c70ceacd14e53f18e06eda0980ca0499cc631770"
+    },
+    {
+      "id": "hilbert-saw",
+      "url": "https://archiv.saw-leipzig.de/saw-archive/personen/david-hilbert",
+      "publisher": "Saxon Academy of Sciences and Humanities",
+      "publisherHost": "archiv.saw-leipzig.de",
+      "status": 200,
+      "bytesRead": 46517,
+      "sha256": "08cc3b5fa2390aafd3760568f56df2ac46cea3596c33eeb687e71c63000343fb",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "n, 1895-01-18) Referenziert in Findmittel zum Nachlass von David Hilbert Fakten Geschlecht Männlich Geburtsdatum 1862-01-23 / Die Mitglieder von 1846 bis 2006 Geburtsort Kaliningrad / Die Mitglieder von 1846 bis 2006 Sterbedatum 1943-02-14 / Die Mitglieder von 1846 bis 2006 Sterbeort Göttingen / Die Mitglieder von 1846 bis 2006 Grabstelle Stadtfriedhof, Göttingen Nationalität Deutsch Beziehung Schüler von Felix Klein (1885/1886) Lehrer von Heinrich Georg Barkhausen Lehrer von Max Born Lehrer von Richard Courant Gutachter von Julius Bauschinger (1895) / Arthur von Auwers an David Hilbert (Berlin, 1895-01-18) Freun … ) Referenziert in Findmittel zum Nachlass von David Hilbert Fakten Geschlecht Männlich Geburtsdatum 1862-01-23 / Die Mitglieder von 1846 bis 2006 Geburtsort Kaliningrad / Die Mitglieder von 1846 bis 2006 Sterbedatum 1943-02-14 / Die Mitglieder von 1846 bis 2006 Sterbeort Göttingen / Die Mitglieder von 1846 bis 2006 Grabstelle Stadtfriedhof, Göttingen Nationalität Deutsch Beziehung Schüler von Felix Klein (1885/1886) Lehrer von Heinrich Georg Barkhausen Lehrer von Max Born Lehrer von Richard Courant Gutachter von Julius Bauschinger (1895) / Arthur von Auwers an David Hilbert (Berlin, 1895-01-18) Freund von Adolf H … -01-23 / Die Mitglieder von 1846 bis 2006 Geburtsort Kaliningrad / Die Mitglieder von 1846 bis 2006 Sterbedatum 1943-02-14 / Die Mitglieder von 1846 bis 2006 Sterbeort Göttingen / Die Mitglieder von 1846 bis 2006 Grabstelle Stadtfriedhof, Göttingen Nationalität Deutsch Beziehung Schüler von Felix Klein (1885/1886) Lehrer von Heinrich Georg Barkhausen Lehrer von Max Born Lehrer von Richard Courant Gutachter von Julius Bauschinger (1895) / Arthur von Auwers an David Hilbert (Berlin, 1895-01-18) Freund von Adolf Hurwitz Freund von Hermann Minkowski Rückbeziehung Max Born ist Schüler Ludwig Otto Blumenthal ist Schüle … Mitglieder von 1846 bis 2006 Geburtsort Kaliningrad / Die Mitglieder von 1846 bis 2006 Sterbedatum 1943-02-14 / Die Mitglieder von 1846 bis 2006 Sterbeort Göttingen / Die Mitglieder von 1846 bis 2006 Grabstelle Stadtfriedhof, Göttingen Nationalität Deutsch Beziehung Schüler von Felix Klein (1885/1886) Lehrer von Heinrich Georg Barkhausen Lehrer von Max Born Lehrer von Richard Courant Gutachter von Julius Bauschinger (1895) / Arthur von Auwers an David Hilbert (Berlin, 1895-01-18) Freund von Adolf Hurwitz Freund von Hermann Minkowski Rückbeziehung Max Born ist Schüler Ludwig Otto Blumenthal ist Schüler Richard Co",
+      "excerptSha256": "42c00ba49a5069347668c11ccf9e983d6c4926a047f4caaaefd5bdd0391f3ec6"
+    },
+    {
+      "id": "hilbert-royalsociety",
+      "url": "https://catalogues.royalsociety.org/calmview/Record.aspx?id=NA621&src=CalmView.Persons",
+      "publisher": "The Royal Society",
+      "publisherHost": "catalogues.royalsociety.org",
+      "status": 200,
+      "bytesRead": 20001,
+      "sha256": "cea736f0590d0e6afd2ffa12099eace71f577fc09bf1d0edddcdc44a08cae985",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "ised form of name Hilbert; David (1862 - 1943) Dates 1862 - 1943 Place of birth Konigsberg, Germany Date of birth 23 January 1862 Place of death Gottingen, Germany Date of death 14 or 23 February 1943 Research field Mathematics Membership category Foreign Member Date of election 21/06/1928 Age at election 66 Source Sources: Bulloch's Roll; DSB References: G V R Born, FRS, 'The wide-ranging family history of Max Born' in NR 2002 vol 56 pp 219-262 Obituaries: Obituary Notices of Fellows of the Royal Society 1942-1944 vol 4 pp 547-553 by Hermann Weyl Notes: Index to BR gives death date as 23 February 1943; DSB gives … ame Hilbert; David (1862 - 1943) Dates 1862 - 1943 Place of birth Konigsberg, Germany Date of birth 23 January 1862 Place of death Gottingen, Germany Date of death 14 or 23 February 1943 Research field Mathematics Membership category Foreign Member Date of election 21/06/1928 Age at election 66 Source Sources: Bulloch's Roll; DSB References: G V R Born, FRS, 'The wide-ranging family history of Max Born' in NR 2002 vol 56 pp 219-262 Obituaries: Obituary Notices of Fellows of the Royal Society 1942-1944 vol 4 pp 547-553 by Hermann Weyl Notes: Index to BR gives death date as 23 February 1943; DSB gives 14 February 1 … Place of birth Konigsberg, Germany Date of birth 23 January 1862 Place of death Gottingen, Germany Date of death 14 or 23 February 1943 Research field Mathematics Membership category Foreign Member Date of election 21/06/1928 Age at election 66 Source Sources: Bulloch's Roll; DSB References: G V R Born, FRS, 'The wide-ranging family history of Max Born' in NR 2002 vol 56 pp 219-262 Obituaries: Obituary Notices of Fellows of the Royal Society 1942-1944 vol 4 pp 547-553 by Hermann Weyl Notes: Index to BR gives death date as 23 February 1943; DSB gives 14 February 1943 Code NA621 Archives associated with this Fello … h Konigsberg, Germany Date of birth 23 January 1862 Place of death Gottingen, Germany Date of death 14 or 23 February 1943 Research field Mathematics Membership category Foreign Member Date of election 21/06/1928 Age at election 66 Source Sources: Bulloch's Roll; DSB References: G V R Born, FRS, 'The wide-ranging family history of Max Born' in NR 2002 vol 56 pp 219-262 Obituaries: Obituary Notices of Fellows of the Royal Society 1942-1944 vol 4 pp 547-553 by Hermann Weyl Notes: Index to BR gives death date as 23 February 1943; DSB gives 14 February 1943 Code NA621 Archives associated with this Fellow RefNo Title",
+      "excerptSha256": "101a45c6b6e98422dd46e84f7adcc81af0c023c5b99690220291e3bc16820a79"
+    },
+    {
+      "id": "stendhal-snl",
+      "url": "https://snl.no/Stendhal",
+      "publisher": "Store norske leksikon",
+      "publisherHost": "snl.no",
+      "status": 200,
+      "bytesRead": 42502,
+      "sha256": "db54584f505f38a11bdfba6347923f867519663e0365aa40f7d1267a5aa48ce1",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "atur Geir Uvsløkk Universitetet i Oslo Faktaboks Stendhal pseudonym for Henri Beyle Uttale stãd a l Født 23. januar 1783, Grenoble Død 23. mars 1842, Paris Stendhal (Henri Beyle). Etter maleri av Olof J. Södermark, 1840. Stendhal Av Ukjent /NTB ※. Lisens: Begrenset gjenbruk Stendhal er et av flere pseudonymer til den franske forfatteren Henri Marie Beyle. Pseudonymet er hentet fra den tyske byen Stendal . Stendhal ble født i Grenoble i 1783, studerte ved École Centrale i perioden 1796–1799 før han flyttet til Paris , der hans slektning Pierre Daru skaffet ham jobb i Krigsministeriet. Fra 1800 tjenestegjorde han i … antikerne mot «klassikerne», men han ble aldri noen helhjertet tilhenger av de romantiske idealene. I 1827 kom hans første store roman, Armance , og tre år senere Le Rouge et le Noir (norsk oversettelse Rødt og svart , 1944; ny oversettelse 2001), som sterkest har bidratt til hans verdensry. I 1830 ble han utnevnt til konsul i Civitavecchia i Italia, der han kjedet seg fryktelig. Han fikk i 1836 tre års permisjon, reiste til Paris, og utgav i 1839 romanen La Chartreuse de Parme (norsk oversettelse Kartusianerklosteret i Parma, 1993), som mange kjennere anser som hans hovedverk. Stendhals forfatterskap er preget a … kjedet seg fryktelig. Han fikk i 1836 tre års permisjon, reiste til Paris, og utgav i 1839 romanen La Chartreuse de Parme (norsk oversettelse Kartusianerklosteret i Parma, 1993), som mange kjennere anser som hans hovedverk. Stendhals forfatterskap er preget av hans kretsing omkring seg selv, og de fleste bøkene hans er sterkt selvbiografiske . Et gjennomgående tema er kjærligheten, som han har skildret både slik den fremtrer som spontan stemning ved det første møte, og slik den deformeres ved forfengelighet, ambisjon og bevisst overveielse. Han er en distansert og skeptisk iakttager, men også fascinert av sinnst",
+      "excerptSha256": "702dea9f1cc50c8c9b63d26c62f5c8e1e228008bba4968e63389bcff376c9e4d"
+    },
+    {
+      "id": "stendhal-museum",
+      "url": "https://musee-stendhal.bm-grenoble.fr/henri-beyle-dit-stendhal-1783-1842.aspx",
+      "publisher": "Musée Stendhal, City of Grenoble",
+      "publisherHost": "musee-stendhal.bm-grenoble.fr",
+      "status": 200,
+      "bytesRead": 116721,
+      "sha256": "60c73e0c58fb5ea3760595c99391988e621066dde78935a23d834f9de6d28804",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "tume de consul Silvestro Valeri, 1835-1836 Collection Musée Stendhal, Ville de Grenoble Henri Beyle naît à Grenoble le 23 janvier 1783. Son père, Chérubin Beyle, est avocat au Parlement du Dauphiné ; sa mère, Henriette Gagnon, est la fille d’un des principaux médecins de la ville. Cette dernière meurt quand l’enfant n’a que sept ans. Dans l’appartement du 20 Grand’ rue, c’est auprès de son grand-père maternel, le docteur Henri Gagnon, « véritable père et ami intime » (1), que le jeune Henri s’initie aux lettres, aux sciences, et trouve dans les œuvres des Lumières et des auteurs antiques le moyen de s’évader d’un … nir un grand écrivain. Sous le pseudonyme de Stendhal, il publie de son vivant quelques romans dont Le Rouge et le Noir (1830) et La Chartreuse de Parme (1839). Il est aussi l’auteur de pamphlets, essais, chroniques et critiques d’art. Mais le succès public de ses romans est mitigé. Seule La Chartreuse de Parme lui permet de commencer à se faire un nom. Elle vaut à Stendhal une longue et élogieuse critique de Balzac, alors au sommet de sa renommée, parue dans la Revue Parisienne en 1840. Lorsque Stendhal décède des suites d’une crise d’apoplexie le 23 mars 1842, une partie de son œuvre demeure inédite ou inachevé … c de ses romans est mitigé. Seule La Chartreuse de Parme lui permet de commencer à se faire un nom. Elle vaut à Stendhal une longue et élogieuse critique de Balzac, alors au sommet de sa renommée, parue dans la Revue Parisienne en 1840. Lorsque Stendhal décède des suites d’une crise d’apoplexie le 23 mars 1842, une partie de son œuvre demeure inédite ou inachevée. Conservés à Grenoble, les manuscrits stendhaliens ne sont étudiés puis publiés qu’à partir des années 1880. Près d’un demi-siècle après la disparition de l’écrivain, l’ampleur, la qualité et la singularité de son œuvre sont ainsi révélées. Des chercheur … parue dans la Revue Parisienne en 1840. Lorsque Stendhal décède des suites d’une crise d’apoplexie le 23 mars 1842, une partie de son œuvre demeure inédite ou inachevée. Conservés à Grenoble, les manuscrits stendhaliens ne sont étudiés puis publiés qu’à partir des années 1880. Près d’un demi-siècle après la disparition de l’écrivain, l’ampleur, la qualité et la singularité de son œuvre sont ainsi révélées. Des chercheurs et figures littéraires majeures du début du 20 e siècle s’en emparent : c’est le début du stendhalisme. Par intuition ou prémonition, l’écrivain contrarié, intransigeant, libre d’esprit et affra",
+      "excerptSha256": "6ecb85401d9923e767d11c1c4606f9df042f15316a9fe0ce2c4f794cf49d18af"
+    },
+    {
+      "id": "manet-grandpalais",
+      "url": "https://www.grandpalais.fr/en/node/944",
+      "publisher": "Grand Palais Rmn",
+      "publisherHost": "www.grandpalais.fr",
+      "status": 200,
+      "bytesRead": 145745,
+      "sha256": "09102822154937c333260ea73609363c3d8775116014cc4b2e15a7ed80c5776f",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "e Courbet et cherche à supprimer les conventions académiques. Il veut représenter la \"vie moderne\". 1832 : Edouard Manet naît à Paris, le 23 janvier. Il est le fils d’Auguste Manet (1797-1862), magistrat parisien et d’Eugénie Eugénie Désirée Fournie, épouse Manet  (1811-1895). Destiné à École navale selon la volonté de son père, pour être officier de marine militaire, il y renonce après une traversée de l’Atlantique. Il refuse également de suivre des études de droit. 1850 : à 18 ans, il choisit une carrière d’artiste peintre et entre à l’atelier de Thomas Couture jusqu’en 1856. Le Déjeuner sur l'herbe Show copyri … l y renonce après une traversée de l’Atlantique. Il refuse également de suivre des études de droit. 1850 : à 18 ans, il choisit une carrière d’artiste peintre et entre à l’atelier de Thomas Couture jusqu’en 1856. Le Déjeuner sur l'herbe Show copyright Édouard Manet (1832-1883) Le Déjeuner sur l’herbe, 1863 Huile sur toile. H. : 2,08 ; l. : 2,64 m Paris, musée d’Orsay © RMN (Musée d’Orsay) / Hervé Lewandowski En 1862 , Manet propose, au Salon, une toile immense: Le Déjeuner sur l'herbe . Il présente des personnages dans un décor champêtre. Une femme, sortie du bain, se sèche, nue sur l'herbe. Ce tableau provoqua l",
+      "excerptSha256": "67cee50fcec6394b140ea73cfdf2772e8a5cad81aabdd1687234c072919ea5f1"
+    },
+    {
+      "id": "manet-pinakothek",
+      "url": "https://www.sammlung.pinakothek.de/en/artist/rqxNJr0xvW",
+      "publisher": "Bavarian State Painting Collections",
+      "publisherHost": "www.sammlung.pinakothek.de",
+      "status": 200,
+      "bytesRead": 52323,
+      "sha256": "8b79b4da1984d1de2d7f78f295c19a6da7a78070d4416651edca67d401dc4f74",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "rd Manet, URL: https://www.sammlung.pinakothek.de/en/artist/rqxNJr0xvW (Last updated on 28.09.2025) Geboren am 23. Januar 1832 in Paris, gestorben am 30. April 1883 ebenda. Manet studierte von 1850 bis 1856 in Paris bei Thomas Couture. Auf Reisen nach Holland, Deutschland, Österreich, Spanien und Italien setzte er sich vor allem mit den Alten Meistern auseinander, beschäftigte sich aber auch intensiv mit den Werken Eugène Delacroix' und Gustave Courbets. Seine zeitgenössischen Interpretationen älterer Themen wie \"Le déjeuner sur l'herbe\" und \"Olympia\", beide Gemälde befinden sich heute im Musée d'Orsay, Paris, em … inakothek.de/en/artist/rqxNJr0xvW (Last updated on 28.09.2025) Geboren am 23. Januar 1832 in Paris, gestorben am 30. April 1883 ebenda. Manet studierte von 1850 bis 1856 in Paris bei Thomas Couture. Auf Reisen nach Holland, Deutschland, Österreich, Spanien und Italien setzte er sich vor allem mit den Alten Meistern auseinander, beschäftigte sich aber auch intensiv mit den Werken Eugène Delacroix' und Gustave Courbets. Seine zeitgenössischen Interpretationen älterer Themen wie \"Le déjeuner sur l'herbe\" und \"Olympia\", beide Gemälde befinden sich heute im Musée d'Orsay, Paris, empörten Kritiker wie Publikum. Anlässl … lympia\", beide Gemälde befinden sich heute im Musée d'Orsay, Paris, empörten Kritiker wie Publikum. Anlässlich der Weltausstellung 1867 errichtete Manet einen eigenen Pavillon außerhalb des Ausstellungsgeländes, um mit 55 Werken eine beeindruckende Soloausstellung zeigen zu können. Die Weltausstellung wurde von der Erschießung Kaiser Maximilians in Mexiko überschattet; ein Ereignis, das Manet zum Thema eines großformartigen Gemäldes machte, heute in der Kunsthalle Mannheim. Manet war mit zahlreichen impressionistischen Malern befreundet, nahm aber an der ersten Impressionistenausstellung 1874 nicht teil. Während",
+      "excerptSha256": "501728856316f07568df7e1342574bca9f6ed46094a92b3448e1c17bb1e40746"
+    },
+    {
+      "id": "elion-nobel-facts",
+      "url": "https://www.nobelprize.org/prizes/medicine/1988/elion/facts/",
+      "publisher": "Nobel Prize Outreach",
+      "publisherHost": "www.nobelprize.org",
+      "status": 200,
+      "bytesRead": 167560,
+      "sha256": "7a40d795e8c4f6c10831ff6d9b45a7e6cab2023eadee9e45e80a9e608b40fc2e",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "oto from the Nobel Foundation archive. Gertrude B. Elion Nobel Prize in Physiology or Medicine 1988 Born:\t\t23 January 1918, New York, NY, USA Died:\t\t21 February 1999, Chapel Hill, NC, USA Affiliation at the time of the award: \n\t\t\t\t\tWellcome Research Laboratories, Research Triangle Park, NC, USA Prize motivation: \t\t\t\t\t“for their discoveries of important principles for drug treatment” Prize share: \t\t\t\t1/3 Life Gertrude Elion was born in New York. When, as a teenager, she watched her maternal grandfather die of cancer, Elion decided to devote her life to fighting the disease. She studied chemistry at Hunter College … trude B. Elion Nobel Prize in Physiology or Medicine 1988 Born:\t\t23 January 1918, New York, NY, USA Died:\t\t21 February 1999, Chapel Hill, NC, USA Affiliation at the time of the award: \n\t\t\t\t\tWellcome Research Laboratories, Research Triangle Park, NC, USA Prize motivation: \t\t\t\t\t“for their discoveries of important principles for drug treatment” Prize share: \t\t\t\t1/3 Life Gertrude Elion was born in New York. When, as a teenager, she watched her maternal grandfather die of cancer, Elion decided to devote her life to fighting the disease. She studied chemistry at Hunter College and New York University, but, as a woman, … enu Close the search menu Search by term. Search Enhanced Page Navigation Gertrude B. Elion - Facts Nobel Prize in Physiology or Medicine 1988 Summary Laureates Sir James W. Black Gertrude B. Elion Facts Nobel Prize lecture Biographical Photo gallery Other resources George H. Hitchings Press release Award ceremony speech Share this Facebook X LinkedIn Email this page Gertrude B. Elion Facts Navigate to: Summary - Sir James W. Black -- Facts -- Nobel Prize lecture -- Biographical -- Photo gallery -- Other resources - George H. Hitchings Press release Award ceremony speech Photo from the Nobel Foundation archive. G … duced from natural substances. During the 1950s, Elion, together with George Hitchings, developed a systematic method for producing drugs based on knowledge of biochemistry and diseases. One of the first drugs produced by the pair was for leukemia and helped many children with the disease to survive. Other drugs they created have been used to fight malaria, infections, and gout, as well as help with organ transplantations. To cite this section MLA style: Gertrude B. Elion – Facts. NobelPrize.org. Nobel Prize Outreach 2026. Thu. 8 Oct 2026. <https://www.nobelprize.org/prizes/medicine/1988/elion/facts/> Go to the t",
+      "excerptSha256": "abf9694b8c1eeb5e4951e890358d7751331f95408df1ca5fb1aa3e387a86a784"
+    },
+    {
+      "id": "elion-nas",
+      "url": "https://www.nationalacademies.org/read/9977/chapter/3",
+      "publisher": "National Academies Press",
+      "publisherHost": "www.nationalacademies.org",
+      "status": 200,
+      "bytesRead": 461940,
+      "sha256": "68f82c4e9374752e8cb7ed057c6f350d58cf6c7567a0f799bed9cf62e2ed8ed2",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "onal Academies Press.\n                            doi: 10.17226/9977. Save Cancel GERTRUDE B. ELION January 23, 1918–February 21, 1999 BY MARY ELLEN AVERY I N THE SPRING OF 1933 Gertrude Elion graduated from high school and that summer she had to select a major subject before she could begin her freshman year at Hunter College. This posed a quandary for the future Nobel Prize recipient, as well as holder of 45 patents, 23 honorary degrees, and a long list of other honors: She had liked all her school subjects, making it difficult to select just one. “I loved to learn everything, everything in sight and I was neve … rcaptopurine and thioguanine, and investigated their loci of action in microbiological systems. The 6-mercaptopurine (6MP) became the first purine antagonist to be useful in the treatment of acute lymphoblastic leukemia in children. She elucidated some alterations in metabolic pathways that led to resistance to the purine antagonists. Her 1954 paper that quantified the synergistic effects of purine antagonists with pyrimidine and folic acid antagonists has become a classic in the field. To make the successful 6MP, Trudy replaced an oxygen atom on the purine ring with a sulfur atom. This chemical not only had anti … Save Cancel played a major role in the development of allopurinol for the treatment of gout and of acyclovir, the first selective antiviral agent that was effective against herpes virus infections. From her first publication in 1939 to her last in 1998, Trudy was involved in the investigation of purines and purine analogs as chemotherapeutic agents. Working in collaboration with George H. Hitchings, she synthesized a large number of purines, including 6-mercaptopurine and thioguanine, and investigated their loci of action in microbiological systems. The 6-mercaptopurine (6MP) became the first purine antagonist t",
+      "excerptSha256": "16e484a54f12a92b36689b51ce18213854809c4036a6ad7045f07ac5758e5063"
+    },
+    {
+      "id": "elion-nobel-story",
+      "url": "https://www.nobelprize.org/stories/women-who-changed-science/gertrude-elion/",
+      "publisher": "Nobel Prize Outreach",
+      "publisherHost": "www.nobelprize.org",
+      "status": 200,
+      "bytesRead": 220273,
+      "sha256": "c95cf68773d56b8675ea3953faa557823ac7456ce7bef11a5e2c640d294eecd9",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "facility in North Carolina, 1972. Photo courtesy of GSK. Reproduced with permission. See all photos Elion’s first major discovery, in 1950, when she was 32, was a purine compound that interfered with the formation of leukaemia cells: 6-mercaptopurine, 6-MP for short. The drug was rushed to release because it put acute leukaemia patients – often, children fated to die within months of diagnosis – into complete remission. But the effect was temporary; eventually many relapsed. When children got well, Elion was elated; when they died, she was despondent, but determined to find a way to make the effects of her drug l … 1950, when she was 32, was a purine compound that interfered with the formation of leukaemia cells: 6-mercaptopurine, 6-MP for short. The drug was rushed to release because it put acute leukaemia patients – often, children fated to die within months of diagnosis – into complete remission. But the effect was temporary; eventually many relapsed. When children got well, Elion was elated; when they died, she was despondent, but determined to find a way to make the effects of her drug last longer. Gertrude Elion, right, with a lab employee, ca. 1980, Research Triangle Park, North Carolina. Photo courtesy of GSK. Repro … for cancer patients. Elion’s final major breakthrough was in the development of the antiviral drug acyclovir, approved in 1977. Scientists doubted that drugs could be invented to fight viruses; any substance that would kill a virus would be too toxic for the body to endure. But Elion persisted, and the drug her team developed both attacked herpes and could be used to fight Epstein-Barr, chickenpox, and shingles. It also ushered in a new era of antiviral therapy, opening the door to the development of the first drug to treat AIDS: AZT. Gertrude Elion, 1970s, Research Triangle Park, North Carolina. Photo courtesy",
+      "excerptSha256": "d422f366b80dec4d80832abe172bb724a75675a8ac428fb0b953ede948b09e3a"
+    },
+    {
+      "id": "walcott-rpo",
+      "url": "https://rpo.library.utoronto.ca/poets/walcott-derek",
+      "publisher": "Representative Poetry Online, University of Toronto",
+      "publisherHost": "rpo.library.utoronto.ca",
+      "status": 200,
+      "bytesRead": 31304,
+      "sha256": "635cbb062cf6b219bbc27deaad4ebdc196e53248efcda91354d2526f12d10637",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "2000. --. The Prodigal . New York: Farrar, Straus, 2004. Given Name Derek Alton Family Name Walcott Birth Date January 23, 1930 Death Date 0, 0 Nationality West Indies Education St. Mary's College, St. Lucia B.A. University of the West Indies Kingston, Jamaica Religion Honours Royal Society of Literature, Fellow 1966 Queen Elizabeth II Gold Medal for Poetry 1988 Nobel Prize for Literature 1992 St. Lucia Cross 1993 Occupations Playwright Poet Professor Literary Period Modern Literary Movement Unknown Illness First RPO Edition 2006 Representative Poetry Online Your comments and questions are welcomed. All contents … gion Honours Royal Society of Literature, Fellow 1966 Queen Elizabeth II Gold Medal for Poetry 1988 Nobel Prize for Literature 1992 St. Lucia Cross 1993 Occupations Playwright Poet Professor Literary Period Modern Literary Movement Unknown Illness First RPO Edition 2006 Representative Poetry Online Your comments and questions are welcomed. All contents except for poetry and user contributions copyright © the Editors and the University of Toronto RPO is hosted by the University of Toronto Libraries Accessibility . Tell us about a web accessibility problem .",
+      "excerptSha256": "1de02762e2b78e7d780cec77908101a4950f0571ac22993431b35e371aa51beb"
+    },
+    {
+      "id": "walcott-poets",
+      "url": "https://poets.org/poet/derek-walcott",
+      "publisher": "Academy of American Poets",
+      "publisherHost": "poets.org",
+      "status": 200,
+      "bytesRead": 66316,
+      "sha256": "e853c82b28772ec6ad6b6a3b05942e64c71c2235651ddbf69a3daab137364d93",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "– 2017 Read poems by this poet Derek Walcott was born in Castries, Saint Lucia, the West Indies, on January 23, 1930. His first published poem, “1944” appeared in The Voice of St. Lucia when he was fourteen years old, and consisted of forty-four lines of blank verse . By the age of nineteen, Walcott had self-published two volumes, Epitaph for the Young: XII Cantos (Barbados Advocate, 1949) and 25 Poems (1948), exhibiting a wide range of influences, including William Shakespeare , T. S. Eliot , and Ezra Pound . He later attended the University of the West Indies, having received a Colonial Development and Welfare … by this poet Derek Walcott was born in Castries, Saint Lucia, the West Indies, on January 23, 1930. His first published poem, “1944” appeared in The Voice of St. Lucia when he was fourteen years old, and consisted of forty-four lines of blank verse . By the age of nineteen, Walcott had self-published two volumes, Epitaph for the Young: XII Cantos (Barbados Advocate, 1949) and 25 Poems (1948), exhibiting a wide range of influences, including William Shakespeare , T. S. Eliot , and Ezra Pound . He later attended the University of the West Indies, having received a Colonial Development and Welfare scholarship, and i … evement Award. He was an honorary member of the American Academy and Institute of Arts and Letters. Derek Walcott died on March 17, 2017, in Saint Lucia. School/Movements Formalism Related Poets Phillis Wheatley Thomas Wyatt Seamus Heaney Alexander Pope Richard Wilbur Donald Justice poems Year Title 2014 Love After Love 1964 Origins [The Flowering Breaker Detonates Its Surf] (audio only) 2010 In the Village 2007 The Sea Is History 2007 A Far Cry from Africa 1986 The Fist 1986 A Lesson for This Sunday Texts by Texts about Year Title 2009 From the Archive: Nobel Laureates 2009 From the Archive: Petition for Octavio",
+      "excerptSha256": "1d103896dd44f87a70cdd690d06482a1e387952f48e25255a908bab0ca531b6d"
+    },
+    {
+      "id": "walcott-uwi",
+      "url": "https://uwi.edu/vcreport/2016-2017/ch-walcott.php",
+      "publisher": "The University of the West Indies",
+      "publisherHost": "uwi.edu",
+      "status": 200,
+      "bytesRead": 18070,
+      "sha256": "962688a21794bf8b0807e2e9421cfc94cc4c4b90b91024928fec769a3bd9d470",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "and sincere condolences to his family and loved ones. Sir Derek, an alumnus of The UWI Mona Campus, graduated in 1953 and was awarded an honorary degree (DLitt) in 1973. His literary works are known and lauded internationally. In addition to his personal works, Sir Derek's legacy includes his contributions to literature regionally and internationally. He founded the Trinidad Theatre Workshop in Port of Spain, and taught writing and literature at Boston University in the United States. A scholarship was established in his name for students enrolled in the Theatre Arts programme at The St. Augustine Campus. He was … rks, Sir Derek's legacy includes his contributions to literature regionally and internationally. He founded the Trinidad Theatre Workshop in Port of Spain, and taught writing and literature at Boston University in the United States. A scholarship was established in his name for students enrolled in the Theatre Arts programme at The St. Augustine Campus. He was one of the finest intellects of the 20th century, a globally respected alumnus of The UWI, one who exemplified the very ethos this university holds dear. The UWI acknowledges and respects his contributions to regional literature, art, and discourse. Downloa … ture regionally and internationally. He founded the Trinidad Theatre Workshop in Port of Spain, and taught writing and literature at Boston University in the United States. A scholarship was established in his name for students enrolled in the Theatre Arts programme at The St. Augustine Campus. He was one of the finest intellects of the 20th century, a globally respected alumnus of The UWI, one who exemplified the very ethos this university holds dear. The UWI acknowledges and respects his contributions to regional literature, art, and discourse. Download full report Contact University Marketing & Communications",
+      "excerptSha256": "c999dbb406bf992da20d44648c83023c201cb4ba7d2b546ad1de809fe9912325"
+    },
+    {
+      "id": "walcott-uwi-library",
+      "url": "https://libraries.sta.uwi.edu/ajl-new/index.php/caribbean-resources/123-about-the-derek-walcott-collection",
+      "publisher": "The Alma Jordan Library, The University of the West Indies",
+      "publisherHost": "libraries.sta.uwi.edu",
+      "status": 200,
+      "bytesRead": 41018,
+      "sha256": "006ccb41d7d460f70b8f3a04337999c6dba2ecf9a02d7b36f789d5009d726f18",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "rek Walcott Collection Details Last Updated: 18 April 2017 Search the collection Derek Walcott is a St. Lucian poet and dramatist of international repute. He attended The University of the West Indies, Mona, Jamaica and lived for many years in Trinidad and Tobago, where he founded the Trinidad Theatre Workshop. His literary output has won him many outstanding international awards, including the Nobel Prize for Literature in 1992. The first set of material acquired comprised the illustrations and set drawings for The Joker of Seville. The second installment, a substantial collection (manuscripts of plays, poems, c … versity of the West Indies, Mona, Jamaica and lived for many years in Trinidad and Tobago, where he founded the Trinidad Theatre Workshop. His literary output has won him many outstanding international awards, including the Nobel Prize for Literature in 1992. The first set of material acquired comprised the illustrations and set drawings for The Joker of Seville. The second installment, a substantial collection (manuscripts of plays, poems, correspondence, scrap books, photographs), covers the period when Walcott was based in Trinidad and Tobago and the establishment and activity of the Trinidad Theatre Workshop, … atre Workshop. His literary output has won him many outstanding international awards, including the Nobel Prize for Literature in 1992. The first set of material acquired comprised the illustrations and set drawings for The Joker of Seville. The second installment, a substantial collection (manuscripts of plays, poems, correspondence, scrap books, photographs), covers the period when Walcott was based in Trinidad and Tobago and the establishment and activity of the Trinidad Theatre Workshop, as well as much of his poetry and prose up to 1981. The third set of material acquired consists of the manuscripts for the",
+      "excerptSha256": "173ed0a0d1b18f8dba8d345e96d13a329a97c76cb2d1d21fe4767e62d6cbbab4"
+    },
+    {
+      "id": "walcott-nobel-facts",
+      "url": "https://www.nobelprize.org/prizes/literature/1992/walcott/facts/",
+      "publisher": "Nobel Prize Outreach",
+      "publisherHost": "www.nobelprize.org",
+      "status": 200,
+      "bytesRead": 167814,
+      "sha256": "245d764dffe2be89a79c3aed612bc8ebda2c8f900d4f150abc20bdad406c0cf1",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "remony speech Photo from the Nobel Foundation archive. Derek Walcott Nobel Prize in Literature 1992 Born:\t\t23 January 1930, Castries, Saint Lucia Died:\t\t17 March 2017, Gros-Islet, Saint Lucia Residence at the time of the award:\n\t\t\t\t\tSaint Lucia Prize motivation: \t\t\t\t\t“for a poetic oeuvre of great luminosity, sustained by a historical vision, the outcome of a multicultural commitment” Language:\n\t\t\t\t\tEnglish Prize share: \t\t\t\t1/1 Life West Indian poet and playwright Derek Walcott made his debut as an 18-year-old with In a Green Night. For many years he divided his time among Saint Lucia; Boston University, where he … archive. Derek Walcott Nobel Prize in Literature 1992 Born:\t\t23 January 1930, Castries, Saint Lucia Died:\t\t17 March 2017, Gros-Islet, Saint Lucia Residence at the time of the award:\n\t\t\t\t\tSaint Lucia Prize motivation: \t\t\t\t\t“for a poetic oeuvre of great luminosity, sustained by a historical vision, the outcome of a multicultural commitment” Language:\n\t\t\t\t\tEnglish Prize share: \t\t\t\t1/1 Life West Indian poet and playwright Derek Walcott made his debut as an 18-year-old with In a Green Night. For many years he divided his time among Saint Lucia; Boston University, where he taught; and Trinidad, where he managed a theat … ery -- Other resources Press release Award ceremony speech Photo from the Nobel Foundation archive. Derek Walcott Nobel Prize in Literature 1992 Born:\t\t23 January 1930, Castries, Saint Lucia Died:\t\t17 March 2017, Gros-Islet, Saint Lucia Residence at the time of the award:\n\t\t\t\t\tSaint Lucia Prize motivation: \t\t\t\t\t“for a poetic oeuvre of great luminosity, sustained by a historical vision, the outcome of a multicultural commitment” Language:\n\t\t\t\t\tEnglish Prize share: \t\t\t\t1/1 Life West Indian poet and playwright Derek Walcott made his debut as an 18-year-old with In a Green Night. For many years he divided his time am … e: \t\t\t\t1/1 Life West Indian poet and playwright Derek Walcott made his debut as an 18-year-old with In a Green Night. For many years he divided his time among Saint Lucia; Boston University, where he taught; and Trinidad, where he managed a theater. Walcott also worked as an artist and combined his poetry with painting in the volume Tiepolo’s Hound (2005). Work Derek Walcott’s works often deal with Caribbean history, while he simultaneous searches for vestiges of the colonial era. Western literary canon is revised and given a completely new form, as in the poetry collection Omeros (1990). In his writing Walcott e",
+      "excerptSha256": "f80855772592418d5aebac13b3050e8ae60b4d740b2edcac50a50eaa91047f06"
+    },
+    {
+      "id": "hilbert-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q41585.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 302421,
+      "sha256": "47f1c5106844d17deb5ab19988d24e5c6e5d2b6106904b521dc83c519899f728",
+      "verificationMethod": "direct-http-json-entity-claims",
+      "excerpt": "David Hilbert | P31:Q5 normal | P569:+1862-01-23T00:00:00Z precision 11 normal | P570:+1943-02-14T00:00:00Z precision 11 normal | P27:Q27306 normal,Q43287 normal,Q41304 normal,Q7318 normal | P106:Q170790 normal,Q1622272 normal,Q4964182 normal,Q169470 normal,Q14565331 normal,Q101064325 normal",
+      "excerptSha256": "4c64fe9a364574564d41984744aca9b92f91e0550bb0e69df80eb2c34548ddb7"
+    },
+    {
+      "id": "stendhal-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q502.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 254958,
+      "sha256": "5542f77743aa3c84583cf211d6d97fa6a36bbb7ea0956e1f76e2dcc66315b3e3",
+      "verificationMethod": "direct-http-json-entity-claims",
+      "excerpt": "Stendhal | P31:Q5 normal | P569:+1783-01-23T00:00:00Z precision 11 normal | P570:+1842-03-23T00:00:00Z precision 11 normal | P27:Q142 normal | P106:Q36180 normal,Q18814623 normal,Q18939491 normal,Q864380 normal,Q6625963 normal,Q193391 normal,Q1792450 normal",
+      "excerptSha256": "11745fbab5d6986fa628da507993cc0e521ff68709800cb1ed771225315b6469"
+    },
+    {
+      "id": "manet-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q40599.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 378257,
+      "sha256": "c96fcec14fc308f14f5ce00f062262b6a63eb1f9a314db232b672c667c09efc7",
+      "verificationMethod": "direct-http-json-entity-claims",
+      "excerpt": "Édouard Manet | P31:Q5 normal | P569:+1832-01-23T00:00:00Z precision 11 preferred,+1832-01-25T00:00:00Z precision 11 normal,+1832-01-01T00:00:00Z precision 9 normal | P570:+1883-04-30T00:00:00Z precision 11 preferred,+1883-01-01T00:00:00Z precision 9 normal | P27:Q142 normal | P106:Q1028181 normal,Q644687 normal,Q16947657 normal,Q2079935 normal,Q15296811 normal,Q3391743 normal,Q483501 normal",
+      "excerptSha256": "e03ed71b4639e5ef5aaebe491b8a2e860c07dcb669c0cf7e7892c37d197914fe"
+    },
+    {
+      "id": "elion-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q35703.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 131850,
+      "sha256": "acf6f43ece2c2923ece2204165bf9be20048604d4b772c50ebe271751c13127f",
+      "verificationMethod": "direct-http-json-entity-claims",
+      "excerpt": "Gertrude B. Elion | P31:Q5 normal | P569:+1918-01-23T00:00:00Z precision 11 normal | P570:+1999-02-21T00:00:00Z precision 11 normal | P27:Q30 normal | P106:Q2919046 normal,Q2114605 normal,Q105186 normal,Q1622272 normal",
+      "excerptSha256": "cab0a39b5548fd1b932355571740fa01da8127c9d3748c68b1718f09c4b76fb5"
+    },
+    {
+      "id": "walcott-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q132701.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 173662,
+      "sha256": "8900546f50bd5067e3c8713c44928dac569ffdd8b61b49a41a75fdf16e307cf5",
+      "verificationMethod": "direct-http-json-entity-claims",
+      "excerpt": "Derek Walcott | P31:Q5 normal | P569:+1930-01-23T00:00:00Z precision 11 normal | P570:+2017-03-17T00:00:00Z precision 11 normal | P27:Q760 normal | P106:Q49757 normal,Q214917 normal,Q36180 normal,Q12144794 normal,Q3455803 normal,Q8178443 normal",
+      "excerptSha256": "651ea5bc9db440d9b976d0fc3bf71858deaef4a6babe53c7c97b2b633b1f00bc"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "david-hilbert",
+      "name": "David Hilbert",
+      "wikidataId": "Q41585",
+      "birthDate": "1862-01-23",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": null,
+      "deathDateSourceIds": [],
+      "statusSourceId": "hilbert-royalsociety",
+      "statusEvidencePhrase": "Date of death 14 or 23 February 1943",
+      "dobSourceIds": [
+        "hilbert-mactutor",
+        "hilbert-saw"
+      ],
+      "careerFactIds": [
+        "hilbert-geometry-axioms-1899",
+        "hilbert-23-problems"
+      ],
+      "countryCode": "DE",
+      "category": "scientist",
+      "occupation": [
+        "nhà toán học"
+      ],
+      "fields": [
+        "science-research"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "science-research",
+          "careerFactIds": [
+            "hilbert-geometry-axioms-1899",
+            "hilbert-23-problems"
+          ],
+          "rationale": "Các đóng góp về tiên đề hình học và bài toán nghiên cứu là thành tựu trực tiếp trong toán học."
+        }
+      ],
+      "wikidataCaptureId": "hilbert-wikidata",
+      "wikidataLabel": "David Hilbert",
+      "identityClaims": {
+        "label": "David Hilbert",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1862-01-23T00:00:00Z",
+            "references": 11,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1943-02-14T00:00:00Z",
+            "references": 12,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q27306",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q43287",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q41304",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q7318",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q7318",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q170790",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q4964182",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q169470",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q14565331",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q101064325",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q170790"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q41585",
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/",
+        "https://archiv.saw-leipzig.de/saw-archive/personen/david-hilbert",
+        "https://catalogues.royalsociety.org/calmview/Record.aspx?id=NA621&src=CalmView.Persons"
+      ],
+      "before": {
+        "biography": "David Hilbert là nhà toán học người Đức. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 1899, David Hilbert xuất bản Grundlagen der Geometrie, đặt hình học trong một hệ tiên đề hình thức.",
+        "highlights": [
+          "Sinh ngày 23/1/1862.",
+          "Năm 1899, David Hilbert xuất bản Grundlagen der Geometrie, đặt hình học trong một hệ tiên đề hình thức."
+        ],
+        "fields": null,
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q41585",
+          "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/",
+          "https://archiv.saw-leipzig.de/saw-archive/personen/david-hilbert"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      },
+      "after": {
+        "biography": "David Hilbert là nhà toán học người Đức. Năm 1899, ông xuất bản Grundlagen der Geometrie, đặt hình học trong một hệ tiên đề hình thức. Ông cũng nêu 23 bài toán Paris, những câu hỏi cơ bản tiếp tục thách thức các nhà toán học.",
+        "highlights": [
+          "Năm 1899, Hilbert xuất bản Grundlagen der Geometrie và trình bày hình học qua một hệ tiên đề hình thức.",
+          "23 bài toán Paris của Hilbert nêu những câu hỏi cơ bản và tiếp tục thách thức các nhà toán học."
+        ],
+        "fields": [
+          "science-research"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q41585",
+          "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/",
+          "https://archiv.saw-leipzig.de/saw-archive/personen/david-hilbert",
+          "https://catalogues.royalsociety.org/calmview/Record.aspx?id=NA621&src=CalmView.Persons"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "deceased",
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      }
+    },
+    {
+      "id": "stendhal",
+      "name": "Stendhal",
+      "wikidataId": "Q502",
+      "birthDate": "1783-01-23",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "1842-03-23",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "stendhal-museum"
+      ],
+      "statusSourceId": "stendhal-museum",
+      "dobSourceIds": [
+        "stendhal-snl",
+        "stendhal-museum"
+      ],
+      "careerFactIds": [
+        "stendhal-armance-red-black",
+        "stendhal-chartreuse-balzac-review"
+      ],
+      "countryCode": "FR",
+      "category": "literature",
+      "occupation": [
+        "nhà văn"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "stendhal-armance-red-black",
+            "stendhal-chartreuse-balzac-review"
+          ],
+          "rationale": "Các tiểu thuyết và phê bình văn học là đóng góp trực tiếp cho sáng tác và văn học."
+        }
+      ],
+      "wikidataCaptureId": "stendhal-wikidata",
+      "wikidataLabel": "Stendhal",
+      "identityClaims": {
+        "label": "Stendhal",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 3
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1783-01-23T00:00:00Z",
+            "references": 16,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1842-03-23T00:00:00Z",
+            "references": 16,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q142",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q142",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 6
+          },
+          {
+            "rank": "normal",
+            "value": "Q18814623",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q18939491",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q864380",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q6625963",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q193391",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1792450",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q36180"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q502",
+        "https://snl.no/Stendhal",
+        "https://musee-stendhal.bm-grenoble.fr/henri-beyle-dit-stendhal-1783-1842.aspx"
+      ],
+      "before": {
+        "biography": "Stendhal là nhà văn người Pháp. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Sau khi Napoléon thất bại, Stendhal chuyển đến Italy và viết du ký cùng các sách về nghệ thuật Italy, Joseph Haydn và Mozart.",
+        "highlights": [
+          "Sinh ngày 23/1/1783.",
+          "Sau khi Napoléon thất bại, Stendhal chuyển đến Italy và viết du ký cùng các sách về nghệ thuật Italy, Joseph Haydn và Mozart."
+        ],
+        "fields": null,
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q502",
+          "https://snl.no/Stendhal",
+          "https://musee-stendhal.bm-grenoble.fr/henri-beyle-dit-stendhal-1783-1842.aspx"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      },
+      "after": {
+        "biography": "Stendhal, tên thật Henri Beyle, là nhà văn Pháp. Tiểu thuyết Armance xuất bản năm 1827, tiếp đó là Le Rouge et le Noir năm 1830. La Chartreuse de Parme xuất bản năm 1839 và được Honoré de Balzac ca ngợi trong một bài phê bình năm 1840.",
+        "highlights": [
+          "Armance, tiểu thuyết lớn đầu tiên của Stendhal, ra đời năm 1827; Le Rouge et le Noir theo sau năm 1830.",
+          "La Chartreuse de Parme xuất bản năm 1839 và nhận được bài phê bình ca ngợi của Balzac năm 1840."
+        ],
+        "fields": [
+          "design-creative"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q502",
+          "https://snl.no/Stendhal",
+          "https://musee-stendhal.bm-grenoble.fr/henri-beyle-dit-stendhal-1783-1842.aspx"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "deceased",
+        "deathDate": "1842-03-23",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://musee-stendhal.bm-grenoble.fr/henri-beyle-dit-stendhal-1783-1842.aspx"
+        ]
+      }
+    },
+    {
+      "id": "edouard-manet",
+      "name": "Édouard Manet",
+      "wikidataId": "Q40599",
+      "birthDate": "1832-01-23",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "1883-04-30",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "manet-pinakothek"
+      ],
+      "statusSourceId": "manet-pinakothek",
+      "dobSourceIds": [
+        "manet-grandpalais",
+        "manet-pinakothek"
+      ],
+      "careerFactIds": [
+        "manet-couture-studio",
+        "manet-solo-pavilion-1867"
+      ],
+      "countryCode": "FR",
+      "category": "artist",
+      "occupation": [
+        "họa sĩ"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "manet-couture-studio",
+            "manet-solo-pavilion-1867"
+          ],
+          "rationale": "Đào tạo và triển lãm tranh riêng là hoạt động trực tiếp trong hội họa và nghệ thuật thị giác."
+        }
+      ],
+      "wikidataCaptureId": "manet-wikidata",
+      "wikidataLabel": "Édouard Manet",
+      "identityClaims": {
+        "label": "Édouard Manet",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 5
+          }
+        ],
+        "p569": [
+          {
+            "rank": "preferred",
+            "value": "+1832-01-23T00:00:00Z",
+            "references": 6,
+            "precision": 11,
+            "calendar": "Q1985727"
+          },
+          {
+            "rank": "normal",
+            "value": "+1832-01-25T00:00:00Z",
+            "references": 1,
+            "precision": 11,
+            "calendar": "Q1985727"
+          },
+          {
+            "rank": "normal",
+            "value": "+1832-01-01T00:00:00Z",
+            "references": 3,
+            "precision": 9,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "preferred",
+            "value": "+1883-04-30T00:00:00Z",
+            "references": 18,
+            "precision": 11,
+            "calendar": "Q1985727"
+          },
+          {
+            "rank": "normal",
+            "value": "+1883-01-01T00:00:00Z",
+            "references": 3,
+            "precision": 9,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q142",
+            "references": 4
+          }
+        ],
+        "selectedCountryQid": "Q142",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q1028181",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q644687",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q16947657",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q2079935",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q15296811",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q3391743",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q483501",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q1028181"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q40599",
+        "https://www.musee-orsay.fr/sites/default/files/exposition/booklet/2023-03/prog%20salle_Manet%EF%80%A2Degas_ANG.pdf",
+        "https://www.grandpalais.fr/en/node/944",
+        "https://brockhaus.de/ecs/julex/article/manet-edouard",
+        "https://www.nga.gov/artists/1506-edouard-manet",
+        "https://www.sammlung.pinakothek.de/en/artist/rqxNJr0xvW"
+      ],
+      "before": {
+        "biography": "Édouard Manet là họa sĩ người Pháp. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 1850, Édouard Manet theo học tại xưởng vẽ của họa sĩ Thomas Couture sau hai lần bị từ chối vào Trường Hải quân Pháp.",
+        "highlights": [
+          "Sinh ngày 23/1/1832.",
+          "Năm 1850, Édouard Manet theo học tại xưởng vẽ của họa sĩ Thomas Couture sau hai lần bị từ chối vào Trường Hải quân Pháp."
+        ],
+        "fields": null,
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q40599",
+          "https://www.musee-orsay.fr/sites/default/files/exposition/booklet/2023-03/prog%20salle_Manet%EF%80%A2Degas_ANG.pdf",
+          "https://www.grandpalais.fr/en/node/944",
+          "https://brockhaus.de/ecs/julex/article/manet-edouard",
+          "https://www.nga.gov/artists/1506-edouard-manet"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": "deceased",
+        "deathDate": "1883-04-30",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://brockhaus.de/ecs/julex/article/manet-edouard"
+        ]
+      },
+      "after": {
+        "biography": "Édouard Manet là họa sĩ Pháp. Ông theo học tại xưởng vẽ của Thomas Couture từ năm 1850 đến 1856. Tại Triển lãm Thế giới Paris năm 1867, Manet dựng một gian trưng bày riêng bên ngoài khu triển lãm để giới thiệu 55 tác phẩm.",
+        "highlights": [
+          "Từ năm 1850 đến 1856, Manet học hội họa tại xưởng vẽ của Thomas Couture.",
+          "Tại Triển lãm Thế giới Paris năm 1867, Manet dựng gian trưng bày riêng để giới thiệu 55 tác phẩm."
+        ],
+        "fields": [
+          "design-creative"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q40599",
+          "https://www.musee-orsay.fr/sites/default/files/exposition/booklet/2023-03/prog%20salle_Manet%EF%80%A2Degas_ANG.pdf",
+          "https://www.grandpalais.fr/en/node/944",
+          "https://brockhaus.de/ecs/julex/article/manet-edouard",
+          "https://www.nga.gov/artists/1506-edouard-manet",
+          "https://www.sammlung.pinakothek.de/en/artist/rqxNJr0xvW"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "deceased",
+        "deathDate": "1883-04-30",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://brockhaus.de/ecs/julex/article/manet-edouard",
+          "https://www.sammlung.pinakothek.de/en/artist/rqxNJr0xvW"
+        ]
+      }
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "gertrude-b-elion",
+      "name": "Gertrude B. Elion",
+      "wikidataId": "Q35703",
+      "birthDate": "1918-01-23",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "1999-02-21",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "elion-nobel-facts"
+      ],
+      "dobSourceIds": [
+        "elion-nobel-facts",
+        "elion-nas"
+      ],
+      "statusSourceId": "elion-nobel-facts",
+      "careerFactIds": [
+        "elion-6mp-leukemia",
+        "elion-acyclovir-herpes"
+      ],
+      "countryCode": "US",
+      "category": "scientist",
+      "occupation": [
+        "nhà hóa sinh",
+        "nhà dược lý học"
+      ],
+      "fields": [
+        "medicine-health"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "medicine-health",
+          "careerFactIds": [
+            "elion-6mp-leukemia",
+            "elion-acyclovir-herpes"
+          ],
+          "rationale": "Các thuốc điều trị leukemia và nhiễm virus là đóng góp trực tiếp cho dược lý và sức khỏe."
+        }
+      ],
+      "wikidataCaptureId": "elion-wikidata",
+      "wikidataLabel": "Gertrude B. Elion",
+      "identityClaims": {
+        "label": "Gertrude B. Elion",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1918-01-23T00:00:00Z",
+            "references": 9,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1999-02-21T00:00:00Z",
+            "references": 9,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q2919046",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q2114605",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q105186",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 0
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q2919046",
+          "Q2114605"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q35703",
+        "https://www.nobelprize.org/prizes/medicine/1988/elion/facts/",
+        "https://www.nationalacademies.org/read/9977/chapter/3",
+        "https://www.nobelprize.org/stories/women-who-changed-science/gertrude-elion/"
+      ],
+      "birthplace": "New York, Hoa Kỳ",
+      "birthplaceEvidencePhrase": "23 January 1918, New York, NY, USA",
+      "after": {
+        "shortDescription": "Nhà hóa sinh và dược lý học Hoa Kỳ; sinh ngày 23/1/1918.",
+        "biography": "Gertrude B. Elion là nhà hóa sinh và dược lý học Hoa Kỳ. Bà góp phần phát triển 6-mercaptopurine trong điều trị bệnh bạch cầu và acyclovir, thuốc kháng virus chọn lọc có hiệu quả với các nhiễm herpes. Năm 1988, bà nhận Nobel Sinh lý học hoặc Y học cùng George Hitchings và James Black.",
+        "highlights": [
+          "Năm 1950, Elion phát hiện 6-mercaptopurine; thuốc đưa nhiều bệnh nhân leukemia cấp vào lui bệnh.",
+          "Elion góp phần phát triển acyclovir, thuốc kháng virus chọn lọc đầu tiên có hiệu quả với nhiễm herpes."
+        ],
+        "fields": [
+          "medicine-health"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q35703",
+          "https://www.nobelprize.org/prizes/medicine/1988/elion/facts/",
+          "https://www.nationalacademies.org/read/9977/chapter/3",
+          "https://www.nobelprize.org/stories/women-who-changed-science/gertrude-elion/"
+        ],
+        "lifeStatus": "deceased",
+        "deathDate": "1999-02-21",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://www.nobelprize.org/prizes/medicine/1988/elion/facts/"
+        ]
+      }
+    },
+    {
+      "id": "derek-walcott",
+      "name": "Derek Walcott",
+      "wikidataId": "Q132701",
+      "birthDate": "1930-01-23",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "2017-03-17",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "walcott-nobel-facts"
+      ],
+      "dobSourceIds": [
+        "walcott-rpo",
+        "walcott-poets"
+      ],
+      "statusSourceId": "walcott-nobel-facts",
+      "careerFactIds": [
+        "walcott-first-poem",
+        "walcott-trinidad-theatre-workshop"
+      ],
+      "countryCode": "LC",
+      "category": "literature",
+      "occupation": [
+        "nhà thơ",
+        "nhà viết kịch"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "walcott-first-poem",
+            "walcott-trinidad-theatre-workshop"
+          ],
+          "rationale": "Thơ và việc sáng lập một nhà hát là đóng góp trực tiếp cho sáng tác và nghệ thuật sân khấu."
+        }
+      ],
+      "wikidataCaptureId": "walcott-wikidata",
+      "wikidataLabel": "Derek Walcott",
+      "identityClaims": {
+        "label": "Derek Walcott",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1930-01-23T00:00:00Z",
+            "references": 11,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2017-03-17T00:00:00Z",
+            "references": 9,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q760",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q760",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q49757",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q214917",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q12144794",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3455803",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q8178443",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q49757",
+          "Q214917"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q132701",
+        "https://www.nobelprize.org/prizes/literature/1992/walcott/facts/",
+        "https://rpo.library.utoronto.ca/poets/walcott-derek",
+        "https://poets.org/poet/derek-walcott",
+        "https://uwi.edu/vcreport/2016-2017/ch-walcott.php",
+        "https://libraries.sta.uwi.edu/ajl-new/index.php/caribbean-resources/123-about-the-derek-walcott-collection"
+      ],
+      "birthplace": "Castries, Saint Lucia",
+      "birthplaceEvidencePhrase": "Castries, Saint Lucia",
+      "after": {
+        "shortDescription": "Nhà thơ và nhà viết kịch Saint Lucia; sinh ngày 23/1/1930.",
+        "biography": "Derek Walcott là nhà thơ và nhà viết kịch Saint Lucia. Tác phẩm đầu tay của ông được đăng trên The Voice of St. Lucia khi ông 14 tuổi; sau này ông thành lập Trinidad Theatre Workshop tại Port of Spain. Năm 1992, ông nhận Nobel Văn học cho sự nghiệp thơ gắn với tầm nhìn lịch sử và cam kết đa văn hóa.",
+        "highlights": [
+          "Khi 14 tuổi, Walcott đăng bài thơ đầu tiên trên The Voice of St. Lucia.",
+          "Walcott thành lập Trinidad Theatre Workshop tại Port of Spain."
+        ],
+        "fields": [
+          "design-creative"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q132701",
+          "https://www.nobelprize.org/prizes/literature/1992/walcott/facts/",
+          "https://rpo.library.utoronto.ca/poets/walcott-derek",
+          "https://poets.org/poet/derek-walcott",
+          "https://uwi.edu/vcreport/2016-2017/ch-walcott.php",
+          "https://libraries.sta.uwi.edu/ajl-new/index.php/caribbean-resources/123-about-the-derek-walcott-collection"
+        ],
+        "lifeStatus": "deceased",
+        "deathDate": "2017-03-17",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://www.nobelprize.org/prizes/literature/1992/walcott/facts/"
+        ]
+      }
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "hilbert-geometry-axioms-1899",
+      "profileId": "david-hilbert",
+      "displayText": "Năm 1899, Hilbert xuất bản Grundlagen der Geometrie và trình bày hình học qua một hệ tiên đề hình thức.",
+      "sourceId": "hilbert-mactutor",
+      "evidencePhrase": "published Grundlagen der Geometrie in 1899 putting geometry in a formal axiomatic setting"
+    },
+    {
+      "id": "hilbert-23-problems",
+      "profileId": "david-hilbert",
+      "displayText": "23 bài toán Paris của Hilbert nêu những câu hỏi cơ bản và tiếp tục thách thức các nhà toán học.",
+      "sourceId": "hilbert-mactutor",
+      "evidencePhrase": "Hilbert's famous 23 Paris problems challenged ( and still today challenge ) mathematicians to solve fundamental questions"
+    },
+    {
+      "id": "stendhal-armance-red-black",
+      "profileId": "stendhal",
+      "displayText": "Armance, tiểu thuyết lớn đầu tiên của Stendhal, ra đời năm 1827; Le Rouge et le Noir theo sau năm 1830.",
+      "sourceId": "stendhal-snl",
+      "evidencePhrase": "I 1827 kom hans første store roman, Armance , og tre år senere Le Rouge et le Noir"
+    },
+    {
+      "id": "stendhal-chartreuse-balzac-review",
+      "profileId": "stendhal",
+      "displayText": "La Chartreuse de Parme xuất bản năm 1839 và nhận được bài phê bình ca ngợi của Balzac năm 1840.",
+      "sourceId": "stendhal-museum",
+      "evidencePhrase": "Elle vaut à Stendhal une longue et élogieuse critique de Balzac, alors au sommet de sa renommée, parue dans la Revue Parisienne en 1840"
+    },
+    {
+      "id": "manet-couture-studio",
+      "profileId": "edouard-manet",
+      "displayText": "Từ năm 1850 đến 1856, Manet học hội họa tại xưởng vẽ của Thomas Couture.",
+      "sourceId": "manet-grandpalais",
+      "evidencePhrase": "1850 : à 18 ans, il choisit une carrière d’artiste peintre et entre à l’atelier de Thomas Couture jusqu’en 1856"
+    },
+    {
+      "id": "manet-solo-pavilion-1867",
+      "profileId": "edouard-manet",
+      "displayText": "Tại Triển lãm Thế giới Paris năm 1867, Manet dựng gian trưng bày riêng để giới thiệu 55 tác phẩm.",
+      "sourceId": "manet-pinakothek",
+      "evidencePhrase": "Anlässlich der Weltausstellung 1867 errichtete Manet einen eigenen Pavillon außerhalb des Ausstellungsgeländes, um mit 55 Werken eine beeindruckende Soloausstellung zeigen zu können"
+    },
+    {
+      "id": "elion-6mp-leukemia",
+      "profileId": "gertrude-b-elion",
+      "displayText": "Năm 1950, Elion phát hiện 6-mercaptopurine; thuốc đưa nhiều bệnh nhân leukemia cấp vào lui bệnh.",
+      "sourceId": "elion-nobel-story",
+      "evidencePhrase": "Elion’s first major discovery, in 1950, when she was 32, was a purine compound that interfered with the formation of leukaemia cells: 6-mercaptopurine, 6-MP for short"
+    },
+    {
+      "id": "elion-acyclovir-herpes",
+      "profileId": "gertrude-b-elion",
+      "displayText": "Elion góp phần phát triển acyclovir, thuốc kháng virus chọn lọc đầu tiên có hiệu quả với nhiễm herpes.",
+      "sourceId": "elion-nas",
+      "evidencePhrase": "acyclovir, the first selective antiviral agent that was effective against herpes virus infections"
+    },
+    {
+      "id": "walcott-first-poem",
+      "profileId": "derek-walcott",
+      "displayText": "Khi 14 tuổi, Walcott đăng bài thơ đầu tiên trên The Voice of St. Lucia.",
+      "sourceId": "walcott-poets",
+      "evidencePhrase": "His first published poem, “1944” appeared in The Voice of St. Lucia when he was fourteen years old"
+    },
+    {
+      "id": "walcott-trinidad-theatre-workshop",
+      "profileId": "derek-walcott",
+      "displayText": "Walcott thành lập Trinidad Theatre Workshop tại Port of Spain.",
+      "sourceId": "walcott-uwi",
+      "evidencePhrase": "He founded the Trinidad Theatre Workshop in Port of Spain"
+    }
+  ],
+  "wikidataReview": {
+    "conflicts": [
+      {
+        "profileId": "edouard-manet",
+        "property": "P569",
+        "claimValue": "+1832-01-25T00:00:00Z",
+        "resolution": "date-confirmed",
+        "reviewNote": "Wikidata retains a normal-rank 25 January 1832 claim. Grand Palais and the Bavarian State Painting Collections independently give 23 January 1832, which also matches the preferred Wikidata claim; retain the independently confirmed date.",
+        "sourceIds": [
+          "manet-grandpalais",
+          "manet-pinakothek"
+        ]
+      },
+      {
+        "profileId": "david-hilbert",
+        "property": "P570",
+        "claimValue": "+1943-02-14T00:00:00Z",
+        "resolution": "date-uncertain-left-blank",
+        "reviewNote": "MacTutor and the Saxon Academy list 14 February 1943, but the Royal Society catalogue reports 14 or 23 February and notes both source traditions. Death is confirmed; leave the exact death date unset.",
+        "sourceIds": [
+          "hilbert-royalsociety",
+          "hilbert-mactutor",
+          "hilbert-saw"
+        ]
+      }
+    ]
+  }
+}
