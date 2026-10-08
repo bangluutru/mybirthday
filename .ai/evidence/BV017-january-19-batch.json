@@ -1,0 +1,1216 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-19",
+  "sourceCaptures": [
+    {
+      "id": "hanbin-yh-dob",
+      "url": "https://yhent.co.kr/artist/tempest/",
+      "publisher": "YH Entertainment",
+      "publisherHost": "yhent.co.kr",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 42664,
+      "sha256": "59e6fc423240bad9576864576a5cbb87c745c41267652d5ae4b361ce7359aadd",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "rs Music NOTICE News Notice AUDITION Join Us X YouTube Naver Post Naver TV TEMPEST 템페스트 Debut 2022. 03. 02 Official Member MEMBERS LEW 2001. 04. 05 HANBIN 1998. 01. 19 HYEONGSEOP 1999. 08. 09 HYUK 2000. 04. 17 EUNCHAN 2001. 02. 27 TAERAE 2002. 05. 09 DISCOGRAPHY As I am My Way RE: Full of Youth Destiny BUBBLE GUM BANG! TEMPEST Voyage Baddest Behavior 폭풍 속으로 폭풍전야 ON and ON SHINING UP It’s ME, It’s WE YOUR HOPE HERE UNFOLDS YOUR HOPE HERE UNFOLDS YOUR HOPE HERE UNFOLDS YOUR HOPE HERE UNFOLDS ",
+      "excerptSha256": "8156705c3e173e77e1375a7360d79694127d4cbe60a78f8db5cde95cbef9e41d"
+    },
+    {
+      "id": "hanbin-kbs-dob",
+      "url": "https://world.kbs.co.kr/service/contents_view.htm?board_seq=422510&id=&lang=j&menu_cate=artist&page=1",
+      "publisher": "KBS World",
+      "publisherHost": "world.kbs.co.kr",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 66175,
+      "sha256": "b6a9052aada4716d7604f14b0173cda6c114ac3ff5981b79dbae4bd16db67c5d",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "t Dark Mode Go Top アーティスト TEMPEST #Artists Search l 2022-05-09 Share Print ＜ハンビン＞ 生年月日：1998年1月19日 ＜ヒョンソプ＞ 生年月日：1999年8月9日 ＜ヒョク＞ 生年月日：2000年4月17日 ＜ウンチャン＞ 生年月日：2001年2月27日 ＜ルー＞ 生年月日：2001年4月5日 ＜ファラン＞ 生年月日：2001年4月23日 ＜テレ＞ 生年月日：2002年5月9日 デビュー： 2022年3月 公式サイト： http://www.yhfamily.co.kr/?module=Default&ac",
+      "excerptSha256": "0cf453a45c6f843f5d9191100fc1580d8a3d9162f9ddd8aea0e58f758194862b"
+    },
+    {
+      "id": "hanbin-album",
+      "url": "https://www.yhent.co.kr/en/album/its-me-its-we/",
+      "publisher": "YH Entertainment",
+      "publisherHost": "www.yhent.co.kr",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 58057,
+      "sha256": "045b0ee3bb5663dcf942689e208545c630f0291a604a65aaec56ff46484b1236",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "ard to open a new world of K-POP with limitless potential and possibility, TEMPEST presents their debut album, It’s ME, It’s WE—a powerful declaration of their arrival. TEMPEST is set to become the Big News that will shake up the K-POP scene. TEMPEST is a seven-member boy group launched by Yuehua Entertainment for the first time in seven years. With the bright yet powerful energy of all seven members, the group sets its sights on dominating the K-POP market. Their dynamic performances and genre-spanning music reflect the confidence built through years of preparation and training. The group consists of LEW and Hyeongseop, previously active as the project unit “Hyeongseop X Euiwoong”; Hanbin and Hwarang, who gained recognition through competition programs; and Hyuk, Eunchan, and Taerae, who are being introduced to the public for the first time. Upon opening their official YouTube channel, TEMPEST surpassed 100,000 subscribers almost immediately, while their K-POP cover videos exceeded 1.2 million views within just two weeks of release—demonstrating remarkable momentum and impact. Widely recognized as one of the most anticipated rookie groups of 2022, TEMPEST is ready to unleash the boundless potential and individuality of its seven members through It’s ME, It’s WE. TEMPEST’s debut mini album It’s ME, It’s WE showcases a wide range of genres, combining powerful intensity with refreshing, youthful charm. Every track—beyond just the title song—has been crafted with care, offering strong replay and collectible value. The album highlights the group’s solid musical foundation: main vocalist Hyuk’s powerful yet refreshing voice, supported by lead vocalist Hanbin and sub-vocalists Hyeongseop and Eunchan; main rapper Hwarang’s rhythmic flow, joined by lead rapper LEW and sub-rapper Taerae, elevates the overall quality of every track. With this musical depth and versatility, TEMPEST is poised to earn the title of a group you can trust and enjoy listening to. Through promotions for the title track “Bad News,” TEMPEST is expected to become both the Big News and Good News of the K-POP industry. Despite its title, “Bad News” ironically delivers TEMPEST’s bold ambition and declaration to take over K-POP. The seamless interplay between rap and vocals, paired with funky rhythms, amplifies the group’s bright and energetic identity. Confident lyrics, powerful performances, and a visually captivating music video that highlights each member’s charm and c",
+      "excerptSha256": "2cafc284ce68c10f35882290a09a6e550bbcbbdd53343bf609cddadd0ec64e9c"
+    },
+    {
+      "id": "hanbin-solo",
+      "url": "https://yhent.co.kr/news/%ED%85%9C%ED%8E%98%EC%8A%A4%ED%8A%B8-%ED%95%9C%EB%B9%88-%EB%8D%B0%EB%B7%94-4%EB%85%84-%EB%A7%8C%EC%97%90-%EC%86%94%EB%A1%9C-%EB%8D%B0%EB%B7%94%ED%8C%80-%EC%B2%AB-%EC%A3%BC%EC%9E%90/",
+      "publisher": "YH Entertainment",
+      "publisherHost": "yhent.co.kr",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 41413,
+      "sha256": "94163cd770bb4a505f8e55b0e6cf0e654ca80db7139805f04e4e78c9d0d7690b",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "ITION Join Us X YouTube Naver Post Naver TV 템페스트 한빈, 데뷔 4년 만에 솔로 데뷔…팀 첫 주자 그룹 템페스트(TEMPEST) 멤버 한빈이 오는 24일 솔로 아티스트로서 첫발을 내딛는다. 소속사 YH엔터테인먼트는 3일 “한빈이 오는 24일 첫 번째 디지털 싱글 ‘노 피어'(No Fear)를 발표하고 전격 솔로 데뷔한다”라고 공식 발표했다. 이에 앞서 지난 1일 템페스트 공식 사회관계망서비스(SNS)를 통해 ‘노 피어, 노 리밋, 저스트 한빈'(No Fear, No Limits, Just HANBIN.)이라는 메시지와 함께 로고 레이어 영상이 공개됐다. 공개된 모션 영상에는 ‘노 피어'(No Fear)라는 타이틀 문구가 입체적으로 레이어드되며 세련된 감성의 신규 로고로 변모해 팬들의 기대를 고조시켰다. 이어 공개된 무드 필름 영상 역시 눈길을 끌었다. 영상에는 빈티지하면서도 세련되고 감각적인 한빈의 비주얼과 감성적인 신곡 음원 일부가 아우러져 베일을 벗을 신보에 대한 궁금증을 자극했다. 특히 한빈은 데뷔 4년 여 만에 템페스트 멤버 중 가장 먼저 솔로 첫 주자로 나서며 가요계의 안팎의 뜨거운 관심을 모으고 있다. 그룹을 넘어 솔로 뮤지션으로서 새로운 도전에 나선 한빈이 이번 싱글을 통해 보여줄 독창적인 음악적 스펙트럼과 색다른 매력에 팬들의 관심이 집중된다. 한빈은 그간 템페스트의 메인 댄서이자 보컬로서 뛰어난 퍼포먼스 역량과 감성적인 음색을 선보이며 글로벌 팬덤의 뜨거운 사랑을 받아왔다. 특히 베트남 출신 1호 K-팝 아이돌로서 최근 베트남 하노이 VEC(Vietnam Exposition Center)에서 개최된 ‘2026 LCK 팀 로드쇼 키움 DRX 홈프런트'(2026 LCK TEAM ROADSHOW KIWOOM DRX HOMEFRONT) 무대에 오르는 등 국내외를 넘나드는 글로벌 행보를 펼쳐왔다. 한편 베트남 국적의 템페스트 한빈은 2021년 엠넷 ‘아이랜드’에 출연하며 얼굴을 알렸으며 종영 후 YH 엔터테인먼트와 전속계약을 체결했다. 이후 지난 2022년 템페스트를 통해 데뷔했다. YOUR HOPE HERE UNFOLDS YOUR HOPE HERE UNFOLDS YOUR HOPE HERE UNFOLDS YOUR HOPE HERE UNFOLDS YOUR HOPE HERE UNFOLDS YOUR HOPE HERE UNFOLDS © 2026 YH Entertainment All Rights Reserved.",
+      "excerptSha256": "045278e8f66d0273533ad94908bdfbbfecb05357e4db632b7a32343c04ef6134"
+    },
+    {
+      "id": "poe-nps-dob",
+      "url": "https://www.nps.gov/people/edgarallanpoe.htm",
+      "publisher": "U.S. National Park Service",
+      "publisherHost": "www.nps.gov",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytesRead": 41361,
+      "sha256": "1723b1b5d732ad7639e419e690bfb9ac5035db4e2903eeeaeae7be12922b9c8a",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "cance: Author, Poet, Literary Critic Place of Birth: Boston, Massachusetts Date of Birth: January 19, 1809 Place of Death: Baltimore, Maryland Date of Death: October 7, 1849 Place of Burial: Baltimore, Maryland Cemetery Name: Westminster Burial Ground Pioneering author, editor, poet, literary critic, husband, son...Edgar Allan Poe li",
+      "excerptSha256": "ce297489ff96994d4ac4ddbba59ca760e161c0736e2fea0f07a1d3133dc9c1d1"
+    },
+    {
+      "id": "poe-nps-raven",
+      "url": "https://www.nps.gov/people/edgarallanpoe.htm",
+      "publisher": "U.S. National Park Service",
+      "publisherHost": "www.nps.gov",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytesRead": 41361,
+      "sha256": "1723b1b5d732ad7639e419e690bfb9ac5035db4e2903eeeaeae7be12922b9c8a",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "d to New York City in 1844. Poe continued to work as an editor and critic. He gained his greatest fame as a poet after his poem “The Raven” was published in 1845. In the same year, he achieved his lifelong dream of owning a literary journal. Unfortunately, the journal failed within a few months. The Poes and Mrs. Clemm moved outside of New York City to a small cottage in 1846. Virginia died of tuberculosis the following y",
+      "excerptSha256": "b1c2204ca87cd1afd4b227bc050431e97b505efe78a7b0ae80ed6cded816faa9"
+    },
+    {
+      "id": "poe-nps-death",
+      "url": "https://www.nps.gov/people/edgarallanpoe.htm",
+      "publisher": "U.S. National Park Service",
+      "publisherHost": "www.nps.gov",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytesRead": 41361,
+      "sha256": "1723b1b5d732ad7639e419e690bfb9ac5035db4e2903eeeaeae7be12922b9c8a",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "usetts Date of Birth: January 19, 1809 Place of Death: Baltimore, Maryland Date of Death: October 7, 1849 Place of Burial: Baltimore, Maryland Cemetery Name: Westminster Burial Ground Pioneering author, editor, poet, literary critic, husband, son...Edgar Allan Poe lived just to the age of 40 but his works continue to captiv",
+      "excerptSha256": "a806e12a77b62153571c308d7d3025a24812af65e5735f92456f3b10b4f7211b"
+    },
+    {
+      "id": "poe-brockhaus-dob",
+      "url": "https://brockhaus.de/ecs/julex/article/poe-edgar-allan",
+      "publisher": "Brockhaus",
+      "publisherHost": "brockhaus.de",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 165091,
+      "sha256": "9d80114d2a8cbdd20d89a240000a569d848b85fad7262a13a284ffa8883ea16c",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Schullexikon - Brockhaus.de Übersetzt in Schullexikon Schullexikon Login Edgar Allan Poe Vorlesen lassen Drucken Poe [ pəʊ ], Edgar Allan , US-amerikanischer Schriftsteller, * 19.1.1809 in Boston (Massachusetts), † 7.10.1849 in Baltimore (Maryland). Edgar Allan Poe ist der bedeutendste amerikanische Romantiker. Er gilt als Meister der Kurzgeschichte , die er zur Kunstform erhob. Neben zahlreichen fan",
+      "excerptSha256": "a694b892c7c2e020931387e07a9ac566ea5e6fca3a02444a8c4382e1e2caaffc"
+    },
+    {
+      "id": "poe-pbs-detective",
+      "url": "https://www.pbs.org/wgbh/americanexperience/features/murder-edgar-allan-poe-detective-fiction-and-parkman-murder/",
+      "publisher": "PBS American Experience",
+      "publisherHost": "www.pbs.org",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 189755,
+      "sha256": "1dfc91ad4776aa238d1971ba14a333f2102650a6414c274c4ce6c80b13ea3f69",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "roach their fears and fascinations about crime and death. Rapid Popularity The Murders in the Rue Morgue was published in 1841. Eight years later, when the Parkman murder shocked the nation, detective fiction was well-established in America. Readers approached morbidity and murder all the more easily because the stories were fictional ⁠— and they were learning to fancy themselves sleuths in their own right. Thanks to Poe, many Bostonians doubtless would have been familiar with crime tales when the grisly details of the Parkman murder began to unfold. Real-Life Crime In",
+      "excerptSha256": "a55d07525f943792757ddf29bf1536096908fd905cf6bf5d1529a2e332532bdd"
+    },
+    {
+      "id": "janis-tsha-dob",
+      "url": "https://www.tshaonline.org/handbook/entries/joplin-janis-lyn",
+      "publisher": "Texas State Historical Association",
+      "publisherHost": "www.tshaonline.org",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 150041,
+      "sha256": "816d3bc16188fd04b517fbd3827bf91081a582f5449ee55094f12e43bfb11b7e",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "n, blues and rock singer, daughter of Seth Ward and Dorothy (East) Joplin, was born on January 19, 1943, in Port Arthur, Texas. She grew up in a respectable middle-class home; her father was an engineer and her mother a Sunday school teacher. The future queen of nonconformity is remembered as a bright, pretty, and artistic little girl. Signs of rebellion, however, against ",
+      "excerptSha256": "63b9609046333c375fef45e39bae2403ac5cae2d05ed25c640ff24e874e706ee"
+    },
+    {
+      "id": "janis-atlas-lifespan",
+      "url": "https://atlas.thc.texas.gov/Details/5507013885",
+      "publisher": "Texas Historical Commission",
+      "publisherHost": "atlas.thc.texas.gov",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 19036,
+      "sha256": "eda733c4c1ada8e7709a4378fe378a7a217ebe4de644a3acde14df6d50626e23",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "ocation Private Property No Marker Condition In Situ Marker Size 27\" x 42\" Marker Text (January 19, 1943 - October 4, 1970) A native of Port Arthur, famed blues and rock and roll singer Janis Joplin lived here with her family. She graduated from Thomas Jefferson High School in 1960 and attended Port Arthur College and Lamar State College of Technology (Lamar University) in Beaumont. A liberal and outspoken free spirit, Janis rebelled against the conservatism of her hometown, and in 1962 she moved to Austin to study art at the University of",
+      "excerptSha256": "83b7d3f3a6ae0fdd65196f25e3f0c014901d09742ad3256d32121fdf234056d1"
+    },
+    {
+      "id": "janis-monterey",
+      "url": "https://janisjoplin.com/monterey/",
+      "publisher": "Janis Joplin official website",
+      "publisherHost": "janisjoplin.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 116663,
+      "sha256": "e3a41b98e856a083fa1b3409c2d3cd9486e86cf5f7600a83a6fc79f8d940014b",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "pple Amazon Janis’ Dreams Come True at Monterey Pop By Holly George-Warren The groundbreaking Monterey International Pop Festival – June 16-18, 1967 – transformed Janis Joplin’s career while planting the seed for festivals like Woodstock . Janis arrived at the bucolic Monterey County Fairgrounds as a member of Big Brother and the Holding Company (BBHC), largely unknown outside San Francisco. By weekend’s end, she was the subject of global media attention and would be sought after by Columbia Records president Clive Davis and Bob Dylan’s manager Albert Grossman. On her way to superstardom, “the real queen of the festival” – as dubbed by one reporter – would be the highlight of D.A. Pennebaker’s celebrated 1968 documentary, Monterey Pop . Four years earlier, during her original residency in San Francisco performing acoustic blues at coffeehouses, Janis had attended the Monterey Folk Festival, in May 1963. Wanderin",
+      "excerptSha256": "7c66be55f73f6714ff1460cf66fef7692c429511119a53da6326dfd6f9f980b3"
+    },
+    {
+      "id": "janis-cheap-thrills",
+      "url": "https://janisjoplin.com/album/cheap-thrills/",
+      "publisher": "Janis Joplin official website",
+      "publisherHost": "janisjoplin.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 117750,
+      "sha256": "d80b7baed3884ad115325af0f5783c60015c43603c838bce68cd786d59baf195",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "ok Instagram X YouTube Tiktok Spotify Apple Amazon Spotify iTunes Play Buy Cheap Thrills was released on August 12, 1968. Recorded with minimal overdubs, the album captures the raw energy and electric chemistry of the band. Featuring iconic tracks such as “Piece of My Heart,” “Summertime,” and “Ball and Chain,” Cheap Thrills solidified Janis’ reputation as a powerhouse vocalist and became one of the defining albums of the 1960s counterculture movement. With its blend of blues, rock, and psychedelic influences, Cheap Thrills remains a timeless classic, showcasing her unparalleled talent and enduring legacy. CHEAP THRILLS Studio Album 1. Combination of the Two 2. I Nee",
+      "excerptSha256": "9805589d154abc32e935972ac7e0fa619a82c4c79f780acd2e75db8afd4fdff2"
+    },
+    {
+      "id": "cezanne-granet-dob",
+      "url": "https://www.museegranet-aixenprovence.fr/fileadmin/user_upload/livret-visiteur-cezanne.pdf",
+      "publisher": "Musée Granet",
+      "publisherHost": "www.museegranet-aixenprovence.fr",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytesRead": 2212512,
+      "sha256": "f2efe479931d5c48e0e9abeeeff5fb5b298ce6eeecdcf22e2477db2ec6e4af88",
+      "verificationMethod": "direct-http-pdf-text-selected-excerpt",
+      "excerpt": "or the young artist, who readily paints over his own work. 19 janvier 1839 19 January 1839 Naissance de Paul Cezanne à Aix-en-Provence. Il est le fils, né hors mariage, de Louis-Auguste Cezanne, alors chapelier, et d’Anne Élisabeth Honorine Aubert, ouvrière. Birth of Paul Cezanne in Aix-en Provence. He is born outside of wedlock to Louis-Auguste Cezanne, a hatmaker, and Anne Élisabeth Honorine Aubert, a factory worker. 17 1857 Inscription à l’école gratuite de dessin, située dans le même bâtiment que le musée d’Aix (actuel musée Granet). Il fait la connaissance d’Augus",
+      "excerptSha256": "be10d5b858d3527a71b7a12cc291ff8dd87a6f60a672beb2944c74278e25428f"
+    },
+    {
+      "id": "cezanne-society-dob",
+      "url": "https://www.societe-cezanne.fr/2013/10/07/biographie-de-cezanne/",
+      "publisher": "Société Cézanne",
+      "publisherHost": "www.societe-cezanne.fr",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 230517,
+      "sha256": "06ebf321de228afd6b481a4ab6aeb4780fbdb3ac14737eb56c7c2882e82ed638",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "s, la Provence définitive. 1839-1861 : Une enfance et adolescence aixoises 19 janvier 1839 : naissance de Paul Cezanne à Aix en Provence, 28 rue de l’Opéra. Le père de Paul, Louis-Auguste Cezanne [demeurant 55 sur le Cours (qui deviendra Cours Mirabeau en 1876)], est alors chapelier. Sa mère, Anne Elisabeth Honorine Aubert, appartient à l’entreprise de chapellerie. Le couple n’est pas marié au moment de la naissance de Paul. Deux autres enfants naîtro",
+      "excerptSha256": "b03727882e7dc6fffa62b4a92791ae7b444eb32d65cef7a86c5b0f07784ac84c"
+    },
+    {
+      "id": "cezanne-orangerie-impressionists",
+      "url": "https://www.musee-orangerie.fr/fr/articles/paul-cezanne-105454",
+      "publisher": "Musée de l’Orangerie",
+      "publisherHost": "www.musee-orangerie.fr",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 38065,
+      "sha256": "ade8bb022d00e15a5031f6136e54b8da7b26a3e58f89b7b1e6f9d08a9dfb0827",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "emporaines au musée du Luxembourg où il découvre l’art d’Eugène Delacroix. En 1872, il s’installe à Auvers-sur-Oise où il peint avec Camille Pissarro et participe à l’exposition fondatrice du groupe impressionniste à Paris en 1874. Cezanne se partage entre Paris et la Provence. Il abandonne l’impressionnisme mais reste fidèle au travail en plein air et aux ombres colorées. Vers 1890-1895, sa peinture se renouvelle par un changement radical de style et de facture, dessinant fortement les contours des objets, esquissant seulement les modelés. En 1895, sa première exposition chez le marchand Ambroise Vollard le révèle au public. Les jeunes peintres le révèrent alors comme le précurseur de la peinture moderne par son sens du volume et l’importance donnée à la structure",
+      "excerptSha256": "1c4b244ee6f4e001d91a1f561da675bf3a9ef3faaa240d77271f973f5ccb62ce"
+    },
+    {
+      "id": "cezanne-courtauld-card-players",
+      "url": "https://courtauld.ac.uk/highlights/the-card-players/",
+      "publisher": "The Courtauld Gallery",
+      "publisherHost": "courtauld.ac.uk",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 119455,
+      "sha256": "e6ac71634028461279008881f5d6d6e4ecd70c32c3fe25c5be8f4407820f023e",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "rvation Scholarships Home · The Card Players The Card Players Paul Cézanne Cézanne became interested in depicting labourers playing cards in the autumn of 1890. During the 1890s he completed five paintings of this subject. Here, the composition is refined down to two men seated across a table in undefined surroundings. The players face each other but are immersed in the ritual of the game. Farm workers from the estate of Cézanne’s father posed for the two figures. They are the human equivalents of the painter’s views of Mount Saint Victoire: timeless, monumental and resolutely Provençal. Explore this painting in our virtual tour This painting is on display in the LVMH Great Room, Level 3 of The Courtauld Gallery. You can view this room from the comforts of your home through our virtual tour. Launch tour i Blavatnik Fine Rooms, Room 5 Buy a print Create your own g",
+      "excerptSha256": "c24709e8cc5a6210c9774c343f69fcff053dec9213f3159b86d68df6416cfdba"
+    },
+    {
+      "id": "cezanne-bnf-life",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb118958019",
+      "publisher": "Bibliothèque nationale de France",
+      "publisherHost": "catalogue.bnf.fr",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytesRead": 60335,
+      "sha256": "da5f9e4ff58dced169871bbd482714c4a3d54286db2cffeea988f62e4bd9244e",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "ternationale Pays : France Langue(s) : français . français Sexe : Masculin Naissance : 1839-01-19, Aix-en-Provence (Bouches-du-Rhône) Mort : 1906-10-22, Aix-en-Provence (Bouches-du-Rhône) Peintre, graveur et lithographe. Source(s) : Cézanne par lui-même, 1988 . - Correspondance / Paul Cézanne : recueillie, annotée et préfacée par John Rewald, 1937 Bénézit, 1960 . - GDEL . - Qui était qui, XXe siècle / Béatrice et Michel Wattel, 200",
+      "excerptSha256": "8766152fea9e424983b5fd438db68e20ec77afe3c31af528a8001d5ce38672de"
+    },
+    {
+      "id": "javier-fundacion",
+      "url": "https://fundacionadp.edu.pe/canciller/javier-perez-de-cuellar/",
+      "publisher": "Fundación Academia Diplomática del Perú",
+      "publisherHost": "fundacionadp.edu.pe",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 134532,
+      "sha256": "549fea827c1b26a64e7a368f39670dc59e35c965149f1983a8fc177dc7a54bc6",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "eneral Javier Pérez de Cuellar Por host-admin-admin 23 de septiembre, 2026 Javier Pérez de Cuéllar, Ilustre Diplomático Peruano que prestigió al Perú a nivel mundial al ejercer durante diez años la Secretaría General de las Naciones Unidas, nació en Lima el 19 de enero de 1920, hijo de Ricardo Pérez de Cuéllar y Rosa Guerra. En sus Memorias informa que “…por haber sido hijo único de Ricardo Pérez de Cuéllar y Rosa Guerra y Zevallos, fui confiado por ellos, debido a sus constantes viajes, al cuidado de la tía Elvira, cuñada de mi padre, y de sus cuatro hijos, Carlos, Rosa, Consuelo y Águeda, a quienes, por ser bastante mayores que yo, llamaba tíos”. Compartió su niñez con sus primos Rosa y Carlos Pérez Cánepa Jiménez, hijos del tío Carlos. Realizó sus primeros estudios en el colegio de La Salle, siguiéndolos en el de San Agustín. Los antecedentes de su vocación por la Diplomacia se remontan a su interés por lo extranjero durante su niñez y adolescencia. Tenía colección de monedas y de estampillas del mundo entero, que mejoraron su conocimiento de la geografía. Le atraían las revistas en francés e inglés, por lo que se esforzó en aprender idiomas, especialmente el francés. Salía con su primo Carlos a las calles de Lima para ver y contar las banderas de su p",
+      "excerptSha256": "7d90bbb22f44390b7501c34a6c99da7308b38340f95f176eede30a5624993a74"
+    },
+    {
+      "id": "javier-guardian-dob",
+      "url": "https://www.theguardian.com/world/2020/mar/05/javier-perez-de-cuellar-obituary",
+      "publisher": "The Guardian",
+      "publisherHost": "www.theguardian.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 324799,
+      "sha256": "9e245bab5e71d38de4b53289c24e7ef6a30f31689acee41974e5b249e413ba31",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "ce. In 1975 he married Marcela Temple Seminario in 1975; she died in 2013. Javier Pérez de Cuéllar, diplomat and politician, born 19 January 1920; died 4 March 2020 This article was amended on 7 March 2020. The original version mistakenly described Javier Pérez de Cuéllar as a former president of Peru; in fact he served as prime mini",
+      "excerptSha256": "7ee0c1c7a475cd63035d16a70fa38948f5c2cef3d01eac0601f72479893647c7"
+    },
+    {
+      "id": "javier-guardian-prime",
+      "url": "https://www.theguardian.com/world/2020/mar/05/javier-perez-de-cuellar-obituary",
+      "publisher": "The Guardian",
+      "publisherHost": "www.theguardian.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 324957,
+      "sha256": "7529dfa15261c7bc22e6f095f3e32aa1192eecb999a02a9200a23f78fe8d5ad1",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "ited Nations for two terms during a difficult and dismal decade from 1982. He also served, briefly, as prime minister of Peru in 2000-01. As secretary general, Pérez de Cuéllar faced a series of global crises, including the Iraqi invasion of Kuwait in 1990 and the subsequent Gulf war, and he had to deal with the difficulties caused by the permanent hostility of the Ronald Reagan administration to the UN, as well as the co",
+      "excerptSha256": "a1988ed447a564415ae9ba39c83d453ec52ddaa5c2671305953bb188b75a063c"
+    },
+    {
+      "id": "hanbin-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q104434346.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 14638,
+      "sha256": "0db288cfb82fbe3a685e9e41f4970e0c0ec83308e4f516120a55e312f269300f",
+      "verificationMethod": "direct-http-json-entity-snapshot+reviewed-claims",
+      "excerpt": "{\"entity\":\"Q104434346\",\"claims\":{\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":0}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1998-01-19T00:00:00Z\",\"references\":1,\"precision\":11,\"calendar\":\"Q1985727\"}],\"p570\":[],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q881\",\"references\":0}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q177220\",\"references\":0}]}}",
+      "excerptSha256": "30086f98910c2e107e80e92949b92dbe9d6e0606d7dc0b38da69c6ecf2cc0249"
+    },
+    {
+      "id": "poe-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q16867.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 374883,
+      "sha256": "69a907ae3633be70d923b1527630923b70ea0f317317685f9f56e38b6c43b9d6",
+      "verificationMethod": "direct-http-json-entity-snapshot+reviewed-claims",
+      "excerpt": "{\"entity\":\"Q16867\",\"claims\":{\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":2}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1809-01-19T00:00:00Z\",\"references\":23,\"precision\":11,\"calendar\":\"Q1985727\"}],\"p570\":[{\"rank\":\"normal\",\"value\":\"+1849-10-07T00:00:00Z\",\"references\":22,\"precision\":11,\"calendar\":\"Q1985727\"}],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q30\",\"references\":0}],\"p106\":[{\"rank\":\"preferred\",\"value\":\"Q49757\",\"references\":3},{\"rank\":\"preferred\",\"value\":\"Q36180\",\"references\":6},{\"rank\":\"preferred\",\"value\":\"Q11774202\",\"references\":0},{\"rank\":\"preferred\",\"value\":\"Q4263842\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q214917\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q1930187\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q18844224\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q10297252\",\"references\":1},{\"rank\":\"preferred\",\"value\":\"Q6625963\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q482980\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q822146\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q15962340\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q876864\",\"references\":1},{\"rank\":\"preferred\",\"value\":\"Q15949613\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q17167049\",\"references\":1}]}}",
+      "excerptSha256": "ab75c435db32f17564e67b92ce7cb29731803306fca712901a58ada73cf3d4b5"
+    },
+    {
+      "id": "janis-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q1514.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 201508,
+      "sha256": "910b83d7f3195b4b8297acd8ae02cf8d2145ce6bfb40fa414d6c8e223369d5cf",
+      "verificationMethod": "direct-http-json-entity-snapshot+reviewed-claims",
+      "excerpt": "{\"entity\":\"Q1514\",\"claims\":{\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":1}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1943-01-19T00:00:00Z\",\"references\":14,\"precision\":11,\"calendar\":\"Q1985727\"}],\"p570\":[{\"rank\":\"normal\",\"value\":\"+1970-10-04T00:00:00Z\",\"references\":14,\"precision\":11,\"calendar\":\"Q1985727\"}],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q30\",\"references\":1}],\"p106\":[{\"rank\":\"preferred\",\"value\":\"Q177220\",\"references\":3},{\"rank\":\"normal\",\"value\":\"Q488205\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q36834\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q855091\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q55960555\",\"references\":0}]}}",
+      "excerptSha256": "fe67f326d5c7b3df0f695b1bb51af7101b2b96f8f0f5c4c58d6550b46c72a2b9"
+    },
+    {
+      "id": "cezanne-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q35548.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 423525,
+      "sha256": "011b68506003cf0905a3818f2900a697e4968a9d640fdeb5fb4917cf753e45a8",
+      "verificationMethod": "direct-http-json-entity-snapshot+reviewed-claims",
+      "excerpt": "{\"entity\":\"Q35548\",\"claims\":{\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":2}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1839-01-19T00:00:00Z\",\"references\":11,\"precision\":11,\"calendar\":\"Q1985727\"}],\"p570\":[{\"rank\":\"normal\",\"value\":\"+1906-10-22T00:00:00Z\",\"references\":8,\"precision\":11,\"calendar\":\"Q1985727\"},{\"rank\":\"deprecated\",\"value\":\"+1906-10-23T00:00:00Z\",\"references\":1,\"precision\":11,\"calendar\":\"Q1985727\"}],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q142\",\"references\":3}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q1028181\",\"references\":4},{\"rank\":\"normal\",\"value\":\"Q11569986\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q16947657\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q15296811\",\"references\":4},{\"rank\":\"deprecated\",\"value\":\"Q1925963\",\"references\":1}]}}",
+      "excerptSha256": "8da4b037d153e1287ae971253cebc831c52202b29471c9f0c671fd92fe95b4d9"
+    },
+    {
+      "id": "javier-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q1259.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 211627,
+      "sha256": "6949660718c0b32533de1c39148c5b578466edbb6651dfaba77eee679fce0676",
+      "verificationMethod": "direct-http-json-entity-snapshot+reviewed-claims",
+      "excerpt": "{\"entity\":\"Q1259\",\"claims\":{\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":2}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1920-01-19T00:00:00Z\",\"references\":4,\"precision\":11,\"calendar\":\"Q1985727\"}],\"p570\":[{\"rank\":\"normal\",\"value\":\"+2020-03-04T00:00:00Z\",\"references\":3,\"precision\":11,\"calendar\":\"Q1985727\"}],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q419\",\"references\":2}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q82955\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q193391\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q40348\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q121998\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q1622272\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q185351\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q2285706\",\"references\":1}]}}",
+      "excerptSha256": "350cfd03bae69d91381b41552bafae147ac99b3460fb875489d24e09a6b1a7e1"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "hanbin",
+      "name": "Hanbin",
+      "wikidataId": "Q104434346",
+      "birthDate": "1998-01-19",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "hanbin-yh-dob",
+        "hanbin-kbs-dob"
+      ],
+      "statusSourceId": null,
+      "deathDateSourceIds": [],
+      "careerFactIds": [
+        "hanbin-tempest-debut",
+        "hanbin-solo-announced"
+      ],
+      "countryCode": "VN",
+      "category": "music",
+      "occupation": [
+        "ca sĩ"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "hanbin-tempest-debut",
+            "hanbin-solo-announced"
+          ],
+          "rationale": "Hoạt động ca hát và phát hành âm nhạc cùng nhóm, cũng như dự án solo do hãng quản lý công bố, thuộc sáng tạo âm nhạc."
+        }
+      ],
+      "wikidataCaptureId": "hanbin-wikidata",
+      "wikidataLabel": "Hanbin",
+      "identityClaims": {
+        "label": "Hanbin",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 0
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1998-01-19T00:00:00Z",
+            "references": 1,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q881",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q177220",
+            "references": 0
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q177220"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q104434346",
+        "https://yhent.co.kr/artist/tempest/",
+        "https://world.kbs.co.kr/service/contents_view.htm?board_seq=422510&id=&lang=j&menu_cate=artist&page=1",
+        "https://www.yhent.co.kr/en/album/its-me-its-we/",
+        "https://yhent.co.kr/news/%ED%85%9C%ED%8E%98%EC%8A%A4%ED%8A%B8-%ED%95%9C%EB%B9%88-%EB%8D%B0%EB%B7%94-4%EB%85%84-%EB%A7%8C%EC%97%90-%EC%86%94%EB%A1%9C-%EB%8D%B0%EB%B7%94%ED%8C%80-%EC%B2%AB-%EC%A3%BC%EC%9E%90/"
+      ],
+      "before": {
+        "biography": "Hanbin là ca sĩ người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Trong nhóm TEMPEST, Hanbin đảm nhận vị trí vocal và dance.",
+        "highlights": [
+          "Sinh ngày 19/1/1998.",
+          "Trong nhóm TEMPEST, Hanbin đảm nhận vị trí vocal và dance."
+        ],
+        "fields": null,
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q104434346",
+          "https://yhent.co.kr/artist/tempest/",
+          "https://tempestjapan.com/feature/profile_hanbin"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      },
+      "after": {
+        "biography": "Hanbin là ca sĩ Việt Nam và lead vocalist của TEMPEST. Nhóm ra mắt với mini-album đầu tay It’s ME, It’s WE; YH Entertainment sau đó công bố anh là thành viên đầu tiên của nhóm sẽ ra mắt solo với single kỹ thuật số No Fear.",
+        "highlights": [
+          "Năm 2022, Hanbin ra mắt cùng TEMPEST qua mini-album đầu tay It’s ME, It’s WE.",
+          "YH Entertainment công bố Hanbin là thành viên TEMPEST đầu tiên sẽ ra mắt solo với single kỹ thuật số No Fear."
+        ],
+        "fields": [
+          "design-creative"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q104434346",
+          "https://yhent.co.kr/artist/tempest/",
+          "https://world.kbs.co.kr/service/contents_view.htm?board_seq=422510&id=&lang=j&menu_cate=artist&page=1",
+          "https://www.yhent.co.kr/en/album/its-me-its-we/",
+          "https://yhent.co.kr/news/%ED%85%9C%ED%8E%98%EC%8A%A4%ED%8A%B8-%ED%95%9C%EB%B9%88-%EB%8D%B0%EB%B7%94-4%EB%85%84-%EB%A7%8C%EC%97%90-%EC%86%94%EB%A1%9C-%EB%8D%B0%EB%B7%94%ED%8C%80-%EC%B2%AB-%EC%A3%BC%EC%9E%90/"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "unknown",
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      }
+    },
+    {
+      "id": "edgar-allan-poe",
+      "name": "Edgar Allan Poe",
+      "wikidataId": "Q16867",
+      "birthDate": "1809-01-19",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "1849-10-07",
+      "dobSourceIds": [
+        "poe-nps-dob",
+        "poe-brockhaus-dob"
+      ],
+      "statusSourceId": "poe-nps-death",
+      "deathDateSourceIds": [
+        "poe-nps-death"
+      ],
+      "careerFactIds": [
+        "poe-raven-1845",
+        "poe-detective-1841"
+      ],
+      "countryCode": "US",
+      "category": "literature",
+      "occupation": [
+        "nhà văn và nhà thơ"
+      ],
+      "fields": [
+        "education-thought"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "education-thought",
+          "careerFactIds": [
+            "poe-raven-1845",
+            "poe-detective-1841"
+          ],
+          "rationale": "Các sự kiện về thơ và truyện trinh thám cho thấy đóng góp của Poe vào văn học và lịch sử tư tưởng."
+        }
+      ],
+      "wikidataCaptureId": "poe-wikidata",
+      "wikidataLabel": "Edgar Allan Poe",
+      "identityClaims": {
+        "label": "Edgar Allan Poe",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1809-01-19T00:00:00Z",
+            "references": 23,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1849-10-07T00:00:00Z",
+            "references": 22,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "preferred",
+            "value": "Q49757",
+            "references": 3
+          },
+          {
+            "rank": "preferred",
+            "value": "Q36180",
+            "references": 6
+          },
+          {
+            "rank": "preferred",
+            "value": "Q11774202",
+            "references": 0
+          },
+          {
+            "rank": "preferred",
+            "value": "Q4263842",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q214917",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1930187",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q18844224",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q10297252",
+            "references": 1
+          },
+          {
+            "rank": "preferred",
+            "value": "Q6625963",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q482980",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q822146",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q15962340",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q876864",
+            "references": 1
+          },
+          {
+            "rank": "preferred",
+            "value": "Q15949613",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q17167049",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q49757",
+          "Q36180"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q16867",
+        "https://www.nps.gov/people/edgarallanpoe.htm",
+        "https://brockhaus.de/ecs/julex/article/poe-edgar-allan",
+        "https://www.pbs.org/wgbh/americanexperience/features/murder-edgar-allan-poe-detective-fiction-and-parkman-murder/"
+      ],
+      "before": {
+        "biography": "Edgar Allan Poe là nhà văn và nhà thơ người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Bài thơ The Raven xuất bản năm 1845 đã đưa Edgar Allan Poe đến với danh tiếng lớn trong vai trò nhà thơ.",
+        "highlights": [
+          "Sinh ngày 19/1/1809.",
+          "Bài thơ The Raven xuất bản năm 1845 đã đưa Edgar Allan Poe đến với danh tiếng lớn trong vai trò nhà thơ."
+        ],
+        "fields": null,
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q16867",
+          "https://www.nps.gov/people/edgarallanpoe.htm",
+          "https://poemuseum.org/",
+          "https://brockhaus.de/ecs/julex/article/poe-edgar-allan"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": "deceased",
+        "deathDate": "1849-10-07",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://brockhaus.de/ecs/julex/article/poe-edgar-allan"
+        ]
+      },
+      "after": {
+        "biography": "Edgar Allan Poe là nhà văn và nhà thơ Hoa Kỳ. Bài thơ The Raven (1845) đem lại cho ông danh tiếng lớn; truyện The Murders in the Rue Morgue (1841) góp phần mở đầu thể loại truyện trinh thám.",
+        "highlights": [
+          "Năm 1845, bài thơ The Raven đem lại cho Poe danh tiếng lớn trong vai trò nhà thơ.",
+          "Truyện The Murders in the Rue Morgue xuất bản năm 1841, góp phần mở đầu thể loại trinh thám."
+        ],
+        "fields": [
+          "education-thought"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q16867",
+          "https://www.nps.gov/people/edgarallanpoe.htm",
+          "https://brockhaus.de/ecs/julex/article/poe-edgar-allan",
+          "https://www.pbs.org/wgbh/americanexperience/features/murder-edgar-allan-poe-detective-fiction-and-parkman-murder/"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "deceased",
+        "deathDate": "1849-10-07",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://www.nps.gov/people/edgarallanpoe.htm"
+        ]
+      },
+      "deathDatePrecision": "day"
+    },
+    {
+      "id": "janis-joplin",
+      "name": "Janis Joplin",
+      "wikidataId": "Q1514",
+      "birthDate": "1943-01-19",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "1970-10-04",
+      "dobSourceIds": [
+        "janis-tsha-dob",
+        "janis-atlas-lifespan"
+      ],
+      "statusSourceId": "janis-atlas-lifespan",
+      "deathDateSourceIds": [
+        "janis-atlas-lifespan"
+      ],
+      "careerFactIds": [
+        "janis-monterey-1967",
+        "janis-cheap-thrills-1968"
+      ],
+      "countryCode": "US",
+      "category": "music",
+      "occupation": [
+        "ca sĩ"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "janis-monterey-1967",
+            "janis-cheap-thrills-1968"
+          ],
+          "rationale": "Màn trình diễn và các bản thu âm của Joplin là đóng góp trực tiếp cho âm nhạc đại chúng."
+        }
+      ],
+      "wikidataCaptureId": "janis-wikidata",
+      "wikidataLabel": "Janis Joplin",
+      "identityClaims": {
+        "label": "Janis Joplin",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1943-01-19T00:00:00Z",
+            "references": 14,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1970-10-04T00:00:00Z",
+            "references": 14,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "preferred",
+            "value": "Q177220",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q488205",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q36834",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q855091",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q55960555",
+            "references": 0
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q177220",
+          "Q488205"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q1514",
+        "https://www.tshaonline.org/handbook/entries/joplin-janis-lyn",
+        "https://atlas.thc.texas.gov/Details/5507013885",
+        "https://janisjoplin.com/monterey/",
+        "https://janisjoplin.com/album/cheap-thrills/"
+      ],
+      "before": {
+        "biography": "Janis Joplin là ca sĩ người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 1992, em gái Janis Joplin xuất bản Love, Janis, tuyển tập thư Janis viết cho gia đình từ năm 1963.",
+        "highlights": [
+          "Sinh ngày 19/1/1943.",
+          "Năm 1992, em gái Janis Joplin xuất bản Love, Janis, tuyển tập thư Janis viết cho gia đình từ năm 1963."
+        ],
+        "fields": null,
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q1514",
+          "https://www.tshaonline.org/handbook/entries/joplin-janis-lyn",
+          "https://atlas.thc.texas.gov/Details/5507013885"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      },
+      "after": {
+        "biography": "Janis Joplin là ca sĩ blues và rock người Hoa Kỳ. Màn trình diễn của bà tại Monterey Pop năm 1967 tạo bước ngoặt cho sự nghiệp; album Cheap Thrills cùng Big Brother and the Holding Company phát hành năm 1968.",
+        "highlights": [
+          "Màn trình diễn của Janis Joplin tại Monterey Pop năm 1967 đã tạo bước ngoặt cho sự nghiệp của bà.",
+          "Album Cheap Thrills của Janis Joplin và Big Brother and the Holding Company phát hành ngày 12/8/1968."
+        ],
+        "fields": [
+          "design-creative"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q1514",
+          "https://www.tshaonline.org/handbook/entries/joplin-janis-lyn",
+          "https://atlas.thc.texas.gov/Details/5507013885",
+          "https://janisjoplin.com/monterey/",
+          "https://janisjoplin.com/album/cheap-thrills/"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "deceased",
+        "deathDate": "1970-10-04",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://atlas.thc.texas.gov/Details/5507013885"
+        ]
+      },
+      "deathDatePrecision": "day"
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "paul-cezanne",
+      "name": "Paul Cézanne",
+      "wikidataId": "Q35548",
+      "birthDate": "1839-01-19",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "1906-10-22",
+      "dobSourceIds": [
+        "cezanne-granet-dob",
+        "cezanne-society-dob"
+      ],
+      "statusSourceId": "cezanne-bnf-life",
+      "deathDateSourceIds": [
+        "cezanne-bnf-life"
+      ],
+      "careerFactIds": [
+        "cezanne-impressionist-1874",
+        "cezanne-card-players-1890s"
+      ],
+      "countryCode": "FR",
+      "category": "artist",
+      "occupation": [
+        "họa sĩ và nghệ sĩ đồ họa"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "cezanne-impressionist-1874",
+            "cezanne-card-players-1890s"
+          ],
+          "rationale": "Cézanne tham gia triển lãm Ấn tượng và phát triển một loạt tranh hội họa, phù hợp với lĩnh vực sáng tạo."
+        }
+      ],
+      "wikidataCaptureId": "cezanne-wikidata",
+      "wikidataLabel": "Paul Cézanne",
+      "identityClaims": {
+        "label": "Paul Cézanne",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1839-01-19T00:00:00Z",
+            "references": 11,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1906-10-22T00:00:00Z",
+            "references": 8,
+            "precision": 11,
+            "calendar": "Q1985727"
+          },
+          {
+            "rank": "deprecated",
+            "value": "+1906-10-23T00:00:00Z",
+            "references": 1,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q142",
+            "references": 3
+          }
+        ],
+        "selectedCountryQid": "Q142",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q1028181",
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "value": "Q11569986",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q16947657",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q15296811",
+            "references": 4
+          },
+          {
+            "rank": "deprecated",
+            "value": "Q1925963",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q1028181"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q35548",
+        "https://www.museegranet-aixenprovence.fr/fileadmin/user_upload/livret-visiteur-cezanne.pdf",
+        "https://www.societe-cezanne.fr/2013/10/07/biographie-de-cezanne/",
+        "https://www.musee-orangerie.fr/fr/articles/paul-cezanne-105454",
+        "https://courtauld.ac.uk/highlights/the-card-players/",
+        "https://catalogue.bnf.fr/ark:/12148/cb118958019"
+      ],
+      "birthplace": "Aix-en-Provence, Pháp",
+      "birthplaceEvidencePhrase": "Birth of Paul Cezanne in Aix-en Provence",
+      "reviewNotes": "Snapshot P570 includes a deprecated 23 October claim; the active 22 October date is supported by the Bibliothèque nationale de France authority record.",
+      "after": {
+        "birthplace": "Aix-en-Provence, Pháp",
+        "biography": "Paul Cézanne là họa sĩ Pháp sinh tại Aix-en-Provence. Ông tham gia triển lãm đầu tiên của nhóm Ấn tượng tại Paris năm 1874; trong thập niên 1890, ông hoàn thành loạt năm bức tranh về những người lao động chơi bài.",
+        "highlights": [
+          "Năm 1874, Cézanne tham gia triển lãm đầu tiên của nhóm Ấn tượng tại Paris.",
+          "Trong thập niên 1890, Cézanne hoàn thành loạt năm bức tranh về những người lao động chơi bài."
+        ],
+        "fields": [
+          "design-creative"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q35548",
+          "https://www.museegranet-aixenprovence.fr/fileadmin/user_upload/livret-visiteur-cezanne.pdf",
+          "https://www.societe-cezanne.fr/2013/10/07/biographie-de-cezanne/",
+          "https://www.musee-orangerie.fr/fr/articles/paul-cezanne-105454",
+          "https://courtauld.ac.uk/highlights/the-card-players/",
+          "https://catalogue.bnf.fr/ark:/12148/cb118958019"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "deceased",
+        "deathDate": "1906-10-22",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://catalogue.bnf.fr/ark:/12148/cb118958019"
+        ]
+      },
+      "deathDatePrecision": "day"
+    },
+    {
+      "id": "javier-perez-de-cuellar",
+      "name": "Javier Pérez de Cuéllar",
+      "wikidataId": "Q1259",
+      "birthDate": "1920-01-19",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "2020-03-04",
+      "dobSourceIds": [
+        "javier-fundacion",
+        "javier-guardian-dob"
+      ],
+      "statusSourceId": "javier-guardian-dob",
+      "deathDateSourceIds": [
+        "javier-guardian-dob"
+      ],
+      "careerFactIds": [
+        "javier-un-secretary-general",
+        "javier-peru-prime-minister"
+      ],
+      "countryCode": "PE",
+      "category": "politics",
+      "occupation": [
+        "nhà ngoại giao và chính trị gia"
+      ],
+      "fields": [
+        "society-law"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "society-law",
+          "careerFactIds": [
+            "javier-un-secretary-general",
+            "javier-peru-prime-minister"
+          ],
+          "rationale": "Sự nghiệp ngoại giao, giữ chức Tổng Thư ký Liên Hợp Quốc và điều hành chính phủ Peru thuộc lĩnh vực xã hội, pháp luật và công vụ."
+        }
+      ],
+      "wikidataCaptureId": "javier-wikidata",
+      "wikidataLabel": "Javier Pérez de Cuéllar",
+      "identityClaims": {
+        "label": "Javier Pérez de Cuéllar",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1920-01-19T00:00:00Z",
+            "references": 4,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2020-03-04T00:00:00Z",
+            "references": 3,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q419",
+            "references": 2
+          }
+        ],
+        "selectedCountryQid": "Q419",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q82955",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q193391",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q40348",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q121998",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q185351",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2285706",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q193391",
+          "Q82955"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q1259",
+        "https://fundacionadp.edu.pe/canciller/javier-perez-de-cuellar/",
+        "https://www.theguardian.com/world/2020/mar/05/javier-perez-de-cuellar-obituary"
+      ],
+      "birthplace": "Lima, Peru",
+      "birthplaceEvidencePhrase": "nació en Lima el 19 de enero de 1920",
+      "after": {
+        "birthplace": "Lima, Peru",
+        "biography": "Javier Pérez de Cuéllar là nhà ngoại giao và chính trị gia Peru. Ông giữ chức Tổng Thư ký Liên Hợp Quốc trong mười năm, sau đó trở lại chính trường Peru và giữ chức thủ tướng giai đoạn 2000–2001.",
+        "highlights": [
+          "Javier Pérez de Cuéllar giữ chức Tổng Thư ký Liên Hợp Quốc trong mười năm.",
+          "Năm 2000–2001, ông kiêm nhiệm chức thủ tướng Peru."
+        ],
+        "fields": [
+          "society-law"
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q1259",
+          "https://fundacionadp.edu.pe/canciller/javier-perez-de-cuellar/",
+          "https://www.theguardian.com/world/2020/mar/05/javier-perez-de-cuellar-obituary"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "deceased",
+        "deathDate": "2020-03-04",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://www.theguardian.com/world/2020/mar/05/javier-perez-de-cuellar-obituary"
+        ]
+      },
+      "deathDatePrecision": "day"
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "hanbin-tempest-debut",
+      "profileId": "hanbin",
+      "displayText": "Năm 2022, Hanbin ra mắt cùng TEMPEST qua mini-album đầu tay It’s ME, It’s WE.",
+      "sourceId": "hanbin-album",
+      "evidencePhrase": "TEMPEST presents their debut album, It’s ME, It’s WE"
+    },
+    {
+      "id": "hanbin-solo-announced",
+      "profileId": "hanbin",
+      "displayText": "YH Entertainment công bố Hanbin là thành viên TEMPEST đầu tiên sẽ ra mắt solo với single kỹ thuật số No Fear.",
+      "sourceId": "hanbin-solo",
+      "evidencePhrase": "템페스트 멤버 중 가장 먼저 솔로 첫 주자로"
+    },
+    {
+      "id": "poe-raven-1845",
+      "profileId": "edgar-allan-poe",
+      "displayText": "Năm 1845, bài thơ The Raven đem lại cho Poe danh tiếng lớn trong vai trò nhà thơ.",
+      "sourceId": "poe-nps-raven",
+      "evidencePhrase": "“The Raven” was published in 1845."
+    },
+    {
+      "id": "poe-detective-1841",
+      "profileId": "edgar-allan-poe",
+      "displayText": "Truyện The Murders in the Rue Morgue xuất bản năm 1841, góp phần mở đầu thể loại trinh thám.",
+      "sourceId": "poe-pbs-detective",
+      "evidencePhrase": "The Murders in the Rue Morgue was published in 1841."
+    },
+    {
+      "id": "janis-monterey-1967",
+      "profileId": "janis-joplin",
+      "displayText": "Màn trình diễn của Janis Joplin tại Monterey Pop năm 1967 đã tạo bước ngoặt cho sự nghiệp của bà.",
+      "sourceId": "janis-monterey",
+      "evidencePhrase": "transformed Janis Joplin’s career"
+    },
+    {
+      "id": "janis-cheap-thrills-1968",
+      "profileId": "janis-joplin",
+      "displayText": "Album Cheap Thrills của Janis Joplin và Big Brother and the Holding Company phát hành ngày 12/8/1968.",
+      "sourceId": "janis-cheap-thrills",
+      "evidencePhrase": "Cheap Thrills was released on August 12, 1968."
+    },
+    {
+      "id": "cezanne-impressionist-1874",
+      "profileId": "paul-cezanne",
+      "displayText": "Năm 1874, Cézanne tham gia triển lãm đầu tiên của nhóm Ấn tượng tại Paris.",
+      "sourceId": "cezanne-orangerie-impressionists",
+      "evidencePhrase": "participe à l’exposition fondatrice du groupe impressionniste à Paris en 1874"
+    },
+    {
+      "id": "cezanne-card-players-1890s",
+      "profileId": "paul-cezanne",
+      "displayText": "Trong thập niên 1890, Cézanne hoàn thành loạt năm bức tranh về những người lao động chơi bài.",
+      "sourceId": "cezanne-courtauld-card-players",
+      "evidencePhrase": "During the 1890s he completed five paintings of this subject."
+    },
+    {
+      "id": "javier-un-secretary-general",
+      "profileId": "javier-perez-de-cuellar",
+      "displayText": "Javier Pérez de Cuéllar giữ chức Tổng Thư ký Liên Hợp Quốc trong mười năm.",
+      "sourceId": "javier-fundacion",
+      "evidencePhrase": "ejercer durante diez años la Secretaría General de las Naciones Unidas"
+    },
+    {
+      "id": "javier-peru-prime-minister",
+      "profileId": "javier-perez-de-cuellar",
+      "displayText": "Năm 2000–2001, ông kiêm nhiệm chức thủ tướng Peru.",
+      "sourceId": "javier-guardian-prime",
+      "evidencePhrase": "He also served, briefly, as prime minister of Peru in 2000-01."
+    }
+  ],
+  "wikidataReview": {
+    "conflicts": []
+  }
+}

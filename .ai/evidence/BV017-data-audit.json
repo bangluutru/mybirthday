@@ -10,7 +10,7 @@
     "people": 1120,
     "death_date_conflict": 33,
     "p570_without_reference": 1,
-    "deathDatesDirectlyConfirmedByPublisherCapture": 305,
+    "deathDatesDirectlyConfirmedByPublisherCapture": 308,
     "deathDatesDirectlyConfirmedInB015B016": 36,
     "deathDatesDirectlyConfirmedInBaseline": 240,
     "preExistingDeathDateConflictsNotOverwritten": 30,
@@ -28,7 +28,8 @@
     "deathDatesDirectlyConfirmedInBV017January15": 2,
     "deathDatesDirectlyConfirmedInBV017January16": 2,
     "deathDatesDirectlyConfirmedInBV017January17": 3,
-    "deathDatesDirectlyConfirmedInBV017January18": 2
+    "deathDatesDirectlyConfirmedInBV017January18": 2,
+    "deathDatesDirectlyConfirmedInBV017January19": 4
   },
   "people": [
     {
@@ -5885,11 +5886,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "unknown",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -6064,7 +6065,7 @@
       ],
       "localDeathDatePrecision": "day",
       "localDeathDateSourceUrls": [
-        "https://brockhaus.de/ecs/julex/article/poe-edgar-allan"
+        "https://www.nps.gov/people/edgarallanpoe.htm"
       ],
       "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
@@ -6152,11 +6153,13 @@
       "activeDeathDates": [
         "1970-10-04"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "1970-10-04",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://atlas.thc.texas.gov/Details/5507013885"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {

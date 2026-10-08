@@ -3370,16 +3370,25 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
   "shortDescription": "Ca sĩ Việt Nam; sinh ngày 19/1/1998.",
-  "biography": "Hanbin là ca sĩ người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Trong nhóm TEMPEST, Hanbin đảm nhận vị trí vocal và dance.",
-  "highlights": ["Sinh ngày 19/1/1998.", "Trong nhóm TEMPEST, Hanbin đảm nhận vị trí vocal và dance."],
+  "biography": "Hanbin là ca sĩ Việt Nam và lead vocalist của TEMPEST. Nhóm ra mắt với mini-album đầu tay It’s ME, It’s WE; YH Entertainment sau đó công bố anh là thành viên đầu tiên của nhóm sẽ ra mắt solo với single kỹ thuật số No Fear.",
+  "highlights": [
+    "Năm 2022, Hanbin ra mắt cùng TEMPEST qua mini-album đầu tay It’s ME, It’s WE.",
+    "YH Entertainment công bố Hanbin là thành viên TEMPEST đầu tiên sẽ ra mắt solo với single kỹ thuật số No Fear."
+  ],
   "wikidataId": "Q104434346",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q104434346",
     "https://yhent.co.kr/artist/tempest/",
-    "https://tempestjapan.com/feature/profile_hanbin"
+    "https://world.kbs.co.kr/service/contents_view.htm?board_seq=422510&id=&lang=j&menu_cate=artist&page=1",
+    "https://www.yhent.co.kr/en/album/its-me-its-we/",
+    "https://yhent.co.kr/news/%ED%85%9C%ED%8E%98%EC%8A%A4%ED%8A%B8-%ED%95%9C%EB%B9%88-%EB%8D%B0%EB%B7%94-4%EB%85%84-%EB%A7%8C%EC%97%90-%EC%86%94%EB%A1%9C-%EB%8D%B0%EB%B7%94%ED%8C%80-%EC%B2%AB-%EC%A3%BC%EC%9E%90/"
   ],
   "region": "vietnam",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-08",
+  "fields": [
+    "design-creative"
+  ],
+  "lifeStatus": "unknown"
 }  ,
 {
   "id": "edgar-allan-poe",
@@ -3399,23 +3408,29 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà văn và nhà thơ Hoa Kỳ; sinh ngày 19/1/1809.",
-  "biography": "Edgar Allan Poe là nhà văn và nhà thơ người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Bài thơ The Raven xuất bản năm 1845 đã đưa Edgar Allan Poe đến với danh tiếng lớn trong vai trò nhà thơ.",
-  "highlights": ["Sinh ngày 19/1/1809.", "Bài thơ The Raven xuất bản năm 1845 đã đưa Edgar Allan Poe đến với danh tiếng lớn trong vai trò nhà thơ."],
+  "biography": "Edgar Allan Poe là nhà văn và nhà thơ Hoa Kỳ. Bài thơ The Raven (1845) đem lại cho ông danh tiếng lớn; truyện The Murders in the Rue Morgue (1841) góp phần mở đầu thể loại truyện trinh thám.",
+  "highlights": [
+    "Năm 1845, bài thơ The Raven đem lại cho Poe danh tiếng lớn trong vai trò nhà thơ.",
+    "Truyện The Murders in the Rue Morgue xuất bản năm 1841, góp phần mở đầu thể loại trinh thám."
+  ],
   "wikidataId": "Q16867",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q16867",
     "https://www.nps.gov/people/edgarallanpoe.htm",
-    "https://poemuseum.org/",
-    "https://brockhaus.de/ecs/julex/article/poe-edgar-allan"
+    "https://brockhaus.de/ecs/julex/article/poe-edgar-allan",
+    "https://www.pbs.org/wgbh/americanexperience/features/murder-edgar-allan-poe-detective-fiction-and-parkman-murder/"
   ],
   "region": "west",
   "deathDate": "1849-10-07",
   "lifeStatus": "deceased",
   "deathDateSourceUrls": [
-    "https://brockhaus.de/ecs/julex/article/poe-edgar-allan"
+    "https://www.nps.gov/people/edgarallanpoe.htm"
   ],
   "deathDatePrecision": "day",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-08",
+  "fields": [
+    "education-thought"
+  ]
 }  ,
 {
   "id": "janis-joplin",
@@ -3435,16 +3450,117 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Ca sĩ Hoa Kỳ; sinh ngày 19/1/1943.",
-  "biography": "Janis Joplin là ca sĩ người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 1992, em gái Janis Joplin xuất bản Love, Janis, tuyển tập thư Janis viết cho gia đình từ năm 1963.",
-  "highlights": ["Sinh ngày 19/1/1943.", "Năm 1992, em gái Janis Joplin xuất bản Love, Janis, tuyển tập thư Janis viết cho gia đình từ năm 1963."],
+  "biography": "Janis Joplin là ca sĩ blues và rock người Hoa Kỳ. Màn trình diễn của bà tại Monterey Pop năm 1967 tạo bước ngoặt cho sự nghiệp; album Cheap Thrills cùng Big Brother and the Holding Company phát hành năm 1968.",
+  "highlights": [
+    "Màn trình diễn của Janis Joplin tại Monterey Pop năm 1967 đã tạo bước ngoặt cho sự nghiệp của bà.",
+    "Album Cheap Thrills của Janis Joplin và Big Brother and the Holding Company phát hành ngày 12/8/1968."
+  ],
   "wikidataId": "Q1514",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q1514",
     "https://www.tshaonline.org/handbook/entries/joplin-janis-lyn",
-    "https://atlas.thc.texas.gov/Details/5507013885"
+    "https://atlas.thc.texas.gov/Details/5507013885",
+    "https://janisjoplin.com/monterey/",
+    "https://janisjoplin.com/album/cheap-thrills/"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-08",
+  "fields": [
+    "design-creative"
+  ],
+  "lifeStatus": "deceased",
+  "deathDate": "1970-10-04",
+  "deathDatePrecision": "day",
+  "deathDateSourceUrls": [
+    "https://atlas.thc.texas.gov/Details/5507013885"
+  ]
+},
+{
+  "id": "paul-cezanne",
+  "slug": "paul-cezanne",
+  "name": "Paul Cézanne",
+  "birthDate": "1839-01-19",
+  "birthYear": 1839,
+  "birthMonth": 1,
+  "birthDay": 19,
+  "occupation": [
+    "họa sĩ và nghệ sĩ đồ họa"
+  ],
+  "category": "artist",
+  "categoryLabel": "Nghệ thuật",
+  "countryCode": "FR",
+  "countryName": "Pháp",
+  "countryFlag": "🇫🇷",
+  "birthplace": "Aix-en-Provence, Pháp",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Họa sĩ Pháp; sinh ngày 19/1/1839.",
+  "biography": "Paul Cézanne là họa sĩ Pháp sinh tại Aix-en-Provence. Ông tham gia triển lãm đầu tiên của nhóm Ấn tượng tại Paris năm 1874; trong thập niên 1890, ông hoàn thành loạt năm bức tranh về những người lao động chơi bài.",
+  "highlights": [
+    "Năm 1874, Cézanne tham gia triển lãm đầu tiên của nhóm Ấn tượng tại Paris.",
+    "Trong thập niên 1890, Cézanne hoàn thành loạt năm bức tranh về những người lao động chơi bài."
+  ],
+  "wikidataId": "Q35548",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q35548",
+    "https://www.museegranet-aixenprovence.fr/fileadmin/user_upload/livret-visiteur-cezanne.pdf",
+    "https://www.societe-cezanne.fr/2013/10/07/biographie-de-cezanne/",
+    "https://www.musee-orangerie.fr/fr/articles/paul-cezanne-105454",
+    "https://courtauld.ac.uk/highlights/the-card-players/",
+    "https://catalogue.bnf.fr/ark:/12148/cb118958019"
+  ],
+  "region": "west",
+  "verifiedAt": "2026-10-08",
+  "deathDate": "1906-10-22",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": [
+    "https://catalogue.bnf.fr/ark:/12148/cb118958019"
+  ],
+  "deathDatePrecision": "day",
+  "fields": [
+    "design-creative"
+  ]
+},
+{
+  "id": "javier-perez-de-cuellar",
+  "slug": "javier-perez-de-cuellar",
+  "name": "Javier Pérez de Cuéllar",
+  "birthDate": "1920-01-19",
+  "birthYear": 1920,
+  "birthMonth": 1,
+  "birthDay": 19,
+  "occupation": [
+    "nhà ngoại giao và chính trị gia"
+  ],
+  "category": "politics",
+  "categoryLabel": "Chính trị",
+  "countryCode": "PE",
+  "countryName": "Peru",
+  "countryFlag": "🇵🇪",
+  "birthplace": "Lima, Peru",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Nhà ngoại giao và chính trị gia Peru; sinh ngày 19/1/1920.",
+  "biography": "Javier Pérez de Cuéllar là nhà ngoại giao và chính trị gia Peru. Ông giữ chức Tổng Thư ký Liên Hợp Quốc trong mười năm, sau đó trở lại chính trường Peru và giữ chức thủ tướng giai đoạn 2000–2001.",
+  "highlights": [
+    "Javier Pérez de Cuéllar giữ chức Tổng Thư ký Liên Hợp Quốc trong mười năm.",
+    "Năm 2000–2001, ông kiêm nhiệm chức thủ tướng Peru."
+  ],
+  "wikidataId": "Q1259",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q1259",
+    "https://fundacionadp.edu.pe/canciller/javier-perez-de-cuellar/",
+    "https://www.theguardian.com/world/2020/mar/05/javier-perez-de-cuellar-obituary"
+  ],
+  "region": "world",
+  "verifiedAt": "2026-10-08",
+  "deathDate": "2020-03-04",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": [
+    "https://www.theguardian.com/world/2020/mar/05/javier-perez-de-cuellar-obituary"
+  ],
+  "deathDatePrecision": "day",
+  "fields": [
+    "society-law"
+  ]
 }  ,
 {
   "id": "pham-duc-huy",
