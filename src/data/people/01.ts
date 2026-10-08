@@ -2693,10 +2693,10 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Mục sư Baptist và nhà hoạt động dân quyền người Mỹ.",
-  "biography": "Martin Luther King Jr. sinh ngày 15/1/1929 tại Atlanta. Ông lãnh đạo phong trào dân quyền Hoa Kỳ và nhận Giải Nobel Hòa bình năm 1964.",
+  "biography": "Martin Luther King Jr. sinh ngày 15/1/1929 tại Atlanta. Ông lãnh đạo phong trào dân quyền Hoa Kỳ, là một trong những người tổ chức cuộc Tuần hành Washington năm 1963 và nhận Giải Nobel Hòa bình năm 1964.",
   "highlights": [
-    "Nhận Giải Nobel Hòa bình năm 1964.",
-    "Lãnh đạo hoạt động đấu tranh bất bạo động cho quyền dân sự."
+    "Năm 1964, ông nhận Giải Nobel Hòa bình.",
+    "Là một trong những người tổ chức cuộc Tuần hành Washington năm 1963, nơi ông trình bày bài diễn văn “I Have a Dream”."
   ],
   "wikidataId": "Q8027",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.",
@@ -2704,16 +2704,22 @@ export const PEOPLE_01: Person[] = [
     "https://www.wikidata.org/wiki/Q8027",
     "https://www.nobelprize.org/prizes/peace/1964/king/biographical/",
     "https://thekingcenter.org/about-tkc/martin-luther-king-jr/",
-    "https://brockhaus.de/ecs/julex/article/king-martin-luther"
+    "https://brockhaus.de/ecs/julex/article/king-martin-luther",
+    "https://www.archives.gov/research/african-americans/individuals/martin-luther-king",
+    "https://home.nps.gov/people/martinlutherkingjr.htm"
   ],
   "region": "west",
   "deathDate": "1968-04-04",
   "lifeStatus": "deceased",
   "deathDateSourceUrls": [
-    "https://brockhaus.de/ecs/julex/article/king-martin-luther"
+    "https://brockhaus.de/ecs/julex/article/king-martin-luther",
+    "https://home.nps.gov/people/martinlutherkingjr.htm"
   ],
   "deathDatePrecision": "day",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08",
+  "fields": [
+    "society-law"
+  ]
 },
 {
   "id": "thach-kim-tuan",
@@ -2733,20 +2739,21 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
   "shortDescription": "Vận động viên cử tạ Việt Nam, từng thi đấu ở các giải quốc tế.",
-  "biography": "Thạch Kim Tuấn sinh ngày 15/1/1994 tại Hàm Tân, Bình Thuận. Anh là vận động viên cử tạ Việt Nam và từng thi đấu tại các giải Olympic và vô địch thế giới.",
+  "biography": "Thạch Kim Tuấn sinh ngày 15/1/1994 tại Hàm Tân, Bình Thuận. Anh là vận động viên cử tạ Việt Nam, vô địch tổng cử hạng 56 kg tại Giải vô địch thế giới năm 2017 với thành tích 279 kg.",
   "highlights": [
-    "Giành huy chương vàng tại Giải vô địch cử tạ thế giới năm 2017.",
-    "Hồ sơ Olympedia ghi nơi sinh là Hàm Tân, Bình Thuận."
+    "Giành huy chương vàng tổng cử hạng 56 kg tại Giải vô địch cử tạ thế giới năm 2017 với thành tích 279 kg.",
+    "Giành huy chương vàng cử tạ hạng bantamweight nam tại Olympic Trẻ mùa hè 2010."
   ],
   "wikidataId": "Q3302807",
   "wikipediaUrl": "https://vi.wikipedia.org/wiki/Thạch_Kim_Tuấn",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q3302807",
     "https://library.olympics.com/Default/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=165324&parentDocumentId=165312",
-    "https://www.olympedia.org/athletes/136482"
+    "https://www.olympedia.org/athletes/136482",
+    "https://lsaf.lt/wp-content/uploads/2017/12/ResultsBook_Anaheim.pdf"
   ],
   "region": "vietnam",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "do-thi-anh-nguyet",
@@ -2766,20 +2773,22 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
   "shortDescription": "Vận động viên bắn cung Việt Nam, đại diện Việt Nam tại Thế vận hội.",
-  "biography": "Đỗ Thị Ánh Nguyệt sinh ngày 15/1/2001. Cô là vận động viên bắn cung Việt Nam và tham dự Thế vận hội Tokyo 2020.",
+  "biography": "Đỗ Thị Ánh Nguyệt sinh ngày 15/1/2001. Cô thi đấu bắn cung tại Olympic Tokyo 2020 và trở thành một trong hai người cầm cờ đoàn Việt Nam tại lễ khai mạc Paris 2024.",
   "highlights": [
-    "Thi đấu nội dung cung một dây nữ tại Tokyo 2020.",
-    "Hồ sơ World Archery ghi ngày sinh 15/1/2001."
+    "Thi đấu nội dung cung một dây nữ tại Olympic Tokyo 2020.",
+    "Được chọn cùng Lê Đức Phát làm người cầm cờ đoàn Việt Nam tại lễ khai mạc Paris 2024."
   ],
   "wikidataId": "Q86013459",
   "wikipediaUrl": "https://vi.wikipedia.org/wiki/Đỗ_Thị_Ánh_Nguyệt",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q86013459",
     "https://extranet.worldarchery.sport/documents/index.php/Events/World_Cup/2024/1_Shanghai/BOOK.pdf",
-    "https://www.olympedia.org/athletes/147588"
+    "https://www.olympedia.org/athletes/147588",
+    "https://extranet.worldarchery.sport/documents/index.php/Events/Olympic_Games/2020_Tokyo/ARC_Results_Book_V1.pdf",
+    "https://www.worldarchery.sport/news/201714/nguyet-be-vietnams-flagbearer-her-second-olympic-appearance"
   ],
   "region": "vietnam",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "huynh-phu-so",
@@ -2799,20 +2808,73 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà lãnh đạo tôn giáo Việt Nam, người sáng lập Phật giáo Hòa Hảo.",
-  "biography": "Huỳnh Phú Sổ sinh ngày 15/1/1920 tại làng Hòa Hảo, An Giang. Ông là người sáng lập phong trào Phật giáo Hòa Hảo.",
+  "biography": "Huỳnh Phú Sổ sinh ngày 15/1/1920 tại làng Hòa Hảo, An Giang. Ngày 4/7/1939, ông tuyên bố thành lập cộng đồng tôn giáo Phật giáo Hòa Hảo. Ông bị lực lượng Việt Nam Dân chủ Cộng hòa sát hại vào tháng 4/1947; nguồn đã đối chiếu không xác nhận ngày cụ thể.",
   "highlights": [
-    "Thành lập Phật giáo Hòa Hảo năm 1939.",
-    "Sinh tại làng Hòa Hảo ngày 15/1/1920."
+    "Tuyên bố thành lập cộng đồng tôn giáo Phật giáo Hòa Hảo ngày 4/7/1939.",
+    "Tháng 6/1946, ông lập Đảng Việt Nam Dân chủ Xã hội (Đảng Dân Xã) và tự nhận vị trí lãnh đạo."
   ],
   "wikidataId": "Q5951484",
   "wikipediaUrl": "https://vi.wikipedia.org/wiki/Huỳnh_Phú_Sổ",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q5951484",
     "https://b.vjst.vn/index.php/ban_b/article/download/582/576/2257",
-    "https://hoahao.org/a4416/huynh-phu-so-the-founder-of-the-religion"
+    "https://www.hoahao.org/a4416/huynh-phu-so-the-founder-of-the-religion",
+    "https://www.ecoi.net/en/file/local/2068254/vietnam0222_web.pdf",
+    "https://indochine.uqam.ca/en/historical-dictionary/652-hunh-phu-s-19201947.html"
   ],
   "region": "vietnam",
-  "verifiedAt": "2026-10-03"
+  "verifiedAt": "2026-10-08",
+  "lifeStatus": "deceased",
+  "birthplace": "làng Hòa Hảo, An Giang",
+  "fields": [
+    "education-thought"
+  ]
+},
+{
+  "id": "edward-teller",
+  "slug": "edward-teller",
+  "name": "Edward Teller",
+  "birthDate": "1908-01-15",
+  "birthYear": 1908,
+  "birthMonth": 1,
+  "birthDay": 15,
+  "occupation": [
+    "nhà vật lý",
+    "nhà khoa học hạt nhân"
+  ],
+  "category": "scientist",
+  "categoryLabel": "Nhà khoa học",
+  "fields": [
+    "technology-engineering",
+    "science-research"
+  ],
+  "countryCode": "US",
+  "countryName": "Hoa Kỳ",
+  "countryFlag": "🇺🇸",
+  "birthplace": "Budapest, Hungary",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Nhà vật lý người Mỹ gốc Hungary, tham gia Dự án Manhattan và phát triển thiết kế bom nhiệt hạch.",
+  "biography": "Edward Teller sinh ngày 15/1/1908 tại Budapest, Hungary. Ông tham gia Dự án Manhattan tại Los Alamos, giữ vai trò giám đốc Ban Lý thuyết và cùng Stanislaw Ulam phát triển thiết kế bom nhiệt hạch đầu tiên năm 1951.",
+  "highlights": [
+    "Năm 1943, ông đến Los Alamos và làm giám đốc Ban Lý thuyết của Project Y.",
+    "Năm 1951, ông và nhà toán học Stanislaw Ulam phát triển thiết kế bom nhiệt hạch đầu tiên."
+  ],
+  "wikidataId": "Q6733",
+  "wikipediaUrl": "https://en.wikipedia.org/wiki/Edward_Teller",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q6733",
+    "https://home.nps.gov/people/manhattan-project-scientists-edward-teller.htm",
+    "https://www.nasonline.org/directory-entry/edward-teller-lhwv5g/"
+  ],
+  "region": "west",
+  "deathDate": "2003-09-09",
+  "deathDatePrecision": "day",
+  "deathDateSourceUrls": [
+    "https://home.nps.gov/people/manhattan-project-scientists-edward-teller.htm",
+    "https://www.nasonline.org/directory-entry/edward-teller-lhwv5g/"
+  ],
+  "lifeStatus": "deceased",
+  "verifiedAt": "2026-10-08"
 },
 {
   "id": "kate-moss",

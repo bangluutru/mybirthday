@@ -1,0 +1,969 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-15",
+  "capturedAt": "2026-10-09T01:32:42+09:00",
+  "sourceCaptures": [
+    {
+      "id": "mlk-archives",
+      "url": "https://www.archives.gov/research/african-americans/individuals/martin-luther-king",
+      "publisher": "U.S. National Archives",
+      "publisherHost": "www.archives.gov",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 40673,
+      "sha256": "47750ced2128f79a17f9a400ac0686c7266fad811c8c03b278e2d901a4f3410d",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Martin Luther King, Jr. (January 15, 1929 - April 4, 1968) | National Archives Top Skip to main content The U.S. National Archives Home Citizen Archivists · Bookmark/Share · Contact Us Search Search Main menu Research Our Records Veterans' Service Records Educator Resources Visit Us America's Founding Documen … osition, he helped organize many Civil Rights movement actions. The most famous being the 1963 March on Washington for Jobs and Freedom. It was then, on the stairs of the Lincoln Memorial, that Dr. King delivered his famous “I Have a Dream” speech. He also won the Nobel Peace Prize in 1964, and in 1965 helped organize the Selma to Montgomery marches to advocate for Black voting rights. His influen … the Lincoln Memorial, that Dr. King delivered his famous “I Have a Dream” speech. He also won the Nobel Peace Prize in 1964, and in 1965 helped organize the Selma to Montgomery marches to advocate for Black voting rights. His influence and importance came with a heavy price. The Federal Bureau of Investigation’s Counter Intelligence Program (COINTELPRO) began surveillance of Dr. King as FBI Direct",
+      "excerptSha256": "cfc86c6502c10abaf652354591d681f5b83d3d46029493b6ce01b892337e6973"
+    },
+    {
+      "id": "mlk-nobel",
+      "url": "https://www.nobelprize.org/prizes/peace/1964/king/biographical/",
+      "publisher": "Nobel Prize Outreach",
+      "publisherHost": "www.nobelprize.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 179146,
+      "sha256": "1bc2b4c94b92dbee8ae89c5e8c68408ecd8233b569d78412b65e646a8fc74e41",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "nswers -- Nominations -- Other resources Award ceremony speech M artin Luther King, Jr., (January 15, 1929-April 4, 1968) was born Michael Luther King, Jr., but later had his name changed to Martin. His grandfather began the family’s long tenure as pastors of the Ebenezer Baptist Church in Atlanta, serving from 1914 to 1931; his father has served from then until the present, and from 1960 until hi",
+      "excerptSha256": "535a23bce6e564f5660cf55dc13c4f50f329d5418d3360caf078b31e733d1c14"
+    },
+    {
+      "id": "mlk-nps",
+      "url": "https://home.nps.gov/people/martinlutherkingjr.htm",
+      "publisher": "U.S. National Park Service",
+      "publisherHost": "home.nps.gov",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytesRead": 38184,
+      "sha256": "d222cd6f1e7a3df5c464c9c23a5fe594bdd5441455ae0d0293aa90675d868d41",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "transformational leader of the American Civil Rights movement Place of Birth: Atlanta, GA Date of Birth: January 15, 1929 Place of Death: Assassinated, Memphis, TN Date of Death: April 4, 1968 Place of Burial: Georgia; Southview Cemetery then moved to the King Center Dr. Martin Luther King, Jr. (1929-1968) was the nation's most prominent leader in the 20th century struggle for civil rights. He was … th: Atlanta, GA Date of Birth: January 15, 1929 Place of Death: Assassinated, Memphis, TN Date of Death: April 4, 1968 Place of Burial: Georgia; Southview Cemetery then moved to the King Center Dr. Martin Luther King, Jr. (1929-1968) was the nation's most prominent leader in the 20th century struggle for civil rights. He was born in the segregated south of Atlanta, Georgia and after graduating fro",
+      "excerptSha256": "8d4c80ca18a92c9fb11fc24a8aab1dcc1f1897f1d182f1bd51c18b66cfab4966"
+    },
+    {
+      "id": "thach-iwf-results",
+      "url": "https://lsaf.lt/wp-content/uploads/2017/12/ResultsBook_Anaheim.pdf",
+      "publisher": "International Weightlifting Federation 2017 results book, copy hosted by Lithuanian Weightlifting Federation",
+      "publisherHost": "lsaf.lt",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytesRead": 1957127,
+      "sha256": "38abdb0f2451dd21b9a1e4d43dae18be72e54d9f7457e55fc223a41fcde9fcef",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "4 VIE 2 152 MINGMOON Witoon 10.02.1996 THA 3 151 TRAN Le Quoc Toan 05.04.1989 VIE Total 1 279 THACH Kim Tuan 15.01.1994 VIE 2 270 TRAN Le Quoc Toan 05.04.1989 VIE 3 267 MINGMOON Witoon 10.02.1996 THA 62 Snatch 1 136 TRINH Van Vinh 17.12.1995 VIE 2 135 HAN Myeongmok 01.02.1991 KOR 3 135 ERGASHEV Adkhamjon 12.03.1999 UZB C&J 1 170 MOSQUERA VALENCIA Francisco Antonio 01.04.1992 COL 2 167 MONTES GONGO … 7 MEN MEDALLISTS CATEGORY LIFT RANK RESULT NAME DOB NATION 56 Snatch 1 126 THACH Kim Tuan 15.01.1994 VIE 2 119 TRAN Le Quoc Toan 05.04.1989 VIE 3 118 BRACHI GARCIA Josue 08.09.1992 ESP C&J 1 153 THACH Kim Tuan 15.01.1994 VIE 2 152 MINGMOON Witoon 10.02.1996 THA 3 151 TRAN Le Quoc Toan 05.04.1989 VIE Total 1 279 THACH Kim Tuan 15.01.1994 VIE 2 270 TRAN Le Quoc Toan 05.04.1989 VIE 3 267 MINGMOON Wit",
+      "excerptSha256": "abb872f6cac257595818350e838745b1c5fc66f84e0221c02bab4a2eb22f5db4"
+    },
+    {
+      "id": "thach-olympedia",
+      "url": "https://www.olympedia.org/athletes/136482",
+      "publisher": "Olympedia",
+      "publisherHost": "www.olympedia.org",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 11513,
+      "sha256": "27c85b53f2c6e13e6ab28ada2b174f540156a8d2ee5be7f5ba609afda1d77fad",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "mpic Games Sex Male Full name Thạch•Kim Tuấn Used name Thạch•Kim Tuấn Name order Oriental Born 15 January 1994 in Hàm Tân, Bình Thuận (VIE) Measurements 160 cm / 55 kg NOC Vietnam Medals YOG Gold 1 Silver 0 Bronze 0 Total 1 Results Games Discipline (Sport) / Event NOC / Team Pos Medal As 2010 Summer Youth Olympics Weightlifting VIE Thạch Kim Tuấn Bantamweight, Boys (YOG) 1 Gold 2016 Summer Olympic … ilver 0 Bronze 0 Total 1 Results Games Discipline (Sport) / Event NOC / Team Pos Medal As 2010 Summer Youth Olympics Weightlifting VIE Thạch Kim Tuấn Bantamweight, Boys (YOG) 1 Gold 2016 Summer Olympics Weightlifting VIE Thạch Kim Tuấn Bantamweight, Men (Olympic) DNF 2020 Summer Olympics Weightlifting VIE Thạch Kim Tuấn Featherweight, Men (Olympic) DNF List mentions Listed in Olympians Who Won a M … Event NOC / Team Pos Medal As 2010 Summer Youth Olympics Weightlifting VIE Thạch Kim Tuấn Bantamweight, Boys (YOG) 1 Gold 2016 Summer Olympics Weightlifting VIE Thạch Kim Tuấn Bantamweight, Men (Olympic) DNF 2020 Summer Olympics Weightlifting VIE Thạch Kim Tuấn Featherweight, Men (Olympic) DNF List mentions Listed in Olympians Who Won a Medal at the Asian Games (0–2–0 2014 Incheon WLF silver: bant",
+      "excerptSha256": "8a6969aa8b0fcd8f592ef250fa0431918c5b92b00bd56bb5a4523656bcd7e105"
+    },
+    {
+      "id": "nguyet-tokyo",
+      "url": "https://extranet.worldarchery.sport/documents/index.php/Events/Olympic_Games/2020_Tokyo/ARC_Results_Book_V1.pdf",
+      "publisher": "World Archery Tokyo 2020 official results book",
+      "publisherHost": "extranet.worldarchery.sport",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytesRead": 15954927,
+      "sha256": "7a7d8e94ab5c4b4af8fe87ef038a4baadd0f043e877e3ef77eadc589ad1a0220",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "1995 KAUFHOLD Casey 56 6 MAR 2004 MUCINO-FERNANDEZ Jennifer 320 18 DEC 2002 VIE - Vietnam DO THI ANH Nguyet 96 15 JAN 2001 Total Number of Teams : 15 Total Number of Athletes : 64 Legend: NR Not Ranked Yumenoshima Park Archery Field 夢の島公園アーチェリー場 Terrain de tir à l'arc du parc de Yumenoshima Archery アーチェリー / Tir à l'arc Mixed 混合 / Mixte Entries by NOC NOC別のエントリー / Inscriptions par CNO As of MON 19  … mpétitions As of THU 1 JUL 2021 OLYMPIC COMPETITION FORMAT The archery competition at the Tokyo 2020 Olympic Games consists of five events: men’s and women’s individual, men’s and women’s team and the mixed team. There are 128 athletes in total, 64 men and 64 women, and 12 teams of each gender. Places at the Olympic Games are qualified by National Olympic Committees (NOCs) at the World Archery Cha",
+      "excerptSha256": "bdc3a1fa16a224437634a4a27525327ba1fc0c2e83a282c690312a9fddaf963d"
+    },
+    {
+      "id": "nguyet-olympedia",
+      "url": "https://www.olympedia.org/athletes/147588",
+      "publisher": "Olympedia",
+      "publisherHost": "www.olympedia.org",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 10521,
+      "sha256": "a8154726dc9bd7c66d3f92ed5f26481dc51f9ec838b51af38b945987613cfa38",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "es Sex Female Full name Đỗ•Thị Ánh Nguyệt Used name Đỗ•Thị Ánh Nguyệt Name order Oriental Born 15 January 2001 in Hưng Yên, Hưng Yên (VIE) Affiliations Hanoi Senior Athlete Training Centre (VIE) NOC Vietnam Results Games Discipline (Sport) / Event NOC / Team Pos Medal As 2020 Summer Olympics Archery VIE Đỗ Thị Ánh Nguyệt Team, Recurve, Mixed (Olympic) Nguyễn Hoàng Phi Vũ 23 Individual, Recurve, Wo",
+      "excerptSha256": "26d082ce8a996385bec0090a5ee2ce07e965a812a0b7287b6ca622a59f49a417"
+    },
+    {
+      "id": "nguyet-paris",
+      "url": "https://www.worldarchery.sport/news/201714/nguyet-be-vietnams-flagbearer-her-second-olympic-appearance",
+      "publisher": "World Archery",
+      "publisherHost": "www.worldarchery.sport",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 79657,
+      "sha256": "383699e3f1d50a5cbbf2d41896b700021e96ff9ebc01ab121f15f81b0a6efdf5",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "al name : Ludivine Maitre Wicki Archer Do Thi Anh Nguyet and badminton player Le Duc Phat were named Vietnam’s flagbearers for the Paris 2024 Olympic Games on 26 July. It will be the second Olympics to feature two flagbearers from each country in the opening ceremony parade. “I am very proud and honoured to represent 16 Vietnamese athletes holding the flag,” Nguyet said. “I will compete with all m … e country and Vietnamese archery.” Paris will be the 22-year-old’s second Games after she already competed in Tokyo. Nguyet thought her Paris Olympic dream had ended, but on 26 June she was called up as one of three archers taking last quota places based on their world rankings. She will take part in the recurve women’s individual and mixed team – alongside Le Quoc Phong – events. The 24-year-old ",
+      "excerptSha256": "0e65c1e022078f769f32a2611fc7167c18313ea3626b2386d3af5739f4e1bee8"
+    },
+    {
+      "id": "huynh-hoahao",
+      "url": "https://www.hoahao.org/a4416/huynh-phu-so-the-founder-of-the-religion",
+      "publisher": "Phật Giáo Hòa Hảo",
+      "publisherHost": "www.hoahao.org",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 81098,
+      "sha256": "9ac966f28852885631716458d073c42db467e1d60883a266547e4eadce6c441c",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "he Communist Authorities The Hòa Hảo Resistance Chapter 14: Conclusion Bibliography Index Huỳnh Phú Sổ, the founder of Hòa Hảo Buddhism, was born on January 15, 1920 or on 25th of 11th month of Kỷ Mùi year of the traditional lunar calendar. He was born in Hòa Hảo village, Tân Châu district, Châu Đốc near the Cambodian border. Huỳnh Phú Sổs native village gave its name to his teaching. His father H …  teaching. His father Huỳnh Công Bộ was a village chief, or Hương Cả, in Hòa Hảo village. On July 4, 1939, or on the 18th of the 5th month of Kỷ Mão year, Huỳnh Phú Sổ authoritatively proclaimed the creation of a new religious community, namely Hòa Hảo Buddhism. It should be pointed out that when Hòa Hảo Buddhism was created, the prophet of the new religion was less than 20 years old. Moreover, be",
+      "excerptSha256": "f3eb184333f7639ea2e4514a441a20c89d746f8444c8b02a1b5a25e42ea05719"
+    },
+    {
+      "id": "huynh-state-report",
+      "url": "https://www.ecoi.net/en/file/local/2068254/vietnam0222_web.pdf",
+      "publisher": "U.S. Department of State, 2022 International Religious Freedom Report (copy hosted by ECOI)",
+      "publisherHost": "www.ecoi.net",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytesRead": 3916930,
+      "sha256": "06d6d7b3c53415da0bea68ace005762475fd905f84f4ef9f7a42097a757179ec",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " use the lunar calendar for all celebrations and commemorations. Hoa Hao Buddhist founder Huynh Phu So’s date of birth was January 15, 1920 (November 25 on the lunar calendar). The day he founded Hoa Hao Buddhism was July 4, 1939 (May 18 on the lunar calendar). The day he went to a meeting with Communist representatives and disappeared was April 16, 1947 (February 25 on the lunar calendar). “LOCKE",
+      "excerptSha256": "f3429f865b6ff5cc2f7c981a69e8d88bb63b59b7d496ed0852761648a93f6a19"
+    },
+    {
+      "id": "huynh-uqam",
+      "url": "https://indochine.uqam.ca/en/historical-dictionary/652-hunh-phu-s-19201947.html",
+      "publisher": "Université du Québec à Montréal, Historical Dictionary",
+      "publisherHost": "indochine.uqam.ca",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytesRead": 13802,
+      "sha256": "3eacb3aaf849ff421758c27907d44c087034ffe451b15afd9cc4c86de8b4ac9c",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": " already lacking between the DRV and a variety of politico-religious groups in the south. In June 1946, Huynh Phu So created a separate political party called the Vietnamese National-Socialist Party ( Dang Viet Nam Dan Chu Xa Hoi , or Dang Dan Xa for short) and appointed himself leader. In April 1947, attacks between the Hoa Hao and the Viet Minh, exacerbated by shrewd moves by French intelligence …  ( Dang Viet Nam Dan Chu Xa Hoi , or Dang Dan Xa for short) and appointed himself leader. In April 1947, attacks between the Hoa Hao and the Viet Minh, exacerbated by shrewd moves by French intelligence officers, such as Antoine Savani , led to a violent break when the DRV’s forces assassinated Huynh Phu So in order to consolidate their hold over the military forces in the south and block French a",
+      "excerptSha256": "21307b7d2674bd4c9b1acb11c40fce9278da407b9925ecea3826aaa6c2c662a1"
+    },
+    {
+      "id": "teller-nps",
+      "url": "https://home.nps.gov/people/manhattan-project-scientists-edward-teller.htm",
+      "publisher": "U.S. National Park Service",
+      "publisherHost": "home.nps.gov",
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytesRead": 35021,
+      "sha256": "492c8ebf5e28afdce1364a53449c94cd631721d13e26eb2debfaa4bd297681b3",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Quick Facts Significance: “Father” of the hydrogen bomb Place of Birth: Budapest, Hungary Date of Birth: January 15, 1908 Place of Death: Stanford, CA Date of Death: September 9, 2003 Born in Hungary in 1908, Edward Teller received his BS in chemical engineering from the University of Karlsruhe in Germany in 1928. In 1930 he received his PhD in physics from the University of Leipzig. Fearing the r … me. The “Einstein Letter” served as a catalyst for the creation of the Manhattan Project. In 1943 Teller traveled to Los Alamos, joining Project Y as Director of the Theoretical Division and contributing to the ultimately successful implosion method developed at the secret laboratory. Teller witnessed the Gadget detonation on July 16, 1945. After the war, and after the Soviet Union successfully de … year. Collaborating with mathematician Stanislaw Ulam, Teller developed the world’s first hydrogen bomb design in 1951. In 1952, the hydrogen bomb was successfully tested in the Pacific Ocean. The bomb, called the Mike Shot, was 1,000 times more powerful than the uranium bomb dropped on Hiroshima in 1945. Teller and Ulam’s hydrogen bomb design remains classified to this day. Edward Teller died in ",
+      "excerptSha256": "930e6809138f1b343eebc60322f1d15e82648940a1c0f5d67e40a584ff031629"
+    },
+    {
+      "id": "teller-nas",
+      "url": "https://www.nasonline.org/directory-entry/edward-teller-lhwv5g/",
+      "publisher": "National Academy of Sciences",
+      "publisherHost": "www.nasonline.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 109025,
+      "sha256": "ce022211204206a0309e0769dc04675da1cc7fe8699fe882d769904d4ecc548e",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "er E.O. Lawrence Livermore National Laboratory Biographical Memoir PDF (opens in new tab) Birth / Deceased Date January 15, 1908 - September 9, 2003 Biographical Memoir Available Yes Membership Type Member Election Year 1948 Primary Section Section 13: Physics National Academy of Sciences 500 Fifth Street, NW Washington, DC 20001 Facebook (opens in new tab) Twitter (opens in new tab) Instagram (op",
+      "excerptSha256": "e38b371e6bf3f32a419ab8e710ae65d54865e8b7ce0c65d140fd47c7d9c39d08"
+    },
+    {
+      "id": "wikidata-Q8027",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q8027.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 353708,
+      "sha256": "dde2a9b2fc936092d3ec580957d91eb9308e57f4eb11a1eec06dd162d4e8a27c",
+      "verificationMethod": "direct-http-json-entity-snapshot+reviewed-claims",
+      "excerpt": "{\"claims\":{\"P106\":[{\"rank\":\"normal\",\"references\":1,\"value\":\"Q152002\"},{\"rank\":\"normal\",\"references\":1,\"value\":\"Q432386\"},{\"rank\":\"normal\",\"references\":1,\"value\":\"Q1021386\"},{\"rank\":\"normal\",\"references\":1,\"value\":\"Q16323111\"},{\"rank\":\"normal\",\"references\":0,\"value\":\"Q16003550\"},{\"rank\":\"normal\",\"references\":2,\"value\":\"Q36180\"},{\"rank\":\"normal\",\"references\":1,\"value\":\"Q82955\"},{\"rank\":\"normal\",\"references\":1,\"value\":\"Q6051619\"},{\"rank\":\"normal\",\"references\":0,\"value\":\"Q15995642\"},{\"rank\":\"normal\",\"references\":1,\"value\":\"Q2259532\"},{\"rank\":\"normal\",\"references\":1,\"value\":\"Q955464\"}],\"P27\":[{\"rank\":\"normal\",\"references\":1,\"value\":\"Q30\"}],\"P31\":[{\"rank\":\"normal\",\"references\":2,\"value\":\"Q5\"}],\"P569\":[{\"calendar\":\"Q1985727\",\"precision\":11,\"rank\":\"normal\",\"references\":16,\"value\":\"+1929-01-15T00:00:00Z\"}],\"P570\":[{\"calendar\":\"Q1985727\",\"precision\":11,\"rank\":\"normal\",\"references\":16,\"value\":\"+1968-04-04T00:00:00Z\"}]},\"id\":\"Q8027\",\"label\":\"Martin Luther King Jr.\"}",
+      "excerptSha256": "b1c6c9441e9c64608fd99d3faefa71e4c3b144f9321aa154f096e81fc4ebefd5"
+    },
+    {
+      "id": "wikidata-Q3302807",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q3302807.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 16607,
+      "sha256": "1888f5bd3e29c4cb9f8f877555af5003811078c9512702fe7f460fed76309bf3",
+      "verificationMethod": "direct-http-json-entity-snapshot+reviewed-claims",
+      "excerpt": "{\"claims\":{\"P106\":[{\"rank\":\"normal\",\"references\":1,\"value\":\"Q13381376\"}],\"P27\":[{\"rank\":\"normal\",\"references\":0,\"value\":\"Q881\"}],\"P31\":[{\"rank\":\"normal\",\"references\":1,\"value\":\"Q5\"}],\"P569\":[{\"calendar\":\"Q1985727\",\"precision\":11,\"rank\":\"normal\",\"references\":1,\"value\":\"+1994-01-15T00:00:00Z\"}],\"P570\":[]},\"id\":\"Q3302807\",\"label\":\"Thạch Kim Tuấn\"}",
+      "excerptSha256": "352e7c85b190120cf9d422284cda28d6472544d30ae572f2735ae34b4b0c5477"
+    },
+    {
+      "id": "wikidata-Q86013459",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q86013459.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 14880,
+      "sha256": "980f6c84d2ddd86c4e69c833888f5b98902f446abf1a2b2948fa082839e0661b",
+      "verificationMethod": "direct-http-json-entity-snapshot+reviewed-claims",
+      "excerpt": "{\"claims\":{\"P106\":[{\"rank\":\"normal\",\"references\":1,\"value\":\"Q13382355\"}],\"P27\":[{\"rank\":\"normal\",\"references\":0,\"value\":\"Q881\"}],\"P31\":[{\"rank\":\"normal\",\"references\":0,\"value\":\"Q5\"}],\"P569\":[{\"calendar\":\"Q1985727\",\"precision\":11,\"rank\":\"normal\",\"references\":1,\"value\":\"+2001-01-15T00:00:00Z\"}],\"P570\":[]},\"id\":\"Q86013459\",\"label\":\"Đỗ Thị Ánh Nguyệt\"}",
+      "excerptSha256": "e210557c47a20f436280741347759e1006d041fb1f0145fc1466e35863e72f81"
+    },
+    {
+      "id": "wikidata-Q5951484",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q5951484.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 20462,
+      "sha256": "e9882f36ee20a16639e3afc05162d3f14f088c7f2ef0dd71f2a83beb4e26b171",
+      "verificationMethod": "direct-http-json-entity-snapshot+reviewed-claims",
+      "excerpt": "{\"claims\":{\"P106\":[{\"rank\":\"normal\",\"references\":1,\"value\":\"Q15995642\"}],\"P27\":[{\"rank\":\"normal\",\"references\":0,\"value\":\"Q881\"}],\"P31\":[{\"rank\":\"normal\",\"references\":1,\"value\":\"Q5\"}],\"P569\":[{\"calendar\":\"Q1985727\",\"precision\":11,\"rank\":\"normal\",\"references\":1,\"value\":\"+1920-01-15T00:00:00Z\"}],\"P570\":[{\"calendar\":\"Q1985727\",\"precision\":11,\"rank\":\"normal\",\"references\":1,\"value\":\"+1947-04-16T00:00:00Z\"}]},\"id\":\"Q5951484\",\"label\":\"Huỳnh Phú Sổ\"}",
+      "excerptSha256": "cf3baf3d3f5ff6e5c7c6db3db299512aa85ae7c66bb3ae5fc3a8c226488c67b6"
+    },
+    {
+      "id": "wikidata-Q6733",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q6733.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 159406,
+      "sha256": "294489f3c68183d6da454da608f1fba86de3c85a15795f0d83a5b92c6f6a8b29",
+      "verificationMethod": "direct-http-json-entity-snapshot+reviewed-claims",
+      "excerpt": "{\"claims\":{\"P106\":[{\"rank\":\"normal\",\"references\":1,\"value\":\"Q16742096\"},{\"rank\":\"normal\",\"references\":1,\"value\":\"Q15980158\"},{\"rank\":\"normal\",\"references\":1,\"value\":\"Q1622272\"},{\"rank\":\"normal\",\"references\":0,\"value\":\"Q19350898\"},{\"rank\":\"normal\",\"references\":1,\"value\":\"Q205375\"},{\"rank\":\"normal\",\"references\":1,\"value\":\"Q169470\"}],\"P27\":[{\"rank\":\"normal\",\"references\":2,\"value\":\"Q28\"},{\"rank\":\"normal\",\"references\":2,\"value\":\"Q30\"}],\"P31\":[{\"rank\":\"normal\",\"references\":1,\"value\":\"Q5\"}],\"P569\":[{\"calendar\":\"Q1985727\",\"precision\":11,\"rank\":\"normal\",\"references\":7,\"value\":\"+1908-01-15T00:00:00Z\"}],\"P570\":[{\"calendar\":\"Q1985727\",\"precision\":11,\"rank\":\"normal\",\"references\":8,\"value\":\"+2003-09-09T00:00:00Z\"}]},\"id\":\"Q6733\",\"label\":\"Edward Teller\"}",
+      "excerptSha256": "80688e54910b54b4410adb07b44790edd2bc0ebc88c3777a68c5a69c20cb6982"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "martin-luther-king-jr",
+      "name": "Martin Luther King Jr.",
+      "wikidataId": "Q8027",
+      "birthDate": "1929-01-15",
+      "lifeStatus": "deceased",
+      "deathDate": "1968-04-04",
+      "dobSourceIds": [
+        "mlk-archives",
+        "mlk-nobel"
+      ],
+      "careerFactIds": [
+        "mlk-nobel-1964",
+        "mlk-march-1963"
+      ],
+      "countryCode": "US",
+      "category": "politics",
+      "occupation": [
+        "mục sư, nhà hoạt động dân quyền"
+      ],
+      "fields": [
+        "society-law"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "society-law",
+          "careerFactIds": [
+            "mlk-march-1963"
+          ],
+          "rationale": "Hoạt động tổ chức phong trào dân quyền và Tuần hành Washington thuộc lĩnh vực xã hội, quyền dân sự và luật."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-Q8027",
+      "identityClaims": {
+        "label": "Martin Luther King Jr.",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1929-01-15T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 16
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1968-04-04T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 16
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q152002",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q432386",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1021386",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q16323111",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q16003550",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q82955",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q6051619",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q15995642",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q2259532",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q955464",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q1021386"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q8027",
+        "https://www.nobelprize.org/prizes/peace/1964/king/biographical/",
+        "https://thekingcenter.org/about-tkc/martin-luther-king-jr/",
+        "https://brockhaus.de/ecs/julex/article/king-martin-luther",
+        "https://www.archives.gov/research/african-americans/individuals/martin-luther-king",
+        "https://home.nps.gov/people/martinlutherkingjr.htm"
+      ],
+      "statusSourceId": "mlk-nps",
+      "deathDateSourceIds": [
+        "mlk-nps"
+      ],
+      "deathDatePrecision": "day",
+      "before": {
+        "biography": "Martin Luther King Jr. sinh ngày 15/1/1929 tại Atlanta. Ông lãnh đạo phong trào dân quyền Hoa Kỳ và nhận Giải Nobel Hòa bình năm 1964.",
+        "highlights": [
+          "Nhận Giải Nobel Hòa bình năm 1964.",
+          "Lãnh đạo hoạt động đấu tranh bất bạo động cho quyền dân sự."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q8027",
+          "https://www.nobelprize.org/prizes/peace/1964/king/biographical/",
+          "https://thekingcenter.org/about-tkc/martin-luther-king-jr/",
+          "https://brockhaus.de/ecs/julex/article/king-martin-luther"
+        ],
+        "verifiedAt": "2026-10-03",
+        "fields": null,
+        "lifeStatus": "deceased",
+        "deathDateSourceUrls": [
+          "https://brockhaus.de/ecs/julex/article/king-martin-luther"
+        ]
+      },
+      "after": {
+        "biography": "Martin Luther King Jr. sinh ngày 15/1/1929 tại Atlanta. Ông lãnh đạo phong trào dân quyền Hoa Kỳ, là một trong những người tổ chức cuộc Tuần hành Washington năm 1963 và nhận Giải Nobel Hòa bình năm 1964.",
+        "highlights": [
+          "Năm 1964, ông nhận Giải Nobel Hòa bình.",
+          "Là một trong những người tổ chức cuộc Tuần hành Washington năm 1963, nơi ông trình bày bài diễn văn “I Have a Dream”."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q8027",
+          "https://www.nobelprize.org/prizes/peace/1964/king/biographical/",
+          "https://thekingcenter.org/about-tkc/martin-luther-king-jr/",
+          "https://brockhaus.de/ecs/julex/article/king-martin-luther",
+          "https://www.archives.gov/research/african-americans/individuals/martin-luther-king",
+          "https://home.nps.gov/people/martinlutherkingjr.htm"
+        ],
+        "verifiedAt": "2026-10-08",
+        "fields": [
+          "society-law"
+        ],
+        "lifeStatus": "deceased",
+        "deathDateSourceUrls": [
+          "https://brockhaus.de/ecs/julex/article/king-martin-luther",
+          "https://home.nps.gov/people/martinlutherkingjr.htm"
+        ]
+      }
+    },
+    {
+      "id": "thach-kim-tuan",
+      "name": "Thạch Kim Tuấn",
+      "wikidataId": "Q3302807",
+      "birthDate": "1994-01-15",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "thach-olympedia",
+        "thach-iwf-results"
+      ],
+      "careerFactIds": [
+        "thach-world-2017",
+        "thach-yog-2010"
+      ],
+      "countryCode": "VN",
+      "category": "athlete",
+      "occupation": [
+        "vận động viên cử tạ"
+      ],
+      "fields": [],
+      "fieldEvidence": [],
+      "wikidataCaptureId": "wikidata-Q3302807",
+      "identityClaims": {
+        "label": "Thạch Kim Tuấn",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1994-01-15T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q881",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q13381376",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q13381376"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q3302807",
+        "https://library.olympics.com/Default/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=165324&parentDocumentId=165312",
+        "https://www.olympedia.org/athletes/136482",
+        "https://lsaf.lt/wp-content/uploads/2017/12/ResultsBook_Anaheim.pdf"
+      ],
+      "before": {
+        "biography": "Thạch Kim Tuấn sinh ngày 15/1/1994 tại Hàm Tân, Bình Thuận. Anh là vận động viên cử tạ Việt Nam và từng thi đấu tại các giải Olympic và vô địch thế giới.",
+        "highlights": [
+          "Giành huy chương vàng tại Giải vô địch cử tạ thế giới năm 2017.",
+          "Hồ sơ Olympedia ghi nơi sinh là Hàm Tân, Bình Thuận."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q3302807",
+          "https://library.olympics.com/Default/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=165324&parentDocumentId=165312",
+          "https://www.olympedia.org/athletes/136482"
+        ],
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "biography": "Thạch Kim Tuấn sinh ngày 15/1/1994 tại Hàm Tân, Bình Thuận. Anh là vận động viên cử tạ Việt Nam, vô địch tổng cử hạng 56 kg tại Giải vô địch thế giới năm 2017 với thành tích 279 kg.",
+        "highlights": [
+          "Giành huy chương vàng tổng cử hạng 56 kg tại Giải vô địch cử tạ thế giới năm 2017 với thành tích 279 kg.",
+          "Giành huy chương vàng cử tạ hạng bantamweight nam tại Olympic Trẻ mùa hè 2010."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q3302807",
+          "https://library.olympics.com/Default/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=165324&parentDocumentId=165312",
+          "https://www.olympedia.org/athletes/136482",
+          "https://lsaf.lt/wp-content/uploads/2017/12/ResultsBook_Anaheim.pdf"
+        ],
+        "verifiedAt": "2026-10-08"
+      }
+    },
+    {
+      "id": "do-thi-anh-nguyet",
+      "name": "Đỗ Thị Ánh Nguyệt",
+      "wikidataId": "Q86013459",
+      "birthDate": "2001-01-15",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "nguyet-olympedia",
+        "nguyet-tokyo"
+      ],
+      "careerFactIds": [
+        "nguyet-tokyo-2020",
+        "nguyet-paris-2024"
+      ],
+      "countryCode": "VN",
+      "category": "athlete",
+      "occupation": [
+        "vận động viên bắn cung"
+      ],
+      "fields": [],
+      "fieldEvidence": [],
+      "wikidataCaptureId": "wikidata-Q86013459",
+      "identityClaims": {
+        "label": "Đỗ Thị Ánh Nguyệt",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 0
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+2001-01-15T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q881",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q13382355",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q13382355"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q86013459",
+        "https://extranet.worldarchery.sport/documents/index.php/Events/World_Cup/2024/1_Shanghai/BOOK.pdf",
+        "https://www.olympedia.org/athletes/147588",
+        "https://extranet.worldarchery.sport/documents/index.php/Events/Olympic_Games/2020_Tokyo/ARC_Results_Book_V1.pdf",
+        "https://www.worldarchery.sport/news/201714/nguyet-be-vietnams-flagbearer-her-second-olympic-appearance"
+      ],
+      "before": {
+        "biography": "Đỗ Thị Ánh Nguyệt sinh ngày 15/1/2001. Cô là vận động viên bắn cung Việt Nam và tham dự Thế vận hội Tokyo 2020.",
+        "highlights": [
+          "Thi đấu nội dung cung một dây nữ tại Tokyo 2020.",
+          "Hồ sơ World Archery ghi ngày sinh 15/1/2001."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q86013459",
+          "https://extranet.worldarchery.sport/documents/index.php/Events/World_Cup/2024/1_Shanghai/BOOK.pdf",
+          "https://www.olympedia.org/athletes/147588"
+        ],
+        "verifiedAt": "2026-10-03"
+      },
+      "after": {
+        "biography": "Đỗ Thị Ánh Nguyệt sinh ngày 15/1/2001. Cô thi đấu bắn cung tại Olympic Tokyo 2020 và trở thành một trong hai người cầm cờ đoàn Việt Nam tại lễ khai mạc Paris 2024.",
+        "highlights": [
+          "Thi đấu nội dung cung một dây nữ tại Olympic Tokyo 2020.",
+          "Được chọn cùng Lê Đức Phát làm người cầm cờ đoàn Việt Nam tại lễ khai mạc Paris 2024."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q86013459",
+          "https://extranet.worldarchery.sport/documents/index.php/Events/World_Cup/2024/1_Shanghai/BOOK.pdf",
+          "https://www.olympedia.org/athletes/147588",
+          "https://extranet.worldarchery.sport/documents/index.php/Events/Olympic_Games/2020_Tokyo/ARC_Results_Book_V1.pdf",
+          "https://www.worldarchery.sport/news/201714/nguyet-be-vietnams-flagbearer-her-second-olympic-appearance"
+        ],
+        "verifiedAt": "2026-10-08"
+      }
+    },
+    {
+      "id": "huynh-phu-so",
+      "name": "Huỳnh Phú Sổ",
+      "wikidataId": "Q5951484",
+      "birthDate": "1920-01-15",
+      "lifeStatus": "deceased",
+      "deathDate": null,
+      "dobSourceIds": [
+        "huynh-hoahao",
+        "huynh-state-report"
+      ],
+      "careerFactIds": [
+        "huynh-founded-1939",
+        "huynh-party-1946"
+      ],
+      "countryCode": "VN",
+      "category": "history",
+      "occupation": [
+        "nhà lãnh đạo tôn giáo"
+      ],
+      "fields": [
+        "education-thought"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "education-thought",
+          "careerFactIds": [
+            "huynh-founded-1939"
+          ],
+          "rationale": "Ông sáng lập một cộng đồng tôn giáo mới và truyền bá tư tưởng Phật giáo Hòa Hảo."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-Q5951484",
+      "identityClaims": {
+        "label": "Huỳnh Phú Sổ",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1920-01-15T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1947-04-16T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q881",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q15995642",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q15995642"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q5951484",
+        "https://b.vjst.vn/index.php/ban_b/article/download/582/576/2257",
+        "https://www.hoahao.org/a4416/huynh-phu-so-the-founder-of-the-religion",
+        "https://www.ecoi.net/en/file/local/2068254/vietnam0222_web.pdf",
+        "https://indochine.uqam.ca/en/historical-dictionary/652-hunh-phu-s-19201947.html"
+      ],
+      "statusSourceId": "huynh-uqam",
+      "before": {
+        "biography": "Huỳnh Phú Sổ sinh ngày 15/1/1920 tại làng Hòa Hảo, An Giang. Ông là người sáng lập phong trào Phật giáo Hòa Hảo.",
+        "highlights": [
+          "Thành lập Phật giáo Hòa Hảo năm 1939.",
+          "Sinh tại làng Hòa Hảo ngày 15/1/1920."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q5951484",
+          "https://b.vjst.vn/index.php/ban_b/article/download/582/576/2257",
+          "https://hoahao.org/a4416/huynh-phu-so-the-founder-of-the-religion"
+        ],
+        "verifiedAt": "2026-10-03",
+        "fields": null,
+        "lifeStatus": null,
+        "birthplace": null
+      },
+      "after": {
+        "biography": "Huỳnh Phú Sổ sinh ngày 15/1/1920 tại làng Hòa Hảo, An Giang. Ngày 4/7/1939, ông tuyên bố thành lập cộng đồng tôn giáo Phật giáo Hòa Hảo. Ông bị lực lượng Việt Nam Dân chủ Cộng hòa sát hại vào tháng 4/1947; nguồn đã đối chiếu không xác nhận ngày cụ thể.",
+        "highlights": [
+          "Tuyên bố thành lập cộng đồng tôn giáo Phật giáo Hòa Hảo ngày 4/7/1939.",
+          "Tháng 6/1946, ông lập Đảng Việt Nam Dân chủ Xã hội (Đảng Dân Xã) và tự nhận vị trí lãnh đạo."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q5951484",
+          "https://b.vjst.vn/index.php/ban_b/article/download/582/576/2257",
+          "https://www.hoahao.org/a4416/huynh-phu-so-the-founder-of-the-religion",
+          "https://www.ecoi.net/en/file/local/2068254/vietnam0222_web.pdf",
+          "https://indochine.uqam.ca/en/historical-dictionary/652-hunh-phu-s-19201947.html"
+        ],
+        "verifiedAt": "2026-10-08",
+        "fields": [
+          "education-thought"
+        ],
+        "lifeStatus": "deceased",
+        "birthplace": "làng Hòa Hảo, An Giang"
+      }
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "edward-teller",
+      "name": "Edward Teller",
+      "wikidataId": "Q6733",
+      "birthDate": "1908-01-15",
+      "lifeStatus": "deceased",
+      "deathDate": "2003-09-09",
+      "dobSourceIds": [
+        "teller-nps",
+        "teller-nas"
+      ],
+      "careerFactIds": [
+        "teller-los-alamos",
+        "teller-hydrogen-bomb"
+      ],
+      "countryCode": "US",
+      "category": "scientist",
+      "occupation": [
+        "nhà vật lý",
+        "nhà khoa học hạt nhân"
+      ],
+      "fields": [
+        "technology-engineering",
+        "science-research"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "technology-engineering",
+          "careerFactIds": [
+            "teller-los-alamos",
+            "teller-hydrogen-bomb"
+          ],
+          "rationale": "Công việc tại Los Alamos và thiết kế bom nhiệt hạch gắn với kỹ thuật hạt nhân."
+        },
+        {
+          "field": "science-research",
+          "careerFactIds": [
+            "teller-los-alamos"
+          ],
+          "rationale": "Ông làm vật lý lý thuyết và đóng góp nghiên cứu trong Dự án Manhattan."
+        }
+      ],
+      "wikidataCaptureId": "wikidata-Q6733",
+      "identityClaims": {
+        "label": "Edward Teller",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1908-01-15T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 7
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+2003-09-09T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 8
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q28",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 2
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q16742096",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q15980158",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q19350898",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q205375",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q169470",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q16742096",
+          "Q169470"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q6733",
+        "https://home.nps.gov/people/manhattan-project-scientists-edward-teller.htm",
+        "https://www.nasonline.org/directory-entry/edward-teller-lhwv5g/"
+      ],
+      "statusSourceId": "teller-nps",
+      "deathDateSourceIds": [
+        "teller-nps",
+        "teller-nas"
+      ],
+      "deathDatePrecision": "day",
+      "birthplace": "Budapest, Hungary",
+      "birthplaceEvidencePhrase": "Budapest, Hungary",
+      "verifiedAt": "2026-10-08"
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "mlk-nobel-1964",
+      "profileId": "martin-luther-king-jr",
+      "displayText": "Năm 1964, ông nhận Giải Nobel Hòa bình.",
+      "sourceId": "mlk-archives",
+      "evidencePhrase": "won the Nobel Peace Prize in 1964"
+    },
+    {
+      "id": "mlk-march-1963",
+      "profileId": "martin-luther-king-jr",
+      "displayText": "Là một trong những người tổ chức cuộc Tuần hành Washington năm 1963, nơi ông trình bày bài diễn văn “I Have a Dream”.",
+      "sourceId": "mlk-archives",
+      "evidencePhrase": "1963 March on Washington for Jobs and Freedom"
+    },
+    {
+      "id": "thach-world-2017",
+      "profileId": "thach-kim-tuan",
+      "displayText": "Giành huy chương vàng tổng cử hạng 56 kg tại Giải vô địch cử tạ thế giới năm 2017 với thành tích 279 kg.",
+      "sourceId": "thach-iwf-results",
+      "evidencePhrase": "279 THACH Kim Tuan"
+    },
+    {
+      "id": "thach-yog-2010",
+      "profileId": "thach-kim-tuan",
+      "displayText": "Giành huy chương vàng cử tạ hạng bantamweight nam tại Olympic Trẻ mùa hè 2010.",
+      "sourceId": "thach-olympedia",
+      "evidencePhrase": "Bantamweight, Boys (YOG) 1 Gold"
+    },
+    {
+      "id": "nguyet-tokyo-2020",
+      "profileId": "do-thi-anh-nguyet",
+      "displayText": "Thi đấu nội dung cung một dây nữ tại Olympic Tokyo 2020.",
+      "sourceId": "nguyet-tokyo",
+      "evidencePhrase": "DO THI ANH Nguyet 96 15 JAN 2001"
+    },
+    {
+      "id": "nguyet-paris-2024",
+      "profileId": "do-thi-anh-nguyet",
+      "displayText": "Được chọn cùng Lê Đức Phát làm người cầm cờ đoàn Việt Nam tại lễ khai mạc Paris 2024.",
+      "sourceId": "nguyet-paris",
+      "evidencePhrase": "were named Vietnam’s flagbearers for the Paris 2024 Olympic Games"
+    },
+    {
+      "id": "huynh-founded-1939",
+      "profileId": "huynh-phu-so",
+      "displayText": "Tuyên bố thành lập cộng đồng tôn giáo Phật giáo Hòa Hảo ngày 4/7/1939.",
+      "sourceId": "huynh-hoahao",
+      "evidencePhrase": "On July 4, 1939"
+    },
+    {
+      "id": "huynh-party-1946",
+      "profileId": "huynh-phu-so",
+      "displayText": "Tháng 6/1946, ông lập Đảng Việt Nam Dân chủ Xã hội (Đảng Dân Xã) và tự nhận vị trí lãnh đạo.",
+      "sourceId": "huynh-uqam",
+      "evidencePhrase": "In June 1946, Huynh Phu So created a separate political party"
+    },
+    {
+      "id": "teller-los-alamos",
+      "profileId": "edward-teller",
+      "displayText": "Năm 1943, ông đến Los Alamos và làm giám đốc Ban Lý thuyết của Project Y.",
+      "sourceId": "teller-nps",
+      "evidencePhrase": "as Director of the Theoretical Division"
+    },
+    {
+      "id": "teller-hydrogen-bomb",
+      "profileId": "edward-teller",
+      "displayText": "Năm 1951, ông và nhà toán học Stanislaw Ulam phát triển thiết kế bom nhiệt hạch đầu tiên.",
+      "sourceId": "teller-nps",
+      "evidencePhrase": "hydrogen bomb design in 1951"
+    }
+  ],
+  "wikidataReview": {
+    "conflicts": [
+      {
+        "profileId": "huynh-phu-so",
+        "property": "P570",
+        "claimValue": "+1947-04-16T00:00:00Z",
+        "resolution": "exact-day-unresolved",
+        "reviewNote": "UQAM confirms that DRV forces assassinated Huynh Phu So in April 1947 but does not state the exact day; the active Wikidata P570 day is therefore not copied into the profile.",
+        "sourceIds": [
+          "huynh-uqam"
+        ]
+      }
+    ]
+  }
+}

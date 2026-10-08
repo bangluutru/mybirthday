@@ -18,6 +18,7 @@ import rawJanuary11Batch from '../.ai/evidence/BV017-january-11-batch.json';
 import rawJanuary12Batch from '../.ai/evidence/BV017-january-12-batch.json';
 import rawJanuary13Batch from '../.ai/evidence/BV017-january-13-batch.json';
 import rawJanuary14Batch from '../.ai/evidence/BV017-january-14-batch.json';
+import rawJanuary15Batch from '../.ai/evidence/BV017-january-15-batch.json';
 import rawReviewSample from '../.ai/evidence/BV017-review-sample.json';
 import rawDuplicateHighlightReview from '../.ai/evidence/BV017-duplicate-highlight-review.json';
 
@@ -184,7 +185,7 @@ const preDeathSourceUrlsById = new Map(recentEvidence.profiles.map((profile) => 
   ...(profile.supportingSources || []).map((source) => source.url),
 ]]));
 const BV017_CORRECTION_MANIFEST_SHA256 = '5836da6c67d0da18987d454e6c8aa790eae7e52067142c1d2c902536dd276c74';
-const BV017_BASELINE_PROJECTION_SHA256 = '6b20680763555fec3bde011c4ef9af5901c761bb18279c9427db73c81a5ef518';
+const BV017_BASELINE_PROJECTION_SHA256 = 'c3438535b8824c10a2ae1173f9a8b600dac14d2a362962debfec989f14f95303';
 const qualityManifest = rawQualityCorrections as unknown as {
   cycle: string;
   reviewMethod: string;
@@ -232,6 +233,8 @@ const january13Batch = rawJanuary13Batch as unknown as { legacyProfiles: readonl
 const january13LegacyById = new Map(january13Batch.legacyProfiles.map((profile) => [profile.id, profile]));
 const january14Batch = rawJanuary14Batch as unknown as { legacyProfiles: readonly { id: string; before: Record<string, unknown>; after: Record<string, unknown> }[] };
 const january14LegacyById = new Map(january14Batch.legacyProfiles.map((profile) => [profile.id, profile]));
+const january15Batch = rawJanuary15Batch as unknown as { legacyProfiles: readonly { id: string; before: Record<string, unknown>; after: Record<string, unknown> }[] };
+const january15LegacyById = new Map(january15Batch.legacyProfiles.map((profile) => [profile.id, profile]));
 const bv017ReviewSample = rawReviewSample as unknown as {
   schemaVersion: number;
   cycle: string;
@@ -329,6 +332,12 @@ export function projectPersonBeforeBv017<T extends PersonLike>(person: T): T {
   if (baseline) {
     for (const [field, value] of Object.entries(baseline.before)) result[field] = cloneValue(value);
     for (const field of baseline.remove) delete result[field];
+    const january15Before = january15LegacyById.get(person.id)?.before;
+    for (const [field, value] of Object.entries(january15Before || {})) {
+      if (Object.hasOwn(baseline.before, field) || baseline.remove.includes(field)) continue;
+      if (value === null) delete result[field];
+      else result[field] = cloneValue(value);
+    }
     const january14Before = january14LegacyById.get(person.id)?.before;
     for (const [field, value] of Object.entries(january14Before || {})) {
       if (Object.hasOwn(baseline.before, field) || baseline.remove.includes(field)) continue;
@@ -338,6 +347,7 @@ export function projectPersonBeforeBv017<T extends PersonLike>(person: T): T {
     return result as T;
   }
   const priorFieldSets = [
+    january15LegacyById.get(person.id)?.before,
     january14LegacyById.get(person.id)?.before,
     january13LegacyById.get(person.id)?.before,
     january12LegacyById.get(person.id)?.before,
@@ -389,8 +399,10 @@ export function sourceUrlsBeforeBv017(person: PersonLike): readonly string[] {
   const january10Before = january10LegacyById.get(person.id)?.before;
   const january11Before = january11LegacyById.get(person.id)?.before;
   const january13Before = january13LegacyById.get(person.id)?.before;
+  const january15Before = january15LegacyById.get(person.id)?.before;
   const january14Before = january14LegacyById.get(person.id)?.before;
   const january12Before = january12LegacyById.get(person.id)?.before;
+  if (january15Before && Array.isArray(january15Before.sourceUrls)) return january15Before.sourceUrls as string[];
   if (january14Before && Array.isArray(january14Before.sourceUrls)) return january14Before.sourceUrls as string[];
   if (january13Before && Array.isArray(january13Before.sourceUrls)) return january13Before.sourceUrls as string[];
   if (january12Before && Array.isArray(january12Before.sourceUrls)) return january12Before.sourceUrls as string[];
@@ -642,6 +654,7 @@ export function verifyBv017CorrectionManifest(
     assert('Rule AK baseline corrections', Boolean(person), 'Missing corrected baseline profile ' + correction.id);
     if (!person) continue;
     const qualityAfter = qualityCorrectionsById.get(correction.id)?.after;
+    const january15After = january15LegacyById.get(correction.id)?.after;
     const january14After = january14LegacyById.get(correction.id)?.after;
     const january13After = january13LegacyById.get(correction.id)?.after;
     const january12After = january12LegacyById.get(correction.id)?.after;
@@ -653,7 +666,9 @@ export function verifyBv017CorrectionManifest(
     const january6After = january6LegacyById.get(correction.id)?.after;
     const january5After = january5LegacyById.get(correction.id)?.after;
     for (const [field, expected] of Object.entries(correction.after)) {
-      const finalExpected = january14After && Object.prototype.hasOwnProperty.call(january14After, field)
+      const finalExpected = january15After && Object.prototype.hasOwnProperty.call(january15After, field)
+        ? january15After[field]
+        : january14After && Object.prototype.hasOwnProperty.call(january14After, field)
         ? january14After[field]
         : january13After && Object.prototype.hasOwnProperty.call(january13After, field)
         ? january13After[field]

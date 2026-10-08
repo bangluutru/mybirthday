@@ -10,7 +10,7 @@
     "people": 1120,
     "death_date_conflict": 33,
     "p570_without_reference": 1,
-    "deathDatesDirectlyConfirmedByPublisherCapture": 299,
+    "deathDatesDirectlyConfirmedByPublisherCapture": 300,
     "deathDatesDirectlyConfirmedInB015B016": 36,
     "deathDatesDirectlyConfirmedInBaseline": 240,
     "preExistingDeathDateConflictsNotOverwritten": 30,
@@ -24,7 +24,8 @@
     "deathDatesDirectlyConfirmedInBV017January11": 2,
     "deathDatesDirectlyConfirmedInBV017January12": 3,
     "deathDatesDirectlyConfirmedInBV017January13": 4,
-    "deathDatesDirectlyConfirmedInBV017January14": 3
+    "deathDatesDirectlyConfirmedInBV017January14": 3,
+    "deathDatesDirectlyConfirmedInBV017January15": 2
   },
   "people": [
     {
@@ -4608,7 +4609,8 @@
       ],
       "localDeathDatePrecision": "day",
       "localDeathDateSourceUrls": [
-        "https://brockhaus.de/ecs/julex/article/king-martin-luther"
+        "https://brockhaus.de/ecs/julex/article/king-martin-luther",
+        "https://home.nps.gov/people/martinlutherkingjr.htm"
       ],
       "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
@@ -4768,11 +4770,11 @@
       "activeDeathDates": [
         "1947-04-16"
       ],
-      "localLifeStatus": null,
+      "localLifeStatus": "deceased",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {

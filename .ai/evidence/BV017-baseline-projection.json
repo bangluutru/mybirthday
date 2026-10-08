@@ -4,8 +4,8 @@
   "baselineCommit": "0d67324a3bd251ce4960a418c4ea291c86238f63",
   "scope": {
     "baselinePeople": 1120,
-    "changedProfiles": 1074,
-    "changedFields": 3904
+    "changedProfiles": 1079,
+    "changedFields": 3941
   },
   "profiles": [
     {
@@ -96,12 +96,12 @@
     {
       "id": "adolf-loos",
       "before": {
+        "shortDescription": "Kiến trúc sư người Áo.",
         "biography": "Adolf Loos là kiến trúc sư người Áo, sinh ngày 10 tháng 12 năm 1870.",
         "highlights": [
           "Sinh ngày 10 tháng 12 năm 1870.",
           "Lĩnh vực hoạt động: nghệ thuật."
         ],
-        "shortDescription": "Kiến trúc sư người Áo.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q44323",
           "https://collectiedata.hetnieuweinstituut.nl/the-other-interface/knowledge-graph/browser?resource=https%3A%2F%2Fcollectiedata.hetnieuweinstituut.nl%2Fid%2Fpeople%2F11075",
@@ -140,12 +140,12 @@
     {
       "id": "aga-khan-iii",
       "before": {
+        "shortDescription": "Lãnh tụ tôn giáo người Ấn Độ.",
         "biography": "Aga Khan III là lãnh tụ tôn giáo người Ấn Độ, sinh ngày 2 tháng 11 năm 1877.",
         "highlights": [
           "Sinh ngày 2 tháng 11 năm 1877.",
           "Lĩnh vực hoạt động: lịch sử."
-        ],
-        "shortDescription": "Lãnh tụ tôn giáo người Ấn Độ."
+        ]
       },
       "remove": [
         "lifeStatus"
@@ -308,16 +308,23 @@
     {
       "id": "albert-schweitzer",
       "before": {
+        "biography": "Albert Schweitzer sinh ngày 14/1/1875 tại Kaysersberg. Ông là bác sĩ và nhà thần học, đồng thời nhận Giải Nobel Hòa bình năm 1952.",
+        "highlights": [
+          "Nhận Giải Nobel Hòa bình năm 1952.",
+          "Thành lập bệnh viện tại Lambaréné, Gabon."
+        ],
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q49325",
           "https://www.nobelprize.org/prizes/peace/1952/schweitzer/biographical/",
           "https://www.albert-schweitzer.ch/albert-und-helene-schweitzer/albert-schweitzer"
-        ]
+        ],
+        "verifiedAt": "2026-10-03"
       },
       "remove": [
         "deathDate",
         "deathDatePrecision",
         "deathDateSourceUrls",
+        "fields",
         "lifeStatus"
       ]
     },
@@ -379,15 +386,15 @@
     {
       "id": "alexander-dubcek",
       "before": {
-        "biography": "Alexander Dubček là chính khách người Séc, sinh ngày 27 tháng 11 năm 1921.",
         "countryCode": "CZ",
-        "countryFlag": "🇨🇿",
         "countryName": "Séc",
+        "countryFlag": "🇨🇿",
+        "shortDescription": "Chính khách người Séc.",
+        "biography": "Alexander Dubček là chính khách người Séc, sinh ngày 27 tháng 11 năm 1921.",
         "highlights": [
           "Sinh ngày 27 tháng 11 năm 1921.",
           "Lĩnh vực hoạt động: chính trị."
         ],
-        "shortDescription": "Chính khách người Séc.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q150543",
           "https://brockhaus.de/ecs/julex/article/dubcek-alexander",
@@ -494,12 +501,12 @@
     {
       "id": "alfonso-cuaron",
       "before": {
+        "shortDescription": "Đạo diễn phim người Mexico.",
         "biography": "Alfonso Cuarón là đạo diễn phim người Mexico, sinh ngày 28 tháng 11 năm 1961.",
         "highlights": [
           "Sinh ngày 28 tháng 11 năm 1961.",
           "Lĩnh vực hoạt động: nghệ thuật."
         ],
-        "shortDescription": "Đạo diễn phim người Mexico.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q28028",
           "https://www.britannica.com/biography/Alfonso-Cuaron",
@@ -710,12 +717,12 @@
     {
       "id": "andrew-huxley",
       "before": {
+        "shortDescription": "Nhà sinh lý học người Vương quốc Anh.",
         "biography": "Andrew Huxley là nhà sinh lý học người Vương quốc Anh, sinh ngày 22 tháng 11 năm 1917.",
         "highlights": [
           "Sinh ngày 22 tháng 11 năm 1917.",
           "Lĩnh vực hoạt động: khoa học."
         ],
-        "shortDescription": "Nhà sinh lý học người Vương quốc Anh.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q104607",
           "https://www.theguardian.com/science/2012/may/31/sir-andrew-huxley",
@@ -1102,12 +1109,12 @@
     {
       "id": "art-neville",
       "before": {
+        "shortDescription": "Ca sĩ người Hoa Kỳ.",
         "biography": "Art Neville là ca sĩ người Hoa Kỳ, sinh ngày 17 tháng 12 năm 1937.",
         "highlights": [
           "Sinh ngày 17 tháng 12 năm 1937.",
           "Lĩnh vực hoạt động: âm nhạc."
         ],
-        "shortDescription": "Ca sĩ người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q867591",
           "https://id.loc.gov/authorities/names/no96041062.json",
@@ -1157,15 +1164,15 @@
     {
       "id": "arthur-koestler",
       "before": {
-        "biography": "Arthur Koestler là Nhà văn người Vương quốc Anh, sinh ngày 5 tháng 9 năm 1905.",
-        "highlights": [
-          "Sinh ngày 5 tháng 9 năm 1905.",
-          "Lĩnh vực hoạt động: văn học."
-        ],
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q78494",
           "https://www.ne.se/uppslagsverk/encyklopedi/l%C3%A5ng/arthur-koestler",
           "https://www.enciklopedija.hr/clanak/koestler-arthur"
+        ],
+        "biography": "Arthur Koestler là Nhà văn người Vương quốc Anh, sinh ngày 5 tháng 9 năm 1905.",
+        "highlights": [
+          "Sinh ngày 5 tháng 9 năm 1905.",
+          "Lĩnh vực hoạt động: văn học."
         ]
       },
       "remove": []
@@ -1252,12 +1259,12 @@
     {
       "id": "arundhati-roy",
       "before": {
+        "shortDescription": "Tiểu thuyết gia người Ấn Độ.",
         "biography": "Arundhati Roy là tiểu thuyết gia người Ấn Độ, sinh ngày 24 tháng 11 năm 1961.",
         "highlights": [
           "Sinh ngày 24 tháng 11 năm 1961.",
           "Lĩnh vực hoạt động: văn học."
         ],
-        "shortDescription": "Tiểu thuyết gia người Ấn Độ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q212801",
           "https://www.britannica.com/biography/Arundhati-Roy",
@@ -1319,12 +1326,12 @@
     {
       "id": "august-krogh",
       "before": {
+        "shortDescription": "Nhà sinh lý học người Đan Mạch.",
         "biography": "August Krogh là nhà sinh lý học người Đan Mạch, sinh ngày 15 tháng 11 năm 1874.",
         "highlights": [
           "Sinh ngày 15 tháng 11 năm 1874.",
           "Lĩnh vực hoạt động: khoa học."
         ],
-        "shortDescription": "Nhà sinh lý học người Đan Mạch.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q152187",
           "https://www.britannica.com/biography/August-Krogh",
@@ -1381,12 +1388,12 @@
     {
       "id": "b-k-s-iyengar",
       "before": {
+        "shortDescription": "Giáo viên yoga người Ấn Độ.",
         "biography": "B. K. S. Iyengar là giáo viên yoga người Ấn Độ, sinh ngày 14 tháng 12 năm 1918.",
         "highlights": [
           "Sinh ngày 14 tháng 12 năm 1918.",
           "Lĩnh vực hoạt động: lịch sử."
         ],
-        "shortDescription": "Giáo viên yoga người Ấn Độ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q557185",
           "https://www.britannica.com/biography/B-K-S-Iyengar",
@@ -1415,12 +1422,12 @@
     {
       "id": "barton-maclane",
       "before": {
+        "shortDescription": "Diễn viên điện ảnh người Hoa Kỳ.",
         "biography": "Barton MacLane là diễn viên điện ảnh người Hoa Kỳ, sinh ngày 25 tháng 12 năm 1902.",
         "highlights": [
           "Sinh ngày 25 tháng 12 năm 1902.",
           "Lĩnh vực hoạt động: điện ảnh."
         ],
-        "shortDescription": "Diễn viên điện ảnh người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q577621",
           "https://id.loc.gov/authorities/names/n87916649.json",
@@ -1521,12 +1528,12 @@
     {
       "id": "benjamin-mkapa",
       "before": {
+        "shortDescription": "Chính khách người Tanzania.",
         "biography": "Benjamin Mkapa là chính khách người Tanzania, sinh ngày 12 tháng 11 năm 1938.",
         "highlights": [
           "Sinh ngày 12 tháng 11 năm 1938.",
           "Lĩnh vực hoạt động: chính trị."
         ],
-        "shortDescription": "Chính khách người Tanzania.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q320156",
           "https://id.loc.gov/authorities/names/nb97056679.json",
@@ -2004,15 +2011,15 @@
     {
       "id": "brigitte-bardot",
       "before": {
-        "biography": "Brigitte Bardot là Diễn viên người Pháp, sinh ngày 28 tháng 9 năm 1934.",
-        "highlights": [
-          "Sinh ngày 28 tháng 9 năm 1934.",
-          "Lĩnh vực hoạt động: điện ảnh."
-        ],
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q36268",
           "https://snl.no/Brigitte_Bardot",
           "https://brockhaus.de/ecs/julex/article/bardot-brigitte"
+        ],
+        "biography": "Brigitte Bardot là Diễn viên người Pháp, sinh ngày 28 tháng 9 năm 1934.",
+        "highlights": [
+          "Sinh ngày 28 tháng 9 năm 1934.",
+          "Lĩnh vực hoạt động: điện ảnh."
         ]
       },
       "remove": [
@@ -2199,12 +2206,12 @@
     {
       "id": "carl-ferdinand-cori",
       "before": {
+        "shortDescription": "Nhà hóa sinh người Hoa Kỳ.",
         "biography": "Carl Ferdinand Cori là nhà hóa sinh người Hoa Kỳ, sinh ngày 5 tháng 12 năm 1896.",
         "highlights": [
           "Sinh ngày 5 tháng 12 năm 1896.",
           "Lĩnh vực hoạt động: khoa học."
         ],
-        "shortDescription": "Nhà hóa sinh người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q78501",
           "https://id.loc.gov/authorities/names/n85817295.json",
@@ -2257,12 +2264,12 @@
     {
       "id": "carl-sagan",
       "before": {
+        "shortDescription": "Nhà thiên văn học người Hoa Kỳ.",
         "biography": "Carl Sagan là nhà thiên văn học người Hoa Kỳ, sinh ngày 9 tháng 11 năm 1934.",
         "highlights": [
           "Sinh ngày 9 tháng 11 năm 1934.",
           "Lĩnh vực hoạt động: khoa học."
-        ],
-        "shortDescription": "Nhà thiên văn học người Hoa Kỳ."
+        ]
       },
       "remove": [
         "fields",
@@ -2283,12 +2290,12 @@
     {
       "id": "carlos-montoya",
       "before": {
+        "shortDescription": "Nhạc sĩ người Tây Ban Nha.",
         "biography": "Carlos Montoya là nhạc sĩ người Tây Ban Nha, sinh ngày 13 tháng 12 năm 1903.",
         "highlights": [
           "Sinh ngày 13 tháng 12 năm 1903.",
           "Lĩnh vực hoạt động: âm nhạc."
         ],
-        "shortDescription": "Nhạc sĩ người Tây Ban Nha.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q729306",
           "https://id.loc.gov/authorities/names/n82025134.json",
@@ -2302,12 +2309,12 @@
     {
       "id": "carol-reed",
       "before": {
+        "shortDescription": "Đạo diễn phim người Vương quốc Anh.",
         "biography": "Carol Reed là đạo diễn phim người Vương quốc Anh, sinh ngày 30 tháng 12 năm 1906.",
         "highlights": [
           "Sinh ngày 30 tháng 12 năm 1906.",
           "Lĩnh vực hoạt động: nghệ thuật."
         ],
-        "shortDescription": "Đạo diễn phim người Vương quốc Anh.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q95143",
           "https://www.britannica.com/biography/Carol-Reed",
@@ -2343,12 +2350,12 @@
     {
       "id": "carter-godwin-woodson",
       "before": {
+        "shortDescription": "Nhà sử học người Hoa Kỳ.",
         "biography": "Carter Godwin Woodson là nhà sử học người Hoa Kỳ, sinh ngày 19 tháng 12 năm 1875.",
         "highlights": [
           "Sinh ngày 19 tháng 12 năm 1875.",
           "Lĩnh vực hoạt động: lịch sử."
         ],
-        "shortDescription": "Nhà sử học người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q5047158",
           "https://www.britannica.com/biography/Carter-G-Woodson",
@@ -2396,12 +2403,12 @@
     {
       "id": "cecil-frank-powell",
       "before": {
+        "shortDescription": "Nhà vật lý người Vương quốc Anh.",
         "biography": "Cecil Frank Powell là nhà vật lý người Vương quốc Anh, sinh ngày 5 tháng 12 năm 1903.",
         "highlights": [
           "Sinh ngày 5 tháng 12 năm 1903.",
           "Lĩnh vực hoạt động: khoa học."
         ],
-        "shortDescription": "Nhà vật lý người Vương quốc Anh.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q178103",
           "https://www.britannica.com/biography/Cecil-Powell",
@@ -2920,12 +2927,12 @@
     {
       "id": "david-merrick",
       "before": {
+        "shortDescription": "Nhà sản xuất người Hoa Kỳ.",
         "biography": "David Merrick là nhà sản xuất người Hoa Kỳ, sinh ngày 27 tháng 11 năm 1911.",
         "highlights": [
           "Sinh ngày 27 tháng 11 năm 1911.",
           "Lĩnh vực hoạt động: doanh nhân."
         ],
-        "shortDescription": "Nhà sản xuất người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q5237521",
           "https://www.britannica.com/biography/David-Merrick",
@@ -3020,12 +3027,12 @@
     {
       "id": "dick-miller",
       "before": {
+        "shortDescription": "Diễn viên người Hoa Kỳ.",
         "biography": "Dick Miller là diễn viên người Hoa Kỳ, sinh ngày 25 tháng 12 năm 1928.",
         "highlights": [
           "Sinh ngày 25 tháng 12 năm 1928.",
           "Lĩnh vực hoạt động: điện ảnh."
         ],
-        "shortDescription": "Diễn viên người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q1209753",
           "https://id.loc.gov/authorities/names/no2002069916.json",
@@ -3074,12 +3081,12 @@
     {
       "id": "dionne-warwick",
       "before": {
+        "shortDescription": "Ca sĩ người Hoa Kỳ.",
         "biography": "Dionne Warwick là ca sĩ người Hoa Kỳ, sinh ngày 12 tháng 12 năm 1940.",
         "highlights": [
           "Sinh ngày 12 tháng 12 năm 1940.",
           "Lĩnh vực hoạt động: âm nhạc."
         ],
-        "shortDescription": "Ca sĩ người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q234695",
           "https://www.britannica.com/biography/Dionne-Warwick",
@@ -3140,15 +3147,15 @@
     {
       "id": "do-duy-manh",
       "before": {
-        "biography": "Đỗ Duy Mạnh là Cầu thủ bóng đá người Việt Nam, sinh ngày 29 tháng 9 năm 1996.",
-        "highlights": [
-          "Sinh ngày 29 tháng 9 năm 1996.",
-          "Lĩnh vực hoạt động: thể thao."
-        ],
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q19281994",
           "https://www.transfermarkt.de/duy-manh-do/profil/spieler/354784",
           "https://www.goal.com/de/spieler/d-do/3wxucqw1i93q20r564ucn2mdx"
+        ],
+        "biography": "Đỗ Duy Mạnh là Cầu thủ bóng đá người Việt Nam, sinh ngày 29 tháng 9 năm 1996.",
+        "highlights": [
+          "Sinh ngày 29 tháng 9 năm 1996.",
+          "Lĩnh vực hoạt động: thể thao."
         ]
       },
       "remove": []
@@ -3156,16 +3163,33 @@
     {
       "id": "do-hung-dung",
       "before": {
-        "biography": "Đỗ Hùng Dũng là Cầu thủ bóng đá người Việt Nam, sinh ngày 8 tháng 9 năm 1993.",
-        "highlights": [
-          "Sinh ngày 8 tháng 9 năm 1993.",
-          "Lĩnh vực hoạt động: thể thao."
-        ],
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q22162708",
           "https://fbref.com/en/players/4433e9ea/Djo-Hung-Dung",
           "https://www.sofascore.com/football/player/do-hung-dung/830573"
+        ],
+        "biography": "Đỗ Hùng Dũng là Cầu thủ bóng đá người Việt Nam, sinh ngày 8 tháng 9 năm 1993.",
+        "highlights": [
+          "Sinh ngày 8 tháng 9 năm 1993.",
+          "Lĩnh vực hoạt động: thể thao."
         ]
+      },
+      "remove": []
+    },
+    {
+      "id": "do-thi-anh-nguyet",
+      "before": {
+        "biography": "Đỗ Thị Ánh Nguyệt sinh ngày 15/1/2001. Cô là vận động viên bắn cung Việt Nam và tham dự Thế vận hội Tokyo 2020.",
+        "highlights": [
+          "Thi đấu nội dung cung một dây nữ tại Tokyo 2020.",
+          "Hồ sơ World Archery ghi ngày sinh 15/1/2001."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q86013459",
+          "https://extranet.worldarchery.sport/documents/index.php/Events/World_Cup/2024/1_Shanghai/BOOK.pdf",
+          "https://www.olympedia.org/athletes/147588"
+        ],
+        "verifiedAt": "2026-10-03"
       },
       "remove": []
     },
@@ -3466,12 +3490,12 @@
     {
       "id": "eduard-uspensky",
       "before": {
+        "shortDescription": "Nhà biên kịch người Nga.",
         "biography": "Eduard Uspensky là nhà biên kịch người Nga, sinh ngày 22 tháng 12 năm 1937.",
         "highlights": [
           "Sinh ngày 22 tháng 12 năm 1937.",
           "Lĩnh vực hoạt động: văn học."
         ],
-        "shortDescription": "Nhà biên kịch người Nga.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q18066",
           "https://www.uspens.info:443/",
@@ -4035,15 +4059,15 @@
     {
       "id": "fay-weldon",
       "before": {
-        "biography": "Fay Weldon là Nhà văn người Vương quốc Anh, sinh ngày 22 tháng 9 năm 1931.",
-        "highlights": [
-          "Sinh ngày 22 tháng 9 năm 1931.",
-          "Lĩnh vực hoạt động: văn học."
-        ],
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q239501",
           "https://snl.no/Fay_Weldon",
           "https://brockhaus.de/ecs/julex/article/weldon-fay"
+        ],
+        "biography": "Fay Weldon là Nhà văn người Vương quốc Anh, sinh ngày 22 tháng 9 năm 1931.",
+        "highlights": [
+          "Sinh ngày 22 tháng 9 năm 1931.",
+          "Lĩnh vực hoạt động: văn học."
         ]
       },
       "remove": [
@@ -4155,15 +4179,15 @@
     {
       "id": "filip-nguyen",
       "before": {
-        "biography": "Filip Nguyễn là Thủ môn bóng đá người Việt Nam, sinh ngày 14 tháng 9 năm 1992.",
-        "highlights": [
-          "Sinh ngày 14 tháng 9 năm 1992.",
-          "Lĩnh vực hoạt động: thể thao."
-        ],
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q56513413",
           "https://www.transfermarkt.us/filip-nguyen/profil/spieler/202914",
           "https://www.sofascore.com/football/player/nguyen-filip/151931"
+        ],
+        "biography": "Filip Nguyễn là Thủ môn bóng đá người Việt Nam, sinh ngày 14 tháng 9 năm 1992.",
+        "highlights": [
+          "Sinh ngày 14 tháng 9 năm 1992.",
+          "Lĩnh vực hoạt động: thể thao."
         ]
       },
       "remove": []
@@ -4506,12 +4530,12 @@
     {
       "id": "frederick-banting",
       "before": {
+        "shortDescription": "Bác sĩ người Canada.",
         "biography": "Frederick Banting là bác sĩ người Canada, sinh ngày 14 tháng 11 năm 1891.",
         "highlights": [
           "Sinh ngày 14 tháng 11 năm 1891.",
           "Lĩnh vực hoạt động: khoa học."
         ],
-        "shortDescription": "Bác sĩ người Canada.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q180350",
           "https://www.nobelprize.org/prizes/medicine/1923/banting/biographical/?print=1",
@@ -4550,12 +4574,12 @@
     {
       "id": "freeman-dyson",
       "before": {
+        "shortDescription": "Nhà toán học người Vương quốc Anh.",
         "biography": "Freeman Dyson là nhà toán học người Vương quốc Anh, sinh ngày 15 tháng 12 năm 1923.",
         "highlights": [
           "Sinh ngày 15 tháng 12 năm 1923.",
           "Lĩnh vực hoạt động: khoa học."
         ],
-        "shortDescription": "Nhà toán học người Vương quốc Anh.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q153717",
           "https://www.britannica.com/biography/Freeman-Dyson",
@@ -4658,12 +4682,12 @@
     {
       "id": "fritz-lang",
       "before": {
+        "shortDescription": "Đạo diễn phim người Đức.",
         "biography": "Fritz Lang là đạo diễn phim người Đức, sinh ngày 5 tháng 12 năm 1890.",
         "highlights": [
           "Sinh ngày 5 tháng 12 năm 1890.",
           "Lĩnh vực hoạt động: nghệ thuật."
         ],
-        "shortDescription": "Đạo diễn phim người Đức.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q19504",
           "https://www.britannica.com/biography/Fritz-Lang",
@@ -4717,15 +4741,15 @@
     {
       "id": "gael-garcia-bernal",
       "before": {
-        "biography": "Gael García Bernal là diễn viên người Hoa Kỳ, sinh ngày 30 tháng 11 năm 1978.",
         "countryCode": "US",
-        "countryFlag": "🇺🇸",
         "countryName": "Hoa Kỳ",
+        "countryFlag": "🇺🇸",
+        "shortDescription": "Diễn viên người Hoa Kỳ.",
+        "biography": "Gael García Bernal là diễn viên người Hoa Kỳ, sinh ngày 30 tháng 11 năm 1978.",
         "highlights": [
           "Sinh ngày 30 tháng 11 năm 1978.",
           "Lĩnh vực hoạt động: điện ảnh."
         ],
-        "shortDescription": "Diễn viên người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q179576",
           "https://www.britannica.com/biography/Gael-Garcia-Bernal",
@@ -4899,12 +4923,12 @@
     {
       "id": "george-foreman",
       "before": {
+        "shortDescription": "Võ sĩ quyền Anh người Mỹ, từng giành huy chương vàng Olympic.",
         "biography": "George Foreman sinh ngày 10/1/1949. Ông là võ sĩ quyền Anh hạng nặng và giành huy chương vàng tại Thế vận hội Mexico City năm 1968.",
         "highlights": [
           "Giành huy chương vàng Olympic năm 1968.",
           "Hai lần trở thành nhà vô địch quyền Anh hạng nặng thế giới."
         ],
-        "shortDescription": "Võ sĩ quyền Anh người Mỹ, từng giành huy chương vàng Olympic.",
         "verifiedAt": "2026-10-03"
       },
       "remove": [
@@ -5049,12 +5073,12 @@
     {
       "id": "george-wald",
       "before": {
+        "shortDescription": "Nhà khoa học người Hoa Kỳ.",
         "biography": "George Wald là nhà khoa học người Hoa Kỳ, sinh ngày 18 tháng 11 năm 1906.",
         "highlights": [
           "Sinh ngày 18 tháng 11 năm 1906.",
           "Lĩnh vực hoạt động: khoa học."
         ],
-        "shortDescription": "Nhà khoa học người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q295724",
           "https://id.loc.gov/authorities/names/n80132034.json",
@@ -5246,12 +5270,12 @@
     {
       "id": "gilbert-roland",
       "before": {
+        "shortDescription": "Diễn viên điện ảnh người Hoa Kỳ.",
         "biography": "Gilbert Roland là diễn viên điện ảnh người Hoa Kỳ, sinh ngày 11 tháng 12 năm 1905.",
         "highlights": [
           "Sinh ngày 11 tháng 12 năm 1905.",
           "Lĩnh vực hoạt động: điện ảnh."
         ],
-        "shortDescription": "Diễn viên điện ảnh người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q919206",
           "https://id.loc.gov/authorities/names/n87896348.json",
@@ -5397,12 +5421,12 @@
     {
       "id": "goldie-hawn",
       "before": {
+        "shortDescription": "Diễn viên truyền hình người Hoa Kỳ.",
         "biography": "Goldie Hawn là diễn viên truyền hình người Hoa Kỳ, sinh ngày 21 tháng 11 năm 1945.",
         "highlights": [
           "Sinh ngày 21 tháng 11 năm 1945.",
           "Lĩnh vực hoạt động: điện ảnh."
         ],
-        "shortDescription": "Diễn viên truyền hình người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q188459",
           "https://www.britannica.com/biography/Goldie-Hawn",
@@ -5437,12 +5461,12 @@
     {
       "id": "gordon-jackson",
       "before": {
+        "shortDescription": "Diễn viên người Vương quốc Anh.",
         "biography": "Gordon Jackson là diễn viên người Vương quốc Anh, sinh ngày 19 tháng 12 năm 1923.",
         "highlights": [
           "Sinh ngày 19 tháng 12 năm 1923.",
           "Lĩnh vực hoạt động: điện ảnh."
         ],
-        "shortDescription": "Diễn viên người Vương quốc Anh.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q728867",
           "https://id.loc.gov/authorities/names/n81074399.json",
@@ -5628,15 +5652,15 @@
     {
       "id": "ha-duc-chinh",
       "before": {
-        "biography": "Hà Đức Chinh là Cầu thủ bóng đá người Việt Nam, sinh ngày 22 tháng 9 năm 1997.",
-        "highlights": [
-          "Sinh ngày 22 tháng 9 năm 1997.",
-          "Lĩnh vực hoạt động: thể thao."
-        ],
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q25999788",
           "https://www.transfermarkt.com/duc-chinh-ha/profil/spieler/508254",
           "https://www.sofascore.com/football/player/ha-duc-chinh/889636"
+        ],
+        "biography": "Hà Đức Chinh là Cầu thủ bóng đá người Việt Nam, sinh ngày 22 tháng 9 năm 1997.",
+        "highlights": [
+          "Sinh ngày 22 tháng 9 năm 1997.",
+          "Lĩnh vực hoạt động: thể thao."
         ]
       },
       "remove": []
@@ -5740,12 +5764,12 @@
     {
       "id": "hans-von-ohain",
       "before": {
+        "shortDescription": "Nhà vật lý người Đức.",
         "biography": "Hans von Ohain là nhà vật lý người Đức, sinh ngày 14 tháng 12 năm 1911.",
         "highlights": [
           "Sinh ngày 14 tháng 12 năm 1911.",
           "Lĩnh vực hoạt động: khoa học."
         ],
-        "shortDescription": "Nhà vật lý người Đức.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q76541",
           "https://id.loc.gov/authorities/names/n2002015741.json",
@@ -5937,12 +5961,12 @@
     {
       "id": "heinrich-schliemann",
       "before": {
+        "shortDescription": "Nhà khảo cổ học Đức được biết đến qua các cuộc khai quật tại Hisarlik.",
         "biography": "Heinrich Schliemann sinh ngày 6/1/1822 tại Neubukow. Ông theo đuổi khảo cổ học và tiến hành khai quật tại địa điểm Hisarlik, thường được gắn với thành Troy cổ đại.",
         "highlights": [
           "Tiến hành khai quật tại Hisarlik ở Thổ Nhĩ Kỳ ngày nay.",
           "Sinh ngày 6/1/1822 tại Neubukow, Đức."
         ],
-        "shortDescription": "Nhà khảo cổ học Đức được biết đến qua các cuộc khai quật tại Hisarlik.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q57106",
           "https://www.dhm.de/lemo/biografie/heinrich-schliemann",
@@ -6257,12 +6281,12 @@
     {
       "id": "hubert-sumlin",
       "before": {
+        "shortDescription": "Nghệ sĩ guitar người Hoa Kỳ.",
         "biography": "Hubert Sumlin là nghệ sĩ guitar người Hoa Kỳ, sinh ngày 16 tháng 11 năm 1931.",
         "highlights": [
           "Sinh ngày 16 tháng 11 năm 1931.",
           "Lĩnh vực hoạt động: âm nhạc."
         ],
-        "shortDescription": "Nghệ sĩ guitar người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q629761",
           "https://id.loc.gov/authorities/names/n88662549.json",
@@ -6340,6 +6364,27 @@
       ]
     },
     {
+      "id": "huynh-phu-so",
+      "before": {
+        "biography": "Huỳnh Phú Sổ sinh ngày 15/1/1920 tại làng Hòa Hảo, An Giang. Ông là người sáng lập phong trào Phật giáo Hòa Hảo.",
+        "highlights": [
+          "Thành lập Phật giáo Hòa Hảo năm 1939.",
+          "Sinh tại làng Hòa Hảo ngày 15/1/1920."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q5951484",
+          "https://b.vjst.vn/index.php/ban_b/article/download/582/576/2257",
+          "https://hoahao.org/a4416/huynh-phu-so-the-founder-of-the-religion"
+        ],
+        "verifiedAt": "2026-10-03"
+      },
+      "remove": [
+        "birthplace",
+        "fields",
+        "lifeStatus"
+      ]
+    },
+    {
       "id": "i-m-pei",
       "before": {
         "biography": "I. M. Pei được biết đến với vai trò kiến trúc sư người Hoa Kỳ.",
@@ -6386,12 +6431,12 @@
     {
       "id": "ike-turner",
       "before": {
+        "shortDescription": "Nghệ sĩ guitar người Hoa Kỳ.",
         "biography": "Ike Turner là nghệ sĩ guitar người Hoa Kỳ, sinh ngày 5 tháng 11 năm 1931.",
         "highlights": [
           "Sinh ngày 5 tháng 11 năm 1931.",
           "Lĩnh vực hoạt động: âm nhạc."
         ],
-        "shortDescription": "Nghệ sĩ guitar người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q208871",
           "https://www.britannica.com/biography/Ike-Turner",
@@ -6449,12 +6494,12 @@
     {
       "id": "ingrid-pitt",
       "before": {
+        "shortDescription": "Diễn viên điện ảnh người Ba Lan.",
         "biography": "Ingrid Pitt là diễn viên điện ảnh người Ba Lan, sinh ngày 21 tháng 11 năm 1937.",
         "highlights": [
           "Sinh ngày 21 tháng 11 năm 1937.",
           "Lĩnh vực hoạt động: điện ảnh."
         ],
-        "shortDescription": "Diễn viên điện ảnh người Ba Lan.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q242434",
           "https://id.loc.gov/authorities/names/n87811077.json",
@@ -6490,12 +6535,12 @@
     {
       "id": "ismail-abdul-rahman",
       "before": {
+        "shortDescription": "Nhà ngoại giao người Malaysia.",
         "biography": "Ismail Abdul Rahman là nhà ngoại giao người Malaysia, sinh ngày 4 tháng 11 năm 1915.",
         "highlights": [
           "Sinh ngày 4 tháng 11 năm 1915.",
           "Lĩnh vực hoạt động: chính trị."
-        ],
-        "shortDescription": "Nhà ngoại giao người Malaysia."
+        ]
       },
       "remove": [
         "fields",
@@ -6505,12 +6550,12 @@
     {
       "id": "ismail-merchant",
       "before": {
+        "shortDescription": "Nhà sản xuất phim người Ấn Độ.",
         "biography": "Ismail Merchant là nhà sản xuất phim người Ấn Độ, sinh ngày 25 tháng 12 năm 1936.",
         "highlights": [
           "Sinh ngày 25 tháng 12 năm 1936.",
           "Lĩnh vực hoạt động: nghệ thuật."
         ],
-        "shortDescription": "Nhà sản xuất phim người Ấn Độ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q732397",
           "https://id.loc.gov/authorities/names/n86001310.json",
@@ -6593,12 +6638,12 @@
     {
       "id": "jack-elam",
       "before": {
+        "shortDescription": "Diễn viên truyền hình người Hoa Kỳ.",
         "biography": "Jack Elam là diễn viên truyền hình người Hoa Kỳ, sinh ngày 13 tháng 11 năm 1920.",
         "highlights": [
           "Sinh ngày 13 tháng 11 năm 1920.",
           "Lĩnh vực hoạt động: điện ảnh."
         ],
-        "shortDescription": "Diễn viên truyền hình người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q500155",
           "https://id.loc.gov/authorities/names/no91022697.json",
@@ -6730,12 +6775,12 @@
     {
       "id": "jacques-maritain",
       "before": {
+        "shortDescription": "Triết gia người Pháp.",
         "biography": "Jacques Maritain là triết gia người Pháp, sinh ngày 18 tháng 11 năm 1882.",
         "highlights": [
           "Sinh ngày 18 tháng 11 năm 1882.",
           "Lĩnh vực hoạt động: văn học."
         ],
-        "shortDescription": "Triết gia người Pháp.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q45723",
           "https://www.britannica.com/biography/Jacques-Maritain",
@@ -6833,12 +6878,12 @@
     {
       "id": "james-stockdale",
       "before": {
+        "shortDescription": "Sĩ quan hải quân người Hoa Kỳ.",
         "biography": "James Stockdale là sĩ quan hải quân người Hoa Kỳ, sinh ngày 23 tháng 12 năm 1923.",
         "highlights": [
           "Sinh ngày 23 tháng 12 năm 1923.",
           "Lĩnh vực hoạt động: chính trị."
         ],
-        "shortDescription": "Sĩ quan hải quân người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q496264",
           "https://id.loc.gov/authorities/names/n81091400.json",
@@ -6970,12 +7015,12 @@
     {
       "id": "jd-salinger",
       "before": {
+        "shortDescription": "Tác giả kiệt tác \"Bắt trẻ đồng xanh\" (The Catcher in the Rye).",
         "biography": "Jerome David Salinger là nhà văn Mỹ nổi tiếng thế giới với tiểu thuyết The Catcher in the Rye (1951), một trong những tác phẩm có ảnh hưởng nhất thế kỷ 20 về tâm lý tuổi trẻ và sự nổi loạn.",
         "highlights": [
           "Tác giả \"The Catcher in the Rye\" bán được hơn 65 triệu bản trên toàn cầu.",
           "Biểu tượng văn học vĩ đại của thời kỳ hậu Thế chiến thứ hai."
         ],
-        "shortDescription": "Tác giả kiệt tác \"Bắt trẻ đồng xanh\" (The Catcher in the Rye).",
         "sourceUrls": [
           "https://www.britannica.com/biography/J-D-Salinger"
         ],
@@ -7217,12 +7262,12 @@
     {
       "id": "joan-baez",
       "before": {
+        "shortDescription": "Ca sĩ nhạc folk người Mỹ, đồng thời là nhà hoạt động xã hội.",
         "biography": "Joan Baez sinh ngày 9/1/1941 tại Staten Island, New York. Bà là ca sĩ nhạc folk và tham gia phong trào dân quyền tại Hoa Kỳ.",
         "highlights": [
           "Được giới thiệu vào Rock & Roll Hall of Fame năm 2017.",
           "Gắn bó với hoạt động vận động cho dân quyền và hòa bình."
         ],
-        "shortDescription": "Ca sĩ nhạc folk người Mỹ, đồng thời là nhà hoạt động xã hội.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q131725",
           "https://www.womenshistory.org/education-resources/biographies/joan-baez",
@@ -7497,12 +7542,12 @@
     {
       "id": "john-severin",
       "before": {
+        "shortDescription": "Họa sĩ truyện tranh người Hoa Kỳ.",
         "biography": "John Severin là họa sĩ truyện tranh người Hoa Kỳ, sinh ngày 26 tháng 12 năm 1921.",
         "highlights": [
           "Sinh ngày 26 tháng 12 năm 1921.",
           "Lĩnh vực hoạt động: nghệ thuật."
         ],
-        "shortDescription": "Họa sĩ truyện tranh người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q543947",
           "https://id.loc.gov/authorities/names/n85069302.json",
@@ -7547,12 +7592,12 @@
     {
       "id": "john-von-neumann",
       "before": {
+        "shortDescription": "Nhà toán học người Hungary.",
         "biography": "John von Neumann là nhà toán học người Hungary, sinh ngày 28 tháng 12 năm 1903.",
         "highlights": [
           "Sinh ngày 28 tháng 12 năm 1903.",
           "Lĩnh vực hoạt động: khoa học."
         ],
-        "shortDescription": "Nhà toán học người Hungary.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q17455",
           "https://www.britannica.com/biography/John-von-Neumann",
@@ -7665,12 +7710,12 @@
     {
       "id": "jon-stewart",
       "before": {
+        "shortDescription": "Diễn viên hài người Hoa Kỳ.",
         "biography": "Jon Stewart là diễn viên hài người Hoa Kỳ, sinh ngày 28 tháng 11 năm 1962.",
         "highlights": [
           "Sinh ngày 28 tháng 11 năm 1962.",
           "Lĩnh vực hoạt động: điện ảnh."
         ],
-        "shortDescription": "Diễn viên hài người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q211987",
           "https://www.britannica.com/biography/Jon-Stewart",
@@ -7695,12 +7740,12 @@
     {
       "id": "jonathan-winters",
       "before": {
+        "shortDescription": "Diễn viên người Hoa Kỳ.",
         "biography": "Jonathan Winters là diễn viên người Hoa Kỳ, sinh ngày 11 tháng 11 năm 1925.",
         "highlights": [
           "Sinh ngày 11 tháng 11 năm 1925.",
           "Lĩnh vực hoạt động: điện ảnh."
         ],
-        "shortDescription": "Diễn viên người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q4538",
           "https://www.britannica.com/biography/Jonathan-Winters",
@@ -7714,12 +7759,12 @@
     {
       "id": "jonny-greenwood",
       "before": {
+        "shortDescription": "Nghệ sĩ guitar người Vương quốc Anh.",
         "biography": "Jonny Greenwood là nghệ sĩ guitar người Vương quốc Anh, sinh ngày 5 tháng 11 năm 1971.",
         "highlights": [
           "Sinh ngày 5 tháng 11 năm 1971.",
           "Lĩnh vực hoạt động: âm nhạc."
         ],
-        "shortDescription": "Nghệ sĩ guitar người Vương quốc Anh.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q286410",
           "https://www.britannica.com/biography/Jonny-Greenwood",
@@ -7777,12 +7822,12 @@
     {
       "id": "joseph-bologna",
       "before": {
+        "shortDescription": "Diễn viên người Hoa Kỳ.",
         "biography": "Joseph Bologna là diễn viên người Hoa Kỳ, sinh ngày 30 tháng 12 năm 1934.",
         "highlights": [
           "Sinh ngày 30 tháng 12 năm 1934.",
           "Lĩnh vực hoạt động: điện ảnh."
         ],
-        "shortDescription": "Diễn viên người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q1706646",
           "https://id.loc.gov/authorities/names/n86141935.json",
@@ -7796,12 +7841,12 @@
     {
       "id": "joseph-bonaparte",
       "before": {
+        "shortDescription": "Chính khách người Pháp, từng giữ ngôi vua Tây Ban Nha.",
         "biography": "Joseph Bonaparte sinh ngày 7/1/1768 tại Corsica. Ông là anh của Napoléon Bonaparte và giữ ngôi vua Tây Ban Nha từ năm 1808 đến năm 1813.",
         "highlights": [
           "Giữ ngôi vua Tây Ban Nha từ năm 1808 đến năm 1813.",
           "Là anh trai của Napoléon Bonaparte."
         ],
-        "shortDescription": "Chính khách người Pháp, từng giữ ngôi vua Tây Ban Nha.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q7726",
           "https://www.napoleon.org/en/history-of-the-two-empires/biographies/bonaparte-joseph",
@@ -7883,12 +7928,12 @@
     {
       "id": "joseph-rotblat",
       "before": {
+        "shortDescription": "Nhà vật lý người Vương quốc Anh.",
         "biography": "Joseph Rotblat là nhà vật lý người Vương quốc Anh, sinh ngày 4 tháng 11 năm 1908.",
         "highlights": [
           "Sinh ngày 4 tháng 11 năm 1908.",
           "Lĩnh vực hoạt động: khoa học."
         ],
-        "shortDescription": "Nhà vật lý người Vương quốc Anh.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q219982",
           "https://www.britannica.com/biography/Joseph-Rotblat",
@@ -8078,12 +8123,12 @@
     {
       "id": "k-d-lang",
       "before": {
+        "shortDescription": "Ca sĩ kiêm sáng tác nhạc người Canada.",
         "biography": "k.d. lang là ca sĩ kiêm sáng tác nhạc người Canada, sinh ngày 2 tháng 11 năm 1961.",
         "highlights": [
           "Sinh ngày 2 tháng 11 năm 1961.",
           "Lĩnh vực hoạt động: âm nhạc."
-        ],
-        "shortDescription": "Ca sĩ kiêm sáng tác nhạc người Canada."
+        ]
       },
       "remove": [
         "lifeStatus"
@@ -8092,12 +8137,12 @@
     {
       "id": "kahlil-gibran",
       "before": {
+        "shortDescription": "Nhà văn, nhà thơ và họa sĩ người Liban-Mỹ, tác giả The Prophet.",
         "biography": "Kahlil Gibran sinh ngày 6/1/1883 tại Bsharri, Liban. Ông là nhà văn, nhà thơ và họa sĩ; tác phẩm The Prophet được xuất bản năm 1923.",
         "highlights": [
           "Tác giả tập văn xuôi The Prophet, xuất bản năm 1923.",
           "Sinh tại Bsharri, Liban, ngày 6/1/1883."
         ],
-        "shortDescription": "Nhà văn, nhà thơ và họa sĩ người Liban-Mỹ, tác giả The Prophet.",
         "verifiedAt": "2026-10-03"
       },
       "remove": [
@@ -8361,12 +8406,12 @@
     {
       "id": "kim-yeong-sam",
       "before": {
+        "shortDescription": "Chính khách người Hàn Quốc.",
         "biography": "Kim Yeong-sam là chính khách người Hàn Quốc, sinh ngày 20 tháng 12 năm 1927.",
         "highlights": [
           "Sinh ngày 20 tháng 12 năm 1927.",
           "Lĩnh vực hoạt động: chính trị."
         ],
-        "shortDescription": "Chính khách người Hàn Quốc.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q165210",
           "https://www.britannica.com/biography/Kim-Young-Sam",
@@ -8467,15 +8512,15 @@
     {
       "id": "knut-nystedt",
       "before": {
-        "biography": "Knut Nystedt là Nhà soạn nhạc người Na Uy, sinh ngày 3 tháng 9 năm 1915.",
-        "highlights": [
-          "Sinh ngày 3 tháng 9 năm 1915.",
-          "Lĩnh vực hoạt động: âm nhạc."
-        ],
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q515696",
           "https://snl.no/Knut_Nystedt",
           "https://theaterencyclopedie.nl/id/01944073-3fe5-7085-907f-80c95c43c1d5"
+        ],
+        "biography": "Knut Nystedt là Nhà soạn nhạc người Na Uy, sinh ngày 3 tháng 9 năm 1915.",
+        "highlights": [
+          "Sinh ngày 3 tháng 9 năm 1915.",
+          "Lĩnh vực hoạt động: âm nhạc."
         ]
       },
       "remove": [
@@ -8584,12 +8629,12 @@
     {
       "id": "kurt-waldheim",
       "before": {
+        "shortDescription": "Chính khách người Áo.",
         "biography": "Kurt Waldheim là chính khách người Áo, sinh ngày 21 tháng 12 năm 1918.",
         "highlights": [
           "Sinh ngày 21 tháng 12 năm 1918.",
           "Lĩnh vực hoạt động: chính trị."
         ],
-        "shortDescription": "Chính khách người Áo.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q1260",
           "https://www.britannica.com/biography/Kurt-Waldheim",
@@ -8771,12 +8816,12 @@
     {
       "id": "le-van-son",
       "before": {
+        "shortDescription": "Cầu thủ bóng đá người Việt Nam.",
         "biography": "Lê Văn Sơn là cầu thủ bóng đá người Việt Nam, sinh ngày 20 tháng 12 năm 1996.",
         "highlights": [
           "Sinh ngày 20 tháng 12 năm 1996.",
           "Lĩnh vực hoạt động: thể thao."
         ],
-        "shortDescription": "Cầu thủ bóng đá người Việt Nam.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q19364871",
           "https://www.transfermarkt.com/truong-tuoi-dong-nai-fc/kader/verein/81614/saison_id/2025/plus/1",
@@ -8824,15 +8869,15 @@
     {
       "id": "leonard-cohen",
       "before": {
-        "biography": "Leonard Cohen là Ca sĩ, nhạc sĩ người Canada, sinh ngày 21 tháng 9 năm 1934.",
-        "highlights": [
-          "Sinh ngày 21 tháng 9 năm 1934.",
-          "Lĩnh vực hoạt động: âm nhạc."
-        ],
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q1276",
           "https://snl.no/Leonard_Cohen",
           "https://proleksis.lzmk.hr/15694"
+        ],
+        "biography": "Leonard Cohen là Ca sĩ, nhạc sĩ người Canada, sinh ngày 21 tháng 9 năm 1934.",
+        "highlights": [
+          "Sinh ngày 21 tháng 9 năm 1934.",
+          "Lĩnh vực hoạt động: âm nhạc."
         ]
       },
       "remove": [
@@ -8909,12 +8954,12 @@
     {
       "id": "lewis-hamilton",
       "before": {
+        "shortDescription": "Tay đua người Anh, nhiều lần vô địch thế giới Công thức 1.",
         "biography": "Lewis Hamilton sinh ngày 7/1/1985 tại Stevenage, Anh. Anh thi đấu Công thức 1 và giành bảy chức vô địch thế giới.",
         "highlights": [
           "Bảy lần vô địch thế giới Công thức 1.",
           "Ra mắt Công thức 1 năm 2007."
         ],
-        "shortDescription": "Tay đua người Anh, nhiều lần vô địch thế giới Công thức 1.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q9673",
           "https://www.formula1.com/en/drivers/lewis-hamilton",
@@ -8940,12 +8985,12 @@
     {
       "id": "lili-elbe",
       "before": {
+        "shortDescription": "Họa sĩ người Đan Mạch.",
         "biography": "Lili Elbe là họa sĩ người Đan Mạch, sinh ngày 28 tháng 12 năm 1882.",
         "highlights": [
           "Sinh ngày 28 tháng 12 năm 1882.",
           "Lĩnh vực hoạt động: nghệ thuật."
         ],
-        "shortDescription": "Họa sĩ người Đan Mạch.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q1140735",
           "https://www.britannica.com/biography/Lili-Elbe",
@@ -9048,12 +9093,12 @@
     {
       "id": "lou-donaldson",
       "before": {
+        "shortDescription": "Nghệ sĩ saxophone người Hoa Kỳ.",
         "biography": "Lou Donaldson là nghệ sĩ saxophone người Hoa Kỳ, sinh ngày 1 tháng 11 năm 1926.",
         "highlights": [
           "Sinh ngày 1 tháng 11 năm 1926.",
           "Lĩnh vực hoạt động: âm nhạc."
         ],
-        "shortDescription": "Nghệ sĩ saxophone người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q723821",
           "https://loudonaldson.com/",
@@ -9142,12 +9187,12 @@
     {
       "id": "louis-prima",
       "before": {
+        "shortDescription": "Nghệ sĩ kèn trumpet người Hoa Kỳ.",
         "biography": "Louis Prima là nghệ sĩ kèn trumpet người Hoa Kỳ, sinh ngày 7 tháng 12 năm 1910.",
         "highlights": [
           "Sinh ngày 7 tháng 12 năm 1910.",
           "Lĩnh vực hoạt động: âm nhạc."
         ],
-        "shortDescription": "Nghệ sĩ kèn trumpet người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q367447",
           "https://www.britannica.com/biography/Louis-Prima",
@@ -9293,12 +9338,12 @@
     {
       "id": "m-athalie-range",
       "before": {
+        "shortDescription": "Chính khách người Hoa Kỳ.",
         "biography": "M. Athalie Range là chính khách người Hoa Kỳ, sinh ngày 7 tháng 11 năm 1915.",
         "highlights": [
           "Sinh ngày 7 tháng 11 năm 1915.",
           "Lĩnh vực hoạt động: chính trị."
         ],
-        "shortDescription": "Chính khách người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q16017544",
           "https://wdfjba.wildapricot.org/page-18186",
@@ -9390,12 +9435,12 @@
     {
       "id": "marc-ravalomanana",
       "before": {
+        "shortDescription": "Chính khách người Madagascar.",
         "biography": "Marc Ravalomanana là chính khách người Madagascar, sinh ngày 12 tháng 12 năm 1949.",
         "highlights": [
           "Sinh ngày 12 tháng 12 năm 1949.",
           "Lĩnh vực hoạt động: chính trị."
         ],
-        "shortDescription": "Chính khách người Madagascar.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q155554",
           "https://www.britannica.com/biography/Marc-Ravalomanana",
@@ -9474,12 +9519,12 @@
     {
       "id": "maria-shriver",
       "before": {
+        "shortDescription": "Nhà báo người Hoa Kỳ.",
         "biography": "Maria Shriver là nhà báo người Hoa Kỳ, sinh ngày 6 tháng 11 năm 1955.",
         "highlights": [
           "Sinh ngày 6 tháng 11 năm 1955.",
           "Lĩnh vực hoạt động: văn học."
         ],
-        "shortDescription": "Nhà báo người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q230654",
           "https://www.britannica.com/biography/Maria-Shriver",
@@ -9612,12 +9657,12 @@
     {
       "id": "marshall-thompson",
       "before": {
+        "shortDescription": "Diễn viên người Hoa Kỳ.",
         "biography": "Marshall Thompson là diễn viên người Hoa Kỳ, sinh ngày 27 tháng 11 năm 1925.",
         "highlights": [
           "Sinh ngày 27 tháng 11 năm 1925.",
           "Lĩnh vực hoạt động: điện ảnh."
         ],
-        "shortDescription": "Diễn viên người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q560770",
           "https://id.loc.gov/authorities/names/n91111459.json",
@@ -9631,16 +9676,23 @@
     {
       "id": "martin-luther-king-jr",
       "before": {
+        "biography": "Martin Luther King Jr. sinh ngày 15/1/1929 tại Atlanta. Ông lãnh đạo phong trào dân quyền Hoa Kỳ và nhận Giải Nobel Hòa bình năm 1964.",
+        "highlights": [
+          "Nhận Giải Nobel Hòa bình năm 1964.",
+          "Lãnh đạo hoạt động đấu tranh bất bạo động cho quyền dân sự."
+        ],
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q8027",
           "https://www.nobelprize.org/prizes/peace/1964/king/biographical/",
           "https://thekingcenter.org/about-tkc/martin-luther-king-jr/"
-        ]
+        ],
+        "verifiedAt": "2026-10-03"
       },
       "remove": [
         "deathDate",
         "deathDatePrecision",
         "deathDateSourceUrls",
+        "fields",
         "lifeStatus"
       ]
     },
@@ -9781,12 +9833,12 @@
     {
       "id": "maurice-wilkins",
       "before": {
+        "shortDescription": "Nhà vật lý sinh học người Vương quốc Anh.",
         "biography": "Maurice Wilkins là nhà vật lý sinh học người Vương quốc Anh, sinh ngày 15 tháng 12 năm 1916.",
         "highlights": [
           "Sinh ngày 15 tháng 12 năm 1916.",
           "Lĩnh vực hoạt động: khoa học."
         ],
-        "shortDescription": "Nhà vật lý sinh học người Vương quốc Anh.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q184659",
           "https://www.britannica.com/biography/Maurice-Wilkins",
@@ -9833,12 +9885,12 @@
     {
       "id": "meg-ryan",
       "before": {
+        "shortDescription": "Diễn viên truyền hình người Hoa Kỳ.",
         "biography": "Meg Ryan là diễn viên truyền hình người Hoa Kỳ, sinh ngày 19 tháng 11 năm 1961.",
         "highlights": [
           "Sinh ngày 19 tháng 11 năm 1961.",
           "Lĩnh vực hoạt động: điện ảnh."
         ],
-        "shortDescription": "Diễn viên truyền hình người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q167498",
           "https://www.britannica.com/biography/Meg-Ryan",
@@ -9885,12 +9937,12 @@
     {
       "id": "michael-bates",
       "before": {
+        "shortDescription": "Diễn viên người Vương quốc Anh.",
         "biography": "Michael Bates là diễn viên người Vương quốc Anh, sinh ngày 4 tháng 12 năm 1920.",
         "highlights": [
           "Sinh ngày 4 tháng 12 năm 1920.",
           "Lĩnh vực hoạt động: điện ảnh."
         ],
-        "shortDescription": "Diễn viên người Vương quốc Anh.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q1369342",
           "https://id.loc.gov/authorities/names/no97003190.json",
@@ -10143,12 +10195,12 @@
     {
       "id": "millard-fillmore",
       "before": {
+        "shortDescription": "Tổng thống thứ 13 của Hoa Kỳ.",
         "biography": "Millard Fillmore sinh ngày 7/1/1800 tại bang New York. Ông giữ chức Tổng thống thứ 13 của Hoa Kỳ từ năm 1850 đến năm 1853.",
         "highlights": [
           "Giữ chức Tổng thống Hoa Kỳ từ năm 1850 đến năm 1853.",
           "Trước khi làm tổng thống, ông là Phó Tổng thống Hoa Kỳ."
         ],
-        "shortDescription": "Tổng thống thứ 13 của Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q12306",
           "https://history.house.gov/People/Detail/13119",
@@ -10211,12 +10263,12 @@
     {
       "id": "mischa-auer",
       "before": {
+        "shortDescription": "Diễn viên điện ảnh người Hoa Kỳ.",
         "biography": "Mischa Auer là diễn viên điện ảnh người Hoa Kỳ, sinh ngày 17 tháng 11 năm 1905.",
         "highlights": [
           "Sinh ngày 17 tháng 11 năm 1905.",
           "Lĩnh vực hoạt động: điện ảnh."
         ],
-        "shortDescription": "Diễn viên điện ảnh người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q1375447",
           "https://id.loc.gov/authorities/names/n85273920.json",
@@ -10230,12 +10282,12 @@
     {
       "id": "monica-vitti",
       "before": {
+        "shortDescription": "Diễn viên người Ý.",
         "biography": "Monica Vitti là diễn viên người Ý, sinh ngày 3 tháng 11 năm 1931.",
         "highlights": [
           "Sinh ngày 3 tháng 11 năm 1931.",
           "Lĩnh vực hoạt động: điện ảnh."
         ],
-        "shortDescription": "Diễn viên người Ý.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q106881",
           "https://www.corriere.it/spettacoli/22_febbraio_02/monica-vitti-morta-99c6aca4-8418-11ec-9b6b-cb049c7004c9.shtml",
@@ -10351,13 +10403,13 @@
     {
       "id": "napoleon-bonaparte",
       "before": {
+        "shortDescription": "Hoàng đế Pháp vĩ đại và thiên tài quân sự thế giới.",
         "biography": "Napoléon Bonaparte là nhà quân sự và chính trị gia người Pháp đã vươn lên dẫn đầu trong Cách mạng Pháp và trở thành Hoàng đế của người Pháp (1804–1814 và 1815). Bộ luật Dân sự Napoléon của ông vẫn là nền tảng luật pháp của nhiều quốc gia phương Tây ngày nay.",
         "highlights": [
           "Một trong những chỉ huy quân sự vĩ đại nhất trong lịch sử nhân loại.",
           "Ban hành Bộ luật Napoléon (Code Civil) định hình hệ thống luật pháp hiện đại.",
           "Chi phối phần lớn châu Âu lục địa trong hơn một thập kỷ."
         ],
-        "shortDescription": "Hoàng đế Pháp vĩ đại và thiên tài quân sự thế giới.",
         "sourceUrls": [
           "https://www.britannica.com/biography/Napoleon-I"
         ]
@@ -10488,13 +10540,13 @@
     {
       "id": "ngo-bao-chau",
       "before": {
+        "shortDescription": "Giáo sư toán học, chủ nhân giải thưởng Fields danh giá.",
         "biography": "Ngô Bảo Châu là nhà toán học người Việt Nam đầu tiên đoạt Huy chương Fields (năm 2010), giải thưởng toán học cao quý nhất hành tinh. Công trình chứng minh Bổ đề cơ bản cho các đại số Lie của ông được tạp chí Time bình chọn là một trong 10 phát minh khoa học tiêu biểu nhất năm 2009.",
         "highlights": [
           "Chứng minh thành công Bổ đề cơ bản trong Chương trình Langlands sau hơn 30 năm chưa có lời giải.",
           "Giáo sư tại Viện Nghiên cứu Cao cấp Princeton và Đại học Chicago.",
           "Giám đốc khoa học của Viện Nghiên cứu Cao cấp về Toán (VIASM)."
         ],
-        "shortDescription": "Giáo sư toán học, chủ nhân giải thưởng Fields danh giá.",
         "sourceUrls": [
           "https://www.britannica.com/biography/Ngo-Bao-Chau",
           "https://www.mathunion.org/"
@@ -10562,13 +10614,13 @@
     {
       "id": "nguyen-huy-hoang",
       "before": {
+        "occupation": [
+          "huấn luyện viên bóng đá"
+        ],
         "biography": "Nguyễn Huy Hoàng sinh ngày 4/1/1981. Hồ sơ của câu lạc bộ Sông Lam Nghệ An ghi ông giữ vị trí huấn luyện viên trưởng.",
         "highlights": [
           "Được câu lạc bộ Sông Lam Nghệ An ghi nhận là huấn luyện viên trưởng.",
           "Ngày sinh trong hồ sơ câu lạc bộ là 04/01/1981."
-        ],
-        "occupation": [
-          "huấn luyện viên bóng đá"
         ],
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q926022",
@@ -11355,12 +11407,12 @@
     {
       "id": "paul-de-man",
       "before": {
+        "shortDescription": "Triết gia người Hoa Kỳ.",
         "biography": "Paul de Man là triết gia người Hoa Kỳ, sinh ngày 6 tháng 12 năm 1919.",
         "highlights": [
           "Sinh ngày 6 tháng 12 năm 1919.",
           "Lĩnh vực hoạt động: văn học."
         ],
-        "shortDescription": "Triết gia người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q353754",
           "https://www.britannica.com/biography/Paul-de-Man",
@@ -11421,12 +11473,12 @@
     {
       "id": "paul-j-crutzen",
       "before": {
+        "shortDescription": "Nhà hóa học người Hà Lan.",
         "biography": "Paul J. Crutzen là nhà hóa học người Hà Lan, sinh ngày 3 tháng 12 năm 1933.",
         "highlights": [
           "Sinh ngày 3 tháng 12 năm 1933.",
           "Lĩnh vực hoạt động: khoa học."
         ],
-        "shortDescription": "Nhà hóa học người Hà Lan.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q135139",
           "https://www.britannica.com/biography/Paul-Crutzen",
@@ -11756,15 +11808,15 @@
     {
       "id": "pham-nhu-phuong",
       "before": {
+        "occupation": [
+          "Vận động viên thể dục nghệ thuật"
+        ],
+        "shortDescription": "Vận động viên thể dục nghệ thuật người Việt Nam.",
         "biography": "Phạm Như Phương là vận động viên thể dục nghệ thuật người Việt Nam, sinh ngày 25 tháng 11 năm 2003.",
         "highlights": [
           "Sinh ngày 25 tháng 11 năm 2003.",
           "Lĩnh vực hoạt động: thể thao."
-        ],
-        "occupation": [
-          "Vận động viên thể dục nghệ thuật"
-        ],
-        "shortDescription": "Vận động viên thể dục nghệ thuật người Việt Nam."
+        ]
       },
       "remove": [
         "lifeStatus"
@@ -11789,15 +11841,15 @@
     {
       "id": "pham-thanh-luong",
       "before": {
-        "biography": "Phạm Thành Lương là Cầu thủ bóng đá người Việt Nam, sinh ngày 10 tháng 9 năm 1988.",
-        "highlights": [
-          "Sinh ngày 10 tháng 9 năm 1988.",
-          "Lĩnh vực hoạt động: thể thao."
-        ],
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q4481043",
           "https://fbref.com/en/players/60a6cd31/Pham-Thanh-Luong",
           "https://www.transfermarkt.us/thanh-luong-pham/profil/spieler/138131"
+        ],
+        "biography": "Phạm Thành Lương là Cầu thủ bóng đá người Việt Nam, sinh ngày 10 tháng 9 năm 1988.",
+        "highlights": [
+          "Sinh ngày 10 tháng 9 năm 1988.",
+          "Lĩnh vực hoạt động: thể thao."
         ]
       },
       "remove": []
@@ -11805,12 +11857,12 @@
     {
       "id": "pham-thi-nguyet-anh",
       "before": {
+        "shortDescription": "Vận động viên bóng chuyền người Việt Nam.",
         "biography": "Phạm Thị Nguyệt Anh là vận động viên bóng chuyền người Việt Nam, sinh ngày 13 tháng 12 năm 1998.",
         "highlights": [
           "Sinh ngày 13 tháng 12 năm 1998.",
           "Lĩnh vực hoạt động: thể thao."
         ],
-        "shortDescription": "Vận động viên bóng chuyền người Việt Nam.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q137214005",
           "https://www.ocagames.com/HZ_Info/AG2022-/resAG2022-/pdf/AG2022-/VVO/AG2022-_VVO_C51_VVOWTEAM6-------------GPC-000200--.pdf",
@@ -12003,12 +12055,12 @@
     {
       "id": "pierre-soulages",
       "before": {
+        "shortDescription": "Họa sĩ người Pháp.",
         "biography": "Pierre Soulages là họa sĩ người Pháp, sinh ngày 24 tháng 12 năm 1919.",
         "highlights": [
           "Sinh ngày 24 tháng 12 năm 1919.",
           "Lĩnh vực hoạt động: nghệ thuật."
         ],
-        "shortDescription": "Họa sĩ người Pháp.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q708631",
           "https://www.britannica.com/biography/Pierre-Soulages",
@@ -12131,12 +12183,12 @@
     {
       "id": "rainer-maria-rilke",
       "before": {
+        "shortDescription": "Nhà văn người Áo.",
         "biography": "Rainer Maria Rilke là nhà văn người Áo, sinh ngày 4 tháng 12 năm 1875.",
         "highlights": [
           "Sinh ngày 4 tháng 12 năm 1875.",
           "Lĩnh vực hoạt động: văn học."
         ],
-        "shortDescription": "Nhà văn người Áo.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q76483",
           "https://www.britannica.com/biography/Rainer-Maria-Rilke",
@@ -12206,12 +12258,12 @@
     {
       "id": "randall-garrett",
       "before": {
+        "shortDescription": "Nhà văn người Hoa Kỳ.",
         "biography": "Randall Garrett là nhà văn người Hoa Kỳ, sinh ngày 16 tháng 12 năm 1927.",
         "highlights": [
           "Sinh ngày 16 tháng 12 năm 1927.",
           "Lĩnh vực hoạt động: văn học."
         ],
-        "shortDescription": "Nhà văn người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q1193106",
           "https://id.loc.gov/authorities/names/n79060968.json",
@@ -12225,15 +12277,15 @@
     {
       "id": "randi-bratteli",
       "before": {
-        "biography": "Randi Bratteli là Nhà báo người Na Uy, sinh ngày 17 tháng 9 năm 1924.",
-        "highlights": [
-          "Sinh ngày 17 tháng 9 năm 1924.",
-          "Lĩnh vực hoạt động: văn học."
-        ],
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q4968156",
           "https://snl.no/Randi_Bratteli",
           "https://lokalhistoriewiki.no/index.php?mobileaction=toggle_view_desktop&title=Randi_Bratteli"
+        ],
+        "biography": "Randi Bratteli là Nhà báo người Na Uy, sinh ngày 17 tháng 9 năm 1924.",
+        "highlights": [
+          "Sinh ngày 17 tháng 9 năm 1924.",
+          "Lĩnh vực hoạt động: văn học."
         ]
       },
       "remove": [
@@ -12246,12 +12298,12 @@
     {
       "id": "randy-newman",
       "before": {
+        "shortDescription": "Ca sĩ kiêm sáng tác nhạc người Hoa Kỳ.",
         "biography": "Randy Newman là ca sĩ kiêm sáng tác nhạc người Hoa Kỳ, sinh ngày 28 tháng 11 năm 1943.",
         "highlights": [
           "Sinh ngày 28 tháng 11 năm 1943.",
           "Lĩnh vực hoạt động: âm nhạc."
         ],
-        "shortDescription": "Ca sĩ kiêm sáng tác nhạc người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q318475",
           "https://www.britannica.com/biography/Randy-Newman",
@@ -12364,12 +12416,12 @@
     {
       "id": "richard-nixon",
       "before": {
+        "shortDescription": "Tổng thống thứ 37 của Hoa Kỳ.",
         "biography": "Richard Nixon sinh ngày 9/1/1913 tại California. Ông là Tổng thống thứ 37 của Hoa Kỳ, tại nhiệm từ năm 1969 đến năm 1974.",
         "highlights": [
           "Là Tổng thống Hoa Kỳ từ năm 1969 đến năm 1974.",
           "Từ chức tổng thống vào tháng 8/1974."
         ],
-        "shortDescription": "Tổng thống thứ 37 của Hoa Kỳ.",
         "verifiedAt": "2026-10-03"
       },
       "remove": [
@@ -12395,12 +12447,12 @@
     {
       "id": "richard-pryor",
       "before": {
+        "shortDescription": "Diễn viên truyền hình người Hoa Kỳ.",
         "biography": "Richard Pryor là diễn viên truyền hình người Hoa Kỳ, sinh ngày 1 tháng 12 năm 1940.",
         "highlights": [
           "Sinh ngày 1 tháng 12 năm 1940.",
           "Lĩnh vực hoạt động: điện ảnh."
         ],
-        "shortDescription": "Diễn viên truyền hình người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q294912",
           "https://www.britannica.com/biography/Richard-Pryor",
@@ -12626,12 +12678,12 @@
     {
       "id": "rock-hudson",
       "before": {
+        "shortDescription": "Diễn viên điện ảnh người Hoa Kỳ.",
         "biography": "Rock Hudson là diễn viên điện ảnh người Hoa Kỳ, sinh ngày 17 tháng 11 năm 1925.",
         "highlights": [
           "Sinh ngày 17 tháng 11 năm 1925.",
           "Lĩnh vực hoạt động: điện ảnh."
         ],
-        "shortDescription": "Diễn viên điện ảnh người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q184378",
           "https://www.britannica.com/biography/Rock-Hudson",
@@ -12645,12 +12697,12 @@
     {
       "id": "rodney-dangerfield",
       "before": {
+        "shortDescription": "Diễn viên người Hoa Kỳ.",
         "biography": "Rodney Dangerfield là diễn viên người Hoa Kỳ, sinh ngày 22 tháng 11 năm 1921.",
         "highlights": [
           "Sinh ngày 22 tháng 11 năm 1921.",
           "Lĩnh vực hoạt động: điện ảnh."
         ],
-        "shortDescription": "Diễn viên người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q436386",
           "http://www.rodney.com",
@@ -12741,12 +12793,12 @@
     {
       "id": "roman-vlad",
       "before": {
+        "shortDescription": "Nhà soạn nhạc người Ý.",
         "biography": "Roman Vlad là nhà soạn nhạc người Ý, sinh ngày 29 tháng 12 năm 1919.",
         "highlights": [
           "Sinh ngày 29 tháng 12 năm 1919.",
           "Lĩnh vực hoạt động: âm nhạc."
         ],
-        "shortDescription": "Nhà soạn nhạc người Ý.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q2343525",
           "https://id.loc.gov/authorities/names/n84148414.json",
@@ -12880,12 +12932,12 @@
     {
       "id": "sabah",
       "before": {
+        "shortDescription": "Ca sĩ người Liban.",
         "biography": "Sabah là ca sĩ người Liban, sinh ngày 10 tháng 11 năm 1927.",
         "highlights": [
           "Sinh ngày 10 tháng 11 năm 1927.",
           "Lĩnh vực hoạt động: âm nhạc."
         ],
-        "shortDescription": "Ca sĩ người Liban.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q2600118",
           "https://id.loc.gov/authorities/names/no00056311.json",
@@ -12910,12 +12962,12 @@
     {
       "id": "sally-field",
       "before": {
+        "shortDescription": "Diễn viên người Hoa Kỳ.",
         "biography": "Sally Field là diễn viên người Hoa Kỳ, sinh ngày 6 tháng 11 năm 1946.",
         "highlights": [
           "Sinh ngày 6 tháng 11 năm 1946.",
           "Lĩnh vực hoạt động: điện ảnh."
-        ],
-        "shortDescription": "Diễn viên người Hoa Kỳ."
+        ]
       },
       "remove": [
         "lifeStatus"
@@ -13264,12 +13316,12 @@
     {
       "id": "simone-de-beauvoir",
       "before": {
+        "shortDescription": "Nhà văn và triết gia người Pháp, tác giả The Second Sex.",
         "biography": "Simone de Beauvoir sinh ngày 9/1/1908 tại Paris. Bà là nhà văn và triết gia; cuốn The Second Sex được xuất bản năm 1949.",
         "highlights": [
           "Tác giả cuốn The Second Sex, xuất bản năm 1949.",
           "Được lưu danh trong hồ sơ tác giả của Thư viện Quốc gia Pháp."
         ],
-        "shortDescription": "Nhà văn và triết gia người Pháp, tác giả The Second Sex.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q7197",
           "https://snl.no/Simone_de_Beauvoir",
@@ -13571,6 +13623,26 @@
       "remove": []
     },
     {
+      "id": "suboi",
+      "before": {
+        "biography": "Suboi sinh ngày 14/1/1990 tại Thành phố Hồ Chí Minh. Cô là rapper và nhạc sĩ, được truyền thông Việt Nam gọi là một trong những nghệ sĩ nữ tiên phong của hip-hop Việt.",
+        "highlights": [
+          "Phát hành album Run năm 2014.",
+          "Được mời phát biểu tại sự kiện APEC CEO Summit năm 2017."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q16233605",
+          "https://vov.vn/van-hoa/nghe-si/suboi-tu-co-be-teen-mac-quan-thung-den-nu-hoang-hip-hop-viet-post551201.vov",
+          "https://voh.com.vn/tieu-su-sao/tieu-su-rapper-suboi-373884.html"
+        ],
+        "verifiedAt": "2026-10-03"
+      },
+      "remove": [
+        "fields",
+        "lifeStatus"
+      ]
+    },
+    {
       "id": "subrahmanyan-chandrasekhar",
       "before": {
         "biography": "Subrahmanyan Chandrasekhar là nhà vật lý thiên văn người Ấn Độ, sinh ngày 19 tháng 10 năm 1910.",
@@ -13698,12 +13770,12 @@
     {
       "id": "syd-barrett",
       "before": {
+        "shortDescription": "Nhạc sĩ người Anh, thành viên sáng lập ban nhạc Pink Floyd.",
         "biography": "Syd Barrett sinh ngày 6/1/1946 tại Cambridge. Ông là nhạc sĩ, ca sĩ kiêm sáng tác và một trong những thành viên ban đầu của Pink Floyd.",
         "highlights": [
           "Là thành viên ban đầu của Pink Floyd.",
           "Tên khai sinh của ông là Roger Keith Barrett."
         ],
-        "shortDescription": "Nhạc sĩ người Anh, thành viên sáng lập ban nhạc Pink Floyd.",
         "verifiedAt": "2026-10-03"
       },
       "remove": [
@@ -13795,6 +13867,23 @@
         "deathDateSourceUrls",
         "lifeStatus"
       ]
+    },
+    {
+      "id": "thach-kim-tuan",
+      "before": {
+        "biography": "Thạch Kim Tuấn sinh ngày 15/1/1994 tại Hàm Tân, Bình Thuận. Anh là vận động viên cử tạ Việt Nam và từng thi đấu tại các giải Olympic và vô địch thế giới.",
+        "highlights": [
+          "Giành huy chương vàng tại Giải vô địch cử tạ thế giới năm 2017.",
+          "Hồ sơ Olympedia ghi nơi sinh là Hàm Tân, Bình Thuận."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q3302807",
+          "https://library.olympics.com/Default/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=165324&parentDocumentId=165312",
+          "https://www.olympedia.org/athletes/136482"
+        ],
+        "verifiedAt": "2026-10-03"
+      },
+      "remove": []
     },
     {
       "id": "theodor-herzl",
@@ -14075,12 +14164,12 @@
     {
       "id": "tom-sizemore",
       "before": {
+        "shortDescription": "Diễn viên người Hoa Kỳ.",
         "biography": "Tom Sizemore là diễn viên người Hoa Kỳ, sinh ngày 29 tháng 11 năm 1961.",
         "highlights": [
           "Sinh ngày 29 tháng 11 năm 1961.",
           "Lĩnh vực hoạt động: điện ảnh."
         ],
-        "shortDescription": "Diễn viên người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q349852",
           "https://id.loc.gov/authorities/names/n2006004178.json",
@@ -14259,12 +14348,12 @@
     {
       "id": "trinh-van-vinh",
       "before": {
+        "shortDescription": "Vận động viên cử tạ người Việt Nam.",
         "biography": "Trịnh Văn Vinh là vận động viên cử tạ người Việt Nam, sinh ngày 17 tháng 12 năm 1995.",
         "highlights": [
           "Sinh ngày 17 tháng 12 năm 1995.",
           "Lĩnh vực hoạt động: thể thao."
         ],
-        "shortDescription": "Vận động viên cử tạ người Việt Nam.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q27805415",
           "https://awf.sport/wp-content/uploads/2024/01/Weightlifting_compressed.pdf",
@@ -14316,12 +14405,12 @@
     {
       "id": "tu-youyou",
       "before": {
+        "shortDescription": "Nhà hóa học người Trung Quốc.",
         "biography": "Tu Youyou là nhà hóa học người Trung Quốc, sinh ngày 30 tháng 12 năm 1930.",
         "highlights": [
           "Sinh ngày 30 tháng 12 năm 1930.",
           "Lĩnh vực hoạt động: khoa học."
         ],
-        "shortDescription": "Nhà hóa học người Trung Quốc.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q462843",
           "https://www.britannica.com/biography/Tu-Youyou",
@@ -14459,12 +14548,12 @@
     {
       "id": "val-kilmer",
       "before": {
+        "shortDescription": "Diễn viên điện ảnh người Hoa Kỳ.",
         "biography": "Val Kilmer là diễn viên điện ảnh người Hoa Kỳ, sinh ngày 31 tháng 12 năm 1959.",
         "highlights": [
           "Sinh ngày 31 tháng 12 năm 1959.",
           "Lĩnh vực hoạt động: điện ảnh."
         ],
-        "shortDescription": "Diễn viên điện ảnh người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q191084",
           "https://id.loc.gov/authorities/names/n92096686.json",
@@ -14525,12 +14614,12 @@
     {
       "id": "victor-french",
       "before": {
+        "shortDescription": "Diễn viên điện ảnh người Hoa Kỳ.",
         "biography": "Victor French là diễn viên điện ảnh người Hoa Kỳ, sinh ngày 4 tháng 12 năm 1934.",
         "highlights": [
           "Sinh ngày 4 tháng 12 năm 1934.",
           "Lĩnh vực hoạt động: điện ảnh."
         ],
-        "shortDescription": "Diễn viên điện ảnh người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q1347274",
           "https://id.loc.gov/authorities/names/nr2004001624.json",
@@ -14559,12 +14648,12 @@
     {
       "id": "victor-jory",
       "before": {
+        "shortDescription": "Diễn viên người Canada.",
         "biography": "Victor Jory là diễn viên người Canada, sinh ngày 23 tháng 11 năm 1902.",
         "highlights": [
           "Sinh ngày 23 tháng 11 năm 1902.",
           "Lĩnh vực hoạt động: điện ảnh."
         ],
-        "shortDescription": "Diễn viên người Canada.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q1367933",
           "https://id.loc.gov/authorities/names/n85151828.json",
@@ -14650,12 +14739,12 @@
     {
       "id": "vladimir-shainsky",
       "before": {
+        "shortDescription": "Nhà soạn nhạc người Nga.",
         "biography": "Vladimir Shainsky là nhà soạn nhạc người Nga, sinh ngày 12 tháng 12 năm 1925.",
         "highlights": [
           "Sinh ngày 12 tháng 12 năm 1925.",
           "Lĩnh vực hoạt động: âm nhạc."
         ],
-        "shortDescription": "Nhà soạn nhạc người Nga.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q674048",
           "https://id.loc.gov/authorities/names/n91038390.json",
@@ -14685,12 +14774,12 @@
     {
       "id": "vo-thi-anh-xuan",
       "before": {
+        "shortDescription": "Chính trị gia Việt Nam, từng giữ chức Phó Chủ tịch nước.",
         "biography": "Võ Thị Ánh Xuân sinh ngày 8/1/1970 tại An Giang. Bà là chính trị gia Việt Nam và từng đảm nhiệm chức Phó Chủ tịch nước.",
         "highlights": [
           "Được Quốc hội bầu làm Phó Chủ tịch nước năm 2021.",
           "Tiểu sử Quốc hội ghi ngày sinh 08/01/1970."
         ],
-        "shortDescription": "Chính trị gia Việt Nam, từng giữ chức Phó Chủ tịch nước.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q24957799",
           "https://quochoi.vn/UserControls/Publishing/News/BinhLuan/pFormPrint.aspx?ItemID=54121&UrlListProcess=%2Fcontent%2Ftintuc%2FLists%2FNews",
@@ -15107,12 +15196,12 @@
     {
       "id": "william-steig",
       "before": {
+        "shortDescription": "Nhà văn người Hoa Kỳ.",
         "biography": "William Steig là nhà văn người Hoa Kỳ, sinh ngày 14 tháng 11 năm 1907.",
         "highlights": [
           "Sinh ngày 14 tháng 11 năm 1907.",
           "Lĩnh vực hoạt động: văn học."
         ],
-        "shortDescription": "Nhà văn người Hoa Kỳ.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q552255",
           "https://www.williamsteig.com/",
@@ -15126,12 +15215,12 @@
     {
       "id": "willy-brandt",
       "before": {
+        "shortDescription": "Chính khách người Đức.",
         "biography": "Willy Brandt là chính khách người Đức, sinh ngày 18 tháng 12 năm 1913.",
         "highlights": [
           "Sinh ngày 18 tháng 12 năm 1913.",
           "Lĩnh vực hoạt động: chính trị."
         ],
-        "shortDescription": "Chính khách người Đức.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q2514",
           "https://www.britannica.com/biography/Willy-Brandt",
@@ -15251,12 +15340,12 @@
     {
       "id": "wyndham-lewis",
       "before": {
+        "shortDescription": "Họa sĩ người Vương quốc Anh.",
         "biography": "Wyndham Lewis là họa sĩ người Vương quốc Anh, sinh ngày 18 tháng 11 năm 1882.",
         "highlights": [
           "Sinh ngày 18 tháng 11 năm 1882.",
           "Lĩnh vực hoạt động: nghệ thuật."
         ],
-        "shortDescription": "Họa sĩ người Vương quốc Anh.",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q780102",
           "https://www.britannica.com/biography/Wyndham-Lewis",
@@ -15277,6 +15366,28 @@
         ]
       },
       "remove": []
+    },
+    {
+      "id": "yukio-mishima",
+      "before": {
+        "highlights": [
+          "Tác phẩm The Temple of the Golden Pavilion xuất bản năm 1956.",
+          "Được lưu danh trong hồ sơ tác giả của Thư viện Quốc gia Pháp."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q134456",
+          "https://www.mishimayukio.jp/about/",
+          "https://www.britannica.com/biography/Yukio-Mishima"
+        ],
+        "verifiedAt": "2026-10-03"
+      },
+      "remove": [
+        "deathDate",
+        "deathDatePrecision",
+        "deathDateSourceUrls",
+        "fields",
+        "lifeStatus"
+      ]
     },
     {
       "id": "yul-brynner",
