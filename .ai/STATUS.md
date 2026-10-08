@@ -41,7 +41,7 @@ Evidence mở rộng nằm trong `.ai/evidence/BV017-expansion-pilot.json`: ID/Q
 - `npm run verify:wikidata`: PASS, 1.150 matched, 0 mismatched, 0 thiếu P569.
 - HTTP smoke trên production build local: PASS `/person/alvar-aalto` và `/person/anita-roddick`; cả hai trả HTTP 200 và hiển thị nhãn field cùng nội dung hồ sơ.
 - `git diff --check`: PASS.
-- Full-corpus URL scan: đã dừng sau 58 URL đầu tiên (0 lỗi) vì checker chạy tuần tự qua 3.889 URL; 62 nguồn của pilot đã được capture trực tiếp, trả HTTP 200 và pin SHA-256 trong evidence.
+- Full-corpus URL scan: đã dừng sau 58 URL đầu tiên (0 lỗi) vì checker chạy tuần tự qua 3.889 URL. Pilot có 60 capture nguồn DOB, 60 capture career facts và 2 capture nguồn tổ chức — tổng 122 capture HTTP 200 được pin SHA-256 trong evidence.
 
 ### Reviewer Attention
 
