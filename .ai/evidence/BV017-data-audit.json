@@ -10,7 +10,7 @@
     "people": 1120,
     "death_date_conflict": 33,
     "p570_without_reference": 1,
-    "deathDatesDirectlyConfirmedByPublisherCapture": 303,
+    "deathDatesDirectlyConfirmedByPublisherCapture": 305,
     "deathDatesDirectlyConfirmedInB015B016": 36,
     "deathDatesDirectlyConfirmedInBaseline": 240,
     "preExistingDeathDateConflictsNotOverwritten": 30,
@@ -27,7 +27,8 @@
     "deathDatesDirectlyConfirmedInBV017January14": 3,
     "deathDatesDirectlyConfirmedInBV017January15": 2,
     "deathDatesDirectlyConfirmedInBV017January16": 2,
-    "deathDatesDirectlyConfirmedInBV017January17": 3
+    "deathDatesDirectlyConfirmedInBV017January17": 3,
+    "deathDatesDirectlyConfirmedInBV017January18": 2
   },
   "people": [
     {
@@ -5652,11 +5653,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "unknown",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -5710,11 +5711,11 @@
       ],
       "activeExactGregorianP569MatchesLocal": true,
       "activeDeathDates": [],
-      "localLifeStatus": null,
+      "localLifeStatus": "unknown",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -5832,11 +5833,13 @@
       "activeDeathDates": [
         "1986-11-29"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "1986-11-29",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://goldenglobes.com/person/cary-grant/"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {

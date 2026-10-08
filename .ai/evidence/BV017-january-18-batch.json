@@ -1,0 +1,1037 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-18",
+  "capturedAt": "2026-10-09T02:18:00+09:00",
+  "sourceCaptures": [
+    {
+      "id": "nguyen-gov",
+      "url": "https://baochinhphu.vn/tom-tat-tieu-su-chu-tich-quoc-hoi-khoa-xiii-10289362.htm",
+      "publisher": "Cổng Thông tin điện tử Chính phủ",
+      "publisherHost": "baochinhphu.vn",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 58743,
+      "sha256": "e0ddc5346cf22f1ea40ac9ea4991f48da90eecbec8e11f276863b34b4b9b6dde",
+      "pageTitle": "Tóm tắt tiểu sử Chủ tịch Quốc hội khóa XIII",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Tóm tắt tiểu sử Chủ tịch Quốc hội khóa XIII; Ngày sinh: 18/01/1946. Tại phiên làm việc ngày 23/7, Quốc hội đã bầu ông Nguyễn Sinh Hùng giữ chức Chủ tịch Quốc hội khóa XIII.",
+      "excerptSha256": "4eb9ef9fcc010e8c9d13160e5571dc0b79398822c0b7a1a2b62759c3ceb8337a"
+    },
+    {
+      "id": "nguyen-vna",
+      "url": "https://nvsk.vnanet.vn/nguyen-sinh-hung-1085.vna",
+      "publisher": "Thông tấn xã Việt Nam",
+      "publisherHost": "nvsk.vnanet.vn",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 64500,
+      "sha256": "734569accb6e68e6cc168102f855add1c9f7c99427ca862ae0216b799cd40d43",
+      "pageTitle": "Nguyễn Sinh Hùng",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Họ và tên: Nguyễn Sinh Hùng Ngày sinh: 18/1/1946. Chức vụ: Phó Thủ tướng Thường trực Chính phủ (8/2007 - 7/2011) - Chủ tịch Quốc hội khóa XIII (đến 3/2016). Trình độ chuyên môn: Tiến sĩ Kinh tế.",
+      "excerptSha256": "0072f766bb9754705a20b40a3fef7aa71fea0536bc1474688665592fa6c0f812"
+    },
+    {
+      "id": "pep-dfb",
+      "url": "https://datencenter.dfb.de/en/data-center/people/pep-guardiola/coach",
+      "publisher": "Trung tâm dữ liệu Liên đoàn Bóng đá Đức",
+      "publisherHost": "datencenter.dfb.de",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 27731,
+      "sha256": "f598a64387a11a9a93fde37ca022b57161f7a739a31394f29ef529c3053092cc",
+      "pageTitle": "Pep Guardiola - Trainerprofil - DFB data center",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Pep Guardiola. Personal information. Date of birth: 1971-01-18. Nation: Spain.",
+      "excerptSha256": "17573fb3096a5abb019cfc5323d526c91c543d091667201cf51496090698c33e"
+    },
+    {
+      "id": "pep-city-birthday",
+      "url": "https://www.mancity.com/news/first-team/first-team-news/2016/july/pep-did-you-know",
+      "publisher": "Manchester City",
+      "publisherHost": "www.mancity.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 218906,
+      "sha256": "bf8536296bc561bc9dade1b874e22ed82ebb21fc82b6ff67e7b73f1711c52d20",
+      "pageTitle": "Pep Guardiola: Did you know?",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Guardiola was born in Santpedor, a town in Catalonia. He was born on January 18, 1971. Guardiola won an Olympic gold medal with Spain in 1992.",
+      "excerptSha256": "3dffc96a7b8a7390d143e16877d1a63809fe0ef4f322e03fa1a1507e44d2f93c"
+    },
+    {
+      "id": "pep-city-current",
+      "url": "https://www.mancity.com/news/mens/pep-guardiola-official-announcement-63915039",
+      "publisher": "Manchester City",
+      "publisherHost": "www.mancity.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 235019,
+      "sha256": "96dc861905ab7c2837ead1c24c498799e91c9d940796a74c78779f076d87cf76",
+      "pageTitle": "Guardiola to step down after incredible decade as City Manager",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Guardiola to step down after incredible decade as City Manager. Pep Guardiola will step down as Manager of Manchester City this summer, having won 20 major trophies. Pep will continue his relationship with the City Football Group, by taking up a role as a Global Ambassador.",
+      "excerptSha256": "4c45f9337b82362ddf375742566abc5e126d94d30db8a0d3467653145cf63145"
+    },
+    {
+      "id": "cary-globes",
+      "url": "https://goldenglobes.com/person/cary-grant/",
+      "publisher": "Golden Globes",
+      "publisherHost": "goldenglobes.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 75079,
+      "sha256": "6b91167f6ab6586262efcda9abfa5af4c865870391af9092a8398540db24763d",
+      "pageTitle": "Cary Grant - Golden Globes",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Cary Grant (born Archibald Leach in Bristol, UK, January 18, 1904, died November 29, 1986). Golden Globe Awards 1964 Nominee Best Performance by an Actor in a Motion Picture - Musical or Comedy Charade Cary Grant.",
+      "excerptSha256": "d30d90fe4fbac7bc290c8dd2a41a565d2c1a86462ecf48f48e6b0af8a3f32bf8"
+    },
+    {
+      "id": "cary-bio",
+      "url": "https://www.biography.com/actors/cary-grant",
+      "publisher": "Biography.com",
+      "publisherHost": "www.biography.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 493265,
+      "sha256": "efc36b007f16f3c961f2a9c211588a78868b4f74b70b981548dcf423d1ec8997",
+      "pageTitle": "Cary Grant - Movies, Spouse & Career",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Cary Grant was born on January 18, 1904, in Bristol, England. He died during a public appearance in Davenport, Iowa, on November 29, 1986.",
+      "excerptSha256": "20b920c5876192603bb60679140eb6255a1de7da5289ecc823ecf314d636dac0"
+    },
+    {
+      "id": "cary-bfi",
+      "url": "https://www.bfi.org.uk/lists/cary-grant-10-essential-films",
+      "publisher": "British Film Institute",
+      "publisherHost": "www.bfi.org.uk",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 262004,
+      "sha256": "5eb2197c71411ed89a8fbbd79f2698356815874c9a6f2d3f196e2024f7c68f23",
+      "pageTitle": "Cary Grant: 10 essential films | BFI",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "North by Northwest (1959) Director: Alfred Hitchcock North by Northwest (1959)",
+      "excerptSha256": "04b44be56b8703dc666d708c00c621826fffa5f76c4dc98dce89b9e4cb43e333"
+    },
+    {
+      "id": "milne-poets",
+      "url": "https://poets.org/poet/milne",
+      "publisher": "Academy of American Poets",
+      "publisherHost": "poets.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 46903,
+      "sha256": "677770cd0514874461b5ffb1ec0f2117d83205f7c58ecb18afae1b612861b0c9",
+      "pageTitle": "About A. A. Milne | Academy of American Poets",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Alan Alexander Milne, born on January 18, 1882, in Kilburn, London. Winnie-the-Pooh (Methuen, 1926). He died on January 31, 1956.",
+      "excerptSha256": "3cc7e73f864c3b7e4ce29503b31ce992653265a49ad6326c89bf1546502f409b"
+    },
+    {
+      "id": "milne-ransom",
+      "url": "https://research.hrc.utexas.edu/fasearch/findingaid.cfm?eadid=00466&showrequest=0",
+      "publisher": "Harry Ransom Center, University of Texas at Austin",
+      "publisherHost": "research.hrc.utexas.edu",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 50274,
+      "sha256": "422fae1af1448c4a72649087e9f57f9cde7b8c12b36e38fef47f29a870a8b346",
+      "pageTitle": "A. A. (Alan Alexander) Milne: An Inventory of His Collection in the Manuscript Collection at the Harry\r\n\t\t\t\t\tRansom Center",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Alan Alexander Milne was born on January 18, 1882, in London, England. He died on January 31, 1956, at his home in Sussex. Winnie-the-Pooh (1926).",
+      "excerptSha256": "d78924e6b4ed70b5cf43ba06fbbc659b966e7d357e2fdd2a55e37dcdb8094028"
+    },
+    {
+      "id": "milne-foundation",
+      "url": "https://www.poetryfoundation.org/poets/a-a-milne",
+      "publisher": "Poetry Foundation",
+      "publisherHost": "www.poetryfoundation.org",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 342221,
+      "sha256": "acccdcc5608fc2804e6cd17cd596c86343105119670162b21cca4c87cf8ac14e",
+      "pageTitle": "A. A. Milne | The Poetry Foundation",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Milne worked as assistant editor of Punch for eight years (1906–1914). His poetry collections include When We Were Very Young (1924) and Now We Are Six (1927).",
+      "excerptSha256": "eca5b634b690d3bf2d121d3de44856c491e1a66de3490d4d492a15d8c1bb35b5"
+    },
+    {
+      "id": "costner-bio",
+      "url": "https://www.biography.com/actors/kevin-costner",
+      "publisher": "Biography.com",
+      "publisherHost": "www.biography.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 613523,
+      "sha256": "35335001bedd8bbe50d11904f793612c379be82f34bd2957210942be44270954",
+      "pageTitle": "Kevin Costner: Inside the Award-Winning Actor and Director’s Life",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Kevin Michael Costner was born on January 18, 1955, in Lynwood, California. He directed and starred in the 1990 epic film Dances With Wolves, which won seven Oscars including Best Picture and Best Director.",
+      "excerptSha256": "7dab951a15a1144a21bf12292c6c51a43c72f3936188261699a3150f6e44568b"
+    },
+    {
+      "id": "costner-globes",
+      "url": "https://goldenglobes.com/person/kevin-costner/",
+      "publisher": "Golden Globes",
+      "publisherHost": "goldenglobes.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 77464,
+      "sha256": "bdde78827ebcf1f03fde6b28c36130c20ea80ed5f44584608fcdb5d0c4a05e6b",
+      "pageTitle": "Kevin Costner - Golden Globes",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Kevin Michael Costner (born in Lynwood, California, January 18, 1955). Golden Globe Awards 2023 Winner: Best Performance by an Actor In A Television Series - Drama, Yellowstone, Kevin Costner.",
+      "excerptSha256": "746730398c4ca7c9ecf816e58ae3103498ce935b5af1bd1c15a79e9cfa74c457"
+    },
+    {
+      "id": "costner-tv",
+      "url": "https://www.televisionacademy.com/bios/kevin-costner",
+      "publisher": "Television Academy",
+      "publisherHost": "www.televisionacademy.com",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytesRead": 357587,
+      "sha256": "70e526ad9fb862ba6e1f2abe48709f2624b8b057c324e00704e44a2744cc2bc4",
+      "pageTitle": "Kevin Costner | Emmy Awards and Nominations  | Television Academy",
+      "verificationMethod": "direct-http-body-capture+reviewed-excerpt",
+      "excerpt": "Kevin Costner. Birthday January 18. Costner won both the Best Picture and Best Director Oscar Awards for Dances With Wolves.",
+      "excerptSha256": "9478bbbbe5cdd62f5aee2e369b9973ba4a80d068703489638330366ca34bcf30"
+    },
+    {
+      "id": "nguyen-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q4120045.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 25924,
+      "sha256": "0f42813740dbfc0c1f5a52998e0e4a8ed88f50a67463e7327c08527e3167348e",
+      "verificationMethod": "direct-http-json-entity-snapshot+reviewed-claims",
+      "excerpt": "{\"entity\":\"Q4120045\",\"claims\":{\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":1}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1946-01-18T00:00:00Z\",\"references\":2,\"precision\":11,\"calendar\":\"Q1985727\"}],\"p570\":[],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q881\",\"references\":0}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q82955\",\"references\":0}]}}",
+      "excerptSha256": "24f1ed337b2a3a9ab251aa820b078cd409d52e9ee3db98e7da8af1060ff4354f"
+    },
+    {
+      "id": "pep-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q164038.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 143815,
+      "sha256": "578463efb7232129ec95c6808386494ff25957958c591dd57fffd9ecf2ffe9b5",
+      "verificationMethod": "direct-http-json-entity-snapshot+reviewed-claims",
+      "excerpt": "{\"entity\":\"Q164038\",\"claims\":{\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":1}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1971-01-18T00:00:00Z\",\"references\":4,\"precision\":11,\"calendar\":\"Q1985727\"}],\"p570\":[],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q29\",\"references\":2}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q628099\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q937857\",\"references\":1}]}}",
+      "excerptSha256": "ddb8413e1d7810a284c89a1fc4eb664f4d9d97e1971a8fa3626be95d5cd502a9"
+    },
+    {
+      "id": "cary-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q83410.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 169991,
+      "sha256": "bae6dfaaea3748ab201bfc031866b071f83e33d15750a4494ca3360aab39fb73",
+      "verificationMethod": "direct-http-json-entity-snapshot+reviewed-claims",
+      "excerpt": "{\"entity\":\"Q83410\",\"claims\":{\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":1}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1904-01-18T00:00:00Z\",\"references\":13,\"precision\":11,\"calendar\":\"Q1985727\"}],\"p570\":[{\"rank\":\"normal\",\"value\":\"+1986-11-29T00:00:00Z\",\"references\":11,\"precision\":11,\"calendar\":\"Q1985727\"}],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q30\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q145\",\"references\":1}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q10800557\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q36180\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q18814623\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q2259451\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q3282637\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q43845\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q245068\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q17307272\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q33999\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q47541952\",\"references\":0}]}}",
+      "excerptSha256": "5330da256aa7bb2589e6c0a19184644447dbd941e80034af3cbcd5b77e19eb9e"
+    },
+    {
+      "id": "milne-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q207036.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 194199,
+      "sha256": "96db8aa4d1265502a6de28eef94148f31d8f591e1ecbb337d9a624c0a5d7c108",
+      "verificationMethod": "direct-http-json-entity-snapshot+reviewed-claims",
+      "excerpt": "{\"entity\":\"Q207036\",\"claims\":{\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":1}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1882-01-18T00:00:00Z\",\"references\":10,\"precision\":11,\"calendar\":\"Q1985727\"}],\"p570\":[{\"rank\":\"normal\",\"value\":\"+1956-01-31T00:00:00Z\",\"references\":11,\"precision\":11,\"calendar\":\"Q1985727\"}],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q145\",\"references\":1}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q36180\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q49757\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q6625963\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q4853732\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q28389\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q189290\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q214917\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q11774202\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q15949613\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q1930187\",\"references\":1}]}}",
+      "excerptSha256": "659ac2b7ed188259cdd104a5f171c6ea415a4d0e7bfd454942a0df5ecbad6235"
+    },
+    {
+      "id": "costner-wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q11930.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytesRead": 171749,
+      "sha256": "218b09a541caf150049067e3003364d0d86a4d9d25ce8fae1efd09614e2c7366",
+      "verificationMethod": "direct-http-json-entity-snapshot+reviewed-claims",
+      "excerpt": "{\"entity\":\"Q11930\",\"claims\":{\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":3}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1955-01-18T00:00:00Z\",\"references\":7,\"precision\":11,\"calendar\":\"Q1985727\"}],\"p570\":[],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q30\",\"references\":0}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q33999\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q10800557\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q2526255\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q3282637\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q10798782\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q2405480\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q28389\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q3455803\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q639669\",\"references\":1}]}}",
+      "excerptSha256": "44be08810c5346e14345e83790b0b4c9aed271cc9315e2f8f95e13cd31723ddd"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "nguyen-sinh-hung",
+      "name": "Nguyễn Sinh Hùng",
+      "wikidataId": "Q4120045",
+      "birthDate": "1946-01-18",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "nguyen-gov",
+        "nguyen-vna"
+      ],
+      "careerFactIds": [
+        "nguyen-chair-election",
+        "nguyen-phd-economics"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q4120045",
+        "https://ariyajoti.wordpress.com/wp-content/uploads/2013/08/nlm-2013-07-23-red.pdf",
+        "https://baochinhphu.vn/tom-tat-tieu-su-chu-tich-quoc-hoi-khoa-xiii-10289362.htm",
+        "https://nvsk.vnanet.vn/nguyen-sinh-hung-1085.vna"
+      ],
+      "wikidataCaptureId": "nguyen-wikidata",
+      "identityClaims": {
+        "label": "Nguyen Sinh Hung",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1946-01-18T00:00:00Z",
+            "references": 2,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q881",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q82955",
+            "references": 0
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q82955"
+        ]
+      },
+      "before": {
+        "biography": "Nguyễn Sinh Hùng là chính khách người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Ngày 23/7/2011, Nguyễn Sinh Hùng được bầu làm Chủ tịch Quốc hội khóa XIII.",
+        "highlights": [
+          "Sinh ngày 18/1/1946.",
+          "Ngày 23/7/2011, Nguyễn Sinh Hùng được bầu làm Chủ tịch Quốc hội khóa XIII."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q4120045",
+          "https://ariyajoti.wordpress.com/wp-content/uploads/2013/08/nlm-2013-07-23-red.pdf",
+          "https://nvsk.vnanet.vn/nguyen-sinh-hung-1085.vna"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null,
+        "deathDate": null,
+        "fields": null
+      },
+      "after": {
+        "biography": "Nguyễn Sinh Hùng là chính khách Việt Nam, từng giữ chức Phó Thủ tướng Thường trực Chính phủ từ tháng 8/2007 đến tháng 7/2011 và Chủ tịch Quốc hội khóa XIII. Thông tấn xã Việt Nam ghi nhận ông có học vị Tiến sĩ Kinh tế.",
+        "highlights": [
+          "Ngày 23/7/2011, Quốc hội bầu ông Nguyễn Sinh Hùng làm Chủ tịch Quốc hội khóa XIII.",
+          "Tiểu sử của Thông tấn xã Việt Nam ghi nhận ông có học vị Tiến sĩ Kinh tế."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q4120045",
+          "https://ariyajoti.wordpress.com/wp-content/uploads/2013/08/nlm-2013-07-23-red.pdf",
+          "https://baochinhphu.vn/tom-tat-tieu-su-chu-tich-quoc-hoi-khoa-xiii-10289362.htm",
+          "https://nvsk.vnanet.vn/nguyen-sinh-hung-1085.vna"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "unknown",
+        "fields": [
+          "economics-business",
+          "society-law"
+        ]
+      },
+      "fields": [
+        "economics-business",
+        "society-law"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "economics-business",
+          "careerFactIds": [
+            "nguyen-phd-economics"
+          ],
+          "rationale": "Học vị tiến sĩ kinh tế là bằng chứng trực tiếp cho lĩnh vực kinh tế và kinh doanh."
+        },
+        {
+          "field": "society-law",
+          "careerFactIds": [
+            "nguyen-chair-election"
+          ],
+          "rationale": "Vai trò lãnh đạo cơ quan lập pháp quốc gia gắn trực tiếp với lĩnh vực xã hội và pháp luật."
+        }
+      ],
+      "verifiedAt": "2026-10-08",
+      "wikidataLabel": "Nguyen Sinh Hung"
+    },
+    {
+      "id": "pep-guardiola",
+      "name": "Josep Guardiola",
+      "wikidataId": "Q164038",
+      "birthDate": "1971-01-18",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "pep-dfb",
+        "pep-city-birthday"
+      ],
+      "careerFactIds": [
+        "pep-olympic-gold",
+        "pep-city-ambassador"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q164038",
+        "https://datencenter.dfb.de/en/data-center/people/pep-guardiola/coach",
+        "https://www.mancity.com/news/first-team/first-team-news/2016/july/pep-did-you-know",
+        "https://www.mancity.com/news/mens/pep-guardiola-official-announcement-63915039"
+      ],
+      "wikidataCaptureId": "pep-wikidata",
+      "identityClaims": {
+        "label": "Pep Guardiola",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1971-01-18T00:00:00Z",
+            "references": 4,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q29",
+            "references": 2
+          }
+        ],
+        "selectedCountryQid": "Q29",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q628099",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q937857",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q628099"
+        ]
+      },
+      "before": {
+        "biography": "Josep Guardiola là huấn luyện viên bóng đá người Tây Ban Nha. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Pep Guardiola có 47 lần khoác áo đội tuyển Tây Ban Nha và giành huy chương vàng bóng đá Olympic năm 1992.",
+        "highlights": [
+          "Sinh ngày 18/1/1971.",
+          "Pep Guardiola có 47 lần khoác áo đội tuyển Tây Ban Nha và giành huy chương vàng bóng đá Olympic năm 1992."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q164038",
+          "https://www.uefa.com/uefachampionsleague/news/0252-0e764be2c247-18b687939779-1000--josep-guardiola/",
+          "https://datencenter.dfb.de/datencenter/personen/pep-guardiola/trainer"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null,
+        "deathDate": null,
+        "fields": null
+      },
+      "after": {
+        "biography": "Josep Guardiola là huấn luyện viên bóng đá người Tây Ban Nha. Ông giành huy chương vàng Olympic cùng đội tuyển Tây Ban Nha năm 1992. Manchester City thông báo ông sẽ kết thúc vai trò huấn luyện viên trưởng và tiếp tục cộng tác với City Football Group trong vai trò Đại sứ Toàn cầu.",
+        "highlights": [
+          "Josep Guardiola giành huy chương vàng Olympic cùng đội tuyển Tây Ban Nha năm 1992.",
+          "Manchester City cho biết Guardiola sẽ tiếp tục cộng tác với City Football Group trong vai trò Đại sứ Toàn cầu sau khi rời vị trí huấn luyện viên trưởng."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q164038",
+          "https://datencenter.dfb.de/en/data-center/people/pep-guardiola/coach",
+          "https://www.mancity.com/news/first-team/first-team-news/2016/july/pep-did-you-know",
+          "https://www.mancity.com/news/mens/pep-guardiola-official-announcement-63915039"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "unknown"
+      },
+      "wikidataLabel": "Pep Guardiola",
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "id": "cary-grant",
+      "name": "Cary Grant",
+      "wikidataId": "Q83410",
+      "birthDate": "1904-01-18",
+      "lifeStatus": "deceased",
+      "deathDate": "1986-11-29",
+      "dobSourceIds": [
+        "cary-globes",
+        "cary-bio"
+      ],
+      "careerFactIds": [
+        "cary-north-by-northwest",
+        "cary-charade-globe"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q83410",
+        "https://goldenglobes.com/person/cary-grant/",
+        "https://www.biography.com/actors/cary-grant",
+        "https://www.bfi.org.uk/lists/cary-grant-10-essential-films"
+      ],
+      "wikidataCaptureId": "cary-wikidata",
+      "identityClaims": {
+        "label": "Cary Grant",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1904-01-18T00:00:00Z",
+            "references": 13,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1986-11-29T00:00:00Z",
+            "references": 11,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q145",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q145",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q10800557",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q18814623",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q2259451",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q3282637",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q43845",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q245068",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q17307272",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q33999",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q47541952",
+            "references": 0
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q36180"
+        ]
+      },
+      "before": {
+        "biography": "Cary Grant là diễn viên người Vương quốc Anh. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Cary Grant được đề cử Quả cầu Vàng Nam diễn viên chính xuất sắc ở thể loại hài hoặc ca nhạc năm 1964 với phim Charade.",
+        "highlights": [
+          "Sinh ngày 18/1/1904.",
+          "Cary Grant được đề cử Quả cầu Vàng Nam diễn viên chính xuất sắc ở thể loại hài hoặc ca nhạc năm 1964 với phim Charade."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q83410",
+          "https://goldenglobes.com/person/cary-grant/",
+          "https://www.bfi.org.uk/lists/cary-grant-10-essential-films"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "fields": null
+      },
+      "after": {
+        "biography": "Cary Grant, tên khai sinh Archibald Leach, là diễn viên người Anh sinh tại Bristol. Ông đóng chính trong North by Northwest (1959) và được đề cử Quả cầu Vàng năm 1964 cho Charade. Ông mất ngày 29/11/1986.",
+        "highlights": [
+          "Cary Grant đóng chính trong phim North by Northwest (1959) của đạo diễn Alfred Hitchcock.",
+          "Năm 1964, Cary Grant được đề cử Quả cầu Vàng cho vai diễn trong phim Charade."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q83410",
+          "https://goldenglobes.com/person/cary-grant/",
+          "https://www.biography.com/actors/cary-grant",
+          "https://www.bfi.org.uk/lists/cary-grant-10-essential-films"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "deceased",
+        "deathDate": "1986-11-29",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://goldenglobes.com/person/cary-grant/"
+        ],
+        "fields": [
+          "design-creative"
+        ]
+      },
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "cary-globes"
+      ],
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "cary-north-by-northwest"
+          ],
+          "rationale": "Vai diễn trong một tác phẩm điện ảnh kinh điển là hoạt động nghệ thuật có nguồn trực tiếp."
+        }
+      ],
+      "verifiedAt": "2026-10-08",
+      "statusSourceId": "cary-globes"
+    },
+    {
+      "id": "aa-milne",
+      "name": "A. A. Milne",
+      "wikidataId": "Q207036",
+      "birthDate": "1882-01-18",
+      "lifeStatus": "deceased",
+      "deathDate": "1956-01-31",
+      "dobSourceIds": [
+        "milne-poets",
+        "milne-ransom"
+      ],
+      "careerFactIds": [
+        "milne-pooh-1926",
+        "milne-poetry-1927"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q207036",
+        "https://poets.org/poet/milne",
+        "https://research.hrc.utexas.edu/fasearch/findingaid.cfm?eadid=00466&showrequest=0",
+        "https://www.biography.com/authors-writers/aa-milne",
+        "https://www.poetryfoundation.org/poets/a-a-milne"
+      ],
+      "wikidataCaptureId": "milne-wikidata",
+      "identityClaims": {
+        "label": "A. A. Milne",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1882-01-18T00:00:00Z",
+            "references": 10,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1956-01-31T00:00:00Z",
+            "references": 11,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q145",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q145",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q49757",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q6625963",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q4853732",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q189290",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q214917",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q11774202",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q15949613",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1930187",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q36180"
+        ]
+      },
+      "before": {
+        "biography": "Nhà văn và nhà thơ Alan Alexander Milne được biết đến rộng rãi qua nhân vật Winnie-the-Pooh; nhân vật xuất hiện lần đầu dưới tên gọi ấy trong sách thiếu nhi cùng tên năm 1926. Ông cũng xuất bản hai tập thơ thiếu nhi When We Were Young và Now We Are Six.",
+        "highlights": [
+          "Nhân vật Winnie-the-Pooh xuất hiện lần đầu dưới tên gọi ấy trong sách thiếu nhi cùng tên năm 1926.",
+          "Milne xuất bản hai tập thơ thiếu nhi When We Were Young và Now We Are Six."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q207036",
+          "https://poets.org/poet/milne",
+          "https://www.biography.com/authors-writers/aa-milne"
+        ],
+        "verifiedAt": "2026-10-08",
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      },
+      "after": {
+        "biography": "Nhà văn và nhà thơ Alan Alexander Milne trở nên nổi tiếng với các truyện về Winnie-the-Pooh; nhân vật xuất hiện lần đầu trong sách cùng tên năm 1926. Ông còn viết thơ thiếu nhi, trong đó tập Now We Are Six xuất bản năm 1927. Milne mất ngày 31/1/1956.",
+        "highlights": [
+          "Winnie-the-Pooh xuất hiện lần đầu trong sách cùng tên năm 1926.",
+          "Tập thơ thiếu nhi Now We Are Six của Milne được xuất bản năm 1927."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q207036",
+          "https://poets.org/poet/milne",
+          "https://research.hrc.utexas.edu/fasearch/findingaid.cfm?eadid=00466&showrequest=0",
+          "https://www.biography.com/authors-writers/aa-milne",
+          "https://www.poetryfoundation.org/poets/a-a-milne"
+        ],
+        "verifiedAt": "2026-10-08",
+        "deathDate": "1956-01-31",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://poets.org/poet/milne",
+          "https://research.hrc.utexas.edu/fasearch/findingaid.cfm?eadid=00466&showrequest=0"
+        ]
+      },
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "milne-poets",
+        "milne-ransom"
+      ],
+      "verifiedAt": "2026-10-08",
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "milne-pooh-1926"
+          ],
+          "rationale": "Winnie-the-Pooh là tác phẩm văn học thiếu nhi mà Milne đã sáng tạo, được nguồn thơ và văn học xác nhận."
+        }
+      ],
+      "statusSourceId": "milne-poets"
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "kevin-costner",
+      "name": "Kevin Costner",
+      "wikidataId": "Q11930",
+      "birthDate": "1955-01-18",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "costner-bio",
+        "costner-globes"
+      ],
+      "careerFactIds": [
+        "costner-dances-with-wolves",
+        "costner-yellowstone-globe"
+      ],
+      "countryCode": "US",
+      "category": "actor",
+      "occupation": [
+        "diễn viên, đạo diễn và nhà sản xuất phim"
+      ],
+      "birthplace": "Lynwood, California, Hoa Kỳ",
+      "birthplaceEvidencePhrase": "Lynwood, California",
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "costner-dances-with-wolves"
+          ],
+          "rationale": "Đạo diễn và diễn xuất trong tác phẩm điện ảnh có giải thưởng là hoạt động sáng tạo được nguồn trực tiếp xác nhận."
+        }
+      ],
+      "wikidataCaptureId": "costner-wikidata",
+      "wikidataLabel": "Kevin Costner",
+      "identityClaims": {
+        "label": "Kevin Costner",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 3
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1955-01-18T00:00:00Z",
+            "references": 7,
+            "precision": 11,
+            "calendar": "Q1985727"
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q33999",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q10800557",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2526255",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3282637",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q10798782",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q2405480",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q3455803",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q33999",
+          "Q2526255"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q11930",
+        "https://www.biography.com/actors/kevin-costner",
+        "https://goldenglobes.com/person/kevin-costner/",
+        "https://www.televisionacademy.com/bios/kevin-costner"
+      ]
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "nguyen-chair-election",
+      "profileId": "nguyen-sinh-hung",
+      "displayText": "Ngày 23/7/2011, Quốc hội bầu ông Nguyễn Sinh Hùng làm Chủ tịch Quốc hội khóa XIII.",
+      "sourceId": "nguyen-gov",
+      "evidencePhrase": "đã bầu ông Nguyễn Sinh Hùng giữ chức Chủ tịch Quốc hội khóa XIII."
+    },
+    {
+      "id": "nguyen-phd-economics",
+      "profileId": "nguyen-sinh-hung",
+      "displayText": "Tiểu sử của Thông tấn xã Việt Nam ghi nhận ông có học vị Tiến sĩ Kinh tế.",
+      "sourceId": "nguyen-vna",
+      "evidencePhrase": "Trình độ chuyên môn: Tiến sĩ Kinh tế."
+    },
+    {
+      "id": "pep-olympic-gold",
+      "profileId": "pep-guardiola",
+      "displayText": "Josep Guardiola giành huy chương vàng Olympic cùng đội tuyển Tây Ban Nha năm 1992.",
+      "sourceId": "pep-city-birthday",
+      "evidencePhrase": "Guardiola won an Olympic gold medal with Spain in 1992."
+    },
+    {
+      "id": "pep-city-ambassador",
+      "profileId": "pep-guardiola",
+      "displayText": "Manchester City cho biết Guardiola sẽ tiếp tục cộng tác với City Football Group trong vai trò Đại sứ Toàn cầu sau khi rời vị trí huấn luyện viên trưởng.",
+      "sourceId": "pep-city-current",
+      "evidencePhrase": "Pep will continue his relationship with the City Football Group, by taking up a role as a Global Ambassador."
+    },
+    {
+      "id": "cary-north-by-northwest",
+      "profileId": "cary-grant",
+      "displayText": "Cary Grant đóng chính trong phim North by Northwest (1959) của đạo diễn Alfred Hitchcock.",
+      "sourceId": "cary-bfi",
+      "evidencePhrase": "North by Northwest (1959) Director: Alfred Hitchcock"
+    },
+    {
+      "id": "cary-charade-globe",
+      "profileId": "cary-grant",
+      "displayText": "Năm 1964, Cary Grant được đề cử Quả cầu Vàng cho vai diễn trong phim Charade.",
+      "sourceId": "cary-globes",
+      "evidencePhrase": "Golden Globe Awards 1964 Nominee Best Performance by an Actor in a Motion Picture - Musical or Comedy Charade Cary Grant."
+    },
+    {
+      "id": "milne-pooh-1926",
+      "profileId": "aa-milne",
+      "displayText": "Winnie-the-Pooh xuất hiện lần đầu trong sách cùng tên năm 1926.",
+      "sourceId": "milne-poets",
+      "evidencePhrase": "Winnie-the-Pooh (Methuen, 1926)"
+    },
+    {
+      "id": "milne-poetry-1927",
+      "profileId": "aa-milne",
+      "displayText": "Tập thơ thiếu nhi Now We Are Six của Milne được xuất bản năm 1927.",
+      "sourceId": "milne-foundation",
+      "evidencePhrase": "Now We Are Six (1927)"
+    },
+    {
+      "id": "costner-dances-with-wolves",
+      "profileId": "kevin-costner",
+      "displayText": "Kevin Costner đạo diễn và đóng chính trong Dances With Wolves (1990), phim giành bảy giải Oscar, gồm Phim hay nhất và Đạo diễn xuất sắc nhất.",
+      "sourceId": "costner-bio",
+      "evidencePhrase": "He directed and starred in the 1990 epic film Dances With Wolves, which won seven Oscars including Best Picture and Best Director."
+    },
+    {
+      "id": "costner-yellowstone-globe",
+      "profileId": "kevin-costner",
+      "displayText": "Năm 2023, Kevin Costner thắng Quả cầu Vàng Nam diễn viên chính xuất sắc trong series chính kịch Yellowstone.",
+      "sourceId": "costner-globes",
+      "evidencePhrase": "Golden Globe Awards 2023 Winner: Best Performance by an Actor In A Television Series - Drama, Yellowstone, Kevin Costner."
+    }
+  ],
+  "wikidataReview": {
+    "conflicts": []
+  }
+}

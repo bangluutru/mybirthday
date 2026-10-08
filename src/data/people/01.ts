@@ -3272,16 +3272,19 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
   "shortDescription": "Chính khách Việt Nam; sinh ngày 18/1/1946.",
-  "biography": "Nguyễn Sinh Hùng là chính khách người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Ngày 23/7/2011, Nguyễn Sinh Hùng được bầu làm Chủ tịch Quốc hội khóa XIII.",
-  "highlights": ["Sinh ngày 18/1/1946.", "Ngày 23/7/2011, Nguyễn Sinh Hùng được bầu làm Chủ tịch Quốc hội khóa XIII."],
+  "biography": "Nguyễn Sinh Hùng là chính khách Việt Nam, từng giữ chức Phó Thủ tướng Thường trực Chính phủ từ tháng 8/2007 đến tháng 7/2011 và Chủ tịch Quốc hội khóa XIII. Thông tấn xã Việt Nam ghi nhận ông có học vị Tiến sĩ Kinh tế.",
+  "highlights": ["Ngày 23/7/2011, Quốc hội bầu ông Nguyễn Sinh Hùng làm Chủ tịch Quốc hội khóa XIII.", "Tiểu sử của Thông tấn xã Việt Nam ghi nhận ông có học vị Tiến sĩ Kinh tế."],
   "wikidataId": "Q4120045",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q4120045",
     "https://ariyajoti.wordpress.com/wp-content/uploads/2013/08/nlm-2013-07-23-red.pdf",
+    "https://baochinhphu.vn/tom-tat-tieu-su-chu-tich-quoc-hoi-khoa-xiii-10289362.htm",
     "https://nvsk.vnanet.vn/nguyen-sinh-hung-1085.vna"
   ],
   "region": "vietnam",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-08",
+  "lifeStatus": "unknown",
+  "fields": ["economics-business", "society-law"]
 }  ,
 {
   "id": "pep-guardiola",
@@ -3301,16 +3304,18 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇪🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Huấn luyện viên bóng đá Tây Ban Nha; sinh ngày 18/1/1971.",
-  "biography": "Josep Guardiola là huấn luyện viên bóng đá người Tây Ban Nha. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Pep Guardiola có 47 lần khoác áo đội tuyển Tây Ban Nha và giành huy chương vàng bóng đá Olympic năm 1992.",
-  "highlights": ["Sinh ngày 18/1/1971.", "Pep Guardiola có 47 lần khoác áo đội tuyển Tây Ban Nha và giành huy chương vàng bóng đá Olympic năm 1992."],
+  "biography": "Josep Guardiola là huấn luyện viên bóng đá người Tây Ban Nha. Ông giành huy chương vàng Olympic cùng đội tuyển Tây Ban Nha năm 1992. Manchester City thông báo ông sẽ kết thúc vai trò huấn luyện viên trưởng và tiếp tục cộng tác với City Football Group trong vai trò Đại sứ Toàn cầu.",
+  "highlights": ["Josep Guardiola giành huy chương vàng Olympic cùng đội tuyển Tây Ban Nha năm 1992.", "Manchester City cho biết Guardiola sẽ tiếp tục cộng tác với City Football Group trong vai trò Đại sứ Toàn cầu sau khi rời vị trí huấn luyện viên trưởng."],
   "wikidataId": "Q164038",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q164038",
-    "https://www.uefa.com/uefachampionsleague/news/0252-0e764be2c247-18b687939779-1000--josep-guardiola/",
-    "https://datencenter.dfb.de/datencenter/personen/pep-guardiola/trainer"
+    "https://datencenter.dfb.de/en/data-center/people/pep-guardiola/coach",
+    "https://www.mancity.com/news/first-team/first-team-news/2016/july/pep-did-you-know",
+    "https://www.mancity.com/news/mens/pep-guardiola-official-announcement-63915039"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-08",
+  "lifeStatus": "unknown"
 }  ,
 {
   "id": "cary-grant",
@@ -3330,16 +3335,22 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇬🇧",
   "image": "/people/placeholder.svg",
   "shortDescription": "Diễn viên Vương quốc Anh; sinh ngày 18/1/1904.",
-  "biography": "Cary Grant là diễn viên người Vương quốc Anh. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Cary Grant được đề cử Quả cầu Vàng Nam diễn viên chính xuất sắc ở thể loại hài hoặc ca nhạc năm 1964 với phim Charade.",
-  "highlights": ["Sinh ngày 18/1/1904.", "Cary Grant được đề cử Quả cầu Vàng Nam diễn viên chính xuất sắc ở thể loại hài hoặc ca nhạc năm 1964 với phim Charade."],
+  "lifeStatus": "deceased",
+  "deathDate": "1986-11-29",
+  "deathDatePrecision": "day",
+  "deathDateSourceUrls": ["https://goldenglobes.com/person/cary-grant/"],
+  "fields": ["design-creative"],
+  "biography": "Cary Grant, tên khai sinh Archibald Leach, là diễn viên người Anh sinh tại Bristol. Ông đóng chính trong North by Northwest (1959) và được đề cử Quả cầu Vàng năm 1964 cho Charade. Ông mất ngày 29/11/1986.",
+  "highlights": ["Cary Grant đóng chính trong phim North by Northwest (1959) của đạo diễn Alfred Hitchcock.", "Năm 1964, Cary Grant được đề cử Quả cầu Vàng cho vai diễn trong phim Charade."],
   "wikidataId": "Q83410",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q83410",
     "https://goldenglobes.com/person/cary-grant/",
+    "https://www.biography.com/actors/cary-grant",
     "https://www.bfi.org.uk/lists/cary-grant-10-essential-films"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-08"
 }  ,
 {
   "id": "hanbin",
@@ -4514,16 +4525,62 @@ export const PEOPLE_01: Person[] = [
     "birthplace": "Kilburn, London, Anh",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nhà văn Anh gắn với Winnie-the-Pooh và thơ thiếu nhi.",
-    "biography": "Nhà văn và nhà thơ Alan Alexander Milne được biết đến rộng rãi qua nhân vật Winnie-the-Pooh; nhân vật xuất hiện lần đầu dưới tên gọi ấy trong sách thiếu nhi cùng tên năm 1926. Ông cũng xuất bản hai tập thơ thiếu nhi When We Were Young và Now We Are Six.",
+    "deathDate": "1956-01-31",
+    "deathDatePrecision": "day",
+    "deathDateSourceUrls": [
+      "https://poets.org/poet/milne",
+      "https://research.hrc.utexas.edu/fasearch/findingaid.cfm?eadid=00466&showrequest=0"
+    ],
+    "biography": "Nhà văn và nhà thơ Alan Alexander Milne trở nên nổi tiếng với các truyện về Winnie-the-Pooh; nhân vật xuất hiện lần đầu trong sách cùng tên năm 1926. Ông còn viết thơ thiếu nhi, trong đó tập Now We Are Six xuất bản năm 1927. Milne mất ngày 31/1/1956.",
     "highlights": [
-      "Nhân vật Winnie-the-Pooh xuất hiện lần đầu dưới tên gọi ấy trong sách thiếu nhi cùng tên năm 1926.",
-      "Milne xuất bản hai tập thơ thiếu nhi When We Were Young và Now We Are Six."
+      "Winnie-the-Pooh xuất hiện lần đầu trong sách cùng tên năm 1926.",
+      "Tập thơ thiếu nhi Now We Are Six của Milne được xuất bản năm 1927."
     ],
     "wikidataId": "Q207036",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q207036",
       "https://poets.org/poet/milne",
-      "https://www.biography.com/authors-writers/aa-milne"
+      "https://research.hrc.utexas.edu/fasearch/findingaid.cfm?eadid=00466&showrequest=0",
+      "https://www.biography.com/authors-writers/aa-milne",
+      "https://www.poetryfoundation.org/poets/a-a-milne"
+    ],
+    "region": "west",
+    "verifiedAt": "2026-10-08"
+  },
+  {
+    "id": "kevin-costner",
+    "slug": "kevin-costner",
+    "name": "Kevin Costner",
+    "birthDate": "1955-01-18",
+    "birthYear": 1955,
+    "birthMonth": 1,
+    "birthDay": 18,
+    "lifeStatus": "unknown",
+    "occupation": [
+      "diễn viên, đạo diễn và nhà sản xuất phim"
+    ],
+    "category": "actor",
+    "categoryLabel": "Diễn viên",
+    "fields": [
+      "design-creative"
+    ],
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "birthplace": "Lynwood, California, Hoa Kỳ",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Diễn viên và nhà làm phim Hoa Kỳ, đạo diễn Dances With Wolves và đóng trong Yellowstone.",
+    "biography": "Kevin Costner là diễn viên, đạo diễn và nhà sản xuất phim người Mỹ. Ông đạo diễn và đóng chính trong Dances With Wolves (1990), bộ phim giành bảy giải Oscar, trong đó có Phim hay nhất và Đạo diễn xuất sắc nhất. Năm 2023, ông thắng Quả cầu Vàng cho vai diễn trong series chính kịch Yellowstone.",
+    "highlights": [
+      "Kevin Costner đạo diễn và đóng chính trong Dances With Wolves (1990), phim giành bảy giải Oscar, gồm Phim hay nhất và Đạo diễn xuất sắc nhất.",
+      "Năm 2023, Kevin Costner thắng Quả cầu Vàng Nam diễn viên chính xuất sắc trong series chính kịch Yellowstone."
+    ],
+    "wikidataId": "Q11930",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q11930",
+      "https://www.biography.com/actors/kevin-costner",
+      "https://goldenglobes.com/person/kevin-costner/",
+      "https://www.televisionacademy.com/bios/kevin-costner"
     ],
     "region": "west",
     "verifiedAt": "2026-10-08"
