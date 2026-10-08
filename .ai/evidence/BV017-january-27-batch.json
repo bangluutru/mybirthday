@@ -1,0 +1,1268 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-27",
+  "sourceCaptures": [
+    {
+      "id": "mozart-mozarteum",
+      "url": "https://mozarteum.at/en/wolfgang-amade-mozart",
+      "publisher": "International Mozarteum Foundation",
+      "publisherHost": "mozarteum.at",
+      "status": 200,
+      "bytesRead": 599913,
+      "sha256": "27d9ca028d5de79525157ea5298c7f46431835fab4635e92ee386923b171eb17",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "nd Constanze Mozart's death #kleinePause Mozart Wolfgang Amadé Mozart 1756–1766: Child prodigy years Wolfgang Amadé Mozart (baptised Johannes Chrysostomus Wolfgang Theophilus) was born on 27 January 1756, seventh and last child of Salzburg court musician Leopold Mozart (1719–1787) and his wife Anna Maria, née Pertl (1720–1778). His only surviving sibling was his sister Maria Anna, called Nannerl (1751–1829), five years his senior. At the age of five or six, Wolfgang demonstrated his outstanding talent at the courts of Salzburg, Munich and Vienna. His success encouraged Leopold to undertake an extensive concert tour, with both children performing, and Wolfgang increasingly presenting his own compositions. Between June 1763 and December 1766, their journey included Paris, London, The Hague, southern and western Germany and Switzerland. Mozart family tree Leopold Mozart and Anna Maria had seven children, five of whom did not survive infancy. Maria Anna (“Nannerl”) lived from 1751 to 1829. Two chil",
+      "excerptSha256": "b0b7db2a9039589b5a72ed8e9bba44366647c52c41e2f127b2d6e7c8dfa13775"
+    },
+    {
+      "id": "mozart-salzburg-dob",
+      "url": "https://www.salzburg.info/en/salzburg/city-of-mozart/wolfgang-amadeus-mozart",
+      "publisher": "Tourismus Salzburg GmbH / Salzburg.info",
+      "publisherHost": "www.salzburg.info",
+      "status": 200,
+      "bytesRead": 307667,
+      "sha256": "2d0613474046b1caaf23216e10840ebb4bbf3ebc73cb6916fc2e7956acc2f6eb",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "ion for his musical career. His early death at the age of just 35 shook everyone, but especially his sister Maria Anna, also known as “Nannerl”. A wunderkind known as “Wolferl” On 27 January 1756, Wolfgang Amadeus Mozart is born in the “Hagenauer Haus” (No. 9 Getreidegasse) in Salzburg. Of their seven children in total, Leopold Mozart, musician to the court of the prince archbishop, and wife Anna Maria Walpurga have only one other who survives: Mozart",
+      "excerptSha256": "96608566c4a3c5b4127bcbc9b18381d075eede5f07fb42f4718f29f39e79efb8"
+    },
+    {
+      "id": "mozart-salzburg-status",
+      "url": "https://www.salzburg.info/en/salzburg/city-of-mozart/wolfgang-amadeus-mozart",
+      "publisher": "Tourismus Salzburg GmbH / Salzburg.info",
+      "publisherHost": "www.salzburg.info",
+      "status": 200,
+      "bytesRead": 307667,
+      "sha256": "2d0613474046b1caaf23216e10840ebb4bbf3ebc73cb6916fc2e7956acc2f6eb",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "), the “Coronation Opera” first performed in Prague on 6 September 1791. Shortly after the premier pf “The Magic Flute” (K 620) at the Freihaustheater in Vienna, Mozart falls ill. He dies in Vienna on 5 December 1791 at the age of 35 from a “extreme miliary fever”. His “Requiem” (K 626) remains uncompleted. read more ... Mozart statue on the Mozart square in Salzburg | © TSG Tourismus Salzburg GmbH Mozart statue on the Mozart square in Salzburg | © TSG Tourismus Salzburg",
+      "excerptSha256": "cdc28becd8e1ff02d0afc14e7ba50af9c3d242a99ff03756ce4eaa03541945f9"
+    },
+    {
+      "id": "mozart-opera-paris",
+      "url": "https://www.operadeparis.fr/artistes/wolfgang-amadeus-mozart",
+      "publisher": "Opéra national de Paris",
+      "publisherHost": "www.operadeparis.fr",
+      "status": 200,
+      "bytesRead": 290315,
+      "sha256": "7e960a94e319c176d7d90c58750b932b87e5fd140380f7346bc07ccd92bc9e6d",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "cathédrale. Don Giovanni, acclamé lors de la création à Prague, est un échec à Vienne. Mozart voit sa santé se détériorer et va vivre ses dernières années dans une grande misère. Il meurt dans la nuit du 5 au 6 décembre 1791, alors qu’il n’a pas 35 ans. Il est inhumé dans une fosse commune – autant en raison de mesures sanitaires que du fait du dénuement dans lequel se trouvait sa famille. Malgré sa mort prématurée, il a créé en une trentaine d’années une des sommes les plus impo",
+      "excerptSha256": "38736c144ae2a67d4c90495fd03416804f50a863ea8216e1816946d1d7f2912d"
+    },
+    {
+      "id": "mozart-documents-1791",
+      "url": "https://www.mozartdocuments.org/documents/6-december-1791/",
+      "publisher": "Mozart Documents",
+      "publisherHost": "www.mozartdocuments.org",
+      "status": 200,
+      "bytesRead": 17770,
+      "sha256": "a1d20fefe3f0034389eddb2048e6abb8f7dd13bec997633d4ea32f62eabbdcd1",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "News Documents 1760–1779 1780–1787 1788–1829 By Category By Köchel Search Essays Abbreviations Resources Citation Contact About the Authors Acknowledgements Admin 6 December 1791 The earliest dated report of Mozart’s death Bayreuther Zeitung , no. 148, Tue, 13 Dec 1791 [1089] ⁣ Wien, vom 6. December. ⁣ Die Tonkunst hat einen unersetzlichen Verlust erlitten; Hr. Mozardt, der Künstler und Liebling unseres Zeitalters gab heute Nacht sei= nen schönen harmonischen Geist auf, und mischt nunmehro seine himmlischen Töne in die Chöre der Unsterblichen. Er starb zu früh für seine Fa= milie und die Kunst, welcher er noch manches Denkmal seiner Fähigkeiten geschenkt haben würde. Seine letzte Arbeit war die Composition einer Cantate, welche er den hiesigen Freymaurern, de= ren Mitglied er war, bey Anlaß der Einweihung ihres neu",
+      "excerptSha256": "e9f182a2dd168e205b351d24e4b6511de52facf1bd8906154395dff7abfbfa75"
+    },
+    {
+      "id": "carroll-lcs",
+      "url": "https://lewiscarrollsociety.org.uk/biographical-keynotes/",
+      "publisher": "The Lewis Carroll Society",
+      "publisherHost": "lewiscarrollsociety.org.uk",
+      "status": 200,
+      "bytesRead": 123701,
+      "sha256": "fa5fd3cf1c05a126742ded20d1f3cc8cba3c4191b4bbd22acc6ba0981e589b88",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Stories Writing Competition V & A – Alice: Curiouser and Curiouser Exhibition Allied Societies The Alliance of Literary Societies Biographical Keynotes The Life of Charles Dodgson 1832 (27 Jan) Born in Daresbury, Cheshire. 1843 (Autumn) Moved to Croft, Yorkshire. 1844 (Aug) Attended Richmond School. 1845 (Nov) Left Richmond School. 1846 (Jan) Attended Rugby School. 1849 (Dec) Left Rugby School. 1850 (May) Matriculated at Oxford University (Christ Church). 1851 (24 Jan) 1851 (26 Jan) Took up residence in Oxford. Mother died. 1854 (Dec) Awarded B.A. (First Class Honours in Mathematics) 1855 Became Sub-librarian at Christ Church (until 1857). Became a Master of the House. (Oct 15). Appointed Mathematical Lecturer (until 1881). 1856 (Feb) Edmund Yates, editor of The Train , helped Dodgson select his now famous pseudonym. 1856 (Mar) With the help of Reginald Southey, Dodgson acquires his first camera 1857 Admitted as M.A. of the University. 1858 Became Senior Student 18",
+      "excerptSha256": "9ba88c6d7f89b58fb56fda0ac13c042f12c4868e63a64f48822ca4994be51813"
+    },
+    {
+      "id": "carroll-abbey",
+      "url": "https://www.westminster-abbey.org/abbey-commemorations/commemorations/lewis-carroll",
+      "publisher": "Westminster Abbey",
+      "publisherHost": "www.westminster-abbey.org",
+      "status": 200,
+      "bytesRead": 181165,
+      "sha256": "9cc047c536d9f2fc8a3cab874d3de52e1c55b7759e25526a1276372e0550f612",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "ire, a son of the Reverend Charles Dodgson and his wife Frances (nee Lutwidge). He was educated at home and at Rugby School, going on to read mathematics at Christ Church, Oxford. From 1855 to 1881 he was Mathematical Lecturer there. One afternoon he took the three daughters of the Dean of Christ Church rowing on the river. One of these was Alice Pleasaunce Liddell (who had been baptised and then later married in Westminster Abbey) and there he told the story which was later published in 1865 as Alice's Adventures in Wonderland . The sequel Through the Looking Glass ... followed and his long nonsense poem The Hunting of the Snark was published in 1876. His pseudonym Lewis Carroll was created by inverting 'Charles' and 'Lutwidge', translating them into Latin and then back into English. Charles was also an authority on Logic and an enthusiastic photographer. He died unmarried at his house in Guildford, Surrey on 14th January 1898 and was buried in Guildford old cemetery. Further Reading Oxford Dictionary of National Biography Occupation Writer; poet Born 27th January 1832 Died 14th January 1898 Memorial 17th December 1982 Location South Transept; Poets' Corner Memorial Type Stone Lewis Carroll Oscar Gustave Rejlander [Public domain], via Wikimedia Commons Lewis Carroll memorial This image can be purchased from Westminster Abbe",
+      "excerptSha256": "a22c4f65715dc39d03b6bfdf97d6500bdc944a14b017ddf22d6e1ca0baaa9474"
+    },
+    {
+      "id": "carroll-british-library",
+      "url": "https://www.britishlibrary.cn/en/authors/lewis-carroll/",
+      "publisher": "British Library",
+      "publisherHost": "www.britishlibrary.cn",
+      "status": 200,
+      "bytesRead": 45849,
+      "sha256": "d409f2c70eb012b5f83cb5f62ae02ab0bb29a31d37eb790a37e3ade1416cba7d",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "re Themes Works Articles Events Authors About WeChat Weibo Instagram Facebook Twitter 简 繁 EN Authors About Search Menu Lewis Carroll Lewis Carroll 别名: Charles Lutwidge Dodgson 出生: 27/01/1832 逝世: 14/01/1898 性别: Male 职业: Photographer and author Lewis Carroll is the pseudonym mathematician Charles Lutwidge Dodgson adopted when publishing his children’s novels and nonsense verse. The son of a Cheshire parson, Dodgson grew up in a large family which enjoyed composing magazines and putting on plays. He wrote many books on mathematics and logic, and enjoyed inventing puzzles and games and playing croquet. His love of paradox and nonsense led him to write his most famous work, Alice’s Adventures in Wonderland (1865). Interviewed in old age, Alice Liddell, upon whom the iconic character was based, remembered Carroll as tall and slender, with blue/grey eyes, longish hair and ‘carrying himself upright, almost more than upright, as if he had swallowed a poker’. 照片来源: Lewis C",
+      "excerptSha256": "d79886605165ef3db815e5e32a28bdd849c5cd4f7608f6946659d994ac5d5438"
+    },
+    {
+      "id": "wilhelm-dhm",
+      "url": "https://www.dhm.de/lemo/biografie/wilhelm-ii",
+      "publisher": "German Historical Museum (DHM), Living Museum Online",
+      "publisherHost": "www.dhm.de",
+      "status": 200,
+      "bytesRead": 35492,
+      "sha256": "f2c5861a756a1ed718d1e7339c81305e731c00e5ceba49a77ca7076715e98dda",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "ne Zeitstrahl Themen Zeitzeugen Bestand Lernen Projekt l e m o Lebendiges Museum Online Suchen Wilhelm II., 1905 Wilhelm II. 1859-1941 Deutscher Kaiser und König von Preußen 1859 27. Januar: Friedrich Wilhelm wird als erstes Kind des Prinzen Friedrich Wilhelm von Preußen, später Kaiser Friedrich III., und seiner Frau Viktoria, Princess Royal of England, im Kronprinzenpalais in Berlin geboren. Die Erziehung Wilhelms wird dem Kalvinisten Georg Hinzpeter übergeben. 1874-1877 Besuch des Gymnasiums in Kassel-Wilhelmshöhe. 1877 Aufnahme des Studiums der Rechts- und Staatswissenschaften in Bonn. 1881 Heirat mit Prinzessin Auguste Viktoria von Schleswig-Holstein-Sonderburg-Augustenburg . Der Ehe entstammen sieben Kinder. 1888 9. März: Tod des Großvaters Kaiser Wilhelms I . 15. Juni: Durch den Tod des Vaters, Kaiser Friedrichs III. , wird der Kronprinz als Wilhelm II. Deutscher Kaiser und König von Preußen. 1890 18. März: Aufgrund von innenpolitischen Differenzen und eigenen machtpolitischen Ambitionen verlangt Wilhelm II. den Rücktritt des Reichskanzlers Fürst Otto von Bismarck , den dieser am folgenden Tag einreicht. 1896 3. Januar: Wilhelm II. gratuliert dem Präsidenten der Burenrepublik Paulus Krüger (1825-1904) zum erfolgreichen Widerstand gegen englische Angriffe (\"Krügerdepesche\"). In England provoziert dieser Vorfall breite öffentliche Kritik am deutschen Kaiser. 1898 Beginn des Schlachtflottenbaus unter dem Staatssekretär im Reichsmarineamt Alfred von Tirpitz . Die Flottenaufrüstung, als Instrument deutscher Kolonialpolitik konzipiert, wird von Wilhelm II. gefördert. Sie belastet das Verhältnis zu Großbritannien. 1900 Zur Niederschlagung des Boxeraufstands in China hält Wilhelm II. die \"Hunnenrede\", in welcher er die deutschen Truppen zu massiven Vergeltungsmaßnahmen auffordert. 1905/06 Erste Marokkokrise : Wilhelm II. protestiert gegen die französische Interessenpolitik in Marokko. Auf der internationalen Schiedskonferenz von Algeciras (1906) findet die deutsche Politik keine Verbündeten. 1907 Eine Artikelserie Maximilian Hardens diskreditiert das persönliche Umfeld des Kaisers, vor allem seinen Berater Philipp Fürst zu Eulenburg , als moralisch verwerflich (\"Eulenburg-Affäre\"). 1908 \" Daily-Telegraph-Affäre \": Ein in der englischen Zeitung \"Daily Telegraph\" veröffentlichtes Interview mit Wilhelm II. über die Ziele deutscher Außenpolitik erregt im In- und Ausland Kritik. Die deutsche Öffentlichkeit fordert eine präzise verfassungsrechtliche Einschränkung der monarchischen Kompetenzen. 1911 Zweite Marokkokrise : Als Reaktion auf die französische Besetzung der Städte Rabat und Fez schickt Wilhelm II. ein Kanonenboot nach Marokko, um Deutschlands weltpolitische Geltung gegenüber konkurrierenden Kolonialmächten notfalls militärisch zu demonstrieren. 1914 6./7. Juli: Wilhelm II. versichert Österreich-Ungarn nach der Ermordung des habsburgischen Thronfolgers Franz Ferdinand durch serbische Nationalisten uneingeschränkte Bündnisstreue für den Fall kriegerischer Auseinandersetzung. 4. August: Nach Ausbruch des Ersten Weltkriegs ruft Wilhelm II. im Reichstag zu nationaler Solidarität und Geschlossenheit auf. 1916 Infolge der Berufung Paul von Hindenburgs und Erich Ludendorffs in die 3. Oberste Heeresleitung (OHL) verliert der Kaiser zunehmend Einfluss auf die militärische Kriegführung. 1918 9. November: Reichskanzler Prinz Max von Baden verkündet eigenmächtig die Abdankung des Kaisers. 10. November: Wilhelm II. flieht aus dem Hauptquartier in Spa in die Niederlande. Die niederländische Regierung gestattet ihm den Aufenthalt unter der Bedingung, dass er auf politische Betätigung verzichtet. Er bleibt allerdings mit zahlreichen politischen und militärischen Persönlichkeiten in Kontakt. 28. November: Unterzeichnung der Abdankungsurkunde. 1919 Kauf von Haus Doorn in der Provinz Utrecht. 1920 Die Niederlande lehnen Auslieferungsforderungen der Entente ab. 1921 11. April: Tod seiner Frau Auguste Viktoria. Ihr Leichnam wird nach Potsdam überführt. 1922 5. November: Heirat mit Hermine von Reuß ältere Linie, verwitwete Prinzessin Schönaich-Carolath in Haus Doorn. 1931/32 Wilhelm II. empfängt Hermann Göring in Haus Doorn. Er erhofft sich von einer nationalsozialistischen Regierung die Wiedereinführung der Monarchie in Deutschland. 1940 Wilhelm II. gratuliert Adolf Hitler telegrafisch zur Einnahme von Paris. 1941 4. Juni: Tod Wilhelms II. in Doorn. Auf Geheiß Hitlers wird er bei seinem Wohnsitz im Mausoleum Doorn mit militärischen Ehren beigesetzt. Gabriel Eikenberg, Rupert Platz © Deutsches Historisches Museum, Berlin Stand: 11. November 2021 Text: CC BY NC SA 4.0 Die kaiserliche Familie im Park zu S",
+      "excerptSha256": "9ea3203ee965c240224b43f01c78ea62598f3744248c87884bb082fc9b5d1769"
+    },
+    {
+      "id": "wilhelm-bundesarchiv",
+      "url": "https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/das-grosse-hauptquartier-sm-des-kaisers-und-koenigs/",
+      "publisher": "German Federal Archives (Bundesarchiv)",
+      "publisherHost": "www.bundesarchiv.de",
+      "status": 200,
+      "bytesRead": 218581,
+      "sha256": "66f0552345807b87498a796cd85fc294a5a2b8db18d312ed3305e63938a226e1",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Foto der hier gezeigten zeittypischen Postkarte zeigt Wilhelm II . in der Uniform eines preußischen Generalfeldmarschalls. Wilhelm II . wurde am 27. Januar 1859 als Sohn des preußischen Kronprinzen Friedrich Wilhelm geboren. Am 18. Januar 1871 wurde sein Großvater, König Wilhelm I . von Preußen, Deutscher Kaiser. Sein Vater folgte als Kaiser Friedrich III . am 9. März 1888, starb jedoch kurz darauf am 15. Juni 1888. Ihm folgte am selben Tag Wilhelm II . als Deutscher Kaiser und König von Preußen. Er war wie sein Vater und Großvater militärisch erzogen und ausgebildet worden, jedoch ohne deren Begabungen als Truppenführer aufzuweisen. Verfangen in irrationalen Vorstellungen eines „persönlichen Regiments“ verantwortet Wilhelm II . die erheblichen strukturellen und personellen Defizite in den militärischen Spitzenbehörden sowie die verfrühte und unreflektierte Bündniszusage an Österreich-Ungarn und dessen Streben nach einer endgültigen „Klärung“ des Verhältnisses zu Serbien. Am 9. November 1918 dankte Wilhelm II . ab und begab sich ins Exil in die Niederlande. Dort, auf Schloss Doorn, starb er am 4. Juni 1941. Der Kaiser als Feldherr? Kaiser Wilhelm II . verstand sich als Militärexperte – sowohl hinsichtlich Organisation, Bewaffnung und Ausrüstung als auch hinsichtlich des Einsatzes „seiner“ Armee. Entsprechend engagierte er sich bei den regelmäßigen Manövern in Führung und Kritik der teilnehmenden Truppen. Sei",
+      "excerptSha256": "63c7b940d24c368b660b62688e496ab1c609f27dcd17945f6049de23a432cef8"
+    },
+    {
+      "id": "ting-nobel-biography",
+      "url": "https://www.nobelprize.org/prizes/physics/1976/ting/biographical/",
+      "publisher": "Nobel Prize Outreach",
+      "publisherHost": "www.nobelprize.org",
+      "status": 200,
+      "bytesRead": 179067,
+      "sha256": "77e8e8c862e31ef53754dadf496ac38ba9768207699ee70a1228fc7364728251",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "cal Navigate to: Summary - Burton Richter -- Facts -- Nobel Prize lecture -- Biographical -- Banquet speech -- Photo gallery -- Other resources Press release Award ceremony speech I was born on 27 January 1936 in Ann Arbor, Michigan, the first of three children of Kuan Hai Ting, a professor of engineering, and Tsun-Ying Wang, a professor of psychology. My parents had hoped that I would be born in China, but as I was born prematurely while they were visiting the United States, by accident",
+      "excerptSha256": "1f0b14425671a559b3f621bfedc660eb4b374a6d88c5f4b08e4536c47dd23699"
+    },
+    {
+      "id": "ting-nobel-press",
+      "url": "https://www.nobelprize.org/prizes/physics/1976/press-release/",
+      "publisher": "Nobel Prize Outreach",
+      "publisherHost": "www.nobelprize.org",
+      "status": 200,
+      "bytesRead": 167797,
+      "sha256": "21d774ebbbf3ff4f4c7ce92a972eb0585b4cd1a291704ff53fe56e8e50361ff5",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Press release Navigate to: Summary - Burton Richter - Samuel C.C. Ting Press release Award ceremony speech ﻿ ﻿ 18 October 1976 The Royal Swedish Academy of Sciences has decided to award the 1976 Nobel Prize for physics to be shared equally between Professor Burton Richter , Stanford Linear Accelerator Center, USA, and Professor Samuel C.C. Ting , Massachusetts Institute of Technology, Cambridge, USA, for their pioneering work in the discovery of a heavy elementary particle of a new kind. Shared Physics prize for elementary particle The prize is awarded for discoveries in the exploration of the smallest components of matter, smaller than atoms and their nuclei. According to Einstein’s well-known law of energy and mass, E=mc 2 , large amounts",
+      "excerptSha256": "32f9e8aa64c03354f1215619ead3dece8561f6ad844b470d742ac5c8e4b5a04c"
+    },
+    {
+      "id": "ting-lindau-cv",
+      "url": "https://mediatheque.lindau-nobel.org/laureates/ting/cv",
+      "publisher": "Lindau Nobel Laureate Meetings",
+      "publisherHost": "mediatheque.lindau-nobel.org",
+      "status": 200,
+      "bytesRead": 36441,
+      "sha256": "7eddecb10df9430bd21fdd16600b36eccd7cde5bcca5efb1977da8d6e5b51048",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "nce Media Mediatheque Contact Laureates Meetings Recordings Topics Educational Lindau Mediatheque Laureates Meetings Recordings Topics Educational Prof. Dr. Samuel C. C. Ting > CV Samuel Ting was born in Ann Arbor, Michigan on January 27, 1936 while his parents, both academics, were visiting the University of Michigan from China. The family returned to China but, due to the Japanese invasion and subsequent outbreak of World War II, Samuel had no formal education until he was 12. In 1956, he returned to Ann Arbor to study math and physics at the University of Michigan, where he received his BSc in 1959, MSc in 1960 and PhD in 1962. Ting began his career at CERN – now home to the Large Hadron Collider – in Geneva in 1963. He returned to the US to teach at Columbia University in New York, where he was assistant professor from 1965-67. It was there that he became intrigued by an experiments at Harvard and Cornell Universities using photon collisions to produce electron-positron pairs, which seemed to show a violation of quantum electrodynamics. He set out to replicate the experiment at the Deutsches Elektronensynchrotron in Hamburg in 1966 and soon found out that the previous experiments at Harvard and Cornell were incorrect. In 1969 he joined MIT and in 1977 he was appointed as the first Thomas Dudley Cabot Professor of Physics. In Germany, Ting’s team had succeeded in creating electron/positron pairs from which the properties of the parent particle could be studied. Seeking the same result with higher mass particles, the team that they discovered a new, unpredicted, long-lived heavy particle which Ting named the J particle. Around the same time Burton Richter’s team at Stanford, California, made the same discovery, producing what they called the ‘psi particle’. In November that year, Ting and Richter met at Stanford. They realised the J/psi particle belonged to a new family of elementary particles formed by a fourth quark, called the ‘charm quark’. This discovery was known as the “November Revolution” in physics and less than two years later, Ting and Richter were awarded the Nobel Prize in Physics. Ting proposed and leads the $2 billion Alpha Magnetic Spectrometer (AMS) experiment on the International Space Station to measure antimatter, search for evidence of dark matter and new phenomena from space. AMS has recorded more than 150 billion cosmic ray events. The AMS Experiment involves 16 nations from America, Europe and Asia. Professor Ting has been recognised around t",
+      "excerptSha256": "28e9f0c8c09ffd986362740168d3fb11511084d1c0eda43b22a79c99f9900c45"
+    },
+    {
+      "id": "eccles-adb",
+      "url": "https://adb.anu.edu.au/biography/eccles-sir-john-carew-jack-338",
+      "publisher": "Australian Dictionary of Biography, Australian National University",
+      "publisherHost": "adb.anu.edu.au",
+      "status": 200,
+      "bytesRead": 31475,
+      "sha256": "b226be952b18ac17a3f3b963b15aab6accfea45383c418e28c90c1341cfc2189",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "rew (Jack) Eccles (1903–1997) by Andrew Bell This article was published online in 2022 John Eccles , n.d. ANU Archives, ANUA 225-359 John Carew Eccles (1903–1997), neuroscientist, was born on 27 January 1903 at Northcote, Melbourne, only son and elder child of William James Eccles and his wife Mary, née Carew, both Victorian born. A precocious child, Jack excelled at Jumbunna State School, south Gippsland, where his father was head teacher. He continued to shine at Koroit State and Warrnambool High schools, and in his one, final, year (1919) at Melbourne High School. At the University of Melbourne (MB, BS, 1925) medicine became his choice of study as he was too late to enrol in his preferred mathematics. Young Eccles was large-framed and energetic, and a keen competitor in pole-vaulting and tennis. A ‘sudden overwhelming experience’ (Popper and Eccles 1977, 357) during his first year at medical school took the form of a mystical feeling of existential wonder that owed much to his devout Catholicism and inspired him to be a neuroscientist. He read widely, including Darwin and such philosophers as Descartes, on the perennial dualist problem of how humans appear to possess both mind and body. With no satisfactory answer, but convinced that both realms existed, he became determined to find a scientific basis for how inner mental life coexists with a physical brain. At the end of his medical studies he commenced his residency at St Vincent’s Hospital, Fitzroy, where he met New Zealand-born Irene (Rene) Frances Mary Miller, a quietly spoken trainee nurse. They married at St Aloysius Catholic Church, Oxford, England, on 3 July 1928, and went on to have nine children. Eccles’s intellectual and scientific quest was to take him through some magnificent highs and painful lows, but he never wavered; ‘Like Odysseus, I have travelled the oceans carrying my own equipment with me like a snail with his house on his back’ (Eccles 1977, 1), he observed late in life. His scientific career entailed six major watersheds as he moved between institutions around the globe: at Oxford, Sydney, Dunedin, Canberra, Chicago, and Buffalo in New York State, progressively refocusing his research as he went. The first watershed began at the end of his medical training when he won the 1925 Rhodes scholarship to Exeter College, Oxford (BA, 1927; MA, DPhil, 1929), the first awarded to a Victorian State school graduate. There he studied under the neurophysiologist Sir Charles Sherrington, ‘the one man in the world whom I wished to have as my master’ (Eccles 1977, 1). Sherrington too was a dualist. Eccles worked in his laboratory on nerve propagation in the spinal cord, while holding fellowships at Exeter (1927–34) and Magdalen colleges (1934–37). His first research paper, with R. S. Creed, appeared in 1928. Numerous journal papers followed, culminating in chapters for the textbook Reflex Activity of the Spinal Cord (1932), a work hailed as a scientific classic of the twentieth century. He then held that nerve impulses crossed synapses—the tiny junctions through which nerve cells communicate—electrically like a spark. This ran counter to the then generally accepted idea that propagation involved chemical signalling, with the synapse resembling a soup. Fearing impending war in Europe, and missing out on leading Sherrington’s laboratory following his mentor’s retirement, Eccles successfully applied for the directorship of the Kanematsu Memorial Institute of Pathology, part of Sydney Hospital. In this second post (1937–43) he focused his research on the propagation of action potentials across synapses and the electrophysiology of end-plate potentials in muscles. With his recruitment of Bernard Katz and Stephen Kuffler, progress was made on neuromuscular transmission in cats and frogs. Yet the institute’s governing board paid little attention, even when Eccles was elected a fellow of the Royal Society in 1941. Friction developed, and he set his sights on the University of Otago at Dunedin, New Zealand, but not before guards at the institute were instructed not to allow him into the institute premises. As professor of physiology at Otago (1944–51) Eccles displayed his characteristic energy. With skilled technical assistance, he developed intracellular electrodes so fine that it was possible, for the first time, to listen to electrical signalling within an individual nerve cell. Late one night in August 1951, at the end of a long experiment designed to settle whether synaptic transmission at the neuromuscular junction was electrical or chemical, he concluded that the latter must be the case and calmly changed his mind. An important factor leading to this switch was a chance encounter in May 1945 with the philosopher of science (Sir) Karl Popper. Popper gave a seminal series of lectures in Dunedin on falsifiability: science progresses, he asserted, not by the steady confirmation of theories, but by rigorous testing and attempted falsification of bold hypotheses. This dynamic rang true for the philosophically inclined Eccles, and he saw it as an inspiration to challenge accepted wisdom. He and Popper became lifelong friends, and later collaborated in writing a book arguing the case for dualism, The Self and Its Brain (1977), a tour de force that became Eccles’s most cited philosophical work. Fortune shone for Eccles with the creation of the Australian National University (ANU) in Canberra as an amply funded research institution. In 1951 he gladly seized the opportunity to become foundation professor of neurophysiology at the John Curtin School of Medical Research, taking with him from Otago highly specialised equipment which included electrical stimulating and recording units that he continued to use into the mid-1980s. He saw his time in Canberra as ‘14 golden years, scie",
+      "excerptSha256": "3edc6e1257381136d4081e32bcd26bd7c8b435024e795ef2cb7274ab5dd6b320"
+    },
+    {
+      "id": "eccles-nobel-biography",
+      "url": "https://www.nobelprize.org/prizes/medicine/1963/eccles/biographical/",
+      "publisher": "Nobel Prize Outreach",
+      "publisherHost": "www.nobelprize.org",
+      "status": 200,
+      "bytesRead": 183237,
+      "sha256": "c4e94b9b4a975d9b8f6e871e9083f40d9d9c2ddb0e6f33e56b973da437354f39",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "e lecture -- Biographical -- Banquet speech -- Photo gallery -- Nominations -- Other resources - Alan Hodgkin - Andrew Huxley Presentation Speech Speed read J ohn Carew Eccles was born in Melbourne, Australia, on January 27th, 1903. He owes much to his early training by his father, William James Eccles, who was a teacher as also was his mother, née Mary Carew. He graduated from Melbourne University in Medicine with first class honours in 1925, and as Victorian Rhodes Scholar for 1925 en",
+      "excerptSha256": "5bda62af788f1e31ab39dd62850b37ef3ee6a20d9b5fd3bbd4f3c4b6df030425"
+    },
+    {
+      "id": "eccles-nobel-summary",
+      "url": "https://www.nobelprize.org/prizes/medicine/1963/summary/",
+      "publisher": "Nobel Prize Outreach",
+      "publisherHost": "www.nobelprize.org",
+      "status": 200,
+      "bytesRead": 167048,
+      "sha256": "6a17d7e6e93ee2613a8e79c6013352f5c22c1de1d4315007329ccdd6370d5c0a",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Prize share: 1/3 Photo from the Nobel Foundation archive. Alan Lloyd Hodgkin Prize share: 1/3 Photo: Walter Bird. Nobel Foundation archive Andrew Fielding Huxley Prize share: 1/3 The Nobel Prize in Physiology or Medicine 1963 was awarded jointly to Sir John Carew Eccles, Alan Lloyd Hodgkin and Andrew Fielding Huxley \"for their discoveries concerning the ionic mechanisms involved in excitation and inhibition in the peripheral and central portions of the nerve cell membrane\" To cite this section MLA style: The Nobel Prize in Physiology or Medicine 1963. NobelPrize.org. Nob",
+      "excerptSha256": "93188738388409bdf02423518c9898150ef5a41879881fa3fa377ce55bd723d5"
+    },
+    {
+      "id": "eccles-royal-society",
+      "url": "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=NA8362&pos=1&src=CalmView.Persons",
+      "publisher": "The Royal Society, Collections catalogue",
+      "publisherHost": "catalogues.royalsociety.org",
+      "status": 200,
+      "bytesRead": 32268,
+      "sha256": "e066fe0cc5550425e848d36590e363d0c5c9e95b67ab97310d49d50645c5260b",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "ogues? How do I search? Record Authorised form of name Eccles; Sir; John Carew (1903 - 1997) Dates 1903 - 1997 Nationality Australian Place of birth Melbourne, Victoria, Australia Date of birth 27 January 1903 Date of death 02 May 1997 Research field Physiology Activity Education: MA, DPhil (Oxon) Career: Won Rhodes Scholarship for Victoria (1925); Fellow of Exeter College, Oxford (1927-1934); Fellow of Magdalen College, Oxford (1934-1937); Demonstrator in Physiology, Oxford University; Director, Kanematsu Memorial Institute of Pathology, Sydney, Australia; Professor of Physiology, Otago, New Zealand (1943); Professor, John Curtin School of Medical Research, Canberra, Australia (1951); named 'Australian of the Year' (1963); Institute of Biomedical Science, Chicago (1966); Distinguished Professor, State University of New York, Buffalo (1968) Medals and prizes: Nobel Prize (Physiology or Medicine) 1963 Honours: Kt 1958 Memberships: FRSNZ (19",
+      "excerptSha256": "5e4cc33f8573c973035bab5efe2c8cba8cf243cc3e0faad934318bcada9d1d12"
+    },
+    {
+      "id": "eccles-aas",
+      "url": "https://science.org.au/our-focus/history-australian-science/fellows-biographical-memoirs/john-carew-eccles-1903-1997",
+      "publisher": "Australian Academy of Science",
+      "publisherHost": "science.org.au",
+      "status": 200,
+      "bytesRead": 249019,
+      "sha256": "85db8a963222cd1bfe287cdc8e017c45a204c80fadac4378d90d53dc4cc5fe45",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "es for more than six decades. Eccles made his mark as an administrator, particularly at the Australian National University and the Australian Academy of Science, of which he was a Foundation Fellow and the second President. Written by David R. Curtis and Per Andersen. Introduction Sir John Eccles, internationally recognized for his remarkable and outstanding impact on the neurosciences for more than six decades, died on 2 May 1997 at the age of 94. He carried out his research in Oxford, Sydney, Dunedin, Canberra, Chicago and Buffalo from 1927 until 1975 (441). His numerous scientific papers and books, arising from detailed and pioneering experimental studies of synaptic mechanisms and the organization",
+      "excerptSha256": "fbccf9fe931a87f5e905ee05465210d33e42a76d394f5dde3c592964e3fff1d6"
+    },
+    {
+      "id": "wd-mozart",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q254.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 414618,
+      "sha256": "72b6f207fb0a5082c7d286c32c60ed5f6426931b5fa95bcddb1b48336640634d",
+      "verificationMethod": "direct-http-json-wikidata-entity",
+      "excerpt": "{\"id\":\"Q254\",\"label\":\"Wolfgang Amadeus Mozart\",\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":4}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1756-01-27T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":23}],\"p570\":[{\"rank\":\"normal\",\"value\":\"+1791-12-05T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":25}],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q699964\",\"references\":1},{\"rank\":\"preferred\",\"value\":\"Q701614\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q12548\",\"references\":0}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q36834\",\"references\":6},{\"rank\":\"normal\",\"value\":\"Q16145150\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q486748\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q639669\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q765778\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q1259917\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q158852\",\"references\":0}]}",
+      "excerptSha256": "bd8f95e27789eb7f2368e3519af3e3f947c3561f3987d64ec0251946442edf3d"
+    },
+    {
+      "id": "wd-carroll",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q38082.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 378348,
+      "sha256": "c0063e78a5551bc328136e2e6ba63a808f32c2b70c9feae4053690e349a38a82",
+      "verificationMethod": "direct-http-json-wikidata-entity",
+      "excerpt": "{\"id\":\"Q38082\",\"label\":\"Lewis Carroll\",\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":1}],\"p569\":[{\"rank\":\"preferred\",\"value\":\"+1832-01-27T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":28},{\"rank\":\"normal\",\"value\":\"+1832-01-01T00:00:00Z\",\"precision\":9,\"calendar\":\"Q1985727\",\"references\":1}],\"p570\":[{\"rank\":\"preferred\",\"value\":\"+1898-01-14T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":27}],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q174193\",\"references\":1}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q170790\",\"references\":3},{\"rank\":\"normal\",\"value\":\"Q14565331\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q33231\",\"references\":3},{\"rank\":\"normal\",\"value\":\"Q49757\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q161944\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q4853732\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q18939491\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q6625963\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q36180\",\"references\":4},{\"rank\":\"normal\",\"value\":\"Q18814623\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q4964182\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q8178443\",\"references\":1}]}",
+      "excerptSha256": "c795a6c95e5b2b8b0a727e05afe0c409aaea7e3d3cdb90184bdffa642fc4404f"
+    },
+    {
+      "id": "wd-wilhelm",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q2677.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 283323,
+      "sha256": "7a53bab35867ad30d1a7acc69fbce4afedea4df930285e7378ebc45eaae3a816",
+      "verificationMethod": "direct-http-json-wikidata-entity",
+      "excerpt": "{\"id\":\"Q2677\",\"label\":\"Wilhelm II\",\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":1}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1859-01-27T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":10}],\"p570\":[{\"rank\":\"normal\",\"value\":\"+1941-06-04T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":9}],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q27306\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q43287\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q183\",\"references\":1}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q116\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q1028181\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q10732476\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q482980\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q1097498\",\"references\":2}]}",
+      "excerptSha256": "0d2d3191480e1dbb782f4ec5069d334a8a8ece230b76abf95fe4709dba866acf"
+    },
+    {
+      "id": "wd-ting",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q192715.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 104678,
+      "sha256": "cc6d8a12c73a2e95d4de032fbf63bc2bdedb54a7e7048f55bc75dada301b00a0",
+      "verificationMethod": "direct-http-json-wikidata-entity",
+      "excerpt": "{\"id\":\"Q192715\",\"label\":\"Samuel C. C. Ting\",\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":1}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1936-01-27T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":4}],\"p570\":[],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q30\",\"references\":0}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q169470\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q1622272\",\"references\":1}]}",
+      "excerptSha256": "98d4c0936547144784bffe092ffbdd33a2118ba49e36d4ba4285cfcd10277140"
+    },
+    {
+      "id": "wd-eccles",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q273223.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 168277,
+      "sha256": "0ef4904f46ccdb9551cfc3dd10c630c999801c5db6dfa8600dc6195bd2f1fefd",
+      "verificationMethod": "direct-http-json-wikidata-entity",
+      "excerpt": "{\"id\":\"Q273223\",\"label\":\"John Carew Eccles\",\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":1}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1903-01-27T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":11}],\"p570\":[{\"rank\":\"normal\",\"value\":\"+1997-05-02T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":9}],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q408\",\"references\":1}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q4964182\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q6337803\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q39631\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q121594\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q783906\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q2055046\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q1650915\",\"references\":0}]}",
+      "excerptSha256": "0d6743a96163de35cfd42ca9cb02548571fd5596daff9c75f4c7122d4895b257"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "wolfgang-amadeus-mozart",
+      "name": "Wolfgang Amadeus Mozart",
+      "wikidataId": "Q254",
+      "wikidataLabel": "Wolfgang Amadeus Mozart",
+      "birthDate": "1756-01-27",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": null,
+      "dobSourceIds": [
+        "mozart-mozarteum",
+        "mozart-salzburg-dob"
+      ],
+      "statusSourceId": "mozart-salzburg-status",
+      "statusEvidencePhrase": "He dies in Vienna on 5 December 1791",
+      "reviewNotes": "Ba nguồn có cách ghi ngày mất khác nhau: Salzburg ghi 5/12; Opéra national de Paris ghi ông mất trong đêm 5–6/12; một báo cáo Vienna đề ngày 6/12 nói ông qua đời đêm trước. Giữ trạng thái đã mất nhưng để trống ngày chính xác.",
+      "careerFactIds": [
+        "mozart-child-prodigy-courts",
+        "mozart-family-tour-1763-1766"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q254",
+        "https://mozarteum.at/en/wolfgang-amade-mozart",
+        "https://www.salzburg.info/en/salzburg/city-of-mozart/wolfgang-amadeus-mozart",
+        "https://www.operadeparis.fr/artistes/wolfgang-amadeus-mozart",
+        "https://www.mozartdocuments.org/documents/6-december-1791/"
+      ],
+      "wikidataCaptureId": "wd-mozart",
+      "identityClaims": {
+        "label": "Wolfgang Amadeus Mozart",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 4
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1756-01-27T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 23
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1791-12-05T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 25
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q699964",
+            "references": 1
+          },
+          {
+            "rank": "preferred",
+            "value": "Q701614",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q12548",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q701614",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q36834",
+            "references": 6
+          },
+          {
+            "rank": "normal",
+            "value": "Q16145150",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q486748",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q639669",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q765778",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1259917",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q158852",
+            "references": 0
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q36834"
+        ]
+      },
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "mozart-child-prodigy-courts",
+            "mozart-family-tour-1763-1766"
+          ],
+          "rationale": "Hai facts từ Quỹ Mozarteum mô tả biểu diễn và lưu diễn âm nhạc của Mozart, phù hợp lĩnh vực sáng tạo."
+        }
+      ],
+      "before": {
+        "shortDescription": "Nhà soạn nhạc Áo; sinh ngày 27/1/1756.",
+        "biography": "Wolfgang Amadeus Mozart là nhà soạn nhạc người Áo. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Tại Vienna, Mozart mưu sinh với vai trò nghệ sĩ biểu diễn tự do, nhà soạn nhạc opera và giáo viên.",
+        "highlights": [
+          "Sinh ngày 27/1/1756.",
+          "Tại Vienna, Mozart mưu sinh với vai trò nghệ sĩ biểu diễn tự do, nhà soạn nhạc opera và giáo viên."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q254",
+          "https://mozarteum.at/en/wolfgang-amade-mozart",
+          "https://www.salzburg.info/en/salzburg/city-of-mozart/wolfgang-amadeus-mozart"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "fields": null
+      },
+      "after": {
+        "shortDescription": "Nhà soạn nhạc Áo; thời thơ ấu lưu diễn khắp châu Âu cùng gia đình.",
+        "biography": "Wolfgang Amadeus Mozart là nhà soạn nhạc người Áo. Từ 5–6 tuổi, ông đã thể hiện tài năng tại các cung đình ở Salzburg, Munich và Vienna. Từ tháng 6/1763 đến tháng 12/1766, ông cùng cha và chị gái lưu diễn qua nhiều thành phố châu Âu.",
+        "highlights": [
+          "Từ 5–6 tuổi, Mozart đã thể hiện tài năng tại các cung đình ở Salzburg, Munich và Vienna.",
+          "Từ tháng 6/1763 đến tháng 12/1766, Mozart cùng gia đình lưu diễn qua Paris, London, The Hague, Đức và Thụy Sĩ."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q254",
+          "https://mozarteum.at/en/wolfgang-amade-mozart",
+          "https://www.salzburg.info/en/salzburg/city-of-mozart/wolfgang-amadeus-mozart",
+          "https://www.operadeparis.fr/artistes/wolfgang-amadeus-mozart",
+          "https://www.mozartdocuments.org/documents/6-december-1791/"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "deceased",
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "fields": [
+          "design-creative"
+        ]
+      },
+      "countryCode": "AT",
+      "category": "music",
+      "occupation": [
+        "nhà soạn nhạc"
+      ],
+      "birthplace": "Salzburg, Áo"
+    },
+    {
+      "id": "lewis-carroll",
+      "name": "Lewis Carroll",
+      "wikidataId": "Q38082",
+      "wikidataLabel": "Lewis Carroll",
+      "birthDate": "1832-01-27",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "1898-01-14",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "carroll-abbey",
+        "carroll-british-library"
+      ],
+      "statusSourceId": "carroll-abbey",
+      "statusEvidencePhrase": "He died unmarried at his house in Guildford, Surrey on 14th January 1898",
+      "dobSourceIds": [
+        "carroll-lcs",
+        "carroll-abbey"
+      ],
+      "careerFactIds": [
+        "carroll-mathematics-honours-1854",
+        "carroll-lecturer-christ-church-1855"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q38082",
+        "https://lewiscarrollsociety.org.uk/biographical-keynotes/",
+        "https://www.westminster-abbey.org/abbey-commemorations/commemorations/lewis-carroll",
+        "https://www.britishlibrary.cn/en/authors/lewis-carroll/",
+        "https://www.ibdb.com/broadway-cast-staff/85251",
+        "https://brockhaus.de/ecs/julex/article/carroll-lewis"
+      ],
+      "wikidataCaptureId": "wd-carroll",
+      "identityClaims": {
+        "label": "Lewis Carroll",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "preferred",
+            "value": "+1832-01-27T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 28
+          },
+          {
+            "rank": "normal",
+            "value": "+1832-01-01T00:00:00Z",
+            "precision": 9,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p570": [
+          {
+            "rank": "preferred",
+            "value": "+1898-01-14T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 27
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q174193",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q174193",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q170790",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q14565331",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q33231",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q49757",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q161944",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q4853732",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q18939491",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q6625963",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 4
+          },
+          {
+            "rank": "normal",
+            "value": "Q18814623",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q4964182",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q8178443",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q170790",
+          "Q36180"
+        ]
+      },
+      "fields": [
+        "design-creative",
+        "education-thought"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "carroll-lecturer-christ-church-1855"
+          ],
+          "rationale": "Các nguồn ghi Carroll là tác giả của Alice và nhà thơ, đồng thời nêu hoạt động viết và sáng tạo văn chương."
+        },
+        {
+          "field": "education-thought",
+          "careerFactIds": [
+            "carroll-mathematics-honours-1854",
+            "carroll-lecturer-christ-church-1855"
+          ],
+          "rationale": "Hai facts xác nhận học toán hạng nhất và giảng dạy toán tại Christ Church."
+        }
+      ],
+      "before": {
+        "shortDescription": "Nhà văn và nhà toán học Vương quốc Anh; sinh ngày 27/1/1832.",
+        "biography": "Lewis Carroll là nhà văn và nhà toán học người Vương quốc Anh. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Lewis Carroll viết nhiều sách về toán học và logic, đồng thời sáng tạo câu đố, trò chơi và chơi croquet.",
+        "highlights": [
+          "Sinh ngày 27/1/1832.",
+          "Lewis Carroll viết nhiều sách về toán học và logic, đồng thời sáng tạo câu đố, trò chơi và chơi croquet."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q38082",
+          "https://www.britishlibrary.cn/en/authors/lewis-carroll/",
+          "https://www.westminster-abbey.org/abbey-commemorations/commemorations/lewis-carroll",
+          "https://www.ibdb.com/broadway-cast-staff/85251",
+          "https://brockhaus.de/ecs/julex/article/carroll-lewis"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": "deceased",
+        "deathDate": "1898-01-14",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://www.ibdb.com/broadway-cast-staff/85251",
+          "https://brockhaus.de/ecs/julex/article/carroll-lewis"
+        ],
+        "fields": null
+      },
+      "after": {
+        "shortDescription": "Nhà văn và nhà toán học Anh; từng giảng dạy toán tại Christ Church.",
+        "biography": "Lewis Carroll, tên thật Charles Lutwidge Dodgson, là nhà văn và nhà toán học người Anh. Năm 1854, ông nhận bằng cử nhân hạng nhất môn toán tại Oxford; từ năm 1855 đến 1881, ông giảng dạy toán tại Christ Church.",
+        "highlights": [
+          "Năm 1854, Charles Dodgson nhận bằng cử nhân hạng nhất môn Toán tại Oxford.",
+          "Từ năm 1855 đến 1881, Dodgson giảng dạy toán tại Christ Church, Oxford."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q38082",
+          "https://lewiscarrollsociety.org.uk/biographical-keynotes/",
+          "https://www.westminster-abbey.org/abbey-commemorations/commemorations/lewis-carroll",
+          "https://www.britishlibrary.cn/en/authors/lewis-carroll/",
+          "https://www.ibdb.com/broadway-cast-staff/85251",
+          "https://brockhaus.de/ecs/julex/article/carroll-lewis"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "deceased",
+        "deathDate": "1898-01-14",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://www.westminster-abbey.org/abbey-commemorations/commemorations/lewis-carroll",
+          "https://www.britishlibrary.cn/en/authors/lewis-carroll/"
+        ],
+        "fields": [
+          "design-creative",
+          "education-thought"
+        ]
+      },
+      "countryCode": "GB",
+      "category": "literature",
+      "occupation": [
+        "nhà văn và nhà toán học"
+      ],
+      "birthplace": "Daresbury, Cheshire, Vương quốc Anh"
+    },
+    {
+      "id": "wilhelm-ii",
+      "name": "Wilhelm II, Hoàng đế Đức",
+      "wikidataId": "Q2677",
+      "wikidataLabel": "Wilhelm II",
+      "birthDate": "1859-01-27",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "1941-06-04",
+      "deathDatePrecision": "day",
+      "dobSourceIds": [
+        "wilhelm-dhm",
+        "wilhelm-bundesarchiv"
+      ],
+      "deathDateSourceIds": [
+        "wilhelm-dhm",
+        "wilhelm-bundesarchiv"
+      ],
+      "statusSourceId": "wilhelm-bundesarchiv",
+      "statusEvidencePhrase": "starb er am 4. Juni 1941",
+      "careerFactIds": [
+        "wilhelm-became-emperor-1888",
+        "wilhelm-bismarck-resignation-1890"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q2677",
+        "https://www.dhm.de/lemo/biografie/wilhelm-ii",
+        "https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/das-grosse-hauptquartier-sm-des-kaisers-und-koenigs/",
+        "https://www.awm.gov.au/collection/P11031400"
+      ],
+      "wikidataCaptureId": "wd-wilhelm",
+      "identityClaims": {
+        "label": "Wilhelm II",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1859-01-27T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 10
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1941-06-04T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 9
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q27306",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q43287",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q183",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q183",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q116",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1028181",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q10732476",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q482980",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q1097498",
+            "references": 2
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q116"
+        ]
+      },
+      "fields": [
+        "society-law"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "society-law",
+          "careerFactIds": [
+            "wilhelm-became-emperor-1888",
+            "wilhelm-bismarck-resignation-1890"
+          ],
+          "rationale": "Các facts ghi chức vụ đứng đầu nhà nước và quyết định chính trị đối với Thủ tướng Bismarck."
+        }
+      ],
+      "before": {
+        "shortDescription": "Hoàng đế Đức; sinh ngày 27/1/1859.",
+        "biography": "Wilhelm II, Hoàng đế Đức là hoàng đế người Đức. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Ngày 10/11/1918, Wilhelm II rời tổng hành dinh ở Spa và sang Hà Lan.",
+        "highlights": [
+          "Sinh ngày 27/1/1859.",
+          "Ngày 10/11/1918, Wilhelm II rời tổng hành dinh ở Spa và sang Hà Lan."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q2677",
+          "https://www.dhm.de/lemo/biografie/wilhelm-ii",
+          "https://www.awm.gov.au/collection/P11031400"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "fields": null
+      },
+      "after": {
+        "shortDescription": "Hoàng đế Đức từ năm 1888; yêu cầu Bismarck từ chức năm 1890.",
+        "biography": "Wilhelm II kế vị cha làm Hoàng đế Đức và Vua Phổ ngày 15/6/1888. Tháng 3/1890, ông yêu cầu Thủ tướng Otto von Bismarck từ chức. Năm 1918, Wilhelm thoái vị và sống lưu vong tại Hà Lan cho đến khi qua đời ở Doorn.",
+        "highlights": [
+          "Ngày 15/6/1888, Wilhelm II kế vị cha làm Hoàng đế Đức và Vua Phổ.",
+          "Tháng 3/1890, Wilhelm II yêu cầu Thủ tướng Otto von Bismarck từ chức; Bismarck rời chức ngày hôm sau."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q2677",
+          "https://www.dhm.de/lemo/biografie/wilhelm-ii",
+          "https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/das-grosse-hauptquartier-sm-des-kaisers-und-koenigs/",
+          "https://www.awm.gov.au/collection/P11031400"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "deceased",
+        "deathDate": "1941-06-04",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://www.dhm.de/lemo/biografie/wilhelm-ii",
+          "https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/das-grosse-hauptquartier-sm-des-kaisers-und-koenigs/"
+        ],
+        "fields": [
+          "society-law"
+        ]
+      },
+      "countryCode": "DE",
+      "category": "history",
+      "occupation": [
+        "hoàng đế"
+      ],
+      "birthplace": "Berlin, Phổ"
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "samuel-c-c-ting",
+      "name": "Samuel C. C. Ting",
+      "wikidataId": "Q192715",
+      "wikidataLabel": "Samuel C. C. Ting",
+      "birthDate": "1936-01-27",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "unknown",
+      "deathDate": null,
+      "dobSourceIds": [
+        "ting-nobel-biography",
+        "ting-lindau-cv"
+      ],
+      "statusSourceId": null,
+      "careerFactIds": [
+        "ting-nobel-j-particle-1976",
+        "ting-alpha-magnetic-spectrometer-iss"
+      ],
+      "countryCode": "US",
+      "category": "scientist",
+      "occupation": [
+        "nhà vật lý hạt"
+      ],
+      "birthplace": "Ann Arbor, Michigan, Hoa Kỳ",
+      "birthplaceEvidencePhrase": "born in Ann Arbor, Michigan on January 27, 1936",
+      "fields": [
+        "science-research"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "science-research",
+          "careerFactIds": [
+            "ting-nobel-j-particle-1976",
+            "ting-alpha-magnetic-spectrometer-iss"
+          ],
+          "rationale": "Nobel và CV của Lindau ghi trực tiếp công trình vật lý hạt cùng thí nghiệm AMS do Ting đề xuất, dẫn dắt."
+        }
+      ],
+      "wikidataCaptureId": "wd-ting",
+      "identityClaims": {
+        "label": "Samuel C. C. Ting",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1936-01-27T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 4
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q169470",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 1
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q169470",
+          "Q1622272"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q192715",
+        "https://www.nobelprize.org/prizes/physics/1976/ting/biographical/",
+        "https://www.nobelprize.org/prizes/physics/1976/press-release/",
+        "https://mediatheque.lindau-nobel.org/laureates/ting/cv"
+      ],
+      "after": {
+        "name": "Samuel C. C. Ting",
+        "countryCode": "US",
+        "category": "scientist",
+        "occupation": [
+          "nhà vật lý hạt"
+        ],
+        "birthplace": "Ann Arbor, Michigan, Hoa Kỳ",
+        "birthDate": "1936-01-27",
+        "shortDescription": "Nhà vật lý hạt người Mỹ; nhận Nobel Vật lý năm 1976.",
+        "biography": "Samuel C. C. Ting là nhà vật lý hạt người Mỹ. Năm 1976, ông cùng Burton Richter nhận Nobel Vật lý nhờ phát hiện một hạt cơ bản nặng mới. Ông đề xuất và dẫn dắt thí nghiệm Alpha Magnetic Spectrometer (AMS) trên Trạm Vũ trụ Quốc tế.",
+        "highlights": [
+          "Năm 1976, Samuel C. C. Ting và Burton Richter nhận Nobel Vật lý cho công trình phát hiện một hạt cơ bản nặng mới.",
+          "Ting đề xuất và dẫn dắt thí nghiệm Alpha Magnetic Spectrometer (AMS) trên Trạm Vũ trụ Quốc tế."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q192715",
+          "https://www.nobelprize.org/prizes/physics/1976/ting/biographical/",
+          "https://www.nobelprize.org/prizes/physics/1976/press-release/",
+          "https://mediatheque.lindau-nobel.org/laureates/ting/cv"
+        ],
+        "verifiedAt": "2026-10-08",
+        "countryName": "Hoa Kỳ",
+        "countryFlag": "🇺🇸",
+        "image": "/people/placeholder.svg",
+        "fields": [
+          "science-research"
+        ],
+        "lifeStatus": "unknown",
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "categoryLabel": "Nhà khoa học",
+        "region": "west"
+      },
+      "countryName": "Hoa Kỳ",
+      "countryFlag": "🇺🇸",
+      "categoryLabel": "Nhà khoa học",
+      "region": "west",
+      "image": "/people/placeholder.svg"
+    },
+    {
+      "id": "john-carew-eccles",
+      "name": "John Carew Eccles",
+      "wikidataId": "Q273223",
+      "wikidataLabel": "John Carew Eccles",
+      "birthDate": "1903-01-27",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "1997-05-02",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "eccles-aas",
+        "eccles-royal-society"
+      ],
+      "statusSourceId": "eccles-aas",
+      "statusEvidencePhrase": "died on 2 May 1997 at the age of 94",
+      "dobSourceIds": [
+        "eccles-adb",
+        "eccles-nobel-biography"
+      ],
+      "careerFactIds": [
+        "eccles-nobel-neural-signalling-1963",
+        "eccles-john-curtin-school-1951"
+      ],
+      "countryCode": "AU",
+      "category": "scientist",
+      "occupation": [
+        "nhà sinh lý học thần kinh"
+      ],
+      "birthplace": "Northcote, Melbourne, Australia",
+      "birthplaceEvidencePhrase": "was born on 27 January 1903 at Northcote, Melbourne",
+      "fields": [
+        "medicine-health",
+        "science-research",
+        "education-thought"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "medicine-health",
+          "careerFactIds": [
+            "eccles-nobel-neural-signalling-1963"
+          ],
+          "rationale": "Nghiên cứu được trao Nobel của Eccles giải thích cơ chế kích thích và ức chế trên màng tế bào thần kinh."
+        },
+        {
+          "field": "science-research",
+          "careerFactIds": [
+            "eccles-nobel-neural-signalling-1963",
+            "eccles-john-curtin-school-1951"
+          ],
+          "rationale": "Nguồn Nobel và ADB xác nhận nghiên cứu thần kinh cùng vai trò giáo sư nghiên cứu tại ANU."
+        },
+        {
+          "field": "education-thought",
+          "careerFactIds": [
+            "eccles-john-curtin-school-1951"
+          ],
+          "rationale": "Nguồn tiểu sử ghi chức vụ giáo sư nền tảng tại trường nghiên cứu y khoa của ANU."
+        }
+      ],
+      "wikidataCaptureId": "wd-eccles",
+      "identityClaims": {
+        "label": "John Carew Eccles",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1903-01-27T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 11
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1997-05-02T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 9
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q408",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q408",
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q4964182",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q6337803",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q39631",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q121594",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q783906",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q2055046",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q1650915",
+            "references": 0
+          }
+        ],
+        "selectedOccupationQids": [
+          "Q6337803",
+          "Q2055046"
+        ]
+      },
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q273223",
+        "https://adb.anu.edu.au/biography/eccles-sir-john-carew-jack-338",
+        "https://www.nobelprize.org/prizes/medicine/1963/eccles/biographical/",
+        "https://www.nobelprize.org/prizes/medicine/1963/summary/",
+        "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=NA8362&pos=1&src=CalmView.Persons",
+        "https://science.org.au/our-focus/history-australian-science/fellows-biographical-memoirs/john-carew-eccles-1903-1997"
+      ],
+      "after": {
+        "name": "John Carew Eccles",
+        "countryCode": "AU",
+        "category": "scientist",
+        "occupation": [
+          "nhà sinh lý học thần kinh"
+        ],
+        "birthplace": "Northcote, Melbourne, Australia",
+        "birthDate": "1903-01-27",
+        "shortDescription": "Nhà sinh lý học thần kinh Australia; đoạt Nobel Y sinh năm 1963.",
+        "biography": "John Carew Eccles là nhà sinh lý học thần kinh người Australia. Năm 1963, ông cùng Alan Hodgkin và Andrew Huxley nhận Nobel Sinh lý học hoặc Y học nhờ khám phá cơ chế ion liên quan đến kích thích và ức chế ở màng tế bào thần kinh. Năm 1951, ông trở thành giáo sư sinh lý thần kinh đầu tiên tại Trường Nghiên cứu Y khoa John Curtin của ANU.",
+        "highlights": [
+          "Năm 1963, John Carew Eccles cùng Alan Hodgkin và Andrew Huxley nhận Nobel Sinh lý học hoặc Y học.",
+          "Năm 1951, Eccles trở thành giáo sư sinh lý thần kinh đầu tiên tại Trường Nghiên cứu Y khoa John Curtin của ANU."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q273223",
+          "https://adb.anu.edu.au/biography/eccles-sir-john-carew-jack-338",
+          "https://www.nobelprize.org/prizes/medicine/1963/eccles/biographical/",
+          "https://www.nobelprize.org/prizes/medicine/1963/summary/",
+          "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=NA8362&pos=1&src=CalmView.Persons",
+          "https://science.org.au/our-focus/history-australian-science/fellows-biographical-memoirs/john-carew-eccles-1903-1997"
+        ],
+        "verifiedAt": "2026-10-08",
+        "countryName": "Úc",
+        "countryFlag": "🇦🇺",
+        "image": "/people/placeholder.svg",
+        "fields": [
+          "medicine-health",
+          "science-research",
+          "education-thought"
+        ],
+        "lifeStatus": "deceased",
+        "deathDate": "1997-05-02",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://science.org.au/our-focus/history-australian-science/fellows-biographical-memoirs/john-carew-eccles-1903-1997",
+          "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=NA8362&pos=1&src=CalmView.Persons"
+        ],
+        "categoryLabel": "Nhà khoa học",
+        "region": "west"
+      },
+      "countryName": "Úc",
+      "countryFlag": "🇦🇺",
+      "categoryLabel": "Nhà khoa học",
+      "region": "west",
+      "image": "/people/placeholder.svg"
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "mozart-child-prodigy-courts",
+      "profileId": "wolfgang-amadeus-mozart",
+      "sourceId": "mozart-mozarteum",
+      "evidencePhrase": "At the age of five or six, Wolfgang demonstrated his outstanding talent at the courts of Salzburg, Munich and Vienna.",
+      "displayText": "Từ 5–6 tuổi, Mozart đã thể hiện tài năng tại các cung đình ở Salzburg, Munich và Vienna."
+    },
+    {
+      "id": "mozart-family-tour-1763-1766",
+      "profileId": "wolfgang-amadeus-mozart",
+      "sourceId": "mozart-mozarteum",
+      "evidencePhrase": "Between June 1763 and December 1766, their journey included Paris, London, The Hague, southern and western Germany and Switzerland.",
+      "displayText": "Từ tháng 6/1763 đến tháng 12/1766, Mozart cùng gia đình lưu diễn qua Paris, London, The Hague, Đức và Thụy Sĩ."
+    },
+    {
+      "id": "carroll-mathematics-honours-1854",
+      "profileId": "lewis-carroll",
+      "sourceId": "carroll-lcs",
+      "evidencePhrase": "Awarded B.A. (First Class Honours in Mathematics)",
+      "displayText": "Năm 1854, Charles Dodgson nhận bằng cử nhân hạng nhất môn Toán tại Oxford."
+    },
+    {
+      "id": "carroll-lecturer-christ-church-1855",
+      "profileId": "lewis-carroll",
+      "sourceId": "carroll-abbey",
+      "evidencePhrase": "From 1855 to 1881 he was Mathematical Lecturer there.",
+      "displayText": "Từ năm 1855 đến 1881, Dodgson giảng dạy toán tại Christ Church, Oxford."
+    },
+    {
+      "id": "wilhelm-became-emperor-1888",
+      "profileId": "wilhelm-ii",
+      "sourceId": "wilhelm-dhm",
+      "evidencePhrase": "wird der Kronprinz als Wilhelm II. Deutscher Kaiser und König von Preußen.",
+      "displayText": "Ngày 15/6/1888, Wilhelm II kế vị cha làm Hoàng đế Đức và Vua Phổ."
+    },
+    {
+      "id": "wilhelm-bismarck-resignation-1890",
+      "profileId": "wilhelm-ii",
+      "sourceId": "wilhelm-dhm",
+      "evidencePhrase": "verlangt Wilhelm II. den Rücktritt des Reichskanzlers Fürst Otto von Bismarck",
+      "displayText": "Tháng 3/1890, Wilhelm II yêu cầu Thủ tướng Otto von Bismarck từ chức; Bismarck rời chức ngày hôm sau."
+    },
+    {
+      "id": "ting-nobel-j-particle-1976",
+      "profileId": "samuel-c-c-ting",
+      "sourceId": "ting-nobel-press",
+      "evidencePhrase": "for their pioneering work in the discovery of a heavy elementary particle of a new kind",
+      "displayText": "Năm 1976, Samuel C. C. Ting và Burton Richter nhận Nobel Vật lý cho công trình phát hiện một hạt cơ bản nặng mới."
+    },
+    {
+      "id": "ting-alpha-magnetic-spectrometer-iss",
+      "profileId": "samuel-c-c-ting",
+      "sourceId": "ting-lindau-cv",
+      "evidencePhrase": "Ting proposed and leads the $2 billion Alpha Magnetic Spectrometer (AMS) experiment on the International Space Station",
+      "displayText": "Ting đề xuất và dẫn dắt thí nghiệm Alpha Magnetic Spectrometer (AMS) trên Trạm Vũ trụ Quốc tế."
+    },
+    {
+      "id": "eccles-nobel-neural-signalling-1963",
+      "profileId": "john-carew-eccles",
+      "sourceId": "eccles-nobel-summary",
+      "evidencePhrase": "The Nobel Prize in Physiology or Medicine 1963 was awarded jointly to Sir John Carew Eccles, Alan Lloyd Hodgkin and Andrew Fielding Huxley",
+      "displayText": "Năm 1963, John Carew Eccles cùng Alan Hodgkin và Andrew Huxley nhận Nobel Sinh lý học hoặc Y học."
+    },
+    {
+      "id": "eccles-john-curtin-school-1951",
+      "profileId": "john-carew-eccles",
+      "sourceId": "eccles-adb",
+      "evidencePhrase": "In 1951 he gladly seized the opportunity to become foundation professor of neurophysiology at the John Curtin School of Medical Research",
+      "displayText": "Năm 1951, Eccles trở thành giáo sư sinh lý thần kinh đầu tiên tại Trường Nghiên cứu Y khoa John Curtin của ANU."
+    }
+  ],
+  "wikidataReview": {
+    "conflicts": [
+      {
+        "profileId": "wolfgang-amadeus-mozart",
+        "property": "P570",
+        "claimValue": "+1791-12-05T00:00:00Z",
+        "resolution": "date-uncertain-left-blank",
+        "reviewNote": "Salzburg.info gives 5 December, while Opéra national de Paris places the death in the night from 5 to 6 December; the contemporary Vienna report dated 6 December says he died during the previous night. The sources establish death but do not pin the civil calendar day consistently, so the exact local deathDate remains unset.",
+        "sourceIds": [
+          "mozart-salzburg-status",
+          "mozart-opera-paris",
+          "mozart-documents-1791"
+        ]
+      }
+    ]
+  }
+}

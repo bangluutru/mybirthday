@@ -16,6 +16,7 @@ import { BV017_JAN23_NEW_IDS } from './test-bv017-january-23-batch';
 import { BV017_JAN24_NEW_IDS } from './test-bv017-january-24-batch';
 import { BV017_JAN25_NEW_IDS } from './test-bv017-january-25-batch';
 import { BV017_JAN26_NEW_IDS } from './test-bv017-january-26-batch';
+import { BV017_JAN27_NEW_IDS } from './test-bv017-january-27-batch';
 
 type PilotCapture = {
   status: number | null;
@@ -400,7 +401,7 @@ export function runBv017ExpansionPilotIntegrity(assert: (suite: string, conditio
     const collisions = ALL_PEOPLE.filter((candidate) => candidate.id !== profile.id && candidate.wikidataId === profile.wikidataId);
     assert('Rule AM identity', collisions.length === 0, profile.id + ' Wikidata ID must not duplicate another local profile');
     const dayCount = ALL_PEOPLE.filter((candidate) => candidate.birthMonth === month && candidate.birthDay === Number(date.slice(8, 10))).length;
-    const laterSameDayAdditions = ALL_PEOPLE.filter((candidate) => candidate.birthMonth === month && candidate.birthDay === Number(date.slice(8, 10)) && (BV017_JAN14_NEW_IDS.has(candidate.id) || BV017_JAN15_NEW_IDS.has(candidate.id) || BV017_JAN16_NEW_IDS.has(candidate.id) || BV017_JAN17_NEW_IDS.has(candidate.id) || BV017_JAN18_NEW_IDS.has(candidate.id) || BV017_JAN19_NEW_IDS.has(candidate.id) || BV017_JAN20_NEW_IDS.has(candidate.id) || BV017_JAN21_NEW_IDS.has(candidate.id) || BV017_JAN22_NEW_IDS.has(candidate.id) || BV017_JAN23_NEW_IDS.has(candidate.id) || BV017_JAN24_NEW_IDS.has(candidate.id) || BV017_JAN25_NEW_IDS.has(candidate.id) || BV017_JAN26_NEW_IDS.has(candidate.id))).length;
+    const laterSameDayAdditions = ALL_PEOPLE.filter((candidate) => candidate.birthMonth === month && candidate.birthDay === Number(date.slice(8, 10)) && (BV017_JAN14_NEW_IDS.has(candidate.id) || BV017_JAN15_NEW_IDS.has(candidate.id) || BV017_JAN16_NEW_IDS.has(candidate.id) || BV017_JAN17_NEW_IDS.has(candidate.id) || BV017_JAN18_NEW_IDS.has(candidate.id) || BV017_JAN19_NEW_IDS.has(candidate.id) || BV017_JAN20_NEW_IDS.has(candidate.id) || BV017_JAN21_NEW_IDS.has(candidate.id) || BV017_JAN22_NEW_IDS.has(candidate.id) || BV017_JAN23_NEW_IDS.has(candidate.id) || BV017_JAN24_NEW_IDS.has(candidate.id) || BV017_JAN25_NEW_IDS.has(candidate.id) || BV017_JAN26_NEW_IDS.has(candidate.id) || BV017_JAN27_NEW_IDS.has(candidate.id))).length;
     const newDayCount = evidence.profiles.filter((candidate) => candidate.birthDate.slice(5) === date.slice(5)).length;
     assert('Rule AM coverage', newDayCount === 1 && dayCount - laterSameDayAdditions === 4, profile.id + ' must add one person to a previously three-person birthday and remain below the day cap at pilot review');
   }
@@ -437,5 +438,5 @@ export function runBv017ExpansionPilotIntegrity(assert: (suite: string, conditio
   assert('Rule AM status captures', evidence.statusCaptures.every((capture) => capture.capturedAt.startsWith('2026-10-08') && capture.excerptSha256 === textSha256(capture.excerpt)), 'Current-status source captures must retain their capture date and excerpt hashes');
   assert('Rule AM statuses', lifeStatusCounts.living === 4 && lifeStatusCounts.deceased === 25 && lifeStatusCounts.unknown === 1, 'Pilot life-status totals must remain 4 living, 25 deceased, and 1 unknown');
   assert('Rule AM statuses', evidence.summary.p570ConflictsWithStatusOnly === 1, 'The single multi-date P570 status case must be retained without assigning a local death date');
-  assert('Rule AM total', ALL_PEOPLE.length === 1198 && ALL_PEOPLE.filter((person) => BV017_EXPANSION_NEW_IDS.has(person.id)).length === 30, 'The full local dataset must contain 1,198 profiles including this 30-person pilot and the January 1-26 batches');
+  assert('Rule AM total', ALL_PEOPLE.length === 1200 && ALL_PEOPLE.filter((person) => BV017_EXPANSION_NEW_IDS.has(person.id)).length === 30, 'The full local dataset must contain 1,200 profiles including this 30-person pilot and the January 1-27 batches');
 }

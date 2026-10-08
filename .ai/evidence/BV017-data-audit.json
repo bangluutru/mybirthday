@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "cycle": "BV-017",
-  "retrievedAt": "2026-10-08T20:28:57.058Z",
+  "retrievedAt": "2026-10-08T20:50:56.796Z",
   "endpoint": "Wikidata wbgetentities",
   "peopleCount": 1120,
   "summary": {
@@ -10,7 +10,7 @@
     "people": 1120,
     "death_date_conflict": 33,
     "p570_without_reference": 1,
-    "deathDatesDirectlyConfirmedByPublisherCapture": 328,
+    "deathDatesDirectlyConfirmedByPublisherCapture": 330,
     "deathDatesDirectlyConfirmedInB015B016": 36,
     "deathDatesDirectlyConfirmedInBaseline": 240,
     "preExistingDeathDateConflictsNotOverwritten": 30,
@@ -36,7 +36,8 @@
     "deathDatesDirectlyConfirmedInBV017January23": 4,
     "deathDatesDirectlyConfirmedInBV017January24": 2,
     "deathDatesDirectlyConfirmedInBV017January25": 3,
-    "deathDatesDirectlyConfirmedInBV017January26": 3
+    "deathDatesDirectlyConfirmedInBV017January26": 3,
+    "deathDatesDirectlyConfirmedInBV017January27": 3
   },
   "people": [
     {
@@ -8286,11 +8287,11 @@
       "activeDeathDates": [
         "1791-12-05"
       ],
-      "localLifeStatus": null,
+      "localLifeStatus": "deceased",
       "localDeathDate": null,
       "localDeathDatePrecision": null,
       "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {
@@ -8479,8 +8480,8 @@
       ],
       "localDeathDatePrecision": "day",
       "localDeathDateSourceUrls": [
-        "https://www.ibdb.com/broadway-cast-staff/85251",
-        "https://brockhaus.de/ecs/julex/article/carroll-lewis"
+        "https://www.westminster-abbey.org/abbey-commemorations/commemorations/lewis-carroll",
+        "https://www.britishlibrary.cn/en/authors/lewis-carroll/"
       ],
       "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
@@ -8580,11 +8581,14 @@
       "activeDeathDates": [
         "1941-06-04"
       ],
-      "localLifeStatus": null,
-      "localDeathDate": null,
-      "localDeathDatePrecision": null,
-      "localDeathDateSourceUrls": [],
-      "localLifeStatusExplicit": false,
+      "localLifeStatus": "deceased",
+      "localDeathDate": "1941-06-04",
+      "localDeathDatePrecision": "day",
+      "localDeathDateSourceUrls": [
+        "https://www.dhm.de/lemo/biografie/wilhelm-ii",
+        "https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/das-grosse-hauptquartier-sm-des-kaisers-und-koenigs/"
+      ],
+      "localLifeStatusExplicit": true,
       "deathConflictReview": "not-a-multiple-date-conflict"
     },
     {

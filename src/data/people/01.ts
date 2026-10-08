@@ -4731,17 +4731,21 @@ export const PEOPLE_01: Person[] = [
   "countryName": "Áo",
   "countryFlag": "🇦🇹",
   "image": "/people/placeholder.svg",
-  "shortDescription": "Nhà soạn nhạc Áo; sinh ngày 27/1/1756.",
-  "biography": "Wolfgang Amadeus Mozart là nhà soạn nhạc người Áo. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Tại Vienna, Mozart mưu sinh với vai trò nghệ sĩ biểu diễn tự do, nhà soạn nhạc opera và giáo viên.",
-  "highlights": ["Sinh ngày 27/1/1756.", "Tại Vienna, Mozart mưu sinh với vai trò nghệ sĩ biểu diễn tự do, nhà soạn nhạc opera và giáo viên."],
+  "shortDescription": "Nhà soạn nhạc Áo; thời thơ ấu lưu diễn khắp châu Âu cùng gia đình.",
+  "biography": "Wolfgang Amadeus Mozart là nhà soạn nhạc người Áo. Từ 5–6 tuổi, ông đã thể hiện tài năng tại các cung đình ở Salzburg, Munich và Vienna. Từ tháng 6/1763 đến tháng 12/1766, ông cùng cha và chị gái lưu diễn qua nhiều thành phố châu Âu.",
+  "highlights": ["Từ 5–6 tuổi, Mozart đã thể hiện tài năng tại các cung đình ở Salzburg, Munich và Vienna.", "Từ tháng 6/1763 đến tháng 12/1766, Mozart cùng gia đình lưu diễn qua Paris, London, The Hague, Đức và Thụy Sĩ."],
   "wikidataId": "Q254",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q254",
     "https://mozarteum.at/en/wolfgang-amade-mozart",
-    "https://www.salzburg.info/en/salzburg/city-of-mozart/wolfgang-amadeus-mozart"
+    "https://www.salzburg.info/en/salzburg/city-of-mozart/wolfgang-amadeus-mozart",
+    "https://www.operadeparis.fr/artistes/wolfgang-amadeus-mozart",
+    "https://www.mozartdocuments.org/documents/6-december-1791/"
   ],
+  "fields": ["design-creative"],
   "region": "west",
-  "verifiedAt": "2026-10-04"
+  "lifeStatus": "deceased",
+  "verifiedAt": "2026-10-08"
 }  ,
 {
   "id": "lewis-carroll",
@@ -4760,26 +4764,28 @@ export const PEOPLE_01: Person[] = [
   "countryName": "Vương quốc Anh",
   "countryFlag": "🇬🇧",
   "image": "/people/placeholder.svg",
-  "shortDescription": "Nhà văn và nhà toán học Vương quốc Anh; sinh ngày 27/1/1832.",
-  "biography": "Lewis Carroll là nhà văn và nhà toán học người Vương quốc Anh. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Lewis Carroll viết nhiều sách về toán học và logic, đồng thời sáng tạo câu đố, trò chơi và chơi croquet.",
-  "highlights": ["Sinh ngày 27/1/1832.", "Lewis Carroll viết nhiều sách về toán học và logic, đồng thời sáng tạo câu đố, trò chơi và chơi croquet."],
+  "shortDescription": "Nhà văn và nhà toán học Anh; từng giảng dạy toán tại Christ Church.",
+  "biography": "Lewis Carroll, tên thật Charles Lutwidge Dodgson, là nhà văn và nhà toán học người Anh. Năm 1854, ông nhận bằng cử nhân hạng nhất môn toán tại Oxford; từ năm 1855 đến 1881, ông giảng dạy toán tại Christ Church.",
+  "highlights": ["Năm 1854, Charles Dodgson nhận bằng cử nhân hạng nhất môn Toán tại Oxford.", "Từ năm 1855 đến 1881, Dodgson giảng dạy toán tại Christ Church, Oxford."],
   "wikidataId": "Q38082",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q38082",
-    "https://www.britishlibrary.cn/en/authors/lewis-carroll/",
+    "https://lewiscarrollsociety.org.uk/biographical-keynotes/",
     "https://www.westminster-abbey.org/abbey-commemorations/commemorations/lewis-carroll",
+    "https://www.britishlibrary.cn/en/authors/lewis-carroll/",
     "https://www.ibdb.com/broadway-cast-staff/85251",
     "https://brockhaus.de/ecs/julex/article/carroll-lewis"
   ],
+  "fields": ["design-creative", "education-thought"],
   "region": "west",
   "deathDate": "1898-01-14",
   "lifeStatus": "deceased",
   "deathDateSourceUrls": [
-    "https://www.ibdb.com/broadway-cast-staff/85251",
-    "https://brockhaus.de/ecs/julex/article/carroll-lewis"
+    "https://www.westminster-abbey.org/abbey-commemorations/commemorations/lewis-carroll",
+    "https://www.britishlibrary.cn/en/authors/lewis-carroll/"
   ],
   "deathDatePrecision": "day",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-08"
 }  ,
 {
   "id": "wilhelm-ii",
@@ -4798,17 +4804,102 @@ export const PEOPLE_01: Person[] = [
   "countryName": "Đức",
   "countryFlag": "🇩🇪",
   "image": "/people/placeholder.svg",
-  "shortDescription": "Hoàng đế Đức; sinh ngày 27/1/1859.",
-  "biography": "Wilhelm II, Hoàng đế Đức là hoàng đế người Đức. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Ngày 10/11/1918, Wilhelm II rời tổng hành dinh ở Spa và sang Hà Lan.",
-  "highlights": ["Sinh ngày 27/1/1859.", "Ngày 10/11/1918, Wilhelm II rời tổng hành dinh ở Spa và sang Hà Lan."],
+  "shortDescription": "Hoàng đế Đức từ năm 1888; yêu cầu Bismarck từ chức năm 1890.",
+  "biography": "Wilhelm II kế vị cha làm Hoàng đế Đức và Vua Phổ ngày 15/6/1888. Tháng 3/1890, ông yêu cầu Thủ tướng Otto von Bismarck từ chức. Năm 1918, Wilhelm thoái vị và sống lưu vong tại Hà Lan cho đến khi qua đời ở Doorn.",
+  "highlights": ["Ngày 15/6/1888, Wilhelm II kế vị cha làm Hoàng đế Đức và Vua Phổ.", "Tháng 3/1890, Wilhelm II yêu cầu Thủ tướng Otto von Bismarck từ chức; Bismarck rời chức ngày hôm sau."],
   "wikidataId": "Q2677",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q2677",
     "https://www.dhm.de/lemo/biografie/wilhelm-ii",
+    "https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/das-grosse-hauptquartier-sm-des-kaisers-und-koenigs/",
     "https://www.awm.gov.au/collection/P11031400"
   ],
+  "fields": ["society-law"],
   "region": "west",
-  "verifiedAt": "2026-10-04"
+  "deathDate": "1941-06-04",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": [
+    "https://www.dhm.de/lemo/biografie/wilhelm-ii",
+    "https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/das-grosse-hauptquartier-sm-des-kaisers-und-koenigs/"
+  ],
+  "deathDatePrecision": "day",
+  "verifiedAt": "2026-10-08"
+}  ,
+{
+  "id": "samuel-c-c-ting",
+  "slug": "samuel-c-c-ting",
+  "name": "Samuel C. C. Ting",
+  "birthDate": "1936-01-27",
+  "birthYear": 1936,
+  "birthMonth": 1,
+  "birthDay": 27,
+  "occupation": ["nhà vật lý hạt"],
+  "category": "scientist",
+  "categoryLabel": "Nhà khoa học",
+  "countryCode": "US",
+  "countryName": "Hoa Kỳ",
+  "countryFlag": "🇺🇸",
+  "birthplace": "Ann Arbor, Michigan, Hoa Kỳ",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Nhà vật lý hạt người Mỹ; nhận Nobel Vật lý năm 1976.",
+  "biography": "Samuel C. C. Ting là nhà vật lý hạt người Mỹ. Năm 1976, ông cùng Burton Richter nhận Nobel Vật lý nhờ phát hiện một hạt cơ bản nặng mới. Ông đề xuất và dẫn dắt thí nghiệm Alpha Magnetic Spectrometer (AMS) trên Trạm Vũ trụ Quốc tế.",
+  "highlights": [
+    "Năm 1976, Samuel C. C. Ting và Burton Richter nhận Nobel Vật lý cho công trình phát hiện một hạt cơ bản nặng mới.",
+    "Ting đề xuất và dẫn dắt thí nghiệm Alpha Magnetic Spectrometer (AMS) trên Trạm Vũ trụ Quốc tế."
+  ],
+  "wikidataId": "Q192715",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q192715",
+    "https://www.nobelprize.org/prizes/physics/1976/ting/biographical/",
+    "https://www.nobelprize.org/prizes/physics/1976/press-release/",
+    "https://mediatheque.lindau-nobel.org/laureates/ting/cv"
+  ],
+  "fields": ["science-research"],
+  "region": "west",
+  "lifeStatus": "unknown",
+  "verifiedAt": "2026-10-08"
+}  ,
+{
+  "id": "john-carew-eccles",
+  "slug": "john-carew-eccles",
+  "name": "John Carew Eccles",
+  "birthDate": "1903-01-27",
+  "birthYear": 1903,
+  "birthMonth": 1,
+  "birthDay": 27,
+  "occupation": ["nhà sinh lý học thần kinh"],
+  "category": "scientist",
+  "categoryLabel": "Nhà khoa học",
+  "countryCode": "AU",
+  "countryName": "Úc",
+  "countryFlag": "🇦🇺",
+  "birthplace": "Northcote, Melbourne, Australia",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Nhà sinh lý học thần kinh Australia; đoạt Nobel Y sinh năm 1963.",
+  "biography": "John Carew Eccles là nhà sinh lý học thần kinh người Australia. Năm 1963, ông cùng Alan Hodgkin và Andrew Huxley nhận Nobel Sinh lý học hoặc Y học nhờ khám phá cơ chế ion liên quan đến kích thích và ức chế ở màng tế bào thần kinh. Năm 1951, ông trở thành giáo sư sinh lý thần kinh đầu tiên tại Trường Nghiên cứu Y khoa John Curtin của ANU.",
+  "highlights": [
+    "Năm 1963, John Carew Eccles cùng Alan Hodgkin và Andrew Huxley nhận Nobel Sinh lý học hoặc Y học.",
+    "Năm 1951, Eccles trở thành giáo sư sinh lý thần kinh đầu tiên tại Trường Nghiên cứu Y khoa John Curtin của ANU."
+  ],
+  "wikidataId": "Q273223",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q273223",
+    "https://adb.anu.edu.au/biography/eccles-sir-john-carew-jack-338",
+    "https://www.nobelprize.org/prizes/medicine/1963/eccles/biographical/",
+    "https://www.nobelprize.org/prizes/medicine/1963/summary/",
+    "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=NA8362&pos=1&src=CalmView.Persons",
+    "https://science.org.au/our-focus/history-australian-science/fellows-biographical-memoirs/john-carew-eccles-1903-1997"
+  ],
+  "fields": ["medicine-health", "science-research", "education-thought"],
+  "region": "west",
+  "deathDate": "1997-05-02",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": [
+    "https://science.org.au/our-focus/history-australian-science/fellows-biographical-memoirs/john-carew-eccles-1903-1997",
+    "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=NA8362&pos=1&src=CalmView.Persons"
+  ],
+  "deathDatePrecision": "day",
+  "verifiedAt": "2026-10-08"
 }  ,
 {
   "id": "nguyen-thi-mai-hung",
