@@ -6,7 +6,7 @@ import { useParams, useRouter, useSearchParams } from 'next/navigation';
 import { AppShell } from '@/components/layout/AppShell';
 import { useFavorites } from '@/hooks/useFavorites';
 import { ALL_PEOPLE, getBirthdayData } from '@/data/birthdays';
-import { Person } from '@/data/types';
+import { getAgeAtDeath, getLifespanLabel, Person } from '@/data/types';
 
 export default function PeopleDirectoryPage() {
   const params = useParams();
@@ -287,7 +287,7 @@ export default function PeopleDirectoryPage() {
                         <div className="flex-1 min-w-0">
                           <div className="flex items-center justify-between gap-2">
                             <span className="font-label-sm text-label-sm text-secondary font-bold">
-                              {p.birthYear} {p.deathDate ? `– ${new Date(p.deathDate).getFullYear()}` : '– nay'}
+                              {getLifespanLabel(p)}
                             </span>
                             <span className="font-label-sm text-[11px] px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">
                               {p.countryName}
@@ -403,8 +403,8 @@ export default function PeopleDirectoryPage() {
                           {currentPerson.countryName}
                         </span>
                         <span className="font-label-sm text-label-sm text-on-surface-variant font-medium">
-                          {currentPerson.birthYear} – {currentPerson.deathDate ? new Date(currentPerson.deathDate).getFullYear() : 'nay'}
-                          {currentPerson.deathDate && ` (Thọ ${new Date(currentPerson.deathDate).getFullYear() - currentPerson.birthYear} tuổi)`}
+                          {getLifespanLabel(currentPerson)}
+                          {getAgeAtDeath(currentPerson) !== null && ` (Thọ ${getAgeAtDeath(currentPerson)} tuổi)`}
                         </span>
                       </div>
                       <h1 className="font-headline-lg text-2xl sm:text-headline-lg text-on-surface font-extrabold mt-1">

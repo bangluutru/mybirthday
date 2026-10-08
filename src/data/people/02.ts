@@ -32,11 +32,17 @@ export const PEOPLE_02: Person[] = [
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/George_Washington",
     "sourceUrls": [
       "https://www.britannica.com/biography/George-Washington",
-      "https://www.nps.gov/gewa/learn/historyculture/george-washington.htm"
+      "https://www.nps.gov/gewa/learn/historyculture/george-washington.htm",
+      "https://d-nb.info/gnd/11876439X/about/lds"
     ],
     "notabilityScore": 99,
     "isFeatured": true,
     "region": "west",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://d-nb.info/gnd/11876439X/about/lds"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-03"
   },
   {
@@ -107,12 +113,16 @@ export const PEOPLE_02: Person[] = [
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Steve_Irwin",
     "sourceUrls": [
       "https://www.britannica.com/biography/Steve-Irwin",
-      "https://www.australiazoo.com.au/about-us/the-irwins/steve/"
+      "https://www.australiazoo.com.au/about-us/the-irwins/steve/",
+      "https://www.abc.net.au/news/2006-09-04/steve-irwin-dead/1255148"
     ],
     "notabilityScore": 94,
     "isFeatured": true,
     "region": "world",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-03",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://www.abc.net.au/news/2006-09-04/steve-irwin-dead/1255148"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "jules-verne",
@@ -143,10 +153,16 @@ export const PEOPLE_02: Person[] = [
     "wikidataId": "Q33977",
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Jules_Verne",
     "sourceUrls": [
-      "https://www.britannica.com/biography/Jules-Verne"
+      "https://www.britannica.com/biography/Jules-Verne",
+      "https://brockhaus.de/ecs/julex/article/verne-jules"
     ],
     "notabilityScore": 96,
     "region": "west",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/verne-jules"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-03"
   },
   {
@@ -178,11 +194,15 @@ export const PEOPLE_02: Person[] = [
     "wikidataId": "Q513108",
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_C%C3%B4ng_S%C6%A1n",
     "sourceUrls": [
-      "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_C%C3%B4ng_S%C6%A1n"
+      "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_C%C3%B4ng_S%C6%A1n",
+      "https://vnexpress.net/nghe-si-tuong-nho-trinh-cong-son-4868378.html"
     ],
     "notabilityScore": 97,
     "region": "vietnam",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-03",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://vnexpress.net/nghe-si-tuong-nho-trinh-cong-son-4868378.html"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "enzo-ferrari",
@@ -214,11 +234,15 @@ export const PEOPLE_02: Person[] = [
     "wikidataId": "Q181282",
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Enzo_Ferrari",
     "sourceUrls": [
-      "https://www.britannica.com/biography/Enzo-Ferrari"
+      "https://www.britannica.com/biography/Enzo-Ferrari",
+      "https://www.ferrari.com/en-PA/history/moments/1988/day-of-farewell/more"
     ],
     "notabilityScore": 96,
     "region": "world",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-03",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://www.ferrari.com/en-PA/history/moments/1988/day-of-farewell/more"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "elizabeth-taylor",
@@ -249,10 +273,18 @@ export const PEOPLE_02: Person[] = [
     "wikidataId": "Q34851",
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Elizabeth_Taylor",
     "sourceUrls": [
-      "https://www.britannica.com/biography/Elizabeth-Taylor"
+      "https://www.britannica.com/biography/Elizabeth-Taylor",
+      "http://www.bbc.co.uk/news/entertainment-arts-12833100",
+      "https://brockhaus.de/ecs/julex/article/taylor-elizabeth-liz-rosemond"
     ],
     "notabilityScore": 97,
     "region": "world",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "http://www.bbc.co.uk/news/entertainment-arts-12833100",
+      "https://brockhaus.de/ecs/julex/article/taylor-elizabeth-liz-rosemond"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-03"
   },
   {
@@ -321,11 +353,15 @@ export const PEOPLE_02: Person[] = [
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Arthur_Schopenhauer",
     "sourceUrls": [
       "https://www.britannica.com/biography/Arthur-Schopenhauer",
-      "https://plato.stanford.edu/entries/schopenhauer/"
+      "https://plato.stanford.edu/entries/schopenhauer/",
+      "https://www.schopenhauer.de/zeittafel"
     ],
     "notabilityScore": 96,
     "region": "west",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-03",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://www.schopenhauer.de/zeittafel"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "robert-baden-powell",
@@ -358,11 +394,15 @@ export const PEOPLE_02: Person[] = [
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Robert_Baden-Powell",
     "sourceUrls": [
       "https://www.britannica.com/biography/Robert-Stephenson-Smyth-Baden-Powell-1st-Baron-Baden-Powell",
-      "https://www.scout.org/who-we-are/scout-movement/scoutings-history?page=7"
+      "https://www.scout.org/who-we-are/scout-movement/scoutings-history?page=7",
+      "https://www.scout.org/who-we-are/scout-movement/scoutings-history?field_category_target_id=All&field_creator_target_id=All&page=25"
     ],
     "notabilityScore": 94,
     "region": "west",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-03",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://www.scout.org/who-we-are/scout-movement/scoutings-history?field_category_target_id=All&field_creator_target_id=All&page=25"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "heinrich-hertz",
@@ -394,10 +434,16 @@ export const PEOPLE_02: Person[] = [
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Heinrich_Rudolf_Hertz",
     "sourceUrls": [
       "https://www.britannica.com/biography/Heinrich-Hertz",
-      "https://mathshistory.st-andrews.ac.uk/Biographies/Hertz_Heinrich/"
+      "https://mathshistory.st-andrews.ac.uk/Biographies/Hertz_Heinrich/",
+      "https://brockhaus.de/ecs/julex/article/hertz-heinrich-rudolf"
     ],
     "notabilityScore": 97,
     "region": "west",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/hertz-heinrich-rudolf"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-03"
   },
   {
@@ -431,10 +477,16 @@ export const PEOPLE_02: Person[] = [
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Renato_Dulbecco",
     "sourceUrls": [
       "https://www.nobelprize.org/prizes/medicine/1975/dulbecco/facts/",
-      "https://www.britannica.com/biography/Renato-Dulbecco"
+      "https://www.britannica.com/biography/Renato-Dulbecco",
+      "http://www.theguardian.com/science/2012/feb/21/renato-dulbecco"
     ],
     "notabilityScore": 92,
     "region": "west",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "http://www.theguardian.com/science/2012/feb/21/renato-dulbecco"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-03"
   },
   {
@@ -468,11 +520,15 @@ export const PEOPLE_02: Person[] = [
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Niki_Lauda",
     "sourceUrls": [
       "https://www.formula1.com/en/drivers/hall-of-fame/Niki_Lauda.html",
-      "https://www.britannica.com/biography/Niki-Lauda"
+      "https://www.britannica.com/biography/Niki-Lauda",
+      "https://www.formula1.com/en/information/drivers-hall-of-fame-niki-lauda.2Ye7VYWdXwhb97ZqLyxvX"
     ],
     "notabilityScore": 95,
     "region": "west",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-03",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://www.formula1.com/en/information/drivers-hall-of-fame-niki-lauda.2Ye7VYWdXwhb97ZqLyxvX"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "julius-erving",
@@ -774,20 +830,25 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇷🇺",
     "image": "/people/placeholder.svg",
     "shortDescription": "Boris Yeltsin là tổng thống đầu tiên của Liên bang Nga, nhiệm kỳ 1991–1999.",
-    "biography": "Boris Yeltsin là tổng thống đầu tiên của Liên bang Nga, nhiệm kỳ 1991–1999.",
-    "highlights": [
-      "Sinh ngày 1/2/1931.",
-      "Boris Yeltsin là tổng thống đầu tiên của Liên bang Nga, nhiệm kỳ 1991–1999."
-    ],
+    "biography": "Boris Yeltsin là tổng thống đầu tiên của Liên bang Nga, nhiệm kỳ 1991–1999. Năm 1989, Boris Yeltsin tranh cử tại Moskva vào Đại hội Đại biểu Nhân dân Liên Xô và giành 91,5% phiếu bầu.",
+    "highlights": ["Sinh ngày 1/2/1931.", "Năm 1989, Boris Yeltsin tranh cử tại Moskva vào Đại hội Đại biểu Nhân dân Liên Xô và giành 91,5% phiếu bầu."],
     "wikidataId": "Q34453",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q34453",
       "https://www.prlib.ru/history/618999",
-      "https://snl.no/Boris_Jeltsin"
+      "https://snl.no/Boris_Jeltsin",
+      "http://news.bbc.co.uk/1/hi/world/europe/6584481.stm",
+      "https://yeltsin.ru/news/biografiya-boris-nikolaevich-elcin-prezident-rossii-19911999/"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "2007-04-23",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "http://news.bbc.co.uk/1/hi/world/europe/6584481.stm"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-04"
   },
   {
@@ -808,11 +869,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇱🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Leymah Gbowee là nhà hoạt động hòa bình người Liberia, đồng nhận giải Nobel Hòa bình năm 2011.",
-    "biography": "Leymah Gbowee là nhà hoạt động hòa bình người Liberia, đồng nhận giải Nobel Hòa bình năm 2011.",
-    "highlights": [
-      "Sinh ngày 1/2/1972.",
-      "Leymah Gbowee là nhà hoạt động hòa bình người Liberia, đồng nhận giải Nobel Hòa bình năm 2011."
-    ],
+    "biography": "Leymah Gbowee là nhà hoạt động hòa bình người Liberia, đồng nhận giải Nobel Hòa bình năm 2011. Leymah Gbowee được trao Nobel Hòa bình nhờ hoạt động bất bạo động vì hòa bình và quyền phụ nữ.",
+    "highlights": ["Sinh ngày 1/2/1972.", "Leymah Gbowee được trao Nobel Hòa bình nhờ hoạt động bất bạo động vì hòa bình và quyền phụ nữ."],
     "wikidataId": "Q107037",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q107037",
@@ -987,11 +1045,18 @@ export const PEOPLE_02: Person[] = [
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q46096",
       "https://www.dallassymphony.org/community-education/dso-kids/listen-watch/composers/felix-mendelssohn/",
-      "https://www.mendelssohn-stiftung.de/en/felix"
+      "https://www.mendelssohn-stiftung.de/en/felix",
+      "https://brockhaus.de/ecs/julex/article/mendelssohn-bartholdy-jakob-ludwig-felix"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1847-11-04",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/mendelssohn-bartholdy-jakob-ludwig-felix"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-04"
   },
   {
@@ -1012,11 +1077,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Gertrude Stein là nhà văn người Mỹ hoạt động tại Paris.",
-    "biography": "Gertrude Stein là nhà văn người Mỹ hoạt động tại Paris. Bà được biết đến với văn phong thử nghiệm và tác phẩm The Autobiography of Alice B. Toklas.",
-    "highlights": [
-      "Sinh ngày 3/2/1874.",
-      "Toklas."
-    ],
+    "biography": "Gertrude Stein là nhà văn người Mỹ sống và sáng tác tại Paris. Năm 1903, Gertrude Stein chuyển đến Paris cùng Alice B. Toklas, người về sau là bạn đời và thư ký của bà.",
+    "highlights": ["Sinh ngày 3/2/1874.", "Năm 1903, Gertrude Stein chuyển đến Paris cùng Alice B. Toklas, người về sau là bạn đời và thư ký của bà."],
     "wikidataId": "Q188385",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q188385",
@@ -1148,11 +1210,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Fernand Léger là họa sĩ người Pháp, gắn với nghệ thuật lập thể và các hình khối mang cảm hứng công nghiệp.",
-    "biography": "Fernand Léger là họa sĩ người Pháp, gắn với nghệ thuật lập thể và các hình khối mang cảm hứng công nghiệp.",
-    "highlights": [
-      "Sinh ngày 4/2/1881.",
-      "Fernand Léger là họa sĩ người Pháp, gắn với nghệ thuật lập thể và các hình khối mang cảm hứng công nghiệp."
-    ],
+    "biography": "Fernand Léger là họa sĩ người Pháp, gắn với nghệ thuật lập thể và các hình khối mang cảm hứng công nghiệp. Fernand Léger thực hiện phim Ballet mécanique (1924), được xem là phim đầu tiên không có kịch bản; trải nghiệm này khiến ông đưa nguyên tắc cận cảnh vào hội họa.",
+    "highlights": ["Sinh ngày 4/2/1881.", "Fernand Léger thực hiện phim Ballet mécanique (1924), được xem là phim đầu tiên không có kịch bản; trải nghiệm này khiến ông đưa nguyên tắc cận cảnh vào hội họa."],
     "wikidataId": "Q157183",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q157183",
@@ -1216,11 +1275,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇧🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Neymar là cầu thủ bóng đá người Brazil, từng thi đấu cho Barcelona.",
-    "biography": "Neymar là cầu thủ bóng đá người Brazil, từng thi đấu cho Barcelona.",
-    "highlights": [
-      "Sinh ngày 5/2/1992.",
-      "Neymar là cầu thủ bóng đá người Brazil, từng thi đấu cho Barcelona."
-    ],
+    "biography": "Neymar là cầu thủ bóng đá người Brazil, từng thi đấu cho Barcelona. Năm 2017, Paris Saint-Germain ký hợp đồng với Neymar từ Barcelona với mức phí chuyển nhượng kỷ lục thế giới 222 triệu euro.",
+    "highlights": ["Sinh ngày 5/2/1992.", "Năm 2017, Paris Saint-Germain ký hợp đồng với Neymar từ Barcelona với mức phí chuyển nhượng kỷ lục thế giới 222 triệu euro."],
     "wikidataId": "Q142794",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q142794",
@@ -1250,11 +1306,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Robert Hofstadter là nhà vật lý người Mỹ, được trao Nobel Vật lý năm 1961 cho nghiên cứu về cấu trúc hạt nhân nguyên tử.",
-    "biography": "Robert Hofstadter là nhà vật lý người Mỹ, được trao Nobel Vật lý năm 1961 cho nghiên cứu về cấu trúc hạt nhân nguyên tử.",
-    "highlights": [
-      "Sinh ngày 5/2/1915.",
-      "Robert Hofstadter là nhà vật lý người Mỹ, được trao Nobel Vật lý năm 1961 cho nghiên cứu về cấu trúc hạt nhân nguyên tử."
-    ],
+    "biography": "Robert Hofstadter là nhà vật lý người Mỹ, được trao Nobel Vật lý năm 1961 cho nghiên cứu về cấu trúc hạt nhân nguyên tử. Robert Hofstadter phát triển thiết bị dùng để nghiên cứu cấu trúc bên trong hạt nhân nguyên tử.",
+    "highlights": ["Sinh ngày 5/2/1915.", "Robert Hofstadter phát triển thiết bị dùng để nghiên cứu cấu trúc bên trong hạt nhân nguyên tử."],
     "wikidataId": "Q130113",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q130113",
@@ -1327,11 +1380,18 @@ export const PEOPLE_02: Person[] = [
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q409",
       "https://www.bobmarley.com/history/",
-      "https://www.rockhall.com/inductees/bob-marley/"
+      "https://www.rockhall.com/inductees/bob-marley/",
+      "https://www.theguardian.com/music/2005/feb/04/bobmarley60thanniversary.bobmarley"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1981-05-11",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.theguardian.com/music/2005/feb/04/bobmarley60thanniversary.bobmarley"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-04"
   },
   {
@@ -1420,11 +1480,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Laura Ingalls Wilder là nhà văn người Mỹ, tác giả loạt sách Little House dựa trên ký ức về cuộc sống của gia đình ở vùng biên viễn.",
-    "biography": "Laura Ingalls Wilder là nhà văn người Mỹ, tác giả loạt sách Little House dựa trên ký ức về cuộc sống của gia đình ở vùng biên viễn.",
-    "highlights": [
-      "Sinh ngày 7/2/1867.",
-      "Laura Ingalls Wilder là nhà văn người Mỹ, tác giả loạt sách Little House dựa trên ký ức về cuộc sống của gia đình ở vùng biên viễn."
-    ],
+    "biography": "Laura Ingalls Wilder là nhà văn người Mỹ, tác giả loạt sách Little House dựa trên ký ức về cuộc sống của gia đình ở vùng biên viễn. Laura Ingalls Wilder viết về hành trình của một cô gái tiên phong dựa trên chính chuyến đi mà bà từng trải qua.",
+    "highlights": ["Sinh ngày 7/2/1867.", "Laura Ingalls Wilder viết về hành trình của một cô gái tiên phong dựa trên chính chuyến đi mà bà từng trải qua."],
     "wikidataId": "Q237514",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q237514",
@@ -1488,21 +1545,25 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇷🇺",
     "image": "/people/placeholder.svg",
     "shortDescription": "Dmitri Mendeleev là nhà hóa học người Nga, nổi tiếng với việc xây dựng bảng tuần hoàn các nguyên tố hóa học.",
-    "biography": "Dmitri Mendeleev là nhà hóa học người Nga, nổi tiếng với việc xây dựng bảng tuần hoàn các nguyên tố hóa học.",
-    "highlights": [
-      "Sinh ngày 8/2/1834.",
-      "Dmitri Mendeleev là nhà hóa học người Nga, nổi tiếng với việc xây dựng bảng tuần hoàn các nguyên tố hóa học."
-    ],
+    "biography": "Dmitri Mendeleev là nhà hóa học người Nga, nổi tiếng với việc xây dựng bảng tuần hoàn các nguyên tố hóa học. Ngày 1 tháng 3 năm 1869, Dmitry Mendeleev trình bày luận thuyết về tính tuần hoàn của các nguyên tố tại cuộc họp Hội Hóa học Nga.",
+    "highlights": ["Sinh ngày 8/2/1834.", "Ngày 1 tháng 3 năm 1869, Dmitry Mendeleev trình bày luận thuyết về tính tuần hoàn của các nguyên tố tại cuộc họp Hội Hóa học Nga."],
     "wikidataId": "Q9106",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q9106",
       "https://www.prlib.ru/history/619013",
-      "https://www.unesco.org/en/articles/dmitry-mendeleev-man-who-brought-law-and-order-chemistry-0"
+      "https://www.unesco.org/en/articles/dmitry-mendeleev-man-who-brought-law-and-order-chemistry-0",
+      "https://www.chem.msu.ru/eng/misc/babaev/papers/139e.pdf"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-04"
+    "verifiedAt": "2026-10-04",
+    "deathDate": "1907-02-02",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.chem.msu.ru/eng/misc/babaev/papers/139e.pdf"
+    ],
+    "deathDatePrecision": "day"
   },
   {
     "id": "john-williams",
@@ -1667,11 +1728,18 @@ export const PEOPLE_02: Person[] = [
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q38757",
       "https://snl.no/Bertolt_Brecht",
-      "https://www.deutsche-biographie.de/gnd118514768.html"
+      "https://www.deutsche-biographie.de/gnd118514768.html",
+      "https://brockhaus.de/ecs/julex/article/brecht-bertolt-bert"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1956-08-14",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/brecht-bertolt-bert"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-04"
   },
   {
@@ -1769,11 +1837,18 @@ export const PEOPLE_02: Person[] = [
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q8743",
       "https://home.nps.gov/edis/learn/historyculture/edison-biography.htm",
-      "https://www.invent.org/inductees/thomas-alva-edison"
+      "https://www.invent.org/inductees/thomas-alva-edison",
+      "https://brockhaus.de/ecs/julex/article/edison-thomas-alva"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1931-10-18",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/edison-thomas-alva"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-04"
   },
   {
@@ -1871,11 +1946,22 @@ export const PEOPLE_02: Person[] = [
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q91",
       "https://home.nps.gov/people/abraham-lincoln.htm",
-      "https://millercenter.org/president/lincoln"
+      "https://millercenter.org/president/lincoln",
+      "https://www.pbs.org/newshour/health/april-15-1865-tragic-last-hours-abraham-lincoln",
+      "https://www.nlm.nih.gov/exhibition/visibleproofs/galleries/cases/lincoln.html",
+      "http://www.bbc.co.uk/history/historic_figures/lincoln_abraham.shtml"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1865-04-15",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.pbs.org/newshour/health/april-15-1865-tragic-last-hours-abraham-lincoln",
+      "https://www.nlm.nih.gov/exhibition/visibleproofs/galleries/cases/lincoln.html",
+      "http://www.bbc.co.uk/history/historic_figures/lincoln_abraham.shtml"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-04"
   },
   {
@@ -1964,11 +2050,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "William Shockley là nhà vật lý người Mỹ, cùng John Bardeen và Walter Brattain được trao Nobel Vật lý năm 1956 cho nghiên cứu chất bán dẫn và transistor.",
-    "biography": "William Shockley là nhà vật lý người Mỹ, cùng John Bardeen và Walter Brattain được trao Nobel Vật lý năm 1956 cho nghiên cứu chất bán dẫn và transistor.",
-    "highlights": [
-      "Sinh ngày 13/2/1910.",
-      "William Shockley là nhà vật lý người Mỹ, cùng John Bardeen và Walter Brattain được trao Nobel Vật lý năm 1956 cho nghiên cứu chất bán dẫn và transistor."
-    ],
+    "biography": "William Shockley là nhà vật lý người Mỹ, cùng John Bardeen và Walter Brattain được trao Nobel Vật lý năm 1956 cho nghiên cứu chất bán dẫn và transistor. Năm 1947, William Shockley tiếp tục phát triển bộ khuếch đại bán dẫn do John Bardeen và Walter Brattain chế tạo.",
+    "highlights": ["Sinh ngày 13/2/1910.", "Năm 1947, William Shockley tiếp tục phát triển bộ khuếch đại bán dẫn do John Bardeen và Walter Brattain chế tạo."],
     "wikidataId": "Q163415",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q163415",
@@ -1998,11 +2081,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Peter Gabriel là ca sĩ và nhạc sĩ người Anh, từng là giọng ca của Genesis trước khi phát triển sự nghiệp solo.",
-    "biography": "Peter Gabriel là ca sĩ và nhạc sĩ người Anh, từng là giọng ca của Genesis trước khi phát triển sự nghiệp solo.",
-    "highlights": [
-      "Sinh ngày 13/2/1950.",
-      "Peter Gabriel là ca sĩ và nhạc sĩ người Anh, từng là giọng ca của Genesis trước khi phát triển sự nghiệp solo."
-    ],
+    "biography": "Peter Gabriel là ca sĩ và nhạc sĩ người Anh, từng là giọng ca của Genesis trước khi phát triển sự nghiệp solo. Năm 2019, Peter Gabriel phát hành Rated PG, tuyển tập ca khúc viết cho nhạc phim; sau đó ông thực hiện album I/O, phát hành năm 2023.",
+    "highlights": ["Sinh ngày 13/2/1950.", "Năm 2019, Peter Gabriel phát hành Rated PG, tuyển tập ca khúc viết cho nhạc phim; sau đó ông thực hiện album I/O, phát hành năm 2023."],
     "wikidataId": "Q175195",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q175195",
@@ -2270,11 +2350,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "John McEnroe là cựu vận động viên quần vợt người Mỹ, giành 7 danh hiệu Grand Slam đơn.",
-    "biography": "John McEnroe là cựu vận động viên quần vợt người Mỹ, giành 7 danh hiệu Grand Slam đơn.",
-    "highlights": [
-      "Sinh ngày 16/2/1959.",
-      "John McEnroe là cựu vận động viên quần vợt người Mỹ, giành 7 danh hiệu Grand Slam đơn."
-    ],
+    "biography": "John McEnroe là cựu vận động viên quần vợt người Mỹ, giành 7 danh hiệu Grand Slam đơn. John McEnroe giành bảy danh hiệu Grand Slam trong sự nghiệp quần vợt.",
+    "highlights": ["Sinh ngày 16/2/1959.", "John McEnroe giành bảy danh hiệu Grand Slam trong sự nghiệp quần vợt."],
     "wikidataId": "Q16474",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q16474",
@@ -2304,11 +2381,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇮🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Valentino Rossi là tay đua mô tô người Ý, giành 9 chức vô địch thế giới.",
-    "biography": "Valentino Rossi là tay đua mô tô người Ý, giành 9 chức vô địch thế giới.",
-    "highlights": [
-      "Sinh ngày 16/2/1979.",
-      "Valentino Rossi là tay đua mô tô người Ý, giành 9 chức vô địch thế giới."
-    ],
+    "biography": "Valentino Rossi là tay đua mô tô người Ý, giành 9 chức vô địch thế giới. Năm 2015, Valentino Rossi thắng bốn chặng MotoGP và chỉ sít sao để mất chức vô địch thế giới vào tay Jorge Lorenzo.",
+    "highlights": ["Sinh ngày 16/2/1979.", "Năm 2015, Valentino Rossi thắng bốn chặng MotoGP và chỉ sít sao để mất chức vô địch thế giới vào tay Jorge Lorenzo."],
     "wikidataId": "Q169814",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q169814",
@@ -2338,11 +2412,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Francis Galton là nhà khoa học người Anh, hoạt động trong nhân chủng học, tâm lý học và thống kê.",
-    "biography": "Francis Galton là nhà khoa học người Anh, hoạt động trong nhân chủng học, tâm lý học và thống kê.",
-    "highlights": [
-      "Sinh ngày 16/2/1822.",
-      "Francis Galton là nhà khoa học người Anh, hoạt động trong nhân chủng học, tâm lý học và thống kê."
-    ],
+    "biography": "Francis Galton là nhà khoa học người Anh, hoạt động trong nhân chủng học, tâm lý học và thống kê. Trong Natural Inheritance (1889), Francis Galton nghiên cứu các đặc điểm thể chất bằng phương pháp thống kê và toán học.",
+    "highlights": ["Sinh ngày 16/2/1822.", "Trong Natural Inheritance (1889), Francis Galton nghiên cứu các đặc điểm thể chất bằng phương pháp thống kê và toán học."],
     "wikidataId": "Q191026",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q191026",
@@ -2353,7 +2424,10 @@ export const PEOPLE_02: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1911-01-17"
+    "deathDate": "1911-01-17",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Francis_Galton"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "michael-jordan",
@@ -2373,11 +2447,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Michael Jordan là cựu vận động viên bóng rổ người Mỹ, giành 6 chức vô địch NBA cùng Chicago Bulls.",
-    "biography": "Michael Jordan là cựu vận động viên bóng rổ người Mỹ, giành 6 chức vô địch NBA cùng Chicago Bulls.",
-    "highlights": [
-      "Sinh ngày 17/2/1963.",
-      "Michael Jordan là cựu vận động viên bóng rổ người Mỹ, giành 6 chức vô địch NBA cùng Chicago Bulls."
-    ],
+    "biography": "Michael Jordan là cựu vận động viên bóng rổ người Mỹ, giành 6 chức vô địch NBA cùng Chicago Bulls. Michael Jordan cùng đối tác ra mắt dòng giày mang tên ông, Air Jordan, tạo nên thành công lớn và mở đường cho các hợp đồng tài trợ thể thao hiện đại.",
+    "highlights": ["Sinh ngày 17/2/1963.", "Michael Jordan cùng đối tác ra mắt dòng giày mang tên ông, Air Jordan, tạo nên thành công lớn và mở đường cho các hợp đồng tài trợ thể thao hiện đại."],
     "wikidataId": "Q41421",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q41421",
@@ -2407,22 +2478,23 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Otto Stern là nhà vật lý gốc Đức, được trao giải Nobel Vật lý năm 1943.",
-    "biography": "Otto Stern là nhà vật lý gốc Đức, được trao giải Nobel Vật lý năm 1943.",
-    "highlights": [
-      "Sinh ngày 17/2/1888.",
-      "Otto Stern là nhà vật lý gốc Đức, được trao giải Nobel Vật lý năm 1943."
-    ],
+    "biography": "Otto Stern là nhà vật lý gốc Đức, được trao giải Nobel Vật lý năm 1943. Nobel Vật lý năm 1943 ghi nhận Otto Stern vì đóng góp cho phương pháp chùm phân tử và phát hiện mômen từ của proton.",
+    "highlights": ["Sinh ngày 17/2/1888.", "Nobel Vật lý năm 1943 ghi nhận Otto Stern vì đóng góp cho phương pháp chùm phân tử và phát hiện mômen từ của proton."],
     "wikidataId": "Q57072",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q57072",
       "https://www.nobelprize.org/prizes/physics/1943/stern/facts/",
-      "https://www.enciklopedija.hr/clanak/stern-otto"
+      "https://www.enciklopedija.hr/clanak/stern-otto",
+      "https://library.ethz.ch/en/collections-and-archives/short-portraits/stern-otto-1888-1969.html"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1969-08-17"
+    "deathDate": "1969-08-17",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://library.ethz.ch/en/collections-and-archives/short-portraits/stern-otto-1888-1969.html"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "nguyen-van-hoang",
@@ -2442,11 +2514,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nguyễn Văn Hoàng là thủ môn bóng đá người Việt Nam.",
-    "biography": "Nguyễn Văn Hoàng là thủ môn bóng đá người Việt Nam.",
-    "highlights": [
-      "Sinh ngày 17/2/1995.",
-      "Nguyễn Văn Hoàng là thủ môn bóng đá người Việt Nam."
-    ],
+    "biography": "Nguyễn Văn Hoàng là thủ môn bóng đá người Việt Nam. Thủ môn Nguyễn Văn Hoàng bắt chính cả 14 trận cho Sông Lam Nghệ An tại V.League 2020.",
+    "highlights": ["Sinh ngày 17/2/1995.", "Thủ môn Nguyễn Văn Hoàng bắt chính cả 14 trận cho Sông Lam Nghệ An tại V.League 2020."],
     "wikidataId": "Q45344289",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q45344289",
@@ -2476,11 +2545,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇮🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Alessandro Volta là nhà vật lý người Ý, được biết đến với việc phát minh pin Volta.",
-    "biography": "Alessandro Volta là nhà vật lý người Ý, được biết đến với việc phát minh pin Volta.",
-    "highlights": [
-      "Sinh ngày 18/2/1745.",
-      "Alessandro Volta là nhà vật lý người Ý, được biết đến với việc phát minh pin Volta."
-    ],
+    "biography": "Alessandro Volta là nhà vật lý người Ý, được biết đến với việc phát minh pin Volta. Nhà vật lý Italy Alessandro Volta phát minh pin điện đầu tiên, sau này được gọi là pin Volta.",
+    "highlights": ["Sinh ngày 18/2/1745.", "Nhà vật lý Italy Alessandro Volta phát minh pin điện đầu tiên, sau này được gọi là pin Volta."],
     "wikidataId": "Q680",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q680",
@@ -2491,7 +2557,10 @@ export const PEOPLE_02: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1827-03-05"
+    "deathDate": "1827-03-05",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Alessandro_Volta"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "toni-morrison",
@@ -2511,11 +2580,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Toni Morrison là nhà văn người Mỹ, được trao giải Nobel Văn học năm 1993.",
-    "biography": "Toni Morrison là nhà văn người Mỹ, được trao giải Nobel Văn học năm 1993.",
-    "highlights": [
-      "Sinh ngày 18/2/1931.",
-      "Toni Morrison là nhà văn người Mỹ, được trao giải Nobel Văn học năm 1993."
-    ],
+    "biography": "Toni Morrison là nhà văn người Mỹ, được trao giải Nobel Văn học năm 1993. Nhà văn Mỹ Toni Morrison được trao Nobel Văn học năm 1993.",
+    "highlights": ["Sinh ngày 18/2/1931.", "Nhà văn Mỹ Toni Morrison được trao Nobel Văn học năm 1993."],
     "wikidataId": "Q72334",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q72334",
@@ -2526,7 +2592,10 @@ export const PEOPLE_02: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "2019-08-05"
+    "deathDate": "2019-08-05",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Toni_Morrison"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "svante-arrhenius",
@@ -2546,11 +2615,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇸🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Svante Arrhenius là nhà hóa học người Thụy Điển, được trao giải Nobel Hóa học năm 1903.",
-    "biography": "Svante Arrhenius là nhà hóa học người Thụy Điển, được trao giải Nobel Hóa học năm 1903.",
-    "highlights": [
-      "Sinh ngày 19/2/1859.",
-      "Svante Arrhenius là nhà hóa học người Thụy Điển, được trao giải Nobel Hóa học năm 1903."
-    ],
+    "biography": "Svante Arrhenius là nhà hóa học người Thụy Điển, được trao giải Nobel Hóa học năm 1903. Năm 1905, Svante Arrhenius trở về Thụy Điển và trở thành giám đốc Viện Hóa lý Nobel.",
+    "highlights": ["Sinh ngày 19/2/1859.", "Năm 1905, Svante Arrhenius trở về Thụy Điển và trở thành giám đốc Viện Hóa lý Nobel."],
     "wikidataId": "Q80956",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q80956",
@@ -2561,7 +2627,10 @@ export const PEOPLE_02: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1927-10-02"
+    "deathDate": "1927-10-02",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://www.nobelprize.org/prizes/chemistry/1903/arrhenius/facts/"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "jennifer-doudna",
@@ -2581,11 +2650,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Jennifer Doudna là nhà hóa sinh người Mỹ, được trao giải Nobel Hóa học năm 2020.",
-    "biography": "Jennifer Doudna là nhà hóa sinh người Mỹ, được trao giải Nobel Hóa học năm 2020.",
-    "highlights": [
-      "Sinh ngày 19/2/1964.",
-      "Jennifer Doudna là nhà hóa sinh người Mỹ, được trao giải Nobel Hóa học năm 2020."
-    ],
+    "biography": "Jennifer Doudna là nhà hóa sinh người Mỹ, được trao giải Nobel Hóa học năm 2020. Năm 2012, Jennifer Doudna và Emmanuelle Charpentier phát triển phương pháp chỉnh sửa bộ gen có độ chính xác cao.",
+    "highlights": ["Sinh ngày 19/2/1964.", "Năm 2012, Jennifer Doudna và Emmanuelle Charpentier phát triển phương pháp chỉnh sửa bộ gen có độ chính xác cao."],
     "wikidataId": "Q56068",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q56068",
@@ -2615,11 +2681,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Bùi Tấn Trường là thủ môn bóng đá người Việt Nam.",
-    "biography": "Bùi Tấn Trường là thủ môn bóng đá người Việt Nam.",
-    "highlights": [
-      "Sinh ngày 19/2/1986.",
-      "Bùi Tấn Trường là thủ môn bóng đá người Việt Nam."
-    ],
+    "biography": "Bùi Tấn Trường là thủ môn bóng đá người Việt Nam. Thủ môn Bùi Tấn Trường ra sân 14 lần cho Hà Nội tại V.League 2020.",
+    "highlights": ["Sinh ngày 19/2/1986.", "Thủ môn Bùi Tấn Trường ra sân 14 lần cho Hà Nội tại V.League 2020."],
     "wikidataId": "Q868808",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q868808",
@@ -2649,11 +2712,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Ansel Adams là nhiếp ảnh gia người Mỹ, nổi tiếng với ảnh phong cảnh thiên nhiên.",
-    "biography": "Ansel Adams là nhiếp ảnh gia người Mỹ, nổi tiếng với ảnh phong cảnh thiên nhiên.",
-    "highlights": [
-      "Sinh ngày 20/2/1902.",
-      "Ansel Adams là nhiếp ảnh gia người Mỹ, nổi tiếng với ảnh phong cảnh thiên nhiên."
-    ],
+    "biography": "Ansel Adams là nhiếp ảnh gia người Mỹ, nổi tiếng với ảnh phong cảnh thiên nhiên. Ansel Adams giảng dạy cho hàng nghìn học viên và viết bộ cẩm nang kỹ thuật nhiếp ảnh The Ansel Adams Guide gồm 10 tập.",
+    "highlights": ["Sinh ngày 20/2/1902.", "Ansel Adams giảng dạy cho hàng nghìn học viên và viết bộ cẩm nang kỹ thuật nhiếp ảnh The Ansel Adams Guide gồm 10 tập."],
     "wikidataId": "Q60809",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q60809",
@@ -2664,7 +2724,10 @@ export const PEOPLE_02: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1984-04-22"
+    "deathDate": "1984-04-22",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Ansel_Adams"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "ludwig-boltzmann",
@@ -2684,22 +2747,27 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇦🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Ludwig Boltzmann là nhà vật lý người Áo, nghiên cứu phương pháp thống kê trong nhiệt động lực học.",
-    "biography": "Ludwig Boltzmann là nhà vật lý người Áo, nghiên cứu phương pháp thống kê trong nhiệt động lực học.",
-    "highlights": [
-      "Sinh ngày 20/2/1844.",
-      "Ludwig Boltzmann là nhà vật lý người Áo, nghiên cứu phương pháp thống kê trong nhiệt động lực học."
-    ],
+    "biography": "Ludwig Boltzmann là nhà vật lý người Áo, nghiên cứu phương pháp thống kê trong nhiệt động lực học. Ludwig Boltzmann trở thành giáo sư tại Graz năm 25 tuổi, rồi giảng dạy tại Vienna, Munich và Leipzig.",
+    "highlights": ["Sinh ngày 20/2/1844.", "Ludwig Boltzmann trở thành giáo sư tại Graz năm 25 tuổi, rồi giảng dạy tại Vienna, Munich và Leipzig."],
     "wikidataId": "Q84296",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q84296",
       "https://snl.no/Ludwig_Boltzmann",
-      "https://www.enciklopedija.hr/clanak/boltzmann-ludwig"
+      "https://www.enciklopedija.hr/clanak/boltzmann-ludwig",
+      "https://www.deutsche-biographie.de/gnd118513109.html",
+      "https://histvv.uni-leipzig.de/dozenten/boltzmann_l.html"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1906-09-05"
+    "deathDate": "1906-09-05",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.deutsche-biographie.de/gnd118513109.html",
+      "https://histvv.uni-leipzig.de/dozenten/boltzmann_l.html"
+    ],
+    "deathDatePrecision": "day"
   },
   {
     "id": "sidney-poitier",
@@ -2719,11 +2787,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Sidney Poitier là diễn viên và đạo diễn người Mỹ gốc Bahamas.",
-    "biography": "Sidney Poitier là diễn viên và đạo diễn người Mỹ gốc Bahamas.",
-    "highlights": [
-      "Sinh ngày 20/2/1927.",
-      "Sidney Poitier là diễn viên và đạo diễn người Mỹ gốc Bahamas."
-    ],
+    "biography": "Sidney Poitier là diễn viên và đạo diễn người Mỹ gốc Bahamas. Sidney Poitier và Tony Curtis đóng vai chính trong The Defiant Ones (1958), một trong những phim đầu thập niên 1950 xây dựng hai nhân vật chính da đen và da trắng ngang hàng.",
+    "highlights": ["Sinh ngày 20/2/1927.", "Sidney Poitier và Tony Curtis đóng vai chính trong The Defiant Ones (1958), một trong những phim đầu thập niên 1950 xây dựng hai nhân vật chính da đen và da trắng ngang hàng."],
     "wikidataId": "Q104049",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q104049",
@@ -2734,7 +2799,10 @@ export const PEOPLE_02: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "2022-01-06"
+    "deathDate": "2022-01-06",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Sidney_Poitier"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "nina-simone",
@@ -2754,11 +2822,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nina Simone là ca sĩ, nghệ sĩ piano và nhà soạn nhạc người Mỹ.",
-    "biography": "Nina Simone là ca sĩ, nghệ sĩ piano và nhà soạn nhạc người Mỹ.",
-    "highlights": [
-      "Sinh ngày 21/2/1933.",
-      "Nina Simone là ca sĩ, nghệ sĩ piano và nhà soạn nhạc người Mỹ."
-    ],
+    "biography": "Nina Simone là ca sĩ, nghệ sĩ piano và nhà soạn nhạc người Mỹ. Cuối thập niên 1950, giới nhạc jazz chú ý đến Nina Simone; sau đó bà bắt đầu lưu diễn dưới tên riêng.",
+    "highlights": ["Sinh ngày 21/2/1933.", "Cuối thập niên 1950, giới nhạc jazz chú ý đến Nina Simone; sau đó bà bắt đầu lưu diễn dưới tên riêng."],
     "wikidataId": "Q174957",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q174957",
@@ -2769,7 +2834,10 @@ export const PEOPLE_02: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "2003-04-21"
+    "deathDate": "2003-04-21",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Nina_Simone"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "harald-v",
@@ -2789,22 +2857,25 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇳🇴",
     "image": "/people/placeholder.svg",
     "shortDescription": "Harald V là Quốc vương Na Uy trong giai đoạn 1991–2026.",
-    "biography": "Harald V là Quốc vương Na Uy trong giai đoạn 1991–2026.",
-    "highlights": [
-      "Sinh ngày 21/2/1937.",
-      "Harald V là Quốc vương Na Uy trong giai đoạn 1991–2026."
-    ],
+    "biography": "Harald V là Quốc vương Na Uy trong giai đoạn 1991–2026. Harald V là vị vua Na Uy đầu tiên sinh tại Na Uy kể từ năm 1380.",
+    "highlights": ["Sinh ngày 21/2/1937.", "Harald V là vị vua Na Uy đầu tiên sinh tại Na Uy kể từ năm 1380."],
     "wikidataId": "Q57287",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q57287",
       "https://snl.no/Harald_5.",
-      "https://www.enciklopedija.hr/clanak/harald-v"
+      "https://www.enciklopedija.hr/clanak/harald-v",
+      "https://www.nrk.no/norge/kong-harald-er-dod-1.14236265"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-04",
-    "deathDate": "2026-08-28"
+    "deathDate": "2026-08-28",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.nrk.no/norge/kong-harald-er-dod-1.14236265"
+    ],
+    "deathDatePrecision": "day",
+    "verifiedAt": "2026-10-04"
   },
   {
     "id": "w-h-auden",
@@ -2824,11 +2895,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "W. H. Auden là nhà thơ sinh tại Anh, sau đó có quốc tịch Mỹ.",
-    "biography": "W. H. Auden là nhà thơ sinh tại Anh, sau đó có quốc tịch Mỹ.",
-    "highlights": [
-      "Sinh ngày 21/2/1907.",
-      "W. H. Auden là nhà thơ sinh tại Anh, sau đó có quốc tịch Mỹ."
-    ],
+    "biography": "W. H. Auden là nhà thơ sinh tại Anh, sau đó có quốc tịch Mỹ. Tập thơ đầu tiên của W. H. Auden, Poems, xuất bản năm 1930.",
+    "highlights": ["Sinh ngày 21/2/1907.", "Tập thơ đầu tiên của W. H. Auden, Poems, xuất bản năm 1930."],
     "wikidataId": "Q178698",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q178698",
@@ -2839,7 +2907,10 @@ export const PEOPLE_02: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1973-09-29"
+    "deathDate": "1973-09-29",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/W._H._Auden"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "naruhito",
@@ -2859,11 +2930,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇯🇵",
     "image": "/people/placeholder.svg",
     "shortDescription": "Naruhito là Thiên hoàng Nhật Bản.",
-    "biography": "Naruhito là Thiên hoàng Nhật Bản.",
-    "highlights": [
-      "Sinh ngày 23/2/1960.",
-      "Naruhito là Thiên hoàng Nhật Bản."
-    ],
+    "biography": "Naruhito là Thiên hoàng Nhật Bản. Năm 1982, Naruhito tốt nghiệp ngành lịch sử tại Khoa Văn học, Đại học Gakushuin.",
+    "highlights": ["Sinh ngày 23/2/1960.", "Năm 1982, Naruhito tốt nghiệp ngành lịch sử tại Khoa Văn học, Đại học Gakushuin."],
     "wikidataId": "Q217096",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q217096",
@@ -2893,11 +2961,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Karl Jaspers là triết gia người Đức, gắn với triết học hiện sinh.",
-    "biography": "Karl Jaspers là triết gia người Đức, gắn với triết học hiện sinh.",
-    "highlights": [
-      "Sinh ngày 23/2/1883.",
-      "Karl Jaspers là triết gia người Đức, gắn với triết học hiện sinh."
-    ],
+    "biography": "Karl Jaspers là triết gia người Đức, gắn với triết học hiện sinh. Karl Jaspers ban đầu là bác sĩ và bác sĩ tâm thần; tác phẩm Psychologie der Weltanschauungen (1919) đánh dấu bước chuyển của ông sang triết học.",
+    "highlights": ["Sinh ngày 23/2/1883.", "Karl Jaspers ban đầu là bác sĩ và bác sĩ tâm thần; tác phẩm Psychologie der Weltanschauungen (1919) đánh dấu bước chuyển của ông sang triết học."],
     "wikidataId": "Q76509",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q76509",
@@ -2908,7 +2973,10 @@ export const PEOPLE_02: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1969-02-26"
+    "deathDate": "1969-02-26",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Karl_Jaspers"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "w-e-b-du-bois",
@@ -2928,22 +2996,23 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "W. E. B. Du Bois là nhà sử học và nhà hoạt động người Mỹ.",
-    "biography": "W. E. B. Du Bois là nhà sử học và nhà hoạt động người Mỹ.",
-    "highlights": [
-      "Sinh ngày 23/2/1868.",
-      "W. E. B. Du Bois là nhà sử học và nhà hoạt động người Mỹ."
-    ],
+    "biography": "W. E. B. Du Bois là nhà sử học và nhà hoạt động người Mỹ. Năm 1903, W. E. B. Du Bois xuất bản The Souls of Black Folk, tác phẩm viết về trải nghiệm của người da đen tại Mỹ.",
+    "highlights": ["Sinh ngày 23/2/1868.", "Năm 1903, W. E. B. Du Bois xuất bản The Souls of Black Folk, tác phẩm viết về trải nghiệm của người da đen tại Mỹ."],
     "wikidataId": "Q158060",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q158060",
       "https://www.enciklopedija.hr/clanak/du-bois-william-edward-burghardt",
-      "https://www.library.umass.edu/about-w-e-b-du-bois/"
+      "https://www.library.umass.edu/about-w-e-b-du-bois/",
+      "https://www.pbs.org/wnet/americanmasters/w-e-b-du-bois-biography-and-career-timeline/37985/"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1963-08-27"
+    "deathDate": "1963-08-27",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://www.pbs.org/wnet/americanmasters/w-e-b-du-bois-biography-and-career-timeline/37985/"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "steve-jobs",
@@ -2963,22 +3032,25 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Steve Jobs là doanh nhân người Mỹ, đồng sáng lập Apple cùng Steve Wozniak năm 1976.",
-    "biography": "Steve Jobs là doanh nhân người Mỹ, đồng sáng lập Apple cùng Steve Wozniak năm 1976.",
-    "highlights": [
-      "Sinh ngày 24/2/1955.",
-      "Steve Jobs là doanh nhân người Mỹ, đồng sáng lập Apple cùng Steve Wozniak năm 1976."
-    ],
+    "biography": "Steve Jobs là doanh nhân người Mỹ, đồng sáng lập Apple cùng Steve Wozniak năm 1976. Steve Jobs chịu trách nhiệm chính về thiết kế máy tính Macintosh, được giới thiệu năm 1984.",
+    "highlights": ["Sinh ngày 24/2/1955.", "Steve Jobs chịu trách nhiệm chính về thiết kế máy tính Macintosh, được giới thiệu năm 1984."],
     "wikidataId": "Q19837",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q19837",
       "https://snl.no/Steve_Jobs",
-      "https://www.apple.com/stevejobs/"
+      "https://www.apple.com/stevejobs/",
+      "https://it.wikinews.org/wiki/%C3%88_morto_Steve_Jobs"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-04",
-    "deathDate": "2011-10-05"
+    "deathDate": "2011-10-05",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://it.wikinews.org/wiki/%C3%88_morto_Steve_Jobs"
+    ],
+    "deathDatePrecision": "day",
+    "verifiedAt": "2026-10-04"
   },
   {
     "id": "alain-prost",
@@ -2998,11 +3070,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Alain Prost là cựu tay đua ô tô người Pháp, giành 4 chức vô địch thế giới Formula 1.",
-    "biography": "Alain Prost là cựu tay đua ô tô người Pháp, giành 4 chức vô địch thế giới Formula 1.",
-    "highlights": [
-      "Sinh ngày 24/2/1955.",
-      "Alain Prost là cựu tay đua ô tô người Pháp, giành 4 chức vô địch thế giới Formula 1."
-    ],
+    "biography": "Alain Prost là cựu tay đua ô tô người Pháp, giành 4 chức vô địch thế giới Formula 1. Alain Prost vô địch thế giới Formula 1 bốn lần: 1985, 1986, 1989 và 1993.",
+    "highlights": ["Sinh ngày 24/2/1955.", "Alain Prost vô địch thế giới Formula 1 bốn lần: 1985, 1986, 1989 và 1993."],
     "wikidataId": "Q10494",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q10494",
@@ -3032,22 +3101,27 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Pierre-Auguste Renoir là họa sĩ người Pháp, thuộc trường phái Ấn tượng.",
-    "biography": "Pierre-Auguste Renoir là họa sĩ người Pháp, thuộc trường phái Ấn tượng.",
-    "highlights": [
-      "Sinh ngày 25/2/1841.",
-      "Pierre-Auguste Renoir là họa sĩ người Pháp, thuộc trường phái Ấn tượng."
-    ],
+    "biography": "Pierre-Auguste Renoir là họa sĩ người Pháp, thuộc trường phái Ấn tượng. Năm 1892, Pierre-Auguste Renoir trưng bày 70 tác phẩm trong một triển lãm cá nhân và nhận được nhiều lời khen.",
+    "highlights": ["Sinh ngày 25/2/1841.", "Năm 1892, Pierre-Auguste Renoir trưng bày 70 tác phẩm trong một triển lãm cá nhân và nhận được nhiều lời khen."],
     "wikidataId": "Q39931",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q39931",
       "https://snl.no/Pierre-Auguste_Renoir",
-      "https://www.enciklopedija.hr/clanak/renoir-pierre-auguste"
+      "https://www.enciklopedija.hr/clanak/renoir-pierre-auguste",
+      "https://www.musee-leondierx.re/en/the-masterpieces-auguste-renoir",
+      "https://mnav.gub.uy/cms.php?a=389"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1919-12-03"
+    "deathDate": "1919-12-03",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.musee-leondierx.re/en/the-masterpieces-auguste-renoir",
+      "https://mnav.gub.uy/cms.php?a=389"
+    ],
+    "deathDatePrecision": "day"
   },
   {
     "id": "george-harrison",
@@ -3067,11 +3141,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "George Harrison là nhạc sĩ người Anh, thành viên ban nhạc The Beatles.",
-    "biography": "George Harrison là nhạc sĩ người Anh, thành viên ban nhạc The Beatles.",
-    "highlights": [
-      "Sinh ngày 25/2/1943.",
-      "George Harrison là nhạc sĩ người Anh, thành viên ban nhạc The Beatles."
-    ],
+    "biography": "George Harrison là nhạc sĩ người Anh, thành viên ban nhạc The Beatles. Album solo đầu tiên của George Harrison, nhạc phim Wonderwall Music (1968), mang đậm ảnh hưởng âm nhạc Ấn Độ.",
+    "highlights": ["Sinh ngày 25/2/1943.", "Album solo đầu tiên của George Harrison, nhạc phim Wonderwall Music (1968), mang đậm ảnh hưởng âm nhạc Ấn Độ."],
     "wikidataId": "Q2643",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q2643",
@@ -3082,7 +3153,10 @@ export const PEOPLE_02: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "2001-11-29"
+    "deathDate": "2001-11-29",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/George_Harrison"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "anthony-burgess",
@@ -3102,22 +3176,23 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Anthony Burgess là nhà văn người Anh, tác giả A Clockwork Orange.",
-    "biography": "Anthony Burgess là nhà văn người Anh, tác giả A Clockwork Orange.",
-    "highlights": [
-      "Sinh ngày 25/2/1917.",
-      "Anthony Burgess là nhà văn người Anh, tác giả A Clockwork Orange."
-    ],
+    "biography": "Anthony Burgess là nhà văn người Anh, tác giả A Clockwork Orange. Tiểu thuyết đầu tiên của Anthony Burgess, Time for a Tiger, xuất bản năm 1956.",
+    "highlights": ["Sinh ngày 25/2/1917.", "Tiểu thuyết đầu tiên của Anthony Burgess, Time for a Tiger, xuất bản năm 1956."],
     "wikidataId": "Q217619",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q217619",
       "https://www.anthonyburgess.org/burgess-a-brief-life/",
-      "https://proleksis.lzmk.hr/14058/"
+      "https://proleksis.lzmk.hr/14058/",
+      "https://www.anthonyburgess.org/blog-posts/the-great-late-anthony-burgess/"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1993-11-22"
+    "deathDate": "1993-11-22",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://www.anthonyburgess.org/blog-posts/the-great-late-anthony-burgess/"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "victor-hugo",
@@ -3137,11 +3212,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Victor Hugo là nhà văn người Pháp, tác giả Les Misérables.",
-    "biography": "Victor Hugo là nhà văn người Pháp, tác giả Les Misérables.",
-    "highlights": [
-      "Sinh ngày 26/2/1802.",
-      "Victor Hugo là nhà văn người Pháp, tác giả Les Misérables."
-    ],
+    "biography": "Victor Hugo là nhà văn người Pháp, tác giả Les Misérables. Victor Hugo viết nhiều tập sách châm biếm chính trị, trong đó có Napoléon le petit (1852), tác phẩm chế giễu Napoleon III.",
+    "highlights": ["Sinh ngày 26/2/1802.", "Victor Hugo viết nhiều tập sách châm biếm chính trị, trong đó có Napoléon le petit (1852), tác phẩm chế giễu Napoleon III."],
     "wikidataId": "Q535",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q535",
@@ -3152,7 +3224,10 @@ export const PEOPLE_02: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1885-05-22"
+    "deathDate": "1885-05-22",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Victor_Hugo"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "johnny-cash",
@@ -3172,11 +3247,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Johnny Cash là ca sĩ và nhạc sĩ người Mỹ, gắn với dòng nhạc country.",
-    "biography": "Johnny Cash là ca sĩ và nhạc sĩ người Mỹ, gắn với dòng nhạc country.",
-    "highlights": [
-      "Sinh ngày 26/2/1932.",
-      "Johnny Cash là ca sĩ và nhạc sĩ người Mỹ, gắn với dòng nhạc country."
-    ],
+    "biography": "Johnny Cash là ca sĩ và nhạc sĩ người Mỹ, gắn với dòng nhạc country. Johnny Cash làm phim tài liệu Gospel Road: A Story of Jesus (1973) và xuất bản tự truyện Man in Black (1975).",
+    "highlights": ["Sinh ngày 26/2/1932.", "Johnny Cash làm phim tài liệu Gospel Road: A Story of Jesus (1973) và xuất bản tự truyện Man in Black (1975)."],
     "wikidataId": "Q42775",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q42775",
@@ -3187,7 +3259,10 @@ export const PEOPLE_02: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "2003-09-12"
+    "deathDate": "2003-09-12",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Johnny_Cash"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "recep-tayyip-erdogan",
@@ -3207,11 +3282,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇹🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Recep Tayyip Erdoğan là chính trị gia Thổ Nhĩ Kỳ, giữ chức tổng thống từ năm 2014.",
-    "biography": "Recep Tayyip Erdoğan là chính trị gia Thổ Nhĩ Kỳ, giữ chức tổng thống từ năm 2014.",
-    "highlights": [
-      "Sinh ngày 26/2/1954.",
-      "Recep Tayyip Erdoğan là chính trị gia Thổ Nhĩ Kỳ, giữ chức tổng thống từ năm 2014."
-    ],
+    "biography": "Recep Tayyip Erdoğan là chính trị gia Thổ Nhĩ Kỳ, giữ chức tổng thống từ năm 2014. Recep Tayyip Erdoğan sớm tham gia phong trào Hồi giáo Milli Görüş, nơi chính trị gia Necmettin Erbakan giữ vai trò trung tâm.",
+    "highlights": ["Sinh ngày 26/2/1954.", "Recep Tayyip Erdoğan sớm tham gia phong trào Hồi giáo Milli Görüş, nơi chính trị gia Necmettin Erbakan giữ vai trò trung tâm."],
     "wikidataId": "Q39259",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q39259",
@@ -3241,11 +3313,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "John Steinbeck là nhà văn người Mỹ, được trao giải Nobel Văn học năm 1962.",
-    "biography": "John Steinbeck là nhà văn người Mỹ, được trao giải Nobel Văn học năm 1962.",
-    "highlights": [
-      "Sinh ngày 27/2/1902.",
-      "John Steinbeck là nhà văn người Mỹ, được trao giải Nobel Văn học năm 1962."
-    ],
+    "biography": "John Steinbeck là nhà văn người Mỹ, được trao giải Nobel Văn học năm 1962. John Steinbeck được nhớ đến nhiều nhất qua tiểu thuyết The Grapes of Wrath, xuất bản năm 1939.",
+    "highlights": ["Sinh ngày 27/2/1902.", "John Steinbeck được nhớ đến nhiều nhất qua tiểu thuyết The Grapes of Wrath, xuất bản năm 1939."],
     "wikidataId": "Q39212",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q39212",
@@ -3256,7 +3325,10 @@ export const PEOPLE_02: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1968-12-20"
+    "deathDate": "1968-12-20",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/John_Steinbeck"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "henry-wadsworth-longfellow",
@@ -3276,11 +3348,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Henry Wadsworth Longfellow là nhà thơ người Mỹ.",
-    "biography": "Henry Wadsworth Longfellow là nhà thơ người Mỹ.",
-    "highlights": [
-      "Sinh ngày 27/2/1807.",
-      "Henry Wadsworth Longfellow là nhà thơ người Mỹ."
-    ],
+    "biography": "Henry Wadsworth Longfellow là nhà thơ người Mỹ. Henry Wadsworth Longfellow là giảng viên ngôn ngữ và văn học hiện đại tại Bowdoin College, rồi làm giáo sư ở Harvard từ năm 1836 đến 1854.",
+    "highlights": ["Sinh ngày 27/2/1807.", "Henry Wadsworth Longfellow là giảng viên ngôn ngữ và văn học hiện đại tại Bowdoin College, rồi làm giáo sư ở Harvard từ năm 1836 đến 1854."],
     "wikidataId": "Q152513",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q152513",
@@ -3291,7 +3360,10 @@ export const PEOPLE_02: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1882-03-24"
+    "deathDate": "1882-03-24",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Henry_Wadsworth_Longfellow"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "linus-pauling",
@@ -3311,22 +3383,25 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Linus Pauling là nhà hóa học người Mỹ, được trao Nobel Hóa học năm 1954 và Nobel Hòa bình năm 1962.",
-    "biography": "Linus Pauling là nhà hóa học người Mỹ, được trao Nobel Hóa học năm 1954 và Nobel Hòa bình năm 1962.",
-    "highlights": [
-      "Sinh ngày 28/2/1901.",
-      "Linus Pauling là nhà hóa học người Mỹ, được trao Nobel Hóa học năm 1954 và Nobel Hòa bình năm 1962."
-    ],
+    "biography": "Linus Pauling là nhà hóa học người Mỹ, được trao Nobel Hóa học năm 1954 và Nobel Hòa bình năm 1962. Linus Pauling nhận hai giải Nobel: Hóa học năm 1954 và Hòa bình năm 1962.",
+    "highlights": ["Sinh ngày 28/2/1901.", "Linus Pauling nhận hai giải Nobel: Hóa học năm 1954 và Hòa bình năm 1962."],
     "wikidataId": "Q48983",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q48983",
       "https://snl.no/Linus_Pauling",
-      "https://www.nobelprize.org/prizes/chemistry/1954/pauling/facts/"
+      "https://www.nobelprize.org/prizes/chemistry/1954/pauling/facts/",
+      "https://web.archive.org/web/20180307112256/https://www.biography.com/people/linus-pauling-9435195"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-04",
-    "deathDate": "1994-08-19"
+    "deathDate": "1994-08-19",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://web.archive.org/web/20180307112256/https://www.biography.com/people/linus-pauling-9435195"
+    ],
+    "deathDatePrecision": "day",
+    "verifiedAt": "2026-10-04"
   },
   {
     "id": "frank-gehry",
@@ -3346,11 +3421,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇨🇦",
     "image": "/people/placeholder.svg",
     "shortDescription": "Frank Gehry là kiến trúc sư người Canada và Mỹ, được trao giải Pritzker năm 1989.",
-    "biography": "Frank Gehry là kiến trúc sư người Canada và Mỹ, được trao giải Pritzker năm 1989.",
-    "highlights": [
-      "Sinh ngày 28/2/1929.",
-      "Frank Gehry là kiến trúc sư người Canada và Mỹ, được trao giải Pritzker năm 1989."
-    ],
+    "biography": "Frank Gehry là kiến trúc sư người Canada và Mỹ, được trao giải Pritzker năm 1989. Năm 1989, kiến trúc sư Frank Gehry được trao giải Pritzker.",
+    "highlights": ["Sinh ngày 28/2/1929.", "Năm 1989, kiến trúc sư Frank Gehry được trao giải Pritzker."],
     "wikidataId": "Q180374",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q180374",
@@ -3361,7 +3433,10 @@ export const PEOPLE_02: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "2025-12-05"
+    "deathDate": "2025-12-05",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Frank_Gehry"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "gioachino-rossini",
@@ -3381,11 +3456,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇮🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Gioachino Rossini là nhà soạn nhạc người Ý, nổi tiếng với các vở opera hài.",
-    "biography": "Gioachino Rossini là nhà soạn nhạc người Ý, nổi tiếng với các vở opera hài.",
-    "highlights": [
-      "Sinh ngày 29/2/1792.",
-      "Gioachino Rossini là nhà soạn nhạc người Ý, nổi tiếng với các vở opera hài."
-    ],
+    "biography": "Gioachino Rossini là nhà soạn nhạc người Ý, nổi tiếng với các vở opera hài. Nhà soạn nhạc Italy Gioachino Rossini nổi tiếng với nhiều vở opera hài, thuộc thể loại opera buffa.",
+    "highlights": ["Sinh ngày 29/2/1792.", "Nhà soạn nhạc Italy Gioachino Rossini nổi tiếng với nhiều vở opera hài, thuộc thể loại opera buffa."],
     "wikidataId": "Q9726",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q9726",
@@ -3396,7 +3468,10 @@ export const PEOPLE_02: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1868-11-13"
+    "deathDate": "1868-11-13",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Gioachino_Rossini"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "pedro-sanchez",
@@ -3416,17 +3491,10 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇪🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Pedro Sánchez là chính trị gia Tây Ban Nha, giữ chức thủ tướng từ năm 2018.",
-    "biography": "Pedro Sánchez là chính trị gia Tây Ban Nha, giữ chức thủ tướng từ năm 2018.",
-    "highlights": [
-      "Sinh ngày 29/2/1972.",
-      "Pedro Sánchez là chính trị gia Tây Ban Nha, giữ chức thủ tướng từ năm 2018."
-    ],
+    "biography": "Pedro Sánchez là chính trị gia Tây Ban Nha, giữ chức thủ tướng từ năm 2018. Pedro Sánchez nhận bằng tiến sĩ kinh tế năm 2012 tại Đại học Camilo José Cela, nơi ông giảng dạy kinh tế.",
+    "highlights": ["Sinh ngày 29/2/1972.", "Pedro Sánchez nhận bằng tiến sĩ kinh tế năm 2012 tại Đại học Camilo José Cela, nơi ông giảng dạy kinh tế."],
     "wikidataId": "Q6070218",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q6070218",
-      "https://www.lamoncloa.gob.es/lang/en/presidente/biografia/Paginas/index.aspx",
-      "https://www.vle.lt/straipsnis/pedro-sanchez/"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q6070218", "https://www.lamoncloa.gob.es/lang/en/presidente/biografia/Paginas/index.aspx", "https://www.vle.lt/straipsnis/pedro-sanchez/", "https://www.lamoncloa.gob.es/presidente/biografia/Paginas/index.aspx"],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
@@ -3450,11 +3518,8 @@ export const PEOPLE_02: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Herman Hollerith là nhà phát minh người Mỹ, phát triển máy lập bảng dùng thẻ đục lỗ.",
-    "biography": "Herman Hollerith là nhà phát minh người Mỹ, phát triển máy lập bảng dùng thẻ đục lỗ.",
-    "highlights": [
-      "Sinh ngày 29/2/1860.",
-      "Herman Hollerith là nhà phát minh người Mỹ, phát triển máy lập bảng dùng thẻ đục lỗ."
-    ],
+    "biography": "Herman Hollerith là nhà phát minh người Mỹ, phát triển máy lập bảng dùng thẻ đục lỗ. Sau khi làm trợ lý cho cuộc điều tra dân số Mỹ năm 1880, Herman Hollerith quan tâm đến việc tự động hóa khâu thống kê.",
+    "highlights": ["Sinh ngày 29/2/1860.", "Sau khi làm trợ lý cho cuộc điều tra dân số Mỹ năm 1880, Herman Hollerith quan tâm đến việc tự động hóa khâu thống kê."],
     "wikidataId": "Q192145",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q192145",
@@ -3465,6 +3530,124 @@ export const PEOPLE_02: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1929-11-17"
-  }
+    "deathDate": "1929-11-17",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Herman_Hollerith"],
+    "deathDatePrecision": "day"
+  },
+  {
+    "id": "michael-bloomberg",
+    "slug": "michael-bloomberg",
+    "name": "Michael Bloomberg",
+    "birthDate": "1942-02-14",
+    "birthYear": 1942,
+    "birthMonth": 2,
+    "birthDay": 14,
+    "lifeStatus": "living",
+    "occupation": [
+      "Doanh nhân, chính trị gia"
+    ],
+    "category": "entrepreneur",
+    "categoryLabel": "Doanh nhân",
+    "fields": [
+      "economics-business",
+      "entrepreneurship"
+    ],
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "birthplace": "Boston, Massachusetts, Hoa Kỳ",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Nhà sáng lập Bloomberg L.P. và cựu Thị trưởng thành phố New York.",
+    "biography": "Sau khi rời Salomon Brothers, Michael Bloomberg dùng ý tưởng về một công ty công nghệ tài chính để lập doanh nghiệp riêng vào năm 1981. Ông sau đó được bầu làm Thị trưởng New York năm 2001.",
+    "highlights": [
+      "Năm 1981, Bloomberg khởi sự một công ty công nghệ tài chính nhỏ từ văn phòng một phòng.",
+      "Bloomberg được bầu làm Thị trưởng New York năm 2001."
+    ],
+    "wikidataId": "Q607",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q607",
+      "https://www.mikebloomberg.com/about/",
+      "https://www.biography.com/political-figures/michael-bloomberg",
+      "https://www.bloomberg.org/annualreport/"
+    ],
+    "region": "west",
+    "verifiedAt": "2026-10-08"
+  },
+  {
+    "id": "alvar-aalto",
+    "slug": "alvar-aalto",
+    "name": "Alvar Aalto",
+    "birthDate": "1898-02-03",
+    "birthYear": 1898,
+    "birthMonth": 2,
+    "birthDay": 3,
+    "lifeStatus": "deceased",
+    "occupation": [
+      "Kiến trúc sư"
+    ],
+    "category": "artist",
+    "categoryLabel": "Nghệ thuật",
+    "fields": [
+      "design-creative"
+    ],
+    "countryCode": "FI",
+    "countryName": "Phần Lan",
+    "countryFlag": "🇫🇮",
+    "birthplace": "Kuortane, Phần Lan",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Kiến trúc sư Phần Lan nổi bật với thiết kế hiện đại gắn với trải nghiệm con người.",
+    "biography": "Kiến trúc sư Alvar Aalto thiết kế Paimio Sanatorium, hoàn thành năm 1933, và Thư viện Viipuri, hoàn thành năm 1935. Các công trình này thể hiện cách ông kết hợp kiến trúc với nội thất và đồ dùng.",
+    "highlights": [
+      "Aalto thiết kế Paimio Sanatorium, công trình hoàn thành năm 1933.",
+      "Aalto thiết kế Thư viện Viipuri, hoàn thành năm 1935."
+    ],
+    "wikidataId": "Q82840",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q82840",
+      "https://www.villaskeppet.fi/en/about-villa-skeppet/alvar-aalto/",
+      "https://architecture-history.org/architects/architects/aalto/bio.html",
+      "https://www.alvaraalto.fi/en/alvar-aalto-foundation/alvar-aalto/"
+    ],
+    "region": "west",
+    "verifiedAt": "2026-10-08"
+  },
+  {
+    "id": "erich-kaestner",
+    "slug": "erich-kaestner",
+    "name": "Erich Kästner",
+    "birthDate": "1899-02-23",
+    "birthYear": 1899,
+    "birthMonth": 2,
+    "birthDay": 23,
+    "lifeStatus": "deceased",
+    "occupation": [
+      "Nhà văn, nhà thơ"
+    ],
+    "category": "literature",
+    "categoryLabel": "Văn học",
+    "fields": [
+      "education-thought",
+      "design-creative"
+    ],
+    "countryCode": "DE",
+    "countryName": "Đức",
+    "countryFlag": "🇩🇪",
+    "birthplace": "Dresden, Đức",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Nhà văn Đức có tác phẩm thiếu nhi và tiểu thuyết xã hội nổi tiếng.",
+    "biography": "Erich Kästner trở nên nổi tiếng với tiểu thuyết thiếu nhi Emil und die Detektive, tác phẩm góp phần tạo nên một cách viết mới cho văn học thiếu nhi. Ông cũng viết tiểu thuyết Fabian năm 1931.",
+    "highlights": [
+      "Tiểu thuyết thiếu nhi Emil und die Detektive đưa Kästner đến với đông đảo độc giả trẻ.",
+      "Kästner viết tiểu thuyết Fabian, xuất bản năm 1931."
+    ],
+    "wikidataId": "Q76546",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q76546",
+      "https://www.deutsche-biographie.de/sfz38258.html",
+      "https://www1.wdr.de/stichtag/stichtag-geburtstag-von-erich-kaestner-100.html"
+    ],
+    "region": "west",
+    "verifiedAt": "2026-10-08"
+  },
 ];

@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { getBirthdayData } from '@/data/birthdays';
 import { AppShell } from '@/components/layout/AppShell';
+import { didPersonDieOnDate } from '@/data/types';
 import { FeaturedPersonCard } from '@/components/cards/FeaturedPersonCard';
 import { HistoryTimeline } from '@/components/history/HistoryTimeline';
 import { Search, ChevronLeft, Calendar, Dice5, Bookmark, ChevronRight } from 'lucide-react';
@@ -157,10 +158,10 @@ export default function TodayPage() {
               <p className="text-xs text-slate-500">
                 Tưởng niệm các danh nhân qua đời vào ngày {day} {monthNameVi}.
               </p>
-              {data.all.filter((p) => p.deathDate).length > 0 ? (
+              {data.all.filter((p) => didPersonDieOnDate(p, month, day)).length > 0 ? (
                 <div className="text-left space-y-3 pt-2">
                   {data.all
-                    .filter((p) => p.deathDate)
+                    .filter((p) => didPersonDieOnDate(p, month, day))
                     .slice(0, 5)
                     .map((p) => (
                       <div key={p.id} className="text-xs text-slate-700 flex items-center justify-between border-b border-slate-50 pb-2">

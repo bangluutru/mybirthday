@@ -19,19 +19,12 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇻🇳",
     "birthplace": "Hà Nội, Việt Nam",
     "image": "/people/ngo-bao-chau.png",
-    "shortDescription": "Giáo sư toán học, chủ nhân giải thưởng Fields danh giá.",
-    "biography": "Ngô Bảo Châu là nhà toán học người Việt Nam đầu tiên đoạt Huy chương Fields (năm 2010), giải thưởng toán học cao quý nhất hành tinh. Công trình chứng minh Bổ đề cơ bản cho các đại số Lie của ông được tạp chí Time bình chọn là một trong 10 phát minh khoa học tiêu biểu nhất năm 2009.",
-    "highlights": [
-      "Chứng minh thành công Bổ đề cơ bản trong Chương trình Langlands sau hơn 30 năm chưa có lời giải.",
-      "Giáo sư tại Viện Nghiên cứu Cao cấp Princeton và Đại học Chicago.",
-      "Giám đốc khoa học của Viện Nghiên cứu Cao cấp về Toán (VIASM)."
-    ],
+    "shortDescription": "Nhà toán học Việt Nam, nhận Huy chương Fields năm 2010.",
+    "biography": "Ngô Bảo Châu là nhà toán học người Việt Nam. Ngô Bảo Châu nhận Huy chương Fields năm 2010 nhờ chứng minh Bổ đề Cơ bản trong lý thuyết các dạng tự đẳng cấu.",
+    "highlights": ["Ngô Bảo Châu nhận Huy chương Fields năm 2010 nhờ chứng minh Bổ đề Cơ bản trong lý thuyết các dạng tự đẳng cấu."],
     "wikidataId": "Q216350",
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Ng%C3%B4_B%E1%BA%A3o_Ch%C3%A2u",
-    "sourceUrls": [
-      "https://www.britannica.com/biography/Ngo-Bao-Chau",
-      "https://www.mathunion.org/"
-    ],
+    "sourceUrls": ["https://www.britannica.com/biography/Ngo-Bao-Chau", "https://www.mathunion.org/", "https://www.mathunion.org/fileadmin/IMU/ICM2010/offline/www.icm2010.in/prize-winners-2010/fields-medal-ngo-bao-chau.html"],
     "notabilityScore": 95,
     "region": "vietnam",
     "verifiedAt": "2026-10-03"
@@ -54,21 +47,20 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Marilyn Monroe là diễn viên.",
-    "biography": "Marilyn Monroe là diễn viên, sinh ngày 1 tháng 6 năm 1926.",
-    "highlights": [
-      "Sinh ngày 1 tháng 6 năm 1926.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ],
+    "biography": "Marilyn Monroe nhận giải Golden Globe cho vai diễn trong Some Like It Hot (1959) và giải Henrietta do khán giả bình chọn vào các năm 1954 và 1962.",
+    "highlights": ["Sinh ngày 1 tháng 6 năm 1926.", "Marilyn Monroe nhận giải Golden Globe cho vai diễn trong Some Like It Hot (1959) và giải Henrietta do khán giả bình chọn vào các năm 1954 và 1962."],
     "wikidataId": "Q4616",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q4616",
       "https://snl.no/Marilyn_Monroe",
-      "https://www.enciklopedija.hr/clanak/monroe-marilyn"
+      "https://www.enciklopedija.hr/clanak/monroe-marilyn",
+      "https://www.smithsonianmag.com/smithsonian-institution/remembering-marilyn-monroe-43964747/"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-06"
+    "verifiedAt": "2026-10-06",
+    "lifeStatus": "deceased"
   },
   {
     "id": "norman-foster",
@@ -88,11 +80,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Norman Foster là kiến trúc sư.",
-    "biography": "Norman Foster là kiến trúc sư, sinh ngày 1 tháng 6 năm 1935.",
-    "highlights": [
-      "Sinh ngày 1 tháng 6 năm 1935.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ],
+    "biography": "Norman Foster là kiến trúc sư người Anh, gắn với trường phái High Tech trong kiến trúc và thiết kế.",
+    "highlights": ["Sinh ngày 1 tháng 6 năm 1935.", "Norman Foster là kiến trúc sư người Anh, gắn với trường phái High Tech trong kiến trúc và thiết kế."],
     "wikidataId": "Q104898",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q104898",
@@ -122,18 +111,10 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Phan Văn Long là cầu thủ bóng đá.",
-    "biography": "Phan Văn Long là cầu thủ bóng đá, sinh ngày 1 tháng 6 năm 1996.",
-    "highlights": [
-      "Sinh ngày 1 tháng 6 năm 1996.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Ở V.League 1 mùa 2019, Phan Văn Long ra sân 16 trận và ghi 2 bàn cho SHB Đà Nẵng.",
+    "highlights": ["Sinh ngày 1 tháng 6 năm 1996.", "Ở V.League 1 mùa 2019, Phan Văn Long ra sân 16 trận và ghi 2 bàn cho SHB Đà Nẵng."],
     "wikidataId": "Q19662437",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q19662437",
-      "https://www.transfermarkt.co.uk/van-long-phan/profil/spieler/573733",
-      "https://sg.soccerway.com/player/phan-van-long/M1z6otVh/",
-      "https://www.the-afc.com/en/more/news/afc_u-19_championship_md2_vietnam_1-3_japan.html"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q19662437", "https://www.transfermarkt.co.uk/van-long-phan/profil/spieler/573733", "https://sg.soccerway.com/player/phan-van-long/M1z6otVh/", "https://www.the-afc.com/en/more/news/afc_u-19_championship_md2_vietnam_1-3_japan.html", "https://vpf.vn/player/phan-van-long/"],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "vietnam",
@@ -157,11 +138,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Thomas Hardy là nhà văn, nhà thơ.",
-    "biography": "Thomas Hardy là nhà văn, nhà thơ, sinh ngày 2 tháng 6 năm 1840.",
-    "highlights": [
-      "Sinh ngày 2 tháng 6 năm 1840.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Sau khi người vợ đầu Emma qua đời năm 1912, Thomas Hardy viết một số bài thơ hay nhất của mình dưới dạng khúc ai điếu.",
+    "highlights": ["Sinh ngày 2 tháng 6 năm 1840.", "Sau khi người vợ đầu Emma qua đời năm 1912, Thomas Hardy viết một số bài thơ hay nhất của mình dưới dạng khúc ai điếu."],
     "wikidataId": "Q132805",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q132805",
@@ -191,21 +169,25 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Johnny Weissmuller là vận động viên bơi lội.",
-    "biography": "Johnny Weissmuller là vận động viên bơi lội, sinh ngày 2 tháng 6 năm 1904.",
-    "highlights": [
-      "Sinh ngày 2 tháng 6 năm 1904.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Johnny Weissmuller giành huy chương vàng Olympic ở các nội dung bơi tự do tại Thế vận hội 1924 và 1928.",
+    "highlights": ["Sinh ngày 2 tháng 6 năm 1904.", "Johnny Weissmuller giành huy chương vàng Olympic ở các nội dung bơi tự do tại Thế vận hội 1924 và 1928."],
     "wikidataId": "Q151284",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q151284",
       "https://snl.no/Johnny_Weissmuller",
-      "https://www.enciklopedija.hr/clanak/weissmuller-johnny"
+      "https://www.enciklopedija.hr/clanak/weissmuller-johnny",
+      "https://www.teamusa.com/hall-of-fame/hall-of-fame-members/johnny-weissmuller"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-06"
+    "verifiedAt": "2026-10-06",
+    "deathDate": "1984-01-20",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.teamusa.com/hall-of-fame/hall-of-fame-members/johnny-weissmuller"
+    ],
+    "deathDatePrecision": "day"
   },
   {
     "id": "sergio-aguero",
@@ -225,11 +207,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇦🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Sergio Agüero là cầu thủ bóng đá.",
-    "biography": "Sergio Agüero là cầu thủ bóng đá, sinh ngày 2 tháng 6 năm 1988.",
-    "highlights": [
-      "Sinh ngày 2 tháng 6 năm 1988.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Sergio Agüero góp mặt thường xuyên trong đội Manchester City vô địch Premier League mùa giải 2011–2012.",
+    "highlights": ["Sinh ngày 2 tháng 6 năm 1988.", "Sergio Agüero góp mặt thường xuyên trong đội Manchester City vô địch Premier League mùa giải 2011–2012."],
     "wikidataId": "Q119562",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q119562",
@@ -259,11 +238,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇪🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Rafael Nadal là vận động viên quần vợt.",
-    "biography": "Rafael Nadal là vận động viên quần vợt, sinh ngày 3 tháng 6 năm 1986.",
-    "highlights": [
-      "Sinh ngày 3 tháng 6 năm 1986.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Rafael Nadal giành huy chương vàng đơn nam tại Olympic Bắc Kinh 2008 và huy chương vàng đôi nam cùng Marc López tại Rio 2016.",
+    "highlights": ["Sinh ngày 3 tháng 6 năm 1986.", "Rafael Nadal giành huy chương vàng đơn nam tại Olympic Bắc Kinh 2008 và huy chương vàng đôi nam cùng Marc López tại Rio 2016."],
     "wikidataId": "Q10132",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q10132",
@@ -293,11 +269,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Josephine Baker là nghệ sĩ biểu diễn.",
-    "biography": "Josephine Baker là nghệ sĩ biểu diễn, sinh ngày 3 tháng 6 năm 1906.",
-    "highlights": [
-      "Sinh ngày 3 tháng 6 năm 1906.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ],
+    "biography": "Josephine Baker nổi tiếng với màn trình diễn trong revue Un vent de folie năm 1927 cùng trang phục biểu tượng làm từ chuối giả và vòng cổ ngọc trai.",
+    "highlights": ["Sinh ngày 3 tháng 6 năm 1906.", "Josephine Baker nổi tiếng với màn trình diễn trong revue Un vent de folie năm 1927 cùng trang phục biểu tượng làm từ chuối giả và vòng cổ ngọc trai."],
     "wikidataId": "Q151972",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q151972",
@@ -327,11 +300,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Allen Ginsberg là nhà thơ, nhà văn.",
-    "biography": "Allen Ginsberg là nhà thơ, nhà văn, sinh ngày 3 tháng 6 năm 1926.",
-    "highlights": [
-      "Sinh ngày 3 tháng 6 năm 1926.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Tập thơ đầu tay Howl and Other Poems (1956) của Allen Ginsberg từng bị tịch thu vì bị xem là khiêu dâm, trước khi được tòa án cho phép phát hành.",
+    "highlights": ["Sinh ngày 3 tháng 6 năm 1926.", "Tập thơ đầu tay Howl and Other Poems (1956) của Allen Ginsberg từng bị tịch thu vì bị xem là khiêu dâm, trước khi được tòa án cho phép phát hành."],
     "wikidataId": "Q6711",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q6711",
@@ -361,11 +331,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "François Quesnay là nhà kinh tế.",
-    "biography": "François Quesnay là nhà kinh tế, sinh ngày 4 tháng 6 năm 1694.",
-    "highlights": [
-      "Sinh ngày 4 tháng 6 năm 1694.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Năm 1758, François Quesnay xuất bản Tableau économique, một trong những nỗ lực đầu tiên mô tả dòng tuần hoàn kinh tế trong xã hội.",
+    "highlights": ["Sinh ngày 4 tháng 6 năm 1694.", "Năm 1758, François Quesnay xuất bản Tableau économique, một trong những nỗ lực đầu tiên mô tả dòng tuần hoàn kinh tế trong xã hội."],
     "wikidataId": "Q13575",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q13575",
@@ -395,11 +362,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇵🇱",
     "image": "/people/placeholder.svg",
     "shortDescription": "Bronisław Komorowski là chính khách.",
-    "biography": "Bronisław Komorowski là chính khách, sinh ngày 4 tháng 6 năm 1952.",
-    "highlights": [
-      "Sinh ngày 4 tháng 6 năm 1952.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Bronisław Komorowski được bầu làm tổng thống Ba Lan năm 2010 nhưng thất cử khi tái tranh cử năm 2015 trước Andrzej Duda.",
+    "highlights": ["Sinh ngày 4 tháng 6 năm 1952.", "Bronisław Komorowski được bầu làm tổng thống Ba Lan năm 2010 nhưng thất cử khi tái tranh cử năm 2015 trước Andrzej Duda."],
     "wikidataId": "Q42939",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q42939",
@@ -429,11 +393,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇮🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Lorenzo Insigne là cầu thủ bóng đá.",
-    "biography": "Lorenzo Insigne là cầu thủ bóng đá, sinh ngày 4 tháng 6 năm 1991.",
-    "highlights": [
-      "Sinh ngày 4 tháng 6 năm 1991.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Lorenzo Insigne thi đấu cho Napoli từ năm 2012 và cùng câu lạc bộ giành hai danh hiệu cúp quốc gia.",
+    "highlights": ["Sinh ngày 4 tháng 6 năm 1991.", "Lorenzo Insigne thi đấu cho Napoli từ năm 2012 và cùng câu lạc bộ giành hai danh hiệu cúp quốc gia."],
     "wikidataId": "Q1756086",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q1756086",
@@ -463,11 +424,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "John Maynard Keynes là nhà kinh tế.",
-    "biography": "John Maynard Keynes là nhà kinh tế, sinh ngày 5 tháng 6 năm 1883.",
-    "highlights": [
-      "Sinh ngày 5 tháng 6 năm 1883.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Trong Thế chiến II, John Maynard Keynes tham gia ban giám đốc Ngân hàng Anh; năm 1942 ông được phong tước Lord Keynes of Tilton.",
+    "highlights": ["Sinh ngày 5 tháng 6 năm 1883.", "Trong Thế chiến II, John Maynard Keynes tham gia ban giám đốc Ngân hàng Anh; năm 1942 ông được phong tước Lord Keynes of Tilton."],
     "wikidataId": "Q9317",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q9317",
@@ -497,21 +455,20 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇪🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Federico García Lorca là nhà thơ, nhà viết kịch.",
-    "biography": "Federico García Lorca là nhà thơ, nhà viết kịch, sinh ngày 5 tháng 6 năm 1898.",
-    "highlights": [
-      "Sinh ngày 5 tháng 6 năm 1898.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Libro de poemas (1921), tập thơ đầu tay của Federico García Lorca, cho thấy ảnh hưởng rõ nét từ Juan Ramón Jiménez.",
+    "highlights": ["Sinh ngày 5 tháng 6 năm 1898.", "Libro de poemas (1921), tập thơ đầu tay của Federico García Lorca, cho thấy ảnh hưởng rõ nét từ Juan Ramón Jiménez."],
     "wikidataId": "Q41408",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q41408",
       "https://snl.no/Federico_Garc%C3%ADa_Lorca",
-      "https://www.enciklopedija.hr/clanak/garcia-lorca-federico"
+      "https://www.enciklopedija.hr/clanak/garcia-lorca-federico",
+      "https://revistadossier.udp.cl/dossier/la-muerte-de-federico-garcia-lorca/"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-06"
+    "verifiedAt": "2026-10-06",
+    "lifeStatus": "deceased"
   },
   {
     "id": "pham-thi-thao",
@@ -531,17 +488,10 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Phạm Thị Thảo là vận động viên chèo thuyền.",
-    "biography": "Phạm Thị Thảo là vận động viên chèo thuyền, sinh ngày 5 tháng 6 năm 1989.",
-    "highlights": [
-      "Sinh ngày 5 tháng 6 năm 1989.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Phạm Thị Thảo cùng Phạm Thị Sâm thi đấu ở cả nội dung chèo thuyền bốn nữ và đôi nữ khi Việt Nam giành HCV SEA Games 2011.",
+    "highlights": ["Sinh ngày 5 tháng 6 năm 1989.", "Phạm Thị Thảo cùng Phạm Thị Sâm thi đấu ở cả nội dung chèo thuyền bốn nữ và đôi nữ khi Việt Nam giành HCV SEA Games 2011."],
     "wikidataId": "Q2202972",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q2202972",
-      "https://www.ocagames.com/HZ_Info/AG2022-/en/results/rowing/athlete-profile-n2009980-pham-thi-thao.htm",
-      "https://digital.la84.org/digital/api/collection/p17103coll8/id/82424/download"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q2202972", "https://www.ocagames.com/HZ_Info/AG2022-/en/results/rowing/athlete-profile-n2009980-pham-thi-thao.htm", "https://digital.la84.org/digital/api/collection/p17103coll8/id/82424/download", "https://worldrowing.com/2011/11/24/success-for-vietnam-at-sea-games/"],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "vietnam",
@@ -565,11 +515,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Thomas Mann là nhà văn.",
-    "biography": "Thomas Mann là nhà văn, sinh ngày 6 tháng 6 năm 1875.",
-    "highlights": [
-      "Sinh ngày 6 tháng 6 năm 1875.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Khi Thomas Mann được trao Nobel Văn học năm 1929, tiểu thuyết Buddenbrooks đóng vai trò trọng tâm trong đánh giá của hội đồng.",
+    "highlights": ["Sinh ngày 6 tháng 6 năm 1875.", "Khi Thomas Mann được trao Nobel Văn học năm 1929, tiểu thuyết Buddenbrooks đóng vai trò trọng tâm trong đánh giá của hội đồng."],
     "wikidataId": "Q37030",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q37030",
@@ -599,20 +546,24 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇮🇩",
     "image": "/people/placeholder.svg",
     "shortDescription": "Sukarno là chính khách.",
-    "biography": "Sukarno là chính khách, sinh ngày 6 tháng 6 năm 1901.",
-    "highlights": [
-      "Sinh ngày 6 tháng 6 năm 1901.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Sukarno là một trong những người đấu tranh cho nền độc lập của Indonesia khỏi Hà Lan và nhiều lần bị chính quyền Hà Lan bỏ tù.",
+    "highlights": ["Sinh ngày 6 tháng 6 năm 1901.", "Sukarno là một trong những người đấu tranh cho nền độc lập của Indonesia khỏi Hà Lan và nhiều lần bị chính quyền Hà Lan bỏ tù."],
     "wikidataId": "Q76127",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q76127",
       "https://snl.no/Sukarno",
-      "https://www.enciklopedija.hr/clanak/sukarno"
+      "https://www.enciklopedija.hr/clanak/sukarno",
+      "https://historia.id/politik/articles/sukarno-meninggal-dunia-P1B3K"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1970-06-21",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://historia.id/politik/articles/sukarno-meninggal-dunia-P1B3K"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -633,20 +584,24 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Karl Ferdinand Braun là nhà vật lý.",
-    "biography": "Karl Ferdinand Braun là nhà vật lý, sinh ngày 6 tháng 6 năm 1850.",
-    "highlights": [
-      "Sinh ngày 6 tháng 6 năm 1850.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Karl Ferdinand Braun là giáo sư vật lý tại Strasbourg từ năm 1895 và phát minh ống dao động tia âm cực, tiền thân của máy hiện sóng.",
+    "highlights": ["Sinh ngày 6 tháng 6 năm 1850.", "Karl Ferdinand Braun là giáo sư vật lý tại Strasbourg từ năm 1895 và phát minh ống dao động tia âm cực, tiền thân của máy hiện sóng."],
     "wikidataId": "Q57077",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q57077",
       "https://snl.no/Karl_Ferdinand_Braun",
-      "https://www.enciklopedija.hr/clanak/braun-karl-ferdinand"
+      "https://www.enciklopedija.hr/clanak/braun-karl-ferdinand",
+      "https://www.britannica.com/biography/Ferdinand-Braun"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1918-04-20",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.britannica.com/biography/Ferdinand-Braun"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -667,11 +622,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇹🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Orhan Pamuk là nhà văn.",
-    "biography": "Orhan Pamuk là nhà văn, sinh ngày 7 tháng 6 năm 1952.",
-    "highlights": [
-      "Sinh ngày 7 tháng 6 năm 1952.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Bảo tàng của sự ngây thơ (2008) là một phần của dự án nghệ thuật kéo dài hơn mười năm do Orhan Pamuk thực hiện.",
+    "highlights": ["Sinh ngày 7 tháng 6 năm 1952.", "Bảo tàng của sự ngây thơ (2008) là một phần của dự án nghệ thuật kéo dài hơn mười năm do Orhan Pamuk thực hiện."],
     "wikidataId": "Q241248",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q241248",
@@ -701,21 +653,25 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Paul Gauguin là họa sĩ.",
-    "biography": "Paul Gauguin là họa sĩ, sinh ngày 7 tháng 6 năm 1848.",
-    "highlights": [
-      "Sinh ngày 7 tháng 6 năm 1848.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ],
+    "biography": "Sau khi một đồng nghiệp khơi gợi niềm yêu thích hội họa, Paul Gauguin học tại Académie Colarossi và triển lãm tại Salon de Paris năm 1876.",
+    "highlights": ["Sinh ngày 7 tháng 6 năm 1848.", "Sau khi một đồng nghiệp khơi gợi niềm yêu thích hội họa, Paul Gauguin học tại Académie Colarossi và triển lãm tại Salon de Paris năm 1876."],
     "wikidataId": "Q37693",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q37693",
       "https://snl.no/Paul_Gauguin",
-      "https://www.enciklopedija.hr/clanak/gauguin-paul"
+      "https://www.enciklopedija.hr/clanak/gauguin-paul",
+      "https://catalogue.bnf.fr/ark:/12148/cb11904339p"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-06"
+    "verifiedAt": "2026-10-06",
+    "deathDate": "1903-05-08",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://catalogue.bnf.fr/ark:/12148/cb11904339p"
+    ],
+    "deathDatePrecision": "day"
   },
   {
     "id": "mike-pence",
@@ -735,11 +691,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Mike Pence là chính khách.",
-    "biography": "Mike Pence là chính khách, sinh ngày 7 tháng 6 năm 1959.",
-    "highlights": [
-      "Sinh ngày 7 tháng 6 năm 1959.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Mike Pence giữ chức Phó Tổng thống Hoa Kỳ từ ngày 20/1/2017 đến ngày 20/1/2021 dưới thời Tổng thống Donald Trump.",
+    "highlights": ["Sinh ngày 7 tháng 6 năm 1959.", "Mike Pence giữ chức Phó Tổng thống Hoa Kỳ từ ngày 20/1/2017 đến ngày 20/1/2021 dưới thời Tổng thống Donald Trump."],
     "wikidataId": "Q24313",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q24313",
@@ -769,11 +722,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Tim Berners-Lee là nhà khoa học máy tính.",
-    "biography": "Tim Berners-Lee là nhà khoa học máy tính, sinh ngày 8 tháng 6 năm 1955.",
-    "highlights": [
-      "Sinh ngày 8 tháng 6 năm 1955.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Năm 1990, Tim Berners-Lee lập trình máy chủ web đầu tiên, httpd, và trình duyệt WorldWideWeb.",
+    "highlights": ["Sinh ngày 8 tháng 6 năm 1955.", "Năm 1990, Tim Berners-Lee lập trình máy chủ web đầu tiên, httpd, và trình duyệt WorldWideWeb."],
     "wikidataId": "Q80",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q80",
@@ -803,20 +753,24 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Francis Crick là nhà sinh học phân tử.",
-    "biography": "Francis Crick là nhà sinh học phân tử, sinh ngày 8 tháng 6 năm 1916.",
-    "highlights": [
-      "Sinh ngày 8 tháng 6 năm 1916.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Năm 1962, Francis Crick cùng James Watson và Maurice Wilkins nhận Nobel Sinh lý học hoặc Y học cho công trình nghiên cứu nền tảng của họ.",
+    "highlights": ["Sinh ngày 8 tháng 6 năm 1916.", "Năm 1962, Francis Crick cùng James Watson và Maurice Wilkins nhận Nobel Sinh lý học hoặc Y học cho công trình nghiên cứu nền tảng của họ."],
     "wikidataId": "Q123280",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q123280",
       "https://snl.no/Francis_Crick",
-      "https://www.enciklopedija.hr/clanak/crick-francis-harry-compton"
+      "https://www.enciklopedija.hr/clanak/crick-francis-harry-compton",
+      "https://www.biography.com/people/francis-crick-9261484"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "2004-07-28",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.biography.com/people/francis-crick-9261484"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -837,20 +791,24 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇮🇩",
     "image": "/people/placeholder.svg",
     "shortDescription": "Suharto là chính khách.",
-    "biography": "Suharto là chính khách, sinh ngày 8 tháng 6 năm 1921.",
-    "highlights": [
-      "Sinh ngày 8 tháng 6 năm 1921.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Trong “Trật tự Mới”, Suharto xây dựng phong trào Sekber Golkar thành công cụ chính trị chủ yếu cho chế độ độc đoán kéo dài 32 năm của ông.",
+    "highlights": ["Sinh ngày 8 tháng 6 năm 1921.", "Trong “Trật tự Mới”, Suharto xây dựng phong trào Sekber Golkar thành công cụ chính trị chủ yếu cho chế độ độc đoán kéo dài 32 năm của ông."],
     "wikidataId": "Q44819",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q44819",
       "https://snl.no/Suharto",
-      "https://www.enciklopedija.hr/clanak/suharto"
+      "https://www.enciklopedija.hr/clanak/suharto",
+      "http://news.bbc.co.uk/2/hi/asia-pacific/7211565.stm"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "2008-01-27",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "http://news.bbc.co.uk/2/hi/asia-pacific/7211565.stm"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -871,11 +829,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Johnny Depp là diễn viên.",
-    "biography": "Johnny Depp là diễn viên, sinh ngày 9 tháng 6 năm 1963.",
-    "highlights": [
-      "Sinh ngày 9 tháng 6 năm 1963.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ],
+    "biography": "Johnny Depp được chú ý với vai rocker trong Cry-Baby (1989) và vai người ngoài cuộc trong Edward Scissorhands (1990).",
+    "highlights": ["Sinh ngày 9 tháng 6 năm 1963.", "Johnny Depp được chú ý với vai rocker trong Cry-Baby (1989) và vai người ngoài cuộc trong Edward Scissorhands (1990)."],
     "wikidataId": "Q37175",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q37175",
@@ -905,20 +860,24 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇦🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Bertha von Suttner là nhà văn, nhà hoạt động hòa bình.",
-    "biography": "Bertha von Suttner là nhà văn, nhà hoạt động hòa bình, sinh ngày 9 tháng 6 năm 1843.",
-    "highlights": [
-      "Sinh ngày 9 tháng 6 năm 1843.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Sau chín năm sống lưu vong, Bertha von Suttner trở về Áo và viết Das Maschinenzeitalter (1889), tác phẩm bàn về thời đại máy móc.",
+    "highlights": ["Sinh ngày 9 tháng 6 năm 1843.", "Sau chín năm sống lưu vong, Bertha von Suttner trở về Áo và viết Das Maschinenzeitalter (1889), tác phẩm bàn về thời đại máy móc."],
     "wikidataId": "Q18456",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q18456",
       "https://snl.no/Bertha_von_Suttner",
-      "https://www.enciklopedija.hr/clanak/suttner-bertha-von"
+      "https://www.enciklopedija.hr/clanak/suttner-bertha-von",
+      "https://brockhaus.de/ecs/julex/article/bertha-von-suttner"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1914-06-21",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/bertha-von-suttner"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -939,11 +898,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "George Stephenson là kỹ sư.",
-    "biography": "George Stephenson là kỹ sư, sinh ngày 9 tháng 6 năm 1781.",
-    "highlights": [
-      "Sinh ngày 9 tháng 6 năm 1781.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Ngày 27/9/1825, đoàn tàu đầu tiên chạy bằng đầu máy hơi nước Locomotion do George Stephenson chế tạo bắt đầu hành trình.",
+    "highlights": ["Sinh ngày 9 tháng 6 năm 1781.", "Ngày 27/9/1825, đoàn tàu đầu tiên chạy bằng đầu máy hơi nước Locomotion do George Stephenson chế tạo bắt đầu hành trình."],
     "wikidataId": "Q133614",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q133614",
@@ -973,11 +929,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Judy Garland là diễn viên, ca sĩ.",
-    "biography": "Judy Garland là diễn viên, ca sĩ, sinh ngày 10 tháng 6 năm 1922.",
-    "highlights": [
-      "Sinh ngày 10 tháng 6 năm 1922.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ],
+    "biography": "Judy Garland có bước đột phá trong The Wizard of Oz (1939), nơi bà hát Over the Rainbow, ca khúc gắn liền với sự nghiệp của mình.",
+    "highlights": ["Sinh ngày 10 tháng 6 năm 1922.", "Judy Garland có bước đột phá trong The Wizard of Oz (1939), nơi bà hát Over the Rainbow, ca khúc gắn liền với sự nghiệp của mình."],
     "wikidataId": "Q11637",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q11637",
@@ -1007,11 +960,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇮🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Carlo Ancelotti là huấn luyện viên bóng đá.",
-    "biography": "Carlo Ancelotti là huấn luyện viên bóng đá, sinh ngày 10 tháng 6 năm 1959.",
-    "highlights": [
-      "Sinh ngày 10 tháng 6 năm 1959.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Carlo Ancelotti rời Reggiana sau một mùa giải để chuyển sang Parma, nơi ông ở lại đến năm 1998.",
+    "highlights": ["Sinh ngày 10 tháng 6 năm 1959.", "Carlo Ancelotti rời Reggiana sau một mùa giải để chuyển sang Parma, nơi ông ở lại đến năm 1998."],
     "wikidataId": "Q174614",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q174614",
@@ -1041,11 +991,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nguyễn Văn Lai là vận động viên điền kinh.",
-    "biography": "Nguyễn Văn Lai là vận động viên điền kinh, sinh ngày 10 tháng 6 năm 1986.",
-    "highlights": [
-      "Sinh ngày 10 tháng 6 năm 1986.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Nguyễn Văn Lai đạt 14:04.82 ở cự ly 5.000 m tại Singapore ngày 9/6/2015; World Athletics đánh dấu thành tích này là NR.",
+    "highlights": ["Sinh ngày 10 tháng 6 năm 1986.", "Nguyễn Văn Lai đạt 14:04.82 ở cự ly 5.000 m tại Singapore ngày 9/6/2015; World Athletics đánh dấu thành tích này là NR."],
     "wikidataId": "Q48225677",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q48225677",
@@ -1075,11 +1022,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Richard Strauss là nhà soạn nhạc.",
-    "biography": "Richard Strauss là nhà soạn nhạc, sinh ngày 11 tháng 6 năm 1864.",
-    "highlights": [
-      "Sinh ngày 11 tháng 6 năm 1864.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ],
+    "biography": "Năm 1933, Richard Strauss được bổ nhiệm làm chủ tịch đầu tiên của Reichsmusikkammer, cơ quan nhà nước Đức dưới thời Adolf Hitler.",
+    "highlights": ["Sinh ngày 11 tháng 6 năm 1864.", "Năm 1933, Richard Strauss được bổ nhiệm làm chủ tịch đầu tiên của Reichsmusikkammer, cơ quan nhà nước Đức dưới thời Adolf Hitler."],
     "wikidataId": "Q13894",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q13894",
@@ -1109,11 +1053,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "John Constable là họa sĩ.",
-    "biography": "John Constable là họa sĩ, sinh ngày 11 tháng 6 năm 1776.",
-    "highlights": [
-      "Sinh ngày 11 tháng 6 năm 1776.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ],
+    "biography": "Bức tranh The Hay Wain (1821) giúp John Constable nổi tiếng ở Paris sau khi được trưng bày năm 1824.",
+    "highlights": ["Sinh ngày 11 tháng 6 năm 1776.", "Bức tranh The Hay Wain (1821) giúp John Constable nổi tiếng ở Paris sau khi được trưng bày năm 1824."],
     "wikidataId": "Q159297",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q159297",
@@ -1143,11 +1084,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Gene Wilder là diễn viên.",
-    "biography": "Gene Wilder là diễn viên, sinh ngày 11 tháng 6 năm 1933.",
-    "highlights": [
-      "Sinh ngày 11 tháng 6 năm 1933.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ],
+    "biography": "Gene Wilder được đề cử Oscar Nam diễn viên phụ với The Producers (1967) và Kịch bản chuyển thể với Young Frankenstein (1975).",
+    "highlights": ["Sinh ngày 11 tháng 6 năm 1933.", "Gene Wilder được đề cử Oscar Nam diễn viên phụ với The Producers (1967) và Kịch bản chuyển thể với Young Frankenstein (1975)."],
     "wikidataId": "Q191966",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q191966",
@@ -1177,11 +1115,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇳🇱",
     "image": "/people/placeholder.svg",
     "shortDescription": "Anne Frank là người viết nhật ký.",
-    "biography": "Anne Frank là người viết nhật ký, sinh ngày 12 tháng 6 năm 1929.",
-    "highlights": [
-      "Sinh ngày 12 tháng 6 năm 1929.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Nhật ký của Anne Frank được xuất bản sau khi bà qua đời, với nhan đề Het Achterhuis, năm 1947.",
+    "highlights": ["Sinh ngày 12 tháng 6 năm 1929.", "Nhật ký của Anne Frank được xuất bản sau khi bà qua đời, với nhan đề Het Achterhuis, năm 1947."],
     "wikidataId": "Q4583",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q4583",
@@ -1211,20 +1146,24 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇨🇭",
     "image": "/people/placeholder.svg",
     "shortDescription": "Johanna Spyri là nhà văn.",
-    "biography": "Johanna Spyri là nhà văn, sinh ngày 12 tháng 6 năm 1827.",
-    "highlights": [
-      "Sinh ngày 12 tháng 6 năm 1827.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Hai tập truyện Heidi của Johanna Spyri được xuất bản năm 1880 và 1881, đưa bà vào hàng ngũ tác giả thiếu nhi nổi tiếng quốc tế.",
+    "highlights": ["Sinh ngày 12 tháng 6 năm 1827.", "Hai tập truyện Heidi của Johanna Spyri được xuất bản năm 1880 và 1881, đưa bà vào hàng ngũ tác giả thiếu nhi nổi tiếng quốc tế."],
     "wikidataId": "Q123053",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q123053",
       "https://snl.no/Johanna_Spyri",
-      "https://www.enciklopedija.hr/clanak/spyri-johanna"
+      "https://www.enciklopedija.hr/clanak/spyri-johanna",
+      "https://brockhaus.de/ecs/julex/article/spyri-johanna"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1901-07-07",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/spyri-johanna"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -1245,11 +1184,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Anthony Eden là chính khách.",
-    "biography": "Anthony Eden là chính khách, sinh ngày 12 tháng 6 năm 1897.",
-    "highlights": [
-      "Sinh ngày 12 tháng 6 năm 1897.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Sau khủng hoảng Suez, Anthony Eden từ chức Thủ tướng Anh và nghị sĩ vào tháng 1/1957.",
+    "highlights": ["Sinh ngày 12 tháng 6 năm 1897.", "Sau khủng hoảng Suez, Anthony Eden từ chức Thủ tướng Anh và nghị sĩ vào tháng 1/1957."],
     "wikidataId": "Q128995",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q128995",
@@ -1279,11 +1215,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "James Clerk Maxwell là nhà vật lý.",
-    "biography": "James Clerk Maxwell là nhà vật lý, sinh ngày 13 tháng 6 năm 1831.",
-    "highlights": [
-      "Sinh ngày 13 tháng 6 năm 1831.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "James Clerk Maxwell giảng dạy tại Aberdeen và King's College London, rồi trở thành giáo sư đầu tiên kiêm giám đốc Phòng thí nghiệm Cavendish từ năm 1871.",
+    "highlights": ["Sinh ngày 13 tháng 6 năm 1831.", "James Clerk Maxwell giảng dạy tại Aberdeen và King's College London, rồi trở thành giáo sư đầu tiên kiêm giám đốc Phòng thí nghiệm Cavendish từ năm 1871."],
     "wikidataId": "Q9095",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q9095",
@@ -1313,21 +1246,25 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Luis Walter Alvarez là nhà vật lý thực nghiệm.",
-    "biography": "Luis Walter Alvarez là nhà vật lý thực nghiệm, sinh ngày 13 tháng 6 năm 1911.",
-    "highlights": [
-      "Sinh ngày 13 tháng 6 năm 1911.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Năm 1980, Luis Alvarez cùng con trai Walter Alvarez và hai nhà hóa học công bố giả thuyết rằng va chạm tiểu hành tinh khoảng 66 triệu năm trước đã dẫn đến sự tuyệt chủng của khủng long.",
+    "highlights": ["Sinh ngày 13 tháng 6 năm 1911.", "Năm 1980, Luis Alvarez cùng con trai Walter Alvarez và hai nhà hóa học công bố giả thuyết rằng va chạm tiểu hành tinh khoảng 66 triệu năm trước đã dẫn đến sự tuyệt chủng của khủng long."],
     "wikidataId": "Q178344",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q178344",
       "https://snl.no/Luis_Walter_Alvarez",
-      "https://www.enciklopedija.hr/clanak/alvarez-luis-walter"
+      "https://www.enciklopedija.hr/clanak/alvarez-luis-walter",
+      "https://www.nps.gov/people/manhattan-project-scientists-luis-walter-alvarez.htm"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-06"
+    "verifiedAt": "2026-10-06",
+    "deathDate": "1988-09-01",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.nps.gov/people/manhattan-project-scientists-luis-walter-alvarez.htm"
+    ],
+    "deathDatePrecision": "day"
   },
   {
     "id": "paavo-nurmi",
@@ -1347,11 +1284,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇫🇮",
     "image": "/people/placeholder.svg",
     "shortDescription": "Paavo Nurmi là vận động viên điền kinh.",
-    "biography": "Paavo Nurmi là vận động viên điền kinh, sinh ngày 13 tháng 6 năm 1897.",
-    "highlights": [
-      "Sinh ngày 13 tháng 6 năm 1897.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Paavo Nurmi được gọi là “Người Phần Lan bay” nhờ những thành tích chạy đường dài nổi bật vào đầu thập niên 1920.",
+    "highlights": ["Sinh ngày 13 tháng 6 năm 1897.", "Paavo Nurmi được gọi là “Người Phần Lan bay” nhờ những thành tích chạy đường dài nổi bật vào đầu thập niên 1920."],
     "wikidataId": "Q101942",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q101942",
@@ -1381,11 +1315,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Donald Trump là chính khách.",
-    "biography": "Donald Trump là chính khách, sinh ngày 14 tháng 6 năm 1946.",
-    "highlights": [
-      "Sinh ngày 14 tháng 6 năm 1946.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Donald Trump trở thành người thứ hai sau Grover Cleveland được bầu làm Tổng thống Hoa Kỳ cho hai nhiệm kỳ không liên tiếp.",
+    "highlights": ["Sinh ngày 14 tháng 6 năm 1946.", "Donald Trump trở thành người thứ hai sau Grover Cleveland được bầu làm Tổng thống Hoa Kỳ cho hai nhiệm kỳ không liên tiếp."],
     "wikidataId": "Q22686",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q22686",
@@ -1415,20 +1346,24 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Harriet Beecher Stowe là nhà văn, nhà hoạt động xã hội.",
-    "biography": "Harriet Beecher Stowe là nhà văn, nhà hoạt động xã hội, sinh ngày 14 tháng 6 năm 1811.",
-    "highlights": [
-      "Sinh ngày 14 tháng 6 năm 1811.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Harriet Beecher Stowe xuất bản Uncle Tom's Cabin năm 1852; tiểu thuyết này trở thành tác phẩm văn học chống chế độ nô lệ có ảnh hưởng lớn.",
+    "highlights": ["Sinh ngày 14 tháng 6 năm 1811.", "Harriet Beecher Stowe xuất bản Uncle Tom's Cabin năm 1852; tiểu thuyết này trở thành tác phẩm văn học chống chế độ nô lệ có ảnh hưởng lớn."],
     "wikidataId": "Q102513",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q102513",
       "https://snl.no/Harriet_Beecher_Stowe",
-      "https://www.enciklopedija.hr/clanak/stowe-harriet-beecher"
+      "https://www.enciklopedija.hr/clanak/stowe-harriet-beecher",
+      "https://brockhaus.de/ecs/julex/article/stowe-harriet-elizabeth-beecher"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1896-07-01",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/stowe-harriet-elizabeth-beecher"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -1449,11 +1384,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇦🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Karl Landsteiner là bác sĩ, nhà sinh học.",
-    "biography": "Karl Landsteiner là bác sĩ, nhà sinh học, sinh ngày 14 tháng 6 năm 1868.",
-    "highlights": [
-      "Sinh ngày 14 tháng 6 năm 1868.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Karl Landsteiner nhận Nobel Sinh lý học hoặc Y học năm 1930 nhờ phát hiện các nhóm máu ở người, gồm hệ ABO.",
+    "highlights": ["Sinh ngày 14 tháng 6 năm 1868.", "Karl Landsteiner nhận Nobel Sinh lý học hoặc Y học năm 1930 nhờ phát hiện các nhóm máu ở người, gồm hệ ABO."],
     "wikidataId": "Q84405",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q84405",
@@ -1483,20 +1415,24 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇳🇴",
     "image": "/people/placeholder.svg",
     "shortDescription": "Edvard Grieg là nhà soạn nhạc, nghệ sĩ dương cầm.",
-    "biography": "Edvard Grieg là nhà soạn nhạc, nghệ sĩ dương cầm, sinh ngày 15 tháng 6 năm 1843.",
-    "highlights": [
-      "Sinh ngày 15 tháng 6 năm 1843.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ],
+    "biography": "Ba chương cuối trong bản giao hưởng duy nhất của Edvard Grieg được công diễn lần đầu tại Tivoli, Copenhagen, năm 1864.",
+    "highlights": ["Sinh ngày 15 tháng 6 năm 1843.", "Ba chương cuối trong bản giao hưởng duy nhất của Edvard Grieg được công diễn lần đầu tại Tivoli, Copenhagen, năm 1864."],
     "wikidataId": "Q80621",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q80621",
       "https://snl.no/Edvard_Grieg",
-      "https://www.enciklopedija.hr/clanak/grieg-edvard"
+      "https://www.enciklopedija.hr/clanak/grieg-edvard",
+      "https://brockhaus.de/ecs/julex/article/grieg-edvard-hagerup"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1907-09-04",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/grieg-edvard-hagerup"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -1517,11 +1453,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇩🇰",
     "image": "/people/placeholder.svg",
     "shortDescription": "Michael Laudrup là cầu thủ bóng đá, huấn luyện viên.",
-    "biography": "Michael Laudrup là cầu thủ bóng đá, huấn luyện viên, sinh ngày 15 tháng 6 năm 1964.",
-    "highlights": [
-      "Sinh ngày 15 tháng 6 năm 1964.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Khi dẫn dắt Swansea từ tháng 6/2012, Michael Laudrup trở thành huấn luyện viên người Đan Mạch đầu tiên cầm quân tại Premier League.",
+    "highlights": ["Sinh ngày 15 tháng 6 năm 1964.", "Khi dẫn dắt Swansea từ tháng 6/2012, Michael Laudrup trở thành huấn luyện viên người Đan Mạch đầu tiên cầm quân tại Premier League."],
     "wikidataId": "Q188720",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q188720",
@@ -1551,11 +1484,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Alain Aspect là nhà vật lý.",
-    "biography": "Alain Aspect là nhà vật lý, sinh ngày 15 tháng 6 năm 1947.",
-    "highlights": [
-      "Sinh ngày 15 tháng 6 năm 1947.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Alain Aspect là nhà vật lý Pháp được biết đến nhờ các thí nghiệm về vật lý lượng tử và hiện tượng rối lượng tử.",
+    "highlights": ["Sinh ngày 15 tháng 6 năm 1947.", "Alain Aspect là nhà vật lý Pháp được biết đến nhờ các thí nghiệm về vật lý lượng tử và hiện tượng rối lượng tử."],
     "wikidataId": "Q364997",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q364997",
@@ -1585,11 +1515,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Jürgen Klopp là huấn luyện viên bóng đá.",
-    "biography": "Jürgen Klopp là huấn luyện viên bóng đá, sinh ngày 16 tháng 6 năm 1967.",
-    "highlights": [
-      "Sinh ngày 16 tháng 6 năm 1967.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Jürgen Klopp được bổ nhiệm làm huấn luyện viên Borussia Dortmund vào tháng 5/2008.",
+    "highlights": ["Sinh ngày 16 tháng 6 năm 1967.", "Jürgen Klopp được bổ nhiệm làm huấn luyện viên Borussia Dortmund vào tháng 5/2008."],
     "wikidataId": "Q83106",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q83106",
@@ -1619,11 +1546,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Stan Laurel là diễn viên hài.",
-    "biography": "Stan Laurel là diễn viên hài, sinh ngày 16 tháng 6 năm 1890.",
-    "highlights": [
-      "Sinh ngày 16 tháng 6 năm 1890.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ],
+    "biography": "Stan Laurel là diễn viên hài điện ảnh người Anh, nổi tiếng với vai diễn trong bộ đôi Laurel và Hardy.",
+    "highlights": ["Sinh ngày 16 tháng 6 năm 1890.", "Stan Laurel là diễn viên hài điện ảnh người Anh, nổi tiếng với vai diễn trong bộ đôi Laurel và Hardy."],
     "wikidataId": "Q72869",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q72869",
@@ -1653,11 +1577,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Tupac Shakur là rapper, diễn viên.",
-    "biography": "Tupac Shakur là rapper, diễn viên, sinh ngày 16 tháng 6 năm 1971.",
-    "highlights": [
-      "Sinh ngày 16 tháng 6 năm 1971.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ],
+    "biography": "Tupac Shakur phát hành năm album trước khi bị bắn chết năm 1996; nhiều album khác được phát hành sau khi ông qua đời.",
+    "highlights": ["Sinh ngày 16 tháng 6 năm 1971.", "Tupac Shakur phát hành năm album trước khi bị bắn chết năm 1996; nhiều album khác được phát hành sau khi ông qua đời."],
     "wikidataId": "Q6107",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q6107",
@@ -1687,11 +1608,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇧🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Eddy Merckx là vận động viên đua xe đạp.",
-    "biography": "Eddy Merckx là vận động viên đua xe đạp, sinh ngày 17 tháng 6 năm 1945.",
-    "highlights": [
-      "Sinh ngày 17 tháng 6 năm 1945.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Năm 1969, Eddy Merckx lần đầu vô địch Tour de France với cách biệt hơn 17 phút.",
+    "highlights": ["Sinh ngày 17 tháng 6 năm 1945.", "Năm 1969, Eddy Merckx lần đầu vô địch Tour de France với cách biệt hơn 17 phút."],
     "wikidataId": "Q103756",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q103756",
@@ -1721,21 +1639,22 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "François Jacob là nhà sinh học, nhà di truyền học.",
-    "biography": "François Jacob là nhà sinh học, nhà di truyền học, sinh ngày 17 tháng 6 năm 1920.",
-    "highlights": [
-      "Sinh ngày 17 tháng 6 năm 1920.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Năm 1965, François Jacob nhận Nobel Y học cùng Jacques Monod và André Lwoff nhờ phát hiện về cơ chế điều hòa di truyền trong tổng hợp enzyme và virus.",
+    "highlights": ["Sinh ngày 17 tháng 6 năm 1920.", "Năm 1965, François Jacob nhận Nobel Y học cùng Jacques Monod và André Lwoff nhờ phát hiện về cơ chế điều hòa di truyền trong tổng hợp enzyme và virus."],
     "wikidataId": "Q218311",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q218311",
       "https://snl.no/Fran%C3%A7ois_Jacob",
-      "https://www.enciklopedija.hr/clanak/jacob-francois"
+      "https://www.enciklopedija.hr/clanak/jacob-francois",
+      "https://www.nobelprize.org/prizes/medicine/1965/jacob/facts/",
+      "https://www.academie-francaise.fr/actualites/deces-du-professeur-francois-jacob-f38",
+      "https://catalogue.bnf.fr/ark:/12148/cb119083776"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-06"
+    "verifiedAt": "2026-10-06",
+    "lifeStatus": "deceased"
   },
   {
     "id": "william-crookes",
@@ -1755,11 +1674,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "William Crookes là nhà hóa học, nhà vật lý.",
-    "biography": "William Crookes là nhà hóa học, nhà vật lý, sinh ngày 17 tháng 6 năm 1832.",
-    "highlights": [
-      "Sinh ngày 17 tháng 6 năm 1832.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "William Crookes được biết đến với các nghiên cứu về sự phóng điện trong ống thủy tinh chứa khí áp suất thấp, sau này gọi là ống Crookes.",
+    "highlights": ["Sinh ngày 17 tháng 6 năm 1832.", "William Crookes được biết đến với các nghiên cứu về sự phóng điện trong ống thủy tinh chứa khí áp suất thấp, sau này gọi là ống Crookes."],
     "wikidataId": "Q189552",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q189552",
@@ -1789,11 +1705,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Paul McCartney là nhạc sĩ.",
-    "biography": "Paul McCartney là nhạc sĩ, sinh ngày 18 tháng 6 năm 1942.",
-    "highlights": [
-      "Sinh ngày 18 tháng 6 năm 1942.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ],
+    "biography": "Album Band on the Run (1973) của Paul McCartney cùng Wings được xem là tác phẩm kinh điển, sau hai album đầu không thành công với giới phê bình.",
+    "highlights": ["Sinh ngày 18 tháng 6 năm 1942.", "Album Band on the Run (1973) của Paul McCartney cùng Wings được xem là tác phẩm kinh điển, sau hai album đầu không thành công với giới phê bình."],
     "wikidataId": "Q2599",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q2599",
@@ -1823,11 +1736,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇪🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Kaja Kallas là chính khách.",
-    "biography": "Kaja Kallas là chính khách, sinh ngày 18 tháng 6 năm 1977.",
-    "highlights": [
-      "Sinh ngày 18 tháng 6 năm 1977.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Kaja Kallas là nữ thủ tướng đầu tiên của Estonia, tại nhiệm từ tháng 1/2021 đến tháng 7/2024; tháng 12/2024 bà trở thành Đại diện cấp cao EU về chính sách đối ngoại.",
+    "highlights": ["Sinh ngày 18 tháng 6 năm 1977.", "Kaja Kallas là nữ thủ tướng đầu tiên của Estonia, tại nhiệm từ tháng 1/2021 đến tháng 7/2024; tháng 12/2024 bà trở thành Đại diện cấp cao EU về chính sách đối ngoại."],
     "wikidataId": "Q11869065",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q11869065",
@@ -1857,11 +1767,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇵🇱",
     "image": "/people/placeholder.svg",
     "shortDescription": "Lech Kaczyński là chính khách.",
-    "biography": "Lech Kaczyński là chính khách, sinh ngày 18 tháng 6 năm 1949.",
-    "highlights": [
-      "Sinh ngày 18 tháng 6 năm 1949.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Lech Kaczyński giữ chức Tổng thống Ba Lan từ năm 2005 đến năm 2010.",
+    "highlights": ["Sinh ngày 18 tháng 6 năm 1949.", "Lech Kaczyński giữ chức Tổng thống Ba Lan từ năm 2005 đến năm 2010."],
     "wikidataId": "Q2757",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q2757",
@@ -1891,20 +1798,24 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Blaise Pascal là nhà toán học, nhà vật lý.",
-    "biography": "Blaise Pascal là nhà toán học, nhà vật lý, sinh ngày 19 tháng 6 năm 1623.",
-    "highlights": [
-      "Sinh ngày 19 tháng 6 năm 1623.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Blaise Pascal viết Lettres provinciales (1656–1657) tại tu viện Port-Royal để phê phán học thuyết luân lý của Dòng Tên.",
+    "highlights": ["Sinh ngày 19 tháng 6 năm 1623.", "Blaise Pascal viết Lettres provinciales (1656–1657) tại tu viện Port-Royal để phê phán học thuyết luân lý của Dòng Tên."],
     "wikidataId": "Q1290",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q1290",
       "https://snl.no/Blaise_Pascal",
-      "https://www.enciklopedija.hr/clanak/pascal-blaise"
+      "https://www.enciklopedija.hr/clanak/pascal-blaise",
+      "https://brockhaus.de/ecs/julex/article/pascal-blaise"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1662-08-19",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/pascal-blaise"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -1925,11 +1836,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Salman Rushdie là nhà văn.",
-    "biography": "Salman Rushdie là nhà văn, sinh ngày 19 tháng 6 năm 1947.",
-    "highlights": [
-      "Sinh ngày 19 tháng 6 năm 1947.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Salman Rushdie được biết đến rộng rãi qua những tranh cãi quanh tiểu thuyết The Satanic Verses (1988).",
+    "highlights": ["Sinh ngày 19 tháng 6 năm 1947.", "Salman Rushdie được biết đến rộng rãi qua những tranh cãi quanh tiểu thuyết The Satanic Verses (1988)."],
     "wikidataId": "Q44306",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q44306",
@@ -1959,11 +1867,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Dirk Nowitzki là cầu thủ bóng rổ.",
-    "biography": "Dirk Nowitzki là cầu thủ bóng rổ, sinh ngày 19 tháng 6 năm 1978.",
-    "highlights": [
-      "Sinh ngày 19 tháng 6 năm 1978.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Dù khởi đầu sự nghiệp tại DJK Würzburg ở Đức, Dirk Nowitzki được Milwaukee Bucks chọn trong kỳ NBA Draft năm 1998.",
+    "highlights": ["Sinh ngày 19 tháng 6 năm 1978.", "Dù khởi đầu sự nghiệp tại DJK Würzburg ở Đức, Dirk Nowitzki được Milwaukee Bucks chọn trong kỳ NBA Draft năm 1998."],
     "wikidataId": "Q44068",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q44068",
@@ -1993,11 +1898,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇦🇺",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nicole Kidman là diễn viên, nhà sản xuất phim.",
-    "biography": "Nicole Kidman là diễn viên, nhà sản xuất phim, sinh ngày 20 tháng 6 năm 1967.",
-    "highlights": [
-      "Sinh ngày 20 tháng 6 năm 1967.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ],
+    "biography": "Nicole Kidman ra mắt điện ảnh khi còn ở tuổi thiếu niên tại Australia và được biết đến qua loạt phim truyền hình Vietnam (1985).",
+    "highlights": ["Sinh ngày 20 tháng 6 năm 1967.", "Nicole Kidman ra mắt điện ảnh khi còn ở tuổi thiếu niên tại Australia và được biết đến qua loạt phim truyền hình Vietnam (1985)."],
     "wikidataId": "Q37459",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q37459",
@@ -2027,17 +1929,10 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Lê Văn Công là vận động viên cử tạ paralympic.",
-    "biography": "Lê Văn Công là vận động viên cử tạ Paralympic, sinh ngày 20 tháng 6 năm 1984.",
-    "highlights": [
-      "Sinh ngày 20 tháng 6 năm 1984.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Tại Paralympic Rio 2016, Lê Văn Công đứng hạng nhất hạng cân cử tạ nam 49 kg.",
+    "highlights": ["Sinh ngày 20 tháng 6 năm 1984.", "Tại Paralympic Rio 2016, Lê Văn Công đứng hạng nhất hạng cân cử tạ nam 49 kg."],
     "wikidataId": "Q26837508",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q26837508",
-      "https://paralymp.ru/upload/iblock/f53/f44zloszr87knyxen4svyg7neyd8hh3a.pdf",
-      "https://toyotatimes-sports.toyota/aichi-nagoya-2026/drivepassion/athletes/21043/?source=drivepassion_top"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q26837508", "https://paralymp.ru/upload/iblock/f53/f44zloszr87knyxen4svyg7neyd8hh3a.pdf", "https://toyotatimes-sports.toyota/aichi-nagoya-2026/drivepassion/athletes/21043/?source=drivepassion_top", "https://www.paralympic.org/van-cong-le"],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "vietnam",
@@ -2061,11 +1956,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Frank Lampard là cầu thủ bóng đá, huấn luyện viên.",
-    "biography": "Frank Lampard là cầu thủ bóng đá, huấn luyện viên, sinh ngày 20 tháng 6 năm 1978.",
-    "highlights": [
-      "Sinh ngày 20 tháng 6 năm 1978.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Sau mùa giải 2013–2014, Frank Lampard rời Chelsea và gia nhập New York City FC.",
+    "highlights": ["Sinh ngày 20 tháng 6 năm 1978.", "Sau mùa giải 2013–2014, Frank Lampard rời Chelsea và gia nhập New York City FC."],
     "wikidataId": "Q41533",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q41533",
@@ -2095,20 +1987,24 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Jean-Paul Sartre là triết gia, nhà văn.",
-    "biography": "Jean-Paul Sartre là triết gia, nhà văn, sinh ngày 21 tháng 6 năm 1905.",
-    "highlights": [
-      "Sinh ngày 21 tháng 6 năm 1905.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Năm 1940, quân Đức bắt Jean-Paul Sartre và giam ông chín tháng; trước đó ông từng làm nhà khí tượng học cho quân đội Pháp.",
+    "highlights": ["Sinh ngày 21 tháng 6 năm 1905.", "Năm 1940, quân Đức bắt Jean-Paul Sartre và giam ông chín tháng; trước đó ông từng làm nhà khí tượng học cho quân đội Pháp."],
     "wikidataId": "Q9364",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q9364",
       "https://snl.no/Jean-Paul_Sartre",
-      "https://www.enciklopedija.hr/clanak/sartre-jean-paul"
+      "https://www.enciklopedija.hr/clanak/sartre-jean-paul",
+      "https://brockhaus.de/ecs/julex/article/sartre-jean-paul"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1980-04-15",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/sartre-jean-paul"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -2129,11 +2025,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Edward Snowden là người tố giác, cựu nhân viên nsa.",
-    "biography": "Edward Snowden là người tố giác, cựu nhân viên NSA, sinh ngày 21 tháng 6 năm 1983.",
-    "highlights": [
-      "Sinh ngày 21 tháng 6 năm 1983.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Năm 2019, Edward Snowden xuất bản hồi ký Permanent Record, phát hành bản dịch tiếng Na Uy với tựa Systemfeil.",
+    "highlights": ["Sinh ngày 21 tháng 6 năm 1983.", "Năm 2019, Edward Snowden xuất bản hồi ký Permanent Record, phát hành bản dịch tiếng Na Uy với tựa Systemfeil."],
     "wikidataId": "Q13424289",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q13424289",
@@ -2163,11 +2056,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Françoise Sagan là nhà văn.",
-    "biography": "Françoise Sagan là nhà văn, sinh ngày 21 tháng 6 năm 1935.",
-    "highlights": [
-      "Sinh ngày 21 tháng 6 năm 1935.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Françoise Sagan ra mắt với Bonjour Tristesse năm 1954; cuốn sách nhanh chóng thành công trên toàn thế giới.",
+    "highlights": ["Sinh ngày 21 tháng 6 năm 1935.", "Françoise Sagan ra mắt với Bonjour Tristesse năm 1954; cuốn sách nhanh chóng thành công trên toàn thế giới."],
     "wikidataId": "Q1646",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q1646",
@@ -2197,11 +2087,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Meryl Streep là diễn viên.",
-    "biography": "Meryl Streep là diễn viên, sinh ngày 22 tháng 6 năm 1949.",
-    "highlights": [
-      "Sinh ngày 22 tháng 6 năm 1949.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ],
+    "biography": "Năm 2024, Meryl Streep nhận Cành cọ Vàng danh dự tại Liên hoan phim Cannes vì những đóng góp trọn đời cho điện ảnh.",
+    "highlights": ["Sinh ngày 22 tháng 6 năm 1949.", "Năm 2024, Meryl Streep nhận Cành cọ Vàng danh dự tại Liên hoan phim Cannes vì những đóng góp trọn đời cho điện ảnh."],
     "wikidataId": "Q873",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q873",
@@ -2231,11 +2118,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Erich Maria Remarque là nhà văn.",
-    "biography": "Erich Maria Remarque là nhà văn, sinh ngày 22 tháng 6 năm 1898.",
-    "highlights": [
-      "Sinh ngày 22 tháng 6 năm 1898.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Tiểu thuyết Im Westen nichts Neues (1929) đưa Erich Maria Remarque đến với độc giả quốc tế.",
+    "highlights": ["Sinh ngày 22 tháng 6 năm 1898.", "Tiểu thuyết Im Westen nichts Neues (1929) đưa Erich Maria Remarque đến với độc giả quốc tế."],
     "wikidataId": "Q47293",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q47293",
@@ -2265,11 +2149,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Vương Thị Huyền là vận động viên cử tạ.",
-    "biography": "Vương Thị Huyền là vận động viên cử tạ, sinh ngày 22 tháng 6 năm 1992.",
-    "highlights": [
-      "Sinh ngày 22 tháng 6 năm 1992.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Tại Asian Games Jakarta 2018, Vương Thị Huyền xếp thứ tư hạng cử tạ nữ 48 kg với tổng cử 181 kg.",
+    "highlights": ["Sinh ngày 22 tháng 6 năm 1992.", "Tại Asian Games Jakarta 2018, Vương Thị Huyền xếp thứ tư hạng cử tạ nữ 48 kg với tổng cử 181 kg."],
     "wikidataId": "Q24809911",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q24809911",
@@ -2299,11 +2180,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Jean Anouilh là nhà viết kịch.",
-    "biography": "Jean Anouilh là nhà viết kịch, sinh ngày 23 tháng 6 năm 1910.",
-    "highlights": [
-      "Sinh ngày 23 tháng 6 năm 1910.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "La Sauvage (1938) là thành công lớn đầu tiên của nhà viết kịch Jean Anouilh.",
+    "highlights": ["Sinh ngày 23 tháng 6 năm 1910.", "La Sauvage (1938) là thành công lớn đầu tiên của nhà viết kịch Jean Anouilh."],
     "wikidataId": "Q179025",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q179025",
@@ -2333,11 +2211,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Alan Turing là nhà toán học, nhà khoa học máy tính.",
-    "biography": "Alan Turing là nhà toán học, nhà khoa học máy tính, sinh ngày 23 tháng 6 năm 1912.",
-    "highlights": [
-      "Sinh ngày 23 tháng 6 năm 1912.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Năm 1945, Alan Turing tham gia Phòng thí nghiệm Vật lý Quốc gia ở London và góp phần phát triển máy tính ACE dựa trên các ý tưởng của ông.",
+    "highlights": ["Sinh ngày 23 tháng 6 năm 1912.", "Năm 1945, Alan Turing tham gia Phòng thí nghiệm Vật lý Quốc gia ở London và góp phần phát triển máy tính ACE dựa trên các ý tưởng của ông."],
     "wikidataId": "Q7251",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q7251",
@@ -2367,11 +2242,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Zinedine Zidane là cầu thủ bóng đá, huấn luyện viên.",
-    "biography": "Zinedine Zidane là cầu thủ bóng đá, huấn luyện viên, sinh ngày 23 tháng 6 năm 1972.",
-    "highlights": [
-      "Sinh ngày 23 tháng 6 năm 1972.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Ngày 4/1/2016, Zinedine Zidane tiếp quản vị trí huấn luyện viên trưởng Real Madrid sau khi Rafael Benítez bị sa thải.",
+    "highlights": ["Sinh ngày 23 tháng 6 năm 1972.", "Ngày 4/1/2016, Zinedine Zidane tiếp quản vị trí huấn luyện viên trưởng Real Madrid sau khi Rafael Benítez bị sa thải."],
     "wikidataId": "Q1835",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q1835",
@@ -2401,11 +2273,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇦🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Lionel Messi là cầu thủ bóng đá.",
-    "biography": "Lionel Messi là cầu thủ bóng đá, sinh ngày 24 tháng 6 năm 1987.",
-    "highlights": [
-      "Sinh ngày 24 tháng 6 năm 1987.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Lionel Messi được FIFA vinh danh là Cầu thủ nam xuất sắc nhất thế giới vào các năm 2009, 2019, 2022 và 2023.",
+    "highlights": ["Sinh ngày 24 tháng 6 năm 1987.", "Lionel Messi được FIFA vinh danh là Cầu thủ nam xuất sắc nhất thế giới vào các năm 2009, 2019, 2022 và 2023."],
     "wikidataId": "Q615",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q615",
@@ -2435,11 +2304,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇧🇬",
     "image": "/people/placeholder.svg",
     "shortDescription": "Julia Kristeva là triết gia, nhà nghiên cứu.",
-    "biography": "Julia Kristeva là triết gia, nhà nghiên cứu, sinh ngày 24 tháng 6 năm 1941.",
-    "highlights": [
-      "Sinh ngày 24 tháng 6 năm 1941.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Julia Kristeva trở thành giáo sư danh dự năm 2010 nhưng vẫn tiếp tục xuất bản cả sách văn học lẫn công trình học thuật.",
+    "highlights": ["Sinh ngày 24 tháng 6 năm 1941.", "Julia Kristeva trở thành giáo sư danh dự năm 2010 nhưng vẫn tiếp tục xuất bản cả sách văn học lẫn công trình học thuật."],
     "wikidataId": "Q159876",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q159876",
@@ -2469,11 +2335,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Fred Hoyle là nhà thiên văn học.",
-    "biography": "Fred Hoyle là nhà thiên văn học, sinh ngày 24 tháng 6 năm 1915.",
-    "highlights": [
-      "Sinh ngày 24 tháng 6 năm 1915.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Fred Hoyle là giáo sư tại Đại học Cambridge từ năm 1958 và lãnh đạo Viện Thiên văn Lý thuyết của trường giai đoạn 1967–1972.",
+    "highlights": ["Sinh ngày 24 tháng 6 năm 1915.", "Fred Hoyle là giáo sư tại Đại học Cambridge từ năm 1958 và lãnh đạo Viện Thiên văn Lý thuyết của trường giai đoạn 1967–1972."],
     "wikidataId": "Q183397",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q183397",
@@ -2503,20 +2366,24 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "George Orwell là nhà văn, nhà báo.",
-    "biography": "George Orwell là nhà văn, nhà báo, sinh ngày 25 tháng 6 năm 1903.",
-    "highlights": [
-      "Sinh ngày 25 tháng 6 năm 1903.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Trong tiểu thuyết của mình, George Orwell dựng nên một xã hội tương lai để thể hiện hệ quả của những xu hướng quốc tế mà ông quan sát trong thập niên 1930–1940.",
+    "highlights": ["Sinh ngày 25 tháng 6 năm 1903.", "Trong tiểu thuyết của mình, George Orwell dựng nên một xã hội tương lai để thể hiện hệ quả của những xu hướng quốc tế mà ông quan sát trong thập niên 1930–1940."],
     "wikidataId": "Q3335",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q3335",
       "https://snl.no/George_Orwell",
-      "https://www.enciklopedija.hr/clanak/orwell-george"
+      "https://www.enciklopedija.hr/clanak/orwell-george",
+      "http://www.bbc.co.uk/history/historic_figures/orwell_george.shtml"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1950-01-21",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "http://www.bbc.co.uk/history/historic_figures/orwell_george.shtml"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -2537,20 +2404,24 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "George Michael là ca sĩ, nhạc sĩ.",
-    "biography": "George Michael là ca sĩ, nhạc sĩ, sinh ngày 25 tháng 6 năm 1963.",
-    "highlights": [
-      "Sinh ngày 25 tháng 6 năm 1963.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ],
+    "biography": "Sau mười năm không phát hành album, George Michael ra mắt Symphonica (2014), album trực tiếp có phần đệm của dàn nhạc giao hưởng.",
+    "highlights": ["Sinh ngày 25 tháng 6 năm 1963.", "Sau mười năm không phát hành album, George Michael ra mắt Symphonica (2014), album trực tiếp có phần đệm của dàn nhạc giao hưởng."],
     "wikidataId": "Q130311",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q130311",
       "https://snl.no/George_Michael",
-      "https://www.televisionacademy.com/bios/george-michael"
+      "https://www.televisionacademy.com/bios/george-michael",
+      "http://www.bbc.com/news/uk-38432862"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "2016-12-25",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "http://www.bbc.com/news/uk-38432862"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -2571,20 +2442,24 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Sidney Lumet là đạo diễn phim.",
-    "biography": "Sidney Lumet là đạo diễn phim, sinh ngày 25 tháng 6 năm 1924.",
-    "highlights": [
-      "Sinh ngày 25 tháng 6 năm 1924.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ],
+    "biography": "Sidney Lumet ra mắt vai trò đạo diễn điện ảnh với 12 Angry Men (1957), rồi trở thành một trong những đạo diễn Mỹ nổi bật thập niên 1960–1970.",
+    "highlights": ["Sinh ngày 25 tháng 6 năm 1924.", "Sidney Lumet ra mắt vai trò đạo diễn điện ảnh với 12 Angry Men (1957), rồi trở thành một trong những đạo diễn Mỹ nổi bật thập niên 1960–1970."],
     "wikidataId": "Q51559",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q51559",
       "https://snl.no/Sidney_Lumet",
-      "https://www.enciklopedija.hr/clanak/lumet-sidney"
+      "https://www.enciklopedija.hr/clanak/lumet-sidney",
+      "http://www.huffingtonpost.com/2011/04/09/sidney-lumet-dead_n_847014.html"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "2011-04-09",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "http://www.huffingtonpost.com/2011/04/09/sidney-lumet-dead_n_847014.html"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -2605,11 +2480,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Ariana Grande là ca sĩ, nhạc sĩ.",
-    "biography": "Ariana Grande là ca sĩ, nhạc sĩ, sinh ngày 26 tháng 6 năm 1993.",
-    "highlights": [
-      "Sinh ngày 26 tháng 6 năm 1993.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ],
+    "biography": "Album My Everything (2014) của Ariana Grande đứng đầu bảng xếp hạng tại Na Uy, Hoa Kỳ và nhiều quốc gia khác.",
+    "highlights": ["Sinh ngày 26 tháng 6 năm 1993.", "Album My Everything (2014) của Ariana Grande đứng đầu bảng xếp hạng tại Na Uy, Hoa Kỳ và nhiều quốc gia khác."],
     "wikidataId": "Q151892",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q151892",
@@ -2639,20 +2511,24 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇮🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Claudio Abbado là chỉ huy dàn nhạc.",
-    "biography": "Claudio Abbado là chỉ huy dàn nhạc, sinh ngày 26 tháng 6 năm 1933.",
-    "highlights": [
-      "Sinh ngày 26 tháng 6 năm 1933.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ],
+    "biography": "Claudio Abbado học piano với cha và tốt nghiệp Nhạc viện Giuseppe Verdi năm 1955.",
+    "highlights": ["Sinh ngày 26 tháng 6 năm 1933.", "Claudio Abbado học piano với cha và tốt nghiệp Nhạc viện Giuseppe Verdi năm 1955."],
     "wikidataId": "Q151608",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q151608",
       "https://snl.no/Claudio_Abbado",
-      "https://www.enciklopedija.hr/clanak/abbado-claudio"
+      "https://www.enciklopedija.hr/clanak/abbado-claudio",
+      "http://www.corriere.it/spettacoli/14_gennaio_20/addio-grande-maestro-claudio-abbado-direttore-d-orchestra-morto-80-anni-3286bd52-81b2-11e3-8a88-1094d7bd0d52.shtml"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "2014-01-20",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "http://www.corriere.it/spettacoli/14_gennaio_20/addio-grande-maestro-claudio-abbado-direttore-d-orchestra-morto-80-anni-3286bd52-81b2-11e3-8a88-1094d7bd0d52.shtml"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -2673,11 +2549,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Samir Nasri là cầu thủ bóng đá.",
-    "biography": "Samir Nasri là cầu thủ bóng đá, sinh ngày 26 tháng 6 năm 1987.",
-    "highlights": [
-      "Sinh ngày 26 tháng 6 năm 1987.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Samir Nasri cùng Manchester City vô địch Premier League hai lần, ở các mùa 2011–2012 và 2013–2014.",
+    "highlights": ["Sinh ngày 26 tháng 6 năm 1987.", "Samir Nasri cùng Manchester City vô địch Premier League hai lần, ở các mùa 2011–2012 và 2013–2014."],
     "wikidataId": "Q1920",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q1920",
@@ -2707,11 +2580,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇵🇱",
     "image": "/people/placeholder.svg",
     "shortDescription": "Krzysztof Kieślowski là đạo diễn, biên kịch.",
-    "biography": "Krzysztof Kieślowski là đạo diễn, biên kịch, sinh ngày 27 tháng 6 năm 1941.",
-    "highlights": [
-      "Sinh ngày 27 tháng 6 năm 1941.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ],
+    "biography": "Krzysztof Kieślowski tốt nghiệp trường điện ảnh Łódź năm 1969, rồi đạo diễn phim tài liệu và phim truyền hình Ba Lan.",
+    "highlights": ["Sinh ngày 27 tháng 6 năm 1941.", "Krzysztof Kieślowski tốt nghiệp trường điện ảnh Łódź năm 1969, rồi đạo diễn phim tài liệu và phim truyền hình Ba Lan."],
     "wikidataId": "Q55165",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q55165",
@@ -2741,11 +2611,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nico Rosberg là tay đua formula 1.",
-    "biography": "Nico Rosberg là tay đua Formula 1, sinh ngày 27 tháng 6 năm 1985.",
-    "highlights": [
-      "Sinh ngày 27 tháng 6 năm 1985.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Nico Rosberg vô địch thế giới Formula 1 năm 2016.",
+    "highlights": ["Sinh ngày 27 tháng 6 năm 1985.", "Nico Rosberg vô địch thế giới Formula 1 năm 2016."],
     "wikidataId": "Q75820",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q75820",
@@ -2775,11 +2642,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Gaston Bachelard là triết gia, nhà văn.",
-    "biography": "Gaston Bachelard là triết gia, nhà văn, sinh ngày 27 tháng 6 năm 1884.",
-    "highlights": [
-      "Sinh ngày 27 tháng 6 năm 1884.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Gaston Bachelard chuyên về triết học và lịch sử khoa học, rồi trở thành giáo sư tại Sorbonne.",
+    "highlights": ["Sinh ngày 27 tháng 6 năm 1884.", "Gaston Bachelard chuyên về triết học và lịch sử khoa học, rồi trở thành giáo sư tại Sorbonne."],
     "wikidataId": "Q270800",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q270800",
@@ -2809,11 +2673,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇨🇭",
     "image": "/people/placeholder.svg",
     "shortDescription": "Jean-Jacques Rousseau là triết gia, nhà văn.",
-    "biography": "Jean-Jacques Rousseau là triết gia, nhà văn, sinh ngày 28 tháng 6 năm 1712.",
-    "highlights": [
-      "Sinh ngày 28 tháng 6 năm 1712.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Jean-Jacques Rousseau là triết gia và nhà văn gốc Thụy Sĩ, định cư tại Pháp và trở thành một trong những tư tưởng gia nổi tiếng thế kỷ 18.",
+    "highlights": ["Sinh ngày 28 tháng 6 năm 1712.", "Jean-Jacques Rousseau là triết gia và nhà văn gốc Thụy Sĩ, định cư tại Pháp và trở thành một trong những tư tưởng gia nổi tiếng thế kỷ 18."],
     "wikidataId": "Q6527",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q6527",
@@ -2843,11 +2704,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇮🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Luigi Pirandello là nhà viết kịch, nhà văn.",
-    "biography": "Luigi Pirandello là nhà viết kịch, nhà văn, sinh ngày 28 tháng 6 năm 1867.",
-    "highlights": [
-      "Sinh ngày 28 tháng 6 năm 1867.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Các truyện ngắn của Luigi Pirandello được tập hợp trong hai tập Novelle per un anno, xuất bản giai đoạn 1937–1939.",
+    "highlights": ["Sinh ngày 28 tháng 6 năm 1867.", "Các truyện ngắn của Luigi Pirandello được tập hợp trong hai tập Novelle per un anno, xuất bản giai đoạn 1937–1939."],
     "wikidataId": "Q1403",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q1403",
@@ -2877,11 +2735,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇧🇩",
     "image": "/people/placeholder.svg",
     "shortDescription": "Muhammad Yunus là nhà kinh tế, nhà sáng lập ngân hàng.",
-    "biography": "Muhammad Yunus là nhà kinh tế, nhà sáng lập ngân hàng, sinh ngày 28 tháng 6 năm 1940.",
-    "highlights": [
-      "Sinh ngày 28 tháng 6 năm 1940.",
-      "Lĩnh vực hoạt động: doanh nhân."
-    ],
+    "biography": "Muhammad Yunus nhận Huân chương Tự do Tổng thống Hoa Kỳ năm 2009 và Huy chương Vàng Quốc hội Hoa Kỳ năm 2010.",
+    "highlights": ["Sinh ngày 28 tháng 6 năm 1940.", "Muhammad Yunus nhận Huân chương Tự do Tổng thống Hoa Kỳ năm 2009 và Huy chương Vàng Quốc hội Hoa Kỳ năm 2010."],
     "wikidataId": "Q43969",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q43969",
@@ -2911,11 +2766,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Antoine de Saint-Exupéry là nhà văn, phi công.",
-    "biography": "Antoine de Saint-Exupéry là nhà văn, phi công, sinh ngày 29 tháng 6 năm 1900.",
-    "highlights": [
-      "Sinh ngày 29 tháng 6 năm 1900.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Saint-Exupéry tự minh họa Le Petit Prince (1943); tác phẩm trở thành kinh điển thiếu nhi và cũng được đọc như một ngụ ngôn triết lý dành cho người lớn.",
+    "highlights": ["Sinh ngày 29 tháng 6 năm 1900.", "Saint-Exupéry tự minh họa Le Petit Prince (1943); tác phẩm trở thành kinh điển thiếu nhi và cũng được đọc như một ngụ ngôn triết lý dành cho người lớn."],
     "wikidataId": "Q2908",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q2908",
@@ -2945,11 +2797,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇮🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Giacomo Leopardi là nhà thơ, triết gia.",
-    "biography": "Giacomo Leopardi là nhà thơ, triết gia, sinh ngày 29 tháng 6 năm 1798.",
-    "highlights": [
-      "Sinh ngày 29 tháng 6 năm 1798.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Giacomo Leopardi bắt đầu viết Zibaldone năm 1817 và tiếp tục đến năm 1832; cuốn sổ ghi chép này chứa nhiều tư tưởng ảnh hưởng đến thơ ông.",
+    "highlights": ["Sinh ngày 29 tháng 6 năm 1798.", "Giacomo Leopardi bắt đầu viết Zibaldone năm 1817 và tiếp tục đến năm 1832; cuốn sổ ghi chép này chứa nhiều tư tưởng ảnh hưởng đến thơ ông."],
     "wikidataId": "Q172599",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q172599",
@@ -2979,11 +2828,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇮🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Giorgio Napolitano là chính khách.",
-    "biography": "Giorgio Napolitano là chính khách, sinh ngày 29 tháng 6 năm 1925.",
-    "highlights": [
-      "Sinh ngày 29 tháng 6 năm 1925.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Giorgio Napolitano là nghị sĩ Hạ viện Italy trong các giai đoạn 1953–1963 và 1968–1996, rồi làm Chủ tịch Hạ viện từ 1992 đến 1994.",
+    "highlights": ["Sinh ngày 29 tháng 6 năm 1925.", "Giorgio Napolitano là nghị sĩ Hạ viện Italy trong các giai đoạn 1953–1963 và 1968–1996, rồi làm Chủ tịch Hạ viện từ 1992 đến 1994."],
     "wikidataId": "Q1220",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q1220",
@@ -3013,11 +2859,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Mike Tyson là võ sĩ quyền anh.",
-    "biography": "Mike Tyson là võ sĩ quyền Anh, sinh ngày 30 tháng 6 năm 1966.",
-    "highlights": [
-      "Sinh ngày 30 tháng 6 năm 1966.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Tháng 3 năm 1996, Mike Tyson giành lại đai vô địch WBC sau khi hạ Frank Bruno bằng knock-out ở hiệp thứ ba.",
+    "highlights": ["Sinh ngày 30 tháng 6 năm 1966.", "Tháng 3 năm 1996, Mike Tyson giành lại đai vô địch WBC sau khi hạ Frank Bruno bằng knock-out ở hiệp thứ ba."],
     "wikidataId": "Q79031",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q79031",
@@ -3047,11 +2890,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Michael Phelps là vận động viên bơi lội.",
-    "biography": "Michael Phelps là vận động viên bơi lội, sinh ngày 30 tháng 6 năm 1985.",
-    "highlights": [
-      "Sinh ngày 30 tháng 6 năm 1985.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Ở tuổi 15, Michael Phelps được chọn dự Olympic Sydney 2000 và là vận động viên Hoa Kỳ trẻ nhất tham dự trong 68 năm.",
+    "highlights": ["Sinh ngày 30 tháng 6 năm 1985.", "Ở tuổi 15, Michael Phelps được chọn dự Olympic Sydney 2000 và là vận động viên Hoa Kỳ trẻ nhất tham dự trong 68 năm."],
     "wikidataId": "Q39562",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q39562",
@@ -3081,11 +2921,8 @@ export const PEOPLE_06: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Paul Berg là nhà sinh hóa học.",
-    "biography": "Paul Berg là nhà sinh hóa học, sinh ngày 30 tháng 6 năm 1926.",
-    "highlights": [
-      "Sinh ngày 30 tháng 6 năm 1926.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Paul Berg nhận Nobel Hóa học năm 1980 cùng Frederick Sanger và Walter Gilbert.",
+    "highlights": ["Sinh ngày 30 tháng 6 năm 1926.", "Paul Berg nhận Nobel Hóa học năm 1980 cùng Frederick Sanger và Walter Gilbert."],
     "wikidataId": "Q102379",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q102379",
@@ -3096,5 +2933,120 @@ export const PEOPLE_06: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-06"
-  }
+  },
+  {
+    "id": "frank-lloyd-wright",
+    "slug": "frank-lloyd-wright",
+    "name": "Frank Lloyd Wright",
+    "birthDate": "1867-06-08",
+    "birthYear": 1867,
+    "birthMonth": 6,
+    "birthDay": 8,
+    "lifeStatus": "deceased",
+    "occupation": [
+      "Kiến trúc sư"
+    ],
+    "category": "artist",
+    "categoryLabel": "Nghệ thuật",
+    "fields": [
+      "design-creative",
+      "technology-engineering"
+    ],
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "birthplace": "Richland Center, Wisconsin, Hoa Kỳ",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Kiến trúc sư Hoa Kỳ theo đuổi triết lý kiến trúc hữu cơ.",
+    "biography": "Frank Lloyd Wright thiết kế nhiều công trình có ảnh hưởng, trong đó có Fallingwater ở Pennsylvania và Herbert Jacobs House tại Madison. Herbert Jacobs House là ngôi nhà Usonian đầu tiên được xây dựng theo thiết kế của ông.",
+    "highlights": [
+      "Wright thiết kế Fallingwater, ngôi nhà nghỉ cuối tuần của gia đình Kaufmann tại Pennsylvania.",
+      "Wright thiết kế Herbert Jacobs House, ngôi nhà Usonian đầu tiên được thực hiện ở Madison."
+    ],
+    "wikidataId": "Q5604",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q5604",
+      "https://franklloydwright.org/frank-lloyd-wright/",
+      "https://www.guggenheim.org/finding-aids/collection/a0006"
+    ],
+    "region": "west",
+    "verifiedAt": "2026-10-08"
+  },
+  {
+    "id": "jacques-cousteau",
+    "slug": "jacques-cousteau",
+    "name": "Jacques Cousteau",
+    "birthDate": "1910-06-11",
+    "birthYear": 1910,
+    "birthMonth": 6,
+    "birthDay": 11,
+    "lifeStatus": "deceased",
+    "occupation": [
+      "Nhà hải dương học, nhà thám hiểm"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Khoa học",
+    "fields": [
+      "earth-environment",
+      "science-research",
+      "technology-engineering"
+    ],
+    "countryCode": "FR",
+    "countryName": "Pháp",
+    "countryFlag": "🇫🇷",
+    "birthplace": "Saint-André-de-Cubzac, Pháp",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Nhà hải dương học và nhà làm phim tài liệu về đại dương.",
+    "biography": "Jacques-Yves Cousteau sử dụng tàu Calypso cho hơn 50 chuyến thám hiểm trên biển. Ông cũng tiên phong thực hiện phương pháp lặn bão hòa qua các thí nghiệm Précontinent I, II và III.",
+    "highlights": [
+      "Cousteau thực hiện hơn 50 chuyến thám hiểm xa trên tàu Calypso.",
+      "Ông tiên phong thực hiện phương pháp lặn bão hòa trong các thí nghiệm Précontinent I, II và III."
+    ],
+    "wikidataId": "Q83233",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q83233",
+      "https://www.academie-francaise.fr/les-immortels/jacques-yves-cousteau",
+      "https://fr.cousteau.org/le-commandant.php"
+    ],
+    "region": "west",
+    "verifiedAt": "2026-10-08"
+  },
+  {
+    "id": "alois-alzheimer",
+    "slug": "alois-alzheimer",
+    "name": "Alois Alzheimer",
+    "birthDate": "1864-06-14",
+    "birthYear": 1864,
+    "birthMonth": 6,
+    "birthDay": 14,
+    "lifeStatus": "deceased",
+    "occupation": [
+      "Bác sĩ tâm thần, nhà thần kinh học"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Khoa học",
+    "fields": [
+      "medicine-health",
+      "science-research"
+    ],
+    "countryCode": "DE",
+    "countryName": "Đức",
+    "countryFlag": "🇩🇪",
+    "birthplace": "Marktbreit, Bayern, Đức",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Bác sĩ người Đức có nghiên cứu đặt nền móng cho chẩn đoán bệnh Alzheimer.",
+    "biography": "Năm 1901, Alois Alzheimer gặp bệnh nhân Auguste Deter tại Frankfurt. Nghiên cứu của ông về bệnh lý thần kinh góp phần hình thành cách chẩn đoán bệnh mất trí nhớ sau này được đặt theo tên ông.",
+    "highlights": [
+      "Alzheimer gặp bệnh nhân Auguste Deter lần đầu tại Frankfurt năm 1901.",
+      "Nghiên cứu của Alzheimer về bệnh mất trí nhớ đã được đặt tên theo ông."
+    ],
+    "wikidataId": "Q70530",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q70530",
+      "https://www.deutsche-biographie.de/sfz69339.html",
+      "https://www.uni-wuerzburg.de/en/uniarchiv/personalities/eminent-scholars/alois-alzheimer/"
+    ],
+    "region": "west",
+    "verifiedAt": "2026-10-08"
+  },
 ];

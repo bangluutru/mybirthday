@@ -19,11 +19,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Ron Howard là diễn viên và đạo diễn người Hoa Kỳ.",
-    "biography": "Ron Howard là diễn viên và đạo diễn người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 1/3/1954.",
-      "Ron Howard là diễn viên và đạo diễn người Hoa Kỳ."
-    ],
+    "biography": "Ron Howard là diễn viên và đạo diễn người Hoa Kỳ. Ron Howard nhận giải Oscar đạo diễn cho A Beautiful Mind (2001).",
+    "highlights": ["Sinh ngày 1/3/1954.", "Ron Howard nhận giải Oscar đạo diễn cho A Beautiful Mind (2001)."],
     "wikidataId": "Q103646",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q103646",
@@ -53,22 +50,27 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Glenn Miller là nhạc sĩ người Hoa Kỳ.",
-    "biography": "Glenn Miller là nhạc sĩ người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 1/3/1904.",
-      "Glenn Miller là nhạc sĩ người Hoa Kỳ."
-    ],
+    "biography": "Glenn Miller là nhạc sĩ người Hoa Kỳ. Năm 1937, Glenn Miller thành lập dàn nhạc riêng; dàn nhạc tạo được tiếng vang từ năm 1939.",
+    "highlights": ["Sinh ngày 1/3/1904.", "Năm 1937, Glenn Miller thành lập dàn nhạc riêng; dàn nhạc tạo được tiếng vang từ năm 1939."],
     "wikidataId": "Q103651",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q103651",
       "https://snl.no/Glenn_Miller",
-      "https://www.enciklopedija.hr/clanak/miller-glenn"
+      "https://www.enciklopedija.hr/clanak/miller-glenn",
+      "https://www.arlingtoncemetery.mil/Explore/Notable-Graves/Culture-the-Arts/Glenn-Miller",
+      "https://dpaa-mil.sites.crmforce.mil/dpaaProfile?id=a0Jt000001nzU0gEAE"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1944-12-15"
+    "deathDate": "1944-12-15",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.arlingtoncemetery.mil/Explore/Notable-Graves/Culture-the-Arts/Glenn-Miller",
+      "https://dpaa-mil.sites.crmforce.mil/dpaaProfile?id=a0Jt000001nzU0gEAE"
+    ],
+    "deathDatePrecision": "presumed-day"
   },
   {
     "id": "oskar-kokoschka",
@@ -88,11 +90,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇦🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Oskar Kokoschka là họa sĩ người Áo.",
-    "biography": "Oskar Kokoschka là họa sĩ người Áo.",
-    "highlights": [
-      "Sinh ngày 1/3/1886.",
-      "Oskar Kokoschka là họa sĩ người Áo."
-    ],
+    "biography": "Oskar Kokoschka là họa sĩ người Áo. Oskar Kokoschka được bổ nhiệm làm giáo sư tại học viện nghệ thuật Dresden giai đoạn 1919–1924.",
+    "highlights": ["Sinh ngày 1/3/1886.", "Oskar Kokoschka được bổ nhiệm làm giáo sư tại học viện nghệ thuật Dresden giai đoạn 1919–1924."],
     "wikidataId": "Q154260",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q154260",
@@ -103,7 +102,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1980-02-22"
+    "deathDate": "1980-02-22",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Oskar_Kokoschka"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "mikhail-gorbachev",
@@ -123,22 +125,25 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇷🇺",
     "image": "/people/placeholder.svg",
     "shortDescription": "Mikhail Gorbachev là chính trị gia người Nga.",
-    "biography": "Mikhail Gorbachev là chính trị gia người Nga.",
-    "highlights": [
-      "Sinh ngày 2/3/1931.",
-      "Mikhail Gorbachev là chính trị gia người Nga."
-    ],
+    "biography": "Mikhail Gorbachev là chính trị gia người Nga. Sau khi Konstantin Chernenko qua đời năm 1985, Mikhail Gorbachev được bầu làm Tổng Bí thư Đảng Cộng sản Liên Xô.",
+    "highlights": ["Sinh ngày 2/3/1931.", "Sau khi Konstantin Chernenko qua đời năm 1985, Mikhail Gorbachev được bầu làm Tổng Bí thư Đảng Cộng sản Liên Xô."],
     "wikidataId": "Q30487",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q30487",
       "https://snl.no/Mikhail_Gorbatsjov",
-      "https://www.enciklopedija.hr/clanak/gorbacov-mihail-sergejevic"
+      "https://www.enciklopedija.hr/clanak/gorbacov-mihail-sergejevic",
+      "https://www.bloomberg.com/news/articles/2022-08-30/russian-media-ex-soviet-leader-mikhail-gorbachev-dead-at-91"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-04",
-    "deathDate": "2022-08-30"
+    "deathDate": "2022-08-30",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.bloomberg.com/news/articles/2022-08-30/russian-media-ex-soviet-leader-mikhail-gorbachev-dead-at-91"
+    ],
+    "deathDatePrecision": "day",
+    "verifiedAt": "2026-10-04"
   },
   {
     "id": "kurt-weill",
@@ -158,22 +163,25 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Kurt Weill là nhà soạn nhạc người Đức.",
-    "biography": "Kurt Weill là nhà soạn nhạc người Đức.",
-    "highlights": [
-      "Sinh ngày 2/3/1900.",
-      "Kurt Weill là nhà soạn nhạc người Đức."
-    ],
+    "biography": "Kurt Weill là nhà soạn nhạc người Đức. The Threepenny Opera của Kurt Weill có hơn 350 buổi diễn trong hai năm đầu.",
+    "highlights": ["Sinh ngày 2/3/1900.", "The Threepenny Opera của Kurt Weill có hơn 350 buổi diễn trong hai năm đầu."],
     "wikidataId": "Q55004",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q55004",
       "https://snl.no/Kurt_Weill",
-      "https://www.enciklopedija.hr/clanak/weill-kurt"
+      "https://www.enciklopedija.hr/clanak/weill-kurt",
+      "https://brockhaus.de/ecs/julex/article/weill-kurt-julian"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-04",
-    "deathDate": "1950-04-03"
+    "deathDate": "1950-04-03",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/weill-kurt-julian"
+    ],
+    "deathDatePrecision": "day",
+    "verifiedAt": "2026-10-04"
   },
   {
     "id": "nguyen-huy-hung",
@@ -193,11 +201,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nguyễn Huy Hùng là cầu thủ bóng đá người Việt Nam.",
-    "biography": "Nguyễn Huy Hùng là cầu thủ bóng đá người Việt Nam.",
-    "highlights": [
-      "Sinh ngày 2/3/1992.",
-      "Nguyễn Huy Hùng là cầu thủ bóng đá người Việt Nam."
-    ],
+    "biography": "Nguyễn Huy Hùng là cầu thủ bóng đá người Việt Nam. Tại V.League 1 năm 2019, Nguyễn Huy Hùng ghi 3 bàn cho Quảng Nam.",
+    "highlights": ["Sinh ngày 2/3/1992.", "Tại V.League 1 năm 2019, Nguyễn Huy Hùng ghi 3 bàn cho Quảng Nam."],
     "wikidataId": "Q18637480",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q18637480",
@@ -227,22 +232,25 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Alexander Graham Bell là nhà phát minh người Mỹ gốc Scotland.",
-    "biography": "Alexander Graham Bell là nhà phát minh người Mỹ gốc Scotland.",
-    "highlights": [
-      "Sinh ngày 3/3/1847.",
-      "Alexander Graham Bell là nhà phát minh người Mỹ gốc Scotland."
-    ],
+    "biography": "Alexander Graham Bell là nhà phát minh người Mỹ gốc Scotland. Năm 1883, Alexander Graham Bell đồng sáng lập tạp chí Science; tạp chí này sớm trở thành cơ quan chính thức của Hiệp hội Mỹ vì Sự tiến bộ Khoa học.",
+    "highlights": ["Sinh ngày 3/3/1847.", "Năm 1883, Alexander Graham Bell đồng sáng lập tạp chí Science; tạp chí này sớm trở thành cơ quan chính thức của Hiệp hội Mỹ vì Sự tiến bộ Khoa học."],
     "wikidataId": "Q34286",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q34286",
       "https://snl.no/Alexander_Graham_Bell",
-      "https://www.enciklopedija.hr/clanak/bell-alexander-graham"
+      "https://www.enciklopedija.hr/clanak/bell-alexander-graham",
+      "https://www.biography.com/people/alexander-graham-bell-9205497"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-04",
-    "deathDate": "1922-08-02"
+    "deathDate": "1922-08-02",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.biography.com/people/alexander-graham-bell-9205497"
+    ],
+    "deathDatePrecision": "day",
+    "verifiedAt": "2026-10-04"
   },
   {
     "id": "georg-cantor",
@@ -262,11 +270,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Georg Cantor là nhà toán học người Đức.",
-    "biography": "Georg Cantor là nhà toán học người Đức.",
-    "highlights": [
-      "Sinh ngày 3/3/1845.",
-      "Georg Cantor là nhà toán học người Đức."
-    ],
+    "biography": "Georg Cantor là nhà toán học người Đức. Năm 1874, Georg Cantor chứng minh rằng trong toán học tồn tại những loại tập hợp vô hạn khác nhau.",
+    "highlights": ["Sinh ngày 3/3/1845.", "Năm 1874, Georg Cantor chứng minh rằng trong toán học tồn tại những loại tập hợp vô hạn khác nhau."],
     "wikidataId": "Q76420",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q76420",
@@ -277,7 +282,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1918-01-06"
+    "deathDate": "1918-01-06",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Georg_Cantor"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "pham-manh-hung",
@@ -297,11 +305,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Phạm Mạnh Hùng là cầu thủ bóng đá người Việt Nam.",
-    "biography": "Phạm Mạnh Hùng là cầu thủ bóng đá người Việt Nam.",
-    "highlights": [
-      "Sinh ngày 3/3/1993.",
-      "Phạm Mạnh Hùng là cầu thủ bóng đá người Việt Nam."
-    ],
+    "biography": "Phạm Mạnh Hùng là cầu thủ bóng đá người Việt Nam. Phạm Mạnh Hùng có 16 lần ra sân cho Hải Phòng tại V.League 2020.",
+    "highlights": ["Sinh ngày 3/3/1993.", "Phạm Mạnh Hùng có 16 lần ra sân cho Hải Phòng tại V.League 2020."],
     "wikidataId": "Q19594359",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q19594359",
@@ -331,11 +336,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Georges Dumézil là nhà ngôn ngữ học người Pháp.",
-    "biography": "Georges Dumézil là nhà ngôn ngữ học người Pháp.",
-    "highlights": [
-      "Sinh ngày 4/3/1898.",
-      "Georges Dumézil là nhà ngôn ngữ học người Pháp."
-    ],
+    "biography": "Georges Dumézil là nhà ngôn ngữ học người Pháp. Khi ở Istanbul, Georges Dumézil nghiên cứu các dân tộc Kavkaz và ngôn ngữ, truyền thống của họ.",
+    "highlights": ["Sinh ngày 4/3/1898.", "Khi ở Istanbul, Georges Dumézil nghiên cứu các dân tộc Kavkaz và ngôn ngữ, truyền thống của họ."],
     "wikidataId": "Q310590",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q310590",
@@ -346,7 +348,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1986-10-11"
+    "deathDate": "1986-10-11",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Georges_Dum%C3%A9zil"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "george-gamow",
@@ -366,11 +371,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "George Gamow là nhà vật lý người Hoa Kỳ.",
-    "biography": "George Gamow là nhà vật lý người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 4/3/1904.",
-      "George Gamow là nhà vật lý người Hoa Kỳ."
-    ],
+    "biography": "George Gamow là nhà vật lý người Hoa Kỳ. George Gamow là giáo sư vật lý lý thuyết tại Đại học George Washington từ 1934 đến 1955, rồi giảng dạy tại Đại học Colorado từ năm 1956.",
+    "highlights": ["Sinh ngày 4/3/1904.", "George Gamow là giáo sư vật lý lý thuyết tại Đại học George Washington từ 1934 đến 1955, rồi giảng dạy tại Đại học Colorado từ năm 1956."],
     "wikidataId": "Q59478",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q59478",
@@ -381,7 +383,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1968-08-19"
+    "deathDate": "1968-08-19",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/George_Gamow"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "john-garfield",
@@ -401,11 +406,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "John Garfield là diễn viên người Hoa Kỳ.",
-    "biography": "John Garfield là diễn viên người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 4/3/1913.",
-      "John Garfield là diễn viên người Hoa Kỳ."
-    ],
+    "biography": "John Garfield là diễn viên người Hoa Kỳ. John Garfield được đề cử Oscar nhờ vai diễn trong phim đầu tay Four Daughters (1938).",
+    "highlights": ["Sinh ngày 4/3/1913.", "John Garfield được đề cử Oscar nhờ vai diễn trong phim đầu tay Four Daughters (1938)."],
     "wikidataId": "Q367053",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q367053",
@@ -416,7 +418,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1952-05-21"
+    "deathDate": "1952-05-21",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/John_Garfield"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "james-tobin",
@@ -436,22 +441,23 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "James Tobin là nhà kinh tế học người Hoa Kỳ.",
-    "biography": "James Tobin là nhà kinh tế học người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 5/3/1918.",
-      "James Tobin là nhà kinh tế học người Hoa Kỳ."
-    ],
+    "biography": "James Tobin là nhà kinh tế học người Hoa Kỳ. Năm 1950, James Tobin chuyển đến Đại học Yale và làm việc tại đó trong phần còn lại của sự nghiệp.",
+    "highlights": ["Sinh ngày 5/3/1918.", "Năm 1950, James Tobin chuyển đến Đại học Yale và làm việc tại đó trong phần còn lại của sự nghiệp."],
     "wikidataId": "Q211776",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q211776",
       "https://www.enciklopedija.hr/clanak/tobin-james",
-      "https://www.nobelprize.org/prizes/economic-sciences/1981/tobin/facts/"
+      "https://www.nobelprize.org/prizes/economic-sciences/1981/tobin/facts/",
+      "https://news.yale.edu/2002/03/12/professor-presidential-adviser-and-nobel-laureate-james-tobin-dies"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "2002-03-11"
+    "deathDate": "2002-03-11",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://news.yale.edu/2002/03/12/professor-presidential-adviser-and-nobel-laureate-james-tobin-dies"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "daniel-kahneman",
@@ -471,11 +477,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇮🇱",
     "image": "/people/placeholder.svg",
     "shortDescription": "Daniel Kahneman là nhà tâm lý học người Israel.",
-    "biography": "Daniel Kahneman là nhà tâm lý học người Israel.",
-    "highlights": [
-      "Sinh ngày 5/3/1934.",
-      "Daniel Kahneman là nhà tâm lý học người Israel."
-    ],
+    "biography": "Daniel Kahneman là nhà tâm lý học người Israel. Daniel Kahneman được trao giải Nobel Kinh tế năm 2002 cùng nhà kinh tế học Vernon L. Smith.",
+    "highlights": ["Sinh ngày 5/3/1934.", "Daniel Kahneman được trao giải Nobel Kinh tế năm 2002 cùng nhà kinh tế học Vernon L. Smith."],
     "wikidataId": "Q233950",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q233950",
@@ -486,7 +489,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "2024-03-27"
+    "deathDate": "2024-03-27",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Daniel_Kahneman"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "rex-harrison",
@@ -506,11 +512,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Rex Harrison là diễn viên người Anh.",
-    "biography": "Rex Harrison là diễn viên người Anh.",
-    "highlights": [
-      "Sinh ngày 5/3/1908.",
-      "Rex Harrison là diễn viên người Anh."
-    ],
+    "biography": "Rex Harrison là diễn viên người Anh. Bài hát Talk to the Animals trong Doctor Dolittle (1967), do Rex Harrison thể hiện, đã đoạt Oscar cho ca khúc trong phim.",
+    "highlights": ["Sinh ngày 5/3/1908.", "Bài hát Talk to the Animals trong Doctor Dolittle (1967), do Rex Harrison thể hiện, đã đoạt Oscar cho ca khúc trong phim."],
     "wikidataId": "Q181887",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q181887",
@@ -521,7 +524,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1990-06-02"
+    "deathDate": "1990-06-02",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Rex_Harrison"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "joseph-von-fraunhofer",
@@ -541,11 +547,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Joseph von Fraunhofer là nhà vật lý người Đức.",
-    "biography": "Joseph von Fraunhofer là nhà vật lý người Đức.",
-    "highlights": [
-      "Sinh ngày 6/3/1787.",
-      "Joseph von Fraunhofer là nhà vật lý người Đức."
-    ],
+    "biography": "Joseph von Fraunhofer là nhà vật lý người Đức. Joseph von Fraunhofer đo chính xác bước sóng ánh sáng và xác định các vạch hấp thụ trong quang phổ Mặt Trời, gọi là vạch Fraunhofer.",
+    "highlights": ["Sinh ngày 6/3/1787.", "Joseph von Fraunhofer đo chính xác bước sóng ánh sáng và xác định các vạch hấp thụ trong quang phổ Mặt Trời, gọi là vạch Fraunhofer."],
     "wikidataId": "Q43948",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q43948",
@@ -556,7 +559,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1826-06-07"
+    "deathDate": "1826-06-07",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Joseph_von_Fraunhofer"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "valentina-tereshkova",
@@ -576,11 +582,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇷🇺",
     "image": "/people/placeholder.svg",
     "shortDescription": "Valentina Tereshkova là nhà du hành vũ trụ người Nga.",
-    "biography": "Valentina Tereshkova là nhà du hành vũ trụ người Nga.",
-    "highlights": [
-      "Sinh ngày 6/3/1937.",
-      "Valentina Tereshkova là nhà du hành vũ trụ người Nga."
-    ],
+    "biography": "Valentina Tereshkova là nhà du hành vũ trụ người Nga. Valentina Tereshkova là nữ phi hành gia đầu tiên bay vào vũ trụ.",
+    "highlights": ["Sinh ngày 6/3/1937.", "Valentina Tereshkova là nữ phi hành gia đầu tiên bay vào vũ trụ."],
     "wikidataId": "Q44371",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q44371",
@@ -610,11 +613,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇨🇴",
     "image": "/people/placeholder.svg",
     "shortDescription": "Gabriel García Márquez là nhà văn người Colombia.",
-    "biography": "Gabriel García Márquez là nhà văn người Colombia.",
-    "highlights": [
-      "Sinh ngày 6/3/1927.",
-      "Gabriel García Márquez là nhà văn người Colombia."
-    ],
+    "biography": "Gabriel García Márquez là nhà văn người Colombia. Gabriel García Márquez ra mắt tiểu thuyết đầu tay La hojarasca năm 1955; truyện lấy bối cảnh tại ngôi làng hư cấu Macondo.",
+    "highlights": ["Sinh ngày 6/3/1927.", "Gabriel García Márquez ra mắt tiểu thuyết đầu tay La hojarasca năm 1955; truyện lấy bối cảnh tại ngôi làng hư cấu Macondo."],
     "wikidataId": "Q5878",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q5878",
@@ -625,7 +625,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "2014-04-17"
+    "deathDate": "2014-04-17",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Gabriel_Garc%C3%ADa_M%C3%A1rquez"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "maurice-ravel",
@@ -645,11 +648,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Maurice Ravel là nhà soạn nhạc người Pháp.",
-    "biography": "Maurice Ravel là nhà soạn nhạc người Pháp.",
-    "highlights": [
-      "Sinh ngày 7/3/1875.",
-      "Maurice Ravel là nhà soạn nhạc người Pháp."
-    ],
+    "biography": "Maurice Ravel là nhà soạn nhạc người Pháp. Trong thập niên 1920 và 1930, Maurice Ravel được xem là nhà soạn nhạc đương đại tiêu biểu nhất nước Pháp.",
+    "highlights": ["Sinh ngày 7/3/1875.", "Trong thập niên 1920 và 1930, Maurice Ravel được xem là nhà soạn nhạc đương đại tiêu biểu nhất nước Pháp."],
     "wikidataId": "Q1178",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q1178",
@@ -660,7 +660,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1937-12-28"
+    "deathDate": "1937-12-28",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Maurice_Ravel"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "piet-mondrian",
@@ -680,22 +683,25 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇳🇱",
     "image": "/people/placeholder.svg",
     "shortDescription": "Piet Mondrian là họa sĩ người Hà Lan.",
-    "biography": "Piet Mondrian là họa sĩ người Hà Lan.",
-    "highlights": [
-      "Sinh ngày 7/3/1872.",
-      "Piet Mondrian là họa sĩ người Hà Lan."
-    ],
+    "biography": "Piet Mondrian là họa sĩ người Hà Lan. Cuộc gặp gỡ với trường phái Lập thể Pháp tại một triển lãm năm 1911 trở thành bước ngoặt trong con đường nghệ thuật của Piet Mondrian.",
+    "highlights": ["Sinh ngày 7/3/1872.", "Cuộc gặp gỡ với trường phái Lập thể Pháp tại một triển lãm năm 1911 trở thành bước ngoặt trong con đường nghệ thuật của Piet Mondrian."],
     "wikidataId": "Q151803",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q151803",
       "https://snl.no/Piet_Mondrian",
-      "https://www.enciklopedija.hr/clanak/mondrian-piet"
+      "https://www.enciklopedija.hr/clanak/mondrian-piet",
+      "https://hdl.handle.net/21.12141/id/people.AA170A53-BB4C-42F0-8061-C141958767CA"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-04",
-    "deathDate": "1944-02-01"
+    "deathDate": "1944-02-01",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://hdl.handle.net/21.12141/id/people.AA170A53-BB4C-42F0-8061-C141958767CA"
+    ],
+    "deathDatePrecision": "day",
+    "verifiedAt": "2026-10-04"
   },
   {
     "id": "tomas-masaryk",
@@ -715,11 +721,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇨🇿",
     "image": "/people/placeholder.svg",
     "shortDescription": "Tomáš Masaryk là chính trị gia người Séc.",
-    "biography": "Tomáš Masaryk là chính trị gia người Séc.",
-    "highlights": [
-      "Sinh ngày 7/3/1850.",
-      "Tomáš Masaryk là chính trị gia người Séc."
-    ],
+    "biography": "Tomáš Masaryk là chính trị gia người Séc. Tomáš Masaryk giữ chức tổng thống Tiệp Khắc từ khi nước này thành lập năm 1918 đến năm 1935.",
+    "highlights": ["Sinh ngày 7/3/1850.", "Tomáš Masaryk giữ chức tổng thống Tiệp Khắc từ khi nước này thành lập năm 1918 đến năm 1935."],
     "wikidataId": "Q78492",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q78492",
@@ -730,7 +733,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1937-09-14"
+    "deathDate": "1937-09-14",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Tom%C3%A1%C5%A1_Masaryk"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "otto-hahn",
@@ -750,11 +756,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Otto Hahn là nhà hóa học người Đức.",
-    "biography": "Otto Hahn là nhà hóa học người Đức.",
-    "highlights": [
-      "Sinh ngày 8/3/1879.",
-      "Otto Hahn là nhà hóa học người Đức."
-    ],
+    "biography": "Otto Hahn là nhà hóa học người Đức. Năm 1938, Otto Hahn phát hiện hạt nhân nguyên tử có thể phân hạch; Lise Meitner giải thích cơ chế của hiện tượng này.",
+    "highlights": ["Sinh ngày 8/3/1879.", "Năm 1938, Otto Hahn phát hiện hạt nhân nguyên tử có thể phân hạch; Lise Meitner giải thích cơ chế của hiện tượng này."],
     "wikidataId": "Q57065",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q57065",
@@ -765,7 +768,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1968-07-28"
+    "deathDate": "1968-07-28",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Otto_Hahn"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "edward-calvin-kendall",
@@ -785,22 +791,25 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Edward Calvin Kendall là nhà hóa sinh người Hoa Kỳ.",
-    "biography": "Edward Calvin Kendall là nhà hóa sinh người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 8/3/1886.",
-      "Edward Calvin Kendall là nhà hóa sinh người Hoa Kỳ."
-    ],
+    "biography": "Edward Calvin Kendall là nhà hóa sinh người Hoa Kỳ. Edward Calvin Kendall nhận Nobel Sinh lý học hoặc Y học năm 1950 cùng Philip S. Hench và Tadeus Reichstein.",
+    "highlights": ["Sinh ngày 8/3/1886.", "Edward Calvin Kendall nhận Nobel Sinh lý học hoặc Y học năm 1950 cùng Philip S. Hench và Tadeus Reichstein."],
     "wikidataId": "Q110101",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q110101",
       "https://snl.no/Edward_Calvin_Kendall",
-      "https://www.enciklopedija.hr/clanak/kendall-edward-calvin"
+      "https://www.enciklopedija.hr/clanak/kendall-edward-calvin",
+      "https://www.nobelprize.org/prizes/medicine/1950/kendall/biographical/"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-04",
-    "deathDate": "1972-05-04"
+    "deathDate": "1972-05-04",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.nobelprize.org/prizes/medicine/1950/kendall/biographical/"
+    ],
+    "deathDatePrecision": "day",
+    "verifiedAt": "2026-10-04"
   },
   {
     "id": "carl-philipp-emanuel-bach",
@@ -820,11 +829,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Carl Philipp Emanuel Bach là nhà soạn nhạc người Đức.",
-    "biography": "Carl Philipp Emanuel Bach là nhà soạn nhạc người Đức.",
-    "highlights": [
-      "Sinh ngày 8/3/1714.",
-      "Carl Philipp Emanuel Bach là nhà soạn nhạc người Đức."
-    ],
+    "biography": "Carl Philipp Emanuel Bach là nhà soạn nhạc người Đức. C. P. E. Bach là nghệ sĩ đàn harpsichord xuất sắc; sách Versuch über die wahre Art das Clavier zu spielen (1752–1762) có ảnh hưởng lâu dài đến kỹ thuật đàn phím.",
+    "highlights": ["Sinh ngày 8/3/1714.", "C. P. E. Bach là nghệ sĩ đàn harpsichord xuất sắc; sách Versuch über die wahre Art das Clavier zu spielen (1752–1762) có ảnh hưởng lâu dài đến kỹ thuật đàn phím."],
     "wikidataId": "Q76428",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q76428",
@@ -835,7 +841,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1788-12-14"
+    "deathDate": "1788-12-14",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Carl_Philipp_Emanuel_Bach"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "yuri-gagarin",
@@ -855,22 +864,18 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇷🇺",
     "image": "/people/placeholder.svg",
     "shortDescription": "Yuri Gagarin là nhà du hành vũ trụ người Nga.",
-    "biography": "Yuri Gagarin là nhà du hành vũ trụ người Nga.",
-    "highlights": [
-      "Sinh ngày 9/3/1934.",
-      "Yuri Gagarin là nhà du hành vũ trụ người Nga."
-    ],
+    "biography": "Yuri Gagarin là nhà du hành vũ trụ người Nga. Ngày 12/4/1961, Yuri Gagarin trở thành người đầu tiên bay quanh Trái Đất trên tàu Vostok 1.",
+    "highlights": ["Sinh ngày 9/3/1934.", "Ngày 12/4/1961, Yuri Gagarin trở thành người đầu tiên bay quanh Trái Đất trên tàu Vostok 1."],
     "wikidataId": "Q7327",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q7327",
-      "https://snl.no/Jurij_Gagarin",
-      "https://www.enciklopedija.hr/clanak/gagarin-jurij-aleksejevic"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q7327", "https://snl.no/Jurij_Gagarin", "https://www.enciklopedija.hr/clanak/gagarin-jurij-aleksejevic", "https://www.nasa.gov/history/remembering-yuri-gagarin-50-years-later/", "https://science.nasa.gov/resource/yuri-gagarin-first-human-in-space/"],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1968-03-27"
+    "deathDate": "1968-03-27",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://www.nasa.gov/history/remembering-yuri-gagarin-50-years-later/"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "samuel-barber",
@@ -890,11 +895,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Samuel Barber là nhà soạn nhạc người Hoa Kỳ.",
-    "biography": "Samuel Barber là nhà soạn nhạc người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 9/3/1910.",
-      "Samuel Barber là nhà soạn nhạc người Hoa Kỳ."
-    ],
+    "biography": "Samuel Barber là nhà soạn nhạc người Hoa Kỳ. Tác phẩm cho dàn nhạc Adagio for Strings của Samuel Barber đã trở thành một tác phẩm kinh điển.",
+    "highlights": ["Sinh ngày 9/3/1910.", "Tác phẩm cho dàn nhạc Adagio for Strings của Samuel Barber đã trở thành một tác phẩm kinh điển."],
     "wikidataId": "Q216870",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q216870",
@@ -905,7 +907,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1981-01-23"
+    "deathDate": "1981-01-23",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Samuel_Barber"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "bobby-fischer",
@@ -925,22 +930,23 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Bobby Fischer là kỳ thủ cờ vua người Hoa Kỳ.",
-    "biography": "Bobby Fischer là kỳ thủ cờ vua người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 9/3/1943.",
-      "Bobby Fischer là kỳ thủ cờ vua người Hoa Kỳ."
-    ],
+    "biography": "Bobby Fischer là kỳ thủ cờ vua người Hoa Kỳ. Khi FIDE bắt đầu lập bảng xếp hạng, Bobby Fischer là người đầu tiên đứng đầu bảng xếp hạng thế giới.",
+    "highlights": ["Sinh ngày 9/3/1943.", "Khi FIDE bắt đầu lập bảng xếp hạng, Bobby Fischer là người đầu tiên đứng đầu bảng xếp hạng thế giới."],
     "wikidataId": "Q41314",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q41314",
       "https://snl.no/Bobby_Fischer",
-      "https://proleksis.lzmk.hr/56921/"
+      "https://proleksis.lzmk.hr/56921/",
+      "https://www.theguardian.com/news/2008/jan/19/mainsection.obituaries"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "2008-01-17"
+    "deathDate": "2008-01-17",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://www.theguardian.com/news/2008/jan/19/mainsection.obituaries"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "sharon-stone",
@@ -960,11 +966,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Sharon Stone là diễn viên người Hoa Kỳ.",
-    "biography": "Sharon Stone là diễn viên người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 10/3/1958.",
-      "Sharon Stone là diễn viên người Hoa Kỳ."
-    ],
+    "biography": "Sharon Stone là diễn viên người Hoa Kỳ. Các vai diễn trong Total Recall và Basic Instinct đưa Sharon Stone đến với đông đảo khán giả và giúp bà trở thành gương mặt nổi bật ở Hollywood.",
+    "highlights": ["Sinh ngày 10/3/1958.", "Các vai diễn trong Total Recall và Basic Instinct đưa Sharon Stone đến với đông đảo khán giả và giúp bà trở thành gương mặt nổi bật ở Hollywood."],
     "wikidataId": "Q62975",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q62975",
@@ -994,11 +997,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Joseph von Eichendorff là nhà văn người Đức.",
-    "biography": "Joseph von Eichendorff là nhà văn người Đức.",
-    "highlights": [
-      "Sinh ngày 10/3/1788.",
-      "Joseph von Eichendorff là nhà văn người Đức."
-    ],
+    "biography": "Joseph von Eichendorff là nhà văn người Đức. Tác phẩm kể chuyện nổi tiếng nhất của Joseph von Eichendorff là Aus dem Leben eines Taugenichts, xuất bản năm 1826.",
+    "highlights": ["Sinh ngày 10/3/1788.", "Tác phẩm kể chuyện nổi tiếng nhất của Joseph von Eichendorff là Aus dem Leben eines Taugenichts, xuất bản năm 1826."],
     "wikidataId": "Q77204",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q77204",
@@ -1009,7 +1009,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1857-11-26"
+    "deathDate": "1857-11-26",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Joseph_von_Eichendorff"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "arthur-honegger",
@@ -1029,11 +1032,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇨🇭",
     "image": "/people/placeholder.svg",
     "shortDescription": "Arthur Honegger là nhà soạn nhạc gốc Thụy Sĩ.",
-    "biography": "Arthur Honegger là nhà soạn nhạc gốc Thụy Sĩ.",
-    "highlights": [
-      "Sinh ngày 10/3/1892.",
-      "Arthur Honegger là nhà soạn nhạc gốc Thụy Sĩ."
-    ],
+    "biography": "Arthur Honegger là nhà soạn nhạc gốc Thụy Sĩ. Năm 1918, Arthur Honegger cùng Darius Milhaud và Erik Satie thành lập nhóm Les Nouveaux Jeunes tại Paris.",
+    "highlights": ["Sinh ngày 10/3/1892.", "Năm 1918, Arthur Honegger cùng Darius Milhaud và Erik Satie thành lập nhóm Les Nouveaux Jeunes tại Paris."],
     "wikidataId": "Q123164",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q123164",
@@ -1044,7 +1044,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1955-11-27"
+    "deathDate": "1955-11-27",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Arthur_Honegger"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "rupert-murdoch",
@@ -1064,11 +1067,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇦🇺",
     "image": "/people/placeholder.svg",
     "shortDescription": "Rupert Murdoch là doanh nhân gốc Úc.",
-    "biography": "Rupert Murdoch là doanh nhân gốc Úc.",
-    "highlights": [
-      "Sinh ngày 11/3/1931.",
-      "Rupert Murdoch là doanh nhân gốc Úc."
-    ],
+    "biography": "Rupert Murdoch là doanh nhân gốc Úc. Sau khi Rupert Murdoch mua The Sun năm 1969, tờ báo được chuyển sang dạng báo lá cải với lối đưa tin trực diện và giật gân.",
+    "highlights": ["Sinh ngày 11/3/1931.", "Sau khi Rupert Murdoch mua The Sun năm 1969, tờ báo được chuyển sang dạng báo lá cải với lối đưa tin trực diện và giật gân."],
     "wikidataId": "Q53944",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q53944",
@@ -1098,11 +1098,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nicolaas Bloembergen là nhà vật lý người Hoa Kỳ.",
-    "biography": "Nicolaas Bloembergen là nhà vật lý người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 11/3/1920.",
-      "Nicolaas Bloembergen là nhà vật lý người Hoa Kỳ."
-    ],
+    "biography": "Nicolaas Bloembergen là nhà vật lý người Hoa Kỳ. Nicolaas Bloembergen là giáo sư tại Đại học Harvard từ năm 1957 và tại Đại học Arizona từ năm 2001.",
+    "highlights": ["Sinh ngày 11/3/1920.", "Nicolaas Bloembergen là giáo sư tại Đại học Harvard từ năm 1957 và tại Đại học Arizona từ năm 2001."],
     "wikidataId": "Q189987",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q189987",
@@ -1113,7 +1110,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "2017-09-05"
+    "deathDate": "2017-09-05",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Nicolaas_Bloembergen"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "urbain-le-verrier",
@@ -1133,11 +1133,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Urbain Le Verrier là nhà thiên văn học người Pháp.",
-    "biography": "Urbain Le Verrier là nhà thiên văn học người Pháp.",
-    "highlights": [
-      "Sinh ngày 11/3/1811.",
-      "Urbain Le Verrier là nhà thiên văn học người Pháp."
-    ],
+    "biography": "Urbain Le Verrier là nhà thiên văn học người Pháp. Sau trận bão lớn năm 1854, Urbain Le Verrier được giao nghiên cứu khả năng dự báo bão.",
+    "highlights": ["Sinh ngày 11/3/1811.", "Sau trận bão lớn năm 1854, Urbain Le Verrier được giao nghiên cứu khả năng dự báo bão."],
     "wikidataId": "Q104154",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q104154",
@@ -1148,7 +1145,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1877-09-23"
+    "deathDate": "1877-09-23",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Urbain_Le_Verrier"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "jack-kerouac",
@@ -1168,11 +1168,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Jack Kerouac là nhà văn người Hoa Kỳ.",
-    "biography": "Jack Kerouac là nhà văn người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 12/3/1922.",
-      "Jack Kerouac là nhà văn người Hoa Kỳ."
-    ],
+    "biography": "Jack Kerouac là nhà văn người Hoa Kỳ. Năm 1940, Jack Kerouac vào Đại học Columbia, nơi ông vừa là cầu thủ bóng bầu dục triển vọng vừa viết văn.",
+    "highlights": ["Sinh ngày 12/3/1922.", "Năm 1940, Jack Kerouac vào Đại học Columbia, nơi ông vừa là cầu thủ bóng bầu dục triển vọng vừa viết văn."],
     "wikidataId": "Q160534",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q160534",
@@ -1183,7 +1180,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1969-10-21"
+    "deathDate": "1969-10-21",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Jack_Kerouac"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "edward-albee",
@@ -1203,11 +1203,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Edward Albee là nhà viết kịch người Hoa Kỳ.",
-    "biography": "Edward Albee là nhà viết kịch người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 12/3/1928.",
-      "Edward Albee là nhà viết kịch người Hoa Kỳ."
-    ],
+    "biography": "Edward Albee là nhà viết kịch người Hoa Kỳ. Edward Albee ba lần nhận giải Pulitzer cho kịch với A Delicate Balance (1967), Seascape (1975) và Three Tall Women (1994).",
+    "highlights": ["Sinh ngày 12/3/1928.", "Edward Albee ba lần nhận giải Pulitzer cho kịch với A Delicate Balance (1967), Seascape (1975) và Three Tall Women (1994)."],
     "wikidataId": "Q219420",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q219420",
@@ -1218,7 +1215,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "2016-09-16"
+    "deathDate": "2016-09-16",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Edward_Albee"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "liza-minnelli",
@@ -1238,11 +1238,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Liza Minnelli là diễn viên và ca sĩ người Hoa Kỳ.",
-    "biography": "Liza Minnelli là diễn viên và ca sĩ người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 12/3/1946.",
-      "Liza Minnelli là diễn viên và ca sĩ người Hoa Kỳ."
-    ],
+    "biography": "Liza Minnelli là diễn viên và ca sĩ người Hoa Kỳ. Liza Minnelli đoạt giải Emmy cho phim hòa nhạc Liza with a Z (1973) và được đề cử Oscar với The Sterile Cuckoo (1969).",
+    "highlights": ["Sinh ngày 12/3/1946.", "Liza Minnelli đoạt giải Emmy cho phim hòa nhạc Liza with a Z (1973) và được đề cử Oscar với The Sterile Cuckoo (1969)."],
     "wikidataId": "Q14441",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q14441",
@@ -1272,22 +1269,27 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇦🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Hugo Wolf là nhà soạn nhạc người Áo.",
-    "biography": "Hugo Wolf là nhà soạn nhạc người Áo.",
-    "highlights": [
-      "Sinh ngày 13/3/1860.",
-      "Hugo Wolf là nhà soạn nhạc người Áo."
-    ],
+    "biography": "Hugo Wolf là nhà soạn nhạc người Áo. Hugo Wolf soạn nhạc cho vở Gildet på Solhaug của Henrik Ibsen (1891), opera Der Corregidor (1895) và Italienische Serenade (1893–1894).",
+    "highlights": ["Sinh ngày 13/3/1860.", "Hugo Wolf soạn nhạc cho vở Gildet på Solhaug của Henrik Ibsen (1891), opera Der Corregidor (1895) và Italienische Serenade (1893–1894)."],
     "wikidataId": "Q215747",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q215747",
       "https://snl.no/Hugo_Wolf",
-      "https://www.enciklopedija.hr/clanak/wolf-hugo"
+      "https://www.enciklopedija.hr/clanak/wolf-hugo",
+      "https://www.slovenska-biografija.si/oseba/sbi845459/",
+      "https://www.hugowolf.at/m1_2.htm"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1903-02-22"
+    "deathDate": "1903-02-22",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.slovenska-biografija.si/oseba/sbi845459/",
+      "https://www.hugowolf.at/m1_2.htm"
+    ],
+    "deathDatePrecision": "day"
   },
   {
     "id": "percival-lowell",
@@ -1307,11 +1309,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Percival Lowell là nhà thiên văn học người Hoa Kỳ.",
-    "biography": "Percival Lowell là nhà thiên văn học người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 13/3/1855.",
-      "Percival Lowell là nhà thiên văn học người Hoa Kỳ."
-    ],
+    "biography": "Percival Lowell là nhà thiên văn học người Hoa Kỳ. Percival Lowell là nhà thiên văn học Mỹ nổi tiếng với các quan sát hành tinh, đặc biệt là Sao Hỏa.",
+    "highlights": ["Sinh ngày 13/3/1855.", "Percival Lowell là nhà thiên văn học Mỹ nổi tiếng với các quan sát hành tinh, đặc biệt là Sao Hỏa."],
     "wikidataId": "Q218575",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q218575",
@@ -1322,7 +1321,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1916-11-12"
+    "deathDate": "1916-11-12",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Percival_Lowell"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "neil-sedaka",
@@ -1342,22 +1344,27 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Neil Sedaka là ca sĩ và nhạc sĩ người Hoa Kỳ.",
-    "biography": "Neil Sedaka là ca sĩ và nhạc sĩ người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 13/3/1939.",
-      "Neil Sedaka là ca sĩ và nhạc sĩ người Hoa Kỳ."
-    ],
+    "biography": "Neil Sedaka là ca sĩ và nhạc sĩ người Hoa Kỳ. Neil Sedaka bắt đầu được biết đến với tư cách ca sĩ rock năm 1958; The Diary và I Go Ape giúp ông nổi tiếng tại Mỹ.",
+    "highlights": ["Sinh ngày 13/3/1939.", "Neil Sedaka bắt đầu được biết đến với tư cách ca sĩ rock năm 1958; The Diary và I Go Ape giúp ông nổi tiếng tại Mỹ."],
     "wikidataId": "Q312743",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q312743",
       "https://snl.no/Neil_Sedaka",
-      "https://www.songhall.org/profiles/neil-sedaka"
+      "https://www.songhall.org/profiles/neil-sedaka",
+      "https://www.rollingstone.com/music/music-news/neil-sedaka-dead-obituary-1235522925/",
+      "https://www.billboard.com/music/music-news/neil-sedaka-death-singer-songwriter-dead-obituary-1236188755/"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-04",
-    "deathDate": "2026-02-27"
+    "deathDate": "2026-02-27",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.rollingstone.com/music/music-news/neil-sedaka-dead-obituary-1235522925/",
+      "https://www.billboard.com/music/music-news/neil-sedaka-death-singer-songwriter-dead-obituary-1236188755/"
+    ],
+    "deathDatePrecision": "day",
+    "verifiedAt": "2026-10-04"
   },
   {
     "id": "albert-einstein",
@@ -1377,11 +1384,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Albert Einstein là nhà vật lý gốc Đức.",
-    "biography": "Albert Einstein là nhà vật lý gốc Đức.",
-    "highlights": [
-      "Sinh ngày 14/3/1879.",
-      "Albert Einstein là nhà vật lý gốc Đức."
-    ],
+    "biography": "Albert Einstein là nhà vật lý gốc Đức. Albert Einstein phát triển thuyết tương đối hẹp năm 1905 và thuyết tương đối rộng năm 1915.",
+    "highlights": ["Sinh ngày 14/3/1879.", "Albert Einstein phát triển thuyết tương đối hẹp năm 1905 và thuyết tương đối rộng năm 1915."],
     "wikidataId": "Q937",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q937",
@@ -1392,7 +1396,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1955-04-18"
+    "deathDate": "1955-04-18",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Albert_Einstein"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "michael-caine",
@@ -1412,11 +1419,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Michael Caine là diễn viên người Anh.",
-    "biography": "Michael Caine là diễn viên người Anh.",
-    "highlights": [
-      "Sinh ngày 14/3/1933.",
-      "Michael Caine là diễn viên người Anh."
-    ],
+    "biography": "Michael Caine là diễn viên người Anh. Michael Caine được chú ý rộng rãi nhờ vai chính trong The Ipcress File (1965) và Alfie (1966).",
+    "highlights": ["Sinh ngày 14/3/1933.", "Michael Caine được chú ý rộng rãi nhờ vai chính trong The Ipcress File (1965) và Alfie (1966)."],
     "wikidataId": "Q123351",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q123351",
@@ -1446,22 +1450,25 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Quincy Jones là nhạc sĩ người Hoa Kỳ.",
-    "biography": "Quincy Jones là nhạc sĩ người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 14/3/1933.",
-      "Quincy Jones là nhạc sĩ người Hoa Kỳ."
-    ],
+    "biography": "Quincy Jones là nhạc sĩ người Hoa Kỳ. Năm 1985, Quincy Jones chỉ đạo thu âm We Are the World nhằm gây quỹ hỗ trợ người dân bị nạn đói ở châu Phi.",
+    "highlights": ["Sinh ngày 14/3/1933.", "Năm 1985, Quincy Jones chỉ đạo thu âm We Are the World nhằm gây quỹ hỗ trợ người dân bị nạn đói ở châu Phi."],
     "wikidataId": "Q193645",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q193645",
       "https://snl.no/Quincy_Jones",
-      "https://www.enciklopedija.hr/clanak/jones-quincy"
+      "https://www.enciklopedija.hr/clanak/jones-quincy",
+      "https://www.lemonde.fr/disparitions/article/2024/11/04/quincy-jones-compositeur-trompettiste-et-producteur-americain-est-mort-a-l-age-de-91-ans_6375107_3382.html"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-04",
-    "deathDate": "2024-11-03"
+    "deathDate": "2024-11-03",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.lemonde.fr/disparitions/article/2024/11/04/quincy-jones-compositeur-trompettiste-et-producteur-americain-est-mort-a-l-age-de-91-ans_6375107_3382.html"
+    ],
+    "deathDatePrecision": "day",
+    "verifiedAt": "2026-10-04"
   },
   {
     "id": "andrew-jackson",
@@ -1481,11 +1488,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Andrew Jackson là chính trị gia người Hoa Kỳ.",
-    "biography": "Andrew Jackson là chính trị gia người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 15/3/1767.",
-      "Andrew Jackson là chính trị gia người Hoa Kỳ."
-    ],
+    "biography": "Andrew Jackson là chính trị gia người Hoa Kỳ. Andrew Jackson là tổng thống thứ bảy của Hoa Kỳ, tại nhiệm từ năm 1829 đến 1837.",
+    "highlights": ["Sinh ngày 15/3/1767.", "Andrew Jackson là tổng thống thứ bảy của Hoa Kỳ, tại nhiệm từ năm 1829 đến 1837."],
     "wikidataId": "Q11817",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q11817",
@@ -1496,7 +1500,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1845-06-08"
+    "deathDate": "1845-06-08",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Andrew_Jackson"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "paul-heyse",
@@ -1516,11 +1523,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Paul Heyse là nhà văn người Đức.",
-    "biography": "Paul Heyse là nhà văn người Đức.",
-    "highlights": [
-      "Sinh ngày 15/3/1830.",
-      "Paul Heyse là nhà văn người Đức."
-    ],
+    "biography": "Paul Heyse là nhà văn người Đức. L’Arrabbiata (1885), một trong những tác phẩm nổi tiếng của Paul Heyse, được xuất bản trong tuyển tập truyện ngắn đầu tiên của ông.",
+    "highlights": ["Sinh ngày 15/3/1830.", "L’Arrabbiata (1885), một trong những tác phẩm nổi tiếng của Paul Heyse, được xuất bản trong tuyển tập truyện ngắn đầu tiên của ông."],
     "wikidataId": "Q76487",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q76487",
@@ -1531,7 +1535,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1914-04-02"
+    "deathDate": "1914-04-02",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Paul_Johann_Ludwig_von_Heyse"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "zhores-alferov",
@@ -1551,22 +1558,18 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇷🇺",
     "image": "/people/placeholder.svg",
     "shortDescription": "Zhores Alferov là nhà vật lý người Nga.",
-    "biography": "Zhores Alferov là nhà vật lý người Nga.",
-    "highlights": [
-      "Sinh ngày 15/3/1930.",
-      "Zhores Alferov là nhà vật lý người Nga."
-    ],
+    "biography": "Zhores Alferov là nhà vật lý người Nga. Năm 2000, Zhores Alferov cùng Herbert Kroemer chia một nửa giải Nobel Vật lý nhờ phát triển dị thể bán dẫn cho điện tử tốc độ cao và quang điện tử.",
+    "highlights": ["Sinh ngày 15/3/1930.", "Năm 2000, Zhores Alferov cùng Herbert Kroemer chia một nửa giải Nobel Vật lý nhờ phát triển dị thể bán dẫn cho điện tử tốc độ cao và quang điện tử."],
     "wikidataId": "Q183279",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q183279",
-      "https://snl.no/Zjores_Alfjorov",
-      "https://www.enciklopedija.hr/clanak/alfjorov-zores-ivanovic"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q183279", "https://snl.no/Zjores_Alfjorov", "https://www.enciklopedija.hr/clanak/alfjorov-zores-ivanovic", "https://www.nobelprize.org/prizes/physics/2000/summary/"],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "2019-03-01"
+    "deathDate": "2019-03-01",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Zjores_Alfjorov"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "bernardo-bertolucci",
@@ -1586,11 +1589,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇮🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Bernardo Bertolucci là đạo diễn người Ý.",
-    "biography": "Bernardo Bertolucci là đạo diễn người Ý.",
-    "highlights": [
-      "Sinh ngày 16/3/1941.",
-      "Bernardo Bertolucci là đạo diễn người Ý."
-    ],
+    "biography": "Bernardo Bertolucci là đạo diễn người Ý. Năm 2011, Liên hoan phim Cannes trao Bernardo Bertolucci Cành cọ Vàng danh dự để ghi nhận sự nghiệp điện ảnh của ông.",
+    "highlights": ["Sinh ngày 16/3/1941.", "Năm 2011, Liên hoan phim Cannes trao Bernardo Bertolucci Cành cọ Vàng danh dự để ghi nhận sự nghiệp điện ảnh của ông."],
     "wikidataId": "Q53009",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q53009",
@@ -1601,7 +1601,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "2018-11-26"
+    "deathDate": "2018-11-26",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Bernardo_Bertolucci"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "jerry-lewis",
@@ -1621,22 +1624,26 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Jerry Lewis là diễn viên người Hoa Kỳ.",
-    "biography": "Jerry Lewis là diễn viên người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 16/3/1926.",
-      "Jerry Lewis là diễn viên người Hoa Kỳ."
-    ],
+    "biography": "Jerry Lewis là diễn viên người Hoa Kỳ. Trong The Errand Boy (1961), bộ phim do Jerry Lewis đạo diễn, ông đóng vai nhân viên vụng về tại phòng thư của một hãng phim.",
+    "highlights": ["Sinh ngày 16/3/1926.", "Trong The Errand Boy (1961), bộ phim do Jerry Lewis đạo diễn, ông đóng vai nhân viên vụng về tại phòng thư của một hãng phim."],
     "wikidataId": "Q294927",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q294927",
       "https://snl.no/Jerry_Lewis",
-      "https://www.enciklopedija.hr/clanak/lewis-jerry"
+      "https://www.enciklopedija.hr/clanak/lewis-jerry",
+      "http://www.hollywoodreporter.com/news/jerry-lewis-dead-nutty-professor-bellboy-star-was-91-721408",
+      "https://www.hollywoodreporter.com/news/general-news/jerry-lewis-dead-nutty-professor-bellboy-star-was-91-721408/"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-04",
-    "deathDate": "2017-08-20"
+    "deathDate": "2017-08-20",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "http://www.hollywoodreporter.com/news/jerry-lewis-dead-nutty-professor-bellboy-star-was-91-721408"
+    ],
+    "deathDatePrecision": "day",
+    "verifiedAt": "2026-10-04"
   },
   {
     "id": "ho-tuan-tai",
@@ -1656,11 +1663,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Hồ Tuấn Tài là cầu thủ bóng đá người Việt Nam.",
-    "biography": "Hồ Tuấn Tài là cầu thủ bóng đá người Việt Nam.",
-    "highlights": [
-      "Sinh ngày 16/3/1995.",
-      "Hồ Tuấn Tài là cầu thủ bóng đá người Việt Nam."
-    ],
+    "biography": "Hồ Tuấn Tài là cầu thủ bóng đá người Việt Nam. Hồ Tuấn Tài ghi 8 bàn cho Sông Lam Nghệ An ở V.League 1 mùa 2019.",
+    "highlights": ["Sinh ngày 16/3/1995.", "Hồ Tuấn Tài ghi 8 bàn cho Sông Lam Nghệ An ở V.League 1 mùa 2019."],
     "wikidataId": "Q19560744",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q19560744",
@@ -1690,22 +1694,25 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Gottlieb Daimler là kỹ sư người Đức.",
-    "biography": "Gottlieb Daimler là kỹ sư người Đức.",
-    "highlights": [
-      "Sinh ngày 17/3/1834.",
-      "Gottlieb Daimler là kỹ sư người Đức."
-    ],
+    "biography": "Gottlieb Daimler là kỹ sư người Đức. Năm 1885, Gottlieb Daimler chế tạo chiếc xe máy đầu tiên; năm sau ông lắp động cơ lên một phương tiện bốn bánh.",
+    "highlights": ["Sinh ngày 17/3/1834.", "Năm 1885, Gottlieb Daimler chế tạo chiếc xe máy đầu tiên; năm sau ông lắp động cơ lên một phương tiện bốn bánh."],
     "wikidataId": "Q57098",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q57098",
       "https://snl.no/Gottlieb_Daimler",
-      "https://www.enciklopedija.hr/clanak/daimler-gottlieb-wilhelm"
+      "https://www.enciklopedija.hr/clanak/daimler-gottlieb-wilhelm",
+      "https://brockhaus.de/ecs/julex/article/daimler-gottlieb-wilhelm"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-04",
-    "deathDate": "1900-03-06"
+    "deathDate": "1900-03-06",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/daimler-gottlieb-wilhelm"
+    ],
+    "deathDatePrecision": "day",
+    "verifiedAt": "2026-10-04"
   },
   {
     "id": "rudolf-nureyev",
@@ -1725,22 +1732,23 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇷🇺",
     "image": "/people/placeholder.svg",
     "shortDescription": "Rudolf Nureyev là nghệ sĩ ballet gốc Nga.",
-    "biography": "Rudolf Nureyev là nghệ sĩ ballet gốc Nga.",
-    "highlights": [
-      "Sinh ngày 17/3/1938.",
-      "Rudolf Nureyev là nghệ sĩ ballet gốc Nga."
-    ],
+    "biography": "Rudolf Nureyev là nghệ sĩ ballet gốc Nga. Năm 15 tuổi, Rudolf Nureyev bắt đầu tham gia các buổi diễn tại Nhà hát Opera Ufa với vai trò diễn viên quần chúng.",
+    "highlights": ["Sinh ngày 17/3/1938.", "Năm 15 tuổi, Rudolf Nureyev bắt đầu tham gia các buổi diễn tại Nhà hát Opera Ufa với vai trò diễn viên quần chúng."],
     "wikidataId": "Q84217",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q84217",
       "https://snl.no/Rudolf_Nurejev",
-      "https://www.enciklopedija.hr/clanak/nurejev-rudolf"
+      "https://www.enciklopedija.hr/clanak/nurejev-rudolf",
+      "https://nureyev.org/discover-nureyev/nureyevs-life/"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1993-01-06"
+    "deathDate": "1993-01-06",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://nureyev.org/discover-nureyev/nureyevs-life/"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "trinh-quang-vinh",
@@ -1760,17 +1768,10 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Trịnh Quang Vinh là cầu thủ bóng đá người Việt Nam.",
-    "biography": "Trịnh Quang Vinh là cầu thủ bóng đá người Việt Nam.",
-    "highlights": [
-      "Sinh ngày 17/3/1987.",
-      "Trịnh Quang Vinh là cầu thủ bóng đá người Việt Nam."
-    ],
+    "biography": "Trịnh Quang Vinh là cầu thủ bóng đá người Việt Nam. Trong đội hình tiêu biểu vòng 9 Toyota V.League, Trịnh Quang Vinh được ghi nhận đã ghi bàn và kiến tạo cho B.Bình Dương.",
+    "highlights": ["Sinh ngày 17/3/1987.", "Trong đội hình tiêu biểu vòng 9 Toyota V.League, Trịnh Quang Vinh được ghi nhận đã ghi bàn và kiến tạo cho B.Bình Dương."],
     "wikidataId": "Q10829872",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q10829872",
-      "https://assets.the-afc.com/migration/a/f/afc-champions-league-2016-preliminary-registration-squad-list-29510",
-      "https://vpf.vn/player/trinh-quang-vinh/"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q10829872", "https://assets.the-afc.com/migration/a/f/afc-champions-league-2016-preliminary-registration-squad-list-29510", "https://vpf.vn/player/trinh-quang-vinh/", "https://vpf.vn/tin-tuc/tin-vleague/doi-hinh-tieu-bieu-vong-9-toyota-v-league/"],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "vietnam",
@@ -1794,11 +1795,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Neville Chamberlain là chính trị gia người Anh.",
-    "biography": "Neville Chamberlain là chính trị gia người Anh.",
-    "highlights": [
-      "Sinh ngày 18/3/1869.",
-      "Neville Chamberlain là chính trị gia người Anh."
-    ],
+    "biography": "Neville Chamberlain là chính trị gia người Anh. Neville Chamberlain trở thành thủ tướng Anh năm 1937, sau khi Stanley Baldwin rời chức.",
+    "highlights": ["Sinh ngày 18/3/1869.", "Neville Chamberlain trở thành thủ tướng Anh năm 1937, sau khi Stanley Baldwin rời chức."],
     "wikidataId": "Q10664",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q10664",
@@ -1809,7 +1807,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1940-11-09"
+    "deathDate": "1940-11-09",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Neville_Chamberlain"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "stephane-mallarme",
@@ -1829,11 +1830,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Stéphane Mallarmé là nhà thơ người Pháp.",
-    "biography": "Stéphane Mallarmé là nhà thơ người Pháp.",
-    "highlights": [
-      "Sinh ngày 18/3/1842.",
-      "Stéphane Mallarmé là nhà thơ người Pháp."
-    ],
+    "biography": "Stéphane Mallarmé là nhà thơ người Pháp. Stéphane Mallarmé là nhà thơ Pháp có thơ ca chịu ảnh hưởng của Charles Baudelaire, Edgar Allan Poe và trường phái Parnasse.",
+    "highlights": ["Sinh ngày 18/3/1842.", "Stéphane Mallarmé là nhà thơ Pháp có thơ ca chịu ảnh hưởng của Charles Baudelaire, Edgar Allan Poe và trường phái Parnasse."],
     "wikidataId": "Q767",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q767",
@@ -1844,7 +1842,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1898-09-09"
+    "deathDate": "1898-09-09",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/St%C3%A9phane_Mallarm%C3%A9"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "nikolai-rimsky-korsakov",
@@ -1864,22 +1865,27 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇷🇺",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nikolai Rimsky-Korsakov là nhà soạn nhạc người Nga.",
-    "biography": "Nikolai Rimsky-Korsakov là nhà soạn nhạc người Nga.",
-    "highlights": [
-      "Sinh ngày 18/3/1844.",
-      "Nikolai Rimsky-Korsakov là nhà soạn nhạc người Nga."
-    ],
+    "biography": "Nikolai Rimsky-Korsakov là nhà soạn nhạc người Nga. Nikolai Rimsky-Korsakov viết các opera May Night và Christmas Eve dựa trên truyện của Nikolai Gogol, đồng thời sáng tác The Tale of Tsar Saltan.",
+    "highlights": ["Sinh ngày 18/3/1844.", "Nikolai Rimsky-Korsakov viết các opera May Night và Christmas Eve dựa trên truyện của Nikolai Gogol, đồng thời sáng tác The Tale of Tsar Saltan."],
     "wikidataId": "Q93227",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q93227",
       "https://snl.no/Nikolaj_Rimskij-Korsakov",
-      "https://www.enciklopedija.hr/clanak/rimski-korsakov-nikolaj-andrejevic"
+      "https://www.enciklopedija.hr/clanak/rimski-korsakov-nikolaj-andrejevic",
+      "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CR%5CI%5CRimsky6KorsakovNikolai.htm",
+      "https://assets.culturaldistrict.org/culturaldistrict/system/assets/7885/original/Korsakov.pdf"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1908-06-21"
+    "deathDate": "1908-06-21",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CR%5CI%5CRimsky6KorsakovNikolai.htm",
+      "https://assets.culturaldistrict.org/culturaldistrict/system/assets/7885/original/Korsakov.pdf"
+    ],
+    "deathDatePrecision": "day"
   },
   {
     "id": "bruce-willis",
@@ -1899,11 +1905,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Bruce Willis là diễn viên người Hoa Kỳ.",
-    "biography": "Bruce Willis là diễn viên người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 19/3/1955.",
-      "Bruce Willis là diễn viên người Hoa Kỳ."
-    ],
+    "biography": "Bruce Willis là diễn viên người Hoa Kỳ. Bruce Willis được chú ý qua loạt phim truyền hình Moonlighting (1985–1989), trong đó ông đóng cùng Cybill Shepherd.",
+    "highlights": ["Sinh ngày 19/3/1955.", "Bruce Willis được chú ý qua loạt phim truyền hình Moonlighting (1985–1989), trong đó ông đóng cùng Cybill Shepherd."],
     "wikidataId": "Q2680",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q2680",
@@ -1933,11 +1936,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Philip Roth là nhà văn người Hoa Kỳ.",
-    "biography": "Philip Roth là nhà văn người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 19/3/1933.",
-      "Philip Roth là nhà văn người Hoa Kỳ."
-    ],
+    "biography": "Philip Roth là nhà văn người Hoa Kỳ. Philip Roth nhận Giải Pulitzer cho tiểu thuyết American Pastoral (1997).",
+    "highlights": ["Sinh ngày 19/3/1933.", "Philip Roth nhận Giải Pulitzer cho tiểu thuyết American Pastoral (1997)."],
     "wikidataId": "Q187019",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q187019",
@@ -1948,7 +1948,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "2018-05-22"
+    "deathDate": "2018-05-22",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Philip_Roth"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "glenn-close",
@@ -1968,11 +1971,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Glenn Close là diễn viên người Hoa Kỳ.",
-    "biography": "Glenn Close là diễn viên người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 19/3/1947.",
-      "Glenn Close là diễn viên người Hoa Kỳ."
-    ],
+    "biography": "Glenn Close là diễn viên người Hoa Kỳ. Glenn Close có nền tảng sân khấu Broadway trước khi ra mắt điện ảnh trong The World According to Garp (1982), rồi tiếp tục gây chú ý với The Big Chill (1983).",
+    "highlights": ["Sinh ngày 19/3/1947.", "Glenn Close có nền tảng sân khấu Broadway trước khi ra mắt điện ảnh trong The World According to Garp (1982), rồi tiếp tục gây chú ý với The Big Chill (1983)."],
     "wikidataId": "Q372311",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q372311",
@@ -2002,11 +2002,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇳🇴",
     "image": "/people/placeholder.svg",
     "shortDescription": "Henrik Ibsen là nhà viết kịch người Na Uy.",
-    "biography": "Henrik Ibsen là nhà viết kịch người Na Uy.",
-    "highlights": [
-      "Sinh ngày 20/3/1828.",
-      "Henrik Ibsen là nhà viết kịch người Na Uy."
-    ],
+    "biography": "Henrik Ibsen là nhà viết kịch người Na Uy. Henrik Ibsen đạt bước đột phá quốc tế lớn với vở kịch A Doll’s House (Et dukkehjem) năm 1879.",
+    "highlights": ["Sinh ngày 20/3/1828.", "Henrik Ibsen đạt bước đột phá quốc tế lớn với vở kịch A Doll’s House (Et dukkehjem) năm 1879."],
     "wikidataId": "Q36661",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q36661",
@@ -2017,7 +2014,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1906-05-23"
+    "deathDate": "1906-05-23",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Henrik_Ibsen"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "spike-lee",
@@ -2037,11 +2037,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Spike Lee là đạo diễn người Hoa Kỳ.",
-    "biography": "Spike Lee là đạo diễn người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 20/3/1957.",
-      "Spike Lee là đạo diễn người Hoa Kỳ."
-    ],
+    "biography": "Spike Lee là đạo diễn người Hoa Kỳ. BlacKkKlansman (2018) đoạt Oscar Kịch bản chuyển thể xuất sắc nhất và được đề cử Phim hay nhất cùng Đạo diễn xuất sắc nhất; đây là một thành công lớn của Spike Lee.",
+    "highlights": ["Sinh ngày 20/3/1957.", "BlacKkKlansman (2018) đoạt Oscar Kịch bản chuyển thể xuất sắc nhất và được đề cử Phim hay nhất cùng Đạo diễn xuất sắc nhất; đây là một thành công lớn của Spike Lee."],
     "wikidataId": "Q51566",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q51566",
@@ -2071,22 +2068,27 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "William Hurt là diễn viên người Hoa Kỳ.",
-    "biography": "William Hurt là diễn viên người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 20/3/1950.",
-      "William Hurt là diễn viên người Hoa Kỳ."
-    ],
+    "biography": "William Hurt là diễn viên người Hoa Kỳ. Vai diễn trong Kiss of the Spider Woman mang về cho William Hurt Oscar và BAFTA Nam diễn viên chính xuất sắc nhất cùng giải diễn xuất tại Cannes.",
+    "highlights": ["Sinh ngày 20/3/1950.", "Vai diễn trong Kiss of the Spider Woman mang về cho William Hurt Oscar và BAFTA Nam diễn viên chính xuất sắc nhất cùng giải diễn xuất tại Cannes."],
     "wikidataId": "Q105825",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q105825",
       "https://snl.no/William_Hurt",
-      "https://www.enciklopedija.hr/clanak/hurt-william"
+      "https://www.enciklopedija.hr/clanak/hurt-william",
+      "https://www.elcomercio.es/culturas/cine/fallece-william-hurt-beso-mujer-arana-20220313223841-nt.html",
+      "https://www.hollywoodreporter.com/movies/movie-news/william-hurt-dead-body-heat-broadcast-news-1235110394/"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-04",
-    "deathDate": "2022-03-13"
+    "deathDate": "2022-03-13",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.elcomercio.es/culturas/cine/fallece-william-hurt-beso-mujer-arana-20220313223841-nt.html",
+      "https://www.hollywoodreporter.com/movies/movie-news/william-hurt-dead-body-heat-broadcast-news-1235110394/"
+    ],
+    "deathDatePrecision": "day",
+    "verifiedAt": "2026-10-04"
   },
   {
     "id": "joseph-fourier",
@@ -2106,11 +2108,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Joseph Fourier là nhà toán học người Pháp.",
-    "biography": "Joseph Fourier là nhà toán học người Pháp.",
-    "highlights": [
-      "Sinh ngày 21/3/1768.",
-      "Joseph Fourier là nhà toán học người Pháp."
-    ],
+    "biography": "Joseph Fourier là nhà toán học người Pháp. Joseph Fourier được bổ nhiệm làm tỉnh trưởng tỉnh Isère năm 1801 và được phong nam tước năm 1808.",
+    "highlights": ["Sinh ngày 21/3/1768.", "Joseph Fourier được bổ nhiệm làm tỉnh trưởng tỉnh Isère năm 1801 và được phong nam tước năm 1808."],
     "wikidataId": "Q8772",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q8772",
@@ -2121,7 +2120,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1830-05-16"
+    "deathDate": "1830-05-16",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Joseph_Fourier"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "hans-dietrich-genscher",
@@ -2141,22 +2143,25 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Hans-Dietrich Genscher là chính trị gia người Đức.",
-    "biography": "Hans-Dietrich Genscher là chính trị gia người Đức.",
-    "highlights": [
-      "Sinh ngày 21/3/1927.",
-      "Hans-Dietrich Genscher là chính trị gia người Đức."
-    ],
+    "biography": "Hans-Dietrich Genscher là chính trị gia người Đức. Năm 1974, Hans-Dietrich Genscher trở thành Bộ trưởng Ngoại giao kiêm Phó Thủ tướng trong chính phủ liên minh xã hội-tự do của Đức.",
+    "highlights": ["Sinh ngày 21/3/1927.", "Năm 1974, Hans-Dietrich Genscher trở thành Bộ trưởng Ngoại giao kiêm Phó Thủ tướng trong chính phủ liên minh xã hội-tự do của Đức."],
     "wikidataId": "Q106235",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q106235",
       "https://snl.no/Hans-Dietrich_Genscher",
-      "https://www.enciklopedija.hr/clanak/genscher-hans-dietrich"
+      "https://www.enciklopedija.hr/clanak/genscher-hans-dietrich",
+      "https://brockhaus.de/ecs/julex/article/genscher-hans-dietrich"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-04",
-    "deathDate": "2016-03-31"
+    "deathDate": "2016-03-31",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/genscher-hans-dietrich"
+    ],
+    "deathDatePrecision": "day",
+    "verifiedAt": "2026-10-04"
   },
   {
     "id": "ayrton-senna",
@@ -2176,11 +2181,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇧🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Ayrton Senna là tay đua ô tô người Brazil.",
-    "biography": "Ayrton Senna là tay đua ô tô người Brazil.",
-    "highlights": [
-      "Sinh ngày 21/3/1960.",
-      "Ayrton Senna là tay đua ô tô người Brazil."
-    ],
+    "biography": "Ayrton Senna là tay đua ô tô người Brazil. Ayrton Senna vô địch Formula 1 vào các năm 1988, 1990 và 1991.",
+    "highlights": ["Sinh ngày 21/3/1960.", "Ayrton Senna vô địch Formula 1 vào các năm 1988, 1990 và 1991."],
     "wikidataId": "Q10490",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q10490",
@@ -2191,7 +2193,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1994-05-01"
+    "deathDate": "1994-05-01",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Ayrton_Senna"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "robert-millikan",
@@ -2211,11 +2216,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Robert Millikan là nhà vật lý người Hoa Kỳ.",
-    "biography": "Robert Millikan là nhà vật lý người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 22/3/1868.",
-      "Robert Millikan là nhà vật lý người Hoa Kỳ."
-    ],
+    "biography": "Robert Millikan là nhà vật lý người Hoa Kỳ. Từ năm 1921, Robert Millikan là giám đốc Norman Bridge Laboratory và chủ tịch Viện Công nghệ California tại Pasadena.",
+    "highlights": ["Sinh ngày 22/3/1868.", "Từ năm 1921, Robert Millikan là giám đốc Norman Bridge Laboratory và chủ tịch Viện Công nghệ California tại Pasadena."],
     "wikidataId": "Q130975",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q130975",
@@ -2226,7 +2228,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1953-12-19"
+    "deathDate": "1953-12-19",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Robert_Millikan"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "marcel-marceau",
@@ -2246,11 +2251,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Marcel Marceau là nghệ sĩ kịch câm người Pháp.",
-    "biography": "Marcel Marceau là nghệ sĩ kịch câm người Pháp.",
-    "highlights": [
-      "Sinh ngày 22/3/1923.",
-      "Marcel Marceau là nghệ sĩ kịch câm người Pháp."
-    ],
+    "biography": "Marcel Marceau là nghệ sĩ kịch câm người Pháp. Năm 1945, Marcel Marceau gia nhập đoàn kịch của Jean-Louis Barrault; sau đó ông thành lập đoàn riêng.",
+    "highlights": ["Sinh ngày 22/3/1923.", "Năm 1945, Marcel Marceau gia nhập đoàn kịch của Jean-Louis Barrault; sau đó ông thành lập đoàn riêng."],
     "wikidataId": "Q157191",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q157191",
@@ -2261,7 +2263,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "2007-09-22"
+    "deathDate": "2007-09-22",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Marcel_Marceau"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "andrew-lloyd-webber",
@@ -2281,11 +2286,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Andrew Lloyd Webber là nhà soạn nhạc người Anh.",
-    "biography": "Andrew Lloyd Webber là nhà soạn nhạc người Anh.",
-    "highlights": [
-      "Sinh ngày 22/3/1948.",
-      "Andrew Lloyd Webber là nhà soạn nhạc người Anh."
-    ],
+    "biography": "Andrew Lloyd Webber là nhà soạn nhạc người Anh. Starlight Express ra mắt năm 1984 và được diễn tại West End ở London suốt 17 năm.",
+    "highlights": ["Sinh ngày 22/3/1948.", "Starlight Express ra mắt năm 1984 và được diễn tại West End ở London suốt 17 năm."],
     "wikidataId": "Q180975",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q180975",
@@ -2315,11 +2317,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇯🇵",
     "image": "/people/placeholder.svg",
     "shortDescription": "Akira Kurosawa là đạo diễn người Nhật Bản.",
-    "biography": "Akira Kurosawa là đạo diễn người Nhật Bản.",
-    "highlights": [
-      "Sinh ngày 23/3/1910.",
-      "Akira Kurosawa là đạo diễn người Nhật Bản."
-    ],
+    "biography": "Akira Kurosawa là đạo diễn người Nhật Bản. Kịch bản của Akira Kurosawa được Andrei Konchalovsky chuyển thể thành phim Runaway Train (1985).",
+    "highlights": ["Sinh ngày 23/3/1910.", "Kịch bản của Akira Kurosawa được Andrei Konchalovsky chuyển thể thành phim Runaway Train (1985)."],
     "wikidataId": "Q8006",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q8006",
@@ -2330,7 +2329,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1998-09-06"
+    "deathDate": "1998-09-06",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Akira_Kurosawa"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "erich-fromm",
@@ -2350,22 +2352,23 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Erich Fromm là nhà phân tâm học gốc Đức.",
-    "biography": "Erich Fromm là nhà phân tâm học gốc Đức.",
-    "highlights": [
-      "Sinh ngày 23/3/1900.",
-      "Erich Fromm là nhà phân tâm học gốc Đức."
-    ],
+    "biography": "Erich Fromm là nhà phân tâm học gốc Đức. Erich Fromm phê bình một số lý thuyết của Sigmund Freud, nghiên cứu những vấn đề hiện sinh trong quan hệ giữa con người với xã hội, cùng biểu tượng trong giấc mơ và thần thoại.",
+    "highlights": ["Sinh ngày 23/3/1900.", "Erich Fromm phê bình một số lý thuyết của Sigmund Freud, nghiên cứu những vấn đề hiện sinh trong quan hệ giữa con người với xã hội, cùng biểu tượng trong giấc mơ và thần thoại."],
     "wikidataId": "Q57085",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q57085",
       "https://snl.no/Erich_Fromm",
-      "https://www.enciklopedija.hr/clanak/fromm-erich"
+      "https://www.enciklopedija.hr/clanak/fromm-erich",
+      "https://www.dhm.de/lemo/biografie/erich-fromm"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1980-03-18"
+    "deathDate": "1980-03-18",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://www.dhm.de/lemo/biografie/erich-fromm"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "wernher-von-braun",
@@ -2385,11 +2388,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Wernher von Braun là kỹ sư gốc Đức.",
-    "biography": "Wernher von Braun là kỹ sư gốc Đức.",
-    "highlights": [
-      "Sinh ngày 23/3/1912.",
-      "Wernher von Braun là kỹ sư gốc Đức."
-    ],
+    "biography": "Wernher von Braun là kỹ sư gốc Đức. Ngày 1/3/1970, Wernher von Braun được bổ nhiệm làm giám đốc hoạch định của NASA tại Washington, D.C.",
+    "highlights": ["Sinh ngày 23/3/1912.", "Ngày 1/3/1970, Wernher von Braun được bổ nhiệm làm giám đốc hoạch định của NASA tại Washington, D.C."],
     "wikidataId": "Q57384",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q57384",
@@ -2400,7 +2400,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1977-06-16"
+    "deathDate": "1977-06-16",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Wernher_von_Braun"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "harry-houdini",
@@ -2420,11 +2423,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Harry Houdini là nghệ sĩ ảo thuật người Hoa Kỳ.",
-    "biography": "Harry Houdini là nghệ sĩ ảo thuật người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 24/3/1874.",
-      "Harry Houdini là nghệ sĩ ảo thuật người Hoa Kỳ."
-    ],
+    "biography": "Harry Houdini là nghệ sĩ ảo thuật người Hoa Kỳ. Nghệ sĩ ảo thuật Mỹ Harry Houdini nổi tiếng với biệt danh “vua vượt ngục”.",
+    "highlights": ["Sinh ngày 24/3/1874.", "Nghệ sĩ ảo thuật Mỹ Harry Houdini nổi tiếng với biệt danh “vua vượt ngục”."],
     "wikidataId": "Q131545",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q131545",
@@ -2435,7 +2435,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1926-10-31"
+    "deathDate": "1926-10-31",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Harry_Houdini"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "steve-mcqueen",
@@ -2455,11 +2458,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Steve McQueen là diễn viên người Hoa Kỳ.",
-    "biography": "Steve McQueen là diễn viên người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 24/3/1930.",
-      "Steve McQueen là diễn viên người Hoa Kỳ."
-    ],
+    "biography": "Steve McQueen là diễn viên người Hoa Kỳ. Steve McQueen trở thành ngôi sao Hollywood qua các phim như The Great Escape (1963), The Cincinnati Kid (1965), The Sand Pebbles (1966) và Bullitt (1968).",
+    "highlights": ["Sinh ngày 24/3/1930.", "Steve McQueen trở thành ngôi sao Hollywood qua các phim như The Great Escape (1963), The Cincinnati Kid (1965), The Sand Pebbles (1966) và Bullitt (1968)."],
     "wikidataId": "Q159347",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q159347",
@@ -2470,7 +2470,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1980-11-07"
+    "deathDate": "1980-11-07",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Steve_McQueen"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "dario-fo",
@@ -2490,22 +2493,26 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇮🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Dario Fo là nhà viết kịch người Ý.",
-    "biography": "Dario Fo là nhà viết kịch người Ý.",
-    "highlights": [
-      "Sinh ngày 24/3/1926.",
-      "Dario Fo là nhà viết kịch người Ý."
-    ],
+    "biography": "Dario Fo là nhà viết kịch người Ý. Từ đầu thập niên 1950, Dario Fo viết và biểu diễn các tác phẩm châm biếm cùng những vở hài ngắn.",
+    "highlights": ["Sinh ngày 24/3/1926.", "Từ đầu thập niên 1950, Dario Fo viết và biểu diễn các tác phẩm châm biếm cùng những vở hài ngắn."],
     "wikidataId": "Q765",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q765",
       "https://snl.no/Dario_Fo",
-      "https://www.enciklopedija.hr/clanak/fo-dario"
+      "https://www.enciklopedija.hr/clanak/fo-dario",
+      "https://theaterencyclopedie.nl/wiki/index.php?curid=4271",
+      "https://www.nobelprize.org/prizes/literature/1997/fo/biographical/"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-04",
-    "deathDate": "2016-10-13"
+    "deathDate": "2016-10-13",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.nobelprize.org/prizes/literature/1997/fo/biographical/"
+    ],
+    "deathDatePrecision": "day",
+    "verifiedAt": "2026-10-04"
   },
   {
     "id": "elton-john",
@@ -2525,11 +2532,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Elton John là ca sĩ và nhạc sĩ người Anh.",
-    "biography": "Elton John là ca sĩ và nhạc sĩ người Anh.",
-    "highlights": [
-      "Sinh ngày 25/3/1947.",
-      "Elton John là ca sĩ và nhạc sĩ người Anh."
-    ],
+    "biography": "Elton John là ca sĩ và nhạc sĩ người Anh. Elton John gặp Bernie Taupin năm 1967; trong mười năm tiếp theo, họ cùng viết các ca khúc John phát hành.",
+    "highlights": ["Sinh ngày 25/3/1947.", "Elton John gặp Bernie Taupin năm 1967; trong mười năm tiếp theo, họ cùng viết các ca khúc John phát hành."],
     "wikidataId": "Q2808",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q2808",
@@ -2559,11 +2563,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Aretha Franklin là ca sĩ người Hoa Kỳ.",
-    "biography": "Aretha Franklin là ca sĩ người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 25/3/1942.",
-      "Aretha Franklin là ca sĩ người Hoa Kỳ."
-    ],
+    "biography": "Aretha Franklin là ca sĩ người Hoa Kỳ. Tháng 1/1968, Aretha Franklin lần đầu biểu diễn tại châu Âu trong chương trình truyền hình Golden Rose of Montreux.",
+    "highlights": ["Sinh ngày 25/3/1942.", "Tháng 1/1968, Aretha Franklin lần đầu biểu diễn tại châu Âu trong chương trình truyền hình Golden Rose of Montreux."],
     "wikidataId": "Q125121",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q125121",
@@ -2574,7 +2575,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "2018-08-16"
+    "deathDate": "2018-08-16",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Aretha_Franklin"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "bela-bartok",
@@ -2594,11 +2598,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇭🇺",
     "image": "/people/placeholder.svg",
     "shortDescription": "Béla Bartók là nhà soạn nhạc người Hungary.",
-    "biography": "Béla Bartók là nhà soạn nhạc người Hungary.",
-    "highlights": [
-      "Sinh ngày 25/3/1881.",
-      "Béla Bartók là nhà soạn nhạc người Hungary."
-    ],
+    "biography": "Béla Bartók là nhà soạn nhạc người Hungary. Năm 1913, Béla Bartók thực hiện chuyến đi dài ngày đến Bắc Phi và đặc biệt quan tâm đến âm nhạc Kabyle.",
+    "highlights": ["Sinh ngày 25/3/1881.", "Năm 1913, Béla Bartók thực hiện chuyến đi dài ngày đến Bắc Phi và đặc biệt quan tâm đến âm nhạc Kabyle."],
     "wikidataId": "Q83326",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q83326",
@@ -2609,7 +2610,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1945-09-26"
+    "deathDate": "1945-09-26",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/B%C3%A9la_Bart%C3%B3k"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "bernard-katz",
@@ -2629,22 +2633,23 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Bernard Katz là nhà sinh lý học người Anh.",
-    "biography": "Bernard Katz là nhà sinh lý học người Anh.",
-    "highlights": [
-      "Sinh ngày 26/3/1911.",
-      "Bernard Katz là nhà sinh lý học người Anh."
-    ],
+    "biography": "Bernard Katz là nhà sinh lý học người Anh. Bernard Katz chỉ ra cách chất dẫn truyền acetylcholine được giải phóng theo lượng nhất định tại các khớp thần kinh.",
+    "highlights": ["Sinh ngày 26/3/1911.", "Bernard Katz chỉ ra cách chất dẫn truyền acetylcholine được giải phóng theo lượng nhất định tại các khớp thần kinh."],
     "wikidataId": "Q4517",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q4517",
       "https://www.enciklopedija.hr/clanak/katz-bernard",
-      "https://www.nobelprize.org/prizes/medicine/1970/katz/facts/"
+      "https://www.nobelprize.org/prizes/medicine/1970/katz/facts/",
+      "https://archives.ucl.ac.uk/calmview/Record.aspx?id=KATZ&src=calmview.catalog"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "2003-04-20"
+    "deathDate": "2003-04-20",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://archives.ucl.ac.uk/calmview/Record.aspx?id=KATZ&src=calmview.catalog"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "tennessee-williams",
@@ -2664,11 +2669,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Tennessee Williams là nhà viết kịch người Hoa Kỳ.",
-    "biography": "Tennessee Williams là nhà viết kịch người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 26/3/1911.",
-      "Tennessee Williams là nhà viết kịch người Hoa Kỳ."
-    ],
+    "biography": "Tennessee Williams là nhà viết kịch người Hoa Kỳ. A Streetcar Named Desire (1947) là một trong những tác phẩm kịch lớn của Tennessee Williams.",
+    "highlights": ["Sinh ngày 26/3/1911.", "A Streetcar Named Desire (1947) là một trong những tác phẩm kịch lớn của Tennessee Williams."],
     "wikidataId": "Q134262",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q134262",
@@ -2679,7 +2681,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1983-02-25"
+    "deathDate": "1983-02-25",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Tennessee_Williams"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "pierre-boulez",
@@ -2699,11 +2704,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Pierre Boulez là nhà soạn nhạc người Pháp.",
-    "biography": "Pierre Boulez là nhà soạn nhạc người Pháp.",
-    "highlights": [
-      "Sinh ngày 26/3/1925.",
-      "Pierre Boulez là nhà soạn nhạc người Pháp."
-    ],
+    "biography": "Pierre Boulez là nhà soạn nhạc người Pháp. Từ giữa thập niên 1970, Pierre Boulez lãnh đạo IRCAM, viện nghiên cứu và điều phối âm học, âm nhạc tại Paris.",
+    "highlights": ["Sinh ngày 26/3/1925.", "Từ giữa thập niên 1970, Pierre Boulez lãnh đạo IRCAM, viện nghiên cứu và điều phối âm học, âm nhạc tại Paris."],
     "wikidataId": "Q156193",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q156193",
@@ -2714,7 +2716,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "2016-01-05"
+    "deathDate": "2016-01-05",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Pierre_Boulez"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "wilhelm-rontgen",
@@ -2734,11 +2739,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Wilhelm Röntgen là nhà vật lý người Đức.",
-    "biography": "Wilhelm Röntgen là nhà vật lý người Đức.",
-    "highlights": [
-      "Sinh ngày 27/3/1845.",
-      "Wilhelm Röntgen là nhà vật lý người Đức."
-    ],
+    "biography": "Wilhelm Röntgen là nhà vật lý người Đức. Wilhelm Röntgen nhận bằng kỹ sư cơ khí năm 1868 và hoàn thành bằng tiến sĩ triết học năm sau với công trình Studien über Gase.",
+    "highlights": ["Sinh ngày 27/3/1845.", "Wilhelm Röntgen nhận bằng kỹ sư cơ khí năm 1868 và hoàn thành bằng tiến sĩ triết học năm sau với công trình Studien über Gase."],
     "wikidataId": "Q35149",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q35149",
@@ -2749,7 +2751,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1923-02-10"
+    "deathDate": "1923-02-10",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Wilhelm_R%C3%B6ntgen"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "quentin-tarantino",
@@ -2769,11 +2774,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Quentin Tarantino là đạo diễn người Hoa Kỳ.",
-    "biography": "Quentin Tarantino là đạo diễn người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 27/3/1963.",
-      "Quentin Tarantino là đạo diễn người Hoa Kỳ."
-    ],
+    "biography": "Quentin Tarantino là đạo diễn người Hoa Kỳ. Once Upon a Time in Hollywood (2019) giúp Quentin Tarantino được đề cử Oscar ở các hạng mục Phim hay nhất, Đạo diễn và Kịch bản gốc.",
+    "highlights": ["Sinh ngày 27/3/1963.", "Once Upon a Time in Hollywood (2019) giúp Quentin Tarantino được đề cử Oscar ở các hạng mục Phim hay nhất, Đạo diễn và Kịch bản gốc."],
     "wikidataId": "Q3772",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q3772",
@@ -2803,22 +2805,25 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇷🇺",
     "image": "/people/placeholder.svg",
     "shortDescription": "Mstislav Rostropovich là nghệ sĩ cello người Nga.",
-    "biography": "Mstislav Rostropovich là nghệ sĩ cello người Nga.",
-    "highlights": [
-      "Sinh ngày 27/3/1927.",
-      "Mstislav Rostropovich là nghệ sĩ cello người Nga."
-    ],
+    "biography": "Mstislav Rostropovich là nghệ sĩ cello người Nga. Mstislav Rostropovich giữ chức giám đốc âm nhạc của National Symphony Orchestra tại Washington, D.C. từ năm 1978 đến 1994.",
+    "highlights": ["Sinh ngày 27/3/1927.", "Mstislav Rostropovich giữ chức giám đốc âm nhạc của National Symphony Orchestra tại Washington, D.C. từ năm 1978 đến 1994."],
     "wikidataId": "Q152043",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q152043",
       "https://snl.no/Mstislav_Rostropovitsj",
-      "https://www.enciklopedija.hr/clanak/rostropovic-mstislav-leopoldovic"
+      "https://www.enciklopedija.hr/clanak/rostropovic-mstislav-leopoldovic",
+      "http://news.bbc.co.uk/1/hi/world/europe/6598895.stm"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-04",
-    "deathDate": "2007-04-27"
+    "deathDate": "2007-04-27",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "http://news.bbc.co.uk/1/hi/world/europe/6598895.stm"
+    ],
+    "deathDatePrecision": "day",
+    "verifiedAt": "2026-10-04"
   },
   {
     "id": "dirk-bogarde",
@@ -2838,11 +2843,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Dirk Bogarde là diễn viên người Anh.",
-    "biography": "Dirk Bogarde là diễn viên người Anh.",
-    "highlights": [
-      "Sinh ngày 28/3/1921.",
-      "Dirk Bogarde là diễn viên người Anh."
-    ],
+    "biography": "Dirk Bogarde là diễn viên người Anh. Dirk Bogarde ban đầu đóng các vai thanh niên phạm pháp trong The Blue Lamp (1950) và Hunted (1952), rồi trở thành thần tượng khán giả với Doctor in the House (1954).",
+    "highlights": ["Sinh ngày 28/3/1921.", "Dirk Bogarde ban đầu đóng các vai thanh niên phạm pháp trong The Blue Lamp (1950) và Hunted (1952), rồi trở thành thần tượng khán giả với Doctor in the House (1954)."],
     "wikidataId": "Q299190",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q299190",
@@ -2853,7 +2855,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1999-05-08"
+    "deathDate": "1999-05-08",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Dirk_Bogarde"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "mario-vargas-llosa",
@@ -2873,22 +2878,25 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇵🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Mario Vargas Llosa là nhà văn người Peru.",
-    "biography": "Mario Vargas Llosa là nhà văn người Peru.",
-    "highlights": [
-      "Sinh ngày 28/3/1936.",
-      "Mario Vargas Llosa là nhà văn người Peru."
-    ],
+    "biography": "Mario Vargas Llosa là nhà văn người Peru. Mario Vargas Llosa được trao Nobel Văn học năm 2010.",
+    "highlights": ["Sinh ngày 28/3/1936.", "Mario Vargas Llosa được trao Nobel Văn học năm 2010."],
     "wikidataId": "Q39803",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q39803",
       "https://snl.no/Mario_Vargas_Llosa",
-      "https://www.enciklopedija.hr/clanak/vargas-llosa-mario"
+      "https://www.enciklopedija.hr/clanak/vargas-llosa-mario",
+      "https://diariocorreo.pe/peru/fallece-el-premio-nobel-de-literatura-mario-vargas-llosa-noticia/"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-04",
-    "deathDate": "2025-04-13"
+    "deathDate": "2025-04-13",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://diariocorreo.pe/peru/fallece-el-premio-nobel-de-literatura-mario-vargas-llosa-noticia/"
+    ],
+    "deathDatePrecision": "day",
+    "verifiedAt": "2026-10-04"
   },
   {
     "id": "tran-minh-vuong",
@@ -2908,11 +2916,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Trần Minh Vương là cầu thủ bóng đá người Việt Nam.",
-    "biography": "Trần Minh Vương là cầu thủ bóng đá người Việt Nam.",
-    "highlights": [
-      "Sinh ngày 28/3/1995.",
-      "Trần Minh Vương là cầu thủ bóng đá người Việt Nam."
-    ],
+    "biography": "Trần Minh Vương là cầu thủ bóng đá người Việt Nam. Trần Minh Vương ghi 12 bàn cho Hoàng Anh Gia Lai ở V.League 1 mùa 2019.",
+    "highlights": ["Sinh ngày 28/3/1995.", "Trần Minh Vương ghi 12 bàn cho Hoàng Anh Gia Lai ở V.League 1 mùa 2019."],
     "wikidataId": "Q19364879",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q19364879",
@@ -2942,11 +2947,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "John Tyler là chính trị gia người Hoa Kỳ.",
-    "biography": "John Tyler là chính trị gia người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 29/3/1790.",
-      "John Tyler là chính trị gia người Hoa Kỳ."
-    ],
+    "biography": "John Tyler là chính trị gia người Hoa Kỳ. John Tyler lãnh đạo Đảng Whig từ năm 1836, được bầu làm phó tổng thống năm 1840 và kế nhiệm tổng thống sau khi William Henry Harrison qua đời năm 1841.",
+    "highlights": ["Sinh ngày 29/3/1790.", "John Tyler lãnh đạo Đảng Whig từ năm 1836, được bầu làm phó tổng thống năm 1840 và kế nhiệm tổng thống sau khi William Henry Harrison qua đời năm 1841."],
     "wikidataId": "Q11881",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q11881",
@@ -2957,7 +2959,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1862-01-18"
+    "deathDate": "1862-01-18",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://millercenter.org/president/tyler"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "john-major",
@@ -2977,11 +2982,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "John Major là chính trị gia người Anh.",
-    "biography": "John Major là chính trị gia người Anh.",
-    "highlights": [
-      "Sinh ngày 29/3/1943.",
-      "John Major là chính trị gia người Anh."
-    ],
+    "biography": "John Major là chính trị gia người Anh. Năm 2005, Nữ hoàng Elizabeth II phong John Major làm Hiệp sĩ Huân chương Garter, từ đó ông mang tước hiệu Sir John Major.",
+    "highlights": ["Sinh ngày 29/3/1943.", "Năm 2005, Nữ hoàng Elizabeth II phong John Major làm Hiệp sĩ Huân chương Garter, từ đó ông mang tước hiệu Sir John Major."],
     "wikidataId": "Q9559",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q9559",
@@ -3011,11 +3013,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Ernst Jünger là nhà văn người Đức.",
-    "biography": "Ernst Jünger là nhà văn người Đức.",
-    "highlights": [
-      "Sinh ngày 29/3/1895.",
-      "Ernst Jünger là nhà văn người Đức."
-    ],
+    "biography": "Ernst Jünger là nhà văn người Đức. Tiểu thuyết biểu tượng Auf den Marmorklippen (1939) của Ernst Jünger khắc họa quyền lực độc đoán phục vụ cái ác.",
+    "highlights": ["Sinh ngày 29/3/1895.", "Tiểu thuyết biểu tượng Auf den Marmorklippen (1939) của Ernst Jünger khắc họa quyền lực độc đoán phục vụ cái ác."],
     "wikidataId": "Q76727",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q76727",
@@ -3026,7 +3025,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1998-02-17"
+    "deathDate": "1998-02-17",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Ernst_J%C3%BCnger"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "vincent-van-gogh",
@@ -3046,11 +3048,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇳🇱",
     "image": "/people/placeholder.svg",
     "shortDescription": "Vincent van Gogh là họa sĩ người Hà Lan.",
-    "biography": "Vincent van Gogh là họa sĩ người Hà Lan.",
-    "highlights": [
-      "Sinh ngày 30/3/1853.",
-      "Vincent van Gogh là họa sĩ người Hà Lan."
-    ],
+    "biography": "Vincent van Gogh là họa sĩ người Hà Lan. Vincent van Gogh được xem là một trong những nghệ sĩ hiện đại quan trọng đầu thế kỷ 20, dù khi sinh thời ông chưa được công nhận rộng rãi.",
+    "highlights": ["Sinh ngày 30/3/1853.", "Vincent van Gogh được xem là một trong những nghệ sĩ hiện đại quan trọng đầu thế kỷ 20, dù khi sinh thời ông chưa được công nhận rộng rãi."],
     "wikidataId": "Q5582",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q5582",
@@ -3061,7 +3060,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1890-07-29"
+    "deathDate": "1890-07-29",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Vincent_van_Gogh"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "eric-clapton",
@@ -3081,11 +3083,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Eric Clapton là ca sĩ và nghệ sĩ guitar người Anh.",
-    "biography": "Eric Clapton là ca sĩ và nghệ sĩ guitar người Anh.",
-    "highlights": [
-      "Sinh ngày 30/3/1945.",
-      "Eric Clapton là ca sĩ và nghệ sĩ guitar người Anh."
-    ],
+    "biography": "Eric Clapton là ca sĩ và nghệ sĩ guitar người Anh. Album trực tiếp Unplugged (1992) của Eric Clapton được thu cho MTV và mang về cho ông sáu giải Grammy.",
+    "highlights": ["Sinh ngày 30/3/1945.", "Album trực tiếp Unplugged (1992) của Eric Clapton được thu cho MTV và mang về cho ông sáu giải Grammy."],
     "wikidataId": "Q48187",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q48187",
@@ -3115,11 +3114,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇪🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Francisco Goya là họa sĩ người Tây Ban Nha.",
-    "biography": "Francisco Goya là họa sĩ người Tây Ban Nha.",
-    "highlights": [
-      "Sinh ngày 30/3/1746.",
-      "Francisco Goya là họa sĩ người Tây Ban Nha."
-    ],
+    "biography": "Francisco Goya là họa sĩ người Tây Ban Nha. Francisco Goya hoạt động quanh năm 1800 và phát triển thành một nghệ sĩ tạo hình có tiếng nói phê phán xã hội.",
+    "highlights": ["Sinh ngày 30/3/1746.", "Francisco Goya hoạt động quanh năm 1800 và phát triển thành một nghệ sĩ tạo hình có tiếng nói phê phán xã hội."],
     "wikidataId": "Q5432",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q5432",
@@ -3130,7 +3126,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1828-04-16"
+    "deathDate": "1828-04-16",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Francisco_de_Goya"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "joseph-haydn",
@@ -3150,11 +3149,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇦🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Joseph Haydn là nhà soạn nhạc người Áo.",
-    "biography": "Joseph Haydn là nhà soạn nhạc người Áo.",
-    "highlights": [
-      "Sinh ngày 31/3/1732.",
-      "Joseph Haydn là nhà soạn nhạc người Áo."
-    ],
+    "biography": "Joseph Haydn là nhà soạn nhạc người Áo. Từ năm 1779, Joseph Haydn được chính thức cho phép sáng tác tác phẩm cho những nhà bảo trợ ngoài gia đình Esterházy.",
+    "highlights": ["Sinh ngày 31/3/1732.", "Từ năm 1779, Joseph Haydn được chính thức cho phép sáng tác tác phẩm cho những nhà bảo trợ ngoài gia đình Esterházy."],
     "wikidataId": "Q7349",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q7349",
@@ -3165,7 +3161,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1809-05-31"
+    "deathDate": "1809-05-31",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Joseph_Haydn"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "rene-descartes",
@@ -3185,11 +3184,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "René Descartes là triết gia người Pháp.",
-    "biography": "René Descartes là triết gia người Pháp.",
-    "highlights": [
-      "Sinh ngày 31/3/1596.",
-      "René Descartes là triết gia người Pháp."
-    ],
+    "biography": "René Descartes là triết gia người Pháp. René Descartes xuất thân quý tộc và học tại trường dòng Tên La Flèche trước khi theo đuổi triết học và toán học.",
+    "highlights": ["Sinh ngày 31/3/1596.", "René Descartes xuất thân quý tộc và học tại trường dòng Tên La Flèche trước khi theo đuổi triết học và toán học."],
     "wikidataId": "Q9191",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q9191",
@@ -3200,7 +3196,10 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04",
-    "deathDate": "1650-02-11"
+    "deathDate": "1650-02-11",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://snl.no/Ren%C3%A9_Descartes"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "al-gore",
@@ -3220,11 +3219,8 @@ export const PEOPLE_03: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Al Gore là chính trị gia người Hoa Kỳ.",
-    "biography": "Al Gore là chính trị gia người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 31/3/1948.",
-      "Al Gore là chính trị gia người Hoa Kỳ."
-    ],
+    "biography": "Al Gore là chính trị gia người Hoa Kỳ. Al Gore quan tâm đến các vấn đề môi trường trong nhiều năm và xuất bản Earth in the Balance năm 1992.",
+    "highlights": ["Sinh ngày 31/3/1948.", "Al Gore quan tâm đến các vấn đề môi trường trong nhiều năm và xuất bản Earth in the Balance năm 1992."],
     "wikidataId": "Q19673",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q19673",
@@ -3235,5 +3231,119 @@ export const PEOPLE_03: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-04"
-  }
+  },
+  {
+    "id": "garrett-morgan",
+    "slug": "garrett-morgan",
+    "name": "Garrett Morgan",
+    "birthDate": "1877-03-04",
+    "birthYear": 1877,
+    "birthMonth": 3,
+    "birthDay": 4,
+    "lifeStatus": "deceased",
+    "occupation": [
+      "Nhà phát minh, doanh nhân"
+    ],
+    "category": "entrepreneur",
+    "categoryLabel": "Doanh nhân",
+    "fields": [
+      "technology-engineering",
+      "entrepreneurship"
+    ],
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "birthplace": "Paris, Kentucky, Hoa Kỳ",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Nhà phát minh người Mỹ với các sáng chế về an toàn và giao thông.",
+    "biography": "Garrett Morgan phát triển “safety hood”, thiết bị bảo vệ hô hấp được xem là tiền thân của mặt nạ phòng độc, cùng tín hiệu giao thông cơ học ba hướng. Hồ sơ National Inventors Hall of Fame ghi nhận cả hai sáng chế.",
+    "highlights": [
+      "Safety hood của Morgan là thiết bị bảo vệ hô hấp, tiền thân của mặt nạ phòng độc.",
+      "Morgan phát triển tín hiệu giao thông cơ học ba hướng."
+    ],
+    "wikidataId": "Q1316686",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q1316686",
+      "https://www.invent.org/inductees/garrett-morgan",
+      "https://home.army.mil/wood/units-tenants/USACBRNS/CBRN_units/HQs/HOF/GarrettMorgan"
+    ],
+    "region": "west",
+    "verifiedAt": "2026-10-08"
+  },
+  {
+    "id": "shibusawa-eiichi",
+    "slug": "shibusawa-eiichi",
+    "name": "Shibusawa Eiichi",
+    "birthDate": "1840-03-16",
+    "birthYear": 1840,
+    "birthMonth": 3,
+    "birthDay": 16,
+    "lifeStatus": "deceased",
+    "occupation": [
+      "Nhà công nghiệp, nhà từ thiện"
+    ],
+    "category": "entrepreneur",
+    "categoryLabel": "Doanh nhân",
+    "fields": [
+      "economics-business",
+      "entrepreneurship"
+    ],
+    "countryCode": "JP",
+    "countryName": "Nhật Bản",
+    "countryFlag": "🇯🇵",
+    "birthplace": "Chiaraijima (nay thuộc Fukaya, Saitama), Nhật Bản",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Nhà công nghiệp Nhật Bản gắn với sự phát triển của nhiều doanh nghiệp hiện đại.",
+    "biography": "Shibusawa Eiichi từng giữ vai trò tổng giám sát và chủ tịch First National Bank, đồng thời góp phần thành lập nhiều doanh nghiệp hiện đại ở Nhật Bản. Ông chủ trương kết hợp đạo đức với kinh tế và tiếp tục hoạt động xã hội sau khi rời thương trường.",
+    "highlights": [
+      "Shibusawa giữ vai trò tổng giám sát và chủ tịch First National Bank.",
+      "Ông đề cao sự hài hòa giữa đạo đức và kinh tế."
+    ],
+    "wikidataId": "Q704995",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q704995",
+      "https://www.ndl.go.jp/portrait/e/datas/104/?c=0",
+      "https://www.shibusawa.or.jp/english/eiichi/chronology.html"
+    ],
+    "region": "asia",
+    "verifiedAt": "2026-10-08"
+  },
+  {
+    "id": "le-van-thiem",
+    "slug": "le-van-thiem",
+    "name": "Lê Văn Thiêm",
+    "birthDate": "1918-03-29",
+    "birthYear": 1918,
+    "birthMonth": 3,
+    "birthDay": 29,
+    "lifeStatus": "deceased",
+    "occupation": [
+      "Nhà toán học, nhà giáo dục"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Khoa học",
+    "fields": [
+      "science-research",
+      "education-thought"
+    ],
+    "countryCode": "VN",
+    "countryName": "Việt Nam",
+    "countryFlag": "🇻🇳",
+    "birthplace": "Đức Thọ, Hà Tĩnh, Việt Nam",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Nhà toán học tiên phong, người Việt Nam đầu tiên nhận bằng tiến sĩ toán học ở châu Âu.",
+    "biography": "Lê Văn Thiêm bảo vệ luận án về kiểu của một diện Riemann mở đơn liên tại Đại học Göttingen năm 1945. Đại học Sư phạm Hà Nội ghi nhận ông là người Việt Nam đầu tiên nhận bằng tiến sĩ toán và là chủ tịch đầu tiên của Hội Toán học Việt Nam.",
+    "highlights": [
+      "Lê Văn Thiêm là người Việt Nam đầu tiên nhận bằng tiến sĩ toán học.",
+      "Luận án năm 1945 của ông nghiên cứu việc xác định kiểu của một diện Riemann mở đơn liên."
+    ],
+    "wikidataId": "Q6711240",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q6711240",
+      "https://hnue.edu.vn/tin-tuc/6781",
+      "https://mathshistory.st-andrews.ac.uk/Biographies/Thiem/"
+    ],
+    "region": "vietnam",
+    "verifiedAt": "2026-10-08"
+  },
 ];

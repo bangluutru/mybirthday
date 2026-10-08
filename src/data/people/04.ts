@@ -72,7 +72,10 @@ export const PEOPLE_04: Person[] = [
     ],
     "notabilityScore": 99,
     "region": "west",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-03",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://mathshistory.st-andrews.ac.uk/Biographies/Gauss/"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "gal-gadot",
@@ -126,20 +129,24 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Otto von Bismarck là chính trị gia và nhà ngoại giao người Đức.",
-    "biography": "Otto von Bismarck được biết đến với vai trò chính trị gia và nhà ngoại giao người Đức.",
-    "highlights": [
-      "Sinh ngày 1 tháng 4 năm 1815.",
-      "Được ghi nhận với vai trò chính trị gia và nhà ngoại giao người Đức."
-    ],
+    "biography": "Năm 1871, sau khi Đế chế Đức được thành lập, Otto von Bismarck trở thành thủ tướng đầu tiên của đế chế.",
+    "highlights": ["Sinh ngày 1 tháng 4 năm 1815.", "Năm 1871, sau khi Đế chế Đức được thành lập, Otto von Bismarck trở thành thủ tướng đầu tiên của đế chế."],
     "wikidataId": "Q8442",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q8442",
       "https://snl.no/Otto_von_Bismarck",
-      "https://www.dhm.de/lemo/biografie/otto-bismarck"
+      "https://www.dhm.de/lemo/biografie/otto-bismarck",
+      "https://frankfurter-personenlexikon.de/node/1637"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1898-07-30",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://frankfurter-personenlexikon.de/node/1637"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-05"
   },
   {
@@ -160,11 +167,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇰🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Wangari Maathai là nhà sinh vật học và nhà hoạt động môi trường người Kenya.",
-    "biography": "Wangari Maathai được biết đến với vai trò nhà sinh vật học và nhà hoạt động môi trường người Kenya.",
-    "highlights": [
-      "Sinh ngày 1 tháng 4 năm 1940.",
-      "Được ghi nhận với vai trò nhà sinh vật học và nhà hoạt động môi trường người Kenya."
-    ],
+    "biography": "Wangari Maathai thành lập Green Belt Movement năm 1977 và nhận Nobel Hòa bình năm 2004.",
+    "highlights": ["Sinh ngày 1 tháng 4 năm 1940.", "Wangari Maathai thành lập Green Belt Movement năm 1977 và nhận Nobel Hòa bình năm 2004."],
     "wikidataId": "Q46795",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q46795",
@@ -194,20 +198,25 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇨🇿",
     "image": "/people/placeholder.svg",
     "shortDescription": "Milan Kundera là nhà văn người Cộng hòa Séc.",
-    "biography": "Milan Kundera được biết đến với vai trò nhà văn người Cộng hòa Séc.",
-    "highlights": [
-      "Sinh ngày 1 tháng 4 năm 1929.",
-      "Được ghi nhận với vai trò nhà văn người Cộng hòa Séc."
-    ],
+    "biography": "Milan Kundera được biết đến rộng rãi với tiểu thuyết Đời nhẹ khôn kham, xuất bản năm 1984.",
+    "highlights": ["Sinh ngày 1 tháng 4 năm 1929.", "Milan Kundera được biết đến rộng rãi với tiểu thuyết Đời nhẹ khôn kham, xuất bản năm 1984."],
     "wikidataId": "Q93166",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q93166",
       "https://snl.no/Milan_Kundera",
-      "https://www.enciklopedija.hr/clanak/kundera-milan"
+      "https://www.enciklopedija.hr/clanak/kundera-milan",
+      "https://www.lemonde.fr/disparitions/article/2023/07/12/milan-kundera-romancier-de-l-existence-est-mort_6181627_3382.html",
+      "https://www.elysee.fr/emmanuel-macron/2023/07/11/deces-de-milan-kundera"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "2023-07-11",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.elysee.fr/emmanuel-macron/2023/07/11/deces-de-milan-kundera"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-05"
   },
   {
@@ -228,20 +237,19 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇩🇰",
     "image": "/people/placeholder.svg",
     "shortDescription": "Hans Christian Andersen là nhà văn và nhà thơ người Đan Mạch.",
-    "biography": "Hans Christian Andersen được biết đến với vai trò nhà văn và nhà thơ người Đan Mạch.",
-    "highlights": [
-      "Sinh ngày 2 tháng 4 năm 1805.",
-      "Được ghi nhận với vai trò nhà văn và nhà thơ người Đan Mạch."
-    ],
+    "biography": "Năm 1827, những bài thơ đầu tiên của Hans Christian Andersen được đăng trên tạp chí Kjøbenhavns flyvende Post của Johan Ludvig Heiberg.",
+    "highlights": ["Sinh ngày 2 tháng 4 năm 1805.", "Năm 1827, những bài thơ đầu tiên của Hans Christian Andersen được đăng trên tạp chí Kjøbenhavns flyvende Post của Johan Ludvig Heiberg."],
     "wikidataId": "Q5673",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q5673",
-      "https://snl.no/H.C._Andersen",
-      "https://www.enciklopedija.hr/clanak/andersen-hans-christian"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q5673", "https://snl.no/H.C._Andersen", "https://www.enciklopedija.hr/clanak/andersen-hans-christian", "https://brockhaus.de/ecs/julex/article/andersen-hans-christian", "https://www.kb.dk/en/inspiration/hans-christian-andersens-manuscripts-and-letters/life-hans-christian-andersen"],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1875-08-04",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/andersen-hans-christian"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-05"
   },
   {
@@ -262,21 +270,25 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇮🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Giacomo Casanova là nhà văn và dịch giả người Ý.",
-    "biography": "Giacomo Casanova được biết đến với vai trò nhà văn và dịch giả người Ý.",
-    "highlights": [
-      "Sinh ngày 2 tháng 4 năm 1725.",
-      "Được ghi nhận với vai trò nhà văn và dịch giả người Ý."
-    ],
+    "biography": "Giacomo Casanova viết hồi ký bằng tiếng Pháp với chủ ý tự thuật chân thực, theo cách chịu ảnh hưởng của Rousseau.",
+    "highlights": ["Sinh ngày 2 tháng 4 năm 1725.", "Giacomo Casanova viết hồi ký bằng tiếng Pháp với chủ ý tự thuật chân thực, theo cách chịu ảnh hưởng của Rousseau."],
     "wikidataId": "Q83321",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q83321",
       "https://www.treccani.it/enciclopedia/giacomo-casanova_%28Dizionario-Biografico%29/",
       "https://www.enciklopedija.hr/clanak/casanova-de-seingalt-giovanni-giacomo",
-      "https://snl.no/Giovanni_Giacomo_Casanova"
+      "https://snl.no/Giovanni_Giacomo_Casanova",
+      "https://brockhaus.de/ecs/julex/article/casanova-giacomo-girolamo"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1798-06-04",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/casanova-giacomo-girolamo"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-05"
   },
   {
@@ -297,11 +309,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Marvin Gaye là ca sĩ kiêm nhạc sĩ người Hoa Kỳ.",
-    "biography": "Marvin Gaye được biết đến với vai trò ca sĩ kiêm nhạc sĩ người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 2 tháng 4 năm 1939.",
-      "Được ghi nhận với vai trò ca sĩ kiêm nhạc sĩ người Hoa Kỳ."
-    ],
+    "biography": "Marvin Gaye có bản hit Top 50 đầu tiên năm 1962 với ca khúc Stubborn Kind of Fellow.",
+    "highlights": ["Sinh ngày 2 tháng 4 năm 1939.", "Marvin Gaye có bản hit Top 50 đầu tiên năm 1962 với ca khúc Stubborn Kind of Fellow."],
     "wikidataId": "Q189758",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q189758",
@@ -331,20 +340,24 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Marlon Brando là diễn viên điện ảnh người Hoa Kỳ.",
-    "biography": "Marlon Brando được biết đến với vai trò diễn viên điện ảnh người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 3 tháng 4 năm 1924.",
-      "Được ghi nhận với vai trò diễn viên điện ảnh người Hoa Kỳ."
-    ],
+    "biography": "Vai diễn cuối cùng của Marlon Brando là trong phim The Score, đóng cùng Robert De Niro và Edward Norton, ra mắt năm 2001.",
+    "highlights": ["Sinh ngày 3 tháng 4 năm 1924.", "Vai diễn cuối cùng của Marlon Brando là trong phim The Score, đóng cùng Robert De Niro và Edward Norton, ra mắt năm 2001."],
     "wikidataId": "Q34012",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q34012",
       "https://snl.no/Marlon_Brando",
-      "https://www.enciklopedija.hr/clanak/brando-marlon"
+      "https://www.enciklopedija.hr/clanak/brando-marlon",
+      "https://brockhaus.de/ecs/julex/article/brando-marlon"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "2004-07-01",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/brando-marlon"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-05"
   },
   {
@@ -365,20 +378,24 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Jane Goodall là nhà linh trưởng học và nhà hoạt động bảo tồn người Vương quốc Anh.",
-    "biography": "Jane Goodall được biết đến với vai trò nhà linh trưởng học và nhà hoạt động bảo tồn người Vương quốc Anh.",
-    "highlights": [
-      "Sinh ngày 3 tháng 4 năm 1934.",
-      "Được ghi nhận với vai trò nhà linh trưởng học và nhà hoạt động bảo tồn người Vương quốc Anh."
-    ],
+    "biography": "Jane Goodall được phong Dame of the British Empire năm 2004.",
+    "highlights": ["Sinh ngày 3 tháng 4 năm 1934.", "Jane Goodall được phong Dame of the British Empire năm 2004."],
     "wikidataId": "Q184746",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q184746",
       "https://snl.no/Jane_Goodall",
-      "https://www.enciklopedija.hr/clanak/goodall-jane"
+      "https://www.enciklopedija.hr/clanak/goodall-jane",
+      "https://www.theguardian.com/science/2025/oct/01/jane-goodall-world-renowned-primatologist-dies"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "2025-10-01",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.theguardian.com/science/2025/oct/01/jane-goodall-world-renowned-primatologist-dies"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-05"
   },
   {
@@ -399,11 +416,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Eddie Murphy là diễn viên hài người Hoa Kỳ.",
-    "biography": "Eddie Murphy được biết đến với vai trò diễn viên hài người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 3 tháng 4 năm 1961.",
-      "Được ghi nhận với vai trò diễn viên hài người Hoa Kỳ."
-    ],
+    "biography": "Sau khi trở lại dẫn chương trình Saturday Night Live năm 2019, Eddie Murphy nhận giải Emmy năm 2020.",
+    "highlights": ["Sinh ngày 3 tháng 4 năm 1961.", "Sau khi trở lại dẫn chương trình Saturday Night Live năm 2019, Eddie Murphy nhận giải Emmy năm 2020."],
     "wikidataId": "Q43874",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q43874",
@@ -433,11 +447,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Maya Angelou là nhà văn và nhà thơ người Hoa Kỳ.",
-    "biography": "Maya Angelou được biết đến với vai trò nhà văn và nhà thơ người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 4 tháng 4 năm 1928.",
-      "Được ghi nhận với vai trò nhà văn và nhà thơ người Hoa Kỳ."
-    ],
+    "biography": "Maya Angelou được biết đến nhiều với tập hồi ký đầu tiên, I Know Why the Caged Bird Sings, xuất bản năm 1969.",
+    "highlights": ["Sinh ngày 4 tháng 4 năm 1928.", "Maya Angelou được biết đến nhiều với tập hồi ký đầu tiên, I Know Why the Caged Bird Sings, xuất bản năm 1969."],
     "wikidataId": "Q19526",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q19526",
@@ -467,21 +478,25 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇷🇺",
     "image": "/people/placeholder.svg",
     "shortDescription": "Andrei Tarkovsky là đạo diễn điện ảnh người Nga.",
-    "biography": "Andrei Tarkovsky được biết đến với vai trò đạo diễn điện ảnh người Nga.",
-    "highlights": [
-      "Sinh ngày 4 tháng 4 năm 1932.",
-      "Được ghi nhận với vai trò đạo diễn điện ảnh người Nga."
-    ],
+    "biography": "Phim Solaris của Andrei Tarkovsky chuyển thể từ tiểu thuyết khoa học viễn tưởng cùng tên của Stanisław Lem.",
+    "highlights": ["Sinh ngày 4 tháng 4 năm 1932.", "Phim Solaris của Andrei Tarkovsky chuyển thể từ tiểu thuyết khoa học viễn tưởng cùng tên của Stanisław Lem."],
     "wikidataId": "Q853",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q853",
       "https://www.enciklopedija.hr/clanak/tarkovski-andrej-arsenjevic",
-      "https://kinotuskanac.hr/en/director/andrej-tarkovski"
+      "https://kinotuskanac.hr/en/director/andrej-tarkovski",
+      "https://s3.amazonaws.com/criterion-production/janus_promo_packages/508-/Mirror_press-notes_r5_original.pdf"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-05"
+    "verifiedAt": "2026-10-05",
+    "deathDate": "1986-12-29",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://s3.amazonaws.com/criterion-production/janus_promo_packages/508-/Mirror_press-notes_r5_original.pdf"
+    ],
+    "deathDatePrecision": "day"
   },
   {
     "id": "heath-ledger",
@@ -501,11 +516,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇦🇺",
     "image": "/people/placeholder.svg",
     "shortDescription": "Heath Ledger là diễn viên điện ảnh người Úc.",
-    "biography": "Heath Ledger được biết đến với vai trò diễn viên điện ảnh người Úc.",
-    "highlights": [
-      "Sinh ngày 4 tháng 4 năm 1979.",
-      "Được ghi nhận với vai trò diễn viên điện ảnh người Úc."
-    ],
+    "biography": "Heath Ledger được biết đến với vai diễn trong Brokeback Mountain và nhân vật Joker trong The Dark Knight.",
+    "highlights": ["Sinh ngày 4 tháng 4 năm 1979.", "Heath Ledger được biết đến với vai diễn trong Brokeback Mountain và nhân vật Joker trong The Dark Knight."],
     "wikidataId": "Q40572",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q40572",
@@ -535,11 +547,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Bette Davis là diễn viên người Hoa Kỳ.",
-    "biography": "Bette Davis được biết đến với vai trò diễn viên người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 5 tháng 4 năm 1908.",
-      "Được ghi nhận với vai trò diễn viên người Hoa Kỳ."
-    ],
+    "biography": "Bette Davis giành giải Oscar cho diễn xuất trong Dangerous và Jezebel.",
+    "highlights": ["Sinh ngày 5 tháng 4 năm 1908.", "Bette Davis giành giải Oscar cho diễn xuất trong Dangerous và Jezebel."],
     "wikidataId": "Q71206",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q71206",
@@ -569,11 +578,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Gregory Peck là diễn viên người Hoa Kỳ.",
-    "biography": "Gregory Peck được biết đến với vai trò diễn viên người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 5 tháng 4 năm 1916.",
-      "Được ghi nhận với vai trò diễn viên người Hoa Kỳ."
-    ],
+    "biography": "Gregory Peck giành Oscar và Quả cầu Vàng với vai luật sư Atticus Finch trong To Kill a Mockingbird.",
+    "highlights": ["Sinh ngày 5 tháng 4 năm 1916.", "Gregory Peck giành Oscar và Quả cầu Vàng với vai luật sư Atticus Finch trong To Kill a Mockingbird."],
     "wikidataId": "Q108366",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q108366",
@@ -603,11 +609,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Trần Lê Quốc Toàn là vận động viên cử tạ người Việt Nam.",
-    "biography": "Trần Lê Quốc Toàn được biết đến với vai trò vận động viên cử tạ người Việt Nam.",
-    "highlights": [
-      "Sinh ngày 5 tháng 4 năm 1989.",
-      "Được ghi nhận với vai trò vận động viên cử tạ người Việt Nam."
-    ],
+    "biography": "Trần Lê Quốc Toàn giành huy chương đồng hạng cân gà môn cử tạ tại Olympic London 2012.",
+    "highlights": ["Sinh ngày 5 tháng 4 năm 1989.", "Trần Lê Quốc Toàn giành huy chương đồng hạng cân gà môn cử tạ tại Olympic London 2012."],
     "wikidataId": "Q7833303",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q7833303",
@@ -637,11 +640,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "James Watson là nhà sinh học phân tử người Hoa Kỳ.",
-    "biography": "James Watson được biết đến với vai trò nhà sinh học phân tử người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 6 tháng 4 năm 1928.",
-      "Được ghi nhận với vai trò nhà sinh học phân tử người Hoa Kỳ."
-    ],
+    "biography": "James Watson cùng Francis Crick và Maurice Wilkins nhận Nobel Y sinh năm 1962 cho công trình về cấu trúc DNA.",
+    "highlights": ["Sinh ngày 6 tháng 4 năm 1928.", "James Watson cùng Francis Crick và Maurice Wilkins nhận Nobel Y sinh năm 1962 cho công trình về cấu trúc DNA."],
     "wikidataId": "Q83333",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q83333",
@@ -671,11 +671,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Kurt Georg Kiesinger là chính trị gia người Đức.",
-    "biography": "Kurt Georg Kiesinger được biết đến với vai trò chính trị gia người Đức.",
-    "highlights": [
-      "Sinh ngày 6 tháng 4 năm 1904.",
-      "Được ghi nhận với vai trò chính trị gia người Đức."
-    ],
+    "biography": "Kurt Georg Kiesinger làm thủ hiến bang Baden-Württemberg từ năm 1958 đến 1966, trước khi trở thành thủ tướng Tây Đức.",
+    "highlights": ["Sinh ngày 6 tháng 4 năm 1904.", "Kurt Georg Kiesinger làm thủ hiến bang Baden-Württemberg từ năm 1958 đến 1966, trước khi trở thành thủ tướng Tây Đức."],
     "wikidataId": "Q2512",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q2512",
@@ -705,11 +702,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇪🇨",
     "image": "/people/placeholder.svg",
     "shortDescription": "Rafael Correa là nhà kinh tế và chính trị gia người Ecuador.",
-    "biography": "Rafael Correa được biết đến với vai trò nhà kinh tế và chính trị gia người Ecuador.",
-    "highlights": [
-      "Sinh ngày 6 tháng 4 năm 1963.",
-      "Được ghi nhận với vai trò nhà kinh tế và chính trị gia người Ecuador."
-    ],
+    "biography": "Năm 2013, Rafael Correa giành khoảng 70% số phiếu ngay ở vòng đầu cuộc bầu cử tổng thống Ecuador.",
+    "highlights": ["Sinh ngày 6 tháng 4 năm 1963.", "Năm 2013, Rafael Correa giành khoảng 70% số phiếu ngay ở vòng đầu cuộc bầu cử tổng thống Ecuador."],
     "wikidataId": "Q19581",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q19581",
@@ -739,11 +733,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇭🇰",
     "image": "/people/placeholder.svg",
     "shortDescription": "Jackie Chan là diễn viên và nghệ sĩ võ thuật người Hong Kong.",
-    "biography": "Jackie Chan được biết đến với vai trò diễn viên và nghệ sĩ võ thuật người Hong Kong.",
-    "highlights": [
-      "Sinh ngày 7 tháng 4 năm 1954.",
-      "Được ghi nhận với vai trò diễn viên và nghệ sĩ võ thuật người Hong Kong."
-    ],
+    "biography": "Jackie Chan đóng phim Hồng Kông từ nhỏ, học hí kịch Trung Hoa rồi bắt đầu làm cascadeur và diễn viên vai nhỏ.",
+    "highlights": ["Sinh ngày 7 tháng 4 năm 1954.", "Jackie Chan đóng phim Hồng Kông từ nhỏ, học hí kịch Trung Hoa rồi bắt đầu làm cascadeur và diễn viên vai nhỏ."],
     "wikidataId": "Q36970",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q36970",
@@ -773,20 +764,24 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Billie Holiday là ca sĩ nhạc jazz người Hoa Kỳ.",
-    "biography": "Billie Holiday được biết đến với vai trò ca sĩ nhạc jazz người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 7 tháng 4 năm 1915.",
-      "Được ghi nhận với vai trò ca sĩ nhạc jazz người Hoa Kỳ."
-    ],
+    "biography": "Ngày 27/11/1933, Billie Holiday thu âm đĩa đầu tiên với bài Your Mother’s Son-in-Law.",
+    "highlights": ["Sinh ngày 7 tháng 4 năm 1915.", "Ngày 27/11/1933, Billie Holiday thu âm đĩa đầu tiên với bài Your Mother’s Son-in-Law."],
     "wikidataId": "Q104358",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q104358",
       "https://snl.no/Billie_Holiday",
-      "https://www.enciklopedija.hr/clanak/holiday-billie"
+      "https://www.enciklopedija.hr/clanak/holiday-billie",
+      "http://www.biography.com/people/billie-holiday-9341902"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1959-07-17",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "http://www.biography.com/people/billie-holiday-9341902"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-05"
   },
   {
@@ -807,11 +802,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Joseph Trần Văn Toản là giám mục công giáo người Việt Nam.",
-    "biography": "Joseph Trần Văn Toản được biết đến với vai trò giám mục công giáo người Việt Nam.",
-    "highlights": [
-      "Sinh ngày 7 tháng 4 năm 1955.",
-      "Được ghi nhận với vai trò giám mục công giáo người Việt Nam."
-    ],
+    "biography": "Năm 2017, Giáo hoàng bổ nhiệm Joseph Trần Văn Toản làm giám mục phó Giáo phận Long Xuyên.",
+    "highlights": ["Sinh ngày 7 tháng 4 năm 1955.", "Năm 2017, Giáo hoàng bổ nhiệm Joseph Trần Văn Toản làm giám mục phó Giáo phận Long Xuyên."],
     "wikidataId": "Q16319564",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q16319564",
@@ -841,20 +833,26 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇬🇭",
     "image": "/people/placeholder.svg",
     "shortDescription": "Kofi Annan là nhà ngoại giao người Ghana.",
-    "biography": "Kofi Annan được biết đến với vai trò nhà ngoại giao người Ghana.",
-    "highlights": [
-      "Sinh ngày 8 tháng 4 năm 1938.",
-      "Được ghi nhận với vai trò nhà ngoại giao người Ghana."
-    ],
+    "biography": "Năm 2001, Kofi Annan và Liên Hợp Quốc cùng nhận Nobel Hòa bình.",
+    "highlights": ["Sinh ngày 8 tháng 4 năm 1938.", "Năm 2001, Kofi Annan và Liên Hợp Quốc cùng nhận Nobel Hòa bình."],
     "wikidataId": "Q1254",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q1254",
       "https://snl.no/Kofi_Annan",
-      "https://www.nobelprize.org/laureate/749"
+      "https://www.nobelprize.org/laureate/749",
+      "https://www.lemonde.fr/disparitions/article/2018/08/18/mort-de-kofi-annan-ancien-secretaire-general-de-l-onu-et-nobel-de-la-paix_5343801_3382.html",
+      "https://brockhaus.de/ecs/julex/article/annan-kofi"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "2018-08-18",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.lemonde.fr/disparitions/article/2018/08/18/mort-de-kofi-annan-ancien-secretaire-general-de-l-onu-et-nobel-de-la-paix_5343801_3382.html",
+      "https://brockhaus.de/ecs/julex/article/annan-kofi"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-05"
   },
   {
@@ -875,11 +873,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇧🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Jacques Brel là ca sĩ và nhạc sĩ người Bỉ.",
-    "biography": "Jacques Brel được biết đến với vai trò ca sĩ và nhạc sĩ người Bỉ.",
-    "highlights": [
-      "Sinh ngày 8 tháng 4 năm 1929.",
-      "Được ghi nhận với vai trò ca sĩ và nhạc sĩ người Bỉ."
-    ],
+    "biography": "Năm 1977, Jacques Brel thu âm album Les Marquises trong những năm cuối đời sống tại quần đảo Marquesas.",
+    "highlights": ["Sinh ngày 8 tháng 4 năm 1929.", "Năm 1977, Jacques Brel thu âm album Les Marquises trong những năm cuối đời sống tại quần đảo Marquesas."],
     "wikidataId": "Q1666",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q1666",
@@ -909,11 +904,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Edmund Husserl là triết gia người Đức.",
-    "biography": "Edmund Husserl được biết đến với vai trò triết gia người Đức.",
-    "highlights": [
-      "Sinh ngày 8 tháng 4 năm 1859.",
-      "Được ghi nhận với vai trò triết gia người Đức."
-    ],
+    "biography": "Edmund Husserl là triết gia Đức được xem là người sáng lập hiện tượng học.",
+    "highlights": ["Sinh ngày 8 tháng 4 năm 1859.", "Edmund Husserl là triết gia Đức được xem là người sáng lập hiện tượng học."],
     "wikidataId": "Q58586",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q58586",
@@ -943,21 +935,25 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Charles Baudelaire là nhà thơ người Pháp.",
-    "biography": "Charles Baudelaire được biết đến với vai trò nhà thơ người Pháp.",
-    "highlights": [
-      "Sinh ngày 9 tháng 4 năm 1821.",
-      "Được ghi nhận với vai trò nhà thơ người Pháp."
-    ],
+    "biography": "Tập thơ Les Fleurs du mal của Charles Baudelaire bị tịch thu sau khi xuất bản năm 1857; sáu bài thơ bị kết luận là xúc phạm thuần phong.",
+    "highlights": ["Sinh ngày 9 tháng 4 năm 1821.", "Tập thơ Les Fleurs du mal của Charles Baudelaire bị tịch thu sau khi xuất bản năm 1857; sáu bài thơ bị kết luận là xúc phạm thuần phong."],
     "wikidataId": "Q501",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q501",
       "https://snl.no/Charles_Baudelaire",
-      "https://www.enciklopedija.hr/clanak/baudelaire-charles"
+      "https://www.enciklopedija.hr/clanak/baudelaire-charles",
+      "https://catalogue.bnf.fr/ark:/12148/cb118905823"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-05"
+    "verifiedAt": "2026-10-05",
+    "deathDate": "1867-08-31",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://catalogue.bnf.fr/ark:/12148/cb118905823"
+    ],
+    "deathDatePrecision": "day"
   },
   {
     "id": "jean-paul-belmondo",
@@ -977,20 +973,26 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Jean-Paul Belmondo là diễn viên người Pháp.",
-    "biography": "Jean-Paul Belmondo được biết đến với vai trò diễn viên người Pháp.",
-    "highlights": [
-      "Sinh ngày 9 tháng 4 năm 1933.",
-      "Được ghi nhận với vai trò diễn viên người Pháp."
-    ],
+    "biography": "Jean-Paul Belmondo nhận Cành cọ Vàng danh dự tại Cannes năm 2011 và Sư tử Vàng danh dự tại Venice năm 2016.",
+    "highlights": ["Sinh ngày 9 tháng 4 năm 1933.", "Jean-Paul Belmondo nhận Cành cọ Vàng danh dự tại Cannes năm 2011 và Sư tử Vàng danh dự tại Venice năm 2016."],
     "wikidataId": "Q106255",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q106255",
       "https://snl.no/Jean-Paul_Belmondo",
-      "https://www.enciklopedija.hr/clanak/belmondo-jean-paul"
+      "https://www.enciklopedija.hr/clanak/belmondo-jean-paul",
+      "https://www.lemonde.fr/disparitions/article/2021/09/06/la-mort-de-jean-paul-belmondo-star-populaire-du-cinema-francais_6093607_3382.html",
+      "https://www.lefigaro.fr/cinema/jean-paul-belmondo-le-magnifique-est-mort-20210906"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "2021-09-06",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.lemonde.fr/disparitions/article/2021/09/06/la-mort-de-jean-paul-belmondo-star-populaire-du-cinema-francais_6093607_3382.html",
+      "https://www.lefigaro.fr/cinema/jean-paul-belmondo-le-magnifique-est-mort-20210906"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-05"
   },
   {
@@ -1011,11 +1013,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇫🇮",
     "image": "/people/placeholder.svg",
     "shortDescription": "Elias Lönnrot là nhà thơ và nhà ngôn ngữ học người Phần Lan.",
-    "biography": "Elias Lönnrot được biết đến với vai trò nhà thơ và nhà ngôn ngữ học người Phần Lan.",
-    "highlights": [
-      "Sinh ngày 9 tháng 4 năm 1802.",
-      "Được ghi nhận với vai trò nhà thơ và nhà ngôn ngữ học người Phần Lan."
-    ],
+    "biography": "Bản đầu Kalevala do Elias Lönnrot biên soạn xuất bản năm 1835; bản mở rộng thường được dùng ra mắt năm 1849.",
+    "highlights": ["Sinh ngày 9 tháng 4 năm 1802.", "Bản đầu Kalevala do Elias Lönnrot biên soạn xuất bản năm 1835; bản mở rộng thường được dùng ra mắt năm 1849."],
     "wikidataId": "Q153159",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q153159",
@@ -1045,11 +1044,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇳🇱",
     "image": "/people/placeholder.svg",
     "shortDescription": "Hugo Grotius là luật gia và nhà ngoại giao người Hà Lan.",
-    "biography": "Hugo Grotius được biết đến với vai trò luật gia và nhà ngoại giao người Hà Lan.",
-    "highlights": [
-      "Sinh ngày 10 tháng 4 năm 1583.",
-      "Được ghi nhận với vai trò luật gia và nhà ngoại giao người Hà Lan."
-    ],
+    "biography": "Hugo Grotius nhận bằng tiến sĩ luật tại Orléans năm 1598 và hành nghề luật sư ở The Hague từ năm 1599.",
+    "highlights": ["Sinh ngày 10 tháng 4 năm 1583.", "Hugo Grotius nhận bằng tiến sĩ luật tại Orléans năm 1598 và hành nghề luật sư ở The Hague từ năm 1599."],
     "wikidataId": "Q154959",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q154959",
@@ -1079,20 +1075,24 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇪🇬",
     "image": "/people/placeholder.svg",
     "shortDescription": "Omar Sharif là diễn viên người Ai Cập.",
-    "biography": "Omar Sharif được biết đến với vai trò diễn viên người Ai Cập.",
-    "highlights": [
-      "Sinh ngày 10 tháng 4 năm 1932.",
-      "Được ghi nhận với vai trò diễn viên người Ai Cập."
-    ],
+    "biography": "Năm 2003, Omar Sharif nhận giải vinh danh sự nghiệp và đóng góp cho điện ảnh tại Liên hoan phim Venice.",
+    "highlights": ["Sinh ngày 10 tháng 4 năm 1932.", "Năm 2003, Omar Sharif nhận giải vinh danh sự nghiệp và đóng góp cho điện ảnh tại Liên hoan phim Venice."],
     "wikidataId": "Q170515",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q170515",
       "https://snl.no/Omar_Sharif",
-      "https://www.enciklopedija.hr/clanak/sharif-omar"
+      "https://www.enciklopedija.hr/clanak/sharif-omar",
+      "http://www.bbc.com/news/entertainment-arts-33483877"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "2015-07-10",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "http://www.bbc.com/news/entertainment-arts-33483877"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-05"
   },
   {
@@ -1113,11 +1113,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Joseph Pulitzer là nhà báo và nhà xuất bản người Hoa Kỳ.",
-    "biography": "Joseph Pulitzer được biết đến với vai trò nhà báo và nhà xuất bản người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 10 tháng 4 năm 1847.",
-      "Được ghi nhận với vai trò nhà báo và nhà xuất bản người Hoa Kỳ."
-    ],
+    "biography": "Joseph Pulitzer mua tờ New York World năm 1883 và biến tờ báo thành một tiếng nói độc lập, có tính phản biện.",
+    "highlights": ["Sinh ngày 10 tháng 4 năm 1847.", "Joseph Pulitzer mua tờ New York World năm 1883 và biến tờ báo thành một tiếng nói độc lập, có tính phản biện."],
     "wikidataId": "Q173417",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q173417",
@@ -1147,11 +1144,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "George Canning là chính trị gia người Vương quốc Anh.",
-    "biography": "George Canning được biết đến với vai trò chính trị gia người Vương quốc Anh.",
-    "highlights": [
-      "Sinh ngày 11 tháng 4 năm 1770.",
-      "Được ghi nhận với vai trò chính trị gia người Vương quốc Anh."
-    ],
+    "biography": "Từ năm 1822, với cương vị ngoại trưởng, George Canning tích cực ủng hộ cuộc đấu tranh giành độc lập của các nước cộng hòa Nam Mỹ.",
+    "highlights": ["Sinh ngày 11 tháng 4 năm 1770.", "Từ năm 1822, với cương vị ngoại trưởng, George Canning tích cực ủng hộ cuộc đấu tranh giành độc lập của các nước cộng hòa Nam Mỹ."],
     "wikidataId": "Q219731",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q219731",
@@ -1181,11 +1175,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Andrew Wiles là nhà toán học người Vương quốc Anh.",
-    "biography": "Andrew Wiles được biết đến với vai trò nhà toán học người Vương quốc Anh.",
-    "highlights": [
-      "Sinh ngày 11 tháng 4 năm 1953.",
-      "Được ghi nhận với vai trò nhà toán học người Vương quốc Anh."
-    ],
+    "biography": "Andrew Wiles nhận Giải Abel năm 2016 nhờ chứng minh Định lý cuối cùng của Fermat.",
+    "highlights": ["Sinh ngày 11 tháng 4 năm 1953.", "Andrew Wiles nhận Giải Abel năm 2016 nhờ chứng minh Định lý cuối cùng của Fermat."],
     "wikidataId": "Q184433",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q184433",
@@ -1215,11 +1206,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Ferdinand Lassalle là chính trị gia và luật gia người Đức.",
-    "biography": "Ferdinand Lassalle được biết đến với vai trò chính trị gia và luật gia người Đức.",
-    "highlights": [
-      "Sinh ngày 11 tháng 4 năm 1825.",
-      "Được ghi nhận với vai trò chính trị gia và luật gia người Đức."
-    ],
+    "biography": "Năm 1863, Ferdinand Lassalle trở thành chủ tịch đầu tiên của Hiệp hội Công nhân Đức mới thành lập.",
+    "highlights": ["Sinh ngày 11 tháng 4 năm 1825.", "Năm 1863, Ferdinand Lassalle trở thành chủ tịch đầu tiên của Hiệp hội Công nhân Đức mới thành lập."],
     "wikidataId": "Q75784",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q75784",
@@ -1249,20 +1237,26 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇪🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Montserrat Caballé là ca sĩ opera người Tây Ban Nha.",
-    "biography": "Montserrat Caballé được biết đến với vai trò ca sĩ opera người Tây Ban Nha.",
-    "highlights": [
-      "Sinh ngày 12 tháng 4 năm 1933.",
-      "Được ghi nhận với vai trò ca sĩ opera người Tây Ban Nha."
-    ],
+    "biography": "Montserrat Caballé tạo bước đột phá quốc tế tại Carnegie Hall năm 1965 với vở Lucrezia Borgia của Donizetti.",
+    "highlights": ["Sinh ngày 12 tháng 4 năm 1933.", "Montserrat Caballé tạo bước đột phá quốc tế tại Carnegie Hall năm 1965 với vở Lucrezia Borgia của Donizetti."],
     "wikidataId": "Q151435",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q151435",
       "https://snl.no/Montserrat_Caball%C3%A9",
-      "https://www.enciklopedija.hr/clanak/caballe-montserrat"
+      "https://www.enciklopedija.hr/clanak/caballe-montserrat",
+      "https://www.lemonde.fr/culture/article/2018/10/06/montserrat-caballe-celebre-soprano-espagnole-est-morte_5365608_3246.html",
+      "https://galego.farodevigo.es/cultura/2018/10/06/muere-montserrat-caballe-85-anos/1974876.html"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "2018-10-06",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.lemonde.fr/culture/article/2018/10/06/montserrat-caballe-celebre-soprano-espagnole-est-morte_5365608_3246.html",
+      "https://galego.farodevigo.es/cultura/2018/10/06/muere-montserrat-caballe-85-anos/1974876.html"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-05"
   },
   {
@@ -1283,11 +1277,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇲🇼",
     "image": "/people/placeholder.svg",
     "shortDescription": "Joyce Banda là chính trị gia người Malawi.",
-    "biography": "Joyce Banda được biết đến với vai trò chính trị gia người Malawi.",
-    "highlights": [
-      "Sinh ngày 12 tháng 4 năm 1950.",
-      "Được ghi nhận với vai trò chính trị gia người Malawi."
-    ],
+    "biography": "Trong bầu cử tổng thống Malawi năm 2014, Joyce Banda nhận 20,2% phiếu và thất cử.",
+    "highlights": ["Sinh ngày 12 tháng 4 năm 1950.", "Trong bầu cử tổng thống Malawi năm 2014, Joyce Banda nhận 20,2% phiếu và thất cử."],
     "wikidataId": "Q57388",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q57388",
@@ -1317,17 +1308,10 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nguyễn Quang Hải là cầu thủ bóng đá người Việt Nam.",
-    "biography": "Nguyễn Quang Hải được biết đến với vai trò cầu thủ bóng đá người Việt Nam.",
-    "highlights": [
-      "Sinh ngày 12 tháng 4 năm 1997.",
-      "Được ghi nhận với vai trò cầu thủ bóng đá người Việt Nam."
-    ],
+    "biography": "Nguyễn Quang Hải ghi bàn đá phạt ở phút 38 trong trận Việt Nam thắng Yemen 2-0 tại Asian Cup 2019.",
+    "highlights": ["Sinh ngày 12 tháng 4 năm 1997.", "Nguyễn Quang Hải ghi bàn đá phạt ở phút 38 trong trận Việt Nam thắng Yemen 2-0 tại Asian Cup 2019."],
     "wikidataId": "Q24689101",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q24689101",
-      "https://www.the-afc.com/en/national/afc_asian_cup/news/ones_to_watch_nguyen_quang_hai_vietnam.html",
-      "https://www.transfermarkt.us/quang-hai-nguyen/profil/spieler/419387"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q24689101", "https://www.the-afc.com/en/national/afc_asian_cup/news/ones_to_watch_nguyen_quang_hai_vietnam.html", "https://www.transfermarkt.us/quang-hai-nguyen/profil/spieler/419387", "https://www.the-afc.com/en/national/afc_asian_cup/news/vietnams_nguyen_quang_hai_winner_of_uae_2019_best_goal.html"],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "vietnam",
@@ -1351,11 +1335,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Jacques Lacan là bác sĩ tâm thần và nhà phân tâm học người Pháp.",
-    "biography": "Jacques Lacan được biết đến với vai trò bác sĩ tâm thần và nhà phân tâm học người Pháp.",
-    "highlights": [
-      "Sinh ngày 13 tháng 4 năm 1901.",
-      "Được ghi nhận với vai trò bác sĩ tâm thần và nhà phân tâm học người Pháp."
-    ],
+    "biography": "Năm 1953, Jacques Lacan giới thiệu ba khái niệm Cái thực, Cái tượng trưng và Cái tưởng tượng.",
+    "highlights": ["Sinh ngày 13 tháng 4 năm 1901.", "Năm 1953, Jacques Lacan giới thiệu ba khái niệm Cái thực, Cái tượng trưng và Cái tưởng tượng."],
     "wikidataId": "Q169906",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q169906",
@@ -1385,11 +1366,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇮🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Samuel Beckett là nhà văn và nhà soạn kịch người Ireland.",
-    "biography": "Samuel Beckett được biết đến với vai trò nhà văn và nhà soạn kịch người Ireland.",
-    "highlights": [
-      "Sinh ngày 13 tháng 4 năm 1906.",
-      "Được ghi nhận với vai trò nhà văn và nhà soạn kịch người Ireland."
-    ],
+    "biography": "Samuel Beckett được xem là một trong những đại diện tiêu biểu của sân khấu phi lý thập niên 1950.",
+    "highlights": ["Sinh ngày 13 tháng 4 năm 1906.", "Samuel Beckett được xem là một trong những đại diện tiêu biểu của sân khấu phi lý thập niên 1950."],
     "wikidataId": "Q37327",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q37327",
@@ -1419,17 +1397,10 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇷🇺",
     "image": "/people/placeholder.svg",
     "shortDescription": "Garry Kasparov là kỳ thủ cờ vua người Nga.",
-    "biography": "Garry Kasparov được biết đến với vai trò kỳ thủ cờ vua người Nga.",
-    "highlights": [
-      "Sinh ngày 13 tháng 4 năm 1963.",
-      "Được ghi nhận với vai trò kỳ thủ cờ vua người Nga."
-    ],
+    "biography": "Năm 1985, Garry Kasparov trở thành nhà vô địch cờ vua thế giới ở tuổi 22.",
+    "highlights": ["Sinh ngày 13 tháng 4 năm 1963.", "Năm 1985, Garry Kasparov trở thành nhà vô địch cờ vua thế giới ở tuổi 22."],
     "wikidataId": "Q28614",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q28614",
-      "https://snl.no/Garri_Kasparov",
-      "https://www.enciklopedija.hr/clanak/kasparov-gari"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q28614", "https://snl.no/Garri_Kasparov", "https://www.enciklopedija.hr/clanak/kasparov-gari", "https://www.kasparov.com/biography/"],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
@@ -1453,11 +1424,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇮🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Bhimrao Ambedkar là luật gia và nhà hoạt động xã hội người Ấn Độ.",
-    "biography": "Bhimrao Ambedkar được biết đến với vai trò luật gia và nhà hoạt động xã hội người Ấn Độ.",
-    "highlights": [
-      "Sinh ngày 14 tháng 4 năm 1891.",
-      "Được ghi nhận với vai trò luật gia và nhà hoạt động xã hội người Ấn Độ."
-    ],
+    "biography": "Bhimrao Ambedkar giữ chức Bộ trưởng Tư pháp Ấn Độ từ năm 1947 đến 1951.",
+    "highlights": ["Sinh ngày 14 tháng 4 năm 1891.", "Bhimrao Ambedkar giữ chức Bộ trưởng Tư pháp Ấn Độ từ năm 1947 đến 1951."],
     "wikidataId": "Q231690",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q231690",
@@ -1487,21 +1455,21 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇳🇱",
     "image": "/people/placeholder.svg",
     "shortDescription": "Christiaan Huygens là nhà toán học và nhà vật lý người Hà Lan.",
-    "biography": "Christiaan Huygens được biết đến với vai trò nhà toán học và nhà vật lý người Hà Lan.",
-    "highlights": [
-      "Sinh ngày 14 tháng 4 năm 1629.",
-      "Được ghi nhận với vai trò nhà toán học và nhà vật lý người Hà Lan."
-    ],
+    "biography": "Tác phẩm De Ratiociniis in Ludo Aleae (1657) của Christiaan Huygens trình bày có hệ thống lý thuyết xác suất.",
+    "highlights": ["Sinh ngày 14 tháng 4 năm 1629.", "Tác phẩm De Ratiociniis in Ludo Aleae (1657) của Christiaan Huygens trình bày có hệ thống lý thuyết xác suất."],
     "wikidataId": "Q39599",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q39599",
       "https://www.enciklopedija.hr/clanak/huygens-christiaan",
-      "https://snl.no/Christiaan_Huygens"
+      "https://snl.no/Christiaan_Huygens",
+      "https://lucerna.exeter.ac.uk/person/index.php?id=6002385&language=EN",
+      "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=NA8062&pos=1&src=CalmView.Persons"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-05"
+    "verifiedAt": "2026-10-05",
+    "lifeStatus": "deceased"
   },
   {
     "id": "nguyen-phu-trong",
@@ -1521,20 +1489,24 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nguyễn Phú Trọng là chính trị gia người Việt Nam.",
-    "biography": "Nguyễn Phú Trọng được biết đến với vai trò chính trị gia người Việt Nam.",
-    "highlights": [
-      "Sinh ngày 14 tháng 4 năm 1944.",
-      "Được ghi nhận với vai trò chính trị gia người Việt Nam."
-    ],
+    "biography": "Năm 2021, Nguyễn Phú Trọng được bầu lại làm Tổng Bí thư Đảng Cộng sản Việt Nam nhiệm kỳ thứ ba.",
+    "highlights": ["Sinh ngày 14 tháng 4 năm 1944.", "Năm 2021, Nguyễn Phú Trọng được bầu lại làm Tổng Bí thư Đảng Cộng sản Việt Nam nhiệm kỳ thứ ba."],
     "wikidataId": "Q318458",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q318458",
       "https://www.theguardian.com/world/2024/jul/30/nguyen-phu-trong-obituary",
-      "https://www.lemonde.fr/en/obituaries/article/2024/07/20/nguyen-phu-trong-symbol-of-vietnamese-authoritarianism-dies-in-hanoi_6691391_15.html"
+      "https://www.lemonde.fr/en/obituaries/article/2024/07/20/nguyen-phu-trong-symbol-of-vietnamese-authoritarianism-dies-in-hanoi_6691391_15.html",
+      "https://vtv.vn/chinh-tri/tong-bi-thu-nguyen-phu-trong-tu-tran-20240719175739621.htm"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "vietnam",
+    "deathDate": "2024-07-19",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://vtv.vn/chinh-tri/tong-bi-thu-nguyen-phu-trong-tu-tran-20240719175739621.htm"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-05"
   },
   {
@@ -1555,11 +1527,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Émile Durkheim là nhà xã hội học người Pháp.",
-    "biography": "Émile Durkheim được biết đến với vai trò nhà xã hội học người Pháp.",
-    "highlights": [
-      "Sinh ngày 15 tháng 4 năm 1858.",
-      "Được ghi nhận với vai trò nhà xã hội học người Pháp."
-    ],
+    "biography": "Trong tác phẩm đầu tay năm 1893, Émile Durkheim phân tích vai trò của phân công lao động trong việc gắn kết xã hội.",
+    "highlights": ["Sinh ngày 15 tháng 4 năm 1858.", "Trong tác phẩm đầu tay năm 1893, Émile Durkheim phân tích vai trò của phân công lao động trong việc gắn kết xã hội."],
     "wikidataId": "Q15948",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q15948",
@@ -1589,21 +1558,25 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇨🇭",
     "image": "/people/placeholder.svg",
     "shortDescription": "Leonhard Euler là nhà toán học và nhà vật lý người Thụy Sĩ.",
-    "biography": "Leonhard Euler được biết đến với vai trò nhà toán học và nhà vật lý người Thụy Sĩ.",
-    "highlights": [
-      "Sinh ngày 15 tháng 4 năm 1707.",
-      "Được ghi nhận với vai trò nhà toán học và nhà vật lý người Thụy Sĩ."
-    ],
+    "biography": "Năm 1741, Leonhard Euler được Frederick Đại đế mời gia nhập Viện Hàn lâm Berlin.",
+    "highlights": ["Sinh ngày 15 tháng 4 năm 1707.", "Năm 1741, Leonhard Euler được Frederick Đại đế mời gia nhập Viện Hàn lâm Berlin."],
     "wikidataId": "Q7604",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q7604",
       "https://snl.no/Leonhard_Euler",
-      "https://www.enciklopedija.hr/clanak/euler-leonhard"
+      "https://www.enciklopedija.hr/clanak/euler-leonhard",
+      "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-05"
+    "verifiedAt": "2026-10-05",
+    "deathDate": "1783-09-18",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/"
+    ],
+    "deathDatePrecision": "day"
   },
   {
     "id": "tomas-transtromer",
@@ -1623,11 +1596,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇸🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Tomas Tranströmer là nhà thơ người Thụy Điển.",
-    "biography": "Tomas Tranströmer được biết đến với vai trò nhà thơ người Thụy Điển.",
-    "highlights": [
-      "Sinh ngày 15 tháng 4 năm 1931.",
-      "Được ghi nhận với vai trò nhà thơ người Thụy Điển."
-    ],
+    "biography": "Tomas Tranströmer nhận Giải Văn học Hội đồng Bắc Âu năm 1990 cho tập thơ För levande och döda.",
+    "highlights": ["Sinh ngày 15 tháng 4 năm 1931.", "Tomas Tranströmer nhận Giải Văn học Hội đồng Bắc Âu năm 1990 cho tập thơ För levande och döda."],
     "wikidataId": "Q42122",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q42122",
@@ -1657,11 +1627,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Charlie Chaplin là diễn viên, đạo diễn và nhà làm phim người Vương quốc Anh.",
-    "biography": "Charlie Chaplin được biết đến với vai trò diễn viên, đạo diễn và nhà làm phim người Vương quốc Anh.",
-    "highlights": [
-      "Sinh ngày 16 tháng 4 năm 1889.",
-      "Được ghi nhận với vai trò diễn viên, đạo diễn và nhà làm phim người Vương quốc Anh."
-    ],
+    "biography": "Charlie Chaplin tạo nên hình tượng Kẻ lang thang mang tính biểu tượng và là nhân vật trung tâm của Hollywood từ thập niên 1920.",
+    "highlights": ["Sinh ngày 16 tháng 4 năm 1889.", "Charlie Chaplin tạo nên hình tượng Kẻ lang thang mang tính biểu tượng và là nhân vật trung tâm của Hollywood từ thập niên 1920."],
     "wikidataId": "Q882",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q882",
@@ -1691,11 +1658,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Anatole France là nhà văn người Pháp.",
-    "biography": "Anatole France được biết đến với vai trò nhà văn người Pháp.",
-    "highlights": [
-      "Sinh ngày 16 tháng 4 năm 1844.",
-      "Được ghi nhận với vai trò nhà văn người Pháp."
-    ],
+    "biography": "Anatole France nhận Nobel Văn học năm 1921.",
+    "highlights": ["Sinh ngày 16 tháng 4 năm 1844.", "Anatole France nhận Nobel Văn học năm 1921."],
     "wikidataId": "Q42443",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q42443",
@@ -1725,11 +1689,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Kareem Abdul-Jabbar là cầu thủ bóng rổ người Hoa Kỳ.",
-    "biography": "Kareem Abdul-Jabbar được biết đến với vai trò cầu thủ bóng rổ người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 16 tháng 4 năm 1947.",
-      "Được ghi nhận với vai trò cầu thủ bóng rổ người Hoa Kỳ."
-    ],
+    "biography": "Kareem Abdul-Jabbar kết thúc sự nghiệp NBA với 38.387 điểm sau 1.560 trận.",
+    "highlights": ["Sinh ngày 16 tháng 4 năm 1947.", "Kareem Abdul-Jabbar kết thúc sự nghiệp NBA với 38.387 điểm sau 1.560 trận."],
     "wikidataId": "Q179051",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q179051",
@@ -1759,11 +1720,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇱🇰",
     "image": "/people/placeholder.svg",
     "shortDescription": "Sirimavo Bandaranaike là chính trị gia người Sri Lanka.",
-    "biography": "Sirimavo Bandaranaike được biết đến với vai trò chính trị gia người Sri Lanka.",
-    "highlights": [
-      "Sinh ngày 17 tháng 4 năm 1916.",
-      "Được ghi nhận với vai trò chính trị gia người Sri Lanka."
-    ],
+    "biography": "Năm 1960, Sirimavo Bandaranaike trở thành nữ thủ tướng đầu tiên trên thế giới và sau đó đảm nhiệm ba nhiệm kỳ.",
+    "highlights": ["Sinh ngày 17 tháng 4 năm 1916.", "Năm 1960, Sirimavo Bandaranaike trở thành nữ thủ tướng đầu tiên trên thế giới và sau đó đảm nhiệm ba nhiệm kỳ."],
     "wikidataId": "Q194291",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q194291",
@@ -1793,11 +1751,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇩🇰",
     "image": "/people/placeholder.svg",
     "shortDescription": "Karen Blixen là nhà văn người Đan Mạch.",
-    "biography": "Karen Blixen được biết đến với vai trò nhà văn người Đan Mạch.",
-    "highlights": [
-      "Sinh ngày 17 tháng 4 năm 1885.",
-      "Được ghi nhận với vai trò nhà văn người Đan Mạch."
-    ],
+    "biography": "Năm 1931, Karen Blixen trở về Đan Mạch từ châu Phi và sống tại điền trang Rungstedlund.",
+    "highlights": ["Sinh ngày 17 tháng 4 năm 1885.", "Năm 1931, Karen Blixen trở về Đan Mạch từ châu Phi và sống tại điền trang Rungstedlund."],
     "wikidataId": "Q182804",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q182804",
@@ -1827,11 +1782,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "William Holden là diễn viên người Hoa Kỳ.",
-    "biography": "William Holden được biết đến với vai trò diễn viên người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 17 tháng 4 năm 1918.",
-      "Được ghi nhận với vai trò diễn viên người Hoa Kỳ."
-    ],
+    "biography": "William Holden thắng Oscar Nam diễn viên chính xuất sắc với vai diễn trong Stalag 17 (1953).",
+    "highlights": ["Sinh ngày 17 tháng 4 năm 1918.", "William Holden thắng Oscar Nam diễn viên chính xuất sắc với vai diễn trong Stalag 17 (1953)."],
     "wikidataId": "Q95002",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q95002",
@@ -1841,7 +1793,13 @@ export const PEOPLE_04: Person[] = [
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-05"
+    "verifiedAt": "2026-10-05",
+    "deathDate": "1981-11-12",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.enciklopedija.hr/clanak/holden-william"
+    ],
+    "deathDatePrecision": "day"
   },
   {
     "id": "leopold-stokowski",
@@ -1861,11 +1819,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Leopold Stokowski là nhạc trưởng người Hoa Kỳ.",
-    "biography": "Leopold Stokowski được biết đến với vai trò nhạc trưởng người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 18 tháng 4 năm 1882.",
-      "Được ghi nhận với vai trò nhạc trưởng người Hoa Kỳ."
-    ],
+    "biography": "Cincinnati Symphony Orchestra là dàn nhạc đầu tiên Leopold Stokowski giữ chức nhạc trưởng chính, trong giai đoạn 1909–1912.",
+    "highlights": ["Sinh ngày 18 tháng 4 năm 1882.", "Cincinnati Symphony Orchestra là dàn nhạc đầu tiên Leopold Stokowski giữ chức nhạc trưởng chính, trong giai đoạn 1909–1912."],
     "wikidataId": "Q297562",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q297562",
@@ -1895,17 +1850,10 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇵🇱",
     "image": "/people/placeholder.svg",
     "shortDescription": "Wojciech Szczęsny là thủ môn bóng đá người Ba Lan.",
-    "biography": "Wojciech Szczęsny được biết đến với vai trò thủ môn bóng đá người Ba Lan.",
-    "highlights": [
-      "Sinh ngày 18 tháng 4 năm 1990.",
-      "Được ghi nhận với vai trò thủ môn bóng đá người Ba Lan."
-    ],
+    "biography": "Wojciech Szczęsny ra mắt Arsenal ở vòng ba League Cup vào tháng 9 năm 2009.",
+    "highlights": ["Sinh ngày 18 tháng 4 năm 1990.", "Wojciech Szczęsny ra mắt Arsenal ở vòng ba League Cup vào tháng 9 năm 2009."],
     "wikidataId": "Q188997",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q188997",
-      "https://www.uefa.com/uefachampionsleague/clubs/players/108501--wojciech-szczesny/",
-      "https://www.laliga.com/en-US/player/wojciech-szczesny"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q188997", "https://www.uefa.com/uefachampionsleague/clubs/players/108501--wojciech-szczesny/", "https://www.laliga.com/en-US/player/wojciech-szczesny", "https://www.uefa.com/uefachampionsleague/news/01eb-0ea1ac48e9c8-e12acdb67aa9-1000--arsenal-sign-up-szczesny/"],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
@@ -1929,11 +1877,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇮🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Michael D. Higgins là chính trị gia và nhà thơ người Ireland.",
-    "biography": "Michael D. Higgins được biết đến với vai trò chính trị gia và nhà thơ người Ireland.",
-    "highlights": [
-      "Sinh ngày 18 tháng 4 năm 1941.",
-      "Được ghi nhận với vai trò chính trị gia và nhà thơ người Ireland."
-    ],
+    "biography": "Michael D. Higgins từng giảng dạy với tư cách giáo sư thỉnh giảng tại các đại học Manchester, Indiana và Southern Illinois.",
+    "highlights": ["Sinh ngày 18 tháng 4 năm 1941.", "Michael D. Higgins từng giảng dạy với tư cách giáo sư thỉnh giảng tại các đại học Manchester, Indiana và Southern Illinois."],
     "wikidataId": "Q57276",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q57276",
@@ -1963,11 +1908,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇪🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "José Echegaray là nhà viết kịch và kỹ sư người Tây Ban Nha.",
-    "biography": "José Echegaray được biết đến với vai trò nhà viết kịch và kỹ sư người Tây Ban Nha.",
-    "highlights": [
-      "Sinh ngày 19 tháng 4 năm 1832.",
-      "Được ghi nhận với vai trò nhà viết kịch và kỹ sư người Tây Ban Nha."
-    ],
+    "biography": "Năm 1904, José Echegaray cùng Frédéric Mistral nhận Nobel Văn học.",
+    "highlights": ["Sinh ngày 19 tháng 4 năm 1832.", "Năm 1904, José Echegaray cùng Frédéric Mistral nhận Nobel Văn học."],
     "wikidataId": "Q127349",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q127349",
@@ -1997,11 +1939,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇸🇿",
     "image": "/people/placeholder.svg",
     "shortDescription": "Mswati III là quốc vương eswatini người Eswatini.",
-    "biography": "Mswati III được biết đến với vai trò quốc vương eswatini người Eswatini.",
-    "highlights": [
-      "Sinh ngày 19 tháng 4 năm 1968.",
-      "Được ghi nhận với vai trò quốc vương eswatini người Eswatini."
-    ],
+    "biography": "Mswati III được trao danh hiệu chính thức khi đăng quang vào tháng 4 năm 1986.",
+    "highlights": ["Sinh ngày 19 tháng 4 năm 1968.", "Mswati III được trao danh hiệu chính thức khi đăng quang vào tháng 4 năm 1986."],
     "wikidataId": "Q57340",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q57340",
@@ -2031,17 +1970,10 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Đoàn Văn Hậu là cầu thủ bóng đá người Việt Nam.",
-    "biography": "Đoàn Văn Hậu được biết đến với vai trò cầu thủ bóng đá người Việt Nam.",
-    "highlights": [
-      "Sinh ngày 19 tháng 4 năm 1999.",
-      "Được ghi nhận với vai trò cầu thủ bóng đá người Việt Nam."
-    ],
+    "biography": "Ở V.League 1 mùa 2019, Đoàn Văn Hậu có 21 lần ra sân cho Hà Nội.",
+    "highlights": ["Sinh ngày 19 tháng 4 năm 1999.", "Ở V.League 1 mùa 2019, Đoàn Văn Hậu có 21 lần ra sân cho Hà Nội."],
     "wikidataId": "Q29311086",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q29311086",
-      "https://assets.the-afc.com/migration/2/0/20190116%20AC2019%20Final%20Squads.pdf",
-      "https://www.transfermarkt.co.uk/van-hau-doan/profil/spieler/484362"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q29311086", "https://assets.the-afc.com/migration/2/0/20190116%20AC2019%20Final%20Squads.pdf", "https://www.transfermarkt.co.uk/van-hau-doan/profil/spieler/484362", "https://vpf.vn/player/doan-van-hau/"],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "vietnam",
@@ -2065,11 +1997,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇪🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Joan Miró là họa sĩ người Tây Ban Nha.",
-    "biography": "Joan Miró được biết đến với vai trò họa sĩ người Tây Ban Nha.",
-    "highlights": [
-      "Sinh ngày 20 tháng 4 năm 1893.",
-      "Được ghi nhận với vai trò họa sĩ người Tây Ban Nha."
-    ],
+    "biography": "Joan Miró học nghệ thuật tại Barcelona giai đoạn 1907–1915 và có triển lãm đầu tiên năm 1918.",
+    "highlights": ["Sinh ngày 20 tháng 4 năm 1893.", "Joan Miró học nghệ thuật tại Barcelona giai đoạn 1907–1915 và có triển lãm đầu tiên năm 1918."],
     "wikidataId": "Q152384",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q152384",
@@ -2099,11 +2028,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇳🇴",
     "image": "/people/placeholder.svg",
     "shortDescription": "Gro Harlem Brundtland là bác sĩ và chính trị gia người Na Uy.",
-    "biography": "Gro Harlem Brundtland được biết đến với vai trò bác sĩ và chính trị gia người Na Uy.",
-    "highlights": [
-      "Sinh ngày 20 tháng 4 năm 1939.",
-      "Được ghi nhận với vai trò bác sĩ và chính trị gia người Na Uy."
-    ],
+    "biography": "Gro Harlem Brundtland là nữ thủ tướng đầu tiên của Na Uy và lãnh đạo ba chính phủ từ năm 1981 đến 1996.",
+    "highlights": ["Sinh ngày 20 tháng 4 năm 1939.", "Gro Harlem Brundtland là nữ thủ tướng đầu tiên của Na Uy và lãnh đạo ba chính phủ từ năm 1981 đến 1996."],
     "wikidataId": "Q133009",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q133009",
@@ -2133,11 +2059,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Jessica Lange là diễn viên và nhiếp ảnh gia người Hoa Kỳ.",
-    "biography": "Jessica Lange được biết đến với vai trò diễn viên và nhiếp ảnh gia người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 20 tháng 4 năm 1949.",
-      "Được ghi nhận với vai trò diễn viên và nhiếp ảnh gia người Hoa Kỳ."
-    ],
+    "biography": "Jessica Lange giành Oscar với các vai diễn trong Tootsie và Blue Sky.",
+    "highlights": ["Sinh ngày 20 tháng 4 năm 1949.", "Jessica Lange giành Oscar với các vai diễn trong Tootsie và Blue Sky."],
     "wikidataId": "Q173585",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q173585",
@@ -2167,20 +2090,19 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Elizabeth II là nữ vương vương quốc anh người Vương quốc Anh.",
-    "biography": "Elizabeth II được biết đến với vai trò nữ vương vương quốc anh người Vương quốc Anh.",
-    "highlights": [
-      "Sinh ngày 21 tháng 4 năm 1926.",
-      "Được ghi nhận với vai trò nữ vương vương quốc anh người Vương quốc Anh."
-    ],
+    "biography": "Elizabeth II lên ngôi ngày 6/2/1952, ngay sau khi cha bà, George VI, qua đời.",
+    "highlights": ["Sinh ngày 21 tháng 4 năm 1926.", "Elizabeth II lên ngôi ngày 6/2/1952, ngay sau khi cha bà, George VI, qua đời."],
     "wikidataId": "Q9682",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q9682",
-      "https://snl.no/Elizabeth_2.",
-      "https://www.royal.uk/the-queens-early-life-and-education?page=7"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q9682", "https://snl.no/Elizabeth_2.", "https://www.royal.uk/the-queens-early-life-and-education?page=7", "https://www.bbc.com/news/uk-61585886", "https://www.royal.uk/the-queens-accession-and-coronation"],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "2022-09-08",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.bbc.com/news/uk-61585886"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-05"
   },
   {
@@ -2201,11 +2123,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Max Weber là nhà xã hội học người Đức.",
-    "biography": "Max Weber được biết đến với vai trò nhà xã hội học người Đức.",
-    "highlights": [
-      "Sinh ngày 21 tháng 4 năm 1864.",
-      "Được ghi nhận với vai trò nhà xã hội học người Đức."
-    ],
+    "biography": "Max Weber phân tích mối liên hệ giữa đạo đức Tin Lành và sự phát triển của chủ nghĩa tư bản.",
+    "highlights": ["Sinh ngày 21 tháng 4 năm 1864.", "Max Weber phân tích mối liên hệ giữa đạo đức Tin Lành và sự phát triển của chủ nghĩa tư bản."],
     "wikidataId": "Q9387",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q9387",
@@ -2235,11 +2154,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Iggy Pop là ca sĩ nhạc rock người Hoa Kỳ.",
-    "biography": "Iggy Pop được biết đến với vai trò ca sĩ nhạc rock người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 21 tháng 4 năm 1947.",
-      "Được ghi nhận với vai trò ca sĩ nhạc rock người Hoa Kỳ."
-    ],
+    "biography": "Iggy Pop là giọng ca chính của ban nhạc The Stooges trong giai đoạn 1967–1974.",
+    "highlights": ["Sinh ngày 21 tháng 4 năm 1947.", "Iggy Pop là giọng ca chính của ban nhạc The Stooges trong giai đoạn 1967–1974."],
     "wikidataId": "Q182665",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q182665",
@@ -2269,11 +2185,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Immanuel Kant là triết gia người Đức.",
-    "biography": "Immanuel Kant được biết đến với vai trò triết gia người Đức.",
-    "highlights": [
-      "Sinh ngày 22 tháng 4 năm 1724.",
-      "Được ghi nhận với vai trò triết gia người Đức."
-    ],
+    "biography": "Immanuel Kant bàn về các quyền con người trong các công trình triết học của mình từ thế kỷ XVIII.",
+    "highlights": ["Sinh ngày 22 tháng 4 năm 1724.", "Immanuel Kant bàn về các quyền con người trong các công trình triết học của mình từ thế kỷ XVIII."],
     "wikidataId": "Q9312",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q9312",
@@ -2303,11 +2216,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Jack Nicholson là diễn viên và đạo diễn người Hoa Kỳ.",
-    "biography": "Jack Nicholson được biết đến với vai trò diễn viên và đạo diễn người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 22 tháng 4 năm 1937.",
-      "Được ghi nhận với vai trò diễn viên và đạo diễn người Hoa Kỳ."
-    ],
+    "biography": "Jack Nicholson đóng vai Joker trong phim Batman của Tim Burton năm 1989.",
+    "highlights": ["Sinh ngày 22 tháng 4 năm 1937.", "Jack Nicholson đóng vai Joker trong phim Batman của Tim Burton năm 1989."],
     "wikidataId": "Q39792",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q39792",
@@ -2337,11 +2247,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇮🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Rita Levi-Montalcini là nhà thần kinh học người Ý.",
-    "biography": "Rita Levi-Montalcini được biết đến với vai trò nhà thần kinh học người Ý.",
-    "highlights": [
-      "Sinh ngày 22 tháng 4 năm 1909.",
-      "Được ghi nhận với vai trò nhà thần kinh học người Ý."
-    ],
+    "biography": "Năm 1986, Rita Levi-Montalcini và Stanley Cohen nhận Nobel Y sinh nhờ phát hiện các yếu tố tăng trưởng.",
+    "highlights": ["Sinh ngày 22 tháng 4 năm 1909.", "Năm 1986, Rita Levi-Montalcini và Stanley Cohen nhận Nobel Y sinh nhờ phát hiện các yếu tố tăng trưởng."],
     "wikidataId": "Q185007",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q185007",
@@ -2371,11 +2278,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Max Planck là nhà vật lý lý thuyết người Đức.",
-    "biography": "Max Planck được biết đến với vai trò nhà vật lý lý thuyết người Đức.",
-    "highlights": [
-      "Sinh ngày 23 tháng 4 năm 1858.",
-      "Được ghi nhận với vai trò nhà vật lý lý thuyết người Đức."
-    ],
+    "biography": "Phát hiện của Max Planck rằng năng lượng được lượng tử hóa mở đường cho vật lý lượng tử.",
+    "highlights": ["Sinh ngày 23 tháng 4 năm 1858.", "Phát hiện của Max Planck rằng năng lượng được lượng tử hóa mở đường cho vật lý lượng tử."],
     "wikidataId": "Q9021",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q9021",
@@ -2405,11 +2309,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇮🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Halldór Laxness là nhà văn người Iceland.",
-    "biography": "Halldór Laxness được biết đến với vai trò nhà văn người Iceland.",
-    "highlights": [
-      "Sinh ngày 23 tháng 4 năm 1902.",
-      "Được ghi nhận với vai trò nhà văn người Iceland."
-    ],
+    "biography": "Halldór Laxness nhận Nobel Văn học năm 1955.",
+    "highlights": ["Sinh ngày 23 tháng 4 năm 1902.", "Halldór Laxness nhận Nobel Văn học năm 1955."],
     "wikidataId": "Q80321",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q80321",
@@ -2439,11 +2340,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Shirley Temple là diễn viên người Hoa Kỳ.",
-    "biography": "Shirley Temple được biết đến với vai trò diễn viên người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 23 tháng 4 năm 1928.",
-      "Được ghi nhận với vai trò diễn viên người Hoa Kỳ."
-    ],
+    "biography": "Shirley Temple ra mắt điện ảnh khi mới bốn tuổi và nhanh chóng trở thành ngôi sao quốc tế.",
+    "highlights": ["Sinh ngày 23 tháng 4 năm 1928.", "Shirley Temple ra mắt điện ảnh khi mới bốn tuổi và nhanh chóng trở thành ngôi sao quốc tế."],
     "wikidataId": "Q182580",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q182580",
@@ -2473,11 +2371,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Barbra Streisand là ca sĩ và diễn viên người Hoa Kỳ.",
-    "biography": "Barbra Streisand được biết đến với vai trò ca sĩ và diễn viên người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 24 tháng 4 năm 1942.",
-      "Được ghi nhận với vai trò ca sĩ và diễn viên người Hoa Kỳ."
-    ],
+    "biography": "Trong Yentl (1983), Barbra Streisand đóng chính, hát toàn bộ ca khúc, viết kịch bản, sản xuất và đạo diễn.",
+    "highlights": ["Sinh ngày 24 tháng 4 năm 1942.", "Trong Yentl (1983), Barbra Streisand đóng chính, hát toàn bộ ca khúc, viết kịch bản, sản xuất và đạo diễn."],
     "wikidataId": "Q4636",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q4636",
@@ -2507,11 +2402,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Shirley MacLaine là diễn viên và vũ công người Hoa Kỳ.",
-    "biography": "Shirley MacLaine được biết đến với vai trò diễn viên và vũ công người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 24 tháng 4 năm 1934.",
-      "Được ghi nhận với vai trò diễn viên và vũ công người Hoa Kỳ."
-    ],
+    "biography": "Shirley MacLaine thắng một Oscar diễn xuất và năm giải Quả cầu Vàng cho diễn xuất.",
+    "highlights": ["Sinh ngày 24 tháng 4 năm 1934.", "Shirley MacLaine thắng một Oscar diễn xuất và năm giải Quả cầu Vàng cho diễn xuất."],
     "wikidataId": "Q95026",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q95026",
@@ -2541,11 +2433,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇮🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Sachin Tendulkar là vận động viên cricket người Ấn Độ.",
-    "biography": "Sachin Tendulkar được biết đến với vai trò vận động viên cricket người Ấn Độ.",
-    "highlights": [
-      "Sinh ngày 24 tháng 4 năm 1973.",
-      "Được ghi nhận với vai trò vận động viên cricket người Ấn Độ."
-    ],
+    "biography": "Sachin Tendulkar ghi 15.921 điểm trong các trận Test cricket, một kỷ lục thế giới được Store norske leksikon ghi nhận.",
+    "highlights": ["Sinh ngày 24 tháng 4 năm 1973.", "Sachin Tendulkar ghi 15.921 điểm trong các trận Test cricket, một kỷ lục thế giới được Store norske leksikon ghi nhận."],
     "wikidataId": "Q9488",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q9488",
@@ -2575,11 +2464,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Al Pacino là diễn viên người Hoa Kỳ.",
-    "biography": "Al Pacino được biết đến với vai trò diễn viên người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 25 tháng 4 năm 1940.",
-      "Được ghi nhận với vai trò diễn viên người Hoa Kỳ."
-    ],
+    "biography": "Al Pacino thắng Oscar Nam diễn viên chính xuất sắc với phim Scent of a Woman (1992).",
+    "highlights": ["Sinh ngày 25 tháng 4 năm 1940.", "Al Pacino thắng Oscar Nam diễn viên chính xuất sắc với phim Scent of a Woman (1992)."],
     "wikidataId": "Q41163",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q41163",
@@ -2609,11 +2495,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Ella Fitzgerald là ca sĩ nhạc jazz người Hoa Kỳ.",
-    "biography": "Ella Fitzgerald được biết đến với vai trò ca sĩ nhạc jazz người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 25 tháng 4 năm 1917.",
-      "Được ghi nhận với vai trò ca sĩ nhạc jazz người Hoa Kỳ."
-    ],
+    "biography": "Ella Fitzgerald được phát hiện sau khi biểu diễn tại cuộc thi nghiệp dư ở Harlem năm 1934.",
+    "highlights": ["Sinh ngày 25 tháng 4 năm 1917.", "Ella Fitzgerald được phát hiện sau khi biểu diễn tại cuộc thi nghiệp dư ở Harlem năm 1934."],
     "wikidataId": "Q1768",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q1768",
@@ -2643,11 +2526,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇳🇱",
     "image": "/people/placeholder.svg",
     "shortDescription": "Johan Cruyff là cầu thủ và huấn luyện viên bóng đá người Hà Lan.",
-    "biography": "Johan Cruyff được biết đến với vai trò cầu thủ và huấn luyện viên bóng đá người Hà Lan.",
-    "highlights": [
-      "Sinh ngày 25 tháng 4 năm 1947.",
-      "Được ghi nhận với vai trò cầu thủ và huấn luyện viên bóng đá người Hà Lan."
-    ],
+    "biography": "Johan Cruyff được các nhà báo bóng đá Hà Lan bầu là Cầu thủ xuất sắc nhất mùa giải 1983–1984.",
+    "highlights": ["Sinh ngày 25 tháng 4 năm 1947.", "Johan Cruyff được các nhà báo bóng đá Hà Lan bầu là Cầu thủ xuất sắc nhất mùa giải 1983–1984."],
     "wikidataId": "Q17163",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q17163",
@@ -2677,20 +2557,24 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇦🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Ludwig Wittgenstein là triết gia người Áo.",
-    "biography": "Ludwig Wittgenstein được biết đến với vai trò triết gia người Áo.",
-    "highlights": [
-      "Sinh ngày 26 tháng 4 năm 1889.",
-      "Được ghi nhận với vai trò triết gia người Áo."
-    ],
+    "biography": "Ludwig Wittgenstein xuất bản Tractatus Logico-Philosophicus năm 1921.",
+    "highlights": ["Sinh ngày 26 tháng 4 năm 1889.", "Ludwig Wittgenstein xuất bản Tractatus Logico-Philosophicus năm 1921."],
     "wikidataId": "Q9391",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q9391",
       "https://snl.no/Ludwig_Wittgenstein",
-      "https://www.enciklopedija.hr/clanak/wittgenstein-ludwig"
+      "https://www.enciklopedija.hr/clanak/wittgenstein-ludwig",
+      "https://brockhaus.de/ecs/julex/article/wittgenstein-ludwig-josef-johann"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1951-04-29",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/wittgenstein-ludwig-josef-johann"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-05"
   },
   {
@@ -2711,11 +2595,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Eugène Delacroix là họa sĩ người Pháp.",
-    "biography": "Eugène Delacroix được biết đến với vai trò họa sĩ người Pháp.",
-    "highlights": [
-      "Sinh ngày 26 tháng 4 năm 1798.",
-      "Được ghi nhận với vai trò họa sĩ người Pháp."
-    ],
+    "biography": "Eugène Delacroix lần đầu triển lãm tại Salon Paris năm 1822 với bức Dante and Virgil.",
+    "highlights": ["Sinh ngày 26 tháng 4 năm 1798.", "Eugène Delacroix lần đầu triển lãm tại Salon Paris năm 1822 với bức Dante and Virgil."],
     "wikidataId": "Q33477",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q33477",
@@ -2745,11 +2626,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "I. M. Pei là kiến trúc sư người Hoa Kỳ.",
-    "biography": "I. M. Pei được biết đến với vai trò kiến trúc sư người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 26 tháng 4 năm 1917.",
-      "Được ghi nhận với vai trò kiến trúc sư người Hoa Kỳ."
-    ],
+    "biography": "I. M. Pei đã thiết kế hơn 50 công trình tại Hoa Kỳ và nhiều quốc gia khác.",
+    "highlights": ["Sinh ngày 26 tháng 4 năm 1917.", "I. M. Pei đã thiết kế hơn 50 công trình tại Hoa Kỳ và nhiều quốc gia khác."],
     "wikidataId": "Q46868",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q46868",
@@ -2779,11 +2657,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Ulysses S. Grant là tướng lĩnh và chính khách người Hoa Kỳ.",
-    "biography": "Ulysses S. Grant được biết đến với vai trò tướng lĩnh và chính khách người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 27 tháng 4 năm 1822.",
-      "Được ghi nhận với vai trò tướng lĩnh và chính khách người Hoa Kỳ."
-    ],
+    "biography": "Ulysses S. Grant là tổng thống thứ 18 của Hoa Kỳ, tại nhiệm từ năm 1869 đến 1877.",
+    "highlights": ["Sinh ngày 27 tháng 4 năm 1822.", "Ulysses S. Grant là tổng thống thứ 18 của Hoa Kỳ, tại nhiệm từ năm 1869 đến 1877."],
     "wikidataId": "Q34836",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q34836",
@@ -2813,11 +2688,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Mary Wollstonecraft là nhà văn và triết gia người Vương quốc Anh.",
-    "biography": "Mary Wollstonecraft được biết đến với vai trò nhà văn và triết gia người Vương quốc Anh.",
-    "highlights": [
-      "Sinh ngày 27 tháng 4 năm 1759.",
-      "Được ghi nhận với vai trò nhà văn và triết gia người Vương quốc Anh."
-    ],
+    "biography": "Năm 1788, Mary Wollstonecraft xuất bản tiểu thuyết Mary: A Fiction; năm sau bà phát hành tuyển tập The Female Reader.",
+    "highlights": ["Sinh ngày 27 tháng 4 năm 1759.", "Năm 1788, Mary Wollstonecraft xuất bản tiểu thuyết Mary: A Fiction; năm sau bà phát hành tuyển tập The Female Reader."],
     "wikidataId": "Q101638",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q101638",
@@ -2847,11 +2719,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇳🇱",
     "image": "/people/placeholder.svg",
     "shortDescription": "Willem-Alexander là quốc vương hà lan người Hà Lan.",
-    "biography": "Willem-Alexander được biết đến với vai trò quốc vương hà lan người Hà Lan.",
-    "highlights": [
-      "Sinh ngày 27 tháng 4 năm 1967.",
-      "Được ghi nhận với vai trò quốc vương hà lan người Hà Lan."
-    ],
+    "biography": "Willem-Alexander lên ngôi vua Hà Lan sau khi mẹ ông thoái vị ngày 30/4/2013.",
+    "highlights": ["Sinh ngày 27 tháng 4 năm 1967.", "Willem-Alexander lên ngôi vua Hà Lan sau khi mẹ ông thoái vị ngày 30/4/2013."],
     "wikidataId": "Q154952",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q154952",
@@ -2881,11 +2750,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "James Monroe là chính trị gia người Hoa Kỳ.",
-    "biography": "James Monroe được biết đến với vai trò chính trị gia người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 28 tháng 4 năm 1758.",
-      "Được ghi nhận với vai trò chính trị gia người Hoa Kỳ."
-    ],
+    "biography": "James Monroe là tổng thống thứ năm của Hoa Kỳ, tại nhiệm từ năm 1817 đến 1825.",
+    "highlights": ["Sinh ngày 28 tháng 4 năm 1758.", "James Monroe là tổng thống thứ năm của Hoa Kỳ, tại nhiệm từ năm 1817 đến 1825."],
     "wikidataId": "Q11815",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q11815",
@@ -2915,11 +2781,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇪🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Penélope Cruz là diễn viên điện ảnh người Tây Ban Nha.",
-    "biography": "Penélope Cruz được biết đến với vai trò diễn viên điện ảnh người Tây Ban Nha.",
-    "highlights": [
-      "Sinh ngày 28 tháng 4 năm 1974.",
-      "Được ghi nhận với vai trò diễn viên điện ảnh người Tây Ban Nha."
-    ],
+    "biography": "Penélope Cruz và các bạn diễn nữ trong Volver nhận giải diễn xuất tập thể tại Liên hoan phim Cannes; Cruz cũng được đề cử Oscar.",
+    "highlights": ["Sinh ngày 28 tháng 4 năm 1974.", "Penélope Cruz và các bạn diễn nữ trong Volver nhận giải diễn xuất tập thể tại Liên hoan phim Cannes; Cruz cũng được đề cử Oscar."],
     "wikidataId": "Q39666",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q39666",
@@ -2949,11 +2812,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Harper Lee là nhà văn người Hoa Kỳ.",
-    "biography": "Harper Lee được biết đến với vai trò nhà văn người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 28 tháng 4 năm 1926.",
-      "Được ghi nhận với vai trò nhà văn người Hoa Kỳ."
-    ],
+    "biography": "Harper Lee nhận Pulitzer năm 1961 cho To Kill a Mockingbird và sau đó được ba tổng thống Hoa Kỳ trao vinh danh.",
+    "highlights": ["Sinh ngày 28 tháng 4 năm 1926.", "Harper Lee nhận Pulitzer năm 1961 cho To Kill a Mockingbird và sau đó được ba tổng thống Hoa Kỳ trao vinh danh."],
     "wikidataId": "Q182658",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q182658",
@@ -2983,11 +2843,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Uma Thurman là diễn viên người Hoa Kỳ.",
-    "biography": "Uma Thurman được biết đến với vai trò diễn viên người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 29 tháng 4 năm 1970.",
-      "Được ghi nhận với vai trò diễn viên người Hoa Kỳ."
-    ],
+    "biography": "Vai diễn của Uma Thurman trong Pulp Fiction được đề cử Oscar; sau đó bà đóng chính trong Kill Bill.",
+    "highlights": ["Sinh ngày 29 tháng 4 năm 1970.", "Vai diễn của Uma Thurman trong Pulp Fiction được đề cử Oscar; sau đó bà đóng chính trong Kill Bill."],
     "wikidataId": "Q125017",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q125017",
@@ -3017,11 +2874,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇮🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Zubin Mehta là nhạc trưởng người Ấn Độ.",
-    "biography": "Zubin Mehta được biết đến với vai trò nhạc trưởng người Ấn Độ.",
-    "highlights": [
-      "Sinh ngày 29 tháng 4 năm 1936.",
-      "Được ghi nhận với vai trò nhạc trưởng người Ấn Độ."
-    ],
+    "biography": "Zubin Mehta chỉ huy vở opera đầu tiên, Tosca của Puccini, tại Montréal năm 1964.",
+    "highlights": ["Sinh ngày 29 tháng 4 năm 1936.", "Zubin Mehta chỉ huy vở opera đầu tiên, Tosca của Puccini, tại Montréal năm 1964."],
     "wikidataId": "Q157635",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q157635",
@@ -3051,11 +2905,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Andre Agassi là vận động viên quần vợt người Hoa Kỳ.",
-    "biography": "Andre Agassi được biết đến với vai trò vận động viên quần vợt người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 29 tháng 4 năm 1970.",
-      "Được ghi nhận với vai trò vận động viên quần vợt người Hoa Kỳ."
-    ],
+    "biography": "Andre Agassi giành huy chương vàng Olympic 1996 và tám danh hiệu đơn Grand Slam.",
+    "highlights": ["Sinh ngày 29 tháng 4 năm 1970.", "Andre Agassi giành huy chương vàng Olympic 1996 và tám danh hiệu đơn Grand Slam."],
     "wikidataId": "Q7407",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q7407",
@@ -3085,11 +2936,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇵🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "António Guterres là chính trị gia và nhà ngoại giao người Bồ Đào Nha.",
-    "biography": "António Guterres được biết đến với vai trò chính trị gia và nhà ngoại giao người Bồ Đào Nha.",
-    "highlights": [
-      "Sinh ngày 30 tháng 4 năm 1949.",
-      "Được ghi nhận với vai trò chính trị gia và nhà ngoại giao người Bồ Đào Nha."
-    ],
+    "biography": "Trước khi trở thành người đứng đầu Liên Hợp Quốc, António Guterres là Cao ủy Liên Hợp Quốc về người tị nạn giai đoạn 2005–2015.",
+    "highlights": ["Sinh ngày 30 tháng 4 năm 1949.", "Trước khi trở thành người đứng đầu Liên Hợp Quốc, António Guterres là Cao ủy Liên Hợp Quốc về người tị nạn giai đoạn 2005–2015."],
     "wikidataId": "Q311440",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q311440",
@@ -3119,11 +2967,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Kirsten Dunst là diễn viên người Hoa Kỳ.",
-    "biography": "Kirsten Dunst được biết đến với vai trò diễn viên người Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 30 tháng 4 năm 1982.",
-      "Được ghi nhận với vai trò diễn viên người Hoa Kỳ."
-    ],
+    "biography": "Kirsten Dunst được đông đảo khán giả biết đến qua vai Mary Jane Watson trong Spider-Man (2002).",
+    "highlights": ["Sinh ngày 30 tháng 4 năm 1982.", "Kirsten Dunst được đông đảo khán giả biết đến qua vai Mary Jane Watson trong Spider-Man (2002)."],
     "wikidataId": "Q76478",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q76478",
@@ -3153,11 +2998,8 @@ export const PEOPLE_04: Person[] = [
     "countryFlag": "🇨🇿",
     "image": "/people/placeholder.svg",
     "shortDescription": "Jaroslav Hašek là nhà văn và nhà báo người Cộng hòa Séc.",
-    "biography": "Jaroslav Hašek được biết đến với vai trò nhà văn và nhà báo người Cộng hòa Séc.",
-    "highlights": [
-      "Sinh ngày 30 tháng 4 năm 1883.",
-      "Được ghi nhận với vai trò nhà văn và nhà báo người Cộng hòa Séc."
-    ],
+    "biography": "Tác phẩm nổi tiếng nhất của Jaroslav Hašek là bộ tiểu thuyết The Good Soldier Švejk, viết giai đoạn 1921–1923.",
+    "highlights": ["Sinh ngày 30 tháng 4 năm 1883.", "Tác phẩm nổi tiếng nhất của Jaroslav Hašek là bộ tiểu thuyết The Good Soldier Švejk, viết giai đoạn 1921–1923."],
     "wikidataId": "Q2754",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q2754",
@@ -3168,5 +3010,120 @@ export const PEOPLE_04: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-05"
-  }
+  },
+  {
+    "id": "jan-tinbergen",
+    "slug": "jan-tinbergen",
+    "name": "Jan Tinbergen",
+    "birthDate": "1903-04-12",
+    "birthYear": 1903,
+    "birthMonth": 4,
+    "birthDay": 12,
+    "lifeStatus": "deceased",
+    "occupation": [
+      "Nhà kinh tế học"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Khoa học",
+    "fields": [
+      "economics-business",
+      "science-research"
+    ],
+    "countryCode": "NL",
+    "countryName": "Hà Lan",
+    "countryFlag": "🇳🇱",
+    "birthplace": "The Hague, Hà Lan",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Nhà kinh tế học Hà Lan tiên phong trong kinh tế lượng và mô hình kinh tế.",
+    "biography": "Jan Tinbergen là một trong những người sáng lập Econometric Society năm 1930. Năm 1969, ông cùng Ragnar Frisch nhận giải Nobel Kinh tế đầu tiên.",
+    "highlights": [
+      "Tinbergen là một trong những người sáng lập Econometric Society năm 1930.",
+      "Năm 1969, Tinbergen cùng Ragnar Frisch nhận giải Nobel Kinh tế đầu tiên."
+    ],
+    "wikidataId": "Q183181",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q183181",
+      "https://mathshistory.st-andrews.ac.uk/Biographies/Tinbergen/",
+      "https://socialhistory.org/bwsa/biografie/tinbergen"
+    ],
+    "region": "west",
+    "verifiedAt": "2026-10-08"
+  },
+  {
+    "id": "issey-miyake",
+    "slug": "issey-miyake",
+    "name": "Issey Miyake",
+    "birthDate": "1938-04-22",
+    "birthYear": 1938,
+    "birthMonth": 4,
+    "birthDay": 22,
+    "lifeStatus": "deceased",
+    "occupation": [
+      "Nhà thiết kế thời trang"
+    ],
+    "category": "artist",
+    "categoryLabel": "Nghệ thuật",
+    "fields": [
+      "design-creative",
+      "entrepreneurship"
+    ],
+    "countryCode": "JP",
+    "countryName": "Nhật Bản",
+    "countryFlag": "🇯🇵",
+    "birthplace": "Hiroshima, Nhật Bản",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Nhà thiết kế Nhật Bản kết hợp nghiên cứu vật liệu, kỹ thuật và thời trang.",
+    "biography": "Issey Miyake thành lập Miyake Design Studio năm 1970. Ông là nhà thiết kế nước ngoài đầu tiên trình diễn tại Paris Fashion Week, vào tháng 4 năm 1974.",
+    "highlights": [
+      "Miyake thành lập Miyake Design Studio năm 1970.",
+      "Ông là nhà thiết kế nước ngoài đầu tiên trình diễn tại Paris Fashion Week năm 1974."
+    ],
+    "wikidataId": "Q469027",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q469027",
+      "https://www.fhcm.paris/en/news/tribute-to-issey-miyake",
+      "https://www.theguardian.com/fashion/2022/aug/11/issey-miyake-obituary"
+    ],
+    "region": "asia",
+    "verifiedAt": "2026-10-08"
+  },
+  {
+    "id": "guglielmo-marconi",
+    "slug": "guglielmo-marconi",
+    "name": "Guglielmo Marconi",
+    "birthDate": "1874-04-25",
+    "birthYear": 1874,
+    "birthMonth": 4,
+    "birthDay": 25,
+    "lifeStatus": "deceased",
+    "occupation": [
+      "Nhà phát minh, kỹ sư điện"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Khoa học",
+    "fields": [
+      "technology-engineering",
+      "science-research",
+      "entrepreneurship"
+    ],
+    "countryCode": "IT",
+    "countryName": "Ý",
+    "countryFlag": "🇮🇹",
+    "birthplace": "Bologna, Ý",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Nhà phát minh tiên phong trong điện báo vô tuyến.",
+    "biography": "Năm 1895, Guglielmo Marconi truyền thành công tín hiệu vô tuyến qua khoảng cách một dặm rưỡi. Năm sau, ông được cấp bằng sáng chế đầu tiên trên thế giới cho một hệ thống điện báo vô tuyến.",
+    "highlights": [
+      "Năm 1895, Marconi truyền tín hiệu vô tuyến qua khoảng cách một dặm rưỡi.",
+      "Năm 1896, Marconi được cấp bằng sáng chế đầu tiên cho hệ thống điện báo vô tuyến."
+    ],
+    "wikidataId": "Q36488",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q36488",
+      "https://www.nobelprize.org/prizes/physics/1909/marconi/biographical/",
+      "https://www.unibo.it/en/university/who-we-are/our-history/famous-people-and-students/guglielmo-marconi-2"
+    ],
+    "region": "west",
+    "verifiedAt": "2026-10-08"
+  },
 ];

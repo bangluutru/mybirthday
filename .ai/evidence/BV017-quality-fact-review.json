@@ -1,0 +1,4247 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "reviewedAt": "2026-10-08",
+  "reviewMethod": "Human-reviewed Vietnamese paraphrases checked against identity-matched, hashed direct HTTP captures or hashed exact browser excerpts. The selected claims are limited to captured source wording; sample-discovered editorial corrections replace unsourced, outdated, or truncated profile text.",
+  "facts": [
+    {
+      "id": "kate-moss",
+      "candidateIndex": 0,
+      "displayText": "Kate Moss ra mắt bộ sưu tập đầu tiên hợp tác với Topshop năm 2007 dưới nhãn Kate Moss for Topshop."
+    },
+    {
+      "id": "dian-fossey",
+      "candidateIndex": 0,
+      "displayText": "Dian Fossey học tại San Jose State College và nhận bằng cử nhân năm 1954; bà lấy bằng tiến sĩ tại Đại học Cambridge năm 1976."
+    },
+    {
+      "id": "muhammad-ali",
+      "candidateIndex": 0,
+      "displayText": "Muhammad Ali giành huy chương vàng quyền anh hạng dưới nặng tại Olympic rồi trở về Mỹ theo đuổi sự nghiệp chuyên nghiệp."
+    },
+    {
+      "id": "michelle-obama",
+      "candidateIndex": 0,
+      "displayText": "Năm 2010, Michelle Obama khởi động chiến dịch Let's Move! nhằm huy động cộng đồng và chuyên gia ứng phó tình trạng béo phì ở trẻ em."
+    },
+    {
+      "id": "pep-guardiola",
+      "candidateIndex": 0,
+      "displayText": "Pep Guardiola có 47 lần khoác áo đội tuyển Tây Ban Nha và giành huy chương vàng bóng đá Olympic năm 1992."
+    },
+    {
+      "id": "cary-grant",
+      "candidateIndex": 1,
+      "displayText": "Cary Grant được đề cử Quả cầu Vàng Nam diễn viên chính xuất sắc ở thể loại hài hoặc ca nhạc năm 1964 với phim Charade."
+    },
+    {
+      "id": "edgar-allan-poe",
+      "candidateIndex": 0,
+      "displayText": "Bài thơ The Raven xuất bản năm 1845 đã đưa Edgar Allan Poe đến với danh tiếng lớn trong vai trò nhà thơ."
+    },
+    {
+      "id": "janis-joplin",
+      "candidateIndex": 0,
+      "displayText": "Năm 1992, em gái Janis Joplin xuất bản Love, Janis, tuyển tập thư Janis viết cho gia đình từ năm 1963."
+    },
+    {
+      "id": "christian-dior",
+      "candidateIndex": 0,
+      "displayText": "Nước hoa Christian Dior ra mắt ngày 11/1/1947, một tháng trước buổi trình diễn đầu tiên của nhà thiết kế tại số 30 đại lộ Montaigne."
+    },
+    {
+      "id": "stendhal",
+      "candidateIndex": 0,
+      "displayText": "Sau khi Napoléon thất bại, Stendhal chuyển đến Italy và viết du ký cùng các sách về nghệ thuật Italy, Joseph Haydn và Mozart."
+    },
+    {
+      "id": "robert-burns",
+      "candidateIndex": 0,
+      "displayText": "Năm 1780, Robert Burns, em trai Gilbert và những người trẻ ở Tarbolton thành lập Tarbolton Bachelor's Club."
+    },
+    {
+      "id": "virginia-woolf",
+      "candidateIndex": 0,
+      "displayText": "Between the Acts (1941) là tiểu thuyết cuối cùng của Virginia Woolf, xuất bản vài tháng sau khi bà qua đời."
+    },
+    {
+      "id": "angela-davis",
+      "candidateIndex": 3,
+      "displayText": "Năm 1969, Angela Davis được tuyển làm giảng viên triết học tại Đại học California, Los Angeles."
+    },
+    {
+      "id": "lewis-carroll",
+      "candidateIndex": 0,
+      "displayText": "Lewis Carroll viết nhiều sách về toán học và logic, đồng thời sáng tạo câu đố, trò chơi và chơi croquet."
+    },
+    {
+      "id": "jackson-pollock",
+      "candidateIndex": 0,
+      "displayText": "Đầu sự nghiệp, Jackson Pollock chịu ảnh hưởng của kỹ thuật tự động siêu thực; dấu ấn này thể hiện trong các bản vẽ sổ tay của ông."
+    },
+    {
+      "id": "colette",
+      "candidateIndex": 1,
+      "displayText": "Các tiểu thuyết Claudine đầu tiên của Colette, xuất bản giai đoạn 1900–1903, mang tên Willy, bút danh của người chồng đầu tiên Henri Gauthier-Villars."
+    },
+    {
+      "id": "romain-rolland",
+      "candidateIndex": 0,
+      "displayText": "Romain Rolland được trao Nobel Văn học năm 1915 và được xem là một trong những trí thức hàng đầu của Pháp đương thời."
+    },
+    {
+      "id": "abdus-salam",
+      "candidateIndex": 0,
+      "displayText": "Năm 1950, Đại học Cambridge trao Abdus Salam giải Smith cho đóng góp xuất sắc về vật lý trước khi ông hoàn tất tiến sĩ."
+    },
+    {
+      "id": "isamu-akasaki",
+      "candidateIndex": 0,
+      "displayText": "Isamu Akasaki là người tiên phong về đèn LED xanh lam và được trao Nobel Vật lý."
+    },
+    {
+      "id": "franz-schubert",
+      "candidateIndex": 0,
+      "displayText": "Đến năm 1816, khi chưa tròn 20 tuổi, Franz Schubert đã viết hơn 300 ca khúc đơn, năm giao hưởng và nhiều tác phẩm khác."
+    },
+    {
+      "id": "boris-yeltsin",
+      "candidateIndex": 0,
+      "displayText": "Năm 1989, Boris Yeltsin tranh cử tại Moskva vào Đại hội Đại biểu Nhân dân Liên Xô và giành 91,5% phiếu bầu."
+    },
+    {
+      "id": "leymah-gbowee",
+      "candidateIndex": 0,
+      "displayText": "Leymah Gbowee được trao Nobel Hòa bình nhờ hoạt động bất bạo động vì hòa bình và quyền phụ nữ."
+    },
+    {
+      "id": "neymar",
+      "candidateIndex": 0,
+      "displayText": "Năm 2017, Paris Saint-Germain ký hợp đồng với Neymar từ Barcelona với mức phí chuyển nhượng kỷ lục thế giới 222 triệu euro."
+    },
+    {
+      "id": "robert-hofstadter",
+      "candidateIndex": 0,
+      "displayText": "Robert Hofstadter phát triển thiết bị dùng để nghiên cứu cấu trúc bên trong hạt nhân nguyên tử."
+    },
+    {
+      "id": "william-shockley",
+      "candidateIndex": 0,
+      "displayText": "Năm 1947, William Shockley tiếp tục phát triển bộ khuếch đại bán dẫn do John Bardeen và Walter Brattain chế tạo."
+    },
+    {
+      "id": "peter-gabriel",
+      "candidateIndex": 0,
+      "displayText": "Năm 2019, Peter Gabriel phát hành Rated PG, tuyển tập ca khúc viết cho nhạc phim; sau đó ông thực hiện album I/O, phát hành năm 2023."
+    },
+    {
+      "id": "john-mcenroe",
+      "candidateIndex": 0,
+      "displayText": "John McEnroe giành bảy danh hiệu Grand Slam trong sự nghiệp quần vợt."
+    },
+    {
+      "id": "valentino-rossi",
+      "candidateIndex": 2,
+      "displayText": "Năm 2015, Valentino Rossi thắng bốn chặng MotoGP và chỉ sít sao để mất chức vô địch thế giới vào tay Jorge Lorenzo."
+    },
+    {
+      "id": "francis-galton",
+      "candidateIndex": 3,
+      "displayText": "Trong Natural Inheritance (1889), Francis Galton nghiên cứu các đặc điểm thể chất bằng phương pháp thống kê và toán học."
+    },
+    {
+      "id": "michael-jordan",
+      "candidateIndex": 0,
+      "displayText": "Michael Jordan cùng đối tác ra mắt dòng giày mang tên ông, Air Jordan, tạo nên thành công lớn và mở đường cho các hợp đồng tài trợ thể thao hiện đại."
+    },
+    {
+      "id": "otto-stern",
+      "candidateIndex": 1,
+      "displayText": "Nobel Vật lý năm 1943 ghi nhận Otto Stern vì đóng góp cho phương pháp chùm phân tử và phát hiện mômen từ của proton."
+    },
+    {
+      "id": "alessandro-volta",
+      "candidateIndex": 0,
+      "displayText": "Nhà vật lý Italy Alessandro Volta phát minh pin điện đầu tiên, sau này được gọi là pin Volta."
+    },
+    {
+      "id": "toni-morrison",
+      "candidateIndex": 0,
+      "displayText": "Nhà văn Mỹ Toni Morrison được trao Nobel Văn học năm 1993."
+    },
+    {
+      "id": "jennifer-doudna",
+      "candidateIndex": 0,
+      "displayText": "Năm 2012, Jennifer Doudna và Emmanuelle Charpentier phát triển phương pháp chỉnh sửa bộ gen có độ chính xác cao."
+    },
+    {
+      "id": "ansel-adams",
+      "candidateIndex": 0,
+      "displayText": "Ansel Adams giảng dạy cho hàng nghìn học viên và viết bộ cẩm nang kỹ thuật nhiếp ảnh The Ansel Adams Guide gồm 10 tập."
+    },
+    {
+      "id": "ludwig-boltzmann",
+      "candidateIndex": 0,
+      "displayText": "Ludwig Boltzmann trở thành giáo sư tại Graz năm 25 tuổi, rồi giảng dạy tại Vienna, Munich và Leipzig."
+    },
+    {
+      "id": "sidney-poitier",
+      "candidateIndex": 0,
+      "displayText": "Sidney Poitier và Tony Curtis đóng vai chính trong The Defiant Ones (1958), một trong những phim đầu thập niên 1950 xây dựng hai nhân vật chính da đen và da trắng ngang hàng."
+    },
+    {
+      "id": "nina-simone",
+      "candidateIndex": 1,
+      "displayText": "Cuối thập niên 1950, giới nhạc jazz chú ý đến Nina Simone; sau đó bà bắt đầu lưu diễn dưới tên riêng."
+    },
+    {
+      "id": "w-h-auden",
+      "candidateIndex": 0,
+      "displayText": "Tập thơ đầu tiên của W. H. Auden, Poems, xuất bản năm 1930."
+    },
+    {
+      "id": "karl-jaspers",
+      "candidateIndex": 0,
+      "displayText": "Karl Jaspers ban đầu là bác sĩ và bác sĩ tâm thần; tác phẩm Psychologie der Weltanschauungen (1919) đánh dấu bước chuyển của ông sang triết học."
+    },
+    {
+      "id": "w-e-b-du-bois",
+      "candidateIndex": 0,
+      "displayText": "Năm 1903, W. E. B. Du Bois xuất bản The Souls of Black Folk, tác phẩm viết về trải nghiệm của người da đen tại Mỹ."
+    },
+    {
+      "id": "steve-jobs",
+      "candidateIndex": 4,
+      "displayText": "Steve Jobs chịu trách nhiệm chính về thiết kế máy tính Macintosh, được giới thiệu năm 1984."
+    },
+    {
+      "id": "alain-prost",
+      "candidateIndex": 0,
+      "displayText": "Alain Prost vô địch thế giới Formula 1 bốn lần: 1985, 1986, 1989 và 1993."
+    },
+    {
+      "id": "pierre-auguste-renoir",
+      "candidateIndex": 0,
+      "displayText": "Năm 1892, Pierre-Auguste Renoir trưng bày 70 tác phẩm trong một triển lãm cá nhân và nhận được nhiều lời khen."
+    },
+    {
+      "id": "george-harrison",
+      "candidateIndex": 0,
+      "displayText": "Album solo đầu tiên của George Harrison, nhạc phim Wonderwall Music (1968), mang đậm ảnh hưởng âm nhạc Ấn Độ."
+    },
+    {
+      "id": "anthony-burgess",
+      "candidateIndex": 0,
+      "displayText": "Tiểu thuyết đầu tiên của Anthony Burgess, Time for a Tiger, xuất bản năm 1956."
+    },
+    {
+      "id": "johnny-cash",
+      "candidateIndex": 0,
+      "displayText": "Johnny Cash làm phim tài liệu Gospel Road: A Story of Jesus (1973) và xuất bản tự truyện Man in Black (1975)."
+    },
+    {
+      "id": "recep-tayyip-erdogan",
+      "candidateIndex": 0,
+      "displayText": "Recep Tayyip Erdoğan sớm tham gia phong trào Hồi giáo Milli Görüş, nơi chính trị gia Necmettin Erbakan giữ vai trò trung tâm."
+    },
+    {
+      "id": "john-steinbeck",
+      "candidateIndex": 0,
+      "displayText": "John Steinbeck được nhớ đến nhiều nhất qua tiểu thuyết The Grapes of Wrath, xuất bản năm 1939."
+    },
+    {
+      "id": "henry-wadsworth-longfellow",
+      "candidateIndex": 1,
+      "displayText": "Henry Wadsworth Longfellow là giảng viên ngôn ngữ và văn học hiện đại tại Bowdoin College, rồi làm giáo sư ở Harvard từ năm 1836 đến 1854."
+    },
+    {
+      "id": "linus-pauling",
+      "candidateIndex": 0,
+      "displayText": "Linus Pauling nhận hai giải Nobel: Hóa học năm 1954 và Hòa bình năm 1962."
+    },
+    {
+      "id": "frank-gehry",
+      "candidateIndex": 0,
+      "displayText": "Năm 1989, kiến trúc sư Frank Gehry được trao giải Pritzker."
+    },
+    {
+      "id": "gioachino-rossini",
+      "candidateIndex": 0,
+      "displayText": "Nhà soạn nhạc Italy Gioachino Rossini nổi tiếng với nhiều vở opera hài, thuộc thể loại opera buffa."
+    },
+    {
+      "id": "herman-hollerith",
+      "candidateIndex": 2,
+      "displayText": "Sau khi làm trợ lý cho cuộc điều tra dân số Mỹ năm 1880, Herman Hollerith quan tâm đến việc tự động hóa khâu thống kê."
+    },
+    {
+      "id": "ron-howard",
+      "candidateIndex": 0,
+      "displayText": "Ron Howard nhận giải Oscar đạo diễn cho A Beautiful Mind (2001)."
+    },
+    {
+      "id": "oskar-kokoschka",
+      "candidateIndex": 0,
+      "displayText": "Oskar Kokoschka được bổ nhiệm làm giáo sư tại học viện nghệ thuật Dresden giai đoạn 1919–1924."
+    },
+    {
+      "id": "georg-cantor",
+      "candidateIndex": 4,
+      "displayText": "Năm 1874, Georg Cantor chứng minh rằng trong toán học tồn tại những loại tập hợp vô hạn khác nhau."
+    },
+    {
+      "id": "georges-dumezil",
+      "candidateIndex": 0,
+      "displayText": "Khi ở Istanbul, Georges Dumézil nghiên cứu các dân tộc Kavkaz và ngôn ngữ, truyền thống của họ."
+    },
+    {
+      "id": "george-gamow",
+      "candidateIndex": 0,
+      "displayText": "George Gamow là giáo sư vật lý lý thuyết tại Đại học George Washington từ 1934 đến 1955, rồi giảng dạy tại Đại học Colorado từ năm 1956."
+    },
+    {
+      "id": "john-garfield",
+      "candidateIndex": 0,
+      "displayText": "John Garfield được đề cử Oscar nhờ vai diễn trong phim đầu tay Four Daughters (1938)."
+    },
+    {
+      "id": "daniel-kahneman",
+      "candidateIndex": 1,
+      "displayText": "Daniel Kahneman được trao giải Nobel Kinh tế năm 2002 cùng nhà kinh tế học Vernon L. Smith."
+    },
+    {
+      "id": "rex-harrison",
+      "candidateIndex": 0,
+      "displayText": "Bài hát Talk to the Animals trong Doctor Dolittle (1967), do Rex Harrison thể hiện, đã đoạt Oscar cho ca khúc trong phim."
+    },
+    {
+      "id": "tomas-masaryk",
+      "candidateIndex": 0,
+      "displayText": "Tomáš Masaryk giữ chức tổng thống Tiệp Khắc từ khi nước này thành lập năm 1918 đến năm 1935."
+    },
+    {
+      "id": "otto-hahn",
+      "candidateIndex": 3,
+      "displayText": "Năm 1938, Otto Hahn phát hiện hạt nhân nguyên tử có thể phân hạch; Lise Meitner giải thích cơ chế của hiện tượng này."
+    },
+    {
+      "id": "carl-philipp-emanuel-bach",
+      "candidateIndex": 0,
+      "displayText": "C. P. E. Bach là nghệ sĩ đàn harpsichord xuất sắc; sách Versuch über die wahre Art das Clavier zu spielen (1752–1762) có ảnh hưởng lâu dài đến kỹ thuật đàn phím."
+    },
+    {
+      "id": "samuel-barber",
+      "candidateIndex": 0,
+      "displayText": "Tác phẩm cho dàn nhạc Adagio for Strings của Samuel Barber đã trở thành một tác phẩm kinh điển."
+    },
+    {
+      "id": "bobby-fischer",
+      "candidateIndex": 0,
+      "displayText": "Khi FIDE bắt đầu lập bảng xếp hạng, Bobby Fischer là người đầu tiên đứng đầu bảng xếp hạng thế giới."
+    },
+    {
+      "id": "sharon-stone",
+      "candidateIndex": 0,
+      "displayText": "Các vai diễn trong Total Recall và Basic Instinct đưa Sharon Stone đến với đông đảo khán giả và giúp bà trở thành gương mặt nổi bật ở Hollywood."
+    },
+    {
+      "id": "arthur-honegger",
+      "candidateIndex": 3,
+      "displayText": "Năm 1918, Arthur Honegger cùng Darius Milhaud và Erik Satie thành lập nhóm Les Nouveaux Jeunes tại Paris."
+    },
+    {
+      "id": "nicolaas-bloembergen",
+      "candidateIndex": 0,
+      "displayText": "Nicolaas Bloembergen là giáo sư tại Đại học Harvard từ năm 1957 và tại Đại học Arizona từ năm 2001."
+    },
+    {
+      "id": "urbain-le-verrier",
+      "candidateIndex": 0,
+      "displayText": "Sau trận bão lớn năm 1854, Urbain Le Verrier được giao nghiên cứu khả năng dự báo bão."
+    },
+    {
+      "id": "jack-kerouac",
+      "candidateIndex": 0,
+      "displayText": "Năm 1940, Jack Kerouac vào Đại học Columbia, nơi ông vừa là cầu thủ bóng bầu dục triển vọng vừa viết văn."
+    },
+    {
+      "id": "edward-albee",
+      "candidateIndex": 0,
+      "displayText": "Edward Albee ba lần nhận giải Pulitzer cho kịch với A Delicate Balance (1967), Seascape (1975) và Three Tall Women (1994)."
+    },
+    {
+      "id": "liza-minnelli",
+      "candidateIndex": 0,
+      "displayText": "Liza Minnelli đoạt giải Emmy cho phim hòa nhạc Liza with a Z (1973) và được đề cử Oscar với The Sterile Cuckoo (1969)."
+    },
+    {
+      "id": "percival-lowell",
+      "candidateIndex": 1,
+      "displayText": "Percival Lowell là nhà thiên văn học Mỹ nổi tiếng với các quan sát hành tinh, đặc biệt là Sao Hỏa."
+    },
+    {
+      "id": "neil-sedaka",
+      "candidateIndex": 0,
+      "displayText": "Neil Sedaka bắt đầu được biết đến với tư cách ca sĩ rock năm 1958; The Diary và I Go Ape giúp ông nổi tiếng tại Mỹ."
+    },
+    {
+      "id": "michael-caine",
+      "candidateIndex": 0,
+      "displayText": "Michael Caine được chú ý rộng rãi nhờ vai chính trong The Ipcress File (1965) và Alfie (1966)."
+    },
+    {
+      "id": "quincy-jones",
+      "candidateIndex": 0,
+      "displayText": "Năm 1985, Quincy Jones chỉ đạo thu âm We Are the World nhằm gây quỹ hỗ trợ người dân bị nạn đói ở châu Phi."
+    },
+    {
+      "id": "andrew-jackson",
+      "candidateIndex": 0,
+      "displayText": "Andrew Jackson là tổng thống thứ bảy của Hoa Kỳ, tại nhiệm từ năm 1829 đến 1837."
+    },
+    {
+      "id": "bernardo-bertolucci",
+      "candidateIndex": 0,
+      "displayText": "Năm 2011, Liên hoan phim Cannes trao Bernardo Bertolucci Cành cọ Vàng danh dự để ghi nhận sự nghiệp điện ảnh của ông."
+    },
+    {
+      "id": "jerry-lewis",
+      "candidateIndex": 0,
+      "displayText": "Trong The Errand Boy (1961), bộ phim do Jerry Lewis đạo diễn, ông đóng vai nhân viên vụng về tại phòng thư của một hãng phim.",
+      "sourceUrl": "https://www.hollywoodreporter.com/news/general-news/jerry-lewis-dead-nutty-professor-bellboy-star-was-91-721408/",
+      "publisher": "The Hollywood Reporter",
+      "pageTitle": "Jerry Lewis Dead: ‘Nutty Professor,’ ‘Bellboy’ Star Was 91",
+      "capture": {
+        "status": 200,
+        "sha256": "21b4dca970ce43fd59d349fceac2cfb2c2e297c1e3d72759a0c4038421a2e960",
+        "bytesRead": 628863,
+        "nameMatched": true,
+        "claimTextMatched": true,
+        "verificationMethod": "direct-http"
+      }
+    },
+    {
+      "id": "gottlieb-daimler",
+      "candidateIndex": 0,
+      "displayText": "Năm 1885, Gottlieb Daimler chế tạo chiếc xe máy đầu tiên; năm sau ông lắp động cơ lên một phương tiện bốn bánh."
+    },
+    {
+      "id": "stephane-mallarme",
+      "candidateIndex": 0,
+      "displayText": "Stéphane Mallarmé là nhà thơ Pháp có thơ ca chịu ảnh hưởng của Charles Baudelaire, Edgar Allan Poe và trường phái Parnasse."
+    },
+    {
+      "id": "nikolai-rimsky-korsakov",
+      "candidateIndex": 0,
+      "displayText": "Nikolai Rimsky-Korsakov viết các opera May Night và Christmas Eve dựa trên truyện của Nikolai Gogol, đồng thời sáng tác The Tale of Tsar Saltan."
+    },
+    {
+      "id": "bruce-willis",
+      "candidateIndex": 0,
+      "displayText": "Bruce Willis được chú ý qua loạt phim truyền hình Moonlighting (1985–1989), trong đó ông đóng cùng Cybill Shepherd."
+    },
+    {
+      "id": "spike-lee",
+      "candidateIndex": 0,
+      "displayText": "BlacKkKlansman (2018) đoạt Oscar Kịch bản chuyển thể xuất sắc nhất và được đề cử Phim hay nhất cùng Đạo diễn xuất sắc nhất; đây là một thành công lớn của Spike Lee."
+    },
+    {
+      "id": "hans-dietrich-genscher",
+      "candidateIndex": 0,
+      "displayText": "Năm 1974, Hans-Dietrich Genscher trở thành Bộ trưởng Ngoại giao kiêm Phó Thủ tướng trong chính phủ liên minh xã hội-tự do của Đức."
+    },
+    {
+      "id": "ayrton-senna",
+      "candidateIndex": 0,
+      "displayText": "Ayrton Senna vô địch Formula 1 vào các năm 1988, 1990 và 1991."
+    },
+    {
+      "id": "robert-millikan",
+      "candidateIndex": 0,
+      "displayText": "Từ năm 1921, Robert Millikan là giám đốc Norman Bridge Laboratory và chủ tịch Viện Công nghệ California tại Pasadena."
+    },
+    {
+      "id": "marcel-marceau",
+      "candidateIndex": 0,
+      "displayText": "Năm 1945, Marcel Marceau gia nhập đoàn kịch của Jean-Louis Barrault; sau đó ông thành lập đoàn riêng."
+    },
+    {
+      "id": "andrew-lloyd-webber",
+      "candidateIndex": 0,
+      "displayText": "Starlight Express ra mắt năm 1984 và được diễn tại West End ở London suốt 17 năm."
+    },
+    {
+      "id": "akira-kurosawa",
+      "candidateIndex": 0,
+      "displayText": "Kịch bản của Akira Kurosawa được Andrei Konchalovsky chuyển thể thành phim Runaway Train (1985)."
+    },
+    {
+      "id": "wernher-von-braun",
+      "candidateIndex": 0,
+      "displayText": "Ngày 1/3/1970, Wernher von Braun được bổ nhiệm làm giám đốc hoạch định của NASA tại Washington, D.C."
+    },
+    {
+      "id": "harry-houdini",
+      "candidateIndex": 0,
+      "displayText": "Nghệ sĩ ảo thuật Mỹ Harry Houdini nổi tiếng với biệt danh “vua vượt ngục”."
+    },
+    {
+      "id": "steve-mcqueen",
+      "candidateIndex": 0,
+      "displayText": "Steve McQueen trở thành ngôi sao Hollywood qua các phim như The Great Escape (1963), The Cincinnati Kid (1965), The Sand Pebbles (1966) và Bullitt (1968)."
+    },
+    {
+      "id": "dario-fo",
+      "candidateIndex": 0,
+      "displayText": "Từ đầu thập niên 1950, Dario Fo viết và biểu diễn các tác phẩm châm biếm cùng những vở hài ngắn."
+    },
+    {
+      "id": "elton-john",
+      "candidateIndex": 0,
+      "displayText": "Elton John gặp Bernie Taupin năm 1967; trong mười năm tiếp theo, họ cùng viết các ca khúc John phát hành."
+    },
+    {
+      "id": "aretha-franklin",
+      "candidateIndex": 0,
+      "displayText": "Tháng 1/1968, Aretha Franklin lần đầu biểu diễn tại châu Âu trong chương trình truyền hình Golden Rose of Montreux."
+    },
+    {
+      "id": "bela-bartok",
+      "candidateIndex": 0,
+      "displayText": "Năm 1913, Béla Bartók thực hiện chuyến đi dài ngày đến Bắc Phi và đặc biệt quan tâm đến âm nhạc Kabyle."
+    },
+    {
+      "id": "tennessee-williams",
+      "candidateIndex": 0,
+      "displayText": "A Streetcar Named Desire (1947) là một trong những tác phẩm kịch lớn của Tennessee Williams."
+    },
+    {
+      "id": "pierre-boulez",
+      "candidateIndex": 0,
+      "displayText": "Từ giữa thập niên 1970, Pierre Boulez lãnh đạo IRCAM, viện nghiên cứu và điều phối âm học, âm nhạc tại Paris."
+    },
+    {
+      "id": "quentin-tarantino",
+      "candidateIndex": 0,
+      "displayText": "Once Upon a Time in Hollywood (2019) giúp Quentin Tarantino được đề cử Oscar ở các hạng mục Phim hay nhất, Đạo diễn và Kịch bản gốc."
+    },
+    {
+      "id": "dirk-bogarde",
+      "candidateIndex": 0,
+      "displayText": "Dirk Bogarde ban đầu đóng các vai thanh niên phạm pháp trong The Blue Lamp (1950) và Hunted (1952), rồi trở thành thần tượng khán giả với Doctor in the House (1954)."
+    },
+    {
+      "id": "mario-vargas-llosa",
+      "candidateIndex": 0,
+      "displayText": "Mario Vargas Llosa được trao Nobel Văn học năm 2010."
+    },
+    {
+      "id": "john-major",
+      "candidateIndex": 0,
+      "displayText": "Năm 2005, Nữ hoàng Elizabeth II phong John Major làm Hiệp sĩ Huân chương Garter, từ đó ông mang tước hiệu Sir John Major."
+    },
+    {
+      "id": "vincent-van-gogh",
+      "candidateIndex": 0,
+      "displayText": "Vincent van Gogh được xem là một trong những nghệ sĩ hiện đại quan trọng đầu thế kỷ 20, dù khi sinh thời ông chưa được công nhận rộng rãi."
+    },
+    {
+      "id": "eric-clapton",
+      "candidateIndex": 0,
+      "displayText": "Album trực tiếp Unplugged (1992) của Eric Clapton được thu cho MTV và mang về cho ông sáu giải Grammy."
+    },
+    {
+      "id": "francisco-goya",
+      "candidateIndex": 0,
+      "displayText": "Francisco Goya hoạt động quanh năm 1800 và phát triển thành một nghệ sĩ tạo hình có tiếng nói phê phán xã hội."
+    },
+    {
+      "id": "rene-descartes",
+      "candidateIndex": 0,
+      "displayText": "René Descartes xuất thân quý tộc và học tại trường dòng Tên La Flèche trước khi theo đuổi triết học và toán học."
+    },
+    {
+      "id": "al-gore",
+      "candidateIndex": 0,
+      "displayText": "Al Gore quan tâm đến các vấn đề môi trường trong nhiều năm và xuất bản Earth in the Balance năm 1992."
+    },
+    {
+      "id": "arthur-wellesley-1st-duke-of-wellington",
+      "candidateIndex": 0,
+      "displayText": "Arthur Wellesley được bầu làm nghị sĩ đại diện Rye năm 1806, rồi được bổ nhiệm làm Tổng thư ký Ireland vào năm sau."
+    },
+    {
+      "id": "ralph-waldo-emerson",
+      "candidateIndex": 0,
+      "displayText": "Trong chuyến đi châu Âu năm 1832–1833, Ralph Waldo Emerson gặp Wordsworth, Coleridge và Carlyle, đồng thời tiếp xúc với chủ nghĩa duy tâm Đức."
+    },
+    {
+      "id": "robert-browning",
+      "candidateIndex": 0,
+      "displayText": "Năm 1849, Robert Browning có con trai Robert “Pen” Browning; cùng năm đó tập Collected Poems của ông được xuất bản."
+    },
+    {
+      "id": "soren-kierkegaard",
+      "candidateIndex": 0,
+      "displayText": "Từ năm 1843 đến khi qua đời năm 1855, Søren Kierkegaard liên tục xuất bản sách, phần lớn dưới bút danh."
+    },
+    {
+      "id": "karl-marx",
+      "candidateIndex": 0,
+      "displayText": "Năm 1849, Karl Marx buộc phải rời Paris và sống lưu vong tại London."
+    },
+    {
+      "id": "walt-whitman",
+      "candidateIndex": 0,
+      "displayText": "Walt Whitman tự xuất bản ấn bản đầu tiên của Leaves of Grass năm 1855."
+    },
+    {
+      "id": "thomas-henry-huxley",
+      "candidateIndex": 0,
+      "displayText": "Năm 1854, Thomas Henry Huxley trở thành giáo sư tại Royal School of Mines ở London và bắt đầu quan tâm đến cổ sinh vật học."
+    },
+    {
+      "id": "l-frank-baum",
+      "candidateIndex": 2,
+      "displayText": "Năm 1900, L. Frank Baum viết The Wonderful Wizard of Oz, tác phẩm thiếu nhi sau này được biết đến với tên The Wizard of Oz."
+    },
+    {
+      "id": "ronald-ross",
+      "candidateIndex": 1,
+      "displayText": "Ronald Ross nhận Nobel Sinh lý học hoặc Y học năm 1902 nhờ nghiên cứu về bệnh sốt rét."
+    },
+    {
+      "id": "arthur-conan-doyle",
+      "candidateIndex": 0,
+      "displayText": "Bác sĩ Arthur Conan Doyle từng tình nguyện phục vụ trong Chiến tranh Boer năm 1900 và viết sách về cuộc chiến."
+    },
+    {
+      "id": "theodor-herzl",
+      "candidateIndex": 2,
+      "displayText": "Tháng 8/1897, Theodor Herzl và những người ủng hộ tổ chức Đại hội Zionist đầu tiên tại Basel, Thụy Sĩ."
+    },
+    {
+      "id": "willem-einthoven",
+      "candidateIndex": 0,
+      "displayText": "Willem Einthoven phát triển khả năng dùng điện tâm đồ (ECG) để mô tả tim, chức năng và bệnh lý của tim."
+    },
+    {
+      "id": "bertrand-russell",
+      "candidateIndex": 0,
+      "displayText": "Principles of Mathematics (1903) là công trình quan trọng đầu tiên của Bertrand Russell về logic triết học."
+    },
+    {
+      "id": "par-lagerkvist",
+      "candidateIndex": 0,
+      "displayText": "Năm 1951, Pär Lagerkvist nhận Nobel Văn học vì sức mạnh nghệ thuật và tinh thần độc lập thể hiện trong thơ của ông."
+    },
+    {
+      "id": "fred-astaire",
+      "candidateIndex": 0,
+      "displayText": "Fred Astaire và Ginger Rogers bắt đầu hợp tác trong Flying Down to Rio (1933), rồi cùng đóng chính trong Top Hat, Swing Time và Shall We Dance."
+    },
+    {
+      "id": "gary-cooper",
+      "candidateIndex": 0,
+      "displayText": "Gary Cooper đóng vai cao bồi quần chúng trong hơn 30 phim trước khi có vai diễn quan trọng đầu tiên trong The Winning of Barbara Worth (1927)."
+    },
+    {
+      "id": "bob-hope",
+      "candidateIndex": 0,
+      "displayText": "Bob Hope nhận năm giải danh dự của Viện Hàn lâm Điện ảnh Mỹ và hai giải Quả cầu Vàng danh dự."
+    },
+    {
+      "id": "henry-fonda",
+      "candidateIndex": 0,
+      "displayText": "Vai diễn trong On Golden Pond (1981), đóng cùng con gái Jane Fonda, là vai diễn điện ảnh cuối cùng giúp Henry Fonda đoạt Oscar."
+    },
+    {
+      "id": "katharine-hepburn",
+      "candidateIndex": 0,
+      "displayText": "Katharine Hepburn tái hợp Spencer Tracy trong Guess Who's Coming to Dinner (1967), vai diễn mang về cho bà giải Oscar."
+    },
+    {
+      "id": "laurence-olivier",
+      "candidateIndex": 0,
+      "displayText": "Laurence Olivier nhận Oscar năm 1944 cho Henry V, bộ phim do ông sản xuất, đạo diễn và đóng vai chính."
+    },
+    {
+      "id": "john-wayne",
+      "candidateIndex": 4,
+      "displayText": "John Wayne đoạt Oscar và Quả cầu Vàng cho vai chính trong True Grit (1969)."
+    },
+    {
+      "id": "james-stewart",
+      "candidateIndex": 3,
+      "displayText": "Trong sự nghiệp, James Stewart nhận một giải Oscar, một Quả cầu Vàng cùng các giải diễn xuất tại Liên hoan phim Venice và Berlin."
+    },
+    {
+      "id": "john-bardeen",
+      "candidateIndex": 0,
+      "displayText": "John Bardeen tốt nghiệp Madison Central High School năm 1923 sau vài năm học tại University High School ở Madison."
+    },
+    {
+      "id": "benny-goodman",
+      "candidateIndex": 0,
+      "displayText": "Năm 1934 tại New York, Benny Goodman thành lập ban nhạc lớn đầu tiên của mình sau nhiều năm chơi trong các dàn nhạc."
+    },
+    {
+      "id": "patrick-white",
+      "candidateIndex": 0,
+      "displayText": "Patrick White nhận Nobel Văn học năm 1973."
+    },
+    {
+      "id": "john-f-kennedy",
+      "candidateIndex": 0,
+      "displayText": "John F. Kennedy là tổng thống thứ 35 của Hoa Kỳ, tại nhiệm từ tháng 1/1961 đến khi qua đời vào tháng 11/1963."
+    },
+    {
+      "id": "john-paul-ii",
+      "candidateIndex": 0,
+      "displayText": "Năm 2013, Vatican thông báo Giáo hội Công giáo sẽ phong thánh cho Giáo hoàng John Paul II và dự kiến tổ chức lễ trong 16 tháng tiếp theo."
+    },
+    {
+      "id": "satyajit-ray",
+      "candidateIndex": 0,
+      "displayText": "Satyajit Ray viết nhiều tiểu thuyết trinh thám và phiêu lưu cho thanh thiếu niên bằng tiếng Bengali; tại quê nhà, ông được biết đến như nhà văn bên cạnh vai trò đạo diễn."
+    },
+    {
+      "id": "sophie-scholl",
+      "candidateIndex": 0,
+      "displayText": "Ngày 18/2/1943, Sophie Scholl và anh trai Hans bị Gestapo bắt sau khi phát khoảng 1.700 truyền đơn tại Đại học Munich."
+    },
+    {
+      "id": "andrei-sakharov",
+      "candidateIndex": 0,
+      "displayText": "Andrei Sakharov nhận Nobel Hòa bình năm 1975 vì phản đối lạm quyền và hoạt động bảo vệ nhân quyền."
+    },
+    {
+      "id": "christopher-lee",
+      "candidateIndex": 0,
+      "displayText": "Từ thập niên 1950, Christopher Lee nổi tiếng với các phim kinh dị của hãng Hammer Films, trong đó có loạt Dracula."
+    },
+    {
+      "id": "henry-kissinger",
+      "candidateIndex": 0,
+      "displayText": "Henry Kissinger giữ chức Ngoại trưởng Hoa Kỳ từ năm 1973 đến 1977, đồng thời tiếp tục phụ trách an ninh quốc gia đến năm 1975."
+    },
+    {
+      "id": "david-attenborough",
+      "candidateIndex": 0,
+      "displayText": "David Attenborough học động vật học và địa chất tại Đại học Cambridge, tốt nghiệp năm 1947."
+    },
+    {
+      "id": "agnes-varda",
+      "candidateIndex": 0,
+      "displayText": "Agnès Varda được đề cử Oscar cho phim tài liệu Visages villages (2017)."
+    },
+    {
+      "id": "audrey-hepburn",
+      "candidateIndex": 0,
+      "displayText": "Audrey Hepburn có bước đột phá điện ảnh với Roman Holiday (1953), vai diễn giúp bà đoạt Oscar và Quả cầu Vàng."
+    },
+    {
+      "id": "peter-higgs",
+      "candidateIndex": 0,
+      "displayText": "Peter Higgs làm giáo sư vật lý lý thuyết tại Đại học Edinburgh trong phần lớn sự nghiệp."
+    },
+    {
+      "id": "clint-eastwood",
+      "candidateIndex": 0,
+      "displayText": "Where Eagles Dare, Paint Your Wagon và Kelly's Heroes đều là những phim thành công có Clint Eastwood tham gia vào giai đoạn 1969–1970."
+    },
+    {
+      "id": "james-brown",
+      "candidateIndex": 0,
+      "displayText": "James Brown phát triển phong cách biểu diễn giàu nhịp điệu từ gospel và rhythm and blues; ông được xem là một trong những người khai sinh nhạc soul."
+    },
+    {
+      "id": "dennis-hopper",
+      "candidateIndex": 0,
+      "displayText": "Dennis Hopper ra mắt điện ảnh trong thập niên 1950 và đóng cùng James Dean trong Rebel Without a Cause (1955)."
+    },
+    {
+      "id": "madeleine-albright",
+      "candidateIndex": 0,
+      "displayText": "Madeleine Albright là người phụ nữ đầu tiên giữ chức Ngoại trưởng Hoa Kỳ, từ năm 1997 đến 2001."
+    },
+    {
+      "id": "ian-mckellen",
+      "candidateIndex": 0,
+      "displayText": "Ian McKellen nhận Quả cầu Vàng cho Richard III và hai lần được đề cử Oscar, với Gods and Monsters và The Fellowship of the Ring."
+    },
+    {
+      "id": "nora-ephron",
+      "candidateIndex": 0,
+      "displayText": "Nora Ephron ba lần được đề cử Oscar Kịch bản gốc xuất sắc nhất và nhận BAFTA cho kịch bản When Harry Met Sally... (1989)."
+    },
+    {
+      "id": "bob-dylan",
+      "candidateIndex": 0,
+      "displayText": "Năm 2000, Bob Dylan nhận Polar Music Prize do Học viện Âm nhạc Hoàng gia Thụy Điển trao."
+    },
+    {
+      "id": "george-lucas",
+      "candidateIndex": 0,
+      "displayText": "Star Wars (1977) đem lại thành công lớn cho George Lucas; ông sản xuất hai phần tiếp theo ra mắt năm 1980 và 1983."
+    },
+    {
+      "id": "mary-robinson",
+      "candidateIndex": 0,
+      "displayText": "Mary Robinson là giáo sư luật tại Trinity College Dublin từ năm 1969 đến 1990."
+    },
+    {
+      "id": "claudia-goldin",
+      "candidateIndex": 0,
+      "displayText": "Claudia Goldin là người đầu tiên đưa ra bức tranh toàn diện về thu nhập tiền lương của phụ nữ."
+    },
+    {
+      "id": "cher",
+      "candidateIndex": 0,
+      "displayText": "Cher lần đầu nổi tiếng với vai trò ca sĩ trong bộ đôi Sonny & Cher cùng người chồng khi đó, Sonny Bono."
+    },
+    {
+      "id": "billy-joel",
+      "candidateIndex": 0,
+      "displayText": "Billy Joel ra mắt solo với album Cold Spring Harbor năm 1971 và có những thành công đầu tiên tại Mỹ với Piano Man (1973)."
+    },
+    {
+      "id": "stevie-wonder",
+      "candidateIndex": 0,
+      "displayText": "Motown Records phát hiện Stevie Wonder khi ông 12 tuổi; đĩa đơn trực tiếp Fingertips (Part 2) đứng đầu bảng xếp hạng Mỹ năm 1963."
+    },
+    {
+      "id": "sally-ride",
+      "candidateIndex": 0,
+      "displayText": "Sally Ride rời NASA năm 1987 để nghiên cứu tại Stanford; từ năm 1989, bà là giáo sư vật lý tại Đại học California, San Diego."
+    },
+    {
+      "id": "george-clooney",
+      "candidateIndex": 0,
+      "displayText": "Ocean's Eleven (2001) mở đầu cho quá trình hợp tác lâu dài giữa George Clooney và đạo diễn Steven Soderbergh."
+    },
+    {
+      "id": "janet-jackson",
+      "candidateIndex": 2,
+      "displayText": "Album Control đưa Janet Jackson đến bước đột phá lớn năm 1986, nhờ phần sản xuất và sáng tác của Jimmy Jam và Terry Lewis."
+    },
+    {
+      "id": "kylie-minogue",
+      "candidateIndex": 0,
+      "displayText": "Kylie Minogue được biết đến đầu tiên qua loạt phim Neighbours, rồi trở thành ngôi sao nhạc pop năm 1988."
+    },
+    {
+      "id": "dennis-bergkamp",
+      "candidateIndex": 0,
+      "displayText": "Sau hai mùa giải tại Milan với 68 trận và 16 bàn, Dennis Bergkamp ký hợp đồng với Arsenal năm 1995."
+    },
+    {
+      "id": "cate-blanchett",
+      "candidateIndex": 0,
+      "displayText": "Cate Blanchett đoạt Oscar Nữ diễn viên chính xuất sắc nhất với vai Jasmine trong Blue Jasmine (2013)."
+    },
+    {
+      "id": "tina-fey",
+      "candidateIndex": 4,
+      "displayText": "Tina Fey trở thành nữ biên kịch trưởng đầu tiên trong lịch sử chương trình Saturday Night Live."
+    },
+    {
+      "id": "cillian-murphy",
+      "candidateIndex": 0,
+      "displayText": "Năm 2024, Cillian Murphy đoạt Quả cầu Vàng Nam diễn viên chính xuất sắc trong phim chính kịch với Oppenheimer."
+    },
+    {
+      "id": "colin-farrell",
+      "candidateIndex": 0,
+      "displayText": "Colin Farrell đoạt Quả cầu Vàng Nam diễn viên chính xuất sắc trong phim hài hoặc ca nhạc với In Bruges (2009)."
+    },
+    {
+      "id": "andrea-pirlo",
+      "candidateIndex": 0,
+      "displayText": "Mùa giải 2014–2015, Andrea Pirlo cùng đội bóng của Massimiliano Allegri vô địch Serie A và Coppa Italia."
+    },
+    {
+      "id": "robert-pattinson",
+      "candidateIndex": 0,
+      "displayText": "Robert Pattinson nhận vai điện ảnh đầu tiên ở tuổi 17 trong phim tình cảm Vanity Fair (2004)."
+    },
+    {
+      "id": "cesc-fabregas",
+      "candidateIndex": 0,
+      "displayText": "Cesc Fàbregas chuyển đến AS Monaco tháng 1/2019 và ở lại câu lạc bộ đến năm 2022."
+    },
+    {
+      "id": "adele",
+      "candidateIndex": 0,
+      "displayText": "Album 25 của Adele, phát hành năm 2015, đoạt giải Album của năm tại BRIT Awards và Grammy Awards."
+    },
+    {
+      "id": "que-ngoc-hai",
+      "candidateIndex": 0,
+      "displayText": "Quế Ngọc Hải giành V.League 2020 cùng Viettel, Cúp Quốc gia 2017 cùng Sông Lam Nghệ An và AFF Cup 2018 cùng đội tuyển Việt Nam."
+    },
+    {
+      "id": "norman-foster",
+      "candidateIndex": 3,
+      "displayText": "Norman Foster là kiến trúc sư người Anh, gắn với trường phái High Tech trong kiến trúc và thiết kế."
+    },
+    {
+      "id": "thomas-hardy",
+      "candidateIndex": 0,
+      "displayText": "Sau khi người vợ đầu Emma qua đời năm 1912, Thomas Hardy viết một số bài thơ hay nhất của mình dưới dạng khúc ai điếu."
+    },
+    {
+      "id": "johnny-weissmuller",
+      "candidateIndex": 0,
+      "displayText": "Johnny Weissmuller giành huy chương vàng Olympic ở các nội dung bơi tự do tại Thế vận hội 1924 và 1928."
+    },
+    {
+      "id": "sergio-aguero",
+      "candidateIndex": 0,
+      "displayText": "Sergio Agüero góp mặt thường xuyên trong đội Manchester City vô địch Premier League mùa giải 2011–2012."
+    },
+    {
+      "id": "rafael-nadal",
+      "candidateIndex": 3,
+      "displayText": "Rafael Nadal giành huy chương vàng đơn nam tại Olympic Bắc Kinh 2008 và huy chương vàng đôi nam cùng Marc López tại Rio 2016."
+    },
+    {
+      "id": "josephine-baker",
+      "candidateIndex": 0,
+      "displayText": "Josephine Baker nổi tiếng với màn trình diễn trong revue Un vent de folie năm 1927 cùng trang phục biểu tượng làm từ chuối giả và vòng cổ ngọc trai."
+    },
+    {
+      "id": "francois-quesnay",
+      "candidateIndex": 0,
+      "displayText": "Năm 1758, François Quesnay xuất bản Tableau économique, một trong những nỗ lực đầu tiên mô tả dòng tuần hoàn kinh tế trong xã hội."
+    },
+    {
+      "id": "bronis-aw-komorowski",
+      "candidateIndex": 0,
+      "displayText": "Bronisław Komorowski được bầu làm tổng thống Ba Lan năm 2010 nhưng thất cử khi tái tranh cử năm 2015 trước Andrzej Duda."
+    },
+    {
+      "id": "lorenzo-insigne",
+      "candidateIndex": 0,
+      "displayText": "Lorenzo Insigne thi đấu cho Napoli từ năm 2012 và cùng câu lạc bộ giành hai danh hiệu cúp quốc gia."
+    },
+    {
+      "id": "john-maynard-keynes",
+      "candidateIndex": 0,
+      "displayText": "Trong Thế chiến II, John Maynard Keynes tham gia ban giám đốc Ngân hàng Anh; năm 1942 ông được phong tước Lord Keynes of Tilton."
+    },
+    {
+      "id": "federico-garcia-lorca",
+      "candidateIndex": 0,
+      "displayText": "Libro de poemas (1921), tập thơ đầu tay của Federico García Lorca, cho thấy ảnh hưởng rõ nét từ Juan Ramón Jiménez."
+    },
+    {
+      "id": "karl-ferdinand-braun",
+      "candidateIndex": 0,
+      "displayText": "Karl Ferdinand Braun là giáo sư vật lý tại Strasbourg từ năm 1895 và phát minh ống dao động tia âm cực, tiền thân của máy hiện sóng."
+    },
+    {
+      "id": "orhan-pamuk",
+      "candidateIndex": 0,
+      "displayText": "Bảo tàng của sự ngây thơ (2008) là một phần của dự án nghệ thuật kéo dài hơn mười năm do Orhan Pamuk thực hiện."
+    },
+    {
+      "id": "mike-pence",
+      "candidateIndex": 0,
+      "displayText": "Mike Pence giữ chức Phó Tổng thống Hoa Kỳ từ ngày 20/1/2017 đến ngày 20/1/2021 dưới thời Tổng thống Donald Trump."
+    },
+    {
+      "id": "tim-berners-lee",
+      "candidateIndex": 0,
+      "displayText": "Năm 1990, Tim Berners-Lee lập trình máy chủ web đầu tiên, httpd, và trình duyệt WorldWideWeb."
+    },
+    {
+      "id": "francis-crick",
+      "candidateIndex": 0,
+      "displayText": "Năm 1962, Francis Crick cùng James Watson và Maurice Wilkins nhận Nobel Sinh lý học hoặc Y học cho công trình nghiên cứu nền tảng của họ."
+    },
+    {
+      "id": "johnny-depp",
+      "candidateIndex": 0,
+      "displayText": "Johnny Depp được chú ý với vai rocker trong Cry-Baby (1989) và vai người ngoài cuộc trong Edward Scissorhands (1990)."
+    },
+    {
+      "id": "judy-garland",
+      "candidateIndex": 0,
+      "displayText": "Judy Garland có bước đột phá trong The Wizard of Oz (1939), nơi bà hát Over the Rainbow, ca khúc gắn liền với sự nghiệp của mình."
+    },
+    {
+      "id": "john-constable",
+      "candidateIndex": 0,
+      "displayText": "Bức tranh The Hay Wain (1821) giúp John Constable nổi tiếng ở Paris sau khi được trưng bày năm 1824."
+    },
+    {
+      "id": "gene-wilder",
+      "candidateIndex": 0,
+      "displayText": "Gene Wilder được đề cử Oscar Nam diễn viên phụ với The Producers (1967) và Kịch bản chuyển thể với Young Frankenstein (1975)."
+    },
+    {
+      "id": "anne-frank",
+      "candidateIndex": 0,
+      "displayText": "Nhật ký của Anne Frank được xuất bản sau khi bà qua đời, với nhan đề Het Achterhuis, năm 1947."
+    },
+    {
+      "id": "anthony-eden",
+      "candidateIndex": 0,
+      "displayText": "Sau khủng hoảng Suez, Anthony Eden từ chức Thủ tướng Anh và nghị sĩ vào tháng 1/1957."
+    },
+    {
+      "id": "james-clerk-maxwell",
+      "candidateIndex": 0,
+      "displayText": "James Clerk Maxwell giảng dạy tại Aberdeen và King's College London, rồi trở thành giáo sư đầu tiên kiêm giám đốc Phòng thí nghiệm Cavendish từ năm 1871."
+    },
+    {
+      "id": "harriet-beecher-stowe",
+      "candidateIndex": 0,
+      "displayText": "Harriet Beecher Stowe xuất bản Uncle Tom's Cabin năm 1852; tiểu thuyết này trở thành tác phẩm văn học chống chế độ nô lệ có ảnh hưởng lớn."
+    },
+    {
+      "id": "karl-landsteiner",
+      "candidateIndex": 0,
+      "displayText": "Karl Landsteiner nhận Nobel Sinh lý học hoặc Y học năm 1930 nhờ phát hiện các nhóm máu ở người, gồm hệ ABO."
+    },
+    {
+      "id": "edvard-grieg",
+      "candidateIndex": 0,
+      "displayText": "Ba chương cuối trong bản giao hưởng duy nhất của Edvard Grieg được công diễn lần đầu tại Tivoli, Copenhagen, năm 1864."
+    },
+    {
+      "id": "alain-aspect",
+      "candidateIndex": 0,
+      "displayText": "Alain Aspect là nhà vật lý Pháp được biết đến nhờ các thí nghiệm về vật lý lượng tử và hiện tượng rối lượng tử."
+    },
+    {
+      "id": "jurgen-klopp",
+      "candidateIndex": 0,
+      "displayText": "Jürgen Klopp được bổ nhiệm làm huấn luyện viên Borussia Dortmund vào tháng 5/2008."
+    },
+    {
+      "id": "eddy-merckx",
+      "candidateIndex": 0,
+      "displayText": "Năm 1969, Eddy Merckx lần đầu vô địch Tour de France với cách biệt hơn 17 phút."
+    },
+    {
+      "id": "lech-kaczynski",
+      "candidateIndex": 0,
+      "displayText": "Lech Kaczyński giữ chức Tổng thống Ba Lan từ năm 2005 đến năm 2010."
+    },
+    {
+      "id": "salman-rushdie",
+      "candidateIndex": 0,
+      "displayText": "Salman Rushdie được biết đến rộng rãi qua những tranh cãi quanh tiểu thuyết The Satanic Verses (1988)."
+    },
+    {
+      "id": "dirk-nowitzki",
+      "candidateIndex": 0,
+      "displayText": "Dù khởi đầu sự nghiệp tại DJK Würzburg ở Đức, Dirk Nowitzki được Milwaukee Bucks chọn trong kỳ NBA Draft năm 1998."
+    },
+    {
+      "id": "nicole-kidman",
+      "candidateIndex": 0,
+      "displayText": "Nicole Kidman ra mắt điện ảnh khi còn ở tuổi thiếu niên tại Australia và được biết đến qua loạt phim truyền hình Vietnam (1985)."
+    },
+    {
+      "id": "frank-lampard",
+      "candidateIndex": 0,
+      "displayText": "Sau mùa giải 2013–2014, Frank Lampard rời Chelsea và gia nhập New York City FC."
+    },
+    {
+      "id": "jean-paul-sartre",
+      "candidateIndex": 0,
+      "displayText": "Năm 1940, quân Đức bắt Jean-Paul Sartre và giam ông chín tháng; trước đó ông từng làm nhà khí tượng học cho quân đội Pháp."
+    },
+    {
+      "id": "francoise-sagan",
+      "candidateIndex": 0,
+      "displayText": "Françoise Sagan ra mắt với Bonjour Tristesse năm 1954; cuốn sách nhanh chóng thành công trên toàn thế giới."
+    },
+    {
+      "id": "erich-maria-remarque",
+      "candidateIndex": 0,
+      "displayText": "Tiểu thuyết Im Westen nichts Neues (1929) đưa Erich Maria Remarque đến với độc giả quốc tế."
+    },
+    {
+      "id": "jean-anouilh",
+      "candidateIndex": 0,
+      "displayText": "La Sauvage (1938) là thành công lớn đầu tiên của nhà viết kịch Jean Anouilh."
+    },
+    {
+      "id": "alan-turing",
+      "candidateIndex": 0,
+      "displayText": "Năm 1945, Alan Turing tham gia Phòng thí nghiệm Vật lý Quốc gia ở London và góp phần phát triển máy tính ACE dựa trên các ý tưởng của ông."
+    },
+    {
+      "id": "zinedine-zidane",
+      "candidateIndex": 0,
+      "displayText": "Ngày 4/1/2016, Zinedine Zidane tiếp quản vị trí huấn luyện viên trưởng Real Madrid sau khi Rafael Benítez bị sa thải."
+    },
+    {
+      "id": "lionel-messi",
+      "candidateIndex": 0,
+      "displayText": "Lionel Messi được FIFA vinh danh là Cầu thủ nam xuất sắc nhất thế giới vào các năm 2009, 2019, 2022 và 2023."
+    },
+    {
+      "id": "julia-kristeva",
+      "candidateIndex": 0,
+      "displayText": "Julia Kristeva trở thành giáo sư danh dự năm 2010 nhưng vẫn tiếp tục xuất bản cả sách văn học lẫn công trình học thuật."
+    },
+    {
+      "id": "fred-hoyle",
+      "candidateIndex": 0,
+      "displayText": "Fred Hoyle là giáo sư tại Đại học Cambridge từ năm 1958 và lãnh đạo Viện Thiên văn Lý thuyết của trường giai đoạn 1967–1972."
+    },
+    {
+      "id": "george-michael",
+      "candidateIndex": 0,
+      "displayText": "Sau mười năm không phát hành album, George Michael ra mắt Symphonica (2014), album trực tiếp có phần đệm của dàn nhạc giao hưởng."
+    },
+    {
+      "id": "sidney-lumet",
+      "candidateIndex": 0,
+      "displayText": "Sidney Lumet ra mắt vai trò đạo diễn điện ảnh với 12 Angry Men (1957), rồi trở thành một trong những đạo diễn Mỹ nổi bật thập niên 1960–1970."
+    },
+    {
+      "id": "claudio-abbado",
+      "candidateIndex": 0,
+      "displayText": "Claudio Abbado học piano với cha và tốt nghiệp Nhạc viện Giuseppe Verdi năm 1955."
+    },
+    {
+      "id": "krzysztof-kieslowski",
+      "candidateIndex": 0,
+      "displayText": "Krzysztof Kieślowski tốt nghiệp trường điện ảnh Łódź năm 1969, rồi đạo diễn phim tài liệu và phim truyền hình Ba Lan."
+    },
+    {
+      "id": "nico-rosberg",
+      "candidateIndex": 0,
+      "displayText": "Nico Rosberg vô địch thế giới Formula 1 năm 2016."
+    },
+    {
+      "id": "gaston-bachelard",
+      "candidateIndex": 0,
+      "displayText": "Gaston Bachelard chuyên về triết học và lịch sử khoa học, rồi trở thành giáo sư tại Sorbonne."
+    },
+    {
+      "id": "jean-jacques-rousseau",
+      "candidateIndex": 0,
+      "displayText": "Jean-Jacques Rousseau là triết gia và nhà văn gốc Thụy Sĩ, định cư tại Pháp và trở thành một trong những tư tưởng gia nổi tiếng thế kỷ 18."
+    },
+    {
+      "id": "giacomo-leopardi",
+      "candidateIndex": 0,
+      "displayText": "Giacomo Leopardi bắt đầu viết Zibaldone năm 1817 và tiếp tục đến năm 1832; cuốn sổ ghi chép này chứa nhiều tư tưởng ảnh hưởng đến thơ ông."
+    },
+    {
+      "id": "giorgio-napolitano",
+      "candidateIndex": 0,
+      "displayText": "Giorgio Napolitano là nghị sĩ Hạ viện Italy trong các giai đoạn 1953–1963 và 1968–1996, rồi làm Chủ tịch Hạ viện từ 1992 đến 1994."
+    },
+    {
+      "id": "paul-berg",
+      "candidateIndex": 0,
+      "displayText": "Paul Berg nhận Nobel Hóa học năm 1980 cùng Frederick Sanger và Walter Gilbert."
+    },
+    {
+      "id": "olivia-de-havilland",
+      "candidateIndex": 0,
+      "displayText": "Năm 2017, ở tuổi 100, Olivia de Havilland được phong tước Dame và trở thành người phụ nữ lớn tuổi nhất nhận vinh dự này."
+    },
+    {
+      "id": "carl-lewis",
+      "candidateIndex": 0,
+      "displayText": "Năm 1999, Carl Lewis được vinh danh là vận động viên điền kinh nam xuất sắc nhất thế kỷ."
+    },
+    {
+      "id": "george-sand",
+      "candidateIndex": 0,
+      "displayText": "George Sand là một trong những phụ nữ đầu tiên ở châu Âu có thể sống bằng nghề viết văn."
+    },
+    {
+      "id": "hermann-hesse",
+      "candidateIndex": 0,
+      "displayText": "Hermann Hesse chuyển hóa trải nghiệm cá nhân thành văn chương, trong đó có tiểu thuyết Demian (1919)."
+    },
+    {
+      "id": "wis-awa-szymborska",
+      "candidateIndex": 0,
+      "displayText": "Wisława Szymborska nhận Nobel Văn học năm 1996."
+    },
+    {
+      "id": "tom-cruise",
+      "candidateIndex": 0,
+      "displayText": "Tom Cruise nhận Cành cọ Vàng danh dự tại Cannes năm 2022 và Oscar danh dự năm 2025 vì những đóng góp lâu dài cho điện ảnh."
+    },
+    {
+      "id": "giuseppe-garibaldi",
+      "candidateIndex": 0,
+      "displayText": "Giuseppe Garibaldi sớm tham gia phong trào dân tộc chủ nghĩa do Giuseppe Mazzini lãnh đạo, hướng tới thống nhất Italy."
+    },
+    {
+      "id": "gina-lollobrigida",
+      "candidateIndex": 0,
+      "displayText": "Gina Lollobrigida nhận Quả cầu Vàng được khán giả bình chọn năm 1961 và giải danh dự tại Liên hoan phim Berlin năm 1986."
+    },
+    {
+      "id": "edi-rama",
+      "candidateIndex": 0,
+      "displayText": "Edi Rama bước vào chính trường năm 1998 với cương vị Bộ trưởng Văn hóa, Thanh niên và Thể thao Albania."
+    },
+    {
+      "id": "georges-pompidou",
+      "candidateIndex": 0,
+      "displayText": "Năm 1958, sau khi giữ nhiều chức vụ tại các doanh nghiệp nhà nước Pháp, Georges Pompidou trở thành tổng giám đốc ngân hàng Rothschild."
+    },
+    {
+      "id": "jean-cocteau",
+      "candidateIndex": 0,
+      "displayText": "Trong giai đoạn quanh Thế chiến thứ nhất, Jean Cocteau là một gương mặt lãnh đạo của giới nghệ sĩ tiên phong tại Paris."
+    },
+    {
+      "id": "p-t-barnum",
+      "candidateIndex": 0,
+      "displayText": "Năm 1871, P. T. Barnum và cộng sự khai trương Barnum's Grand Traveling Museum, Menagerie, Caravan and Hippodrome."
+    },
+    {
+      "id": "sylvester-stallone",
+      "candidateIndex": 0,
+      "displayText": "Sylvester Stallone nổi tiếng với vai trò biên kịch kiêm diễn viên chính trong Rocky (1976), bộ phim đoạt Oscar."
+    },
+    {
+      "id": "george-w-bush",
+      "candidateIndex": 0,
+      "displayText": "George W. Bush nhậm chức tổng thống Hoa Kỳ ngày 20/1/2001, tái đắc cử năm 2004 và bắt đầu nhiệm kỳ hai tháng 1/2005."
+    },
+    {
+      "id": "george-cukor",
+      "candidateIndex": 0,
+      "displayText": "George Cukor bị thay khỏi vị trí đạo diễn Gone with the Wind sau mười ngày quay; Victor Fleming tiếp tục thực hiện bộ phim."
+    },
+    {
+      "id": "lion-feuchtwanger",
+      "candidateIndex": 0,
+      "displayText": "Tiểu thuyết Jud Süss (1925) trở thành thành công lớn đầu tiên của Lion Feuchtwanger."
+    },
+    {
+      "id": "walter-scheel",
+      "candidateIndex": 0,
+      "displayText": "Walter Scheel giữ chức Tổng thống Cộng hòa Liên bang Đức từ năm 1974 đến năm 1979."
+    },
+    {
+      "id": "franz-boas",
+      "candidateIndex": 0,
+      "displayText": "Franz Boas góp phần định hình ngành nhân học trong nửa đầu thế kỷ 20."
+    },
+    {
+      "id": "nikola-tesla",
+      "candidateIndex": 0,
+      "displayText": "Nikola Tesla thiết kế hệ thống điện xoay chiều (AC), nền tảng của hệ thống điện phổ biến trên thế giới ngày nay."
+    },
+    {
+      "id": "yul-brynner",
+      "candidateIndex": 0,
+      "displayText": "Yul Brynner cạo đầu cho một vai diễn; kiểu đầu trọc sau đó trở thành dấu ấn hình ảnh của ông."
+    },
+    {
+      "id": "malala-yousafzai",
+      "candidateIndex": 0,
+      "displayText": "Malala Yousafzai nhận Nobel Hòa bình năm 2014 và khi đó là người trẻ nhất từng đoạt giải Nobel."
+    },
+    {
+      "id": "wole-soyinka",
+      "candidateIndex": 0,
+      "displayText": "Wole Soyinka xuất bản tiểu thuyết đầu tiên, The Interpreters, năm 1965."
+    },
+    {
+      "id": "ma-ying-jeou",
+      "candidateIndex": 0,
+      "displayText": "Năm 1984, Ma Ying-jeou trở thành thư ký của Tổng thống Đài Loan Tưởng Kinh Quốc trong đảng Quốc dân đảng."
+    },
+    {
+      "id": "ingmar-bergman",
+      "candidateIndex": 0,
+      "displayText": "Ingmar Bergman trở thành giám đốc Nhà hát thành phố Hälsingborg năm 1944 và là giám đốc nhà hát trẻ nhất Thụy Điển lúc đó."
+    },
+    {
+      "id": "gustav-klimt",
+      "candidateIndex": 0,
+      "displayText": "Năm 2006, bức Adele Bloch-Bauer I (1907) của Gustav Klimt được bán cho Neue Galerie ở New York với giá kỷ lục 135 triệu USD."
+    },
+    {
+      "id": "woody-guthrie",
+      "candidateIndex": 0,
+      "displayText": "Woody Guthrie xuất bản hồi ký Bound for Glory năm 1943; tác phẩm được chuyển thể thành phim năm 1976."
+    },
+    {
+      "id": "vilfredo-pareto",
+      "candidateIndex": 0,
+      "displayText": "Được đào tạo làm kỹ sư, Vilfredo Pareto trở thành giáo sư kinh tế chính trị tại Đại học Lausanne năm 1893."
+    },
+    {
+      "id": "ginger-rogers",
+      "candidateIndex": 0,
+      "displayText": "Ginger Rogers đoạt Oscar cho vai chính trong Kitty Foyle (1940)."
+    },
+    {
+      "id": "miguel-indurain",
+      "candidateIndex": 0,
+      "displayText": "Miguel Indurain vô địch thế giới nội dung đua tính giờ năm 1995 và giành HCV Olympic nội dung này tại Atlanta năm 1996."
+    },
+    {
+      "id": "frits-zernike",
+      "candidateIndex": 0,
+      "displayText": "Nhà vật lý Hà Lan Frits Zernike nhận Nobel Vật lý năm 1953."
+    },
+    {
+      "id": "james-cagney",
+      "candidateIndex": 0,
+      "displayText": "Sau 20 năm vắng bóng trên màn ảnh, James Cagney trở lại với Ragtime (1981), bộ phim điện ảnh cuối cùng của ông."
+    },
+    {
+      "id": "donald-sutherland",
+      "candidateIndex": 0,
+      "displayText": "Donald Sutherland vào vai Tổng thống Snow trong loạt phim The Hunger Games (2012–2015)."
+    },
+    {
+      "id": "nelson-mandela",
+      "candidateIndex": 0,
+      "displayText": "Năm 1994, Nelson Mandela trở thành tổng thống Nam Phi đầu tiên được bầu cử dân chủ, với hơn 60% số phiếu."
+    },
+    {
+      "id": "john-glenn",
+      "candidateIndex": 0,
+      "displayText": "John Glenn là phi hành gia, phi công quân sự, doanh nhân và thượng nghị sĩ; ông là người Mỹ đầu tiên bay vào quỹ đạo Trái Đất."
+    },
+    {
+      "id": "thomas-kuhn",
+      "candidateIndex": 0,
+      "displayText": "Thomas Kuhn giảng dạy tại Đại học California, Princeton và MIT trong các giai đoạn 1957–1983."
+    },
+    {
+      "id": "gerd-binnig",
+      "candidateIndex": 0,
+      "displayText": "Gerd Binnig và Heinrich Rohrer chia sẻ một nửa Nobel Vật lý năm 1986 nhờ đóng góp phát triển kính hiển vi quét xuyên hầm."
+    },
+    {
+      "id": "natalie-wood",
+      "candidateIndex": 0,
+      "displayText": "Natalie Wood gây chú ý khi còn là thiếu niên với vai diễn trong Rebel Without a Cause (1955), vai diễn giúp bà được đề cử Oscar."
+    },
+    {
+      "id": "robin-williams",
+      "candidateIndex": 0,
+      "displayText": "Robin Williams học sân khấu tại Juilliard ở New York, ra mắt điện ảnh năm 1977 và nổi tiếng qua loạt phim Mork & Mindy (1978)."
+    },
+    {
+      "id": "selena-gomez",
+      "candidateIndex": 0,
+      "displayText": "Năm 2012, Selena Gomez lồng tiếng nhân vật Mavis trong phim hoạt hình Hotel Transylvania."
+    },
+    {
+      "id": "arthur-seyss-inquart",
+      "candidateIndex": 0,
+      "displayText": "Tháng 2/1938, theo lệnh Adolf Hitler, Arthur Seyss-Inquart gia nhập chính phủ Kurt von Schuschnigg với chức Bộ trưởng Nội vụ."
+    },
+    {
+      "id": "mireille-mathieu",
+      "candidateIndex": 0,
+      "displayText": "Năm 1984, Mireille Mathieu nhận Huân chương Công trạng Liên bang Đức vì đóng góp cho tình hữu nghị Pháp–Đức."
+    },
+    {
+      "id": "sergio-mattarella",
+      "candidateIndex": 0,
+      "displayText": "Sergio Mattarella trở thành Tổng thống Italy ngày 3/2/2015."
+    },
+    {
+      "id": "vera-rubin",
+      "candidateIndex": 0,
+      "displayText": "Vera Rubin nhận bằng thạc sĩ tại Cornell năm 1951 và bằng tiến sĩ tại Georgetown năm 1954."
+    },
+    {
+      "id": "judit-polgar",
+      "candidateIndex": 0,
+      "displayText": "Judit Polgár trở thành đại kiện tướng năm 1991 ở tuổi 15 năm 150 ngày, khi đó là người trẻ nhất từng đạt danh hiệu này."
+    },
+    {
+      "id": "mick-jagger",
+      "candidateIndex": 0,
+      "displayText": "Mick Jagger được phong tước hiệp sĩ trong hệ thống danh hiệu của Anh năm 2003."
+    },
+    {
+      "id": "hans-fischer",
+      "candidateIndex": 0,
+      "displayText": "Nhà hóa học Hans Fischer từng giảng dạy tại Munich, Innsbruck và Vienna; từ năm 1921 ông là giáo sư tại trường kỹ thuật ở Munich."
+    },
+    {
+      "id": "alexandre-dumas-fils",
+      "candidateIndex": 0,
+      "displayText": "Alexandre Dumas fils được bầu vào Viện Hàn lâm Pháp ngày 29/1/1874 với 22 phiếu."
+    },
+    {
+      "id": "hugo-chavez",
+      "candidateIndex": 0,
+      "displayText": "Hugo Chávez giữ chức Tổng thống Venezuela từ năm 1999 đến khi qua đời năm 2013."
+    },
+    {
+      "id": "alexis-tsipras",
+      "candidateIndex": 0,
+      "displayText": "Alexis Tsipras là thủ tướng Hy Lạp đầu tiên tuyên thệ nhậm chức bằng nghi thức dân sự thay vì nghi lễ tôn giáo."
+    },
+    {
+      "id": "charles-hard-townes",
+      "candidateIndex": 0,
+      "displayText": "Charles Hard Townes nhận Nobel Vật lý năm 1964 nhờ công trình về điện tử lượng tử."
+    },
+    {
+      "id": "eyvind-johnson",
+      "candidateIndex": 0,
+      "displayText": "Eyvind Johnson xuất bản Strändernas svall năm 1946, tiểu thuyết hiện đại phỏng theo Odyssey."
+    },
+    {
+      "id": "arnold-schwarzenegger",
+      "candidateIndex": 0,
+      "displayText": "Arnold Schwarzenegger chuyển từ Áo sang Mỹ năm 1968 và nhập quốc tịch Mỹ năm 1983."
+    },
+    {
+      "id": "milton-friedman",
+      "candidateIndex": 0,
+      "displayText": "Từ thập niên 1960, các ý tưởng của Milton Friedman ảnh hưởng đáng kể đến chính sách tiền tệ tại nhiều quốc gia."
+    },
+    {
+      "id": "james-baldwin",
+      "candidateIndex": 0,
+      "displayText": "James Baldwin viết về vai trò của người Mỹ gốc Phi trong điện ảnh Mỹ trong cuốn The Devil Finds Work (1976)."
+    },
+    {
+      "id": "tom-brady",
+      "candidateIndex": 0,
+      "displayText": "Tom Brady thi đấu bóng bầu dục đại học cho Michigan rồi chơi cho New England Patriots từ năm 1999 đến 2020."
+    },
+    {
+      "id": "stanley-baldwin",
+      "candidateIndex": 0,
+      "displayText": "Cách Stanley Baldwin xử lý khủng hoảng thoái vị của Edward VIII năm 1936 nhận được sự tán thành rộng rãi, dù chính sách quốc phòng của ông bị chỉ trích."
+    },
+    {
+      "id": "martin-sheen",
+      "candidateIndex": 0,
+      "displayText": "Martin Sheen nhận sáu đề cử Emmy và một Quả cầu Vàng năm 2001 cho vai tổng thống trong The West Wing."
+    },
+    {
+      "id": "percy-bysshe-shelley",
+      "candidateIndex": 0,
+      "displayText": "Những tư tưởng của William Godwin thể hiện trong Queen Mab (1813), một trong những bài thơ dài đầu tiên của Percy Bysshe Shelley."
+    },
+    {
+      "id": "william-rowan-hamilton",
+      "candidateIndex": 0,
+      "displayText": "William Rowan Hamilton được bổ nhiệm làm giáo sư tại Đại học Dublin khi mới 22 tuổi, sau khi chuyển sang nghiên cứu toán học."
+    },
+    {
+      "id": "guy-de-maupassant",
+      "candidateIndex": 0,
+      "displayText": "Guy de Maupassant viết các tiểu thuyết Bel-Ami (1885) và nhiều truyện ngắn, trong đó có Boule de suif (1880) và Mademoiselle Fifi (1883)."
+    },
+    {
+      "id": "john-huston",
+      "candidateIndex": 0,
+      "displayText": "Bộ phim cuối cùng John Huston đạo diễn là The Dead (1987), chuyển thể từ truyện ngắn của James Joyce."
+    },
+    {
+      "id": "andy-warhol",
+      "candidateIndex": 0,
+      "displayText": "Andy Warhol chuyển đến New York ngay sau khi tốt nghiệp, sử dụng dạng rút gọn của tên mình."
+    },
+    {
+      "id": "alfred-tennyson",
+      "candidateIndex": 0,
+      "displayText": "Alfred Tennyson được phong tước hiệp sĩ năm 1884 và từ đó được gọi là Alfred, Lord Tennyson."
+    },
+    {
+      "id": "mata-hari",
+      "candidateIndex": 0,
+      "displayText": "Mata Hari bị bắt vì nghi làm gián điệp ngày 13/2/1917; phiên tòa diễn ra ngày 24/7 cùng năm."
+    },
+    {
+      "id": "ralph-bunche",
+      "candidateIndex": 0,
+      "displayText": "Ralph Bunche nhận Nobel Hòa bình năm 1950 nhờ làm trung gian hòa giải giữa Israel và các quốc gia Ả Rập giai đoạn 1948–1949."
+    },
+    {
+      "id": "abebe-bikila",
+      "candidateIndex": 0,
+      "displayText": "Abebe Bikila là vận động viên đầu tiên hai lần giành HCV Olympic marathon, vào các năm 1960 và 1964."
+    },
+    {
+      "id": "paul-dirac",
+      "candidateIndex": 0,
+      "displayText": "Paul Dirac nhận Nobel Vật lý năm 1933 nhờ những đóng góp quan trọng về các tính chất của electron."
+    },
+    {
+      "id": "emiliano-zapata",
+      "candidateIndex": 0,
+      "displayText": "Dưới khẩu hiệu “Đất đai và tự do”, Emiliano Zapata tổ chức phong trào kháng chiến và tiến hành cải cách ruộng đất tại các vùng ông kiểm soát."
+    },
+    {
+      "id": "ernest-lawrence",
+      "candidateIndex": 0,
+      "displayText": "Ernest Lawrence nhận Nobel Vật lý năm 1939 nhờ phát minh máy gia tốc cyclotron."
+    },
+    {
+      "id": "jean-piaget",
+      "candidateIndex": 0,
+      "displayText": "Jean Piaget là giáo sư Đại học Geneva từ năm 1929 đến 1975 và lãnh đạo Trung tâm Quốc tế về Nhận thức luận Di truyền."
+    },
+    {
+      "id": "tove-jansson",
+      "candidateIndex": 0,
+      "displayText": "Tove Jansson xuất bản Den ärliga bedragaren (1982), tiểu thuyết xoay quanh mối quan hệ giữa hai phụ nữ ở vùng nông thôn."
+    },
+    {
+      "id": "herbert-hoover",
+      "candidateIndex": 0,
+      "displayText": "Herbert Hoover là tổng thống thứ 31 của Hoa Kỳ, tại nhiệm từ năm 1929 đến 1933."
+    },
+    {
+      "id": "antonio-banderas",
+      "candidateIndex": 0,
+      "displayText": "Antonio Banderas được đề cử Oscar Nam diễn viên chính xuất sắc với vai diễn trong Dolor y gloria (2019)."
+    },
+    {
+      "id": "aaron-klug",
+      "candidateIndex": 0,
+      "displayText": "Aaron Klug gia nhập Phòng thí nghiệm Sinh học Phân tử của Hội đồng Nghiên cứu Y khoa tại Cambridge năm 1962 và lãnh đạo bộ phận hóa học cấu trúc từ 1978."
+    },
+    {
+      "id": "francois-hollande",
+      "candidateIndex": 0,
+      "displayText": "François Hollande lần đầu tranh cử Quốc hội Pháp năm 1981 tại tỉnh Corrèze."
+    },
+    {
+      "id": "erwin-schrodinger",
+      "candidateIndex": 0,
+      "displayText": "Erwin Schrödinger là giáo sư và giám đốc Viện Nghiên cứu Cao cấp Dublin từ năm 1940 đến 1955."
+    },
+    {
+      "id": "pete-sampras",
+      "candidateIndex": 0,
+      "displayText": "Pete Sampras lần đầu đứng đầu bảng xếp hạng quần vợt thế giới năm 1993 và giữ vị trí số một tổng cộng 286 tuần."
+    },
+    {
+      "id": "alfred-hitchcock",
+      "candidateIndex": 0,
+      "displayText": "Blackmail (1929) của Alfred Hitchcock trở thành phim có tiếng đầu tiên của Anh."
+    },
+    {
+      "id": "hans-christian-orsted",
+      "candidateIndex": 0,
+      "displayText": "Theo sáng kiến của Hans Christian Ørsted, Viện Bách khoa được thành lập và ông trở thành giám đốc đầu tiên năm 1829."
+    },
+    {
+      "id": "steve-martin",
+      "candidateIndex": 0,
+      "displayText": "Steve Martin lần đầu xuất hiện trên Saturday Night Live năm 1975, ra mắt điện ảnh năm 1977 và đột phá với The Jerk (1979), phim ông đồng biên kịch."
+    },
+    {
+      "id": "madonna",
+      "candidateIndex": 0,
+      "displayText": "Like a Virgin (1984) thành công lớn và đưa Madonna lên hàng ngôi sao nhạc pop hàng đầu thập niên 1980."
+    },
+    {
+      "id": "charles-bukowski",
+      "candidateIndex": 0,
+      "displayText": "Tiểu thuyết đầu tiên của Charles Bukowski, Post Office, hoàn thành không lâu sau đó và xuất bản năm 1971."
+    },
+    {
+      "id": "robert-de-niro",
+      "candidateIndex": 0,
+      "displayText": "Robert De Niro nhận Sư tử Vàng danh dự tại Liên hoan phim Venice năm 1993."
+    },
+    {
+      "id": "herta-muller",
+      "candidateIndex": 0,
+      "displayText": "Reisende auf einem Bein (1989) là tác phẩm đầu tiên Herta Müller viết sau khi chuyển đến Tây Berlin."
+    },
+    {
+      "id": "thierry-henry",
+      "candidateIndex": 0,
+      "displayText": "Thierry Henry gia nhập câu lạc bộ bóng đá Monaco khi mới 13 tuổi."
+    },
+    {
+      "id": "robert-redford",
+      "candidateIndex": 0,
+      "displayText": "Robert Redford nhận Oscar danh dự năm 2002 và Sư tử Vàng danh dự tại Liên hoan phim Venice năm 2017."
+    },
+    {
+      "id": "luc-montagnier",
+      "candidateIndex": 0,
+      "displayText": "Luc Montagnier và Françoise Barré-Sinoussi nhận Nobel Sinh lý học hoặc Y học năm 2008 vì phát hiện virus HIV."
+    },
+    {
+      "id": "bill-clinton",
+      "candidateIndex": 0,
+      "displayText": "Bill Clinton là tổng thống thứ 42 của Hoa Kỳ, tại nhiệm từ năm 1993 đến năm 2001."
+    },
+    {
+      "id": "coco-chanel",
+      "candidateIndex": 0,
+      "displayText": "Khi Coco Chanel mở lại nhà mốt năm 1954, bà cùng bộ sưu tập mới được báo chí Mỹ đón nhận tích cực."
+    },
+    {
+      "id": "wilt-chamberlain",
+      "candidateIndex": 0,
+      "displayText": "Wilt Chamberlain bắt đầu sự nghiệp bóng rổ chuyên nghiệp năm 1959 sau khi được Philadelphia Warriors tuyển chọn."
+    },
+    {
+      "id": "claude-debussy",
+      "candidateIndex": 0,
+      "displayText": "Claude Debussy lần đầu nghe nhạc gamelan Java tại Triển lãm Thế giới Paris năm 1889."
+    },
+    {
+      "id": "ray-bradbury",
+      "candidateIndex": 0,
+      "displayText": "Ray Bradbury viết truyện ngắn trong suốt sự nghiệp, xuất bản trong các tuyển tập như The Illustrated Man (1951) và The Golden Apples of the Sun (1953)."
+    },
+    {
+      "id": "kobe-bryant",
+      "candidateIndex": 0,
+      "displayText": "Kobe Bryant giành nhiều chức vô địch NBA cùng Lakers và huy chương vàng Olympic với đội tuyển Mỹ năm 2008 và 2012."
+    },
+    {
+      "id": "gene-kelly",
+      "candidateIndex": 0,
+      "displayText": "Gene Kelly nhận giải danh dự của Viện Hàn lâm Điện ảnh năm 1951 cho những đóng góp với phim nhạc kịch."
+    },
+    {
+      "id": "giuseppe-meazza",
+      "candidateIndex": 0,
+      "displayText": "Giuseppe Meazza thi đấu cho Inter từ năm 1927 đến 1940, rồi trở lại câu lạc bộ vào giai đoạn 1946–1947."
+    },
+    {
+      "id": "jorge-luis-borges",
+      "candidateIndex": 0,
+      "displayText": "Jorge Luis Borges làm giám đốc Thư viện Quốc gia Argentina từ năm 1955 đến 1973, dù cuối đời gần như mù hoàn toàn."
+    },
+    {
+      "id": "paulo-coelho",
+      "candidateIndex": 0,
+      "displayText": "Sau khởi đầu khiêm tốn, Paulo Coelho viết tiểu thuyết thành công The Alchemist, được dịch sang tiếng Na Uy năm 1995."
+    },
+    {
+      "id": "sean-connery",
+      "candidateIndex": 0,
+      "displayText": "Năm 2000, Nữ hoàng Elizabeth II phong Sean Connery tước hiệp sĩ vì những đóng góp cho điện ảnh."
+    },
+    {
+      "id": "antoine-lavoisier",
+      "candidateIndex": 0,
+      "displayText": "Antoine Lavoisier theo học tại Collège Mazarin ở Paris từ năm 11 tuổi."
+    },
+    {
+      "id": "guillaume-apollinaire",
+      "candidateIndex": 0,
+      "displayText": "Guillaume Apollinaire thành lập hai tạp chí và viết thơ, tiểu thuyết, truyện ngắn, kịch cùng tiểu luận phê bình nghệ thuật."
+    },
+    {
+      "id": "georg-wilhelm-friedrich-hegel",
+      "candidateIndex": 0,
+      "displayText": "Georg Wilhelm Friedrich Hegel làm việc tại Đại học Jena từ năm 1801, rồi làm hiệu trưởng trường trung học ở Nürnberg giai đoạn 1808–1816."
+    },
+    {
+      "id": "paul-martin",
+      "candidateIndex": 0,
+      "displayText": "Paul Martin kế nhiệm Jean Chrétien làm lãnh đạo Đảng Tự do Canada năm 2003 và trở thành Thủ tướng Canada tháng 12 cùng năm."
+    },
+    {
+      "id": "ingrid-bergman",
+      "candidateIndex": 0,
+      "displayText": "Ingrid Bergman xuất bản tự truyện Ingrid Bergman – My Story năm 1980."
+    },
+    {
+      "id": "ernest-rutherford",
+      "candidateIndex": 0,
+      "displayText": "Ernest Rutherford nhận Nobel Hóa học năm 1908 cho công trình nghiên cứu về phóng xạ."
+    },
+    {
+      "id": "mary-shelley",
+      "candidateIndex": 0,
+      "displayText": "Trong The Last Man, Mary Shelley hình dung sự sụp đổ của nhân loại ở thế kỷ 21, tạo nên một tiểu thuyết mang sắc thái bi quan."
+    },
+    {
+      "id": "isabel-allende",
+      "candidateIndex": 0,
+      "displayText": "Năm 2014, Tổng thống Barack Obama trao Isabel Allende Huân chương Tự do của Tổng thống Hoa Kỳ."
+    },
+    {
+      "id": "ben-affleck",
+      "candidateIndex": 0,
+      "displayText": "Good Will Hunting đem lại bước đột phá cho Ben Affleck; anh đồng viết kịch bản cùng người bạn thời thơ ấu Matt Damon."
+    },
+    {
+      "id": "katherine-johnson",
+      "candidateIndex": 0,
+      "displayText": "Năm 2015, Tổng thống Barack Obama trao Katherine Johnson Huân chương Tự do của Tổng thống vì những đóng góp tiên phong cho phụ nữ trong khoa học và kỹ thuật."
+    },
+    {
+      "id": "jack-black",
+      "candidateIndex": 0,
+      "displayText": "Jack Black đóng trong Shallow Hal, High Fidelity và Tropic Thunder, đồng thời lồng tiếng nhân vật chính trong Kung Fu Panda."
+    },
+    {
+      "id": "richard-gere",
+      "candidateIndex": 0,
+      "displayText": "Richard Gere học tại Đại học Massachusetts rồi tích lũy kinh nghiệm diễn xuất trên sân khấu."
+    },
+    {
+      "id": "kirsti-kolle-grondahl",
+      "candidateIndex": 0,
+      "displayText": "Năm 1993, Kirsti Kolle Grøndahl được bầu làm nữ Chủ tịch Storting đầu tiên của Na Uy."
+    },
+    {
+      "id": "kjetil-andre-aamodt",
+      "candidateIndex": 0,
+      "displayText": "Kjetil André Aamodt đột phá ở cấp độ đỉnh cao khi giành huy chương bạc super-G tại Giải vô địch thế giới Saalbach năm 1991."
+    },
+    {
+      "id": "alan-ladd",
+      "candidateIndex": 0,
+      "displayText": "Sau nhiều vai nhỏ, Alan Ladd đột phá với vai sát thủ trong This Gun for Hire (1941), đóng cùng Veronica Lake."
+    },
+    {
+      "id": "bodil-kjer",
+      "candidateIndex": 0,
+      "displayText": "Từ năm 1955, Bodil Kjer là diễn viên hàng đầu của Det Ny Teater và đảm nhận các vai trong Molière cùng Kjeld Abell."
+    },
+    {
+      "id": "anton-bruckner",
+      "candidateIndex": 0,
+      "displayText": "Từ năm 1835, Anton Bruckner sáng tác nhiều tác phẩm tôn giáo; sau này tại Linz, ông viết các thánh lễ, motet và nhạc thánh khác."
+    },
+    {
+      "id": "beyonce",
+      "candidateIndex": 0,
+      "displayText": "Beyoncé ra mắt album solo Dangerously in Love năm 2003; album đứng đầu Billboard 200 và có hai đĩa đơn quán quân."
+    },
+    {
+      "id": "john-carew",
+      "candidateIndex": 0,
+      "displayText": "John Carew đá trận chung kết Champions League 2001 cho Valencia; đội bóng hòa Bayern Munich 1–1 trước khi thua luân lưu."
+    },
+    {
+      "id": "sonny-rollins",
+      "candidateIndex": 0,
+      "displayText": "Sonny Rollins bắt đầu được chú ý vào cuối thập niên 1940 và chơi nhạc cùng Bud Powell, Thelonious Monk, Miles Davis và Charlie Parker."
+    },
+    {
+      "id": "jan-masaryk",
+      "candidateIndex": 0,
+      "displayText": "Jan Masaryk từ chức năm 1938 để phản đối Hiệp định Munich, cùng thời điểm Tổng thống Edvard Beneš rời chức vụ."
+    },
+    {
+      "id": "oliver-stone",
+      "candidateIndex": 0,
+      "displayText": "Sau khi phục vụ trong Chiến tranh Việt Nam, Oliver Stone theo học điện ảnh tại Đại học New York với Martin Scorsese."
+    },
+    {
+      "id": "tommy-lee-jones",
+      "candidateIndex": 0,
+      "displayText": "Tommy Lee Jones nhận Emmy cho vai Gary Gilmore trong phim truyền hình Executioner's Song (1980), sau các vai diễn trong Coal Miner's Daughter và Eyes of Laura Mars."
+    },
+    {
+      "id": "lauren-bacall",
+      "candidateIndex": 0,
+      "displayText": "Lauren Bacall xuất bản tự truyện Lauren Bacall by Myself năm 1978."
+    },
+    {
+      "id": "jon-hellesnes",
+      "candidateIndex": 0,
+      "displayText": "Năm 2010, Jon Hellesnes nhận Giải Ngôn ngữ cho các sách Illusjon?, Om livstolking và Det femte monarki og andre essay."
+    },
+    {
+      "id": "hank-williams",
+      "candidateIndex": 0,
+      "displayText": "Hank Williams chịu ảnh hưởng của hillbilly, blues và gospel từ sớm, biểu diễn khi còn là thiếu niên và thu âm đĩa đầu tiên năm 1942."
+    },
+    {
+      "id": "greta-garbo",
+      "candidateIndex": 0,
+      "displayText": "Greta Garbo được đề cử Oscar Nữ diễn viên chính xuất sắc bốn lần và nhận giải Oscar danh dự năm 1955."
+    },
+    {
+      "id": "nils-petter-molvaer",
+      "candidateIndex": 0,
+      "displayText": "Nils Petter Molvær phát hành album đầu tiên dưới tên riêng, Hastening Westward, cùng Robin Schulkowsky năm 1995."
+    },
+    {
+      "id": "mika-waltari",
+      "candidateIndex": 0,
+      "displayText": "Mika Waltari được độc giả quốc tế biết đến nhờ tiểu thuyết lịch sử Egypteren Sinuhe (1946), lấy bối cảnh Ai Cập thế kỷ 14 trước Công nguyên."
+    },
+    {
+      "id": "jeremy-irons",
+      "candidateIndex": 0,
+      "displayText": "Jeremy Irons đoạt Oscar và Quả cầu Vàng với Reversal of Fortune (1990)."
+    },
+    {
+      "id": "sophia-loren",
+      "candidateIndex": 0,
+      "displayText": "Sophia Loren nhận Oscar danh dự năm 1991, Gấu Vàng danh dự Berlin năm 1994 và Sư tử Vàng danh dự Venice năm 1998."
+    },
+    {
+      "id": "leonard-cohen",
+      "candidateIndex": 0,
+      "displayText": "Leonard Cohen tạo dấu ấn với vai trò ca sĩ kiêm nhạc sĩ năm 1968 qua album đầu tay Songs of Leonard Cohen."
+    },
+    {
+      "id": "nick-cave",
+      "candidateIndex": 0,
+      "displayText": "Năm 2025, Nick Cave được đề cử Oscar Ca khúc gốc xuất sắc với Train Dreams trong phim cùng tên."
+    },
+    {
+      "id": "aldo-moro",
+      "candidateIndex": 0,
+      "displayText": "Ngày 16/3/1978, Lữ đoàn Đỏ bắt cóc Aldo Moro tại Rome; 55 ngày sau, thi thể ông được tìm thấy ở trung tâm thành phố."
+    },
+    {
+      "id": "ray-charles",
+      "candidateIndex": 0,
+      "displayText": "I've Got a Woman đem lại thành công lớn cho Ray Charles năm 1955; cách kết hợp jazz, gospel và rhythm and blues góp phần định hình nhạc soul."
+    },
+    {
+      "id": "f-scott-fitzgerald",
+      "candidateIndex": 0,
+      "displayText": "F. Scott Fitzgerald được nhớ đến nhiều nhất với tiểu thuyết The Great Gatsby (1925)."
+    },
+    {
+      "id": "jim-henson",
+      "candidateIndex": 0,
+      "displayText": "Các nhân vật rối Muppets của Jim Henson lần đầu nổi tiếng rộng rãi tại Mỹ qua Sesame Street (1969–)."
+    },
+    {
+      "id": "michael-douglas",
+      "candidateIndex": 0,
+      "displayText": "Michael Douglas ra mắt diễn xuất năm 1969 và được chú ý qua loạt phim truyền hình The Streets of San Francisco (1972–1977)."
+    },
+    {
+      "id": "george-gershwin",
+      "candidateIndex": 0,
+      "displayText": "Từ năm 1920 đến 1924, George Gershwin viết nhạc cho năm chương trình revue thường niên của nhà sản xuất George White."
+    },
+    {
+      "id": "elisabeth-bang",
+      "candidateIndex": 0,
+      "displayText": "Elisabeth Bang diễn các vai trong Medmenneske, Frøken Julie và The Father, cùng nhiều vở chuyển thể từ tác phẩm Tarjei Vesaas."
+    },
+    {
+      "id": "gwyneth-paltrow",
+      "candidateIndex": 0,
+      "displayText": "Gwyneth Paltrow được chú ý qua Seven và Jefferson in Paris (1995), trước khi đóng vai chính trong Emma (1996)."
+    },
+    {
+      "id": "frances-willard",
+      "candidateIndex": 0,
+      "displayText": "Năm 1871, Frances Willard được bầu làm người đứng đầu trường Women's College mới ở Evanston, Hoa Kỳ."
+    },
+    {
+      "id": "brigitte-bardot",
+      "candidateIndex": 0,
+      "displayText": "Brigitte Bardot trở thành biểu tượng văn hóa đại chúng thập niên 1950, nổi bật với vai chính trong And God Created Woman (1956)."
+    },
+    {
+      "id": "liv-dommersnes",
+      "candidateIndex": 0,
+      "displayText": "Liv Dommersnes nhận nhiều giải thưởng, trong đó có giải nghệ sĩ của Thành phố Oslo năm 1985 và giải văn hóa Anders Jahre năm 2000."
+    },
+    {
+      "id": "lech-walesa",
+      "candidateIndex": 0,
+      "displayText": "Khi Ba Lan ban bố thiết quân luật ngày 13/12/1981, Lech Wałęsa bị bắt cùng các lãnh đạo công đoàn khác."
+    },
+    {
+      "id": "jon-fosse",
+      "candidateIndex": 0,
+      "displayText": "Melancholia, vở opera có lời ca kịch do Jon Fosse viết và nhạc của Georg Friedrich Haas, ra mắt tại Paris năm 2008."
+    },
+    {
+      "id": "truman-capote",
+      "candidateIndex": 0,
+      "displayText": "Truman Capote hoàn thành tiểu thuyết đầu tiên, Summer Crossing, năm 18 tuổi; sách chỉ được xuất bản sau khi ông qua đời, vào năm 2005."
+    },
+    {
+      "id": "jimmy-carter",
+      "candidateIndex": 0,
+      "displayText": "Năm 1978, Tổng thống Jimmy Carter dùng Đạo luật Antiquities để bảo vệ 11 di tích tại Alaska, một trong những lần mở rộng lớn nhất của hệ thống công viên quốc gia Mỹ."
+    },
+    {
+      "id": "sting",
+      "candidateIndex": 0,
+      "displayText": "Năm 2024, Sting nhận giải BMI Songwriters Award cho Fields of Gold sau hơn năm triệu lượt phát sóng."
+    },
+    {
+      "id": "zlatan-ibrahimovic",
+      "candidateIndex": 0,
+      "displayText": "Zlatan Ibrahimović vô địch Serie A cùng Inter trong ba mùa liên tiếp: 2006–2007, 2007–2008 và 2008–2009."
+    },
+    {
+      "id": "anne-rice",
+      "candidateIndex": 0,
+      "displayText": "Anne Rice xuất bản Interview with the Vampire năm 1976; tiểu thuyết sau đó được chuyển thể thành phim có Tom Cruise và Brad Pitt."
+    },
+    {
+      "id": "denis-diderot",
+      "candidateIndex": 0,
+      "displayText": "Denis Diderot góp phần khai sinh phê bình nghệ thuật và dành 20 năm thực hiện công trình lớn L'Encyclopédie."
+    },
+    {
+      "id": "le-corbusier",
+      "candidateIndex": 0,
+      "displayText": "Năm 1935, Le Corbusier xuất bản La Ville Radieuse, bản thiết kế thành phố lý tưởng của ông."
+    },
+    {
+      "id": "thor-heyerdahl",
+      "candidateIndex": 0,
+      "displayText": "Năm 1999, Thor Heyerdahl cùng Hiệp hội Chủ tàu Na Uy thành lập giải thưởng môi trường hàng hải mang tên ông; giải đầu tiên được trao năm 2001."
+    },
+    {
+      "id": "niels-bohr",
+      "candidateIndex": 0,
+      "displayText": "Sau khi học tập ở nước ngoài, Niels Bohr trở về Đan Mạch và lãnh đạo Viện Vật lý Lý thuyết thuộc Đại học Copenhagen."
+    },
+    {
+      "id": "desmond-tutu",
+      "candidateIndex": 0,
+      "displayText": "Desmond Tutu nhận Nobel Hòa bình vì phản đối chế độ apartheid tại Nam Phi."
+    },
+    {
+      "id": "sigourney-weaver",
+      "candidateIndex": 0,
+      "displayText": "Sigourney Weaver tham gia nhiều phim trong ba thập niên, trong đó có Ghostbusters, Working Girl, Aliens và Avatar."
+    },
+    {
+      "id": "hugh-jackman",
+      "candidateIndex": 0,
+      "displayText": "Năm 2011, Hugh Jackman trở lại Broadway với chương trình ca múa nhạc cá nhân Back on Broadway."
+    },
+    {
+      "id": "edith-stein",
+      "candidateIndex": 0,
+      "displayText": "Năm 1913, Edith Stein chuyển đến Đại học Göttingen để học dưới sự hướng dẫn của triết gia Edmund Husserl."
+    },
+    {
+      "id": "margaret-thatcher",
+      "candidateIndex": 0,
+      "displayText": "Sau khi Liên Xô tiến quân vào Afghanistan ngày Giáng sinh năm 1979, Margaret Thatcher phối hợp phản ứng qua điện thoại với Tổng thống Jimmy Carter."
+    },
+    {
+      "id": "paul-simon",
+      "candidateIndex": 0,
+      "displayText": "Paul Simon xuất hiện trên Saturday Night Live tổng cộng 15 lần với vai trò người dẫn chương trình, khách mời âm nhạc hoặc cả hai."
+    },
+    {
+      "id": "usher",
+      "candidateIndex": 0,
+      "displayText": "Usher duy trì hoạt động từ thiện qua New Look Foundation, tổ chức được thành lập năm 1999."
+    },
+    {
+      "id": "friedrich-nietzsche",
+      "candidateIndex": 0,
+      "displayText": "Friedrich Nietzsche chơi piano, sáng tác nhạc và đọc các tác phẩm của Emerson cùng nhà thơ Friedrich Hölderlin."
+    },
+    {
+      "id": "a-p-j-abdul-kalam",
+      "candidateIndex": 0,
+      "displayText": "A. P. J. Abdul Kalam là Cố vấn Khoa học cho Bộ trưởng Quốc phòng Ấn Độ và Thư ký Bộ Nghiên cứu, Phát triển Quốc phòng từ năm 1992 đến 1999."
+    },
+    {
+      "id": "italo-calvino",
+      "candidateIndex": 0,
+      "displayText": "Một số truyện ngắn Italo Calvino viết giai đoạn 1945–1946 sau này được tập hợp trong Ultimo viene il corvo (1949)."
+    },
+    {
+      "id": "oscar-wilde",
+      "candidateIndex": 0,
+      "displayText": "Năm 1891, Oscar Wilde xuất bản Intentions, tuyển tập tiểu luận trình bày các nguyên lý của chủ nghĩa duy mỹ."
+    },
+    {
+      "id": "gunter-grass",
+      "candidateIndex": 0,
+      "displayText": "Sau khi học điêu khắc và đồ họa, Günter Grass tạo bước đột phá văn học với tiểu thuyết The Tin Drum năm 1959."
+    },
+    {
+      "id": "kimi-raikkonen",
+      "candidateIndex": 0,
+      "displayText": "Kimi Räikkönen vô địch thế giới Formula 1 năm 2007, sau bảy mùa giải đua ở cấp độ cao nhất."
+    },
+    {
+      "id": "chuck-berry",
+      "candidateIndex": 0,
+      "displayText": "Năm 1979, Chuck Berry phát hành Rock It, một trong những album cuối cùng gồm các sáng tác mới của ông."
+    },
+    {
+      "id": "john-le-carre",
+      "candidateIndex": 0,
+      "displayText": "John le Carré từ chối các danh hiệu của Anh nhưng nhận Huân chương Nghệ thuật và Văn chương Pháp năm 2005 cùng Huy chương Goethe của Đức năm 2011."
+    },
+    {
+      "id": "arthur-rimbaud",
+      "candidateIndex": 0,
+      "displayText": "Năm 1873, Arthur Rimbaud xuất bản Une Saison en Enfer, tập thơ đan xen văn xuôi và thơ, mang tính tự truyện hiện sinh."
+    },
+    {
+      "id": "alfred-nobel",
+      "candidateIndex": 0,
+      "displayText": "Alfred Nobel là nhà phát minh, doanh nhân và nhà khoa học; ông cũng viết thơ và kịch."
+    },
+    {
+      "id": "ursula-k-le-guin",
+      "candidateIndex": 0,
+      "displayText": "Ba tiểu thuyết đầu tay của Ursula K. Le Guin — Rocannon's World, Planet of Exile và City of Illusions — giúp bà được biết đến trong thể loại khoa học viễn tưởng."
+    },
+    {
+      "id": "doris-lessing",
+      "candidateIndex": 0,
+      "displayText": "Doris Lessing nhận Nobel Văn học năm 2007 nhờ những tác phẩm xem xét trải nghiệm phụ nữ và sự chia rẽ trong xã hội."
+    },
+    {
+      "id": "franz-liszt",
+      "candidateIndex": 0,
+      "displayText": "Adam Liszt nhận ra tài năng âm nhạc nổi bật của con trai Franz khi cậu mới sáu tuổi."
+    },
+    {
+      "id": "malcolm-turnbull",
+      "candidateIndex": 0,
+      "displayText": "Malcolm Turnbull trở thành thủ tướng thứ 29 của Australia sau khi thắng Tony Abbott trong cuộc bỏ phiếu lãnh đạo Đảng Tự do."
+    },
+    {
+      "id": "katy-perry",
+      "candidateIndex": 0,
+      "displayText": "Năm 2008, Katy Perry xuất hiện với tư cách khách mời trong một tập của loạt phim truyền hình The Young and the Restless."
+    },
+    {
+      "id": "hillary-clinton",
+      "candidateIndex": 0,
+      "displayText": "Năm 2000, Hillary Clinton trở thành cựu Đệ nhất phu nhân đầu tiên được bầu vào Thượng viện Hoa Kỳ và là phụ nữ đầu tiên được bầu vào một chức vụ cấp bang ở New York."
+    },
+    {
+      "id": "seth-macfarlane",
+      "candidateIndex": 0,
+      "displayText": "Seth MacFarlane ra mắt phim điện ảnh người đóng đầu tiên với Ted (2012), có Mark Wahlberg đóng chính."
+    },
+    {
+      "id": "sylvia-plath",
+      "candidateIndex": 0,
+      "displayText": "Tập thơ đầu tiên của Sylvia Plath, Colossus, xuất bản tại Anh năm 1960 và tại Mỹ hai năm sau."
+    },
+    {
+      "id": "john-cleese",
+      "candidateIndex": 0,
+      "displayText": "John Cleese gắn với truyền thống hài hước đại học Anh, từ Beyond the Fringe cuối thập niên 1950 đến Blackadder."
+    },
+    {
+      "id": "bill-gates",
+      "candidateIndex": 0,
+      "displayText": "Từ năm 1980 đến 1981, khi máy tính cá nhân IBM ra mắt rộng rãi, Microsoft tăng nhân sự từ 40 lên 129 người và doanh thu từ 8 triệu lên 17,3 triệu USD."
+    },
+    {
+      "id": "jonas-salk",
+      "candidateIndex": 0,
+      "displayText": "Jonas Salk là người đầu tiên trong gia đình theo học đại học; ông lấy bằng y khoa tại Đại học New York năm 1939."
+    },
+    {
+      "id": "ellen-johnson-sirleaf",
+      "candidateIndex": 0,
+      "displayText": "Ellen Johnson Sirleaf học tại Hoa Kỳ và nhận bằng thạc sĩ hành chính công."
+    },
+    {
+      "id": "winona-ryder",
+      "candidateIndex": 0,
+      "displayText": "Winona Ryder đóng Lydia, nhân vật lập dị mang phong cách gothic, trong Beetlejuice (1988) của Tim Burton."
+    },
+    {
+      "id": "diego-maradona",
+      "candidateIndex": 0,
+      "displayText": "Đỉnh cao sự nghiệp của Diego Maradona đến khi ông cùng Argentina vô địch World Cup năm 1986."
+    },
+    {
+      "id": "paul-valery",
+      "candidateIndex": 0,
+      "displayText": "Trong Thế chiến II, Paul Valéry phản đối đề xuất gửi lời chúc mừng tới Thống chế Pétain sau cuộc gặp của ông với Hitler tại Montoire."
+    },
+    {
+      "id": "zoran-milanovic",
+      "candidateIndex": 0,
+      "displayText": "Năm 2003, Zoran Milanović trở thành Trợ lý Bộ trưởng phụ trách các vấn đề đa phương chính trị tại Bộ Ngoại giao Croatia."
+    },
+    {
+      "id": "peter-jackson",
+      "candidateIndex": 0,
+      "displayText": "The Hobbit: An Unexpected Journey, phim đầu tiên trong loạt phim Hobbit do Peter Jackson thực hiện, ra mắt năm 2012."
+    },
+    {
+      "id": "marcus-rashford",
+      "candidateIndex": 0,
+      "displayText": "Marcus Rashford ghi hai bàn trong trận ra mắt Manchester United tại Europa League gặp Midtjylland mùa 2015–2016."
+    },
+    {
+      "id": "wolfgang-amadeus-mozart",
+      "candidateIndex": 0,
+      "displayText": "Tại Vienna, Mozart mưu sinh với vai trò nghệ sĩ biểu diễn tự do, nhà soạn nhạc opera và giáo viên."
+    },
+    {
+      "id": "olof-palme",
+      "candidateIndex": 1,
+      "displayText": "Trong hai nhiệm kỳ thủ tướng Thụy Điển, Olof Palme lên tiếng ủng hộ hòa bình, dân chủ và bình đẳng kinh tế."
+    },
+    {
+      "id": "fernand-leger",
+      "candidateIndex": 1,
+      "displayText": "Fernand Léger thực hiện phim Ballet mécanique (1924), được xem là phim đầu tiên không có kịch bản; trải nghiệm này khiến ông đưa nguyên tắc cận cảnh vào hội họa."
+    },
+    {
+      "id": "victor-hugo",
+      "candidateIndex": 0,
+      "displayText": "Victor Hugo viết nhiều tập sách châm biếm chính trị, trong đó có Napoléon le petit (1852), tác phẩm chế giễu Napoleon III."
+    },
+    {
+      "id": "glenn-miller",
+      "candidateIndex": 1,
+      "displayText": "Năm 1937, Glenn Miller thành lập dàn nhạc riêng; dàn nhạc tạo được tiếng vang từ năm 1939."
+    },
+    {
+      "id": "kurt-weill",
+      "candidateIndex": 1,
+      "displayText": "The Threepenny Opera của Kurt Weill có hơn 350 buổi diễn trong hai năm đầu."
+    },
+    {
+      "id": "alexander-graham-bell",
+      "candidateIndex": 1,
+      "displayText": "Năm 1883, Alexander Graham Bell đồng sáng lập tạp chí Science; tạp chí này sớm trở thành cơ quan chính thức của Hiệp hội Mỹ vì Sự tiến bộ Khoa học."
+    },
+    {
+      "id": "james-tobin",
+      "candidateIndex": 1,
+      "displayText": "Năm 1950, James Tobin chuyển đến Đại học Yale và làm việc tại đó trong phần còn lại của sự nghiệp."
+    },
+    {
+      "id": "joseph-von-fraunhofer",
+      "candidateIndex": 1,
+      "displayText": "Joseph von Fraunhofer đo chính xác bước sóng ánh sáng và xác định các vạch hấp thụ trong quang phổ Mặt Trời, gọi là vạch Fraunhofer."
+    },
+    {
+      "id": "gabriel-garcia-marquez",
+      "candidateIndex": 2,
+      "displayText": "Gabriel García Márquez ra mắt tiểu thuyết đầu tay La hojarasca năm 1955; truyện lấy bối cảnh tại ngôi làng hư cấu Macondo."
+    },
+    {
+      "id": "edward-calvin-kendall",
+      "candidateIndex": 0,
+      "displayText": "Edward Calvin Kendall nhận Nobel Sinh lý học hoặc Y học năm 1950 cùng Philip S. Hench và Tadeus Reichstein."
+    },
+    {
+      "id": "hugo-wolf",
+      "candidateIndex": 1,
+      "displayText": "Hugo Wolf soạn nhạc cho vở Gildet på Solhaug của Henrik Ibsen (1891), opera Der Corregidor (1895) và Italienische Serenade (1893–1894)."
+    },
+    {
+      "id": "albert-einstein",
+      "candidateIndex": 2,
+      "displayText": "Albert Einstein phát triển thuyết tương đối hẹp năm 1905 và thuyết tương đối rộng năm 1915."
+    },
+    {
+      "id": "paul-heyse",
+      "candidateIndex": 1,
+      "displayText": "L’Arrabbiata (1885), một trong những tác phẩm nổi tiếng của Paul Heyse, được xuất bản trong tuyển tập truyện ngắn đầu tiên của ông."
+    },
+    {
+      "id": "rudolf-nureyev",
+      "candidateIndex": 1,
+      "displayText": "Năm 15 tuổi, Rudolf Nureyev bắt đầu tham gia các buổi diễn tại Nhà hát Opera Ufa với vai trò diễn viên quần chúng."
+    },
+    {
+      "id": "neville-chamberlain",
+      "candidateIndex": 2,
+      "displayText": "Neville Chamberlain trở thành thủ tướng Anh năm 1937, sau khi Stanley Baldwin rời chức."
+    },
+    {
+      "id": "svante-arrhenius",
+      "candidateIndex": 2,
+      "displayText": "Năm 1905, Svante Arrhenius trở về Thụy Điển và trở thành giám đốc Viện Hóa lý Nobel."
+    },
+    {
+      "id": "johannes-brahms",
+      "candidateIndex": 2,
+      "displayText": "Buổi biểu diễn công khai cuối cùng của Johannes Brahms diễn ra ngày 7/3/1897, khi Hans Richter chỉ huy bản giao hưởng số 4 của ông."
+    },
+    {
+      "id": "santiago-ramon-y-cajal",
+      "candidateIndex": 1,
+      "displayText": "Santiago Ramón y Cajal chia sẻ Nobel Y học năm 1906 với Camillo Golgi nhờ các nghiên cứu về cấu trúc hệ thần kinh."
+    },
+    {
+      "id": "sigmund-freud",
+      "candidateIndex": 1,
+      "displayText": "Sigmund Freud phân tích cả giấc mơ của chính mình; những phân tích này trở thành một phần trong tác phẩm lớn đầu tiên của ông, Giải thích giấc mơ (1900)."
+    },
+    {
+      "id": "alfred-kastler",
+      "candidateIndex": 2,
+      "displayText": "Năm 1950, Alfred Kastler đề xuất dùng ánh sáng hoặc bức xạ điện từ để đưa electron lên các mức năng lượng cao rồi chúng trở về mức thấp hơn."
+    },
+    {
+      "id": "dorothy-hodgkin",
+      "candidateIndex": 1,
+      "displayText": "Dorothy Hodgkin học tại Somerville College, Oxford (1928–1932), nơi bà bắt đầu nghiên cứu tinh thể học."
+    },
+    {
+      "id": "orson-welles",
+      "candidateIndex": 0,
+      "displayText": "Trong phim Othello (1952), Orson Welles đóng vai chính trong bản chuyển thể từ vở kịch của Shakespeare."
+    },
+    {
+      "id": "malcolm-x",
+      "candidateIndex": 1,
+      "displayText": "Cuốn The Autobiography of Malcolm X do Alex Haley chấp bút góp phần đưa Malcolm X trở thành nhân vật có ảnh hưởng sau khi qua đời."
+    },
+    {
+      "id": "steven-weinberg",
+      "candidateIndex": 2,
+      "displayText": "Năm 1968, các đóng góp của Steven Weinberg, Sheldon Glashow và Abdus Salam thống nhất tương tác yếu với tương tác điện từ thành tương tác điện yếu."
+    },
+    {
+      "id": "joseph-brodsky",
+      "candidateIndex": 1,
+      "displayText": "Tuyển tập thơ A Part of Speech của Joseph Brodsky được nhà xuất bản Farrar, Straus and Giroux phát hành năm 1980."
+    },
+    {
+      "id": "allen-ginsberg",
+      "candidateIndex": 1,
+      "displayText": "Tập thơ đầu tay Howl and Other Poems (1956) của Allen Ginsberg từng bị tịch thu vì bị xem là khiêu dâm, trước khi được tòa án cho phép phát hành."
+    },
+    {
+      "id": "sukarno",
+      "candidateIndex": 2,
+      "displayText": "Sukarno là một trong những người đấu tranh cho nền độc lập của Indonesia khỏi Hà Lan và nhiều lần bị chính quyền Hà Lan bỏ tù."
+    },
+    {
+      "id": "paul-gauguin",
+      "candidateIndex": 2,
+      "displayText": "Sau khi một đồng nghiệp khơi gợi niềm yêu thích hội họa, Paul Gauguin học tại Académie Colarossi và triển lãm tại Salon de Paris năm 1876."
+    },
+    {
+      "id": "suharto",
+      "candidateIndex": 2,
+      "displayText": "Trong “Trật tự Mới”, Suharto xây dựng phong trào Sekber Golkar thành công cụ chính trị chủ yếu cho chế độ độc đoán kéo dài 32 năm của ông."
+    },
+    {
+      "id": "bertha-von-suttner",
+      "candidateIndex": 1,
+      "displayText": "Sau chín năm sống lưu vong, Bertha von Suttner trở về Áo và viết Das Maschinenzeitalter (1889), tác phẩm bàn về thời đại máy móc."
+    },
+    {
+      "id": "george-stephenson",
+      "candidateIndex": 2,
+      "displayText": "Ngày 27/9/1825, đoàn tàu đầu tiên chạy bằng đầu máy hơi nước Locomotion do George Stephenson chế tạo bắt đầu hành trình."
+    },
+    {
+      "id": "carlo-ancelotti",
+      "candidateIndex": 1,
+      "displayText": "Carlo Ancelotti rời Reggiana sau một mùa giải để chuyển sang Parma, nơi ông ở lại đến năm 1998."
+    },
+    {
+      "id": "richard-strauss",
+      "candidateIndex": 1,
+      "displayText": "Năm 1933, Richard Strauss được bổ nhiệm làm chủ tịch đầu tiên của Reichsmusikkammer, cơ quan nhà nước Đức dưới thời Adolf Hitler."
+    },
+    {
+      "id": "johanna-spyri",
+      "candidateIndex": 1,
+      "displayText": "Hai tập truyện Heidi của Johanna Spyri được xuất bản năm 1880 và 1881, đưa bà vào hàng ngũ tác giả thiếu nhi nổi tiếng quốc tế."
+    },
+    {
+      "id": "paavo-nurmi",
+      "candidateIndex": 2,
+      "displayText": "Paavo Nurmi được gọi là “Người Phần Lan bay” nhờ những thành tích chạy đường dài nổi bật vào đầu thập niên 1920."
+    },
+    {
+      "id": "sebastian-vettel",
+      "candidateIndex": 2,
+      "displayText": "Tháng 10/2011, Sebastian Vettel trở thành tay đua trẻ nhất hai lần vô địch thế giới Formula 1, sau mùa giải có 11 chiến thắng và 15 lần giành pole."
+    },
+    {
+      "id": "philip-johnson",
+      "candidateIndex": 2,
+      "displayText": "Triển lãm tại Bảo tàng Nghệ thuật Hiện đại và cuốn The International Style (1932) giúp Philip Johnson giới thiệu kiến trúc hiện đại châu Âu tại Hoa Kỳ."
+    },
+    {
+      "id": "tom-hanks",
+      "candidateIndex": 1,
+      "displayText": "Tom Hanks ra mắt điện ảnh năm 1980 và dần nổi tiếng trong thập niên 1980–1990 qua các phim như Splash, The Money Pit và Big."
+    },
+    {
+      "id": "david-hockney",
+      "candidateIndex": 1,
+      "displayText": "Trong sách Secret Knowledge (2001), David Hockney nêu giả thuyết rằng các họa sĩ bậc thầy từ khoảng thập niên 1420 đã dùng thấu kính và gương khi vẽ."
+    },
+    {
+      "id": "alice-munro",
+      "candidateIndex": 2,
+      "displayText": "Sau khi đăng truyện ngắn trên nhiều tạp chí, Alice Munro xuất bản tập truyện đầu tiên Dance of the Happy Shades năm 1968."
+    },
+    {
+      "id": "pablo-neruda",
+      "candidateIndex": 2,
+      "displayText": "Từ năm 1947 đến 1949, Pablo Neruda sống lẩn trốn tại Chile sau khi Đảng Cộng sản bị cấm và ông bị truy nã vì là thành viên nổi bật của đảng."
+    },
+    {
+      "id": "claude-bernard",
+      "candidateIndex": 1,
+      "displayText": "Năm 1865, Claude Bernard xuất bản Introduction à l’étude de la médecine expérimentale, phần mở đầu dự kiến cho một công trình lớn hơn về phương pháp thực nghiệm trong nghiên cứu y học."
+    },
+    {
+      "id": "rembrandt",
+      "candidateIndex": 2,
+      "displayText": "Rembrandt học nghề với họa sĩ lịch sử Jacob van Swanenburg tại Leiden, rồi trở thành học trò của Pieter Lastman ở Amsterdam năm 1624."
+    },
+    {
+      "id": "walter-benjamin",
+      "candidateIndex": 1,
+      "displayText": "Luận án Nguồn gốc bi kịch Đức của Walter Benjamin bị bác bỏ năm 1928, khiến ông không được trao quyền giảng dạy tại đại học."
+    },
+    {
+      "id": "angela-merkel",
+      "candidateIndex": 1,
+      "displayText": "Angela Merkel bắt đầu sự nghiệp chính trị với vai trò phát ngôn viên cho Lothar de Maizière, thủ tướng dân cử duy nhất của Đông Đức."
+    },
+    {
+      "id": "edgar-degas",
+      "candidateIndex": 1,
+      "displayText": "Edgar Degas tham gia triển lãm cùng các họa sĩ Ấn tượng từ cuộc triển lãm đầu tiên năm 1874 đến cuộc cuối cùng năm 1886."
+    },
+    {
+      "id": "herbert-marcuse",
+      "candidateIndex": 2,
+      "displayText": "Lý thuyết phê phán của Herbert Marcuse có ảnh hưởng trong phong trào sinh viên năm 1968; ông cũng tham gia bằng các bài viết và bài diễn thuyết."
+    },
+    {
+      "id": "richard-owen",
+      "candidateIndex": 1,
+      "displayText": "Nhà sinh vật học Richard Owen từng lãnh đạo Bảo tàng Lịch sử Tự nhiên Anh và được biết đến là người đặt tên cho khủng long."
+    },
+    {
+      "id": "ernest-hemingway",
+      "candidateIndex": 2,
+      "displayText": "Ernest Hemingway viết A Farewell to Arms, một trong những tiểu thuyết quan trọng về Thế chiến thứ nhất, cuộc chiến mà ông từng tham gia và bị thương."
+    },
+    {
+      "id": "elias-canetti",
+      "candidateIndex": 1,
+      "displayText": "Tiểu thuyết được xem là quan trọng nhất của Elias Canetti là Die Blendung (1936), kể về nhà Hán học Peter Kien, người chỉ sống vì thư viện của mình."
+    },
+    {
+      "id": "john-b-goodenough",
+      "candidateIndex": 2,
+      "displayText": "Năm 1980, John B. Goodenough phát triển pin lithium dùng cực âm bằng cobalt oxide, có cấu trúc cho phép chứa các ion lithium."
+    },
+    {
+      "id": "stanley-kubrick",
+      "candidateIndex": 2,
+      "displayText": "Bộ phim Dr. Strangelove (1963) của Stanley Kubrick là một hài châm biếm đen tối, về sau trở thành tác phẩm kinh điển có lượng người hâm mộ riêng."
+    },
+    {
+      "id": "harry-mulisch",
+      "candidateIndex": 2,
+      "displayText": "Tiểu thuyết De aanslag (1982) của Harry Mulisch được chuyển thể thành bộ phim đoạt giải Oscar năm 1986."
+    },
+    {
+      "id": "gabriel-lippmann",
+      "candidateIndex": 1,
+      "displayText": "Nhà vật lý Gabriel Lippmann nhận Nobel Vật lý năm 1908 nhờ phát minh phương pháp chụp ảnh màu."
+    },
+    {
+      "id": "rajiv-gandhi",
+      "candidateIndex": 1,
+      "displayText": "Rajiv Gandhi trở thành thủ tướng Ấn Độ vào tháng 11/1984, sau khi mẹ ông, Indira Gandhi, bị ám sát."
+    },
+    {
+      "id": "salvatore-quasimodo",
+      "candidateIndex": 2,
+      "displayText": "Năm 1947, Salvatore Quasimodo xuất bản tập thơ Giorno dopo giorno, trong đó có bài Con il piede straniero sopra il cuore (1946)."
+    },
+    {
+      "id": "usain-bolt",
+      "candidateIndex": 2,
+      "displayText": "Tại Giải vô địch điền kinh thế giới năm 2011, Usain Bolt thắng nội dung 200 m và tiếp sức nhưng bị loại ở chung kết 100 m vì xuất phát phạm quy."
+    },
+    {
+      "id": "tim-burton",
+      "candidateIndex": 1,
+      "displayText": "Edward Scissorhands (1990) là phim đầu tiên trong chuỗi hợp tác lâu dài giữa Tim Burton và diễn viên Johnny Depp."
+    },
+    {
+      "id": "leonard-bernstein",
+      "candidateIndex": 2,
+      "displayText": "Tác phẩm quy mô lớn đầu tiên của Leonard Bernstein là Jeremiah Symphony (1943), khúc ai ca cho giọng mezzo-soprano và dàn nhạc với lời Kinh Thánh bằng tiếng Hebrew."
+    },
+    {
+      "id": "theodore-dreiser",
+      "candidateIndex": 2,
+      "displayText": "Khi đã được biết đến với vai trò nhà báo, Theodore Dreiser tìm cách xuất bản tiểu thuyết đầu tay Sister Carrie (1900)."
+    },
+    {
+      "id": "jose-eduardo-dos-santos",
+      "candidateIndex": 2,
+      "displayText": "José Eduardo dos Santos rời chức năm 2017 sau khi liên tục giữ cương vị tổng thống Angola từ năm 1979."
+    },
+    {
+      "id": "charlie-parker",
+      "candidateIndex": 1,
+      "displayText": "Charlie Parker và nghệ sĩ trumpet Dizzy Gillespie là hai nhân vật định hình bebop, ảnh hưởng đến nhiều nhạc sĩ đương thời và thế hệ sau."
+    },
+    {
+      "id": "shimon-peres",
+      "candidateIndex": 1,
+      "displayText": "Năm 1994, Shimon Peres, Yitzhak Rabin và Yasser Arafat cùng nhận Nobel Hòa bình."
+    },
+    {
+      "id": "luong-cuong",
+      "candidateIndex": 2,
+      "displayText": "Ngày 21/10/2024, Lương Cường nhậm chức Chủ tịch nước Việt Nam."
+    },
+    {
+      "id": "edgar-rice-burroughs",
+      "candidateIndex": 1,
+      "displayText": "Tarzan of the Apes của Edgar Rice Burroughs được đăng nhiều kỳ lần đầu năm 1912 trước khi xuất bản thành tiểu thuyết năm 1914."
+    },
+    {
+      "id": "kristin-halvorsen",
+      "candidateIndex": 2,
+      "displayText": "Kristin Halvorsen từng đồng thời giữ chức bộ trưởng tài chính và phó thủ tướng Na Uy."
+    },
+    {
+      "id": "knut-nystedt",
+      "candidateIndex": 2,
+      "displayText": "Knut Nystedt nhận giải Spellemann năm 1978 và được bầu làm thành viên danh dự của hai hiệp hội âm nhạc Na Uy năm 1985."
+    },
+    {
+      "id": "bernt-heiberg",
+      "candidateIndex": 2,
+      "displayText": "Kiến trúc sư Bernt Heiberg mở văn phòng riêng tại Oslo từ năm 1940 và hợp tác với kiến trúc sư Ola Sandvik trong giai đoạn 1947–1968."
+    },
+    {
+      "id": "werner-herzog",
+      "candidateIndex": 2,
+      "displayText": "Sau Nosferatu, Phantom der Nacht (1978), Werner Herzog thực hiện phim chuyển thể Woyzeck (1979) từ tác phẩm của Georg Büchner."
+    },
+    {
+      "id": "jane-addams",
+      "candidateIndex": 0,
+      "displayText": "Năm 1889, Jane Addams thành lập Hull House tại Chicago, một trong những trung tâm công tác xã hội thực hành đầu tiên ở Bắc Mỹ."
+    },
+    {
+      "id": "franz-josef-strauss",
+      "candidateIndex": 1,
+      "displayText": "Franz Josef Strauss giữ chức bộ trưởng quốc phòng Tây Đức giai đoạn 1956–1962 và bộ trưởng tài chính giai đoạn 1966–1969."
+    },
+    {
+      "id": "ingebjorg-kasin-sandsdalen",
+      "candidateIndex": 2,
+      "displayText": "Ingebjørg Kasin Sandsdalen xuất bản tập thơ đầu tay Hjarta av jord năm 1950 và cuốn cuối Jord og tid năm 2001; thơ bà thường xoay quanh đất, trái tim và thời gian."
+    },
+    {
+      "id": "buddy-holly",
+      "candidateIndex": 1,
+      "displayText": "Cùng nhóm The Crickets, thành lập năm 1957, Buddy Holly góp phần phổ biến đội hình rock cổ điển."
+    },
+    {
+      "id": "tore-gjelsvik",
+      "candidateIndex": 2,
+      "displayText": "Năm 1960, Tore Gjelsvik được bổ nhiệm làm giám đốc Viện Địa cực Na Uy và giữ chức đến khi nghỉ hưu năm 1983."
+    },
+    {
+      "id": "antonin-dvorak",
+      "candidateIndex": 0,
+      "displayText": "Antonín Dvořák chuyển đến Praha năm 1857 và theo học tại trường organ ở đó đến năm 1859."
+    },
+    {
+      "id": "gustav-holst",
+      "candidateIndex": 2,
+      "displayText": "Năm 1913, Gustav Holst cho ra đời The Cloud Messenger, Op. 30, tác phẩm lớn nhất trong loạt sáng tác lấy cảm hứng từ Ấn Độ của ông."
+    },
+    {
+      "id": "lars-saabye-christensen",
+      "candidateIndex": 1,
+      "displayText": "Trong năm 1972–1973, Lars Saabye Christensen tự xuất bản hai tập thơ và đem bán trên phố Karl Johans gate ở Oslo."
+    },
+    {
+      "id": "fay-weldon",
+      "candidateIndex": 1,
+      "displayText": "Tiểu thuyết đầu tiên của Fay Weldon xuất bản năm 1967, mở đầu sự nghiệp viết lách của bà."
+    },
+    {
+      "id": "william-faulkner",
+      "candidateIndex": 1,
+      "displayText": "Tháng 11/1950, William Faulkner được công bố là người nhận Nobel Văn học năm 1949."
+    },
+    {
+      "id": "arthur-penn",
+      "candidateIndex": 1,
+      "displayText": "Arthur Penn ba lần được đề cử Oscar Đạo diễn xuất sắc nhất với The Miracle Worker, Bonnie and Clyde và Alice’s Restaurant (1969)."
+    },
+    {
+      "id": "johan-falkberget",
+      "candidateIndex": 2,
+      "displayText": "Bốn tập trong bộ An-Magritt của Johan Falkberget lần lượt xuất bản năm 1940, 1946, 1952 và 1959."
+    },
+    {
+      "id": "elie-wiesel",
+      "candidateIndex": 1,
+      "displayText": "Từ năm 1976, Elie Wiesel là giáo sư triết học Do Thái và lịch sử tôn giáo tại Đại học Boston; ông cũng lãnh đạo Ủy ban Tổng thống Hoa Kỳ về Holocaust."
+    },
+    {
+      "id": "annie-besant",
+      "candidateIndex": 1,
+      "displayText": "Annie Besant là thư ký sáng lập Malthusian League, tổ chức tiền thân của Hiệp hội Kế hoạch hóa Gia đình, đồng thời viết nhiều sách và pamphlet về các chủ đề tiến bộ."
+    },
+    {
+      "id": "gore-vidal",
+      "candidateIndex": 2,
+      "displayText": "Gore Vidal viết tiểu thuyết đầu tay Williwaw trong thời gian phục vụ quân đội; sách được xuất bản năm 1946."
+    },
+    {
+      "id": "susan-sarandon",
+      "candidateIndex": 1,
+      "displayText": "Susan Sarandon nhận Oscar Nữ diễn viên chính xuất sắc nhất với Dead Man Walking (1995) và trước đó có bốn đề cử Oscar."
+    },
+    {
+      "id": "vaclav-havel",
+      "candidateIndex": 2,
+      "displayText": "Sau Cách mạng Nhung lật đổ chế độ cộng sản, Václav Havel trở thành tổng thống đầu tiên của Cộng hòa Séc.",
+      "sourceUrl": "https://www.bbc.co.uk/news/world-europe-16236393",
+      "publisher": "BBC News",
+      "pageTitle": "Vaclav Havel, Czech leader and playwright, dies at 75 - BBC News",
+      "capture": {
+        "status": 200,
+        "sha256": "1149a4448084e7406d64e434c26eed71b0500c3c7121977269c8da61915ccd5",
+        "bytesRead": 403651,
+        "nameMatched": true,
+        "claimTextMatched": true,
+        "verificationMethod": "direct-http"
+      }
+    },
+    {
+      "id": "robert-h-goddard",
+      "candidateIndex": 1,
+      "displayText": "Ngày 16/3/1926, Robert H. Goddard phóng thành công tên lửa nhiên liệu lỏng đầu tiên trên thế giới."
+    },
+    {
+      "id": "henry-a-wallace",
+      "candidateIndex": 2,
+      "displayText": "Nhờ hoạt động vận động chính sách và uy tín trong nông nghiệp, Henry A. Wallace được Franklin D. Roosevelt bổ nhiệm làm bộ trưởng nông nghiệp."
+    },
+    {
+      "id": "matt-damon",
+      "candidateIndex": 0,
+      "displayText": "Sự nghiệp Matt Damon bứt phá sau khi ông đồng biên kịch và đóng chính Good Will Hunting; ông cùng Ben Affleck nhận Oscar Kịch bản gốc năm 1997."
+    },
+    {
+      "id": "leopold-sedar-senghor",
+      "candidateIndex": 1,
+      "displayText": "Ngày 5/9/1960, Léopold Sédar Senghor được bầu làm tổng thống đầu tiên của Cộng hòa Senegal."
+    },
+    {
+      "id": "eleanor-roosevelt",
+      "candidateIndex": 2,
+      "displayText": "Eleanor Roosevelt làm chủ tịch Ủy ban Nhân quyền và góp phần soạn thảo Tuyên ngôn Quốc tế Nhân quyền, được Đại hội đồng Liên Hợp Quốc thông qua ngày 10/12/1948."
+    },
+    {
+      "id": "thich-nhat-hanh",
+      "candidateIndex": 1,
+      "displayText": "Năm 1975, Thích Nhất Hạnh thành lập cộng đồng Les Patates Douces (Khoai Lang) gần Paris."
+    },
+    {
+      "id": "rolf-kirkvaag",
+      "candidateIndex": 1,
+      "displayText": "Rolf Kirkvaag cũng là phóng viên thể thao, chuyên về trượt tuyết; các chương trình của ông phục vụ thính giả trong Thế vận hội Oslo năm 1952."
+    },
+    {
+      "id": "philip-roth",
+      "candidateIndex": 2,
+      "displayText": "Philip Roth nhận Giải Pulitzer cho tiểu thuyết American Pastoral (1997)."
+    },
+    {
+      "id": "william-hurt",
+      "candidateIndex": 0,
+      "displayText": "Vai diễn trong Kiss of the Spider Woman mang về cho William Hurt Oscar và BAFTA Nam diễn viên chính xuất sắc nhất cùng giải diễn xuất tại Cannes."
+    },
+    {
+      "id": "joseph-fourier",
+      "candidateIndex": 1,
+      "displayText": "Joseph Fourier được bổ nhiệm làm tỉnh trưởng tỉnh Isère năm 1801 và được phong nam tước năm 1808."
+    },
+    {
+      "id": "bernard-katz",
+      "candidateIndex": 1,
+      "displayText": "Bernard Katz chỉ ra cách chất dẫn truyền acetylcholine được giải phóng theo lượng nhất định tại các khớp thần kinh."
+    },
+    {
+      "id": "wilhelm-rontgen",
+      "candidateIndex": 1,
+      "displayText": "Wilhelm Röntgen nhận bằng kỹ sư cơ khí năm 1868 và hoàn thành bằng tiến sĩ triết học năm sau với công trình Studien über Gase."
+    },
+    {
+      "id": "john-tyler",
+      "candidateIndex": 1,
+      "displayText": "John Tyler lãnh đạo Đảng Whig từ năm 1836, được bầu làm phó tổng thống năm 1840 và kế nhiệm tổng thống sau khi William Henry Harrison qua đời năm 1841."
+    },
+    {
+      "id": "honore-de-balzac",
+      "candidateIndex": 2,
+      "displayText": "Năm 1836, Honoré de Balzac bắt đầu hợp nhất các tiểu thuyết của mình thành bộ La Comédie humaine."
+    },
+    {
+      "id": "florence-nightingale",
+      "candidateIndex": 1,
+      "displayText": "Năm 1907, Florence Nightingale trở thành người phụ nữ đầu tiên được trao Huân chương Order of Merit của Anh."
+    },
+    {
+      "id": "henry-dunant",
+      "candidateIndex": 2,
+      "displayText": "Henry Dunant nhận Nobel Hòa bình đầu tiên năm 1901 nhờ nỗ lực giúp đỡ binh sĩ bị thương và thúc đẩy sự hiểu biết quốc tế."
+    },
+    {
+      "id": "douglas-fairbanks",
+      "candidateIndex": 2,
+      "displayText": "Các phim nổi tiếng của Douglas Fairbanks gồm The Mark of Zorro (1920), The Three Musketeers (1921), Robin Hood (1922) và The Thief of Baghdad (1924)."
+    },
+    {
+      "id": "piet-mondrian",
+      "candidateIndex": 1,
+      "displayText": "Cuộc gặp gỡ với trường phái Lập thể Pháp tại một triển lãm năm 1911 trở thành bước ngoặt trong con đường nghệ thuật của Piet Mondrian."
+    },
+    {
+      "id": "michael-laudrup",
+      "candidateIndex": 2,
+      "displayText": "Khi dẫn dắt Swansea từ tháng 6/2012, Michael Laudrup trở thành huấn luyện viên người Đan Mạch đầu tiên cầm quân tại Premier League."
+    },
+    {
+      "id": "tupac-shakur",
+      "candidateIndex": 2,
+      "displayText": "Tupac Shakur phát hành năm album trước khi bị bắn chết năm 1996; nhiều album khác được phát hành sau khi ông qua đời."
+    },
+    {
+      "id": "francois-jacob",
+      "candidateIndex": 2,
+      "displayText": "Năm 1965, François Jacob nhận Nobel Y học cùng Jacques Monod và André Lwoff nhờ phát hiện về cơ chế điều hòa di truyền trong tổng hợp enzyme và virus."
+    },
+    {
+      "id": "paul-mccartney",
+      "candidateIndex": 1,
+      "displayText": "Album Band on the Run (1973) của Paul McCartney cùng Wings được xem là tác phẩm kinh điển, sau hai album đầu không thành công với giới phê bình."
+    },
+    {
+      "id": "kaja-kallas",
+      "candidateIndex": 0,
+      "displayText": "Kaja Kallas là nữ thủ tướng đầu tiên của Estonia, tại nhiệm từ tháng 1/2021 đến tháng 7/2024; tháng 12/2024 bà trở thành Đại diện cấp cao EU về chính sách đối ngoại."
+    },
+    {
+      "id": "blaise-pascal",
+      "candidateIndex": 1,
+      "displayText": "Blaise Pascal viết Lettres provinciales (1656–1657) tại tu viện Port-Royal để phê phán học thuyết luân lý của Dòng Tên."
+    },
+    {
+      "id": "edward-snowden",
+      "candidateIndex": 2,
+      "displayText": "Năm 2019, Edward Snowden xuất bản hồi ký Permanent Record, phát hành bản dịch tiếng Na Uy với tựa Systemfeil."
+    },
+    {
+      "id": "meryl-streep",
+      "candidateIndex": 1,
+      "displayText": "Năm 2024, Meryl Streep nhận Cành cọ Vàng danh dự tại Liên hoan phim Cannes vì những đóng góp trọn đời cho điện ảnh."
+    },
+    {
+      "id": "ariana-grande",
+      "candidateIndex": 2,
+      "displayText": "Album My Everything (2014) của Ariana Grande đứng đầu bảng xếp hạng tại Na Uy, Hoa Kỳ và nhiều quốc gia khác."
+    },
+    {
+      "id": "samir-nasri",
+      "candidateIndex": 2,
+      "displayText": "Samir Nasri cùng Manchester City vô địch Premier League hai lần, ở các mùa 2011–2012 và 2013–2014."
+    },
+    {
+      "id": "muhammad-yunus",
+      "candidateIndex": 1,
+      "displayText": "Muhammad Yunus nhận Huân chương Tự do Tổng thống Hoa Kỳ năm 2009 và Huy chương Vàng Quốc hội Hoa Kỳ năm 2010."
+    },
+    {
+      "id": "michael-phelps",
+      "candidateIndex": 2,
+      "displayText": "Ở tuổi 15, Michael Phelps được chọn dự Olympic Sydney 2000 và là vận động viên Hoa Kỳ trẻ nhất tham dự trong 68 năm."
+    },
+    {
+      "id": "zaha-hadid",
+      "candidateIndex": 1,
+      "displayText": "Trong số công trình do Zaha Hadid thiết kế có Trung tâm Thể thao dưới nước Olympic ở London.",
+      "sourceUrl": "https://www.bbc.co.uk/news/entertainment-arts-35936768",
+      "publisher": "BBC News",
+      "pageTitle": "Architect Dame Zaha Hadid dies after heart attack - BBC News",
+      "capture": {
+        "status": 200,
+        "sha256": "cfc4bf5240f2393399c6e55a1912154070fcb645aa5939762fb2105cc5b42715",
+        "bytesRead": 428134,
+        "nameMatched": true,
+        "claimTextMatched": true,
+        "verificationMethod": "direct-http"
+      }
+    },
+    {
+      "id": "frida-kahlo",
+      "candidateIndex": 2,
+      "displayText": "Frida Kahlo từng triển lãm tại Phòng trưng bày của Ban Hành động Xã hội thuộc Đại học Tự trị Quốc gia Mexico."
+    },
+    {
+      "id": "maurice-ravel",
+      "candidateIndex": 1,
+      "displayText": "Trong thập niên 1920 và 1930, Maurice Ravel được xem là nhà soạn nhạc đương đại tiêu biểu nhất nước Pháp."
+    },
+    {
+      "id": "erik-satie",
+      "candidateIndex": 1,
+      "displayText": "Khoảng năm 1910, âm nhạc của Erik Satie chuyển hướng và ông dần trở thành hình mẫu cho nhiều nhà soạn nhạc thế hệ sau."
+    },
+    {
+      "id": "erich-fromm",
+      "candidateIndex": 1,
+      "displayText": "Erich Fromm phê bình một số lý thuyết của Sigmund Freud, nghiên cứu những vấn đề hiện sinh trong quan hệ giữa con người với xã hội, cùng biểu tượng trong giấc mơ và thần thoại."
+    },
+    {
+      "id": "franz-kafka",
+      "candidateIndex": 1,
+      "displayText": "Khi còn là sinh viên, Franz Kafka đã gia nhập môi trường văn học nói tiếng Đức ở Praha, dù ông thường giữ im lặng và hiếm khi đọc tác phẩm của mình trước công chúng."
+    },
+    {
+      "id": "henry-ford",
+      "candidateIndex": 1,
+      "displayText": "Năm 1896, Henry Ford đưa chiếc ô tô đầu tiên do ông tự chế tạo ra đường chạy thử."
+    },
+    {
+      "id": "neil-armstrong",
+      "candidateIndex": 1,
+      "displayText": "Neil Armstrong chỉ huy Apollo 11 và ngày 21/7/1969 trở thành người đầu tiên đặt chân lên Mặt Trăng."
+    },
+    {
+      "id": "alexander-fleming",
+      "candidateIndex": 1,
+      "displayText": "Năm 1929, Alexander Fleming công bố phát hiện và đặt tên penicillin cho hoạt chất kháng khuẩn do nấm tạo ra."
+    },
+    {
+      "id": "amedeo-avogadro",
+      "candidateIndex": 2,
+      "displayText": "Amedeo Avogadro nêu giả thuyết rằng khí gồm các phân tử và phân tử gồm các nguyên tử, khi đó ông gọi là “phân tử sơ cấp”."
+    },
+    {
+      "id": "jorge-amado",
+      "candidateIndex": 0,
+      "displayText": "Từ thập niên 1930 đến 1960, Jorge Amado là một trong những đại diện tiêu biểu nhất của tiểu thuyết hiện thực xã hội Brazil."
+    },
+    {
+      "id": "pervez-musharraf",
+      "candidateIndex": 1,
+      "displayText": "Pervez Musharraf lãnh đạo Pakistan từ năm 1999 đến 2008 và giữ chức tổng thống từ năm 2001."
+    },
+    {
+      "id": "jan-palach",
+      "candidateIndex": 1,
+      "displayText": "Jan Palach trở thành biểu tượng của phong trào phản kháng sự chiếm đóng và chế độ cộng sản tại Tiệp Khắc."
+    },
+    {
+      "id": "fidel-castro",
+      "candidateIndex": 1,
+      "displayText": "Fidel Castro tốt nghiệp ngành luật tại Đại học Havana năm 1950."
+    },
+    {
+      "id": "wim-wenders",
+      "candidateIndex": 0,
+      "displayText": "Wim Wenders học tại trường điện ảnh ở Munich và làm phim truyện đầu tay Summer in the City (1970) như bài tốt nghiệp."
+    },
+    {
+      "id": "walter-scott",
+      "candidateIndex": 1,
+      "displayText": "Walter Scott góp phần đưa tiểu thuyết lịch sử trở nên phổ biến rộng rãi qua các tác phẩm như Waverley và Ivanhoe."
+    },
+    {
+      "id": "herman-melville",
+      "candidateIndex": 2,
+      "displayText": "Herman Melville xuất bản kiệt tác Moby-Dick năm 1851, kể về thuyền trưởng Ahab và cuộc săn cá voi trắng."
+    },
+    {
+      "id": "john-quincy-adams",
+      "candidateIndex": 0,
+      "displayText": "Sau thời gian làm công sứ tại Anh, John Quincy Adams trở về Hoa Kỳ để theo học Đại học Harvard."
+    },
+    {
+      "id": "roman-polanski",
+      "candidateIndex": 1,
+      "displayText": "Năm 1968, Roman Polanski định cư tại Hoa Kỳ; bộ phim đầu tiên ông thực hiện ở đó là Rosemary’s Baby, một thành công phòng vé."
+    },
+    {
+      "id": "benjamin-harrison",
+      "candidateIndex": 2,
+      "displayText": "Trong bầu cử tổng thống Hoa Kỳ năm 1888, Grover Cleveland thắng phiếu phổ thông nhưng Benjamin Harrison thắng phiếu đại cử tri với tỷ số 233–168."
+    },
+    {
+      "id": "otis-redding",
+      "candidateIndex": 2,
+      "displayText": "Otis Redding đột phá với ca khúc These Arms of Mine năm 1963, rồi trở thành nhân vật có ảnh hưởng trong nhạc soul nhờ phong cách thấm đẫm gospel."
+    },
+    {
+      "id": "stephen-jay-gould",
+      "candidateIndex": 1,
+      "displayText": "Ngoài nhiều sách khoa học phổ thông, Stephen Jay Gould viết khoảng 300 bài tiểu luận cho tạp chí Natural History."
+    },
+    {
+      "id": "marja-liisa-kirvesniemi",
+      "candidateIndex": 0,
+      "displayText": "Tại Olympic Sarajevo 1984, vận động viên trượt tuyết băng đồng Marja-Liisa Kirvesniemi vô địch cả ba nội dung cá nhân."
+    },
+    {
+      "id": "theodor-w-adorno",
+      "candidateIndex": 2,
+      "displayText": "Khi Đức Quốc xã lên nắm quyền năm 1933 và đóng cửa Viện Nghiên cứu Xã hội Frankfurt, Theodor W. Adorno cùng các đồng nghiệp gốc Do Thái phải di cư."
+    },
+    {
+      "id": "birgitta-trotzig",
+      "candidateIndex": 1,
+      "displayText": "Birgitta Trotzig xuất bản tiểu thuyết Dykungens dotter năm 1984 và tập truyện Dubbelheten: tre sagor năm 1998."
+    },
+    {
+      "id": "brian-de-palma",
+      "candidateIndex": 0,
+      "displayText": "The Wedding Party, phim truyện đầu tay của Brian De Palma, được quay năm 1963 và phát hành năm 1969."
+    },
+    {
+      "id": "maurice-chevalier",
+      "candidateIndex": 0,
+      "displayText": "Maurice Chevalier bắt đầu sự nghiệp với vai trò ca sĩ tạp kỹ và nổi tiếng qua các chương trình Paris của Mistinguett trong thập niên 1920."
+    },
+    {
+      "id": "bjorn-floberg",
+      "candidateIndex": 0,
+      "displayText": "Năm 2018, Bjørn Floberg được đề cử giải Hedda cho vai Gájev trong vở Kirsebærhagen tại Nhà hát Quốc gia Na Uy."
+    },
+    {
+      "id": "roald-dahl",
+      "candidateIndex": 1,
+      "displayText": "Năm 1938, Roald Dahl chuyển đến Dar-es-Salaam; từ đó ông gia nhập Không quân Hoàng gia Anh trong Thế chiến thứ hai."
+    },
+    {
+      "id": "ahmet-necdet-sezer",
+      "candidateIndex": 0,
+      "displayText": "Ahmet Necdet Sezer là tổng thống Thổ Nhĩ Kỳ đầu tiên xuất thân ngoài giới chính trị và quân đội."
+    },
+    {
+      "id": "vebjorn-rodal",
+      "candidateIndex": 2,
+      "displayText": "Vebjørn Rodal giành huy chương vàng Olympic nội dung 800 m tại Atlanta năm 1996 với kỷ lục Olympic 1 phút 42,58 giây."
+    },
+    {
+      "id": "randi-bratteli",
+      "candidateIndex": 2,
+      "displayText": "Randi Bratteli làm phóng viên Aktuell (1945–1951), biên tập viên Arbeiderkvinnen (1972–1982) và sau đó là nhà báo tự do."
+    },
+    {
+      "id": "alex-riel",
+      "candidateIndex": 0,
+      "displayText": "Từ năm 1968 đến 1972, Alex Riel chơi trống trong nhóm rock Savage Rose; thập niên 1980 ông còn chơi cùng Istanbul Express."
+    },
+    {
+      "id": "sveinn-einarsson",
+      "candidateIndex": 0,
+      "displayText": "Sveinn Einarsson đạo diễn buổi opera đầu tiên tại Olavshallen ở Trondheim, Tosca năm 1990; năm 1992 ông dàn dựng Le nozze di Figaro tại đây."
+    },
+    {
+      "id": "william-golding",
+      "candidateIndex": 2,
+      "displayText": "William Golding viết Chúa Ruồi như một truyện phản địa đàng, mô tả một xã hội kinh hoàng thu nhỏ."
+    },
+    {
+      "id": "bjorn-wiinblad",
+      "candidateIndex": 2,
+      "displayText": "Bước đột phá quốc tế của Bjørn Wiinblad đến khi ông được hãng sứ Đức Rosenthal tuyển dụng năm 1957."
+    },
+    {
+      "id": "per-olov-enquist",
+      "candidateIndex": 0,
+      "displayText": "Per Olov Enquist tự đọc bản sách nói của mình và nhận giải Iris Audiobook năm 2009 cho công việc đó."
+    },
+    {
+      "id": "glenn-gould",
+      "candidateIndex": 0,
+      "displayText": "Glenn Gould ra mắt độc tấu và biểu diễn cùng dàn nhạc năm 1947; vài năm sau ông nổi tiếng khắp Canada qua hòa nhạc, phát thanh, truyền hình và bản thu âm."
+    },
+    {
+      "id": "harold-pinter",
+      "candidateIndex": 1,
+      "displayText": "Harold Pinter tham gia các phong trào cánh tả và hoạt động vì hòa bình."
+    },
+    {
+      "id": "amitabh-bachchan",
+      "candidateIndex": 0,
+      "displayText": "Từ thập niên 1970 đến đầu thập niên 1980, Amitabh Bachchan xuất hiện trong hơn 100 bộ phim."
+    },
+    {
+      "id": "henri-bergson",
+      "candidateIndex": 1,
+      "displayText": "Năm 1922, Henri Bergson được bổ nhiệm làm chủ tịch Ủy ban Quốc tế về Hợp tác Trí tuệ, tổ chức tiền thân của UNESCO."
+    },
+    {
+      "id": "martina-navratilova",
+      "candidateIndex": 2,
+      "displayText": "Martina Navratilova giành 59 danh hiệu Grand Slam, trong đó có kỷ lục 9 chức vô địch đơn Wimbledon."
+    },
+    {
+      "id": "carrie-fisher",
+      "candidateIndex": 1,
+      "displayText": "Tháng 11/2016, Carrie Fisher xuất bản hồi ký The Princess Diarist, dựa trên những cuốn nhật ký bà viết khi quay bộ ba phim Star Wars đầu tiên."
+    },
+    {
+      "id": "ang-lee",
+      "candidateIndex": 1,
+      "displayText": "Năm 2006, Ang Lee trở thành đạo diễn châu Á đầu tiên nhận Oscar Đạo diễn xuất sắc nhất, với phim Brokeback Mountain."
+    },
+    {
+      "id": "georges-bizet",
+      "candidateIndex": 2,
+      "displayText": "Năm 1857, Georges Bizet nhận Giải thưởng Rome sau khi hoàn thành xuất sắc chương trình học."
+    },
+    {
+      "id": "alexandria-ocasio-cortez",
+      "candidateIndex": 0,
+      "displayText": "Alexandria Ocasio-Cortez tốt nghiệp Yorktown High School năm 2007 và nhận bằng cử nhân tại Đại học Boston năm 2011."
+    },
+    {
+      "id": "theodore-roosevelt",
+      "candidateIndex": 1,
+      "displayText": "Những năm săn bắn và chăn nuôi tại vùng đất xấu Dakota góp phần hình thành quan điểm bảo tồn thiên nhiên của Theodore Roosevelt."
+    },
+    {
+      "id": "julia-roberts",
+      "candidateIndex": 1,
+      "displayText": "Julia Roberts nhận đề cử Oscar đầu tiên nhờ vai diễn trong phim Steel Magnolias (1989)."
+    },
+    {
+      "id": "christian-lous-lange",
+      "candidateIndex": 1,
+      "displayText": "Năm 1919, khi Hội Quốc Liên thành lập trụ sở tại Geneva, Christian Lous Lange chuyển ban thư ký Liên minh Liên Nghị viện đến thành phố này."
+    },
+    {
+      "id": "per-kirkeby",
+      "candidateIndex": 1,
+      "displayText": "Per Kirkeby hoạt động trong nhiều lĩnh vực: hội họa, văn chương và đạo diễn phim."
+    },
+    {
+      "id": "kjell-magne-bondevik",
+      "candidateIndex": 0,
+      "displayText": "Kjell Magne Bondevik là một trong những chính trị gia Na Uy đầu tiên chuyển thẳng từ hoạt động thanh niên sang làm chính trị chuyên nghiệp."
+    },
+    {
+      "id": "jesse-owens",
+      "candidateIndex": 3,
+      "displayText": "Tại Olympic Berlin 1936, Jesse Owens giành bốn huy chương vàng: 100 m, 200 m, tiếp sức 4 × 100 m và nhảy xa."
+    },
+    {
+      "id": "astrid-gjertsen",
+      "candidateIndex": 4,
+      "displayText": "Astrid Gjertsen đấu tranh thành công cho giờ mở cửa linh hoạt tại các cửa hàng ở Na Uy."
+    },
+    {
+      "id": "patsy-cline",
+      "candidateIndex": 3,
+      "displayText": "Patsy Cline là một trong những ngôi sao nhạc đồng quê lớn nhất Hoa Kỳ giai đoạn 1961–1962."
+    },
+    {
+      "id": "jessye-norman",
+      "candidateIndex": 3,
+      "displayText": "Jessye Norman ra mắt tại Metropolitan Opera ở New York năm 1983, với vai Cassandra trong vở Les Troyens của Berlioz."
+    },
+    {
+      "id": "augustin-louis-cauchy",
+      "candidateIndex": 4,
+      "displayText": "Các công trình của Augustin-Louis Cauchy đặt ra chuẩn mực mới về tính chặt chẽ toán học cho những khái niệm như giới hạn và hội tụ."
+    },
+    {
+      "id": "mahatma-gandhi",
+      "candidateIndex": 2,
+      "displayText": "Chiến dịch satyagraha đầu tiên của Mahatma Gandhi bắt đầu bằng cuộc họp ở Johannesburg để phản đối Sắc lệnh châu Á dự kiến ban hành."
+    },
+    {
+      "id": "khuat-van-khang",
+      "candidateIndex": 2,
+      "displayText": "Khuất Văn Khang đã cùng các đội tuyển Việt Nam vô địch SEA Games 2025, ASEAN Championship 2024 và ASEAN U23 Championship 2025."
+    },
+    {
+      "id": "laura-ingalls-wilder",
+      "candidateIndex": 0,
+      "displayText": "Laura Ingalls Wilder viết về hành trình của một cô gái tiên phong dựa trên chính chuyến đi mà bà từng trải qua."
+    },
+    {
+      "id": "emily-bronte",
+      "candidateIndex": 1,
+      "displayText": "Tiểu thuyết duy nhất của Emily Brontë đã được chuyển thể nhiều lần cho sân khấu, điện ảnh và truyền hình, đồng thời được dịch sang tiếng Na Uy năm lần."
+    },
+    {
+      "id": "harrison-ford",
+      "candidateIndex": 1,
+      "displayText": "Harrison Ford ra mắt điện ảnh năm 1966 và có các vai phụ trên phim và truyền hình, trong đó có loạt phim Gunsmoke (1972–1973)."
+    },
+    {
+      "id": "richard-wagner",
+      "candidateIndex": 1,
+      "displayText": "Richard Wagner cải tổ hình thức opera và sáng tác số lượng lớn tác phẩm sân khấu."
+    },
+    {
+      "id": "glenn-close",
+      "candidateIndex": 1,
+      "displayText": "Glenn Close có nền tảng sân khấu Broadway trước khi ra mắt điện ảnh trong The World According to Garp (1982), rồi tiếp tục gây chú ý với The Big Chill (1983)."
+    },
+    {
+      "id": "pierce-brosnan",
+      "candidateIndex": 2,
+      "displayText": "Năm 2006, Pierce Brosnan được đề cử Quả cầu Vàng Nam diễn viên chính xuất sắc nhất phim hài hoặc ca nhạc với Matador."
+    },
+    {
+      "id": "david-beckham",
+      "candidateIndex": 0,
+      "displayText": "David Beckham từng vô địch giải quốc gia ở Anh, Tây Ban Nha, Pháp và Hoa Kỳ."
+    },
+    {
+      "id": "caroline-wozniacki",
+      "candidateIndex": 0,
+      "displayText": "Caroline Wozniacki giành hai danh hiệu đôi: Memphis năm 2009 cùng Victoria Azarenka và Bắc Kinh năm 2008 cùng Anabel Medina Garrigues."
+    },
+    {
+      "id": "stefan-lofven",
+      "candidateIndex": 1,
+      "displayText": "Stefan Löfven được bầu làm lãnh đạo đảng năm 2012, kế nhiệm Håkan Juholt."
+    },
+    {
+      "id": "rosalind-franklin",
+      "candidateIndex": 1,
+      "displayText": "Năm 1941, Rosalind Franklin đạt danh hiệu Second Class Honors trong kỳ thi cuối khóa; khi ấy kết quả này được xem tương đương bằng cử nhân để xin việc."
+    },
+    {
+      "id": "fernando-alonso",
+      "candidateIndex": 1,
+      "displayText": "Trong giai đoạn đầu sự nghiệp, Fernando Alonso từng là tay đua trẻ nhất đạt các mốc F1 về giành pole, thắng chặng và vô địch thế giới, với đội Renault."
+    },
+    {
+      "id": "ian-fleming",
+      "candidateIndex": 1,
+      "displayText": "Ian Fleming là nhà báo, nhà văn trinh thám người Anh và là người sáng tạo nhân vật điệp viên 007 James Bond."
+    },
+    {
+      "id": "alfonso-xiii",
+      "candidateIndex": 1,
+      "displayText": "Sau vụ ám sát lãnh đạo bảo thủ Eduardo Dato năm 1921, Alfonso XIII thành lập các chính phủ liên hiệp để ứng phó với khủng hoảng."
+    },
+    {
+      "id": "george-orwell",
+      "candidateIndex": 0,
+      "displayText": "Trong tiểu thuyết của mình, George Orwell dựng nên một xã hội tương lai để thể hiện hệ quả của những xu hướng quốc tế mà ông quan sát trong thập niên 1930–1940."
+    },
+    {
+      "id": "victoria",
+      "candidateIndex": 1,
+      "displayText": "Nửa sau thế kỷ 19, Nữ hoàng Victoria chú ý nhiều hơn đến công chúng Anh và dần trở thành biểu tượng cho bản sắc dân tộc Anh."
+    },
+    {
+      "id": "eminem",
+      "candidateIndex": 1,
+      "displayText": "Album Infinite của Eminem không được đón nhận tốt và khiến anh bị so sánh bất lợi với các rapper Nas và AZ."
+    },
+    {
+      "id": "snoop-dogg",
+      "candidateIndex": 2,
+      "displayText": "Tháng 11/2015, Snoop Dogg ra mắt thương hiệu sản phẩm cần sa Leafs By Snoop, được Biography.com mô tả là thương hiệu đầu tiên do một ngôi sao hạng A đứng tên."
+    },
+    {
+      "id": "ryan-reynolds",
+      "candidateIndex": 1,
+      "displayText": "Ryan Reynolds đóng vai chính trong phim hài National Lampoon’s Van Wilder (2002)."
+    },
+    {
+      "id": "kevin-kline",
+      "candidateIndex": 2,
+      "displayText": "Năm 1994, Kevin Kline được đề cử Quả cầu Vàng Nam diễn viên chính xuất sắc nhất phim hài hoặc ca nhạc với Dave."
+    },
+    {
+      "id": "philip-pullman",
+      "candidateIndex": 1,
+      "displayText": "The Ruby in the Smoke (1985) của Philip Pullman là cuốn đầu tiên trong loạt truyện về Sally Lockhart."
+    },
+    {
+      "id": "ernst-junger",
+      "candidateIndex": 2,
+      "displayText": "Tiểu thuyết biểu tượng Auf den Marmorklippen (1939) của Ernst Jünger khắc họa quyền lực độc đoán phục vụ cái ác."
+    },
+    {
+      "id": "luigi-pirandello",
+      "candidateIndex": 1,
+      "displayText": "Các truyện ngắn của Luigi Pirandello được tập hợp trong hai tập Novelle per un anno, xuất bản giai đoạn 1937–1939."
+    },
+    {
+      "id": "simon-bolivar",
+      "candidateIndex": 1,
+      "displayText": "Simón Bolívar được Hipólita, một phụ nữ gốc Phi bị bắt làm nô lệ, nuôi bằng sữa và chăm sóc trong phần lớn tuổi thơ."
+    },
+    {
+      "id": "stan-laurel",
+      "candidateIndex": 0,
+      "displayText": "Stan Laurel là diễn viên hài điện ảnh người Anh, nổi tiếng với vai diễn trong bộ đôi Laurel và Hardy."
+    },
+    {
+      "id": "joseph-von-eichendorff",
+      "candidateIndex": 3,
+      "displayText": "Tác phẩm kể chuyện nổi tiếng nhất của Joseph von Eichendorff là Aus dem Leben eines Taugenichts, xuất bản năm 1826."
+    },
+    {
+      "id": "joseph-haydn",
+      "candidateIndex": 4,
+      "displayText": "Từ năm 1779, Joseph Haydn được chính thức cho phép sáng tác tác phẩm cho những nhà bảo trợ ngoài gia đình Esterházy."
+    },
+    {
+      "id": "marilyn-monroe",
+      "candidateIndex": 4,
+      "displayText": "Marilyn Monroe nhận giải Golden Globe cho vai diễn trong Some Like It Hot (1959) và giải Henrietta do khán giả bình chọn vào các năm 1954 và 1962."
+    },
+    {
+      "id": "thomas-mann",
+      "candidateIndex": 4,
+      "displayText": "Khi Thomas Mann được trao Nobel Văn học năm 1929, tiểu thuyết Buddenbrooks đóng vai trò trọng tâm trong đánh giá của hội đồng."
+    },
+    {
+      "id": "luis-walter-alvarez",
+      "candidateIndex": 4,
+      "displayText": "Năm 1980, Luis Alvarez cùng con trai Walter Alvarez và hai nhà hóa học công bố giả thuyết rằng va chạm tiểu hành tinh khoảng 66 triệu năm trước đã dẫn đến sự tuyệt chủng của khủng long."
+    },
+    {
+      "id": "william-crookes",
+      "candidateIndex": 3,
+      "displayText": "William Crookes được biết đến với các nghiên cứu về sự phóng điện trong ống thủy tinh chứa khí áp suất thấp, sau này gọi là ống Crookes."
+    },
+    {
+      "id": "antoine-de-saint-exupery",
+      "candidateIndex": 4,
+      "displayText": "Saint-Exupéry tự minh họa Le Petit Prince (1943); tác phẩm trở thành kinh điển thiếu nhi và cũng được đọc như một ngụ ngôn triết lý dành cho người lớn."
+    },
+    {
+      "id": "friedrich-wohler",
+      "candidateIndex": 2,
+      "displayText": "Năm 1836, Friedrich Wöhler trở thành giáo sư hóa học tại Göttingen."
+    },
+    {
+      "id": "jean-dubuffet",
+      "candidateIndex": 2,
+      "displayText": "Jean Dubuffet học ngắn hạn tại một trường nghệ thuật ở Paris năm 1918, làm nghề buôn rượu nhiều năm và chỉ chuyên tâm hoàn toàn vào nghệ thuật từ năm 1942."
+    },
+    {
+      "id": "brian-may",
+      "candidateIndex": 3,
+      "displayText": "Ngoài âm nhạc, Brian May còn có các bằng cấp cao về vật lý thiên văn, viết nhiều sách và dành thời gian cho hoạt động bảo vệ động vật."
+    },
+    {
+      "id": "frank-herbert",
+      "candidateIndex": 4,
+      "displayText": "Frank Herbert nhận giải Nebula năm 1965 và giải Hugo năm 1966 cho tiểu thuyết Dune."
+    },
+    {
+      "id": "george-weah",
+      "candidateIndex": 0,
+      "displayText": "Năm 2018, ở tuổi 51, George Weah trở lại thi đấu cho đội tuyển Liberia trong trận thua Nigeria 1–2."
+    },
+    {
+      "id": "fridtjof-nansen",
+      "candidateIndex": 4,
+      "displayText": "Mùa thu năm 1885, Fridtjof Nansen hoàn thành luận án đầu tiên, Bidrag til Myzostomernes Anatomi og Histologi."
+    },
+    {
+      "id": "donald-trump",
+      "candidateIndex": 4,
+      "displayText": "Donald Trump trở thành người thứ hai sau Grover Cleveland được bầu làm Tổng thống Hoa Kỳ cho hai nhiệm kỳ không liên tiếp."
+    },
+    {
+      "id": "mike-tyson",
+      "candidateIndex": 3,
+      "displayText": "Tháng 3 năm 1996, Mike Tyson giành lại đai vô địch WBC sau khi hạ Frank Bruno bằng knock-out ở hiệp thứ ba."
+    },
+    {
+      "id": "xherdan-shaqiri",
+      "candidateIndex": 3,
+      "displayText": "Tháng 8 năm 2021, Xherdan Shaqiri hoàn tất vụ chuyển nhượng từ Liverpool đến Lyon."
+    },
+    {
+      "id": "per-jorgensen",
+      "candidateIndex": 2,
+      "displayText": "Năm 2020, Per Jørgensen cùng tám cộng sự nhận giải Hedda cho hạng mục thiết kế nghe nhìn xuất sắc với vở 03:08:38 – States of Emergency."
+    },
+    {
+      "id": "nguyen-huy-hoang-swimmer",
+      "candidateIndex": 3,
+      "displayText": "Nguyễn Huy Hoàng là người cầm cờ của đoàn Việt Nam tại lễ khai mạc Thế vận hội Mùa hè 2020."
+    },
+    {
+      "id": "subrahmanyan-chandrasekhar",
+      "candidateIndex": 3,
+      "displayText": "Hội đồng Nobel trao Giải Vật lý 1983 cho Subrahmanyan Chandrasekhar vì các nghiên cứu lý thuyết về những quá trình vật lý ảnh hưởng đến cấu trúc và sự tiến hóa của các sao."
+    },
+    {
+      "id": "dmitri-mendeleev",
+      "candidateIndex": 1,
+      "displayText": "Ngày 1 tháng 3 năm 1869, Dmitry Mendeleev trình bày luận thuyết về tính tuần hoàn của các nguyên tố tại cuộc họp Hội Hóa học Nga."
+    },
+    {
+      "id": "buzz-aldrin",
+      "candidateIndex": 0,
+      "displayText": "Buzz Aldrin đảm nhiệm vị trí phi công mô-đun Mặt Trăng của Apollo 11 và là người thứ hai đặt chân lên Mặt Trăng."
+    },
+    {
+      "id": "federico-fellini",
+      "candidateIndex": 0,
+      "displayText": "Bộ phim I vitelloni (1953) của Federico Fellini giành Sư tử Bạc tại Venice và góp phần đưa Alberto Sordi đến với thành công lớn."
+    },
+    {
+      "id": "david-hilbert",
+      "candidateIndex": 0,
+      "displayText": "Năm 1899, David Hilbert xuất bản Grundlagen der Geometrie, đặt hình học trong một hệ tiên đề hình thức."
+    },
+    {
+      "id": "michael-jackson",
+      "candidateIndex": 2,
+      "displayText": "Album Thriller (1982) góp phần đưa Michael Jackson lên vị thế siêu sao và người định hình phong cách nhạc pop trong thập niên 1980."
+    },
+    {
+      "id": "nils-collett-vogt",
+      "candidateIndex": 4,
+      "displayText": "Nils Collett Vogt được nhớ đến chủ yếu với thơ trữ tình, đồng thời còn viết tiểu thuyết, kịch và hồi ký."
+    },
+    {
+      "id": "rupert-murdoch",
+      "candidateIndex": 1,
+      "displayText": "Sau khi Rupert Murdoch mua The Sun năm 1969, tờ báo được chuyển sang dạng báo lá cải với lối đưa tin trực diện và giật gân."
+    },
+    {
+      "id": "tran-van-khe",
+      "candidateIndex": 0,
+      "displayText": "Giai đoạn 1952–1958, Trần Văn Khê học nhạc cụ học với Schaeffner và nhạc học với Chailley tại Paris."
+    },
+    {
+      "id": "knut-hamsun",
+      "candidateIndex": 2,
+      "displayText": "Dựa trên tiểu thuyết Markens grøde xuất bản năm 1917, Knut Hamsun được trao Nobel Văn học năm 1920."
+    },
+    {
+      "id": "maria-montessori",
+      "candidateIndex": 0,
+      "displayText": "Năm 1907, Maria Montessori lần đầu được giao lãnh đạo dự án giáo dục cho trẻ mẫu giáo tại San Lorenzo, Rome."
+    },
+    {
+      "id": "salvador-dali",
+      "candidateIndex": 1,
+      "displayText": "Năm 1939, Salvador Dalí bị nhóm Siêu thực bỏ phiếu khai trừ."
+    },
+    {
+      "id": "kathe-kollwitz",
+      "candidateIndex": 3,
+      "displayText": "Käthe Kollwitz được đào tạo tại Berlin và München trước khi hoạt động như họa sĩ đồ họa và nhà điêu khắc."
+    },
+    {
+      "id": "henrik-ibsen",
+      "candidateIndex": 5,
+      "displayText": "Henrik Ibsen đạt bước đột phá quốc tế lớn với vở kịch A Doll’s House (Et dukkehjem) năm 1879."
+    },
+    {
+      "id": "tryggve-andersen",
+      "candidateIndex": 5,
+      "displayText": "Tryggve Andersen gây chú ý khi ra mắt tập truyện ngắn I Cancelliraadens dage năm 1897, lấy bối cảnh vùng Oppland đầu thế kỷ XIX."
+    },
+    {
+      "id": "wayne-gretzky",
+      "candidateIndex": 0,
+      "displayText": "Trong thập niên 1980, Wayne Gretzky giành danh hiệu cầu thủ giá trị nhất NHL (Hart Trophy) 9 lần và dẫn đầu giải về điểm số 7 lần."
+    },
+    {
+      "id": "lord-byron",
+      "candidateIndex": 0,
+      "displayText": "Thành công của Childe Harold đưa Lord Byron trở nên nổi tiếng; Westminster Abbey liệt kê tác phẩm này cùng Don Juan trong số các bài thơ nổi tiếng nhất của ông."
+    },
+    {
+      "id": "warren-buffett",
+      "candidateIndex": 0,
+      "displayText": "Warren Buffett đã cam kết hiến toàn bộ tài sản của mình cho các tổ chức từ thiện."
+    },
+    {
+      "id": "pierre-bourdieu",
+      "candidateIndex": 0,
+      "displayText": "Từ năm 1981, Pierre Bourdieu là giáo sư xã hội học tại Collège de France."
+    },
+    {
+      "id": "roger-moore",
+      "candidateIndex": 0,
+      "displayText": "Roger Moore đóng James Bond trong bảy phim, từ Live and Let Die (1973) đến A View to a Kill (1985)."
+    },
+    {
+      "id": "wayne-rooney",
+      "candidateIndex": 0,
+      "displayText": "Tháng 9/2015, Wayne Rooney ghi bàn thứ 50 cho tuyển Anh vào lưới Thụy Sĩ, phá kỷ lục ghi bàn của Bobby Charlton."
+    },
+    {
+      "id": "edwin-van-der-sar",
+      "candidateIndex": 0,
+      "displayText": "Edwin van der Sar khoác áo tuyển Hà Lan 130 lần, cả 130 trận đều đá chính."
+    },
+    {
+      "id": "john-lennon",
+      "candidateIndex": 0,
+      "displayText": "Tháng 3/1957, John Lennon thành lập nhóm Quarrymen; ngày 6/7, ông gặp Paul McCartney sau buổi diễn của nhóm và McCartney sau đó gia nhập."
+    },
+    {
+      "id": "buster-keaton",
+      "candidateIndex": 0,
+      "displayText": "Buster Keaton trở thành diễn viên chuyên nghiệp và ngôi sao tạp kỹ từ năm 5 tuổi."
+    },
+    {
+      "id": "susan-sontag",
+      "candidateIndex": 0,
+      "displayText": "Từ năm 1987 đến 1989, Susan Sontag giữ chức chủ tịch American Center of PEN và vận động cho các nhà văn bị đàn áp hoặc bị giam cầm."
+    },
+    {
+      "id": "jean-baptiste-lamarck",
+      "candidateIndex": 0,
+      "displayText": "Trong thực vật học, Lamarck rời bỏ các nguyên tắc phân loại của Linnaeus và đặt nền tảng cho “hệ thống tự nhiên”."
+    },
+    {
+      "id": "paul-nguyen-cong-anh",
+      "candidateIndex": 0,
+      "displayText": "Ngày 30/4/2007, Yad Vashem trao cho Paul Nguyễn Công Anh danh hiệu Người Công chính giữa các Dân tộc."
+    },
+    {
+      "id": "benjamin-franklin",
+      "candidateIndex": 0,
+      "displayText": "Franklin từng tham gia ủy ban soạn thảo Tuyên ngôn Độc lập Hoa Kỳ."
+    },
+    {
+      "id": "august-strindberg",
+      "candidateIndex": 0,
+      "displayText": "Năm 1907, August Strindberg viết bốn vở kịch, trong đó có “Spöksonaten”."
+    },
+    {
+      "id": "edouard-manet",
+      "candidateIndex": 0,
+      "displayText": "Năm 1850, Édouard Manet theo học tại xưởng vẽ của họa sĩ Thomas Couture sau hai lần bị từ chối vào Trường Hải quân Pháp."
+    },
+    {
+      "id": "friedrich-ii-of-prussia",
+      "candidateIndex": 0,
+      "displayText": "Khi lên nắm quyền, Friedrich II theo đuổi chính sách khoan dung tôn giáo và bãi bỏ tra tấn."
+    },
+    {
+      "id": "nguyen-sinh-hung",
+      "candidateIndex": 0,
+      "displayText": "Ngày 23/7/2011, Nguyễn Sinh Hùng được bầu làm Chủ tịch Quốc hội khóa XIII."
+    },
+    {
+      "id": "naruhito",
+      "candidateIndex": 0,
+      "displayText": "Năm 1982, Naruhito tốt nghiệp ngành lịch sử tại Khoa Văn học, Đại học Gakushuin."
+    },
+    {
+      "id": "pedro-sanchez",
+      "candidateIndex": 0,
+      "displayText": "Pedro Sánchez nhận bằng tiến sĩ kinh tế năm 2012 tại Đại học Camilo José Cela, nơi ông giảng dạy kinh tế."
+    },
+    {
+      "id": "moon-jae-in",
+      "candidateIndex": 0,
+      "displayText": "Năm 1982, Moon Jae-in tốt nghiệp hạng nhì tại Viện Nghiên cứu và Đào tạo Tư pháp Hàn Quốc."
+    },
+    {
+      "id": "chung-thi-thanh-lan",
+      "candidateIndex": 0,
+      "displayText": "Chung Thị Thanh Lan thi đấu nội dung 100 m tự do nữ tại Thế vận hội mùa hè 1980."
+    },
+    {
+      "id": "pham-duc-huy",
+      "candidateIndex": 0,
+      "displayText": "Tại Cúp Quốc gia 2019, Phạm Đức Huy ghi 2 bàn cho Hà Nội."
+    },
+    {
+      "id": "truong-tan-sang",
+      "candidateIndex": 0,
+      "displayText": "Ngày 25/7/2011, Quốc hội bầu Trương Tấn Sang làm Chủ tịch nước với 97,4% phiếu thuận."
+    },
+    {
+      "id": "franklin-d-roosevelt",
+      "candidateIndex": 0,
+      "displayText": "Franklin D. Roosevelt được bầu làm Tổng thống Hoa Kỳ bốn lần, vào các năm 1932, 1936, 1940 và 1944."
+    },
+    {
+      "id": "douglas-macarthur",
+      "candidateIndex": 0,
+      "displayText": "Năm 1903, Douglas MacArthur tốt nghiệp đầu lớp tại West Point với một trong những thành tích học tập tốt nhất trong lịch sử học viện."
+    },
+    {
+      "id": "anton-chekhov",
+      "candidateIndex": 0,
+      "displayText": "Chuyến đi Sakhalin năm 1890 giúp Anton Chekhov ghi chép đời sống tù nhân khổ sai và cư dân địa phương; tư liệu được ông đưa vào sách “Đảo Sakhalin”."
+    },
+    {
+      "id": "wilhelm-ii",
+      "candidateIndex": 0,
+      "displayText": "Ngày 10/11/1918, Wilhelm II rời tổng hành dinh ở Spa và sang Hà Lan."
+    },
+    {
+      "id": "valentina-tereshkova",
+      "candidateIndex": 0,
+      "displayText": "Valentina Tereshkova là nữ phi hành gia đầu tiên bay vào vũ trụ."
+    },
+    {
+      "id": "yuri-gagarin",
+      "candidateIndex": 0,
+      "displayText": "Ngày 12/4/1961, Yuri Gagarin trở thành người đầu tiên bay quanh Trái Đất trên tàu Vostok 1."
+    },
+    {
+      "id": "zhores-alferov",
+      "candidateIndex": 0,
+      "displayText": "Năm 2000, Zhores Alferov cùng Herbert Kroemer chia một nửa giải Nobel Vật lý nhờ phát triển dị thể bán dẫn cho điện tử tốc độ cao và quang điện tử."
+    },
+    {
+      "id": "harald-v",
+      "candidateIndex": 0,
+      "displayText": "Harald V là vị vua Na Uy đầu tiên sinh tại Na Uy kể từ năm 1380."
+    },
+    {
+      "id": "mikhail-gorbachev",
+      "candidateIndex": 0,
+      "displayText": "Sau khi Konstantin Chernenko qua đời năm 1985, Mikhail Gorbachev được bầu làm Tổng Bí thư Đảng Cộng sản Liên Xô."
+    },
+    {
+      "id": "j-m-barrie",
+      "candidateIndex": 0,
+      "displayText": "J. M. Barrie được bổ nhiệm làm Rector của Đại học St Andrews năm 1919 và giữ chức đến năm 1922."
+    },
+    {
+      "id": "frederik-x-of-denmark",
+      "candidateIndex": 0,
+      "displayText": "Frederik X trở thành vua Đan Mạch ngày 14/1/2024."
+    },
+    {
+      "id": "pham-doan-trang",
+      "candidateIndex": 0,
+      "displayText": "Năm 2018, Phạm Đoan Trang xuất bản sách “Chính trị bình dân” (Popular Politics)."
+    },
+    {
+      "id": "alexey-leonov",
+      "candidateIndex": 0,
+      "displayText": "Ngày 18/3/1965, Alexey Leonov thực hiện chuyến đi bộ ngoài không gian đầu tiên trong lịch sử."
+    },
+    {
+      "id": "harry-s-truman",
+      "candidateIndex": 0,
+      "displayText": "Ngày 12/4/1945, sau khi Roosevelt qua đời, Harry S. Truman tuyên thệ nhậm chức Tổng thống thứ 33 của Hoa Kỳ."
+    },
+    {
+      "id": "dwight-d-eisenhower",
+      "candidateIndex": 0,
+      "displayText": "Ngày 8/12/1953, Dwight D. Eisenhower trình bày sáng kiến “Atoms for Peace” tại Liên Hợp Quốc."
+    },
+    {
+      "id": "camille-saint-saens",
+      "candidateIndex": 0,
+      "displayText": "Năm 1871, Camille Saint-Saëns đồng sáng lập Société nationale de musique cùng Romain Bussine và các nhạc sĩ Pháp."
+    },
+    {
+      "id": "beatrix-of-the-netherlands",
+      "candidateIndex": 0,
+      "displayText": "Ngày 30/4/2013, Beatrix ký văn bản thoái vị tại Cung điện Hoàng gia Amsterdam."
+    },
+    {
+      "id": "bono",
+      "candidateIndex": 0,
+      "displayText": "Năm 1976, Bono trả lời mẩu quảng cáo tuyển nhạc công của Larry Mullen, khởi đầu quá trình hình thành ban nhạc U2."
+    },
+    {
+      "id": "luis-suarez",
+      "candidateIndex": 0,
+      "displayText": "Hiệp hội Bóng đá Uruguay thống kê Luis Suárez có 69 bàn cho đội tuyển quốc gia."
+    },
+    {
+      "id": "duong-thuy-vi",
+      "candidateIndex": 0,
+      "displayText": "Dương Thúy Vi xếp hạng nhất nội dung kiếm thuật và thương thuật nữ toàn năng tại ASIAD 2014 ở Incheon."
+    },
+    {
+      "id": "le-van-cong",
+      "candidateIndex": 0,
+      "displayText": "Tại Paralympic Rio 2016, Lê Văn Công đứng hạng nhất hạng cân cử tạ nam 49 kg."
+    },
+    {
+      "id": "nguyen-van-lai",
+      "candidateIndex": 0,
+      "displayText": "Nguyễn Văn Lai đạt 14:04.82 ở cự ly 5.000 m tại Singapore ngày 9/6/2015; World Athletics đánh dấu thành tích này là NR."
+    },
+    {
+      "id": "francois-mitterrand",
+      "candidateIndex": 0,
+      "displayText": "Năm 1988, François Mitterrand tái đắc cử Tổng thống Pháp; hai nhiệm kỳ của ông có việc bãi bỏ án tử hình."
+    },
+    {
+      "id": "pablo-picasso",
+      "candidateIndex": 0,
+      "displayText": "Năm 1937, Pablo Picasso vẽ bức “Guernica” tại xưởng của ông ở Paris."
+    },
+    {
+      "id": "louis-aragon",
+      "candidateIndex": 0,
+      "displayText": "Tập thơ “Les Yeux d’Elsa” của Louis Aragon được ghi nhận ra đời năm 1942, bản in đầu tiên tại Genève."
+    },
+    {
+      "id": "gustav-mahler",
+      "candidateIndex": 0,
+      "displayText": "Năm 1900, Gustav Mahler chỉ huy Vienna Philharmonic trong chuyến biểu diễn nước ngoài đầu tiên của dàn nhạc, tại Paris."
+    },
+    {
+      "id": "hermann-von-helmholtz",
+      "candidateIndex": 0,
+      "displayText": "Ngày 23/7/1847, Hermann von Helmholtz trình bày bài “Bảo toàn lực” trước Hội Vật lý."
+    },
+    {
+      "id": "hanbin",
+      "candidateIndex": 0,
+      "displayText": "Trong nhóm TEMPEST, Hanbin đảm nhận vị trí vocal và dance."
+    },
+    {
+      "id": "frode-andresen",
+      "candidateIndex": 0,
+      "displayText": "Frode Andresen giành huy chương bạc nội dung sprint môn hai môn phối hợp tại Olympic mùa đông 1998."
+    },
+    {
+      "id": "arthur-miller",
+      "candidateIndex": 0,
+      "displayText": "Năm 1949, vở “Death of a Salesman” của Arthur Miller đoạt giải Pulitzer và Tony Award."
+    },
+    {
+      "id": "pham-thi-thao",
+      "candidateIndex": 0,
+      "displayText": "Phạm Thị Thảo cùng Phạm Thị Sâm thi đấu ở cả nội dung chèo thuyền bốn nữ và đôi nữ khi Việt Nam giành HCV SEA Games 2011."
+    },
+    {
+      "id": "hoang-xuan-vinh",
+      "candidateIndex": 0,
+      "displayText": "Ngày 6/8/2016, Hoàng Xuân Vinh giành HCV nội dung súng ngắn hơi 10 m nam tại Olympic Rio."
+    },
+    {
+      "id": "nguyen-thi-mai-hung",
+      "candidateIndex": 0,
+      "displayText": "FIDE phong danh hiệu Woman Grandmaster cho Nguyễn Thị Mai Hưng năm 2014."
+    },
+    {
+      "id": "phan-thi-ha-thanh",
+      "candidateIndex": 0,
+      "displayText": "Tại Giải vô địch thể dục dụng cụ thế giới ở Tokyo năm 2011, Phan Thị Hà Thanh giành HCĐ nội dung nhảy chống với 14,666 điểm."
+    },
+    {
+      "id": "nguyen-thi-lua",
+      "candidateIndex": 0,
+      "displayText": "Nguyễn Thị Lụa giành huy chương bạc vật tự do hạng -48 kg tại Asian Games 2010 ở Quảng Châu."
+    },
+    {
+      "id": "vo-thanh-tung",
+      "candidateIndex": 0,
+      "displayText": "Tại Paralympic Rio 2016, Võ Thanh Tùng giành HCB nội dung bơi 50 m tự do hạng S5."
+    },
+    {
+      "id": "mstislav-rostropovich",
+      "candidateIndex": 0,
+      "displayText": "Mstislav Rostropovich giữ chức giám đốc âm nhạc của National Symphony Orchestra tại Washington, D.C. từ năm 1978 đến 1994."
+    },
+    {
+      "id": "dang-thai-son",
+      "candidateIndex": 0,
+      "displayText": "Năm 1980, Đặng Thái Sơn thắng Cuộc thi Piano Chopin lần thứ 10; ông còn nhận giải cho phần trình diễn mazurka, polonaise và concerto."
+    },
+    {
+      "id": "catherine-deneuve",
+      "candidateIndex": 0,
+      "displayText": "Năm 1964, vai Geneviève trong phim Les Parapluies de Cherbourg giúp Catherine Deneuve được công chúng quốc tế biết đến và mở đầu sự nghiệp."
+    },
+    {
+      "id": "olivia-newton-john",
+      "candidateIndex": 0,
+      "displayText": "People Australia ghi nhận Olivia Newton-John với danh hiệu Dame Commander of the Order of the British Empire."
+    },
+    {
+      "id": "pedro-i-cua-brasil",
+      "candidateIndex": 0,
+      "displayText": "Ngày 10/4/1826, Pedro I ban sắc lệnh thi hành hiệp ước hòa bình và công nhận độc lập của Brazil với Bồ Đào Nha."
+    },
+    {
+      "id": "quach-cong-lich",
+      "candidateIndex": 0,
+      "displayText": "Quách Công Lịch lập kỷ lục quốc gia 50,05 giây nội dung 400 m vượt rào tại Kuala Lumpur ngày 22/8/2017."
+    },
+    {
+      "id": "vuong-thi-huyen",
+      "candidateIndex": 0,
+      "displayText": "Tại Asian Games Jakarta 2018, Vương Thị Huyền xếp thứ tư hạng cử tạ nữ 48 kg với tổng cử 181 kg."
+    },
+    {
+      "id": "nguyen-huu-long",
+      "candidateIndex": 0,
+      "displayText": "Năm 2013, Tòa Thánh bổ nhiệm linh mục Alphonse Nguyễn Hữu Long làm giám mục phụ tá giáo phận Hưng Hóa."
+    },
+    {
+      "id": "nguyen-van-mau",
+      "candidateIndex": 0,
+      "displayText": "Ngày 12/7/1968, Nguyễn Văn Mầu được bổ nhiệm làm giám mục Vĩnh Long."
+    },
+    {
+      "id": "nguyen-huy-hung",
+      "candidateIndex": 0,
+      "displayText": "Tại V.League 1 năm 2019, Nguyễn Huy Hùng ghi 3 bàn cho Quảng Nam."
+    },
+    {
+      "id": "nguyen-van-hoang",
+      "candidateIndex": 0,
+      "displayText": "Thủ môn Nguyễn Văn Hoàng bắt chính cả 14 trận cho Sông Lam Nghệ An tại V.League 2020."
+    },
+    {
+      "id": "bui-tan-truong",
+      "candidateIndex": 0,
+      "displayText": "Thủ môn Bùi Tấn Trường ra sân 14 lần cho Hà Nội tại V.League 2020."
+    },
+    {
+      "id": "pham-manh-hung",
+      "candidateIndex": 0,
+      "displayText": "Phạm Mạnh Hùng có 16 lần ra sân cho Hải Phòng tại V.League 2020."
+    },
+    {
+      "id": "ho-tuan-tai",
+      "candidateIndex": 0,
+      "displayText": "Hồ Tuấn Tài ghi 8 bàn cho Sông Lam Nghệ An ở V.League 1 mùa 2019."
+    },
+    {
+      "id": "tran-minh-vuong",
+      "candidateIndex": 0,
+      "displayText": "Trần Minh Vương ghi 12 bàn cho Hoàng Anh Gia Lai ở V.League 1 mùa 2019."
+    },
+    {
+      "id": "nguyen-cong-phuong",
+      "candidateIndex": 0,
+      "displayText": "Ngày 8/1/2019, Nguyễn Công Phượng ghi bàn trong trận Việt Nam thua Iraq 2-3 tại Asian Cup."
+    },
+    {
+      "id": "do-hung-dung",
+      "candidateIndex": 0,
+      "displayText": "Ngày 24/1/2024, Đỗ Hùng Dũng đá chính và đeo băng đội trưởng tuyển Việt Nam trong trận Asian Cup gặp Iraq."
+    },
+    {
+      "id": "dang-tieu-binh",
+      "candidateIndex": 0,
+      "displayText": "Tại Hội nghị Trung ương lần thứ ba khóa XI tháng 12/1978, Đặng Tiểu Bình đóng vai trò quyết định trong bước chuyển chính sách mở đầu thời kỳ cải cách và hiện đại hóa ở Trung Quốc."
+    },
+    {
+      "id": "nguyen-tien-linh",
+      "candidateIndex": 0,
+      "displayText": "Trong trận thắng Indonesia 3-1 ở vòng loại World Cup 2022, Nguyễn Tiến Linh ghi hai bàn trong lần đầu ra sân ở vòng loại."
+    },
+    {
+      "id": "bui-tien-dung",
+      "candidateIndex": 0,
+      "displayText": "Tại vòng 16 đội Asian Cup 2019, Bùi Tiến Dũng thực hiện thành công quả luân lưu quyết định giúp Việt Nam lần đầu vào tứ kết."
+    },
+    {
+      "id": "dang-van-lam",
+      "candidateIndex": 0,
+      "displayText": "Đặng Văn Lâm được gọi lên tuyển quốc gia Việt Nam năm 2016; một năm sau, anh giữ sạch lưới trong trận ra mắt gặp Jordan."
+    },
+    {
+      "id": "marek-hamsik",
+      "candidateIndex": 0,
+      "displayText": "Ở tuổi 22 năm 229 ngày, Marek Hamšík trở thành cầu thủ trẻ nhất đeo băng đội trưởng trong lịch sử Napoli."
+    },
+    {
+      "id": "trinh-quang-vinh",
+      "candidateIndex": 0,
+      "displayText": "Trong đội hình tiêu biểu vòng 9 Toyota V.League, Trịnh Quang Vinh được ghi nhận đã ghi bàn và kiến tạo cho B.Bình Dương."
+    },
+    {
+      "id": "luong-thi-thu-thuong",
+      "candidateIndex": 0,
+      "displayText": "Danh sách đăng ký AFC Women’s Asian Cup Australia 2026 ghi Lương Thị Thu Thương là hậu vệ của tuyển Việt Nam."
+    },
+    {
+      "id": "phan-van-long",
+      "candidateIndex": 0,
+      "displayText": "Ở V.League 1 mùa 2019, Phan Văn Long ra sân 16 trận và ghi 2 bàn cho SHB Đà Nẵng."
+    },
+    {
+      "id": "nguyen-dinh-bac",
+      "candidateIndex": 0,
+      "displayText": "Nguyễn Đình Bắc giành danh hiệu Vua phá lưới AFC U23 Asian Cup Saudi Arabia 2026 sau khi ghi 4 bàn và có 2 pha kiến tạo."
+    },
+    {
+      "id": "pham-quynh-anh",
+      "candidateIndex": 0,
+      "displayText": "Ngày 9/11/2023, Phạm Quỳnh Anh phát hành EP Lời Hồi Đáp 2008 gồm bốn sáng tác của Hamlet Trương."
+    },
+    {
+      "id": "arthur-koestler",
+      "candidateIndex": 0,
+      "displayText": "Sau chiến tranh, Arthur Koestler trở thành nhà văn toàn thời gian; danh tiếng đến với ông sau khi Darkness at Noon xuất bản năm 1940."
+    },
+    {
+      "id": "pham-thanh-luong",
+      "candidateIndex": 0,
+      "displayText": "Phạm Thành Lương là cầu thủ đầu tiên giành bốn danh hiệu Quả bóng vàng Việt Nam."
+    },
+    {
+      "id": "filip-nguyen",
+      "candidateIndex": 0,
+      "displayText": "Mùa V.League 2023/24, Nguyễn Filip bắt chính 25 trận cho Công an Hà Nội."
+    },
+    {
+      "id": "ha-duc-chinh",
+      "candidateIndex": 0,
+      "displayText": "Hà Đức Chinh ghi 4 bàn cho SHB Đà Nẵng tại V.League mùa 2020."
+    },
+    {
+      "id": "do-duy-manh",
+      "candidateIndex": 0,
+      "displayText": "Đỗ Duy Mạnh đá chính 21 trận cho Hà Nội tại V.League 1 mùa 2019."
+    },
+    {
+      "id": "pele",
+      "candidateIndex": 0,
+      "displayText": "Pelé là cầu thủ duy nhất từng vô địch World Cup ba lần, vào các năm 1958, 1962 và 1970."
+    },
+    {
+      "id": "otto-von-bismarck",
+      "candidateIndex": 1,
+      "displayText": "Năm 1871, sau khi Đế chế Đức được thành lập, Otto von Bismarck trở thành thủ tướng đầu tiên của đế chế."
+    },
+    {
+      "id": "wangari-maathai",
+      "candidateIndex": 0,
+      "displayText": "Wangari Maathai thành lập Green Belt Movement năm 1977 và nhận Nobel Hòa bình năm 2004."
+    },
+    {
+      "id": "milan-kundera",
+      "candidateIndex": 0,
+      "displayText": "Milan Kundera được biết đến rộng rãi với tiểu thuyết Đời nhẹ khôn kham, xuất bản năm 1984."
+    },
+    {
+      "id": "hans-christian-andersen",
+      "candidateIndex": 0,
+      "displayText": "Năm 1827, những bài thơ đầu tiên của Hans Christian Andersen được đăng trên tạp chí Kjøbenhavns flyvende Post của Johan Ludvig Heiberg."
+    },
+    {
+      "id": "giacomo-casanova",
+      "candidateIndex": 1,
+      "displayText": "Giacomo Casanova viết hồi ký bằng tiếng Pháp với chủ ý tự thuật chân thực, theo cách chịu ảnh hưởng của Rousseau."
+    },
+    {
+      "id": "marvin-gaye",
+      "candidateIndex": 0,
+      "displayText": "Marvin Gaye có bản hit Top 50 đầu tiên năm 1962 với ca khúc Stubborn Kind of Fellow."
+    },
+    {
+      "id": "marlon-brando",
+      "candidateIndex": 1,
+      "displayText": "Vai diễn cuối cùng của Marlon Brando là trong phim The Score, đóng cùng Robert De Niro và Edward Norton, ra mắt năm 2001."
+    },
+    {
+      "id": "jane-goodall",
+      "candidateIndex": 0,
+      "displayText": "Jane Goodall được phong Dame of the British Empire năm 2004."
+    },
+    {
+      "id": "eddie-murphy",
+      "candidateIndex": 1,
+      "displayText": "Sau khi trở lại dẫn chương trình Saturday Night Live năm 2019, Eddie Murphy nhận giải Emmy năm 2020."
+    },
+    {
+      "id": "maya-angelou",
+      "candidateIndex": 0,
+      "displayText": "Maya Angelou được biết đến nhiều với tập hồi ký đầu tiên, I Know Why the Caged Bird Sings, xuất bản năm 1969."
+    },
+    {
+      "id": "andrei-tarkovsky",
+      "candidateIndex": 0,
+      "displayText": "Phim Solaris của Andrei Tarkovsky chuyển thể từ tiểu thuyết khoa học viễn tưởng cùng tên của Stanisław Lem."
+    },
+    {
+      "id": "heath-ledger",
+      "candidateIndex": 1,
+      "displayText": "Heath Ledger được biết đến với vai diễn trong Brokeback Mountain và nhân vật Joker trong The Dark Knight."
+    },
+    {
+      "id": "bette-davis",
+      "candidateIndex": 0,
+      "displayText": "Bette Davis giành giải Oscar cho diễn xuất trong Dangerous và Jezebel."
+    },
+    {
+      "id": "gregory-peck",
+      "candidateIndex": 2,
+      "displayText": "Gregory Peck giành Oscar và Quả cầu Vàng với vai luật sư Atticus Finch trong To Kill a Mockingbird."
+    },
+    {
+      "id": "tran-le-quoc-toan",
+      "candidateIndex": 0,
+      "displayText": "Trần Lê Quốc Toàn giành huy chương đồng hạng cân gà môn cử tạ tại Olympic London 2012."
+    },
+    {
+      "id": "james-watson",
+      "candidateIndex": 0,
+      "displayText": "James Watson cùng Francis Crick và Maurice Wilkins nhận Nobel Y sinh năm 1962 cho công trình về cấu trúc DNA."
+    },
+    {
+      "id": "kurt-georg-kiesinger",
+      "candidateIndex": 0,
+      "displayText": "Kurt Georg Kiesinger làm thủ hiến bang Baden-Württemberg từ năm 1958 đến 1966, trước khi trở thành thủ tướng Tây Đức."
+    },
+    {
+      "id": "rafael-correa",
+      "candidateIndex": 1,
+      "displayText": "Năm 2013, Rafael Correa giành khoảng 70% số phiếu ngay ở vòng đầu cuộc bầu cử tổng thống Ecuador."
+    },
+    {
+      "id": "jackie-chan",
+      "candidateIndex": 1,
+      "displayText": "Jackie Chan đóng phim Hồng Kông từ nhỏ, học hí kịch Trung Hoa rồi bắt đầu làm cascadeur và diễn viên vai nhỏ."
+    },
+    {
+      "id": "billie-holiday",
+      "candidateIndex": 1,
+      "displayText": "Ngày 27/11/1933, Billie Holiday thu âm đĩa đầu tiên với bài Your Mother’s Son-in-Law."
+    },
+    {
+      "id": "joseph-tran-van-toan",
+      "candidateIndex": 0,
+      "displayText": "Năm 2017, Giáo hoàng bổ nhiệm Joseph Trần Văn Toản làm giám mục phó Giáo phận Long Xuyên."
+    },
+    {
+      "id": "kofi-annan",
+      "candidateIndex": 0,
+      "displayText": "Năm 2001, Kofi Annan và Liên Hợp Quốc cùng nhận Nobel Hòa bình."
+    },
+    {
+      "id": "jacques-brel",
+      "candidateIndex": 0,
+      "displayText": "Năm 1977, Jacques Brel thu âm album Les Marquises trong những năm cuối đời sống tại quần đảo Marquesas."
+    },
+    {
+      "id": "edmund-husserl",
+      "candidateIndex": 0,
+      "displayText": "Edmund Husserl là triết gia Đức được xem là người sáng lập hiện tượng học."
+    },
+    {
+      "id": "charles-baudelaire",
+      "candidateIndex": 0,
+      "displayText": "Tập thơ Les Fleurs du mal của Charles Baudelaire bị tịch thu sau khi xuất bản năm 1857; sáu bài thơ bị kết luận là xúc phạm thuần phong."
+    },
+    {
+      "id": "jean-paul-belmondo",
+      "candidateIndex": 0,
+      "displayText": "Jean-Paul Belmondo nhận Cành cọ Vàng danh dự tại Cannes năm 2011 và Sư tử Vàng danh dự tại Venice năm 2016."
+    },
+    {
+      "id": "elias-lonnrot",
+      "candidateIndex": 0,
+      "displayText": "Bản đầu Kalevala do Elias Lönnrot biên soạn xuất bản năm 1835; bản mở rộng thường được dùng ra mắt năm 1849."
+    },
+    {
+      "id": "hugo-grotius",
+      "candidateIndex": 1,
+      "displayText": "Hugo Grotius nhận bằng tiến sĩ luật tại Orléans năm 1598 và hành nghề luật sư ở The Hague từ năm 1599."
+    },
+    {
+      "id": "omar-sharif",
+      "candidateIndex": 1,
+      "displayText": "Năm 2003, Omar Sharif nhận giải vinh danh sự nghiệp và đóng góp cho điện ảnh tại Liên hoan phim Venice."
+    },
+    {
+      "id": "joseph-pulitzer",
+      "candidateIndex": 1,
+      "displayText": "Joseph Pulitzer mua tờ New York World năm 1883 và biến tờ báo thành một tiếng nói độc lập, có tính phản biện."
+    },
+    {
+      "id": "george-canning",
+      "candidateIndex": 1,
+      "displayText": "Từ năm 1822, với cương vị ngoại trưởng, George Canning tích cực ủng hộ cuộc đấu tranh giành độc lập của các nước cộng hòa Nam Mỹ."
+    },
+    {
+      "id": "andrew-wiles",
+      "candidateIndex": 0,
+      "displayText": "Andrew Wiles nhận Giải Abel năm 2016 nhờ chứng minh Định lý cuối cùng của Fermat."
+    },
+    {
+      "id": "ferdinand-lassalle",
+      "candidateIndex": 1,
+      "displayText": "Năm 1863, Ferdinand Lassalle trở thành chủ tịch đầu tiên của Hiệp hội Công nhân Đức mới thành lập."
+    },
+    {
+      "id": "montserrat-caballe",
+      "candidateIndex": 1,
+      "displayText": "Montserrat Caballé tạo bước đột phá quốc tế tại Carnegie Hall năm 1965 với vở Lucrezia Borgia của Donizetti."
+    },
+    {
+      "id": "joyce-banda",
+      "candidateIndex": 2,
+      "displayText": "Trong bầu cử tổng thống Malawi năm 2014, Joyce Banda nhận 20,2% phiếu và thất cử."
+    },
+    {
+      "id": "nguyen-quang-hai",
+      "candidateIndex": 0,
+      "displayText": "Nguyễn Quang Hải ghi bàn đá phạt ở phút 38 trong trận Việt Nam thắng Yemen 2-0 tại Asian Cup 2019."
+    },
+    {
+      "id": "jacques-lacan",
+      "candidateIndex": 1,
+      "displayText": "Năm 1953, Jacques Lacan giới thiệu ba khái niệm Cái thực, Cái tượng trưng và Cái tưởng tượng."
+    },
+    {
+      "id": "samuel-beckett",
+      "candidateIndex": 0,
+      "displayText": "Samuel Beckett được xem là một trong những đại diện tiêu biểu của sân khấu phi lý thập niên 1950."
+    },
+    {
+      "id": "garry-kasparov",
+      "candidateIndex": 0,
+      "displayText": "Năm 1985, Garry Kasparov trở thành nhà vô địch cờ vua thế giới ở tuổi 22."
+    },
+    {
+      "id": "bhimrao-ambedkar",
+      "candidateIndex": 0,
+      "displayText": "Bhimrao Ambedkar giữ chức Bộ trưởng Tư pháp Ấn Độ từ năm 1947 đến 1951."
+    },
+    {
+      "id": "christiaan-huygens",
+      "candidateIndex": 0,
+      "displayText": "Tác phẩm De Ratiociniis in Ludo Aleae (1657) của Christiaan Huygens trình bày có hệ thống lý thuyết xác suất."
+    },
+    {
+      "id": "nguyen-phu-trong",
+      "candidateIndex": 0,
+      "displayText": "Năm 2021, Nguyễn Phú Trọng được bầu lại làm Tổng Bí thư Đảng Cộng sản Việt Nam nhiệm kỳ thứ ba."
+    },
+    {
+      "id": "emile-durkheim",
+      "candidateIndex": 0,
+      "displayText": "Trong tác phẩm đầu tay năm 1893, Émile Durkheim phân tích vai trò của phân công lao động trong việc gắn kết xã hội."
+    },
+    {
+      "id": "leonhard-euler",
+      "candidateIndex": 1,
+      "displayText": "Năm 1741, Leonhard Euler được Frederick Đại đế mời gia nhập Viện Hàn lâm Berlin."
+    },
+    {
+      "id": "tomas-transtromer",
+      "candidateIndex": 2,
+      "displayText": "Tomas Tranströmer nhận Giải Văn học Hội đồng Bắc Âu năm 1990 cho tập thơ För levande och döda."
+    },
+    {
+      "id": "charlie-chaplin",
+      "candidateIndex": 1,
+      "displayText": "Charlie Chaplin tạo nên hình tượng Kẻ lang thang mang tính biểu tượng và là nhân vật trung tâm của Hollywood từ thập niên 1920."
+    },
+    {
+      "id": "anatole-france",
+      "candidateIndex": 0,
+      "displayText": "Anatole France nhận Nobel Văn học năm 1921."
+    },
+    {
+      "id": "kareem-abdul-jabbar",
+      "candidateIndex": 2,
+      "displayText": "Kareem Abdul-Jabbar kết thúc sự nghiệp NBA với 38.387 điểm sau 1.560 trận."
+    },
+    {
+      "id": "sirimavo-bandaranaike",
+      "candidateIndex": 0,
+      "displayText": "Năm 1960, Sirimavo Bandaranaike trở thành nữ thủ tướng đầu tiên trên thế giới và sau đó đảm nhiệm ba nhiệm kỳ."
+    },
+    {
+      "id": "karen-blixen",
+      "candidateIndex": 1,
+      "displayText": "Năm 1931, Karen Blixen trở về Đan Mạch từ châu Phi và sống tại điền trang Rungstedlund."
+    },
+    {
+      "id": "william-holden",
+      "candidateIndex": 0,
+      "displayText": "William Holden thắng Oscar Nam diễn viên chính xuất sắc với vai diễn trong Stalag 17 (1953)."
+    },
+    {
+      "id": "leopold-stokowski",
+      "candidateIndex": 0,
+      "displayText": "Cincinnati Symphony Orchestra là dàn nhạc đầu tiên Leopold Stokowski giữ chức nhạc trưởng chính, trong giai đoạn 1909–1912."
+    },
+    {
+      "id": "wojciech-szczesny",
+      "candidateIndex": 0,
+      "displayText": "Wojciech Szczęsny ra mắt Arsenal ở vòng ba League Cup vào tháng 9 năm 2009."
+    },
+    {
+      "id": "michael-d-higgins",
+      "candidateIndex": 1,
+      "displayText": "Michael D. Higgins từng giảng dạy với tư cách giáo sư thỉnh giảng tại các đại học Manchester, Indiana và Southern Illinois."
+    },
+    {
+      "id": "jose-echegaray",
+      "candidateIndex": 0,
+      "displayText": "Năm 1904, José Echegaray cùng Frédéric Mistral nhận Nobel Văn học."
+    },
+    {
+      "id": "mswati-iii",
+      "candidateIndex": 1,
+      "displayText": "Mswati III được trao danh hiệu chính thức khi đăng quang vào tháng 4 năm 1986."
+    },
+    {
+      "id": "doan-van-hau",
+      "candidateIndex": 0,
+      "displayText": "Ở V.League 1 mùa 2019, Đoàn Văn Hậu có 21 lần ra sân cho Hà Nội."
+    },
+    {
+      "id": "joan-miro",
+      "candidateIndex": 1,
+      "displayText": "Joan Miró học nghệ thuật tại Barcelona giai đoạn 1907–1915 và có triển lãm đầu tiên năm 1918."
+    },
+    {
+      "id": "gro-harlem-brundtland",
+      "candidateIndex": 1,
+      "displayText": "Gro Harlem Brundtland là nữ thủ tướng đầu tiên của Na Uy và lãnh đạo ba chính phủ từ năm 1981 đến 1996."
+    },
+    {
+      "id": "jessica-lange",
+      "candidateIndex": 0,
+      "displayText": "Jessica Lange giành Oscar với các vai diễn trong Tootsie và Blue Sky."
+    },
+    {
+      "id": "elizabeth-ii",
+      "candidateIndex": 0,
+      "displayText": "Elizabeth II lên ngôi ngày 6/2/1952, ngay sau khi cha bà, George VI, qua đời."
+    },
+    {
+      "id": "max-weber",
+      "candidateIndex": 0,
+      "displayText": "Max Weber phân tích mối liên hệ giữa đạo đức Tin Lành và sự phát triển của chủ nghĩa tư bản."
+    },
+    {
+      "id": "iggy-pop",
+      "candidateIndex": 2,
+      "displayText": "Iggy Pop là giọng ca chính của ban nhạc The Stooges trong giai đoạn 1967–1974."
+    },
+    {
+      "id": "immanuel-kant",
+      "candidateIndex": 0,
+      "displayText": "Immanuel Kant bàn về các quyền con người trong các công trình triết học của mình từ thế kỷ XVIII."
+    },
+    {
+      "id": "jack-nicholson",
+      "candidateIndex": 0,
+      "displayText": "Jack Nicholson đóng vai Joker trong phim Batman của Tim Burton năm 1989."
+    },
+    {
+      "id": "rita-levi-montalcini",
+      "candidateIndex": 1,
+      "displayText": "Năm 1986, Rita Levi-Montalcini và Stanley Cohen nhận Nobel Y sinh nhờ phát hiện các yếu tố tăng trưởng."
+    },
+    {
+      "id": "max-planck",
+      "candidateIndex": 2,
+      "displayText": "Phát hiện của Max Planck rằng năng lượng được lượng tử hóa mở đường cho vật lý lượng tử."
+    },
+    {
+      "id": "halldor-laxness",
+      "candidateIndex": 0,
+      "displayText": "Halldór Laxness nhận Nobel Văn học năm 1955."
+    },
+    {
+      "id": "shirley-temple",
+      "candidateIndex": 1,
+      "displayText": "Shirley Temple ra mắt điện ảnh khi mới bốn tuổi và nhanh chóng trở thành ngôi sao quốc tế."
+    },
+    {
+      "id": "barbra-streisand",
+      "candidateIndex": 1,
+      "displayText": "Trong Yentl (1983), Barbra Streisand đóng chính, hát toàn bộ ca khúc, viết kịch bản, sản xuất và đạo diễn."
+    },
+    {
+      "id": "shirley-maclaine",
+      "candidateIndex": 1,
+      "displayText": "Shirley MacLaine thắng một Oscar diễn xuất và năm giải Quả cầu Vàng cho diễn xuất."
+    },
+    {
+      "id": "sachin-tendulkar",
+      "candidateIndex": 2,
+      "displayText": "Sachin Tendulkar ghi 15.921 điểm trong các trận Test cricket, một kỷ lục thế giới được Store norske leksikon ghi nhận."
+    },
+    {
+      "id": "al-pacino",
+      "candidateIndex": 2,
+      "displayText": "Al Pacino thắng Oscar Nam diễn viên chính xuất sắc với phim Scent of a Woman (1992)."
+    },
+    {
+      "id": "ella-fitzgerald",
+      "candidateIndex": 0,
+      "displayText": "Ella Fitzgerald được phát hiện sau khi biểu diễn tại cuộc thi nghiệp dư ở Harlem năm 1934."
+    },
+    {
+      "id": "johan-cruyff",
+      "candidateIndex": 1,
+      "displayText": "Johan Cruyff được các nhà báo bóng đá Hà Lan bầu là Cầu thủ xuất sắc nhất mùa giải 1983–1984."
+    },
+    {
+      "id": "ludwig-wittgenstein",
+      "candidateIndex": 2,
+      "displayText": "Ludwig Wittgenstein xuất bản Tractatus Logico-Philosophicus năm 1921."
+    },
+    {
+      "id": "eugene-delacroix",
+      "candidateIndex": 2,
+      "displayText": "Eugène Delacroix lần đầu triển lãm tại Salon Paris năm 1822 với bức Dante and Virgil."
+    },
+    {
+      "id": "i-m-pei",
+      "candidateIndex": 2,
+      "displayText": "I. M. Pei đã thiết kế hơn 50 công trình tại Hoa Kỳ và nhiều quốc gia khác."
+    },
+    {
+      "id": "ulysses-s-grant",
+      "candidateIndex": 1,
+      "displayText": "Ulysses S. Grant là tổng thống thứ 18 của Hoa Kỳ, tại nhiệm từ năm 1869 đến 1877."
+    },
+    {
+      "id": "mary-wollstonecraft",
+      "candidateIndex": 0,
+      "displayText": "Năm 1788, Mary Wollstonecraft xuất bản tiểu thuyết Mary: A Fiction; năm sau bà phát hành tuyển tập The Female Reader."
+    },
+    {
+      "id": "willem-alexander",
+      "candidateIndex": 2,
+      "displayText": "Willem-Alexander lên ngôi vua Hà Lan sau khi mẹ ông thoái vị ngày 30/4/2013."
+    },
+    {
+      "id": "james-monroe",
+      "candidateIndex": 0,
+      "displayText": "James Monroe là tổng thống thứ năm của Hoa Kỳ, tại nhiệm từ năm 1817 đến 1825."
+    },
+    {
+      "id": "penelope-cruz",
+      "candidateIndex": 1,
+      "displayText": "Penélope Cruz và các bạn diễn nữ trong Volver nhận giải diễn xuất tập thể tại Liên hoan phim Cannes; Cruz cũng được đề cử Oscar."
+    },
+    {
+      "id": "harper-lee",
+      "candidateIndex": 2,
+      "displayText": "Harper Lee nhận Pulitzer năm 1961 cho To Kill a Mockingbird và sau đó được ba tổng thống Hoa Kỳ trao vinh danh."
+    },
+    {
+      "id": "uma-thurman",
+      "candidateIndex": 1,
+      "displayText": "Vai diễn của Uma Thurman trong Pulp Fiction được đề cử Oscar; sau đó bà đóng chính trong Kill Bill."
+    },
+    {
+      "id": "zubin-mehta",
+      "candidateIndex": 0,
+      "displayText": "Zubin Mehta chỉ huy vở opera đầu tiên, Tosca của Puccini, tại Montréal năm 1964."
+    },
+    {
+      "id": "andre-agassi",
+      "candidateIndex": 0,
+      "displayText": "Andre Agassi giành huy chương vàng Olympic 1996 và tám danh hiệu đơn Grand Slam."
+    },
+    {
+      "id": "antonio-guterres",
+      "candidateIndex": 0,
+      "displayText": "Trước khi trở thành người đứng đầu Liên Hợp Quốc, António Guterres là Cao ủy Liên Hợp Quốc về người tị nạn giai đoạn 2005–2015."
+    },
+    {
+      "id": "kirsten-dunst",
+      "candidateIndex": 2,
+      "displayText": "Kirsten Dunst được đông đảo khán giả biết đến qua vai Mary Jane Watson trong Spider-Man (2002)."
+    },
+    {
+      "id": "jaroslav-hasek",
+      "candidateIndex": 0,
+      "displayText": "Tác phẩm nổi tiếng nhất của Jaroslav Hašek là bộ tiểu thuyết The Good Soldier Švejk, viết giai đoạn 1921–1923."
+    },
+    {
+      "id": "gertrude-stein",
+      "candidateIndex": 0,
+      "displayText": "Năm 1903, Gertrude Stein chuyển đến Paris cùng Alice B. Toklas, người về sau là bạn đời và thư ký của bà.",
+      "biographyOverride": "Gertrude Stein là nhà văn người Mỹ sống và sáng tác tại Paris. Năm 1903, bà chuyển đến Paris cùng Alice B. Toklas, người gắn bó với bà suốt đời.",
+      "highlightsOverride": [
+        "Sinh ngày 3/2/1874.",
+        "Năm 1903, Gertrude Stein chuyển đến Paris cùng Alice B. Toklas, người về sau là bạn đời và thư ký của bà."
+      ],
+      "editorialOverride": true
+    },
+    {
+      "id": "ngo-bao-chau",
+      "candidateIndex": 0,
+      "displayText": "Ngô Bảo Châu nhận Huy chương Fields năm 2010 nhờ chứng minh Bổ đề Cơ bản trong lý thuyết các dạng tự đẳng cấu.",
+      "biographyOverride": "Ngô Bảo Châu là nhà toán học người Việt Nam. Ngô Bảo Châu nhận Huy chương Fields năm 2010 nhờ chứng minh Bổ đề Cơ bản trong lý thuyết các dạng tự đẳng cấu.",
+      "highlightsOverride": [
+        "Ngô Bảo Châu nhận Huy chương Fields năm 2010 nhờ chứng minh Bổ đề Cơ bản trong lý thuyết các dạng tự đẳng cấu."
+      ],
+      "editorialOverride": true,
+      "shortDescriptionOverride": "Nhà toán học Việt Nam, nhận Huy chương Fields năm 2010."
+    },
+    {
+      "id": "napoleon-bonaparte",
+      "candidateIndex": 0,
+      "displayText": "Sau cuộc đảo chính ngày 18 Brumaire năm 1799, Napoléon Bonaparte trở thành Đệ nhất Tổng tài; trong thời kỳ Tổng tài, Pháp thành lập Banque de France và soạn Code Civil.",
+      "biographyOverride": "Napoléon Bonaparte là nhà quân sự và chính trị gia Pháp. Sau cuộc đảo chính ngày 18 Brumaire năm 1799, Napoléon Bonaparte trở thành Đệ nhất Tổng tài; trong thời kỳ Tổng tài, Pháp thành lập Banque de France và soạn Code Civil.",
+      "highlightsOverride": [
+        "Sinh ngày 15/8/1769.",
+        "Sau cuộc đảo chính ngày 18 Brumaire năm 1799, Napoléon Bonaparte trở thành Đệ nhất Tổng tài; trong thời kỳ Tổng tài, Pháp thành lập Banque de France và soạn Code Civil."
+      ],
+      "editorialOverride": true,
+      "shortDescriptionOverride": "Nhà quân sự và chính trị gia Pháp; trở thành Đệ nhất Tổng tài năm 1799."
+    },
+    {
+      "id": "elvis-presley",
+      "candidateIndex": 0,
+      "displayText": "Năm 1956, Heartbreak Hotel trở thành đĩa đơn quán quân đầu tiên của Elvis Presley; ông cũng xuất hiện trong Love Me Tender (1956), Jailhouse Rock (1957) và Blue Hawaii (1961).",
+      "biographyOverride": "Elvis Presley là ca sĩ và diễn viên người Mỹ. Năm 1956, Heartbreak Hotel trở thành đĩa đơn quán quân đầu tiên của Elvis Presley; ông cũng xuất hiện trong Love Me Tender (1956), Jailhouse Rock (1957) và Blue Hawaii (1961).",
+      "highlightsOverride": [
+        "Sinh ngày 8/1/1935.",
+        "Năm 1956, Heartbreak Hotel trở thành đĩa đơn quán quân đầu tiên của Elvis Presley; ông cũng xuất hiện trong Love Me Tender (1956), Jailhouse Rock (1957) và Blue Hawaii (1961)."
+      ],
+      "editorialOverride": true
+    },
+    {
+      "id": "jennifer-lawrence",
+      "candidateIndex": 0,
+      "displayText": "Jennifer Lawrence vào vai Katniss Everdeen trong bốn phim thuộc loạt The Hunger Games (2012–2015) và thắng ba giải Quả cầu Vàng cho Silver Linings Playbook, American Hustle và Joy.",
+      "biographyOverride": "Jennifer Lawrence là nữ diễn viên người Mỹ. Jennifer Lawrence vào vai Katniss Everdeen trong bốn phim thuộc loạt The Hunger Games (2012–2015) và thắng ba giải Quả cầu Vàng cho Silver Linings Playbook, American Hustle và Joy.",
+      "highlightsOverride": [
+        "Sinh ngày 15/8/1990.",
+        "Jennifer Lawrence vào vai Katniss Everdeen trong bốn phim thuộc loạt The Hunger Games (2012–2015) và thắng ba giải Quả cầu Vàng cho Silver Linings Playbook, American Hustle và Joy."
+      ],
+      "editorialOverride": true
+    },
+    {
+      "id": "edvard-munch",
+      "candidateIndex": 0,
+      "displayText": "Edvard Munch hoạt động hơn 60 năm, là người tiên phong của nghệ thuật Biểu hiện từ đầu thế kỷ XX; Bảo tàng MUNCH ghi một phiên bản màu sáp của The Scream có niên đại 1893.",
+      "biographyOverride": "Edvard Munch là họa sĩ người Na Uy. Edvard Munch hoạt động hơn 60 năm, là người tiên phong của nghệ thuật Biểu hiện từ đầu thế kỷ XX; Bảo tàng MUNCH ghi một phiên bản màu sáp của The Scream có niên đại 1893.",
+      "highlightsOverride": [
+        "Edvard Munch hoạt động hơn 60 năm, là người tiên phong của nghệ thuật Biểu hiện từ đầu thế kỷ XX; Bảo tàng MUNCH ghi một phiên bản màu sáp của The Scream có niên đại 1893."
+      ],
+      "editorialOverride": true
+    }
+  ]
+}

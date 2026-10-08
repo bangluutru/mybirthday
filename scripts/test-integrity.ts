@@ -1,9 +1,12 @@
 import { ALL_PEOPLE, HISTORY_EVENTS, HISTORY_EVENTS_22_FEB, getBirthdayData } from '../src/data/birthdays';
 import { isAdultOnDate, isValidIsoDate } from './wikidata-candidates';
 import { createHash } from 'node:crypto';
+import { didPersonDieOnDate, getAgeAtDeath, getLifespanLabel } from '../src/data/types';
 import B013_EVIDENCE from '../.ai/evidence/B013.json';
 import B014_EVIDENCE from '../.ai/evidence/B014.json';
 import { B015_B016_NEW_IDS, runB015B016Integrity } from './test-integrity-b015-b016';
+import { BV017_EXPANSION_NEW_IDS } from './test-bv017-expansion-pilot';
+import { projectPersonBeforeBv017, sourceUrlsBeforeBv017, verifyBv017CorrectionManifest } from './bv017-corrections';
 
 interface Failure {
   suite: string;
@@ -53,6 +56,8 @@ function assert(suite: string, condition: boolean, message: string) {
   }
 }
 
+verifyBv017CorrectionManifest(ALL_PEOPLE, assert);
+
 console.log('============================================================');
 console.log('BIRTHDAYVERSE — DATA INTEGRITY & FACTUAL SUITE (BV-001R1)');
 console.log('============================================================\n');
@@ -94,6 +99,22 @@ assert('Test 0 (Positive)', isValidCalendarDate(1732, 2, 22), 'Must accept 1732-
 assert('Test 0 (Positive)', isValidCalendarDate(1975, 2, 22), 'Must accept 1975-02-22');
 assert('Test 0 (Positive)', isValidCalendarDate(1984, 4, 10), 'Must accept 1984-04-10');
 assert('Test 0 (Positive)', isValidCalendarDate(1939, 2, 28), 'Must accept 1939-02-28');
+
+console.log('Checking Test 0: Unknown life status must not be shown as living...');
+assert('Test 0 (Life status)', getLifespanLabel({ birthYear: 1940 }) === '1940', 'Unknown life status must show only the birth year');
+assert('Test 0 (Life status)', getLifespanLabel({ birthYear: 1940, lifeStatus: 'living' }) === '1940 – nay', 'Explicit living status may show nay');
+assert('Test 0 (Life status)', getLifespanLabel({ birthYear: 1940, lifeStatus: 'deceased' }) === '1940 – đã mất', 'Explicit deceased status without a year must not imply a death year');
+assert('Test 0 (Life status)', getLifespanLabel({ birthYear: 1940, deathDate: '2005-12-10' }) === '1940 – 2005', 'A death date must show the recorded death year');
+assert('Test 0 (Life status)', ALL_PEOPLE.every((person) => getLifespanLabel(person).includes('nay') === (person.lifeStatus === 'living' && !person.deathDate)), 'Only explicitly living people may be rendered as living');
+assert('Test 0 (Life status)', didPersonDieOnDate({ deathDate: '2005-12-10' }, 12, 10), 'Exact death dates must match their death anniversary');
+assert('Test 0 (Life status)', !didPersonDieOnDate({ deathDate: '2005' }, 12, 10), 'A death year alone must not be treated as a precise anniversary');
+assert('Test 0 (Life status)', !didPersonDieOnDate({ deathDate: '1944-12-15', deathDatePrecision: 'presumed-day' }, 12, 15), 'A missing-in-action date must not be treated as a confirmed death anniversary');
+assert('Test 0 (Life status)', getLifespanLabel({ birthYear: 1904, deathDate: '1944-12-15', deathDatePrecision: 'presumed-day' }) === '1904 – mất tích từ 15/12/1944; ngày mất chưa xác định', 'A missing-in-action date must be labeled as missing rather than as a confirmed death date');
+assert('Test 0 (Life status)', getAgeAtDeath({ birthYear: 1940, birthDate: '1940-12-01', deathDate: '2005-12-10' }) === 65, 'Exact age at death must account for whether the birthday passed');
+assert('Test 0 (Life status)', getAgeAtDeath({ birthYear: 1940, birthDate: '1940-12-01', deathDate: '2005' }) === null, 'Do not estimate age at death from a year-only date');
+assert('Test 0 (Life status)', getAgeAtDeath({ birthYear: 1904, birthDate: '1904-03-01', deathDate: '1944-12-15', deathDatePrecision: 'presumed-day' }) === null, 'Do not calculate an exact age from a missing-in-action date');
+const glennMiller = ALL_PEOPLE.find((person) => person.id === 'glenn-miller');
+assert('Test 0 (Life status)', Boolean(glennMiller && getLifespanLabel(glennMiller).includes('mất tích từ') && !getLifespanLabel(glennMiller).includes('nay')), 'Glenn Miller must not appear as living or have a confirmed death anniversary');
 
 console.log('Checking Test 0: Dynamic adult-age boundary in Wikidata candidate filter...');
 assert('Test 0 (Age)', isAdultOnDate('2008-10-03', '2026-10-03'), 'Must include a person on their 18th birthday');
@@ -684,6 +705,9 @@ for (const p of ALL_PEOPLE) {
       'dickensmuseum.com', 'lauraingallswilderhome.com', 'unesco.org', 'afi.com', 'sonymusic.co.jp',
       'adk.de', 'invent.org', 'universalmusic.fr', 'bbaw.de', 'prlib.ru', 'snl.no', 'musees-nationaux-alpesmaritimes.fr', 'sciencemuseumgroup.org.uk', 'millercenter.org', 'lex.dk', 'kongehuset.dk', 'televisionacademy.com', 'pen-international.org', 'safeguarddefenders.com', 'english-heritage.org.uk', 'theworldgames.org',
       'canadaswalkoffame.com', 'astridlindgren.com', 'worldathletics.org', 'uzathletics.uz', 'idref.fr', 'datos.bne.es', 'deutsche-kinemathek.de',
+      // BV-017 pilot publishers: foundations, public archives, universities, and official organizations.
+      'bloomberg.org', 'ndl.go.jp', 'fhcm.paris', 'qdnd.vn', 'group.softbank',
+      'iima.ac.in', 'iitk.ac.in', 'uni-muenchen.de', 'alvaraalto.fi', 'thebodyshop.in',
     ];
     const hasInstitutionalSource = independentSources.some((u) => {
       const h = getUrlHostname(u);
@@ -837,7 +861,8 @@ for (let day = 1; day <= 31; day++) {
 console.log('Checking Rule T: January 1-31 additions nationality balance (20%-40% Vietnamese)...');
 const NEW_JAN_PEOPLE = ALL_PEOPLE.filter((p) =>
   p.birthMonth === 1 && p.birthDay >= 1 && p.birthDay <= 31 &&
-  !(OLD_30_PERSON_IDS.has(p.id) && p.verifiedAt === '2026-10-03')
+  !(OLD_30_PERSON_IDS.has(p.id) && p.verifiedAt === '2026-10-03') &&
+  !BV017_EXPANSION_NEW_IDS.has(p.id)
 );
 const newVietnameseCount = NEW_JAN_PEOPLE.filter((p) => p.countryCode === 'VN').length;
 const newInternationalCount = NEW_JAN_PEOPLE.length - newVietnameseCount;
@@ -1707,7 +1732,7 @@ const B014_NEW_IDS = new Set([
   'zaha-hadid',
 ]);
 const b010CycleDatedProfiles = ALL_PEOPLE.filter((p) => p.birthMonth === 6 && p.verifiedAt === '2026-10-06');
-const b009BaselinePeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7 && !(p.birthMonth === 6 && p.verifiedAt === '2026-10-06') && !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id));
+const b009BaselinePeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7 && !(p.birthMonth === 6 && p.verifiedAt === '2026-10-06') && !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id) && !BV017_EXPANSION_NEW_IDS.has(p.id));
 assert('Rule AD', b009BaselinePeople.length === 478, `B009 baseline must remain 478 after excluding B010 and B011 additions, found ${b009BaselinePeople.length}`);
 assert('Rule AD', HISTORY_EVENTS.length === 4, `B009 must preserve all 4 events, found ${HISTORY_EVENTS.length}`);
 
@@ -3131,7 +3156,7 @@ for (const p of B010_NEW_PEOPLE) {
   assert('Rule AE source', new Set(expected.dobSources.map((source) => getUrlHostname(source.url))).size === 2, `B010 ${p.id} DOB source hosts must be distinct`);
   const approvedUrls = expected.dobSources.map((source) => source.url);
   const approvedContextUrls = expected.additionalSourceUrls || [];
-  const nonWikiUrls = (p.sourceUrls || []).filter((url) => !url.includes('wikidata.org') && !url.includes('wikipedia.org') && !url.includes('wikimedia.org'));
+  const nonWikiUrls = sourceUrlsBeforeBv017(p).filter((url) => !url.includes('wikidata.org') && !url.includes('wikipedia.org') && !url.includes('wikimedia.org'));
   const exactApprovedUrls = [...approvedUrls, ...approvedContextUrls];
   assert('Rule AE source', nonWikiUrls.length === exactApprovedUrls.length && exactApprovedUrls.every((url) => nonWikiUrls.includes(url)), `B010 ${p.id} must include exactly its reviewed DOB and contextual non-Wikidata sources`);
   for (const source of expected.dobSources) {
@@ -3204,7 +3229,7 @@ for (const p of b010Vietnamese) {
   assert('Rule AE Vietnamese', sources.every((source) => source.publisherCountry !== 'VN' && Boolean(source.countryProofUrl)), `B010 Vietnamese ${p.id} requires two sources with verified foreign publisher countries`);
   assert('Rule AE Vietnamese', sources.every((source) => (p.sourceUrls || []).includes(source.url)), `B010 Vietnamese ${p.id} must include both approved DOB URLs`);
 }
-const b010ScopePeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7 && !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id));
+const b010ScopePeople = ALL_PEOPLE.filter((p) => p.birthMonth !== 7 && !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id) && !BV017_EXPANSION_NEW_IDS.has(p.id));
 assert('Rule AE balance', b010ScopePeople.length === 568, `B010 through-June dataset must contain 568 people, found ${b010ScopePeople.length}`);
 assert('Rule AE events', HISTORY_EVENTS.length === 4, `B010 must preserve exactly 4 history events, found ${HISTORY_EVENTS.length}`);
 const b010CoveredDays = new Set(b010ScopePeople.map((p) => `${p.birthMonth}-${p.birthDay}`));
@@ -3226,7 +3251,7 @@ function stableSha256(value: unknown): string {
   return createHash('sha256').update(stableSerialize(value)).digest('hex');
 }
 const b010PreservedPeople = b010ScopePeople.filter((p) => !B010_APPROVED_IDS.has(p.id)).sort((a, b) => a.id.localeCompare(b.id));
-assert('Rule AE baseline', stableSha256(b010PreservedPeople) === 'b79da34cf8a047a586ddbaf10ab8120f28d31dcbfb8d95f4cebe1f05600cc97e', 'All 478 pre-B010 people must remain deep-equal to the locked baseline');
+assert('Rule AE baseline', stableSha256(b010PreservedPeople.map(projectPersonBeforeBv017)) === 'b79da34cf8a047a586ddbaf10ab8120f28d31dcbfb8d95f4cebe1f05600cc97e', 'All 478 pre-B010 people must remain deep-equal to the locked baseline after the independently verified BV-017 correction projection');
 assert('Rule AE baseline', stableSha256(HISTORY_EVENTS) === '6dd4aae214c2b43131155c6483c3f3c575fe632e1287583c5c28ce4e40dcfd07', 'All 4 history events must remain deep-equal to the locked baseline');
 console.log(`B010 additions: ${B010_NEW_PEOPLE.length}; Vietnamese: ${b010Vietnamese.length}; Vietnamese share: ${(b010Vietnamese.length / B010_NEW_PEOPLE.length * 100).toFixed(2)}%; coverage: ${b010CoveredDays.size}/366`);
 
@@ -5022,7 +5047,7 @@ const B011_APPROVED_PROFILES: Readonly<Record<string, {
     ]
   }
 };
-const b011ScopePeople = ALL_PEOPLE.filter((p) => !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id));
+const b011ScopePeople = ALL_PEOPLE.filter((p) => !B012_NEW_IDS.has(p.id) && !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id) && !BV017_EXPANSION_NEW_IDS.has(p.id));
 const B011_NEW_PEOPLE = b011ScopePeople.filter((p) => p.birthMonth === 7);
 const B011_APPROVED_IDS = new Set(Object.keys(B011_APPROVED_PROFILES));
 const B011_APPROVED_QIDS = new Set(Object.values(B011_APPROVED_PROFILES).map((profile) => profile.wikidataId));
@@ -5052,7 +5077,7 @@ for (const p of B011_NEW_PEOPLE) {
   assert('Rule AF source', new Set(expected.dobSources.map((source) => source.publisher)).size === 2, `B011 ${p.id} DOB publishers must be distinct`);
   assert('Rule AF source', new Set(expected.dobSources.map((source) => getUrlHostname(source.url))).size === 2, `B011 ${p.id} DOB source hosts must be distinct`);
   const approvedUrls = expected.dobSources.map((source) => source.url);
-  const nonWikiUrls = (p.sourceUrls || []).filter((url) => !['wikidata.org','www.wikidata.org','wikipedia.org','www.wikipedia.org','wikimedia.org','www.wikimedia.org'].includes(getUrlHostname(url)));
+  const nonWikiUrls = sourceUrlsBeforeBv017(p).filter((url) => !['wikidata.org','www.wikidata.org','wikipedia.org','www.wikipedia.org','wikimedia.org','www.wikimedia.org'].includes(getUrlHostname(url)));
   assert('Rule AF source', nonWikiUrls.length === 2 && approvedUrls.every((url) => nonWikiUrls.includes(url)), `B011 ${p.id} must include exactly its two reviewed non-Wikidata DOB sources`);
   for (const source of expected.dobSources) {
     assert('Rule AF source positive', isApprovedB011DobSource(p.wikidataId || '', source.url), `B011 reviewed source must pass for ${p.id}: ${source.url}`);
@@ -5094,7 +5119,7 @@ const b011CoveredDays = new Set(b011ScopePeople.map((p) => `${p.birthMonth}-${p.
 assert('Rule AF coverage', b011CoveredDays.size === 215, `B011 expected 215 covered calendar days after July, found ${b011CoveredDays.size}`);
 const b011PreservedPeople = b011ScopePeople.filter((p) => p.birthMonth !== 7).sort((a, b) => a.id.localeCompare(b.id));
 assert('Rule AF baseline', b011PreservedPeople.length === 568, `B011 must preserve all 568 non-July baseline people, found ${b011PreservedPeople.length}`);
-assert('Rule AF baseline', stableSha256(b011PreservedPeople) === '7c31cfcf776fa4fcda052ba23f2c4d78883749cb18b80162104bf0b4c09ea674', 'All 568 non-July baseline profiles, including August, must remain deep-equal');
+assert('Rule AF baseline', stableSha256(b011PreservedPeople.map(projectPersonBeforeBv017)) === '7c31cfcf776fa4fcda052ba23f2c4d78883749cb18b80162104bf0b4c09ea674', 'All 568 non-July baseline profiles, including August, must remain deep-equal after the independently verified BV-017 correction projection');
 assert('Rule AF baseline', stableSha256(HISTORY_EVENTS) === '6dd4aae214c2b43131155c6483c3f3c575fe632e1287583c5c28ce4e40dcfd07', 'All 4 history events must remain deep-equal');
 console.log(`B011 additions: ${B011_NEW_PEOPLE.length}; Vietnamese: ${b011Vietnamese.length}; Vietnamese share: ${(b011Vietnamese.length / B011_NEW_PEOPLE.length * 100).toFixed(2)}%; coverage: ${b011CoveredDays.size}/366`);
 
@@ -6891,7 +6916,7 @@ const B012_APPROVED_PROFILES: Readonly<Record<string, {
 };
 const B012_APPROVED_IDS = new Set(Object.keys(B012_APPROVED_PROFILES));
 const B012_APPROVED_QIDS = new Set(Object.values(B012_APPROVED_PROFILES).map((profile) => profile.wikidataId));
-const b012HistoricalPeople = ALL_PEOPLE.filter((p) => !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id));
+const b012HistoricalPeople = ALL_PEOPLE.filter((p) => !B013_NEW_IDS.has(p.id) && !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id) && !BV017_EXPANSION_NEW_IDS.has(p.id));
 const B012_NEW_PEOPLE = b012HistoricalPeople.filter((p) => B012_APPROVED_IDS.has(p.id));
 assert('Rule AG', B012_NEW_IDS.size === 93 && B012_APPROVED_IDS.size === 93, 'B012 exact allowlist must contain 93 unique IDs');
 assert('Rule AG', B012_NEW_IDS.size === B012_APPROVED_IDS.size && [...B012_NEW_IDS].every((id) => B012_APPROVED_IDS.has(id)), 'B012 historical projection IDs must exactly match the reviewed allowlist');
@@ -6921,7 +6946,7 @@ for (const p of B012_NEW_PEOPLE) {
   assert('Rule AG source', new Set(expected.dobSources.map((source) => source.publisher)).size === 2, `B012 ${p.id} DOB publishers must be distinct`);
   assert('Rule AG source', new Set(expected.dobSources.map((source) => getUrlHostname(source.url))).size === 2, `B012 ${p.id} DOB source hosts must be distinct`);
   const approvedUrls = expected.dobSources.map((source) => source.url);
-  const nonWikiUrls = (p.sourceUrls || []).filter((url) => !['wikidata.org','www.wikidata.org','wikipedia.org','www.wikipedia.org','wikimedia.org','www.wikimedia.org'].includes(getUrlHostname(url)));
+  const nonWikiUrls = sourceUrlsBeforeBv017(p).filter((url) => !['wikidata.org','www.wikidata.org','wikipedia.org','www.wikipedia.org','wikimedia.org','www.wikimedia.org'].includes(getUrlHostname(url)));
   assert('Rule AG source', nonWikiUrls.length === 2 && approvedUrls.every((url) => nonWikiUrls.includes(url)), `B012 ${p.id} must include exactly its two reviewed non-Wikidata DOB sources`);
   for (const source of expected.dobSources) {
     assert('Rule AG source positive', isApprovedB012DobSource(p.wikidataId || '', source.url), `B012 reviewed source must pass for ${p.id}: ${source.url}`);
@@ -6969,7 +6994,7 @@ assert('Rule AG coverage', b012AugustDays.size === 31, `B012 must cover all 31 A
 assert('Rule AG coverage', b012HistoricalPeople.filter((p) => p.birthMonth === 8 && p.birthDay === 15).length === 5, 'B012 August 15 must contain the three additions and two preserved baseline profiles');
 const b012PreservedPeople = b012HistoricalPeople.filter((p) => !B012_APPROVED_IDS.has(p.id)).sort((a, b) => a.id.localeCompare(b.id));
 assert('Rule AG baseline', b012PreservedPeople.length === 661, `B012 must preserve all 661 baseline people, found ${b012PreservedPeople.length}`);
-assert('Rule AG baseline', stableSha256(b012PreservedPeople) === 'bbdbf73293a1e6e861dffd6bab00b1eee0a4639d79ba2eb9594eec1df97c0334', 'All 661 baseline people must remain deep-equal to origin/main before B012');
+assert('Rule AG baseline', stableSha256(b012PreservedPeople.map(projectPersonBeforeBv017)) === 'bbdbf73293a1e6e861dffd6bab00b1eee0a4639d79ba2eb9594eec1df97c0334', 'All 661 baseline people must remain deep-equal to origin/main before B012 after the independently verified BV-017 correction projection');
 assert('Rule AG baseline', stableSha256(HISTORY_EVENTS) === '6dd4aae214c2b43131155c6483c3f3c575fe632e1287583c5c28ce4e40dcfd07', 'All 4 history events must remain deep-equal to origin/main');
 console.log(`B012 additions: ${B012_NEW_PEOPLE.length}; Vietnamese: ${b012Vietnamese.length}; Vietnamese share: ${(b012Vietnamese.length / B012_NEW_PEOPLE.length * 100).toFixed(2)}%; coverage: ${b012CoveredDays.size}/366`);
 
@@ -8583,7 +8608,7 @@ for (const p of B013_NEW_PEOPLE) {
   assert('Rule AH source', expected.dobSources.length === 2, `B013 ${p.id} must have exactly two reviewed DOB publishers`);
   assert('Rule AH source', new Set(expected.dobSources.map((source) => source.publisher)).size === 2, `B013 ${p.id} publishers must be distinct`);
   assert('Rule AH source', new Set(expected.dobSources.map((source) => getUrlHostname(source.url))).size === 2, `B013 ${p.id} DOB source hosts must be distinct`);
-  const nonWikiUrls = (p.sourceUrls || []).filter((url) => !['wikidata.org', 'www.wikidata.org', 'wikipedia.org', 'www.wikipedia.org', 'wikimedia.org', 'www.wikimedia.org'].includes(getUrlHostname(url)));
+  const nonWikiUrls = sourceUrlsBeforeBv017(p).filter((url) => !['wikidata.org', 'www.wikidata.org', 'wikipedia.org', 'www.wikipedia.org', 'wikimedia.org', 'www.wikimedia.org'].includes(getUrlHostname(url)));
   const approvedUrls = expected.dobSources.map((source) => source.url);
   assert('Rule AH source', nonWikiUrls.length === 2 && approvedUrls.every((url) => nonWikiUrls.includes(url)), `B013 ${p.id} must include exactly its reviewed non-Wikidata DOB pair`);
   assert('Rule AH evidence', evidence?.wikidataId === expected.wikidataId && evidence.birthDate === expected.birthDate && evidence.countryCode === expected.countryCode && evidence.category === expected.category && evidence.occupation === expected.occupation, `B013 evidence mapping must match the allowlist for ${p.id}`);
@@ -8658,14 +8683,14 @@ assert('Rule AH Wikidata exception', (b013EntityAudit['Q148234']?.p569 || []).so
 
 for (let day = 1; day <= 30; day++) {
   const additions = B013_NEW_PEOPLE.filter((p) => p.birthDay === day);
-  const total = ALL_PEOPLE.filter((p) => p.birthMonth === 9 && p.birthDay === day);
+  const total = ALL_PEOPLE.filter((p) => p.birthMonth === 9 && p.birthDay === day && !BV017_EXPANSION_NEW_IDS.has(p.id));
   assert('Rule AH coverage', additions.length === 3, `B013 September ${day} must have exactly 3 additions, found ${additions.length}`);
   assert('Rule AH coverage', total.length === 3 && total.length <= 8, `B013 September ${day} must have 3 additions and no more than 8 total people, found ${total.length}`);
 }
-const b013HistoricalPeople = ALL_PEOPLE.filter((p) => !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id));
+const b013HistoricalPeople = ALL_PEOPLE.filter((p) => !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id) && !BV017_EXPANSION_NEW_IDS.has(p.id));
 const b013BaselinePeople = b013HistoricalPeople.filter((p) => !B013_NEW_IDS.has(p.id));
 assert('Rule AH baseline', b013BaselinePeople.length === 754, `B013 must preserve all 754 baseline people, found ${b013BaselinePeople.length}`);
-assert('Rule AH baseline', stableSha256(b013BaselinePeople.sort((a, b) => a.id.localeCompare(b.id))) === '43e159877b62e4e68ba6fb15763c40cbf660325803896fcf0843edc73702c282', 'All 754 origin/main people must remain deep-equal to the B013 baseline');
+assert('Rule AH baseline', stableSha256(b013BaselinePeople.sort((a, b) => a.id.localeCompare(b.id)).map(projectPersonBeforeBv017)) === '43e159877b62e4e68ba6fb15763c40cbf660325803896fcf0843edc73702c282', 'All 754 origin/main people must remain deep-equal to the B013 baseline after the independently verified BV-017 correction projection');
 assert('Rule AH baseline', stableSha256(HISTORY_EVENTS) === '6dd4aae214c2b43131155c6483c3f3c575fe632e1287583c5c28ce4e40dcfd07', 'All 4 history events must remain deep-equal to the B013 baseline');
 const b013CoveredDays = new Set(b013HistoricalPeople.map((p) => `${p.birthMonth}-${p.birthDay}`));
 const b013SeptemberDays = new Set(b013HistoricalPeople.filter((p) => p.birthMonth === 9).map((p) => p.birthDay));
@@ -10445,7 +10470,7 @@ for (const p of B014_NEW_PEOPLE) {
   assert('Rule AI source', expected.dobSources.length === 2, `B014 ${p.id} must have exactly two reviewed DOB publishers`);
   assert('Rule AI source', new Set(expected.dobSources.map((source) => source.publisher)).size === 2, `B014 ${p.id} publishers must be distinct`);
   assert('Rule AI source', new Set(expected.dobSources.map((source) => getUrlHostname(source.url))).size === 2, `B014 ${p.id} DOB source hosts must be distinct`);
-  const nonWikiUrls = (p.sourceUrls || []).filter((url) => {
+  const nonWikiUrls = sourceUrlsBeforeBv017(p).filter((url) => {
     const host = getUrlHostname(url);
     return host && !host.endsWith('wikipedia.org') && !host.endsWith('wikidata.org') && !host.endsWith('wikimedia.org');
   });
@@ -10493,7 +10518,7 @@ for (const p of B014_NEW_PEOPLE) {
 }
 for (let day = 1; day <= 31; day++) {
   const additions = B014_NEW_PEOPLE.filter((p) => p.birthDay === day);
-  const total = ALL_PEOPLE.filter((p) => p.birthMonth === 10 && p.birthDay === day);
+  const total = ALL_PEOPLE.filter((p) => p.birthMonth === 10 && p.birthDay === day && !BV017_EXPANSION_NEW_IDS.has(p.id));
   assert('Rule AI coverage', additions.length === 3, `B014 October ${day} must have exactly 3 additions, found ${additions.length}`);
   assert('Rule AI coverage', total.length === 3 && total.length <= 8, `B014 October ${day} must have 3 additions and no more than 8 total people, found ${total.length}`);
 }
@@ -10525,11 +10550,11 @@ for (const p of B014_NEW_PEOPLE) {
   assert('Rule AI age', isAdultOnDate(expected.birthDate, '2026-10-07'), `B014 ${p.id} must be an adult on 2026-10-07`);
 }
 
-const b014BaselinePeople = ALL_PEOPLE.filter((p) => !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id)).sort((a, b) => a.id.localeCompare(b.id));
+const b014BaselinePeople = ALL_PEOPLE.filter((p) => !B014_NEW_IDS.has(p.id) && !B015_B016_NEW_IDS.has(p.id) && !BV017_EXPANSION_NEW_IDS.has(p.id)).sort((a, b) => a.id.localeCompare(b.id));
 assert('Rule AI baseline', b014BaselinePeople.length === 844, `B014 must preserve all 844 baseline people, found ${b014BaselinePeople.length}`);
-assert('Rule AI baseline', stableSha256(b014BaselinePeople) === '007bfa829d8fed84bf07d1dd9f555975221c37352b131200afdfe42f2bb614b0', 'All 844 origin/main people must remain deep-equal to the B014 baseline');
+assert('Rule AI baseline', stableSha256(b014BaselinePeople.map(projectPersonBeforeBv017)) === '007bfa829d8fed84bf07d1dd9f555975221c37352b131200afdfe42f2bb614b0', 'All 844 origin/main people must remain deep-equal to the B014 baseline after the independently verified BV-017 correction projection');
 assert('Rule AI baseline', stableSha256(HISTORY_EVENTS) === '6dd4aae214c2b43131155c6483c3f3c575fe632e1287583c5c28ce4e40dcfd07', 'All 4 history events must remain deep-equal to the B014 baseline');
-const b014SnapshotPeople = ALL_PEOPLE.filter((p) => !B015_B016_NEW_IDS.has(p.id));
+const b014SnapshotPeople = ALL_PEOPLE.filter((p) => !B015_B016_NEW_IDS.has(p.id) && !BV017_EXPANSION_NEW_IDS.has(p.id));
 const b014CoveredDays = new Set(b014SnapshotPeople.map((p) => `${p.birthMonth}-${p.birthDay}`));
 const b014OctoberDays = new Set(b014SnapshotPeople.filter((p) => p.birthMonth === 10).map((p) => p.birthDay));
 assert('Rule AI total', b014SnapshotPeople.length === 937, `B014 expected 937 total people, found ${b014SnapshotPeople.length}`);

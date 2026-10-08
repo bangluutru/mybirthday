@@ -5,6 +5,7 @@ import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { getExactSameDatePeople, getBirthdayData } from '@/data/birthdays';
 import { AppShell } from '@/components/layout/AppShell';
+import { getLifespanLabel } from '@/data/types';
 
 export default function ExactSameDatePage() {
   const params = useParams();
@@ -66,9 +67,7 @@ export default function ExactSameDatePage() {
           {displayPeers.length > 0 ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {displayPeers.map((person) => {
-                const yearRange = person.deathDate
-                  ? `${person.birthYear} – ${new Date(person.deathDate).getFullYear() || person.deathDate.slice(0, 4)}`
-                  : `${person.birthYear} – nay`;
+                const yearRange = getLifespanLabel(person);
 
                 return (
                   <div

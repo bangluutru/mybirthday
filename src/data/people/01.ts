@@ -29,11 +29,15 @@ export const PEOPLE_01: Person[] = [
     "wikidataId": "Q79904",
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/J._D._Salinger",
     "sourceUrls": [
-      "https://www.britannica.com/biography/J-D-Salinger"
+      "https://www.britannica.com/biography/J-D-Salinger",
+      "https://www.dvidshub.net/news/489630/roll-call-jerome-jd-salinger-1919-2010"
     ],
     "notabilityScore": 96,
     "region": "west",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-03",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": ["https://www.dvidshub.net/news/489630/roll-call-jerome-jd-salinger-1919-2010"],
+    "deathDatePrecision": "day"
   },
   {
     "id": "christine-lagarde",
@@ -428,9 +432,18 @@ export const PEOPLE_01: Person[] = [
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q12807",
     "https://www.unibo.it/en/university/the-university-of-bologna-mourns-the-death-of-umberto-eco",
-    "https://www.britannica.com/biography/Umberto-Eco"
+    "https://www.britannica.com/biography/Umberto-Eco",
+    "http://www.repubblica.it/cultura/2016/02/20/news/morto_lo_scrittore_umberto_eco-133816061/",
+    "https://brockhaus.de/ecs/julex/article/eco-umberto"
   ],
   "region": "west",
+  "deathDate": "2016-02-19",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": [
+    "http://www.repubblica.it/cultura/2016/02/20/news/morto_lo_scrittore_umberto_eco-133816061/",
+    "https://brockhaus.de/ecs/julex/article/eco-umberto"
+  ],
+  "deathDatePrecision": "day",
   "verifiedAt": "2026-10-03"
 },
 {
@@ -593,9 +606,16 @@ export const PEOPLE_01: Person[] = [
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q57106",
     "https://www.dhm.de/lemo/biografie/heinrich-schliemann",
-    "https://archives.iu.edu/html/InU-Li-VAD7007.html"
+    "https://archives.iu.edu/html/InU-Li-VAD7007.html",
+    "https://brockhaus.de/ecs/julex/article/schliemann-heinrich"
   ],
   "region": "west",
+  "deathDate": "1890-12-26",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": [
+    "https://brockhaus.de/ecs/julex/article/schliemann-heinrich"
+  ],
+  "deathDatePrecision": "day",
   "verifiedAt": "2026-10-03"
 },
 {
@@ -715,19 +735,18 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Ca sĩ và diễn viên người Mỹ, một trong những nghệ sĩ tiêu biểu của nhạc rock and roll.",
-  "biography": "Elvis Presley sinh ngày 8/1/1935 tại Tupelo, Mississippi. Ông là ca sĩ và diễn viên, được biết đến với sự nghiệp thu âm và biểu diễn nhạc rock and roll.",
-  "highlights": [
-    "Ra mắt bộ phim đầu tiên Love Me Tender năm 1956.",
-    "Graceland là nhà riêng của ông ở Memphis."
-  ],
+  "biography": "Elvis Presley là ca sĩ và diễn viên người Mỹ. Năm 1956, Heartbreak Hotel trở thành đĩa đơn quán quân đầu tiên của Elvis Presley; ông cũng xuất hiện trong Love Me Tender (1956), Jailhouse Rock (1957) và Blue Hawaii (1961).",
+  "highlights": ["Sinh ngày 8/1/1935.", "Năm 1956, Heartbreak Hotel trở thành đĩa đơn quán quân đầu tiên của Elvis Presley; ông cũng xuất hiện trong Love Me Tender (1956), Jailhouse Rock (1957) và Blue Hawaii (1961)."],
   "wikidataId": "Q303",
   "wikipediaUrl": "https://en.wikipedia.org/wiki/Elvis_Presley",
-  "sourceUrls": [
-    "https://www.wikidata.org/wiki/Q303",
-    "https://www.graceland.com/elvis-faq",
-    "https://www.nps.gov/people/elvis-presley.htm"
-  ],
+  "sourceUrls": ["https://www.wikidata.org/wiki/Q303", "https://www.graceland.com/elvis-faq", "https://www.nps.gov/people/elvis-presley.htm", "https://brockhaus.de/ecs/julex/article/presley-elvis-aaron", "https://www.grammy.com/artists/elvis-presley/6033/"],
   "region": "west",
+  "deathDate": "1977-08-16",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": [
+    "https://brockhaus.de/ecs/julex/article/presley-elvis-aaron"
+  ],
+  "deathDatePrecision": "day",
   "verifiedAt": "2026-10-03"
 },
 {
@@ -758,9 +777,18 @@ export const PEOPLE_01: Person[] = [
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q17714",
     "https://www.cam.ac.uk/stories/stephen-hawking",
-    "https://www.hawking.org.uk/biography"
+    "https://www.hawking.org.uk/biography",
+    "http://www.bbc.com/news/uk-43396008",
+    "https://www.theguardian.com/science/2018/mar/14/stephen-hawking-professor-dies-aged-76"
   ],
   "region": "west",
+  "deathDate": "2018-03-14",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": [
+    "http://www.bbc.com/news/uk-43396008",
+    "https://www.theguardian.com/science/2018/mar/14/stephen-hawking-professor-dies-aged-76"
+  ],
+  "deathDatePrecision": "day",
   "verifiedAt": "2026-10-03"
 },
 {
@@ -1121,9 +1149,16 @@ export const PEOPLE_01: Person[] = [
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q45765",
     "https://www.parks.ca.gov/pages/478/files/JackLondonBrochure2008.pdf",
-    "https://www.britannica.com/biography/Jack-London"
+    "https://www.britannica.com/biography/Jack-London",
+    "https://brockhaus.de/ecs/julex/article/london-jack"
   ],
   "region": "west",
+  "deathDate": "1916-11-22",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": [
+    "https://brockhaus.de/ecs/julex/article/london-jack"
+  ],
+  "deathDatePrecision": "day",
   "verifiedAt": "2026-10-03"
 },
 {
@@ -1253,9 +1288,16 @@ export const PEOPLE_01: Person[] = [
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q234463",
     "https://www.nobelprize.org/prizes/medicine/2002/brenner/cv/",
-    "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=NA3395&src=CalmView.Persons"
+    "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=NA3395&src=CalmView.Persons",
+    "https://www.asianscientist.com/2019/04/topnews/sydney-brenner-nobel-laureate-dies-92-c-elegans-obituary/"
   ],
   "region": "world",
+  "deathDate": "2019-04-05",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": [
+    "https://www.asianscientist.com/2019/04/topnews/sydney-brenner-nobel-laureate-dies-92-c-elegans-obituary/"
+  ],
+  "deathDatePrecision": "day",
   "verifiedAt": "2026-10-03"
 },
 {
@@ -1320,9 +1362,16 @@ export const PEOPLE_01: Person[] = [
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q49325",
     "https://www.nobelprize.org/prizes/peace/1952/schweitzer/biographical/",
-    "https://www.albert-schweitzer.ch/albert-und-helene-schweitzer/albert-schweitzer"
+    "https://www.albert-schweitzer.ch/albert-und-helene-schweitzer/albert-schweitzer",
+    "https://brockhaus.de/ecs/julex/article/schweitzer-albert"
   ],
   "region": "west",
+  "deathDate": "1965-09-04",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": [
+    "https://brockhaus.de/ecs/julex/article/schweitzer-albert"
+  ],
+  "deathDatePrecision": "day",
   "verifiedAt": "2026-10-03"
 },
 {
@@ -1419,9 +1468,16 @@ export const PEOPLE_01: Person[] = [
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q8027",
     "https://www.nobelprize.org/prizes/peace/1964/king/biographical/",
-    "https://thekingcenter.org/about-tkc/martin-luther-king-jr/"
+    "https://thekingcenter.org/about-tkc/martin-luther-king-jr/",
+    "https://brockhaus.de/ecs/julex/article/king-martin-luther"
   ],
   "region": "west",
+  "deathDate": "1968-04-04",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": [
+    "https://brockhaus.de/ecs/julex/article/king-martin-luther"
+  ],
+  "deathDatePrecision": "day",
   "verifiedAt": "2026-10-03"
 },
 {
@@ -1541,11 +1597,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇬🇧",
   "image": "/people/placeholder.svg",
   "shortDescription": "Người mẫu Vương quốc Anh; sinh ngày 16/1/1974.",
-  "biography": "Kate Moss là người mẫu người Vương quốc Anh. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 16/1/1974.",
-    "Lĩnh vực hoạt động: người mẫu."
-  ],
+  "biography": "Kate Moss là người mẫu người Vương quốc Anh. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Kate Moss ra mắt bộ sưu tập đầu tiên hợp tác với Topshop năm 2007 dưới nhãn Kate Moss for Topshop.",
+  "highlights": ["Sinh ngày 16/1/1974.", "Kate Moss ra mắt bộ sưu tập đầu tiên hợp tác với Topshop năm 2007 dưới nhãn Kate Moss for Topshop."],
   "wikidataId": "Q212531",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q212531",
@@ -1573,11 +1626,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà văn, nhà phê bình và nhà làm phim Hoa Kỳ; sinh ngày 16/1/1933.",
-  "biography": "Susan Sontag là nhà văn, nhà phê bình và nhà làm phim người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 16/1/1933.",
-    "Lĩnh vực hoạt động: nhà văn, nhà phê bình và nhà làm phim."
-  ],
+  "biography": "Susan Sontag là nhà văn, nhà phê bình và nhà làm phim người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Từ năm 1987 đến 1989, Susan Sontag giữ chức chủ tịch American Center of PEN và vận động cho các nhà văn bị đàn áp hoặc bị giam cầm.",
+  "highlights": ["Sinh ngày 16/1/1933.", "Từ năm 1987 đến 1989, Susan Sontag giữ chức chủ tịch American Center of PEN và vận động cho các nhà văn bị đàn áp hoặc bị giam cầm."],
   "wikidataId": "Q152824",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q152824",
@@ -1605,11 +1655,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà động vật học và linh trưởng học Hoa Kỳ; sinh ngày 16/1/1932.",
-  "biography": "Dian Fossey là nhà động vật học và linh trưởng học người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 16/1/1932.",
-    "Lĩnh vực hoạt động: nhà động vật học và linh trưởng học."
-  ],
+  "biography": "Dian Fossey là nhà động vật học và linh trưởng học người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Dian Fossey học tại San Jose State College và nhận bằng cử nhân năm 1954; bà lấy bằng tiến sĩ tại Đại học Cambridge năm 1976.",
+  "highlights": ["Sinh ngày 16/1/1932.", "Dian Fossey học tại San Jose State College và nhận bằng cử nhân năm 1954; bà lấy bằng tiến sĩ tại Đại học Cambridge năm 1976."],
   "wikidataId": "Q234224",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q234224",
@@ -1617,7 +1664,13 @@ export const PEOPLE_01: Person[] = [
     "https://archives.mcmaster.ca/index.php/fossey-dian-2"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-04",
+  "deathDate": "1985-12-26",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": [
+    "https://www.nationalgeographic.com/adventure/article/140116-dian-fossey-google-doodle-national-geographic-gorillas-birthday"
+  ],
+  "deathDatePrecision": "day"
 }  ,
 {
   "id": "benjamin-franklin",
@@ -1637,18 +1690,17 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà ngoại giao, nhà khoa học và chính khách Hoa Kỳ; sinh ngày 17/1/1706.",
-  "biography": "Benjamin Franklin là nhà ngoại giao, nhà khoa học và chính khách người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 17/1/1706.",
-    "Lĩnh vực hoạt động: nhà ngoại giao, nhà khoa học và chính khách."
-  ],
+  "biography": "Benjamin Franklin là nhà ngoại giao, nhà khoa học và chính khách người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Franklin từng tham gia ủy ban soạn thảo Tuyên ngôn Độc lập Hoa Kỳ.",
+  "highlights": ["Sinh ngày 17/1/1706.", "Franklin từng tham gia ủy ban soạn thảo Tuyên ngôn Độc lập Hoa Kỳ."],
   "wikidataId": "Q34969",
-  "sourceUrls": [
-    "https://www.wikidata.org/wiki/Q34969",
-    "https://www.archives.gov/founding-docs/signers-gallery",
-    "https://www.nga.org/governor/benjamin-franklin/"
-  ],
+  "sourceUrls": ["https://www.wikidata.org/wiki/Q34969", "https://www.archives.gov/founding-docs/signers-gallery", "https://www.nga.org/governor/benjamin-franklin/", "https://brockhaus.de/ecs/julex/article/franklin-benjamin", "https://www.archives.gov/founding-docs/founding-fathers-pennsylvania"],
   "region": "west",
+  "deathDate": "1790-04-17",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": [
+    "https://brockhaus.de/ecs/julex/article/franklin-benjamin"
+  ],
+  "deathDatePrecision": "day",
   "verifiedAt": "2026-10-04"
 }  ,
 {
@@ -1669,11 +1721,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Võ sĩ quyền anh Hoa Kỳ; sinh ngày 17/1/1942.",
-  "biography": "Muhammad Ali là võ sĩ quyền Anh người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 17/1/1942.",
-    "Lĩnh vực hoạt động: võ sĩ quyền Anh."
-  ],
+  "biography": "Muhammad Ali là võ sĩ quyền Anh người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Muhammad Ali giành huy chương vàng quyền anh hạng dưới nặng tại Olympic rồi trở về Mỹ theo đuổi sự nghiệp chuyên nghiệp.",
+  "highlights": ["Sinh ngày 17/1/1942.", "Muhammad Ali giành huy chương vàng quyền anh hạng dưới nặng tại Olympic rồi trở về Mỹ theo đuổi sự nghiệp chuyên nghiệp."],
   "wikidataId": "Q36107",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q36107",
@@ -1701,11 +1750,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Luật sư và nhà văn Hoa Kỳ; sinh ngày 17/1/1964.",
-  "biography": "Michelle Obama là luật sư và nhà văn người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 17/1/1964.",
-    "Lĩnh vực hoạt động: luật sư và nhà văn."
-  ],
+  "biography": "Michelle Obama là luật sư và nhà văn người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 2010, Michelle Obama khởi động chiến dịch Let's Move! nhằm huy động cộng đồng và chuyên gia ứng phó tình trạng béo phì ở trẻ em.",
+  "highlights": ["Sinh ngày 17/1/1964.", "Năm 2010, Michelle Obama khởi động chiến dịch Let's Move! nhằm huy động cộng đồng và chuyên gia ứng phó tình trạng béo phì ở trẻ em."],
   "wikidataId": "Q13133",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q13133",
@@ -1733,11 +1779,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
   "shortDescription": "Vận động viên bơi lội Việt Nam; sinh ngày 17/1/1962.",
-  "biography": "Chung Thị Thanh Lan là vận động viên bơi lội người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 17/1/1962.",
-    "Lĩnh vực hoạt động: vận động viên bơi lội."
-  ],
+  "biography": "Chung Thị Thanh Lan là vận động viên bơi lội người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Chung Thị Thanh Lan thi đấu nội dung 100 m tự do nữ tại Thế vận hội mùa hè 1980.",
+  "highlights": ["Sinh ngày 17/1/1962.", "Chung Thị Thanh Lan thi đấu nội dung 100 m tự do nữ tại Thế vận hội mùa hè 1980."],
   "wikidataId": "Q28810222",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q28810222",
@@ -1765,11 +1808,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
   "shortDescription": "Chính khách Việt Nam; sinh ngày 18/1/1946.",
-  "biography": "Nguyễn Sinh Hùng là chính khách người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 18/1/1946.",
-    "Lĩnh vực hoạt động: chính khách."
-  ],
+  "biography": "Nguyễn Sinh Hùng là chính khách người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Ngày 23/7/2011, Nguyễn Sinh Hùng được bầu làm Chủ tịch Quốc hội khóa XIII.",
+  "highlights": ["Sinh ngày 18/1/1946.", "Ngày 23/7/2011, Nguyễn Sinh Hùng được bầu làm Chủ tịch Quốc hội khóa XIII."],
   "wikidataId": "Q4120045",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q4120045",
@@ -1797,11 +1837,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇪🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Huấn luyện viên bóng đá Tây Ban Nha; sinh ngày 18/1/1971.",
-  "biography": "Josep Guardiola là huấn luyện viên bóng đá người Tây Ban Nha. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 18/1/1971.",
-    "Lĩnh vực hoạt động: huấn luyện viên bóng đá."
-  ],
+  "biography": "Josep Guardiola là huấn luyện viên bóng đá người Tây Ban Nha. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Pep Guardiola có 47 lần khoác áo đội tuyển Tây Ban Nha và giành huy chương vàng bóng đá Olympic năm 1992.",
+  "highlights": ["Sinh ngày 18/1/1971.", "Pep Guardiola có 47 lần khoác áo đội tuyển Tây Ban Nha và giành huy chương vàng bóng đá Olympic năm 1992."],
   "wikidataId": "Q164038",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q164038",
@@ -1829,11 +1866,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇬🇧",
   "image": "/people/placeholder.svg",
   "shortDescription": "Diễn viên Vương quốc Anh; sinh ngày 18/1/1904.",
-  "biography": "Cary Grant là diễn viên người Vương quốc Anh. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 18/1/1904.",
-    "Lĩnh vực hoạt động: diễn viên."
-  ],
+  "biography": "Cary Grant là diễn viên người Vương quốc Anh. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Cary Grant được đề cử Quả cầu Vàng Nam diễn viên chính xuất sắc ở thể loại hài hoặc ca nhạc năm 1964 với phim Charade.",
+  "highlights": ["Sinh ngày 18/1/1904.", "Cary Grant được đề cử Quả cầu Vàng Nam diễn viên chính xuất sắc ở thể loại hài hoặc ca nhạc năm 1964 với phim Charade."],
   "wikidataId": "Q83410",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q83410",
@@ -1861,11 +1895,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
   "shortDescription": "Ca sĩ Việt Nam; sinh ngày 19/1/1998.",
-  "biography": "Hanbin là ca sĩ người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 19/1/1998.",
-    "Lĩnh vực hoạt động: ca sĩ."
-  ],
+  "biography": "Hanbin là ca sĩ người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Trong nhóm TEMPEST, Hanbin đảm nhận vị trí vocal và dance.",
+  "highlights": ["Sinh ngày 19/1/1998.", "Trong nhóm TEMPEST, Hanbin đảm nhận vị trí vocal và dance."],
   "wikidataId": "Q104434346",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q104434346",
@@ -1893,18 +1924,22 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà văn và nhà thơ Hoa Kỳ; sinh ngày 19/1/1809.",
-  "biography": "Edgar Allan Poe là nhà văn và nhà thơ người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 19/1/1809.",
-    "Lĩnh vực hoạt động: nhà văn và nhà thơ."
-  ],
+  "biography": "Edgar Allan Poe là nhà văn và nhà thơ người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Bài thơ The Raven xuất bản năm 1845 đã đưa Edgar Allan Poe đến với danh tiếng lớn trong vai trò nhà thơ.",
+  "highlights": ["Sinh ngày 19/1/1809.", "Bài thơ The Raven xuất bản năm 1845 đã đưa Edgar Allan Poe đến với danh tiếng lớn trong vai trò nhà thơ."],
   "wikidataId": "Q16867",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q16867",
     "https://www.nps.gov/people/edgarallanpoe.htm",
-    "https://poemuseum.org/"
+    "https://poemuseum.org/",
+    "https://brockhaus.de/ecs/julex/article/poe-edgar-allan"
   ],
   "region": "west",
+  "deathDate": "1849-10-07",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": [
+    "https://brockhaus.de/ecs/julex/article/poe-edgar-allan"
+  ],
+  "deathDatePrecision": "day",
   "verifiedAt": "2026-10-04"
 }  ,
 {
@@ -1925,11 +1960,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Ca sĩ Hoa Kỳ; sinh ngày 19/1/1943.",
-  "biography": "Janis Joplin là ca sĩ người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 19/1/1943.",
-    "Lĩnh vực hoạt động: ca sĩ."
-  ],
+  "biography": "Janis Joplin là ca sĩ người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 1992, em gái Janis Joplin xuất bản Love, Janis, tuyển tập thư Janis viết cho gia đình từ năm 1963.",
+  "highlights": ["Sinh ngày 19/1/1943.", "Năm 1992, em gái Janis Joplin xuất bản Love, Janis, tuyển tập thư Janis viết cho gia đình từ năm 1963."],
   "wikidataId": "Q1514",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q1514",
@@ -1957,11 +1989,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
   "shortDescription": "Cầu thủ bóng đá Việt Nam; sinh ngày 20/1/1995.",
-  "biography": "Phạm Đức Huy là cầu thủ bóng đá người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 20/1/1995.",
-    "Lĩnh vực hoạt động: cầu thủ bóng đá."
-  ],
+  "biography": "Phạm Đức Huy là cầu thủ bóng đá người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Tại Cúp Quốc gia 2019, Phạm Đức Huy ghi 2 bàn cho Hà Nội.",
+  "highlights": ["Sinh ngày 20/1/1995.", "Tại Cúp Quốc gia 2019, Phạm Đức Huy ghi 2 bàn cho Hà Nội."],
   "wikidataId": "Q22162740",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q22162740",
@@ -1989,11 +2018,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Phi hành gia Hoa Kỳ; sinh ngày 20/1/1930.",
-  "biography": "Buzz Aldrin là phi hành gia người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 20/1/1930.",
-    "Lĩnh vực hoạt động: phi hành gia."
-  ],
+  "biography": "Buzz Aldrin là phi hành gia người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Buzz Aldrin đảm nhiệm vị trí phi công mô-đun Mặt Trăng của Apollo 11 và là người thứ hai đặt chân lên Mặt Trăng.",
+  "highlights": ["Sinh ngày 20/1/1930.", "Buzz Aldrin đảm nhiệm vị trí phi công mô-đun Mặt Trăng của Apollo 11 và là người thứ hai đặt chân lên Mặt Trăng."],
   "wikidataId": "Q2252",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q2252",
@@ -2021,11 +2047,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇮🇹",
   "image": "/people/placeholder.svg",
   "shortDescription": "Đạo diễn phim và biên kịch Ý; sinh ngày 20/1/1920.",
-  "biography": "Federico Fellini là đạo diễn phim và biên kịch người Ý. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 20/1/1920.",
-    "Lĩnh vực hoạt động: đạo diễn phim và biên kịch."
-  ],
+  "biography": "Federico Fellini là đạo diễn phim và biên kịch người Ý. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Bộ phim I vitelloni (1953) của Federico Fellini giành Sư tử Bạc tại Venice và góp phần đưa Alberto Sordi đến với thành công lớn.",
+  "highlights": ["Sinh ngày 20/1/1920.", "Bộ phim I vitelloni (1953) của Federico Fellini giành Sư tử Bạc tại Venice và góp phần đưa Alberto Sordi đến với thành công lớn."],
   "wikidataId": "Q7371",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q7371",
@@ -2053,17 +2076,10 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
   "shortDescription": "Chính khách Việt Nam; sinh ngày 21/1/1949.",
-  "biography": "Trương Tấn Sang là chính khách người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 21/1/1949.",
-    "Lĩnh vực hoạt động: chính khách."
-  ],
+  "biography": "Trương Tấn Sang là chính khách người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Ngày 25/7/2011, Quốc hội bầu Trương Tấn Sang làm Chủ tịch nước với 97,4% phiếu thuận.",
+  "highlights": ["Sinh ngày 21/1/1949.", "Ngày 25/7/2011, Quốc hội bầu Trương Tấn Sang làm Chủ tịch nước với 97,4% phiếu thuận."],
   "wikidataId": "Q57407",
-  "sourceUrls": [
-    "https://www.wikidata.org/wiki/Q57407",
-    "https://uzo.sakura.ne.jp/burma/nlm/nlm_data/nlm_2012/nlm_11_2012/nlm_29_11_2012.pdf",
-    "https://classified.japantimes.com/nationalday/pdfs/20140317-Vietnamese_president--s_visit.pdf"
-  ],
+  "sourceUrls": ["https://www.wikidata.org/wiki/Q57407", "https://uzo.sakura.ne.jp/burma/nlm/nlm_data/nlm_2012/nlm_11_2012/nlm_29_11_2012.pdf", "https://classified.japantimes.com/nationalday/pdfs/20140317-Vietnamese_president--s_visit.pdf", "https://en.baochinhphu.vn/biography-of-state-president-sang-11110362.htm"],
   "region": "vietnam",
   "verifiedAt": "2026-10-04"
 }  ,
@@ -2085,11 +2101,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
   "shortDescription": "Cầu thủ bóng đá Việt Nam; sinh ngày 21/1/1995.",
-  "biography": "Nguyễn Công Phượng là cầu thủ bóng đá người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 21/1/1995.",
-    "Lĩnh vực hoạt động: cầu thủ bóng đá."
-  ],
+  "biography": "Nguyễn Công Phượng là cầu thủ bóng đá người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Ngày 8/1/2019, Nguyễn Công Phượng ghi bàn trong trận Việt Nam thua Iraq 2-3 tại Asian Cup.",
+  "highlights": ["Sinh ngày 21/1/1995.", "Ngày 8/1/2019, Nguyễn Công Phượng ghi bàn trong trận Việt Nam thua Iraq 2-3 tại Asian Cup."],
   "wikidataId": "Q18045362",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q18045362",
@@ -2117,11 +2130,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇫🇷",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà thiết kế thời trang Pháp; sinh ngày 21/1/1905.",
-  "biography": "Christian Dior là nhà thiết kế thời trang người Pháp. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 21/1/1905.",
-    "Lĩnh vực hoạt động: nhà thiết kế thời trang."
-  ],
+  "biography": "Christian Dior là nhà thiết kế thời trang người Pháp. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Nước hoa Christian Dior ra mắt ngày 11/1/1947, một tháng trước buổi trình diễn đầu tiên của nhà thiết kế tại số 30 đại lộ Montaigne.",
+  "highlights": ["Sinh ngày 21/1/1905.", "Nước hoa Christian Dior ra mắt ngày 11/1/1947, một tháng trước buổi trình diễn đầu tiên của nhà thiết kế tại số 30 đại lộ Montaigne."],
   "wikidataId": "Q159694",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q159694",
@@ -2149,11 +2159,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
   "shortDescription": "Giám mục công giáo Việt Nam; sinh ngày 22/1/1914.",
-  "biography": "Giacôbê Nguyễn Văn Mầu là giám mục Công giáo người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 22/1/1914.",
-    "Lĩnh vực hoạt động: giám mục Công giáo."
-  ],
+  "biography": "Giacôbê Nguyễn Văn Mầu là giám mục Công giáo người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Ngày 12/7/1968, Nguyễn Văn Mầu được bổ nhiệm làm giám mục Vĩnh Long.",
+  "highlights": ["Sinh ngày 22/1/1914.", "Ngày 12/7/1968, Nguyễn Văn Mầu được bổ nhiệm làm giám mục Vĩnh Long."],
   "wikidataId": "Q1678059",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q1678059",
@@ -2181,11 +2188,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇬🇧",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà thơ Vương quốc Anh; sinh ngày 22/1/1788.",
-  "biography": "Lord Byron là nhà thơ người Vương quốc Anh. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 22/1/1788.",
-    "Lĩnh vực hoạt động: nhà thơ."
-  ],
+  "biography": "Lord Byron là nhà thơ người Vương quốc Anh. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Thành công của Childe Harold đưa Lord Byron trở nên nổi tiếng; Westminster Abbey liệt kê tác phẩm này cùng Don Juan trong số các bài thơ nổi tiếng nhất của ông.",
+  "highlights": ["Sinh ngày 22/1/1788.", "Thành công của Childe Harold đưa Lord Byron trở nên nổi tiếng; Westminster Abbey liệt kê tác phẩm này cùng Don Juan trong số các bài thơ nổi tiếng nhất của ông."],
   "wikidataId": "Q5679",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q5679",
@@ -2213,17 +2217,10 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇸🇪",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà văn và nhà viết kịch Thụy Điển; sinh ngày 22/1/1849.",
-  "biography": "August Strindberg là nhà văn và nhà viết kịch người Thụy Điển. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 22/1/1849.",
-    "Lĩnh vực hoạt động: nhà văn và nhà viết kịch."
-  ],
+  "biography": "August Strindberg là nhà văn và nhà viết kịch người Thụy Điển. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 1907, August Strindberg viết bốn vở kịch, trong đó có “Spöksonaten”.",
+  "highlights": ["Sinh ngày 22/1/1849.", "Năm 1907, August Strindberg viết bốn vở kịch, trong đó có “Spöksonaten”."],
   "wikidataId": "Q7724",
-  "sourceUrls": [
-    "https://www.wikidata.org/wiki/Q7724",
-    "https://www.strindbergsmuseet.se/om-strindberg/strindbergs-liv/barndom/",
-    "https://auguststrindberg.se/biography/"
-  ],
+  "sourceUrls": ["https://www.wikidata.org/wiki/Q7724", "https://www.strindbergsmuseet.se/om-strindberg/strindbergs-liv/barndom/", "https://auguststrindberg.se/biography/", "https://www.strindbergsmuseet.se/om-strindberg/strindbergs-liv/"],
   "region": "west",
   "verifiedAt": "2026-10-04"
 }  ,
@@ -2245,11 +2242,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇩🇪",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà toán học Đức; sinh ngày 23/1/1862.",
-  "biography": "David Hilbert là nhà toán học người Đức. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 23/1/1862.",
-    "Lĩnh vực hoạt động: nhà toán học."
-  ],
+  "biography": "David Hilbert là nhà toán học người Đức. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 1899, David Hilbert xuất bản Grundlagen der Geometrie, đặt hình học trong một hệ tiên đề hình thức.",
+  "highlights": ["Sinh ngày 23/1/1862.", "Năm 1899, David Hilbert xuất bản Grundlagen der Geometrie, đặt hình học trong một hệ tiên đề hình thức."],
   "wikidataId": "Q41585",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q41585",
@@ -2277,11 +2271,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇫🇷",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà văn Pháp; sinh ngày 23/1/1783.",
-  "biography": "Stendhal là nhà văn người Pháp. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 23/1/1783.",
-    "Lĩnh vực hoạt động: nhà văn."
-  ],
+  "biography": "Stendhal là nhà văn người Pháp. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Sau khi Napoléon thất bại, Stendhal chuyển đến Italy và viết du ký cùng các sách về nghệ thuật Italy, Joseph Haydn và Mozart.",
+  "highlights": ["Sinh ngày 23/1/1783.", "Sau khi Napoléon thất bại, Stendhal chuyển đến Italy và viết du ký cùng các sách về nghệ thuật Italy, Joseph Haydn và Mozart."],
   "wikidataId": "Q502",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q502",
@@ -2309,18 +2300,17 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇫🇷",
   "image": "/people/placeholder.svg",
   "shortDescription": "Họa sĩ Pháp; sinh ngày 23/1/1832.",
-  "biography": "Édouard Manet là họa sĩ người Pháp. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 23/1/1832.",
-    "Lĩnh vực hoạt động: họa sĩ."
-  ],
+  "biography": "Édouard Manet là họa sĩ người Pháp. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 1850, Édouard Manet theo học tại xưởng vẽ của họa sĩ Thomas Couture sau hai lần bị từ chối vào Trường Hải quân Pháp.",
+  "highlights": ["Sinh ngày 23/1/1832.", "Năm 1850, Édouard Manet theo học tại xưởng vẽ của họa sĩ Thomas Couture sau hai lần bị từ chối vào Trường Hải quân Pháp."],
   "wikidataId": "Q40599",
-  "sourceUrls": [
-    "https://www.wikidata.org/wiki/Q40599",
-    "https://www.musee-orsay.fr/sites/default/files/exposition/booklet/2023-03/prog%20salle_Manet%EF%80%A2Degas_ANG.pdf",
-    "https://www.grandpalais.fr/en/node/944"
-  ],
+  "sourceUrls": ["https://www.wikidata.org/wiki/Q40599", "https://www.musee-orsay.fr/sites/default/files/exposition/booklet/2023-03/prog%20salle_Manet%EF%80%A2Degas_ANG.pdf", "https://www.grandpalais.fr/en/node/944", "https://brockhaus.de/ecs/julex/article/manet-edouard", "https://www.nga.gov/artists/1506-edouard-manet"],
   "region": "west",
+  "deathDate": "1883-04-30",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": [
+    "https://brockhaus.de/ecs/julex/article/manet-edouard"
+  ],
+  "deathDatePrecision": "day",
   "verifiedAt": "2026-10-04"
 }  ,
 {
@@ -2341,11 +2331,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇰🇷",
   "image": "/people/placeholder.svg",
   "shortDescription": "Luật sư và chính khách Hàn Quốc; sinh ngày 24/1/1953.",
-  "biography": "Moon Jae-in là luật sư và chính khách người Hàn Quốc. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 24/1/1953.",
-    "Lĩnh vực hoạt động: luật sư và chính khách."
-  ],
+  "biography": "Moon Jae-in là luật sư và chính khách người Hàn Quốc. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 1982, Moon Jae-in tốt nghiệp hạng nhì tại Viện Nghiên cứu và Đào tạo Tư pháp Hàn Quốc.",
+  "highlights": ["Sinh ngày 24/1/1953.", "Năm 1982, Moon Jae-in tốt nghiệp hạng nhì tại Viện Nghiên cứu và Đào tạo Tư pháp Hàn Quốc."],
   "wikidataId": "Q21001",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q21001",
@@ -2373,11 +2360,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇩🇪",
   "image": "/people/placeholder.svg",
   "shortDescription": "Vua và nhà soạn nhạc Đức; sinh ngày 24/1/1712.",
-  "biography": "Friedrich II của Phổ là vua và nhà soạn nhạc người Đức. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 24/1/1712.",
-    "Lĩnh vực hoạt động: vua và nhà soạn nhạc."
-  ],
+  "biography": "Friedrich II của Phổ là vua và nhà soạn nhạc người Đức. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Khi lên nắm quyền, Friedrich II theo đuổi chính sách khoan dung tôn giáo và bãi bỏ tra tấn.",
+  "highlights": ["Sinh ngày 24/1/1712.", "Khi lên nắm quyền, Friedrich II theo đuổi chính sách khoan dung tôn giáo và bãi bỏ tra tấn."],
   "wikidataId": "Q33550",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q33550",
@@ -2405,11 +2389,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇾",
   "image": "/people/placeholder.svg",
   "shortDescription": "Cầu thủ bóng đá Uruguay; sinh ngày 24/1/1987.",
-  "biography": "Luis Alberto Suárez là cầu thủ bóng đá người Uruguay. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 24/1/1987.",
-    "Lĩnh vực hoạt động: cầu thủ bóng đá."
-  ],
+  "biography": "Luis Alberto Suárez là cầu thủ bóng đá người Uruguay. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Hiệp hội Bóng đá Uruguay thống kê Luis Suárez có 69 bàn cho đội tuyển quốc gia.",
+  "highlights": ["Sinh ngày 24/1/1987.", "Hiệp hội Bóng đá Uruguay thống kê Luis Suárez có 69 bàn cho đội tuyển quốc gia."],
   "wikidataId": "Q26517",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q26517",
@@ -2437,11 +2418,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
   "shortDescription": "Giám mục công giáo Việt Nam; sinh ngày 25/1/1953.",
-  "biography": "Anphongsô Nguyễn Hữu Long là giám mục Công giáo người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 25/1/1953.",
-    "Lĩnh vực hoạt động: giám mục Công giáo."
-  ],
+  "biography": "Anphongsô Nguyễn Hữu Long là giám mục Công giáo người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 2013, Tòa Thánh bổ nhiệm linh mục Alphonse Nguyễn Hữu Long làm giám mục phụ tá giáo phận Hưng Hóa.",
+  "highlights": ["Sinh ngày 25/1/1953.", "Năm 2013, Tòa Thánh bổ nhiệm linh mục Alphonse Nguyễn Hữu Long làm giám mục phụ tá giáo phận Hưng Hóa."],
   "wikidataId": "Q15791820",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q15791820",
@@ -2469,11 +2447,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇬🇧",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà thơ Vương quốc Anh; sinh ngày 25/1/1759.",
-  "biography": "Robert Burns là nhà thơ người Vương quốc Anh. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 25/1/1759.",
-    "Lĩnh vực hoạt động: nhà thơ."
-  ],
+  "biography": "Robert Burns là nhà thơ người Vương quốc Anh. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 1780, Robert Burns, em trai Gilbert và những người trẻ ở Tarbolton thành lập Tarbolton Bachelor's Club.",
+  "highlights": ["Sinh ngày 25/1/1759.", "Năm 1780, Robert Burns, em trai Gilbert và những người trẻ ở Tarbolton thành lập Tarbolton Bachelor's Club."],
   "wikidataId": "Q81960",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q81960",
@@ -2501,11 +2476,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇬🇧",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà văn Vương quốc Anh; sinh ngày 25/1/1882.",
-  "biography": "Virginia Woolf là nhà văn người Vương quốc Anh. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 25/1/1882.",
-    "Lĩnh vực hoạt động: nhà văn."
-  ],
+  "biography": "Virginia Woolf là nhà văn người Vương quốc Anh. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Between the Acts (1941) là tiểu thuyết cuối cùng của Virginia Woolf, xuất bản vài tháng sau khi bà qua đời.",
+  "highlights": ["Sinh ngày 25/1/1882.", "Between the Acts (1941) là tiểu thuyết cuối cùng của Virginia Woolf, xuất bản vài tháng sau khi bà qua đời."],
   "wikidataId": "Q40909",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q40909",
@@ -2533,11 +2505,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Tướng lĩnh quân đội Hoa Kỳ; sinh ngày 26/1/1880.",
-  "biography": "Douglas MacArthur là tướng lĩnh quân đội người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 26/1/1880.",
-    "Lĩnh vực hoạt động: tướng lĩnh quân đội."
-  ],
+  "biography": "Douglas MacArthur là tướng lĩnh quân đội người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 1903, Douglas MacArthur tốt nghiệp đầu lớp tại West Point với một trong những thành tích học tập tốt nhất trong lịch sử học viện.",
+  "highlights": ["Sinh ngày 26/1/1880.", "Năm 1903, Douglas MacArthur tốt nghiệp đầu lớp tại West Point với một trong những thành tích học tập tốt nhất trong lịch sử học viện."],
   "wikidataId": "Q127417",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q127417",
@@ -2565,11 +2534,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà hoạt động chính trị và học giả Hoa Kỳ; sinh ngày 26/1/1944.",
-  "biography": "Angela Davis là nhà hoạt động chính trị và học giả người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 26/1/1944.",
-    "Lĩnh vực hoạt động: nhà hoạt động chính trị và học giả."
-  ],
+  "biography": "Angela Davis là nhà hoạt động chính trị và học giả người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 1969, Angela Davis được tuyển làm giảng viên triết học tại Đại học California, Los Angeles.",
+  "highlights": ["Sinh ngày 26/1/1944.", "Năm 1969, Angela Davis được tuyển làm giảng viên triết học tại Đại học California, Los Angeles."],
   "wikidataId": "Q160456",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q160456",
@@ -2597,11 +2563,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇨🇦",
   "image": "/people/placeholder.svg",
   "shortDescription": "Cầu thủ khúc côn cầu trên băng Canada; sinh ngày 26/1/1961.",
-  "biography": "Wayne Gretzky là cầu thủ khúc côn cầu trên băng người Canada. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 26/1/1961.",
-    "Lĩnh vực hoạt động: cầu thủ khúc côn cầu trên băng."
-  ],
+  "biography": "Wayne Gretzky là cầu thủ khúc côn cầu trên băng người Canada. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Trong thập niên 1980, Wayne Gretzky giành danh hiệu cầu thủ giá trị nhất NHL (Hart Trophy) 9 lần và dẫn đầu giải về điểm số 7 lần.",
+  "highlights": ["Sinh ngày 26/1/1961.", "Trong thập niên 1980, Wayne Gretzky giành danh hiệu cầu thủ giá trị nhất NHL (Hart Trophy) 9 lần và dẫn đầu giải về điểm số 7 lần."],
   "wikidataId": "Q209518",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q209518",
@@ -2629,11 +2592,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇦🇹",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà soạn nhạc Áo; sinh ngày 27/1/1756.",
-  "biography": "Wolfgang Amadeus Mozart là nhà soạn nhạc người Áo. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 27/1/1756.",
-    "Lĩnh vực hoạt động: nhà soạn nhạc."
-  ],
+  "biography": "Wolfgang Amadeus Mozart là nhà soạn nhạc người Áo. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Tại Vienna, Mozart mưu sinh với vai trò nghệ sĩ biểu diễn tự do, nhà soạn nhạc opera và giáo viên.",
+  "highlights": ["Sinh ngày 27/1/1756.", "Tại Vienna, Mozart mưu sinh với vai trò nghệ sĩ biểu diễn tự do, nhà soạn nhạc opera và giáo viên."],
   "wikidataId": "Q254",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q254",
@@ -2661,18 +2621,24 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇬🇧",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà văn và nhà toán học Vương quốc Anh; sinh ngày 27/1/1832.",
-  "biography": "Lewis Carroll là nhà văn và nhà toán học người Vương quốc Anh. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 27/1/1832.",
-    "Lĩnh vực hoạt động: nhà văn và nhà toán học."
-  ],
+  "biography": "Lewis Carroll là nhà văn và nhà toán học người Vương quốc Anh. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Lewis Carroll viết nhiều sách về toán học và logic, đồng thời sáng tạo câu đố, trò chơi và chơi croquet.",
+  "highlights": ["Sinh ngày 27/1/1832.", "Lewis Carroll viết nhiều sách về toán học và logic, đồng thời sáng tạo câu đố, trò chơi và chơi croquet."],
   "wikidataId": "Q38082",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q38082",
     "https://www.britishlibrary.cn/en/authors/lewis-carroll/",
-    "https://www.westminster-abbey.org/abbey-commemorations/commemorations/lewis-carroll"
+    "https://www.westminster-abbey.org/abbey-commemorations/commemorations/lewis-carroll",
+    "https://www.ibdb.com/broadway-cast-staff/85251",
+    "https://brockhaus.de/ecs/julex/article/carroll-lewis"
   ],
   "region": "west",
+  "deathDate": "1898-01-14",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": [
+    "https://www.ibdb.com/broadway-cast-staff/85251",
+    "https://brockhaus.de/ecs/julex/article/carroll-lewis"
+  ],
+  "deathDatePrecision": "day",
   "verifiedAt": "2026-10-04"
 }  ,
 {
@@ -2693,11 +2659,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇩🇪",
   "image": "/people/placeholder.svg",
   "shortDescription": "Hoàng đế Đức; sinh ngày 27/1/1859.",
-  "biography": "Wilhelm II, Hoàng đế Đức là hoàng đế người Đức. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 27/1/1859.",
-    "Lĩnh vực hoạt động: hoàng đế."
-  ],
+  "biography": "Wilhelm II, Hoàng đế Đức là hoàng đế người Đức. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Ngày 10/11/1918, Wilhelm II rời tổng hành dinh ở Spa và sang Hà Lan.",
+  "highlights": ["Sinh ngày 27/1/1859.", "Ngày 10/11/1918, Wilhelm II rời tổng hành dinh ở Spa và sang Hà Lan."],
   "wikidataId": "Q2677",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q2677",
@@ -2725,11 +2688,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
   "shortDescription": "Kỳ thủ cờ vua Việt Nam; sinh ngày 28/1/1994.",
-  "biography": "Nguyễn Thị Mai Hưng là kỳ thủ cờ vua người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 28/1/1994.",
-    "Lĩnh vực hoạt động: kỳ thủ cờ vua."
-  ],
+  "biography": "Nguyễn Thị Mai Hưng là kỳ thủ cờ vua người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. FIDE phong danh hiệu Woman Grandmaster cho Nguyễn Thị Mai Hưng năm 2014.",
+  "highlights": ["Sinh ngày 28/1/1994.", "FIDE phong danh hiệu Woman Grandmaster cho Nguyễn Thị Mai Hưng năm 2014."],
   "wikidataId": "Q1984355",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q1984355",
@@ -2757,18 +2717,22 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Họa sĩ Hoa Kỳ; sinh ngày 28/1/1912.",
-  "biography": "Jackson Pollock là họa sĩ người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 28/1/1912.",
-    "Lĩnh vực hoạt động: họa sĩ."
-  ],
+  "biography": "Jackson Pollock là họa sĩ người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Đầu sự nghiệp, Jackson Pollock chịu ảnh hưởng của kỹ thuật tự động siêu thực; dấu ấn này thể hiện trong các bản vẽ sổ tay của ông.",
+  "highlights": ["Sinh ngày 28/1/1912.", "Đầu sự nghiệp, Jackson Pollock chịu ảnh hưởng của kỹ thuật tự động siêu thực; dấu ấn này thể hiện trong các bản vẽ sổ tay của ông."],
   "wikidataId": "Q37571",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q37571",
     "https://www.guggenheim.org/artwork/artist/jackson-pollock/",
-    "https://www.pkf.org/jackson-pollock/"
+    "https://www.pkf.org/jackson-pollock/",
+    "https://brockhaus.de/ecs/julex/article/pollock-jackson"
   ],
   "region": "west",
+  "deathDate": "1956-08-11",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": [
+    "https://brockhaus.de/ecs/julex/article/pollock-jackson"
+  ],
+  "deathDatePrecision": "day",
   "verifiedAt": "2026-10-04"
 }  ,
 {
@@ -2789,11 +2753,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇫🇷",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà văn Pháp; sinh ngày 28/1/1873.",
-  "biography": "Colette là nhà văn người Pháp. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 28/1/1873.",
-    "Lĩnh vực hoạt động: nhà văn."
-  ],
+  "biography": "Colette là nhà văn người Pháp. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Các tiểu thuyết Claudine đầu tiên của Colette, xuất bản giai đoạn 1900–1903, mang tên Willy, bút danh của người chồng đầu tiên Henri Gauthier-Villars.",
+  "highlights": ["Sinh ngày 28/1/1873.", "Các tiểu thuyết Claudine đầu tiên của Colette, xuất bản giai đoạn 1900–1903, mang tên Willy, bút danh của người chồng đầu tiên Henri Gauthier-Villars."],
   "wikidataId": "Q218679",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q218679",
@@ -2821,19 +2782,23 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇷🇺",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà văn, nhà viết kịch và bác sĩ Nga; sinh ngày 29/1/1860.",
-  "biography": "Anton Pavlovich Chekhov là nhà văn, nhà viết kịch và bác sĩ người Nga. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 29/1/1860.",
-    "Lĩnh vực hoạt động: nhà văn, nhà viết kịch và bác sĩ."
-  ],
+  "biography": "Anton Pavlovich Chekhov là nhà văn, nhà viết kịch và bác sĩ người Nga. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Chuyến đi Sakhalin năm 1890 giúp Anton Chekhov ghi chép đời sống tù nhân khổ sai và cư dân địa phương; tư liệu được ông đưa vào sách “Đảo Sakhalin”.",
+  "highlights": ["Sinh ngày 29/1/1860.", "Chuyến đi Sakhalin năm 1890 giúp Anton Chekhov ghi chép đời sống tù nhân khổ sai và cư dân địa phương; tư liệu được ông đưa vào sách “Đảo Sakhalin”."],
   "wikidataId": "Q5685",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q5685",
     "https://www.prlib.ru/history/618987",
-    "https://tgliamz.ru/calendar/detaill-V.php?ELEMENT_ID=4245"
+    "https://tgliamz.ru/calendar/detaill-V.php?ELEMENT_ID=4245",
+    "https://sites.google.com/site/seesscm/eastern-slavic-and-russian-calendar-systems"
   ],
   "region": "west",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-04",
+  "deathDate": "1904-07-15",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": [
+    "https://sites.google.com/site/seesscm/eastern-slavic-and-russian-calendar-systems"
+  ],
+  "deathDatePrecision": "day"
 }  ,
 {
   "id": "romain-rolland",
@@ -2853,11 +2818,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇫🇷",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà văn và nhà viết kịch Pháp; sinh ngày 29/1/1866.",
-  "biography": "Romain Rolland là nhà văn và nhà viết kịch người Pháp. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 29/1/1866.",
-    "Lĩnh vực hoạt động: nhà văn và nhà viết kịch."
-  ],
+  "biography": "Romain Rolland là nhà văn và nhà viết kịch người Pháp. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Romain Rolland được trao Nobel Văn học năm 1915 và được xem là một trong những trí thức hàng đầu của Pháp đương thời.",
+  "highlights": ["Sinh ngày 29/1/1866.", "Romain Rolland được trao Nobel Văn học năm 1915 và được xem là một trong những trí thức hàng đầu của Pháp đương thời."],
   "wikidataId": "Q47162",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q47162",
@@ -2885,11 +2847,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇵🇰",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà vật lý lý thuyết Pakistan; sinh ngày 29/1/1926.",
-  "biography": "Abdus Salam là nhà vật lý lý thuyết người Pakistan. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 29/1/1926.",
-    "Lĩnh vực hoạt động: nhà vật lý lý thuyết."
-  ],
+  "biography": "Abdus Salam là nhà vật lý lý thuyết người Pakistan. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Năm 1950, Đại học Cambridge trao Abdus Salam giải Smith cho đóng góp xuất sắc về vật lý trước khi ông hoàn tất tiến sĩ.",
+  "highlights": ["Sinh ngày 29/1/1926.", "Năm 1950, Đại học Cambridge trao Abdus Salam giải Smith cho đóng góp xuất sắc về vật lý trước khi ông hoàn tất tiến sĩ."],
   "wikidataId": "Q28189",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q28189",
@@ -2917,17 +2876,10 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
   "shortDescription": "Chính khách Hoa Kỳ; sinh ngày 30/1/1882.",
-  "biography": "Franklin D. Roosevelt là chính khách người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 30/1/1882.",
-    "Lĩnh vực hoạt động: chính khách."
-  ],
+  "biography": "Franklin D. Roosevelt là chính khách người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Franklin D. Roosevelt được bầu làm Tổng thống Hoa Kỳ bốn lần, vào các năm 1932, 1936, 1940 và 1944.",
+  "highlights": ["Sinh ngày 30/1/1882.", "Franklin D. Roosevelt được bầu làm Tổng thống Hoa Kỳ bốn lần, vào các năm 1932, 1936, 1940 và 1944."],
   "wikidataId": "Q8007",
-  "sourceUrls": [
-    "https://www.wikidata.org/wiki/Q8007",
-    "https://www.fdrlibrary.org/fdr-facts",
-    "https://www.archives.gov/presidential-libraries/research/alic/presidents"
-  ],
+  "sourceUrls": ["https://www.wikidata.org/wiki/Q8007", "https://www.fdrlibrary.org/fdr-facts", "https://www.archives.gov/presidential-libraries/research/alic/presidents", "https://www.fdrlibrary.org/fdr-presidency"],
   "region": "west",
   "verifiedAt": "2026-10-04"
 }  ,
@@ -2949,11 +2901,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇸🇪",
   "image": "/people/placeholder.svg",
   "shortDescription": "Chính khách Thụy Điển; sinh ngày 30/1/1927.",
-  "biography": "Olof Palme là chính khách người Thụy Điển. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 30/1/1927.",
-    "Lĩnh vực hoạt động: chính khách."
-  ],
+  "biography": "Olof Palme là chính khách người Thụy Điển. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Trong hai nhiệm kỳ thủ tướng Thụy Điển, Olof Palme lên tiếng ủng hộ hòa bình, dân chủ và bình đẳng kinh tế.",
+  "highlights": ["Sinh ngày 30/1/1927.", "Trong hai nhiệm kỳ thủ tướng Thụy Điển, Olof Palme lên tiếng ủng hộ hòa bình, dân chủ và bình đẳng kinh tế."],
   "wikidataId": "Q53713",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q53713",
@@ -2981,11 +2930,8 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇯🇵",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà vật lý và kỹ sư Nhật Bản; sinh ngày 30/1/1929.",
-  "biography": "Akasaki Isamu là nhà vật lý và kỹ sư người Nhật Bản. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 30/1/1929.",
-    "Lĩnh vực hoạt động: nhà vật lý và kỹ sư."
-  ],
+  "biography": "Akasaki Isamu là nhà vật lý và kỹ sư người Nhật Bản. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Isamu Akasaki là người tiên phong về đèn LED xanh lam và được trao Nobel Vật lý.",
+  "highlights": ["Sinh ngày 30/1/1929.", "Isamu Akasaki là người tiên phong về đèn LED xanh lam và được trao Nobel Vật lý."],
   "wikidataId": "Q1673706",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q1673706",
@@ -3013,18 +2959,22 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇦🇹",
   "image": "/people/placeholder.svg",
   "shortDescription": "Nhà soạn nhạc Áo; sinh ngày 31/1/1797.",
-  "biography": "Franz Schubert là nhà soạn nhạc người Áo. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 31/1/1797.",
-    "Lĩnh vực hoạt động: nhà soạn nhạc."
-  ],
+  "biography": "Franz Schubert là nhà soạn nhạc người Áo. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Đến năm 1816, khi chưa tròn 20 tuổi, Franz Schubert đã viết hơn 300 ca khúc đơn, năm giao hưởng và nhiều tác phẩm khác.",
+  "highlights": ["Sinh ngày 31/1/1797.", "Đến năm 1816, khi chưa tròn 20 tuổi, Franz Schubert đã viết hơn 300 ca khúc đơn, năm giao hưởng và nhiều tác phẩm khác."],
   "wikidataId": "Q7312",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q7312",
     "https://www.austria.info/en-gb/profiles/franz-schubert/",
-    "https://nac-cna.ca/en/bio/franz-schubert"
+    "https://nac-cna.ca/en/bio/franz-schubert",
+    "https://brockhaus.de/ecs/julex/article/schubert-franz-peter"
   ],
   "region": "west",
+  "deathDate": "1828-11-19",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": [
+    "https://brockhaus.de/ecs/julex/article/schubert-franz-peter"
+  ],
+  "deathDatePrecision": "day",
   "verifiedAt": "2026-10-04"
 }  ,
 {
@@ -3045,17 +2995,10 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇳🇱",
   "image": "/people/placeholder.svg",
   "shortDescription": "Quân chủ Hà Lan; sinh ngày 31/1/1938.",
-  "biography": "Beatrix của Hà Lan là quân chủ người Hà Lan. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 31/1/1938.",
-    "Lĩnh vực hoạt động: quân chủ."
-  ],
+  "biography": "Beatrix của Hà Lan là quân chủ người Hà Lan. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Ngày 30/4/2013, Beatrix ký văn bản thoái vị tại Cung điện Hoàng gia Amsterdam.",
+  "highlights": ["Sinh ngày 31/1/1938.", "Ngày 30/4/2013, Beatrix ký văn bản thoái vị tại Cung điện Hoàng gia Amsterdam."],
   "wikidataId": "Q29574",
-  "sourceUrls": [
-    "https://www.wikidata.org/wiki/Q29574",
-    "https://www.koninklijkhuis.nl/vraag-en-antwoord/wanneer-zijn-de-leden-van-het-koninklijk-huis-jarig",
-    "https://research.annefrank.org/en/personen/3880fed2-b10b-4f94-94c6-4ea3f4b5bbe8/?query=Anne+Frank"
-  ],
+  "sourceUrls": ["https://www.wikidata.org/wiki/Q29574", "https://www.koninklijkhuis.nl/vraag-en-antwoord/wanneer-zijn-de-leden-van-het-koninklijk-huis-jarig", "https://research.annefrank.org/en/personen/3880fed2-b10b-4f94-94c6-4ea3f4b5bbe8/?query=Anne+Frank", "https://www.koninklijkhuis.nl/actueel/nieuws/2013/04/30/koningin-ondertekent-akte-van-abdicatie"],
   "region": "west",
   "verifiedAt": "2026-10-04"
 }  ,
@@ -3077,18 +3020,125 @@ export const PEOPLE_01: Person[] = [
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
   "shortDescription": "Người được vinh danh là người công chính giữa các dân tộc Việt Nam; sinh ngày 31/1/1919.",
-  "biography": "Paul Nguyễn Công Anh là người được vinh danh là Người Công chính giữa các Dân tộc người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng.",
-  "highlights": [
-    "Sinh ngày 31/1/1919.",
-    "Lĩnh vực hoạt động: người được vinh danh là Người Công chính giữa các Dân tộc."
-  ],
+  "biography": "Paul Nguyễn Công Anh là người được vinh danh là Người Công chính giữa các Dân tộc người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Ngày 30/4/2007, Yad Vashem trao cho Paul Nguyễn Công Anh danh hiệu Người Công chính giữa các Dân tộc.",
+  "highlights": ["Sinh ngày 31/1/1919.", "Ngày 30/4/2007, Yad Vashem trao cho Paul Nguyễn Công Anh danh hiệu Người Công chính giữa các Dân tộc."],
   "wikidataId": "Q22907663",
-  "sourceUrls": [
-    "https://www.wikidata.org/wiki/Q22907663",
-    "https://yadvashem-france.org/justes/nom/nguyen-cong-anh-paul/",
-    "https://www.ajpn.org/juste-Paul-Nguyen-Cong-Anh-2047.html?source=archive"
-  ],
+  "sourceUrls": ["https://www.wikidata.org/wiki/Q22907663", "https://yadvashem-france.org/justes/nom/nguyen-cong-anh-paul/", "https://www.ajpn.org/juste-Paul-Nguyen-Cong-Anh-2047.html?source=archive", "https://yadvashem-france.org/dossier/nom/10937/"],
   "region": "vietnam",
   "verifiedAt": "2026-10-04"
-}
+},
+  {
+    "id": "aa-milne",
+    "slug": "aa-milne",
+    "name": "A. A. Milne",
+    "birthDate": "1882-01-18",
+    "birthYear": 1882,
+    "birthMonth": 1,
+    "birthDay": 18,
+    "lifeStatus": "deceased",
+    "occupation": [
+      "Nhà văn, nhà thơ"
+    ],
+    "category": "literature",
+    "categoryLabel": "Văn học",
+    "fields": [
+      "design-creative"
+    ],
+    "countryCode": "GB",
+    "countryName": "Vương quốc Anh",
+    "countryFlag": "🇬🇧",
+    "birthplace": "Kilburn, London, Anh",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Nhà văn Anh gắn với Winnie-the-Pooh và thơ thiếu nhi.",
+    "biography": "Nhà văn và nhà thơ Alan Alexander Milne được biết đến rộng rãi qua nhân vật Winnie-the-Pooh; nhân vật xuất hiện lần đầu dưới tên gọi ấy trong sách thiếu nhi cùng tên năm 1926. Ông cũng xuất bản hai tập thơ thiếu nhi When We Were Young và Now We Are Six.",
+    "highlights": [
+      "Nhân vật Winnie-the-Pooh xuất hiện lần đầu dưới tên gọi ấy trong sách thiếu nhi cùng tên năm 1926.",
+      "Milne xuất bản hai tập thơ thiếu nhi When We Were Young và Now We Are Six."
+    ],
+    "wikidataId": "Q207036",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q207036",
+      "https://poets.org/poet/milne",
+      "https://www.biography.com/authors-writers/aa-milne"
+    ],
+    "region": "west",
+    "verifiedAt": "2026-10-08"
+  },
+  {
+    "id": "peter-agre",
+    "slug": "peter-agre",
+    "name": "Peter Agre",
+    "birthDate": "1949-01-30",
+    "birthYear": 1949,
+    "birthMonth": 1,
+    "birthDay": 30,
+    "lifeStatus": "living",
+    "occupation": [
+      "Bác sĩ, nhà sinh học phân tử"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Khoa học",
+    "fields": [
+      "medicine-health",
+      "science-research"
+    ],
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "birthplace": "Northfield, Minnesota, Hoa Kỳ",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Nhà khoa học phát hiện aquaporin, các kênh dẫn nước qua màng tế bào.",
+    "biography": "Nhà sinh hóa Peter Agre cùng cộng sự phát hiện aquaporin, một nhóm protein tạo kênh cho nước đi qua màng tế bào; công trình này được vinh danh bằng Nobel Hóa học năm 2003. Ông từng lãnh đạo Viện Nghiên cứu Sốt rét Johns Hopkins.",
+    "highlights": [
+      "Nhóm nghiên cứu của Agre phát hiện aquaporin, nhóm protein tạo kênh cho nước đi qua màng tế bào.",
+      "Agre từng là giám đốc Viện Nghiên cứu Sốt rét Johns Hopkins."
+    ],
+    "wikidataId": "Q102250",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q102250",
+      "https://www.nobelprize.org/prizes/chemistry/2003/agre/biographical/",
+      "https://mediatheque.lindau-nobel.org/laureates/agre/research-profile",
+      "https://hub.jhu.edu/magazine/2026/spring/the-adventures-of-peter-agre/"
+    ],
+    "region": "west",
+    "verifiedAt": "2026-10-08"
+  },
+  {
+    "id": "gottfried-silbermann",
+    "slug": "gottfried-silbermann",
+    "name": "Gottfried Silbermann",
+    "birthDate": "1683-01-14",
+    "birthYear": 1683,
+    "birthMonth": 1,
+    "birthDay": 14,
+    "lifeStatus": "deceased",
+    "occupation": [
+      "Thợ chế tác đàn organ và nhạc cụ phím"
+    ],
+    "category": "music",
+    "categoryLabel": "Âm nhạc",
+    "fields": [
+      "technology-engineering",
+      "design-creative"
+    ],
+    "countryCode": "DE",
+    "countryName": "Đức",
+    "countryFlag": "🇩🇪",
+    "birthplace": "Kleinbobritzsch, Sachsen, Đức",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Thợ chế tác đàn organ người Đức, nổi tiếng với các nhạc cụ bàn phím.",
+    "biography": "Gottfried Silbermann chế tạo đàn organ và nhạc cụ phím ở Sachsen. Sau khi định cư tại Freiberg năm 1710, ông xây dựng đại phong cầm cho nhà thờ chính tòa địa phương và chế tạo tổng cộng 46 đàn organ.",
+    "highlights": [
+      "Năm 1710, Silbermann định cư tại Freiberg và xây dựng đại phong cầm cho nhà thờ chính tòa nơi đây.",
+      "Silbermann chế tạo tổng cộng 46 đàn organ tại miền Trung nước Đức."
+    ],
+    "wikidataId": "Q61720",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q61720",
+      "https://saebi.isgv.de/person/snr/3727",
+      "https://www.deutsche-biographie.de/gnd118614304.html"
+    ],
+    "region": "west",
+    "verifiedAt": "2026-10-08"
+  },
 ];

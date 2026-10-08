@@ -4,6 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { useFavorites } from '@/hooks/useFavorites';
 import { AppShell } from '@/components/layout/AppShell';
+import { getLifespanLabel } from '@/data/types';
 
 export default function FavoritesPage() {
   const { favorites, isLoaded, toggleFavorite } = useFavorites();
@@ -88,7 +89,7 @@ export default function FavoritesPage() {
                         <span className="material-symbols-outlined text-[18px]">bookmark_remove</span>
                       </button>
                       <div className="absolute bottom-2 left-2 px-2.5 py-0.5 rounded-full bg-inverse-surface/80 text-inverse-on-surface font-label-sm text-xs font-semibold">
-                        {person.birthYear} {person.deathDate ? `– ${new Date(person.deathDate).getFullYear()}` : '– nay'}
+                        {getLifespanLabel(person)}
                       </div>
                     </div>
                     <div className="flex items-center gap-2 mb-1">

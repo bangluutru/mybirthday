@@ -9,6 +9,7 @@ import { FeaturedPersonCard } from '@/components/cards/FeaturedPersonCard';
 import { ChevronLeft, Bookmark, Trophy, MapPin, ExternalLink, Share2 } from 'lucide-react';
 import { useFavorites } from '@/hooks/useFavorites';
 import { vi } from '@/messages/vi';
+import { getLifespanLabel, PERSON_FIELD_LABELS } from '@/data/types';
 
 export default function PersonDetailPage() {
   const params = useParams();
@@ -35,9 +36,7 @@ export default function PersonDetailPage() {
   }
 
   const favorited = isFavorite(person.id);
-  const yearRange = person.deathDate
-    ? `${person.birthYear} – ${new Date(person.deathDate).getFullYear() || person.deathDate.slice(0, 4)}`
-    : `${person.birthYear} –`;
+  const yearRange = getLifespanLabel(person);
 
   // Fetch others born on the same day
   const birthdayData = getBirthdayData(person.birthMonth, person.birthDay);
@@ -114,6 +113,11 @@ export default function PersonDetailPage() {
               <span className="px-3 py-1 bg-slate-100 text-slate-700 text-xs font-semibold rounded-full">
                 {person.categoryLabel}
               </span>
+              {person.fields?.map((field) => (
+                <span key={field} className="px-3 py-1 bg-brand-50 text-brand-700 text-xs font-semibold rounded-full">
+                  {PERSON_FIELD_LABELS[field]}
+                </span>
+              ))}
               {person.countryName && (
                 <span className="px-3 py-1 bg-slate-100 text-slate-700 text-xs font-semibold rounded-full flex items-center space-x-1">
                   <span>{person.countryFlag}</span>

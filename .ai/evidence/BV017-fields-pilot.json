@@ -1,0 +1,956 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "generatedAt": "2026-10-07T15:25:42Z",
+  "scope": {
+    "profileCount": 40,
+    "months": [
+      11,
+      12
+    ],
+    "fieldCount": 9,
+    "categoryPreserved": true
+  },
+  "methodology": "Pilot tags are additional multi-valued fields. Every mapping records either reviewed Wikidata P106 occupation terms retained in B015-B016 identity evidence, or a directly captured career fact in BV017-content-evidence. Existing Person.category values are preserved.",
+  "profiles": [
+    {
+      "id": "aristide-maillol",
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "occupationClaims": [
+            {
+              "qid": "Q1281618",
+              "english": "sculptor",
+              "vietnamese": "nhà điêu khắc"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận sculptor (Q1281618); ánh xạ sang lĩnh vực thiết kế và sáng tạo như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "adolf-loos",
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "occupationClaims": [
+            {
+              "qid": "Q42973",
+              "english": "architect",
+              "vietnamese": "kiến trúc sư"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận architect (Q42973); ánh xạ sang lĩnh vực thiết kế và sáng tạo như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "august-krogh",
+      "fields": [
+        "medicine-health",
+        "science-research"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "medicine-health",
+          "occupationClaims": [
+            {
+              "qid": "Q2055046",
+              "english": "physiologist",
+              "vietnamese": "nhà sinh lý học"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận physiologist (Q2055046); ánh xạ sang lĩnh vực y học và sức khỏe như nhãn bổ sung, không thay category hiện hữu."
+        },
+        {
+          "field": "science-research",
+          "occupationClaims": [
+            {
+              "qid": "Q2055046",
+              "english": "physiologist",
+              "vietnamese": "nhà sinh lý học"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận physiologist (Q2055046); ánh xạ sang lĩnh vực khoa học và nghiên cứu như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "carter-godwin-woodson",
+      "fields": [
+        "education-thought"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "education-thought",
+          "occupationClaims": [
+            {
+              "qid": "Q201788",
+              "english": "historian",
+              "vietnamese": "nhà sử học"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận historian (Q201788); ánh xạ sang lĩnh vực giáo dục và tư tưởng như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "patrick-pearse",
+      "fields": [
+        "society-law"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "society-law",
+          "occupationClaims": [
+            {
+              "qid": "Q37226",
+              "english": "teacher",
+              "vietnamese": "giáo viên"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận teacher (Q37226); ánh xạ sang lĩnh vực xã hội và pháp luật như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "frederick-banting",
+      "fields": [
+        "medicine-health"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "medicine-health",
+          "occupationClaims": [
+            {
+              "qid": "Q39631",
+              "english": "physician",
+              "vietnamese": "bác sĩ"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận physician (Q39631); ánh xạ sang lĩnh vực y học và sức khỏe như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "carl-ferdinand-cori",
+      "fields": [
+        "medicine-health"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "medicine-health",
+          "occupationClaims": [
+            {
+              "qid": "Q2919046",
+              "english": "biochemist",
+              "vietnamese": "nhà hóa sinh"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận biochemist (Q2919046); ánh xạ sang lĩnh vực y học và sức khỏe như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "ants-oras",
+      "fields": [
+        "education-thought"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "education-thought",
+          "occupationClaims": [
+            {
+              "qid": "Q17167049",
+              "english": "literary scholar",
+              "vietnamese": "học giả văn học"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận literary scholar (Q17167049); ánh xạ sang lĩnh vực giáo dục và tư tưởng như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "marlene-dietrich",
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "occupationClaims": [
+            {
+              "qid": "Q10800557",
+              "english": "film actor",
+              "vietnamese": "diễn viên điện ảnh"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận film actor (Q10800557); ánh xạ sang lĩnh vực thiết kế và sáng tạo như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "john-von-neumann",
+      "fields": [
+        "technology-engineering"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "technology-engineering",
+          "occupationClaims": [
+            {
+              "qid": "Q82594",
+              "english": "computer scientist",
+              "vietnamese": "nhà khoa học máy tính"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận computer scientist (Q82594); ánh xạ sang lĩnh vực công nghệ và kỹ thuật như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "j-h-c-whitehead",
+      "fields": [
+        "education-thought"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "education-thought",
+          "occupationClaims": [
+            {
+              "qid": "Q170790",
+              "english": "mathematician",
+              "vietnamese": "nhà toán học"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận mathematician (Q170790); ánh xạ sang lĩnh vực giáo dục và tư tưởng như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "george-wald",
+      "fields": [
+        "medicine-health",
+        "science-research"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "medicine-health",
+          "occupationClaims": [
+            {
+              "qid": "Q2919046",
+              "english": "biochemist",
+              "vietnamese": "nhà hóa sinh"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận biochemist (Q2919046); ánh xạ sang lĩnh vực y học và sức khỏe như nhãn bổ sung, không thay category hiện hữu."
+        },
+        {
+          "field": "science-research",
+          "occupationClaims": [
+            {
+              "qid": "Q2919046",
+              "english": "biochemist",
+              "vietnamese": "nhà hóa sinh"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận biochemist (Q2919046); ánh xạ sang lĩnh vực khoa học và nghiên cứu như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "joseph-rotblat",
+      "fields": [
+        "science-research"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "science-research",
+          "occupationClaims": [
+            {
+              "qid": "Q169470",
+              "english": "physicist",
+              "vietnamese": "nhà vật lý"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận physicist (Q169470); ánh xạ sang lĩnh vực khoa học và nghiên cứu như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "david-merrick",
+      "fields": [
+        "economics-business"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "economics-business",
+          "occupationClaims": [
+            {
+              "qid": "Q47541952",
+              "english": "producer",
+              "vietnamese": "nhà sản xuất"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận producer (Q47541952); ánh xạ sang lĩnh vực kinh tế và kinh doanh như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "hans-von-ohain",
+      "fields": [
+        "technology-engineering"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "technology-engineering",
+          "occupationClaims": [
+            {
+              "qid": "Q81096",
+              "english": "engineer",
+              "vietnamese": "kỹ sư"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận engineer (Q81096); ánh xạ sang lĩnh vực công nghệ và kỹ thuật như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "ismail-abdul-rahman",
+      "fields": [
+        "society-law"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "society-law",
+          "occupationClaims": [
+            {
+              "qid": "Q193391",
+              "english": "diplomat",
+              "vietnamese": "nhà ngoại giao"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận diplomat (Q193391); ánh xạ sang lĩnh vực xã hội và pháp luật như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "m-athalie-range",
+      "fields": [
+        "economics-business",
+        "entrepreneurship"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "economics-business",
+          "occupationClaims": [
+            {
+              "qid": "Q316490",
+              "english": "funeral director",
+              "vietnamese": "người hộ tang"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận funeral director (Q316490); ánh xạ sang lĩnh vực kinh tế và kinh doanh như nhãn bổ sung, không thay category hiện hữu."
+        },
+        {
+          "field": "entrepreneurship",
+          "occupationClaims": [],
+          "careerFactIds": [
+            "source-bio:m-athalie-range"
+          ],
+          "rationale": "Nguồn tiểu sử được lưu trong BV017-content-evidence ghi nhận việc đồng sáng lập một nhà tang lễ; dùng nhãn doanh nhân theo hoạt động kinh doanh được nêu, không dựa riêng vào nghề chính."
+        }
+      ]
+    },
+    {
+      "id": "andrew-huxley",
+      "fields": [
+        "medicine-health"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "medicine-health",
+          "occupationClaims": [
+            {
+              "qid": "Q14906342",
+              "english": "biophysicist",
+              "vietnamese": null
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận biophysicist (Q14906342); ánh xạ sang lĩnh vực y học và sức khỏe như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "b-k-s-iyengar",
+      "fields": [
+        "education-thought"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "education-thought",
+          "occupationClaims": [
+            {
+              "qid": "Q37226",
+              "english": "teacher",
+              "vietnamese": "giáo viên"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận teacher (Q37226); ánh xạ sang lĩnh vực giáo dục và tư tưởng như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "pierre-soulages",
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "occupationClaims": [
+            {
+              "qid": "Q1028181",
+              "english": "painter",
+              "vietnamese": "họa sĩ"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận painter (Q1028181); ánh xạ sang lĩnh vực thiết kế và sáng tạo như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "john-severin",
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "occupationClaims": [
+            {
+              "qid": "Q1114448",
+              "english": "cartoonist",
+              "vietnamese": "họa sĩ hoạt họa"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận cartoonist (Q1114448); ánh xạ sang lĩnh vực thiết kế và sáng tạo như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "francesco-rosi",
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "occupationClaims": [
+            {
+              "qid": "Q2526255",
+              "english": "film director",
+              "vietnamese": "đạo diễn phim"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận film director (Q2526255); ánh xạ sang lĩnh vực thiết kế và sáng tạo như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "menachem-elon",
+      "fields": [
+        "society-law"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "society-law",
+          "occupationClaims": [
+            {
+              "qid": "Q16533",
+              "english": "judge",
+              "vietnamese": "thẩm phán"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận judge (Q16533); ánh xạ sang lĩnh vực xã hội và pháp luật như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "freeman-dyson",
+      "fields": [
+        "science-research"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "science-research",
+          "occupationClaims": [
+            {
+              "qid": "Q19350898",
+              "english": "theoretical physicist",
+              "vietnamese": "nhà vật lý lý thuyết"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận theoretical physicist (Q19350898); ánh xạ sang lĩnh vực khoa học và nghiên cứu như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "mario-soares",
+      "fields": [
+        "society-law"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "society-law",
+          "occupationClaims": [
+            {
+              "qid": "Q40348",
+              "english": "lawyer",
+              "vietnamese": "luật sư"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận lawyer (Q40348); ánh xạ sang lĩnh vực xã hội và pháp luật như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "frits-staal",
+      "fields": [
+        "education-thought"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "education-thought",
+          "occupationClaims": [
+            {
+              "qid": "Q4964182",
+              "english": "philosopher",
+              "vietnamese": "nhà triết học"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận philosopher (Q4964182); ánh xạ sang lĩnh vực giáo dục và tư tưởng như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "tu-youyou",
+      "fields": [
+        "medicine-health",
+        "science-research"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "medicine-health",
+          "occupationClaims": [
+            {
+              "qid": "Q105186",
+              "english": "pharmacist",
+              "vietnamese": "dược sĩ"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận pharmacist (Q105186); ánh xạ sang lĩnh vực y học và sức khỏe như nhãn bổ sung, không thay category hiện hữu."
+        },
+        {
+          "field": "science-research",
+          "occupationClaims": [
+            {
+              "qid": "Q17156912",
+              "english": "malariologist",
+              "vietnamese": null
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận malariologist (Q17156912); ánh xạ sang lĩnh vực khoa học và nghiên cứu như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "monica-vitti",
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "occupationClaims": [
+            {
+              "qid": "Q10800557",
+              "english": "film actor",
+              "vietnamese": "diễn viên điện ảnh"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận film actor (Q10800557); ánh xạ sang lĩnh vực thiết kế và sáng tạo như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "violette-verdy",
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "occupationClaims": [
+            {
+              "qid": "Q805221",
+              "english": "ballet dancer",
+              "vietnamese": "vũ công múa ba lê"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận ballet dancer (Q805221); ánh xạ sang lĩnh vực thiết kế và sáng tạo như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "paul-j-crutzen",
+      "fields": [
+        "earth-environment",
+        "technology-engineering"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "earth-environment",
+          "occupationClaims": [
+            {
+              "qid": "Q1113838",
+              "english": "climatologist",
+              "vietnamese": null
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận climatologist (Q1113838); ánh xạ sang lĩnh vực trái đất và môi trường như nhãn bổ sung, không thay category hiện hữu."
+        },
+        {
+          "field": "technology-engineering",
+          "occupationClaims": [
+            {
+              "qid": "Q81096",
+              "english": "engineer",
+              "vietnamese": "kỹ sư"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận engineer (Q81096); ánh xạ sang lĩnh vực công nghệ và kỹ thuật như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "carl-sagan",
+      "fields": [
+        "earth-environment"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "earth-environment",
+          "occupationClaims": [
+            {
+              "qid": "Q18805",
+              "english": "naturalist",
+              "vietnamese": "nhà tự nhiên học"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận naturalist (Q18805); ánh xạ sang lĩnh vực trái đất và môi trường như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "jack-welch",
+      "fields": [
+        "economics-business",
+        "entrepreneurship",
+        "technology-engineering"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "economics-business",
+          "occupationClaims": [
+            {
+              "qid": "Q43845",
+              "english": "businessperson",
+              "vietnamese": "doanh nhân"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận businessperson (Q43845); ánh xạ sang lĩnh vực kinh tế và kinh doanh như nhãn bổ sung, không thay category hiện hữu."
+        },
+        {
+          "field": "entrepreneurship",
+          "occupationClaims": [
+            {
+              "qid": "Q131524",
+              "english": "entrepreneur",
+              "vietnamese": "chủ doanh nghiệp"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận entrepreneur (Q131524); ánh xạ sang lĩnh vực khởi nghiệp và doanh nhân như nhãn bổ sung, không thay category hiện hữu."
+        },
+        {
+          "field": "technology-engineering",
+          "occupationClaims": [
+            {
+              "qid": "Q81096",
+              "english": "engineer",
+              "vietnamese": "kỹ sư"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận engineer (Q81096); ánh xạ sang lĩnh vực công nghệ và kỹ thuật như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "abbie-hoffman",
+      "fields": [
+        "society-law"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "society-law",
+          "occupationClaims": [
+            {
+              "qid": "Q8359428",
+              "english": "social activist",
+              "vietnamese": "nhà hoạt động xã hội"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận social activist (Q8359428); ánh xạ sang lĩnh vực xã hội và pháp luật như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "ted-turner",
+      "fields": [
+        "earth-environment",
+        "economics-business",
+        "entrepreneurship"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "earth-environment",
+          "occupationClaims": [
+            {
+              "qid": "Q3578589",
+              "english": "environmentalist",
+              "vietnamese": "nhà môi trường học"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận environmentalist (Q3578589); ánh xạ sang lĩnh vực trái đất và môi trường như nhãn bổ sung, không thay category hiện hữu."
+        },
+        {
+          "field": "economics-business",
+          "occupationClaims": [
+            {
+              "qid": "Q1420621",
+              "english": "media proprietor",
+              "vietnamese": "Trùm truyền thông"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận media proprietor (Q1420621); ánh xạ sang lĩnh vực kinh tế và kinh doanh như nhãn bổ sung, không thay category hiện hữu."
+        },
+        {
+          "field": "entrepreneurship",
+          "occupationClaims": [
+            {
+              "qid": "Q131524",
+              "english": "entrepreneur",
+              "vietnamese": "chủ doanh nghiệp"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận entrepreneur (Q131524); ánh xạ sang lĩnh vực khởi nghiệp và doanh nhân như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "tina-turner",
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "occupationClaims": [
+            {
+              "qid": "Q177220",
+              "english": "singer",
+              "vietnamese": "ca sĩ"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận singer (Q177220); ánh xạ sang lĩnh vực thiết kế và sáng tạo như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "martin-scorsese",
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "occupationClaims": [
+            {
+              "qid": "Q2526255",
+              "english": "film director",
+              "vietnamese": "đạo diễn phim"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận film director (Q2526255); ánh xạ sang lĩnh vực thiết kế và sáng tạo như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "bernard-hill",
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "occupationClaims": [
+            {
+              "qid": "Q33999",
+              "english": "actor",
+              "vietnamese": "diễn viên"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận actor (Q33999); ánh xạ sang lĩnh vực thiết kế và sáng tạo như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "gianni-versace",
+      "fields": [
+        "design-creative",
+        "entrepreneurship"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "occupationClaims": [
+            {
+              "qid": "Q3501317",
+              "english": "fashion designer",
+              "vietnamese": "nhà thiết kế thời trang"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận fashion designer (Q3501317); ánh xạ sang lĩnh vực thiết kế và sáng tạo như nhãn bổ sung, không thay category hiện hữu."
+        },
+        {
+          "field": "entrepreneurship",
+          "occupationClaims": [
+            {
+              "qid": "Q131524",
+              "english": "entrepreneur",
+              "vietnamese": "chủ doanh nghiệp"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận entrepreneur (Q131524); ánh xạ sang lĩnh vực khởi nghiệp và doanh nhân như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "marc-ravalomanana",
+      "fields": [
+        "economics-business",
+        "entrepreneurship"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "economics-business",
+          "occupationClaims": [
+            {
+              "qid": "Q131524",
+              "english": "entrepreneur",
+              "vietnamese": "chủ doanh nghiệp"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận entrepreneur (Q131524); ánh xạ sang lĩnh vực kinh tế và kinh doanh như nhãn bổ sung, không thay category hiện hữu."
+        },
+        {
+          "field": "entrepreneurship",
+          "occupationClaims": [
+            {
+              "qid": "Q131524",
+              "english": "entrepreneur",
+              "vietnamese": "chủ doanh nghiệp"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận entrepreneur (Q131524); ánh xạ sang lĩnh vực khởi nghiệp và doanh nhân như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    },
+    {
+      "id": "paul-watson",
+      "fields": [
+        "earth-environment"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "earth-environment",
+          "occupationClaims": [
+            {
+              "qid": "Q3578589",
+              "english": "environmentalist",
+              "vietnamese": "nhà môi trường học"
+            }
+          ],
+          "careerFactIds": [],
+          "rationale": "P106 ghi nhận environmentalist (Q3578589); ánh xạ sang lĩnh vực trái đất và môi trường như nhãn bổ sung, không thay category hiện hữu."
+        }
+      ]
+    }
+  ]
+}

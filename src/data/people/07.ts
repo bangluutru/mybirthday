@@ -19,21 +19,25 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Olivia de Havilland là diễn viên.",
-    "biography": "Olivia de Havilland là diễn viên, sinh ngày 1 tháng 7 năm 1916.",
-    "highlights": [
-      "Sinh ngày 1 tháng 7 năm 1916.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ],
+    "biography": "Năm 2017, ở tuổi 100, Olivia de Havilland được phong tước Dame và trở thành người phụ nữ lớn tuổi nhất nhận vinh dự này.",
+    "highlights": ["Sinh ngày 1 tháng 7 năm 1916.", "Năm 2017, ở tuổi 100, Olivia de Havilland được phong tước Dame và trở thành người phụ nữ lớn tuổi nhất nhận vinh dự này."],
     "wikidataId": "Q95068",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q95068",
       "https://snl.no/Olivia_de_Havilland",
-      "https://www.enciklopedija.hr/clanak/havilland-olivia-de"
+      "https://www.enciklopedija.hr/clanak/havilland-olivia-de",
+      "https://www.archives.gov/news/articles/in-memoriam-olivia-de-havilland"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-06"
+    "verifiedAt": "2026-10-06",
+    "deathDate": "2020-07-26",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.archives.gov/news/articles/in-memoriam-olivia-de-havilland"
+    ],
+    "deathDatePrecision": "day"
   },
   {
     "id": "carl-lewis",
@@ -53,11 +57,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Carl Lewis là vận động viên.",
-    "biography": "Carl Lewis là vận động viên, sinh ngày 1 tháng 7 năm 1961.",
-    "highlights": [
-      "Sinh ngày 1 tháng 7 năm 1961.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Năm 1999, Carl Lewis được vinh danh là vận động viên điền kinh nam xuất sắc nhất thế kỷ.",
+    "highlights": ["Sinh ngày 1 tháng 7 năm 1961.", "Năm 1999, Carl Lewis được vinh danh là vận động viên điền kinh nam xuất sắc nhất thế kỷ."],
     "wikidataId": "Q131237",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q131237",
@@ -87,11 +88,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "George Sand là nhà văn.",
-    "biography": "George Sand là nhà văn, sinh ngày 1 tháng 7 năm 1804.",
-    "highlights": [
-      "Sinh ngày 1 tháng 7 năm 1804.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "George Sand là một trong những phụ nữ đầu tiên ở châu Âu có thể sống bằng nghề viết văn.",
+    "highlights": ["Sinh ngày 1 tháng 7 năm 1804.", "George Sand là một trong những phụ nữ đầu tiên ở châu Âu có thể sống bằng nghề viết văn."],
     "wikidataId": "Q3816",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q3816",
@@ -121,20 +119,24 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Hermann Hesse là nhà văn, nhà thơ.",
-    "biography": "Hermann Hesse là nhà văn, nhà thơ, sinh ngày 2 tháng 7 năm 1877.",
-    "highlights": [
-      "Sinh ngày 2 tháng 7 năm 1877.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Hermann Hesse chuyển hóa trải nghiệm cá nhân thành văn chương, trong đó có tiểu thuyết Demian (1919).",
+    "highlights": ["Sinh ngày 2 tháng 7 năm 1877.", "Hermann Hesse chuyển hóa trải nghiệm cá nhân thành văn chương, trong đó có tiểu thuyết Demian (1919)."],
     "wikidataId": "Q25973",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q25973",
       "https://snl.no/Hermann_Hesse",
-      "https://www.enciklopedija.hr/clanak/hesse-hermann"
+      "https://www.enciklopedija.hr/clanak/hesse-hermann",
+      "https://brockhaus.de/ecs/julex/article/hesse-hermann"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1962-08-09",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/hesse-hermann"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -155,11 +157,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇵🇱",
     "image": "/people/placeholder.svg",
     "shortDescription": "Wisława Szymborska là nhà văn.",
-    "biography": "Wisława Szymborska là nhà văn, sinh ngày 2 tháng 7 năm 1923.",
-    "highlights": [
-      "Sinh ngày 2 tháng 7 năm 1923.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Wisława Szymborska nhận Nobel Văn học năm 1996.",
+    "highlights": ["Sinh ngày 2 tháng 7 năm 1923.", "Wisława Szymborska nhận Nobel Văn học năm 1996."],
     "wikidataId": "Q42552",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q42552",
@@ -189,17 +188,10 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Đặng Thái Sơn là nghệ sĩ dương cầm.",
-    "biography": "Đặng Thái Sơn là nghệ sĩ dương cầm, sinh ngày 2 tháng 7 năm 1958.",
-    "highlights": [
-      "Sinh ngày 2 tháng 7 năm 1958.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ],
+    "biography": "Năm 1980, Đặng Thái Sơn thắng Cuộc thi Piano Chopin lần thứ 10; ông còn nhận giải cho phần trình diễn mazurka, polonaise và concerto.",
+    "highlights": ["Sinh ngày 2 tháng 7 năm 1958.", "Năm 1980, Đặng Thái Sơn thắng Cuộc thi Piano Chopin lần thứ 10; ông còn nhận giải cho phần trình diễn mazurka, polonaise và concerto."],
     "wikidataId": "Q1159527",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q1159527",
-      "https://classical.music.apple.com/us/artist/dang-thai-son-1958",
-      "https://www.encyclopedia.com/arts/dictionaries-thesauruses-pictures-and-press-releases/dang-thai-son-actually-son-thai-dang"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q1159527", "https://classical.music.apple.com/us/artist/dang-thai-son-1958", "https://www.encyclopedia.com/arts/dictionaries-thesauruses-pictures-and-press-releases/dang-thai-son-actually-son-thai-dang", "https://www.chopincompetition.pl/en/edition/409"],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "vietnam",
@@ -223,11 +215,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇨🇿",
     "image": "/people/placeholder.svg",
     "shortDescription": "Franz Kafka là nhà văn.",
-    "biography": "Franz Kafka là nhà văn, sinh ngày 3 tháng 7 năm 1883.",
-    "highlights": [
-      "Sinh ngày 3 tháng 7 năm 1883.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Khi còn là sinh viên, Franz Kafka đã gia nhập môi trường văn học nói tiếng Đức ở Praha, dù ông thường giữ im lặng và hiếm khi đọc tác phẩm của mình trước công chúng.",
+    "highlights": ["Sinh ngày 3 tháng 7 năm 1883.", "Khi còn là sinh viên, Franz Kafka đã gia nhập môi trường văn học nói tiếng Đức ở Praha, dù ông thường giữ im lặng và hiếm khi đọc tác phẩm của mình trước công chúng."],
     "wikidataId": "Q905",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q905",
@@ -257,11 +246,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Tom Cruise là diễn viên.",
-    "biography": "Tom Cruise là diễn viên, sinh ngày 3 tháng 7 năm 1962.",
-    "highlights": [
-      "Sinh ngày 3 tháng 7 năm 1962.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ],
+    "biography": "Tom Cruise nhận Cành cọ Vàng danh dự tại Cannes năm 2022 và Oscar danh dự năm 2025 vì những đóng góp lâu dài cho điện ảnh.",
+    "highlights": ["Sinh ngày 3 tháng 7 năm 1962.", "Tom Cruise nhận Cành cọ Vàng danh dự tại Cannes năm 2022 và Oscar danh dự năm 2025 vì những đóng góp lâu dài cho điện ảnh."],
     "wikidataId": "Q37079",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q37079",
@@ -291,11 +277,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Sebastian Vettel là vận động viên.",
-    "biography": "Sebastian Vettel là vận động viên, sinh ngày 3 tháng 7 năm 1987.",
-    "highlights": [
-      "Sinh ngày 3 tháng 7 năm 1987.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Tháng 10/2011, Sebastian Vettel trở thành tay đua trẻ nhất hai lần vô địch thế giới Formula 1, sau mùa giải có 11 chiến thắng và 15 lần giành pole.",
+    "highlights": ["Sinh ngày 3 tháng 7 năm 1987.", "Tháng 10/2011, Sebastian Vettel trở thành tay đua trẻ nhất hai lần vô địch thế giới Formula 1, sau mùa giải có 11 chiến thắng và 15 lần giành pole."],
     "wikidataId": "Q42311",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q42311",
@@ -325,20 +308,24 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇮🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Giuseppe Garibaldi là chính khách.",
-    "biography": "Giuseppe Garibaldi là chính khách, sinh ngày 4 tháng 7 năm 1807.",
-    "highlights": [
-      "Sinh ngày 4 tháng 7 năm 1807.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Giuseppe Garibaldi sớm tham gia phong trào dân tộc chủ nghĩa do Giuseppe Mazzini lãnh đạo, hướng tới thống nhất Italy.",
+    "highlights": ["Sinh ngày 4 tháng 7 năm 1807.", "Giuseppe Garibaldi sớm tham gia phong trào dân tộc chủ nghĩa do Giuseppe Mazzini lãnh đạo, hướng tới thống nhất Italy."],
     "wikidataId": "Q539",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q539",
       "https://snl.no/Giuseppe_Garibaldi",
-      "https://www.enciklopedija.hr/clanak/garibaldi-giuseppe"
+      "https://www.enciklopedija.hr/clanak/garibaldi-giuseppe",
+      "https://brockhaus.de/ecs/julex/article/garibaldi-giuseppe"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1882-06-02",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/garibaldi-giuseppe"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -359,20 +346,26 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇮🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Gina Lollobrigida là diễn viên.",
-    "biography": "Gina Lollobrigida là diễn viên, sinh ngày 4 tháng 7 năm 1927.",
-    "highlights": [
-      "Sinh ngày 4 tháng 7 năm 1927.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ],
+    "biography": "Gina Lollobrigida nhận Quả cầu Vàng được khán giả bình chọn năm 1961 và giải danh dự tại Liên hoan phim Berlin năm 1986.",
+    "highlights": ["Sinh ngày 4 tháng 7 năm 1927.", "Gina Lollobrigida nhận Quả cầu Vàng được khán giả bình chọn năm 1961 và giải danh dự tại Liên hoan phim Berlin năm 1986."],
     "wikidataId": "Q56009",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q56009",
       "https://snl.no/Gina_Lollobrigida",
-      "https://www.enciklopedija.hr/clanak/lollobrigida-gina"
+      "https://www.enciklopedija.hr/clanak/lollobrigida-gina",
+      "https://www.repubblica.it/spettacoli/people/2023/01/16/news/gina_lollobrigida_morta_attriceanni_95-383815036/",
+      "https://www.theguardian.com/film/2023/jan/16/gina-lollobrigida-dies-la-lollo-beat-the-devil"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "2023-01-16",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.repubblica.it/spettacoli/people/2023/01/16/news/gina_lollobrigida_morta_attriceanni_95-383815036/",
+      "https://www.theguardian.com/film/2023/jan/16/gina-lollobrigida-dies-la-lollo-beat-the-devil"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -393,11 +386,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇦🇱",
     "image": "/people/placeholder.svg",
     "shortDescription": "Edi Rama là chính khách.",
-    "biography": "Edi Rama là chính khách, sinh ngày 4 tháng 7 năm 1964.",
-    "highlights": [
-      "Sinh ngày 4 tháng 7 năm 1964.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Edi Rama bước vào chính trường năm 1998 với cương vị Bộ trưởng Văn hóa, Thanh niên và Thể thao Albania.",
+    "highlights": ["Sinh ngày 4 tháng 7 năm 1964.", "Edi Rama bước vào chính trường năm 1998 với cương vị Bộ trưởng Văn hóa, Thanh niên và Thể thao Albania."],
     "wikidataId": "Q316901",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q316901",
@@ -427,11 +417,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Georges Pompidou là chính khách.",
-    "biography": "Georges Pompidou là chính khách, sinh ngày 5 tháng 7 năm 1911.",
-    "highlights": [
-      "Sinh ngày 5 tháng 7 năm 1911.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Năm 1958, sau khi giữ nhiều chức vụ tại các doanh nghiệp nhà nước Pháp, Georges Pompidou trở thành tổng giám đốc ngân hàng Rothschild.",
+    "highlights": ["Sinh ngày 5 tháng 7 năm 1911.", "Năm 1958, sau khi giữ nhiều chức vụ tại các doanh nghiệp nhà nước Pháp, Georges Pompidou trở thành tổng giám đốc ngân hàng Rothschild."],
     "wikidataId": "Q2185",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q2185",
@@ -461,11 +448,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Jean Cocteau là nhà văn, đạo diễn.",
-    "biography": "Jean Cocteau là nhà văn, đạo diễn, sinh ngày 5 tháng 7 năm 1889.",
-    "highlights": [
-      "Sinh ngày 5 tháng 7 năm 1889.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Trong giai đoạn quanh Thế chiến thứ nhất, Jean Cocteau là một gương mặt lãnh đạo của giới nghệ sĩ tiên phong tại Paris.",
+    "highlights": ["Sinh ngày 5 tháng 7 năm 1889.", "Trong giai đoạn quanh Thế chiến thứ nhất, Jean Cocteau là một gương mặt lãnh đạo của giới nghệ sĩ tiên phong tại Paris."],
     "wikidataId": "Q83158",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q83158",
@@ -495,11 +479,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "P. T. Barnum là chính khách.",
-    "biography": "P. T. Barnum là chính khách, sinh ngày 5 tháng 7 năm 1810.",
-    "highlights": [
-      "Sinh ngày 5 tháng 7 năm 1810.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Năm 1871, P. T. Barnum và cộng sự khai trương Barnum's Grand Traveling Museum, Menagerie, Caravan and Hippodrome.",
+    "highlights": ["Sinh ngày 5 tháng 7 năm 1810.", "Năm 1871, P. T. Barnum và cộng sự khai trương Barnum's Grand Traveling Museum, Menagerie, Caravan and Hippodrome."],
     "wikidataId": "Q223766",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q223766",
@@ -529,11 +510,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇲🇽",
     "image": "/people/placeholder.svg",
     "shortDescription": "Frida Kahlo là nghệ sĩ.",
-    "biography": "Frida Kahlo là nghệ sĩ, sinh ngày 6 tháng 7 năm 1907.",
-    "highlights": [
-      "Sinh ngày 6 tháng 7 năm 1907.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ],
+    "biography": "Frida Kahlo từng triển lãm tại Phòng trưng bày của Ban Hành động Xã hội thuộc Đại học Tự trị Quốc gia Mexico.",
+    "highlights": ["Sinh ngày 6 tháng 7 năm 1907.", "Frida Kahlo từng triển lãm tại Phòng trưng bày của Ban Hành động Xã hội thuộc Đại học Tự trị Quốc gia Mexico."],
     "wikidataId": "Q5588",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q5588",
@@ -563,11 +541,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Sylvester Stallone là diễn viên.",
-    "biography": "Sylvester Stallone là diễn viên, sinh ngày 6 tháng 7 năm 1946.",
-    "highlights": [
-      "Sinh ngày 6 tháng 7 năm 1946.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ],
+    "biography": "Sylvester Stallone nổi tiếng với vai trò biên kịch kiêm diễn viên chính trong Rocky (1976), bộ phim đoạt Oscar.",
+    "highlights": ["Sinh ngày 6 tháng 7 năm 1946.", "Sylvester Stallone nổi tiếng với vai trò biên kịch kiêm diễn viên chính trong Rocky (1976), bộ phim đoạt Oscar."],
     "wikidataId": "Q40026",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q40026",
@@ -597,11 +572,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "George W. Bush là chính khách.",
-    "biography": "George W. Bush là chính khách, sinh ngày 6 tháng 7 năm 1946.",
-    "highlights": [
-      "Sinh ngày 6 tháng 7 năm 1946.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "George W. Bush nhậm chức tổng thống Hoa Kỳ ngày 20/1/2001, tái đắc cử năm 2004 và bắt đầu nhiệm kỳ hai tháng 1/2005.",
+    "highlights": ["Sinh ngày 6 tháng 7 năm 1946.", "George W. Bush nhậm chức tổng thống Hoa Kỳ ngày 20/1/2001, tái đắc cử năm 2004 và bắt đầu nhiệm kỳ hai tháng 1/2005."],
     "wikidataId": "Q207",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q207",
@@ -631,20 +603,19 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇦🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Gustav Mahler là nhạc sĩ, ca sĩ.",
-    "biography": "Gustav Mahler là nhạc sĩ, ca sĩ, sinh ngày 7 tháng 7 năm 1860.",
-    "highlights": [
-      "Sinh ngày 7 tháng 7 năm 1860.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ],
+    "biography": "Năm 1900, Gustav Mahler chỉ huy Vienna Philharmonic trong chuyến biểu diễn nước ngoài đầu tiên của dàn nhạc, tại Paris.",
+    "highlights": ["Sinh ngày 7 tháng 7 năm 1860.", "Năm 1900, Gustav Mahler chỉ huy Vienna Philharmonic trong chuyến biểu diễn nước ngoài đầu tiên của dàn nhạc, tại Paris."],
     "wikidataId": "Q7304",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q7304",
-      "https://www.enciklopedija.hr/clanak/mahler-gustav",
-      "https://brockhaus.de/ecs/julex/article/mahler-gustav"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q7304", "https://www.enciklopedija.hr/clanak/mahler-gustav", "https://brockhaus.de/ecs/julex/article/mahler-gustav", "https://www.wienerphilharmoniker.at/en/orchestra/history/the-early-20th-century"],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1911-05-18",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/mahler-gustav"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -665,11 +636,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "George Cukor là diễn viên.",
-    "biography": "George Cukor là diễn viên, sinh ngày 7 tháng 7 năm 1899.",
-    "highlights": [
-      "Sinh ngày 7 tháng 7 năm 1899.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ],
+    "biography": "George Cukor bị thay khỏi vị trí đạo diễn Gone with the Wind sau mười ngày quay; Victor Fleming tiếp tục thực hiện bộ phim.",
+    "highlights": ["Sinh ngày 7 tháng 7 năm 1899.", "George Cukor bị thay khỏi vị trí đạo diễn Gone with the Wind sau mười ngày quay; Victor Fleming tiếp tục thực hiện bộ phim."],
     "wikidataId": "Q56014",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q56014",
@@ -699,11 +667,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Lion Feuchtwanger là nhà văn.",
-    "biography": "Lion Feuchtwanger là nhà văn, sinh ngày 7 tháng 7 năm 1884.",
-    "highlights": [
-      "Sinh ngày 7 tháng 7 năm 1884.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Tiểu thuyết Jud Süss (1925) trở thành thành công lớn đầu tiên của Lion Feuchtwanger.",
+    "highlights": ["Sinh ngày 7 tháng 7 năm 1884.", "Tiểu thuyết Jud Süss (1925) trở thành thành công lớn đầu tiên của Lion Feuchtwanger."],
     "wikidataId": "Q77024",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q77024",
@@ -733,20 +698,26 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Walter Scheel là chính khách.",
-    "biography": "Walter Scheel là chính khách, sinh ngày 8 tháng 7 năm 1919.",
-    "highlights": [
-      "Sinh ngày 8 tháng 7 năm 1919.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Walter Scheel giữ chức Tổng thống Cộng hòa Liên bang Đức từ năm 1974 đến năm 1979.",
+    "highlights": ["Sinh ngày 8 tháng 7 năm 1919.", "Walter Scheel giữ chức Tổng thống Cộng hòa Liên bang Đức từ năm 1974 đến năm 1979."],
     "wikidataId": "Q2571",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q2571",
       "https://snl.no/Walter_Scheel",
-      "https://www.enciklopedija.hr/clanak/scheel-walter"
+      "https://www.enciklopedija.hr/clanak/scheel-walter",
+      "https://www.spiegel.de/politik/deutschland/walter-scheel-ist-tot-bonvivant-und-hasardeur-a-1109292.html",
+      "https://brockhaus.de/ecs/julex/article/scheel-walter"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "2016-08-24",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.spiegel.de/politik/deutschland/walter-scheel-ist-tot-bonvivant-und-hasardeur-a-1109292.html",
+      "https://brockhaus.de/ecs/julex/article/scheel-walter"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -767,21 +738,25 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Philip Johnson là nghệ sĩ.",
-    "biography": "Philip Johnson là nghệ sĩ, sinh ngày 8 tháng 7 năm 1906.",
-    "highlights": [
-      "Sinh ngày 8 tháng 7 năm 1906.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ],
+    "biography": "Triển lãm tại Bảo tàng Nghệ thuật Hiện đại và cuốn The International Style (1932) giúp Philip Johnson giới thiệu kiến trúc hiện đại châu Âu tại Hoa Kỳ.",
+    "highlights": ["Sinh ngày 8 tháng 7 năm 1906.", "Triển lãm tại Bảo tàng Nghệ thuật Hiện đại và cuốn The International Style (1932) giúp Philip Johnson giới thiệu kiến trúc hiện đại châu Âu tại Hoa Kỳ."],
     "wikidataId": "Q183528",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q183528",
       "https://snl.no/Philip_Johnson",
-      "https://www.enciklopedija.hr/clanak/johnson-philip"
+      "https://www.enciklopedija.hr/clanak/johnson-philip",
+      "https://theglasshouse.org/learn/philip-johnson-biography/"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-06"
+    "verifiedAt": "2026-10-06",
+    "deathDate": "2005-01-25",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://theglasshouse.org/learn/philip-johnson-biography/"
+    ],
+    "deathDatePrecision": "day"
   },
   {
     "id": "kathe-kollwitz",
@@ -801,11 +776,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Käthe Kollwitz là nghệ sĩ.",
-    "biography": "Käthe Kollwitz là nghệ sĩ, sinh ngày 8 tháng 7 năm 1867.",
-    "highlights": [
-      "Sinh ngày 8 tháng 7 năm 1867.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ],
+    "biography": "Käthe Kollwitz được đào tạo tại Berlin và München trước khi hoạt động như họa sĩ đồ họa và nhà điêu khắc.",
+    "highlights": ["Sinh ngày 8 tháng 7 năm 1867.", "Käthe Kollwitz được đào tạo tại Berlin và München trước khi hoạt động như họa sĩ đồ họa và nhà điêu khắc."],
     "wikidataId": "Q142472",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q142472",
@@ -835,11 +807,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Tom Hanks là diễn viên.",
-    "biography": "Tom Hanks là diễn viên, sinh ngày 9 tháng 7 năm 1956.",
-    "highlights": [
-      "Sinh ngày 9 tháng 7 năm 1956.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ],
+    "biography": "Tom Hanks ra mắt điện ảnh năm 1980 và dần nổi tiếng trong thập niên 1980–1990 qua các phim như Splash, The Money Pit và Big.",
+    "highlights": ["Sinh ngày 9 tháng 7 năm 1956.", "Tom Hanks ra mắt điện ảnh năm 1980 và dần nổi tiếng trong thập niên 1980–1990 qua các phim như Splash, The Money Pit và Big."],
     "wikidataId": "Q2263",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q2263",
@@ -869,11 +838,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Franz Boas là nhà khoa học.",
-    "biography": "Franz Boas là nhà khoa học, sinh ngày 9 tháng 7 năm 1858.",
-    "highlights": [
-      "Sinh ngày 9 tháng 7 năm 1858.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Franz Boas góp phần định hình ngành nhân học trong nửa đầu thế kỷ 20.",
+    "highlights": ["Sinh ngày 9 tháng 7 năm 1858.", "Franz Boas góp phần định hình ngành nhân học trong nửa đầu thế kỷ 20."],
     "wikidataId": "Q76857",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q76857",
@@ -903,11 +869,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "David Hockney là nghệ sĩ.",
-    "biography": "David Hockney là nghệ sĩ, sinh ngày 9 tháng 7 năm 1937.",
-    "highlights": [
-      "Sinh ngày 9 tháng 7 năm 1937.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ],
+    "biography": "Trong sách Secret Knowledge (2001), David Hockney nêu giả thuyết rằng các họa sĩ bậc thầy từ khoảng thập niên 1420 đã dùng thấu kính và gương khi vẽ.",
+    "highlights": ["Sinh ngày 9 tháng 7 năm 1937.", "Trong sách Secret Knowledge (2001), David Hockney nêu giả thuyết rằng các họa sĩ bậc thầy từ khoảng thập niên 1420 đã dùng thấu kính và gương khi vẽ."],
     "wikidataId": "Q159907",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q159907",
@@ -937,20 +900,24 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nikola Tesla là nhà khoa học.",
-    "biography": "Nikola Tesla là nhà khoa học, sinh ngày 10 tháng 7 năm 1856.",
-    "highlights": [
-      "Sinh ngày 10 tháng 7 năm 1856.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Nikola Tesla thiết kế hệ thống điện xoay chiều (AC), nền tảng của hệ thống điện phổ biến trên thế giới ngày nay.",
+    "highlights": ["Sinh ngày 10 tháng 7 năm 1856.", "Nikola Tesla thiết kế hệ thống điện xoay chiều (AC), nền tảng của hệ thống điện phổ biến trên thế giới ngày nay."],
     "wikidataId": "Q9036",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q9036",
       "https://snl.no/Nikola_Tesla",
-      "https://www.enciklopedija.hr/clanak/tesla-nikola"
+      "https://www.enciklopedija.hr/clanak/tesla-nikola",
+      "https://www.biography.com/people/nikola-tesla-9504443"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1943-01-07",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.biography.com/people/nikola-tesla-9504443"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -971,11 +938,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇨🇦",
     "image": "/people/placeholder.svg",
     "shortDescription": "Alice Munro là nhà văn.",
-    "biography": "Alice Munro là nhà văn, sinh ngày 10 tháng 7 năm 1931.",
-    "highlights": [
-      "Sinh ngày 10 tháng 7 năm 1931.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Sau khi đăng truyện ngắn trên nhiều tạp chí, Alice Munro xuất bản tập truyện đầu tiên Dance of the Happy Shades năm 1968.",
+    "highlights": ["Sinh ngày 10 tháng 7 năm 1931.", "Sau khi đăng truyện ngắn trên nhiều tạp chí, Alice Munro xuất bản tập truyện đầu tiên Dance of the Happy Shades năm 1968."],
     "wikidataId": "Q234819",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q234819",
@@ -1005,11 +969,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nguyễn Huy Hoàng là vận động viên.",
-    "biography": "Nguyễn Huy Hoàng là vận động viên, sinh ngày 10 tháng 7 năm 2000.",
-    "highlights": [
-      "Sinh ngày 10 tháng 7 năm 2000.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Nguyễn Huy Hoàng là người cầm cờ của đoàn Việt Nam tại lễ khai mạc Thế vận hội Mùa hè 2020.",
+    "highlights": ["Sinh ngày 10 tháng 7 năm 2000.", "Nguyễn Huy Hoàng là người cầm cờ của đoàn Việt Nam tại lễ khai mạc Thế vận hội Mùa hè 2020."],
     "wikidataId": "Q56243413",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q56243413",
@@ -1039,11 +1000,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Yul Brynner là diễn viên.",
-    "biography": "Yul Brynner là diễn viên, sinh ngày 11 tháng 7 năm 1920.",
-    "highlights": [
-      "Sinh ngày 11 tháng 7 năm 1920.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ],
+    "biography": "Yul Brynner cạo đầu cho một vai diễn; kiểu đầu trọc sau đó trở thành dấu ấn hình ảnh của ông.",
+    "highlights": ["Sinh ngày 11 tháng 7 năm 1920.", "Yul Brynner cạo đầu cho một vai diễn; kiểu đầu trọc sau đó trở thành dấu ấn hình ảnh của ông."],
     "wikidataId": "Q102813",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q102813",
@@ -1073,11 +1031,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "John Quincy Adams là chính khách.",
-    "biography": "John Quincy Adams là chính khách, sinh ngày 11 tháng 7 năm 1767.",
-    "highlights": [
-      "Sinh ngày 11 tháng 7 năm 1767.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Sau thời gian làm công sứ tại Anh, John Quincy Adams trở về Hoa Kỳ để theo học Đại học Harvard.",
+    "highlights": ["Sinh ngày 11 tháng 7 năm 1767.", "Sau thời gian làm công sứ tại Anh, John Quincy Adams trở về Hoa Kỳ để theo học Đại học Harvard."],
     "wikidataId": "Q11816",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q11816",
@@ -1107,11 +1062,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇩🇰",
     "image": "/people/placeholder.svg",
     "shortDescription": "Caroline Wozniacki là vận động viên.",
-    "biography": "Caroline Wozniacki là vận động viên, sinh ngày 11 tháng 7 năm 1990.",
-    "highlights": [
-      "Sinh ngày 11 tháng 7 năm 1990.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Caroline Wozniacki giành hai danh hiệu đôi: Memphis năm 2009 cùng Victoria Azarenka và Bắc Kinh năm 2008 cùng Anabel Medina Garrigues.",
+    "highlights": ["Sinh ngày 11 tháng 7 năm 1990.", "Caroline Wozniacki giành hai danh hiệu đôi: Memphis năm 2009 cùng Victoria Azarenka và Bắc Kinh năm 2008 cùng Anabel Medina Garrigues."],
     "wikidataId": "Q30767",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q30767",
@@ -1141,11 +1093,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇵🇰",
     "image": "/people/placeholder.svg",
     "shortDescription": "Malala Yousafzai là nhà hoạt động giáo dục.",
-    "biography": "Malala Yousafzai là nhà hoạt động giáo dục, sinh ngày 12 tháng 7 năm 1997.",
-    "highlights": [
-      "Sinh ngày 12 tháng 7 năm 1997.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Malala Yousafzai nhận Nobel Hòa bình năm 2014 và khi đó là người trẻ nhất từng đoạt giải Nobel.",
+    "highlights": ["Sinh ngày 12 tháng 7 năm 1997.", "Malala Yousafzai nhận Nobel Hòa bình năm 2014 và khi đó là người trẻ nhất từng đoạt giải Nobel."],
     "wikidataId": "Q32732",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q32732",
@@ -1175,11 +1124,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇨🇱",
     "image": "/people/placeholder.svg",
     "shortDescription": "Pablo Neruda là nhà thơ, nhà văn.",
-    "biography": "Pablo Neruda là nhà thơ, nhà văn, sinh ngày 12 tháng 7 năm 1904.",
-    "highlights": [
-      "Sinh ngày 12 tháng 7 năm 1904.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Từ năm 1947 đến 1949, Pablo Neruda sống lẩn trốn tại Chile sau khi Đảng Cộng sản bị cấm và ông bị truy nã vì là thành viên nổi bật của đảng.",
+    "highlights": ["Sinh ngày 12 tháng 7 năm 1904.", "Từ năm 1947 đến 1949, Pablo Neruda sống lẩn trốn tại Chile sau khi Đảng Cộng sản bị cấm và ông bị truy nã vì là thành viên nổi bật của đảng."],
     "wikidataId": "Q34189",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q34189",
@@ -1209,11 +1155,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Claude Bernard là nhà khoa học.",
-    "biography": "Claude Bernard là nhà khoa học, sinh ngày 12 tháng 7 năm 1813.",
-    "highlights": [
-      "Sinh ngày 12 tháng 7 năm 1813.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Năm 1865, Claude Bernard xuất bản Introduction à l’étude de la médecine expérimentale, phần mở đầu dự kiến cho một công trình lớn hơn về phương pháp thực nghiệm trong nghiên cứu y học.",
+    "highlights": ["Sinh ngày 12 tháng 7 năm 1813.", "Năm 1865, Claude Bernard xuất bản Introduction à l’étude de la médecine expérimentale, phần mở đầu dự kiến cho một công trình lớn hơn về phương pháp thực nghiệm trong nghiên cứu y học."],
     "wikidataId": "Q208230",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q208230",
@@ -1243,11 +1186,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Harrison Ford là diễn viên.",
-    "biography": "Harrison Ford là diễn viên, sinh ngày 13 tháng 7 năm 1942.",
-    "highlights": [
-      "Sinh ngày 13 tháng 7 năm 1942.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ],
+    "biography": "Harrison Ford ra mắt điện ảnh năm 1966 và có các vai phụ trên phim và truyền hình, trong đó có loạt phim Gunsmoke (1972–1973).",
+    "highlights": ["Sinh ngày 13 tháng 7 năm 1942.", "Harrison Ford ra mắt điện ảnh năm 1966 và có các vai phụ trên phim và truyền hình, trong đó có loạt phim Gunsmoke (1972–1973)."],
     "wikidataId": "Q81328",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q81328",
@@ -1277,11 +1217,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇳🇬",
     "image": "/people/placeholder.svg",
     "shortDescription": "Wole Soyinka là nhà văn.",
-    "biography": "Wole Soyinka là nhà văn, sinh ngày 13 tháng 7 năm 1934.",
-    "highlights": [
-      "Sinh ngày 13 tháng 7 năm 1934.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Wole Soyinka xuất bản tiểu thuyết đầu tiên, The Interpreters, năm 1965.",
+    "highlights": ["Sinh ngày 13 tháng 7 năm 1934.", "Wole Soyinka xuất bản tiểu thuyết đầu tiên, The Interpreters, năm 1965."],
     "wikidataId": "Q41488",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q41488",
@@ -1311,11 +1248,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇹🇼",
     "image": "/people/placeholder.svg",
     "shortDescription": "Ma Ying-jeou là chính khách.",
-    "biography": "Ma Ying-jeou là chính khách, sinh ngày 13 tháng 7 năm 1950.",
-    "highlights": [
-      "Sinh ngày 13 tháng 7 năm 1950.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Năm 1984, Ma Ying-jeou trở thành thư ký của Tổng thống Đài Loan Tưởng Kinh Quốc trong đảng Quốc dân đảng.",
+    "highlights": ["Sinh ngày 13 tháng 7 năm 1950.", "Năm 1984, Ma Ying-jeou trở thành thư ký của Tổng thống Đài Loan Tưởng Kinh Quốc trong đảng Quốc dân đảng."],
     "wikidataId": "Q19216",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q19216",
@@ -1345,11 +1279,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇸🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Ingmar Bergman là đạo diễn, biên kịch.",
-    "biography": "Ingmar Bergman là đạo diễn, biên kịch, sinh ngày 14 tháng 7 năm 1918.",
-    "highlights": [
-      "Sinh ngày 14 tháng 7 năm 1918.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ],
+    "biography": "Ingmar Bergman trở thành giám đốc Nhà hát thành phố Hälsingborg năm 1944 và là giám đốc nhà hát trẻ nhất Thụy Điển lúc đó.",
+    "highlights": ["Sinh ngày 14 tháng 7 năm 1918.", "Ingmar Bergman trở thành giám đốc Nhà hát thành phố Hälsingborg năm 1944 và là giám đốc nhà hát trẻ nhất Thụy Điển lúc đó."],
     "wikidataId": "Q7546",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q7546",
@@ -1379,11 +1310,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇦🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Gustav Klimt là nghệ sĩ.",
-    "biography": "Gustav Klimt là nghệ sĩ, sinh ngày 14 tháng 7 năm 1862.",
-    "highlights": [
-      "Sinh ngày 14 tháng 7 năm 1862.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ],
+    "biography": "Năm 2006, bức Adele Bloch-Bauer I (1907) của Gustav Klimt được bán cho Neue Galerie ở New York với giá kỷ lục 135 triệu USD.",
+    "highlights": ["Sinh ngày 14 tháng 7 năm 1862.", "Năm 2006, bức Adele Bloch-Bauer I (1907) của Gustav Klimt được bán cho Neue Galerie ở New York với giá kỷ lục 135 triệu USD."],
     "wikidataId": "Q34661",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q34661",
@@ -1413,11 +1341,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Woody Guthrie là nhạc sĩ, ca sĩ.",
-    "biography": "Woody Guthrie là nhạc sĩ, ca sĩ, sinh ngày 14 tháng 7 năm 1912.",
-    "highlights": [
-      "Sinh ngày 14 tháng 7 năm 1912.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ],
+    "biography": "Woody Guthrie xuất bản hồi ký Bound for Glory năm 1943; tác phẩm được chuyển thể thành phim năm 1976.",
+    "highlights": ["Sinh ngày 14 tháng 7 năm 1912.", "Woody Guthrie xuất bản hồi ký Bound for Glory năm 1943; tác phẩm được chuyển thể thành phim năm 1976."],
     "wikidataId": "Q4061",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q4061",
@@ -1447,11 +1372,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇳🇱",
     "image": "/people/placeholder.svg",
     "shortDescription": "Rembrandt là nghệ sĩ.",
-    "biography": "Rembrandt là nghệ sĩ, sinh ngày 15 tháng 7 năm 1606.",
-    "highlights": [
-      "Sinh ngày 15 tháng 7 năm 1606.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ],
+    "biography": "Rembrandt học nghề với họa sĩ lịch sử Jacob van Swanenburg tại Leiden, rồi trở thành học trò của Pieter Lastman ở Amsterdam năm 1624.",
+    "highlights": ["Sinh ngày 15 tháng 7 năm 1606.", "Rembrandt học nghề với họa sĩ lịch sử Jacob van Swanenburg tại Leiden, rồi trở thành học trò của Pieter Lastman ở Amsterdam năm 1624."],
     "wikidataId": "Q5598",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q5598",
@@ -1481,11 +1403,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Walter Benjamin là nhà văn.",
-    "biography": "Walter Benjamin là nhà văn, sinh ngày 15 tháng 7 năm 1892.",
-    "highlights": [
-      "Sinh ngày 15 tháng 7 năm 1892.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Luận án Nguồn gốc bi kịch Đức của Walter Benjamin bị bác bỏ năm 1928, khiến ông không được trao quyền giảng dạy tại đại học.",
+    "highlights": ["Sinh ngày 15 tháng 7 năm 1892.", "Luận án Nguồn gốc bi kịch Đức của Walter Benjamin bị bác bỏ năm 1928, khiến ông không được trao quyền giảng dạy tại đại học."],
     "wikidataId": "Q61078",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q61078",
@@ -1515,21 +1434,25 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇮🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Vilfredo Pareto là nhà khoa học.",
-    "biography": "Vilfredo Pareto là nhà khoa học, sinh ngày 15 tháng 7 năm 1848.",
-    "highlights": [
-      "Sinh ngày 15 tháng 7 năm 1848.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Được đào tạo làm kỹ sư, Vilfredo Pareto trở thành giáo sư kinh tế chính trị tại Đại học Lausanne năm 1893.",
+    "highlights": ["Sinh ngày 15 tháng 7 năm 1848.", "Được đào tạo làm kỹ sư, Vilfredo Pareto trở thành giáo sư kinh tế chính trị tại Đại học Lausanne năm 1893."],
     "wikidataId": "Q11031",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q11031",
       "https://snl.no/Vilfredo_Pareto",
-      "https://www.enciklopedija.hr/clanak/pareto-vilfredo"
+      "https://www.enciklopedija.hr/clanak/pareto-vilfredo",
+      "https://elitessuisses.unil.ch/p/76404?v=2024-05-14"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-06"
+    "verifiedAt": "2026-10-06",
+    "deathDate": "1923-08-19",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://elitessuisses.unil.ch/p/76404?v=2024-05-14"
+    ],
+    "deathDatePrecision": "day"
   },
   {
     "id": "ginger-rogers",
@@ -1549,11 +1472,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Ginger Rogers là diễn viên.",
-    "biography": "Ginger Rogers là diễn viên, sinh ngày 16 tháng 7 năm 1911.",
-    "highlights": [
-      "Sinh ngày 16 tháng 7 năm 1911.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ],
+    "biography": "Ginger Rogers đoạt Oscar cho vai chính trong Kitty Foyle (1940).",
+    "highlights": ["Sinh ngày 16 tháng 7 năm 1911.", "Ginger Rogers đoạt Oscar cho vai chính trong Kitty Foyle (1940)."],
     "wikidataId": "Q95089",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q95089",
@@ -1583,11 +1503,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇪🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Miguel Induráin là vận động viên.",
-    "biography": "Miguel Induráin là vận động viên, sinh ngày 16 tháng 7 năm 1964.",
-    "highlights": [
-      "Sinh ngày 16 tháng 7 năm 1964.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Miguel Indurain vô địch thế giới nội dung đua tính giờ năm 1995 và giành HCV Olympic nội dung này tại Atlanta năm 1996.",
+    "highlights": ["Sinh ngày 16 tháng 7 năm 1964.", "Miguel Indurain vô địch thế giới nội dung đua tính giờ năm 1995 và giành HCV Olympic nội dung này tại Atlanta năm 1996."],
     "wikidataId": "Q105542",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q105542",
@@ -1617,11 +1534,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇳🇱",
     "image": "/people/placeholder.svg",
     "shortDescription": "Frits Zernike là nhà khoa học.",
-    "biography": "Frits Zernike là nhà khoa học, sinh ngày 16 tháng 7 năm 1888.",
-    "highlights": [
-      "Sinh ngày 16 tháng 7 năm 1888.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Nhà vật lý Hà Lan Frits Zernike nhận Nobel Vật lý năm 1953.",
+    "highlights": ["Sinh ngày 16 tháng 7 năm 1888.", "Nhà vật lý Hà Lan Frits Zernike nhận Nobel Vật lý năm 1953."],
     "wikidataId": "Q188293",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q188293",
@@ -1651,11 +1565,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Angela Merkel là chính khách.",
-    "biography": "Angela Merkel là chính khách, sinh ngày 17 tháng 7 năm 1954.",
-    "highlights": [
-      "Sinh ngày 17 tháng 7 năm 1954.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Angela Merkel bắt đầu sự nghiệp chính trị với vai trò phát ngôn viên cho Lothar de Maizière, thủ tướng dân cử duy nhất của Đông Đức.",
+    "highlights": ["Sinh ngày 17 tháng 7 năm 1954.", "Angela Merkel bắt đầu sự nghiệp chính trị với vai trò phát ngôn viên cho Lothar de Maizière, thủ tướng dân cử duy nhất của Đông Đức."],
     "wikidataId": "Q567",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q567",
@@ -1685,11 +1596,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "James Cagney là diễn viên.",
-    "biography": "James Cagney là diễn viên, sinh ngày 17 tháng 7 năm 1899.",
-    "highlights": [
-      "Sinh ngày 17 tháng 7 năm 1899.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ],
+    "biography": "Sau 20 năm vắng bóng trên màn ảnh, James Cagney trở lại với Ragtime (1981), bộ phim điện ảnh cuối cùng của ông.",
+    "highlights": ["Sinh ngày 17 tháng 7 năm 1899.", "Sau 20 năm vắng bóng trên màn ảnh, James Cagney trở lại với Ragtime (1981), bộ phim điện ảnh cuối cùng của ông."],
     "wikidataId": "Q94041",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q94041",
@@ -1719,20 +1627,24 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇨🇦",
     "image": "/people/placeholder.svg",
     "shortDescription": "Donald Sutherland là diễn viên.",
-    "biography": "Donald Sutherland là diễn viên, sinh ngày 17 tháng 7 năm 1935.",
-    "highlights": [
-      "Sinh ngày 17 tháng 7 năm 1935.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ],
+    "biography": "Donald Sutherland vào vai Tổng thống Snow trong loạt phim The Hunger Games (2012–2015).",
+    "highlights": ["Sinh ngày 17 tháng 7 năm 1935.", "Donald Sutherland vào vai Tổng thống Snow trong loạt phim The Hunger Games (2012–2015)."],
     "wikidataId": "Q103784",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q103784",
       "https://snl.no/Donald_Sutherland",
-      "https://www.enciklopedija.hr/clanak/sutherland-donald"
+      "https://www.enciklopedija.hr/clanak/sutherland-donald",
+      "https://deadline.com/2024/06/donald-sutherland-dead-1235978933/"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "2024-06-20",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://deadline.com/2024/06/donald-sutherland-dead-1235978933/"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -1753,20 +1665,24 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇿🇦",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nelson Mandela là chính khách.",
-    "biography": "Nelson Mandela là chính khách, sinh ngày 18 tháng 7 năm 1918.",
-    "highlights": [
-      "Sinh ngày 18 tháng 7 năm 1918.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Năm 1994, Nelson Mandela trở thành tổng thống Nam Phi đầu tiên được bầu cử dân chủ, với hơn 60% số phiếu.",
+    "highlights": ["Sinh ngày 18 tháng 7 năm 1918.", "Năm 1994, Nelson Mandela trở thành tổng thống Nam Phi đầu tiên được bầu cử dân chủ, với hơn 60% số phiếu."],
     "wikidataId": "Q8023",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q8023",
       "https://snl.no/Nelson_Mandela",
-      "https://www.enciklopedija.hr/clanak/mandela-nelson-rolihlahla"
+      "https://www.enciklopedija.hr/clanak/mandela-nelson-rolihlahla",
+      "http://www.businessinsider.com/nelson-mandela-dead-south-african-former-president-dies-2013-6"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "2013-12-05",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "http://www.businessinsider.com/nelson-mandela-dead-south-african-former-president-dies-2013-6"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -1787,11 +1703,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "John Glenn là phi hành gia, chính khách.",
-    "biography": "John Glenn là phi hành gia, chính khách, sinh ngày 18 tháng 7 năm 1921.",
-    "highlights": [
-      "Sinh ngày 18 tháng 7 năm 1921.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "John Glenn là phi hành gia, phi công quân sự, doanh nhân và thượng nghị sĩ; ông là người Mỹ đầu tiên bay vào quỹ đạo Trái Đất.",
+    "highlights": ["Sinh ngày 18 tháng 7 năm 1921.", "John Glenn là phi hành gia, phi công quân sự, doanh nhân và thượng nghị sĩ; ông là người Mỹ đầu tiên bay vào quỹ đạo Trái Đất."],
     "wikidataId": "Q182642",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q182642",
@@ -1821,11 +1734,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Thomas Kuhn là nhà sử học.",
-    "biography": "Thomas Kuhn là nhà sử học, sinh ngày 18 tháng 7 năm 1922.",
-    "highlights": [
-      "Sinh ngày 18 tháng 7 năm 1922.",
-      "Lĩnh vực hoạt động: lịch sử."
-    ],
+    "biography": "Thomas Kuhn giảng dạy tại Đại học California, Princeton và MIT trong các giai đoạn 1957–1983.",
+    "highlights": ["Sinh ngày 18 tháng 7 năm 1922.", "Thomas Kuhn giảng dạy tại Đại học California, Princeton và MIT trong các giai đoạn 1957–1983."],
     "wikidataId": "Q184980",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q184980",
@@ -1855,11 +1765,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Edgar Degas là nghệ sĩ.",
-    "biography": "Edgar Degas là nghệ sĩ, sinh ngày 19 tháng 7 năm 1834.",
-    "highlights": [
-      "Sinh ngày 19 tháng 7 năm 1834.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ],
+    "biography": "Edgar Degas tham gia triển lãm cùng các họa sĩ Ấn tượng từ cuộc triển lãm đầu tiên năm 1874 đến cuộc cuối cùng năm 1886.",
+    "highlights": ["Sinh ngày 19 tháng 7 năm 1834.", "Edgar Degas tham gia triển lãm cùng các họa sĩ Ấn tượng từ cuộc triển lãm đầu tiên năm 1874 đến cuộc cuối cùng năm 1886."],
     "wikidataId": "Q46373",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q46373",
@@ -1889,11 +1796,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Herbert Marcuse là triết gia, nhà xã hội học.",
-    "biography": "Herbert Marcuse là triết gia, nhà xã hội học, sinh ngày 19 tháng 7 năm 1898.",
-    "highlights": [
-      "Sinh ngày 19 tháng 7 năm 1898.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Lý thuyết phê phán của Herbert Marcuse có ảnh hưởng trong phong trào sinh viên năm 1968; ông cũng tham gia bằng các bài viết và bài diễn thuyết.",
+    "highlights": ["Sinh ngày 19 tháng 7 năm 1898.", "Lý thuyết phê phán của Herbert Marcuse có ảnh hưởng trong phong trào sinh viên năm 1968; ông cũng tham gia bằng các bài viết và bài diễn thuyết."],
     "wikidataId": "Q60030",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q60030",
@@ -1923,11 +1827,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Brian May là nhạc sĩ, ca sĩ.",
-    "biography": "Brian May là nhạc sĩ, ca sĩ, sinh ngày 19 tháng 7 năm 1947.",
-    "highlights": [
-      "Sinh ngày 19 tháng 7 năm 1947.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ],
+    "biography": "Ngoài âm nhạc, Brian May còn có các bằng cấp cao về vật lý thiên văn, viết nhiều sách và dành thời gian cho hoạt động bảo vệ động vật.",
+    "highlights": ["Sinh ngày 19 tháng 7 năm 1947.", "Ngoài âm nhạc, Brian May còn có các bằng cấp cao về vật lý thiên văn, viết nhiều sách và dành thời gian cho hoạt động bảo vệ động vật."],
     "wikidataId": "Q15873",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q15873",
@@ -1957,11 +1858,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Gerd Binnig là nhà khoa học.",
-    "biography": "Gerd Binnig là nhà khoa học, sinh ngày 20 tháng 7 năm 1947.",
-    "highlights": [
-      "Sinh ngày 20 tháng 7 năm 1947.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Gerd Binnig và Heinrich Rohrer chia sẻ một nửa Nobel Vật lý năm 1986 nhờ đóng góp phát triển kính hiển vi quét xuyên hầm.",
+    "highlights": ["Sinh ngày 20 tháng 7 năm 1947.", "Gerd Binnig và Heinrich Rohrer chia sẻ một nửa Nobel Vật lý năm 1986 nhờ đóng góp phát triển kính hiển vi quét xuyên hầm."],
     "wikidataId": "Q76766",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q76766",
@@ -1991,21 +1889,20 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Natalie Wood là diễn viên.",
-    "biography": "Natalie Wood là diễn viên, sinh ngày 20 tháng 7 năm 1938.",
-    "highlights": [
-      "Sinh ngày 20 tháng 7 năm 1938.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ],
+    "biography": "Natalie Wood gây chú ý khi còn là thiếu niên với vai diễn trong Rebel Without a Cause (1955), vai diễn giúp bà được đề cử Oscar.",
+    "highlights": ["Sinh ngày 20 tháng 7 năm 1938.", "Natalie Wood gây chú ý khi còn là thiếu niên với vai diễn trong Rebel Without a Cause (1955), vai diễn giúp bà được đề cử Oscar."],
     "wikidataId": "Q180919",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q180919",
       "https://snl.no/Natalie_Wood",
-      "https://www.enciklopedija.hr/clanak/wood-natalie"
+      "https://www.enciklopedija.hr/clanak/wood-natalie",
+      "https://www.autopsyfiles.org/reports/Celebs/wood%2C%20natalie_report.pdf"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-06"
+    "verifiedAt": "2026-10-06",
+    "lifeStatus": "deceased"
   },
   {
     "id": "richard-owen",
@@ -2025,11 +1922,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Richard Owen là nhà sinh vật học, cổ sinh vật học.",
-    "biography": "Richard Owen là nhà sinh vật học, cổ sinh vật học, sinh ngày 20 tháng 7 năm 1804.",
-    "highlights": [
-      "Sinh ngày 20 tháng 7 năm 1804.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Nhà sinh vật học Richard Owen từng lãnh đạo Bảo tàng Lịch sử Tự nhiên Anh và được biết đến là người đặt tên cho khủng long.",
+    "highlights": ["Sinh ngày 20 tháng 7 năm 1804.", "Nhà sinh vật học Richard Owen từng lãnh đạo Bảo tàng Lịch sử Tự nhiên Anh và được biết đến là người đặt tên cho khủng long."],
     "wikidataId": "Q151556",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q151556",
@@ -2059,20 +1953,24 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Ernest Hemingway là nhà văn.",
-    "biography": "Ernest Hemingway là nhà văn, sinh ngày 21 tháng 7 năm 1899.",
-    "highlights": [
-      "Sinh ngày 21 tháng 7 năm 1899.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Ernest Hemingway viết A Farewell to Arms, một trong những tiểu thuyết quan trọng về Thế chiến thứ nhất, cuộc chiến mà ông từng tham gia và bị thương.",
+    "highlights": ["Sinh ngày 21 tháng 7 năm 1899.", "Ernest Hemingway viết A Farewell to Arms, một trong những tiểu thuyết quan trọng về Thế chiến thứ nhất, cuộc chiến mà ông từng tham gia và bị thương."],
     "wikidataId": "Q23434",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q23434",
       "https://snl.no/Ernest_Hemingway",
-      "https://www.enciklopedija.hr/clanak/hemingway-ernest"
+      "https://www.enciklopedija.hr/clanak/hemingway-ernest",
+      "https://brockhaus.de/ecs/julex/article/hemingway-ernest-miller"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1961-07-02",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/hemingway-ernest-miller"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -2093,11 +1991,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Robin Williams là diễn viên.",
-    "biography": "Robin Williams là diễn viên, sinh ngày 21 tháng 7 năm 1951.",
-    "highlights": [
-      "Sinh ngày 21 tháng 7 năm 1951.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ],
+    "biography": "Robin Williams học sân khấu tại Juilliard ở New York, ra mắt điện ảnh năm 1977 và nổi tiếng qua loạt phim Mork & Mindy (1978).",
+    "highlights": ["Sinh ngày 21 tháng 7 năm 1951.", "Robin Williams học sân khấu tại Juilliard ở New York, ra mắt điện ảnh năm 1977 và nổi tiếng qua loạt phim Mork & Mindy (1978)."],
     "wikidataId": "Q83338",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q83338",
@@ -2127,11 +2022,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇸🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Stefan Löfven là chính khách.",
-    "biography": "Stefan Löfven là chính khách, sinh ngày 21 tháng 7 năm 1957.",
-    "highlights": [
-      "Sinh ngày 21 tháng 7 năm 1957.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Stefan Löfven được bầu làm lãnh đạo đảng năm 2012, kế nhiệm Håkan Juholt.",
+    "highlights": ["Sinh ngày 21 tháng 7 năm 1957.", "Stefan Löfven được bầu làm lãnh đạo đảng năm 2012, kế nhiệm Håkan Juholt."],
     "wikidataId": "Q2740012",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q2740012",
@@ -2161,11 +2053,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Selena Gomez là ca sĩ, diễn viên.",
-    "biography": "Selena Gomez là ca sĩ, diễn viên, sinh ngày 22 tháng 7 năm 1992.",
-    "highlights": [
-      "Sinh ngày 22 tháng 7 năm 1992.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ],
+    "biography": "Năm 2012, Selena Gomez lồng tiếng nhân vật Mavis trong phim hoạt hình Hotel Transylvania.",
+    "highlights": ["Sinh ngày 22 tháng 7 năm 1992.", "Năm 2012, Selena Gomez lồng tiếng nhân vật Mavis trong phim hoạt hình Hotel Transylvania."],
     "wikidataId": "Q83287",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q83287",
@@ -2195,11 +2084,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇦🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Arthur Seyss-Inquart là chính khách.",
-    "biography": "Arthur Seyss-Inquart là chính khách, sinh ngày 22 tháng 7 năm 1892.",
-    "highlights": [
-      "Sinh ngày 22 tháng 7 năm 1892.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Tháng 2/1938, theo lệnh Adolf Hitler, Arthur Seyss-Inquart gia nhập chính phủ Kurt von Schuschnigg với chức Bộ trưởng Nội vụ.",
+    "highlights": ["Sinh ngày 22 tháng 7 năm 1892.", "Tháng 2/1938, theo lệnh Adolf Hitler, Arthur Seyss-Inquart gia nhập chính phủ Kurt von Schuschnigg với chức Bộ trưởng Nội vụ."],
     "wikidataId": "Q650219",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q650219",
@@ -2229,11 +2115,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Mireille Mathieu là nhạc sĩ, ca sĩ.",
-    "biography": "Mireille Mathieu là nhạc sĩ, ca sĩ, sinh ngày 22 tháng 7 năm 1946.",
-    "highlights": [
-      "Sinh ngày 22 tháng 7 năm 1946.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ],
+    "biography": "Năm 1984, Mireille Mathieu nhận Huân chương Công trạng Liên bang Đức vì đóng góp cho tình hữu nghị Pháp–Đức.",
+    "highlights": ["Sinh ngày 22 tháng 7 năm 1946.", "Năm 1984, Mireille Mathieu nhận Huân chương Công trạng Liên bang Đức vì đóng góp cho tình hữu nghị Pháp–Đức."],
     "wikidataId": "Q71452",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q71452",
@@ -2263,11 +2146,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇮🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Sergio Mattarella là chính khách.",
-    "biography": "Sergio Mattarella là chính khách, sinh ngày 23 tháng 7 năm 1941.",
-    "highlights": [
-      "Sinh ngày 23 tháng 7 năm 1941.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Sergio Mattarella trở thành Tổng thống Italy ngày 3/2/2015.",
+    "highlights": ["Sinh ngày 23 tháng 7 năm 1941.", "Sergio Mattarella trở thành Tổng thống Italy ngày 3/2/2015."],
     "wikidataId": "Q3956186",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q3956186",
@@ -2297,11 +2177,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Vera Rubin là nhà khoa học.",
-    "biography": "Vera Rubin là nhà khoa học, sinh ngày 23 tháng 7 năm 1928.",
-    "highlights": [
-      "Sinh ngày 23 tháng 7 năm 1928.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Vera Rubin nhận bằng thạc sĩ tại Cornell năm 1951 và bằng tiến sĩ tại Georgetown năm 1954.",
+    "highlights": ["Sinh ngày 23 tháng 7 năm 1928.", "Vera Rubin nhận bằng thạc sĩ tại Cornell năm 1951 và bằng tiến sĩ tại Georgetown năm 1954."],
     "wikidataId": "Q234888",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q234888",
@@ -2331,11 +2208,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇭🇺",
     "image": "/people/placeholder.svg",
     "shortDescription": "Judit Polgár là kỳ thủ cờ vua.",
-    "biography": "Judit Polgár là kỳ thủ cờ vua, sinh ngày 23 tháng 7 năm 1976.",
-    "highlights": [
-      "Sinh ngày 23 tháng 7 năm 1976.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Judit Polgár trở thành đại kiện tướng năm 1991 ở tuổi 15 năm 150 ngày, khi đó là người trẻ nhất từng đạt danh hiệu này.",
+    "highlights": ["Sinh ngày 23 tháng 7 năm 1976.", "Judit Polgár trở thành đại kiện tướng năm 1991 ở tuổi 15 năm 150 ngày, khi đó là người trẻ nhất từng đạt danh hiệu này."],
     "wikidataId": "Q183250",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q183250",
@@ -2365,20 +2239,24 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇻🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Simón Bolívar là chính khách.",
-    "biography": "Simón Bolívar là chính khách, sinh ngày 24 tháng 7 năm 1783.",
-    "highlights": [
-      "Sinh ngày 24 tháng 7 năm 1783.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Simón Bolívar được Hipólita, một phụ nữ gốc Phi bị bắt làm nô lệ, nuôi bằng sữa và chăm sóc trong phần lớn tuổi thơ.",
+    "highlights": ["Sinh ngày 24 tháng 7 năm 1783.", "Simón Bolívar được Hipólita, một phụ nữ gốc Phi bị bắt làm nô lệ, nuôi bằng sữa và chăm sóc trong phần lớn tuổi thơ."],
     "wikidataId": "Q8605",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q8605",
       "https://snl.no/Sim%C3%B3n_Bol%C3%ADvar",
-      "https://www.enciklopedija.hr/clanak/bolivar-simon"
+      "https://www.enciklopedija.hr/clanak/bolivar-simon",
+      "https://brockhaus.de/ecs/julex/article/bolivar-simon"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1830-12-17",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/bolivar-simon"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -2399,11 +2277,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Trần Văn Khê là nhà nghiên cứu âm nhạc.",
-    "biography": "Trần Văn Khê là nhà nghiên cứu âm nhạc, sinh ngày 24 tháng 7 năm 1921.",
-    "highlights": [
-      "Sinh ngày 24 tháng 7 năm 1921.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ],
+    "biography": "Giai đoạn 1952–1958, Trần Văn Khê học nhạc cụ học với Schaeffner và nhạc học với Chailley tại Paris.",
+    "highlights": ["Sinh ngày 24 tháng 7 năm 1921.", "Giai đoạn 1952–1958, Trần Văn Khê học nhạc cụ học với Schaeffner và nhạc học với Chailley tại Paris."],
     "wikidataId": "Q3541430",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q3541430",
@@ -2433,11 +2308,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nguyễn Thị Lụa là vận động viên vật.",
-    "biography": "Nguyễn Thị Lụa là vận động viên vật, sinh ngày 24 tháng 7 năm 1991.",
-    "highlights": [
-      "Sinh ngày 24 tháng 7 năm 1991.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Nguyễn Thị Lụa giành huy chương bạc vật tự do hạng -48 kg tại Asian Games 2010 ở Quảng Châu.",
+    "highlights": ["Sinh ngày 24 tháng 7 năm 1991.", "Nguyễn Thị Lụa giành huy chương bạc vật tự do hạng -48 kg tại Asian Games 2010 ở Quảng Châu."],
     "wikidataId": "Q7022968",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q7022968",
@@ -2467,11 +2339,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Elias Canetti là nhà văn.",
-    "biography": "Elias Canetti là nhà văn, sinh ngày 25 tháng 7 năm 1905.",
-    "highlights": [
-      "Sinh ngày 25 tháng 7 năm 1905.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Tiểu thuyết được xem là quan trọng nhất của Elias Canetti là Die Blendung (1936), kể về nhà Hán học Peter Kien, người chỉ sống vì thư viện của mình.",
+    "highlights": ["Sinh ngày 25 tháng 7 năm 1905.", "Tiểu thuyết được xem là quan trọng nhất của Elias Canetti là Die Blendung (1936), kể về nhà Hán học Peter Kien, người chỉ sống vì thư viện của mình."],
     "wikidataId": "Q80064",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q80064",
@@ -2501,20 +2370,24 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Rosalind Franklin là nhà khoa học.",
-    "biography": "Rosalind Franklin là nhà khoa học, sinh ngày 25 tháng 7 năm 1920.",
-    "highlights": [
-      "Sinh ngày 25 tháng 7 năm 1920.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Năm 1941, Rosalind Franklin đạt danh hiệu Second Class Honors trong kỳ thi cuối khóa; khi ấy kết quả này được xem tương đương bằng cử nhân để xin việc.",
+    "highlights": ["Sinh ngày 25 tháng 7 năm 1920.", "Năm 1941, Rosalind Franklin đạt danh hiệu Second Class Honors trong kỳ thi cuối khóa; khi ấy kết quả này được xem tương đương bằng cử nhân để xin việc."],
     "wikidataId": "Q7474",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q7474",
       "https://www.rosalindfranklin.edu/about/facts-figures/dr-rosalind-franklin/",
-      "https://catalogue.bnf.fr/ark:/12148/cb14486659t"
+      "https://catalogue.bnf.fr/ark:/12148/cb14486659t",
+      "https://www.biography.com/people/rosalind-franklin-9301344"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1958-04-16",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.biography.com/people/rosalind-franklin-9301344"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -2535,11 +2408,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "John B. Goodenough là nhà khoa học.",
-    "biography": "John B. Goodenough là nhà khoa học, sinh ngày 25 tháng 7 năm 1922.",
-    "highlights": [
-      "Sinh ngày 25 tháng 7 năm 1922.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Năm 1980, John B. Goodenough phát triển pin lithium dùng cực âm bằng cobalt oxide, có cấu trúc cho phép chứa các ion lithium.",
+    "highlights": ["Sinh ngày 25 tháng 7 năm 1922.", "Năm 1980, John B. Goodenough phát triển pin lithium dùng cực âm bằng cobalt oxide, có cấu trúc cho phép chứa các ion lithium."],
     "wikidataId": "Q906529",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q906529",
@@ -2569,11 +2439,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Stanley Kubrick là đạo diễn phim, nhiếp ảnh gia.",
-    "biography": "Stanley Kubrick là đạo diễn phim, nhiếp ảnh gia, sinh ngày 26 tháng 7 năm 1928.",
-    "highlights": [
-      "Sinh ngày 26 tháng 7 năm 1928.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ],
+    "biography": "Bộ phim Dr. Strangelove (1963) của Stanley Kubrick là một hài châm biếm đen tối, về sau trở thành tác phẩm kinh điển có lượng người hâm mộ riêng.",
+    "highlights": ["Sinh ngày 26 tháng 7 năm 1928.", "Bộ phim Dr. Strangelove (1963) của Stanley Kubrick là một hài châm biếm đen tối, về sau trở thành tác phẩm kinh điển có lượng người hâm mộ riêng."],
     "wikidataId": "Q2001",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q2001",
@@ -2603,11 +2470,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Mick Jagger là nhạc sĩ, ca sĩ.",
-    "biography": "Mick Jagger là nhạc sĩ, ca sĩ, sinh ngày 26 tháng 7 năm 1943.",
-    "highlights": [
-      "Sinh ngày 26 tháng 7 năm 1943.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ],
+    "biography": "Mick Jagger được phong tước hiệp sĩ trong hệ thống danh hiệu của Anh năm 2003.",
+    "highlights": ["Sinh ngày 26 tháng 7 năm 1943.", "Mick Jagger được phong tước hiệp sĩ trong hệ thống danh hiệu của Anh năm 2003."],
     "wikidataId": "Q128121",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q128121",
@@ -2637,17 +2501,10 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Võ Thanh Tùng là vận động viên.",
-    "biography": "Võ Thanh Tùng là vận động viên, sinh ngày 26 tháng 7 năm 1985.",
-    "highlights": [
-      "Sinh ngày 26 tháng 7 năm 1985.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Tại Paralympic Rio 2016, Võ Thanh Tùng giành HCB nội dung bơi 50 m tự do hạng S5.",
+    "highlights": ["Sinh ngày 26 tháng 7 năm 1985.", "Tại Paralympic Rio 2016, Võ Thanh Tùng giành HCB nội dung bơi 50 m tự do hạng S5."],
     "wikidataId": "Q7939157",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q7939157",
-      "https://tokio2020.rtve.es/paralimpicos/es/resultados/natacion/perfil-de-deportista-n1718428-vo-thanh-tung.htm",
-      "https://www.paralympic.org/sites/default/files/2025-10/Tokyo%202020%20Paralympic%20Games%20-%20Para%20Swimming%20Results.pdf"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q7939157", "https://tokio2020.rtve.es/paralimpicos/es/resultados/natacion/perfil-de-deportista-n1718428-vo-thanh-tung.htm", "https://www.paralympic.org/sites/default/files/2025-10/Tokyo%202020%20Paralympic%20Games%20-%20Para%20Swimming%20Results.pdf", "https://www.paralympic.org/video/swimming-men-s-50m-freesyle-s5-final-rio-2016-paralympic-games"],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "vietnam",
@@ -2671,11 +2528,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Hans Fischer là nhà khoa học.",
-    "biography": "Hans Fischer là nhà khoa học, sinh ngày 27 tháng 7 năm 1881.",
-    "highlights": [
-      "Sinh ngày 27 tháng 7 năm 1881.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Nhà hóa học Hans Fischer từng giảng dạy tại Munich, Innsbruck và Vienna; từ năm 1921 ông là giáo sư tại trường kỹ thuật ở Munich.",
+    "highlights": ["Sinh ngày 27 tháng 7 năm 1881.", "Nhà hóa học Hans Fischer từng giảng dạy tại Munich, Innsbruck và Vienna; từ năm 1921 ông là giáo sư tại trường kỹ thuật ở Munich."],
     "wikidataId": "Q76604",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q76604",
@@ -2705,20 +2559,24 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Alexandre Dumas fils là nhà văn.",
-    "biography": "Alexandre Dumas fils là nhà văn, sinh ngày 27 tháng 7 năm 1824.",
-    "highlights": [
-      "Sinh ngày 27 tháng 7 năm 1824.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Alexandre Dumas fils được bầu vào Viện Hàn lâm Pháp ngày 29/1/1874 với 22 phiếu.",
+    "highlights": ["Sinh ngày 27 tháng 7 năm 1824.", "Alexandre Dumas fils được bầu vào Viện Hàn lâm Pháp ngày 29/1/1874 với 22 phiếu."],
     "wikidataId": "Q169150",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q169150",
       "https://www.academie-francaise.fr/les-immortels/alexandre-dumas-fils",
-      "https://comedie-francaise.bibli.fr/index.php?id=26&lvl=author_see"
+      "https://comedie-francaise.bibli.fr/index.php?id=26&lvl=author_see",
+      "https://brockhaus.de/ecs/julex/article/dumas-alexandre"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1895-11-27",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/dumas-alexandre"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-06"
   },
   {
@@ -2739,17 +2597,10 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇸🇰",
     "image": "/people/placeholder.svg",
     "shortDescription": "Marek Hamšík là vận động viên.",
-    "biography": "Marek Hamšík là vận động viên, sinh ngày 27 tháng 7 năm 1987.",
-    "highlights": [
-      "Sinh ngày 27 tháng 7 năm 1987.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Ở tuổi 22 năm 229 ngày, Marek Hamšík trở thành cầu thủ trẻ nhất đeo băng đội trưởng trong lịch sử Napoli.",
+    "highlights": ["Sinh ngày 27 tháng 7 năm 1987.", "Ở tuổi 22 năm 229 ngày, Marek Hamšík trở thành cầu thủ trẻ nhất đeo băng đội trưởng trong lịch sử Napoli."],
     "wikidataId": "Q201825",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q201825",
-      "https://www.marek-hamsik.sk/profil",
-      "https://www.tff.org/Default.aspx?kisiId=2294024&pageId=526"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q201825", "https://www.marek-hamsik.sk/profil", "https://www.tff.org/Default.aspx?kisiId=2294024&pageId=526", "https://www.marek-hamsik.sk/kariera"],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
@@ -2773,11 +2624,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇻🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Hugo Chávez là chính khách.",
-    "biography": "Hugo Chávez là chính khách, sinh ngày 28 tháng 7 năm 1954.",
-    "highlights": [
-      "Sinh ngày 28 tháng 7 năm 1954.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Hugo Chávez giữ chức Tổng thống Venezuela từ năm 1999 đến khi qua đời năm 2013.",
+    "highlights": ["Sinh ngày 28 tháng 7 năm 1954.", "Hugo Chávez giữ chức Tổng thống Venezuela từ năm 1999 đến khi qua đời năm 2013."],
     "wikidataId": "Q8440",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q8440",
@@ -2807,11 +2655,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇬🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Alexis Tsipras là chính khách.",
-    "biography": "Alexis Tsipras là chính khách, sinh ngày 28 tháng 7 năm 1974.",
-    "highlights": [
-      "Sinh ngày 28 tháng 7 năm 1974.",
-      "Lĩnh vực hoạt động: chính trị."
-    ],
+    "biography": "Alexis Tsipras là thủ tướng Hy Lạp đầu tiên tuyên thệ nhậm chức bằng nghi thức dân sự thay vì nghi lễ tôn giáo.",
+    "highlights": ["Sinh ngày 28 tháng 7 năm 1974.", "Alexis Tsipras là thủ tướng Hy Lạp đầu tiên tuyên thệ nhậm chức bằng nghi thức dân sự thay vì nghi lễ tôn giáo."],
     "wikidataId": "Q312015",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q312015",
@@ -2841,11 +2686,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Charles Hard Townes là nhà khoa học.",
-    "biography": "Charles Hard Townes là nhà khoa học, sinh ngày 28 tháng 7 năm 1915.",
-    "highlights": [
-      "Sinh ngày 28 tháng 7 năm 1915.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Charles Hard Townes nhận Nobel Vật lý năm 1964 nhờ công trình về điện tử lượng tử.",
+    "highlights": ["Sinh ngày 28 tháng 7 năm 1915.", "Charles Hard Townes nhận Nobel Vật lý năm 1964 nhờ công trình về điện tử lượng tử."],
     "wikidataId": "Q184566",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q184566",
@@ -2875,11 +2717,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇸🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Eyvind Johnson là nhà văn.",
-    "biography": "Eyvind Johnson là nhà văn, sinh ngày 29 tháng 7 năm 1900.",
-    "highlights": [
-      "Sinh ngày 29 tháng 7 năm 1900.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Eyvind Johnson xuất bản Strändernas svall năm 1946, tiểu thuyết hiện đại phỏng theo Odyssey.",
+    "highlights": ["Sinh ngày 29 tháng 7 năm 1900.", "Eyvind Johnson xuất bản Strändernas svall năm 1946, tiểu thuyết hiện đại phỏng theo Odyssey."],
     "wikidataId": "Q131326",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q131326",
@@ -2909,11 +2748,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇳🇱",
     "image": "/people/placeholder.svg",
     "shortDescription": "Harry Mulisch là nhà văn.",
-    "biography": "Harry Mulisch là nhà văn, sinh ngày 29 tháng 7 năm 1927.",
-    "highlights": [
-      "Sinh ngày 29 tháng 7 năm 1927.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Tiểu thuyết De aanslag (1982) của Harry Mulisch được chuyển thể thành bộ phim đoạt giải Oscar năm 1986.",
+    "highlights": ["Sinh ngày 29 tháng 7 năm 1927.", "Tiểu thuyết De aanslag (1982) của Harry Mulisch được chuyển thể thành bộ phim đoạt giải Oscar năm 1986."],
     "wikidataId": "Q927",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q927",
@@ -2943,11 +2779,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇪🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Fernando Alonso là vận động viên.",
-    "biography": "Fernando Alonso là vận động viên, sinh ngày 29 tháng 7 năm 1981.",
-    "highlights": [
-      "Sinh ngày 29 tháng 7 năm 1981.",
-      "Lĩnh vực hoạt động: thể thao."
-    ],
+    "biography": "Trong giai đoạn đầu sự nghiệp, Fernando Alonso từng là tay đua trẻ nhất đạt các mốc F1 về giành pole, thắng chặng và vô địch thế giới, với đội Renault.",
+    "highlights": ["Sinh ngày 29 tháng 7 năm 1981.", "Trong giai đoạn đầu sự nghiệp, Fernando Alonso từng là tay đua trẻ nhất đạt các mốc F1 về giành pole, thắng chặng và vô địch thế giới, với đội Renault."],
     "wikidataId": "Q10514",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q10514",
@@ -2977,11 +2810,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Henry Ford là doanh nhân.",
-    "biography": "Henry Ford là doanh nhân, sinh ngày 30 tháng 7 năm 1863.",
-    "highlights": [
-      "Sinh ngày 30 tháng 7 năm 1863.",
-      "Lĩnh vực hoạt động: doanh nhân."
-    ],
+    "biography": "Năm 1896, Henry Ford đưa chiếc ô tô đầu tiên do ông tự chế tạo ra đường chạy thử.",
+    "highlights": ["Sinh ngày 30 tháng 7 năm 1863.", "Năm 1896, Henry Ford đưa chiếc ô tô đầu tiên do ông tự chế tạo ra đường chạy thử."],
     "wikidataId": "Q8768",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q8768",
@@ -3011,11 +2841,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Emily Brontë là nhà văn.",
-    "biography": "Emily Brontë là nhà văn, sinh ngày 30 tháng 7 năm 1818.",
-    "highlights": [
-      "Sinh ngày 30 tháng 7 năm 1818.",
-      "Lĩnh vực hoạt động: văn học."
-    ],
+    "biography": "Tiểu thuyết duy nhất của Emily Brontë đã được chuyển thể nhiều lần cho sân khấu, điện ảnh và truyền hình, đồng thời được dịch sang tiếng Na Uy năm lần.",
+    "highlights": ["Sinh ngày 30 tháng 7 năm 1818.", "Tiểu thuyết duy nhất của Emily Brontë đã được chuyển thể nhiều lần cho sân khấu, điện ảnh và truyền hình, đồng thời được dịch sang tiếng Na Uy năm lần."],
     "wikidataId": "Q80137",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q80137",
@@ -3045,11 +2872,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇦🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Arnold Schwarzenegger là diễn viên.",
-    "biography": "Arnold Schwarzenegger là diễn viên, sinh ngày 30 tháng 7 năm 1947.",
-    "highlights": [
-      "Sinh ngày 30 tháng 7 năm 1947.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ],
+    "biography": "Arnold Schwarzenegger chuyển từ Áo sang Mỹ năm 1968 và nhập quốc tịch Mỹ năm 1983.",
+    "highlights": ["Sinh ngày 30 tháng 7 năm 1947.", "Arnold Schwarzenegger chuyển từ Áo sang Mỹ năm 1968 và nhập quốc tịch Mỹ năm 1983."],
     "wikidataId": "Q2685",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q2685",
@@ -3079,11 +2903,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Milton Friedman là nhà khoa học.",
-    "biography": "Milton Friedman là nhà khoa học, sinh ngày 31 tháng 7 năm 1912.",
-    "highlights": [
-      "Sinh ngày 31 tháng 7 năm 1912.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Từ thập niên 1960, các ý tưởng của Milton Friedman ảnh hưởng đáng kể đến chính sách tiền tệ tại nhiều quốc gia.",
+    "highlights": ["Sinh ngày 31 tháng 7 năm 1912.", "Từ thập niên 1960, các ý tưởng của Milton Friedman ảnh hưởng đáng kể đến chính sách tiền tệ tại nhiều quốc gia."],
     "wikidataId": "Q47426",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q47426",
@@ -3113,11 +2934,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Friedrich Wöhler là nhà khoa học.",
-    "biography": "Friedrich Wöhler là nhà khoa học, sinh ngày 31 tháng 7 năm 1800.",
-    "highlights": [
-      "Sinh ngày 31 tháng 7 năm 1800.",
-      "Lĩnh vực hoạt động: khoa học."
-    ],
+    "biography": "Năm 1836, Friedrich Wöhler trở thành giáo sư hóa học tại Göttingen.",
+    "highlights": ["Sinh ngày 31 tháng 7 năm 1800.", "Năm 1836, Friedrich Wöhler trở thành giáo sư hóa học tại Göttingen."],
     "wikidataId": "Q58575",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q58575",
@@ -3147,11 +2965,8 @@ export const PEOPLE_07: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Jean Dubuffet là nghệ sĩ.",
-    "biography": "Jean Dubuffet là nghệ sĩ, sinh ngày 31 tháng 7 năm 1901.",
-    "highlights": [
-      "Sinh ngày 31 tháng 7 năm 1901.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ],
+    "biography": "Jean Dubuffet học ngắn hạn tại một trường nghệ thuật ở Paris năm 1918, làm nghề buôn rượu nhiều năm và chỉ chuyên tâm hoàn toàn vào nghệ thuật từ năm 1942.",
+    "highlights": ["Sinh ngày 31 tháng 7 năm 1901.", "Jean Dubuffet học ngắn hạn tại một trường nghệ thuật ở Paris năm 1918, làm nghề buôn rượu nhiều năm và chỉ chuyên tâm hoàn toàn vào nghệ thuật từ năm 1942."],
     "wikidataId": "Q170076",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q170076",
@@ -3162,5 +2977,117 @@ export const PEOPLE_07: Person[] = [
     "isFeatured": false,
     "region": "world",
     "verifiedAt": "2026-10-06"
-  }
+  },
+  {
+    "id": "amelia-earhart",
+    "slug": "amelia-earhart",
+    "name": "Amelia Earhart",
+    "birthDate": "1897-07-24",
+    "birthYear": 1897,
+    "birthMonth": 7,
+    "birthDay": 24,
+    "lifeStatus": "deceased",
+    "occupation": [
+      "Phi công, nhà văn"
+    ],
+    "category": "history",
+    "categoryLabel": "Lịch sử",
+    "fields": [
+      "technology-engineering"
+    ],
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "birthplace": "Atchison, Kansas, Hoa Kỳ",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Phi công tiên phong, góp phần mở rộng hiện diện của phụ nữ trong ngành hàng không.",
+    "biography": "Ngày 20–21 tháng 5 năm 1932, Amelia Earhart trở thành người phụ nữ đầu tiên và người thứ hai bay một mình, không dừng, qua Đại Tây Dương. Năm 1937, một vụ tai nạn khi cất cánh tại Honolulu chấm dứt chuyến bay vòng quanh thế giới hướng tây của bà.",
+    "highlights": [
+      "Earhart trở thành người phụ nữ đầu tiên và người thứ hai bay một mình, không dừng, qua Đại Tây Dương.",
+      "Vụ tai nạn khi cất cánh tại Luke Field, Honolulu năm 1937 kết thúc chuyến bay vòng quanh thế giới hướng tây của Earhart."
+    ],
+    "wikidataId": "Q3355",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q3355",
+      "https://airandspace.si.edu/collection-objects/amelia-earhart/nasm_A19500108000",
+      "https://www.nasa.gov/wp-content/uploads/2024/01/amelia-earhart-level-2.pdf?emrc=481098"
+    ],
+    "region": "west",
+    "verifiedAt": "2026-10-08"
+  },
+  {
+    "id": "hendrik-lorentz",
+    "slug": "hendrik-lorentz",
+    "name": "Hendrik Lorentz",
+    "birthDate": "1853-07-18",
+    "birthYear": 1853,
+    "birthMonth": 7,
+    "birthDay": 18,
+    "lifeStatus": "deceased",
+    "occupation": [
+      "Nhà vật lý lý thuyết"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Khoa học",
+    "fields": [
+      "science-research"
+    ],
+    "countryCode": "NL",
+    "countryName": "Hà Lan",
+    "countryFlag": "🇳🇱",
+    "birthplace": "Arnhem, Hà Lan",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Nhà vật lý lý thuyết có đóng góp quan trọng cho điện từ học.",
+    "biography": "Hendrik Lorentz phát triển cách giải thích các hiện tượng điện và quang học bằng khái niệm electron. Ông nhận Nobel Vật lý năm 1902 cùng Pieter Zeeman.",
+    "highlights": [
+      "Lorentz đưa khái niệm electron vào giải thích các hiện tượng điện từ và quang học.",
+      "Lorentz được trao Nobel Vật lý năm 1902 cùng Pieter Zeeman."
+    ],
+    "wikidataId": "Q41688",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q41688",
+      "https://www.nobelprize.org/prizes/physics/1902/lorentz/biographical/",
+      "https://mathshistory.st-andrews.ac.uk/Biographies/Lorentz/"
+    ],
+    "region": "west",
+    "verifiedAt": "2026-10-08"
+  },
+  {
+    "id": "mary-mcleod-bethune",
+    "slug": "mary-mcleod-bethune",
+    "name": "Mary McLeod Bethune",
+    "birthDate": "1875-07-10",
+    "birthYear": 1875,
+    "birthMonth": 7,
+    "birthDay": 10,
+    "lifeStatus": "deceased",
+    "occupation": [
+      "Nhà giáo dục, nhà hoạt động dân quyền"
+    ],
+    "category": "history",
+    "categoryLabel": "Lịch sử",
+    "fields": [
+      "education-thought",
+      "society-law"
+    ],
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "birthplace": "Mayesville, South Carolina, Hoa Kỳ",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Nhà giáo dục và nhà hoạt động vì quyền dân sự, giáo dục của người Mỹ gốc Phi.",
+    "biography": "Mary McLeod Bethune thành lập một trường học tại Daytona Beach năm 1904, tiền thân của Bethune-Cookman University. Bà cũng thành lập National Council of Negro Women và đồng sáng lập United Negro College Fund.",
+    "highlights": [
+      "Năm 1904, Bethune thành lập một trường học tại Daytona Beach, Florida.",
+      "Bethune đồng sáng lập United Negro College Fund năm 1944 và thành lập National Council of Negro Women."
+    ],
+    "wikidataId": "Q291068",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q291068",
+      "https://www.nps.gov/people/mary-mcleod-bethune.htm",
+      "https://blogs.loc.gov/now-see-hear/2022/07/from-our-collection-celebrating-mary-mcleod-bethune/"
+    ],
+    "region": "west",
+    "verifiedAt": "2026-10-08"
+  },
 ];

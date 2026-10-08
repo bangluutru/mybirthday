@@ -20,11 +20,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Arthur Wellesley, 1st Duke of Wellington là thống chế và chính khách.",
-    "biography": "Arthur Wellesley, 1st Duke of Wellington sinh ngày 1 tháng 5 năm 1769 và được ghi nhận với vai trò thống chế và chính khách.",
-    "highlights": [
-      "Sinh ngày 1 tháng 5 năm 1769.",
-      "Nghề nghiệp được ghi nhận: thống chế và chính khách."
-    ],
+    "biography": "Arthur Wellesley được bầu làm nghị sĩ đại diện Rye năm 1806, rồi được bổ nhiệm làm Tổng thư ký Ireland vào năm sau.",
+    "highlights": ["Sinh ngày 1 tháng 5 năm 1769.", "Arthur Wellesley được bầu làm nghị sĩ đại diện Rye năm 1806, rồi được bổ nhiệm làm Tổng thư ký Ireland vào năm sau."],
     "wikidataId": "Q131691",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q131691",
@@ -55,11 +52,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Honoré de Balzac là tiểu thuyết gia và nhà viết kịch.",
-    "biography": "Honoré de Balzac sinh ngày 20 tháng 5 năm 1799 và được ghi nhận với vai trò tiểu thuyết gia và nhà viết kịch.",
-    "highlights": [
-      "Sinh ngày 20 tháng 5 năm 1799.",
-      "Nghề nghiệp được ghi nhận: tiểu thuyết gia và nhà viết kịch."
-    ],
+    "biography": "Năm 1836, Honoré de Balzac bắt đầu hợp nhất các tiểu thuyết của mình thành bộ La Comédie humaine.",
+    "highlights": ["Sinh ngày 20 tháng 5 năm 1799.", "Năm 1836, Honoré de Balzac bắt đầu hợp nhất các tiểu thuyết của mình thành bộ La Comédie humaine."],
     "wikidataId": "Q9711",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q9711",
@@ -90,11 +84,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Ralph Waldo Emerson là triết gia và nhà tiểu luận.",
-    "biography": "Ralph Waldo Emerson sinh ngày 25 tháng 5 năm 1803 và được ghi nhận với vai trò triết gia và nhà tiểu luận.",
-    "highlights": [
-      "Sinh ngày 25 tháng 5 năm 1803.",
-      "Nghề nghiệp được ghi nhận: triết gia và nhà tiểu luận."
-    ],
+    "biography": "Trong chuyến đi châu Âu năm 1832–1833, Ralph Waldo Emerson gặp Wordsworth, Coleridge và Carlyle, đồng thời tiếp xúc với chủ nghĩa duy tâm Đức.",
+    "highlights": ["Sinh ngày 25 tháng 5 năm 1803.", "Trong chuyến đi châu Âu năm 1832–1833, Ralph Waldo Emerson gặp Wordsworth, Coleridge và Carlyle, đồng thời tiếp xúc với chủ nghĩa duy tâm Đức."],
     "wikidataId": "Q48226",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q48226",
@@ -125,11 +116,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Robert Browning là nhà thơ và nhà viết kịch.",
-    "biography": "Robert Browning sinh ngày 7 tháng 5 năm 1812 và được ghi nhận với vai trò nhà thơ và nhà viết kịch.",
-    "highlights": [
-      "Sinh ngày 7 tháng 5 năm 1812.",
-      "Nghề nghiệp được ghi nhận: nhà thơ và nhà viết kịch."
-    ],
+    "biography": "Năm 1849, Robert Browning có con trai Robert “Pen” Browning; cùng năm đó tập Collected Poems của ông được xuất bản.",
+    "highlights": ["Sinh ngày 7 tháng 5 năm 1812.", "Năm 1849, Robert Browning có con trai Robert “Pen” Browning; cùng năm đó tập Collected Poems của ông được xuất bản."],
     "wikidataId": "Q233265",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q233265",
@@ -160,11 +148,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇩🇰",
     "image": "/people/placeholder.svg",
     "shortDescription": "Søren Kierkegaard là triết gia và nhà thần học.",
-    "biography": "Søren Kierkegaard sinh ngày 5 tháng 5 năm 1813 và được ghi nhận với vai trò triết gia và nhà thần học.",
-    "highlights": [
-      "Sinh ngày 5 tháng 5 năm 1813.",
-      "Nghề nghiệp được ghi nhận: triết gia và nhà thần học."
-    ],
+    "biography": "Từ năm 1843 đến khi qua đời năm 1855, Søren Kierkegaard liên tục xuất bản sách, phần lớn dưới bút danh.",
+    "highlights": ["Sinh ngày 5 tháng 5 năm 1813.", "Từ năm 1843 đến khi qua đời năm 1855, Søren Kierkegaard liên tục xuất bản sách, phần lớn dưới bút danh."],
     "wikidataId": "Q6512",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q6512",
@@ -194,20 +179,24 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Richard Wagner là nhà soạn nhạc.",
-    "biography": "Richard Wagner sinh ngày 22 tháng 5 năm 1813 và được ghi nhận với vai trò nhà soạn nhạc.",
-    "highlights": [
-      "Sinh ngày 22 tháng 5 năm 1813.",
-      "Nghề nghiệp được ghi nhận: nhà soạn nhạc."
-    ],
+    "biography": "Richard Wagner cải tổ hình thức opera và sáng tác số lượng lớn tác phẩm sân khấu.",
+    "highlights": ["Sinh ngày 22 tháng 5 năm 1813.", "Richard Wagner cải tổ hình thức opera và sáng tác số lượng lớn tác phẩm sân khấu."],
     "wikidataId": "Q1511",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q1511",
       "https://www.enciklopedija.hr/clanak/wagner-richard",
-      "https://snl.no/Richard_Wagner"
+      "https://snl.no/Richard_Wagner",
+      "https://brockhaus.de/ecs/julex/article/wagner-richard-20"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1883-02-13",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/wagner-richard-20"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-05"
   },
   {
@@ -229,20 +218,24 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Karl Marx là triết gia và nhà kinh tế học.",
-    "biography": "Karl Marx sinh ngày 5 tháng 5 năm 1818 và được ghi nhận với vai trò triết gia và nhà kinh tế học.",
-    "highlights": [
-      "Sinh ngày 5 tháng 5 năm 1818.",
-      "Nghề nghiệp được ghi nhận: triết gia và nhà kinh tế học."
-    ],
+    "biography": "Năm 1849, Karl Marx buộc phải rời Paris và sống lưu vong tại London.",
+    "highlights": ["Sinh ngày 5 tháng 5 năm 1818.", "Năm 1849, Karl Marx buộc phải rời Paris và sống lưu vong tại London."],
     "wikidataId": "Q9061",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q9061",
       "https://www.enciklopedija.hr/clanak/marx-karl",
-      "https://snl.no/Karl_Marx"
+      "https://snl.no/Karl_Marx",
+      "https://brockhaus.de/ecs/julex/article/marx-karl-heinrich"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1883-03-14",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/marx-karl-heinrich"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-05"
   },
   {
@@ -263,11 +256,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Victoria là nữ hoàng Vương quốc Anh.",
-    "biography": "Victoria sinh ngày 24 tháng 5 năm 1819 và được ghi nhận với vai trò nữ hoàng Vương quốc Anh.",
-    "highlights": [
-      "Sinh ngày 24 tháng 5 năm 1819.",
-      "Nghề nghiệp được ghi nhận: nữ hoàng Vương quốc Anh."
-    ],
+    "biography": "Nửa sau thế kỷ 19, Nữ hoàng Victoria chú ý nhiều hơn đến công chúng Anh và dần trở thành biểu tượng cho bản sắc dân tộc Anh.",
+    "highlights": ["Sinh ngày 24 tháng 5 năm 1819.", "Nửa sau thế kỷ 19, Nữ hoàng Victoria chú ý nhiều hơn đến công chúng Anh và dần trở thành biểu tượng cho bản sắc dân tộc Anh."],
     "wikidataId": "Q9439",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q9439",
@@ -298,11 +288,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Walt Whitman là nhà thơ và nhà báo.",
-    "biography": "Walt Whitman sinh ngày 31 tháng 5 năm 1819 và được ghi nhận với vai trò nhà thơ và nhà báo.",
-    "highlights": [
-      "Sinh ngày 31 tháng 5 năm 1819.",
-      "Nghề nghiệp được ghi nhận: nhà thơ và nhà báo."
-    ],
+    "biography": "Walt Whitman tự xuất bản ấn bản đầu tiên của Leaves of Grass năm 1855.",
+    "highlights": ["Sinh ngày 31 tháng 5 năm 1819.", "Walt Whitman tự xuất bản ấn bản đầu tiên của Leaves of Grass năm 1855."],
     "wikidataId": "Q81438",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q81438",
@@ -333,11 +320,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Florence Nightingale là y tá và nhà cải cách xã hội.",
-    "biography": "Florence Nightingale sinh ngày 12 tháng 5 năm 1820 và được ghi nhận với vai trò y tá và nhà cải cách xã hội.",
-    "highlights": [
-      "Sinh ngày 12 tháng 5 năm 1820.",
-      "Nghề nghiệp được ghi nhận: y tá và nhà cải cách xã hội."
-    ],
+    "biography": "Năm 1907, Florence Nightingale trở thành người phụ nữ đầu tiên được trao Huân chương Order of Merit của Anh.",
+    "highlights": ["Sinh ngày 12 tháng 5 năm 1820.", "Năm 1907, Florence Nightingale trở thành người phụ nữ đầu tiên được trao Huân chương Order of Merit của Anh."],
     "wikidataId": "Q37103",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q37103",
@@ -367,20 +351,24 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Thomas Henry Huxley là nhà sinh vật học.",
-    "biography": "Thomas Henry Huxley sinh ngày 4 tháng 5 năm 1825 và được ghi nhận với vai trò nhà sinh vật học.",
-    "highlights": [
-      "Sinh ngày 4 tháng 5 năm 1825.",
-      "Nghề nghiệp được ghi nhận: nhà sinh vật học."
-    ],
+    "biography": "Năm 1854, Thomas Henry Huxley trở thành giáo sư tại Royal School of Mines ở London và bắt đầu quan tâm đến cổ sinh vật học.",
+    "highlights": ["Sinh ngày 4 tháng 5 năm 1825.", "Năm 1854, Thomas Henry Huxley trở thành giáo sư tại Royal School of Mines ở London và bắt đầu quan tâm đến cổ sinh vật học."],
     "wikidataId": "Q184366",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q184366",
       "https://www.enciklopedija.hr/clanak/huxley-thomas-henry",
-      "https://snl.no/Thomas_Henry_Huxley"
+      "https://snl.no/Thomas_Henry_Huxley",
+      "https://runeberg.org/nfbk/0718.html"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1895-06-29",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://runeberg.org/nfbk/0718.html"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-05"
   },
   {
@@ -402,11 +390,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇨🇭",
     "image": "/people/placeholder.svg",
     "shortDescription": "Henry Dunant là doanh nhân và nhà hoạt động nhân đạo.",
-    "biography": "Henry Dunant sinh ngày 8 tháng 5 năm 1828 và được ghi nhận với vai trò doanh nhân và nhà hoạt động nhân đạo.",
-    "highlights": [
-      "Sinh ngày 8 tháng 5 năm 1828.",
-      "Nghề nghiệp được ghi nhận: doanh nhân và nhà hoạt động nhân đạo."
-    ],
+    "biography": "Henry Dunant nhận Nobel Hòa bình đầu tiên năm 1901 nhờ nỗ lực giúp đỡ binh sĩ bị thương và thúc đẩy sự hiểu biết quốc tế.",
+    "highlights": ["Sinh ngày 8 tháng 5 năm 1828.", "Henry Dunant nhận Nobel Hòa bình đầu tiên năm 1901 nhờ nỗ lực giúp đỡ binh sĩ bị thương và thúc đẩy sự hiểu biết quốc tế."],
     "wikidataId": "Q12091",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q12091",
@@ -437,11 +422,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Johannes Brahms là nhà soạn nhạc và nghệ sĩ dương cầm.",
-    "biography": "Johannes Brahms sinh ngày 7 tháng 5 năm 1833 và được ghi nhận với vai trò nhà soạn nhạc và nghệ sĩ dương cầm.",
-    "highlights": [
-      "Sinh ngày 7 tháng 5 năm 1833.",
-      "Nghề nghiệp được ghi nhận: nhà soạn nhạc và nghệ sĩ dương cầm."
-    ],
+    "biography": "Buổi biểu diễn công khai cuối cùng của Johannes Brahms diễn ra ngày 7/3/1897, khi Hans Richter chỉ huy bản giao hưởng số 4 của ông.",
+    "highlights": ["Sinh ngày 7 tháng 5 năm 1833.", "Buổi biểu diễn công khai cuối cùng của Johannes Brahms diễn ra ngày 7/3/1897, khi Hans Richter chỉ huy bản giao hưởng số 4 của ông."],
     "wikidataId": "Q7294",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q7294",
@@ -472,11 +454,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇪🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Santiago Ramón y Cajal là nhà khoa học và bác sĩ.",
-    "biography": "Santiago Ramón y Cajal sinh ngày 1 tháng 5 năm 1852 và được ghi nhận với vai trò nhà khoa học và bác sĩ.",
-    "highlights": [
-      "Sinh ngày 1 tháng 5 năm 1852.",
-      "Nghề nghiệp được ghi nhận: nhà khoa học và bác sĩ."
-    ],
+    "biography": "Santiago Ramón y Cajal chia sẻ Nobel Y học năm 1906 với Camillo Golgi nhờ các nghiên cứu về cấu trúc hệ thần kinh.",
+    "highlights": ["Sinh ngày 1 tháng 5 năm 1852.", "Santiago Ramón y Cajal chia sẻ Nobel Y học năm 1906 với Camillo Golgi nhờ các nghiên cứu về cấu trúc hệ thần kinh."],
     "wikidataId": "Q150526",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q150526",
@@ -508,20 +487,24 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇦🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Sigmund Freud là bác sĩ tâm thần và nhà phân tâm học.",
-    "biography": "Sigmund Freud sinh ngày 6 tháng 5 năm 1856 và được ghi nhận với vai trò bác sĩ tâm thần và nhà phân tâm học.",
-    "highlights": [
-      "Sinh ngày 6 tháng 5 năm 1856.",
-      "Nghề nghiệp được ghi nhận: bác sĩ tâm thần và nhà phân tâm học."
-    ],
+    "biography": "Sigmund Freud phân tích cả giấc mơ của chính mình; những phân tích này trở thành một phần trong tác phẩm lớn đầu tiên của ông, Giải thích giấc mơ (1900).",
+    "highlights": ["Sinh ngày 6 tháng 5 năm 1856.", "Sigmund Freud phân tích cả giấc mơ của chính mình; những phân tích này trở thành một phần trong tác phẩm lớn đầu tiên của ông, Giải thích giấc mơ (1900)."],
     "wikidataId": "Q9215",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q9215",
       "https://www.enciklopedija.hr/clanak/freud-sigmund",
-      "https://snl.no/Sigmund_Freud"
+      "https://snl.no/Sigmund_Freud",
+      "https://brockhaus.de/ecs/julex/article/freud-sigmund"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1939-09-23",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/freud-sigmund"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-05"
   },
   {
@@ -542,11 +525,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "L. Frank Baum là nhà văn thiếu nhi.",
-    "biography": "L. Frank Baum sinh ngày 15 tháng 5 năm 1856 và được ghi nhận với vai trò nhà văn thiếu nhi.",
-    "highlights": [
-      "Sinh ngày 15 tháng 5 năm 1856.",
-      "Nghề nghiệp được ghi nhận: nhà văn thiếu nhi."
-    ],
+    "biography": "Năm 1900, L. Frank Baum viết The Wonderful Wizard of Oz, tác phẩm thiếu nhi sau này được biết đến với tên The Wizard of Oz.",
+    "highlights": ["Sinh ngày 15 tháng 5 năm 1856.", "Năm 1900, L. Frank Baum viết The Wonderful Wizard of Oz, tác phẩm thiếu nhi sau này được biết đến với tên The Wizard of Oz."],
     "wikidataId": "Q207544",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q207544",
@@ -577,11 +557,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Ronald Ross là bác sĩ và nhà nghiên cứu bệnh sốt rét.",
-    "biography": "Ronald Ross sinh ngày 13 tháng 5 năm 1857 và được ghi nhận với vai trò bác sĩ và nhà nghiên cứu bệnh sốt rét.",
-    "highlights": [
-      "Sinh ngày 13 tháng 5 năm 1857.",
-      "Nghề nghiệp được ghi nhận: bác sĩ và nhà nghiên cứu bệnh sốt rét."
-    ],
+    "biography": "Ronald Ross nhận Nobel Sinh lý học hoặc Y học năm 1902 nhờ nghiên cứu về bệnh sốt rét.",
+    "highlights": ["Sinh ngày 13 tháng 5 năm 1857.", "Ronald Ross nhận Nobel Sinh lý học hoặc Y học năm 1902 nhờ nghiên cứu về bệnh sốt rét."],
     "wikidataId": "Q102034",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q102034",
@@ -612,20 +589,24 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Arthur Conan Doyle là nhà văn và bác sĩ.",
-    "biography": "Arthur Conan Doyle sinh ngày 22 tháng 5 năm 1859 và được ghi nhận với vai trò nhà văn và bác sĩ.",
-    "highlights": [
-      "Sinh ngày 22 tháng 5 năm 1859.",
-      "Nghề nghiệp được ghi nhận: nhà văn và bác sĩ."
-    ],
+    "biography": "Bác sĩ Arthur Conan Doyle từng tình nguyện phục vụ trong Chiến tranh Boer năm 1900 và viết sách về cuộc chiến.",
+    "highlights": ["Sinh ngày 22 tháng 5 năm 1859.", "Bác sĩ Arthur Conan Doyle từng tình nguyện phục vụ trong Chiến tranh Boer năm 1900 và viết sách về cuộc chiến."],
     "wikidataId": "Q35610",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q35610",
       "https://www.enciklopedija.hr/clanak/doyle-arthur-conan",
-      "https://snl.no/Arthur_Conan_Doyle"
+      "https://snl.no/Arthur_Conan_Doyle",
+      "https://brockhaus.de/ecs/julex/article/doyle-arthur-conan"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1930-07-07",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/doyle-arthur-conan"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-05"
   },
   {
@@ -647,11 +628,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇦🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Theodor Herzl là nhà báo và nhà tư tưởng chính trị.",
-    "biography": "Theodor Herzl sinh ngày 2 tháng 5 năm 1860 và được ghi nhận với vai trò nhà báo và nhà tư tưởng chính trị.",
-    "highlights": [
-      "Sinh ngày 2 tháng 5 năm 1860.",
-      "Nghề nghiệp được ghi nhận: nhà báo và nhà tư tưởng chính trị."
-    ],
+    "biography": "Tháng 8/1897, Theodor Herzl và những người ủng hộ tổ chức Đại hội Zionist đầu tiên tại Basel, Thụy Sĩ.",
+    "highlights": ["Sinh ngày 2 tháng 5 năm 1860.", "Tháng 8/1897, Theodor Herzl và những người ủng hộ tổ chức Đại hội Zionist đầu tiên tại Basel, Thụy Sĩ."],
     "wikidataId": "Q44003",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q44003",
@@ -682,11 +660,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "J. M. Barrie là nhà văn và nhà viết kịch.",
-    "biography": "J. M. Barrie sinh ngày 9 tháng 5 năm 1860 và được ghi nhận với vai trò nhà văn và nhà viết kịch.",
-    "highlights": [
-      "Sinh ngày 9 tháng 5 năm 1860.",
-      "Nghề nghiệp được ghi nhận: nhà văn và nhà viết kịch."
-    ],
+    "biography": "J. M. Barrie được bổ nhiệm làm Rector của Đại học St Andrews năm 1919 và giữ chức đến năm 1922.",
+    "highlights": ["Sinh ngày 9 tháng 5 năm 1860.", "J. M. Barrie được bổ nhiệm làm Rector của Đại học St Andrews năm 1919 và giữ chức đến năm 1922."],
     "wikidataId": "Q81796",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q81796",
@@ -716,21 +691,25 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇳🇱",
     "image": "/people/placeholder.svg",
     "shortDescription": "Willem Einthoven là nhà sinh lý học.",
-    "biography": "Willem Einthoven sinh ngày 21 tháng 5 năm 1860 và được ghi nhận với vai trò nhà sinh lý học.",
-    "highlights": [
-      "Sinh ngày 21 tháng 5 năm 1860.",
-      "Nghề nghiệp được ghi nhận: nhà sinh lý học."
-    ],
+    "biography": "Willem Einthoven phát triển khả năng dùng điện tâm đồ (ECG) để mô tả tim, chức năng và bệnh lý của tim.",
+    "highlights": ["Sinh ngày 21 tháng 5 năm 1860.", "Willem Einthoven phát triển khả năng dùng điện tâm đồ (ECG) để mô tả tim, chức năng và bệnh lý của tim."],
     "wikidataId": "Q189488",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q189488",
       "https://www.nobelprize.org/laureate/315",
-      "https://www.enciklopedija.hr/clanak/einthoven-willem"
+      "https://www.enciklopedija.hr/clanak/einthoven-willem",
+      "https://www.nobelprize.org/prizes/medicine/1924/einthoven/facts/"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-05"
+    "verifiedAt": "2026-10-05",
+    "deathDate": "1927-09-29",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.nobelprize.org/prizes/medicine/1924/einthoven/facts/"
+    ],
+    "deathDatePrecision": "day"
   },
   {
     "id": "erik-satie",
@@ -751,11 +730,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Erik Satie là nhà soạn nhạc và nghệ sĩ dương cầm.",
-    "biography": "Erik Satie sinh ngày 17 tháng 5 năm 1866 và được ghi nhận với vai trò nhà soạn nhạc và nghệ sĩ dương cầm.",
-    "highlights": [
-      "Sinh ngày 17 tháng 5 năm 1866.",
-      "Nghề nghiệp được ghi nhận: nhà soạn nhạc và nghệ sĩ dương cầm."
-    ],
+    "biography": "Khoảng năm 1910, âm nhạc của Erik Satie chuyển hướng và ông dần trở thành hình mẫu cho nhiều nhà soạn nhạc thế hệ sau.",
+    "highlights": ["Sinh ngày 17 tháng 5 năm 1866.", "Khoảng năm 1910, âm nhạc của Erik Satie chuyển hướng và ông dần trở thành hình mẫu cho nhiều nhà soạn nhạc thế hệ sau."],
     "wikidataId": "Q187192",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q187192",
@@ -786,11 +762,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Bertrand Russell là triết gia và nhà logic học.",
-    "biography": "Bertrand Russell sinh ngày 18 tháng 5 năm 1872 và được ghi nhận với vai trò triết gia và nhà logic học.",
-    "highlights": [
-      "Sinh ngày 18 tháng 5 năm 1872.",
-      "Nghề nghiệp được ghi nhận: triết gia và nhà logic học."
-    ],
+    "biography": "Principles of Mathematics (1903) là công trình quan trọng đầu tiên của Bertrand Russell về logic triết học.",
+    "highlights": ["Sinh ngày 18 tháng 5 năm 1872.", "Principles of Mathematics (1903) là công trình quan trọng đầu tiên của Bertrand Russell về logic triết học."],
     "wikidataId": "Q33760",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q33760",
@@ -821,11 +794,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Douglas Fairbanks là diễn viên và nhà làm phim.",
-    "biography": "Douglas Fairbanks sinh ngày 23 tháng 5 năm 1883 và được ghi nhận với vai trò diễn viên và nhà làm phim.",
-    "highlights": [
-      "Sinh ngày 23 tháng 5 năm 1883.",
-      "Nghề nghiệp được ghi nhận: diễn viên và nhà làm phim."
-    ],
+    "biography": "Các phim nổi tiếng của Douglas Fairbanks gồm The Mark of Zorro (1920), The Three Musketeers (1921), Robin Hood (1922) và The Thief of Baghdad (1924).",
+    "highlights": ["Sinh ngày 23 tháng 5 năm 1883.", "Các phim nổi tiếng của Douglas Fairbanks gồm The Mark of Zorro (1920), The Three Musketeers (1921), Robin Hood (1922) và The Thief of Baghdad (1924)."],
     "wikidataId": "Q104127",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q104127",
@@ -855,17 +825,10 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Harry S. Truman là tổng thống Hoa Kỳ.",
-    "biography": "Harry S. Truman sinh ngày 8 tháng 5 năm 1884 và được ghi nhận với vai trò tổng thống Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 8 tháng 5 năm 1884.",
-      "Nghề nghiệp được ghi nhận: tổng thống Hoa Kỳ."
-    ],
+    "biography": "Ngày 12/4/1945, sau khi Roosevelt qua đời, Harry S. Truman tuyên thệ nhậm chức Tổng thống thứ 33 của Hoa Kỳ.",
+    "highlights": ["Sinh ngày 8 tháng 5 năm 1884.", "Ngày 12/4/1945, sau khi Roosevelt qua đời, Harry S. Truman tuyên thệ nhậm chức Tổng thống thứ 33 của Hoa Kỳ."],
     "wikidataId": "Q11613",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q11613",
-      "https://www.enciklopedija.hr/clanak/truman-harry-s",
-      "https://snl.no/Harry_Truman"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q11613", "https://www.enciklopedija.hr/clanak/truman-harry-s", "https://snl.no/Harry_Truman", "https://www.trumanlibrary.gov/education/trivia/biographical-sketch-harry-truman"],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
@@ -889,11 +852,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇪🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Alfonso XIII là vua Tây Ban Nha.",
-    "biography": "Alfonso XIII sinh ngày 17 tháng 5 năm 1886 và được ghi nhận với vai trò vua Tây Ban Nha.",
-    "highlights": [
-      "Sinh ngày 17 tháng 5 năm 1886.",
-      "Nghề nghiệp được ghi nhận: vua Tây Ban Nha."
-    ],
+    "biography": "Sau vụ ám sát lãnh đạo bảo thủ Eduardo Dato năm 1921, Alfonso XIII thành lập các chính phủ liên hiệp để ứng phó với khủng hoảng.",
+    "highlights": ["Sinh ngày 17 tháng 5 năm 1886.", "Sau vụ ám sát lãnh đạo bảo thủ Eduardo Dato năm 1921, Alfonso XIII thành lập các chính phủ liên hiệp để ứng phó với khủng hoảng."],
     "wikidataId": "Q18363",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q18363",
@@ -924,20 +884,24 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇸🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Pär Lagerkvist là nhà văn và nhà thơ.",
-    "biography": "Pär Lagerkvist sinh ngày 23 tháng 5 năm 1891 và được ghi nhận với vai trò nhà văn và nhà thơ.",
-    "highlights": [
-      "Sinh ngày 23 tháng 5 năm 1891.",
-      "Nghề nghiệp được ghi nhận: nhà văn và nhà thơ."
-    ],
+    "biography": "Năm 1951, Pär Lagerkvist nhận Nobel Văn học vì sức mạnh nghệ thuật và tinh thần độc lập thể hiện trong thơ của ông.",
+    "highlights": ["Sinh ngày 23 tháng 5 năm 1891.", "Năm 1951, Pär Lagerkvist nhận Nobel Văn học vì sức mạnh nghệ thuật và tinh thần độc lập thể hiện trong thơ của ông."],
     "wikidataId": "Q93137",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q93137",
       "https://www.nobelprize.org/laureate/622",
-      "https://sok.riksarkivet.se/sbl/Presentation.aspx?forceOrdinarySite=true&id=10912"
+      "https://sok.riksarkivet.se/sbl/Presentation.aspx?forceOrdinarySite=true&id=10912",
+      "https://www.britannica.com/biography/Par-Lagerkvist"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1974-07-11",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.britannica.com/biography/Par-Lagerkvist"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-05"
   },
   {
@@ -960,11 +924,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Fred Astaire là vũ công, biên đạo múa và diễn viên.",
-    "biography": "Fred Astaire sinh ngày 10 tháng 5 năm 1899 và được ghi nhận với vai trò vũ công, biên đạo múa và diễn viên.",
-    "highlights": [
-      "Sinh ngày 10 tháng 5 năm 1899.",
-      "Nghề nghiệp được ghi nhận: vũ công, biên đạo múa và diễn viên."
-    ],
+    "biography": "Fred Astaire và Ginger Rogers bắt đầu hợp tác trong Flying Down to Rio (1933), rồi cùng đóng chính trong Top Hat, Swing Time và Shall We Dance.",
+    "highlights": ["Sinh ngày 10 tháng 5 năm 1899.", "Fred Astaire và Ginger Rogers bắt đầu hợp tác trong Flying Down to Rio (1933), rồi cùng đóng chính trong Top Hat, Swing Time và Shall We Dance."],
     "wikidataId": "Q100937",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q100937",
@@ -994,11 +955,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Gary Cooper là diễn viên.",
-    "biography": "Gary Cooper sinh ngày 7 tháng 5 năm 1901 và được ghi nhận với vai trò diễn viên.",
-    "highlights": [
-      "Sinh ngày 7 tháng 5 năm 1901.",
-      "Nghề nghiệp được ghi nhận: diễn viên."
-    ],
+    "biography": "Gary Cooper đóng vai cao bồi quần chúng trong hơn 30 phim trước khi có vai diễn quan trọng đầu tiên trong The Winning of Barbara Worth (1927).",
+    "highlights": ["Sinh ngày 7 tháng 5 năm 1901.", "Gary Cooper đóng vai cao bồi quần chúng trong hơn 30 phim trước khi có vai diễn quan trọng đầu tiên trong The Winning of Barbara Worth (1927)."],
     "wikidataId": "Q93957",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q93957",
@@ -1028,11 +986,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Alfred Kastler là nhà vật lý.",
-    "biography": "Alfred Kastler sinh ngày 3 tháng 5 năm 1902 và được ghi nhận với vai trò nhà vật lý.",
-    "highlights": [
-      "Sinh ngày 3 tháng 5 năm 1902.",
-      "Nghề nghiệp được ghi nhận: nhà vật lý."
-    ],
+    "biography": "Năm 1950, Alfred Kastler đề xuất dùng ánh sáng hoặc bức xạ điện từ để đưa electron lên các mức năng lượng cao rồi chúng trở về mức thấp hơn.",
+    "highlights": ["Sinh ngày 3 tháng 5 năm 1902.", "Năm 1950, Alfred Kastler đề xuất dùng ánh sáng hoặc bức xạ điện từ để đưa electron lên các mức năng lượng cao rồi chúng trở về mức thấp hơn."],
     "wikidataId": "Q71023",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q71023",
@@ -1063,11 +1018,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Bob Hope là diễn viên hài và nghệ sĩ giải trí.",
-    "biography": "Bob Hope sinh ngày 29 tháng 5 năm 1903 và được ghi nhận với vai trò diễn viên hài và nghệ sĩ giải trí.",
-    "highlights": [
-      "Sinh ngày 29 tháng 5 năm 1903.",
-      "Nghề nghiệp được ghi nhận: diễn viên hài và nghệ sĩ giải trí."
-    ],
+    "biography": "Bob Hope nhận năm giải danh dự của Viện Hàn lâm Điện ảnh Mỹ và hai giải Quả cầu Vàng danh dự.",
+    "highlights": ["Sinh ngày 29 tháng 5 năm 1903.", "Bob Hope nhận năm giải danh dự của Viện Hàn lâm Điện ảnh Mỹ và hai giải Quả cầu Vàng danh dự."],
     "wikidataId": "Q94081",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q94081",
@@ -1098,11 +1050,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇪🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Salvador Dalí là họa sĩ.",
-    "biography": "Salvador Dalí sinh ngày 11 tháng 5 năm 1904 và được ghi nhận với vai trò họa sĩ.",
-    "highlights": [
-      "Sinh ngày 11 tháng 5 năm 1904.",
-      "Nghề nghiệp được ghi nhận: họa sĩ."
-    ],
+    "biography": "Năm 1939, Salvador Dalí bị nhóm Siêu thực bỏ phiếu khai trừ.",
+    "highlights": ["Sinh ngày 11 tháng 5 năm 1904.", "Năm 1939, Salvador Dalí bị nhóm Siêu thực bỏ phiếu khai trừ."],
     "wikidataId": "Q5577",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q5577",
@@ -1132,11 +1081,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Henry Fonda là diễn viên.",
-    "biography": "Henry Fonda sinh ngày 16 tháng 5 năm 1905 và được ghi nhận với vai trò diễn viên.",
-    "highlights": [
-      "Sinh ngày 16 tháng 5 năm 1905.",
-      "Nghề nghiệp được ghi nhận: diễn viên."
-    ],
+    "biography": "Vai diễn trong On Golden Pond (1981), đóng cùng con gái Jane Fonda, là vai diễn điện ảnh cuối cùng giúp Henry Fonda đoạt Oscar.",
+    "highlights": ["Sinh ngày 16 tháng 5 năm 1905.", "Vai diễn trong On Golden Pond (1981), đóng cùng con gái Jane Fonda, là vai diễn điện ảnh cuối cùng giúp Henry Fonda đoạt Oscar."],
     "wikidataId": "Q19155",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q19155",
@@ -1166,11 +1112,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Katharine Hepburn là diễn viên.",
-    "biography": "Katharine Hepburn sinh ngày 12 tháng 5 năm 1907 và được ghi nhận với vai trò diễn viên.",
-    "highlights": [
-      "Sinh ngày 12 tháng 5 năm 1907.",
-      "Nghề nghiệp được ghi nhận: diễn viên."
-    ],
+    "biography": "Katharine Hepburn tái hợp Spencer Tracy trong Guess Who's Coming to Dinner (1967), vai diễn mang về cho bà giải Oscar.",
+    "highlights": ["Sinh ngày 12 tháng 5 năm 1907.", "Katharine Hepburn tái hợp Spencer Tracy trong Guess Who's Coming to Dinner (1967), vai diễn mang về cho bà giải Oscar."],
     "wikidataId": "Q56016",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q56016",
@@ -1201,20 +1144,24 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Laurence Olivier là diễn viên và đạo diễn.",
-    "biography": "Laurence Olivier sinh ngày 22 tháng 5 năm 1907 và được ghi nhận với vai trò diễn viên và đạo diễn.",
-    "highlights": [
-      "Sinh ngày 22 tháng 5 năm 1907.",
-      "Nghề nghiệp được ghi nhận: diễn viên và đạo diễn."
-    ],
+    "biography": "Laurence Olivier nhận Oscar năm 1944 cho Henry V, bộ phim do ông sản xuất, đạo diễn và đóng vai chính.",
+    "highlights": ["Sinh ngày 22 tháng 5 năm 1907.", "Laurence Olivier nhận Oscar năm 1944 cho Henry V, bộ phim do ông sản xuất, đạo diễn và đóng vai chính."],
     "wikidataId": "Q55245",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q55245",
       "https://snl.no/Laurence_Olivier",
-      "https://www.biography.com/actors/laurence-olivier"
+      "https://www.biography.com/actors/laurence-olivier",
+      "https://brockhaus.de/ecs/julex/article/olivier-laurence-kerr"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1989-07-11",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/olivier-laurence-kerr"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-05"
   },
   {
@@ -1235,11 +1182,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "John Wayne là diễn viên.",
-    "biography": "John Wayne sinh ngày 26 tháng 5 năm 1907 và được ghi nhận với vai trò diễn viên.",
-    "highlights": [
-      "Sinh ngày 26 tháng 5 năm 1907.",
-      "Nghề nghiệp được ghi nhận: diễn viên."
-    ],
+    "biography": "John Wayne đoạt Oscar và Quả cầu Vàng cho vai chính trong True Grit (1969).",
+    "highlights": ["Sinh ngày 26 tháng 5 năm 1907.", "John Wayne đoạt Oscar và Quả cầu Vàng cho vai chính trong True Grit (1969)."],
     "wikidataId": "Q40531",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q40531",
@@ -1270,11 +1214,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "James Stewart là diễn viên và đạo diễn.",
-    "biography": "James Stewart sinh ngày 20 tháng 5 năm 1908 và được ghi nhận với vai trò diễn viên và đạo diễn.",
-    "highlights": [
-      "Sinh ngày 20 tháng 5 năm 1908.",
-      "Nghề nghiệp được ghi nhận: diễn viên và đạo diễn."
-    ],
+    "biography": "Trong sự nghiệp, James Stewart nhận một giải Oscar, một Quả cầu Vàng cùng các giải diễn xuất tại Liên hoan phim Venice và Berlin.",
+    "highlights": ["Sinh ngày 20 tháng 5 năm 1908.", "Trong sự nghiệp, James Stewart nhận một giải Oscar, một Quả cầu Vàng cùng các giải diễn xuất tại Liên hoan phim Venice và Berlin."],
     "wikidataId": "Q102462",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q102462",
@@ -1305,11 +1246,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "John Bardeen là nhà vật lý và kỹ sư điện.",
-    "biography": "John Bardeen sinh ngày 23 tháng 5 năm 1908 và được ghi nhận với vai trò nhà vật lý và kỹ sư điện.",
-    "highlights": [
-      "Sinh ngày 23 tháng 5 năm 1908.",
-      "Nghề nghiệp được ghi nhận: nhà vật lý và kỹ sư điện."
-    ],
+    "biography": "John Bardeen tốt nghiệp Madison Central High School năm 1923 sau vài năm học tại University High School ở Madison.",
+    "highlights": ["Sinh ngày 23 tháng 5 năm 1908.", "John Bardeen tốt nghiệp Madison Central High School năm 1923 sau vài năm học tại University High School ở Madison."],
     "wikidataId": "Q949",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q949",
@@ -1339,11 +1277,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Ian Fleming là nhà văn.",
-    "biography": "Ian Fleming sinh ngày 28 tháng 5 năm 1908 và được ghi nhận với vai trò nhà văn.",
-    "highlights": [
-      "Sinh ngày 28 tháng 5 năm 1908.",
-      "Nghề nghiệp được ghi nhận: nhà văn."
-    ],
+    "biography": "Ian Fleming là nhà báo, nhà văn trinh thám người Anh và là người sáng tạo nhân vật điệp viên 007 James Bond.",
+    "highlights": ["Sinh ngày 28 tháng 5 năm 1908.", "Ian Fleming là nhà báo, nhà văn trinh thám người Anh và là người sáng tạo nhân vật điệp viên 007 James Bond."],
     "wikidataId": "Q82104",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q82104",
@@ -1374,11 +1309,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Benny Goodman là nghệ sĩ kèn clarinet jazz và trưởng ban nhạc.",
-    "biography": "Benny Goodman sinh ngày 30 tháng 5 năm 1909 và được ghi nhận với vai trò nghệ sĩ kèn clarinet jazz và trưởng ban nhạc.",
-    "highlights": [
-      "Sinh ngày 30 tháng 5 năm 1909.",
-      "Nghề nghiệp được ghi nhận: nghệ sĩ kèn clarinet jazz và trưởng ban nhạc."
-    ],
+    "biography": "Năm 1934 tại New York, Benny Goodman thành lập ban nhạc lớn đầu tiên của mình sau nhiều năm chơi trong các dàn nhạc.",
+    "highlights": ["Sinh ngày 30 tháng 5 năm 1909.", "Năm 1934 tại New York, Benny Goodman thành lập ban nhạc lớn đầu tiên của mình sau nhiều năm chơi trong các dàn nhạc."],
     "wikidataId": "Q46755",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q46755",
@@ -1408,11 +1340,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Dorothy Hodgkin là nhà hóa học.",
-    "biography": "Dorothy Hodgkin sinh ngày 12 tháng 5 năm 1910 và được ghi nhận với vai trò nhà hóa học.",
-    "highlights": [
-      "Sinh ngày 12 tháng 5 năm 1910.",
-      "Nghề nghiệp được ghi nhận: nhà hóa học."
-    ],
+    "biography": "Dorothy Hodgkin học tại Somerville College, Oxford (1928–1932), nơi bà bắt đầu nghiên cứu tinh thể học.",
+    "highlights": ["Sinh ngày 12 tháng 5 năm 1910.", "Dorothy Hodgkin học tại Somerville College, Oxford (1928–1932), nơi bà bắt đầu nghiên cứu tinh thể học."],
     "wikidataId": "Q7487",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q7487",
@@ -1442,21 +1371,25 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇦🇺",
     "image": "/people/placeholder.svg",
     "shortDescription": "Patrick White là nhà văn.",
-    "biography": "Patrick White sinh ngày 28 tháng 5 năm 1912 và được ghi nhận với vai trò nhà văn.",
-    "highlights": [
-      "Sinh ngày 28 tháng 5 năm 1912.",
-      "Nghề nghiệp được ghi nhận: nhà văn."
-    ],
+    "biography": "Patrick White nhận Nobel Văn học năm 1973.",
+    "highlights": ["Sinh ngày 28 tháng 5 năm 1912.", "Patrick White nhận Nobel Văn học năm 1973."],
     "wikidataId": "Q129187",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q129187",
       "https://www.enciklopedija.hr/clanak/white-patrick",
-      "https://snl.no/Patrick_White"
+      "https://snl.no/Patrick_White",
+      "https://www.nobelprize.org/prizes/literature/1973/white/facts/"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-05"
+    "verifiedAt": "2026-10-05",
+    "deathDate": "1990-09-30",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.nobelprize.org/prizes/literature/1973/white/facts/"
+    ],
+    "deathDatePrecision": "day"
   },
   {
     "id": "orson-welles",
@@ -1477,11 +1410,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Orson Welles là diễn viên và đạo diễn phim.",
-    "biography": "Orson Welles sinh ngày 6 tháng 5 năm 1915 và được ghi nhận với vai trò diễn viên và đạo diễn phim.",
-    "highlights": [
-      "Sinh ngày 6 tháng 5 năm 1915.",
-      "Nghề nghiệp được ghi nhận: diễn viên và đạo diễn phim."
-    ],
+    "biography": "Trong phim Othello (1952), Orson Welles đóng vai chính trong bản chuyển thể từ vở kịch của Shakespeare.",
+    "highlights": ["Sinh ngày 6 tháng 5 năm 1915.", "Trong phim Othello (1952), Orson Welles đóng vai chính trong bản chuyển thể từ vở kịch của Shakespeare."],
     "wikidataId": "Q24829",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q24829",
@@ -1511,11 +1441,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "John F. Kennedy là tổng thống Hoa Kỳ.",
-    "biography": "John F. Kennedy sinh ngày 29 tháng 5 năm 1917 và được ghi nhận với vai trò tổng thống Hoa Kỳ.",
-    "highlights": [
-      "Sinh ngày 29 tháng 5 năm 1917.",
-      "Nghề nghiệp được ghi nhận: tổng thống Hoa Kỳ."
-    ],
+    "biography": "John F. Kennedy là tổng thống thứ 35 của Hoa Kỳ, tại nhiệm từ tháng 1/1961 đến khi qua đời vào tháng 11/1963.",
+    "highlights": ["Sinh ngày 29 tháng 5 năm 1917.", "John F. Kennedy là tổng thống thứ 35 của Hoa Kỳ, tại nhiệm từ tháng 1/1961 đến khi qua đời vào tháng 11/1963."],
     "wikidataId": "Q9696",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q9696",
@@ -1546,11 +1473,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇵🇱",
     "image": "/people/placeholder.svg",
     "shortDescription": "John Paul II là giáo hoàng và tác giả.",
-    "biography": "John Paul II sinh ngày 18 tháng 5 năm 1920 và được ghi nhận với vai trò giáo hoàng và tác giả.",
-    "highlights": [
-      "Sinh ngày 18 tháng 5 năm 1920.",
-      "Nghề nghiệp được ghi nhận: giáo hoàng và tác giả."
-    ],
+    "biography": "Năm 2013, Vatican thông báo Giáo hội Công giáo sẽ phong thánh cho Giáo hoàng John Paul II và dự kiến tổ chức lễ trong 16 tháng tiếp theo.",
+    "highlights": ["Sinh ngày 18 tháng 5 năm 1920.", "Năm 2013, Vatican thông báo Giáo hội Công giáo sẽ phong thánh cho Giáo hoàng John Paul II và dự kiến tổ chức lễ trong 16 tháng tiếp theo."],
     "wikidataId": "Q989",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q989",
@@ -1581,11 +1505,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇮🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Satyajit Ray là đạo diễn phim và nhà văn.",
-    "biography": "Satyajit Ray sinh ngày 2 tháng 5 năm 1921 và được ghi nhận với vai trò đạo diễn phim và nhà văn.",
-    "highlights": [
-      "Sinh ngày 2 tháng 5 năm 1921.",
-      "Nghề nghiệp được ghi nhận: đạo diễn phim và nhà văn."
-    ],
+    "biography": "Satyajit Ray viết nhiều tiểu thuyết trinh thám và phiêu lưu cho thanh thiếu niên bằng tiếng Bengali; tại quê nhà, ông được biết đến như nhà văn bên cạnh vai trò đạo diễn.",
+    "highlights": ["Sinh ngày 2 tháng 5 năm 1921.", "Satyajit Ray viết nhiều tiểu thuyết trinh thám và phiêu lưu cho thanh thiếu niên bằng tiếng Bengali; tại quê nhà, ông được biết đến như nhà văn bên cạnh vai trò đạo diễn."],
     "wikidataId": "Q8873",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q8873",
@@ -1615,20 +1536,24 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Sophie Scholl là nhà hoạt động kháng chiến.",
-    "biography": "Sophie Scholl sinh ngày 9 tháng 5 năm 1921 và được ghi nhận với vai trò nhà hoạt động kháng chiến.",
-    "highlights": [
-      "Sinh ngày 9 tháng 5 năm 1921.",
-      "Nghề nghiệp được ghi nhận: nhà hoạt động kháng chiến."
-    ],
+    "biography": "Ngày 18/2/1943, Sophie Scholl và anh trai Hans bị Gestapo bắt sau khi phát khoảng 1.700 truyền đơn tại Đại học Munich.",
+    "highlights": ["Sinh ngày 9 tháng 5 năm 1921.", "Ngày 18/2/1943, Sophie Scholl và anh trai Hans bị Gestapo bắt sau khi phát khoảng 1.700 truyền đơn tại Đại học Munich."],
     "wikidataId": "Q76972",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q76972",
       "https://snl.no/Sophie_Scholl",
-      "https://www.deutsche-biographie.de/sfz107734.html?language=en"
+      "https://www.deutsche-biographie.de/sfz107734.html?language=en",
+      "https://brockhaus.de/ecs/julex/article/scholl-sophie"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1943-02-22",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/scholl-sophie"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-05"
   },
   {
@@ -1650,20 +1575,24 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇷🇺",
     "image": "/people/placeholder.svg",
     "shortDescription": "Andrei Sakharov là nhà vật lý và nhà hoạt động nhân quyền.",
-    "biography": "Andrei Sakharov sinh ngày 21 tháng 5 năm 1921 và được ghi nhận với vai trò nhà vật lý và nhà hoạt động nhân quyền.",
-    "highlights": [
-      "Sinh ngày 21 tháng 5 năm 1921.",
-      "Nghề nghiệp được ghi nhận: nhà vật lý và nhà hoạt động nhân quyền."
-    ],
+    "biography": "Andrei Sakharov nhận Nobel Hòa bình năm 1975 vì phản đối lạm quyền và hoạt động bảo vệ nhân quyền.",
+    "highlights": ["Sinh ngày 21 tháng 5 năm 1921.", "Andrei Sakharov nhận Nobel Hòa bình năm 1975 vì phản đối lạm quyền và hoạt động bảo vệ nhân quyền."],
     "wikidataId": "Q997",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q997",
       "https://www.nobelprize.org/laureate/534",
-      "https://sakharov.fund/en/andrei-sakharov/bio/"
+      "https://sakharov.fund/en/andrei-sakharov/bio/",
+      "https://www.nobelprize.org/prizes/peace/1975/sakharov/biographical/"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "1989-12-14",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.nobelprize.org/prizes/peace/1975/sakharov/biographical/"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-05"
   },
   {
@@ -1685,11 +1614,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Christopher Lee là diễn viên và ca sĩ.",
-    "biography": "Christopher Lee sinh ngày 27 tháng 5 năm 1922 và được ghi nhận với vai trò diễn viên và ca sĩ.",
-    "highlights": [
-      "Sinh ngày 27 tháng 5 năm 1922.",
-      "Nghề nghiệp được ghi nhận: diễn viên và ca sĩ."
-    ],
+    "biography": "Từ thập niên 1950, Christopher Lee nổi tiếng với các phim kinh dị của hãng Hammer Films, trong đó có loạt Dracula.",
+    "highlights": ["Sinh ngày 27 tháng 5 năm 1922.", "Từ thập niên 1950, Christopher Lee nổi tiếng với các phim kinh dị của hãng Hammer Films, trong đó có loạt Dracula."],
     "wikidataId": "Q180338",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q180338",
@@ -1720,11 +1646,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Henry Kissinger là nhà ngoại giao và chính khách.",
-    "biography": "Henry Kissinger sinh ngày 27 tháng 5 năm 1923 và được ghi nhận với vai trò nhà ngoại giao và chính khách.",
-    "highlights": [
-      "Sinh ngày 27 tháng 5 năm 1923.",
-      "Nghề nghiệp được ghi nhận: nhà ngoại giao và chính khách."
-    ],
+    "biography": "Henry Kissinger giữ chức Ngoại trưởng Hoa Kỳ từ năm 1973 đến 1977, đồng thời tiếp tục phụ trách an ninh quốc gia đến năm 1975.",
+    "highlights": ["Sinh ngày 27 tháng 5 năm 1923.", "Henry Kissinger giữ chức Ngoại trưởng Hoa Kỳ từ năm 1973 đến 1977, đồng thời tiếp tục phụ trách an ninh quốc gia đến năm 1975."],
     "wikidataId": "Q66107",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q66107",
@@ -1755,11 +1678,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Malcolm X là nhà hoạt động dân quyền.",
-    "biography": "Malcolm X sinh ngày 19 tháng 5 năm 1925 và được ghi nhận với vai trò nhà hoạt động dân quyền.",
-    "highlights": [
-      "Sinh ngày 19 tháng 5 năm 1925.",
-      "Nghề nghiệp được ghi nhận: nhà hoạt động dân quyền."
-    ],
+    "biography": "Cuốn The Autobiography of Malcolm X do Alex Haley chấp bút góp phần đưa Malcolm X trở thành nhân vật có ảnh hưởng sau khi qua đời.",
+    "highlights": ["Sinh ngày 19 tháng 5 năm 1925.", "Cuốn The Autobiography of Malcolm X do Alex Haley chấp bút góp phần đưa Malcolm X trở thành nhân vật có ảnh hưởng sau khi qua đời."],
     "wikidataId": "Q43303",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q43303",
@@ -1790,11 +1710,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "David Attenborough là nhà tự nhiên học và phát thanh viên.",
-    "biography": "David Attenborough sinh ngày 8 tháng 5 năm 1926 và được ghi nhận với vai trò nhà tự nhiên học và phát thanh viên.",
-    "highlights": [
-      "Sinh ngày 8 tháng 5 năm 1926.",
-      "Nghề nghiệp được ghi nhận: nhà tự nhiên học và phát thanh viên."
-    ],
+    "biography": "David Attenborough học động vật học và địa chất tại Đại học Cambridge, tốt nghiệp năm 1947.",
+    "highlights": ["Sinh ngày 8 tháng 5 năm 1926.", "David Attenborough học động vật học và địa chất tại Đại học Cambridge, tốt nghiệp năm 1947."],
     "wikidataId": "Q183337",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q183337",
@@ -1826,20 +1743,24 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Agnès Varda là đạo diễn phim, biên kịch và nhiếp ảnh gia.",
-    "biography": "Agnès Varda sinh ngày 30 tháng 5 năm 1928 và được ghi nhận với vai trò đạo diễn phim, biên kịch và nhiếp ảnh gia.",
-    "highlights": [
-      "Sinh ngày 30 tháng 5 năm 1928.",
-      "Nghề nghiệp được ghi nhận: đạo diễn phim, biên kịch và nhiếp ảnh gia."
-    ],
+    "biography": "Agnès Varda được đề cử Oscar cho phim tài liệu Visages villages (2017).",
+    "highlights": ["Sinh ngày 30 tháng 5 năm 1928.", "Agnès Varda được đề cử Oscar cho phim tài liệu Visages villages (2017)."],
     "wikidataId": "Q229990",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q229990",
       "https://www.enciklopedija.hr/clanak/varda-agnes",
-      "https://snl.no/Agn%C3%A8s_Varda"
+      "https://snl.no/Agn%C3%A8s_Varda",
+      "https://france3-regions.francetvinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/cannes/cineaste-agnes-varda-habituee-du-festival-cannes-est-decedee-age-90-ans-1646712.html"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
+    "deathDate": "2019-03-29",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://france3-regions.francetvinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/cannes/cineaste-agnes-varda-habituee-du-festival-cannes-est-decedee-age-90-ans-1646712.html"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-05",
     "birthplace": "Ixelles, Bỉ"
   },
@@ -1861,11 +1782,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Audrey Hepburn là diễn viên.",
-    "biography": "Audrey Hepburn sinh ngày 4 tháng 5 năm 1929 và được ghi nhận với vai trò diễn viên.",
-    "highlights": [
-      "Sinh ngày 4 tháng 5 năm 1929.",
-      "Nghề nghiệp được ghi nhận: diễn viên."
-    ],
+    "biography": "Audrey Hepburn có bước đột phá điện ảnh với Roman Holiday (1953), vai diễn giúp bà đoạt Oscar và Quả cầu Vàng.",
+    "highlights": ["Sinh ngày 4 tháng 5 năm 1929.", "Audrey Hepburn có bước đột phá điện ảnh với Roman Holiday (1953), vai diễn giúp bà đoạt Oscar và Quả cầu Vàng."],
     "wikidataId": "Q42786",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q42786",
@@ -1897,11 +1815,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Peter Higgs là nhà vật lý lý thuyết.",
-    "biography": "Peter Higgs sinh ngày 29 tháng 5 năm 1929 và được ghi nhận với vai trò nhà vật lý lý thuyết.",
-    "highlights": [
-      "Sinh ngày 29 tháng 5 năm 1929.",
-      "Nghề nghiệp được ghi nhận: nhà vật lý lý thuyết."
-    ],
+    "biography": "Peter Higgs làm giáo sư vật lý lý thuyết tại Đại học Edinburgh trong phần lớn sự nghiệp.",
+    "highlights": ["Sinh ngày 29 tháng 5 năm 1929.", "Peter Higgs làm giáo sư vật lý lý thuyết tại Đại học Edinburgh trong phần lớn sự nghiệp."],
     "wikidataId": "Q192112",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q192112",
@@ -1932,11 +1847,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Clint Eastwood là diễn viên và đạo diễn phim.",
-    "biography": "Clint Eastwood sinh ngày 31 tháng 5 năm 1930 và được ghi nhận với vai trò diễn viên và đạo diễn phim.",
-    "highlights": [
-      "Sinh ngày 31 tháng 5 năm 1930.",
-      "Nghề nghiệp được ghi nhận: diễn viên và đạo diễn phim."
-    ],
+    "biography": "Where Eagles Dare, Paint Your Wagon và Kelly's Heroes đều là những phim thành công có Clint Eastwood tham gia vào giai đoạn 1969–1970.",
+    "highlights": ["Sinh ngày 31 tháng 5 năm 1930.", "Where Eagles Dare, Paint Your Wagon và Kelly's Heroes đều là những phim thành công có Clint Eastwood tham gia vào giai đoạn 1969–1970."],
     "wikidataId": "Q43203",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q43203",
@@ -1968,11 +1880,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "James Brown là ca sĩ, nhạc sĩ và vũ công.",
-    "biography": "James Brown sinh ngày 3 tháng 5 năm 1933 và được ghi nhận với vai trò ca sĩ, nhạc sĩ và vũ công.",
-    "highlights": [
-      "Sinh ngày 3 tháng 5 năm 1933.",
-      "Nghề nghiệp được ghi nhận: ca sĩ, nhạc sĩ và vũ công."
-    ],
+    "biography": "James Brown phát triển phong cách biểu diễn giàu nhịp điệu từ gospel và rhythm and blues; ông được xem là một trong những người khai sinh nhạc soul.",
+    "highlights": ["Sinh ngày 3 tháng 5 năm 1933.", "James Brown phát triển phong cách biểu diễn giàu nhịp điệu từ gospel và rhythm and blues; ông được xem là một trong những người khai sinh nhạc soul."],
     "wikidataId": "Q5950",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q5950",
@@ -2002,11 +1911,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Steven Weinberg là nhà vật lý lý thuyết.",
-    "biography": "Steven Weinberg sinh ngày 3 tháng 5 năm 1933 và được ghi nhận với vai trò nhà vật lý lý thuyết.",
-    "highlights": [
-      "Sinh ngày 3 tháng 5 năm 1933.",
-      "Nghề nghiệp được ghi nhận: nhà vật lý lý thuyết."
-    ],
+    "biography": "Năm 1968, các đóng góp của Steven Weinberg, Sheldon Glashow và Abdus Salam thống nhất tương tác yếu với tương tác điện từ thành tương tác điện yếu.",
+    "highlights": ["Sinh ngày 3 tháng 5 năm 1933.", "Năm 1968, các đóng góp của Steven Weinberg, Sheldon Glashow và Abdus Salam thống nhất tương tác yếu với tương tác điện từ thành tương tác điện yếu."],
     "wikidataId": "Q179282",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q179282",
@@ -2037,17 +1943,10 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇷🇺",
     "image": "/people/placeholder.svg",
     "shortDescription": "Alexey Leonov là phi công và nhà du hành vũ trụ.",
-    "biography": "Alexey Leonov sinh ngày 30 tháng 5 năm 1934 và được ghi nhận với vai trò phi công và nhà du hành vũ trụ.",
-    "highlights": [
-      "Sinh ngày 30 tháng 5 năm 1934.",
-      "Nghề nghiệp được ghi nhận: phi công và nhà du hành vũ trụ."
-    ],
+    "biography": "Ngày 18/3/1965, Alexey Leonov thực hiện chuyến đi bộ ngoài không gian đầu tiên trong lịch sử.",
+    "highlights": ["Sinh ngày 30 tháng 5 năm 1934.", "Ngày 18/3/1965, Alexey Leonov thực hiện chuyến đi bộ ngoài không gian đầu tiên trong lịch sử."],
     "wikidataId": "Q154269",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q154269",
-      "https://www.esa.int/About_Us/50_years_of_ESA/Alexei_Leonov_The_artistic_spaceman",
-      "https://ntrs.nasa.gov/api/citations/19750008514/downloads/19750008514.pdf"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q154269", "https://www.esa.int/About_Us/50_years_of_ESA/Alexei_Leonov_The_artistic_spaceman", "https://ntrs.nasa.gov/api/citations/19750008514/downloads/19750008514.pdf", "https://www.nasa.gov/history/space-station-20th-spacewalking-history/"],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
@@ -2072,11 +1971,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Dennis Hopper là diễn viên và đạo diễn phim.",
-    "biography": "Dennis Hopper sinh ngày 17 tháng 5 năm 1936 và được ghi nhận với vai trò diễn viên và đạo diễn phim.",
-    "highlights": [
-      "Sinh ngày 17 tháng 5 năm 1936.",
-      "Nghề nghiệp được ghi nhận: diễn viên và đạo diễn phim."
-    ],
+    "biography": "Dennis Hopper ra mắt điện ảnh trong thập niên 1950 và đóng cùng James Dean trong Rebel Without a Cause (1955).",
+    "highlights": ["Sinh ngày 17 tháng 5 năm 1936.", "Dennis Hopper ra mắt điện ảnh trong thập niên 1950 và đóng cùng James Dean trong Rebel Without a Cause (1955)."],
     "wikidataId": "Q102711",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q102711",
@@ -2107,11 +2003,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Madeleine Albright là nhà ngoại giao và chính khách.",
-    "biography": "Madeleine Albright sinh ngày 15 tháng 5 năm 1937 và được ghi nhận với vai trò nhà ngoại giao và chính khách.",
-    "highlights": [
-      "Sinh ngày 15 tháng 5 năm 1937.",
-      "Nghề nghiệp được ghi nhận: nhà ngoại giao và chính khách."
-    ],
+    "biography": "Madeleine Albright là người phụ nữ đầu tiên giữ chức Ngoại trưởng Hoa Kỳ, từ năm 1997 đến 2001.",
+    "highlights": ["Sinh ngày 15 tháng 5 năm 1937.", "Madeleine Albright là người phụ nữ đầu tiên giữ chức Ngoại trưởng Hoa Kỳ, từ năm 1997 đến 2001."],
     "wikidataId": "Q174438",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q174438",
@@ -2141,11 +2034,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Ian McKellen là diễn viên.",
-    "biography": "Ian McKellen sinh ngày 25 tháng 5 năm 1939 và được ghi nhận với vai trò diễn viên.",
-    "highlights": [
-      "Sinh ngày 25 tháng 5 năm 1939.",
-      "Nghề nghiệp được ghi nhận: diễn viên."
-    ],
+    "biography": "Ian McKellen nhận Quả cầu Vàng cho Richard III và hai lần được đề cử Oscar, với Gods and Monsters và The Fellowship of the Ring.",
+    "highlights": ["Sinh ngày 25 tháng 5 năm 1939.", "Ian McKellen nhận Quả cầu Vàng cho Richard III và hai lần được đề cử Oscar, với Gods and Monsters và The Fellowship of the Ring."],
     "wikidataId": "Q170510",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q170510",
@@ -2176,22 +2066,26 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇷🇺",
     "image": "/people/placeholder.svg",
     "shortDescription": "Joseph Brodsky là nhà thơ và dịch giả.",
-    "biography": "Joseph Brodsky sinh ngày 24 tháng 5 năm 1940 và được ghi nhận với vai trò nhà thơ và dịch giả.",
-    "highlights": [
-      "Sinh ngày 24 tháng 5 năm 1940.",
-      "Nghề nghiệp được ghi nhận: nhà thơ và dịch giả."
-    ],
+    "biography": "Tuyển tập thơ A Part of Speech của Joseph Brodsky được nhà xuất bản Farrar, Straus and Giroux phát hành năm 1980.",
+    "highlights": ["Sinh ngày 24 tháng 5 năm 1940.", "Tuyển tập thơ A Part of Speech của Joseph Brodsky được nhà xuất bản Farrar, Straus and Giroux phát hành năm 1980."],
     "wikidataId": "Q862",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q862",
       "https://www.enciklopedija.hr/clanak/brodski-josif-aleksandrovic",
       "https://poets.org/index.php/poet/joseph-brodsky",
-      "https://ead-pdfs.library.yale.edu/784.pdf"
+      "https://ead-pdfs.library.yale.edu/784.pdf",
+      "https://www.nobelprize.org/prizes/literature/1987/brodsky/biographical/"
     ],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
-    "verifiedAt": "2026-10-05"
+    "verifiedAt": "2026-10-05",
+    "deathDate": "1996-01-28",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.nobelprize.org/prizes/literature/1987/brodsky/biographical/"
+    ],
+    "deathDatePrecision": "day"
   },
   {
     "id": "nora-ephron",
@@ -2212,11 +2106,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nora Ephron là biên kịch và đạo diễn phim.",
-    "biography": "Nora Ephron sinh ngày 19 tháng 5 năm 1941 và được ghi nhận với vai trò biên kịch và đạo diễn phim.",
-    "highlights": [
-      "Sinh ngày 19 tháng 5 năm 1941.",
-      "Nghề nghiệp được ghi nhận: biên kịch và đạo diễn phim."
-    ],
+    "biography": "Nora Ephron ba lần được đề cử Oscar Kịch bản gốc xuất sắc nhất và nhận BAFTA cho kịch bản When Harry Met Sally... (1989).",
+    "highlights": ["Sinh ngày 19 tháng 5 năm 1941.", "Nora Ephron ba lần được đề cử Oscar Kịch bản gốc xuất sắc nhất và nhận BAFTA cho kịch bản When Harry Met Sally... (1989)."],
     "wikidataId": "Q214677",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q214677",
@@ -2247,11 +2138,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Bob Dylan là ca sĩ kiêm sáng tác nhạc.",
-    "biography": "Bob Dylan sinh ngày 24 tháng 5 năm 1941 và được ghi nhận với vai trò ca sĩ kiêm sáng tác nhạc.",
-    "highlights": [
-      "Sinh ngày 24 tháng 5 năm 1941.",
-      "Nghề nghiệp được ghi nhận: ca sĩ kiêm sáng tác nhạc."
-    ],
+    "biography": "Năm 2000, Bob Dylan nhận Polar Music Prize do Học viện Âm nhạc Hoàng gia Thụy Điển trao.",
+    "highlights": ["Sinh ngày 24 tháng 5 năm 1941.", "Năm 2000, Bob Dylan nhận Polar Music Prize do Học viện Âm nhạc Hoàng gia Thụy Điển trao."],
     "wikidataId": "Q392",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q392",
@@ -2282,11 +2170,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "George Lucas là đạo diễn và nhà sản xuất phim.",
-    "biography": "George Lucas sinh ngày 14 tháng 5 năm 1944 và được ghi nhận với vai trò đạo diễn và nhà sản xuất phim.",
-    "highlights": [
-      "Sinh ngày 14 tháng 5 năm 1944.",
-      "Nghề nghiệp được ghi nhận: đạo diễn và nhà sản xuất phim."
-    ],
+    "biography": "Star Wars (1977) đem lại thành công lớn cho George Lucas; ông sản xuất hai phần tiếp theo ra mắt năm 1980 và 1983.",
+    "highlights": ["Sinh ngày 14 tháng 5 năm 1944.", "Star Wars (1977) đem lại thành công lớn cho George Lucas; ông sản xuất hai phần tiếp theo ra mắt năm 1980 và 1983."],
     "wikidataId": "Q38222",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q38222",
@@ -2317,11 +2202,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇮🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Mary Robinson là luật sư và chính khách.",
-    "biography": "Mary Robinson sinh ngày 21 tháng 5 năm 1944 và được ghi nhận với vai trò luật sư và chính khách.",
-    "highlights": [
-      "Sinh ngày 21 tháng 5 năm 1944.",
-      "Nghề nghiệp được ghi nhận: luật sư và chính khách."
-    ],
+    "biography": "Mary Robinson là giáo sư luật tại Trinity College Dublin từ năm 1969 đến 1990.",
+    "highlights": ["Sinh ngày 21 tháng 5 năm 1944.", "Mary Robinson là giáo sư luật tại Trinity College Dublin từ năm 1969 đến 1990."],
     "wikidataId": "Q188214",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q188214",
@@ -2351,11 +2233,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Claudia Goldin là nhà kinh tế học.",
-    "biography": "Claudia Goldin sinh ngày 14 tháng 5 năm 1946 và được ghi nhận với vai trò nhà kinh tế học.",
-    "highlights": [
-      "Sinh ngày 14 tháng 5 năm 1946.",
-      "Nghề nghiệp được ghi nhận: nhà kinh tế học."
-    ],
+    "biography": "Claudia Goldin là người đầu tiên đưa ra bức tranh toàn diện về thu nhập tiền lương của phụ nữ.",
+    "highlights": ["Sinh ngày 14 tháng 5 năm 1946.", "Claudia Goldin là người đầu tiên đưa ra bức tranh toàn diện về thu nhập tiền lương của phụ nữ."],
     "wikidataId": "Q1097475",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q1097475",
@@ -2386,11 +2265,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Cher là ca sĩ và diễn viên.",
-    "biography": "Cher sinh ngày 20 tháng 5 năm 1946 và được ghi nhận với vai trò ca sĩ và diễn viên.",
-    "highlights": [
-      "Sinh ngày 20 tháng 5 năm 1946.",
-      "Nghề nghiệp được ghi nhận: ca sĩ và diễn viên."
-    ],
+    "biography": "Cher lần đầu nổi tiếng với vai trò ca sĩ trong bộ đôi Sonny & Cher cùng người chồng khi đó, Sonny Bono.",
+    "highlights": ["Sinh ngày 20 tháng 5 năm 1946.", "Cher lần đầu nổi tiếng với vai trò ca sĩ trong bộ đôi Sonny & Cher cùng người chồng khi đó, Sonny Bono."],
     "wikidataId": "Q12003",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q12003",
@@ -2422,11 +2298,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Billy Joel là ca sĩ, nhạc sĩ và nghệ sĩ dương cầm.",
-    "biography": "Billy Joel sinh ngày 9 tháng 5 năm 1949 và được ghi nhận với vai trò ca sĩ, nhạc sĩ và nghệ sĩ dương cầm.",
-    "highlights": [
-      "Sinh ngày 9 tháng 5 năm 1949.",
-      "Nghề nghiệp được ghi nhận: ca sĩ, nhạc sĩ và nghệ sĩ dương cầm."
-    ],
+    "biography": "Billy Joel ra mắt solo với album Cold Spring Harbor năm 1971 và có những thành công đầu tiên tại Mỹ với Piano Man (1973).",
+    "highlights": ["Sinh ngày 9 tháng 5 năm 1949.", "Billy Joel ra mắt solo với album Cold Spring Harbor năm 1971 và có những thành công đầu tiên tại Mỹ với Piano Man (1973)."],
     "wikidataId": "Q194333",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q194333",
@@ -2457,11 +2330,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Stevie Wonder là ca sĩ kiêm sáng tác nhạc.",
-    "biography": "Stevie Wonder sinh ngày 13 tháng 5 năm 1950 và được ghi nhận với vai trò ca sĩ kiêm sáng tác nhạc.",
-    "highlights": [
-      "Sinh ngày 13 tháng 5 năm 1950.",
-      "Nghề nghiệp được ghi nhận: ca sĩ kiêm sáng tác nhạc."
-    ],
+    "biography": "Motown Records phát hiện Stevie Wonder khi ông 12 tuổi; đĩa đơn trực tiếp Fingertips (Part 2) đứng đầu bảng xếp hạng Mỹ năm 1963.",
+    "highlights": ["Sinh ngày 13 tháng 5 năm 1950.", "Motown Records phát hiện Stevie Wonder khi ông 12 tuổi; đĩa đơn trực tiếp Fingertips (Part 2) đứng đầu bảng xếp hạng Mỹ năm 1963."],
     "wikidataId": "Q714",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q714",
@@ -2492,11 +2362,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Sally Ride là phi hành gia và nhà vật lý.",
-    "biography": "Sally Ride sinh ngày 26 tháng 5 năm 1951 và được ghi nhận với vai trò phi hành gia và nhà vật lý.",
-    "highlights": [
-      "Sinh ngày 26 tháng 5 năm 1951.",
-      "Nghề nghiệp được ghi nhận: phi hành gia và nhà vật lý."
-    ],
+    "biography": "Sally Ride rời NASA năm 1987 để nghiên cứu tại Stanford; từ năm 1989, bà là giáo sư vật lý tại Đại học California, San Diego.",
+    "highlights": ["Sinh ngày 26 tháng 5 năm 1951.", "Sally Ride rời NASA năm 1987 để nghiên cứu tại Stanford; từ năm 1989, bà là giáo sư vật lý tại Đại học California, San Diego."],
     "wikidataId": "Q49285",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q49285",
@@ -2528,11 +2395,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇮🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Pierce Brosnan là diễn viên và nhà sản xuất phim.",
-    "biography": "Pierce Brosnan sinh ngày 16 tháng 5 năm 1953 và được ghi nhận với vai trò diễn viên và nhà sản xuất phim.",
-    "highlights": [
-      "Sinh ngày 16 tháng 5 năm 1953.",
-      "Nghề nghiệp được ghi nhận: diễn viên và nhà sản xuất phim."
-    ],
+    "biography": "Năm 2006, Pierce Brosnan được đề cử Quả cầu Vàng Nam diễn viên chính xuất sắc nhất phim hài hoặc ca nhạc với Matador.",
+    "highlights": ["Sinh ngày 16 tháng 5 năm 1953.", "Năm 2006, Pierce Brosnan được đề cử Quả cầu Vàng Nam diễn viên chính xuất sắc nhất phim hài hoặc ca nhạc với Matador."],
     "wikidataId": "Q81520",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q81520",
@@ -2563,17 +2427,10 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇮🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Bono là ca sĩ kiêm sáng tác nhạc.",
-    "biography": "Bono sinh ngày 10 tháng 5 năm 1960 và được ghi nhận với vai trò ca sĩ kiêm sáng tác nhạc.",
-    "highlights": [
-      "Sinh ngày 10 tháng 5 năm 1960.",
-      "Nghề nghiệp được ghi nhận: ca sĩ kiêm sáng tác nhạc."
-    ],
+    "biography": "Năm 1976, Bono trả lời mẩu quảng cáo tuyển nhạc công của Larry Mullen, khởi đầu quá trình hình thành ban nhạc U2.",
+    "highlights": ["Sinh ngày 10 tháng 5 năm 1960.", "Năm 1976, Bono trả lời mẩu quảng cáo tuyển nhạc công của Larry Mullen, khởi đầu quá trình hình thành ban nhạc U2."],
     "wikidataId": "Q834621",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q834621",
-      "https://www.u2.com/blogs/news/birthday-greetings",
-      "https://www.universalmusic.fr/artistes/20000029319"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q834621", "https://www.u2.com/blogs/news/birthday-greetings", "https://www.universalmusic.fr/artistes/20000029319", "https://www.u2.com/pages/band"],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "world",
@@ -2598,11 +2455,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "George Clooney là diễn viên và nhà làm phim.",
-    "biography": "George Clooney sinh ngày 6 tháng 5 năm 1961 và được ghi nhận với vai trò diễn viên và nhà làm phim.",
-    "highlights": [
-      "Sinh ngày 6 tháng 5 năm 1961.",
-      "Nghề nghiệp được ghi nhận: diễn viên và nhà làm phim."
-    ],
+    "biography": "Ocean's Eleven (2001) mở đầu cho quá trình hợp tác lâu dài giữa George Clooney và đạo diễn Steven Soderbergh.",
+    "highlights": ["Sinh ngày 6 tháng 5 năm 1961.", "Ocean's Eleven (2001) mở đầu cho quá trình hợp tác lâu dài giữa George Clooney và đạo diễn Steven Soderbergh."],
     "wikidataId": "Q23844",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q23844",
@@ -2634,11 +2488,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Janet Jackson là ca sĩ, nhạc sĩ và vũ công.",
-    "biography": "Janet Jackson sinh ngày 16 tháng 5 năm 1966 và được ghi nhận với vai trò ca sĩ, nhạc sĩ và vũ công.",
-    "highlights": [
-      "Sinh ngày 16 tháng 5 năm 1966.",
-      "Nghề nghiệp được ghi nhận: ca sĩ, nhạc sĩ và vũ công."
-    ],
+    "biography": "Album Control đưa Janet Jackson đến bước đột phá lớn năm 1986, nhờ phần sản xuất và sáng tác của Jimmy Jam và Terry Lewis.",
+    "highlights": ["Sinh ngày 16 tháng 5 năm 1966.", "Album Control đưa Janet Jackson đến bước đột phá lớn năm 1986, nhờ phần sản xuất và sáng tác của Jimmy Jam và Terry Lewis."],
     "wikidataId": "Q131324",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q131324",
@@ -2668,11 +2519,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇩🇰",
     "image": "/people/placeholder.svg",
     "shortDescription": "Frederik X of Denmark là vua Đan Mạch.",
-    "biography": "Frederik X of Denmark sinh ngày 26 tháng 5 năm 1968 và được ghi nhận với vai trò vua Đan Mạch.",
-    "highlights": [
-      "Sinh ngày 26 tháng 5 năm 1968.",
-      "Nghề nghiệp được ghi nhận: vua Đan Mạch."
-    ],
+    "biography": "Frederik X trở thành vua Đan Mạch ngày 14/1/2024.",
+    "highlights": ["Sinh ngày 26 tháng 5 năm 1968.", "Frederik X trở thành vua Đan Mạch ngày 14/1/2024."],
     "wikidataId": "Q1004037",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q1004037",
@@ -2703,11 +2551,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇦🇺",
     "image": "/people/placeholder.svg",
     "shortDescription": "Kylie Minogue là ca sĩ và diễn viên.",
-    "biography": "Kylie Minogue sinh ngày 28 tháng 5 năm 1968 và được ghi nhận với vai trò ca sĩ và diễn viên.",
-    "highlights": [
-      "Sinh ngày 28 tháng 5 năm 1968.",
-      "Nghề nghiệp được ghi nhận: ca sĩ và diễn viên."
-    ],
+    "biography": "Kylie Minogue được biết đến đầu tiên qua loạt phim Neighbours, rồi trở thành ngôi sao nhạc pop năm 1988.",
+    "highlights": ["Sinh ngày 28 tháng 5 năm 1968.", "Kylie Minogue được biết đến đầu tiên qua loạt phim Neighbours, rồi trở thành ngôi sao nhạc pop năm 1988."],
     "wikidataId": "Q11998",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q11998",
@@ -2737,11 +2582,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇳🇱",
     "image": "/people/placeholder.svg",
     "shortDescription": "Dennis Bergkamp là cầu thủ bóng đá.",
-    "biography": "Dennis Bergkamp sinh ngày 10 tháng 5 năm 1969 và được ghi nhận với vai trò cầu thủ bóng đá.",
-    "highlights": [
-      "Sinh ngày 10 tháng 5 năm 1969.",
-      "Nghề nghiệp được ghi nhận: cầu thủ bóng đá."
-    ],
+    "biography": "Sau hai mùa giải tại Milan với 68 trận và 16 bàn, Dennis Bergkamp ký hợp đồng với Arsenal năm 1995.",
+    "highlights": ["Sinh ngày 10 tháng 5 năm 1969.", "Sau hai mùa giải tại Milan với 68 trận và 16 bàn, Dennis Bergkamp ký hợp đồng với Arsenal năm 1995."],
     "wikidataId": "Q185389",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q185389",
@@ -2772,11 +2614,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇦🇺",
     "image": "/people/placeholder.svg",
     "shortDescription": "Cate Blanchett là diễn viên và nhà sản xuất phim.",
-    "biography": "Cate Blanchett sinh ngày 14 tháng 5 năm 1969 và được ghi nhận với vai trò diễn viên và nhà sản xuất phim.",
-    "highlights": [
-      "Sinh ngày 14 tháng 5 năm 1969.",
-      "Nghề nghiệp được ghi nhận: diễn viên và nhà sản xuất phim."
-    ],
+    "biography": "Cate Blanchett đoạt Oscar Nữ diễn viên chính xuất sắc nhất với vai Jasmine trong Blue Jasmine (2013).",
+    "highlights": ["Sinh ngày 14 tháng 5 năm 1969.", "Cate Blanchett đoạt Oscar Nữ diễn viên chính xuất sắc nhất với vai Jasmine trong Blue Jasmine (2013)."],
     "wikidataId": "Q80966",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q80966",
@@ -2808,11 +2647,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Tina Fey là diễn viên hài, diễn viên và biên kịch.",
-    "biography": "Tina Fey sinh ngày 18 tháng 5 năm 1970 và được ghi nhận với vai trò diễn viên hài, diễn viên và biên kịch.",
-    "highlights": [
-      "Sinh ngày 18 tháng 5 năm 1970.",
-      "Nghề nghiệp được ghi nhận: diễn viên hài, diễn viên và biên kịch."
-    ],
+    "biography": "Tina Fey trở thành nữ biên kịch trưởng đầu tiên trong lịch sử chương trình Saturday Night Live.",
+    "highlights": ["Sinh ngày 18 tháng 5 năm 1970.", "Tina Fey trở thành nữ biên kịch trưởng đầu tiên trong lịch sử chương trình Saturday Night Live."],
     "wikidataId": "Q14540",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q14540",
@@ -2843,11 +2679,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "David Beckham là cầu thủ bóng đá.",
-    "biography": "David Beckham sinh ngày 2 tháng 5 năm 1975 và được ghi nhận với vai trò cầu thủ bóng đá.",
-    "highlights": [
-      "Sinh ngày 2 tháng 5 năm 1975.",
-      "Nghề nghiệp được ghi nhận: cầu thủ bóng đá."
-    ],
+    "biography": "David Beckham từng vô địch giải quốc gia ở Anh, Tây Ban Nha, Pháp và Hoa Kỳ.",
+    "highlights": ["Sinh ngày 2 tháng 5 năm 1975.", "David Beckham từng vô địch giải quốc gia ở Anh, Tây Ban Nha, Pháp và Hoa Kỳ."],
     "wikidataId": "Q10520",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q10520",
@@ -2877,11 +2710,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇮🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Cillian Murphy là diễn viên.",
-    "biography": "Cillian Murphy sinh ngày 25 tháng 5 năm 1976 và được ghi nhận với vai trò diễn viên.",
-    "highlights": [
-      "Sinh ngày 25 tháng 5 năm 1976.",
-      "Nghề nghiệp được ghi nhận: diễn viên."
-    ],
+    "biography": "Năm 2024, Cillian Murphy đoạt Quả cầu Vàng Nam diễn viên chính xuất sắc trong phim chính kịch với Oppenheimer.",
+    "highlights": ["Sinh ngày 25 tháng 5 năm 1976.", "Năm 2024, Cillian Murphy đoạt Quả cầu Vàng Nam diễn viên chính xuất sắc trong phim chính kịch với Oppenheimer."],
     "wikidataId": "Q202589",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q202589",
@@ -2911,11 +2741,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇮🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Colin Farrell là diễn viên.",
-    "biography": "Colin Farrell sinh ngày 31 tháng 5 năm 1976 và được ghi nhận với vai trò diễn viên.",
-    "highlights": [
-      "Sinh ngày 31 tháng 5 năm 1976.",
-      "Nghề nghiệp được ghi nhận: diễn viên."
-    ],
+    "biography": "Colin Farrell đoạt Quả cầu Vàng Nam diễn viên chính xuất sắc trong phim hài hoặc ca nhạc với In Bruges (2009).",
+    "highlights": ["Sinh ngày 31 tháng 5 năm 1976.", "Colin Farrell đoạt Quả cầu Vàng Nam diễn viên chính xuất sắc trong phim hài hoặc ca nhạc với In Bruges (2009)."],
     "wikidataId": "Q172035",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q172035",
@@ -2946,11 +2773,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Phạm Đoan Trang là nhà văn và nhà hoạt động nhân quyền.",
-    "biography": "Phạm Đoan Trang sinh ngày 27 tháng 5 năm 1978 và được ghi nhận với vai trò nhà văn và nhà hoạt động nhân quyền.",
-    "highlights": [
-      "Sinh ngày 27 tháng 5 năm 1978.",
-      "Nghề nghiệp được ghi nhận: nhà văn và nhà hoạt động nhân quyền."
-    ],
+    "biography": "Năm 2018, Phạm Đoan Trang xuất bản sách “Chính trị bình dân” (Popular Politics).",
+    "highlights": ["Sinh ngày 27 tháng 5 năm 1978.", "Năm 2018, Phạm Đoan Trang xuất bản sách “Chính trị bình dân” (Popular Politics)."],
     "wikidataId": "Q51120734",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q51120734",
@@ -2981,11 +2805,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇮🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Andrea Pirlo là cầu thủ và huấn luyện viên bóng đá.",
-    "biography": "Andrea Pirlo sinh ngày 19 tháng 5 năm 1979 và được ghi nhận với vai trò cầu thủ và huấn luyện viên bóng đá.",
-    "highlights": [
-      "Sinh ngày 19 tháng 5 năm 1979.",
-      "Nghề nghiệp được ghi nhận: cầu thủ và huấn luyện viên bóng đá."
-    ],
+    "biography": "Mùa giải 2014–2015, Andrea Pirlo cùng đội bóng của Massimiliano Allegri vô địch Serie A và Coppa Italia.",
+    "highlights": ["Sinh ngày 19 tháng 5 năm 1979.", "Mùa giải 2014–2015, Andrea Pirlo cùng đội bóng của Massimiliano Allegri vô địch Serie A và Coppa Italia."],
     "wikidataId": "Q43926",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q43926",
@@ -3016,11 +2837,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Robert Pattinson là diễn viên và nhà sản xuất phim.",
-    "biography": "Robert Pattinson sinh ngày 13 tháng 5 năm 1986 và được ghi nhận với vai trò diễn viên và nhà sản xuất phim.",
-    "highlights": [
-      "Sinh ngày 13 tháng 5 năm 1986.",
-      "Nghề nghiệp được ghi nhận: diễn viên và nhà sản xuất phim."
-    ],
+    "biography": "Robert Pattinson nhận vai điện ảnh đầu tiên ở tuổi 17 trong phim tình cảm Vanity Fair (2004).",
+    "highlights": ["Sinh ngày 13 tháng 5 năm 1986.", "Robert Pattinson nhận vai điện ảnh đầu tiên ở tuổi 17 trong phim tình cảm Vanity Fair (2004)."],
     "wikidataId": "Q36767",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q36767",
@@ -3052,11 +2870,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇪🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Cesc Fàbregas là cầu thủ và huấn luyện viên bóng đá.",
-    "biography": "Cesc Fàbregas sinh ngày 4 tháng 5 năm 1987 và được ghi nhận với vai trò cầu thủ và huấn luyện viên bóng đá.",
-    "highlights": [
-      "Sinh ngày 4 tháng 5 năm 1987.",
-      "Nghề nghiệp được ghi nhận: cầu thủ và huấn luyện viên bóng đá."
-    ],
+    "biography": "Cesc Fàbregas chuyển đến AS Monaco tháng 1/2019 và ở lại câu lạc bộ đến năm 2022.",
+    "highlights": ["Sinh ngày 4 tháng 5 năm 1987.", "Cesc Fàbregas chuyển đến AS Monaco tháng 1/2019 và ở lại câu lạc bộ đến năm 2022."],
     "wikidataId": "Q17499",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q17499",
@@ -3087,11 +2902,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Adele là ca sĩ kiêm sáng tác nhạc.",
-    "biography": "Adele sinh ngày 5 tháng 5 năm 1988 và được ghi nhận với vai trò ca sĩ kiêm sáng tác nhạc.",
-    "highlights": [
-      "Sinh ngày 5 tháng 5 năm 1988.",
-      "Nghề nghiệp được ghi nhận: ca sĩ kiêm sáng tác nhạc."
-    ],
+    "biography": "Album 25 của Adele, phát hành năm 2015, đoạt giải Album của năm tại BRIT Awards và Grammy Awards.",
+    "highlights": ["Sinh ngày 5 tháng 5 năm 1988.", "Album 25 của Adele, phát hành năm 2015, đoạt giải Album của năm tại BRIT Awards và Grammy Awards."],
     "wikidataId": "Q23215",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q23215",
@@ -3122,11 +2934,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Dương Thúy Vi là vận động viên wushu.",
-    "biography": "Dương Thúy Vi sinh ngày 11 tháng 5 năm 1993 và được ghi nhận với vai trò vận động viên wushu.",
-    "highlights": [
-      "Sinh ngày 11 tháng 5 năm 1993.",
-      "Nghề nghiệp được ghi nhận: vận động viên wushu."
-    ],
+    "biography": "Dương Thúy Vi xếp hạng nhất nội dung kiếm thuật và thương thuật nữ toàn năng tại ASIAD 2014 ở Incheon.",
+    "highlights": ["Sinh ngày 11 tháng 5 năm 1993.", "Dương Thúy Vi xếp hạng nhất nội dung kiếm thuật và thương thuật nữ toàn năng tại ASIAD 2014 ở Incheon."],
     "wikidataId": "Q18415820",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q18415820",
@@ -3156,11 +2965,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Quế Ngọc Hải là cầu thủ bóng đá.",
-    "biography": "Quế Ngọc Hải sinh ngày 15 tháng 5 năm 1993 và được ghi nhận với vai trò cầu thủ bóng đá.",
-    "highlights": [
-      "Sinh ngày 15 tháng 5 năm 1993.",
-      "Nghề nghiệp được ghi nhận: cầu thủ bóng đá."
-    ],
+    "biography": "Quế Ngọc Hải giành V.League 2020 cùng Viettel, Cúp Quốc gia 2017 cùng Sông Lam Nghệ An và AFF Cup 2018 cùng đội tuyển Việt Nam.",
+    "highlights": ["Sinh ngày 15 tháng 5 năm 1993.", "Quế Ngọc Hải giành V.League 2020 cùng Viettel, Cúp Quốc gia 2017 cùng Sông Lam Nghệ An và AFF Cup 2018 cùng đội tuyển Việt Nam."],
     "wikidataId": "Q18637770",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q18637770",
@@ -3190,17 +2996,10 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Lương Thị Thu Thương là cầu thủ bóng đá.",
-    "biography": "Lương Thị Thu Thương sinh ngày 1 tháng 5 năm 2000 và được ghi nhận với vai trò cầu thủ bóng đá.",
-    "highlights": [
-      "Sinh ngày 1 tháng 5 năm 2000.",
-      "Nghề nghiệp được ghi nhận: cầu thủ bóng đá."
-    ],
+    "biography": "Danh sách đăng ký AFC Women’s Asian Cup Australia 2026 ghi Lương Thị Thu Thương là hậu vệ của tuyển Việt Nam.",
+    "highlights": ["Sinh ngày 1 tháng 5 năm 2000.", "Danh sách đăng ký AFC Women’s Asian Cup Australia 2026 ghi Lương Thị Thu Thương là hậu vệ của tuyển Việt Nam."],
     "wikidataId": "Q94977310",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q94977310",
-      "https://www.espn.co.uk/football/player/_/id/343026/luong-thi-thu-thuong",
-      "https://www.ocagames.com/HZ_Info/AG2022-/resAG2022-/pdf/AG2022-/FBL/AG2022-_FBL_C51_FBLWTEAM11------------GPD-000300--.pdf"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q94977310", "https://www.espn.co.uk/football/player/_/id/343026/luong-thi-thu-thuong", "https://www.ocagames.com/HZ_Info/AG2022-/resAG2022-/pdf/AG2022-/FBL/AG2022-_FBL_C51_FBLWTEAM11------------GPD-000300--.pdf", "https://assets.the-afc.com/2026_AFC_Womens_Asian_Cup/Finals/Squad_Lists/AFC-Women%27s-Asian-Cup-Australia-2026%E2%84%A2-Final-Registration---Feb-25upd.pdf?source=url"],
     "notabilityScore": 70,
     "isFeatured": false,
     "region": "vietnam",
@@ -3224,11 +3023,8 @@ export const PEOPLE_05: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Khuất Văn Khang là cầu thủ bóng đá.",
-    "biography": "Khuất Văn Khang sinh ngày 11 tháng 5 năm 2003 và được ghi nhận với vai trò cầu thủ bóng đá.",
-    "highlights": [
-      "Sinh ngày 11 tháng 5 năm 2003.",
-      "Nghề nghiệp được ghi nhận: cầu thủ bóng đá."
-    ],
+    "biography": "Khuất Văn Khang đã cùng các đội tuyển Việt Nam vô địch SEA Games 2025, ASEAN Championship 2024 và ASEAN U23 Championship 2025.",
+    "highlights": ["Sinh ngày 11 tháng 5 năm 2003.", "Khuất Văn Khang đã cùng các đội tuyển Việt Nam vô địch SEA Games 2025, ASEAN Championship 2024 và ASEAN U23 Championship 2025."],
     "wikidataId": "Q113005949",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q113005949",
@@ -3239,5 +3035,119 @@ export const PEOPLE_05: Person[] = [
     "isFeatured": false,
     "region": "vietnam",
     "verifiedAt": "2026-10-05"
-  }
+  },
+  {
+    "id": "mary-lou-williams",
+    "slug": "mary-lou-williams",
+    "name": "Mary Lou Williams",
+    "birthDate": "1910-05-08",
+    "birthYear": 1910,
+    "birthMonth": 5,
+    "birthDay": 8,
+    "lifeStatus": "deceased",
+    "occupation": [
+      "Nghệ sĩ piano jazz, nhà soạn nhạc"
+    ],
+    "category": "music",
+    "categoryLabel": "Âm nhạc",
+    "fields": [
+      "design-creative",
+      "education-thought"
+    ],
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "birthplace": "Atlanta, Georgia, Hoa Kỳ",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Nghệ sĩ piano, nhà soạn nhạc và người dạy lịch sử jazz.",
+    "biography": "Mary Lou Williams là nghệ sĩ piano, nhà soạn nhạc và trưởng nhóm jazz. Bà làm biên tập âm nhạc cho Duke Ellington Orchestra và sau đó là nghệ sĩ lưu trú tại Duke University, nơi bà giảng dạy lịch sử jazz.",
+    "highlights": [
+      "Williams làm biên tập âm nhạc cho Duke Ellington Orchestra từ năm 1942 đến 1944.",
+      "Từ năm 1977 đến 1981, Williams là nghệ sĩ lưu trú tại Duke University."
+    ],
+    "wikidataId": "Q126677",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q126677",
+      "https://www.encyclopedia.com/people/literature-and-arts/music-popular-and-jazz-biographies/mary-lou-williams",
+      "https://www.womenshistory.org/education-resources/biographies/mary-lou-williams"
+    ],
+    "region": "west",
+    "verifiedAt": "2026-10-08"
+  },
+  {
+    "id": "rachel-carson",
+    "slug": "rachel-carson",
+    "name": "Rachel Carson",
+    "birthDate": "1907-05-27",
+    "birthYear": 1907,
+    "birthMonth": 5,
+    "birthDay": 27,
+    "lifeStatus": "deceased",
+    "occupation": [
+      "Nhà sinh vật học biển, nhà văn"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Khoa học",
+    "fields": [
+      "earth-environment",
+      "science-research"
+    ],
+    "countryCode": "US",
+    "countryName": "Hoa Kỳ",
+    "countryFlag": "🇺🇸",
+    "birthplace": "Springdale, Pennsylvania, Hoa Kỳ",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Nhà sinh vật học và tác giả góp phần định hình phong trào bảo tồn môi trường.",
+    "biography": "Rachel Carson viết Silent Spring để cảnh báo công chúng về tác hại của việc sử dụng thuốc trừ sâu hóa học bất cẩn. Trước đó bà làm việc trong bộ phận giáo dục công chúng của Cục Ngư nghiệp Hoa Kỳ, tiền thân của U.S. Fish and Wildlife Service.",
+    "highlights": [
+      "Silent Spring cảnh báo công chúng về nguy cơ từ việc sử dụng thuốc trừ sâu hóa học bất cẩn.",
+      "Carson làm việc trong bộ phận giáo dục công chúng của Cục Ngư nghiệp Hoa Kỳ."
+    ],
+    "wikidataId": "Q100948",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q100948",
+      "https://www.nps.gov/people/rachel-carson.htm",
+      "https://www.sprachlit.lmu.de/carsoncenter/en/about/rachel-carson-biography/"
+    ],
+    "region": "west",
+    "verifiedAt": "2026-10-08"
+  },
+  {
+    "id": "nguyen-thi-binh",
+    "slug": "nguyen-thi-binh",
+    "name": "Nguyễn Thị Bình",
+    "birthDate": "1927-05-26",
+    "birthYear": 1927,
+    "birthMonth": 5,
+    "birthDay": 26,
+    "lifeStatus": "unknown",
+    "occupation": [
+      "Nhà ngoại giao, chính trị gia"
+    ],
+    "category": "politics",
+    "categoryLabel": "Chính trị",
+    "fields": [
+      "society-law",
+      "education-thought"
+    ],
+    "countryCode": "VN",
+    "countryName": "Việt Nam",
+    "countryFlag": "🇻🇳",
+    "birthplace": "Sa Đéc, Việt Nam",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Nhà ngoại giao Việt Nam tham gia đàm phán hòa bình tại Paris.",
+    "biography": "Nguyễn Thị Bình tham gia đoàn đàm phán của Chính phủ Cách mạng lâm thời tại Hội nghị bốn bên ở Paris. Hiệp định về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam được ký ngày 27 tháng 1 năm 1973 sau quá trình đàm phán kéo dài hơn bốn năm.",
+    "highlights": [
+      "Nguyễn Thị Bình tham gia Hội nghị bốn bên về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam tại Paris.",
+      "Cuộc đàm phán kéo dài 4 năm 9 tháng, với 202 phiên họp chung công khai và 24 cuộc tiếp xúc riêng."
+    ],
+    "wikidataId": "Q446909",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q446909",
+      "https://www.qdnd.vn/van-hoa/sach/xuat-ban-hoi-ky-cua-nguyen-pho-chu-tich-nuoc-nguyen-thi-binh-824232",
+      "https://baocaobang.vn/-37677.html"
+    ],
+    "region": "vietnam",
+    "verifiedAt": "2026-10-08"
+  },
 ];

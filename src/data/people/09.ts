@@ -28,11 +28,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Edgar Rice Burroughs là Nhà văn người Hoa Kỳ, sinh ngày 1 tháng 9 năm 1875.",
-    "highlights": [
-      "Sinh ngày 1 tháng 9 năm 1875.",
-      "Lĩnh vực hoạt động: văn học."
-    ]
+    "biography": "Tarzan of the Apes của Edgar Rice Burroughs được đăng nhiều kỳ lần đầu năm 1912 trước khi xuất bản thành tiểu thuyết năm 1914.",
+    "highlights": ["Sinh ngày 1 tháng 9 năm 1875.", "Tarzan of the Apes của Edgar Rice Burroughs được đăng nhiều kỳ lần đầu năm 1912 trước khi xuất bản thành tiểu thuyết năm 1914."]
   },
   {
     "id": "kirsti-kolle-grondahl",
@@ -61,11 +58,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Kirsti Kolle Grøndahl là Chính trị gia người Na Uy, sinh ngày 1 tháng 9 năm 1943.",
-    "highlights": [
-      "Sinh ngày 1 tháng 9 năm 1943.",
-      "Lĩnh vực hoạt động: chính trị."
-    ]
+    "biography": "Năm 1993, Kirsti Kolle Grøndahl được bầu làm nữ Chủ tịch Storting đầu tiên của Na Uy.",
+    "highlights": ["Sinh ngày 1 tháng 9 năm 1943.", "Năm 1993, Kirsti Kolle Grøndahl được bầu làm nữ Chủ tịch Storting đầu tiên của Na Uy."]
   },
   {
     "id": "per-kirkeby",
@@ -94,11 +88,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Per Kirkeby là Họa sĩ người Đan Mạch, sinh ngày 1 tháng 9 năm 1938.",
-    "highlights": [
-      "Sinh ngày 1 tháng 9 năm 1938.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ]
+    "biography": "Per Kirkeby hoạt động trong nhiều lĩnh vực: hội họa, văn chương và đạo diễn phim.",
+    "highlights": ["Sinh ngày 1 tháng 9 năm 1938.", "Per Kirkeby hoạt động trong nhiều lĩnh vực: hội họa, văn chương và đạo diễn phim."]
   },
   {
     "id": "bodil-kjer",
@@ -127,11 +118,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Bodil Kjer là Diễn viên người Đan Mạch, sinh ngày 2 tháng 9 năm 1917.",
-    "highlights": [
-      "Sinh ngày 2 tháng 9 năm 1917.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ]
+    "biography": "Từ năm 1955, Bodil Kjer là diễn viên hàng đầu của Det Ny Teater và đảm nhận các vai trong Molière cùng Kjeld Abell.",
+    "highlights": ["Sinh ngày 2 tháng 9 năm 1917.", "Từ năm 1955, Bodil Kjer là diễn viên hàng đầu của Det Ny Teater và đảm nhận các vai trong Molière cùng Kjeld Abell."]
   },
   {
     "id": "kristin-halvorsen",
@@ -160,11 +148,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Kristin Halvorsen là Chính trị gia người Na Uy, sinh ngày 2 tháng 9 năm 1960.",
-    "highlights": [
-      "Sinh ngày 2 tháng 9 năm 1960.",
-      "Lĩnh vực hoạt động: chính trị."
-    ]
+    "biography": "Kristin Halvorsen từng đồng thời giữ chức bộ trưởng tài chính và phó thủ tướng Na Uy.",
+    "highlights": ["Sinh ngày 2 tháng 9 năm 1960.", "Kristin Halvorsen từng đồng thời giữ chức bộ trưởng tài chính và phó thủ tướng Na Uy."]
   },
   {
     "id": "kjetil-andre-aamodt",
@@ -193,11 +178,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Kjetil André Aamodt là Vận động viên trượt tuyết người Na Uy, sinh ngày 2 tháng 9 năm 1971.",
-    "highlights": [
-      "Sinh ngày 2 tháng 9 năm 1971.",
-      "Lĩnh vực hoạt động: thể thao."
-    ]
+    "biography": "Kjetil André Aamodt đột phá ở cấp độ đỉnh cao khi giành huy chương bạc super-G tại Giải vô địch thế giới Saalbach năm 1991.",
+    "highlights": ["Sinh ngày 2 tháng 9 năm 1971.", "Kjetil André Aamodt đột phá ở cấp độ đỉnh cao khi giành huy chương bạc super-G tại Giải vô địch thế giới Saalbach năm 1991."]
   },
   {
     "id": "alan-ladd",
@@ -226,11 +208,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Alan Ladd là Diễn viên người Hoa Kỳ, sinh ngày 3 tháng 9 năm 1913.",
-    "highlights": [
-      "Sinh ngày 3 tháng 9 năm 1913.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ]
+    "biography": "Sau nhiều vai nhỏ, Alan Ladd đột phá với vai sát thủ trong This Gun for Hire (1941), đóng cùng Veronica Lake.",
+    "highlights": ["Sinh ngày 3 tháng 9 năm 1913.", "Sau nhiều vai nhỏ, Alan Ladd đột phá với vai sát thủ trong This Gun for Hire (1941), đóng cùng Veronica Lake."]
   },
   {
     "id": "knut-nystedt",
@@ -254,16 +233,20 @@ export const PEOPLE_09: Person[] = [
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q515696",
       "https://snl.no/Knut_Nystedt",
-      "https://theaterencyclopedie.nl/id/01944073-3fe5-7085-907f-80c95c43c1d5"
+      "https://theaterencyclopedie.nl/id/01944073-3fe5-7085-907f-80c95c43c1d5",
+      "https://nbl.snl.no/Knut_Nystedt"
     ],
     "notabilityScore": 70,
     "region": "west",
+    "deathDate": "2014-12-08",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://nbl.snl.no/Knut_Nystedt"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-07",
-    "biography": "Knut Nystedt là Nhà soạn nhạc người Na Uy, sinh ngày 3 tháng 9 năm 1915.",
-    "highlights": [
-      "Sinh ngày 3 tháng 9 năm 1915.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ]
+    "biography": "Knut Nystedt nhận giải Spellemann năm 1978 và được bầu làm thành viên danh dự của hai hiệp hội âm nhạc Na Uy năm 1985.",
+    "highlights": ["Sinh ngày 3 tháng 9 năm 1915.", "Knut Nystedt nhận giải Spellemann năm 1978 và được bầu làm thành viên danh dự của hai hiệp hội âm nhạc Na Uy năm 1985."]
   },
   {
     "id": "kjell-magne-bondevik",
@@ -292,11 +275,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Kjell Magne Bondevik là Chính trị gia người Na Uy, sinh ngày 3 tháng 9 năm 1947.",
-    "highlights": [
-      "Sinh ngày 3 tháng 9 năm 1947.",
-      "Lĩnh vực hoạt động: chính trị."
-    ]
+    "biography": "Kjell Magne Bondevik là một trong những chính trị gia Na Uy đầu tiên chuyển thẳng từ hoạt động thanh niên sang làm chính trị chuyên nghiệp.",
+    "highlights": ["Sinh ngày 3 tháng 9 năm 1947.", "Kjell Magne Bondevik là một trong những chính trị gia Na Uy đầu tiên chuyển thẳng từ hoạt động thanh niên sang làm chính trị chuyên nghiệp."]
   },
   {
     "id": "anton-bruckner",
@@ -325,11 +305,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Anton Bruckner là Nhà soạn nhạc người Áo, sinh ngày 4 tháng 9 năm 1824.",
-    "highlights": [
-      "Sinh ngày 4 tháng 9 năm 1824.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ]
+    "biography": "Từ năm 1835, Anton Bruckner sáng tác nhiều tác phẩm tôn giáo; sau này tại Linz, ông viết các thánh lễ, motet và nhạc thánh khác.",
+    "highlights": ["Sinh ngày 4 tháng 9 năm 1824.", "Từ năm 1835, Anton Bruckner sáng tác nhiều tác phẩm tôn giáo; sau này tại Linz, ông viết các thánh lễ, motet và nhạc thánh khác."]
   },
   {
     "id": "bernt-heiberg",
@@ -358,11 +335,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Bernt Heiberg là Kiến trúc sư người Na Uy, sinh ngày 4 tháng 9 năm 1909.",
-    "highlights": [
-      "Sinh ngày 4 tháng 9 năm 1909.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ]
+    "biography": "Kiến trúc sư Bernt Heiberg mở văn phòng riêng tại Oslo từ năm 1940 và hợp tác với kiến trúc sư Ola Sandvik trong giai đoạn 1947–1968.",
+    "highlights": ["Sinh ngày 4 tháng 9 năm 1909.", "Kiến trúc sư Bernt Heiberg mở văn phòng riêng tại Oslo từ năm 1940 và hợp tác với kiến trúc sư Ola Sandvik trong giai đoạn 1947–1968."]
   },
   {
     "id": "beyonce",
@@ -391,11 +365,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Beyoncé là Ca sĩ người Hoa Kỳ, sinh ngày 4 tháng 9 năm 1981.",
-    "highlights": [
-      "Sinh ngày 4 tháng 9 năm 1981.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ]
+    "biography": "Beyoncé ra mắt album solo Dangerously in Love năm 2003; album đứng đầu Billboard 200 và có hai đĩa đơn quán quân.",
+    "highlights": ["Sinh ngày 4 tháng 9 năm 1981.", "Beyoncé ra mắt album solo Dangerously in Love năm 2003; album đứng đầu Billboard 200 và có hai đĩa đơn quán quân."]
   },
   {
     "id": "werner-herzog",
@@ -424,11 +395,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Werner Herzog là Đạo diễn phim người Đức, sinh ngày 5 tháng 9 năm 1942.",
-    "highlights": [
-      "Sinh ngày 5 tháng 9 năm 1942.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ]
+    "biography": "Sau Nosferatu, Phantom der Nacht (1978), Werner Herzog thực hiện phim chuyển thể Woyzeck (1979) từ tác phẩm của Georg Büchner.",
+    "highlights": ["Sinh ngày 5 tháng 9 năm 1942.", "Sau Nosferatu, Phantom der Nacht (1978), Werner Herzog thực hiện phim chuyển thể Woyzeck (1979) từ tác phẩm của Georg Büchner."]
   },
   {
     "id": "john-carew",
@@ -457,11 +425,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "John Carew là Cầu thủ bóng đá người Na Uy, sinh ngày 5 tháng 9 năm 1979.",
-    "highlights": [
-      "Sinh ngày 5 tháng 9 năm 1979.",
-      "Lĩnh vực hoạt động: thể thao."
-    ]
+    "biography": "John Carew đá trận chung kết Champions League 2001 cho Valencia; đội bóng hòa Bayern Munich 1–1 trước khi thua luân lưu.",
+    "highlights": ["Sinh ngày 5 tháng 9 năm 1979.", "John Carew đá trận chung kết Champions League 2001 cho Valencia; đội bóng hòa Bayern Munich 1–1 trước khi thua luân lưu."]
   },
   {
     "id": "arthur-koestler",
@@ -482,19 +447,12 @@ export const PEOPLE_09: Person[] = [
     "image": "/people/placeholder.svg",
     "shortDescription": "Nhà văn người Vương quốc Anh.",
     "wikidataId": "Q78494",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q78494",
-      "https://www.ne.se/uppslagsverk/encyklopedi/l%C3%A5ng/arthur-koestler",
-      "https://www.enciklopedija.hr/clanak/koestler-arthur"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q78494", "https://www.ne.se/uppslagsverk/encyklopedi/l%C3%A5ng/arthur-koestler", "https://www.enciklopedija.hr/clanak/koestler-arthur", "https://library.ed.ac.uk/heritage-collections/collections-and-search/rare-books-manuscripts/rare-books-directory-section/arthur-koestler"],
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Arthur Koestler là Nhà văn người Vương quốc Anh, sinh ngày 5 tháng 9 năm 1905.",
-    "highlights": [
-      "Sinh ngày 5 tháng 9 năm 1905.",
-      "Lĩnh vực hoạt động: văn học."
-    ]
+    "biography": "Sau chiến tranh, Arthur Koestler trở thành nhà văn toàn thời gian; danh tiếng đến với ông sau khi Darkness at Noon xuất bản năm 1940.",
+    "highlights": ["Sinh ngày 5 tháng 9 năm 1905.", "Sau chiến tranh, Arthur Koestler trở thành nhà văn toàn thời gian; danh tiếng đến với ông sau khi Darkness at Noon xuất bản năm 1940."]
   },
   {
     "id": "jane-addams",
@@ -523,11 +481,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Jane Addams là Nhà hoạt động xã hội người Hoa Kỳ, sinh ngày 6 tháng 9 năm 1860.",
-    "highlights": [
-      "Sinh ngày 6 tháng 9 năm 1860.",
-      "Lĩnh vực hoạt động: lịch sử."
-    ]
+    "biography": "Năm 1889, Jane Addams thành lập Hull House tại Chicago, một trong những trung tâm công tác xã hội thực hành đầu tiên ở Bắc Mỹ.",
+    "highlights": ["Sinh ngày 6 tháng 9 năm 1860.", "Năm 1889, Jane Addams thành lập Hull House tại Chicago, một trong những trung tâm công tác xã hội thực hành đầu tiên ở Bắc Mỹ."]
   },
   {
     "id": "franz-josef-strauss",
@@ -556,11 +511,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Franz Josef Strauss là Chính trị gia người Đức, sinh ngày 6 tháng 9 năm 1915.",
-    "highlights": [
-      "Sinh ngày 6 tháng 9 năm 1915.",
-      "Lĩnh vực hoạt động: chính trị."
-    ]
+    "biography": "Franz Josef Strauss giữ chức bộ trưởng quốc phòng Tây Đức giai đoạn 1956–1962 và bộ trưởng tài chính giai đoạn 1966–1969.",
+    "highlights": ["Sinh ngày 6 tháng 9 năm 1915.", "Franz Josef Strauss giữ chức bộ trưởng quốc phòng Tây Đức giai đoạn 1956–1962 và bộ trưởng tài chính giai đoạn 1966–1969."]
   },
   {
     "id": "ingebjorg-kasin-sandsdalen",
@@ -589,11 +541,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Ingebjørg Kasin Sandsdalen là Nhà thơ người Na Uy, sinh ngày 6 tháng 9 năm 1915.",
-    "highlights": [
-      "Sinh ngày 6 tháng 9 năm 1915.",
-      "Lĩnh vực hoạt động: văn học."
-    ]
+    "biography": "Ingebjørg Kasin Sandsdalen xuất bản tập thơ đầu tay Hjarta av jord năm 1950 và cuốn cuối Jord og tid năm 2001; thơ bà thường xoay quanh đất, trái tim và thời gian.",
+    "highlights": ["Sinh ngày 6 tháng 9 năm 1915.", "Ingebjørg Kasin Sandsdalen xuất bản tập thơ đầu tay Hjarta av jord năm 1950 và cuốn cuối Jord og tid năm 2001; thơ bà thường xoay quanh đất, trái tim và thời gian."]
   },
   {
     "id": "sonny-rollins",
@@ -622,11 +571,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Sonny Rollins là Nhạc sĩ jazz người Hoa Kỳ, sinh ngày 7 tháng 9 năm 1930.",
-    "highlights": [
-      "Sinh ngày 7 tháng 9 năm 1930.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ]
+    "biography": "Sonny Rollins bắt đầu được chú ý vào cuối thập niên 1940 và chơi nhạc cùng Bud Powell, Thelonious Monk, Miles Davis và Charlie Parker.",
+    "highlights": ["Sinh ngày 7 tháng 9 năm 1930.", "Sonny Rollins bắt đầu được chú ý vào cuối thập niên 1940 và chơi nhạc cùng Bud Powell, Thelonious Monk, Miles Davis và Charlie Parker."]
   },
   {
     "id": "buddy-holly",
@@ -655,11 +601,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Buddy Holly là Ca sĩ người Hoa Kỳ, sinh ngày 7 tháng 9 năm 1936.",
-    "highlights": [
-      "Sinh ngày 7 tháng 9 năm 1936.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ]
+    "biography": "Cùng nhóm The Crickets, thành lập năm 1957, Buddy Holly góp phần phổ biến đội hình rock cổ điển.",
+    "highlights": ["Sinh ngày 7 tháng 9 năm 1936.", "Cùng nhóm The Crickets, thành lập năm 1957, Buddy Holly góp phần phổ biến đội hình rock cổ điển."]
   },
   {
     "id": "tore-gjelsvik",
@@ -688,11 +631,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Tore Gjelsvik là Nhà địa chất học người Na Uy, sinh ngày 7 tháng 9 năm 1916.",
-    "highlights": [
-      "Sinh ngày 7 tháng 9 năm 1916.",
-      "Lĩnh vực hoạt động: khoa học."
-    ]
+    "biography": "Năm 1960, Tore Gjelsvik được bổ nhiệm làm giám đốc Viện Địa cực Na Uy và giữ chức đến khi nghỉ hưu năm 1983.",
+    "highlights": ["Sinh ngày 7 tháng 9 năm 1916.", "Năm 1960, Tore Gjelsvik được bổ nhiệm làm giám đốc Viện Địa cực Na Uy và giữ chức đến khi nghỉ hưu năm 1983."]
   },
   {
     "id": "antonin-dvorak",
@@ -720,12 +660,15 @@ export const PEOPLE_09: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
+    "deathDate": "1904-05-01",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/dvorak-antonin"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-07",
-    "biography": "Antonín Dvořák là Nhà soạn nhạc người Séc, sinh ngày 8 tháng 9 năm 1841.",
-    "highlights": [
-      "Sinh ngày 8 tháng 9 năm 1841.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ]
+    "biography": "Antonín Dvořák chuyển đến Praha năm 1857 và theo học tại trường organ ở đó đến năm 1859.",
+    "highlights": ["Sinh ngày 8 tháng 9 năm 1841.", "Antonín Dvořák chuyển đến Praha năm 1857 và theo học tại trường organ ở đó đến năm 1859."]
   },
   {
     "id": "patsy-cline",
@@ -754,11 +697,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Patsy Cline là Ca sĩ người Hoa Kỳ, sinh ngày 8 tháng 9 năm 1932.",
-    "highlights": [
-      "Sinh ngày 8 tháng 9 năm 1932.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ]
+    "biography": "Patsy Cline là một trong những ngôi sao nhạc đồng quê lớn nhất Hoa Kỳ giai đoạn 1961–1962.",
+    "highlights": ["Sinh ngày 8 tháng 9 năm 1932.", "Patsy Cline là một trong những ngôi sao nhạc đồng quê lớn nhất Hoa Kỳ giai đoạn 1961–1962."]
   },
   {
     "id": "do-hung-dung",
@@ -779,19 +719,12 @@ export const PEOPLE_09: Person[] = [
     "image": "/people/placeholder.svg",
     "shortDescription": "Cầu thủ bóng đá người Việt Nam.",
     "wikidataId": "Q22162708",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q22162708",
-      "https://fbref.com/en/players/4433e9ea/Djo-Hung-Dung",
-      "https://www.sofascore.com/football/player/do-hung-dung/830573"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q22162708", "https://fbref.com/en/players/4433e9ea/Djo-Hung-Dung", "https://www.sofascore.com/football/player/do-hung-dung/830573", "https://assets.the-afc.com/2023_AFC_Asian_Cup/Downloads/Post_Match/MD3/M32-IRQ-V-VIE.pdf"],
     "notabilityScore": 70,
     "region": "vietnam",
     "verifiedAt": "2026-10-07",
-    "biography": "Đỗ Hùng Dũng là Cầu thủ bóng đá người Việt Nam, sinh ngày 8 tháng 9 năm 1993.",
-    "highlights": [
-      "Sinh ngày 8 tháng 9 năm 1993.",
-      "Lĩnh vực hoạt động: thể thao."
-    ]
+    "biography": "Ngày 24/1/2024, Đỗ Hùng Dũng đá chính và đeo băng đội trưởng tuyển Việt Nam trong trận Asian Cup gặp Iraq.",
+    "highlights": ["Sinh ngày 8 tháng 9 năm 1993.", "Ngày 24/1/2024, Đỗ Hùng Dũng đá chính và đeo băng đội trưởng tuyển Việt Nam trong trận Asian Cup gặp Iraq."]
   },
   {
     "id": "otis-redding",
@@ -820,11 +753,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Otis Redding là Ca sĩ người Hoa Kỳ, sinh ngày 9 tháng 9 năm 1941.",
-    "highlights": [
-      "Sinh ngày 9 tháng 9 năm 1941.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ]
+    "biography": "Otis Redding đột phá với ca khúc These Arms of Mine năm 1963, rồi trở thành nhân vật có ảnh hưởng trong nhạc soul nhờ phong cách thấm đẫm gospel.",
+    "highlights": ["Sinh ngày 9 tháng 9 năm 1941.", "Otis Redding đột phá với ca khúc These Arms of Mine năm 1963, rồi trở thành nhân vật có ảnh hưởng trong nhạc soul nhờ phong cách thấm đẫm gospel."]
   },
   {
     "id": "per-jorgensen",
@@ -853,11 +783,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Per Jørgensen là Nhạc sĩ jazz người Na Uy, sinh ngày 9 tháng 9 năm 1952.",
-    "highlights": [
-      "Sinh ngày 9 tháng 9 năm 1952.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ]
+    "biography": "Năm 2020, Per Jørgensen cùng tám cộng sự nhận giải Hedda cho hạng mục thiết kế nghe nhìn xuất sắc với vở 03:08:38 – States of Emergency.",
+    "highlights": ["Sinh ngày 9 tháng 9 năm 1952.", "Năm 2020, Per Jørgensen cùng tám cộng sự nhận giải Hedda cho hạng mục thiết kế nghe nhìn xuất sắc với vở 03:08:38 – States of Emergency."]
   },
   {
     "id": "frode-andresen",
@@ -886,11 +813,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Frode Andresen là Vận động viên hai môn phối hợp người Na Uy, sinh ngày 9 tháng 9 năm 1973.",
-    "highlights": [
-      "Sinh ngày 9 tháng 9 năm 1973.",
-      "Lĩnh vực hoạt động: thể thao."
-    ]
+    "biography": "Frode Andresen giành huy chương bạc nội dung sprint môn hai môn phối hợp tại Olympic mùa đông 1998.",
+    "highlights": ["Sinh ngày 9 tháng 9 năm 1973.", "Frode Andresen giành huy chương bạc nội dung sprint môn hai môn phối hợp tại Olympic mùa đông 1998."]
   },
   {
     "id": "stephen-jay-gould",
@@ -919,11 +843,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Stephen Jay Gould là Nhà cổ sinh vật học người Hoa Kỳ, sinh ngày 10 tháng 9 năm 1941.",
-    "highlights": [
-      "Sinh ngày 10 tháng 9 năm 1941.",
-      "Lĩnh vực hoạt động: khoa học."
-    ]
+    "biography": "Ngoài nhiều sách khoa học phổ thông, Stephen Jay Gould viết khoảng 300 bài tiểu luận cho tạp chí Natural History.",
+    "highlights": ["Sinh ngày 10 tháng 9 năm 1941.", "Ngoài nhiều sách khoa học phổ thông, Stephen Jay Gould viết khoảng 300 bài tiểu luận cho tạp chí Natural History."]
   },
   {
     "id": "marja-liisa-kirvesniemi",
@@ -952,11 +873,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Marja-Liisa Kirvesniemi là Vận động viên trượt tuyết người Phần Lan, sinh ngày 10 tháng 9 năm 1955.",
-    "highlights": [
-      "Sinh ngày 10 tháng 9 năm 1955.",
-      "Lĩnh vực hoạt động: thể thao."
-    ]
+    "biography": "Tại Olympic Sarajevo 1984, vận động viên trượt tuyết băng đồng Marja-Liisa Kirvesniemi vô địch cả ba nội dung cá nhân.",
+    "highlights": ["Sinh ngày 10 tháng 9 năm 1955.", "Tại Olympic Sarajevo 1984, vận động viên trượt tuyết băng đồng Marja-Liisa Kirvesniemi vô địch cả ba nội dung cá nhân."]
   },
   {
     "id": "pham-thanh-luong",
@@ -977,19 +895,12 @@ export const PEOPLE_09: Person[] = [
     "image": "/people/placeholder.svg",
     "shortDescription": "Cầu thủ bóng đá người Việt Nam.",
     "wikidataId": "Q4481043",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q4481043",
-      "https://fbref.com/en/players/60a6cd31/Pham-Thanh-Luong",
-      "https://www.transfermarkt.us/thanh-luong-pham/profil/spieler/138131"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q4481043", "https://fbref.com/en/players/60a6cd31/Pham-Thanh-Luong", "https://www.transfermarkt.us/thanh-luong-pham/profil/spieler/138131", "https://baotintuc.vn/the-thao/thanh-luong-lap-ky-luc-4-lan-gianh-qua-bong-vang-20170104215641658.htm"],
     "notabilityScore": 70,
     "region": "vietnam",
     "verifiedAt": "2026-10-07",
-    "biography": "Phạm Thành Lương là Cầu thủ bóng đá người Việt Nam, sinh ngày 10 tháng 9 năm 1988.",
-    "highlights": [
-      "Sinh ngày 10 tháng 9 năm 1988.",
-      "Lĩnh vực hoạt động: thể thao."
-    ]
+    "biography": "Phạm Thành Lương là cầu thủ đầu tiên giành bốn danh hiệu Quả bóng vàng Việt Nam.",
+    "highlights": ["Sinh ngày 10 tháng 9 năm 1988.", "Phạm Thành Lương là cầu thủ đầu tiên giành bốn danh hiệu Quả bóng vàng Việt Nam."]
   },
   {
     "id": "theodor-w-adorno",
@@ -1018,11 +929,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Theodor W. Adorno là Triết gia người Đức, sinh ngày 11 tháng 9 năm 1903.",
-    "highlights": [
-      "Sinh ngày 11 tháng 9 năm 1903.",
-      "Lĩnh vực hoạt động: khoa học."
-    ]
+    "biography": "Khi Đức Quốc xã lên nắm quyền năm 1933 và đóng cửa Viện Nghiên cứu Xã hội Frankfurt, Theodor W. Adorno cùng các đồng nghiệp gốc Do Thái phải di cư.",
+    "highlights": ["Sinh ngày 11 tháng 9 năm 1903.", "Khi Đức Quốc xã lên nắm quyền năm 1933 và đóng cửa Viện Nghiên cứu Xã hội Frankfurt, Theodor W. Adorno cùng các đồng nghiệp gốc Do Thái phải di cư."]
   },
   {
     "id": "birgitta-trotzig",
@@ -1051,11 +959,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Birgitta Trotzig là Nhà văn người Thụy Điển, sinh ngày 11 tháng 9 năm 1929.",
-    "highlights": [
-      "Sinh ngày 11 tháng 9 năm 1929.",
-      "Lĩnh vực hoạt động: văn học."
-    ]
+    "biography": "Birgitta Trotzig xuất bản tiểu thuyết Dykungens dotter năm 1984 và tập truyện Dubbelheten: tre sagor năm 1998.",
+    "highlights": ["Sinh ngày 11 tháng 9 năm 1929.", "Birgitta Trotzig xuất bản tiểu thuyết Dykungens dotter năm 1984 và tập truyện Dubbelheten: tre sagor năm 1998."]
   },
   {
     "id": "brian-de-palma",
@@ -1084,11 +989,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Brian De Palma là Đạo diễn phim người Hoa Kỳ, sinh ngày 11 tháng 9 năm 1940.",
-    "highlights": [
-      "Sinh ngày 11 tháng 9 năm 1940.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ]
+    "biography": "The Wedding Party, phim truyện đầu tay của Brian De Palma, được quay năm 1963 và phát hành năm 1969.",
+    "highlights": ["Sinh ngày 11 tháng 9 năm 1940.", "The Wedding Party, phim truyện đầu tay của Brian De Palma, được quay năm 1963 và phát hành năm 1969."]
   },
   {
     "id": "maurice-chevalier",
@@ -1117,11 +1019,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Maurice Chevalier là Ca sĩ người Pháp, sinh ngày 12 tháng 9 năm 1888.",
-    "highlights": [
-      "Sinh ngày 12 tháng 9 năm 1888.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ]
+    "biography": "Maurice Chevalier bắt đầu sự nghiệp với vai trò ca sĩ tạp kỹ và nổi tiếng qua các chương trình Paris của Mistinguett trong thập niên 1920.",
+    "highlights": ["Sinh ngày 12 tháng 9 năm 1888.", "Maurice Chevalier bắt đầu sự nghiệp với vai trò ca sĩ tạp kỹ và nổi tiếng qua các chương trình Paris của Mistinguett trong thập niên 1920."]
   },
   {
     "id": "jesse-owens",
@@ -1150,11 +1049,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Jesse Owens là Vận động viên điền kinh người Hoa Kỳ, sinh ngày 12 tháng 9 năm 1913.",
-    "highlights": [
-      "Sinh ngày 12 tháng 9 năm 1913.",
-      "Lĩnh vực hoạt động: thể thao."
-    ]
+    "biography": "Tại Olympic Berlin 1936, Jesse Owens giành bốn huy chương vàng: 100 m, 200 m, tiếp sức 4 × 100 m và nhảy xa.",
+    "highlights": ["Sinh ngày 12 tháng 9 năm 1913.", "Tại Olympic Berlin 1936, Jesse Owens giành bốn huy chương vàng: 100 m, 200 m, tiếp sức 4 × 100 m và nhảy xa."]
   },
   {
     "id": "bjorn-floberg",
@@ -1183,11 +1079,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Bjørn Floberg là Diễn viên người Na Uy, sinh ngày 12 tháng 9 năm 1947.",
-    "highlights": [
-      "Sinh ngày 12 tháng 9 năm 1947.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ]
+    "biography": "Năm 2018, Bjørn Floberg được đề cử giải Hedda cho vai Gájev trong vở Kirsebærhagen tại Nhà hát Quốc gia Na Uy.",
+    "highlights": ["Sinh ngày 12 tháng 9 năm 1947.", "Năm 2018, Bjørn Floberg được đề cử giải Hedda cho vai Gájev trong vở Kirsebærhagen tại Nhà hát Quốc gia Na Uy."]
   },
   {
     "id": "roald-dahl",
@@ -1216,11 +1109,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Roald Dahl là Nhà văn người Vương quốc Anh, sinh ngày 13 tháng 9 năm 1916.",
-    "highlights": [
-      "Sinh ngày 13 tháng 9 năm 1916.",
-      "Lĩnh vực hoạt động: văn học."
-    ]
+    "biography": "Năm 1938, Roald Dahl chuyển đến Dar-es-Salaam; từ đó ông gia nhập Không quân Hoàng gia Anh trong Thế chiến thứ hai.",
+    "highlights": ["Sinh ngày 13 tháng 9 năm 1916.", "Năm 1938, Roald Dahl chuyển đến Dar-es-Salaam; từ đó ông gia nhập Không quân Hoàng gia Anh trong Thế chiến thứ hai."]
   },
   {
     "id": "alex-riel",
@@ -1249,11 +1139,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Alex Riel là Nghệ sĩ trống jazz người Đan Mạch, sinh ngày 13 tháng 9 năm 1940.",
-    "highlights": [
-      "Sinh ngày 13 tháng 9 năm 1940.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ]
+    "biography": "Từ năm 1968 đến 1972, Alex Riel chơi trống trong nhóm rock Savage Rose; thập niên 1980 ông còn chơi cùng Istanbul Express.",
+    "highlights": ["Sinh ngày 13 tháng 9 năm 1940.", "Từ năm 1968 đến 1972, Alex Riel chơi trống trong nhóm rock Savage Rose; thập niên 1980 ông còn chơi cùng Istanbul Express."]
   },
   {
     "id": "ahmet-necdet-sezer",
@@ -1282,11 +1169,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Ahmet Necdet Sezer là Chính trị gia người Thổ Nhĩ Kỳ, sinh ngày 13 tháng 9 năm 1941.",
-    "highlights": [
-      "Sinh ngày 13 tháng 9 năm 1941.",
-      "Lĩnh vực hoạt động: chính trị."
-    ]
+    "biography": "Ahmet Necdet Sezer là tổng thống Thổ Nhĩ Kỳ đầu tiên xuất thân ngoài giới chính trị và quân đội.",
+    "highlights": ["Sinh ngày 13 tháng 9 năm 1941.", "Ahmet Necdet Sezer là tổng thống Thổ Nhĩ Kỳ đầu tiên xuất thân ngoài giới chính trị và quân đội."]
   },
   {
     "id": "jan-masaryk",
@@ -1315,11 +1199,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Jan Masaryk là Nhà ngoại giao người Séc, sinh ngày 14 tháng 9 năm 1886.",
-    "highlights": [
-      "Sinh ngày 14 tháng 9 năm 1886.",
-      "Lĩnh vực hoạt động: chính trị."
-    ]
+    "biography": "Jan Masaryk từ chức năm 1938 để phản đối Hiệp định Munich, cùng thời điểm Tổng thống Edvard Beneš rời chức vụ.",
+    "highlights": ["Sinh ngày 14 tháng 9 năm 1886.", "Jan Masaryk từ chức năm 1938 để phản đối Hiệp định Munich, cùng thời điểm Tổng thống Edvard Beneš rời chức vụ."]
   },
   {
     "id": "astrid-gjertsen",
@@ -1347,12 +1228,16 @@ export const PEOPLE_09: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
+    "deathDate": "2020-06-17",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://snl.no/Astrid_Gjertsen",
+      "https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/Representant/?perid=ASGJ"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-07",
-    "biography": "Astrid Gjertsen là Chính trị gia người Na Uy, sinh ngày 14 tháng 9 năm 1928.",
-    "highlights": [
-      "Sinh ngày 14 tháng 9 năm 1928.",
-      "Lĩnh vực hoạt động: chính trị."
-    ]
+    "biography": "Astrid Gjertsen đấu tranh thành công cho giờ mở cửa linh hoạt tại các cửa hàng ở Na Uy.",
+    "highlights": ["Sinh ngày 14 tháng 9 năm 1928.", "Astrid Gjertsen đấu tranh thành công cho giờ mở cửa linh hoạt tại các cửa hàng ở Na Uy."]
   },
   {
     "id": "filip-nguyen",
@@ -1373,19 +1258,12 @@ export const PEOPLE_09: Person[] = [
     "image": "/people/placeholder.svg",
     "shortDescription": "Thủ môn bóng đá người Việt Nam.",
     "wikidataId": "Q56513413",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q56513413",
-      "https://www.transfermarkt.us/filip-nguyen/profil/spieler/202914",
-      "https://www.sofascore.com/football/player/nguyen-filip/151931"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q56513413", "https://www.transfermarkt.us/filip-nguyen/profil/spieler/202914", "https://www.sofascore.com/football/player/nguyen-filip/151931", "https://vpf.vn/player/filip-nguyen/"],
     "notabilityScore": 70,
     "region": "vietnam",
     "verifiedAt": "2026-10-07",
-    "biography": "Filip Nguyễn là Thủ môn bóng đá người Việt Nam, sinh ngày 14 tháng 9 năm 1992.",
-    "highlights": [
-      "Sinh ngày 14 tháng 9 năm 1992.",
-      "Lĩnh vực hoạt động: thể thao."
-    ]
+    "biography": "Mùa V.League 2023/24, Nguyễn Filip bắt chính 25 trận cho Công an Hà Nội.",
+    "highlights": ["Sinh ngày 14 tháng 9 năm 1992.", "Mùa V.League 2023/24, Nguyễn Filip bắt chính 25 trận cho Công an Hà Nội."]
   },
   {
     "id": "oliver-stone",
@@ -1414,11 +1292,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Oliver Stone là Đạo diễn phim người Hoa Kỳ, sinh ngày 15 tháng 9 năm 1946.",
-    "highlights": [
-      "Sinh ngày 15 tháng 9 năm 1946.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ]
+    "biography": "Sau khi phục vụ trong Chiến tranh Việt Nam, Oliver Stone theo học điện ảnh tại Đại học New York với Martin Scorsese.",
+    "highlights": ["Sinh ngày 15 tháng 9 năm 1946.", "Sau khi phục vụ trong Chiến tranh Việt Nam, Oliver Stone theo học điện ảnh tại Đại học New York với Martin Scorsese."]
   },
   {
     "id": "jessye-norman",
@@ -1447,11 +1322,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Jessye Norman là Ca sĩ opera người Hoa Kỳ, sinh ngày 15 tháng 9 năm 1945.",
-    "highlights": [
-      "Sinh ngày 15 tháng 9 năm 1945.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ]
+    "biography": "Jessye Norman ra mắt tại Metropolitan Opera ở New York năm 1983, với vai Cassandra trong vở Les Troyens của Berlioz.",
+    "highlights": ["Sinh ngày 15 tháng 9 năm 1945.", "Jessye Norman ra mắt tại Metropolitan Opera ở New York năm 1983, với vai Cassandra trong vở Les Troyens của Berlioz."]
   },
   {
     "id": "tommy-lee-jones",
@@ -1480,11 +1352,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Tommy Lee Jones là Diễn viên người Hoa Kỳ, sinh ngày 15 tháng 9 năm 1946.",
-    "highlights": [
-      "Sinh ngày 15 tháng 9 năm 1946.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ]
+    "biography": "Tommy Lee Jones nhận Emmy cho vai Gary Gilmore trong phim truyền hình Executioner's Song (1980), sau các vai diễn trong Coal Miner's Daughter và Eyes of Laura Mars.",
+    "highlights": ["Sinh ngày 15 tháng 9 năm 1946.", "Tommy Lee Jones nhận Emmy cho vai Gary Gilmore trong phim truyền hình Executioner's Song (1980), sau các vai diễn trong Coal Miner's Daughter và Eyes of Laura Mars."]
   },
   {
     "id": "lauren-bacall",
@@ -1513,11 +1382,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Lauren Bacall là Diễn viên người Hoa Kỳ, sinh ngày 16 tháng 9 năm 1924.",
-    "highlights": [
-      "Sinh ngày 16 tháng 9 năm 1924.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ]
+    "biography": "Lauren Bacall xuất bản tự truyện Lauren Bacall by Myself năm 1978.",
+    "highlights": ["Sinh ngày 16 tháng 9 năm 1924.", "Lauren Bacall xuất bản tự truyện Lauren Bacall by Myself năm 1978."]
   },
   {
     "id": "jon-hellesnes",
@@ -1546,11 +1412,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Jon Hellesnes là Triết gia người Na Uy, sinh ngày 16 tháng 9 năm 1939.",
-    "highlights": [
-      "Sinh ngày 16 tháng 9 năm 1939.",
-      "Lĩnh vực hoạt động: khoa học."
-    ]
+    "biography": "Năm 2010, Jon Hellesnes nhận Giải Ngôn ngữ cho các sách Illusjon?, Om livstolking và Det femte monarki og andre essay.",
+    "highlights": ["Sinh ngày 16 tháng 9 năm 1939.", "Năm 2010, Jon Hellesnes nhận Giải Ngôn ngữ cho các sách Illusjon?, Om livstolking và Det femte monarki og andre essay."]
   },
   {
     "id": "vebjorn-rodal",
@@ -1579,11 +1442,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Vebjørn Rodal là Vận động viên điền kinh người Na Uy, sinh ngày 16 tháng 9 năm 1972.",
-    "highlights": [
-      "Sinh ngày 16 tháng 9 năm 1972.",
-      "Lĩnh vực hoạt động: thể thao."
-    ]
+    "biography": "Vebjørn Rodal giành huy chương vàng Olympic nội dung 800 m tại Atlanta năm 1996 với kỷ lục Olympic 1 phút 42,58 giây.",
+    "highlights": ["Sinh ngày 16 tháng 9 năm 1972.", "Vebjørn Rodal giành huy chương vàng Olympic nội dung 800 m tại Atlanta năm 1996 với kỷ lục Olympic 1 phút 42,58 giây."]
   },
   {
     "id": "christian-lous-lange",
@@ -1612,11 +1472,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Christian Lous Lange là Nhà ngoại giao người Na Uy, sinh ngày 17 tháng 9 năm 1869.",
-    "highlights": [
-      "Sinh ngày 17 tháng 9 năm 1869.",
-      "Lĩnh vực hoạt động: chính trị."
-    ]
+    "biography": "Năm 1919, khi Hội Quốc Liên thành lập trụ sở tại Geneva, Christian Lous Lange chuyển ban thư ký Liên minh Liên Nghị viện đến thành phố này.",
+    "highlights": ["Sinh ngày 17 tháng 9 năm 1869.", "Năm 1919, khi Hội Quốc Liên thành lập trụ sở tại Geneva, Christian Lous Lange chuyển ban thư ký Liên minh Liên Nghị viện đến thành phố này."]
   },
   {
     "id": "hank-williams",
@@ -1645,11 +1502,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Hank Williams là Ca sĩ nhạc đồng quê người Hoa Kỳ, sinh ngày 17 tháng 9 năm 1923.",
-    "highlights": [
-      "Sinh ngày 17 tháng 9 năm 1923.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ]
+    "biography": "Hank Williams chịu ảnh hưởng của hillbilly, blues và gospel từ sớm, biểu diễn khi còn là thiếu niên và thu âm đĩa đầu tiên năm 1942.",
+    "highlights": ["Sinh ngày 17 tháng 9 năm 1923.", "Hank Williams chịu ảnh hưởng của hillbilly, blues và gospel từ sớm, biểu diễn khi còn là thiếu niên và thu âm đĩa đầu tiên năm 1942."]
   },
   {
     "id": "randi-bratteli",
@@ -1673,16 +1527,20 @@ export const PEOPLE_09: Person[] = [
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q4968156",
       "https://snl.no/Randi_Bratteli",
-      "https://lokalhistoriewiki.no/index.php?mobileaction=toggle_view_desktop&title=Randi_Bratteli"
+      "https://lokalhistoriewiki.no/index.php?mobileaction=toggle_view_desktop&title=Randi_Bratteli",
+      "https://nbl.snl.no/Trygve_Bratteli"
     ],
     "notabilityScore": 70,
     "region": "west",
+    "deathDate": "2002-12-09",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://nbl.snl.no/Trygve_Bratteli"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-07",
-    "biography": "Randi Bratteli là Nhà báo người Na Uy, sinh ngày 17 tháng 9 năm 1924.",
-    "highlights": [
-      "Sinh ngày 17 tháng 9 năm 1924.",
-      "Lĩnh vực hoạt động: văn học."
-    ]
+    "biography": "Randi Bratteli làm phóng viên Aktuell (1945–1951), biên tập viên Arbeiderkvinnen (1972–1982) và sau đó là nhà báo tự do.",
+    "highlights": ["Sinh ngày 17 tháng 9 năm 1924.", "Randi Bratteli làm phóng viên Aktuell (1945–1951), biên tập viên Arbeiderkvinnen (1972–1982) và sau đó là nhà báo tự do."]
   },
   {
     "id": "greta-garbo",
@@ -1711,11 +1569,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Greta Garbo là Diễn viên người Thụy Điển, sinh ngày 18 tháng 9 năm 1905.",
-    "highlights": [
-      "Sinh ngày 18 tháng 9 năm 1905.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ]
+    "biography": "Greta Garbo được đề cử Oscar Nữ diễn viên chính xuất sắc bốn lần và nhận giải Oscar danh dự năm 1955.",
+    "highlights": ["Sinh ngày 18 tháng 9 năm 1905.", "Greta Garbo được đề cử Oscar Nữ diễn viên chính xuất sắc bốn lần và nhận giải Oscar danh dự năm 1955."]
   },
   {
     "id": "nils-petter-molvaer",
@@ -1744,11 +1599,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Nils Petter Molvær là Nhạc sĩ jazz người Na Uy, sinh ngày 18 tháng 9 năm 1960.",
-    "highlights": [
-      "Sinh ngày 18 tháng 9 năm 1960.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ]
+    "biography": "Nils Petter Molvær phát hành album đầu tiên dưới tên riêng, Hastening Westward, cùng Robin Schulkowsky năm 1995.",
+    "highlights": ["Sinh ngày 18 tháng 9 năm 1960.", "Nils Petter Molvær phát hành album đầu tiên dưới tên riêng, Hastening Westward, cùng Robin Schulkowsky năm 1995."]
   },
   {
     "id": "sveinn-einarsson",
@@ -1777,11 +1629,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Sveinn Einarsson là Đạo diễn sân khấu người Iceland, sinh ngày 18 tháng 9 năm 1934.",
-    "highlights": [
-      "Sinh ngày 18 tháng 9 năm 1934.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ]
+    "biography": "Sveinn Einarsson đạo diễn buổi opera đầu tiên tại Olavshallen ở Trondheim, Tosca năm 1990; năm 1992 ông dàn dựng Le nozze di Figaro tại đây.",
+    "highlights": ["Sinh ngày 18 tháng 9 năm 1934.", "Sveinn Einarsson đạo diễn buổi opera đầu tiên tại Olavshallen ở Trondheim, Tosca năm 1990; năm 1992 ông dàn dựng Le nozze di Figaro tại đây."]
   },
   {
     "id": "mika-waltari",
@@ -1810,11 +1659,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Mika Waltari là Nhà văn người Phần Lan, sinh ngày 19 tháng 9 năm 1908.",
-    "highlights": [
-      "Sinh ngày 19 tháng 9 năm 1908.",
-      "Lĩnh vực hoạt động: văn học."
-    ]
+    "biography": "Mika Waltari được độc giả quốc tế biết đến nhờ tiểu thuyết lịch sử Egypteren Sinuhe (1946), lấy bối cảnh Ai Cập thế kỷ 14 trước Công nguyên.",
+    "highlights": ["Sinh ngày 19 tháng 9 năm 1908.", "Mika Waltari được độc giả quốc tế biết đến nhờ tiểu thuyết lịch sử Egypteren Sinuhe (1946), lấy bối cảnh Ai Cập thế kỷ 14 trước Công nguyên."]
   },
   {
     "id": "william-golding",
@@ -1843,11 +1689,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "William Golding là Nhà văn người Vương quốc Anh, sinh ngày 19 tháng 9 năm 1911.",
-    "highlights": [
-      "Sinh ngày 19 tháng 9 năm 1911.",
-      "Lĩnh vực hoạt động: văn học."
-    ]
+    "biography": "William Golding viết Chúa Ruồi như một truyện phản địa đàng, mô tả một xã hội kinh hoàng thu nhỏ.",
+    "highlights": ["Sinh ngày 19 tháng 9 năm 1911.", "William Golding viết Chúa Ruồi như một truyện phản địa đàng, mô tả một xã hội kinh hoàng thu nhỏ."]
   },
   {
     "id": "jeremy-irons",
@@ -1876,11 +1719,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Jeremy Irons là Diễn viên người Vương quốc Anh, sinh ngày 19 tháng 9 năm 1948.",
-    "highlights": [
-      "Sinh ngày 19 tháng 9 năm 1948.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ]
+    "biography": "Jeremy Irons đoạt Oscar và Quả cầu Vàng với Reversal of Fortune (1990).",
+    "highlights": ["Sinh ngày 19 tháng 9 năm 1948.", "Jeremy Irons đoạt Oscar và Quả cầu Vàng với Reversal of Fortune (1990)."]
   },
   {
     "id": "sophia-loren",
@@ -1909,11 +1749,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Sophia Loren là Diễn viên người Ý, sinh ngày 20 tháng 9 năm 1934.",
-    "highlights": [
-      "Sinh ngày 20 tháng 9 năm 1934.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ]
+    "biography": "Sophia Loren nhận Oscar danh dự năm 1991, Gấu Vàng danh dự Berlin năm 1994 và Sư tử Vàng danh dự Venice năm 1998.",
+    "highlights": ["Sinh ngày 20 tháng 9 năm 1934.", "Sophia Loren nhận Oscar danh dự năm 1991, Gấu Vàng danh dự Berlin năm 1994 và Sư tử Vàng danh dự Venice năm 1998."]
   },
   {
     "id": "bjorn-wiinblad",
@@ -1942,11 +1779,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Bjørn Wiinblad là Nhà thiết kế người Đan Mạch, sinh ngày 20 tháng 9 năm 1918.",
-    "highlights": [
-      "Sinh ngày 20 tháng 9 năm 1918.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ]
+    "biography": "Bước đột phá quốc tế của Bjørn Wiinblad đến khi ông được hãng sứ Đức Rosenthal tuyển dụng năm 1957.",
+    "highlights": ["Sinh ngày 20 tháng 9 năm 1918.", "Bước đột phá quốc tế của Bjørn Wiinblad đến khi ông được hãng sứ Đức Rosenthal tuyển dụng năm 1957."]
   },
   {
     "id": "rolf-kirkvaag",
@@ -1975,11 +1809,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Rolf Kirkvaag là Người dẫn chương trình người Na Uy, sinh ngày 20 tháng 9 năm 1920.",
-    "highlights": [
-      "Sinh ngày 20 tháng 9 năm 1920.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ]
+    "biography": "Rolf Kirkvaag cũng là phóng viên thể thao, chuyên về trượt tuyết; các chương trình của ông phục vụ thính giả trong Thế vận hội Oslo năm 1952.",
+    "highlights": ["Sinh ngày 20 tháng 9 năm 1920.", "Rolf Kirkvaag cũng là phóng viên thể thao, chuyên về trượt tuyết; các chương trình của ông phục vụ thính giả trong Thế vận hội Oslo năm 1952."]
   },
   {
     "id": "gustav-holst",
@@ -2008,11 +1839,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Gustav Holst là Nhà soạn nhạc người Vương quốc Anh, sinh ngày 21 tháng 9 năm 1874.",
-    "highlights": [
-      "Sinh ngày 21 tháng 9 năm 1874.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ]
+    "biography": "Năm 1913, Gustav Holst cho ra đời The Cloud Messenger, Op. 30, tác phẩm lớn nhất trong loạt sáng tác lấy cảm hứng từ Ấn Độ của ông.",
+    "highlights": ["Sinh ngày 21 tháng 9 năm 1874.", "Năm 1913, Gustav Holst cho ra đời The Cloud Messenger, Op. 30, tác phẩm lớn nhất trong loạt sáng tác lấy cảm hứng từ Ấn Độ của ông."]
   },
   {
     "id": "leonard-cohen",
@@ -2036,16 +1864,20 @@ export const PEOPLE_09: Person[] = [
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q1276",
       "https://snl.no/Leonard_Cohen",
-      "https://proleksis.lzmk.hr/15694"
+      "https://proleksis.lzmk.hr/15694",
+      "https://www.biography.com/people/leonard-cohen-9252529"
     ],
     "notabilityScore": 70,
     "region": "west",
+    "deathDate": "2016-11-07",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.biography.com/people/leonard-cohen-9252529"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-07",
-    "biography": "Leonard Cohen là Ca sĩ, nhạc sĩ người Canada, sinh ngày 21 tháng 9 năm 1934.",
-    "highlights": [
-      "Sinh ngày 21 tháng 9 năm 1934.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ]
+    "biography": "Leonard Cohen tạo dấu ấn với vai trò ca sĩ kiêm nhạc sĩ năm 1968 qua album đầu tay Songs of Leonard Cohen.",
+    "highlights": ["Sinh ngày 21 tháng 9 năm 1934.", "Leonard Cohen tạo dấu ấn với vai trò ca sĩ kiêm nhạc sĩ năm 1968 qua album đầu tay Songs of Leonard Cohen."]
   },
   {
     "id": "lars-saabye-christensen",
@@ -2074,11 +1906,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Lars Saabye Christensen là Nhà văn người Na Uy, sinh ngày 21 tháng 9 năm 1953.",
-    "highlights": [
-      "Sinh ngày 21 tháng 9 năm 1953.",
-      "Lĩnh vực hoạt động: văn học."
-    ]
+    "biography": "Trong năm 1972–1973, Lars Saabye Christensen tự xuất bản hai tập thơ và đem bán trên phố Karl Johans gate ở Oslo.",
+    "highlights": ["Sinh ngày 21 tháng 9 năm 1953.", "Trong năm 1972–1973, Lars Saabye Christensen tự xuất bản hai tập thơ và đem bán trên phố Karl Johans gate ở Oslo."]
   },
   {
     "id": "fay-weldon",
@@ -2102,16 +1931,20 @@ export const PEOPLE_09: Person[] = [
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q239501",
       "https://snl.no/Fay_Weldon",
-      "https://brockhaus.de/ecs/julex/article/weldon-fay"
+      "https://brockhaus.de/ecs/julex/article/weldon-fay",
+      "https://www.bbc.co.uk/news/entertainment-arts-64160732"
     ],
     "notabilityScore": 70,
     "region": "west",
+    "deathDate": "2023-01-04",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.bbc.co.uk/news/entertainment-arts-64160732"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-07",
-    "biography": "Fay Weldon là Nhà văn người Vương quốc Anh, sinh ngày 22 tháng 9 năm 1931.",
-    "highlights": [
-      "Sinh ngày 22 tháng 9 năm 1931.",
-      "Lĩnh vực hoạt động: văn học."
-    ]
+    "biography": "Tiểu thuyết đầu tiên của Fay Weldon xuất bản năm 1967, mở đầu sự nghiệp viết lách của bà.",
+    "highlights": ["Sinh ngày 22 tháng 9 năm 1931.", "Tiểu thuyết đầu tiên của Fay Weldon xuất bản năm 1967, mở đầu sự nghiệp viết lách của bà."]
   },
   {
     "id": "nick-cave",
@@ -2140,11 +1973,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Nick Cave là Ca sĩ, nhạc sĩ người Úc, sinh ngày 22 tháng 9 năm 1957.",
-    "highlights": [
-      "Sinh ngày 22 tháng 9 năm 1957.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ]
+    "biography": "Năm 2025, Nick Cave được đề cử Oscar Ca khúc gốc xuất sắc với Train Dreams trong phim cùng tên.",
+    "highlights": ["Sinh ngày 22 tháng 9 năm 1957.", "Năm 2025, Nick Cave được đề cử Oscar Ca khúc gốc xuất sắc với Train Dreams trong phim cùng tên."]
   },
   {
     "id": "ha-duc-chinh",
@@ -2165,19 +1995,12 @@ export const PEOPLE_09: Person[] = [
     "image": "/people/placeholder.svg",
     "shortDescription": "Cầu thủ bóng đá người Việt Nam.",
     "wikidataId": "Q25999788",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q25999788",
-      "https://www.transfermarkt.com/duc-chinh-ha/profil/spieler/508254",
-      "https://www.sofascore.com/football/player/ha-duc-chinh/889636"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q25999788", "https://www.transfermarkt.com/duc-chinh-ha/profil/spieler/508254", "https://www.sofascore.com/football/player/ha-duc-chinh/889636", "https://vpf.vn/player/ha-duc-chinh/"],
     "notabilityScore": 70,
     "region": "vietnam",
     "verifiedAt": "2026-10-07",
-    "biography": "Hà Đức Chinh là Cầu thủ bóng đá người Việt Nam, sinh ngày 22 tháng 9 năm 1997.",
-    "highlights": [
-      "Sinh ngày 22 tháng 9 năm 1997.",
-      "Lĩnh vực hoạt động: thể thao."
-    ]
+    "biography": "Hà Đức Chinh ghi 4 bàn cho SHB Đà Nẵng tại V.League mùa 2020.",
+    "highlights": ["Sinh ngày 22 tháng 9 năm 1997.", "Hà Đức Chinh ghi 4 bàn cho SHB Đà Nẵng tại V.League mùa 2020."]
   },
   {
     "id": "aldo-moro",
@@ -2206,11 +2029,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Aldo Moro là Chính trị gia người Ý, sinh ngày 23 tháng 9 năm 1916.",
-    "highlights": [
-      "Sinh ngày 23 tháng 9 năm 1916.",
-      "Lĩnh vực hoạt động: chính trị."
-    ]
+    "biography": "Ngày 16/3/1978, Lữ đoàn Đỏ bắt cóc Aldo Moro tại Rome; 55 ngày sau, thi thể ông được tìm thấy ở trung tâm thành phố.",
+    "highlights": ["Sinh ngày 23 tháng 9 năm 1916.", "Ngày 16/3/1978, Lữ đoàn Đỏ bắt cóc Aldo Moro tại Rome; 55 ngày sau, thi thể ông được tìm thấy ở trung tâm thành phố."]
   },
   {
     "id": "ray-charles",
@@ -2239,11 +2059,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Ray Charles là Ca sĩ, nhạc sĩ người Hoa Kỳ, sinh ngày 23 tháng 9 năm 1930.",
-    "highlights": [
-      "Sinh ngày 23 tháng 9 năm 1930.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ]
+    "biography": "I've Got a Woman đem lại thành công lớn cho Ray Charles năm 1955; cách kết hợp jazz, gospel và rhythm and blues góp phần định hình nhạc soul.",
+    "highlights": ["Sinh ngày 23 tháng 9 năm 1930.", "I've Got a Woman đem lại thành công lớn cho Ray Charles năm 1955; cách kết hợp jazz, gospel và rhythm and blues góp phần định hình nhạc soul."]
   },
   {
     "id": "per-olov-enquist",
@@ -2272,11 +2089,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Per Olov Enquist là Nhà văn người Thụy Điển, sinh ngày 23 tháng 9 năm 1934.",
-    "highlights": [
-      "Sinh ngày 23 tháng 9 năm 1934.",
-      "Lĩnh vực hoạt động: văn học."
-    ]
+    "biography": "Per Olov Enquist tự đọc bản sách nói của mình và nhận giải Iris Audiobook năm 2009 cho công việc đó.",
+    "highlights": ["Sinh ngày 23 tháng 9 năm 1934.", "Per Olov Enquist tự đọc bản sách nói của mình và nhận giải Iris Audiobook năm 2009 cho công việc đó."]
   },
   {
     "id": "f-scott-fitzgerald",
@@ -2305,11 +2119,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "F. Scott Fitzgerald là Nhà văn người Hoa Kỳ, sinh ngày 24 tháng 9 năm 1896.",
-    "highlights": [
-      "Sinh ngày 24 tháng 9 năm 1896.",
-      "Lĩnh vực hoạt động: văn học."
-    ]
+    "biography": "F. Scott Fitzgerald được nhớ đến nhiều nhất với tiểu thuyết The Great Gatsby (1925).",
+    "highlights": ["Sinh ngày 24 tháng 9 năm 1896.", "F. Scott Fitzgerald được nhớ đến nhiều nhất với tiểu thuyết The Great Gatsby (1925)."]
   },
   {
     "id": "jim-henson",
@@ -2338,11 +2149,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Jim Henson là Nghệ sĩ múa rối người Hoa Kỳ, sinh ngày 24 tháng 9 năm 1936.",
-    "highlights": [
-      "Sinh ngày 24 tháng 9 năm 1936.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ]
+    "biography": "Các nhân vật rối Muppets của Jim Henson lần đầu nổi tiếng rộng rãi tại Mỹ qua Sesame Street (1969–).",
+    "highlights": ["Sinh ngày 24 tháng 9 năm 1936.", "Các nhân vật rối Muppets của Jim Henson lần đầu nổi tiếng rộng rãi tại Mỹ qua Sesame Street (1969–)."]
   },
   {
     "id": "nils-collett-vogt",
@@ -2371,11 +2179,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Nils Collett Vogt là Nhà thơ người Na Uy, sinh ngày 24 tháng 9 năm 1864.",
-    "highlights": [
-      "Sinh ngày 24 tháng 9 năm 1864.",
-      "Lĩnh vực hoạt động: văn học."
-    ]
+    "biography": "Nils Collett Vogt được nhớ đến chủ yếu với thơ trữ tình, đồng thời còn viết tiểu thuyết, kịch và hồi ký.",
+    "highlights": ["Sinh ngày 24 tháng 9 năm 1864.", "Nils Collett Vogt được nhớ đến chủ yếu với thơ trữ tình, đồng thời còn viết tiểu thuyết, kịch và hồi ký."]
   },
   {
     "id": "william-faulkner",
@@ -2404,11 +2209,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "William Faulkner là Nhà văn người Hoa Kỳ, sinh ngày 25 tháng 9 năm 1897.",
-    "highlights": [
-      "Sinh ngày 25 tháng 9 năm 1897.",
-      "Lĩnh vực hoạt động: văn học."
-    ]
+    "biography": "Tháng 11/1950, William Faulkner được công bố là người nhận Nobel Văn học năm 1949.",
+    "highlights": ["Sinh ngày 25 tháng 9 năm 1897.", "Tháng 11/1950, William Faulkner được công bố là người nhận Nobel Văn học năm 1949."]
   },
   {
     "id": "glenn-gould",
@@ -2437,11 +2239,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Glenn Gould là Nghệ sĩ piano người Canada, sinh ngày 25 tháng 9 năm 1932.",
-    "highlights": [
-      "Sinh ngày 25 tháng 9 năm 1932.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ]
+    "biography": "Glenn Gould ra mắt độc tấu và biểu diễn cùng dàn nhạc năm 1947; vài năm sau ông nổi tiếng khắp Canada qua hòa nhạc, phát thanh, truyền hình và bản thu âm.",
+    "highlights": ["Sinh ngày 25 tháng 9 năm 1932.", "Glenn Gould ra mắt độc tấu và biểu diễn cùng dàn nhạc năm 1947; vài năm sau ông nổi tiếng khắp Canada qua hòa nhạc, phát thanh, truyền hình và bản thu âm."]
   },
   {
     "id": "michael-douglas",
@@ -2470,11 +2269,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Michael Douglas là Diễn viên người Hoa Kỳ, sinh ngày 25 tháng 9 năm 1944.",
-    "highlights": [
-      "Sinh ngày 25 tháng 9 năm 1944.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ]
+    "biography": "Michael Douglas ra mắt diễn xuất năm 1969 và được chú ý qua loạt phim truyền hình The Streets of San Francisco (1972–1977).",
+    "highlights": ["Sinh ngày 25 tháng 9 năm 1944.", "Michael Douglas ra mắt diễn xuất năm 1969 và được chú ý qua loạt phim truyền hình The Streets of San Francisco (1972–1977)."]
   },
   {
     "id": "george-gershwin",
@@ -2502,12 +2298,15 @@ export const PEOPLE_09: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
+    "deathDate": "1937-07-11",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/gershwin-george"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-07",
-    "biography": "George Gershwin là Nhà soạn nhạc người Hoa Kỳ, sinh ngày 26 tháng 9 năm 1898.",
-    "highlights": [
-      "Sinh ngày 26 tháng 9 năm 1898.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ]
+    "biography": "Từ năm 1920 đến 1924, George Gershwin viết nhạc cho năm chương trình revue thường niên của nhà sản xuất George White.",
+    "highlights": ["Sinh ngày 26 tháng 9 năm 1898.", "Từ năm 1920 đến 1924, George Gershwin viết nhạc cho năm chương trình revue thường niên của nhà sản xuất George White."]
   },
   {
     "id": "elisabeth-bang",
@@ -2535,12 +2334,15 @@ export const PEOPLE_09: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
+    "deathDate": "2009-09-28",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://snl.no/Elisabeth_Bang"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-07",
-    "biography": "Elisabeth Bang là Diễn viên người Na Uy, sinh ngày 26 tháng 9 năm 1922.",
-    "highlights": [
-      "Sinh ngày 26 tháng 9 năm 1922.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ]
+    "biography": "Elisabeth Bang diễn các vai trong Medmenneske, Frøken Julie và The Father, cùng nhiều vở chuyển thể từ tác phẩm Tarjei Vesaas.",
+    "highlights": ["Sinh ngày 26 tháng 9 năm 1922.", "Elisabeth Bang diễn các vai trong Medmenneske, Frøken Julie và The Father, cùng nhiều vở chuyển thể từ tác phẩm Tarjei Vesaas."]
   },
   {
     "id": "olivia-newton-john",
@@ -2569,11 +2371,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Olivia Newton-John là Ca sĩ, diễn viên người Úc, sinh ngày 26 tháng 9 năm 1948.",
-    "highlights": [
-      "Sinh ngày 26 tháng 9 năm 1948.",
-      "Lĩnh vực hoạt động: âm nhạc."
-    ]
+    "biography": "People Australia ghi nhận Olivia Newton-John với danh hiệu Dame Commander of the Order of the British Empire.",
+    "highlights": ["Sinh ngày 26 tháng 9 năm 1948.", "People Australia ghi nhận Olivia Newton-John với danh hiệu Dame Commander of the Order of the British Empire."]
   },
   {
     "id": "tryggve-andersen",
@@ -2602,11 +2401,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Tryggve Andersen là Nhà văn người Na Uy, sinh ngày 27 tháng 9 năm 1866.",
-    "highlights": [
-      "Sinh ngày 27 tháng 9 năm 1866.",
-      "Lĩnh vực hoạt động: văn học."
-    ]
+    "biography": "Tryggve Andersen gây chú ý khi ra mắt tập truyện ngắn I Cancelliraadens dage năm 1897, lấy bối cảnh vùng Oppland đầu thế kỷ XIX.",
+    "highlights": ["Sinh ngày 27 tháng 9 năm 1866.", "Tryggve Andersen gây chú ý khi ra mắt tập truyện ngắn I Cancelliraadens dage năm 1897, lấy bối cảnh vùng Oppland đầu thế kỷ XIX."]
   },
   {
     "id": "arthur-penn",
@@ -2635,11 +2431,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Arthur Penn là Đạo diễn phim người Hoa Kỳ, sinh ngày 27 tháng 9 năm 1922.",
-    "highlights": [
-      "Sinh ngày 27 tháng 9 năm 1922.",
-      "Lĩnh vực hoạt động: nghệ thuật."
-    ]
+    "biography": "Arthur Penn ba lần được đề cử Oscar Đạo diễn xuất sắc nhất với The Miracle Worker, Bonnie and Clyde và Alice’s Restaurant (1969).",
+    "highlights": ["Sinh ngày 27 tháng 9 năm 1922.", "Arthur Penn ba lần được đề cử Oscar Đạo diễn xuất sắc nhất với The Miracle Worker, Bonnie and Clyde và Alice’s Restaurant (1969)."]
   },
   {
     "id": "gwyneth-paltrow",
@@ -2668,11 +2461,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Gwyneth Paltrow là Diễn viên người Hoa Kỳ, sinh ngày 27 tháng 9 năm 1972.",
-    "highlights": [
-      "Sinh ngày 27 tháng 9 năm 1972.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ]
+    "biography": "Gwyneth Paltrow được chú ý qua Seven và Jefferson in Paris (1995), trước khi đóng vai chính trong Emma (1996).",
+    "highlights": ["Sinh ngày 27 tháng 9 năm 1972.", "Gwyneth Paltrow được chú ý qua Seven và Jefferson in Paris (1995), trước khi đóng vai chính trong Emma (1996)."]
   },
   {
     "id": "frances-willard",
@@ -2701,11 +2491,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Frances Willard là Nhà hoạt động xã hội người Hoa Kỳ, sinh ngày 28 tháng 9 năm 1839.",
-    "highlights": [
-      "Sinh ngày 28 tháng 9 năm 1839.",
-      "Lĩnh vực hoạt động: lịch sử."
-    ]
+    "biography": "Năm 1871, Frances Willard được bầu làm người đứng đầu trường Women's College mới ở Evanston, Hoa Kỳ.",
+    "highlights": ["Sinh ngày 28 tháng 9 năm 1839.", "Năm 1871, Frances Willard được bầu làm người đứng đầu trường Women's College mới ở Evanston, Hoa Kỳ."]
   },
   {
     "id": "brigitte-bardot",
@@ -2729,16 +2516,22 @@ export const PEOPLE_09: Person[] = [
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q36268",
       "https://snl.no/Brigitte_Bardot",
-      "https://brockhaus.de/ecs/julex/article/bardot-brigitte"
+      "https://brockhaus.de/ecs/julex/article/bardot-brigitte",
+      "https://www.lemonde.fr/cinema/article/2025/12/28/brigitte-bardot-est-morte-a-l-age-de-91-ans_6659625_3476.html",
+      "https://www.france24.com/en/live-news/20251228-french-cinema-icon-brigitte-bardot-dead-at-91"
     ],
     "notabilityScore": 70,
     "region": "west",
+    "deathDate": "2025-12-28",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.lemonde.fr/cinema/article/2025/12/28/brigitte-bardot-est-morte-a-l-age-de-91-ans_6659625_3476.html",
+      "https://www.france24.com/en/live-news/20251228-french-cinema-icon-brigitte-bardot-dead-at-91"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-07",
-    "biography": "Brigitte Bardot là Diễn viên người Pháp, sinh ngày 28 tháng 9 năm 1934.",
-    "highlights": [
-      "Sinh ngày 28 tháng 9 năm 1934.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ]
+    "biography": "Brigitte Bardot trở thành biểu tượng văn hóa đại chúng thập niên 1950, nổi bật với vai chính trong And God Created Woman (1956).",
+    "highlights": ["Sinh ngày 28 tháng 9 năm 1934.", "Brigitte Bardot trở thành biểu tượng văn hóa đại chúng thập niên 1950, nổi bật với vai chính trong And God Created Woman (1956)."]
   },
   {
     "id": "liv-dommersnes",
@@ -2767,11 +2560,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Liv Dommersnes là Diễn viên người Na Uy, sinh ngày 28 tháng 9 năm 1922.",
-    "highlights": [
-      "Sinh ngày 28 tháng 9 năm 1922.",
-      "Lĩnh vực hoạt động: điện ảnh."
-    ]
+    "biography": "Liv Dommersnes nhận nhiều giải thưởng, trong đó có giải nghệ sĩ của Thành phố Oslo năm 1985 và giải văn hóa Anders Jahre năm 2000.",
+    "highlights": ["Sinh ngày 28 tháng 9 năm 1922.", "Liv Dommersnes nhận nhiều giải thưởng, trong đó có giải nghệ sĩ của Thành phố Oslo năm 1985 và giải văn hóa Anders Jahre năm 2000."]
   },
   {
     "id": "lech-walesa",
@@ -2800,11 +2590,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Lech Wałęsa là Chính trị gia người Ba Lan, sinh ngày 29 tháng 9 năm 1943.",
-    "highlights": [
-      "Sinh ngày 29 tháng 9 năm 1943.",
-      "Lĩnh vực hoạt động: chính trị."
-    ]
+    "biography": "Khi Ba Lan ban bố thiết quân luật ngày 13/12/1981, Lech Wałęsa bị bắt cùng các lãnh đạo công đoàn khác.",
+    "highlights": ["Sinh ngày 29 tháng 9 năm 1943.", "Khi Ba Lan ban bố thiết quân luật ngày 13/12/1981, Lech Wałęsa bị bắt cùng các lãnh đạo công đoàn khác."]
   },
   {
     "id": "jon-fosse",
@@ -2833,11 +2620,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Jon Fosse là Nhà văn người Na Uy, sinh ngày 29 tháng 9 năm 1959.",
-    "highlights": [
-      "Sinh ngày 29 tháng 9 năm 1959.",
-      "Lĩnh vực hoạt động: văn học."
-    ]
+    "biography": "Melancholia, vở opera có lời ca kịch do Jon Fosse viết và nhạc của Georg Friedrich Haas, ra mắt tại Paris năm 2008.",
+    "highlights": ["Sinh ngày 29 tháng 9 năm 1959.", "Melancholia, vở opera có lời ca kịch do Jon Fosse viết và nhạc của Georg Friedrich Haas, ra mắt tại Paris năm 2008."]
   },
   {
     "id": "do-duy-manh",
@@ -2858,19 +2642,12 @@ export const PEOPLE_09: Person[] = [
     "image": "/people/placeholder.svg",
     "shortDescription": "Cầu thủ bóng đá người Việt Nam.",
     "wikidataId": "Q19281994",
-    "sourceUrls": [
-      "https://www.wikidata.org/wiki/Q19281994",
-      "https://www.transfermarkt.de/duy-manh-do/profil/spieler/354784",
-      "https://www.goal.com/de/spieler/d-do/3wxucqw1i93q20r564ucn2mdx"
-    ],
+    "sourceUrls": ["https://www.wikidata.org/wiki/Q19281994", "https://www.transfermarkt.de/duy-manh-do/profil/spieler/354784", "https://www.goal.com/de/spieler/d-do/3wxucqw1i93q20r564ucn2mdx", "https://vpf.vn/player/do-duy-manh/"],
     "notabilityScore": 70,
     "region": "vietnam",
     "verifiedAt": "2026-10-07",
-    "biography": "Đỗ Duy Mạnh là Cầu thủ bóng đá người Việt Nam, sinh ngày 29 tháng 9 năm 1996.",
-    "highlights": [
-      "Sinh ngày 29 tháng 9 năm 1996.",
-      "Lĩnh vực hoạt động: thể thao."
-    ]
+    "biography": "Đỗ Duy Mạnh đá chính 21 trận cho Hà Nội tại V.League 1 mùa 2019.",
+    "highlights": ["Sinh ngày 29 tháng 9 năm 1996.", "Đỗ Duy Mạnh đá chính 21 trận cho Hà Nội tại V.League 1 mùa 2019."]
   },
   {
     "id": "johan-falkberget",
@@ -2899,11 +2676,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Johan Falkberget là Nhà văn người Na Uy, sinh ngày 30 tháng 9 năm 1879.",
-    "highlights": [
-      "Sinh ngày 30 tháng 9 năm 1879.",
-      "Lĩnh vực hoạt động: văn học."
-    ]
+    "biography": "Bốn tập trong bộ An-Magritt của Johan Falkberget lần lượt xuất bản năm 1940, 1946, 1952 và 1959.",
+    "highlights": ["Sinh ngày 30 tháng 9 năm 1879.", "Bốn tập trong bộ An-Magritt của Johan Falkberget lần lượt xuất bản năm 1940, 1946, 1952 và 1959."]
   },
   {
     "id": "truman-capote",
@@ -2932,11 +2706,8 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Truman Capote là Nhà văn người Hoa Kỳ, sinh ngày 30 tháng 9 năm 1924.",
-    "highlights": [
-      "Sinh ngày 30 tháng 9 năm 1924.",
-      "Lĩnh vực hoạt động: văn học."
-    ]
+    "biography": "Truman Capote hoàn thành tiểu thuyết đầu tiên, Summer Crossing, năm 18 tuổi; sách chỉ được xuất bản sau khi ông qua đời, vào năm 2005.",
+    "highlights": ["Sinh ngày 30 tháng 9 năm 1924.", "Truman Capote hoàn thành tiểu thuyết đầu tiên, Summer Crossing, năm 18 tuổi; sách chỉ được xuất bản sau khi ông qua đời, vào năm 2005."]
   },
   {
     "id": "elie-wiesel",
@@ -2965,10 +2736,121 @@ export const PEOPLE_09: Person[] = [
     "notabilityScore": 70,
     "region": "west",
     "verifiedAt": "2026-10-07",
-    "biography": "Elie Wiesel là Nhà văn người Hoa Kỳ, sinh ngày 30 tháng 9 năm 1928.",
+    "biography": "Từ năm 1976, Elie Wiesel là giáo sư triết học Do Thái và lịch sử tôn giáo tại Đại học Boston; ông cũng lãnh đạo Ủy ban Tổng thống Hoa Kỳ về Holocaust.",
+    "highlights": ["Sinh ngày 30 tháng 9 năm 1928.", "Từ năm 1976, Elie Wiesel là giáo sư triết học Do Thái và lịch sử tôn giáo tại Đại học Boston; ông cũng lãnh đạo Ủy ban Tổng thống Hoa Kỳ về Holocaust."]
+  },
+  {
+    "id": "tran-dai-nghia",
+    "slug": "tran-dai-nghia",
+    "name": "Trần Đại Nghĩa",
+    "birthDate": "1913-09-13",
+    "birthYear": 1913,
+    "birthMonth": 9,
+    "birthDay": 13,
+    "lifeStatus": "deceased",
+    "occupation": [
+      "Kỹ sư, nhà khoa học"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Khoa học",
+    "fields": [
+      "technology-engineering",
+      "science-research"
+    ],
+    "countryCode": "VN",
+    "countryName": "Việt Nam",
+    "countryFlag": "🇻🇳",
+    "birthplace": "Vĩnh Long, Việt Nam",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Kỹ sư và nhà khoa học Việt Nam gắn với nghiên cứu, chế tạo vũ khí.",
+    "biography": "Từ thời trẻ, Trần Đại Nghĩa nuôi mục tiêu nghiên cứu và chế tạo vũ khí. Sau khi trở về Việt Nam, ông tham gia xây dựng năng lực nghiên cứu quốc phòng và các cơ sở khoa học kỹ thuật.",
     "highlights": [
-      "Sinh ngày 30 tháng 9 năm 1928.",
-      "Lĩnh vực hoạt động: văn học."
-    ]
-  }
+      "Trần Đại Nghĩa theo đuổi mục tiêu nghiên cứu và chế tạo vũ khí.",
+      "VnExpress ghi nhận vai trò của ông trong nghiên cứu khoa học, chế tạo vũ khí và phát triển lực lượng kỹ thuật quốc phòng."
+    ],
+    "wikidataId": "Q4507019",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q4507019",
+      "https://vast.gov.vn/en/tin-chi-tiet/-/chi-tiet/giao-su-vien-si-tran-%C4%91ai-nghia-1913-1997--27806-1804.html",
+      "https://vnexpress.net/khoa-hoc/tran-dai-nghia-ong-vua-vu-khi-viet-nam-2878702.html"
+    ],
+    "region": "vietnam",
+    "verifiedAt": "2026-10-08"
+  },
+  {
+    "id": "hg-wells",
+    "slug": "hg-wells",
+    "name": "H. G. Wells",
+    "birthDate": "1866-09-21",
+    "birthYear": 1866,
+    "birthMonth": 9,
+    "birthDay": 21,
+    "lifeStatus": "deceased",
+    "occupation": [
+      "Nhà văn, nhà báo"
+    ],
+    "category": "literature",
+    "categoryLabel": "Văn học",
+    "fields": [
+      "education-thought",
+      "design-creative"
+    ],
+    "countryCode": "GB",
+    "countryName": "Vương quốc Anh",
+    "countryFlag": "🇬🇧",
+    "birthplace": "Bromley, Kent, Anh",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Nhà văn Anh tiên phong của khoa học viễn tưởng hiện đại.",
+    "biography": "H. G. Wells viết các tiểu thuyết khoa học viễn tưởng có ảnh hưởng như The Time Machine (1895) và The War of the Worlds (1898). Tác phẩm của ông góp phần định hình văn học khoa học viễn tưởng đầu thế kỷ 20.",
+    "highlights": [
+      "The Time Machine được xuất bản năm 1895 và là một trong các tác phẩm khoa học viễn tưởng đầu kỳ của Wells.",
+      "The War of the Worlds là một trong những tác phẩm nổi tiếng nhất của Wells, xuất bản năm 1898."
+    ],
+    "wikidataId": "Q42511",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q42511",
+      "https://catalogue.bnf.fr/ark:/12148/cb119290531",
+      "https://sf-encyclopedia.com/entry/wells_h_g"
+    ],
+    "region": "west",
+    "verifiedAt": "2026-10-08"
+  },
+  {
+    "id": "enrico-fermi",
+    "slug": "enrico-fermi",
+    "name": "Enrico Fermi",
+    "birthDate": "1901-09-29",
+    "birthYear": 1901,
+    "birthMonth": 9,
+    "birthDay": 29,
+    "lifeStatus": "deceased",
+    "occupation": [
+      "Nhà vật lý"
+    ],
+    "category": "scientist",
+    "categoryLabel": "Khoa học",
+    "fields": [
+      "science-research",
+      "technology-engineering"
+    ],
+    "countryCode": "IT",
+    "countryName": "Ý",
+    "countryFlag": "🇮🇹",
+    "birthplace": "Rome, Ý",
+    "image": "/people/placeholder.svg",
+    "shortDescription": "Nhà vật lý thực nghiệm và lý thuyết, người lãnh đạo nhóm xây dựng lò phản ứng hạt nhân đầu tiên.",
+    "biography": "Nhóm của Enrico Fermi thiết kế và xây dựng Chicago Pile-1 tại Đại học Chicago. Ngày 2 tháng 12 năm 1942, tại đây diễn ra phản ứng dây chuyền hạt nhân tự duy trì có kiểm soát đầu tiên.",
+    "highlights": [
+      "Nhóm của Fermi xây dựng lò phản ứng hạt nhân nhân tạo đầu tiên, Chicago Pile-1, dưới sân bóng quần bỏ hoang ở Đại học Chicago.",
+      "Phản ứng dây chuyền hạt nhân tự duy trì có kiểm soát đầu tiên diễn ra tại Chicago Pile-1 ngày 2 tháng 12 năm 1942."
+    ],
+    "wikidataId": "Q8753",
+    "sourceUrls": [
+      "https://www.wikidata.org/wiki/Q8753",
+      "https://www.nobelprize.org/prizes/physics/1938/fermi/biographical/",
+      "https://www.trailblazers.psd.uchicago.edu/enrico-fermi"
+    ],
+    "region": "west",
+    "verifiedAt": "2026-10-08"
+  },
 ];

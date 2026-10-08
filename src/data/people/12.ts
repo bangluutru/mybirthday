@@ -19,20 +19,28 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nhà soạn nhạc người Vương quốc Anh.",
-    "biography": "Gordon Crosse là nhà soạn nhạc người Vương quốc Anh, sinh ngày 1 tháng 12 năm 1937.",
+    "biography": "Từ năm 1966 đến 1969, Gordon Crosse giữ học bổng nghiên cứu Haywood tại Đại học Birmingham.",
     "highlights": [
       "Sinh ngày 1 tháng 12 năm 1937.",
-      "Lĩnh vực hoạt động: âm nhạc."
+      "Lĩnh vực hoạt động: âm nhạc.",
+      "Từ năm 1966 đến 1969, Gordon Crosse giữ học bổng nghiên cứu Haywood tại Đại học Birmingham."
     ],
     "wikidataId": "Q5585035",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q5585035",
       "https://id.loc.gov/authorities/names/n80096463.json",
-      "https://www.idref.fr/125031815"
+      "https://www.idref.fr/125031815",
+      "https://www.britishmusicsociety.co.uk/2021/11/obituary-gordon-crosse/"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "deathDateSourceUrls": [
+      "https://www.britishmusicsociety.co.uk/2021/11/obituary-gordon-crosse/"
+    ],
+    "deathDatePrecision": "day",
+    "verifiedAt": "2026-10-07",
+    "deathDate": "2021-11-21",
+    "lifeStatus": "deceased"
   },
   {
     "id": "richard-pryor",
@@ -51,21 +59,28 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Hoa Kỳ",
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Diễn viên truyền hình người Hoa Kỳ.",
-    "biography": "Richard Pryor là diễn viên truyền hình người Hoa Kỳ, sinh ngày 1 tháng 12 năm 1940.",
+    "shortDescription": "Richard Pryor thắng Grammy Album hài xuất sắc nhất năm 1983 với Live on the Sunset Strip.",
+    "biography": "Richard Pryor thắng Grammy Album hài xuất sắc nhất năm 1983 với Live on the Sunset Strip. Ngày sinh: 1 tháng 12 năm 1940.",
     "highlights": [
       "Sinh ngày 1 tháng 12 năm 1940.",
-      "Lĩnh vực hoạt động: điện ảnh."
+      "Richard Pryor thắng Grammy Album hài xuất sắc nhất năm 1983 với Live on the Sunset Strip."
     ],
     "wikidataId": "Q294912",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q294912",
       "https://www.britannica.com/biography/Richard-Pryor",
-      "https://id.loc.gov/authorities/names/n82094549.json"
+      "https://id.loc.gov/authorities/names/n82094549.json",
+      "https://www.grammy.com/artists/richard-pryor/11422/"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "deathDate": "2005-12-10",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.britannica.com/biography/Richard-Pryor"
+    ],
+    "deathDatePrecision": "day"
   },
   {
     "id": "violette-verdy",
@@ -80,15 +95,19 @@ export const PEOPLE_12: Person[] = [
     ],
     "category": "artist",
     "categoryLabel": "Nghệ thuật",
+    "fields": [
+      "design-creative"
+    ],
     "countryCode": "FR",
     "countryName": "Pháp",
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Vũ công người Pháp.",
-    "biography": "Violette Verdy là vũ công người Pháp, sinh ngày 1 tháng 12 năm 1933.",
+    "biography": "Violette Verdy là ngôi sao của New York City Ballet trong gần 20 năm, từ 1958 đến 1977.",
     "highlights": [
       "Sinh ngày 1 tháng 12 năm 1933.",
-      "Lĩnh vực hoạt động: nghệ thuật."
+      "Lĩnh vực hoạt động: nghệ thuật.",
+      "Violette Verdy là ngôi sao của New York City Ballet trong gần 20 năm, từ 1958 đến 1977."
     ],
     "wikidataId": "Q3560452",
     "sourceUrls": [
@@ -98,7 +117,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "britney-spears",
@@ -118,10 +138,11 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Ca sĩ người Hoa Kỳ.",
-    "biography": "Britney Spears là ca sĩ người Hoa Kỳ, sinh ngày 2 tháng 12 năm 1981.",
+    "biography": "Năm 1993, Britney Spears tham gia chương trình truyền hình The All New Mickey Mouse Club.",
     "highlights": [
       "Sinh ngày 2 tháng 12 năm 1981.",
-      "Lĩnh vực hoạt động: âm nhạc."
+      "Lĩnh vực hoạt động: âm nhạc.",
+      "Năm 1993, Britney Spears tham gia chương trình truyền hình The All New Mickey Mouse Club."
     ],
     "wikidataId": "Q11975",
     "sourceUrls": [
@@ -131,7 +152,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "gianni-versace",
@@ -146,15 +168,19 @@ export const PEOPLE_12: Person[] = [
     ],
     "category": "artist",
     "categoryLabel": "Nghệ thuật",
+    "fields": [
+      "design-creative",
+      "entrepreneurship"
+    ],
     "countryCode": "IT",
     "countryName": "Ý",
     "countryFlag": "🇮🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nhà thiết kế người Ý.",
-    "biography": "Gianni Versace là nhà thiết kế người Ý, sinh ngày 2 tháng 12 năm 1946.",
+    "biography": "IdRef ghi nhận Gianni Versace mở nhà thời trang cao cấp tại Milan vào năm 1978.",
     "highlights": [
       "Sinh ngày 2 tháng 12 năm 1946.",
-      "Lĩnh vực hoạt động: nghệ thuật."
+      "IdRef ghi nhận Gianni Versace mở nhà thời trang cao cấp tại Milan vào năm 1978."
     ],
     "wikidataId": "Q264490",
     "sourceUrls": [
@@ -164,7 +190,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "paul-watson",
@@ -179,25 +206,30 @@ export const PEOPLE_12: Person[] = [
     ],
     "category": "politics",
     "categoryLabel": "Chính trị",
+    "fields": [
+      "earth-environment"
+    ],
     "countryCode": "CA",
     "countryName": "Canada",
     "countryFlag": "🇨🇦",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nhà hoạt động môi trường người Canada.",
-    "biography": "Paul Watson là nhà hoạt động môi trường người Canada, sinh ngày 2 tháng 12 năm 1950.",
+    "biography": "Tiểu sử của Captain Paul Watson Foundation ghi Paul Watson rời Greenpeace và thành lập Sea Shepherd Conservation Society năm 1977.",
     "highlights": [
       "Sinh ngày 2 tháng 12 năm 1950.",
-      "Lĩnh vực hoạt động: chính trị."
+      "Tiểu sử của Captain Paul Watson Foundation ghi Paul Watson rời Greenpeace và thành lập Sea Shepherd Conservation Society năm 1977."
     ],
     "wikidataId": "Q201670",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q201670",
       "https://www.britannica.com/biography/Paul-Watson",
-      "https://id.loc.gov/authorities/names/n2003031224.json"
+      "https://id.loc.gov/authorities/names/n2003031224.json",
+      "https://www.paulwatsonfoundation.org/captain-paul-watson/"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "julianne-moore",
@@ -217,20 +249,22 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Diễn viên truyền hình người Hoa Kỳ.",
-    "biography": "Julianne Moore là diễn viên truyền hình người Hoa Kỳ, sinh ngày 3 tháng 12 năm 1960.",
+    "biography": "Viện Hàn lâm Điện ảnh ghi Julianne Moore thắng Oscar Nữ diễn viên chính xuất sắc nhất năm 2015 với Still Alice.",
     "highlights": [
       "Sinh ngày 3 tháng 12 năm 1960.",
-      "Lĩnh vực hoạt động: điện ảnh."
+      "Viện Hàn lâm Điện ảnh ghi Julianne Moore thắng Oscar Nữ diễn viên chính xuất sắc nhất năm 2015 với Still Alice."
     ],
     "wikidataId": "Q80405",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q80405",
       "https://www.britannica.com/biography/Julianne-Moore",
-      "https://id.loc.gov/authorities/names/no97011133.json"
+      "https://id.loc.gov/authorities/names/no97011133.json",
+      "https://www.oscars.org/oscars/ceremonies/embed/2015"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "ozzy-osbourne",
@@ -250,19 +284,27 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nhạc sĩ người Vương quốc Anh.",
-    "biography": "Ozzy Osbourne là nhạc sĩ người Vương quốc Anh, sinh ngày 3 tháng 12 năm 1948.",
+    "biography": "Rock & Roll Hall of Fame ghi danh Ozzy Osbourne với tư cách nghệ sĩ solo vào năm 2024.",
     "highlights": [
       "Sinh ngày 3 tháng 12 năm 1948.",
-      "Lĩnh vực hoạt động: âm nhạc."
+      "Rock & Roll Hall of Fame ghi danh Ozzy Osbourne với tư cách nghệ sĩ solo vào năm 2024."
     ],
     "wikidataId": "Q133151",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q133151",
       "https://www.britannica.com/biography/Ozzy-Osbourne",
-      "https://id.loc.gov/authorities/names/n86108084.json"
+      "https://id.loc.gov/authorities/names/n86108084.json",
+      "https://x.com/OzzyOsbourne/status/1947731442622206170",
+      "https://rockhall.com/inductees/ozzy-osbourne/"
     ],
     "notabilityScore": 70,
     "region": "west",
+    "deathDate": "2025-07-22",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://x.com/OzzyOsbourne/status/1947731442622206170"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-07"
   },
   {
@@ -278,24 +320,36 @@ export const PEOPLE_12: Person[] = [
     ],
     "category": "scientist",
     "categoryLabel": "Khoa học",
+    "fields": [
+      "earth-environment",
+      "technology-engineering"
+    ],
     "countryCode": "NL",
     "countryName": "Hà Lan",
     "countryFlag": "🇳🇱",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Nhà hóa học người Hà Lan.",
-    "biography": "Paul J. Crutzen là nhà hóa học người Hà Lan, sinh ngày 3 tháng 12 năm 1933.",
+    "shortDescription": "Nhà hóa học người Hà Lan; được ghi nhận với Giải Nobel Hóa học năm 1995.",
+    "biography": "Paul J. Crutzen được ghi nhận với Giải Nobel Hóa học năm 1995.",
     "highlights": [
-      "Sinh ngày 3 tháng 12 năm 1933.",
-      "Lĩnh vực hoạt động: khoa học."
+      "Sinh ngày 3/12/1933.",
+      "Paul J. Crutzen được ghi nhận với Giải Nobel Hóa học năm 1995."
     ],
     "wikidataId": "Q135139",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q135139",
       "https://www.britannica.com/biography/Paul-Crutzen",
-      "https://id.loc.gov/authorities/names/n88060471.json"
+      "https://id.loc.gov/authorities/names/n88060471.json",
+      "https://www.mpic.de/4677594/trauer-um-paul-crutzen",
+      "https://www.nobelprize.org/prizes/chemistry/1995/summary/"
     ],
     "notabilityScore": 70,
     "region": "west",
+    "deathDate": "2021-01-28",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.mpic.de/4677594/trauer-um-paul-crutzen"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-07"
   },
   {
@@ -315,21 +369,23 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Vương quốc Anh",
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Diễn viên người Vương quốc Anh.",
-    "biography": "Michael Bates là diễn viên người Vương quốc Anh, sinh ngày 4 tháng 12 năm 1920.",
+    "shortDescription": "Michael Bates tham gia phim A Clockwork Orange (1971).",
+    "biography": "Michael Bates tham gia phim A Clockwork Orange (1971). Ngày sinh: 4 tháng 12 năm 1920.",
     "highlights": [
       "Sinh ngày 4 tháng 12 năm 1920.",
-      "Lĩnh vực hoạt động: điện ảnh."
+      "Michael Bates tham gia phim A Clockwork Orange (1971)."
     ],
     "wikidataId": "Q1369342",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q1369342",
       "https://id.loc.gov/authorities/names/no97003190.json",
-      "https://www.idref.fr/061785466"
+      "https://www.idref.fr/061785466",
+      "https://www.bfi.org.uk/film/42658f34-6e1f-5712-990e-4a64564d666f/a-clockwork-orange"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "rainer-maria-rilke",
@@ -348,20 +404,28 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Áo",
     "countryFlag": "🇦🇹",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Nhà văn người Áo.",
-    "biography": "Rainer Maria Rilke là nhà văn người Áo, sinh ngày 4 tháng 12 năm 1875.",
+    "shortDescription": "Rainer Maria Rilke hoàn thành Duino Elegies và Sonnets to Orpheus tại Muzot vào tháng 2 năm 1922.",
+    "biography": "Rainer Maria Rilke hoàn thành Duino Elegies và Sonnets to Orpheus tại Muzot vào tháng 2 năm 1922. Ngày sinh: 4 tháng 12 năm 1875.",
     "highlights": [
       "Sinh ngày 4 tháng 12 năm 1875.",
-      "Lĩnh vực hoạt động: văn học."
+      "Rainer Maria Rilke hoàn thành Duino Elegies và Sonnets to Orpheus tại Muzot vào tháng 2 năm 1922."
     ],
     "wikidataId": "Q76483",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q76483",
       "https://www.britannica.com/biography/Rainer-Maria-Rilke",
-      "https://id.loc.gov/authorities/names/n79042183.json"
+      "https://id.loc.gov/authorities/names/n79042183.json",
+      "https://brockhaus.de/ecs/julex/article/rilke-rainer-maria",
+      "https://www.fondationrilke.ch/decouvrir"
     ],
     "notabilityScore": 70,
     "region": "west",
+    "deathDate": "1926-12-29",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/rilke-rainer-maria"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-07"
   },
   {
@@ -381,21 +445,23 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Hoa Kỳ",
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Diễn viên điện ảnh người Hoa Kỳ.",
-    "biography": "Victor French là diễn viên điện ảnh người Hoa Kỳ, sinh ngày 4 tháng 12 năm 1934.",
+    "shortDescription": "AFI Watch liệt kê Victor French trong nhóm đạo diễn của loạt phim Little House on the Prairie.",
+    "biography": "AFI Watch liệt kê Victor French trong nhóm đạo diễn của loạt phim Little House on the Prairie. Ngày sinh: 4 tháng 12 năm 1934.",
     "highlights": [
       "Sinh ngày 4 tháng 12 năm 1934.",
-      "Lĩnh vực hoạt động: điện ảnh."
+      "AFI Watch liệt kê Victor French trong nhóm đạo diễn của loạt phim Little House on the Prairie."
     ],
     "wikidataId": "Q1347274",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q1347274",
       "https://id.loc.gov/authorities/names/nr2004001624.json",
-      "https://www.idref.fr/234239891"
+      "https://www.idref.fr/234239891",
+      "https://watch.afi.com/movie/tv-series-little-house-on-the-prairie"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "carl-ferdinand-cori",
@@ -410,25 +476,36 @@ export const PEOPLE_12: Person[] = [
     ],
     "category": "scientist",
     "categoryLabel": "Khoa học",
+    "fields": [
+      "medicine-health"
+    ],
     "countryCode": "US",
     "countryName": "Hoa Kỳ",
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Nhà hóa sinh người Hoa Kỳ.",
-    "biography": "Carl Ferdinand Cori là nhà hóa sinh người Hoa Kỳ, sinh ngày 5 tháng 12 năm 1896.",
+    "shortDescription": "Nhà hóa sinh người Hoa Kỳ; được ghi nhận với Giải Nobel Sinh lý học hoặc Y học năm 1947.",
+    "biography": "Carl Ferdinand Cori được ghi nhận với Giải Nobel Sinh lý học hoặc Y học năm 1947.",
     "highlights": [
-      "Sinh ngày 5 tháng 12 năm 1896.",
-      "Lĩnh vực hoạt động: khoa học."
+      "Sinh ngày 5/12/1896.",
+      "Carl Ferdinand Cori được ghi nhận với Giải Nobel Sinh lý học hoặc Y học năm 1947."
     ],
     "wikidataId": "Q78501",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q78501",
       "https://id.loc.gov/authorities/names/n85817295.json",
-      "https://www.idref.fr/084570245"
+      "https://www.idref.fr/084570245",
+      "https://www.nobelprize.org/prizes/medicine/1947/summary/",
+      "https://www.nobelprize.org/prizes/medicine/1947/cori-cf/facts/"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "deceased",
+    "deathDate": "1984-10-20",
+    "deathDateSourceUrls": [
+      "https://www.nobelprize.org/prizes/medicine/1947/cori-cf/facts/"
+    ],
+    "deathDatePrecision": "day"
   },
   {
     "id": "cecil-frank-powell",
@@ -447,21 +524,23 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Vương quốc Anh",
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Nhà vật lý người Vương quốc Anh.",
-    "biography": "Cecil Frank Powell là nhà vật lý người Vương quốc Anh, sinh ngày 5 tháng 12 năm 1903.",
+    "shortDescription": "Nhà vật lý người Vương quốc Anh; được ghi nhận với Giải Nobel Vật lý năm 1950.",
+    "biography": "Cecil Frank Powell được ghi nhận với Giải Nobel Vật lý năm 1950.",
     "highlights": [
-      "Sinh ngày 5 tháng 12 năm 1903.",
-      "Lĩnh vực hoạt động: khoa học."
+      "Sinh ngày 5/12/1903.",
+      "Cecil Frank Powell được ghi nhận với Giải Nobel Vật lý năm 1950."
     ],
     "wikidataId": "Q178103",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q178103",
       "https://www.britannica.com/biography/Cecil-Powell",
-      "https://www.idref.fr/164467467"
+      "https://www.idref.fr/164467467",
+      "https://www.nobelprize.org/prizes/physics/1950/summary/"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "fritz-lang",
@@ -480,20 +559,28 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Đức",
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Đạo diễn phim người Đức.",
-    "biography": "Fritz Lang là đạo diễn phim người Đức, sinh ngày 5 tháng 12 năm 1890.",
+    "shortDescription": "Hồ sơ MoMA ghi nhận các phim Metropolis (1927) và You Only Live Once (1937) của Fritz Lang.",
+    "biography": "Hồ sơ MoMA ghi nhận các phim Metropolis (1927) và You Only Live Once (1937) của Fritz Lang. Ngày sinh: 5 tháng 12 năm 1890.",
     "highlights": [
       "Sinh ngày 5 tháng 12 năm 1890.",
-      "Lĩnh vực hoạt động: nghệ thuật."
+      "Hồ sơ MoMA ghi nhận các phim Metropolis (1927) và You Only Live Once (1937) của Fritz Lang."
     ],
     "wikidataId": "Q19504",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q19504",
       "https://www.britannica.com/biography/Fritz-Lang",
-      "https://id.loc.gov/authorities/names/n79043386.json"
+      "https://id.loc.gov/authorities/names/n79043386.json",
+      "https://brockhaus.de/ecs/julex/article/lang-fritz",
+      "https://www.moma.org/artists/32299-fritz-lang"
     ],
     "notabilityScore": 70,
     "region": "west",
+    "deathDate": "1976-08-02",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/lang-fritz"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-07"
   },
   {
@@ -514,10 +601,11 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nghệ sĩ dương cầm người Hoa Kỳ.",
-    "biography": "Dave Brubeck là nghệ sĩ dương cầm người Hoa Kỳ, sinh ngày 6 tháng 12 năm 1920.",
+    "biography": "Trong thời gian phục vụ tại châu Âu, Dave Brubeck lãnh đạo một ban nhạc jazz G.I. hòa nhập.",
     "highlights": [
       "Sinh ngày 6 tháng 12 năm 1920.",
-      "Lĩnh vực hoạt động: âm nhạc."
+      "Lĩnh vực hoạt động: âm nhạc.",
+      "Trong thời gian phục vụ tại châu Âu, Dave Brubeck lãnh đạo một ban nhạc jazz G.I. hòa nhập."
     ],
     "wikidataId": "Q108597",
     "sourceUrls": [
@@ -527,7 +615,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "hugo-peretti",
@@ -547,10 +636,10 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nhạc sĩ sáng tác người Hoa Kỳ.",
-    "biography": "Hugo Peretti là nhạc sĩ sáng tác người Hoa Kỳ, sinh ngày 6 tháng 12 năm 1916.",
+    "biography": "Thư viện Quốc gia Tây Ban Nha ghi nhận trong hồ sơ Hugo Peretti bản ghi âm Wimoweh: The Lion Sleeps Tonight phát hành năm 1971.",
     "highlights": [
       "Sinh ngày 6 tháng 12 năm 1916.",
-      "Lĩnh vực hoạt động: âm nhạc."
+      "Thư viện Quốc gia Tây Ban Nha ghi nhận trong hồ sơ Hugo Peretti bản ghi âm Wimoweh: The Lion Sleeps Tonight phát hành năm 1971."
     ],
     "wikidataId": "Q5934334",
     "sourceUrls": [
@@ -560,7 +649,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "paul-de-man",
@@ -579,21 +669,23 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Hoa Kỳ",
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Triết gia người Hoa Kỳ.",
-    "biography": "Paul de Man là triết gia người Hoa Kỳ, sinh ngày 6 tháng 12 năm 1919.",
+    "shortDescription": "Paul de Man từng đảm nhiệm các vị trí giảng dạy về văn học Pháp và văn học so sánh tại Yale.",
+    "biography": "Paul de Man từng đảm nhiệm các vị trí giảng dạy về văn học Pháp và văn học so sánh tại Yale. Ngày sinh: 6 tháng 12 năm 1919.",
     "highlights": [
       "Sinh ngày 6 tháng 12 năm 1919.",
-      "Lĩnh vực hoạt động: văn học."
+      "Paul de Man từng đảm nhiệm các vị trí giảng dạy về văn học Pháp và văn học so sánh tại Yale."
     ],
     "wikidataId": "Q353754",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q353754",
       "https://www.britannica.com/biography/Paul-de-Man",
-      "https://id.loc.gov/authorities/names/n79060229.json"
+      "https://id.loc.gov/authorities/names/n79060229.json",
+      "https://english.yale.edu/about/history-department"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "eli-wallach",
@@ -613,10 +705,11 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Diễn viên điện ảnh người Hoa Kỳ.",
-    "biography": "Eli Wallach là diễn viên điện ảnh người Hoa Kỳ, sinh ngày 7 tháng 12 năm 1915.",
+    "biography": "Eli Wallach được biết đến với các vai diễn trong phim miền Tây thập niên 1960.",
     "highlights": [
       "Sinh ngày 7 tháng 12 năm 1915.",
-      "Lĩnh vực hoạt động: điện ảnh."
+      "Lĩnh vực hoạt động: điện ảnh.",
+      "Eli Wallach được biết đến với các vai diễn trong phim miền Tây thập niên 1960."
     ],
     "wikidataId": "Q104067",
     "sourceUrls": [
@@ -626,7 +719,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "louis-prima",
@@ -645,21 +739,23 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Hoa Kỳ",
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Nghệ sĩ kèn trumpet người Hoa Kỳ.",
-    "biography": "Louis Prima là nghệ sĩ kèn trumpet người Hoa Kỳ, sinh ngày 7 tháng 12 năm 1910.",
+    "shortDescription": "Louis Prima và Keely Smith thắng Grammy năm 1959 với That Old Black Magic.",
+    "biography": "Louis Prima và Keely Smith thắng Grammy năm 1959 với That Old Black Magic. Ngày sinh: 7 tháng 12 năm 1910.",
     "highlights": [
       "Sinh ngày 7 tháng 12 năm 1910.",
-      "Lĩnh vực hoạt động: âm nhạc."
+      "Louis Prima và Keely Smith thắng Grammy năm 1959 với That Old Black Magic."
     ],
     "wikidataId": "Q367447",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q367447",
       "https://www.britannica.com/biography/Louis-Prima",
-      "https://id.loc.gov/authorities/names/no89016730.json"
+      "https://id.loc.gov/authorities/names/no89016730.json",
+      "https://www.grammy.com/artists/louis-prima/15847/"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "mario-soares",
@@ -674,24 +770,35 @@ export const PEOPLE_12: Person[] = [
     ],
     "category": "politics",
     "categoryLabel": "Chính trị",
+    "fields": [
+      "society-law"
+    ],
     "countryCode": "PT",
     "countryName": "Bồ Đào Nha",
     "countryFlag": "🇵🇹",
     "image": "/people/placeholder.svg",
     "shortDescription": "Chính khách người Bồ Đào Nha.",
-    "biography": "Mário Soares là chính khách người Bồ Đào Nha, sinh ngày 7 tháng 12 năm 1924.",
+    "biography": "Năm 1986, Mário Soares trở thành nguyên thủ dân sự đầu tiên của Bồ Đào Nha được bầu trong 60 năm.",
     "highlights": [
       "Sinh ngày 7 tháng 12 năm 1924.",
-      "Lĩnh vực hoạt động: chính trị."
+      "Lĩnh vực hoạt động: chính trị.",
+      "Năm 1986, Mário Soares trở thành nguyên thủ dân sự đầu tiên của Bồ Đào Nha được bầu trong 60 năm."
     ],
     "wikidataId": "Q156781",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q156781",
       "https://www.britannica.com/biography/Mario-Soares",
-      "https://id.loc.gov/authorities/names/n50016646.json"
+      "https://id.loc.gov/authorities/names/n50016646.json",
+      "https://www.theguardian.com/world/2017/jan/07/mario-soares-former-prime-minister-of-portugal-dies-aged-92"
     ],
     "notabilityScore": 70,
     "region": "west",
+    "deathDate": "2017-01-07",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.theguardian.com/world/2017/jan/07/mario-soares-former-prime-minister-of-portugal-dies-aged-92"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-07"
   },
   {
@@ -707,15 +814,18 @@ export const PEOPLE_12: Person[] = [
     ],
     "category": "literature",
     "categoryLabel": "Văn học",
+    "fields": [
+      "education-thought"
+    ],
     "countryCode": "EE",
     "countryName": "Estonia",
     "countryFlag": "🇪🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Học giả văn học người Estonia.",
-    "biography": "Ants Oras là học giả văn học người Estonia, sinh ngày 8 tháng 12 năm 1900.",
+    "biography": "IdRef mô tả Ants Oras là nhà sử học văn học, nhà phê bình văn học và dịch giả.",
     "highlights": [
       "Sinh ngày 8 tháng 12 năm 1900.",
-      "Lĩnh vực hoạt động: văn học."
+      "IdRef mô tả Ants Oras là nhà sử học văn học, nhà phê bình văn học và dịch giả."
     ],
     "wikidataId": "Q3482381",
     "sourceUrls": [
@@ -725,7 +835,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "aristide-maillol",
@@ -740,15 +851,19 @@ export const PEOPLE_12: Person[] = [
     ],
     "category": "artist",
     "categoryLabel": "Nghệ thuật",
+    "fields": [
+      "design-creative"
+    ],
     "countryCode": "FR",
     "countryName": "Pháp",
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nhà điêu khắc người Pháp.",
-    "biography": "Aristide Maillol là nhà điêu khắc người Pháp, sinh ngày 8 tháng 12 năm 1861.",
+    "biography": "Aristide Maillol là nhà điêu khắc, họa sĩ và nghệ sĩ in người Pháp; các tượng nữ khỏa thân đồ sộ của ông chú trọng khối hình và cấu trúc.",
     "highlights": [
       "Sinh ngày 8 tháng 12 năm 1861.",
-      "Lĩnh vực hoạt động: nghệ thuật."
+      "Lĩnh vực hoạt động: nghệ thuật.",
+      "Aristide Maillol là nhà điêu khắc, họa sĩ và nghệ sĩ in người Pháp; các tượng nữ khỏa thân đồ sộ của ông chú trọng khối hình và cấu trúc."
     ],
     "wikidataId": "Q153920",
     "sourceUrls": [
@@ -758,7 +873,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "georges-melies",
@@ -778,20 +894,22 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Đạo diễn phim người Pháp.",
-    "biography": "Georges Méliès là đạo diễn phim người Pháp, sinh ngày 8 tháng 12 năm 1861.",
+    "biography": "BFI ghi nhận Georges Méliès là nhà tiên phong điện ảnh buổi đầu và phát triển nhiều thủ pháp hiệu ứng hình ảnh như tách màn hình, phối cảnh cưỡng bức và jump-cut.",
     "highlights": [
       "Sinh ngày 8 tháng 12 năm 1861.",
-      "Lĩnh vực hoạt động: nghệ thuật."
+      "BFI ghi nhận Georges Méliès là nhà tiên phong điện ảnh buổi đầu và phát triển nhiều thủ pháp hiệu ứng hình ảnh như tách màn hình, phối cảnh cưỡng bức và jump-cut."
     ],
     "wikidataId": "Q152272",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q152272",
       "https://www.thegeorgesmeliesproject.org/",
-      "https://www.britannica.com/biography/Georges-Melies"
+      "https://www.britannica.com/biography/Georges-Melies",
+      "https://www.bfi.org.uk/features/georges-melies-autobiography"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "emmett-kelly",
@@ -811,10 +929,11 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Diễn viên người Hoa Kỳ.",
-    "biography": "Emmett Kelly là diễn viên người Hoa Kỳ, sinh ngày 9 tháng 12 năm 1898.",
+    "biography": "Emmett Kelly nổi tiếng với tiết mục trong đó ông cố quét một vệt đèn sân khấu nhưng giật mình khi nó xuất hiện lại.",
     "highlights": [
       "Sinh ngày 9 tháng 12 năm 1898.",
-      "Lĩnh vực hoạt động: điện ảnh."
+      "Lĩnh vực hoạt động: điện ảnh.",
+      "Emmett Kelly nổi tiếng với tiết mục trong đó ông cố quét một vệt đèn sân khấu nhưng giật mình khi nó xuất hiện lại."
     ],
     "wikidataId": "Q602329",
     "sourceUrls": [
@@ -824,7 +943,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "joaquin-turina",
@@ -844,10 +964,11 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇪🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nhà soạn nhạc cổ điển người Tây Ban Nha.",
-    "biography": "Joaquin Turina là nhà soạn nhạc cổ điển người Tây Ban Nha, sinh ngày 9 tháng 12 năm 1882.",
+    "biography": "Joaquín Turina góp phần thúc đẩy bản sắc dân tộc trong âm nhạc Tây Ban Nha thế kỷ 20.",
     "highlights": [
       "Sinh ngày 9 tháng 12 năm 1882.",
-      "Lĩnh vực hoạt động: âm nhạc."
+      "Lĩnh vực hoạt động: âm nhạc.",
+      "Joaquín Turina góp phần thúc đẩy bản sắc dân tộc trong âm nhạc Tây Ban Nha thế kỷ 20."
     ],
     "wikidataId": "Q318077",
     "sourceUrls": [
@@ -857,7 +978,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "kirk-douglas",
@@ -877,19 +999,27 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Diễn viên người Hoa Kỳ.",
-    "biography": "Kirk Douglas là diễn viên người Hoa Kỳ, sinh ngày 9 tháng 12 năm 1916.",
+    "biography": "American Film Institute ghi Kirk Douglas sản xuất và đóng vai chính trong Spartacus (1960).",
     "highlights": [
       "Sinh ngày 9 tháng 12 năm 1916.",
-      "Lĩnh vực hoạt động: điện ảnh."
+      "American Film Institute ghi Kirk Douglas sản xuất và đóng vai chính trong Spartacus (1960)."
     ],
     "wikidataId": "Q104027",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q104027",
       "https://www.filmportal.de/person/kirk-douglas_f9e9977b38934c8ba35abfbda7086865",
-      "https://www.britannica.com/biography/Kirk-Douglas"
+      "https://www.britannica.com/biography/Kirk-Douglas",
+      "https://www.huffpost.com/entry/kirk-douglas-dead-died_n_56a7a374e4b0b87beec60c31",
+      "https://www.afi.com/laa/kirk-douglas/"
     ],
     "notabilityScore": 70,
     "region": "west",
+    "deathDate": "2020-02-05",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.huffpost.com/entry/kirk-douglas-dead-died_n_56a7a374e4b0b87beec60c31"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-07"
   },
   {
@@ -905,25 +1035,36 @@ export const PEOPLE_12: Person[] = [
     ],
     "category": "artist",
     "categoryLabel": "Nghệ thuật",
+    "fields": [
+      "design-creative"
+    ],
     "countryCode": "AT",
     "countryName": "Áo",
     "countryFlag": "🇦🇹",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Kiến trúc sư người Áo.",
-    "biography": "Adolf Loos là kiến trúc sư người Áo, sinh ngày 10 tháng 12 năm 1870.",
+    "shortDescription": "MoMA ghi nhận thiết kế Vienna Side Chair của Adolf Loos vào khoảng năm 1898.",
+    "biography": "MoMA ghi nhận thiết kế Vienna Side Chair của Adolf Loos vào khoảng năm 1898. Ngày sinh: 10 tháng 12 năm 1870.",
     "highlights": [
       "Sinh ngày 10 tháng 12 năm 1870.",
-      "Lĩnh vực hoạt động: nghệ thuật."
+      "MoMA ghi nhận thiết kế Vienna Side Chair của Adolf Loos vào khoảng năm 1898."
     ],
     "wikidataId": "Q44323",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q44323",
       "https://collectiedata.hetnieuweinstituut.nl/the-other-interface/knowledge-graph/browser?resource=https%3A%2F%2Fcollectiedata.hetnieuweinstituut.nl%2Fid%2Fpeople%2F11075",
-      "https://www.britannica.com/biography/Adolf-Loos"
+      "https://www.britannica.com/biography/Adolf-Loos",
+      "https://sammlung.mak.at/en/artist/loos-adolf_3845",
+      "https://www.moma.org/artists/3595-adolph-loos"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "deceased",
+    "deathDate": "1933-08-23",
+    "deathDateSourceUrls": [
+      "https://sammlung.mak.at/en/artist/loos-adolf_3845"
+    ],
+    "deathDatePrecision": "day"
   },
   {
     "id": "michael-manley",
@@ -943,10 +1084,11 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇯🇲",
     "image": "/people/placeholder.svg",
     "shortDescription": "Thủ tướng người Jamaica.",
-    "biography": "Michael Manley là thủ tướng người Jamaica, sinh ngày 10 tháng 12 năm 1924.",
+    "biography": "Michael Manley giữ chức Thủ tướng Jamaica ba nhiệm kỳ trong các giai đoạn 1972–1980 và 1989–1992.",
     "highlights": [
       "Sinh ngày 10 tháng 12 năm 1924.",
-      "Lĩnh vực hoạt động: chính trị."
+      "Lĩnh vực hoạt động: chính trị.",
+      "Michael Manley giữ chức Thủ tướng Jamaica ba nhiệm kỳ trong các giai đoạn 1972–1980 và 1989–1992."
     ],
     "wikidataId": "Q365395",
     "sourceUrls": [
@@ -956,7 +1098,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "pierre-louys",
@@ -976,10 +1119,11 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nhà thơ người Pháp.",
-    "biography": "Pierre Louÿs là nhà thơ người Pháp, sinh ngày 10 tháng 12 năm 1870.",
+    "biography": "Tập thơ văn xuôi Chansons de Bilitis (1894) là một trong những tác phẩm nổi tiếng của nhà văn Pháp Pierre Louÿs.",
     "highlights": [
       "Sinh ngày 10 tháng 12 năm 1870.",
-      "Lĩnh vực hoạt động: văn học."
+      "Lĩnh vực hoạt động: văn học.",
+      "Tập thơ văn xuôi Chansons de Bilitis (1894) là một trong những tác phẩm nổi tiếng của nhà văn Pháp Pierre Louÿs."
     ],
     "wikidataId": "Q334958",
     "sourceUrls": [
@@ -989,7 +1133,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "gilbert-roland",
@@ -1008,21 +1153,23 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Hoa Kỳ",
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Diễn viên điện ảnh người Hoa Kỳ.",
-    "biography": "Gilbert Roland là diễn viên điện ảnh người Hoa Kỳ, sinh ngày 11 tháng 12 năm 1905.",
+    "shortDescription": "Gilbert Roland thủ vai Captain Lopez trong The Sea Hawk (1940).",
+    "biography": "Gilbert Roland thủ vai Captain Lopez trong The Sea Hawk (1940). Ngày sinh: 11 tháng 12 năm 1905.",
     "highlights": [
       "Sinh ngày 11 tháng 12 năm 1905.",
-      "Lĩnh vực hoạt động: điện ảnh."
+      "Gilbert Roland thủ vai Captain Lopez trong The Sea Hawk (1940)."
     ],
     "wikidataId": "Q919206",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q919206",
       "https://id.loc.gov/authorities/names/n87896348.json",
-      "https://www.idref.fr/075890895"
+      "https://www.idref.fr/075890895",
+      "https://catalog.afi.com/Catalog/PersonDetails/61449"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "khuat-phuong-anh",
@@ -1042,20 +1189,22 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Vận động viên điền kinh người Việt Nam.",
-    "biography": "Khuất Phương Anh là vận động viên điền kinh người Việt Nam, sinh ngày 11 tháng 12 năm 1997.",
+    "biography": "Kết quả Asian Athletics ghi Khuất Phương Anh xếp thứ sáu vòng 1 nội dung 800 m nữ tại Giải vô địch châu Á 2019.",
     "highlights": [
       "Sinh ngày 11 tháng 12 năm 1997.",
-      "Lĩnh vực hoạt động: thể thao."
+      "Kết quả Asian Athletics ghi Khuất Phương Anh xếp thứ sáu vòng 1 nội dung 800 m nữ tại Giải vô địch châu Á 2019."
     ],
     "wikidataId": "Q96655835",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q96655835",
       "https://worldathletics.org/competition/calendar-results/results/7132009",
-      "https://uzathletics.uz/f/startlists_day4.pdf"
+      "https://uzathletics.uz/f/startlists_day4.pdf",
+      "https://asianathletics.com/results/4/detailed-results"
     ],
     "notabilityScore": 70,
     "region": "vietnam",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "mark-tobey",
@@ -1075,10 +1224,11 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Họa sĩ người Hoa Kỳ.",
-    "biography": "Mark Tobey là họa sĩ người Hoa Kỳ, sinh ngày 11 tháng 12 năm 1890.",
+    "biography": "Mark Tobey thử nghiệm hội họa trừu tượng theo lối thư pháp, có ảnh hưởng đến Abstract Expressionism.",
     "highlights": [
       "Sinh ngày 11 tháng 12 năm 1890.",
-      "Lĩnh vực hoạt động: nghệ thuật."
+      "Lĩnh vực hoạt động: nghệ thuật.",
+      "Mark Tobey thử nghiệm hội họa trừu tượng theo lối thư pháp, có ảnh hưởng đến Abstract Expressionism."
     ],
     "wikidataId": "Q261562",
     "sourceUrls": [
@@ -1088,7 +1238,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "dionne-warwick",
@@ -1107,21 +1258,23 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Hoa Kỳ",
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Ca sĩ người Hoa Kỳ.",
-    "biography": "Dionne Warwick là ca sĩ người Hoa Kỳ, sinh ngày 12 tháng 12 năm 1940.",
+    "shortDescription": "Ca sĩ người Hoa Kỳ; được ghi nhận với Đại sảnh Danh vọng New Jersey năm 2013.",
+    "biography": "Dionne Warwick được ghi nhận với Đại sảnh Danh vọng New Jersey năm 2013.",
     "highlights": [
-      "Sinh ngày 12 tháng 12 năm 1940.",
-      "Lĩnh vực hoạt động: âm nhạc."
+      "Sinh ngày 12/12/1940.",
+      "Dionne Warwick được ghi nhận với Đại sảnh Danh vọng New Jersey năm 2013."
     ],
     "wikidataId": "Q234695",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q234695",
       "https://www.britannica.com/biography/Dionne-Warwick",
-      "https://id.loc.gov/authorities/names/n85058140.json"
+      "https://id.loc.gov/authorities/names/n85058140.json",
+      "https://njhalloffame.org/hall-of-famers/2013-inductees/dionne-warwick/"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "edvard-munch",
@@ -1143,21 +1296,19 @@ export const PEOPLE_12: Person[] = [
     "birthplace": "Løten, Na Uy",
     "image": "/people/edvard-munch.png",
     "shortDescription": "Tác giả bức tranh kiệt tác \"The Scream\".",
-    "biography": "Edvard Munch là họa sĩ người Na Uy, nhân vật tiên phong định hình trường phái biểu hiện (Expressionism) hiện đại phương Tây. Bức tranh nổi tiếng nhất của ông, Tiếng thét (The Scream, 1893), là một trong những biểu tượng nghệ thuật được nhận diện rộng rãi nhất thế giới.",
-    "highlights": [
-      "Sáng tác kiệt tác \"The Scream\" - biểu tượng của nỗi lo âu hiện đại.",
-      "Nhà tiên phong đặt nền móng cho trào lưu Biểu hiện đầu thế kỷ 20.",
-      "Bộ sưu tập tranh đồ sộ được bảo tồn tại Bảo tàng Munch ở Oslo."
-    ],
+    "biography": "Edvard Munch là họa sĩ người Na Uy. Edvard Munch hoạt động hơn 60 năm, là người tiên phong của nghệ thuật Biểu hiện từ đầu thế kỷ XX; Bảo tàng MUNCH ghi một phiên bản màu sáp của The Scream có niên đại 1893.",
+    "highlights": ["Edvard Munch hoạt động hơn 60 năm, là người tiên phong của nghệ thuật Biểu hiện từ đầu thế kỷ XX; Bảo tàng MUNCH ghi một phiên bản màu sáp của The Scream có niên đại 1893."],
     "wikidataId": "Q41406",
     "wikipediaUrl": "https://vi.wikipedia.org/wiki/Edvard_Munch",
-    "sourceUrls": [
-      "https://www.britannica.com/biography/Edvard-Munch",
-      "https://www.munchmuseet.no/en/"
-    ],
+    "sourceUrls": ["https://www.britannica.com/biography/Edvard-Munch", "https://www.munchmuseet.no/en/", "https://www.ngv.vic.gov.au/explore/collection/artist/3949/", "https://www.munch.no/en/edvard-munch/"],
     "notabilityScore": 95,
     "region": "west",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-03",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.ngv.vic.gov.au/explore/collection/artist/3949/"
+    ],
+    "deathDatePrecision": "day"
   },
   {
     "id": "marc-ravalomanana",
@@ -1172,25 +1323,31 @@ export const PEOPLE_12: Person[] = [
     ],
     "category": "politics",
     "categoryLabel": "Chính trị",
+    "fields": [
+      "economics-business",
+      "entrepreneurship"
+    ],
     "countryCode": "MG",
     "countryName": "Madagascar",
     "countryFlag": "🇲🇬",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Chính khách người Madagascar.",
-    "biography": "Marc Ravalomanana là chính khách người Madagascar, sinh ngày 12 tháng 12 năm 1949.",
+    "shortDescription": "Tại kỳ họp Đại hội đồng Liên Hợp Quốc năm 2002, Marc Ravalomanana được giới thiệu là Tổng thống Madagascar.",
+    "biography": "Tại kỳ họp Đại hội đồng Liên Hợp Quốc năm 2002, Marc Ravalomanana được giới thiệu là Tổng thống Madagascar. Ngày sinh: 12 tháng 12 năm 1949.",
     "highlights": [
       "Sinh ngày 12 tháng 12 năm 1949.",
-      "Lĩnh vực hoạt động: chính trị."
+      "Tại kỳ họp Đại hội đồng Liên Hợp Quốc năm 2002, Marc Ravalomanana được giới thiệu là Tổng thống Madagascar."
     ],
     "wikidataId": "Q155554",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q155554",
       "https://www.britannica.com/biography/Marc-Ravalomanana",
-      "https://id.loc.gov/authorities/names/n2003037630.json"
+      "https://id.loc.gov/authorities/names/n2003037630.json",
+      "https://documents.un.org/doc/undoc/gen/n02/588/36/pdf/n0258836.pdf"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "vladimir-shainsky",
@@ -1209,21 +1366,23 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Nga",
     "countryFlag": "🇷🇺",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Nhà soạn nhạc người Nga.",
-    "biography": "Vladimir Shainsky là nhà soạn nhạc người Nga, sinh ngày 12 tháng 12 năm 1925.",
+    "shortDescription": "Đại học Sư phạm Thành phố Moscow ghi Vladimir Shainsky là nhà soạn nhạc nổi tiếng với các tác phẩm thiếu nhi.",
+    "biography": "Đại học Sư phạm Thành phố Moscow ghi Vladimir Shainsky là nhà soạn nhạc nổi tiếng với các tác phẩm thiếu nhi. Ngày sinh: 12 tháng 12 năm 1925.",
     "highlights": [
       "Sinh ngày 12 tháng 12 năm 1925.",
-      "Lĩnh vực hoạt động: âm nhạc."
+      "Đại học Sư phạm Thành phố Moscow ghi Vladimir Shainsky là nhà soạn nhạc nổi tiếng với các tác phẩm thiếu nhi."
     ],
     "wikidataId": "Q674048",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q674048",
       "https://id.loc.gov/authorities/names/n91038390.json",
-      "https://www.idref.fr/243941196"
+      "https://www.idref.fr/243941196",
+      "https://www.mgpu.ru/wp-content/uploads/2020/12/12-dekabrya-SHainskij.pdf"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "carlos-montoya",
@@ -1242,21 +1401,24 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Tây Ban Nha",
     "countryFlag": "🇪🇸",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Nhạc sĩ người Tây Ban Nha.",
-    "biography": "Carlos Montoya là nhạc sĩ người Tây Ban Nha, sinh ngày 13 tháng 12 năm 1903.",
+    "shortDescription": "Smithsonian Folkways ghi nhận album Patterns in Flamenco của Carlos Montoya trong danh mục phát hành năm 1952.",
+    "biography": "Smithsonian Folkways ghi nhận album Patterns in Flamenco của Carlos Montoya trong danh mục phát hành năm 1952. Ngày sinh: 13 tháng 12 năm 1903.",
     "highlights": [
       "Sinh ngày 13 tháng 12 năm 1903.",
-      "Lĩnh vực hoạt động: âm nhạc."
+      "Album Patterns in Flamenco của Carlos Montoya, phát hành năm 1952, ghi nhận phần guitar acoustic của ông.",
+      "Smithsonian Folkways ghi nhận album Patterns in Flamenco của Carlos Montoya trong danh mục phát hành năm 1952."
     ],
     "wikidataId": "Q729306",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q729306",
       "https://id.loc.gov/authorities/names/n82025134.json",
-      "https://www.idref.fr/084007451"
+      "https://www.idref.fr/084007451",
+      "https://folkways.si.edu/country/spain"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "pham-thi-nguyet-anh",
@@ -1275,21 +1437,23 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Việt Nam",
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Vận động viên bóng chuyền người Việt Nam.",
-    "biography": "Phạm Thị Nguyệt Anh là vận động viên bóng chuyền người Việt Nam, sinh ngày 13 tháng 12 năm 1998.",
+    "shortDescription": "Thống kê trận đấu AVC Cup nữ 2022 liệt kê Phạm Thị Nguyệt Anh ở vị trí OH trong đội hình Việt Nam.",
+    "biography": "Thống kê trận đấu AVC Cup nữ 2022 liệt kê Phạm Thị Nguyệt Anh ở vị trí OH trong đội hình Việt Nam. Ngày sinh: 13 tháng 12 năm 1998.",
     "highlights": [
       "Sinh ngày 13 tháng 12 năm 1998.",
-      "Lĩnh vực hoạt động: thể thao."
+      "Thống kê trận đấu AVC Cup nữ 2022 liệt kê Phạm Thị Nguyệt Anh ở vị trí OH trong đội hình Việt Nam."
     ],
     "wikidataId": "Q137214005",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q137214005",
       "https://www.ocagames.com/HZ_Info/AG2022-/resAG2022-/pdf/AG2022-/VVO/AG2022-_VVO_C51_VVOWTEAM6-------------GPC-000200--.pdf",
-      "https://asianvolleyball.net/new/wp-content/uploads/2023/08/Bulletin_No1_Sr.Women_.pdf"
+      "https://asianvolleyball.net/new/wp-content/uploads/2023/08/Bulletin_No1_Sr.Women_.pdf",
+      "https://asianvolleyball.net/new/wp-content/uploads/2022/08/AVC2022CUP-W-DB08-signed.pdf"
     ],
     "notabilityScore": 70,
     "region": "vietnam",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "plinio-correa-de-oliveira",
@@ -1309,10 +1473,10 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇧🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Chính khách người Brazil.",
-    "biography": "Plinio Corrêa de Oliveira là chính khách người Brazil, sinh ngày 13 tháng 12 năm 1908.",
+    "biography": "IdRef ghi nhận Plinio Corrêa de Oliveira là luật sư, giảng viên đại học và nghị sĩ.",
     "highlights": [
       "Sinh ngày 13 tháng 12 năm 1908.",
-      "Lĩnh vực hoạt động: chính trị."
+      "IdRef ghi nhận Plinio Corrêa de Oliveira là luật sư, giảng viên đại học và nghị sĩ."
     ],
     "wikidataId": "Q1237740",
     "sourceUrls": [
@@ -1322,7 +1486,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "b-k-s-iyengar",
@@ -1337,24 +1502,35 @@ export const PEOPLE_12: Person[] = [
     ],
     "category": "history",
     "categoryLabel": "Lịch sử",
+    "fields": [
+      "education-thought"
+    ],
     "countryCode": "IN",
     "countryName": "Ấn Độ",
     "countryFlag": "🇮🇳",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Giáo viên yoga người Ấn Độ.",
-    "biography": "B. K. S. Iyengar là giáo viên yoga người Ấn Độ, sinh ngày 14 tháng 12 năm 1918.",
+    "shortDescription": "Giáo viên yoga người Ấn Độ; được ghi nhận với Padma Vibhushan năm 2014.",
+    "biography": "B. K. S. Iyengar được ghi nhận với Padma Vibhushan năm 2014.",
     "highlights": [
-      "Sinh ngày 14 tháng 12 năm 1918.",
-      "Lĩnh vực hoạt động: lịch sử."
+      "Sinh ngày 14/12/1918.",
+      "B. K. S. Iyengar được ghi nhận với Padma Vibhushan năm 2014."
     ],
     "wikidataId": "Q557185",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q557185",
       "https://www.britannica.com/biography/B-K-S-Iyengar",
-      "https://id.loc.gov/authorities/names/n81012084.json"
+      "https://id.loc.gov/authorities/names/n81012084.json",
+      "http://timesofindia.indiatimes.com/india/Yoga-guru-BKS-Iyengar-passes-away/articleshow/40462779.cms",
+      "https://pib.gov.in/newsite/printrelease.aspx?relid=102735"
     ],
     "notabilityScore": 70,
     "region": "asia",
+    "deathDate": "2014-08-20",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "http://timesofindia.indiatimes.com/india/Yoga-guru-BKS-Iyengar-passes-away/articleshow/40462779.cms"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-07"
   },
   {
@@ -1370,25 +1546,30 @@ export const PEOPLE_12: Person[] = [
     ],
     "category": "scientist",
     "categoryLabel": "Khoa học",
+    "fields": [
+      "technology-engineering"
+    ],
     "countryCode": "DE",
     "countryName": "Đức",
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Nhà vật lý người Đức.",
-    "biography": "Hans von Ohain là nhà vật lý người Đức, sinh ngày 14 tháng 12 năm 1911.",
+    "shortDescription": "Nhà vật lý người Đức; được ghi nhận với Daniel Guggenheim Medal năm 1991.",
+    "biography": "Hans von Ohain được ghi nhận với Daniel Guggenheim Medal năm 1991.",
     "highlights": [
-      "Sinh ngày 14 tháng 12 năm 1911.",
-      "Lĩnh vực hoạt động: khoa học."
+      "Sinh ngày 14/12/1911.",
+      "Hans von Ohain được ghi nhận với Daniel Guggenheim Medal năm 1991."
     ],
     "wikidataId": "Q76541",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q76541",
       "https://id.loc.gov/authorities/names/n2002015741.json",
-      "https://www.idref.fr/061188867"
+      "https://www.idref.fr/061188867",
+      "https://aiaa.org/guggenheim/medal-recipients/"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "thomas-cochrane-10th-earl-of-dundonald",
@@ -1408,20 +1589,22 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Đô đốc hải quân người Vương quốc Anh.",
-    "biography": "Thomas Cochrane, 10th Earl of Dundonald là đô đốc hải quân người Vương quốc Anh, sinh ngày 14 tháng 12 năm 1775.",
+    "biography": "Science Museum Group ghi Thomas Cochrane tổ chức và chỉ huy hải quân Chile năm 1817, rồi phục vụ trong hải quân Brazil từ 1823.",
     "highlights": [
       "Sinh ngày 14 tháng 12 năm 1775.",
-      "Lĩnh vực hoạt động: lịch sử."
+      "Science Museum Group ghi Thomas Cochrane tổ chức và chỉ huy hải quân Chile năm 1817, rồi phục vụ trong hải quân Brazil từ 1823."
     ],
     "wikidataId": "Q334994",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q334994",
       "https://www.britannica.com/biography/Thomas-Cochrane-10th-earl-of-Dundonald",
-      "https://id.loc.gov/authorities/names/n50054509.json"
+      "https://id.loc.gov/authorities/names/n50054509.json",
+      "https://collection.sciencemuseumgroup.org.uk/people/cp136786/thomas-cochrane"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "freeman-dyson",
@@ -1436,24 +1619,35 @@ export const PEOPLE_12: Person[] = [
     ],
     "category": "scientist",
     "categoryLabel": "Khoa học",
+    "fields": [
+      "science-research"
+    ],
     "countryCode": "GB",
     "countryName": "Vương quốc Anh",
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Nhà toán học người Vương quốc Anh.",
-    "biography": "Freeman Dyson là nhà toán học người Vương quốc Anh, sinh ngày 15 tháng 12 năm 1923.",
+    "shortDescription": "Nhà toán học người Vương quốc Anh; được ghi nhận với Oersted Medal năm 1991.",
+    "biography": "Freeman Dyson được ghi nhận với Oersted Medal năm 1991.",
     "highlights": [
-      "Sinh ngày 15 tháng 12 năm 1923.",
-      "Lĩnh vực hoạt động: khoa học."
+      "Sinh ngày 15/12/1923.",
+      "Freeman Dyson được ghi nhận với Oersted Medal năm 1991."
     ],
     "wikidataId": "Q153717",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q153717",
       "https://www.britannica.com/biography/Freeman-Dyson",
-      "https://id.loc.gov/authorities/names/n79056129.json"
+      "https://id.loc.gov/authorities/names/n79056129.json",
+      "https://www.mainepublic.org/post/renowned-mathematician-and-physicist-freeman-dyson-has-died-age-96",
+      "https://www.aapt.org/programs/awards/oersted.cfm"
     ],
     "notabilityScore": 70,
     "region": "west",
+    "deathDate": "2020-02-28",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.mainepublic.org/post/renowned-mathematician-and-physicist-freeman-dyson-has-died-age-96"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-07"
   },
   {
@@ -1473,21 +1667,23 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Vương quốc Anh",
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Nhà vật lý sinh học người Vương quốc Anh.",
-    "biography": "Maurice Wilkins là nhà vật lý sinh học người Vương quốc Anh, sinh ngày 15 tháng 12 năm 1916.",
+    "shortDescription": "Nhà vật lý sinh học người Vương quốc Anh; được ghi nhận với Giải Nobel Sinh lý học hoặc Y học năm 1962.",
+    "biography": "Maurice Wilkins được ghi nhận với Giải Nobel Sinh lý học hoặc Y học năm 1962.",
     "highlights": [
-      "Sinh ngày 15 tháng 12 năm 1916.",
-      "Lĩnh vực hoạt động: khoa học."
+      "Sinh ngày 15/12/1916.",
+      "Maurice Wilkins được ghi nhận với Giải Nobel Sinh lý học hoặc Y học năm 1962."
     ],
     "wikidataId": "Q184659",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q184659",
       "https://www.britannica.com/biography/Maurice-Wilkins",
-      "https://www.idref.fr/081002319"
+      "https://www.idref.fr/081002319",
+      "https://www.nobelprize.org/prizes/medicine/1962/summary/"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "muriel-rukeyser",
@@ -1507,10 +1703,11 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nhà thơ người Hoa Kỳ.",
-    "biography": "Muriel Rukeyser là nhà thơ người Hoa Kỳ, sinh ngày 15 tháng 12 năm 1913.",
+    "biography": "Thơ của Muriel Rukeyser tập trung vào các vấn đề xã hội và chính trị.",
     "highlights": [
       "Sinh ngày 15 tháng 12 năm 1913.",
-      "Lĩnh vực hoạt động: văn học."
+      "Lĩnh vực hoạt động: văn học.",
+      "Thơ của Muriel Rukeyser tập trung vào các vấn đề xã hội và chính trị."
     ],
     "wikidataId": "Q735177",
     "sourceUrls": [
@@ -1520,7 +1717,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "philip-k-dick",
@@ -1540,10 +1738,11 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Tiểu thuyết gia người Hoa Kỳ.",
-    "biography": "Philip K. Dick là tiểu thuyết gia người Hoa Kỳ, sinh ngày 16 tháng 12 năm 1928.",
+    "biography": "Tiểu thuyết và truyện ngắn của Philip K. Dick thường mô tả nhân vật mắc kẹt trong những thế giới ảo tưởng.",
     "highlights": [
       "Sinh ngày 16 tháng 12 năm 1928.",
-      "Lĩnh vực hoạt động: văn học."
+      "Lĩnh vực hoạt động: văn học.",
+      "Tiểu thuyết và truyện ngắn của Philip K. Dick thường mô tả nhân vật mắc kẹt trong những thế giới ảo tưởng."
     ],
     "wikidataId": "Q171091",
     "sourceUrls": [
@@ -1553,7 +1752,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "randall-garrett",
@@ -1572,21 +1772,23 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Hoa Kỳ",
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Nhà văn người Hoa Kỳ.",
-    "biography": "Randall Garrett là nhà văn người Hoa Kỳ, sinh ngày 16 tháng 12 năm 1927.",
+    "shortDescription": "Bài tiểu sử EBSCO nhận diện Lord Darcy là loạt truyện gắn với tác giả Randall Garrett.",
+    "biography": "Bài tiểu sử EBSCO nhận diện Lord Darcy là loạt truyện gắn với tác giả Randall Garrett. Ngày sinh: 16 tháng 12 năm 1927.",
     "highlights": [
       "Sinh ngày 16 tháng 12 năm 1927.",
-      "Lĩnh vực hoạt động: văn học."
+      "Bài tiểu sử EBSCO nhận diện Lord Darcy là loạt truyện gắn với tác giả Randall Garrett."
     ],
     "wikidataId": "Q1193106",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q1193106",
       "https://id.loc.gov/authorities/names/n79060968.json",
-      "https://www.idref.fr/251501639"
+      "https://www.idref.fr/251501639",
+      "https://www.ebsco.com/research-starters/biography/randall-garrett/"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "ruben-nirvi",
@@ -1606,10 +1808,10 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇫🇮",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nhà ngôn ngữ học người Phần Lan.",
-    "biography": "Ruben Nirvi là nhà ngôn ngữ học người Phần Lan, sinh ngày 16 tháng 12 năm 1905.",
+    "biography": "IdRef ghi nhận Ruben Nirvi là nhà ngôn ngữ học, nhà nghiên cứu phương ngữ và giáo sư tại Đại học Helsinki.",
     "highlights": [
       "Sinh ngày 16 tháng 12 năm 1905.",
-      "Lĩnh vực hoạt động: khoa học."
+      "IdRef ghi nhận Ruben Nirvi là nhà ngôn ngữ học, nhà nghiên cứu phương ngữ và giáo sư tại Đại học Helsinki."
     ],
     "wikidataId": "Q11891308",
     "sourceUrls": [
@@ -1619,7 +1821,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "art-neville",
@@ -1638,21 +1841,23 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Hoa Kỳ",
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Ca sĩ người Hoa Kỳ.",
-    "biography": "Art Neville là ca sĩ người Hoa Kỳ, sinh ngày 17 tháng 12 năm 1937.",
+    "shortDescription": "Hồ sơ Grammy ghi nhận chiến thắng năm 1990 của The Neville Brothers với “Healing Chant”; Art Neville được liệt kê trong hồ sơ nghệ sĩ.",
+    "biography": "Hồ sơ Grammy ghi nhận chiến thắng năm 1990 của The Neville Brothers với “Healing Chant”; Art Neville được liệt kê trong hồ sơ nghệ sĩ. Ngày sinh: 17 tháng 12 năm 1937.",
     "highlights": [
       "Sinh ngày 17 tháng 12 năm 1937.",
-      "Lĩnh vực hoạt động: âm nhạc."
+      "Hồ sơ Grammy ghi nhận chiến thắng năm 1990 của The Neville Brothers với “Healing Chant”; Art Neville được liệt kê trong hồ sơ nghệ sĩ."
     ],
     "wikidataId": "Q867591",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q867591",
       "https://id.loc.gov/authorities/names/no96041062.json",
-      "https://authority.bibsys.no/authority/rest/authorities/html/7000493"
+      "https://authority.bibsys.no/authority/rest/authorities/html/7000493",
+      "https://www.grammy.com/artists/art-neville/5836/"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "bernard-hill",
@@ -1667,24 +1872,35 @@ export const PEOPLE_12: Person[] = [
     ],
     "category": "actor",
     "categoryLabel": "Điện ảnh",
+    "fields": [
+      "design-creative"
+    ],
     "countryCode": "GB",
     "countryName": "Vương quốc Anh",
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Diễn viên người Vương quốc Anh.",
-    "biography": "Bernard Hill là diễn viên người Vương quốc Anh, sinh ngày 17 tháng 12 năm 1944.",
+    "biography": "Bernard Hill đóng vai thuyền trưởng Edward Smith trong Titanic và vua Théoden trong loạt phim The Lord of the Rings.",
     "highlights": [
       "Sinh ngày 17 tháng 12 năm 1944.",
-      "Lĩnh vực hoạt động: điện ảnh."
+      "Lĩnh vực hoạt động: điện ảnh.",
+      "Bernard Hill đóng vai thuyền trưởng Edward Smith trong Titanic và vua Théoden trong loạt phim The Lord of the Rings."
     ],
     "wikidataId": "Q310515",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q310515",
       "https://id.loc.gov/authorities/names/no97049398.json",
-      "https://www.idref.fr/055737668"
+      "https://www.idref.fr/055737668",
+      "https://www.bbc.com/news/entertainment-arts-68962192"
     ],
     "notabilityScore": 70,
     "region": "west",
+    "deathDate": "2024-05-05",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.bbc.com/news/entertainment-arts-68962192"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-07"
   },
   {
@@ -1704,21 +1920,23 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Việt Nam",
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Vận động viên cử tạ người Việt Nam.",
-    "biography": "Trịnh Văn Vinh là vận động viên cử tạ người Việt Nam, sinh ngày 17 tháng 12 năm 1995.",
+    "shortDescription": "Kết quả IWF Anaheim 2017 ghi Trịnh Văn Vinh đứng hạng nhất phần cử giật hạng 62 kg với mức 136 kg.",
+    "biography": "Kết quả IWF Anaheim 2017 ghi Trịnh Văn Vinh đứng hạng nhất phần cử giật hạng 62 kg với mức 136 kg. Ngày sinh: 17 tháng 12 năm 1995.",
     "highlights": [
       "Sinh ngày 17 tháng 12 năm 1995.",
-      "Lĩnh vực hoạt động: thể thao."
+      "Kết quả IWF Anaheim 2017 ghi Trịnh Văn Vinh đứng hạng nhất phần cử giật hạng 62 kg với mức 136 kg."
     ],
     "wikidataId": "Q27805415",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q27805415",
       "https://awf.sport/wp-content/uploads/2024/01/Weightlifting_compressed.pdf",
-      "https://iwf.sport/wp-content/uploads/downloads/2017/11/MediaGuide_WorldChampionships_2017.pdf"
+      "https://iwf.sport/wp-content/uploads/downloads/2017/11/MediaGuide_WorldChampionships_2017.pdf",
+      "https://iwf.sport/wp-content/uploads/downloads/2017/12/ResultsBook_Anaheim.pdf"
     ],
     "notabilityScore": 70,
     "region": "vietnam",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "betty-grable",
@@ -1738,10 +1956,11 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Diễn viên điện ảnh người Hoa Kỳ.",
-    "biography": "Betty Grable là diễn viên điện ảnh người Hoa Kỳ, sinh ngày 18 tháng 12 năm 1916.",
+    "biography": "Betty Grable là một trong những nữ diễn viên có doanh thu phòng vé cao nhất thập niên 1940.",
     "highlights": [
       "Sinh ngày 18 tháng 12 năm 1916.",
-      "Lĩnh vực hoạt động: điện ảnh."
+      "Lĩnh vực hoạt động: điện ảnh.",
+      "Betty Grable là một trong những nữ diễn viên có doanh thu phòng vé cao nhất thập niên 1940."
     ],
     "wikidataId": "Q233852",
     "sourceUrls": [
@@ -1751,7 +1970,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "jozef-glemp",
@@ -1771,10 +1991,10 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇵🇱",
     "image": "/people/placeholder.svg",
     "shortDescription": "Linh mục người Ba Lan.",
-    "biography": "Józef Glemp là linh mục người Ba Lan, sinh ngày 18 tháng 12 năm 1929.",
+    "biography": "IdRef ghi nhận Jozef Glemp là Giáo chủ Ba Lan và được phong Hồng y năm 1983.",
     "highlights": [
       "Sinh ngày 18 tháng 12 năm 1929.",
-      "Lĩnh vực hoạt động: lịch sử."
+      "IdRef ghi nhận Jozef Glemp là Giáo chủ Ba Lan và được phong Hồng y năm 1983."
     ],
     "wikidataId": "Q365238",
     "sourceUrls": [
@@ -1784,7 +2004,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "willy-brandt",
@@ -1803,21 +2024,23 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Đức",
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Chính khách người Đức.",
-    "biography": "Willy Brandt là chính khách người Đức, sinh ngày 18 tháng 12 năm 1913.",
+    "shortDescription": "Chính khách người Đức; được ghi nhận với Giải Nobel Hòa bình năm 1971.",
+    "biography": "Willy Brandt được ghi nhận với Giải Nobel Hòa bình năm 1971.",
     "highlights": [
-      "Sinh ngày 18 tháng 12 năm 1913.",
-      "Lĩnh vực hoạt động: chính trị."
+      "Sinh ngày 18/12/1913.",
+      "Willy Brandt được ghi nhận với Giải Nobel Hòa bình năm 1971."
     ],
     "wikidataId": "Q2514",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q2514",
       "https://www.britannica.com/biography/Willy-Brandt",
-      "https://id.loc.gov/authorities/names/n80138336.json"
+      "https://id.loc.gov/authorities/names/n80138336.json",
+      "http://www.nobelprize.org/nobel_prizes/peace/laureates/1971/"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "carter-godwin-woodson",
@@ -1832,25 +2055,30 @@ export const PEOPLE_12: Person[] = [
     ],
     "category": "history",
     "categoryLabel": "Lịch sử",
+    "fields": [
+      "education-thought"
+    ],
     "countryCode": "US",
     "countryName": "Hoa Kỳ",
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Nhà sử học người Hoa Kỳ.",
-    "biography": "Carter Godwin Woodson là nhà sử học người Hoa Kỳ, sinh ngày 19 tháng 12 năm 1875.",
+    "shortDescription": "Nhà sử học người Hoa Kỳ; được ghi nhận với Spingarn Medal năm 1926.",
+    "biography": "Carter Godwin Woodson được ghi nhận với Spingarn Medal năm 1926.",
     "highlights": [
-      "Sinh ngày 19 tháng 12 năm 1875.",
-      "Lĩnh vực hoạt động: lịch sử."
+      "Sinh ngày 19/12/1875.",
+      "Carter Godwin Woodson được ghi nhận với Spingarn Medal năm 1926."
     ],
     "wikidataId": "Q5047158",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q5047158",
       "https://www.britannica.com/biography/Carter-G-Woodson",
-      "https://id.loc.gov/authorities/names/n50048494.json"
+      "https://id.loc.gov/authorities/names/n50048494.json",
+      "https://www.britannica.com/topic/Spingarn-Medal"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "gordon-jackson",
@@ -1869,21 +2097,23 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Vương quốc Anh",
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Diễn viên người Vương quốc Anh.",
-    "biography": "Gordon Jackson là diễn viên người Vương quốc Anh, sinh ngày 19 tháng 12 năm 1923.",
+    "shortDescription": "Gordon Jackson được đề cử giải BAFTA Nam diễn viên Anh năm 1960 cho Yesterday's Enemy.",
+    "biography": "Gordon Jackson được đề cử giải BAFTA Nam diễn viên Anh năm 1960 cho Yesterday's Enemy. Ngày sinh: 19 tháng 12 năm 1923.",
     "highlights": [
       "Sinh ngày 19 tháng 12 năm 1923.",
-      "Lĩnh vực hoạt động: điện ảnh."
+      "Gordon Jackson được đề cử giải BAFTA Nam diễn viên Anh năm 1960 cho Yesterday's Enemy."
     ],
     "wikidataId": "Q728867",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q728867",
       "https://id.loc.gov/authorities/names/n81074399.json",
-      "https://www.idref.fr/195244842"
+      "https://www.idref.fr/195244842",
+      "https://www.bafta.org/awards/search/?award-year=1960&search=british+academy+talent+awards+past+winners"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "michel-tournier",
@@ -1903,10 +2133,11 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nhà văn người Pháp.",
-    "biography": "Michel Tournier là nhà văn người Pháp, sinh ngày 19 tháng 12 năm 1924.",
+    "biography": "Tiểu thuyết đầu tay của Michel Tournier, Vendredi (1967), viết lại câu chuyện Robinson Crusoe.",
     "highlights": [
       "Sinh ngày 19 tháng 12 năm 1924.",
-      "Lĩnh vực hoạt động: văn học."
+      "Lĩnh vực hoạt động: văn học.",
+      "Tiểu thuyết đầu tay của Michel Tournier, Vendredi (1967), viết lại câu chuyện Robinson Crusoe."
     ],
     "wikidataId": "Q160783",
     "sourceUrls": [
@@ -1916,7 +2147,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "kim-ki-duk",
@@ -1936,19 +2168,28 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇰🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nhà sản xuất phim người Hàn Quốc.",
-    "biography": "Kim Ki Duk là nhà sản xuất phim người Hàn Quốc, sinh ngày 20 tháng 12 năm 1960.",
+    "biography": "IdRef ghi nhận Kim Ki-duk là đạo diễn điện ảnh sinh tại Bonghwa, Triều Tiên. Theo Hội đồng Điện ảnh Hàn Quốc, Kim Ki-duk học mỹ thuật tại Paris giai đoạn 1990–1993, thắng cuộc thi kịch bản năm 1995 và ra mắt với phim Crocodile năm 1996.",
     "highlights": [
       "Sinh ngày 20 tháng 12 năm 1960.",
-      "Lĩnh vực hoạt động: nghệ thuật."
+      "IdRef ghi nhận Kim Ki-duk là đạo diễn điện ảnh sinh tại Bonghwa, Triều Tiên.",
+      "Theo Hội đồng Điện ảnh Hàn Quốc, Kim Ki-duk học mỹ thuật tại Paris giai đoạn 1990–1993, thắng cuộc thi kịch bản năm 1995 và ra mắt với phim Crocodile năm 1996."
     ],
     "wikidataId": "Q212990",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q212990",
       "https://id.loc.gov/authorities/names/no2006014342.json",
-      "https://www.idref.fr/09219849X"
+      "https://www.idref.fr/09219849X",
+      "https://www.repubblica.it/spettacoli/cinema/2020/12/11/news/e_morto_kim_ki-duk_regista_di_l_isola_e_ferro_3_per_complicazioni_da_covid19-277924030/",
+      "https://www.koreanfilm.or.kr/eng/films/index/peopleView.jsp?peopleCd=10003696"
     ],
     "notabilityScore": 70,
     "region": "asia",
+    "deathDate": "2020-12-11",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://www.repubblica.it/spettacoli/cinema/2020/12/11/news/e_morto_kim_ki-duk_regista_di_l_isola_e_ferro_3_per_complicazioni_da_covid19-277924030/"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-07"
   },
   {
@@ -1968,21 +2209,23 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Hàn Quốc",
     "countryFlag": "🇰🇷",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Chính khách người Hàn Quốc.",
-    "biography": "Kim Yeong-sam là chính khách người Hàn Quốc, sinh ngày 20 tháng 12 năm 1927.",
+    "shortDescription": "Kim Young-sam giữ cương vị tổng thống thứ 14 của Hàn Quốc từ năm 1993 đến 1998.",
+    "biography": "Kim Young-sam giữ cương vị tổng thống thứ 14 của Hàn Quốc từ năm 1993 đến 1998. Ngày sinh: 20 tháng 12 năm 1927.",
     "highlights": [
       "Sinh ngày 20 tháng 12 năm 1927.",
-      "Lĩnh vực hoạt động: chính trị."
+      "Kim Young-sam giữ cương vị tổng thống thứ 14 của Hàn Quốc từ năm 1993 đến 1998."
     ],
     "wikidataId": "Q165210",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q165210",
       "https://www.britannica.com/biography/Kim-Young-Sam",
-      "https://id.loc.gov/authorities/names/n81019640.json"
+      "https://id.loc.gov/authorities/names/n81019640.json",
+      "https://www.pa.go.kr/online_contents/president/history14.jsp"
     ],
     "notabilityScore": 70,
     "region": "asia",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "le-van-son",
@@ -2001,22 +2244,24 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Việt Nam",
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Cầu thủ bóng đá người Việt Nam.",
-    "biography": "Lê Văn Sơn là cầu thủ bóng đá người Việt Nam, sinh ngày 20 tháng 12 năm 1996.",
+    "shortDescription": "Danh sách cầu thủ V.League 1 năm 2018 của Hoàng Anh Gia Lai ghi nhận Lê Văn Sơn.",
+    "biography": "Danh sách cầu thủ V.League 1 năm 2018 của Hoàng Anh Gia Lai ghi nhận Lê Văn Sơn. Ngày sinh: 20 tháng 12 năm 1996.",
     "highlights": [
       "Sinh ngày 20 tháng 12 năm 1996.",
-      "Lĩnh vực hoạt động: thể thao."
+      "Danh sách cầu thủ V.League 1 năm 2018 của Hoàng Anh Gia Lai ghi nhận Lê Văn Sơn."
     ],
     "wikidataId": "Q19364871",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q19364871",
       "https://www.transfermarkt.com/truong-tuoi-dong-nai-fc/kader/verein/81614/saison_id/2025/plus/1",
       "https://www.sofascore.com/es/football/team/truong-tuoi-binh-phuoc/194090",
-      "https://vpf.vn/player/le-van-son/?sid=154439"
+      "https://vpf.vn/player/le-van-son/?sid=154439",
+      "https://vpf.vn/wp-content/uploads/2018/12/1537347039.pdf"
     ],
     "notabilityScore": 70,
     "region": "vietnam",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "anthony-powell",
@@ -2036,10 +2281,11 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nhà văn người Vương quốc Anh.",
-    "biography": "Anthony Powell là nhà văn người Vương quốc Anh, sinh ngày 21 tháng 12 năm 1905.",
+    "biography": "Anthony Powell nổi tiếng với bộ tiểu thuyết tự truyện và trào phúng 12 tập A Dance to the Music of Time.",
     "highlights": [
       "Sinh ngày 21 tháng 12 năm 1905.",
-      "Lĩnh vực hoạt động: văn học."
+      "Lĩnh vực hoạt động: văn học.",
+      "Anthony Powell nổi tiếng với bộ tiểu thuyết tự truyện và trào phúng 12 tập A Dance to the Music of Time."
     ],
     "wikidataId": "Q573813",
     "sourceUrls": [
@@ -2049,7 +2295,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "arnost-lustig",
@@ -2069,10 +2316,11 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇨🇿",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nhà văn người Séc.",
-    "biography": "Arnošt Lustig là nhà văn người Séc, sinh ngày 21 tháng 12 năm 1926.",
+    "biography": "Arnošt Lustig và một người bạn trốn khỏi đoàn tàu chuyển tù nhân tới Dachau rồi ẩn náu cho đến ngày được giải phóng.",
     "highlights": [
       "Sinh ngày 21 tháng 12 năm 1926.",
-      "Lĩnh vực hoạt động: văn học."
+      "Lĩnh vực hoạt động: văn học.",
+      "Arnošt Lustig và một người bạn trốn khỏi đoàn tàu chuyển tù nhân tới Dachau rồi ẩn náu cho đến ngày được giải phóng."
     ],
     "wikidataId": "Q258715",
     "sourceUrls": [
@@ -2082,7 +2330,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "kurt-waldheim",
@@ -2101,20 +2350,28 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Áo",
     "countryFlag": "🇦🇹",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Chính khách người Áo.",
-    "biography": "Kurt Waldheim là chính khách người Áo, sinh ngày 21 tháng 12 năm 1918.",
+    "shortDescription": "Lưu trữ Liên Hợp Quốc ghi Kurt Waldheim giữ chức Tổng thư ký từ tháng 1 năm 1972 đến tháng 12 năm 1981.",
+    "biography": "Lưu trữ Liên Hợp Quốc ghi Kurt Waldheim giữ chức Tổng thư ký từ tháng 1 năm 1972 đến tháng 12 năm 1981. Ngày sinh: 21 tháng 12 năm 1918.",
     "highlights": [
       "Sinh ngày 21 tháng 12 năm 1918.",
-      "Lĩnh vực hoạt động: chính trị."
+      "Lưu trữ Liên Hợp Quốc ghi Kurt Waldheim giữ chức Tổng thư ký từ tháng 1 năm 1972 đến tháng 12 năm 1981."
     ],
     "wikidataId": "Q1260",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q1260",
       "https://www.britannica.com/biography/Kurt-Waldheim",
-      "https://id.loc.gov/authorities/names/n79063069.json"
+      "https://id.loc.gov/authorities/names/n79063069.json",
+      "http://news.bbc.co.uk/2/hi/europe/6753069.stm",
+      "https://archives.un.org/en/content/secretaries-general"
     ],
     "notabilityScore": 70,
     "region": "west",
+    "deathDate": "2007-06-14",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "http://news.bbc.co.uk/2/hi/europe/6753069.stm"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-07"
   },
   {
@@ -2135,10 +2392,11 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nhà soạn nhạc người Pháp.",
-    "biography": "Edgard Varèse là nhà soạn nhạc người Pháp, sinh ngày 22 tháng 12 năm 1883.",
+    "biography": "Edgard Varèse thành lập International Composers’ Guild năm 1921 và Pan-American Association of Composers năm 1926.",
     "highlights": [
       "Sinh ngày 22 tháng 12 năm 1883.",
-      "Lĩnh vực hoạt động: âm nhạc."
+      "Lĩnh vực hoạt động: âm nhạc.",
+      "Edgard Varèse thành lập International Composers’ Guild năm 1921 và Pan-American Association of Composers năm 1926."
     ],
     "wikidataId": "Q57247",
     "sourceUrls": [
@@ -2148,7 +2406,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "eduard-uspensky",
@@ -2167,21 +2426,24 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Nga",
     "countryFlag": "🇷🇺",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Nhà biên kịch người Nga.",
-    "biography": "Eduard Uspensky là nhà biên kịch người Nga, sinh ngày 22 tháng 12 năm 1937.",
+    "shortDescription": "AST ghi Eduard Uspensky là nhà văn thiếu nhi và nêu Cheburashka trong số các nhân vật do ông sáng tạo.",
+    "biography": "AST ghi Eduard Uspensky là nhà văn thiếu nhi và nêu Cheburashka trong số các nhân vật do ông sáng tạo. Ngày sinh: 22 tháng 12 năm 1937.",
     "highlights": [
       "Sinh ngày 22 tháng 12 năm 1937.",
-      "Lĩnh vực hoạt động: văn học."
+      "AST ghi nhận Eduard Uspensky là nhà văn thiếu nhi và là người tạo ra nhân vật Cheburashka.",
+      "AST ghi Eduard Uspensky là nhà văn thiếu nhi và nêu Cheburashka trong số các nhân vật do ông sáng tạo."
     ],
     "wikidataId": "Q18066",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q18066",
       "https://www.uspens.info:443/",
-      "https://id.loc.gov/authorities/names/n88216074.json"
+      "https://id.loc.gov/authorities/names/n88216074.json",
+      "https://ast.ru/authors/uspenskiy-eduard-nikolaevich-000015607/"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "kenneth-rexroth",
@@ -2201,10 +2463,11 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nhà thơ người Hoa Kỳ.",
-    "biography": "Kenneth Rexroth là nhà thơ người Hoa Kỳ, sinh ngày 22 tháng 12 năm 1905.",
+    "biography": "Kenneth Rexroth tổ chức buổi đọc thơ tại Six Gallery năm 1955, nơi Allen Ginsberg lần đầu trình diễn bài Howl.",
     "highlights": [
       "Sinh ngày 22 tháng 12 năm 1905.",
-      "Lĩnh vực hoạt động: văn học."
+      "Lĩnh vực hoạt động: văn học.",
+      "Kenneth Rexroth tổ chức buổi đọc thơ tại Six Gallery năm 1955, nơi Allen Ginsberg lần đầu trình diễn bài Howl."
     ],
     "wikidataId": "Q516447",
     "sourceUrls": [
@@ -2214,7 +2477,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "charan-singh",
@@ -2234,10 +2498,11 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇮🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Chính khách người Ấn Độ.",
-    "biography": "Charan Singh là chính khách người Ấn Độ, sinh ngày 23 tháng 12 năm 1902.",
+    "biography": "Charan Singh giữ chức Thủ tướng Ấn Độ trong thời gian ngắn từ tháng 7/1979 đến tháng 1/1980.",
     "highlights": [
       "Sinh ngày 23 tháng 12 năm 1902.",
-      "Lĩnh vực hoạt động: chính trị."
+      "Lĩnh vực hoạt động: chính trị.",
+      "Charan Singh giữ chức Thủ tướng Ấn Độ trong thời gian ngắn từ tháng 7/1979 đến tháng 1/1980."
     ],
     "wikidataId": "Q319824",
     "sourceUrls": [
@@ -2247,7 +2512,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "asia",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "helmut-schmidt",
@@ -2267,10 +2533,11 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Chính khách người Đức.",
-    "biography": "Helmut Schmidt là chính khách người Đức, sinh ngày 23 tháng 12 năm 1918.",
+    "biography": "Helmut Schmidt giữ chức Thủ tướng Tây Đức từ năm 1974 đến 1982.",
     "highlights": [
       "Sinh ngày 23 tháng 12 năm 1918.",
-      "Lĩnh vực hoạt động: chính trị."
+      "Lĩnh vực hoạt động: chính trị.",
+      "Helmut Schmidt giữ chức Thủ tướng Tây Đức từ năm 1974 đến 1982."
     ],
     "wikidataId": "Q2516",
     "sourceUrls": [
@@ -2280,6 +2547,12 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
+    "deathDate": "2015-11-10",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/schmidt-helmut"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-07"
   },
   {
@@ -2299,21 +2572,23 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Hoa Kỳ",
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Sĩ quan hải quân người Hoa Kỳ.",
-    "biography": "James Stockdale là sĩ quan hải quân người Hoa Kỳ, sinh ngày 23 tháng 12 năm 1923.",
+    "shortDescription": "James Stockdale được trao Medal of Honor năm 1976.",
+    "biography": "James Stockdale được trao Medal of Honor năm 1976. Ngày sinh: 23 tháng 12 năm 1923.",
     "highlights": [
       "Sinh ngày 23 tháng 12 năm 1923.",
-      "Lĩnh vực hoạt động: chính trị."
+      "James Stockdale được trao Medal of Honor năm 1976."
     ],
     "wikidataId": "Q496264",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q496264",
       "https://id.loc.gov/authorities/names/n81091400.json",
-      "https://www.idref.fr/079443133"
+      "https://www.idref.fr/079443133",
+      "https://usna.edu/NotableGraduates/Bios/1947stockdale.php"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "harry-warren",
@@ -2333,10 +2608,11 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nhà soạn nhạc người Hoa Kỳ.",
-    "biography": "Harry Warren là nhà soạn nhạc người Hoa Kỳ, sinh ngày 24 tháng 12 năm 1893.",
+    "biography": "Harry Warren nhận ba giải Oscar cho ca khúc trong các phim Gold Diggers of 1935, Hello, Frisco, Hello và The Harvey Girls.",
     "highlights": [
       "Sinh ngày 24 tháng 12 năm 1893.",
-      "Lĩnh vực hoạt động: âm nhạc."
+      "Lĩnh vực hoạt động: âm nhạc.",
+      "Harry Warren nhận ba giải Oscar cho ca khúc trong các phim Gold Diggers of 1935, Hello, Frisco, Hello và The Harvey Girls."
     ],
     "wikidataId": "Q938810",
     "sourceUrls": [
@@ -2346,7 +2622,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "herbert-reinecker",
@@ -2366,10 +2643,10 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nhà viết kịch người Đức.",
-    "biography": "Herbert Reinecker là nhà viết kịch người Đức, sinh ngày 24 tháng 12 năm 1914.",
+    "biography": "Hồ sơ IdRef ghi nhận Herbert Reinecker là nhà báo, nhà văn và biên kịch người Đức.",
     "highlights": [
       "Sinh ngày 24 tháng 12 năm 1914.",
-      "Lĩnh vực hoạt động: văn học."
+      "Hồ sơ IdRef ghi nhận Herbert Reinecker là nhà báo, nhà văn và biên kịch người Đức."
     ],
     "wikidataId": "Q77583",
     "sourceUrls": [
@@ -2379,7 +2656,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "pierre-soulages",
@@ -2394,25 +2672,30 @@ export const PEOPLE_12: Person[] = [
     ],
     "category": "artist",
     "categoryLabel": "Nghệ thuật",
+    "fields": [
+      "design-creative"
+    ],
     "countryCode": "FR",
     "countryName": "Pháp",
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Họa sĩ người Pháp.",
-    "biography": "Pierre Soulages là họa sĩ người Pháp, sinh ngày 24 tháng 12 năm 1919.",
+    "shortDescription": "Họa sĩ người Pháp; được ghi nhận với Praemium Imperiale năm 1992.",
+    "biography": "Pierre Soulages được ghi nhận với Praemium Imperiale năm 1992.",
     "highlights": [
-      "Sinh ngày 24 tháng 12 năm 1919.",
-      "Lĩnh vực hoạt động: nghệ thuật."
+      "Sinh ngày 24/12/1919.",
+      "Pierre Soulages được ghi nhận với Praemium Imperiale năm 1992."
     ],
     "wikidataId": "Q708631",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q708631",
       "https://www.britannica.com/biography/Pierre-Soulages",
-      "https://id.loc.gov/authorities/names/n79129089.json"
+      "https://id.loc.gov/authorities/names/n79129089.json",
+      "https://www.praemiumimperiale.org/en/laureate-en/laureates-en"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "barton-maclane",
@@ -2431,21 +2714,23 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Hoa Kỳ",
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Diễn viên điện ảnh người Hoa Kỳ.",
-    "biography": "Barton MacLane là diễn viên điện ảnh người Hoa Kỳ, sinh ngày 25 tháng 12 năm 1902.",
+    "shortDescription": "Barton MacLane thủ vai trung úy Dundy trong The Maltese Falcon (1941).",
+    "biography": "Barton MacLane thủ vai trung úy Dundy trong The Maltese Falcon (1941). Ngày sinh: 25 tháng 12 năm 1902.",
     "highlights": [
       "Sinh ngày 25 tháng 12 năm 1902.",
-      "Lĩnh vực hoạt động: điện ảnh."
+      "Barton MacLane thủ vai trung úy Dundy trong The Maltese Falcon (1941)."
     ],
     "wikidataId": "Q577621",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q577621",
       "https://id.loc.gov/authorities/names/n87916649.json",
-      "https://www.idref.fr/059341920"
+      "https://www.idref.fr/059341920",
+      "https://catalog.afi.com/Catalog/PersonDetails/18282"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "dick-miller",
@@ -2464,20 +2749,28 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Hoa Kỳ",
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Diễn viên người Hoa Kỳ.",
-    "biography": "Dick Miller là diễn viên người Hoa Kỳ, sinh ngày 25 tháng 12 năm 1928.",
+    "shortDescription": "Dick Miller thủ vai Murray Futterman trong Gremlins 2: The New Batch (1990).",
+    "biography": "Dick Miller thủ vai Murray Futterman trong Gremlins 2: The New Batch (1990). Ngày sinh: 25 tháng 12 năm 1928.",
     "highlights": [
       "Sinh ngày 25 tháng 12 năm 1928.",
-      "Lĩnh vực hoạt động: điện ảnh."
+      "Dick Miller thủ vai Murray Futterman trong Gremlins 2: The New Batch (1990)."
     ],
     "wikidataId": "Q1209753",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q1209753",
       "https://id.loc.gov/authorities/names/no2002069916.json",
-      "https://www.idref.fr/071528113"
+      "https://www.idref.fr/071528113",
+      "https://variety.com/2019/film/news/dick-miller-dead-dies-gremlins-terminator-1203124265/",
+      "https://catalog.afi.com/Catalog/PersonDetails/38653"
     ],
     "notabilityScore": 70,
     "region": "west",
+    "deathDate": "2019-01-30",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://variety.com/2019/film/news/dick-miller-dead-dies-gremlins-terminator-1203124265/"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-07"
   },
   {
@@ -2497,21 +2790,23 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Ấn Độ",
     "countryFlag": "🇮🇳",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Nhà sản xuất phim người Ấn Độ.",
-    "biography": "Ismail Merchant là nhà sản xuất phim người Ấn Độ, sinh ngày 25 tháng 12 năm 1936.",
+    "shortDescription": "Ismail Merchant là nhà sản xuất của Merchant Ivory trong hơn 44 năm.",
+    "biography": "Ismail Merchant là nhà sản xuất của Merchant Ivory trong hơn 44 năm. Ngày sinh: 25 tháng 12 năm 1936.",
     "highlights": [
       "Sinh ngày 25 tháng 12 năm 1936.",
-      "Lĩnh vực hoạt động: nghệ thuật."
+      "Ismail Merchant là nhà sản xuất của Merchant Ivory trong hơn 44 năm."
     ],
     "wikidataId": "Q732397",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q732397",
       "https://id.loc.gov/authorities/names/n86001310.json",
-      "https://www.idref.fr/035462809"
+      "https://www.idref.fr/035462809",
+      "https://merchantivory.com/about/ismail-merchant"
     ],
     "notabilityScore": 70,
     "region": "asia",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "alan-king",
@@ -2531,10 +2826,10 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Diễn viên sân khấu người Hoa Kỳ.",
-    "biography": "Alan King là diễn viên sân khấu người Hoa Kỳ, sinh ngày 26 tháng 12 năm 1927.",
+    "biography": "Danh mục BNE liệt kê Alan King trong phần diễn viên của phim I, the Jury (1989).",
     "highlights": [
       "Sinh ngày 26 tháng 12 năm 1927.",
-      "Lĩnh vực hoạt động: điện ảnh."
+      "Danh mục BNE liệt kê Alan King trong phần diễn viên của phim I, the Jury (1989)."
     ],
     "wikidataId": "Q643106",
     "sourceUrls": [
@@ -2544,7 +2839,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "george-dewey",
@@ -2564,10 +2860,11 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Đô đốc hải quân người Hoa Kỳ.",
-    "biography": "George Dewey là đô đốc hải quân người Hoa Kỳ, sinh ngày 26 tháng 12 năm 1837.",
+    "biography": "George Dewey chỉ huy hải quân Hoa Kỳ đánh bại hạm đội Tây Ban Nha trong trận Vịnh Manila năm 1898.",
     "highlights": [
       "Sinh ngày 26 tháng 12 năm 1837.",
-      "Lĩnh vực hoạt động: lịch sử."
+      "Lĩnh vực hoạt động: lịch sử.",
+      "George Dewey chỉ huy hải quân Hoa Kỳ đánh bại hạm đội Tây Ban Nha trong trận Vịnh Manila năm 1898."
     ],
     "wikidataId": "Q467093",
     "sourceUrls": [
@@ -2577,7 +2874,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "john-severin",
@@ -2592,25 +2890,30 @@ export const PEOPLE_12: Person[] = [
     ],
     "category": "artist",
     "categoryLabel": "Nghệ thuật",
+    "fields": [
+      "design-creative"
+    ],
     "countryCode": "US",
     "countryName": "Hoa Kỳ",
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Họa sĩ truyện tranh người Hoa Kỳ.",
-    "biography": "John Severin là họa sĩ truyện tranh người Hoa Kỳ, sinh ngày 26 tháng 12 năm 1921.",
+    "shortDescription": "Họa sĩ truyện tranh người Hoa Kỳ; được ghi nhận với Inkpot Award năm 1998.",
+    "biography": "John Severin được ghi nhận với Inkpot Award năm 1998.",
     "highlights": [
-      "Sinh ngày 26 tháng 12 năm 1921.",
-      "Lĩnh vực hoạt động: nghệ thuật."
+      "Sinh ngày 26/12/1921.",
+      "John Severin được ghi nhận với Inkpot Award năm 1998."
     ],
     "wikidataId": "Q543947",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q543947",
       "https://id.loc.gov/authorities/names/n85069302.json",
-      "https://www.idref.fr/183968492"
+      "https://www.idref.fr/183968492",
+      "https://www.comic-con.org/awards/inkpot"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "louis-pasteur",
@@ -2630,19 +2933,26 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇫🇷",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nhà hóa học người Pháp.",
-    "biography": "Louis Pasteur là nhà hóa học người Pháp, sinh ngày 27 tháng 12 năm 1822.",
+    "biography": "Académie française ghi Louis Pasteur đã tạo ra kỹ thuật thanh trùng và phương pháp Pasteur.",
     "highlights": [
       "Sinh ngày 27 tháng 12 năm 1822.",
-      "Lĩnh vực hoạt động: khoa học."
+      "Académie française ghi Louis Pasteur đã tạo ra kỹ thuật thanh trùng và phương pháp Pasteur."
     ],
     "wikidataId": "Q529",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q529",
       "https://www.academie-francaise.fr/les-immortels/louis-pasteur",
-      "https://www.bnf.fr/fr/bicentenaire-de-la-naissance-de-pasteur-1822-1895"
+      "https://www.bnf.fr/fr/bicentenaire-de-la-naissance-de-pasteur-1822-1895",
+      "https://brockhaus.de/ecs/julex/article/pasteur-louis"
     ],
     "notabilityScore": 70,
     "region": "west",
+    "deathDate": "1895-09-28",
+    "lifeStatus": "deceased",
+    "deathDateSourceUrls": [
+      "https://brockhaus.de/ecs/julex/article/pasteur-louis"
+    ],
+    "deathDatePrecision": "day",
     "verifiedAt": "2026-10-07"
   },
   {
@@ -2658,15 +2968,19 @@ export const PEOPLE_12: Person[] = [
     ],
     "category": "actor",
     "categoryLabel": "Điện ảnh",
+    "fields": [
+      "design-creative"
+    ],
     "countryCode": "DE",
     "countryName": "Đức",
     "countryFlag": "🇩🇪",
     "image": "/people/placeholder.svg",
     "shortDescription": "Diễn viên điện ảnh người Đức.",
-    "biography": "Marlene Dietrich là diễn viên điện ảnh người Đức, sinh ngày 27 tháng 12 năm 1901.",
+    "biography": "Marlene Dietrich xuất hiện trong phim đầu tay Tragedy of Love năm 1923.",
     "highlights": [
       "Sinh ngày 27 tháng 12 năm 1901.",
-      "Lĩnh vực hoạt động: điện ảnh."
+      "Lĩnh vực hoạt động: điện ảnh.",
+      "Marlene Dietrich xuất hiện trong phim đầu tay Tragedy of Love năm 1923."
     ],
     "wikidataId": "Q4612",
     "sourceUrls": [
@@ -2676,7 +2990,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "wilfrid-sheed",
@@ -2696,10 +3011,11 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Tiểu thuyết gia người Hoa Kỳ.",
-    "biography": "Wilfrid Sheed là tiểu thuyết gia người Hoa Kỳ, sinh ngày 27 tháng 12 năm 1930.",
+    "biography": "Wilfrid Sheed viết tiểu thuyết trào phúng, tương phản các giá trị hiện đại thoáng qua với những giá trị truyền thống bền vững.",
     "highlights": [
       "Sinh ngày 27 tháng 12 năm 1930.",
-      "Lĩnh vực hoạt động: văn học."
+      "Lĩnh vực hoạt động: văn học.",
+      "Wilfrid Sheed viết tiểu thuyết trào phúng, tương phản các giá trị hiện đại thoáng qua với những giá trị truyền thống bền vững."
     ],
     "wikidataId": "Q8001987",
     "sourceUrls": [
@@ -2709,7 +3025,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "john-von-neumann",
@@ -2724,25 +3041,30 @@ export const PEOPLE_12: Person[] = [
     ],
     "category": "scientist",
     "categoryLabel": "Khoa học",
+    "fields": [
+      "technology-engineering"
+    ],
     "countryCode": "HU",
     "countryName": "Hungary",
     "countryFlag": "🇭🇺",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Nhà toán học người Hungary.",
-    "biography": "John von Neumann là nhà toán học người Hungary, sinh ngày 28 tháng 12 năm 1903.",
+    "shortDescription": "Nhà toán học người Hungary; được ghi nhận với Huân chương Tự do năm 1956.",
+    "biography": "John von Neumann được ghi nhận với Huân chương Tự do năm 1956.",
     "highlights": [
-      "Sinh ngày 28 tháng 12 năm 1903.",
-      "Lĩnh vực hoạt động: khoa học."
+      "Sinh ngày 28/12/1903.",
+      "John von Neumann được ghi nhận với Huân chương Tự do năm 1956."
     ],
     "wikidataId": "Q17455",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q17455",
       "https://www.britannica.com/biography/John-von-Neumann",
-      "https://id.loc.gov/authorities/names/n50021202.json"
+      "https://id.loc.gov/authorities/names/n50021202.json",
+      "https://www.presidency.ucsb.edu/documents/citation-accompanying-medal-freedom-presented-dr-john-von-neumann"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "lili-elbe",
@@ -2761,21 +3083,28 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Đan Mạch",
     "countryFlag": "🇩🇰",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Họa sĩ người Đan Mạch.",
-    "biography": "Lili Elbe là họa sĩ người Đan Mạch, sinh ngày 28 tháng 12 năm 1882.",
+    "shortDescription": "Bản tiếng Đan Mạch của hồi ký Lili Elbe, Fra Mand til Kvinde, xuất bản năm 1931.",
+    "biography": "Bản tiếng Đan Mạch của hồi ký Lili Elbe, Fra Mand til Kvinde, xuất bản năm 1931. Ngày sinh: 28 tháng 12 năm 1882.",
     "highlights": [
       "Sinh ngày 28 tháng 12 năm 1882.",
-      "Lĩnh vực hoạt động: nghệ thuật."
+      "Bản tiếng Đan Mạch của hồi ký Lili Elbe, Fra Mand til Kvinde, xuất bản năm 1931."
     ],
     "wikidataId": "Q1140735",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q1140735",
       "https://www.britannica.com/biography/Lili-Elbe",
-      "https://id.loc.gov/authorities/names/nr97031091.json"
+      "https://id.loc.gov/authorities/names/nr97031091.json",
+      "https://lilielbe.luc.edu/narrative/publicationHistory.html"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "deceased",
+    "deathDate": "1931-09-13",
+    "deathDateSourceUrls": [
+      "https://lilielbe.luc.edu/narrative/publicationHistory.html"
+    ],
+    "deathDatePrecision": "day"
   },
   {
     "id": "tran-thi-duyen",
@@ -2795,10 +3124,10 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇻🇳",
     "image": "/people/placeholder.svg",
     "shortDescription": "Cầu thủ bóng đá người Việt Nam.",
-    "biography": "Trần Thị Duyên là cầu thủ bóng đá người Việt Nam, sinh ngày 28 tháng 12 năm 2000.",
+    "biography": "Báo cáo Asian Cup nữ 2022 của AFC ghi Trần Thị Duyên trong danh sách tuyển nữ Việt Nam tham dự giải.",
     "highlights": [
       "Sinh ngày 28 tháng 12 năm 2000.",
-      "Lĩnh vực hoạt động: thể thao."
+      "Báo cáo Asian Cup nữ 2022 của AFC ghi Trần Thị Duyên trong danh sách tuyển nữ Việt Nam tham dự giải."
     ],
     "wikidataId": "Q121028378",
     "sourceUrls": [
@@ -2808,7 +3137,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "vietnam",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "albert-pike",
@@ -2828,10 +3158,10 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Nhà văn người Hoa Kỳ.",
-    "biography": "Albert Pike là nhà văn người Hoa Kỳ, sinh ngày 29 tháng 12 năm 1809.",
+    "biography": "Hồ sơ IdRef liệt kê Albert Pike là quân nhân, luật sư, nhà thơ và hội viên Hội Tam Điểm.",
     "highlights": [
       "Sinh ngày 29 tháng 12 năm 1809.",
-      "Lĩnh vực hoạt động: văn học."
+      "Hồ sơ IdRef liệt kê Albert Pike là quân nhân, luật sư, nhà thơ và hội viên Hội Tam Điểm."
     ],
     "wikidataId": "Q366639",
     "sourceUrls": [
@@ -2841,7 +3171,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "roman-vlad",
@@ -2860,21 +3191,23 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Ý",
     "countryFlag": "🇮🇹",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Nhà soạn nhạc người Ý.",
-    "biography": "Roman Vlad là nhà soạn nhạc người Ý, sinh ngày 29 tháng 12 năm 1919.",
+    "shortDescription": "Treccani ghi Roman Vlad là nhạc sĩ và nhà soạn nhạc Romania–Italy (1919–2013).",
+    "biography": "Treccani ghi Roman Vlad là nhạc sĩ và nhà soạn nhạc Romania–Italy (1919–2013). Ngày sinh: 29 tháng 12 năm 1919.",
     "highlights": [
       "Sinh ngày 29 tháng 12 năm 1919.",
-      "Lĩnh vực hoạt động: âm nhạc."
+      "Treccani ghi Roman Vlad là nhạc sĩ và nhà soạn nhạc Romania–Italy (1919–2013)."
     ],
     "wikidataId": "Q2343525",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q2343525",
       "https://id.loc.gov/authorities/names/n84148414.json",
-      "https://www.idref.fr/08075824X"
+      "https://www.idref.fr/08075824X",
+      "https://www.treccani.it/enciclopedia/roman-vlad/"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "william-ewart-gladstone",
@@ -2894,20 +3227,22 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Chính khách người Vương quốc Anh.",
-    "biography": "William Ewart Gladstone là chính khách người Vương quốc Anh, sinh ngày 29 tháng 12 năm 1809.",
+    "biography": "Tiểu sử chính phủ Anh ghi William Ewart Gladstone giữ chức thủ tướng bốn nhiệm kỳ.",
     "highlights": [
       "Sinh ngày 29 tháng 12 năm 1809.",
-      "Lĩnh vực hoạt động: chính trị."
+      "Tiểu sử chính phủ Anh ghi William Ewart Gladstone giữ chức thủ tướng bốn nhiệm kỳ."
     ],
     "wikidataId": "Q160852",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q160852",
       "https://www.britannica.com/biography/William-Ewart-Gladstone",
-      "https://id.loc.gov/authorities/names/n79018726.json"
+      "https://id.loc.gov/authorities/names/n79018726.json",
+      "https://www.gov.uk/government/history/past-prime-ministers/william-ewart-gladstone"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "carol-reed",
@@ -2926,21 +3261,23 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Vương quốc Anh",
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Đạo diễn phim người Vương quốc Anh.",
-    "biography": "Carol Reed là đạo diễn phim người Vương quốc Anh, sinh ngày 30 tháng 12 năm 1906.",
+    "shortDescription": "Carol Reed thắng Oscar Đạo diễn cho Oliver! tại lễ trao giải năm 1969.",
+    "biography": "Carol Reed thắng Oscar Đạo diễn cho Oliver! tại lễ trao giải năm 1969. Ngày sinh: 30 tháng 12 năm 1906.",
     "highlights": [
       "Sinh ngày 30 tháng 12 năm 1906.",
-      "Lĩnh vực hoạt động: nghệ thuật."
+      "Carol Reed thắng Oscar Đạo diễn cho Oliver! tại lễ trao giải năm 1969."
     ],
     "wikidataId": "Q95143",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q95143",
       "https://www.britannica.com/biography/Carol-Reed",
-      "https://id.loc.gov/authorities/names/n85072254.json"
+      "https://id.loc.gov/authorities/names/n85072254.json",
+      "https://www.oscars.org/oscars/ceremonies/embed/1969"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "joseph-bologna",
@@ -2959,21 +3296,23 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Hoa Kỳ",
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Diễn viên người Hoa Kỳ.",
-    "biography": "Joseph Bologna là diễn viên người Hoa Kỳ, sinh ngày 30 tháng 12 năm 1934.",
+    "shortDescription": "Joseph Bologna được đề cử Oscar Kịch bản chuyển thể cho Lovers and Other Strangers tại lễ trao giải năm 1971, cùng Renee Taylor và David Zelag Goodman.",
+    "biography": "Joseph Bologna được đề cử Oscar Kịch bản chuyển thể cho Lovers and Other Strangers tại lễ trao giải năm 1971, cùng Renee Taylor và David Zelag Goodman. Ngày sinh: 30 tháng 12 năm 1934.",
     "highlights": [
       "Sinh ngày 30 tháng 12 năm 1934.",
-      "Lĩnh vực hoạt động: điện ảnh."
+      "Joseph Bologna được đề cử Oscar Kịch bản chuyển thể cho Lovers and Other Strangers tại lễ trao giải năm 1971, cùng Renee Taylor và David Zelag Goodman."
     ],
     "wikidataId": "Q1706646",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q1706646",
       "https://id.loc.gov/authorities/names/n86141935.json",
-      "https://www.idref.fr/203586816"
+      "https://www.idref.fr/203586816",
+      "https://www.oscars.org/oscars/ceremonies/1971/J"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "tu-youyou",
@@ -2988,25 +3327,31 @@ export const PEOPLE_12: Person[] = [
     ],
     "category": "scientist",
     "categoryLabel": "Khoa học",
+    "fields": [
+      "medicine-health",
+      "science-research"
+    ],
     "countryCode": "CN",
     "countryName": "Trung Quốc",
     "countryFlag": "🇨🇳",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Nhà hóa học người Trung Quốc.",
-    "biography": "Tu Youyou là nhà hóa học người Trung Quốc, sinh ngày 30 tháng 12 năm 1930.",
+    "shortDescription": "Nhà hóa học người Trung Quốc; được ghi nhận với Giải Nobel Sinh lý học hoặc Y học năm 2015.",
+    "biography": "Tu Youyou được ghi nhận với Giải Nobel Sinh lý học hoặc Y học năm 2015.",
     "highlights": [
-      "Sinh ngày 30 tháng 12 năm 1930.",
-      "Lĩnh vực hoạt động: khoa học."
+      "Sinh ngày 30/12/1930.",
+      "Tu Youyou được ghi nhận với Giải Nobel Sinh lý học hoặc Y học năm 2015."
     ],
     "wikidataId": "Q462843",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q462843",
       "https://www.britannica.com/biography/Tu-Youyou",
-      "https://id.loc.gov/authorities/names/n2016183752.json"
+      "https://id.loc.gov/authorities/names/n2016183752.json",
+      "http://www.nobelprize.org/nobel_prizes/medicine/laureates/2015/"
     ],
     "notabilityScore": 70,
     "region": "asia",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "alex-ferguson",
@@ -3026,20 +3371,22 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇬🇧",
     "image": "/people/placeholder.svg",
     "shortDescription": "Cầu thủ bóng đá người Vương quốc Anh.",
-    "biography": "Alex Ferguson là cầu thủ bóng đá người Vương quốc Anh, sinh ngày 31 tháng 12 năm 1941.",
+    "biography": "Manchester United bổ nhiệm Alex Ferguson làm huấn luyện viên năm 1986; ông nghỉ vai trò quản lý đội bóng sau mùa 2012/13.",
     "highlights": [
       "Sinh ngày 31 tháng 12 năm 1941.",
-      "Lĩnh vực hoạt động: thể thao."
+      "Manchester United bổ nhiệm Alex Ferguson làm huấn luyện viên năm 1986; ông nghỉ vai trò quản lý đội bóng sau mùa 2012/13."
     ],
     "wikidataId": "Q44980",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q44980",
       "https://www.britannica.com/biography/Alex-Ferguson",
-      "https://id.loc.gov/authorities/names/nb91358803.json"
+      "https://id.loc.gov/authorities/names/nb91358803.json",
+      "https://ir.manutd.com/company-information/history.aspx"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "odetta",
@@ -3059,10 +3406,11 @@ export const PEOPLE_12: Person[] = [
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
     "shortDescription": "Ca sĩ người Hoa Kỳ.",
-    "biography": "Odetta là ca sĩ người Hoa Kỳ, sinh ngày 31 tháng 12 năm 1930.",
+    "biography": "Odetta được nhiều người xem là tiếng hát của phong trào dân quyền Mỹ đầu thập niên 1960.",
     "highlights": [
       "Sinh ngày 31 tháng 12 năm 1930.",
-      "Lĩnh vực hoạt động: âm nhạc."
+      "Lĩnh vực hoạt động: âm nhạc.",
+      "Odetta được nhiều người xem là tiếng hát của phong trào dân quyền Mỹ đầu thập niên 1960."
     ],
     "wikidataId": "Q237633",
     "sourceUrls": [
@@ -3072,7 +3420,8 @@ export const PEOPLE_12: Person[] = [
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "unknown"
   },
   {
     "id": "val-kilmer",
@@ -3091,20 +3440,27 @@ export const PEOPLE_12: Person[] = [
     "countryName": "Hoa Kỳ",
     "countryFlag": "🇺🇸",
     "image": "/people/placeholder.svg",
-    "shortDescription": "Diễn viên điện ảnh người Hoa Kỳ.",
-    "biography": "Val Kilmer là diễn viên điện ảnh người Hoa Kỳ, sinh ngày 31 tháng 12 năm 1959.",
+    "shortDescription": "The Washington Post ghi Top Gun (1986) là phim lớn đầu tiên của Val Kilmer.",
+    "biography": "The Washington Post ghi Top Gun (1986) là phim lớn đầu tiên của Val Kilmer. Ngày sinh: 31 tháng 12 năm 1959.",
     "highlights": [
       "Sinh ngày 31 tháng 12 năm 1959.",
-      "Lĩnh vực hoạt động: điện ảnh."
+      "The Washington Post ghi Top Gun (1986) là phim lớn đầu tiên của Val Kilmer."
     ],
     "wikidataId": "Q191084",
     "sourceUrls": [
       "https://www.wikidata.org/wiki/Q191084",
       "https://id.loc.gov/authorities/names/n92096686.json",
-      "https://www.idref.fr/070672016"
+      "https://www.idref.fr/070672016",
+      "https://www.washingtonpost.com/obituaries/2025/04/02/val-kilmer-batman-top-gun-jim-morrison/"
     ],
     "notabilityScore": 70,
     "region": "west",
-    "verifiedAt": "2026-10-07"
+    "verifiedAt": "2026-10-07",
+    "lifeStatus": "deceased",
+    "deathDate": "2025-04-01",
+    "deathDateSourceUrls": [
+      "https://www.washingtonpost.com/obituaries/2025/04/02/val-kilmer-batman-top-gun-jim-morrison/"
+    ],
+    "deathDatePrecision": "day"
   }
 ];

@@ -81699,7 +81699,14 @@
           "publisher": "Library of Congress Name Authority File"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "https://www.washingtonpost.com/obituaries/2024/11/11/lou-donaldson-jazz-saxophonist-dead/",
+          "publisher": "The Washington Post",
+          "scope": "verified exact death date",
+          "browserExcerpt": "Lou Donaldson, an alto saxophonist with a supple, earthy style who was a key figure in the development of three styles of jazz from the 1940s to the 1960s and sustained a career for almost seven decades, died Nov. 9 at a hospital in Daytona Beach, Florida. He was 98."
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Lou Donaldson",
         "wikidataDescription": "American saxophonist (1926–2024)",
@@ -81736,8 +81743,30 @@
         "countryEvidenceSourceUrls": [
           "https://loudonaldson.com/",
           "https://id.loc.gov/authorities/names/n79008099.json"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Death status and exact date are documented in the retained direct publisher obituary."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2024-11-09",
+      "deathDateSources": [
+        "https://www.washingtonpost.com/obituaries/2024/11/11/lou-donaldson-jazz-saxophonist-dead/"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "https://www.washingtonpost.com/obituaries/2024/11/11/lou-donaldson-jazz-saxophonist-dead/",
+          "publisher": "The Washington Post",
+          "dateText": "Nov. 9",
+          "excerpt": "November 11, 2024. By Matt Schudel. Lou Donaldson, an alto saxophonist with a supple, earthy style who was a key figure in the development of three styles of jazz from the 1940s to the 1960s and sustained a career for almost seven decades, died Nov. 9 at a hospital in Daytona Beach, Florida. He was 98.",
+          "capture": {
+            "status": 200,
+            "excerptSha256": "78632ccab1d34c87e4f7fff9508ef929876d4532f8439e8d77613cb9872dd2c1",
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "browser-direct"
+          }
+        }
+      ]
     },
     {
       "id": "louis-grand-dauphin",
@@ -81780,7 +81809,8 @@
           "https://id.loc.gov/authorities/names/n82116470.json",
           "https://www.idref.fr/032658451"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "menachem-elon",
@@ -81863,7 +81893,29 @@
           "https://id.loc.gov/authorities/names/n84160691.json",
           "https://www.idref.fr/031860362"
         ]
-      }
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2013-02-06",
+      "deathDatePrecision": "day",
+      "deathDateSources": [
+        "https://www.jta.org/2013/02/06/obituaries/menachem-elon-former-supreme-court-justice-and-israel-prize-winner-dies"
+      ],
+      "deathDateEvidence": [
+        {
+          "url": "https://www.jta.org/2013/02/06/obituaries/menachem-elon-former-supreme-court-justice-and-israel-prize-winner-dies",
+          "publisher": "jta.org",
+          "dateText": "February 6, 2013",
+          "excerpt": "ST 1917 Subscribe Search for: Search Toggle US Israel Ideas New York Global Politics Sports Israel Menachem Elon, former Supreme Court justice and Israel Prize winner, dies Rabbi Menachem Elon, a former Israeli Supreme Court justice and an Israel Prize winner, has died. Advertisement By Marcy Oster February 6, 2013 4:24 pm const scriptEl = document.createElement('script'); scriptEl.setAttribute('fetchpriority', 'high'); scriptEl.setAttribute('charset', 'UTF-8'); const scriptURL = new URL('https://trinitymedia.ai/player/trinity/2900019989/?'); scriptURL.searchParams.set('pageURL', 'https://www.jta.org/2013/02/06/obituaries/menachem-elon-former-supreme-court-justice-and-israel-prize-winner",
+          "capture": {
+            "status": 200,
+            "sha256": "ddbfbca18a2e06f9cfbf380300b80a13f738ae3004163a70b89df0e213bcf300",
+            "bytesRead": 164370,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "k-d-lang",
@@ -81936,7 +81988,8 @@
           "https://www.biography.com/musicians/kd-lang",
           "https://www.canadaswalkoffame.com/inductees/k-d-lang/"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "aga-khan-iii",
@@ -81997,7 +82050,8 @@
           "https://www.britannica.com/biography/Aga-Khan-III",
           "https://www.idref.fr/088869660"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "bunny-berigan",
@@ -82060,7 +82114,8 @@
           "https://id.loc.gov/authorities/names/n81131525.json",
           "https://www.idref.fr/156479710"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "monica-vitti",
@@ -82080,7 +82135,14 @@
           "publisher": "Library of Congress Name Authority File"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "https://www.repubblica.it/spettacoli/cinema/2022/02/02/news/monica_vitti-249574730/",
+          "publisher": "www.repubblica.it",
+          "scope": "verified exact death date",
+          "browserExcerpt": "he l'aveva colpita. Ha lavorato con i più grandi: musa di Michelangelo Antonioni, compagna di avventure di Alberto Sordi. Autrice e regista. La notizia data dal marito Roberto Russo 02 Febbraio 2022 Aggiornato 01 Dicembre 2022 alle 16:08 4 minuti di lettura È morta Monica Vitti , talento smisurato del cinema italiano. Aveva compiuto 90 anni a novembre, da anni si era ritir"
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Monica Vitti",
         "wikidataDescription": "Italian actress (1931–2022)",
@@ -82128,8 +82190,46 @@
         "countryEvidenceSourceUrls": [
           "https://www.corriere.it/spettacoli/22_febbraio_02/monica-vitti-morta-99c6aca4-8418-11ec-9b6b-cb049c7004c9.shtml",
           "https://id.loc.gov/authorities/names/no94039915.json"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Active exact Wikidata P570 was confirmed against the retained direct publisher page capture(s)."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2022-02-02",
+      "deathDateSources": [
+        "https://www.repubblica.it/spettacoli/cinema/2022/02/02/news/monica_vitti-249574730/",
+        "https://www.corriere.it/spettacoli/22_febbraio_02/monica-vitti-morta-99c6aca4-8418-11ec-9b6b-cb049c7004c9.shtml"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "https://www.repubblica.it/spettacoli/cinema/2022/02/02/news/monica_vitti-249574730/",
+          "publisher": "www.repubblica.it",
+          "dateText": "2 febbraio 2022",
+          "excerpt": "he l'aveva colpita. Ha lavorato con i più grandi: musa di Michelangelo Antonioni, compagna di avventure di Alberto Sordi. Autrice e regista. La notizia data dal marito Roberto Russo 02 Febbraio 2022 Aggiornato 01 Dicembre 2022 alle 16:08 4 minuti di lettura È morta Monica Vitti , talento smisurato del cinema italiano. Aveva compiuto 90 anni a novembre, da anni si era ritir",
+          "capture": {
+            "status": 200,
+            "sha256": "24e90a107a75e1e245dcae52ae02994ce8cdc0e4471a2893272be74c9347b1ae",
+            "bytesRead": 163811,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        },
+        {
+          "url": "https://www.corriere.it/spettacoli/22_febbraio_02/monica-vitti-morta-99c6aca4-8418-11ec-9b6b-cb049c7004c9.shtml",
+          "publisher": "www.corriere.it",
+          "dateText": "2 febbraio 2022",
+          "excerpt": "one. Ed infine nel 95, anno in cui vince il Leone d’oro alla carriera a Venezia, parla di s� nei gustosi libri autobiografici Il letto � una rosa e Sette sottane , per poi sparire lentamente in un obl�o che n� lei n� il pubblico avrebbero meritato. MONICA VITTI, 3 NOVEMBRE 1931 - 2 FEBBRAIO 2022 � morta Monica Vitti, l’attrice che visse due volte La verit� sulla malattia, ",
+          "capture": {
+            "status": 200,
+            "sha256": "d410018261a2e4aedca3a26908468ace927c63568206bafcc3ea254d2938b6fc",
+            "bytesRead": 167275,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "frits-staal",
@@ -82177,7 +82277,8 @@
           "https://id.loc.gov/authorities/names/n81066911.json",
           "https://www.idref.fr/078533627"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "gerd-muller",
@@ -82225,7 +82326,8 @@
           "https://www.britannica.com/biography/Gerd-Muller",
           "https://www.idref.fr/230160115"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "ismail-abdul-rahman",
@@ -82278,7 +82380,8 @@
           "https://www.britannica.com/biography/Tun-Ismail-bin-Dato-Abdul-Rahman",
           "https://id.loc.gov/authorities/names/n88174652.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "cameron-mitchell",
@@ -82336,7 +82439,48 @@
           "https://id.loc.gov/authorities/names/n86143687.json",
           "https://www.idref.fr/10387416X"
         ]
-      }
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "1994-07-06",
+      "deathDatePrecision": "day",
+      "deathDateSources": [
+        "https://www.latimes.com/archives/la-xpm-1994-07-08-mn-13122-story.html",
+        "https://www.upi.com/Archives/1994/07/08/Actor-Cameron-Mitchell-dead-at-75/1389773640000/"
+      ],
+      "deathDateEvidence": [
+        {
+          "url": "https://www.latimes.com/archives/la-xpm-1994-07-08-mn-13122-story.html",
+          "publisher": "latimes.com",
+          "dateText": "Wednesday night",
+          "excerpt": "s\"} {\"@context\":\"http://schema.org\",\"@type\":\"NewsArticle\",\"isAccessibleForFree\":false,\"articleBody\":\"Cameron Mitchell, veteran character actor perhaps best remembered for his role as Happy in the stage and screen versions of \\\"Death of a Salesman,\\\" has died. He was 75. Mitchell died of lung cancer Wednesday night at his home in Pacific Palisades, his son, Chip, and Mitchell's agent, Ronald Leif of Contemporary Artists Ltd., said Thursday. \\\"A true actor isn't tagged. He isn't a heavy, a comic or a juvenile--he can assume any personality the role demands and play it convincingly. Such a man is Cameron Mitchell,\\\" Hollywood columnist Hedda Hopper wrote in 1952. Mitchell did assume many p",
+          "capture": {
+            "status": 200,
+            "sha256": "d4f4cbbaab73195e7af5645fbc9cb1789f9b17acdc45b5971e60720b1c410050",
+            "bytesRead": 450644,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http+publication-date-weekday"
+          },
+          "articlePublishedAt": "1994-07-08",
+          "dateDerivation": "Bài ngày 8/7/1994 ghi Wednesday night; ngày thứ Tư trong tuần đó là 6/7/1994."
+        },
+        {
+          "url": "https://www.upi.com/Archives/1994/07/08/Actor-Cameron-Mitchell-dead-at-75/1389773640000/",
+          "publisher": "upi.com",
+          "dateText": "Wednesday night",
+          "excerpt": "ollow-us{ flex: 0 0 375px; text-align: right; } article ul li { list-style: disc; padding: 5px 0; } LOS ANGELES, July 8 -- Veteran character actor Cameron Mitchell, who appeared in dozens of movies over the last four decades, has died of lung cancer, it was reported Friday. He was 75. Mitchell died Wednesday night at his seaside home in the Pacific Palisades area of Los Angeles. Mitchell was probably best known for his role, on both the stage and screen, as Happy in the Arthur Miller classic 'Death of a Salesman.' Mitchell performed in nearly every movie genre, from Westerns, such as 'Man in the Saddle,' to war movies, such as 'Okinawa,' to romantic comedies, such as 'How to Marry a Mil",
+          "capture": {
+            "status": 200,
+            "sha256": "2eed09317c43324160c17eaf09cef70ad855d548347afbc36169615158332e18",
+            "bytesRead": 301604,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http+publication-date-weekday"
+          },
+          "articlePublishedAt": "1994-07-08",
+          "dateDerivation": "Bài ngày 8/7/1994 ghi Wednesday night; ngày thứ Tư trong tuần đó là 6/7/1994."
+        }
+      ]
     },
     {
       "id": "joseph-rotblat",
@@ -82380,7 +82524,8 @@
           "https://www.britannica.com/biography/Joseph-Rotblat",
           "https://id.loc.gov/authorities/names/n50049740.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "ike-turner",
@@ -82478,7 +82623,8 @@
           "https://www.britannica.com/biography/Ike-Turner",
           "https://id.loc.gov/authorities/names/n83046563.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "jonny-greenwood",
@@ -82566,7 +82712,8 @@
           "https://www.britannica.com/biography/Jonny-Greenwood",
           "https://id.loc.gov/authorities/names/no2006057100.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "sam-shepard",
@@ -82664,7 +82811,8 @@
           "https://www.britannica.com/biography/Sam-Shepard",
           "https://id.loc.gov/authorities/names/n79151156.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "ho-tan-tai",
@@ -82711,7 +82859,8 @@
           "https://assets.the-afc.com/Corporate_Page/Technical/Technical_Reports/AFC-Asian-Cup-Qatar-2023%E2%84%A2-Technical-Report.pdf",
           "https://www.transfermarkt.com/tan-tai-ho/profil/spieler/508362"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "sally-field",
@@ -82799,7 +82948,8 @@
           "https://www.biography.com/actors/sally-field",
           "https://goldenglobes.com/person/sally-field/"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "maria-shriver",
@@ -82872,7 +83022,8 @@
           "https://www.britannica.com/biography/Maria-Shriver",
           "https://id.loc.gov/authorities/names/n87836514.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "billy-graham",
@@ -82940,7 +83091,8 @@
           "https://www.britannica.com/biography/Billy-Graham",
           "https://memorial.billygraham.org/biography/"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "armstrong-sperry",
@@ -83003,7 +83155,8 @@
           "https://id.loc.gov/authorities/names/n50021167.json",
           "https://www.idref.fr/203037219"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "m-athalie-range",
@@ -83051,7 +83204,8 @@
           "https://wdfjba.wildapricot.org/page-18186",
           "https://id.loc.gov/authorities/names/n80103611.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "bram-stoker",
@@ -83125,7 +83279,8 @@
           "https://www.britannica.com/biography/Bram-Stoker",
           "https://id.loc.gov/authorities/names/n79061014.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "esther-rolle",
@@ -83188,7 +83343,8 @@
           "https://id.loc.gov/authorities/names/n88068076.json",
           "https://www.idref.fr/082294674"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "robert-v-hogg",
@@ -83241,7 +83397,8 @@
           "https://id.loc.gov/authorities/names/n79104650.json",
           "https://www.idref.fr/032739923"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "nguyen-thi-anh-vien",
@@ -83288,7 +83445,8 @@
           "https://www.ocagames.com/orb/theme/books/Jakarta_2018/AG2018_OfficialResultBook_Swimming_v1.0.pdf",
           "https://www.lequipe.fr/fiche/thi-anh-vien-nguyen/28923"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "carl-sagan",
@@ -83406,7 +83564,8 @@
           "https://www.biography.com/scientists/carl-sagan",
           "https://www.britannica.com/biography/Carl-Sagan"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "dietrich-von-choltitz",
@@ -83452,7 +83611,29 @@
           "https://id.loc.gov/authorities/names/n89606793.json",
           "https://www.idref.fr/083703586"
         ]
-      }
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "1966-11-05",
+      "deathDatePrecision": "day",
+      "deathDateSources": [
+        "https://www.deutsche-biographie.de/118669281.html"
+      ],
+      "deathDateEvidence": [
+        {
+          "url": "https://www.deutsche-biographie.de/118669281.html",
+          "publisher": "deutsche-biographie.de",
+          "dateText": "5. November 1966",
+          "excerpt": "1945) , Brücken und Kulturdenkmäler der Stadt zu sprengen, wofür er als „Retter von Paris“ Berühmtheit erlangte. Heute werden Choltitz’ Handeln und Motive differenzierter betrachtet. Lebensdaten Geboren am 9. November 1894 in Wiese-Gräflich (Oberschlesien, heute Łąka Prudnicka, Polen) Gestorben am 5. November 1966 in Baden-Baden Grabstätte Hauptfriedhof in Baden-Baden Konfession römisch-katholisch Dietrich von Choltitz, BArch / Bildarchiv ( InC ) Dietrich von Choltitz, ca. 1941, Quelle: Bundesarchiv, Bild 183-R63712, Fotograf(in): unbekannt. Schließen Lebenslauf 9. November 1894 - Wiese-Gräflich (Oberschlesien, heute Łąka Prudnicka, Polen) seit 1907 - Dresden Schulbesuch Kadettenschule M",
+          "capture": {
+            "status": 200,
+            "sha256": "211a0631298729191c2bdb73362b6a6ca28c8b0add3a1bb8e5c8bfcf308b08da",
+            "bytesRead": 109664,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "arnold-zweig",
@@ -83530,7 +83711,8 @@
           "https://www.britannica.com/biography/Arnold-Zweig",
           "https://id.loc.gov/authorities/names/n50015933.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "patrick-pearse",
@@ -83608,7 +83790,8 @@
           "https://www.britannica.com/biography/Patrick-Henry-Pearse",
           "https://www.idref.fr/032861192"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "sabah",
@@ -83657,7 +83840,8 @@
           "https://id.loc.gov/authorities/names/no00056311.json",
           "https://www.idref.fr/182131319"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "ottavio-piccolomini",
@@ -83703,7 +83887,8 @@
           "https://www.britannica.com/biography/Ottavio-Piccolomini-Pieri-duca-dAmalfi",
           "https://id.loc.gov/authorities/names/n85196889.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "j-h-c-whitehead",
@@ -83751,7 +83936,8 @@
           "https://www.britannica.com/biography/Henry-Whitehead",
           "https://www.idref.fr/078144299"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "jonathan-winters",
@@ -83834,7 +84020,8 @@
           "https://www.britannica.com/biography/Jonathan-Winters",
           "https://id.loc.gov/authorities/names/n87872870.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "tran-thi-thanh-thuy",
@@ -83881,7 +84068,8 @@
           "https://en.volleyballworld.com/volleyball/competitions/avc-women-continental/players/148797",
           "https://www.ocagames.com/HZ_Info/AG2022-/resAG2022-/pdf/AG2022-/VVO/AG2022-_VVO_C51_VVOWTEAM6-------------GPE-000400--.pdf"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "ben-travers",
@@ -83935,7 +84123,8 @@
           "https://www.britannica.com/biography/Ben-Travers",
           "https://id.loc.gov/authorities/names/n50014672.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "benjamin-mkapa",
@@ -83993,7 +84182,29 @@
           "https://id.loc.gov/authorities/names/nb97056679.json",
           "https://www.idref.fr/138887691"
         ]
-      }
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2020-07-23",
+      "deathDatePrecision": "day",
+      "deathDateSources": [
+        "https://mkapafoundation.or.tz/wp-content/uploads/2020/07/BMF-PROFILE-2024.pdf"
+      ],
+      "deathDateEvidence": [
+        {
+          "url": "https://mkapafoundation.or.tz/wp-content/uploads/2020/07/BMF-PROFILE-2024.pdf",
+          "publisher": "Benjamin William Mkapa Foundation",
+          "dateText": "July 23, 2020",
+          "excerpt": "His Excellency Benjamin William Mkapa passed away on July 23, 2020, in Dar es Salaam, Tanzania, at the age of 81.",
+          "capture": {
+            "status": 200,
+            "sha256": "1f1bc98150c1318f8e041e2a9e719da64aa743c1b445f4f85d73a27dd23aa7ff",
+            "bytesRead": 4051321,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "jack-elam",
@@ -84056,7 +84267,8 @@
           "https://id.loc.gov/authorities/names/no91022697.json",
           "https://www.idref.fr/081947038"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "lando-norris",
@@ -84105,7 +84317,8 @@
           "https://es.motorsport.com/driver/lando-norris/290513/",
           "https://id.loc.gov/authorities/names/no2025085604.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "pat-reid",
@@ -84158,7 +84371,8 @@
           "https://id.loc.gov/authorities/names/n85208083.json",
           "https://www.idref.fr/192148443"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "frederick-banting",
@@ -84221,7 +84435,8 @@
           "https://www.nobelprize.org/prizes/medicine/1923/banting/biographical/?print=1",
           "https://www.biographi.ca/en/bio/9247"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "astrid-lindgren",
@@ -84283,8 +84498,31 @@
         "countryEvidenceSourceUrls": [
           "https://brockhaus.de/ecs/julex/article/lindgren-astrid",
           "https://www.astridlindgren.com/se"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Active exact Wikidata P570 was confirmed against the retained direct publisher page capture(s)."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2002-01-28",
+      "deathDateSources": [
+        "https://brockhaus.de/ecs/julex/article/lindgren-astrid"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "https://brockhaus.de/ecs/julex/article/lindgren-astrid",
+          "publisher": "brockhaus.de",
+          "dateText": "28.1.2002",
+          "excerpt": " Werdegang Ihre Werke Astrid Lindgren Vorlesen lassen Drucken Astrid Lindgren war eine schwedische Schriftstellerin, * 14.11.1907 in Näs (bei Vimmerby, Verwaltungsbezirk Kalmar), † 28.1.2002 in Stockholm. Astrid Lindgren ist eine der weltweit bekanntesten Kinderbuchautorinnen. Herkunft und Werdegang Ihre Werke Informationen zum Artikel Quellenangabe Leselineal schlie",
+          "capture": {
+            "status": 200,
+            "sha256": "ce525cacc7e67fda0336f1e0c6aabfce2fafbca18c0ba7fac5239d492e47c770",
+            "bytesRead": 185679,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "william-steig",
@@ -84372,7 +84610,8 @@
           "https://www.williamsteig.com/",
           "https://www.britannica.com/biography/William-Steig"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "august-krogh",
@@ -84440,7 +84679,8 @@
           "https://www.britannica.com/biography/August-Krogh",
           "https://id.loc.gov/authorities/names/n50078898.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "erwin-rommel",
@@ -84495,7 +84735,8 @@
           "https://www.britannica.com/biography/Erwin-Rommel",
           "https://id.loc.gov/authorities/names/n78095764.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "francesco-rosi",
@@ -84515,7 +84756,14 @@
           "publisher": "Library of Congress Name Authority File"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "http://www.repubblica.it/spettacoli/cinema/2015/01/10/news/addio_a_francesco_rosi_il_regista-104660301/",
+          "publisher": "www.repubblica.it",
+          "scope": "verified exact death date",
+          "browserExcerpt": "ile unico e asciutto, al primo cinema d'inchiesta. Lavorò anche a fianco di Luchino Visconti per \"La terra trema\" (1948) e \"Senso\" (1953) e trasformò Gian Maria Volonté in una stella 10 Gennaio 2015 5 minuti di lettura A 92 anni è scomparso un altro dei nostri grandi autori cinematografici, certamente uno dei più coraggiosi: Francesco Rosi, nato a Napoli il 15 novembre 192"
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Francesco Rosi",
         "wikidataDescription": "Italian film director (1922–2015)",
@@ -84558,8 +84806,31 @@
         "countryEvidenceSourceUrls": [
           "https://www.repubblica.it/spettacoli/cinema/2015/01/10/news/addio_a_francesco_rosi_il_regista-104660301/",
           "https://id.loc.gov/authorities/names/n50075860.json"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Active exact Wikidata P570 was confirmed against the retained direct publisher page capture(s)."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2015-01-10",
+      "deathDateSources": [
+        "http://www.repubblica.it/spettacoli/cinema/2015/01/10/news/addio_a_francesco_rosi_il_regista-104660301/"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "http://www.repubblica.it/spettacoli/cinema/2015/01/10/news/addio_a_francesco_rosi_il_regista-104660301/",
+          "publisher": "www.repubblica.it",
+          "dateText": "10 gennaio 2015",
+          "excerpt": "ile unico e asciutto, al primo cinema d'inchiesta. Lavorò anche a fianco di Luchino Visconti per \"La terra trema\" (1948) e \"Senso\" (1953) e trasformò Gian Maria Volonté in una stella 10 Gennaio 2015 5 minuti di lettura A 92 anni è scomparso un altro dei nostri grandi autori cinematografici, certamente uno dei più coraggiosi: Francesco Rosi, nato a Napoli il 15 novembre 192",
+          "capture": {
+            "status": 200,
+            "sha256": "d4db08330ef2f1ae5266dd6e795b7457011c7b82a70df5b382f01500a9af14c9",
+            "bytesRead": 160447,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "jun-kunimura",
@@ -84607,7 +84878,8 @@
           "https://catalogue.bnf.fr/ark:/12148/cb14195095g",
           "https://id.loc.gov/authorities/names/nr2005023031.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "bonnie-greer",
@@ -84627,7 +84899,14 @@
           "publisher": "Library of Congress Name Authority File"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "https://www.theguardian.com/tv-and-radio/2026/sep/17/bonnie-greer-obituary",
+          "publisher": "The Guardian",
+          "scope": "verified exact death date",
+          "browserExcerpt": "Bonnie Greer, writer and broadcaster, born 16 November 1948; died 15 September 2026"
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Bonnie Greer",
         "wikidataDescription": "American-British playwright, novelist and broadcaster (1948–2026)",
@@ -84660,8 +84939,30 @@
         "countryEvidenceSourceUrls": [
           "https://www.theguardian.com/books/2026/sep/16/bonnie-greer-writer-and-cultural-commentator-dies-aged-77?",
           "https://id.loc.gov/authorities/names/n84173873.json"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Death status and exact date are documented in the retained direct publisher obituary."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2026-09-15",
+      "deathDateSources": [
+        "https://www.theguardian.com/tv-and-radio/2026/sep/17/bonnie-greer-obituary"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "https://www.theguardian.com/tv-and-radio/2026/sep/17/bonnie-greer-obituary",
+          "publisher": "The Guardian",
+          "dateText": "died 15 September 2026",
+          "excerpt": "Bonnie Greer, writer and broadcaster, born 16 November 1948; died 15 September 2026",
+          "capture": {
+            "status": 200,
+            "excerptSha256": "4207b3bf5ac6e59312925f357299e4e02e86e12b8abdce1c6a2d4c5c7091ba70",
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "browser-direct"
+          }
+        }
+      ]
     },
     {
       "id": "hubert-sumlin",
@@ -84709,7 +85010,8 @@
           "https://id.loc.gov/authorities/names/n88662549.json",
           "https://www.idref.fr/085267139"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "martin-scorsese",
@@ -84820,7 +85122,8 @@
           "https://www.biography.com/movies-tv/martin-scorsese",
           "https://www.encyclopedia.com/people/literature-and-arts/film-and-television-biographies/martin-scorsese"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "mischa-auer",
@@ -84875,7 +85178,8 @@
           "https://id.loc.gov/authorities/names/n85273920.json",
           "https://www.idref.fr/177353007"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "rock-hudson",
@@ -84953,7 +85257,8 @@
           "https://www.britannica.com/biography/Rock-Hudson",
           "https://id.loc.gov/authorities/names/n85301575.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "george-wald",
@@ -85026,7 +85331,8 @@
           "https://id.loc.gov/authorities/names/n80132034.json",
           "https://www.idref.fr/158977629"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "jacques-maritain",
@@ -85089,7 +85395,8 @@
           "https://www.britannica.com/biography/Jacques-Maritain",
           "https://id.loc.gov/authorities/names/n80067092.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "wyndham-lewis",
@@ -85194,7 +85501,8 @@
           "https://www.britannica.com/biography/Wyndham-Lewis",
           "https://id.loc.gov/authorities/names/n79058744.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "jack-welch",
@@ -85262,7 +85570,8 @@
           "https://id.loc.gov/authorities/names/n92031200.json",
           "https://www.idref.fr/059792841"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "meg-ryan",
@@ -85325,7 +85634,8 @@
           "https://www.britannica.com/biography/Meg-Ryan",
           "https://id.loc.gov/authorities/names/n91050148.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "ted-turner",
@@ -85345,7 +85655,14 @@
           "publisher": "Library of Congress Name Authority File"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "https://www.lemonde.fr/disparitions/article/2026/05/06/ted-turner-createur-de-cnn-magnat-des-medias-et-vainqueur-de-la-coupe-de-l-america-est-mort_6686127_3382.html",
+          "publisher": "www.lemonde.fr",
+          "scope": "verified exact death date",
+          "browserExcerpt": "ons unies, est mort, mercredi, à 87 ans. Il avait lancé à Atlanta, en 1980, Cable News Network, première chaîne d’informations en continu, à laquelle personne ne croyait. Par Julien Laroche-Joubert Publié le 06 mai 2026 à 16h23, modifié le 08 mai 2026 à 19h20 Temps de Lecture 5 min. Read in English Article réservé aux abonnés Lire plus tard Mettre Le Monde en favori s"
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Ted Turner",
         "wikidataDescription": "American media mogul (1938–2026)",
@@ -85402,8 +85719,31 @@
         "countryEvidenceSourceUrls": [
           "https://www.britannica.com/money/Ted-Turner",
           "https://id.loc.gov/authorities/names/n81028923.json"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Active exact Wikidata P570 was confirmed against the retained direct publisher page capture(s)."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2026-05-06",
+      "deathDateSources": [
+        "https://www.lemonde.fr/disparitions/article/2026/05/06/ted-turner-createur-de-cnn-magnat-des-medias-et-vainqueur-de-la-coupe-de-l-america-est-mort_6686127_3382.html"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "https://www.lemonde.fr/disparitions/article/2026/05/06/ted-turner-createur-de-cnn-magnat-des-medias-et-vainqueur-de-la-coupe-de-l-america-est-mort_6686127_3382.html",
+          "publisher": "www.lemonde.fr",
+          "dateText": "6 mai 2026",
+          "excerpt": "ons unies, est mort, mercredi, à 87 ans. Il avait lancé à Atlanta, en 1980, Cable News Network, première chaîne d’informations en continu, à laquelle personne ne croyait. Par Julien Laroche-Joubert Publié le 06 mai 2026 à 16h23, modifié le 08 mai 2026 à 19h20 Temps de Lecture 5 min. Read in English Article réservé aux abonnés Lire plus tard Mettre Le Monde en favori s",
+          "capture": {
+            "status": 200,
+            "sha256": "a023ed991fba78a074c0145e1e5297b8ecd32aeecac59e350c848b93d43cfbca",
+            "bytesRead": 322679,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "nguyen-thuy-linh",
@@ -85455,7 +85795,8 @@
           "https://badmintonasia.org/wp-content/uploads/2023/12/ar-2017.pdf",
           "https://www.ocagames.com/HZ_Info/AG2022-/en/results/badminton/athlete-profile-n2029884-nguyen-thuy-linh.htm"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "wilfrid-laurier",
@@ -85518,7 +85859,8 @@
           "https://www.britannica.com/biography/Wilfrid-Laurier",
           "https://id.loc.gov/authorities/names/n50039937.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "alistair-cooke",
@@ -85577,7 +85919,8 @@
           "https://www.britannica.com/biography/Alistair-Cooke",
           "https://id.loc.gov/authorities/names/n79089555.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "ingrid-pitt",
@@ -85631,7 +85974,8 @@
           "https://id.loc.gov/authorities/names/n87811077.json",
           "https://www.idref.fr/078882761"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "goldie-hawn",
@@ -85699,7 +86043,8 @@
           "https://www.britannica.com/biography/Goldie-Hawn",
           "https://id.loc.gov/authorities/names/n81094122.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "harold-ramis",
@@ -85782,7 +86127,8 @@
           "https://id.loc.gov/authorities/names/n86146100.json",
           "https://www.idref.fr/078618614"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "andrew-huxley",
@@ -85802,7 +86148,14 @@
           "publisher": "Encyclopaedia Britannica"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "http://www.guardian.co.uk/science/2012/may/31/sir-andrew-huxley",
+          "publisher": "www.guardian.co.uk",
+          "scope": "verified exact death date",
+          "browserExcerpt": " survived by their son, Stewart, and five daughters, Janet, Camilla, Eleanor, Henrietta and Clare. Andrew Fielding Huxley, physiologist and biophysicist, born 22 November 1917; died 30 May 2012 Anthony Tucker died in 1998 Explore more on these topics Neuroscience Medical research Biology Royal Society People in science obituaries Share Reuse this content Most viewed Mo"
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Andrew Huxley",
         "wikidataDescription": "English physiologist and biophysicist (1917–2012)",
@@ -85844,8 +86197,31 @@
         "countryEvidenceSourceUrls": [
           "https://www.theguardian.com/science/2012/may/31/sir-andrew-huxley",
           "https://www.britannica.com/biography/Andrew-Fielding-Huxley"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Active exact Wikidata P570 was confirmed against the retained direct publisher page capture(s)."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2012-05-30",
+      "deathDateSources": [
+        "http://www.guardian.co.uk/science/2012/may/31/sir-andrew-huxley"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "http://www.guardian.co.uk/science/2012/may/31/sir-andrew-huxley",
+          "publisher": "www.guardian.co.uk",
+          "dateText": "30 may 2012",
+          "excerpt": " survived by their son, Stewart, and five daughters, Janet, Camilla, Eleanor, Henrietta and Clare. Andrew Fielding Huxley, physiologist and biophysicist, born 22 November 1917; died 30 May 2012 Anthony Tucker died in 1998 Explore more on these topics Neuroscience Medical research Biology Royal Society People in science obituaries Share Reuse this content Most viewed Mo",
+          "capture": {
+            "status": 200,
+            "sha256": "b6734ba8a8a007b257c31654d54ac06e8b746ca76dcb605d18593347dcb7df8e",
+            "bytesRead": 314462,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "rodney-dangerfield",
@@ -85923,7 +86299,8 @@
           "http://www.rodney.com",
           "https://www.britannica.com/biography/Rodney-Dangerfield"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "gunther-schuller",
@@ -85943,7 +86320,14 @@
           "publisher": "Library of Congress Name Authority File"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "http://slippedisc.com/2015/06/just-in-a-great-music-personality-has-died/",
+          "publisher": "slippedisc.com",
+          "scope": "verified exact death date",
+          "browserExcerpt": "Opera Top Artist Comment Of The Day About Norman Lebrecht Contact Subscribe Login Subscribe Share this article: Just in: A towering music personality has died main norman lebrecht June 21, 2015 We are saddened to learn of the death of Gunther Schuller, aged 89. Christopher O’Reilly reports that he died at 7.55 on Sunday morning, Beethoven’s Ode to Joy playing by his beds"
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Gunther Schuller",
         "wikidataDescription": "American composer and conductor (1925–2015)",
@@ -86020,8 +86404,31 @@
         "countryEvidenceSourceUrls": [
           "https://www.britannica.com/biography/Gunther-Schuller",
           "https://id.loc.gov/authorities/names/n81016917.json"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Active exact Wikidata P570 was confirmed against the retained direct publisher page capture(s)."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2015-06-21",
+      "deathDateSources": [
+        "http://slippedisc.com/2015/06/just-in-a-great-music-personality-has-died/"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "http://slippedisc.com/2015/06/just-in-a-great-music-personality-has-died/",
+          "publisher": "slippedisc.com",
+          "dateText": "June 21, 2015",
+          "excerpt": "Opera Top Artist Comment Of The Day About Norman Lebrecht Contact Subscribe Login Subscribe Share this article: Just in: A towering music personality has died main norman lebrecht June 21, 2015 We are saddened to learn of the death of Gunther Schuller, aged 89. Christopher O’Reilly reports that he died at 7.55 on Sunday morning, Beethoven’s Ode to Joy playing by his beds",
+          "capture": {
+            "status": 200,
+            "sha256": "c376a13b7db9daf416988e054cb979e9937930d38cd8edc4bf8f71515ec515f2",
+            "bytesRead": 196838,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "p-k-page",
@@ -86089,7 +86496,8 @@
           "https://id.loc.gov/authorities/names/n50051858.json",
           "https://www.idref.fr/12996574X"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "victor-jory",
@@ -86162,7 +86570,8 @@
           "https://id.loc.gov/authorities/names/n85151828.json",
           "https://www.idref.fr/074527851"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "wilson-tucker",
@@ -86235,7 +86644,8 @@
           "https://www.printsations.com/WTucker.htm",
           "https://id.loc.gov/authorities/names/n79015706.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "arundhati-roy",
@@ -86328,7 +86738,8 @@
           "https://www.britannica.com/biography/Arundhati-Roy",
           "https://id.loc.gov/authorities/names/n89250447.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "donald-duck-dunn",
@@ -86391,7 +86802,8 @@
           "https://id.loc.gov/authorities/names/no00002625.json",
           "https://www.idref.fr/161118836"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "emir-kusturica",
@@ -86486,7 +86898,8 @@
           "https://www.britannica.com/biography/Emir-Kusturica",
           "https://id.loc.gov/authorities/names/nr97000706.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "pham-nhu-phuong",
@@ -86495,7 +86908,7 @@
       "countryCode": "VN",
       "countryName": "Việt Nam",
       "category": "athlete",
-      "occupation": "Vận động viên thể dục nghệ thuật",
+      "occupation": "Vận động viên thể dục dụng cụ",
       "dobSources": [
         {
           "url": "https://thegymter.net/pham-nhu-phuong/",
@@ -86510,7 +86923,6 @@
           "countryProofUrl": "https://oca.asia/council/oca-headquarters/"
         }
       ],
-      "supportingSources": [],
       "identityEvidence": {
         "wikidataLabel": "Phạm Như Phương",
         "wikidataDescription": "Vietnamese former artistic gymnast",
@@ -86519,21 +86931,22 @@
         "candidateCountryQids": [
           "Q881"
         ],
-        "selectedOccupation": "Vận động viên thể dục nghệ thuật",
+        "selectedOccupation": "Vận động viên thể dục dụng cụ",
         "selectedOccupationClaimQid": "Q13381572",
         "candidateOccupationTerms": [
           {
             "qid": "Q13381572",
             "english": "artistic gymnast",
-            "vietnamese": "vận động viên thể dục nghệ thuật"
+            "vietnamese": "vận động viên thể dục dụng cụ"
           }
         ],
-        "categoryRationale": "Category 'athlete' and occupation 'Vận động viên thể dục nghệ thuật' were mapped from Wikidata P106 claims and the English description; only the selected role is shown in the profile.",
+        "categoryRationale": "Category athlete and occupation vận động viên thể dục dụng cụ are supported by the Olympic Council of Asia artistic-gymnastics profile and event results.",
         "countryEvidenceSourceUrls": [
           "https://thegymter.net/pham-nhu-phuong/",
           "https://www.ocagames.com/HZ_Info/AG2022-/en/results/artistic-gymnastics/athlete-profile-n2029024-pham-nhu-phuong.htm"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "helen-gahagan-douglas",
@@ -86591,7 +87004,8 @@
           "https://id.loc.gov/authorities/names/n81090308.json",
           "https://www.idref.fr/144460203"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "john-xxiii",
@@ -86666,7 +87080,8 @@
           "https://www.britannica.com/biography/Saint-John-XXIII",
           "https://id.loc.gov/authorities/names/n79018752.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "tina-turner",
@@ -86686,7 +87101,14 @@
           "publisher": "Library of Congress Name Authority File"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "https://nyheder.tv2.dk/udland/2023-05-24-tina-turner-er-doed",
+          "publisher": "nyheder.tv2.dk",
+          "scope": "verified exact death date",
+          "browserExcerpt": "ful friend Tina Turner. She was truly an enormously talented performer and singer. She was inspiring, warm, funny and generous. She helped me so much when I was young and I will never forget her. pic.twitter.com/TkG5VrdxXO — Mick Jagger (@MickJagger) May 24, 2023 På samme medie skriver sangerinden Diana Ross: - Chokeret. Bedrøvet. Sender kondolencer til Tina Turners fam"
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Tina Turner",
         "wikidataDescription": "American-born Swiss singer and songwriter (1939–2023)",
@@ -86749,8 +87171,31 @@
         "countryEvidenceSourceUrls": [
           "https://www.britannica.com/biography/Tina-Turner",
           "https://id.loc.gov/authorities/names/n83046564.json"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Active exact Wikidata P570 was confirmed against the retained direct publisher page capture(s)."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2023-05-24",
+      "deathDateSources": [
+        "https://nyheder.tv2.dk/udland/2023-05-24-tina-turner-er-doed"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "https://nyheder.tv2.dk/udland/2023-05-24-tina-turner-er-doed",
+          "publisher": "nyheder.tv2.dk",
+          "dateText": "May 24, 2023",
+          "excerpt": "ful friend Tina Turner. She was truly an enormously talented performer and singer. She was inspiring, warm, funny and generous. She helped me so much when I was young and I will never forget her. pic.twitter.com/TkG5VrdxXO — Mick Jagger (@MickJagger) May 24, 2023 På samme medie skriver sangerinden Diana Ross: - Chokeret. Bedrøvet. Sender kondolencer til Tina Turners fam",
+          "capture": {
+            "status": 200,
+            "sha256": "673ae983558229f85b7090100715f41d12b0f58cf6a2627c392a07f728b4c176",
+            "bytesRead": 355637,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "adrianus-johannes-simonis",
@@ -86770,7 +87215,14 @@
           "publisher": "IdRef"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "https://www.nd.nl/geloof/katholiekinside/990297/kardinaal-simonis-op-88-jarige-leeftijd-overleden",
+          "publisher": "www.nd.nl",
+          "scope": "verified exact death date",
+          "browserExcerpt": "is in Sassenheim de voormalige bisschop van Rotterdam en aartsbisschop van Utrecht, kardinaal Adrianus Johannes Simonis op 88-jarige leeftijd overleden. Hendro Munsterman woensdag 2 september 2020, 00:50 aangepast 21:58 Kardinaal Adrianus Simonis tijdens zijn laatste plechtige viering van de Eucharistie als aartsbisschop van Utrecht in 2007. beeld anp / Robin Utrecht Zie me"
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Adrianus Johannes Simonis",
         "wikidataDescription": "Catholic cardinal (1931-2020)",
@@ -86807,8 +87259,31 @@
         "countryEvidenceSourceUrls": [
           "https://id.loc.gov/authorities/names/n99275798.json",
           "https://www.idref.fr/248865633"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Active exact Wikidata P570 was confirmed against the retained direct publisher page capture(s)."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2020-09-02",
+      "deathDateSources": [
+        "https://www.nd.nl/geloof/katholiekinside/990297/kardinaal-simonis-op-88-jarige-leeftijd-overleden"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "https://www.nd.nl/geloof/katholiekinside/990297/kardinaal-simonis-op-88-jarige-leeftijd-overleden",
+          "publisher": "www.nd.nl",
+          "dateText": "2 September 2020",
+          "excerpt": "is in Sassenheim de voormalige bisschop van Rotterdam en aartsbisschop van Utrecht, kardinaal Adrianus Johannes Simonis op 88-jarige leeftijd overleden. Hendro Munsterman woensdag 2 september 2020, 00:50 aangepast 21:58 Kardinaal Adrianus Simonis tijdens zijn laatste plechtige viering van de Eucharistie als aartsbisschop van Utrecht in 2007. beeld anp / Robin Utrecht Zie me",
+          "capture": {
+            "status": 200,
+            "sha256": "546e124e0867c0b9d0c668bda4a1d7d39dc85b5b6b291a0172c518eccbb3b868",
+            "bytesRead": 241632,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "frederik-pohl",
@@ -86876,7 +87351,8 @@
           "https://www.britannica.com/biography/Frederik-Pohl",
           "https://id.loc.gov/authorities/names/n79029809.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "marshall-thompson",
@@ -86939,14 +87415,15 @@
           "https://id.loc.gov/authorities/names/n91111459.json",
           "https://www.idref.fr/204415276"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "alexander-dubcek",
       "wikidataId": "Q150543",
       "birthDate": "1921-11-27",
-      "countryCode": "CZ",
-      "countryName": "Séc",
+      "countryCode": "SK",
+      "countryName": "Slovakia",
       "category": "politics",
       "occupation": "Chính khách",
       "dobSources": [
@@ -86959,11 +87436,18 @@
           "publisher": "Library of Congress Name Authority File"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "https://www.mzv.sk/en/web/en/slovakia/history/alexander-dubcek",
+          "publisher": "Ministry of Foreign and European Affairs of the Slovak Republic",
+          "scope": "national context, office and Prague Spring biography",
+          "browserExcerpt": "The Slovak Ministry identifies Dubček as a politician in Slovak history, born in Uhrovec in western Slovakia, and describes his role in the Prague Spring and his position as First Secretary in 1968."
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Alexander Dubček",
         "wikidataDescription": "first Secretary of the Czechoslovak Communist Party (1921-1992)",
-        "selectedCountryCode": "CZ",
+        "selectedCountryCode": "SK",
         "selectedCountryClaimQid": "Q33946",
         "candidateCountryQids": [
           "Q33946"
@@ -86992,12 +87476,34 @@
             "vietnamese": "Tổng Bí thư"
           }
         ],
-        "categoryRationale": "Category 'politics' and occupation 'Chính khách' were mapped from Wikidata P106 claims and the English description; only the selected role is shown in the profile.",
+        "categoryRationale": "The Slovak Ministry of Foreign and European Affairs identifies Dubček as a politician in Slovak history and describes his role in the Prague Spring; Brockhaus identifies him as Slovak.",
         "countryEvidenceSourceUrls": [
           "https://brockhaus.de/ecs/julex/article/dubcek-alexander",
           "https://id.loc.gov/authorities/names/n50023837.json"
         ]
-      }
+      },
+      "deathDate": "1992-11-07",
+      "lifeStatus": "deceased",
+      "deathDateSources": [
+        "https://brockhaus.de/ecs/julex/article/dubcek-alexander"
+      ],
+      "deathDateEvidence": [
+        {
+          "url": "https://brockhaus.de/ecs/julex/article/dubcek-alexander",
+          "publisher": "Brockhaus",
+          "dateText": "7.11.1992 in Prag",
+          "excerpt": ", * 27.11.1921 in Uhrovec (Bezirk Trenčín), † (an den Folgen eines Autounfalls) 7.11.1992 in Prag. Slowake; Schlosser, 1958–70 Mitglied des ZK, 1963–69 des Politbüros der tschech",
+          "capture": {
+            "status": 200,
+            "sha256": "44a93029f7fe7e051f940964b63848d2415d39eee99f88bca5e99a0762f1669c",
+            "bytesRead": 205001,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ],
+      "deathDatePrecision": "day"
     },
     {
       "id": "david-merrick",
@@ -87045,7 +87551,8 @@
           "https://www.britannica.com/biography/David-Merrick",
           "https://id.loc.gov/authorities/names/n92051751.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "alfonso-cuaron",
@@ -87128,7 +87635,8 @@
           "https://www.britannica.com/biography/Alfonso-Cuaron",
           "https://id.loc.gov/authorities/names/nr00036703.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "randy-newman",
@@ -87221,7 +87729,8 @@
           "https://www.britannica.com/biography/Randy-Newman",
           "https://id.loc.gov/authorities/names/n85194022.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "jon-stewart",
@@ -87324,7 +87833,8 @@
           "https://www.britannica.com/biography/Jon-Stewart",
           "https://id.loc.gov/authorities/names/no98079562.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "tom-sizemore",
@@ -87344,7 +87854,14 @@
           "publisher": "BIBSYS"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "https://www.rollingstone.com/tv-movies/tv-movie-news/tom-sizemore-saving-private-ryan-actor-dead-obituary-1234682777/",
+          "publisher": "www.rollingstone.com",
+          "scope": "verified exact death date",
+          "browserExcerpt": "n Cover Neil Young With Dave Grohl at Power to the People Fest See Jack Black’s Black Sabbath Cover Band Perform With Geezer Butler at Power to the People Festival View all posts by Daniel Kreps March 3, 2023 Add us as a Google Preferred Source Tom Sizemore Getty Images Tom Sizemore, the talented, but troubled, actor who brought a tough guy bravado to films like Heat , N"
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Tom Sizemore",
         "wikidataDescription": "American actor (1961–2023)",
@@ -87396,8 +87913,31 @@
         "countryEvidenceSourceUrls": [
           "https://id.loc.gov/authorities/names/n2006004178.json",
           "https://authority.bibsys.no/authority/rest/authorities/html/3112017"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Active exact Wikidata P570 was confirmed against the retained direct publisher page capture(s)."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2023-03-03",
+      "deathDateSources": [
+        "https://www.rollingstone.com/tv-movies/tv-movie-news/tom-sizemore-saving-private-ryan-actor-dead-obituary-1234682777/"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "https://www.rollingstone.com/tv-movies/tv-movie-news/tom-sizemore-saving-private-ryan-actor-dead-obituary-1234682777/",
+          "publisher": "www.rollingstone.com",
+          "dateText": "March 3, 2023",
+          "excerpt": "n Cover Neil Young With Dave Grohl at Power to the People Fest See Jack Black’s Black Sabbath Cover Band Perform With Geezer Butler at Power to the People Festival View all posts by Daniel Kreps March 3, 2023 Add us as a Google Preferred Source Tom Sizemore Getty Images Tom Sizemore, the talented, but troubled, actor who brought a tough guy bravado to films like Heat , N",
+          "capture": {
+            "status": 200,
+            "sha256": "1ef95e620fd5f5de64535f8cbe2f663c294422df7d7543187d72dfd0a5deb872",
+            "bytesRead": 534376,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "garry-shandling",
@@ -87485,7 +88025,8 @@
           "https://www.britannica.com/biography/Garry-Shandling",
           "https://id.loc.gov/authorities/names/no98076296.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "james-rosenquist",
@@ -87558,7 +88099,8 @@
           "https://www.britannica.com/biography/James-Rosenquist",
           "https://id.loc.gov/authorities/names/n50053394.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "abbie-hoffman",
@@ -87636,7 +88178,8 @@
           "https://www.britannica.com/biography/Abbie-Hoffman",
           "https://id.loc.gov/authorities/names/n80065585.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "david-mamet",
@@ -87729,14 +88272,15 @@
           "https://www.britannica.com/biography/David-Mamet",
           "https://id.loc.gov/authorities/names/n77012756.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "gael-garcia-bernal",
       "wikidataId": "Q179576",
       "birthDate": "1978-11-30",
-      "countryCode": "US",
-      "countryName": "Hoa Kỳ",
+      "countryCode": "MX",
+      "countryName": "Mexico",
       "category": "actor",
       "occupation": "Diễn viên",
       "dobSources": [
@@ -87749,12 +88293,19 @@
           "publisher": "Library of Congress Name Authority File"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "https://goldenglobes.com/person/gael-garcia-bernal/",
+          "publisher": "Golden Globes",
+          "scope": "nationality, film work and Golden Globe award used for biography/highlights",
+          "browserExcerpt": "Golden Globes identifies Bernal as born in Guadalajara, Mexico; lists Amores perros and Y tu mamá también among his Mexican films and records his 2016 Golden Globe win for Mozart in the Jungle."
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Gael García Bernal",
         "wikidataDescription": "Mexican actor and producer",
-        "selectedCountryCode": "US",
-        "selectedCountryClaimQid": "Q30",
+        "selectedCountryCode": "MX",
+        "selectedCountryClaimQid": "Q96",
         "candidateCountryQids": [
           "Q30",
           "Q96"
@@ -87788,12 +88339,13 @@
             "vietnamese": "nhà biên kịch"
           }
         ],
-        "categoryRationale": "Category 'actor' and occupation 'Diễn viên' were mapped from Wikidata P106 claims and the English description; only the selected role is shown in the profile.",
+        "categoryRationale": "The selected Mexico nationality follows the English description and the Golden Globes profile; the conflicting US/Mexico Wikidata P27 claims have no references and are retained for reviewer context.",
         "countryEvidenceSourceUrls": [
           "https://www.britannica.com/biography/Gael-Garcia-Bernal",
           "https://id.loc.gov/authorities/names/no2002001246.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "violette-verdy",
@@ -87871,7 +88423,8 @@
           "https://www.britannica.com/biography/Violette-Verdy",
           "https://id.loc.gov/authorities/names/n50014357.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "gordon-crosse",
@@ -87891,7 +88444,14 @@
           "publisher": "IdRef"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "https://www.britishmusicsociety.co.uk/2021/11/obituary-gordon-crosse/",
+          "publisher": "www.britishmusicsociety.co.uk",
+          "scope": "verified exact death date",
+          "browserExcerpt": "ublications BMS News British Music Journals Membership What’s on Tell us about your event Log in / register Select Page Obituary: Gordon Crosse Nov 24, 2021 | News 1 December 1937 – 21 November 2021 Gordon Crosse was born in Bury, Lancashire, where his father worked for the Midland Bank, on 1st December 1937. Though plagued by illness for much of his life (see Crosse’s own "
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Gordon Crosse",
         "wikidataDescription": "British composer (1937–2021)",
@@ -87913,8 +88473,31 @@
         "countryEvidenceSourceUrls": [
           "https://id.loc.gov/authorities/names/n80096463.json",
           "https://www.idref.fr/125031815"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Active exact Wikidata P570 was confirmed against the retained direct publisher page capture(s)."
+      },
+      "deathDate": "2021-11-21",
+      "lifeStatus": "deceased",
+      "deathDateSources": [
+        "https://www.britishmusicsociety.co.uk/2021/11/obituary-gordon-crosse/"
+      ],
+      "deathDateEvidence": [
+        {
+          "url": "https://www.britishmusicsociety.co.uk/2021/11/obituary-gordon-crosse/",
+          "publisher": "www.britishmusicsociety.co.uk",
+          "dateText": "21 November 2021",
+          "excerpt": "ublications BMS News British Music Journals Membership What’s on Tell us about your event Log in / register Select Page Obituary: Gordon Crosse Nov 24, 2021 | News 1 December 1937 – 21 November 2021 Gordon Crosse was born in Bury, Lancashire, where his father worked for the Midland Bank, on 1st December 1937. Though plagued by illness for much of his life (see Crosse’s own ",
+          "capture": {
+            "status": 200,
+            "sha256": "0a14849e1c4321cab8c34062f8b220a2e78dd700f33cec2a837b100109f04225",
+            "bytesRead": 238019,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ],
+      "deathDatePrecision": "day"
     },
     {
       "id": "richard-pryor",
@@ -87997,7 +88580,29 @@
           "https://www.britannica.com/biography/Richard-Pryor",
           "https://id.loc.gov/authorities/names/n82094549.json"
         ]
-      }
+      },
+      "deathDate": "2005-12-10",
+      "lifeStatus": "deceased",
+      "deathDateSources": [
+        "https://www.britannica.com/biography/Richard-Pryor"
+      ],
+      "deathDateEvidence": [
+        {
+          "url": "https://www.britannica.com/biography/Richard-Pryor",
+          "publisher": "Encyclopaedia Britannica",
+          "dateText": "Died: December 10, 2005",
+          "excerpt": "or III (Show more) Born: December 1, 1940, Peoria , Illinois , U.S. (Show more) Died: December 10, 2005, Los Angeles , California (aged 65) (Sho",
+          "capture": {
+            "status": 200,
+            "sha256": "d8c9370ff18b0271aee0146baef4e3192e75dd23f20399f88f9bd475ec2ac7d1",
+            "bytesRead": 85582,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ],
+      "deathDatePrecision": "day"
     },
     {
       "id": "paul-watson",
@@ -88066,7 +88671,8 @@
           "https://www.britannica.com/biography/Paul-Watson",
           "https://id.loc.gov/authorities/names/n2003031224.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "britney-spears",
@@ -88139,7 +88745,8 @@
           "https://www.britannica.com/biography/Britney-Spears",
           "https://id.loc.gov/authorities/names/no99013919.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "gianni-versace",
@@ -88202,7 +88809,8 @@
           "https://www.britannica.com/biography/Gianni-Versace",
           "https://www.idref.fr/050245090"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "julianne-moore",
@@ -88296,7 +88904,8 @@
           "https://www.britannica.com/biography/Julianne-Moore",
           "https://id.loc.gov/authorities/names/no97011133.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "ozzy-osbourne",
@@ -88316,7 +88925,14 @@
           "publisher": "Library of Congress Name Authority File"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "https://x.com/OzzyOsbourne/status/1947731442622206170",
+          "publisher": "x.com",
+          "scope": "verified exact death date",
+          "browserExcerpt": "assed away this morning. He was with his family and surrounded by love. We ask everyone to respect our family privacy at this time. Sharon, Jack, Kelly, Aimee and Louis 6:52 PM · Jul 22, 2025 · 33.9M Views svg]:size-5\"> 28K svg]:size-5\"> 122K svg]:size-5\"> 729K svg]:size-5\"> 17K svg]:size-5\"> Log in or sign up for X See what’s happening and join the conversation Continu"
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Ozzy Osbourne",
         "wikidataDescription": "English musician and television personality (1948–2025)",
@@ -88358,8 +88974,31 @@
         "countryEvidenceSourceUrls": [
           "https://www.britannica.com/biography/Ozzy-Osbourne",
           "https://id.loc.gov/authorities/names/n86108084.json"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Active exact Wikidata P570 was confirmed against the retained direct publisher page capture(s)."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2025-07-22",
+      "deathDateSources": [
+        "https://x.com/OzzyOsbourne/status/1947731442622206170"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "https://x.com/OzzyOsbourne/status/1947731442622206170",
+          "publisher": "x.com",
+          "dateText": "Jul 22, 2025",
+          "excerpt": "assed away this morning. He was with his family and surrounded by love. We ask everyone to respect our family privacy at this time. Sharon, Jack, Kelly, Aimee and Louis 6:52 PM · Jul 22, 2025 · 33.9M Views svg]:size-5\"> 28K svg]:size-5\"> 122K svg]:size-5\"> 729K svg]:size-5\"> 17K svg]:size-5\"> Log in or sign up for X See what’s happening and join the conversation Continu",
+          "capture": {
+            "status": 200,
+            "sha256": "c90ee6fa8e2034c961a0c7fc3c69999ccf88b2199928a4d30a4a948393b4e540",
+            "bytesRead": 136808,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "paul-j-crutzen",
@@ -88379,7 +89018,14 @@
           "publisher": "Library of Congress Name Authority File"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "https://www.mpic.de/4677594/trauer-um-paul-crutzen",
+          "publisher": "www.mpic.de",
+          "scope": "verified exact death date",
+          "browserExcerpt": "utzen The Max Planck Institute for Chemistry mourns the loss of its former director and Nobel Laureate Paul J. Crutzen The atmospheric scientist Paul J. Crutzen (December 3, 1933 – January 28, 2021) showed how human activities affect planet Earth and pose a threat to the ozone layer and climate. January 28, 2021 (Link to Condolences) Paul Crutzen at the Anthropocene Symposi"
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Paul J. Crutzen",
         "wikidataDescription": "Dutch climatologist (1933–2021)",
@@ -88427,8 +89073,31 @@
         "countryEvidenceSourceUrls": [
           "https://www.britannica.com/biography/Paul-Crutzen",
           "https://id.loc.gov/authorities/names/n88060471.json"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Active exact Wikidata P570 was confirmed against the retained direct publisher page capture(s)."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2021-01-28",
+      "deathDateSources": [
+        "https://www.mpic.de/4677594/trauer-um-paul-crutzen"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "https://www.mpic.de/4677594/trauer-um-paul-crutzen",
+          "publisher": "www.mpic.de",
+          "dateText": "January 28, 2021",
+          "excerpt": "utzen The Max Planck Institute for Chemistry mourns the loss of its former director and Nobel Laureate Paul J. Crutzen The atmospheric scientist Paul J. Crutzen (December 3, 1933 – January 28, 2021) showed how human activities affect planet Earth and pose a threat to the ozone layer and climate. January 28, 2021 (Link to Condolences) Paul Crutzen at the Anthropocene Symposi",
+          "capture": {
+            "status": 200,
+            "sha256": "dd0aac522975e5a0be10bc08034dbc4821c9ffcca6dc475a746edfec2c41261a",
+            "bytesRead": 364325,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "michael-bates",
@@ -88486,7 +89155,8 @@
           "https://id.loc.gov/authorities/names/no97003190.json",
           "https://www.idref.fr/061785466"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "rainer-maria-rilke",
@@ -88506,7 +89176,14 @@
           "publisher": "Library of Congress Name Authority File"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "https://brockhaus.de/ecs/julex/article/rilke-rainer-maria",
+          "publisher": "brockhaus.de",
+          "scope": "verified exact death date",
+          "browserExcerpt": "lexikon - Brockhaus.de Übersetzt in Schullexikon Schullexikon Login Rainer Maria Rilke Vorlesen lassen Drucken Rilke, Rainer Maria, österreichischer Dichter, * 4.12.1875 in Prag, † 29.12.1926 in Val-Mont (heute zu Montreux, Schweiz). wissenmedia Rainer Maria Rilke war ein österreichischer Schriftsteller. »Die Weise von Liebe und Tod des Cornets Christoph Rilke« ist se"
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Rainer Maria Rilke",
         "wikidataDescription": "Austrian poet and writer (1875–1926)",
@@ -88549,8 +89226,31 @@
         "countryEvidenceSourceUrls": [
           "https://www.britannica.com/biography/Rainer-Maria-Rilke",
           "https://id.loc.gov/authorities/names/n79042183.json"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Active exact Wikidata P570 was confirmed against the retained direct publisher page capture(s)."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "1926-12-29",
+      "deathDateSources": [
+        "https://brockhaus.de/ecs/julex/article/rilke-rainer-maria"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "https://brockhaus.de/ecs/julex/article/rilke-rainer-maria",
+          "publisher": "brockhaus.de",
+          "dateText": "29.12.1926",
+          "excerpt": "lexikon - Brockhaus.de Übersetzt in Schullexikon Schullexikon Login Rainer Maria Rilke Vorlesen lassen Drucken Rilke, Rainer Maria, österreichischer Dichter, * 4.12.1875 in Prag, † 29.12.1926 in Val-Mont (heute zu Montreux, Schweiz). wissenmedia Rainer Maria Rilke war ein österreichischer Schriftsteller. »Die Weise von Liebe und Tod des Cornets Christoph Rilke« ist se",
+          "capture": {
+            "status": 200,
+            "sha256": "5b85b05603aa4f12b22093729aa1d0e81bad008b1ef104796988f99682cd6675",
+            "bytesRead": 175317,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "victor-french",
@@ -88613,7 +89313,8 @@
           "https://id.loc.gov/authorities/names/nr2004001624.json",
           "https://www.idref.fr/234239891"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "carl-ferdinand-cori",
@@ -88633,7 +89334,14 @@
           "publisher": "IdRef"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "https://www.nobelprize.org/prizes/medicine/1947/summary/",
+          "publisher": "Nobel Prize",
+          "scope": "Existing award and identity context; death date is verified from the separate Nobel laureate facts page.",
+          "browserExcerpt": "The Nobel Prize in Physiology or Medicine 1947 Summary lists Carl Cori, Gerty Cori and Bernardo Houssay as laureates; the Carl Cori entry identifies him as Carl Ferdinand Cori."
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Carl Ferdinand Cori",
         "wikidataDescription": "Czech Nobel prize laureate and scientist (1896–1984)",
@@ -88678,7 +89386,29 @@
           "https://id.loc.gov/authorities/names/n85817295.json",
           "https://www.idref.fr/084570245"
         ]
-      }
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "1984-10-20",
+      "deathDatePrecision": "day",
+      "deathDateSources": [
+        "https://www.nobelprize.org/prizes/medicine/1947/cori-cf/facts/"
+      ],
+      "deathDateEvidence": [
+        {
+          "url": "https://www.nobelprize.org/prizes/medicine/1947/cori-cf/facts/",
+          "publisher": "nobelprize.org",
+          "dateText": "Died: 20 October 1984",
+          "excerpt": "y -- Nominations -- Other resources - Gerty Cori - Bernardo Houssay Presentation Speech Photo from the Nobel Foundation archive. Carl Ferdinand Cori Nobel Prize in Physiology or Medicine 1947 Born: 5 December 1896, Prague, Austria-Hungary (now Czech Republic) Died: 20 October 1984, Cambridge, MA, USA Affiliation at the time of the award: Washington University, St. Louis, MO, USA Prize motivation: “for their discovery of the course of the catalytic conversion of glycogen” Prize share: 1/4 Life Carl Cori was born in Prague in what was then Austria-Hungary. He received his PhD in medicine from the German University of Prague's Medical S",
+          "capture": {
+            "status": 200,
+            "sha256": "01f1596dd0385e2b79eb942e48943825ff9d0fa929fac22f417880026b394cac",
+            "bytesRead": 166626,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "cecil-frank-powell",
@@ -88731,7 +89461,8 @@
           "https://www.britannica.com/biography/Cecil-Powell",
           "https://www.idref.fr/164467467"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "fritz-lang",
@@ -88751,7 +89482,14 @@
           "publisher": "Library of Congress Name Authority File"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "https://brockhaus.de/ecs/julex/article/lang-fritz",
+          "publisher": "brockhaus.de",
+          "scope": "verified exact death date",
+          "browserExcerpt": "s Literatur Fritz Lang Vorlesen lassen Drucken Lang, Friedrich Christian Anton »Fritz« , österreichisch-deutsch-amerikanischer Filmregisseur und Drehbuchautor, * 5.12.1890 in Wien, † 2.8.1976 in Beverly Hills (Kalifornien). IMAGO/KHARBINE-TAPABOR Fritz Lang Literatur Informationen zum Artikel Quellenangabe Leselineal schließen Kostenlos testen redaktionell geprüfte "
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Fritz Lang",
         "wikidataDescription": "Austrian filmmaker (1890–1976)",
@@ -88830,8 +89568,31 @@
         "countryEvidenceSourceUrls": [
           "https://www.britannica.com/biography/Fritz-Lang",
           "https://id.loc.gov/authorities/names/n79043386.json"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Active exact Wikidata P570 was confirmed against the retained direct publisher page capture(s)."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "1976-08-02",
+      "deathDateSources": [
+        "https://brockhaus.de/ecs/julex/article/lang-fritz"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "https://brockhaus.de/ecs/julex/article/lang-fritz",
+          "publisher": "brockhaus.de",
+          "dateText": "2.8.1976",
+          "excerpt": "s Literatur Fritz Lang Vorlesen lassen Drucken Lang, Friedrich Christian Anton »Fritz« , österreichisch-deutsch-amerikanischer Filmregisseur und Drehbuchautor, * 5.12.1890 in Wien, † 2.8.1976 in Beverly Hills (Kalifornien). IMAGO/KHARBINE-TAPABOR Fritz Lang Literatur Informationen zum Artikel Quellenangabe Leselineal schließen Kostenlos testen redaktionell geprüfte ",
+          "capture": {
+            "status": 200,
+            "sha256": "b38f416fb90d627b49e10b3f43a282a8f65107350cca690a00cc39ff6b522538",
+            "bytesRead": 208387,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "hugo-peretti",
@@ -88889,7 +89650,8 @@
           "https://id.loc.gov/authorities/names/n94092664.json",
           "https://datos.bne.es/persona/XX1065888.html"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "paul-de-man",
@@ -88958,7 +89720,8 @@
           "https://www.britannica.com/biography/Paul-de-Man",
           "https://id.loc.gov/authorities/names/n79060229.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "eli-wallach",
@@ -89046,7 +89809,8 @@
           "https://www.britannica.com/biography/Eli-Wallach",
           "https://id.loc.gov/authorities/names/n81110577.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "louis-prima",
@@ -89119,7 +89883,8 @@
           "https://www.britannica.com/biography/Louis-Prima",
           "https://id.loc.gov/authorities/names/no89016730.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "mario-soares",
@@ -89139,7 +89904,14 @@
           "publisher": "Library of Congress Name Authority File"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "https://www.theguardian.com/world/2017/jan/07/mario-soares-former-prime-minister-of-portugal-dies-aged-92",
+          "publisher": "www.theguardian.com",
+          "scope": "verified exact death date",
+          "browserExcerpt": "ged 92 This article is more than 9 years old Soares was central to Portugal’s return to democracy and was prime minister three times and president for ten years Reuters in Lisbon Sat 7 Jan 2017 18.45 GMT Last modified on Sat 7 Jan 2017 19.14 GMT Share Prefer the Guardian on Google Portugal’s former president and prime minister, Mário Soares, a central figure in the co"
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Mário Soares",
         "wikidataDescription": "President of Portugal (1924–2017)",
@@ -89171,8 +89943,31 @@
         "countryEvidenceSourceUrls": [
           "https://www.britannica.com/biography/Mario-Soares",
           "https://id.loc.gov/authorities/names/n50016646.json"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Active exact Wikidata P570 was confirmed against the retained direct publisher page capture(s)."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2017-01-07",
+      "deathDateSources": [
+        "https://www.theguardian.com/world/2017/jan/07/mario-soares-former-prime-minister-of-portugal-dies-aged-92"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "https://www.theguardian.com/world/2017/jan/07/mario-soares-former-prime-minister-of-portugal-dies-aged-92",
+          "publisher": "www.theguardian.com",
+          "dateText": "7 Jan 2017",
+          "excerpt": "ged 92 This article is more than 9 years old Soares was central to Portugal’s return to democracy and was prime minister three times and president for ten years Reuters in Lisbon Sat 7 Jan 2017 18.45 GMT Last modified on Sat 7 Jan 2017 19.14 GMT Share Prefer the Guardian on Google Portugal’s former president and prime minister, Mário Soares, a central figure in the co",
+          "capture": {
+            "status": 200,
+            "sha256": "d93573641ae1562eec547632c19f95eaa822be6e2bdabbb05278f4c04dedf644",
+            "bytesRead": 305997,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "georges-melies",
@@ -89275,7 +90070,8 @@
           "https://www.thegeorgesmeliesproject.org/",
           "https://www.britannica.com/biography/Georges-Melies"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "ants-oras",
@@ -89334,7 +90130,8 @@
           "https://id.loc.gov/authorities/names/n50002775.json",
           "https://www.idref.fr/030772532"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "aristide-maillol",
@@ -89402,7 +90199,8 @@
           "https://www.britannica.com/biography/Aristide-Maillol",
           "https://id.loc.gov/authorities/names/n80015568.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "kirk-douglas",
@@ -89422,7 +90220,14 @@
           "publisher": "Encyclopaedia Britannica"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "https://www.huffpost.com/entry/kirk-douglas-dead-died_n_56a7a374e4b0b87beec60c31",
+          "publisher": "www.huffpost.com",
+          "scope": "verified exact death date",
+          "browserExcerpt": "ere. Kirk Douglas, Hollywood Legend, Dead At 103 The iconic actor blazed his own path, playing tough guys from \"Spartacus\" to \"Paths of Glory.\" By Todd Van Luling Senior Culture Reporter, HuffPost Feb 5, 2020, 06:33 PM EST LOADING ERROR LOADING Legendary actor Kirk Douglas died on Wednesday at the age of 103. His family confirmed his death with People . “It is with tre"
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Kirk Douglas",
         "wikidataDescription": "American actor (1916–2020)",
@@ -89514,8 +90319,31 @@
         "countryEvidenceSourceUrls": [
           "https://www.filmportal.de/person/kirk-douglas_f9e9977b38934c8ba35abfbda7086865",
           "https://www.britannica.com/biography/Kirk-Douglas"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Active exact Wikidata P570 was confirmed against the retained direct publisher page capture(s)."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2020-02-05",
+      "deathDateSources": [
+        "https://www.huffpost.com/entry/kirk-douglas-dead-died_n_56a7a374e4b0b87beec60c31"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "https://www.huffpost.com/entry/kirk-douglas-dead-died_n_56a7a374e4b0b87beec60c31",
+          "publisher": "www.huffpost.com",
+          "dateText": "feb 5, 2020",
+          "excerpt": "ere. Kirk Douglas, Hollywood Legend, Dead At 103 The iconic actor blazed his own path, playing tough guys from \"Spartacus\" to \"Paths of Glory.\" By Todd Van Luling Senior Culture Reporter, HuffPost Feb 5, 2020, 06:33 PM EST LOADING ERROR LOADING Legendary actor Kirk Douglas died on Wednesday at the age of 103. His family confirmed his death with People . “It is with tre",
+          "capture": {
+            "status": 200,
+            "sha256": "97dbf9242093dd686bdb26a08f8e6dc988a84ae220447ef7ea893fa2e4cfa0af",
+            "bytesRead": 501606,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "emmett-kelly",
@@ -89578,7 +90406,8 @@
           "https://www.britannica.com/biography/Emmett-Kelly",
           "https://id.loc.gov/authorities/names/no92028805.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "joaquin-turina",
@@ -89651,7 +90480,8 @@
           "https://www.britannica.com/biography/Joaquin-Turina",
           "https://id.loc.gov/authorities/names/n81071361.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "adolf-loos",
@@ -89746,7 +90576,29 @@
           "https://collectiedata.hetnieuweinstituut.nl/the-other-interface/knowledge-graph/browser?resource=https%3A%2F%2Fcollectiedata.hetnieuweinstituut.nl%2Fid%2Fpeople%2F11075",
           "https://www.britannica.com/biography/Adolf-Loos"
         ]
-      }
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "1933-08-23",
+      "deathDatePrecision": "day",
+      "deathDateSources": [
+        "https://sammlung.mak.at/en/artist/loos-adolf_3845"
+      ],
+      "deathDateEvidence": [
+        {
+          "url": "https://sammlung.mak.at/en/artist/loos-adolf_3845",
+          "publisher": "sammlung.mak.at",
+          "dateText": "23.08.1933",
+          "excerpt": "om=' + (isShuffle ? 'true' : 'false'); window.location.href = baseUrl + queryString; } document.getElementById('shuffleLinkMenu').addEventListener('click', function(event) { event.preventDefault(); submitHomeSearchMenu(true); }); de / en / ja Loos, Adolf Born / founded 10.12.1870 Brno Died / closed 23.08.1933 Source AOW GND ULAN Wikipedia Architektenlexikon AzW Permalink Copied to clipboard https://sammlung.mak.at/en/artist/loos-adolf_3845 Last update 06.10.2026 Highlight Objects Discover all items of Adolf Loos featured in the MAK collection! All results Buy ticket Become a patron MAK Design Shop #gform_wrapper_2[data-form-index=\"0\"].gform-theme{--gf-color-primary: #204ce5;--gf-co",
+          "capture": {
+            "status": 200,
+            "sha256": "3afb755c2c5e1be80bba2043a81e15112a1b87a32371f8b208018e97903ee16f",
+            "bytesRead": 174712,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "michael-manley",
@@ -89789,7 +90641,8 @@
           "https://www.britannica.com/biography/Michael-Manley",
           "https://id.loc.gov/authorities/names/n82057100.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "pierre-louys",
@@ -89867,7 +90720,8 @@
           "https://www.britannica.com/biography/Pierre-Louys",
           "https://id.loc.gov/authorities/names/n79089178.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "khuat-phuong-anh",
@@ -89914,7 +90768,8 @@
           "https://worldathletics.org/competition/calendar-results/results/7132009",
           "https://uzathletics.uz/f/startlists_day4.pdf"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "mark-tobey",
@@ -89962,7 +90817,8 @@
           "https://www.britannica.com/biography/Mark-Tobey",
           "https://id.loc.gov/authorities/names/n79134980.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "gilbert-roland",
@@ -90026,7 +90882,8 @@
           "https://id.loc.gov/authorities/names/n87896348.json",
           "https://www.idref.fr/075890895"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "dionne-warwick",
@@ -90094,7 +90951,8 @@
           "https://www.britannica.com/biography/Dionne-Warwick",
           "https://id.loc.gov/authorities/names/n85058140.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "marc-ravalomanana",
@@ -90142,7 +91000,8 @@
           "https://www.britannica.com/biography/Marc-Ravalomanana",
           "https://id.loc.gov/authorities/names/n2003037630.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "vladimir-shainsky",
@@ -90227,7 +91086,8 @@
           "https://id.loc.gov/authorities/names/n91038390.json",
           "https://www.idref.fr/243941196"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "pham-thi-nguyet-anh",
@@ -90274,7 +91134,8 @@
           "https://www.ocagames.com/HZ_Info/AG2022-/resAG2022-/pdf/AG2022-/VVO/AG2022-_VVO_C51_VVOWTEAM6-------------GPC-000200--.pdf",
           "https://asianvolleyball.net/new/wp-content/uploads/2023/08/Bulletin_No1_Sr.Women_.pdf"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "carlos-montoya",
@@ -90322,7 +91183,8 @@
           "https://id.loc.gov/authorities/names/n82025134.json",
           "https://www.idref.fr/084007451"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "plinio-correa-de-oliveira",
@@ -90390,7 +91252,8 @@
           "https://id.loc.gov/authorities/names/n81058330.json",
           "https://www.idref.fr/027052265"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "b-k-s-iyengar",
@@ -90410,7 +91273,14 @@
           "publisher": "Library of Congress Name Authority File"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "http://timesofindia.indiatimes.com/india/Yoga-guru-BKS-Iyengar-passes-away/articleshow/40462779.cms",
+          "publisher": "timesofindia.indiatimes.com",
+          "scope": "verified exact death date",
+          "browserExcerpt": "urder Live Cricket Score Bank Holidays Karnataka 2nd PUC Result GT vs SRH Trump Tariff IPL 2025 Points Table IPL Match Today This story is from August 20, 2014 Yoga guru BKS Iyengar passes away Umesh Isalkar / TNN / Updated: Aug 20, 2014, 13:42 IST Share AA + Text Size Small Medium Large Yoga guru BKS Iyengar passed away at a private hospital in Pune on Wednesday. PUNE:"
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "B. K. S. Iyengar",
         "wikidataDescription": "Indian yoga teacher and scholar (1918–2014)",
@@ -90449,8 +91319,31 @@
         "countryEvidenceSourceUrls": [
           "https://www.britannica.com/biography/B-K-S-Iyengar",
           "https://id.loc.gov/authorities/names/n81012084.json"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Active exact Wikidata P570 was confirmed against the retained direct publisher page capture(s)."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2014-08-20",
+      "deathDateSources": [
+        "http://timesofindia.indiatimes.com/india/Yoga-guru-BKS-Iyengar-passes-away/articleshow/40462779.cms"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "http://timesofindia.indiatimes.com/india/Yoga-guru-BKS-Iyengar-passes-away/articleshow/40462779.cms",
+          "publisher": "timesofindia.indiatimes.com",
+          "dateText": "Aug 20, 2014",
+          "excerpt": "urder Live Cricket Score Bank Holidays Karnataka 2nd PUC Result GT vs SRH Trump Tariff IPL 2025 Points Table IPL Match Today This story is from August 20, 2014 Yoga guru BKS Iyengar passes away Umesh Isalkar / TNN / Updated: Aug 20, 2014, 13:42 IST Share AA + Text Size Small Medium Large Yoga guru BKS Iyengar passed away at a private hospital in Pune on Wednesday. PUNE:",
+          "capture": {
+            "status": 200,
+            "sha256": "637ef2dae1214de78e5417932740c75cd44ac7cfaaae01182f36cb8d7d9b44e2",
+            "bytesRead": 287951,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "hans-von-ohain",
@@ -90509,7 +91402,8 @@
           "https://id.loc.gov/authorities/names/n2002015741.json",
           "https://www.idref.fr/061188867"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "thomas-cochrane-10th-earl-of-dundonald",
@@ -90559,7 +91453,8 @@
           "https://www.britannica.com/biography/Thomas-Cochrane-10th-earl-of-Dundonald",
           "https://id.loc.gov/authorities/names/n50054509.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "freeman-dyson",
@@ -90579,7 +91474,14 @@
           "publisher": "Library of Congress Name Authority File"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "https://www.mainepublic.org/post/renowned-mathematician-and-physicist-freeman-dyson-has-died-age-96",
+          "publisher": "www.mainepublic.org",
+          "scope": "verified exact death date",
+          "browserExcerpt": " Maine Public Donor FAQ Donate a Vehicle Maine Public Store Maine Renowned Mathematician And Physicist Freeman Dyson Has Died At Age 96 Maine Public | By Jennifer Mitchell , Caitlin Troutman Published February 28, 2020 at 11:57 AM EST Facebook LinkedIn Bluesky Email ias.org Freeman Dyson Freeman Dyson, renowned scientist and scholar, has died at 96, according to his daughter"
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Freeman Dyson",
         "wikidataDescription": "theoretical physicist and mathematician (1923–2020)",
@@ -90627,8 +91529,31 @@
         "countryEvidenceSourceUrls": [
           "https://www.britannica.com/biography/Freeman-Dyson",
           "https://id.loc.gov/authorities/names/n79056129.json"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Active exact Wikidata P570 was confirmed against the retained direct publisher page capture(s)."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2020-02-28",
+      "deathDateSources": [
+        "https://www.mainepublic.org/post/renowned-mathematician-and-physicist-freeman-dyson-has-died-age-96"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "https://www.mainepublic.org/post/renowned-mathematician-and-physicist-freeman-dyson-has-died-age-96",
+          "publisher": "www.mainepublic.org",
+          "dateText": "February 28, 2020",
+          "excerpt": " Maine Public Donor FAQ Donate a Vehicle Maine Public Store Maine Renowned Mathematician And Physicist Freeman Dyson Has Died At Age 96 Maine Public | By Jennifer Mitchell , Caitlin Troutman Published February 28, 2020 at 11:57 AM EST Facebook LinkedIn Bluesky Email ias.org Freeman Dyson Freeman Dyson, renowned scientist and scholar, has died at 96, according to his daughter",
+          "capture": {
+            "status": 200,
+            "sha256": "c36e14b68c66469be26ecc1d7b82e2a6c6dc9d766e55c6f30561c33dce41e40f",
+            "bytesRead": 245659,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "maurice-wilkins",
@@ -90697,7 +91622,8 @@
           "https://www.britannica.com/biography/Maurice-Wilkins",
           "https://www.idref.fr/081002319"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "muriel-rukeyser",
@@ -90750,7 +91676,8 @@
           "https://www.britannica.com/biography/Muriel-Rukeyser",
           "https://id.loc.gov/authorities/names/n79034264.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "philip-k-dick",
@@ -90823,7 +91750,8 @@
           "https://www.britannica.com/biography/Philip-K-Dick",
           "https://id.loc.gov/authorities/names/n79018147.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "randall-garrett",
@@ -90881,7 +91809,8 @@
           "https://id.loc.gov/authorities/names/n79060968.json",
           "https://www.idref.fr/251501639"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "ruben-nirvi",
@@ -90924,7 +91853,8 @@
           "https://id.loc.gov/authorities/names/n80137888.json",
           "https://www.idref.fr/094165947"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "trinh-van-vinh",
@@ -90971,7 +91901,8 @@
           "https://awf.sport/wp-content/uploads/2024/01/Weightlifting_compressed.pdf",
           "https://iwf.sport/wp-content/uploads/downloads/2017/11/MediaGuide_WorldChampionships_2017.pdf"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "art-neville",
@@ -91019,7 +91950,8 @@
           "https://id.loc.gov/authorities/names/no96041062.json",
           "https://authority.bibsys.no/authority/rest/authorities/html/7000493"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "bernard-hill",
@@ -91039,7 +91971,14 @@
           "publisher": "IdRef"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "https://www.bbc.com/news/entertainment-arts-68962192",
+          "publisher": "www.bbc.com",
+          "scope": "verified exact death date",
+          "browserExcerpt": "e Sport Site search Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Weather Newsletters Bernard Hill: Titanic and Lord of the Rings actor dies 5 May 2024 Share Save Add as preferred on Google Paul Gribben & Noor Nanji BBC News Getty Images Actor Bernard Hill, best known for roles in Titanic and Lord of the Rings, has died aged 79."
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Bernard Hill",
         "wikidataDescription": "British actor (1944-2024)",
@@ -91076,8 +92015,31 @@
         "countryEvidenceSourceUrls": [
           "https://id.loc.gov/authorities/names/no97049398.json",
           "https://www.idref.fr/055737668"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Active exact Wikidata P570 was confirmed against the retained direct publisher page capture(s)."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2024-05-05",
+      "deathDateSources": [
+        "https://www.bbc.com/news/entertainment-arts-68962192"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "https://www.bbc.com/news/entertainment-arts-68962192",
+          "publisher": "www.bbc.com",
+          "dateText": "5 May 2024",
+          "excerpt": "e Sport Site search Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Weather Newsletters Bernard Hill: Titanic and Lord of the Rings actor dies 5 May 2024 Share Save Add as preferred on Google Paul Gribben & Noor Nanji BBC News Getty Images Actor Bernard Hill, best known for roles in Titanic and Lord of the Rings, has died aged 79.",
+          "capture": {
+            "status": 200,
+            "sha256": "e2c162638749a1b67559263324444acd5c51c5bdba12b05fc812014cfed0a90a",
+            "bytesRead": 286067,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "betty-grable",
@@ -91155,7 +92117,8 @@
           "https://www.britannica.com/biography/Betty-Grable",
           "https://id.loc.gov/authorities/names/n81050347.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "jozef-glemp",
@@ -91208,7 +92171,8 @@
           "https://id.loc.gov/authorities/names/n85339860.json",
           "https://www.idref.fr/029253675"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "willy-brandt",
@@ -91290,7 +92254,8 @@
           "https://www.britannica.com/biography/Willy-Brandt",
           "https://id.loc.gov/authorities/names/n80138336.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "carter-godwin-woodson",
@@ -91358,7 +92323,8 @@
           "https://www.britannica.com/biography/Carter-G-Woodson",
           "https://id.loc.gov/authorities/names/n50048494.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "gordon-jackson",
@@ -91416,7 +92382,8 @@
           "https://id.loc.gov/authorities/names/n81074399.json",
           "https://www.idref.fr/195244842"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "michel-tournier",
@@ -91474,7 +92441,8 @@
           "https://www.britannica.com/biography/Michel-Tournier",
           "https://id.loc.gov/authorities/names/n50014565.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "le-van-son",
@@ -91528,7 +92496,8 @@
           "https://www.transfermarkt.com/truong-tuoi-dong-nai-fc/kader/verein/81614/saison_id/2025/plus/1",
           "https://www.sofascore.com/es/football/team/truong-tuoi-binh-phuoc/194090"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "kim-ki-duk",
@@ -91548,7 +92517,14 @@
           "publisher": "IdRef"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "https://www.repubblica.it/spettacoli/cinema/2020/12/11/news/e_morto_kim_ki-duk_regista_di_l_isola_e_ferro_3_per_complicazioni_da_covid19-277924030/",
+          "publisher": "www.repubblica.it",
+          "scope": "verified exact death date",
+          "browserExcerpt": "i risparmiato, con il suo cinema e la sua militanza, profonde critiche al suo paese, la Corea del Sud Per iscriversi alla newsletter di cinema di Repubblica: newsletter.repubblica.it 11 Dicembre 2020 2 minuti di lettura È morto Kim Ki-duk , regista sudcoreano di film cult come L'isola e Ferro 3 e vincitore del Leone d'oro a Venezia nel 2012 con Pietà . Aveva 59 anni ed è de"
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Kim Ki-duk",
         "wikidataDescription": "South Korean film director (1960–2020)",
@@ -91600,8 +92576,31 @@
         "countryEvidenceSourceUrls": [
           "https://id.loc.gov/authorities/names/no2006014342.json",
           "https://www.idref.fr/09219849X"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Active exact Wikidata P570 was confirmed against the retained direct publisher page capture(s)."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2020-12-11",
+      "deathDateSources": [
+        "https://www.repubblica.it/spettacoli/cinema/2020/12/11/news/e_morto_kim_ki-duk_regista_di_l_isola_e_ferro_3_per_complicazioni_da_covid19-277924030/"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "https://www.repubblica.it/spettacoli/cinema/2020/12/11/news/e_morto_kim_ki-duk_regista_di_l_isola_e_ferro_3_per_complicazioni_da_covid19-277924030/",
+          "publisher": "www.repubblica.it",
+          "dateText": "11 dicembre 2020",
+          "excerpt": "i risparmiato, con il suo cinema e la sua militanza, profonde critiche al suo paese, la Corea del Sud Per iscriversi alla newsletter di cinema di Repubblica: newsletter.repubblica.it 11 Dicembre 2020 2 minuti di lettura È morto Kim Ki-duk , regista sudcoreano di film cult come L'isola e Ferro 3 e vincitore del Leone d'oro a Venezia nel 2012 con Pietà . Aveva 59 anni ed è de",
+          "capture": {
+            "status": 200,
+            "sha256": "4fde72994949b948b56d1546ac734948c2176533a7318f18451bd5bfa832cd84",
+            "bytesRead": 158072,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "kim-yeong-sam",
@@ -91644,7 +92643,8 @@
           "https://www.britannica.com/biography/Kim-Young-Sam",
           "https://id.loc.gov/authorities/names/n81019640.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "anthony-powell",
@@ -91702,7 +92702,8 @@
           "https://www.britannica.com/biography/Anthony-Powell",
           "https://id.loc.gov/authorities/names/n80039364.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "arnost-lustig",
@@ -91761,7 +92762,8 @@
           "https://id.loc.gov/authorities/names/n78078766.json",
           "https://www.buchenwald.de/en/geschichte/biografien/ltg-ausstellung/arnost-lustig"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "kurt-waldheim",
@@ -91781,7 +92783,14 @@
           "publisher": "Library of Congress Name Authority File"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "http://news.bbc.co.uk/2/hi/europe/6753069.stm",
+          "publisher": "news.bbc.co.uk",
+          "scope": "verified exact death date",
+          "browserExcerpt": "files Special Reports Election 2007 --> RELATED BBC SITES SPORT WEATHER ON THIS DAY EDITORS' BLOG Languages Russian Albanian Serbian Turkish Ukrainian More Last Updated: Thursday, 14 June 2007, 14:12 GMT 15:12 UK E-mail this to a friend Printable version Former UN head Kurt Waldheim dies The emergence of this picture proved explosive Enlarge Image The former United Nati"
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Kurt Waldheim",
         "wikidataDescription": "Austrian politician and diplomat (1918–2007)",
@@ -91834,8 +92843,31 @@
         "countryEvidenceSourceUrls": [
           "https://www.britannica.com/biography/Kurt-Waldheim",
           "https://id.loc.gov/authorities/names/n79063069.json"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Active exact Wikidata P570 was confirmed against the retained direct publisher page capture(s)."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2007-06-14",
+      "deathDateSources": [
+        "http://news.bbc.co.uk/2/hi/europe/6753069.stm"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "http://news.bbc.co.uk/2/hi/europe/6753069.stm",
+          "publisher": "news.bbc.co.uk",
+          "dateText": "14 June 2007",
+          "excerpt": "files Special Reports Election 2007 --> RELATED BBC SITES SPORT WEATHER ON THIS DAY EDITORS' BLOG Languages Russian Albanian Serbian Turkish Ukrainian More Last Updated: Thursday, 14 June 2007, 14:12 GMT 15:12 UK E-mail this to a friend Printable version Former UN head Kurt Waldheim dies The emergence of this picture proved explosive Enlarge Image The former United Nati",
+          "capture": {
+            "status": 200,
+            "sha256": "1dceb0881ed91745a1c3073710ca313956f8f736bbdede6b4d8ab95c69215e95",
+            "bytesRead": 47056,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "edgard-varese",
@@ -91888,7 +92920,8 @@
           "https://www.britannica.com/biography/Edgard-Varese",
           "https://id.loc.gov/authorities/names/n50044963.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "eduard-uspensky",
@@ -91972,7 +93005,8 @@
           "https://www.uspens.info:443/",
           "https://id.loc.gov/authorities/names/n88216074.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "kenneth-rexroth",
@@ -92050,7 +93084,8 @@
           "https://www.britannica.com/biography/Kenneth-Rexroth",
           "https://id.loc.gov/authorities/names/n79055282.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "helmut-schmidt",
@@ -92137,8 +93172,31 @@
         "countryEvidenceSourceUrls": [
           "https://brockhaus.de/ecs/julex/article/schmidt-helmut",
           "https://www.britannica.com/biography/Helmut-Schmidt"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Active exact Wikidata P570 was confirmed against the retained direct publisher page capture(s)."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2015-11-10",
+      "deathDateSources": [
+        "https://brockhaus.de/ecs/julex/article/schmidt-helmut"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "https://brockhaus.de/ecs/julex/article/schmidt-helmut",
+          "publisher": "brockhaus.de",
+          "dateText": "10.11.2015",
+          "excerpt": "rauensvotum Helmut Schmidt Vorlesen lassen Drucken Helmut Schmidt war ein deutscher Politiker und von 1974–82 Bundeskanzler der Bundesrepublik Deutschland, * 23.12.1918 in Hamburg, † 10.11.2015 in Hamburg. Deutschlandweit bekannt wurde Schmidt als Hamburger Innensenator und Krisenmanager während der Sturmflut 1962. Nach dem Rücktritt Willy Brandts wurde Helmut Schmidt",
+          "capture": {
+            "status": 200,
+            "sha256": "d78a42ff65be9eb21dedb8fbf9484760db0e0b557893a4a693ce78d267aa9583",
+            "bytesRead": 205196,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "charan-singh",
@@ -92188,7 +93246,8 @@
           "https://www.britannica.com/biography/Charan-Singh",
           "https://id.loc.gov/authorities/names/n81053511.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "james-stockdale",
@@ -92246,7 +93305,8 @@
           "https://id.loc.gov/authorities/names/n81091400.json",
           "https://www.idref.fr/079443133"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "harry-warren",
@@ -92309,7 +93369,8 @@
           "https://www.britannica.com/biography/Harry-Warren-American-artist",
           "https://id.loc.gov/authorities/names/n81048007.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "herbert-reinecker",
@@ -92372,7 +93433,8 @@
           "https://id.loc.gov/authorities/names/n86823941.json",
           "https://www.idref.fr/050502751"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "pierre-soulages",
@@ -92465,7 +93527,8 @@
           "https://www.britannica.com/biography/Pierre-Soulages",
           "https://id.loc.gov/authorities/names/n79129089.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "barton-maclane",
@@ -92543,7 +93606,8 @@
           "https://id.loc.gov/authorities/names/n87916649.json",
           "https://www.idref.fr/059341920"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "dick-miller",
@@ -92563,7 +93627,14 @@
           "publisher": "IdRef"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "https://variety.com/2019/film/news/dick-miller-dead-dies-gremlins-terminator-1203124265/",
+          "publisher": "variety.com",
+          "scope": "verified exact death date",
+          "browserExcerpt": "o Expand Search Input Variety Plus Icon Read Next: ‘Vikings’ Actor Gustaf Skarsgard Makes Feature Directorial Debut With Psychological Horror ‘The Cannibal’ (EXCLUSIVE) Home Film News Jan 30, 2019 4:24pm PT Dick Miller, ‘Gremlins’ and ‘Terminator’ Actor, Dies at 90 By Nate Nickolai Plus Icon Nate Nickolai https://twitter.com/natenickolai Latest Ruth Bader Ginsburg, Supr"
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Dick Miller",
         "wikidataDescription": "American actor (1928-2019)",
@@ -92615,8 +93686,31 @@
         "countryEvidenceSourceUrls": [
           "https://id.loc.gov/authorities/names/no2002069916.json",
           "https://www.idref.fr/071528113"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Active exact Wikidata P570 was confirmed against the retained direct publisher page capture(s)."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2019-01-30",
+      "deathDateSources": [
+        "https://variety.com/2019/film/news/dick-miller-dead-dies-gremlins-terminator-1203124265/"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "https://variety.com/2019/film/news/dick-miller-dead-dies-gremlins-terminator-1203124265/",
+          "publisher": "variety.com",
+          "dateText": "jan 30, 2019",
+          "excerpt": "o Expand Search Input Variety Plus Icon Read Next: ‘Vikings’ Actor Gustaf Skarsgard Makes Feature Directorial Debut With Psychological Horror ‘The Cannibal’ (EXCLUSIVE) Home Film News Jan 30, 2019 4:24pm PT Dick Miller, ‘Gremlins’ and ‘Terminator’ Actor, Dies at 90 By Nate Nickolai Plus Icon Nate Nickolai https://twitter.com/natenickolai Latest Ruth Bader Ginsburg, Supr",
+          "capture": {
+            "status": 200,
+            "sha256": "4200f427a43886240feba28506a975ba8d9f000697a9d62b0f4415237a3ddcd4",
+            "bytesRead": 546464,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "ismail-merchant",
@@ -92691,7 +93785,8 @@
           "https://id.loc.gov/authorities/names/n86001310.json",
           "https://www.idref.fr/035462809"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "alan-king",
@@ -92749,7 +93844,8 @@
           "https://www.idref.fr/159846498",
           "https://datos.bne.es/persona/XX1486703.html"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "george-dewey",
@@ -92807,7 +93903,8 @@
           "https://www.britannica.com/biography/George-Dewey",
           "https://id.loc.gov/authorities/names/n50001670.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "john-severin",
@@ -92860,7 +93957,8 @@
           "https://id.loc.gov/authorities/names/n85069302.json",
           "https://www.idref.fr/183968492"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "louis-pasteur",
@@ -92880,7 +93978,14 @@
           "publisher": "Bibliothèque nationale de France"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "https://brockhaus.de/ecs/julex/article/pasteur-louis",
+          "publisher": "brockhaus.de",
+          "scope": "verified exact death date",
+          "browserExcerpt": "ichnis Leben Wissenschaftliche Leistungen Literatur Louis Pasteur Vorlesen lassen Drucken Pasteur [pasˈtœːr] , Louis , französischer Chemiker und Mikrobiologe, * 27.12.1822 in Dole, † 28.9.1895 in Villeneuve-l'Étang (bei Paris). Louis Pasteur entwickelte u. a. die ersten Schutzimpfungen gegen Tollwut und Milzbrand und ein Verfahren zur Haltbarmachung von Lebensmittel"
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Louis Pasteur",
         "wikidataDescription": "French chemist and microbiologist (1822-1895)",
@@ -92942,8 +94047,31 @@
         "countryEvidenceSourceUrls": [
           "https://www.academie-francaise.fr/les-immortels/louis-pasteur",
           "https://www.bnf.fr/fr/bicentenaire-de-la-naissance-de-pasteur-1822-1895"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Active exact Wikidata P570 was confirmed against the retained direct publisher page capture(s)."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "1895-09-28",
+      "deathDateSources": [
+        "https://brockhaus.de/ecs/julex/article/pasteur-louis"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "https://brockhaus.de/ecs/julex/article/pasteur-louis",
+          "publisher": "brockhaus.de",
+          "dateText": "28.9.1895",
+          "excerpt": "ichnis Leben Wissenschaftliche Leistungen Literatur Louis Pasteur Vorlesen lassen Drucken Pasteur [pasˈtœːr] , Louis , französischer Chemiker und Mikrobiologe, * 27.12.1822 in Dole, † 28.9.1895 in Villeneuve-l'Étang (bei Paris). Louis Pasteur entwickelte u. a. die ersten Schutzimpfungen gegen Tollwut und Milzbrand und ein Verfahren zur Haltbarmachung von Lebensmittel",
+          "capture": {
+            "status": 200,
+            "sha256": "6cab659993a133dabcb2cec66e64c1d77fa7edca0e149c2f05370f493c723a59",
+            "bytesRead": 197597,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "marlene-dietrich",
@@ -93035,7 +94163,8 @@
           "https://www.biography.com/actors/marlene-dietrich",
           "https://www.deutsche-kinemathek.de/en/collections-archives/digital-collection/personal-papers-and-company-archives/marlene-dietrich"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "wilfrid-sheed",
@@ -93078,7 +94207,8 @@
           "https://www.britannica.com/biography/Wilfrid-Sheed",
           "https://id.loc.gov/authorities/names/n79121345.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "tran-thi-duyen",
@@ -93130,7 +94260,8 @@
           "https://assets.the-afc.com/downloads/technical-reports/AFC-Women%27s-Asian-Cup-2022-India%E2%84%A2-Technical-Report.pdf",
           "https://africa.espn.com/football/player/_/id/372755/tran-thi-duyen"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "john-von-neumann",
@@ -93204,7 +94335,8 @@
           "https://www.britannica.com/biography/John-von-Neumann",
           "https://id.loc.gov/authorities/names/n50021202.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "lili-elbe",
@@ -93247,7 +94379,29 @@
           "https://www.britannica.com/biography/Lili-Elbe",
           "https://id.loc.gov/authorities/names/nr97031091.json"
         ]
-      }
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "1931-09-13",
+      "deathDatePrecision": "day",
+      "deathDateSources": [
+        "https://lilielbe.luc.edu/narrative/publicationHistory.html"
+      ],
+      "deathDateEvidence": [
+        {
+          "url": "https://lilielbe.luc.edu/narrative/publicationHistory.html",
+          "publisher": "lilielbe.luc.edu",
+          "dateText": "13 September 1931",
+          "excerpt": " head of in the women’s clinic ( Staatliche Frauenklinik ) in Dresden, who referred Einar to Hirschfeld’s Institute. Warnekros performed all but the first of the four surgeries Lili had over sixteen months. (The first was an orchiectomy, performed by Erwin Gohrbandt in Berlin.) Lili Elvenes died on 13 September 1931, likely from complications following the last surgery, a vaginoplasty. This narrative, however, is far more than a case history of an innovative surgical procedure. It is a significant if under-read work from the modernist archive as well as the archive of transgender history. As a fictionalized account of Lili’s life, the narrative presents a modernist innovative form not jus",
+          "capture": {
+            "status": 200,
+            "sha256": "84d0c3ecb828473c5c6cc92345e5de8bb9de26aa82fe63adad060c565da24546",
+            "bytesRead": 7697,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        }
+      ]
     },
     {
       "id": "albert-pike",
@@ -93312,7 +94466,8 @@
           "https://id.loc.gov/authorities/names/n85373355.json",
           "https://www.idref.fr/145542505"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "roman-vlad",
@@ -93382,7 +94537,8 @@
           "https://id.loc.gov/authorities/names/n84148414.json",
           "https://www.idref.fr/08075824X"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "william-ewart-gladstone",
@@ -93446,7 +94602,8 @@
           "https://www.britannica.com/biography/William-Ewart-Gladstone",
           "https://id.loc.gov/authorities/names/n79018726.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "carol-reed",
@@ -93509,7 +94666,8 @@
           "https://www.britannica.com/biography/Carol-Reed",
           "https://id.loc.gov/authorities/names/n85072254.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "joseph-bologna",
@@ -93577,7 +94735,8 @@
           "https://id.loc.gov/authorities/names/n86141935.json",
           "https://www.idref.fr/203586816"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "tu-youyou",
@@ -93646,7 +94805,8 @@
           "https://www.britannica.com/biography/Tu-Youyou",
           "https://id.loc.gov/authorities/names/n2016183752.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "odetta",
@@ -93724,7 +94884,8 @@
           "https://www.britannica.com/biography/Odetta",
           "https://id.loc.gov/authorities/names/no92003124.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "val-kilmer",
@@ -93744,7 +94905,14 @@
           "publisher": "IdRef"
         }
       ],
-      "supportingSources": [],
+      "supportingSources": [
+        {
+          "url": "https://www.washingtonpost.com/obituaries/2025/04/02/val-kilmer-batman-top-gun-jim-morrison/",
+          "publisher": "The Washington Post",
+          "scope": "verified exact death date",
+          "browserExcerpt": "Val Kilmer, an actor who rose to Hollywood stardom with wide-ranging and charismatic performances in roles including Tom “Iceman” Kazansky in the “Top Gun” action films, rocker Jim Morrison in the drama “The Doors” and the caped crusader in “Batman Forever,” died April 1 in Los Angeles. He was 65."
+        }
+      ],
       "identityEvidence": {
         "wikidataLabel": "Val Kilmer",
         "wikidataDescription": "American actor (1959–2025)",
@@ -93786,8 +94954,30 @@
         "countryEvidenceSourceUrls": [
           "https://id.loc.gov/authorities/names/n92096686.json",
           "https://www.idref.fr/070672016"
-        ]
-      }
+        ],
+        "lifeStatusRationale": "Death status and exact date are documented in the retained direct publisher obituary."
+      },
+      "lifeStatus": "deceased",
+      "deathDate": "2025-04-01",
+      "deathDateSources": [
+        "https://www.washingtonpost.com/obituaries/2025/04/02/val-kilmer-batman-top-gun-jim-morrison/"
+      ],
+      "deathDatePrecision": "day",
+      "deathDateEvidence": [
+        {
+          "url": "https://www.washingtonpost.com/obituaries/2025/04/02/val-kilmer-batman-top-gun-jim-morrison/",
+          "publisher": "The Washington Post",
+          "dateText": "died April 1 in Los Angeles",
+          "excerpt": "Updated April 2, 2025. Val Kilmer, an actor who rose to Hollywood stardom with wide-ranging and charismatic performances in roles including Tom “Iceman” Kazansky in the “Top Gun” action films, rocker Jim Morrison in the drama “The Doors” and the caped crusader in “Batman Forever,” died April 1 in Los Angeles. He was 65.",
+          "capture": {
+            "status": 200,
+            "excerptSha256": "d7d9d23c693569a3fa118df16411ab5cdef18375883aab951f36146fdbe76c5a",
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "browser-direct"
+          }
+        }
+      ]
     },
     {
       "id": "alex-ferguson",
@@ -93855,7 +95045,8 @@
           "https://www.britannica.com/biography/Alex-Ferguson",
           "https://id.loc.gov/authorities/names/nb91358803.json"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     },
     {
       "id": "dave-brubeck",
@@ -93933,7 +95124,8 @@
           "https://www.davebrubeck.com/biography/",
           "https://www.arts.gov/honors/jazz/dave-brubeck"
         ]
-      }
+      },
+      "lifeStatus": "unknown"
     }
   ],
   "sourceCaptures": {
@@ -101693,5 +102885,6 @@
     "ESPN": 1,
     "Official Dave Brubeck Website": 1,
     "National Endowment for the Arts": 1
-  }
+  },
+  "profileCount": 183
 }
