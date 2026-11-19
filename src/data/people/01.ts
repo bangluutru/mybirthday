@@ -4918,17 +4918,20 @@ export const PEOPLE_01: Person[] = [
   "countryName": "Việt Nam",
   "countryFlag": "🇻🇳",
   "image": "/people/placeholder.svg",
-  "shortDescription": "Kỳ thủ cờ vua Việt Nam; sinh ngày 28/1/1994.",
-  "biography": "Nguyễn Thị Mai Hưng là kỳ thủ cờ vua người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. FIDE phong danh hiệu Woman Grandmaster cho Nguyễn Thị Mai Hưng năm 2014.",
-  "highlights": ["Sinh ngày 28/1/1994.", "FIDE phong danh hiệu Woman Grandmaster cho Nguyễn Thị Mai Hưng năm 2014."],
+  "shortDescription": "Kỳ thủ cờ vua Việt Nam, vô địch quốc gia các năm 2011 và 2013.",
+  "biography": "Nguyễn Thị Mai Hưng là kỳ thủ cờ vua người Việt Nam. Cô giành chức vô địch quốc gia các năm 2011 và 2013, đồng thời đoạt huy chương vàng cờ tiêu chuẩn tại SEA Games 26.",
+  "highlights": ["Mai Hưng giành chức vô địch quốc gia các năm 2011 và 2013.", "Mai Hưng giành huy chương vàng cờ tiêu chuẩn tại SEA Games 26."],
   "wikidataId": "Q1984355",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q1984355",
-    "https://www.ocagames.com/orb/books/Ashgabat_2017/AIMAG_CH_resultsBook.pdf",
-    "https://ratings.fide.com/profile/12401676"
+    "https://www.ocagames.com/HZ_Info/AG2022-/resAG2022-/pdf/AG2022-/CHS/AG2022-_CHS_C32C_CHSWTEAM--------------------------.pdf",
+    "https://thethaovanhoa.vn/hoa-khoi-tai-nang-cua-lang-co-viet-nam-20140102143802077.htm",
+    "https://vietnamchess.vn/index.php/component/chessresults/?fideid=12401676&view=player",
+    "https://s4.chess-results.com/tnrWZ.aspx?art=9&fed=VIE&fedb=IND&flag=NO&lan=1&snr=107&tno=1469896&turdet=YES"
   ],
   "region": "vietnam",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-08",
+  "lifeStatus": "living"
 }  ,
 {
   "id": "jackson-pollock",
@@ -4947,24 +4950,26 @@ export const PEOPLE_01: Person[] = [
   "countryName": "Hoa Kỳ",
   "countryFlag": "🇺🇸",
   "image": "/people/placeholder.svg",
-  "shortDescription": "Họa sĩ Hoa Kỳ; sinh ngày 28/1/1912.",
-  "biography": "Jackson Pollock là họa sĩ người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Đầu sự nghiệp, Jackson Pollock chịu ảnh hưởng của kỹ thuật tự động siêu thực; dấu ấn này thể hiện trong các bản vẽ sổ tay của ông.",
-  "highlights": ["Sinh ngày 28/1/1912.", "Đầu sự nghiệp, Jackson Pollock chịu ảnh hưởng của kỹ thuật tự động siêu thực; dấu ấn này thể hiện trong các bản vẽ sổ tay của ông."],
+  "shortDescription": "Họa sĩ Mỹ thuộc trường phái Biểu hiện trừu tượng, phát triển phương pháp nhỏ giọt năm 1947.",
+  "biography": "Jackson Pollock là họa sĩ người Mỹ và nhân vật chủ chốt của trường phái Biểu hiện trừu tượng. Whitney ghi nhận kỹ thuật tự động tâm thần của nhóm Siêu thực có ảnh hưởng đặc biệt tới tiến trình nghệ thuật của ông. Năm 1947, Pollock phát triển phương pháp nhỏ giọt, hắt và rót sơn trực tiếp lên canvas đặt trên sàn.",
+  "highlights": ["Whitney ghi nhận kỹ thuật tự động tâm thần của nhóm Siêu thực có ảnh hưởng đặc biệt tới tiến trình nghệ thuật của Pollock.", "Năm 1947, Pollock phát triển phương pháp nhỏ giọt và rót sơn trực tiếp lên canvas."],
   "wikidataId": "Q37571",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q37571",
-    "https://www.guggenheim.org/artwork/artist/jackson-pollock/",
-    "https://www.pkf.org/jackson-pollock/",
-    "https://brockhaus.de/ecs/julex/article/pollock-jackson"
+    "https://brockhaus.de/ecs/julex/article/pollock-jackson",
+    "https://whitney.org/artists/1039",
+    "https://llrc.stonybrook.edu/commcms/pkhouse/our-story/pollock"
   ],
+  "fields": ["design-creative"],
   "region": "west",
   "deathDate": "1956-08-11",
   "lifeStatus": "deceased",
   "deathDateSourceUrls": [
-    "https://brockhaus.de/ecs/julex/article/pollock-jackson"
+    "https://brockhaus.de/ecs/julex/article/pollock-jackson",
+    "https://whitney.org/artists/1039"
   ],
   "deathDatePrecision": "day",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-08"
 }  ,
 {
   "id": "colette",
@@ -4983,17 +4988,95 @@ export const PEOPLE_01: Person[] = [
   "countryName": "Pháp",
   "countryFlag": "🇫🇷",
   "image": "/people/placeholder.svg",
-  "shortDescription": "Nhà văn Pháp; sinh ngày 28/1/1873.",
-  "biography": "Colette là nhà văn người Pháp. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Các tiểu thuyết Claudine đầu tiên của Colette, xuất bản giai đoạn 1900–1903, mang tên Willy, bút danh của người chồng đầu tiên Henri Gauthier-Villars.",
-  "highlights": ["Sinh ngày 28/1/1873.", "Các tiểu thuyết Claudine đầu tiên của Colette, xuất bản giai đoạn 1900–1903, mang tên Willy, bút danh của người chồng đầu tiên Henri Gauthier-Villars."],
+  "shortDescription": "Nhà văn Pháp, tác giả loạt tiểu thuyết Claudine và nghệ sĩ sân khấu.",
+  "biography": "Colette là nhà văn người Pháp. Tháng 3/1900, Claudine à l’école được xuất bản dưới tên Willy. Tháng 2/1906, bà lần đầu xuất hiện trên sân khấu trong vở Le Désir, la Chimère et l’Amour.",
+  "highlights": ["Tháng 3/1900, Claudine à l’école được xuất bản dưới tên Willy.", "Tháng 2/1906, Colette lần đầu xuất hiện trên sân khấu trong vở Le Désir, la Chimère et l’Amour."],
   "wikidataId": "Q218679",
   "sourceUrls": [
     "https://www.wikidata.org/wiki/Q218679",
-    "https://snl.no/Sidonie_Gabrielle_Colette",
-    "https://www.leonore.archives-nationales.culture.gouv.fr/ui/notice/86362"
+    "https://catalogue.bnf.fr/ark:/12148/cb119298072",
+    "https://www.amisdecolette.fr/colette/biographie/",
+    "https://www.bnf.fr/sites/default/files/2025-07/DP-BnF-Exposition-Les-mondes-de-Colette.pdf"
   ],
+  "fields": ["design-creative"],
   "region": "west",
-  "verifiedAt": "2026-10-04"
+  "verifiedAt": "2026-10-08",
+  "deathDate": "1954-08-03",
+  "lifeStatus": "deceased",
+  "deathDateSourceUrls": ["https://catalogue.bnf.fr/ark:/12148/cb119298072"],
+  "deathDatePrecision": "day"
+}  ,
+{
+  "id": "lala-lajpat-rai",
+  "slug": "lala-lajpat-rai",
+  "name": "Lala Lajpat Rai",
+  "birthDate": "1865-01-28",
+  "deathDate": "1928-11-17",
+  "deathDateSourceUrls": ["https://www.pib.gov.in/PressReleasePage.aspx?PRID=1793380&lang=2&reg=48"],
+  "deathDatePrecision": "day",
+  "lifeStatus": "deceased",
+  "birthYear": 1865,
+  "birthMonth": 1,
+  "birthDay": 28,
+  "occupation": ["chính trị gia"],
+  "category": "politics",
+  "categoryLabel": "Chính trị",
+  "fields": ["economics-business", "society-law"],
+  "countryCode": "IN",
+  "countryName": "Ấn Độ",
+  "countryFlag": "🇮🇳",
+  "birthplace": "Dhudike, Punjab, Ấn Độ",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Chính trị gia Ấn Độ, người vận động cho Swadeshi và nền độc lập của Ấn Độ.",
+  "biography": "Lala Lajpat Rai là chính trị gia và nhà hoạt động độc lập người Ấn Độ. Năm 1894, ông gửi thư kêu gọi thành lập ngân hàng cổ phần Ấn Độ như một bước trong phong trào Swadeshi. Ngày 30/10/1928, ông dẫn đầu cuộc tuần hành bất bạo động phản đối Ủy ban Simon tại Lahore.",
+  "highlights": [
+    "Năm 1894, Lala Lajpat Rai vận động bạn bè ủng hộ thành lập ngân hàng cổ phần Ấn Độ trong phong trào Swadeshi.",
+    "Ngày 30/10/1928, Rai dẫn đầu cuộc tuần hành bất bạo động phản đối Ủy ban Simon tại Lahore."
+  ],
+  "wikidataId": "Q1395763",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q1395763",
+    "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1793380&lang=2&reg=48",
+    "https://pnb.bank.in/origin-of-PNB.html"
+  ],
+  "region": "asia",
+  "verifiedAt": "2026-10-08"
+}  ,
+{
+  "id": "hidetsugu-yagi",
+  "slug": "hidetsugu-yagi",
+  "name": "Hidetsugu Yagi",
+  "birthDate": "1886-01-28",
+  "deathDate": "1976-01-19",
+  "deathDateSourceUrls": ["https://www.ndl.go.jp/portrait/e/datas/363/"],
+  "deathDatePrecision": "day",
+  "lifeStatus": "deceased",
+  "birthYear": 1886,
+  "birthMonth": 1,
+  "birthDay": 28,
+  "occupation": ["kỹ sư điện"],
+  "category": "scientist",
+  "categoryLabel": "Nhà khoa học",
+  "fields": ["technology-engineering", "science-research"],
+  "countryCode": "JP",
+  "countryName": "Nhật Bản",
+  "countryFlag": "🇯🇵",
+  "birthplace": "Osaka, Nhật Bản",
+  "image": "/people/placeholder.svg",
+  "shortDescription": "Kỹ sư viễn thông Nhật Bản, đồng phát triển anten Yagi–Uda.",
+  "biography": "Hidetsugu Yagi là kỹ sư viễn thông người Nhật Bản. Ông tốt nghiệp Trường Kỹ thuật thuộc Đại học Đế quốc Tokyo năm 1909. Năm 1926, ông cùng Shintaro Uda phát triển anten Yagi–Uda, được sử dụng rộng rãi cho radar và truyền hình.",
+  "highlights": [
+    "Năm 1909, Yagi tốt nghiệp Trường Kỹ thuật thuộc Đại học Đế quốc Tokyo.",
+    "Năm 1926, Yagi cùng Shintaro Uda phát triển anten Yagi–Uda."
+  ],
+  "wikidataId": "Q1347561",
+  "sourceUrls": [
+    "https://www.wikidata.org/wiki/Q1347561",
+    "https://www.ndl.go.jp/portrait/e/datas/363/",
+    "https://www2.jsf.or.jp/wp-content/uploads/pdf/ab_pu_200801_public.pdf"
+  ],
+  "region": "asia",
+  "verifiedAt": "2026-10-08"
 }  ,
 {
   "id": "anton-chekhov",

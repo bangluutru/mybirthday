@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "cycle": "BV-017",
-  "retrievedAt": "2026-10-08T20:50:56.796Z",
-  "verifiedPeopleCount": 330,
+  "retrievedAt": "2026-10-08T21:08:26.763Z",
+  "verifiedPeopleCount": 333,
   "baselineCorrections": [
     {
       "id": "abraham-lincoln",
@@ -4597,14 +4597,16 @@
         "deathDate": "1956-08-11",
         "lifeStatus": "deceased",
         "deathDateSourceUrls": [
-          "https://brockhaus.de/ecs/julex/article/pollock-jackson"
+          "https://brockhaus.de/ecs/julex/article/pollock-jackson",
+          "https://whitney.org/artists/1039"
         ],
         "deathDatePrecision": "day",
         "sourceUrls": [
           "https://www.wikidata.org/wiki/Q37571",
           "https://www.guggenheim.org/artwork/artist/jackson-pollock/",
           "https://www.pkf.org/jackson-pollock/",
-          "https://brockhaus.de/ecs/julex/article/pollock-jackson"
+          "https://brockhaus.de/ecs/julex/article/pollock-jackson",
+          "https://whitney.org/artists/1039"
         ]
       },
       "deathDateEvidence": [
@@ -4617,6 +4619,20 @@
             "status": 200,
             "sha256": "fe8e32404642af16220d2fa74f88c0a5c06cd7339f3d11160e6a76845733ba2d",
             "bytesRead": 183958,
+            "exactDate": true,
+            "nameMatched": true,
+            "verificationMethod": "direct-http"
+          }
+        },
+        {
+          "url": "https://whitney.org/artists/1039",
+          "publisher": "Whitney Museum of American Art",
+          "dateText": "August 11, 1956",
+          "excerpt": "painting to a level of importance equal to that of the finished picture. This shift would have a profound influence upon a multitude of artists in succeeding decades. Read more Wikipedia entry Introduction Paul Jackson Pollock (; January 28, 1912 – August 11, 1956) was an American painter. A major figure in the abstract expressionist movement, he was noted for his \"drip technique\" of pouring or splashing liquid household paint onto a horizontal surface, enabling him to view and paint his canvases from all angles. It was called all-over painting and action painting, because Pollock covered the entire canvas and used the force of his whol",
+          "capture": {
+            "status": 200,
+            "sha256": "5f17815d18edfbf3979058773cae7fcbe728d33a1d0226b758d5f0edd4ee51f9",
+            "bytesRead": 123823,
             "exactDate": true,
             "nameMatched": true,
             "verificationMethod": "direct-http"

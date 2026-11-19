@@ -1,0 +1,1197 @@
+{
+  "schemaVersion": 1,
+  "cycle": "BV-017",
+  "batch": "2026-01-28",
+  "sourceCaptures": [
+    {
+      "id": "mai-oca-dob",
+      "url": "https://www.ocagames.com/HZ_Info/AG2022-/resAG2022-/pdf/AG2022-/CHS/AG2022-_CHS_C32C_CHSWTEAM--------------------------.pdf",
+      "publisher": "Olympic Council of Asia",
+      "publisherHost": "www.ocagames.com",
+      "status": 200,
+      "bytesRead": 723462,
+      "sha256": "7bd2728927045d7522aacb9254542bd50c8758cbe7d8f303f71c9136a1ff78ab",
+      "verificationMethod": "direct-http-pdf-selected-excerpt",
+      "excerpt": "NG Thi Bao Tram 9 JAN 1987 12401102 NGUYEN Thi Thanh An 17 JUN 1976 NGUYEN Thi Mai Hung 28 JAN 1994 12401676 VO Thi Kim Phung 8 JUN 1993 12401838 PHAM le Thao Nguyen 7 DEC 1987 12401226 Timing and Results provided by Borna",
+      "excerptSha256": "eca278840f9105634ea482dd266a870213c62f4af02034f9240ac8d06271b14c"
+    },
+    {
+      "id": "mai-ttvh-dob",
+      "url": "https://thethaovanhoa.vn/hoa-khoi-tai-nang-cua-lang-co-viet-nam-20140102143802077.htm",
+      "publisher": "Báo Thể thao & Văn hóa",
+      "publisherHost": "thethaovanhoa.vn",
+      "status": 200,
+      "bytesRead": 433591,
+      "sha256": "0796468bc15a27c0de99d955051bb11eb81414f395b6e97ae94a1e7cb2fd3388",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "M (tháng 3). Mới đây nhất là chức vô địch cờ chớp tại giải trẻ quốc gia (vừa kết thúc tại Lâm Đồng). Tại giải, nữ kỳ thủ Bắc Giang này đã vượt qua hơn 20 người đồng nghiệp nam để giành chức vô địch ở lứa tuổi U20 nam. Vài nét về Nguyễn Thị Mai Hưng Sinh ngày 28/1/1994 tại TP. Bắc Giang, tỉnh Bắc Giang. Được phong kiện tướng quốc tế nữ vào năm 2009 Thành tích trong sự nghiệp” VĐQG năm 2011 và 2013. HCV cờ tiêu chuẩn Đại hội TDTT toàn quốc 2010. Chức vô địch HD Bank Cúp 2011 HCV cờ nhanh tại Giải trẻ quốc gia 2003, 2013… và rất nhiều HCV tại các giải trẻ khác. HCV cờ tiêu chuẩn SEA Games 26. HCV cờ tiêu chuẩn U14 châu Á 2007. HCV cờ tiêu chuẩn U16 châu Á 2010.",
+      "excerptSha256": "48ccb2755f6268ee6f6387a75abb779b634a4cdcb83814b5166779c5a5c562e7"
+    },
+    {
+      "id": "mai-ttvh-career",
+      "url": "https://thethaovanhoa.vn/hoa-khoi-tai-nang-cua-lang-co-viet-nam-20140102143802077.htm",
+      "publisher": "Báo Thể thao & Văn hóa",
+      "publisherHost": "thethaovanhoa.vn",
+      "status": 200,
+      "bytesRead": 433591,
+      "sha256": "0796468bc15a27c0de99d955051bb11eb81414f395b6e97ae94a1e7cb2fd3388",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "ng này đã vượt qua hơn 20 người đồng nghiệp nam để giành chức vô địch ở lứa tuổi U20 nam. Vài nét về Nguyễn Thị Mai Hưng Sinh ngày 28/1/1994 tại TP. Bắc Giang, tỉnh Bắc Giang. Được phong kiện tướng quốc tế nữ vào năm 2009 Thành tích trong sự nghiệp” VĐQG năm 2011 và 2013. HCV cờ tiêu chuẩn Đại hội TDTT toàn quốc 2010. Chức vô địch HD Bank Cúp 2011 HCV cờ nhanh tại Giải trẻ quốc gia 2003, 2013… và rất nhiều HCV tại các giải trẻ khác. HCV cờ tiêu chuẩn SEA Games 26. HCV cờ tiêu chuẩn U14 châu Á 2007. HCV cờ tiêu chuẩn U16 châu Á 2010. Hạng tư cờ tiêu chuẩn tại giải trẻ thế giới 2012. Việt Hòa Thể thao & Văn hóa Xuân Giáp Ngọ Chia sẻ Facebook Chia sẻ Zalo Cùng chuyên mục Có thể bạn quan tâm Đọc thêm Tin tức 24h Trong nước Thế giới Bình luận Thể thao Bóng chuyền Pickleball Chạy Tennis Billiards Snooker Golf Bóng đá Việt V-League Các ĐTQG",
+      "excerptSha256": "5efd17add769e51780da22b7a790b79459ef5c5cdf839de354f13ccb22245acf"
+    },
+    {
+      "id": "mai-vietnamchess-activity",
+      "url": "https://vietnamchess.vn/index.php/component/chessresults/?fideid=12401676&view=player",
+      "publisher": "Liên đoàn Cờ TP. Hồ Chí Minh / VietnamChess",
+      "publisherHost": "vietnamchess.vn",
+      "status": 200,
+      "bytesRead": 213190,
+      "sha256": "8d1e59fe568e16a96d99b8280a7d06e54730b9dac3d3416159deadfb1272d0d0",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "lo) Liên đoàn Liên đoàn Cờ TPHCM Các Trung tâm, CLB thành viên Danh sách đăng ký lớp Trọng tài FA Quảng Ninh Tìm kiếm / Đang tải... Thông tin kỳ thủ Xuất Excel Xuất PDF 📅 Danh mục giải đấu 🏠 Dashboard Đang tải ảnh... Lấy ảnh từ FIDE (nếu có) Họ tên: Nguyễn Thị Mai Hưng Mã VĐV: 12401676 Năm sinh: 1994 Danh hiệu: WGM Danh hiệu khác: FA,FT Hệ số Elo: Cờ tiêu chuẩn: 2306 Cờ nhanh: 2126 Cờ chớp: 2088 Thành tích thi đấu Hoạt động trọng tài (6) 🎓 Tập huấn (2) 🏅 Phong cấp (3) Chỉ hạng 1~3 Hủy lọc # Năm Tên giải Ngày Địa điểm Hạng Nội dung ĐV Điểm # Nhiệm vụ Tên giải Ngày tổ chức 1 Trọng tài Giải vô địch cờ vua các nhóm tuổi Đông Nam Á lần thứ 24 - 2026 07 đến 17/08/2026 2 Phó Tổng trọng tài Giải vô địch cờ vua các nhóm tuổi Đông Nam Á lần thứ 23 - 2025 01 đến 11/07/2025 3 Trọng tài Giải vô địch cờ vua trẻ châu Á lần thứ 27 - 2025 20 đến 30/11/2025 4 Trọng tài Giải vô địch cờ vua các nhóm tuổi Đông Nam Á lần thứ 22 - 2024 21 đến 31/08/2024 5 Phó Tổng trọng tài Giải vô địch cờ vua trẻ quốc gia năm 2024 24/05 đến 04/06/2024 6 T",
+      "excerptSha256": "f9360a8f1b91999f88bd845f51778b4c921bfb882cff6bb0ee8639eaa85f76bb"
+    },
+    {
+      "id": "mai-chess-results-2026",
+      "url": "https://s4.chess-results.com/tnrWZ.aspx?art=9&fed=VIE&fedb=IND&flag=NO&lan=1&snr=107&tno=1469896&turdet=YES",
+      "publisher": "Chess-Results.com tournament database",
+      "publisherHost": "s4.chess-results.com",
+      "status": 200,
+      "bytesRead": 20088,
+      "sha256": "d77f243677f57e9eed3369b9c661a9c7d99026c7e9d38fe88098d0b743bb0479",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Chess-Results Server Chess-results.com - 46th Chess Olympiad Samarkand 2026 Logged on: Gast Servertime 08.10.2026 23:02:34 Logout Login Arabic ARM AZE BIH BUL CAT CHN CRO CZE DEN ENG ESP FAI FIN FRA GER GRE INA ITA JPN MKD LTU NED POL POR ROU RUS SRB SVK SWE TUR UKR UZB VIE FontSize:11pt Home Tournament-Database AUT championship Pictures FAQ Online Registration Swiss-Manager ÖSB FIDE Note: To reduce the server load by daily scanning of all links (daily 100.000 sites and more) by search engines like Google, Yahoo and Co, all links for tournaments older than 5 days (end-date) are shown after clicking the following button: 46th Chess Olympiad Samarkand 2026 Women Last update 27.09.2026 14:28:14, Creator: IA Laurent FREYD,Last Upload: tkarali Player info Name Nguyen, Thi Mai Hung Title WGM Starting rank 107 Rating 2277 Rating national 0 Rating international 2277 Performance rating 2395 FIDE rtg +/- 29,4 Points 8 Rank 21 Federation VIE Ident-Number 0 Fide-ID 12401676 Year of birth 1994 Rd. Bo. SNo Name Rtg FED Pts. Res. K rtg+/- PGN 1 4 714 Alotaibi, Maitha Abdulrahman A 1543 KSA 5 1 20 1,60*) PGN 2 4 468 WCM Canales Chinchilla, Victoria 1837 CRC 2,5 1",
+      "excerptSha256": "e3a43c4d5d3def8a2b942e1fb5dbd2aa61523d74e34f6f298886dbca58817b3f"
+    },
+    {
+      "id": "pollock-whitney-dob",
+      "url": "https://whitney.org/artists/1039",
+      "publisher": "Whitney Museum of American Art",
+      "publisherHost": "whitney.org",
+      "status": 200,
+      "bytesRead": 123823,
+      "sha256": "ac0d2ca24c5df204083062837a4b2d17b586f43b1ad0f36ad66d1e27d9967b10",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "ty of his process helped elevate the act of painting to a level of importance equal to that of the finished picture. This shift would have a profound influence upon a multitude of artists in succeeding decades. Read more Wikipedia entry Introduction Paul Jackson Pollock (; January 28, 1912 – August 11, 1956) was an American painter. A major figure in the abstract expressionist movement, he was noted for his \"drip technique\" of pouring or splashing liquid household paint onto a horizontal surface, enabling him to view and paint his canvases from all angles. It was called all-over painting and action painting, because Pollock covered the entire canvas and used the",
+      "excerptSha256": "61e2223c1ca776f684424cc9bc4923fc52b408aa4c3a7c119c10b08c8f77e206"
+    },
+    {
+      "id": "pollock-whitney-career",
+      "url": "https://whitney.org/artists/1039",
+      "publisher": "Whitney Museum of American Art",
+      "publisherHost": "whitney.org",
+      "status": 200,
+      "bytesRead": 123823,
+      "sha256": "a51e940c0ac7693934a2f3e083caeabad474d7336359c60372f6f0b16e6e7b53",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "liated group referred to as the New York School, he sought a new mode of painting that was both personal and relevant to his time. Pollock had become acquainted with a number of the Surrealists who fled to New York during the war, and their model of psychic automatism, a method that employed spontaneous expression and allowed for manifestations of the unconscious, was particularly important to his artistic progression. In 1947 Pollock developed the innovative method evinced in Number 27 , 1950 and his other “drip” paintings. He tacked unstretched, unprimed canvas onto the floor of his studio. Then he dipped hardened brushes and wooden stir sticks into cans of enamel or aluminum paint and dripped, flung, and poured liquid pigment directly onto the cloth. “On the floor I am more at ease,” Pollock explained. “I feel nearer, more a part of th",
+      "excerptSha256": "c79aa9d844bb30ffdd8f0124fce0bdd6dbb1c3dc0233aa8165e1fc15aa27b571"
+    },
+    {
+      "id": "pollock-whitney-death",
+      "url": "https://whitney.org/artists/1039",
+      "publisher": "Whitney Museum of American Art",
+      "publisherHost": "whitney.org",
+      "status": 200,
+      "bytesRead": 123823,
+      "sha256": "5f17815d18edfbf3979058773cae7fcbe728d33a1d0226b758d5f0edd4ee51f9",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "painting to a level of importance equal to that of the finished picture. This shift would have a profound influence upon a multitude of artists in succeeding decades. Read more Wikipedia entry Introduction Paul Jackson Pollock (; January 28, 1912 – August 11, 1956) was an American painter. A major figure in the abstract expressionist movement, he was noted for his \"drip technique\" of pouring or splashing liquid household paint onto a horizontal surface, enabling him to view and paint his canvases from all angles. It was called all-over painting and action painting, because Pollock covered the entire canvas and used the force of his whol",
+      "excerptSha256": "f6cfec7e93ec4e386c67d4b35bf93a86462945bf78580cd47ddfacabde8c767c"
+    },
+    {
+      "id": "pollock-pkhouse-dob",
+      "url": "https://llrc.stonybrook.edu/commcms/pkhouse/our-story/pollock",
+      "publisher": "Pollock-Krasner House and Study Center, Stony Brook University",
+      "publisherHost": "llrc.stonybrook.edu",
+      "status": 200,
+      "bytesRead": 46650,
+      "sha256": "14cdfc734e0651312ed3ae8a2ac8ee71dc433362662e8d61fe4d5f17775882bf",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "s' Homes & Studios House & Studio Overview House & Studio Study & Research Study Center Research Library Visiting Us Location, Hours & Reservations Directions School/Coach Tours Join Events News Contact Home Our Story Jackson Pollock Jackson Pollock Paul Jackson Pollock was born in Cody, Wyoming on 28 January 1912. He was the fifth and youngest son of LeRoy McCoy Pollock and Stella McClure Pollock. The family left Cody when Pollock was less than a year old, and he was raised in Arizona and California. The Pollock family, Arizona, about 1914. Left to right: LeRoy, Frank, Charles, Jackson, Jay, Sanford, Stella. After",
+      "excerptSha256": "2d25953db114064ce399076caaf0e4703ed2a89ffa11f8790d5a11c237361c5f"
+    },
+    {
+      "id": "colette-bnf-dob-death",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb119298072",
+      "publisher": "Bibliothèque nationale de France",
+      "publisherHost": "catalogue.bnf.fr",
+      "status": 200,
+      "bytesRead": 63433,
+      "sha256": "4ea2888b0d36c0460551a3689f0d91892decb8a1824d064425f012d6508485d2",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "nne Notice Au format public Au format Intermarc Au format Unimarc Colette (1873-1954) forme internationale Pays : France Langue(s) : français Sexe : Féminin Responsabilité(s) exercée(s) sur les documents : Auteur, Interprète, Participant Naissance : 1873-01-28, Saint-Sauveur-en-Puisaye (Yonne) Mort : 1954-08-03, Paris, 1er arrondissement (France) Épouse d'Henry Gauthier-Villars, dit Willy, puis d'Henri de Jouvenel, enfin de Maurice Goudeket. - Signe Colette Willy jusqu'en 1923, puis Colette à partir de cette date. - Grand officier de la Légion d'honneur (1953). Forme(s) rejetée(s) : < Willy, Colette (1873-1954) nom d'alliance < Colette, Gabrielle S",
+      "excerptSha256": "bd2bbc5abad51d9c4ab440a1215571751520730f93affdde010fe60e899a4024"
+    },
+    {
+      "id": "colette-amis-dob",
+      "url": "https://www.amisdecolette.fr/colette/biographie/",
+      "publisher": "Les Amis de Colette",
+      "publisherHost": "www.amisdecolette.fr",
+      "status": 200,
+      "bytesRead": 98347,
+      "sha256": "572592bd11a468a653c7c7d9cba9c100fbb53df324a97411c71a2cf726c9f5e2",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Les rencontres Colette Un village littéraire Liens La Maison de Colette Ecrits de femmes Musée Colette Centre d'études Colette Adhérez ! Colette au bac Colette 2023 Accueil » Colette » Biographie Biographie « J’appartiens à un pays que j’ai quitté » Le 28 janvier 1873, à Saint-Sauveur-en-Puisaye (Yonne), naissance de Sidonie Gabrielle Colette, fille de Sidonie Landoy, la future «Sido» de l’œuvre (1835-1912), veuve Robineau-Duclos, remariée en secondes noces (1865) avec Jules Joseph Colette (1829-1905), ancien capitaine de zouaves, amputé d’une jambe, percepteur à Saint-Sauveur depuis 1860. Celle qui vient de naître a une demi-sœur du premier lit, Juliette (1860-1908), la «sœur aux longs cheveux» de La Maison de Cla",
+      "excerptSha256": "a281337cdde9b3d4a36318d282ece61eb7b2c4253d87317876f473573f3eb7c5"
+    },
+    {
+      "id": "colette-bnf-career",
+      "url": "https://www.bnf.fr/sites/default/files/2025-07/DP-BnF-Exposition-Les-mondes-de-Colette.pdf",
+      "publisher": "Bibliothèque nationale de France",
+      "publisherHost": "www.bnf.fr",
+      "status": 200,
+      "bytesRead": 5642056,
+      "sha256": "9718c1d4605c32c68bfcae858c2caf2fa084c4fbe58cdd52f481cd26c1ca686d",
+      "verificationMethod": "direct-http-pdf-selected-excerpt",
+      "excerpt": "r s’installer l’année suivante à Châtillon-sur-Loing (aujourd’hui Châtillon-Coligny) où Achille s’est établi comme médecin. 15 mai 1893 Colette épouse Henry Gauthier-Villars, dit « Willy », et part vivre à Paris. Mars 1900 Claudine à l’école est publié sous le nom de Willy. Février 1906 Colette apparaît pour la première fois sur scène dans Le Désir, la Chimère et l’Amour, dans un costume de faune, puis dans diverses pantomimes jusqu’au début des années 1910. 1910 Mathilde de Morny, « Missy », sa compagne depuis 1906, achète pour elle la maison de Rozven en Bretagne. Colette publie La Vagabonde et ses premières chroniques dans le journal Le Matin. Divorce d’avec Willy. 1912 Mo",
+      "excerptSha256": "8f1748dc40d1c46c2deec4477ec1bfcfa0e548e2a4eee40e2ceae124ee8ce132"
+    },
+    {
+      "id": "lala-pib-dob",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1793380&lang=2&reg=48",
+      "publisher": "Press Information Bureau, Government of India",
+      "publisherHost": "www.pib.gov.in",
+      "status": 200,
+      "bytesRead": 82916,
+      "sha256": "d09e5e855ee77d02ca6ce17fa8df98fc62dcc7e50791f43943e6db2c95475930",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "the birth anniversary of Lala Lajpat Rai today. Shri Arun Arora, General Manager, ER, Shri Shekhar Ranjan Ghoshal Additional General Manager, ER, and other officers of the concerned Railway offered floral tribute to the portrait of Lala Lajpat Rai. Lala Lajpat Rai (28 January 1865 - 17 November 1928) was an Indian author, revolutionary, and politician. He played a pivotal role In the Indian Independence movement. He was popularly known as Punjab Kesari. He was o­ne of the three members of the Lal Bal Pal trio. Rai was born in an Agarwal Jain family as a son of Urdu and Persian government school teacher Munshi Radha Krishna Agarwal and his wife Guiab Devi at Dhudike in Ludh",
+      "excerptSha256": "7cee8eb18ce4133e3f92b0953ed91b5fd003c97d56c6cf704e0dbdc00fcabfa4"
+    },
+    {
+      "id": "lala-pib-march",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1793380&lang=2&reg=48",
+      "publisher": "Press Information Bureau, Government of India",
+      "publisherHost": "www.pib.gov.in",
+      "status": 200,
+      "bytesRead": 82916,
+      "sha256": "4e7775976e972cb9d9b5ef245cea9121f1e55776c0ee437a15a9c8782c18cb3f",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "23, he was elected to the legislative assembly o­n his release. In 1928, the United Kingdom set up the Simon Commission, headed by Sir John Simon to report o­n the political situation in India. When the Commission visited Lahore o­n 30 October 1928, Lajpat Rai led a nonviolent march in protest against it and gave a slogan \"Simon Go Back\". The police superintendent in Lahore, James A. Scott, ordered the police to lathi charge the protesters and personally assaulted Rai. Despite being severely injured, Rai subsequently addressed the crowd and said \"I declare that the blows struck at me today will be the last nails in the coffin of British rule in India\". Rai did not fully recove",
+      "excerptSha256": "6c79a1b4e8c3be2191e79619fa3a307e5a579ada37b2c44a50c4ec7678454526"
+    },
+    {
+      "id": "lala-pib-death",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1793380&lang=2&reg=48",
+      "publisher": "Press Information Bureau, Government of India",
+      "publisherHost": "www.pib.gov.in",
+      "status": 200,
+      "bytesRead": 82916,
+      "sha256": "ea03bf4fbe95b5738ccaf81ee86e9215f0e663e2edf34c9c09ab80c6bb8141d5",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "at Rai today. Shri Arun Arora, General Manager, ER, Shri Shekhar Ranjan Ghoshal Additional General Manager, ER, and other officers of the concerned Railway offered floral tribute to the portrait of Lala Lajpat Rai. Lala Lajpat Rai (28 January 1865 - 17 November 1928) was an Indian author, revolutionary, and politician. He played a pivotal role In the Indian Independence movement. He was popularly known as Punjab Kesari. He was o­ne of the three members of the Lal Bal Pal trio. Rai was born in an Agarwal Jain family as a son of Urdu and Persian government school teacher Munshi Radha Krishna Agarwal and his wife Guiab Devi at Dhudike in Lud",
+      "excerptSha256": "8481d3cd55e8d98f0e77cd5996a85b56cbff27c5a39756f84c0c2b40ade24783"
+    },
+    {
+      "id": "lala-pnb-dob",
+      "url": "https://pnb.bank.in/origin-of-PNB.html",
+      "publisher": "Punjab National Bank",
+      "publisherHost": "pnb.bank.in",
+      "status": 200,
+      "bytesRead": 268362,
+      "sha256": "02e60504a23a824a849a2dd8a1d08683ec855e19c086d25d52baac02243a2c7d",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "la Lajpat Rai There are few leaders of the pre-independence era who, after having plunged themselves into the political struggle, continued to take an active interest in social, cultural and educational work. Lala Lajpat Rai was one of such leaders. Born on 28th January, 1865 at a small village, Dhudike in the Ferozepur district of Punjab, he belonged to the Agarwal Baniya caste and it was perhaps because of this, in addition to taking part in social and political life of the country, he took keen interest in industrial and financial matter also. His father was a teacher of Persian and Urdu in a government school. Having passed the final examination in Law from Punjab Univers",
+      "excerptSha256": "49fe90f49c142f35e5764c8a5a83b76f774968d35cb7273fb64f6bfda45dd041"
+    },
+    {
+      "id": "lala-pnb-career",
+      "url": "https://pnb.bank.in/origin-of-PNB.html",
+      "publisher": "Punjab National Bank",
+      "publisherHost": "pnb.bank.in",
+      "status": 200,
+      "bytesRead": 268362,
+      "sha256": "4f06eb31e2800e1a468c805443e50f921d4bfc3aad43599c57c2745a99cded4c",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "Indian capital was being used to run English banks and companies, the profits accruing from which went entirely to the Britishers whilst Indians had to contend themselves with a small interest on their own capital\". At the instance of Rai Mool Raj, Lala Lajpat Rai sent round a circular to selected friends insisting on an Indian Joint Stock Bank as the first special step in constructive Swadeshi. Lala Harkrishan Lal who had returned from England with ideas regarding commerce and industry, was eager to give them practical shape. `PNB was born on May 19, 1894. The founding board was drawn from different parts of India professing different faiths and a varied ba",
+      "excerptSha256": "86fbe54c09b58c00f0b1a15287b5137b4c208b05b83cbe62a03232e278d0a838"
+    },
+    {
+      "id": "yagi-ndl-dob",
+      "url": "https://www.ndl.go.jp/portrait/e/datas/363/",
+      "publisher": "National Diet Library, Japan",
+      "publisherHost": "www.ndl.go.jp",
+      "status": 200,
+      "bytesRead": 40042,
+      "sha256": "d5f5eba8b38fc56d95ad9135efff353977dac44e7628617ca608c4f7b14e4603",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "YAGI Hidetsugu | Portraits of Modern Japanese Historical Figures | National Diet Library, Japan Skip to content 日本語 List of Names Occupation, Status Birthplace Date of Birth Featured YAGI Hidetsugu Date of Birth and Death January 28, 1886 - January 19, 1976 Birthplace (modern name) Osaka Occupation, Status Scholar (Natural Science) Description Telecommunications engineer. He graduated from the Engineering College of the Imperial University of Tokyo in 1909. He went to study in Germany and England in 1913. He became professor of Tohoku Imperial University in 1919 and studied the short-wavelength beam. He developed the Yagi-Uda ant",
+      "excerptSha256": "592115b5e894270948f43de8d654d0b4355adf2f3663c020e58fe1741c87246b"
+    },
+    {
+      "id": "yagi-ndl-career",
+      "url": "https://www.ndl.go.jp/portrait/e/datas/363/",
+      "publisher": "National Diet Library, Japan",
+      "publisherHost": "www.ndl.go.jp",
+      "status": 200,
+      "bytesRead": 40042,
+      "sha256": "d5f5eba8b38fc56d95ad9135efff353977dac44e7628617ca608c4f7b14e4603",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "s Occupation, Status Birthplace Date of Birth Featured YAGI Hidetsugu Date of Birth and Death January 28, 1886 - January 19, 1976 Birthplace (modern name) Osaka Occupation, Status Scholar (Natural Science) Description Telecommunications engineer. He graduated from the Engineering College of the Imperial University of Tokyo in 1909. He went to study in Germany and England in 1913. He became professor of Tohoku Imperial University in 1919 and studied the short-wavelength beam. He developed the Yagi-Uda antenna together with Shintaro Uda in 1926 and received international acclaim. The antenna is widely used for radar and television reception. He successively served as professor at Osaka Imperial University in 1932, the president of Tokyo Institute of Technology in 1942, the president of the Institute of Science and Technology in 1944, and the president of the Imperial University of Osaka in 1946. Although he was temp",
+      "excerptSha256": "d81eb8e4269677b4e48ab9cf16e5029e01f24ea740a75f45112258b5f8cc2ddf"
+    },
+    {
+      "id": "yagi-ndl-death",
+      "url": "https://www.ndl.go.jp/portrait/e/datas/363/",
+      "publisher": "National Diet Library, Japan",
+      "publisherHost": "www.ndl.go.jp",
+      "status": 200,
+      "bytesRead": 40042,
+      "sha256": "d5f5eba8b38fc56d95ad9135efff353977dac44e7628617ca608c4f7b14e4603",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "YAGI Hidetsugu | Portraits of Modern Japanese Historical Figures | National Diet Library, Japan Skip to content 日本語 List of Names Occupation, Status Birthplace Date of Birth Featured YAGI Hidetsugu Date of Birth and Death January 28, 1886 - January 19, 1976 Birthplace (modern name) Osaka Occupation, Status Scholar (Natural Science) Description Telecommunications engineer. He graduated from the Engineering College of the Imperial University of Tokyo in 1909. He went to study in Germany and England in 1913. He became professor of Tohoku Imperial University in 1919 and studied the short-wavelength beam. He developed the Yagi-Uda ant",
+      "excerptSha256": "592115b5e894270948f43de8d654d0b4355adf2f3663c020e58fe1741c87246b"
+    },
+    {
+      "id": "yagi-jsf-dob",
+      "url": "https://www2.jsf.or.jp/wp-content/uploads/pdf/ab_pu_200801_public.pdf",
+      "publisher": "Japan Science Foundation",
+      "publisherHost": "www2.jsf.or.jp",
+      "status": 200,
+      "bytesRead": 2084236,
+      "sha256": "653d511dbfc10816b2750b5ad717c3f7fc0b1d68d4d9c49159d2e2e3c867f416",
+      "verificationMethod": "direct-http-pdf-selected-excerpt",
+      "excerpt": "連載＝科学者モニュメントを訪ねて＜8＞ 科学者モニュメントを訪ねて＜８＞ 電波を心眼で見る男 世界中の屋根を制した電波工学者 八木秀次 家の屋根の上に立っている魚の骨のような形をしたテレビ放送受信アンテナ。 この形状のアンテナを開発した八木秀次の銅像が、東北大学工学部のキャンパ ス内にあります。 八木秀次は、1886（明治19）年１月28日に大阪府で生まれました。1909（明 治42）年、秀次23歳のとき、東京帝国大学工学部電気工学科を卒業し、翌年、 仙台高等工業学校電気科教授となります。 1913（大正２）年から、ドイツ、イギリス、アメリカへ留学し、 「左手の法則、 右手の法則」で有名なフレミングをはじめ著名な電磁気学や電波工学などの研 【八木・宇田アンテナ】 八木秀次が開発したアンテナ。世界中で、テレ 究者のもとで学びます。３年間の留学を終え帰国した秀次は、東北帝国大学工 ビ放送やラジオ放送の受信用、アマチュア無線 学部の電気工学科教",
+      "excerptSha256": "6b61b6195800e60f64ccf11077e5b5ed684ba0d40a4621381855f3b8cffc1ed4"
+    },
+    {
+      "id": "yagi-jpo-antenna",
+      "url": "https://www.jpo.go.jp/e/introduction/rekishi/10hatsumeika/index.html",
+      "publisher": "Japan Patent Office",
+      "publisherHost": "www.jpo.go.jp",
+      "status": 200,
+      "bytesRead": 36687,
+      "sha256": "18235a772d9d3ad98004f085f356d08dd479cef0effa97648373bf530bac30ea",
+      "verificationMethod": "direct-http-html-selected-excerpt",
+      "excerpt": "of the Tokyo University of Sciences. He was awarded the Culture Award in year 2 of the Showa Era and the Big Asahi Ribbon of the First Class in year 29 of the Showa Era. He died in year 29 of the Showa Era (1954). Kotaro Honda KS steel, New KS steel Hidetsugu Yagi Patent Number 69115 Yagi Antenna Hidetsugu Yagi was born in year 19 of the Meiji Era (1886) in Osaka prefecture. After he graduated from the Department of Electronic Engineering of the Tokyo Imperial University, Faculty of Sciences, in year 42 of the Meiji Era, he studied from year 2 of the Taisho Era in England, America, and Germany, and in Germany he continued research of generation of electric waves used f",
+      "excerptSha256": "d5114e0679f065c3e58a0bc525e9ed22315935244d34b9b49491c6c5ffee774f"
+    },
+    {
+      "id": "wd-mai",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q1984355.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 168142,
+      "sha256": "db7b235b227ad9fe6af213d74dbf4395b86744afce27396224267df1cc46ba72",
+      "verificationMethod": "direct-http-json-wikidata-entity",
+      "excerpt": "{\"label\":\"Nguyễn Thị Mai Hưng\",\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":1}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1994-01-28T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":1}],\"p570\":[],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q881\",\"references\":0}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q10873124\",\"references\":1}]}",
+      "excerptSha256": "b9b2e1881a1845b62453943de35f826805588dfe01d8e67369c5519ef004a8dd"
+    },
+    {
+      "id": "wd-pollock",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q37571.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 251680,
+      "sha256": "8a4c744478cc08c3cddd646cf7467d38eed8c9181388f343c39236763ad32513",
+      "verificationMethod": "direct-http-json-wikidata-entity",
+      "excerpt": "{\"label\":\"Jackson Pollock\",\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":0}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1912-01-28T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":16}],\"p570\":[{\"rank\":\"normal\",\"value\":\"+1956-08-11T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":13}],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q30\",\"references\":2}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q1028181\",\"references\":3},{\"rank\":\"normal\",\"value\":\"Q15296811\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q11569986\",\"references\":1}]}",
+      "excerptSha256": "9c691b56e4ffbbdee94129cee56524110eb1535bd9a3eea817d1f5367f26ee11"
+    },
+    {
+      "id": "wd-colette",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q218679.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 236598,
+      "sha256": "571362c8d467625ebb3a765cec00d0720e27363118ad9a69e7fa32decebdedff",
+      "verificationMethod": "direct-http-json-wikidata-entity",
+      "excerpt": "{\"label\":\"Colette\",\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":2}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1873-01-28T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":21}],\"p570\":[{\"rank\":\"normal\",\"value\":\"+1954-08-03T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":20}],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q142\",\"references\":1}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q6625963\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q623386\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q1930187\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q8178443\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q28389\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q15949613\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q214917\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q12144794\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q33999\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q36180\",\"references\":3},{\"rank\":\"normal\",\"value\":\"Q15214752\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q17337766\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q177220\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q5716684\",\"references\":1}]}",
+      "excerptSha256": "978c10aaf76691d856f9a22387a556a53001228855ac562ee7e3d4953f1b102c"
+    },
+    {
+      "id": "wd-lala",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q1395763.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 62717,
+      "sha256": "e1ae4f3ef97feefc890cdd93d2ad564ac660dd424e316f1192a1d26d5f98f96b",
+      "verificationMethod": "direct-http-json-wikidata-entity",
+      "excerpt": "{\"label\":\"Lala Lajpat Rai\",\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":1}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1865-01-28T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":2}],\"p570\":[{\"rank\":\"normal\",\"value\":\"+1928-11-17T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":3}],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q129286\",\"references\":0}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q82955\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q3242115\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q36180\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q30242234\",\"references\":0}]}",
+      "excerptSha256": "b30df94e95ff385e71ff98007efffc478182e6d46615f6278b8c889d692253cd"
+    },
+    {
+      "id": "wd-yagi",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q1347561.json",
+      "publisher": "Wikidata",
+      "publisherHost": "www.wikidata.org",
+      "status": 200,
+      "bytesRead": 61524,
+      "sha256": "1b95c26bfb6f67533f69e4f3bfe94fb3d8d097e3d674c71a6981f5aff700f108",
+      "verificationMethod": "direct-http-json-wikidata-entity",
+      "excerpt": "{\"label\":\"Hidetsugu Yagi\",\"p31\":[{\"rank\":\"normal\",\"value\":\"Q5\",\"references\":2}],\"p569\":[{\"rank\":\"normal\",\"value\":\"+1886-01-28T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":1}],\"p570\":[{\"rank\":\"normal\",\"value\":\"+1976-01-19T00:00:00Z\",\"precision\":11,\"calendar\":\"Q1985727\",\"references\":1}],\"p27\":[{\"rank\":\"normal\",\"value\":\"Q17\",\"references\":2},{\"rank\":\"normal\",\"value\":\"Q188712\",\"references\":0}],\"p106\":[{\"rank\":\"normal\",\"value\":\"Q169470\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q1622272\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q43845\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q82955\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q205375\",\"references\":0},{\"rank\":\"normal\",\"value\":\"Q1326886\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q901\",\"references\":1},{\"rank\":\"normal\",\"value\":\"Q723682\",\"references\":1}]}",
+      "excerptSha256": "67fe78b23623b1520a7a67ddf72fc5b79d9247a2596b4bf346f18144e98a7800"
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "nguyen-thi-mai-hung",
+      "name": "Nguyễn Thị Mai Hưng",
+      "wikidataId": "Q1984355",
+      "wikidataLabel": "Nguyễn Thị Mai Hưng",
+      "birthDate": "1994-01-28",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "living",
+      "deathDate": null,
+      "dobSourceIds": [
+        "mai-oca-dob",
+        "mai-ttvh-dob"
+      ],
+      "careerFactIds": [
+        "mai-national-champion-2011-2013",
+        "mai-seagames26-standard-gold"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q1984355",
+        "https://www.ocagames.com/HZ_Info/AG2022-/resAG2022-/pdf/AG2022-/CHS/AG2022-_CHS_C32C_CHSWTEAM--------------------------.pdf",
+        "https://thethaovanhoa.vn/hoa-khoi-tai-nang-cua-lang-co-viet-nam-20140102143802077.htm",
+        "https://vietnamchess.vn/index.php/component/chessresults/?fideid=12401676&view=player",
+        "https://s4.chess-results.com/tnrWZ.aspx?art=9&fed=VIE&fedb=IND&flag=NO&lan=1&snr=107&tno=1469896&turdet=YES"
+      ],
+      "wikidataCaptureId": "wd-mai",
+      "identityClaims": {
+        "label": "Nguyễn Thị Mai Hưng",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1994-01-28T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p570": [],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q881",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q10873124",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q881",
+        "selectedOccupationQids": [
+          "Q10873124"
+        ]
+      },
+      "before": {
+        "shortDescription": "Kỳ thủ cờ vua Việt Nam; sinh ngày 28/1/1994.",
+        "biography": "Nguyễn Thị Mai Hưng là kỳ thủ cờ vua người Việt Nam. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. FIDE phong danh hiệu Woman Grandmaster cho Nguyễn Thị Mai Hưng năm 2014.",
+        "highlights": [
+          "Sinh ngày 28/1/1994.",
+          "FIDE phong danh hiệu Woman Grandmaster cho Nguyễn Thị Mai Hưng năm 2014."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q1984355",
+          "https://www.ocagames.com/orb/books/Ashgabat_2017/AIMAG_CH_resultsBook.pdf",
+          "https://ratings.fide.com/profile/12401676"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "fields": null
+      },
+      "after": {
+        "shortDescription": "Kỳ thủ cờ vua Việt Nam, vô địch quốc gia các năm 2011 và 2013.",
+        "biography": "Nguyễn Thị Mai Hưng là kỳ thủ cờ vua người Việt Nam. Cô giành chức vô địch quốc gia các năm 2011 và 2013, đồng thời đoạt huy chương vàng cờ tiêu chuẩn tại SEA Games 26.",
+        "highlights": [
+          "Mai Hưng giành chức vô địch quốc gia các năm 2011 và 2013.",
+          "Mai Hưng giành huy chương vàng cờ tiêu chuẩn tại SEA Games 26."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q1984355",
+          "https://www.ocagames.com/HZ_Info/AG2022-/resAG2022-/pdf/AG2022-/CHS/AG2022-_CHS_C32C_CHSWTEAM--------------------------.pdf",
+          "https://thethaovanhoa.vn/hoa-khoi-tai-nang-cua-lang-co-viet-nam-20140102143802077.htm",
+          "https://vietnamchess.vn/index.php/component/chessresults/?fideid=12401676&view=player",
+          "https://s4.chess-results.com/tnrWZ.aspx?art=9&fed=VIE&fedb=IND&flag=NO&lan=1&snr=107&tno=1469896&turdet=YES"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "living",
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null
+      },
+      "fields": [],
+      "fieldEvidence": [],
+      "statusSourceId": "mai-chess-results-2026",
+      "statusEvidencePhrase": "Player info Name Nguyen, Thi Mai Hung"
+    },
+    {
+      "id": "jackson-pollock",
+      "name": "Jackson Pollock",
+      "wikidataId": "Q37571",
+      "wikidataLabel": "Jackson Pollock",
+      "birthDate": "1912-01-28",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "1956-08-11",
+      "dobSourceIds": [
+        "pollock-whitney-dob",
+        "pollock-pkhouse-dob"
+      ],
+      "careerFactIds": [
+        "pollock-psychic-automatism-influence",
+        "pollock-drip-method-developed-1947"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q37571",
+        "https://brockhaus.de/ecs/julex/article/pollock-jackson",
+        "https://whitney.org/artists/1039",
+        "https://llrc.stonybrook.edu/commcms/pkhouse/our-story/pollock"
+      ],
+      "wikidataCaptureId": "wd-pollock",
+      "identityClaims": {
+        "label": "Jackson Pollock",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 0
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1912-01-28T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 16
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1956-08-11T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 13
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q30",
+            "references": 2
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q1028181",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q15296811",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q11569986",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q30",
+        "selectedOccupationQids": [
+          "Q1028181"
+        ]
+      },
+      "before": {
+        "shortDescription": "Họa sĩ Hoa Kỳ; sinh ngày 28/1/1912.",
+        "biography": "Jackson Pollock là họa sĩ người Hoa Kỳ. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Đầu sự nghiệp, Jackson Pollock chịu ảnh hưởng của kỹ thuật tự động siêu thực; dấu ấn này thể hiện trong các bản vẽ sổ tay của ông.",
+        "highlights": [
+          "Sinh ngày 28/1/1912.",
+          "Đầu sự nghiệp, Jackson Pollock chịu ảnh hưởng của kỹ thuật tự động siêu thực; dấu ấn này thể hiện trong các bản vẽ sổ tay của ông."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q37571",
+          "https://www.guggenheim.org/artwork/artist/jackson-pollock/",
+          "https://www.pkf.org/jackson-pollock/",
+          "https://brockhaus.de/ecs/julex/article/pollock-jackson"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": "deceased",
+        "deathDate": "1956-08-11",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://brockhaus.de/ecs/julex/article/pollock-jackson"
+        ],
+        "fields": null
+      },
+      "after": {
+        "shortDescription": "Họa sĩ Mỹ thuộc trường phái Biểu hiện trừu tượng, phát triển phương pháp nhỏ giọt năm 1947.",
+        "biography": "Jackson Pollock là họa sĩ người Mỹ và nhân vật chủ chốt của trường phái Biểu hiện trừu tượng. Whitney ghi nhận kỹ thuật tự động tâm thần của nhóm Siêu thực có ảnh hưởng đặc biệt tới tiến trình nghệ thuật của ông. Năm 1947, Pollock phát triển phương pháp nhỏ giọt, hắt và rót sơn trực tiếp lên canvas đặt trên sàn.",
+        "highlights": [
+          "Whitney ghi nhận kỹ thuật tự động tâm thần của nhóm Siêu thực có ảnh hưởng đặc biệt tới tiến trình nghệ thuật của Pollock.",
+          "Năm 1947, Pollock phát triển phương pháp nhỏ giọt và rót sơn trực tiếp lên canvas."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q37571",
+          "https://brockhaus.de/ecs/julex/article/pollock-jackson",
+          "https://whitney.org/artists/1039",
+          "https://llrc.stonybrook.edu/commcms/pkhouse/our-story/pollock"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "deceased",
+        "deathDate": "1956-08-11",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://brockhaus.de/ecs/julex/article/pollock-jackson",
+          "https://whitney.org/artists/1039"
+        ],
+        "fields": [
+          "design-creative"
+        ]
+      },
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "pollock-psychic-automatism-influence",
+            "pollock-drip-method-developed-1947"
+          ],
+          "rationale": "Hai facts mô tả trực tiếp quá trình sáng tạo, ảnh hưởng nghệ thuật và kỹ thuật hội họa của Pollock."
+        }
+      ],
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "pollock-whitney-death"
+      ],
+      "statusSourceId": "pollock-whitney-death"
+    },
+    {
+      "id": "colette",
+      "name": "Colette",
+      "wikidataId": "Q218679",
+      "wikidataLabel": "Colette",
+      "birthDate": "1873-01-28",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "1954-08-03",
+      "dobSourceIds": [
+        "colette-bnf-dob-death",
+        "colette-amis-dob"
+      ],
+      "careerFactIds": [
+        "colette-claudine-published-as-willy-1900",
+        "colette-stage-debut-1906"
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q218679",
+        "https://catalogue.bnf.fr/ark:/12148/cb119298072",
+        "https://www.amisdecolette.fr/colette/biographie/",
+        "https://www.bnf.fr/sites/default/files/2025-07/DP-BnF-Exposition-Les-mondes-de-Colette.pdf"
+      ],
+      "wikidataCaptureId": "wd-colette",
+      "identityClaims": {
+        "label": "Colette",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1873-01-28T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 21
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1954-08-03T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 20
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q142",
+            "references": 1
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q6625963",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q623386",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1930187",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q8178443",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q28389",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q15949613",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q214917",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q12144794",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q33999",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 3
+          },
+          {
+            "rank": "normal",
+            "value": "Q15214752",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q17337766",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q177220",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q5716684",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q142",
+        "selectedOccupationQids": [
+          "Q33999"
+        ]
+      },
+      "before": {
+        "shortDescription": "Nhà văn Pháp; sinh ngày 28/1/1873.",
+        "biography": "Colette là nhà văn người Pháp. Ngày sinh được đối chiếu với Wikidata và các nguồn độc lập trong hồ sơ kiểm chứng. Các tiểu thuyết Claudine đầu tiên của Colette, xuất bản giai đoạn 1900–1903, mang tên Willy, bút danh của người chồng đầu tiên Henri Gauthier-Villars.",
+        "highlights": [
+          "Sinh ngày 28/1/1873.",
+          "Các tiểu thuyết Claudine đầu tiên của Colette, xuất bản giai đoạn 1900–1903, mang tên Willy, bút danh của người chồng đầu tiên Henri Gauthier-Villars."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q218679",
+          "https://snl.no/Sidonie_Gabrielle_Colette",
+          "https://www.leonore.archives-nationales.culture.gouv.fr/ui/notice/86362"
+        ],
+        "verifiedAt": "2026-10-04",
+        "lifeStatus": null,
+        "deathDate": null,
+        "deathDatePrecision": null,
+        "deathDateSourceUrls": null,
+        "fields": null
+      },
+      "after": {
+        "shortDescription": "Nhà văn Pháp, tác giả loạt tiểu thuyết Claudine và nghệ sĩ sân khấu.",
+        "biography": "Colette là nhà văn người Pháp. Tháng 3/1900, Claudine à l’école được xuất bản dưới tên Willy. Tháng 2/1906, bà lần đầu xuất hiện trên sân khấu trong vở Le Désir, la Chimère et l’Amour.",
+        "highlights": [
+          "Tháng 3/1900, Claudine à l’école được xuất bản dưới tên Willy.",
+          "Tháng 2/1906, Colette lần đầu xuất hiện trên sân khấu trong vở Le Désir, la Chimère et l’Amour."
+        ],
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q218679",
+          "https://catalogue.bnf.fr/ark:/12148/cb119298072",
+          "https://www.amisdecolette.fr/colette/biographie/",
+          "https://www.bnf.fr/sites/default/files/2025-07/DP-BnF-Exposition-Les-mondes-de-Colette.pdf"
+        ],
+        "verifiedAt": "2026-10-08",
+        "lifeStatus": "deceased",
+        "deathDate": "1954-08-03",
+        "deathDatePrecision": "day",
+        "deathDateSourceUrls": [
+          "https://catalogue.bnf.fr/ark:/12148/cb119298072"
+        ],
+        "fields": [
+          "design-creative"
+        ]
+      },
+      "fields": [
+        "design-creative"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "design-creative",
+          "careerFactIds": [
+            "colette-claudine-published-as-willy-1900",
+            "colette-stage-debut-1906"
+          ],
+          "rationale": "Các facts về xuất bản văn học và lần đầu biểu diễn của Colette thể hiện hoạt động sáng tạo đa dạng."
+        }
+      ],
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "colette-bnf-dob-death"
+      ],
+      "statusSourceId": "colette-bnf-dob-death"
+    }
+  ],
+  "newProfiles": [
+    {
+      "id": "lala-lajpat-rai",
+      "name": "Lala Lajpat Rai",
+      "wikidataId": "Q1395763",
+      "wikidataLabel": "Lala Lajpat Rai",
+      "birthDate": "1865-01-28",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "1928-11-17",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "lala-pib-death"
+      ],
+      "statusSourceId": "lala-pib-death",
+      "dobSourceIds": [
+        "lala-pib-dob",
+        "lala-pnb-dob"
+      ],
+      "careerFactIds": [
+        "lala-swadeshi-bank-circular-1894",
+        "lala-simon-commission-protest-1928"
+      ],
+      "countryCode": "IN",
+      "category": "politics",
+      "occupation": [
+        "chính trị gia"
+      ],
+      "birthplace": "Dhudike, Punjab, Ấn Độ",
+      "birthplaceEvidencePhrase": "Dhudike",
+      "fields": [
+        "economics-business",
+        "society-law"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "economics-business",
+          "careerFactIds": [
+            "lala-swadeshi-bank-circular-1894"
+          ],
+          "rationale": "Việc vận động thành lập ngân hàng cổ phần Ấn Độ gắn Rai với lĩnh vực kinh tế và tài chính."
+        },
+        {
+          "field": "society-law",
+          "careerFactIds": [
+            "lala-simon-commission-protest-1928"
+          ],
+          "rationale": "Rai dẫn đầu cuộc tuần hành phản đối Ủy ban Simon trong phong trào đấu tranh chính trị."
+        }
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q1395763",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1793380&lang=2&reg=48",
+        "https://pnb.bank.in/origin-of-PNB.html"
+      ],
+      "wikidataCaptureId": "wd-lala",
+      "identityClaims": {
+        "label": "Lala Lajpat Rai",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 1
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1865-01-28T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 2
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1928-11-17T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 3
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q129286",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q82955",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q3242115",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q36180",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q30242234",
+            "references": 0
+          }
+        ],
+        "selectedCountryQid": "Q129286",
+        "selectedOccupationQids": [
+          "Q82955"
+        ]
+      },
+      "after": {
+        "name": "Lala Lajpat Rai",
+        "birthDate": "1865-01-28",
+        "deathDate": "1928-11-17",
+        "deathDatePrecision": "day",
+        "lifeStatus": "deceased",
+        "occupation": [
+          "chính trị gia"
+        ],
+        "category": "politics",
+        "categoryLabel": "Chính trị",
+        "fields": [
+          "economics-business",
+          "society-law"
+        ],
+        "countryCode": "IN",
+        "countryName": "Ấn Độ",
+        "countryFlag": "🇮🇳",
+        "birthplace": "Dhudike, Punjab, Ấn Độ",
+        "image": "/people/placeholder.svg",
+        "shortDescription": "Chính trị gia Ấn Độ, người vận động cho Swadeshi và nền độc lập của Ấn Độ.",
+        "biography": "Lala Lajpat Rai là chính trị gia và nhà hoạt động độc lập người Ấn Độ. Năm 1894, ông gửi thư kêu gọi thành lập ngân hàng cổ phần Ấn Độ như một bước trong phong trào Swadeshi. Ngày 30/10/1928, ông dẫn đầu cuộc tuần hành bất bạo động phản đối Ủy ban Simon tại Lahore.",
+        "highlights": [
+          "Năm 1894, Lala Lajpat Rai vận động bạn bè ủng hộ thành lập ngân hàng cổ phần Ấn Độ trong phong trào Swadeshi.",
+          "Ngày 30/10/1928, Rai dẫn đầu cuộc tuần hành bất bạo động phản đối Ủy ban Simon tại Lahore."
+        ],
+        "wikidataId": "Q1395763",
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q1395763",
+          "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1793380&lang=2&reg=48",
+          "https://pnb.bank.in/origin-of-PNB.html"
+        ],
+        "region": "asia",
+        "verifiedAt": "2026-10-08",
+        "deathDateSourceUrls": [
+          "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1793380&lang=2&reg=48"
+        ]
+      }
+    },
+    {
+      "id": "hidetsugu-yagi",
+      "name": "Hidetsugu Yagi",
+      "wikidataId": "Q1347561",
+      "wikidataLabel": "Hidetsugu Yagi",
+      "birthDate": "1886-01-28",
+      "verifiedAt": "2026-10-08",
+      "lifeStatus": "deceased",
+      "deathDate": "1976-01-19",
+      "deathDatePrecision": "day",
+      "deathDateSourceIds": [
+        "yagi-ndl-death"
+      ],
+      "statusSourceId": "yagi-ndl-death",
+      "dobSourceIds": [
+        "yagi-ndl-dob",
+        "yagi-jsf-dob"
+      ],
+      "careerFactIds": [
+        "yagi-graduated-engineering-1909",
+        "yagi-antenna-with-uda-1926"
+      ],
+      "countryCode": "JP",
+      "category": "scientist",
+      "occupation": [
+        "kỹ sư điện"
+      ],
+      "birthplace": "Osaka, Nhật Bản",
+      "birthplaceEvidencePhrase": "八木秀次は、1886（明治19）年１月28日に大阪府で生まれました",
+      "fields": [
+        "technology-engineering",
+        "science-research"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "technology-engineering",
+          "careerFactIds": [
+            "yagi-graduated-engineering-1909",
+            "yagi-antenna-with-uda-1926"
+          ],
+          "rationale": "Yagi được ghi nhận là kỹ sư viễn thông, tốt nghiệp kỹ thuật và phát triển anten định hướng."
+        },
+        {
+          "field": "science-research",
+          "careerFactIds": [
+            "yagi-graduated-engineering-1909",
+            "yagi-antenna-with-uda-1926"
+          ],
+          "rationale": "Hồ sơ NDL ghi quá trình đào tạo kỹ thuật và một đóng góp nghiên cứu có ảnh hưởng rộng."
+        }
+      ],
+      "sourceUrls": [
+        "https://www.wikidata.org/wiki/Q1347561",
+        "https://www.ndl.go.jp/portrait/e/datas/363/",
+        "https://www2.jsf.or.jp/wp-content/uploads/pdf/ab_pu_200801_public.pdf"
+      ],
+      "wikidataCaptureId": "wd-yagi",
+      "identityClaims": {
+        "label": "Hidetsugu Yagi",
+        "p31": [
+          {
+            "rank": "normal",
+            "value": "Q5",
+            "references": 2
+          }
+        ],
+        "p569": [
+          {
+            "rank": "normal",
+            "value": "+1886-01-28T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p570": [
+          {
+            "rank": "normal",
+            "value": "+1976-01-19T00:00:00Z",
+            "precision": 11,
+            "calendar": "Q1985727",
+            "references": 1
+          }
+        ],
+        "p27": [
+          {
+            "rank": "normal",
+            "value": "Q17",
+            "references": 2
+          },
+          {
+            "rank": "normal",
+            "value": "Q188712",
+            "references": 0
+          }
+        ],
+        "p106": [
+          {
+            "rank": "normal",
+            "value": "Q169470",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1622272",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q43845",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q82955",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q205375",
+            "references": 0
+          },
+          {
+            "rank": "normal",
+            "value": "Q1326886",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q901",
+            "references": 1
+          },
+          {
+            "rank": "normal",
+            "value": "Q723682",
+            "references": 1
+          }
+        ],
+        "selectedCountryQid": "Q17",
+        "selectedOccupationQids": [
+          "Q1622272"
+        ]
+      },
+      "after": {
+        "name": "Hidetsugu Yagi",
+        "birthDate": "1886-01-28",
+        "deathDate": "1976-01-19",
+        "deathDatePrecision": "day",
+        "lifeStatus": "deceased",
+        "occupation": [
+          "kỹ sư điện"
+        ],
+        "category": "scientist",
+        "categoryLabel": "Nhà khoa học",
+        "fields": [
+          "technology-engineering",
+          "science-research"
+        ],
+        "countryCode": "JP",
+        "countryName": "Nhật Bản",
+        "countryFlag": "🇯🇵",
+        "birthplace": "Osaka, Nhật Bản",
+        "image": "/people/placeholder.svg",
+        "shortDescription": "Kỹ sư viễn thông Nhật Bản, đồng phát triển anten Yagi–Uda.",
+        "biography": "Hidetsugu Yagi là kỹ sư viễn thông người Nhật Bản. Ông tốt nghiệp Trường Kỹ thuật thuộc Đại học Đế quốc Tokyo năm 1909. Năm 1926, ông cùng Shintaro Uda phát triển anten Yagi–Uda, được sử dụng rộng rãi cho radar và truyền hình.",
+        "highlights": [
+          "Năm 1909, Yagi tốt nghiệp Trường Kỹ thuật thuộc Đại học Đế quốc Tokyo.",
+          "Năm 1926, Yagi cùng Shintaro Uda phát triển anten Yagi–Uda."
+        ],
+        "wikidataId": "Q1347561",
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q1347561",
+          "https://www.ndl.go.jp/portrait/e/datas/363/",
+          "https://www2.jsf.or.jp/wp-content/uploads/pdf/ab_pu_200801_public.pdf"
+        ],
+        "region": "asia",
+        "verifiedAt": "2026-10-08",
+        "deathDateSourceUrls": [
+          "https://www.ndl.go.jp/portrait/e/datas/363/"
+        ]
+      }
+    }
+  ],
+  "careerFacts": [
+    {
+      "id": "mai-national-champion-2011-2013",
+      "profileId": "nguyen-thi-mai-hung",
+      "sourceId": "mai-ttvh-career",
+      "evidencePhrase": "VĐQG năm 2011 và 2013",
+      "displayText": "Mai Hưng giành chức vô địch quốc gia các năm 2011 và 2013."
+    },
+    {
+      "id": "mai-seagames26-standard-gold",
+      "profileId": "nguyen-thi-mai-hung",
+      "sourceId": "mai-ttvh-career",
+      "evidencePhrase": "HCV cờ tiêu chuẩn SEA Games 26",
+      "displayText": "Mai Hưng giành huy chương vàng cờ tiêu chuẩn tại SEA Games 26."
+    },
+    {
+      "id": "pollock-psychic-automatism-influence",
+      "profileId": "jackson-pollock",
+      "sourceId": "pollock-whitney-career",
+      "evidencePhrase": "their model of psychic automatism, a method that employed spontaneous expression and allowed for manifestations of the unconscious, was particularly important to his artistic progression",
+      "displayText": "Whitney ghi nhận kỹ thuật tự động tâm thần của nhóm Siêu thực có ảnh hưởng đặc biệt tới tiến trình nghệ thuật của Pollock."
+    },
+    {
+      "id": "pollock-drip-method-developed-1947",
+      "profileId": "jackson-pollock",
+      "sourceId": "pollock-whitney-career",
+      "evidencePhrase": "In 1947 Pollock developed the innovative method evinced in Number 27",
+      "displayText": "Năm 1947, Pollock phát triển phương pháp nhỏ giọt và rót sơn trực tiếp lên canvas."
+    },
+    {
+      "id": "colette-claudine-published-as-willy-1900",
+      "profileId": "colette",
+      "sourceId": "colette-bnf-career",
+      "evidencePhrase": "Mars 1900 Claudine à l’école est publié sous le nom de Willy.",
+      "displayText": "Tháng 3/1900, Claudine à l’école được xuất bản dưới tên Willy."
+    },
+    {
+      "id": "colette-stage-debut-1906",
+      "profileId": "colette",
+      "sourceId": "colette-bnf-career",
+      "evidencePhrase": "Février 1906 Colette apparaît pour la première fois sur scène dans Le Désir, la Chimère et l’Amour",
+      "displayText": "Tháng 2/1906, Colette lần đầu xuất hiện trên sân khấu trong vở Le Désir, la Chimère et l’Amour."
+    },
+    {
+      "id": "lala-swadeshi-bank-circular-1894",
+      "profileId": "lala-lajpat-rai",
+      "sourceId": "lala-pnb-career",
+      "evidencePhrase": "Lala Lajpat Rai sent round a circular to selected friends insisting on an Indian Joint Stock Bank",
+      "displayText": "Năm 1894, Lala Lajpat Rai vận động bạn bè ủng hộ thành lập ngân hàng cổ phần Ấn Độ trong phong trào Swadeshi."
+    },
+    {
+      "id": "lala-simon-commission-protest-1928",
+      "profileId": "lala-lajpat-rai",
+      "sourceId": "lala-pib-march",
+      "evidencePhrase": "Lajpat Rai led a nonviolent march in protest against it",
+      "displayText": "Ngày 30/10/1928, Rai dẫn đầu cuộc tuần hành bất bạo động phản đối Ủy ban Simon tại Lahore."
+    },
+    {
+      "id": "yagi-graduated-engineering-1909",
+      "profileId": "hidetsugu-yagi",
+      "sourceId": "yagi-ndl-career",
+      "evidencePhrase": "He graduated from the Engineering College of the Imperial University of Tokyo in 1909.",
+      "displayText": "Năm 1909, Yagi tốt nghiệp Trường Kỹ thuật thuộc Đại học Đế quốc Tokyo."
+    },
+    {
+      "id": "yagi-antenna-with-uda-1926",
+      "profileId": "hidetsugu-yagi",
+      "sourceId": "yagi-ndl-career",
+      "evidencePhrase": "He developed the Yagi-Uda antenna together with Shintaro Uda in 1926",
+      "displayText": "Năm 1926, Yagi cùng Shintaro Uda phát triển anten Yagi–Uda."
+    }
+  ],
+  "wikidataReview": {
+    "conflicts": []
+  }
+}

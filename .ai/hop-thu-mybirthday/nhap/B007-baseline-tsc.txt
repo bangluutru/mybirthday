@@ -1,1 +1,0 @@
-Baseline npx tsc --noEmit — passed (exit code 0).
